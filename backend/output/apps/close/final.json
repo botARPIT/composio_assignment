@@ -975,5 +975,23 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "close",
+    "composio_name": "Close",
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "composio_managed_auth": [],
+    "no_auth": false,
+    "tools_count": 6,
+    "triggers_count": 0,
+    "categories": [
+      "crm",
+      "drip emails"
+    ],
+    "app_url": "https://www.close.com/",
+    "logo_url": "https://logos.composio.dev/api/close"
   }
 }

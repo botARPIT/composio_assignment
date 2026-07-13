@@ -647,5 +647,22 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "plain",
+    "composio_name": "Plain",
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "composio_managed_auth": [],
+    "no_auth": false,
+    "tools_count": 22,
+    "triggers_count": 0,
+    "categories": [
+      "customer support"
+    ],
+    "app_url": "https://www.plain.com",
+    "logo_url": "https://logos.composio.dev/api/plain"
   }
 }

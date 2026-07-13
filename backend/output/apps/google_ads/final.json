@@ -620,5 +620,24 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "googleads",
+    "composio_name": "Google Ads",
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "tools_count": 22,
+    "triggers_count": 0,
+    "categories": [
+      "ads & conversion"
+    ],
+    "app_url": "https://composio.dev",
+    "logo_url": "https://logos.composio.dev/api/googleads"
   }
 }

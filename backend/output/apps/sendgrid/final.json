@@ -281,5 +281,23 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "sendgrid",
+    "composio_name": "SendGrid",
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "composio_managed_auth": [],
+    "no_auth": false,
+    "tools_count": 359,
+    "triggers_count": 0,
+    "categories": [
+      "transactional email",
+      "email newsletters"
+    ],
+    "app_url": "https://login.sendgrid.com",
+    "logo_url": "https://logos.composio.dev/api/sendgrid"
   }
 }

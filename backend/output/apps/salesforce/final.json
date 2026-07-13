@@ -2678,5 +2678,26 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "salesforce",
+    "composio_name": "Salesforce",
+    "auth_schemes": [
+      "OAUTH2",
+      "S2S_OAUTH2"
+    ],
+    "composio_managed_auth": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "tools_count": 184,
+    "triggers_count": 7,
+    "categories": [
+      "crm",
+      "contact management"
+    ],
+    "app_url": "https://www.salesforce.com/in/",
+    "logo_url": "https://logos.composio.dev/api/salesforce"
   }
 }

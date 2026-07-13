@@ -329,5 +329,27 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "airtable",
+    "composio_name": "Airtable",
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "composio_managed_auth": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "tools_count": 24,
+    "triggers_count": 6,
+    "categories": [
+      "productivity",
+      "spreadsheets",
+      "databases"
+    ],
+    "app_url": "https://www.airtable.com/",
+    "logo_url": "https://logos.composio.dev/api/airtable"
   }
 }

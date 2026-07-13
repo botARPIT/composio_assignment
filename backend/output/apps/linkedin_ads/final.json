@@ -514,5 +514,23 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "linkedin_ads",
+    "composio_name": "Linkedin Ads",
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth": [],
+    "no_auth": false,
+    "tools_count": 28,
+    "triggers_count": 0,
+    "categories": [
+      "marketing",
+      "ads & conversion"
+    ],
+    "app_url": "https://www.linkedin.com/advertising",
+    "logo_url": "https://logos.composio.dev/api/linkedin_ads"
   }
 }

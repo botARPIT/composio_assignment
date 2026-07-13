@@ -771,5 +771,25 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "slack",
+    "composio_name": "Slack",
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "tools_count": 158,
+    "triggers_count": 9,
+    "categories": [
+      "team chat",
+      "team collaboration"
+    ],
+    "app_url": "https://slack.com/intl/en-in//",
+    "logo_url": "https://logos.composio.dev/api/slack"
   }
 }

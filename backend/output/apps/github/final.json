@@ -1371,5 +1371,24 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "github",
+    "composio_name": "GitHub",
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "tools_count": 871,
+    "triggers_count": 46,
+    "categories": [
+      "developer tools"
+    ],
+    "app_url": "https://github.com/",
+    "logo_url": "https://logos.composio.dev/api/github"
   }
 }

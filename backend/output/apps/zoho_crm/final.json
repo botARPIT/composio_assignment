@@ -771,5 +771,25 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "zoho",
+    "composio_name": "Zoho",
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "tools_count": 57,
+    "triggers_count": 0,
+    "categories": [
+      "crm",
+      "marketing automation"
+    ],
+    "app_url": "https://www.zoho.com",
+    "logo_url": "https://logos.composio.dev/api/zoho"
   }
 }

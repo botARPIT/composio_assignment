@@ -343,5 +343,23 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "brightdata",
+    "composio_name": "Bright Data",
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "composio_managed_auth": [],
+    "no_auth": false,
+    "tools_count": 10,
+    "triggers_count": 0,
+    "categories": [
+      "ai web scraping",
+      "developer tools"
+    ],
+    "app_url": "https://brightdata.com/",
+    "logo_url": "https://logos.composio.dev/api/brightdata"
   }
 }

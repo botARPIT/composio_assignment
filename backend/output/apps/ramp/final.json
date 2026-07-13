@@ -393,5 +393,22 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "ramp",
+    "composio_name": "Ramp",
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth": [],
+    "no_auth": false,
+    "tools_count": 88,
+    "triggers_count": 0,
+    "categories": [
+      "accounting"
+    ],
+    "app_url": "https://ramp.com/",
+    "logo_url": "https://logos.composio.dev/api/ramp"
   }
 }

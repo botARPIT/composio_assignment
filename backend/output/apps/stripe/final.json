@@ -853,5 +853,26 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "stripe",
+    "composio_name": "Stripe",
+    "auth_schemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "composio_managed_auth": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "tools_count": 425,
+    "triggers_count": 7,
+    "categories": [
+      "payment processing",
+      "ecommerce"
+    ],
+    "app_url": "https://stripe.com",
+    "logo_url": "https://logos.composio.dev/api/stripe"
   }
 }

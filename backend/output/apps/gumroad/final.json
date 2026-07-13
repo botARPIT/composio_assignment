@@ -335,5 +335,24 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "gumroad",
+    "composio_name": "Gumroad",
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "tools_count": 7,
+    "triggers_count": 0,
+    "categories": [
+      "ecommerce"
+    ],
+    "app_url": "https://gumroad.com",
+    "logo_url": "https://logos.composio.dev/api/gumroad"
   }
 }

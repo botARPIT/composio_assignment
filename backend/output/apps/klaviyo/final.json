@@ -349,5 +349,24 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "klaviyo",
+    "composio_name": "Klaviyo",
+    "auth_schemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "composio_managed_auth": [],
+    "no_auth": false,
+    "tools_count": 225,
+    "triggers_count": 0,
+    "categories": [
+      "marketing automation",
+      "email newsletters"
+    ],
+    "app_url": "https://www.klaviyo.com/",
+    "logo_url": "https://logos.composio.dev/api/klaviyo"
   }
 }

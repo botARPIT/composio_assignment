@@ -5337,5 +5337,23 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "freshdesk",
+    "composio_name": "Freshdesk",
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "composio_managed_auth": [],
+    "no_auth": false,
+    "tools_count": 178,
+    "triggers_count": 0,
+    "categories": [
+      "crm",
+      "customer support"
+    ],
+    "app_url": "https://www.freshworks.com/",
+    "logo_url": "https://logos.composio.dev/api/freshdesk"
   }
 }

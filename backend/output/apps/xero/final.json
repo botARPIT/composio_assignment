@@ -286,5 +286,22 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "xero",
+    "composio_name": "Xero",
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth": [],
+    "no_auth": false,
+    "tools_count": 53,
+    "triggers_count": 0,
+    "categories": [
+      "accounting"
+    ],
+    "app_url": "https://www.xero.com/",
+    "logo_url": "https://logos.composio.dev/api/xero"
   }
 }

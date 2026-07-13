@@ -327,5 +327,26 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "linear",
+    "composio_name": "Linear",
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "composio_managed_auth": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "tools_count": 46,
+    "triggers_count": 12,
+    "categories": [
+      "project management",
+      "task management"
+    ],
+    "app_url": "https://linear.app",
+    "logo_url": "https://logos.composio.dev/api/linear"
   }
 }

@@ -345,5 +345,25 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "quickbooks",
+    "composio_name": "QuickBooks",
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "tools_count": 114,
+    "triggers_count": 0,
+    "categories": [
+      "accounting",
+      "payment processing"
+    ],
+    "app_url": "https://quickbooks.intuit.com",
+    "logo_url": "https://logos.composio.dev/api/quickbooks"
   }
 }

@@ -344,5 +344,27 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "jira",
+    "composio_name": "Jira",
+    "auth_schemes": [
+      "OAUTH2",
+      "S2S_OAUTH2",
+      "API_KEY"
+    ],
+    "composio_managed_auth": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "tools_count": 97,
+    "triggers_count": 3,
+    "categories": [
+      "project management",
+      "task management"
+    ],
+    "app_url": "https://www.atlassian.com/software/jira",
+    "logo_url": "https://logos.composio.dev/api/jira"
   }
 }

@@ -295,5 +295,23 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "dataforseo",
+    "composio_name": "Dataforseo",
+    "auth_schemes": [
+      "BASIC"
+    ],
+    "composio_managed_auth": [],
+    "no_auth": false,
+    "tools_count": 312,
+    "triggers_count": 0,
+    "categories": [
+      "developer tools",
+      "marketing"
+    ],
+    "app_url": "https://dataforseo.com",
+    "logo_url": "https://logos.composio.dev/api/dataforseo"
   }
 }

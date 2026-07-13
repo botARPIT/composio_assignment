@@ -307,5 +307,26 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "supabase",
+    "composio_name": "Supabase",
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "composio_managed_auth": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "tools_count": 124,
+    "triggers_count": 0,
+    "categories": [
+      "developer tools",
+      "databases"
+    ],
+    "app_url": "https://supabase.com",
+    "logo_url": "https://logos.composio.dev/api/supabase"
   }
 }

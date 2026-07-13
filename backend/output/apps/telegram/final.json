@@ -367,5 +367,23 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "telegram",
+    "composio_name": "Telegram",
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "composio_managed_auth": [],
+    "no_auth": false,
+    "tools_count": 18,
+    "triggers_count": 0,
+    "categories": [
+      "team chat",
+      "notifications"
+    ],
+    "app_url": "https://telegram.org/",
+    "logo_url": "https://logos.composio.dev/api/telegram"
   }
 }

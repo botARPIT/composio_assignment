@@ -83,6 +83,7 @@ def _generate_app_pages(results: list[ResearchResult], env: Environment) -> None
             final_status=result.final_status,
             human_verified=result.human_verified,
             result=result,
+            composio=result.composio_enrichment,
         )
         app_out = apps_dir / slug
         app_out.mkdir(parents=True, exist_ok=True)

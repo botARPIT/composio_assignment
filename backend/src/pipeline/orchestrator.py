@@ -38,6 +38,8 @@ from src.pipeline.collector import collect_evidence
 from src.pipeline.extraction import extract_from_evidence, batch_extract_from_evidence
 from src.pipeline.validator import validate_extraction
 from src.pipeline.browser_verify import verify_with_browser
+from src.pipeline.composio_enricher import ComposioEnricher
+from models.result import ComposioEnrichment
 
 console = Console()
 
@@ -227,6 +229,37 @@ async def process_single_app(app: AppMetadata) -> ResearchResult:
             )
         else:
             result.final_status = "AUTO_ACCEPTED"
+
+    # Stage 7: Composio Marketplace Enrichment
+    # Query Composio's own API to cross-reference our extracted data.
+    settings = get_settings()
+    if settings.composio_api_key:
+        try:
+            enricher = ComposioEnricher(api_key=settings.composio_api_key)
+            record = enricher.enrich(result.app.name)
+            result.composio_enrichment = ComposioEnrichment(
+                in_marketplace=record.in_marketplace,
+                composio_slug=record.composio_slug,
+                composio_name=record.composio_name,
+                auth_schemes=record.auth_schemes,
+                composio_managed_auth=record.composio_managed_auth,
+                no_auth=record.no_auth,
+                tools_count=record.tools_count,
+                triggers_count=record.triggers_count,
+                categories=record.categories,
+                app_url=record.app_url,
+                logo_url=record.logo_url,
+            )
+            status_icon = "✓" if record.in_marketplace else "–"
+            console.print(
+                f"  [cyan]7/7 Composio[/cyan] {status_icon} "
+                f"{'in marketplace' if record.in_marketplace else 'not in marketplace'}"
+                + (f" ({record.tools_count} tools)" if record.in_marketplace else "")
+            )
+        except Exception as exc:  # noqa: BLE001
+            console.print(f"  [dim]Composio enrichment skipped: {exc}[/dim]")
+    else:
+        console.print("  [dim]7/7 Composio — skipped (no API key)[/dim]")
 
     # Persist
     _save_result(result)
@@ -430,6 +463,16 @@ async def _run_batch_in_batches(
                 )
 
         # Stage 4+5: Validation + Browser Verification per app
+        # Load Composio catalog once for this batch (shared across apps)
+        _composio_enricher: ComposioEnricher | None = None
+        _composio_settings = get_settings()
+        if _composio_settings.composio_api_key:
+            try:
+                _composio_enricher = ComposioEnricher(api_key=_composio_settings.composio_api_key)
+                _composio_enricher._load_catalog()  # pre-warm catalog
+            except Exception:
+                _composio_enricher = None
+
         for result in batch_results:
             if not result.extraction or not result.evidence:
                 if not result.evidence:
@@ -471,6 +514,26 @@ async def _run_batch_in_batches(
                 result.final_status = "PENDING_REVIEW"
             else:
                 result.final_status = "AUTO_ACCEPTED"
+
+            # Stage 7: Composio Marketplace Enrichment (shared catalog)
+            if _composio_enricher is not None:
+                try:
+                    record = _composio_enricher.enrich(result.app.name)
+                    result.composio_enrichment = ComposioEnrichment(
+                        in_marketplace=record.in_marketplace,
+                        composio_slug=record.composio_slug,
+                        composio_name=record.composio_name,
+                        auth_schemes=record.auth_schemes,
+                        composio_managed_auth=record.composio_managed_auth,
+                        no_auth=record.no_auth,
+                        tools_count=record.tools_count,
+                        triggers_count=record.triggers_count,
+                        categories=record.categories,
+                        app_url=record.app_url,
+                        logo_url=record.logo_url,
+                    )
+                except Exception:  # noqa: BLE001
+                    pass
 
             _save_result(result)
             results.append(result)

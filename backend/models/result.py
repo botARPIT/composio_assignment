@@ -13,6 +13,52 @@ from models.extraction import Extraction
 from models.validation import ValidationSummary
 
 
+class ComposioEnrichment(BaseModel):
+    """Ground-truth data from the Composio marketplace API.
+
+    Added as an enrichment stage after extraction/validation so that the
+    pipeline-derived values can be directly compared against what Composio
+    already knows about the app.
+    """
+
+    in_marketplace: bool = Field(
+        default=False,
+        description="Whether this app has an official Composio integration",
+    )
+    composio_slug: str | None = Field(
+        default=None, description="Composio toolkit slug (e.g. 'github')"
+    )
+    composio_name: str | None = Field(
+        default=None, description="Display name in Composio marketplace"
+    )
+    auth_schemes: list[str] = Field(
+        default_factory=list,
+        description="Auth schemes supported by Composio for this app (e.g. OAUTH2, API_KEY)",
+    )
+    composio_managed_auth: list[str] = Field(
+        default_factory=list,
+        description="Auth schemes where Composio manages the token lifecycle",
+    )
+    no_auth: bool = Field(
+        default=False, description="True if the app requires no authentication"
+    )
+    tools_count: int = Field(
+        default=0, description="Number of tools/actions available in Composio"
+    )
+    triggers_count: int = Field(
+        default=0, description="Number of triggers available in Composio"
+    )
+    categories: list[str] = Field(
+        default_factory=list, description="Marketplace categories for this app"
+    )
+    app_url: str | None = Field(
+        default=None, description="Canonical app URL from Composio"
+    )
+    logo_url: str | None = Field(
+        default=None, description="Logo URL from Composio CDN"
+    )
+
+
 class BrowserVerification(BaseModel):
     """Result of Playwright-based verification for disputed fields."""
 
@@ -94,6 +140,10 @@ class ResearchResult(BaseModel):
     human_review: HumanReview = Field(
         default_factory=HumanReview,
         description="Human review record (always present, check .required)",
+    )
+    composio_enrichment: ComposioEnrichment | None = Field(
+        default=None,
+        description="Ground-truth data from the Composio marketplace API",
     )
 
     @model_validator(mode="before")

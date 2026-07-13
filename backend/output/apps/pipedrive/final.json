@@ -626,5 +626,24 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "pipedrive",
+    "composio_name": "Pipedrive",
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "composio_managed_auth": [],
+    "no_auth": false,
+    "tools_count": 399,
+    "triggers_count": 3,
+    "categories": [
+      "crm",
+      "sales & crm"
+    ],
+    "app_url": "https://www.pipedrive.com/",
+    "logo_url": "https://logos.composio.dev/api/pipedrive"
   }
 }

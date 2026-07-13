@@ -395,5 +395,24 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "metaads",
+    "composio_name": "Meta Ads",
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "composio_managed_auth": [],
+    "no_auth": false,
+    "tools_count": 50,
+    "triggers_count": 0,
+    "categories": [
+      "ads & conversion",
+      "social media marketing"
+    ],
+    "app_url": "https://business.meta.com/",
+    "logo_url": "https://logos.composio.dev/api/metaads"
   }
 }

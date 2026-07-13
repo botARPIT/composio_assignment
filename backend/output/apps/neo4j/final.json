@@ -1361,5 +1361,25 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "neo4j",
+    "composio_name": "Neo4J",
+    "auth_schemes": [
+      "OAUTH2",
+      "BASIC",
+      "API_KEY",
+      "S2S_OAUTH2"
+    ],
+    "composio_managed_auth": [],
+    "no_auth": false,
+    "tools_count": 21,
+    "triggers_count": 0,
+    "categories": [
+      "developer tools"
+    ],
+    "app_url": "https://neo4j.com",
+    "logo_url": "https://logos.composio.dev/api/neo4j"
   }
 }

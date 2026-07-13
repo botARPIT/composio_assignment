@@ -2963,5 +2963,25 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "mailchimp",
+    "composio_name": "Mailchimp",
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "tools_count": 272,
+    "triggers_count": 4,
+    "categories": [
+      "email newsletters",
+      "marketing automation"
+    ],
+    "app_url": "https://mailchimp.com/",
+    "logo_url": "https://logos.composio.dev/api/mailchimp"
   }
 }

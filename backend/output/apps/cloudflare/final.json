@@ -2167,5 +2167,23 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "cloudflare",
+    "composio_name": "Cloudflare",
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "composio_managed_auth": [],
+    "no_auth": false,
+    "tools_count": 20,
+    "triggers_count": 0,
+    "categories": [
+      "security & identity tools",
+      "developer tools"
+    ],
+    "app_url": "https://dash.cloudflare.com/sign-up",
+    "logo_url": "https://logos.composio.dev/api/cloudflare"
   }
 }

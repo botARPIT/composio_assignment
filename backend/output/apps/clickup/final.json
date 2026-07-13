@@ -428,5 +428,27 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "clickup",
+    "composio_name": "ClickUp",
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "composio_managed_auth": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "tools_count": 162,
+    "triggers_count": 21,
+    "categories": [
+      "productivity",
+      "project management",
+      "task management"
+    ],
+    "app_url": "https://clickup.com",
+    "logo_url": "https://logos.composio.dev/api/clickup"
   }
 }

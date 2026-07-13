@@ -1591,5 +1591,24 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "attio",
+    "composio_name": "Attio",
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "tools_count": 99,
+    "triggers_count": 0,
+    "categories": [
+      "crm"
+    ],
+    "app_url": "https://attio.com",
+    "logo_url": "https://logos.composio.dev/api/attio"
   }
 }

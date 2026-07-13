@@ -214,5 +214,25 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "harvest",
+    "composio_name": "Harvest",
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "tools_count": 57,
+    "triggers_count": 0,
+    "categories": [
+      "time tracking software",
+      "proposal & invoice management"
+    ],
+    "app_url": "https://www.getharvest.com/",
+    "logo_url": "https://logos.composio.dev/api/harvest"
   }
 }

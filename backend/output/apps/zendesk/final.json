@@ -866,5 +866,25 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "zendesk",
+    "composio_name": "Zendesk",
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "tools_count": 452,
+    "triggers_count": 2,
+    "categories": [
+      "crm",
+      "customer support"
+    ],
+    "app_url": "https://www.zendesk.com/",
+    "logo_url": "https://logos.composio.dev/api/zendesk"
   }
 }

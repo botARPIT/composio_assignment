@@ -313,5 +313,25 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "asana",
+    "composio_name": "Asana",
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "tools_count": 153,
+    "triggers_count": 6,
+    "categories": [
+      "project management",
+      "task management"
+    ],
+    "app_url": "https://asana.com/",
+    "logo_url": "https://logos.composio.dev/api/asana"
   }
 }

@@ -641,5 +641,26 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "whatsapp",
+    "composio_name": "WhatsApp",
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "composio_managed_auth": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "tools_count": 57,
+    "triggers_count": 1,
+    "categories": [
+      "phone & sms",
+      "communication"
+    ],
+    "app_url": "https://web.whatsapp.com/",
+    "logo_url": "https://logos.composio.dev/api/whatsapp"
   }
 }

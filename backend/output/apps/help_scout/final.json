@@ -672,5 +672,23 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "help_scout",
+    "composio_name": "Help Scout",
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth": [],
+    "no_auth": false,
+    "tools_count": 129,
+    "triggers_count": 0,
+    "categories": [
+      "customer support",
+      "communication"
+    ],
+    "app_url": "https://www.helpscout.com",
+    "logo_url": "https://logos.composio.dev/api/help_scout"
   }
 }

@@ -533,5 +533,26 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "gorgias",
+    "composio_name": "Gorgias",
+    "auth_schemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "composio_managed_auth": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "tools_count": 32,
+    "triggers_count": 0,
+    "categories": [
+      "crm",
+      "customer support"
+    ],
+    "app_url": "https://www.gorgias.com",
+    "logo_url": "https://logos.composio.dev/api/gorgias"
   }
 }

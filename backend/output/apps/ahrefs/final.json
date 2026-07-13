@@ -1790,5 +1790,23 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "ahrefs",
+    "composio_name": "Ahrefs",
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "composio_managed_auth": [],
+    "no_auth": false,
+    "tools_count": 40,
+    "triggers_count": 0,
+    "categories": [
+      "marketing automation",
+      "analytics"
+    ],
+    "app_url": "https://ahrefs.com/",
+    "logo_url": "https://logos.composio.dev/api/ahrefs"
   }
 }

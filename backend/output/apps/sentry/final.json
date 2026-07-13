@@ -1372,5 +1372,25 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "sentry",
+    "composio_name": "Sentry",
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "tools_count": 209,
+    "triggers_count": 0,
+    "categories": [
+      "developer tools",
+      "server monitoring"
+    ],
+    "app_url": "https://sentry.io/welcome/",
+    "logo_url": "https://logos.composio.dev/api/sentry"
   }
 }

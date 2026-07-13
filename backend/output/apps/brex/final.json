@@ -905,5 +905,23 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "brex",
+    "composio_name": "Brex",
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "composio_managed_auth": [],
+    "no_auth": false,
+    "tools_count": 84,
+    "triggers_count": 0,
+    "categories": [
+      "accounting"
+    ],
+    "app_url": "https://www.brex.com/",
+    "logo_url": "https://logos.composio.dev/api/brex"
   }
 }

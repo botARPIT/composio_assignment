@@ -661,5 +661,23 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "firecrawl",
+    "composio_name": "Firecrawl",
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "composio_managed_auth": [],
+    "no_auth": false,
+    "tools_count": 29,
+    "triggers_count": 0,
+    "categories": [
+      "ai web scraping",
+      "developer tools"
+    ],
+    "app_url": "https://www.firecrawl.dev/",
+    "logo_url": "https://logos.composio.dev/api/firecrawl"
   }
 }

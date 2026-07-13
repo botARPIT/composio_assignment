@@ -954,5 +954,25 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "discord",
+    "composio_name": "Discord",
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "tools_count": 27,
+    "triggers_count": 1,
+    "categories": [
+      "team chat",
+      "team collaboration"
+    ],
+    "app_url": "https://composio.dev",
+    "logo_url": "https://logos.composio.dev/api/discord"
   }
 }

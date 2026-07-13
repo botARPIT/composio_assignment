@@ -283,5 +283,18 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": false,
+    "composio_slug": null,
+    "composio_name": null,
+    "auth_schemes": [],
+    "composio_managed_auth": [],
+    "no_auth": false,
+    "tools_count": 0,
+    "triggers_count": 0,
+    "categories": [],
+    "app_url": null,
+    "logo_url": null
   }
 }

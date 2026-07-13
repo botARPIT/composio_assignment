@@ -486,5 +486,24 @@
     "reviewed_at": null,
     "overrides": {},
     "notes": ""
+  },
+  "composio_enrichment": {
+    "in_marketplace": true,
+    "composio_slug": "shopify",
+    "composio_name": "Shopify",
+    "auth_schemes": [
+      "API_KEY",
+      "OAUTH2",
+      "S2S_OAUTH2"
+    ],
+    "composio_managed_auth": [],
+    "no_auth": false,
+    "tools_count": 315,
+    "triggers_count": 0,
+    "categories": [
+      "ecommerce"
+    ],
+    "app_url": "https://www.shopify.com",
+    "logo_url": "https://logos.composio.dev/api/shopify"
   }
 }
