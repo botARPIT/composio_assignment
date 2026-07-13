@@ -1,0 +1,2 @@
+name,website,category_hint,confidence,validation_status,evidence_count,description,category,auth_methods,self_serve,api_surface,api_breadth,mcp,buildability,blocker,access_model
+TestApp,test.com,Testing,0.88,SUPPORTED,0,A test app,Testing,OAuth2,Self-serve (free tier),REST API,Moderate,No known MCP,HIGH,None,Self-Serve
