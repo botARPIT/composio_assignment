@@ -38,7 +38,7 @@ flowchart TD
 
     subgraph Stage4["Stage 4 · Validation"]
         J[Deterministic Python\nno LLM reasoning here]
-        J --> K{Score ≥ 0.90?}
+        J --> K{Score >= 0.90?}
         K -->|Yes| L[AUTO_ACCEPTED]
         K -->|No| M[PENDING_REVIEW]
     end
@@ -62,17 +62,42 @@ flowchart TD
         T --> U
     end
 
-    U --> V
-    Q --> V
-    L --> V
+    U --> CE
+    Q --> CE
+    L --> CE
+
+    subgraph Stage7["Stage 7 · Composio Enrichment"]
+        CE[Composio API\nclient.toolkits.get\n1000-app catalog cached once]
+        CE --> CF{App in\nmarketplace?}
+        CF -->|Yes| CG[auth_schemes · tools_count\ntriggers_count · composio_slug]
+        CF -->|No| CH[in_marketplace: false]
+    end
+
+    CG --> V
+    CH --> V
 
     subgraph Output["Output"]
-        V[final.json\nfull audit trail per app]
+        V[final.json\nfull audit trail + composio enrichment]
         V --> W[case_study.html\ninteractive dashboard]
-        V --> X[apps/slug/index.html\nper-app detail page]
-        V --> Y[research_data.csv\n100 rows × 16 columns]
+        V --> X["apps/slug/index.html\nper-app detail page with Composio section"]
+        V --> Y[research_data.csv\n100 rows x 16 columns]
     end
 ```
+
+### Stage-by-Stage Data Flow
+
+| Stage | Input | Output | Key fields |
+|-------|-------|--------|------------|
+| **1 · Discovery** | `app.name`, `app.domain` | `DocumentationMap` | `api_reference_url`, `authentication_url`, `sdk_url`, `webhook_url`, `mcp_url` |
+| **2 · Collection** | `DocumentationMap` | `list[Evidence]` | `chunk_text`, `source_url`, `evidence_id`, `quality_score` |
+| **3 · Extraction** | `list[Evidence]` | `Extraction` | `auth_methods`, `self_serve`, `api_surface`, `mcp_support`, `buildability`, `description` |
+| **4 · Validation** | `Extraction` + `Evidence` | `ValidationSummary` | `score`, `fields_checked`, `needs_verification`, `status` |
+| **5 · Browser Verify** | `ResearchResult` | `BrowserVerification` | `corrections`, `verified_fields`, `screenshots` |
+| **6 · Human QA** | `ResearchResult` | `HumanReview` | `overrides`, `reviewer`, `reviewed_at`, `final_status` |
+| **7 · Composio API** | `app.name` | `ComposioEnrichment` | `in_marketplace`, `auth_schemes`, `tools_count`, `triggers_count`, `composio_slug` |
+| **Output** | All stages | `final.json` | Immutable record of all 7 stage outputs per app |
+
+> **Stage 7 cross-references** pipeline-extracted values against Composio's own marketplace API — providing ground-truth auth schemes and integration data to validate the LLM extraction. **53/100 apps** are officially integrated in the Composio marketplace.
 
 ### Evidence Priority Chain
 
