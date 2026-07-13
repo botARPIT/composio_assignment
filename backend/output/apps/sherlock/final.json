@@ -1,0 +1,1497 @@
+{
+  "app": {
+    "id": 58,
+    "name": "Sherlock",
+    "website": "github.com/sherlock-project/sherlock",
+    "category_hint": "Data SEO and Scraping"
+  },
+  "documentation_map": {
+    "app_name": "Sherlock",
+    "official_domain": "github.com",
+    "homepage": {
+      "url": "https://github.com/sherlock-project/sherlock",
+      "title": "Sherlock",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://docs.github.com/en/authentication/connecting-to-github-with-ssh",
+        "title": "Connect with SSH",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account",
+          "title": "Add a new SSH key",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys",
+          "title": "Check for existing SSH key",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent",
+          "title": "Generate new SSH key",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://docs.github.com/api/pagelist/versions",
+        "title": "Versions API",
+        "confidence": 1.0,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://docs.github.com/api/pagelist/languages",
+          "title": "Languages API",
+          "confidence": 1.0,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.github.com/api/article",
+          "title": "Article API",
+          "confidence": 1.0,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.github.com/api/article/body",
+          "title": "Article Body API",
+          "confidence": 1.0,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://docs.github.com/en/copilot/get-started/plans",
+        "title": "Plans",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://github.com/mcp",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://docs.github.com/en/github-cli/github-cli",
+        "title": "GitHub CLI",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://docs.github.com/en/rest",
+          "title": "REST API",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.github.com/en/actions",
+          "title": "GitHub Actions",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.github.com/en/copilot",
+          "title": "GitHub Copilot",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "webhooks": null,
+    "llms_txt": {
+      "url": "https://github.com/llms.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "Sherlock",
+      "official_domain": "github.com",
+      "items": [
+        {
+          "url": "https://github.com/sherlock-project/sherlock",
+          "page_type": "homepage",
+          "title": "Sherlock",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/api/pagelist/versions",
+          "page_type": "api_reference",
+          "title": "Versions API",
+          "confidence": 1.0,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/api/pagelist/languages",
+          "page_type": "api_reference",
+          "title": "Languages API",
+          "confidence": 1.0,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/api/pagelist/en/free-pro-team@latest",
+          "page_type": "api_reference",
+          "title": "Page List API",
+          "confidence": 1.0,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/api/article",
+          "page_type": "api_reference",
+          "title": "Article API",
+          "confidence": 1.0,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/api/article/body",
+          "page_type": "api_reference",
+          "title": "Article Body API",
+          "confidence": 1.0,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/api/search/v1",
+          "page_type": "api_reference",
+          "title": "Search API",
+          "confidence": 1.0,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/copilot/concepts/agents/cloud-agent/about-cloud-agent",
+          "page_type": "developer_portal",
+          "title": "About cloud agent",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/github-cli/github-cli",
+          "page_type": "developer_portal",
+          "title": "GitHub CLI",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/github-cli/github-cli/quickstart",
+          "page_type": "developer_portal",
+          "title": "Quickstart",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/rest",
+          "page_type": "developer_portal",
+          "title": "REST API",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/graphql",
+          "page_type": "api_reference",
+          "title": "GraphQL API",
+          "confidence": 1.0,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/actions",
+          "page_type": "developer_portal",
+          "title": "GitHub Actions",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/copilot",
+          "page_type": "developer_portal",
+          "title": "GitHub Copilot",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/copilot/concepts/billing/copilot-requests",
+          "page_type": "developer_portal",
+          "title": "Copilot requests",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/copilot/concepts/billing/individual-plans",
+          "page_type": "developer_portal",
+          "title": "Individual plans",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/copilot/concepts/billing/usage-based-billing-for-individuals",
+          "page_type": "developer_portal",
+          "title": "Usage-based billing for individuals",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/copilot/concepts/billing/usage-based-billing-for-organizations-and-enterprises",
+          "page_type": "developer_portal",
+          "title": "Usage-based billing for organizations and enterprises",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/copilot/concepts/usage-limits",
+          "page_type": "developer_portal",
+          "title": "Usage limits",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/copilot/get-started/features",
+          "page_type": "developer_portal",
+          "title": "Features",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/copilot/get-started/plans",
+          "page_type": "pricing",
+          "title": "Plans",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/copilot/get-started/quickstart",
+          "page_type": "developer_portal",
+          "title": "Quickstart",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/copilot/get-started/what-is-github-copilot",
+          "page_type": "developer_portal",
+          "title": "What is GitHub Copilot?",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/copilot/reference/ai-models/supported-models",
+          "page_type": "api_reference",
+          "title": "Supported models",
+          "confidence": 1.0,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/copilot/reference/copilot-billing/models-and-pricing",
+          "page_type": "api_reference",
+          "title": "Models and pricing",
+          "confidence": 1.0,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/get-started",
+          "page_type": "developer_portal",
+          "title": "Get started",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/get-started/git-basics/about-remote-repositories",
+          "page_type": "developer_portal",
+          "title": "About remote repositories",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/get-started/git-basics/ignoring-files",
+          "page_type": "developer_portal",
+          "title": "Ignoring files",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/get-started/git-basics/managing-remote-repositories",
+          "page_type": "developer_portal",
+          "title": "Manage remote repositories",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/get-started/git-basics/set-up-git",
+          "page_type": "developer_portal",
+          "title": "Set up Git",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/get-started/learning-about-github/githubs-plans",
+          "page_type": "developer_portal",
+          "title": "GitHub's plans",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/get-started/learning-about-github/types-of-github-accounts",
+          "page_type": "developer_portal",
+          "title": "Types of GitHub accounts",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/get-started/start-your-journey",
+          "page_type": "developer_portal",
+          "title": "Start your journey",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/get-started/start-your-journey/about-github-and-git",
+          "page_type": "developer_portal",
+          "title": "About GitHub and Git",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github",
+          "page_type": "developer_portal",
+          "title": "Create an account",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/get-started/start-your-journey/downloading-files-from-github",
+          "page_type": "developer_portal",
+          "title": "Download files",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/get-started/start-your-journey/hello-world",
+          "page_type": "developer_portal",
+          "title": "Hello World",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/get-started/using-github-docs/about-versions-of-github-docs",
+          "page_type": "developer_portal",
+          "title": "Docs versions",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/get-started/using-github/troubleshooting-connectivity-problems",
+          "page_type": "developer_portal",
+          "title": "Connectivity problems",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax",
+          "page_type": "developer_portal",
+          "title": "Basic formatting syntax",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/authentication/connecting-to-github-with-ssh",
+          "page_type": "authentication",
+          "title": "Connect with SSH",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account",
+          "page_type": "authentication",
+          "title": "Add a new SSH key",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys",
+          "page_type": "authentication",
+          "title": "Check for existing SSH key",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent",
+          "page_type": "authentication",
+          "title": "Generate new SSH key",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/authentication/connecting-to-github-with-ssh/managing-deploy-keys",
+          "page_type": "authentication",
+          "title": "Managing deploy keys",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection",
+          "page_type": "authentication",
+          "title": "Test your SSH connection",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github",
+          "page_type": "authentication",
+          "title": "Authentication to GitHub",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens",
+          "page_type": "authentication",
+          "title": "Manage personal access tokens",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/authentication/managing-commit-signature-verification/displaying-verification-statuses-for-all-of-your-commits",
+          "page_type": "authentication",
+          "title": "Displaying verification for all commits",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication",
+          "page_type": "authentication",
+          "title": "Configure 2FA",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication-recovery-methods",
+          "page_type": "authentication",
+          "title": "Configure 2FA recovery",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/recovering-your-account-if-you-lose-your-2fa-credentials",
+          "page_type": "authentication",
+          "title": "Recover an account with 2FA",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/pages",
+          "page_type": "developer_portal",
+          "title": "GitHub Pages",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site",
+          "page_type": "developer_portal",
+          "title": "Configure a custom domain",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages",
+          "page_type": "developer_portal",
+          "title": "Custom domains in GitHub Pages",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site",
+          "page_type": "developer_portal",
+          "title": "Manage a custom domain",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site",
+          "page_type": "developer_portal",
+          "title": "Configure publishing source",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site",
+          "page_type": "developer_portal",
+          "title": "Create a GitHub Pages site",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages",
+          "page_type": "developer_portal",
+          "title": "What is GitHub Pages?",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/pages/quickstart",
+          "page_type": "developer_portal",
+          "title": "Quickstart",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll",
+          "page_type": "developer_portal",
+          "title": "Add theme to Pages site",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll",
+          "page_type": "developer_portal",
+          "title": "Add content to Pages site",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/account-and-profile",
+          "page_type": "developer_portal",
+          "title": "Account and profile",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/account-and-profile/concepts/username-changes",
+          "page_type": "developer_portal",
+          "title": "Username changes",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets",
+          "page_type": "developer_portal",
+          "title": "About rulesets",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories",
+          "page_type": "developer_portal",
+          "title": "About repositories",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository",
+          "page_type": "developer_portal",
+          "title": "Cloning a repository",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories",
+          "page_type": "developer_portal",
+          "title": "Quickstart for repositories",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes",
+          "page_type": "developer_portal",
+          "title": "About READMEs",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository",
+          "page_type": "developer_portal",
+          "title": "Licensing a repository",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases",
+          "page_type": "developer_portal",
+          "title": "About releases",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/apps/creating-github-apps/about-creating-github-apps/about-creating-github-apps",
+          "page_type": "developer_portal",
+          "title": "About creating apps",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/apps/creating-github-apps/writing-code-for-a-github-app",
+          "page_type": "developer_portal",
+          "title": "Writing code for a GitHub App",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/apps/maintaining-github-apps",
+          "page_type": "developer_portal",
+          "title": "Maintaining GitHub Apps",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/apps/oauth-apps/using-oauth-apps/authorizing-oauth-apps",
+          "page_type": "authentication",
+          "title": "Authorizing OAuth apps",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.github.com/en/apps/using-github-apps/authorizing-github-apps",
+          "page_type": "authentication",
+          "title": "Authorize",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://github.com/mcp",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 1,
+        "urls_discovered": 77,
+        "official_urls": 77,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 6
+      }
+    },
+    "stats": {
+      "queries": 1,
+      "urls_discovered": 77,
+      "official_urls": 77,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 6
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_56937c7fd787",
+      "source_type": "pricing_page",
+      "url": "https://docs.github.com/en/copilot/get-started/plans",
+      "domain": "docs.github.com",
+      "page_title": "Plans for GitHub Copilot - GitHub Docs",
+      "content": "Important\nStarting April 22, 2026, new self-serve sign-ups for Copilot Business for organizations on GitHub Free and GitHub Team plans are temporarily paused.\nGitHub offers several plans for GitHub Copilot, depending on your needs and whether you're using Copilot as an individual or as part of an organization or enterprise.\n- \nGitHub Copilot Free is available to individual developers who don't have access to Copilot through an organization or enterprise. This free plan includes limited access to a selection of Copilot features and models available through auto model selection only, allowing you to try AI-powered coding assistance at no cost. \n- \nGitHub Copilot Student is available to verified students. The plan includes unlimited code completions and an allowance of GitHub AI Credits, plus limited chat and agent usage with models available through auto model selection only. \n- \nGitHub Copilot Pro is designed for individuals who want more flexibility. This paid plan includes unlimited completions, access to a selection of models, Copilot cloud agent, and a monthly allowance of AI credits. Verified teachers, and maintainers of popular open source projects may be eligible for free access. \n- \nGitHub Copilot Pro+ includes, in addition to everything in Copilot Pro, a higher monthly allowance of AI credits, and access to premium models. Ideal for AI power users who want access to the most advanced capabilities. \n- \nGitHub Copilot Max is designed for high-volume Copilot users. This paid plan includes, in addition to everything in Copilot Pro+, our highest individual monthly allowance of AI credits, and priority access to new models and features. Ideal for sustained, high-volume AI power users who want access to the most AI credits available to them. \n- \nGitHub Copilot Business is for organizations on GitHub Free or GitHub Team plan, or enterprises on GitHub Enterprise Cloud. This plan includes Copilot cloud agent, access to a broad model catalog, a monthly pool of AI credits, and enables centralized management and Copilot policy control for organization members. \n- \nGitHub Copilot Enterprise is for enterprises using GitHub Enterprise Cloud. It includes all the features of Copilot Business, priority access to new models and features, a larger monthly pool of AI credits, plus additional enterprise-grade capabilities. Enterprise owners can assign Copilot Enterprise or Copilot Business to individual organizations, or assign Copilot Business directly to users and teams. \nCopilot is not currently available for GitHub Enterprise Server.\nComparing Copilot plans\nThe tables below show the features available in each Copilot plan.\nPricing\n| Copilot Free | Copilot Student | Copilot Pro | Copilot Pro+ | Copilot Max | Copilot Business | Copilot Enterprise | |\n|---|---|---|---|---|---|---|---|\n| Pricing | Not applicable | Free | $10 USD per month (free for some users) | $39 USD per month | $100 USD per month | $19 USD per granted seat per month | $39 USD per granted seat per month | \nEach plan comes with an allowance of GitHub AI Credits. For more information, including how GitHub AI Credits work, see Usage-based billing for individuals and Usage-based billing for organizations and enterprises.\nAgents\n| Agents | Copilot Free | Copilot Student | Copilot Pro | Copilot Pro+ | Copilot Max | Copilot Business | Copilot Enterprise | \n|---|---|---|---|---|---|---|---|\n| Copilot cloud agent | |||||||\n| Agent mode | |||||||\n| Copilot code review | Only \"Review selection\" in VS Code | ||||||\n| Model Context Protocol (MCP) | |||||||\n| Third-party Agents (public preview) | \nChat\n| Chat | Copilot Free | Copilot Student | Copilot Pro | Copilot Pro+ | Copilot Max | Copilot Business | Copilot Enterprise | \n|---|---|---|---|---|---|---|---|\n| Copilot Chat in IDEs1 2 | |||||||\n| Inline chat | |||||||\n| Slash commands | |||||||\n| Copilot Chat in GitHub Mobile | |||||||\n| Copilot Chat in GitHub | |||||||\n| Copilot Chat in Windows Terminal | |||||||\n| Increased GitHub Models rate limits2 | |||||||\n| Copilot Chat skills in IDEs3 | \nModels\nNote\nCopilot Student and Copilot Free users have access to models through auto model selection only.\n| Available models | Copilot Pro | Copilot Pro+ | Copilot Max | Copilot Business | Copilot Enterprise | \n|---|---|---|---|---|---|\n| Claude Haiku 4.5 | |||||\n| Claude Opus 4.5 | |||||\n| Claude Opus 4.6 | |||||\n| Claude Opus 4.7 | |||||\n| Claude Opus 4.8 | |||||\n| Claude Opus 4.8 (fast mode) (preview) | |||||\n| Claude Fable 5[^claude-fable-5] | |||||\n| Claude Sonnet 4.5 | |||||\n| Claude Sonnet 4.6 | |||||\n| Claude Sonnet 5 | |||||\n| Gemini 2.5 Pro | |||||\n| Gemini 3 Flash | |||||\n| Gemini 3.1 Pro | |||||\n| Gemini 3.5 Flash | |||||\n| GPT-5 mini | |||||\n| GPT-5.3-Codex | |||||\n| GPT-5.4 | |||||\n| GPT-5.4 mini | |||||\n| GPT-5.4 nano4 | |||||\n| GPT-5.5 | |||||\n| GPT-5.6 Luna | |||||\n| GPT-5.6 Sol | |||||\n| GPT-5.6 Terra | |||||\n| MAI-Code-1-Flash | |||||\n| Raptor mini | |||||\n| Kimi-K2.7-Code | \nInline suggestions\n| Inline suggestions | Copilot Free | Copilot Student | Copilot Pro | Copilot Pro+ | Copilot Max | Copilot Business | Copilot Enterprise | \n|---|---|---|---|---|---|---|---|\n| Real-time code suggestions with included models5 | 2000 completions per month | ||||||\n| Next edit suggestions | \nCustomization\n| Customization | Copilot Free | Copilot Student | Copilot Pro | Copilot Pro+ | Copilot Max | Copilot Business | Copilot Enterprise | \n|---|---|---|---|---|---|---|---|\n| Repository and personal custom instructions | |||||||\n| Organization custom instructions | |||||||\n| Prompt files | |||||||\n| Model Context Protocol (MCP) | |||||||\n| Block suggestions matching public code | |||||||\n| Exclude specified files from Copilot | |||||||\n| Organization-wide policy management | \nOther features\n| Copilot Free | Copilot Student | Copilot Pro | Copilot Pro+ | Copilot Max | Copilot Business | Copilot Enterprise | |\n|---|---|---|---|---|---|---|---|\n| Copilot pull request summaries | |||||||\n| Audit logs | |||||||\n| Content exclusion | |||||||\n| Copilot CLI | |||||||\n| GitHub Spark (public preview) | \nFor more information, see GitHub Copilot features.\nReady to choose a plan?\nStart using Copilot by signing up for the plan that best fits your needs.\nImportant\nStarting April 22, 2026, new self-serve sign-ups for Copilot Business for organizations on GitHub Free and GitHub Team plans are temporarily paused.\n- \nCopilot Free — Try Copilot with limited features and usage. Start using Copilot Free. \n- \nGitHub Copilot Student — Get access to Copilot's features for free. Access GitHub Copilot Student. \n- \nCopilot Pro — Get unlimited completions and access to select models. Subscribe to Copilot Pro. \n- \nCopilot Pro+ — Unlock premium AI models and extra capabilities. Subscribe to Copilot Pro+. \n- \nCopilot Max — Unlock priority access to new AI models and our highest individual monthly allowance of AI credits. Upgrade to Copilot Max. \n- \nCopilot Business — For teams and organizations. Contact Sales. \n- \nCopilot Enterprise — For enterprises that need advanced features and centralized management. Contact Sales. \nFootnotes\n- \nCopilot Chat in IDEs is available in Visual Studio Code, Visual Studio, JetBrains IDEs, Eclipse, and Xcode. ↩ \n- \nCopilot Chat skills in IDEs is available in Visual Studio Code and Visual Studio. ↩ \n- \nGPT-5.4 nano is currently only available in the Codex Visual Studio Code extension (Copilot Pro+ only) and is not available in Copilot Chat. ↩ \n- \nInline suggestions in IDEs is available in Visual Studio Code, Visual Studio, JetBrains IDEs, Azure Data Studio, Xcode, Vim/Neovim, and Eclipse. ↩",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:07:56.062087Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 1905,
+      "quality_score": 0.86
+    },
+    {
+      "id": "ev_99d144830b84",
+      "source_type": "auth_docs",
+      "url": "https://docs.github.com/en/authentication/connecting-to-github-with-ssh",
+      "domain": "docs.github.com",
+      "page_title": "Connecting to GitHub with SSH - GitHub Docs",
+      "content": "Connecting to GitHub with SSH\nYou can connect to GitHub using the Secure Shell Protocol (SSH), which provides a secure channel over an unsecured network.\nSkip to main contentConnecting to GitHub with SSH\nYou can connect to GitHub using the Secure Shell Protocol (SSH), which provides a secure channel over an unsecured network.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:07:54.901053Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 81,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_1d1b8f42911d",
+      "source_type": "official_docs",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "domain": "github.com",
+      "page_title": "GitHub - sherlock-project/sherlock: Hunt down social media accounts by username across social networks · GitHub",
+      "content": "Hunt down social media accounts by username across 400+ social networks\n  \nInstallation • Usage • Contributing\nWarning\nPackages for ParrotOS and Ubuntu 24.04, maintained by a third party, appear to be broken.\nUsers of these systems should defer to uv/pipx/pip or Docker.\n| Method | Notes | \n|---|---|\n| pipx install sherlock-project | piporuvmay be used in place ofpipx | \n| docker run -it --rm sherlock/sherlock | |\n| dnf install sherlock-project | \nCommunity-maintained packages are available for Debian (>= 13), Ubuntu (>= 22.10), Homebrew, Kali, and BlackArch. These packages are not directly supported or maintained by the Sherlock Project.\nSee all alternative installation methods here.\nTo search for only one user:\nsherlock user123To search for more than one user:\nsherlock user1 user2 user3Accounts found will be stored in an individual text file with the corresponding username (e.g user123.txt).\n$ sherlock --help\nusage: sherlock [-h] [--version] [--verbose] [--folderoutput FOLDEROUTPUT] [--output OUTPUT] [--csv] [--xlsx] [--site SITE_NAME] [--proxy PROXY_URL] [--dump-response]\n                [--json JSON_FILE] [--timeout TIMEOUT] [--print-all] [--print-found] [--no-color] [--browse] [--local] [--nsfw] [--txt] [--ignore-exclusions]\n                USERNAMES [USERNAMES ...]\nSherlock: Find Usernames Across Social Networks (Version 0.16.0)\npositional arguments:\n  USERNAMES             One or more usernames to check with social networks. Check similar usernames using {?} (replace to '_', '-', '.').\noptions:\n  -h, --help            show this help message and exit\n  --version             Display version information and dependencies.\n  --verbose, -v, -d, --debug\n                        Display extra debugging information and metrics.\n  --folderoutput FOLDEROUTPUT, -fo FOLDEROUTPUT\n                        If using multiple usernames, the output of the results will be saved to this folder.\n  --output OUTPUT, -o OUTPUT\n                        If using single username, the output of the result will be saved to this file.\n  --csv                 Create Comma-Separated Values (CSV) File.\n  --xlsx                Create the standard file for the modern Microsoft Excel spreadsheet (xlsx).\n  --site SITE_NAME      Limit analysis to just the listed sites. Add multiple options to specify more than one site.\n  --proxy PROXY_URL, -p PROXY_URL\n                        Make requests over a proxy. e.g. socks5://127.0.0.1:1080\n  --dump-response       Dump the HTTP response to stdout for targeted debugging.\n  --json JSON_FILE, -j JSON_FILE\n                        Load data from a JSON file or an online, valid, JSON file. Upstream PR numbers also accepted.\n  --timeout TIMEOUT     Time (in seconds) to wait for response to requests (Default: 60)\n  --print-all           Output sites where the username was not found.\n  --print-found         Output sites where the username was found (also if exported as file).\n  --no-color            Don't color terminal output\n  --browse, -b          Browse to all results on default browser.\n  --local, -l           Force the use of the local data.json file.\n  --nsfw                Include checking of NSFW sites from default list.\n  --txt                 Enable creation of a txt file\n  --ignore-exclusions   Ignore upstream exclusions (may return more false positives)Thank you to everyone who has contributed to Sherlock! ❤️\nMIT © Sherlock Project\nCreator - Siddharth Dushantha",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:07:55.869508Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 858,
+      "quality_score": 0.36
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Hunt down social media accounts by username across 400+ social networks",
+      "evidence_ids": [
+        "ev_1d1b8f42911d"
+      ]
+    },
+    "category": {
+      "value": "Data SEO and Scraping",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_99d144830b84"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_56937c7fd787"
+      ]
+    },
+    "api_surface": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_1d1b8f42911d"
+      ]
+    },
+    "api_breadth": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_1d1b8f42911d"
+      ]
+    },
+    "mcp": {
+      "value": "No known MCP",
+      "evidence_ids": [
+        "ev_56937c7fd787"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_1d1b8f42911d"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_1d1b8f42911d"
+      ]
+    }
+  },
+  "validation": {
+    "status": "UNSUPPORTED",
+    "score": 0.5,
+    "fields_checked": 8,
+    "fields_supported": 4,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "auth_methods",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'auth_methods' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "api_surface",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_surface' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "api_breadth",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_breadth' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": {
+    "verified_fields": [],
+    "corrections": {},
+    "screenshots": [],
+    "notes": ""
+  },
+  "pipeline_confidence": 0.5,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.50 below 0.90 threshold",
+      "Auth methods missing or UNKNOWN"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

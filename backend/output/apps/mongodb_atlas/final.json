@@ -1,0 +1,432 @@
+{
+  "app": {
+    "id": 68,
+    "name": "MongoDB Atlas",
+    "website": "mongodb.com/docs/atlas/api",
+    "category_hint": "Developer Infra and Data"
+  },
+  "documentation_map": {
+    "app_name": "MongoDB Atlas",
+    "official_domain": "mongodb.com",
+    "homepage": {
+      "url": "https://mongodb.com/docs/atlas/api",
+      "title": "MongoDB Atlas",
+      "confidence": 0.5,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://www.mongodb.com/docs",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://www.mongodb.com/api/reference",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://www.mongodb.com/products/self-managed/enterprise-advanced",
+        "title": "Self-Managed",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://www.mongodb.com/pricing.md",
+          "title": "Pricing",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "sdk": {
+      "primary": {
+        "url": "https://www.mongodb.com/api/client-libraries",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "mcp": {
+      "primary": {
+        "url": "https://www.mongodb.com/docs",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://www.mongodb.com/docs",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "webhooks": {
+      "primary": {
+        "url": "https://www.mongodb.com/api/webhooks",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "llms_txt": {
+      "url": "https://mongodb.com/llms.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "MongoDB Atlas",
+      "official_domain": "mongodb.com",
+      "items": [
+        {
+          "url": "https://mongodb.com/docs/atlas/api",
+          "page_type": "homepage",
+          "title": "MongoDB Atlas",
+          "confidence": 0.5,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://www.mongodb.com/products/self-managed/enterprise-advanced",
+          "page_type": "pricing",
+          "title": "Self-Managed",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://www.mongodb.com/docs",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://www.mongodb.com/pricing.md",
+          "page_type": "pricing",
+          "title": "Pricing",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://www.mongodb.com/docs",
+          "page_type": "authentication",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://www.mongodb.com/api/reference",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://www.mongodb.com/api/client-libraries",
+          "page_type": "sdk",
+          "title": "",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://www.mongodb.com/api/webhooks",
+          "page_type": "webhooks",
+          "title": "",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://www.mongodb.com/docs",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 1,
+        "urls_discovered": 9,
+        "official_urls": 9,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 2,
+        "canonical_selected": 8
+      }
+    },
+    "stats": {
+      "queries": 1,
+      "urls_discovered": 9,
+      "official_urls": 9,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 2,
+      "canonical_selected": 8
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_bc445191f891",
+      "source_type": "auth_docs",
+      "url": "https://www.mongodb.com/docs",
+      "domain": "www.mongodb.com",
+      "page_title": "Welcome to the MongoDB Docs - MongoDB Documentation - MongoDB Docs",
+      "content": "Welcome to the MongoDB Docs\nMongoDB is a document-oriented, operational database built from the ground up as an alternative to the relational database for modern applications. Unlike relational databases, MongoDB allows developers to store rich JSON-like documents that map naturally to the objects they use in their code:\n{    \"name\": \"Grace Hopper\",    \"occupations\": [       \"Computer Scientist\",       \"Mathematician\",       \"Professor\"    ],    \"location\": {       \"city\": \"Arlington\",       \"state\": \"Virginia\",       \"zip\": \"22202\"    } } \nWhich you can retrieve with queries such as:\ndb.people.find( { \"location.city\": \"Arlington\" } ) \nMongoDB also offers\n- Strong consistency with ACID transactions. \n- Modern additional built-in query capabilities such as geospatial search, lexical search, and vector search. \n- Serverless horizontal scaling with geography-aware fault tolerance across all major clouds. \n- Security primitives that allow MongoDB to operate in the most demanding of enterprise environments. \nHow This Documentation is Organized\nGet Started\nStart here! This guide walks you through deploying your first database and downloading all the tools and libraries you need to start developing with MongoDB.\nDevelopment\nEverything you need to know to write apps with MongoDB, from connecting, CRUD, and the core query language, to index optimization and data modeling.\nManagement\nLearn how to administer and manage MongoDB deployments, including provisioning, scaling, backup, monitoring, disaster recovery, and security.\nClient Libraries\nExplore the documentation for MongoDB's catalog of client libraries, which are available in almost every modern programming language and compatible with most application frameworks. Each client library has detailed documentation and an API reference in that library's native programming language.\nTools\nFind useful tools and integrations to aid in both development and management, including simplified database management, integration, migration, and data visualization.\nAI Models\nAccess Voyage AI's best-in-class embedding and reranking models through MongoDB. Build production-ready AI applications with accurate search and retrieval capabilities.\nAtlas Architecture Center\nLearn best practices for designing scalable, secure, and resilient systems using MongoDB in enterprise environments. Guidance includes architecture fundamentals, MongoDB capabilities, and reference architectures.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:10:48.609600Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 611,
+      "quality_score": 0.76
+    },
+    {
+      "id": "ev_afd73363ea80",
+      "source_type": "pricing_page",
+      "url": "https://www.mongodb.com/products/self-managed/enterprise-advanced",
+      "domain": "www.mongodb.com",
+      "page_title": "Enterprise Advanced—The most flexible way to run MongoDB | MongoDB",
+      "content": "Enterprise Advanced\nWith powerful tools for automation, operations, and security in self-managed environments, there’s no more flexible way to run MongoDB.\nAdvanced search, anywhere you run MongoDB\nAccelerate innovation with the document model\nMongoDB simplifies data management with its intuitive document model, consolidating data into simple documents. This eliminates complexity, reduces downtime, and empowers developers to adapt data models quickly—driving faster innovation and improved productivity.\nRun MongoDB anywhere\nMongoDB Enterprise Advanced is the most flexible way to run the modern database for production applications. Tools like Ops Manager and Cloud Manager enable intuitive deployment on-premises, in private clouds, and in hybrid clouds.\nEffortlessly deploy MongoDB anywhere you need to run it with tools like Ops Manager, Cloud Manager and the Enterprise Kubernetes Operator.\nDevelopment Manager at Roma Capitale\nDevelopment Manager at Roma Capitale\nSolution Architect at VisionTrack\nHead of Credit Card & Merchant Data at Wells Fargo\nMongoDB 8.0\nLearning hub\nQuick and accessible resources to help build applications on MongoDB.FAQ\nA MongoDB Enterprise Advanced subscription includes a commercial license for MongoDB Enterprise Server. MongoDB Enterprise Server provides several capabilities unavailable in the MongoDB Community Edition. This includes in-memory storage engine for self-managed deployments, auditing self-managed deployments, and Kerberos authentication on self-managed deployments.\nCore server capabilities are broadly comparative across the two editions. However, a MongoDB Enterprise Advanced subscription includes additional operational and management tools, a commercial license, and access to 24/7/365 technical support.\nMongoDB Atlas and MongoDB Enterprise Advanced are two great ways of running the popular modern database. Ultimately it comes down to deployment location and requirements.\nMongoDB Atlas is available in 125+ regions across Amazon Web Services (AWS), Google Cloud, and Microsoft Azure.\nMongoDB Enterprise Advanced is ideal if on-premises deployment, or in a private or hybrid cloud is a key requirement.\nThe full-text search and vector search capabilities work the same no matter where they are deployed. With Enterprise Advanced you gain additional governance and control since the search nodes are deployed on-premises or in a private cloud or hybrid cloud.\nGet started with Enterprise Advanced\n- MongoDB Enterprise Server\n- Security & Auditing\n- Backups & Restoration\n- 24/7/365 support with response SLA\n- Optional Search add-on",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:10:50.082365Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 649,
+      "quality_score": 0.76
+    },
+    {
+      "id": "ev_a7b25d3300ce",
+      "source_type": "official_docs",
+      "url": "https://mongodb.com/docs/atlas/api",
+      "domain": "mongodb.com",
+      "page_title": "Atlas Programmatic Access - Atlas - MongoDB Docs",
+      "content": "You can interact with Atlas programmatically to perform administrative tasks or manage your deployments using the following resources.\nAtlas Administration API\nProgrammatically perform administrative tasks on your Atlas cluster outside of the Atlas UI with the Atlas Administration API. Atlas Administration API resources add, edit, or delete administrative objects within Atlas, including projects, users, and clusters.\nYou can explore the various endpoints available through the Atlas Administration API in MongoDB's Postman workspace.\nTo configure access for the Atlas Administration API, see Get Started with the Atlas Administration API.\nAtlas Go SDK\nThe Atlas Go SDK provides platform-specific and Go language-specific tools, libraries, and documentation to help you build applications that interact with Atlas quickly and easily using the Atlas Administration API.\nAtlas Embedding and Reranking API\nThe Embedding and Reranking API provides endpoints for accessing Voyage AI's state-of-the-art embedding and reranking models. Use the REST API and available client SDKs to power search and retrieval in your AI applications.\nAtlas CLI\nThe Atlas CLI is a command-line interface built specifically for MongoDB Atlas. You can use Atlas CLI to interact with Atlas from the terminal with short and intuitive commands and accomplish complex operational tasks such as creating a cluster or setting up an access list interactively and programmatically.\nHashiCorp Terraform MongoDB Atlas Provider\nHashiCorp Terraform MongoDB Atlas Provider provides refined programmatic access and management of MongoDB Atlas resources. You can define your environment using the HashiCorp Configuration Language (HCL) and deploy, update, and manage Atlas infrastructure as code through HashiCorp Terraform. This allows you to integrate Atlas into your continuous delivery workflows.\nCloud Development Kit for Terraform\nCDK for Terraform leverages the MongoDB Atlas Atlas Administration API to enable provisioning across popular programming languages such as JavaScript, TypeScript, Python, Java, Go, and C#. Utilizing the powerful capabilities of Terraform, with CDKTF you can now create, manage, and update your Atlas resources with ease and deploy them seamlessly in the cloud without context switching from the native programming language of choice.\nTip\nMongoDB Atlas AWS CloudFormation Resources\nAtlas CloudFormation Resources helps you to manage MongoDB Atlas. It simplifies provisioning and management of Atlas features on AWS. You can create YAML- or JSON-based templates for the service or application architectures you want and have AWS CloudFormation use those templates for quick and reliable provisioning of the services or applications (called \"stacks\"). You can also easily update or replicate the stacks as needed.\nAWS Partner Solutions\nAWS Partner Solutions provide pre-built CloudFormation templates to help you provision a group of Atlas resources for specific use cases instead of deploying them one by one. Partner Solutions help you deploy popular technologies to AWS according to AWS best practices.\nAWS Cloud Development Kit\nIf you prefer using familiar programming languages like JavaScript, TypeScript, Python, Java, C#, and Go rather than using YAML or JSON, you can use the AWS CDK to deploy Atlas resources. When you execute your AWS CDK applications, they automatically generate CloudFormation templates, which in turn utilize the AWS CloudFormation service for resource provisioning. This way, you benefit from the abstraction and flexibility provided by AWS CDK and take advantage of the robustness of CloudFormation for infrastructure management, while still using the programming language of your choice.\nTip\n- How to Deploy Atlas with AWS CDK (Video Walkthrough). \nAtlas Kubernetes Operator\nThe Atlas Kubernetes Operator enables you to manage Atlas resources through custom resources that you apply in Kubernetes. This allows an infrastructure as code approach to manage declarative configuration for Atlas using a GitOps workflow, allowing developers to configure Atlas resources using the same process and tooling that they use to deploy application components into Kubernetes. The automatic creation of a Kubernetes secret containing the connection string for a database user simplifies the process of connecting an application to the database.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:10:49.758583Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 1090,
+      "quality_score": 0.5
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "MongoDB Atlas is a cloud database service for modern applications.",
+      "evidence_ids": [
+        "ev_bc445191f891"
+      ]
+    },
+    "category": {
+      "value": "Developer Infra and Data",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_a7b25d3300ce"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_afd73363ea80"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API, SDKs",
+      "evidence_ids": [
+        "ev_a7b25d3300ce"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_a7b25d3300ce"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_bc445191f891"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_bc445191f891"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_bc445191f891"
+      ]
+    }
+  },
+  "validation": {
+    "status": "UNSUPPORTED",
+    "score": 0.62,
+    "fields_checked": 8,
+    "fields_supported": 5,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "auth_methods",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'auth_methods' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": {
+    "verified_fields": [],
+    "corrections": {},
+    "screenshots": [],
+    "notes": ""
+  },
+  "pipeline_confidence": 0.62,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.62 below 0.90 threshold",
+      "Auth methods missing or UNKNOWN"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

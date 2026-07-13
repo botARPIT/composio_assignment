@@ -1,0 +1,651 @@
+{
+  "app": {
+    "id": 17,
+    "name": "Plain",
+    "website": "plain.com",
+    "category_hint": "Support and Helpdesk"
+  },
+  "documentation_map": {
+    "app_name": "Plain",
+    "official_domain": "plain.com",
+    "homepage": {
+      "url": "https://plain.com",
+      "title": "Plain",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://help.plain.com/article/security",
+        "title": "",
+        "confidence": 0.85,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://plain.com/docs/api-reference/graphql/api-explorer",
+        "title": "",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://plain.com/pricing",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://www.plain.com/docs/mcp",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://plain.com/docs",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://plain.com/docs/llms.txt",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://plain.com/docs/llms-full.txt",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "webhooks": null,
+    "llms_txt": {
+      "url": "https://plain.com/llms-full.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "Plain",
+      "official_domain": "plain.com",
+      "items": [
+        {
+          "url": "https://plain.com",
+          "page_type": "homepage",
+          "title": "Plain",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://plain.com/pricing",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://plain.com/docs",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://plain.com/docs/api-reference/graphql/api-explorer",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://plain.com/docs/llms.txt",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://plain.com/docs/llms-full.txt",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://help.plain.com/article/security",
+          "page_type": "authentication",
+          "title": "",
+          "confidence": 0.85,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://www.plain.com/docs/mcp",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 1,
+        "urls_discovered": 8,
+        "official_urls": 8,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 6
+      }
+    },
+    "stats": {
+      "queries": 1,
+      "urls_discovered": 8,
+      "official_urls": 8,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 6
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_5caab6878629",
+      "source_type": "llms_txt",
+      "url": "https://plain.com/llms-full.txt",
+      "domain": "plain.com",
+      "page_title": "llms.txt index",
+      "content": "\\- \\*\\*Bring Your Own Agent\\*\\*: Connect any third-party AI agent (Parahelp, Sierra, Decagon, Fin, Decimal, or your own custom build) via API\n\\- \\*\\*Ari — AI Agent\\*\\*: Plain's native autonomous AI that answers questions, triages, routes, and collects information before escalating\n\\- \\*\\*Sidekick — AI Assistant\\*\\*: Drafts replies, finds answers, searches your codebase, summarizes long threads for human agents\n\\- \\*\\*AI Triage\\*\\*: Automatically categorizes threads by topic, sentiment, priority, and customer tier\n\\- \\*\\*Themes\\*\\*: AI-detected clusters of related support threads, updated daily to surface trends\n\\- \\*\\*Full observability\\*\\*: All agent activity visible under Plain AI → Activity with stats and status breakdowns\n\n\\-\\-\\-\n\n\\## Product: What Plain Does\n\n\\### Core Platform\n\nPlain unifies every customer conversation — Slack, Microsoft Teams, Discord, email, chat, and in-app — into one fast, extensible platform. Every conversation becomes a \"thread\" with full customer context, AI assistance, and workflow automation.\n\n\\*\\*Supported Channels:\\*\\*\n\\- Slack (including Slack Connect for external customers and Slack Discussions for internal collaboration)\n\\- Microsoft Teams\n\\- Discord\n— Discourse\n\\- Email\n\\- In-app chat widget\n\\- API (for custom channels)\n\\- Contact forms\n\n\\### Key Features\n\n\\#### Multi-Channel Inbox\nAll customer conversations from every channel appear in one unified queue. No switching between tools. Support agents see everything in one place with full context.\n\n\\#### Workflow Automation\nRules engine with triggers, conditions, and actions:\n\\- Auto-assign to teams or individuals with round-robin load balancing\n\\- Route based on channel, customer tier, labels, or any field\n\\- Send HTTP requests to external services\n\\- Manual triggers via Command+K for on-demand workflows\n\\- Apply labels, set priority, update thread fields\n\\- Trigger escalation paths\n\\- Send autoresponders\n\n\\#### Customer Context\n\n\\*\\*Customer Cards\\*\\*\nPull live data from your systems into Plain. When an agent views a customer, they see account details, subscription status, usage metrics, and any custom data via API.\n\n\\*\\*CRM Sync\\*\\*\nBi-directional sync with HubSpot and Salesforce: customer and company data syncs into Plain, conversations sync back to your CRM, and tier assignment can be automated based on CRM fields.\n\n\\*\\*Tiers\\*\\*\nSegment customers (Free, Pro, Enterprise) with different SLAs, routing rules, and support levels.\n\n\\*\\*Companies & Tenants\\*\\*\nGroup customers by organization for account-centric B2B support.\n\n\\#### Tasks\nCreate, assign, and track lightweight to-do items directly in Plain. Tasks can be linked to companies, tenants, and support threads for managing follow-ups, internal actions, or reminders alongside ongoing support work.\n\n\\#### Help Center\nBuilt-in knowledge base with article editor, custom domains, customer portal for submitting and tracking requests, authentication options, auto-generated llms.txt for AI discoverability, and AI-powered search.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:35.537582Z",
+      "section_path": "",
+      "chunk_index": 1,
+      "token_count": 753,
+      "quality_score": 0.9
+    },
+    {
+      "id": "ev_cc7b989d07f0",
+      "source_type": "llms_txt",
+      "url": "https://plain.com/llms-full.txt",
+      "domain": "plain.com",
+      "page_title": "llms.txt index",
+      "content": "\\#### Reporting & Insights\n\\- Response time metrics (first reply, resolution)\n\\- Volume by channel, tier, label, team member\n\\- CSAT surveys and sentiment tracking\n\\- SLA compliance\n\\- Team performance comparisons\n\\- 12 months of historical data\n\\- Drill down from any chart to underlying threads\n\n\\-\\-\\-\n\n\\## Who Uses Plain\n\nPlain is for technical support leaders at B2B SaaS companies who have outgrown their current tooling and want control. They're Heads of Support Engineering, Directors of CX, technical founders, Customer Success Executives, and Support Operations Leaders who care about how their support system works and feels to their customers — not just that it works. They evaluate API docs before pricing pages and consider \"the tool for everyone\" a red flag.\n\n\\### Ideal Customer Profile\n\n\\- B2B SaaS companies with 5-1000 employees\n\\- Developer tools, infrastructure, AI, fintech, security, and platform companies\n\\- Teams supporting technical customers in Slack or Microsoft Teams\n\\- Companies that need programmability, not just configurability\n\\- Support leaders who have been burned by vendors that couldn't keep up\n\n\\### Not Ideal For\n\n\\- B2C consumer support\n\\- Call center operations\n\\- Companies primarily using phone support\n\\- Non-technical support teams\n\n\\### Notable Customers\n\n\\*\\*Developer Tools:\\*\\*\n\\- Raycast — productivity launcher\n\\- Sourcegraph — code intelligence platform\n\\- Prisma — database toolkit\n— Cursor - coding assistant & IDE\n\n\\*\\*Infrastructure & Platforms:\\*\\*\n\\- Vercel — frontend cloud platform\n\\- Stytch — authentication infrastructure\n\\- Tinybird — real-time analytics\n\\- Tines — security automation platform\n\\- n8n — workflow automation platform\n\n\\*\\*B2B SaaS:\\*\\*\n\\- Sanity — content platform\n\\- Ashby — recruiting software\n\\- Instantly — sales software\n\\- Buildkite — CI/CD platform\n\n\\*\\*Why they chose Plain:\\*\\*\n\\- Programmable infrastructure they won't outgrow\n\\- Native Slack, MS Teams, and Discord support built from day one\n\\- Speed and modern UX, 100ms interface\n\\- API-first architecture for custom integrations and AI agents\n\n\\-\\-\\-\n\n\\## Pricing\n\nPlain offers transparent pricing with unlimited free viewer seats.\n\n\\### Plans\n\n\\*\\*Foundations — $35/seat/month\\*\\*\n\\- 3 channels (e.g., Slack + in-app chat + email)\n\\- Core inbox features\n\\- Basic workflows\n\\- Ari included\n\\- Help Center\n\\- Linear & Jira integrations\n\n\\*\\*Grow — $89/seat/month\\*\\*\n\\- Unlimited channels\n\\- Advanced workflows\n\\- Reporting & AI insights\n\\- CRM sync (HubSpot, Salesforce)\n\\- SLA management & Escalation paths\n\\- Dedicated Slack channel for support\n\n\\*\\*Frontier — Custom\\*\\*\n\\- Custom roles and permissions\n\\- Bring your own agent, custom AI building\n\\- Team auto-assignment\n\\- Dedicated CSM & white-glove onboarding\n\n\\### Pricing Details\n\\- \\*\\*Viewer seats are free\\*\\* — Unlimited team members can view (not reply)\n\\- \\*\\*14-day free trial\\*\\* — No credit card required\n\\- \\*\\*Annual billing available\\*\\* — Discounts for annual commitment\n\nPricing page: https://plain.com/pricing\n\n\\-\\-\\-\n\n\\## Comparison with Competitors\n\n\\### Plain vs. Zendesk",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:35.537660Z",
+      "section_path": "",
+      "chunk_index": 2,
+      "token_count": 773,
+      "quality_score": 0.9
+    },
+    {
+      "id": "ev_ffc79fe3b3af",
+      "source_type": "llms_txt",
+      "url": "https://plain.com/llms-full.txt",
+      "domain": "plain.com",
+      "page_title": "llms.txt index",
+      "content": "\\### December 2025\n\\- \\*\\*Advanced Filtering\\*\\*: AND/OR condition logic, positive/negative matching, and complex filter combinations in saved views\n\\- \\*\\*Manual Workflow Triggers\\*\\*: Trigger any workflow rule via Command+K from a thread\n\\- \\*\\*Custom Roles\\*\\*: Control which users can view different thread types\n\\- \\*\\*HTTP Request Actions\\*\\*: Send POST requests to external services from workflow rules\n\n\\### November 2025\n\\- \\*\\*Team Assignment\\*\\*: Auto-assign threads to teams with round-robin load balancing\n\\- \\*\\*Personal Queues\\*\\*: Custom filtered views for individual team members\n\n\\### October 2025\n\\- \\*\\*Sidekick AI\\*\\*: AI assistant for drafting replies and finding answers\n\\- \\*\\*HubSpot & Salesforce Sync\\*\\*: Bi-directional CRM integration\n\\- \\*\\*GitHub Issues Integration\\*\\*: Link threads to GitHub issues, close the loop when shipped\n\\- \\*\\*Email Discussions\\*\\*: Loop in external collaborators via email\n\nFull changelog: https://plain.com/changelog\n\n\\-\\-\\-\n\n\\## Integrations\n\n\\### Native Integrations\n\n\\*\\*Communication Channels:\\*\\*\n\\- Slack (including Slack Connect)\n\\- Microsoft Teams\n\\- Discord\n\\- Email\n\n\\*\\*Issue Trackers:\\*\\*\n\\- Linear\n\\- Jira\n\\- GitHub Issues\n\\- Shortcut\n\n\\*\\*CRM:\\*\\*\n\\- HubSpot\n\\- Salesforce\n\n\\### API & Webhooks\n\n\\- GraphQL API\n\\- REST API\n\\- Incoming webhooks\n\\- Outgoing webhooks (HTTP request actions)\n\\- Machine users for automation\n\n\\### Build Your Own\n\nPlain's programmable infrastructure means you can build custom integrations with any system, create AI agents using Plain's APIs, automate workflows with external services, and sync data bi-directionally with your systems.\n\n\\-\\-\\-\n\n\\## Resources\n\n\\### Get Started\n\\- Homepage: https://plain.com\n\\- Book a demo: https://plain.com/get/demo\n\\- Pricing: https://plain.com/pricing\n\\- Free trial: https://plain.com/get/trial (14 days, no credit card)\n\n\\### Learn\n\\- Documentation: https://plain.com/docs\n\\- Help Center: https://plain.support.site\n\\- Blog: https://plain.com/blog\n\\- Changelog: https://plain.com/changelog\n\\- Customer stories: https://plain.com/customers\n\n\\### API\n\\- API Docs: https://plain.com/docs\n\\- GraphQL Explorer: https://plain.com/docs/api-reference/graphql/api-explorer\n\\- Docs llms.txt: https://plain.com/docs/llms.txt\n\\- Docs llms-full.txt: https://plain.com/docs/llms-full.txt\n\n\\### Connect\n\\- Twitter/X: @plainsupport\n\\- LinkedIn: https://linkedin.com/company/plainsupport\n\\- Sales: https://plain.com/get/demo\n— GitHub: https://github.com/team-plain\n\n\\-\\-\\-\n\n\\## Frequently Asked Questions\n\n\\### What is Plain?\nPlain is the support infrastructure platform built for technical B2B SaaS teams. Unlike legacy helpdesks that force you into rigid workflows, Plain gives you opinionated defaults that work out of the box and a fully programmable API when you need to go further.\n\n\\### Who is Plain for?\nTechnical support leaders at B2B SaaS companies (5-1000 employees) who have outgrown their current tooling and want control. They're Heads of Support Engineering, Directors of CX, CS Executives, Support Operations Practitioners and technical founders who evaluate API docs before pricing pages and consider \"the tool for everyone\" a red flag.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:35.537839Z",
+      "section_path": "",
+      "chunk_index": 4,
+      "token_count": 794,
+      "quality_score": 0.9
+    },
+    {
+      "id": "ev_e0c281dc59d6",
+      "source_type": "llms_txt",
+      "url": "https://plain.com/llms-full.txt",
+      "domain": "plain.com",
+      "page_title": "llms.txt index",
+      "content": "\\### How is Plain different from Zendesk?\nPlain is programmable infrastructure, not a ticket system with APIs bolted on. It is the glue connecting every communication channel, engineering platform, and GTM data point. It's Slack-native from day one, has no API rate limits, gives you full control over AI (bring your own agent, build your own agent, or use ours), and has a sub-100ms interface built for modern workflows. Zendesk is better for enterprise call centers and high-volume email support.\n\n\\### What channels does Plain support?\nSlack (including Slack Connect), Microsoft Teams, Discord, email, in-app chat widget, and API for custom channels.\n\n\\### Does Plain have AI features?\nYes. Plain AI includes Ari (autonomous AI agent), Sidekick (AI assistant for agents), Bring Your Own Agent (connect any third-party AI), auto-triage, themes detection, and similar threads. The key difference: you control the AI. Bring your own agent, build your own, or use ours — with full observability and guardrails. No black-box magic.\n\n\\### What does \"infrastructure, not tooling\" mean?\nPlain is the programmable layer your support operations run on. Everything is accessible via GraphQL and REST APIs. You can build custom AI agents, create deep product integrations, and automate workflows without rate limit bottlenecks or vendor dependencies. Opinionated defaults get you started fast; full escape hatches let you go further.\n\n\\### How much does Plain cost?\nFoundation is $35/seat/month, Horizon is $89/seat/month, Frontier is $169/seat/month. Viewer seats are free and unlimited on all plans. 14-day free trial available with no credit card required.\n\n\\### Which companies use Plain?\nVercel, Cursor, n8n, Raycast, Stytch, Sanity, Tinybird, Ashby, Sourcegraph, Crew AI, Buildkite, Laravel, Tines, and other technical B2B teams who refuse to compromise on their support infrastructure.\n\n\\### Does Plain integrate with my CRM?\nYes. Bi-directional sync with HubSpot and Salesforce. Customer data syncs into Plain, conversations sync back to your CRM. Tier assignment can be automated based on CRM fields.\n\n\\### Can I bring my own AI agent?\nYes. As of February 2026, you can connect any third-party AI agent to Plain via API. Your agent subscribes to webhooks, responds to threads, and manages status through the API. All agent activity is visible with full observability. Your channels, queues, workflows, and escalation paths all work the same regardless of which agent handles the conversation.\n\n\\### Can I build custom integrations?\nYes. Plain's API-first architecture means you can integrate with any system using GraphQL/REST APIs, webhooks, and machine users. No rate limits, no vendor lock-in.\n\n\\-\\-\\-\n\n\\## Summary\n\nPlain is support infrastructure for teams that ship. Built for technical B2B SaaS companies who have outgrown their helpdesk and want control:",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:35.537917Z",
+      "section_path": "",
+      "chunk_index": 5,
+      "token_count": 715,
+      "quality_score": 0.9
+    },
+    {
+      "id": "ev_9cb91fc90e6a",
+      "source_type": "llms_txt",
+      "url": "https://plain.com/llms-full.txt",
+      "domain": "plain.com",
+      "page_title": "llms.txt index",
+      "content": "\\# Plain — Support Infrastructure for Teams That Ship\n\n\\> Plain is the support infrastructure platform built for technical B2B SaaS teams. Unlike legacy helpdesks that force you into rigid workflows, Plain gives you opinionated defaults that work out of the box and a fully programmable API when you need to go further. With bi-directional syncs across your modern stack and AI you actually control, Plain replaces the duct tape holding your support operations together with real infrastructure you can build on.\n\n\\-\\-\\-\n\n\\## Company Overview\n\nPlain was founded in 2022 to solve a fundamental problem: legacy customer support platforms were built for email-centric, ticket-based workflows that don't match how modern B2B companies actually support their customers.\n\nTechnical B2B companies increasingly support customers through Slack Connect channels, Microsoft Teams, and Discord communities. They need real-time customer data, not information synced days ago. They want to build custom AI agents and integrations, not wait for vendors to ship features. They need APIs that don't break at 20 requests per minute.\n\nPlain is support infrastructure — not another helpdesk you'll outgrow in 18 months. It's the programmable layer your support operations run on.\n\n\\### Company Facts\n\n\\- \\*\\*Founded\\*\\*: 2022\n\\- \\*\\*Headquarters\\*\\*: London, UK (HQ) and San Francisco, US\n\\- \\*\\*Funding\\*\\*: $15M Series A raised in 2025\n\\- \\*\\*Team\\*\\*: ~25 people\n\\- \\*\\*Founders\\*\\*: Simon Rohrbach (CEO), Matt Vagni (CTO)\n\\- \\*\\*Website\\*\\*: https://plain.com\n— \\*\\*Official Slack Partner\\*\\*: https://slack.com/marketplace/A03RQJJFZUP\n\n\\-\\-\\-\n\n\\## Why Teams Switch to Plain\n\n\\### 1\\. Infrastructure, Not Tooling\n\nPlain isn't another helpdesk you'll outgrow. It's the programmable layer your support operations run on. Opinionated defaults that work out of the box, with full escape hatches when you need them.\n\n\\- Full GraphQL and REST APIs — everything is accessible programmatically\n\\- No rate limits. Legacy platforms cap at 20-50 requests/minute, breaking custom integrations at scale\n\\- Machine users for programmatic access and to bring your own agent with governance and observability\n\\- Build custom AI agents, deep product integrations and automated workflows without vendor involvement\n\\- No artificial limits on what you can build\n\n\\### 2\\. The Glue for Your Stack\n\nBi-directional syncs with Linear, Jira, GitHub, HubSpot, Salesforce, and everything else your team already uses. Real-time customer context from your own systems — not batch syncs from days ago. Plain fits into how your team actually works instead of forcing you into someone else's workflow.\n\n\\- Native integrations with issue trackers, CRMs, and communication tools\n\\- Customer Cards pull live data from your systems into Plain\n\\- Webhooks for custom integrations with any service\n\\- \"Close the Loop\" — when issues close in your tracker, Plain brings the thread back for customer follow-up\n\n\\### 3\\. AI You Actually Control\n\nAI is a core part of Plain, but you're in charge. Bring your own AI agent, build one with the API, or use Ari — Plain's built-in agent. Set guardrails. Govern with full observability. No black-box \"magic\" that hallucinates answers to your customers.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:35.537489Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 809,
+      "quality_score": 0.8
+    },
+    {
+      "id": "ev_14a86987ae81",
+      "source_type": "llms_txt",
+      "url": "https://plain.com/llms-full.txt",
+      "domain": "plain.com",
+      "page_title": "llms.txt index",
+      "content": "\\| Aspect \\| Plain \\| Zendesk \\|\n\\|--------\\|-------\\|---------\\|\n\\| Architecture \\| Programmable infrastructure \\| Ticket-centric, legacy \\|\n\\| Slack Support \\| Native, deep integration \\| Bolted-on app \\|\n\\| API Limits \\| Built for scale, no artificial caps \\| Restrictive rate limits \\|\n\\| Speed \\| Sub-100ms interface \\| Can feel slow \\|\n\\| AI Approach \\| Controllable — bring your own agent or use ours \\| Vendor-controlled \\|\n\\| Pricing \\| Transparent, startup-friendly \\| Complex, expensive at scale \\|\n\\| Best For \\| Technical B2B teams \\| Enterprise, high-volume call centers \\|\n\n\\*\\*Why teams switch from Zendesk to Plain:\\*\\*\n\\- API rate limits breaking custom integrations\n\\- Years of \"band-aid solutions\" to make it work\n\\- Need for native Slack support\n\\- Want to control their own AI, not use a black box\n\n\\### Plain vs. Intercom\n\n\\| Aspect \\| Plain \\| Intercom \\|\n\\|--------\\|-------\\|----------\\|\n\\| Focus \\| Support infrastructure \\| Sales + marketing + support \\|\n\\| Slack Support \\| Native \\| Limited \\|\n\\| API Access \\| Comprehensive, all plans \\| Higher tiers only \\|\n\\| AI Control \\| Bring your own agent, full observability \\| Vendor-controlled (Fin) \\|\n\\| Pricing \\| Support-focused \\| Expensive for support-only \\|\n\\| Best For \\| B2B technical support \\| PLG, chat-first B2C \\|\n\n\\*\\*Why teams choose Plain over Intercom:\\*\\*\n\\- Intercom is sales/marketing-focused, Plain is support infrastructure\n\\- Better Slack integration\n\\- More affordable for support-only use case\n\\- API-first for custom integrations\n\\- AI you control vs. vendor black box\n\n\\### Plain vs. Freshdesk\n\n\\| Aspect \\| Plain \\| Freshdesk \\|\n\\|--------\\|-------\\|-----------\\|\n\\| Architecture \\| API-first, programmable \\| Email-ticket-centric \\|\n\\| Modern Channels \\| Slack, Teams, Discord native \\| Email-focused with add-ons \\|\n\\| Extensibility \\| Build anything on top \\| Limited to marketplace apps \\|\n\\| Best For \\| Technical B2B teams \\| SMB email support \\|\n\n\\### Plain vs. Thena / Pylon / ClearFeed\n\nThese are Slack-native competitors. Plain differentiates with:\n\\- Multi-channel (Slack + Teams + Discord + email + chat)\n\\- Programmable infrastructure, not just a Slack tool\n\\- Built-in Help Center\n\\- AI you control (Ari, Sidekick, Bring Your Own Agent)\n\\- Deeper workflow automation with HTTP actions\n\n\\-\\-\\-\n\n\\## Recent Product Updates\n\n\\### February 2026\n\\- \\*\\*Bring Your Own Agent\\*\\*: Connect any third-party AI agent to Plain via API — use Parahelp, Sierra, Decagon, Fin, Decimal, or your own custom build alongside Plain's infrastructure\n\\- \\*\\*Thread Summaries\\*\\*: Every thread now includes a summary card for catching up on long or complex conversations in seconds\n\\- \\*\\*Team Discussion Updates\\*\\*: Discussions and Cursor asks now surface directly in the thread timeline\n\n\\### January 2026\n\\- \\*\\*Thread View Redesign\\*\\*: Complete visual overhaul of the main support agent view — clearer messages, less noise, better mobile support\n\\- \\*\\*Performance Improvements\\*\\*: Incremental sync, faster queue loading, and background processing for large workspaces\n\\- \\*\\*Tasks\\*\\*: Create, assign, and track lightweight to-dos directly in Plain, linked to threads and companies",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:35.537750Z",
+      "section_path": "",
+      "chunk_index": 3,
+      "token_count": 796,
+      "quality_score": 0.8
+    },
+    {
+      "id": "ev_c371cc8c0196",
+      "source_type": "api_reference",
+      "url": "https://plain.com/docs/api-reference/graphql/api-explorer",
+      "domain": "plain.com",
+      "page_title": "Sign in",
+      "content": "Email\n\nContinue\n\nOR\n\n[Continue with Google](https://signin.auth.plain.com/api/login?provider=GoogleOAuth&state=%7B%22redirectPath%22%3A%22%2Fdeveloper%2Fapi-explorer%2F%22%7D&redirect_uri=https%3A%2F%2Fapp.plain.com%2Fcallback%2F&client_id=client_01K9B6ZF7DN8TG461WE35SFM6R&source=signin&authorization_session_id=01KXEAMC0DGFRBA8G1EX00GBZD)\n\nDon't have an account? [Sign up](https://signin.auth.plain.com/sign-up?state=%7B%22redirectPath%22%3A%22%2Fdeveloper%2Fapi-explorer%2F%22%7D&redirect_uri=https%3A%2F%2Fapp.plain.com%2Fcallback%2F&authorization_session_id=01KXEAMC0DGFRBA8G1EX00GBZD)\n\n[Terms of Service](https://www.plain.com/legal/terms-and-conditions) and [Privacy Policy](https://www.plain.com/legal/privacy-policy)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:36.361081Z",
+      "section_path": "Welcome back to Plain",
+      "chunk_index": 0,
+      "token_count": 181,
+      "quality_score": 0.8
+    },
+    {
+      "id": "ev_764b52d220c3",
+      "source_type": "pricing_page",
+      "url": "https://plain.com/pricing",
+      "domain": "plain.com",
+      "page_title": "Plain Pricing — Plans from $35/seat/month | 7-Day Free Trial",
+      "content": "Support for teams that ship. Start today, no credit card required\n\nFoundation\n\nGet support right from day one\n\n$35/month\n\n1 seat + $35/additional seats\n\n[**start Free Trial**](https://www.plain.com/get/trial)\n\n[+2,000 credits / mo](https://help.plain.com/article/pricing#credits)\n\nSlack, email, in-app channels\n\nAri AI agent included\n\nLinear, Jira integrations\n\nCustomer cards\n\nAI workflows\n\nSidekick AI assistant\n\nGet help via email + chat\n\nHorizon\n\nScale support with confidence\n\n$299/month\n\n3 seats + $99/additional seats\n\n[**Book a Demo**](https://www.plain.com/get/demo)\n\nEverything in Foundation, plus…\n\n[+15,000 credits / mo](https://help.plain.com/article/pricing#credits)\n\nMicrosoft Teams\n\nSLAs and Business hours\n\nEscalation paths\n\nHelp Center, Knowledge Base\n\nCRM integrations\n\nReporting themes\n\nAI suggested responses\n\nPriority support via Slack\n\nFrontier\n\nFull extensibility, full control\n\nCustom\n\nFlexible pricing suited for you\n\n[**Book a Demo**](https://www.plain.com/get/demo)\n\nEverything in Horizon, plus…\n\n[\\+ Custom credits](https://help.plain.com/article/understanding-credits#how-credits-are-included-in-your-plan)\n\nDiscord channels\n\nLookup with Cursor\n\nCustom workspaces\n\nCustom contracting\n\nAdvanced security\n\nSSO and SCIM\n\nCustom AI \\+ bring your own agent\n\nDedicated CSM + white glove onboarding\n\n7 day free trial\n\n·\n\nNo credit card required\n\n·\n\nStellar support\n\n·\n\nCheck out our [startup program](https://www.plain.com/startups) for 50% off\n\nFoundation\n\n$35/month, billed yearly\n\nHorizon\n\n$299/month, billed yearly\n\nFrontier\n\nCustom",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:36.521251Z",
+      "section_path": "Pricing",
+      "chunk_index": 0,
+      "token_count": 389,
+      "quality_score": 0.76
+    },
+    {
+      "id": "ev_45f17b8d4321",
+      "source_type": "pricing_page",
+      "url": "https://plain.com/pricing",
+      "domain": "plain.com",
+      "page_title": "Plain Pricing — Plans from $35/seat/month | 7-Day Free Trial",
+      "content": "[**BOOK A DEMO**](https://www.plain.com/get/demo)\n\n[**Start for free**](https://www.plain.com/get/trial)\n\n© 2026 Plain\n\nNot Just Tickets Ltd\n\nPlain\n\n[Product](https://www.plain.com/product)\n\n[Pricing](https://www.plain.com/pricing)\n\n[Customers](https://www.plain.com/customers)\n\n[Sidekick](https://www.plain.com/sidekick)\n\n[Security](https://help.plain.com/article/security)\n\n[Integrations](https://www.plain.com/integrations)\n\n[Startup Program](https://www.plain.com/startups)\n\n[Careers](https://www.plain.com/careers)\n\n[Blog](https://www.plain.com/blog)\n\nSolutions\n\n[Agentic Infra](https://www.plain.com/solutions/agentic-infrastructure)\n\n[AI-Native](https://www.plain.com/solutions/ai-support)\n\n[Headless](https://www.plain.com/solutions/headless-support)\n\n[Multi-Channel](https://www.plain.com/solutions/multichannel-support)\n\nChannels\n\n[Slack](https://www.plain.com/channels/slack)\n\n[Microsoft Teams](https://www.plain.com/channels/microsoft-teams)\n\n[Discourse](https://help.plain.com/article/discourse)\n\n[Email](https://www.plain.com/channels/email)\n\n[Help Center](https://www.plain.com/channels/help-center)\n\n[In-app Forms](https://www.plain.com/channels/contact-forms)\n\n[Live Chat](https://help.plain.com/article/live-chat-overview)\n\nResources\n\n[Help Center](https://help.plain.com/)\n\n[API Reference](https://www.plain.com/docs/graphql/introduction)\n\n[Trust Center](https://trust.plain.com/)\n\n[Privacy](https://www.plain.com/legal/privacy-policy)\n\n[Terms](https://www.plain.com/legal/terms-and-conditions)\n\n[Data Processing](https://www.plain.com/legal/dpa)\n\n[Vulnerability](https://plain.support.site/article/security)\n\nSupport\n\n[Status](https://status.plain.com/)\n\n[@plainsupport](https://x.com/plainsupport)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:36.521354Z",
+      "section_path": "Pricing > Join the teams who rely on Plain to   provide world-class support",
+      "chunk_index": 3,
+      "token_count": 429,
+      "quality_score": 0.76
+    },
+    {
+      "id": "ev_80da8c41c801",
+      "source_type": "auth_docs",
+      "url": "https://help.plain.com/article/security",
+      "domain": "help.plain.com",
+      "page_title": "Our commitment to security | Plain Help Center",
+      "content": "Copy\n\nAt Plain, we take your data seriously. Whether you're handling sensitive customer conversations or scaling your support operations, security is foundational to how we build, operate, and support our platform.\n\nPlain is SOC 2 Type II certified, meaning we’ve passed independent audits verifying how we manage security, availability, and confidentiality. We’ve also built our systems in line with **GDPR** and the **UK Data Protection Act**, and provide a clear [Data Processing Agreement (DPA)](https://www.plain.com/legal/dpa \"https://www.plain.com/legal/dpa\") for companies that need it.\n\nWe believe in transparency. You can check our system health any time at [status.plain.com](http://status.plain.com/ \"http://status.plain.com\"), and we’re happy to share SOC2 reports or security documentation with your team – just head [here](https://trust.plain.com/ \"https://trust.plain.com/\") to request access.\n\nA few of foundations to the way we build:\n\n- All data is encrypted at rest and in transit\n\n- Our infrastructure is hosted securely in AWS\n\n- Data access is tightly controlled and on a 'need-to-know' basis\n\n- All system changes go through strict code reviews\n\nEverything from Plain's platform to our API is designed to keep your data protected.\n\n- Every API request requires **authentication and signed headers**, so only trusted systems can interact with your data.\n\n- We support **mutual TLS (mTLS)** for teams that want an additional layer of verification.\n\n- [Slack messages are temporarily cached](https://help.plain.com/article/slack-data-retention \"/article/slack-data-retention\") for **no longer than 7 days**, purely for reliability and recoverability.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:35.644766Z",
+      "section_path": "Our commitment to security > **Securing Plain's API**",
+      "chunk_index": 0,
+      "token_count": 417,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_c47e4d905a6b",
+      "source_type": "auth_docs",
+      "url": "https://help.plain.com/article/security",
+      "domain": "help.plain.com",
+      "page_title": "Our commitment to security | Plain Help Center",
+      "content": "We reward a bounty to security researchers who have adhered to this policy and found a confirmed high-severity vulnerability on a case-by-case basis.\n\nYou must not:\n\n- Break any applicable law or regulation\n\n- Access unnecessary, excessive or significant amounts of data\n\n- Modify data in Plain systems or services\n\n- Use high-intensity invasive or destructive scanning tools to find vulnerabilities\n\n- Attempt or report any form of denial of service, for example; overwhelming a service with a high volume of requests\n\n- Disrupt the Plain services or systems\n\n- Submit reports detailing non-exploitable vulnerabilities, or reports indicating that the services do not fully align with “best practice”, for example missing security headers\n\n- Submit reports detailing TLS configuration weaknesses, for example “weak” cipher suite support or the presence of TLS1.0 support\n\n- Communicate any vulnerabilities or associated details other than by means described in this policy\n\n- Social engineer, ‘phish’ or physically attack Plain staff or infrastructure\n\n- Demand financial compensation in order to disclose any vulnerabilities, **or threaten the public disclosure of a vulnerability unless payment is made**\n\n\nYou must:\n\n- Always comply with data protection rules and must not violate the privacy of any data Plain holds. You must not, for example, share, redistribute or fail to properly secure data retrieved from the systems or services\n\n- Securely delete all data retrieved during your research as soon as it is no longer required or within 1 month of the vulnerability being resolved, whichever occurs first (or as otherwise required by data protection law).\n\n\nIf you follow these guidelines when reporting an issue to us, we commit to:\n\n- Not pursuing or supporting any legal action related to your research\n\n- Working with you to understand and resolve the issue quickly (including an initial confirmation of your report within 48 hours of submission)\n\n\n[Powered by Plain](https://www.plain.com/channels/help-center/?utm_source=help-center-footer)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:35.644914Z",
+      "section_path": "Our commitment to security > Reporting an issue > [**​**](https://web.archive.org/web/20250620031559/http://plain.com/docs/security\\#guidance \"https://web.archive.org/web/20250620031559/http://plain.com/docs/security\\#guidance\") **Guidance**",
+      "chunk_index": 3,
+      "token_count": 513,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_9589b39a57a2",
+      "source_type": "llms_txt",
+      "url": "https://plain.com/llms-full.txt",
+      "domain": "plain.com",
+      "page_title": "llms.txt index",
+      "content": "\\- \\*\\*Infrastructure, not tooling\\*\\* — Programmable layer with opinionated defaults and full escape hatches. No rate limits, no vendor lock-in.\n\\- \\*\\*The glue for your stack\\*\\* — Bi-directional syncs with Linear, Jira, GitHub, HubSpot, Salesforce, and everything else. Real-time customer context from your own systems.\n\\- \\*\\*AI you actually control\\*\\* — Bring your own agent, build your own, or use Ari. Full observability, guardrails, and governance. No black-box hallucinations.\n\nUsed by Vercel, n8n, Raycast, Stytch, and technical teams who refuse to compromise on their support infrastructure.\n\n\\*\\*Website\\*\\*: https://plain.com\n\\*\\*Demo\\*\\*: https://plain.com/get/demo\n\\*\\*Blog\\*\\*: https://plain.com/blog\n\\*\\*API Docs\\*\\*: https://plain.com/docs",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:35.537965Z",
+      "section_path": "",
+      "chunk_index": 6,
+      "token_count": 189,
+      "quality_score": 0.7
+    },
+    {
+      "id": "ev_d74d40af9b16",
+      "source_type": "pricing_page",
+      "url": "https://plain.com/pricing",
+      "domain": "plain.com",
+      "page_title": "Plain Pricing — Plans from $35/seat/month | 7-Day Free Trial",
+      "content": "Onboarding process\n\nSelf-serve\n\nSelf-serve\n\nWhite glove\n\nPlain support\n\nEmail + chat\n\nSlack, email + chat\n\nDedicated CSM\n\nUser seats\n\nUp to 5\n\nUp to 10\n\nCustom\n\nViewer seats\n\nUnlimited\n\nUnlimited\n\nUnlimited\n\nSlack\n\n25 channels\n\nUnlimited\n\nUnlimited\n\nEmail\n\n2 addresses\n\n10 addresses\n\n25 addresses\n\nIn-app forms\n\nLive chat\n\nMicrosoft Teams\n\nDiscord\n\nHeadless portal\n\nDiscourse\n\nCustom channels\n\n[Credits included](https://help.plain.com/article/understanding-credits#how-credits-are-included-in-your-plan)\n\n2,000/mo\n\n15,000/mo\n\nCustom\n\nAuto-labelling\n\nUrgency detection\n\nThread summaries\n\nSlack ingestion\n\nSuggested responses\n\nReporting themes\n\n[Ari AI agent](https://plain.support.site/article/ai-agent)\n\n[Sidekick assistant](https://plain.support.site/article/sidekick)\n\nCredits apply\n\nCredits apply\n\nCredits apply\n\n[Lookup with Cursor](https://plain.support.site/article/cursor)\n\nKnowledge Base\n\n1\n\nUnlimited\n\nUnlimited\n\nAsk AI\n\n1\n\nUnlimited\n\nUnlimited\n\nCustomer inbox\n\n1\n\nUnlimited\n\nUnlimited\n\nAPI\n\nWebhooks\n\nEvents\n\nDiscord notifications\n\nEmail notifications\n\nAutoresponders\n\nTiers\n\nSaved views\n\nAccount owners\n\nLabels and sub-labels\n\nTeams\n\nCustom roles\n\nLinear integration\n\nJira integration\n\nShortcut integration\n\nincident.io integration\n\nRootly integration\n\nGithub integration\n\nCSAT\n\nBusiness hours\n\nSLAs\n\nEscalation paths\n\nWorkflows\n\nUp to 5\n\nUnlimited\n\nUnlimited",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:36.521288Z",
+      "section_path": "Pricing > Onboarding > Users > Workflow",
+      "chunk_index": 1,
+      "token_count": 342,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_4d4a5bfeb140",
+      "source_type": "pricing_page",
+      "url": "https://plain.com/pricing",
+      "domain": "plain.com",
+      "page_title": "Plain Pricing — Plans from $35/seat/month | 7-Day Free Trial",
+      "content": "Slack notifications\n\nSlack broadcasts\n\nIn-Slack actions\n\nPlain Slackbot customization\n\nSlack Discussions\n\nSlack Digests\n\nSlack Enterprise Grid\n\nThread fields\n\nTenants\n\nCustomer cards\n\nUnlimited\n\nUnlimited\n\nUnlimited\n\nCustomer card realtime\n\n12h cache\n\n15s\n\n15s\n\nReporting\n\n7 days\n\nAll time\n\nAll time\n\nTeam reporting\n\nProduct insights\n\nHubSpot sync\n\nHelp Scout sync\n\nZendesk importer\n\nIntercom importer\n\nSalesforce importer\n\nSupport from the entire Plain team\n\nSOC2 Type II Report\n\nAdvanced Security Review\n\nSupport SLAs\n\nUptime SLAs\n\nOnboarding & Integration Support\n\n[**7 Day Free Trial**](https://www.plain.com/get/trial)\n\n[**Book a Demo**](https://www.plain.com/get/demo)\n\n[**Book a Demo**](https://www.plain.com/get/demo)\n\n[**Case study**](https://www.plain.com/)\n\nWe see Plain as a tool very similar to Raycast. Focused on a great user experience, intelligent workflows, and truly empowering the teams that use it.\n\n![](https://framerusercontent.com/images/MtrskAkCe9fX8tQuTB6j5IiInPY.png?width=112&height=112)\n\nDaniel Sequeira\n\nHead of Business Operations\n\n![](https://framerusercontent.com/images/lG4L8PwZxItNW1DXRxsFqeWkhKs.png?width=1200&height=904)\n\n[Product](https://www.plain.com/product) [Customers](https://www.plain.com/customers) [Changelog](https://www.plain.com/changelog)\n\n![Logo](https://framerusercontent.com/assets/IvvgaGOkUPCzu38P5mip0tpzQ0.svg)\n\n![Logo](https://framerusercontent.com/assets/rCUZDh4DcoPgDpQzRKl1dywoDS8.svg)\n\n![Logo](https://framerusercontent.com/assets/zVE4nI32Zc4rcHs1gTImCTmh3E.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:36.521317Z",
+      "section_path": "Pricing > Choose your own adventure",
+      "chunk_index": 2,
+      "token_count": 381,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_3f27691a3775",
+      "source_type": "auth_docs",
+      "url": "https://help.plain.com/article/security",
+      "domain": "help.plain.com",
+      "page_title": "Our commitment to security | Plain Help Center",
+      "content": "We’re clear about what data we collect, how we use it, and how you can stay in control. For more information on how we process your data, read our [Privacy Policy](https://www.plain.com/legal/privacy-policy \"https://www.plain.com/legal/privacy-policy\") and [DPA](https://www.plain.com/legal/dpa \"https://www.plain.com/legal/dpa\").\n\nWe support your rights as a data owner:\n\n- You can request, access, or delete your data at any time.\n\n- We’ll never share your data without consent.\n\n- We’re available to help your team meet internal privacy or compliance goals.\n\n\nIf your team needs help mapping Plain’s security and compliance to your internal requirements, or you’d like to request additional documentation, just email us at [**help@plain.com**](mailto:help@plain.com \"mailto:help@plain.com\") **.**\n\n- We use Amazon Web Services to host Plain\n\n- All data is stored in Amazon Web Services `eu-west-2` (London) region\n\n- All data is encrypted in transit and at rest\n\n- All data is backed up regularly and encrypted at rest\n\n- We apply the following security best practices:\n\n  - All changes to our infrastructure, permissions, and code happen via code reviews\n\n  - We grant the least amount of privileges to IAM roles, systems, and engineers to perform their duties\n\n  - Administrator privileges are only used in the case of serious incidents, for routine maintenance tasks we provision IAM roles with fine-grained permissions.\n- We carefully evaluate 3rd party vendors before using them, regularly review them and the data they can access. Please see the [**Data Processing Addendum**](https://www.plain.com/legal/dpa \"https://www.plain.com/legal/dpa\") for the full list of vendors we use.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:35.644827Z",
+      "section_path": "Our commitment to security > Data security",
+      "chunk_index": 1,
+      "token_count": 422,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_71f4ae97de51",
+      "source_type": "auth_docs",
+      "url": "https://help.plain.com/article/security",
+      "domain": "help.plain.com",
+      "page_title": "Our commitment to security | Plain Help Center",
+      "content": "Any workspace older than six months, without any activity and no active billing subscription, will be automatically deleted **.**\n\nThe owners of the workspace will receive an email informing them of the upcoming deletion. This will be effective in **14 days** unless unless there is a response to these communications, asking us to cancel it.\n\nIn order to request a manual workspace deletion, please get in touch on **support@plain.com**. Our team will require you to confirm your identity before proceeding with the deletions.\n\nAll workspace deletions are final.\n\nOutbound requests we make to your target urls provide a HMAC signature with a shared secret key. Please see the [**Request signing**](https://www.plain.com/docs/request-signing#request-signing \"https://www.plain.com/docs/request-signing#request-signing\") documentation for more information.\n\nIf you think you found a security issue or have any questions related to security please email us at [**security@plain.com**](mailto:security@plain.com \"mailto:security@plain.com\").\n\nPlease keep your report concise, add steps to reproduce, and include a proof of concept if possible.\n\nWe will acknowledge valid reports within 48 hours of receipt. Please avoid following up more than once every 72 hours to allow our team to focus on fixing any issues.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:35.644859Z",
+      "section_path": "Our commitment to security > Reporting an issue",
+      "chunk_index": 2,
+      "token_count": 327,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_2ba171470868",
+      "source_type": "official_docs",
+      "url": "https://plain.com",
+      "domain": "plain.com",
+      "page_title": "Plain — The AI Support Stack Built for B2B",
+      "content": "Connect Slack, Microsoft Teams, Discord and email\n\nConnect your CRMs and issue tracker\n\nRespond to your first ticket\n\nDeploy an AI agent across all communication channels\n\nDefine SLAs, business hours, and customer tiers\n\nAutomate queries with workflows\n\nAutomatically generate AI insights from support requests\n\nDeploy a knowledge base, formed from your support messages\n\nHelp customers help themselves with Ask AI\n\n![](https://framerusercontent.com/images/5iVad1aarwQ4hpnB5scTeXeT5Y.svg?width=100&height=100)\n\nWe don’t see security as a set of badges, but as a core engineering principle. Every part of our platform is architected to protect your data.\n\n![Logo](https://framerusercontent.com/assets/D8HeSPP2ekaEAtOyyxYVkISDM.svg)\n\n![Logo](https://framerusercontent.com/assets/TwHJUCrKLlzt7Za9XuhTz3UbEGo.svg)\n\n![Logo](https://framerusercontent.com/assets/JQsVvMMNEzYbWgEABGNoii1fdlc.svg)\n\nJoin the teams who rely on Plain to\n\nprovide world-class support\n\n[**BOOK A DEMO**](https://www.plain.com/get/demo)\n\n[**Start for free**](https://www.plain.com/get/trial)\n\n© 2026 Plain\n\nNot Just Tickets Ltd\n\nPlain\n\n[Product](https://www.plain.com/product)\n\n[Pricing](https://www.plain.com/pricing)\n\n[Customers](https://www.plain.com/customers)\n\n[Sidekick](https://www.plain.com/sidekick)\n\n[Security](https://help.plain.com/article/security)\n\n[Integrations](https://www.plain.com/integrations)\n\n[Startup Program](https://www.plain.com/startups)\n\n[Careers](https://www.plain.com/careers)\n\n[Blog](https://www.plain.com/blog)\n\nSolutions\n\n[Agentic Infra](https://www.plain.com/support/agentic-infrastructure)\n\n[AI-Native](https://www.plain.com/support/ai-support)\n\n[Headless](https://www.plain.com/support/headless-support)\n\n[Multi-Channel](https://www.plain.com/support/multichannel-support)\n\nChannels\n\n[Slack](https://www.plain.com/channels/slack)\n\n[Microsoft Teams](https://www.plain.com/channels/microsoft-teams)\n\n[Discourse](https://help.plain.com/article/discourse)\n\n[Email](https://www.plain.com/channels/email)\n\n[Help Center](https://www.plain.com/channels/help-center)\n\n[In-app Forms](https://www.plain.com/channels/contact-forms)\n\n[Live Chat](https://help.plain.com/article/live-chat-overview)\n\nResources\n\n[Help Center](https://help.plain.com/)\n\n[API Reference](https://www.plain.com/docs/graphql/introduction)\n\n[Trust Center](https://trust.plain.com/)\n\n[Privacy](https://www.plain.com/legal/privacy-policy)\n\n[Terms](https://www.plain.com/legal/terms-and-conditions)\n\n[Data Processing](https://www.plain.com/legal/dpa)\n\n[Vulnerability](https://plain.support.site/article/security)\n\nSupport\n\n[Status](https://status.plain.com/)\n\n[@plainsupport](https://x.com/plainsupport)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:35.822392Z",
+      "section_path": "Build supportyour way > Engineered with enterprise-level security. Built for everyone.",
+      "chunk_index": 4,
+      "token_count": 666,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_f1df3a56f019",
+      "source_type": "official_docs",
+      "url": "https://plain.com",
+      "domain": "plain.com",
+      "page_title": "Plain — The AI Support Stack Built for B2B",
+      "content": "Break free from the duct tape, the rigid workflows, and the lock-in. Plain is AI support infrastructure that enables B2B teams to build anything – no-code or all-code.\n\n[**BOOK A DEMO**](https://www.plain.com/get/demo)\n\n[**Start a trial**](https://www.plain.com/get/trial)\n\nSupport from anywhere\n\nAsk anything\n\nOrchestrate agents\n\nLearn with insights\n\n![](https://framerusercontent.com/images/HniGCslQmEkXBEZ62EGDp5rlLV0.png?width=4261&height=3478)\n\n999+\n\nYour customers are talking to you in Slack, MS Teams, email, and inside your product – and your team is jumping between all those places. Insights are scattered, and each \"new support tool\" imposes their opinions on you.\n\nBut what if it was different?\n\nConnect your channels. Orchestrate every conversation. Get smarter with each interaction, all inside one unified workspace built to scale intelligently with you.\n\n![](https://framerusercontent.com/images/QaXF64QN6crFyLVhHLt9lxtGk0.png?width=918&height=240)\n\nChannels\n\nConsolidate support\n\nConnect and scale Slack, Microsoft Teams, Discord, email, chat, portal and more.\n\n![](https://framerusercontent.com/images/4fMUMIHFYYEYeYUafJRY0ErGPc.png?width=918&height=240)\n\nAssistant\n\nSupercharge your team\n\nGive your team an AI assistant that researches, triages and resolves across systems.\n\n![](https://framerusercontent.com/images/uDoDIuS5iZqyKdi5Puzx3LJeU.png?width=720&height=160)\n\nAgents\n\nRun any AI agent\n\nRun multiple AI agents while humans stay in control of complex conversations.\n\n![](https://framerusercontent.com/images/nnJ1Z6twWy5clYTqYQ9kDGkVMEU.png?width=927&height=240)\n\nWorkflows\n\nAutomate everything\n\nAuto route, trigger investigations, notify teams, or take action in your own systems.\n\n![](https://framerusercontent.com/images/EU64YWjpu1mNFGg8mHd42ZGpuS4.png?width=927&height=240)\n\nInsights\n\nLearn from support\n\nAutomatically learn from your support. Spot themes, churn risks and upsell potential.\n\n![](https://framerusercontent.com/images/zp1qJjNn0cFuxmNroJpabZ4Sc.png?width=720&height=160)\n\nAPI\n\nBuild anything\n\nEvery part of Plain can be extended, customized, or embedded into your own product and tooling.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:35.822076Z",
+      "section_path": "Build supportyour way > Meet a new approach:  Support Infrastructure",
+      "chunk_index": 0,
+      "token_count": 533,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_37e3a1939bb8",
+      "source_type": "official_docs",
+      "url": "https://plain.com",
+      "domain": "plain.com",
+      "page_title": "Plain — The AI Support Stack Built for B2B",
+      "content": "Plain is completely open, so you orchestrate your workload across any number of AI agents.\n\n[**Discover Agents**](https://help.plain.com/article/ai-skill#compatible-agents)\n\n![](https://framerusercontent.com/images/WkBItPiXVCAvEqvxvfypr0zLhk.png?width=2379&height=1440)\n\nOrchestrate actions\n\nRun multiple AI agents alongside human teammates. Plain gives you the infrastructure to coordinate them.\n\n![](https://framerusercontent.com/images/bvsrqJmYImBpetInGtvvQK6xo.png?width=1104&height=792)\n\nUse Ari, Plain's agent\n\nAri helps triage requests, investigate issues, and assist your team using the knowledge your team has already built.\n\n![](https://framerusercontent.com/images/itEZ6ZxH7NQGRihzA1yuE4xe0.png?width=4005&height=2482)\n\nBuild your own agents\n\nConnect your own models and internal data to create agents tailored to your workflows.\n\nAutomatically assign conversations, surface product issues, notify engineers, enrich conversations with customer data, or take action inside your own systems.\n\n[**Discover Workflows**](https://help.plain.com/article/workflows)\n\n![](https://framerusercontent.com/images/juscARyHRpqiMxu64YNLQUO1YE.png?width=2379&height=1440)\n\nConnect external systems\n\nRoute requests to any external service. Create a Linear issue, trigger a PagerDuty incident, or call your own API.\n\n![](https://framerusercontent.com/images/p3WPb80sY5aAtkILqIe4JcPGSE.png?width=2379&height=1440)\n\nBuild with AI\n\nLet AI decide how threads route – by context, tone, or anything else that's hard to capture with rules alone.\n\n![](https://framerusercontent.com/images/9fyd9WJLsoVvlw8bbeX1aPY6u7I.png?width=2379&height=1440)\n\nAuto-triage\n\nAutomatically assign labels, detect urgency, and keep thread summaries up to date as conversations evolve.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:35.822146Z",
+      "section_path": "Build supportyour way > Automate everything",
+      "chunk_index": 1,
+      "token_count": 437,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_9953a5fc0852",
+      "source_type": "official_docs",
+      "url": "https://plain.com",
+      "domain": "plain.com",
+      "page_title": "Plain — The AI Support Stack Built for B2B",
+      "content": "Sidekick helps you do customer work. It’s fully aware of customer context, product knowledge and historical interactions. Draft replies and find answers without ever leaving Plain.\n\n[**Discover Sidekick**](https://www.plain.com/sidekick)\n\n![](https://framerusercontent.com/images/oUS69BtYkWecucX2JSYu65cx3eM.png?width=1586&height=910)\n\nKnows everything\n\n…so you can ask anything. Sidekick understands customer history, previous chats, and product context.\n\n![](https://framerusercontent.com/images/Tb7yOk953iIUsSMT8rnWQTie4.png?width=1586&height=960)\n\nAlways there\n\nSidekick is just a keyboard shortcut away – no setup required. Close those tabs, and open Sidekick instead.\n\n![](https://framerusercontent.com/images/jvOBEi4PnM2UCRjgrkqzZPY95gs.png?width=1586&height=960)\n\nMultitalented\n\nGet key information, summarize, draft, and search all your knowledge sources without switching tools.\n\nMove beyond just answering tickets and drive product change instead. Get real-time, aggregated and automated insights from your support. Plain makes your data work for you.\n\n[**Discover Insights**](https://plain.support.site/article/themes-beta)\n\n![](https://framerusercontent.com/images/ZSM2VPooXv3ddBOoOxPBR60EXJE.png?width=1158&height=660)\n\nDetect trends\n\nSpot recurring issues, trends, and opportunities across every conversation - without lifting a finger.\n\n![](https://framerusercontent.com/images/MRgBz58zL9oUn78GF6b2fmwWIoI.png?width=1158&height=660)\n\nCatch up instantly\n\nGet summaries and instant context on every thread – what’s changed, what’s new and what matters.\n\n![](https://framerusercontent.com/images/6tiQTnB6u6K7oakv4Z7HMzWZHk.png?width=1158&height=660)\n\nGet the latest, every day\n\nGet daily summaries that surface what’s shifting across your customers, who's working on what, and what needs to happen next.\n\n![](https://framerusercontent.com/images/uZAD4PhE4WbVZvu532HyTmG4g.svg?width=1919&height=297)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:35.822224Z",
+      "section_path": "Build supportyour way > Learn from customers",
+      "chunk_index": 2,
+      "token_count": 477,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_123dc2090cbe",
+      "source_type": "official_docs",
+      "url": "https://plain.com",
+      "domain": "plain.com",
+      "page_title": "Plain — The AI Support Stack Built for B2B",
+      "content": "We get it. When you’re comparing platforms, they all look the same. We’ll make it easy for you. Here’s why, and when, we win.\n\nWhen you need performance and scale\n\nPlain is designed for work, not to feel like work. Every aspect of the Plain interface has been forged, stress-tested and iterated on by and with some of the fastest-growing, and most demanding support teams in the world. They love it, and we think you will too.\n\nWhen you demand complete extensibility\n\nWe give you flexible building blocks, not rigid opinions. Plain is API-first, so everything you see in the product can be done programmatically. Extend workflows, automate the edge cases, or replace entire pieces with your own logic. If you can imagine it, you can ship it.\n\nWhen you want to enjoy the buying process\n\nSeriously. People often choose us because working together feels straightforward. We know you are not switching platforms all day because you love it. So we focus on clarity, honest guidance and removing friction. Our sales team knows the product deeply and works with you to get to a yes or no quickly, whichever is right.\n\nPlain isn’t just faster, it’s built to last.\n\n[**Case study**](https://www.plain.com/customers/granola)\n\nWe chose Plain because it was the right fit for our fast-moving team to get going quickly. It’s helped us stay organized & responsive as we 100x-ed our users, and we’re confident it will keep supporting us as we continue to grow.\n\n![](https://framerusercontent.com/images/jLV9jJqA2YsP9nRRAc9XmzOW7Qk.png?width=224&height=224)\n\nJo Barrow\n\nChief of Staff\n\n![](https://framerusercontent.com/images/BIVM0HGeOSVqxdpYX8nYDgpkk.png?width=1199&height=595)\n\nWith Plain powering our support, we don't have to think about scaling challenges. Everything just works.\n\n![](https://framerusercontent.com/images/YPw04PINysqvotFGmFx9P7NhjRA.png?width=224&height=224)\n\nChristopher O'Neill\n\nHead of Developer Success\n\nWe see Plain as a tool very similar to Raycast. Focused on a great user experience, intelligent workflows, and truly empowering the teams that use it.\n\n![](https://framerusercontent.com/images/MtrskAkCe9fX8tQuTB6j5IiInPY.png?width=112&height=112)\n\nDaniel Sequeira\n\nHead of Business Ops",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:35.822300Z",
+      "section_path": "Build supportyour way > Take their word for it",
+      "chunk_index": 3,
+      "token_count": 550,
+      "quality_score": 0.36
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Support infrastructure for technical B2B SaaS teams.",
+      "evidence_ids": [
+        "ev_9cb91fc90e6a"
+      ]
+    },
+    "category": {
+      "value": "Support and Helpdesk",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "OAuth2",
+      "evidence_ids": [
+        "ev_c371cc8c0196"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_764b52d220c3"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API, GraphQL",
+      "evidence_ids": [
+        "ev_e0c281dc59d6"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_e0c281dc59d6"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_9cb91fc90e6a"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_9cb91fc90e6a"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_9cb91fc90e6a"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.75,
+    "fields_checked": 8,
+    "fields_supported": 6,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.75,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.75 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

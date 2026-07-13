@@ -1,0 +1,1275 @@
+{
+  "app_name": "Notion",
+  "official_domain": "developers.notion.com",
+  "homepage": {
+    "url": "https://developers.notion.com",
+    "title": "Notion",
+    "confidence": 0.4,
+    "confidence_reason": [
+      "official_docs: +0.40"
+    ],
+    "is_official": true,
+    "discovered_from": "domain_probe"
+  },
+  "authentication": {
+    "primary": {
+      "url": "https://developers.notion.com/reference/authentication.md",
+      "title": "Authentication",
+      "confidence": 0.75,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "canonical_doc: +0.10",
+        "llms_txt_source: +0.05"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "alternatives": [
+      {
+        "url": "https://developers.notion.com/cli/get-started/authentication.md",
+        "title": "Authentication",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      }
+    ]
+  },
+  "api_reference": {
+    "primary": {
+      "url": "https://developers.notion.com/reference/admin/add-legal-hold-users.md",
+      "title": "Add users to a legal hold",
+      "confidence": 0.75,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "canonical_doc: +0.10",
+        "llms_txt_source: +0.05"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "alternatives": [
+      {
+        "url": "https://developers.notion.com/reference/admin/create-legal-hold.md",
+        "title": "Create a legal hold",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https://developers.notion.com/reference/admin/enqueue-space-export.md",
+        "title": "Enqueue a workspace export",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https://developers.notion.com/reference/admin/export-legal-hold.md",
+        "title": "Export a legal hold",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      }
+    ]
+  },
+  "pricing": {
+    "primary": null,
+    "alternatives": []
+  },
+  "mcp": {
+    "primary": {
+      "url": "https://developers.notion.com/guides/mcp/overview",
+      "title": "",
+      "confidence": 0.6,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "alternatives": []
+  },
+  "developer_portal": {
+    "primary": {
+      "url": "https://developers.notion.com/compliance/audit-log-events.md",
+      "title": "Audit log events",
+      "confidence": 0.65,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "llms_txt_source: +0.05"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "alternatives": [
+      {
+        "url": "https://developers.notion.com/compliance/overview.md",
+        "title": "Overview",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https://developers.notion.com/compliance/siem-events.md",
+        "title": "SIEM events",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https://developers.notion.com/page/examples.md",
+        "title": "Examples",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      }
+    ]
+  },
+  "sdk": null,
+  "webhooks": null,
+  "llms_txt": {
+    "url": "https://developers.notion.com/llms.txt",
+    "title": "llms.txt index",
+    "confidence": 1.0,
+    "confidence_reason": [
+      "llms_txt_source: +0.05",
+      "official_docs: +0.40",
+      "canonical_doc: +0.10"
+    ],
+    "is_official": true,
+    "discovered_from": "llms_txt"
+  },
+  "inventory": {
+    "app_name": "Notion",
+    "official_domain": "developers.notion.com",
+    "items": [
+      {
+        "url": "https://developers.notion.com",
+        "page_type": "homepage",
+        "title": "Notion",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/cli/get-started/authentication.md",
+        "page_type": "authentication",
+        "title": "Authentication",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/cli/get-started/installation.md",
+        "page_type": "developer_portal",
+        "title": "Installation",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/cli/get-started/overview.md",
+        "page_type": "developer_portal",
+        "title": "Notion CLI",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/cli/reference/commands.md",
+        "page_type": "api_reference",
+        "title": "Command reference",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/compliance/audit-log-events.md",
+        "page_type": "developer_portal",
+        "title": "Audit log events",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/compliance/overview.md",
+        "page_type": "developer_portal",
+        "title": "Overview",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/compliance/siem-events.md",
+        "page_type": "developer_portal",
+        "title": "SIEM events",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/page/examples.md",
+        "page_type": "developer_portal",
+        "title": "Examples",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/admin/add-legal-hold-users.md",
+        "page_type": "api_reference",
+        "title": "Add users to a legal hold",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/admin/create-legal-hold.md",
+        "page_type": "api_reference",
+        "title": "Create a legal hold",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/admin/enqueue-space-export.md",
+        "page_type": "api_reference",
+        "title": "Enqueue a workspace export",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/admin/export-legal-hold.md",
+        "page_type": "api_reference",
+        "title": "Export a legal hold",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/admin/get-legal-hold.md",
+        "page_type": "api_reference",
+        "title": "Retrieve a legal hold",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/admin/intro.md",
+        "page_type": "api_reference",
+        "title": "Introduction",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/admin/list-legal-hold-pages.md",
+        "page_type": "api_reference",
+        "title": "List pages on a legal hold",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/admin/list-legal-hold-users.md",
+        "page_type": "api_reference",
+        "title": "List users on a legal hold",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/admin/list-legal-hold-workspaces.md",
+        "page_type": "api_reference",
+        "title": "List workspaces on a legal hold",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/admin/list-legal-holds.md",
+        "page_type": "api_reference",
+        "title": "List legal holds",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/admin/release-legal-hold.md",
+        "page_type": "api_reference",
+        "title": "Release a legal hold",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/admin/remove-legal-hold-user.md",
+        "page_type": "api_reference",
+        "title": "Remove a user from a legal hold",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/admin/revoke-user-session.md",
+        "page_type": "api_reference",
+        "title": "Revoke a managed user's sessions",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/admin/scopes.md",
+        "page_type": "api_reference",
+        "title": "Scopes",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/admin/update-legal-hold.md",
+        "page_type": "api_reference",
+        "title": "Update a legal hold",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/admin/versioning.md",
+        "page_type": "api_reference",
+        "title": "Versioning",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/authentication.md",
+        "page_type": "authentication",
+        "title": "Authentication",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/block.md",
+        "page_type": "api_reference",
+        "title": "Block",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///reference/block",
+        "page_type": "api_reference",
+        "title": "block type objects",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/capabilities.md",
+        "page_type": "api_reference",
+        "title": "Connection capabilities",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/changes-by-version.md",
+        "page_type": "api_reference",
+        "title": "Changes by version",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/comment-attachment.md",
+        "page_type": "api_reference",
+        "title": "Comment attachment",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///reference/file-object",
+        "page_type": "api_reference",
+        "title": "files",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///reference/comment-object",
+        "page_type": "api_reference",
+        "title": "Comment",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/comment-display-name.md",
+        "page_type": "api_reference",
+        "title": "Comment display name",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/comment-object.md",
+        "page_type": "api_reference",
+        "title": "Comment",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///reference/capabilities",
+        "page_type": "api_reference",
+        "title": "Capabilities guide",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/complete-file-upload.md",
+        "page_type": "api_reference",
+        "title": "Complete a file upload",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///reference/file-upload",
+        "page_type": "api_reference",
+        "title": "file upload",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/create-a-comment.md",
+        "page_type": "api_reference",
+        "title": "Create comment",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/create-a-data-source.md",
+        "page_type": "api_reference",
+        "title": "Create a data source",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/create-a-database.md",
+        "page_type": "api_reference",
+        "title": "Create a database",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/create-a-token.md",
+        "page_type": "api_reference",
+        "title": "Create a token",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/create-database.md",
+        "page_type": "api_reference",
+        "title": "Create a database",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/create-file.md",
+        "page_type": "api_reference",
+        "title": "Create a file upload",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/create-view.md",
+        "page_type": "api_reference",
+        "title": "Create a view",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/create-view-query.md",
+        "page_type": "api_reference",
+        "title": "Create a view query",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/data-source.md",
+        "page_type": "api_reference",
+        "title": "Data source",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/database.md",
+        "page_type": "api_reference",
+        "title": "Database",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/delete-a-block.md",
+        "page_type": "api_reference",
+        "title": "Delete a block",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/delete-a-comment.md",
+        "page_type": "api_reference",
+        "title": "Delete comment",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/delete-view.md",
+        "page_type": "api_reference",
+        "title": "Delete a view",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/delete-view-query.md",
+        "page_type": "api_reference",
+        "title": "Delete a view query",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/emoji-and-icon.md",
+        "page_type": "api_reference",
+        "title": "Emoji and icon",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/file-object.md",
+        "page_type": "api_reference",
+        "title": "File",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/file-upload.md",
+        "page_type": "api_reference",
+        "title": "File Upload",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/filter-data-source-entries.md",
+        "page_type": "api_reference",
+        "title": "Filter data source entries",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/get-block-children.md",
+        "page_type": "api_reference",
+        "title": "Retrieve block children",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/get-databases.md",
+        "page_type": "api_reference",
+        "title": "Get databases",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/get-self.md",
+        "page_type": "api_reference",
+        "title": "Retrieve your token's bot user",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///reference/user",
+        "page_type": "api_reference",
+        "title": "User",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/get-user.md",
+        "page_type": "api_reference",
+        "title": "Retrieve a user",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/get-users.md",
+        "page_type": "api_reference",
+        "title": "List all users",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/get-view-query-results.md",
+        "page_type": "api_reference",
+        "title": "Get view query results",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/intro.md",
+        "page_type": "api_reference",
+        "title": "Introduction",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/introspect-token.md",
+        "page_type": "api_reference",
+        "title": "Introspect a token",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/list-comments.md",
+        "page_type": "api_reference",
+        "title": "List comments",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/list-custom-emojis.md",
+        "page_type": "api_reference",
+        "title": "List custom emojis",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/list-data-source-templates.md",
+        "page_type": "api_reference",
+        "title": "List data source templates",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/list-file-uploads.md",
+        "page_type": "api_reference",
+        "title": "List file uploads",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/list-views.md",
+        "page_type": "api_reference",
+        "title": "List views",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/move-page.md",
+        "page_type": "api_reference",
+        "title": "Move a page",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/page.md",
+        "page_type": "api_reference",
+        "title": "Page",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///reference/page-property-values",
+        "page_type": "api_reference",
+        "title": "page property values",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/page-property-values.md",
+        "page_type": "api_reference",
+        "title": "Page properties",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/parent-object.md",
+        "page_type": "api_reference",
+        "title": "Parent",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/patch-block-children.md",
+        "page_type": "api_reference",
+        "title": "Append block children",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.notion.com/guides/mcp/overview",
+        "page_type": "mcp",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      }
+    ],
+    "stats": {
+      "queries": 2,
+      "urls_discovered": 77,
+      "official_urls": 77,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 5
+    }
+  },
+  "stats": {
+    "queries": 2,
+    "urls_discovered": 77,
+    "official_urls": 77,
+    "non_official_filtered": 0,
+    "blog_community_filtered": 0,
+    "third_party_sdk_filtered": 0,
+    "duplicates_removed": 0,
+    "canonical_selected": 5
+  }
+}

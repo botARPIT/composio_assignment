@@ -1,0 +1,347 @@
+{
+  "app": {
+    "id": 57,
+    "name": "Bright Data",
+    "website": "brightdata.com",
+    "category_hint": "Data SEO and Scraping"
+  },
+  "documentation_map": {
+    "app_name": "Bright Data",
+    "official_domain": "brightdata.com",
+    "homepage": {
+      "url": "https://brightdata.com",
+      "title": "Bright Data",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://docs.brightdata.com/api-reference/authentication",
+        "title": "Authentication - Bright Data Docs",
+        "confidence": 0.95,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://docs.brightdata.com/api-reference/scrapers/social-media-apis/overview",
+        "title": "Social media scraper APIs - Bright Data Docs",
+        "confidence": 0.95,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://brightdata.com/pricing",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://docs.brightdata.com/ai/mcp-server/overview",
+        "title": "MCP server overview - Bright Data Docs",
+        "confidence": 0.85,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://brightdata.com",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "Bright Data",
+      "official_domain": "brightdata.com",
+      "items": [
+        {
+          "url": "https://brightdata.com",
+          "page_type": "homepage",
+          "title": "Bright Data",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://brightdata.com/pricing",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://brightdata.com",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.brightdata.com/api-reference/authentication",
+          "page_type": "authentication",
+          "title": "Authentication - Bright Data Docs",
+          "confidence": 0.95,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.brightdata.com/api-reference/scrapers/social-media-apis/overview",
+          "page_type": "api_reference",
+          "title": "Social media scraper APIs - Bright Data Docs",
+          "confidence": 0.95,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.brightdata.com/ai/mcp-server/overview",
+          "page_type": "mcp",
+          "title": "MCP server overview - Bright Data Docs",
+          "confidence": 0.85,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 3,
+        "urls_discovered": 6,
+        "official_urls": 6,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 1,
+        "canonical_selected": 6
+      }
+    },
+    "stats": {
+      "queries": 3,
+      "urls_discovered": 6,
+      "official_urls": 6,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 1,
+      "canonical_selected": 6
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_664891f2add8",
+      "source_type": "auth_docs",
+      "url": "https://docs.brightdata.com/api-reference/authentication",
+      "domain": "docs.brightdata.com",
+      "page_title": "Authentication - Bright Data Docs",
+      "content": "- API Access - Authenticate and interact with the Bright Data platform using an API key/token.\n- Native Access - Authenticate and interact with the Bright Data platform using proxy protocol usernameandpassword.\nBoth API and Native access methods are billed at the same rate. Usage is charged according to your pricing plan for each Bright Data product.\nHow do I authenticate with API Key?\nAn API key is a secure hashed token used to authenticate with Bright Data API. We create a default key for you upon account creation automatically. You can create additional API keys for different users and with different permissions.Manage your API Keys anytime in the Account settings.\nHow do I relay the API key within a request?\nHere’s an example request:Sample Request\nAuthorization header:\n<token> is your API key, which is required for every API request.\nHow do I generate a new API key?\nTo generate a new API key, follow these steps:Sign In\nSign in to Bright Data’s control panel and go to your Account settings.\nConfigure your API key\nSet the User, Permissions, and Expiration date (or choose ‘Unlimited’), then click Save.\nWhat are API Key options and configuration?\nWhen creating an API key, you can assign one of five permission levels to control access and ensure security based on user roles or use cases. Learn more about user roles here.What permissions level does an API key have?\nThere are 5 types of permissions to choose from to control API key access:- Admin: Grants full access to the account, including all Billing, Financial, product settings and configurations.\n- Finance: Allows access to Billing and Financial pages only.\n- Ops: Allows access to proxy/API configurations but restricts Billing access.\n- Limit: Permits management of proxy passwords and IP allowlists/denylists.\n- User: Enables API usage on the proxy/API level without access to Billing or product configuration pages.\nDoes the API Key have an expiration date?\nWhen creating an API key, you can setup its expiration date. Requests authenticating with this key past the expiration date will be denied. You can setup the expiration date asunlimited - although this is possible, we strongly recommend to setup an expiration date.\nConsult your organization’s information or data security officer for instructions.\nHow can I view the API Key settings and configuration?\nYou can view and manage your API Keys in Account settings.Why can’t I see a plain text version of my API Key, or copy it?\nFor your security, we do not allow plain text view of API keys withadmin permissions. After creation you will be offered to copy and save the key.\nCan I refresh the API key?\nYes. Once you click “Refresh” we will generate a new API key. After the refresh, any request you will send with the old key will fail to authenticate.Where should I save the API key with admin permissions?\nAPI keys are like passwords and should be dealt and saved with outmost care and under controlled access. Consult your IT manager or security administrator on how and where to save the keys per your organizations’ processes and regulation.How do I authenticate with native proxy protocol?\nWhich products can I access with proxy protocol?\nProxy protocol access is supported by:- All proxy networks (Datacenter, ISP, Residential, and Mobile)\n- Web Unlocker\n- Scraping Browser\nHow do I authenticate with native proxy username and password?\nHere’s an example of a Native Access request:Sample Request\n--proxy-user parameter which holds the authentication credentials:\nproxy-user\n- ACCOUNT_ID- your unique customer identifier.\n- PROXY_NAME- the name you gave your proxy or API (e.g.,- web_unlocker1,- datacenter_proxy1).\n- PROXY_PASSWORD- the password shown in your Access Details.\nUsername/password format\n- All parameters are case sensitive.\n- The string must be consecutive without spaces.\n- -(dash/minus sign) separates the username substrings, and- :(colon) separates the username from the password.\nAccount ID\nYour Account ID is a unique identifier automatically generated when your Bright Data account is created. It is used for authentication and account-related operations. To find your Account ID, follow these steps:Click on Account Settings in the left-hand menu.\nYour Account ID is always a text string that begins with \nhl_###.Username\nEach product you create in the Bright Data dashboard is assigned a Username visible in the product’s Access Details section. The username follows this format:brd-customer-hl_7abed23d-zone-web_unlocker1\nThis name is set once when you create a proxy or API and cannot be changed later. You can find your username by opening your proxy or API (under Proxies or Web Access) and checking the Access Details section.\nPassword\nEach proxy or API is assigned a unique Password that is required for authenticating Native Access requests. You can find it in the Access Details section. To view or update your password, follow these steps:Comparing API Access vs. Native Access\n| Feature | API Access | Native Access | \n|---|---|---|\n| Used for | Seamless integration with scripts, automation tools, or third-party APIs | Direct proxy connections in browsers, crawlers, or proxy-compatible tools | \n| Recommended products | - Web Unlocker API - SERP - Browsers - Scrapers - Functions - Marketplace | Proxies | \n| SSL certificate | Not required | Required to access without KYC the residential network & unlocker. More info here. | \n| Connection via | API endpoint | Proxy endpoint | \n| Authentication | API key | username:password | \n| Output options | HTML or JSON | HTML |",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:07:46.544390Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 1388,
+      "quality_score": 0.98
+    },
+    {
+      "id": "ev_53dd19574a80",
+      "source_type": "api_reference",
+      "url": "https://docs.brightdata.com/api-reference/scrapers/social-media-apis/overview",
+      "domain": "docs.brightdata.com",
+      "page_title": "Social media scraper APIs - Bright Data Docs",
+      "content": "Supported platforms\nTikTok\nX (Twitter)\nYouTube\nQuora\nVimeo\nHow the endpoints are organized\nEach Social Media Scraper API endpoint is dedicated to a single data type and a single input method. Endpoint names follow the pattern{platform}-{object}-{action}-by-{input}, for example instagram-posts-collect-by-url or reddit-posts-discover-by-keyword.\nTwo action types cover every endpoint:\n- Collect by URL: you pass one or more canonical URLs and receive the structured record for each target (profile, post, video, job, listing). Use this when you already know what you want.\n- Discover by keyword, username, category or hashtag: you pass a query and the endpoint returns the matching set of URLs and records. Use this when you need to find items before collecting them.\ndiscover endpoint first to build a URL list, then feed that list into the matching collect-by-url endpoint on the same platform.\nEndpoint coverage by platform\n| Platform | Endpoints | What you can collect | \n|---|---|---|\n| 15 | Pages, posts, comments, profiles, events, reels, marketplace listings, company reviews | |\n| 8 | Profiles, posts, reels, comments | |\n| 10 | Profiles, companies, posts, jobs, people discovery | |\n| TikTok | 12 | Profiles, posts, comments, TikTok Shop products | \n| 4 | Posts by URL, subreddit or keyword and post comments | |\n| X (Twitter) | 6 | Posts and profiles by URL, username or profile array | \n| YouTube | 10 | Videos, channels and comments by URL, keyword, hashtag or podcast | \n| 1 | Profiles and pins | |\n| Quora | 1 | Posts and answers | \n| Vimeo | 1 | Videos and channels | \nData types each platform exposes\nThe endpoints map to three data types that are interconnected, so the output of one can be the input to another:- Profiles: user, page, channel or company data, with metrics such as followers, subscribers and post counts.\n- Posts: individual posts, reels, videos, jobs or listings, with engagement metrics such as likes, views, comments and hashtags.\n- Comments: replies and reactions attached to a specific post or video.\nExample: end-to-end YouTube collection\n- Call youtube-channels-discover-by-keywordwith a search term to find channels.\n- Pass the channel URLs to youtube-channels-collect-by-urlfor channel metadata.\n- Pass the same channel URLs to youtube-videos-collect-by-urlto fetch videos.\n- Pass the resulting video URLs to youtube-comments-collect-by-urlto fetch comments.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:07:46.609433Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 600,
+      "quality_score": 0.78
+    },
+    {
+      "id": "ev_0b0e70597f95",
+      "source_type": "pricing_page",
+      "url": "https://brightdata.com/pricing",
+      "domain": "brightdata.com",
+      "page_title": "Top-Tier Proxies & Scraping APIs Pricing",
+      "content": "Bright Data's Products Pricing\nDesigned to meet enterprise companies' unique needs and challengesProxy Networks Pricing\nElevate your business with our top-tier proxy services.\n- Largest Geographic Coverage\n- Battle-Tested Stability & Speeds\n- 400M+ monthly Residential IPs\nWeb Scraper API Pricing\nEasily extract web data with our powerful Web Scraper API.\n- Pre-built scraper APIs\n- IP rotation & CAPTCHA handling\n- Scalable infrastructure support\nScraping Functions Pricing\nEasily create your custom scraper from scratch or with our templates.\n- Pre-made web scraper templates\n- Browser scripting in JavaScript\n- Auto-scaling infrastructure\nScraping Browser Pricing\nAccess our Scraping Browser, compatible with leading web automation tools.\n- Built-In Website Unlocking\n- Save Time & Resources\n- Puppeteer & Playwright Compatible\nSERP API Pricing\nAccess our powerful SERP API to retrieve live data from any search engine.\n- Data Delivered in JSON or HTML\n- Save Time & Resources\n- Search Multiple Search Engines\nWeb Unlocker Pricing\nStart accessing websites smoothly by rotating IPs and solving CAPTCHAs.\n- Handles all Website Unlocking\n- Solves CAPTCHA\n- Tackles headers, user agents, & cookies\nDatasets Pricing\nAccess the data you need without coding using our ready-to-use datasets.\n- Subscription option\n- Dedicated account manager\n- No coding\nBright Insights Pricing\nExplore a world of eCommerce insights, elevating your brand to new heights.\n- Actionable eCommerce insights\n- Data accuracy\n- Multiple use cases",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:07:48.356069Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 379,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_9dff6dbf2274",
+      "source_type": "official_docs",
+      "url": "https://brightdata.com",
+      "domain": "brightdata.com",
+      "page_title": "Bright Data - All in One Platform for Proxies and Web Scraping",
+      "content": "The web's data, unlocked\nDiscover, access, extract, and interact with any public website. Get structured, reliable, real-time or historical data at petabyte-scale. Ready for any model, pipeline, or workflow.\n- Instant\n scraper APIs\n- Unstoppable browsing \n infrastructure\n- AI-ready\n BI-ready datasets\n- 400M+ proxy IPs \n from 195 countries\nTrusted by 20,000+ customers worldwide\nFrom DIY scraping to hands-off data delivery\nData Feeds\nEasily access structured, high-quality web data on demand. Real-time, pre-collected or historical – tailored to your needs.\n- 5B+ records regularly refreshed; 250+ domains\n- Automated data quality validation checks\n- Seamless API and webhook integration\n- Minimize engineering effort required\nWeb Access APIs\nBuild and scale advanced scraping operations effortlessly. Search, crawl and navigate reliably – without being blocked.\n- Automatically avoid anti-bot measures and CAPTCHAs\n- Advanced JS rendering and remote browsers\n- High performance with near-zero downtime\n- Minimize setup and maintenance required\nProxy Infrastructure\nLeverage the world’s largest proxy network for reliable web data extraction at scale. 100% ethically-sourced and compliant.\n- Full control, visibility and enterprise-grade security\n- Integrated Proxy Manager and Management APIs\n- Optimized routing for speed and reliability\n- 99.99% uptime and 99.95% success rate\nUniversal compatibility with all AI/ML workflows and data infrastructure\nPowered by an award-winning proxy network\nOver 400M+ residential proxy IPs, best-in-class technology and the ability to target any country, city, carrier & ASN make our premium proxy services a top choice for developers.\nWe’ll support you every step of the way\nTalk to a web data expert to get the most out of your data\n- Rated #1 by customers on G2\n- Under 10 minutes average response time\n- 24/7 support anytime, anywhere\nLeading the way in ethical web data collection\nWe have set the gold standard for ethical and compliant web data practices. Our peer network is built on trust, with every member personally opting in and the guarantee of zero personal data collection. We champion the collection of only publicly available data, backed by an industry-leading Know Your Customer process and a transparent Acceptable Use Policy. Our global, multilingual Compliance & Ethics team, the first of its kind, ensures we stay ahead of regulatory changes and best practices.\nUnwavering commitment to security and privacy\nCollaborations with security giants like VirusTotal, Avast, and AVG\nMonitoring of 30+ billion domains, blocking unapproved content and ensuring domain health\nAdherence to GDPR, CCPA, and SEC regulations, with a dedicated Privacy Center for user empowerment\nProactive abuse prevention through global partnerships and multiple reporting channels\nA pro bono program using web data and data\nexpertise to drive change across the world",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:07:47.431927Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 725,
+      "quality_score": 0.56
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Bright Data provides web data extraction services through a robust proxy network and APIs.",
+      "evidence_ids": [
+        "ev_9dff6dbf2274"
+      ]
+    },
+    "category": {
+      "value": "Data SEO and Scraping",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "API Key, Native Access (username:password)",
+      "evidence_ids": [
+        "ev_664891f2add8"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_0b0e70597f95"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API, Webhooks",
+      "evidence_ids": [
+        "ev_9dff6dbf2274"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_53dd19574a80"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_9dff6dbf2274"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_9dff6dbf2274"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_9dff6dbf2274"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.75,
+    "fields_checked": 8,
+    "fields_supported": 6,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.75,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.75 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

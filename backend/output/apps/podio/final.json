@@ -1,0 +1,455 @@
+{
+  "app": {
+    "id": 6,
+    "name": "Podio",
+    "website": "podio.com",
+    "category_hint": "CRM and Sales"
+  },
+  "documentation_map": {
+    "app_name": "Podio",
+    "official_domain": "podio.com",
+    "homepage": {
+      "url": "https://podio.com",
+      "title": "Podio",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://podio.com/login?provider=podio&return_to=https%3A%2F%2Fpodio.com%2Fdocs%2Fauthentication",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://podio.com/login?provider=podio&return_to=https%3A%2F%2Fpodio.com%2Fdocs%2Fapi",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://podio.com/login?provider=podio&return_to=https%3A%2F%2Fpodio.com%2Fpricing",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://podio.com/login?provider=podio&return_to=https%3A%2F%2Fpodio.com%2Fdocs%2Fmcp",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://podio.com/login?provider=podio&return_to=https%3A%2F%2Fpodio.com%2Fdocs",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "Podio",
+      "official_domain": "podio.com",
+      "items": [
+        {
+          "url": "https://podio.com",
+          "page_type": "homepage",
+          "title": "Podio",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://podio.com/login?provider=podio&return_to=https%3A%2F%2Fpodio.com%2Fdocs%2Fauthentication",
+          "page_type": "authentication",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://podio.com/login?provider=podio&return_to=https%3A%2F%2Fpodio.com%2Fdocs%2Fapi",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://podio.com/login?provider=podio&return_to=https%3A%2F%2Fpodio.com%2Fpricing",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://podio.com/login?provider=podio&return_to=https%3A%2F%2Fpodio.com%2Fdocs",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://podio.com/login?provider=podio&return_to=https%3A%2F%2Fpodio.com%2Fdocs%2Fmcp",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 0,
+        "urls_discovered": 6,
+        "official_urls": 6,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 6
+      }
+    },
+    "stats": {
+      "queries": 0,
+      "urls_discovered": 6,
+      "official_urls": 6,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 6
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_77b053457be7",
+      "source_type": "auth_docs",
+      "url": "https://podio.com/login?provider=podio&return_to=https%3A%2F%2Fpodio.com%2Fdocs%2Fauthentication",
+      "domain": "podio.com",
+      "page_title": "Login | Podio",
+      "content": "Email\n\nPassword\n\nSign In\n\nRemember me\n\n[Forgot password?](https://podio.com/user/recover/)\n\nDon't have an account? [Sign up](https://podio.com/signup)\n\nShareFileGoogleMicrosoft\n\n![](https://d3apguah0u98pa.cloudfront.net/images/locale/en_GB/flag16x11.png)English\n\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/da_DK/flag16x11.png)Dansk](https://podio.com/locales/da_DK)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/de_DE/flag16x11.png)Deutsch](https://podio.com/locales/de_DE)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/fr_FR/flag16x11.png)Français](https://podio.com/locales/fr_FR)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/es_ES/flag16x11.png)Español](https://podio.com/locales/es_ES)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/it_IT/flag16x11.png)Italiano](https://podio.com/locales/it_IT)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/pt_PT/flag16x11.png)Português brasileiro](https://podio.com/locales/pt_PT)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/nl_NL/flag16x11.png)Nederlands](https://podio.com/locales/nl_NL)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/ja_JP/flag16x11.png)日本語](https://podio.com/locales/ja_JP)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/sv_SE/flag16x11.png)Svenska](https://podio.com/locales/sv_SE)\n\n![](https://d3apguah0u98pa.cloudfront.net/images/locale/en_GB/flag16x11.png)English\n\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/da_DK/flag16x11.png)Dansk](https://podio.com/locales/da_DK)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/de_DE/flag16x11.png)Deutsch](https://podio.com/locales/de_DE)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/fr_FR/flag16x11.png)Français](https://podio.com/locales/fr_FR)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/es_ES/flag16x11.png)Español](https://podio.com/locales/es_ES)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/it_IT/flag16x11.png)Italiano](https://podio.com/locales/it_IT)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/pt_PT/flag16x11.png)Português brasileiro](https://podio.com/locales/pt_PT)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/nl_NL/flag16x11.png)Nederlands](https://podio.com/locales/nl_NL)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/ja_JP/flag16x11.png)日本語](https://podio.com/locales/ja_JP)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/sv_SE/flag16x11.png)Svenska](https://podio.com/locales/sv_SE)\n\n- [About Podio](https://podio.com/site/)\n- [Terms of Service](https://www.progress.com/legal)\n- [Privacy Policy](https://www.progress.com/legal/privacy-policy)\n- [Cookie preferences](https://podio.com/login?provider=podio&return_to=https%3A%2F%2Fpodio.com%2Fdocs%2Fauthentication#)\n\n{}",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:36.572626Z",
+      "section_path": "Sign in with Podio > Sign in with",
+      "chunk_index": 0,
+      "token_count": 709,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_71863d412915",
+      "source_type": "api_reference",
+      "url": "https://podio.com/login?provider=podio&return_to=https%3A%2F%2Fpodio.com%2Fdocs%2Fapi",
+      "domain": "podio.com",
+      "page_title": "Login | Podio",
+      "content": "Email\n\nPassword\n\nSign In\n\nRemember me\n\n[Forgot password?](https://podio.com/user/recover/)\n\nDon't have an account? [Sign up](https://podio.com/signup)\n\nShareFileGoogleMicrosoft\n\n![](https://d3apguah0u98pa.cloudfront.net/images/locale/en_GB/flag16x11.png)English\n\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/da_DK/flag16x11.png)Dansk](https://podio.com/locales/da_DK)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/de_DE/flag16x11.png)Deutsch](https://podio.com/locales/de_DE)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/fr_FR/flag16x11.png)Français](https://podio.com/locales/fr_FR)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/es_ES/flag16x11.png)Español](https://podio.com/locales/es_ES)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/it_IT/flag16x11.png)Italiano](https://podio.com/locales/it_IT)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/pt_PT/flag16x11.png)Português brasileiro](https://podio.com/locales/pt_PT)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/nl_NL/flag16x11.png)Nederlands](https://podio.com/locales/nl_NL)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/ja_JP/flag16x11.png)日本語](https://podio.com/locales/ja_JP)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/sv_SE/flag16x11.png)Svenska](https://podio.com/locales/sv_SE)\n\n![](https://d3apguah0u98pa.cloudfront.net/images/locale/en_GB/flag16x11.png)English\n\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/da_DK/flag16x11.png)Dansk](https://podio.com/locales/da_DK)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/de_DE/flag16x11.png)Deutsch](https://podio.com/locales/de_DE)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/fr_FR/flag16x11.png)Français](https://podio.com/locales/fr_FR)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/es_ES/flag16x11.png)Español](https://podio.com/locales/es_ES)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/it_IT/flag16x11.png)Italiano](https://podio.com/locales/it_IT)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/pt_PT/flag16x11.png)Português brasileiro](https://podio.com/locales/pt_PT)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/nl_NL/flag16x11.png)Nederlands](https://podio.com/locales/nl_NL)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/ja_JP/flag16x11.png)日本語](https://podio.com/locales/ja_JP)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/sv_SE/flag16x11.png)Svenska](https://podio.com/locales/sv_SE)\n\n- [About Podio](https://podio.com/site/)\n- [Terms of Service](https://www.progress.com/legal)\n- [Privacy Policy](https://www.progress.com/legal/privacy-policy)\n- [Cookie preferences](https://podio.com/login?provider=podio&return_to=https%3A%2F%2Fpodio.com%2Fdocs%2Fapi#)\n\n{}",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:36.471855Z",
+      "section_path": "Sign in with Podio > Sign in with",
+      "chunk_index": 0,
+      "token_count": 706,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_22731d439841",
+      "source_type": "pricing_page",
+      "url": "https://podio.com/login?provider=podio&return_to=https%3A%2F%2Fpodio.com%2Fpricing",
+      "domain": "podio.com",
+      "page_title": "Login | Podio",
+      "content": "Email\n\nPassword\n\nSign In\n\nRemember me\n\n[Forgot password?](https://podio.com/user/recover/)\n\nDon't have an account? [Sign up](https://podio.com/signup)\n\nShareFileGoogleMicrosoft\n\n![](https://d3apguah0u98pa.cloudfront.net/images/locale/en_GB/flag16x11.png)English\n\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/da_DK/flag16x11.png)Dansk](https://podio.com/locales/da_DK)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/de_DE/flag16x11.png)Deutsch](https://podio.com/locales/de_DE)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/fr_FR/flag16x11.png)Français](https://podio.com/locales/fr_FR)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/es_ES/flag16x11.png)Español](https://podio.com/locales/es_ES)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/it_IT/flag16x11.png)Italiano](https://podio.com/locales/it_IT)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/pt_PT/flag16x11.png)Português brasileiro](https://podio.com/locales/pt_PT)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/nl_NL/flag16x11.png)Nederlands](https://podio.com/locales/nl_NL)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/ja_JP/flag16x11.png)日本語](https://podio.com/locales/ja_JP)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/sv_SE/flag16x11.png)Svenska](https://podio.com/locales/sv_SE)\n\n![](https://d3apguah0u98pa.cloudfront.net/images/locale/en_GB/flag16x11.png)English\n\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/da_DK/flag16x11.png)Dansk](https://podio.com/locales/da_DK)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/de_DE/flag16x11.png)Deutsch](https://podio.com/locales/de_DE)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/fr_FR/flag16x11.png)Français](https://podio.com/locales/fr_FR)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/es_ES/flag16x11.png)Español](https://podio.com/locales/es_ES)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/it_IT/flag16x11.png)Italiano](https://podio.com/locales/it_IT)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/pt_PT/flag16x11.png)Português brasileiro](https://podio.com/locales/pt_PT)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/nl_NL/flag16x11.png)Nederlands](https://podio.com/locales/nl_NL)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/ja_JP/flag16x11.png)日本語](https://podio.com/locales/ja_JP)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/sv_SE/flag16x11.png)Svenska](https://podio.com/locales/sv_SE)\n\n- [About Podio](https://podio.com/site/)\n- [Terms of Service](https://www.progress.com/legal)\n- [Privacy Policy](https://www.progress.com/legal/privacy-policy)\n- [Cookie preferences](https://podio.com/login?provider=podio&return_to=https%3A%2F%2Fpodio.com%2Fpricing#)\n\n{}",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:37.306953Z",
+      "section_path": "Sign in with Podio > Sign in with",
+      "chunk_index": 0,
+      "token_count": 705,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_8d475aa876b4",
+      "source_type": "official_docs",
+      "url": "https://podio.com",
+      "domain": "podio.com",
+      "page_title": "Work Management Platform | Streamline Collaboration & Workflows | Podio",
+      "content": "Unify and automate work with no-code tools, flexible workflows and\ncustomizable business solutions.\n\n[Sign Up](https://podio.com/signup?force_locale=en_US)\n\n[Log In](https://podio.com/login?force_locale=en_US)\n\n![](https://www.progress.com/images/default-source/products/podio/podio-head-illustration.png?sfvrsn=aa4cf807_1)\n\nPodio supports building digital workspaces tailored to your team's unique\nprocesses. Whether you're tracking leads, managing projects, streamlining operations or\nautomating approvals, Podio is built to support a wide range of workflows. With powerful\nno-code tools, automation and real-time collaboration, Podio helps you structure, scale and\nsimplify work—on your terms.\n\n- No-code drag and drop builder to customize your data structure\n- Personalized dashboards and workspace layouts\n- Multiple data views: table, kanban, calendar and badge\n- Pre-built templates to jumpstart setup\n- Bidirectional relationship fields to link related data items\n- Webforms for data intake to capture external submissions\n\n![](https://www.progress.com/images/default-source/products/podio/customizeeb80215c-77f8-4dbb-8d3d-04a1f08cc322.svg?sfvrsn=2e907118_1)\n\n* * *\n\n- Customize powerful workflows with If-This-Then-That rules\n- Automate task assignments, status updates and notifications\n- Use calculations and custom rules to power dynamic workflows\n- Integrate with 3rd party tools and other systems of records\n- Trigger actions across systems with API-first flexibility\n- Generate pdf documents from templates\n- Initiate signature and approval requests\n- Automate email and SMS delivery using dynamic content\n\n![](https://www.progress.com/images/default-source/products/podio/automate5fa4e0cd-6502-46a8-b6cd-d41446ffbfd4.svg?sfvrsn=d6dd6394_1)\n\n* * *",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:36.618605Z",
+      "section_path": "Simplify Work, Amplify Results with Progress Podio > Structure, Automate and Scale—Your Way > Customize > Automate",
+      "chunk_index": 0,
+      "token_count": 440,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_bb8d940e832e",
+      "source_type": "official_docs",
+      "url": "https://podio.com",
+      "domain": "podio.com",
+      "page_title": "Work Management Platform | Streamline Collaboration & Workflows | Podio",
+      "content": "![2025 G2 Easiest Setup](https://www.progress.com/images/default-source/products/podio/g2-easiestsetup-podio-1.svg?sfvrsn=55a03acb_1)\n\n[2025 G2 Easiest\\\\\nSetup](https://www.g2.com/products/progress-podio/reviews#product-header)\n\n![G2-gridleader.podio 1](https://www.progress.com/images/default-source/products/podio/g2-bestroi-podio-1.svg?sfvrsn=3c2a6a5e_1)\n\n[2025 G2 Best Est.\\\\\nROI](https://www.g2.com/products/progress-podio/reviews#product-header)\n\n![2025 Capterra Shortlist for Team Communication](https://www.progress.com/images/default-source/products/podio/editable_date.svg?sfvrsn=ce9091cc_1)\n\n[2025 Capterra\\\\\nShortlist for Team Communication](https://www.capterra.com/team-communication-software/shortlist/)\n\n![](https://brand-assets.capterra.com/badge/4788fa24-8440-416b-b0ee-848939bb1a60.png)\n\n[2024 Capterra\\\\\nShortlist for Digital Workplace](https://www.capterra.com/digital-workplace-software/shortlist/)\n\n![2024 TrustRadius Tech Cares Awards](https://static.trustradius.com/images/awards/Tech%20Cares%202024%20Gradient.png)\n\n[2024 TrustRadius\\\\\nTech Cares Awards](https://www.trustradius.com/products/podio/reviews)\n\n![](https://brand-assets.softwareadvice.com/badge/96f280d3-6ec6-45d0-bd2f-9f6531f98d40.png)\n\n[Best Team Management\\\\\nSoftwares](https://www.softwareadvice.com/project-management/team-management-comparison/)\n\n![ShareFile Reviews & Ratings 2025](https://www.progress.com/images/default-source/products/podio/g2-gridleader-podio-1.svg?sfvrsn=d1c11ca7_1)\n\n[Progress Podio\\\\\nReviews 2025: Details, Pricing & Features \\| G2](https://www.g2.com/products/progress-podio/reviews#product-header)\n\n![2025 G2 Easiest Setup](https://www.progress.com/images/default-source/products/podio/g2-easiestsetup-podio-1.svg?sfvrsn=55a03acb_1)\n\n[2025 G2 Easiest\\\\\nSetup](https://www.g2.com/products/progress-podio/reviews#product-header)\n\n![G2-gridleader.podio 1](https://www.progress.com/images/default-source/products/podio/g2-bestroi-podio-1.svg?sfvrsn=3c2a6a5e_1)\n\n[2025 G2 Best Est.\\\\\nROI](https://www.g2.com/products/progress-podio/reviews#product-header)\n\n![2025 Capterra Shortlist for Team Communication](https://www.progress.com/images/default-source/products/podio/editable_date.svg?sfvrsn=ce9091cc_1)\n\n[2025 Capterra\\\\\nShortlist for Team Communication](https://www.capterra.com/team-communication-software/shortlist/)\n\n![](https://brand-assets.capterra.com/badge/4788fa24-8440-416b-b0ee-848939bb1a60.png)\n\n[2024 Capterra\\\\\nShortlist for Digital Workplace](https://www.capterra.com/digital-workplace-software/shortlist/)\n\n![2024 TrustRadius Tech Cares Awards](https://static.trustradius.com/images/awards/Tech%20Cares%202024%20Gradient.png)\n\n[2024 TrustRadius\\\\\nTech Cares Awards](https://www.trustradius.com/products/podio/reviews)\n\n![](https://brand-assets.softwareadvice.com/badge/96f280d3-6ec6-45d0-bd2f-9f6531f98d40.png)\n\n[Best Team Management\\\\\nSoftwares](https://www.softwareadvice.com/project-management/team-management-comparison/)\n\n![ShareFile Reviews & Ratings 2025](https://www.progress.com/images/default-source/products/podio/g2-gridleader-podio-1.svg?sfvrsn=d1c11ca7_1)\n\n[Progress Podio\\\\\nReviews 2025: Details, Pricing & Features \\| G2](https://www.g2.com/products/progress-podio/reviews#product-header)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:36.618691Z",
+      "section_path": "Simplify Work, Amplify Results with Progress Podio > Structure, Automate and Scale—Your Way > Customize > Trusted Leader in Flexible Work Management Solutions",
+      "chunk_index": 2,
+      "token_count": 810,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_afc1208f2c23",
+      "source_type": "official_docs",
+      "url": "https://podio.com",
+      "domain": "podio.com",
+      "page_title": "Work Management Platform | Streamline Collaboration & Workflows | Podio",
+      "content": "![2025 G2 Easiest Setup](https://www.progress.com/images/default-source/products/podio/g2-easiestsetup-podio-1.svg?sfvrsn=55a03acb_1)\n\n[2025 G2 Easiest\\\\\nSetup](https://www.g2.com/products/progress-podio/reviews#product-header)\n\n![G2-gridleader.podio 1](https://www.progress.com/images/default-source/products/podio/g2-bestroi-podio-1.svg?sfvrsn=3c2a6a5e_1)\n\n[2025 G2 Best Est.\\\\\nROI](https://www.g2.com/products/progress-podio/reviews#product-header)\n\n![2025 Capterra Shortlist for Team Communication](https://www.progress.com/images/default-source/products/podio/editable_date.svg?sfvrsn=ce9091cc_1)\n\n[2025 Capterra\\\\\nShortlist for Team Communication](https://www.capterra.com/team-communication-software/shortlist/)\n\n![](https://brand-assets.capterra.com/badge/4788fa24-8440-416b-b0ee-848939bb1a60.png)\n\n[2024 Capterra\\\\\nShortlist for Digital Workplace](https://www.capterra.com/digital-workplace-software/shortlist/)\n\n![2024 TrustRadius Tech Cares Awards](https://static.trustradius.com/images/awards/Tech%20Cares%202024%20Gradient.png)\n\n[2024 TrustRadius\\\\\nTech Cares Awards](https://www.trustradius.com/products/podio/reviews)\n\nPodio supports businesses of all sizes streamline operations, improve\nvisibility and make more informed decisions. Whether you're a startup or a global\nenterprise, Podio is built to support a range of needs with advanced automation and\ncustomizable workflows—leaving teams to focus on high-impact work.\n\n- ##### Boost Productivity\n\n\nAutomate repetitive tasks and streamline handoffs with structured\nworkflows that save time and minimize errors.\n\n- ##### Improve Collaboration\n\n\nBreak down silos with shared workspaces, client access, real-time\nupdates and mobile-ready tools.\n\n- ##### Enhance Visibility\n\n\nCentralize data, conversations and project updates in one place for\nreal-time insights and accountability.\n\n- ##### Scale with Flexibility\n\n\nTailor Podio to your evolving business needs with flexible\narchitecture, robust APIs and security features designed to support enterprise needs.\n\n\n- ##### Accelerate Time to Value\n\n\nQuickly launch custom apps and workspaces using no-code\ntools.\n\n- ##### One Platform. Endless Possibilities.\n\n\nSupport multiple work types—CRM, project tracking, approvals,\nand more—on a single platform to help reduce tool sprawl and license costs.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:36.618742Z",
+      "section_path": "Simplify Work, Amplify Results with Progress Podio > Boost Efficiency, Empower Teams   and Scale with Confidence",
+      "chunk_index": 3,
+      "token_count": 577,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_bba4ccbc429b",
+      "source_type": "official_docs",
+      "url": "https://podio.com",
+      "domain": "podio.com",
+      "page_title": "Work Management Platform | Streamline Collaboration & Workflows | Podio",
+      "content": "Real Teams. Real Results.\n\n> ### Grew 30x with Podio generating 5x ROI in six months\n>\n> We wanted to have something custom,\n> and Anders (from Workways) told me about his Podio experience and how you\n> can build whatever you want and his recommendation on where to start.\n> Without Podio and its automations, my company would be a lot less\n> profitable.\n>\n> Stefan\n> Stojkovic,\n> Founder, GulvKanonen\n> In collaboration with trusted\n> Podio Partner, Workways [Read full story](https://www.sharefile.com/resource/customer-story/gulvkanonen)\n>\n> ![forside-bannertop](https://www.progress.com/images/default-source/products/podio/forside-bannertop.jpg?sfvrsn=951019_1)\n\n> ### Automate to operate without boundaries\n>\n> What can easily take 4-to-6-person\n> team in comparable companies, is handled by 0.25 of an employee in our\n> organization with Podio.\n>\n> Kasper\n> Dam\n> Founder and CEO, Kandio\n> [Read full story](https://www.sharefile.com/resource/customer-story/kandio)\n>\n> ![Automate to operate without boundaries](https://www.progress.com/images/default-source/products/podio/website_customer_stories_gettyimages-1356386299.webp?sfvrsn=462c98eb_1)\n\n> ### Managing growth with technology\n>\n> I now have a product that is as\n> simple or as complex as I want it to be. My favorite thing about Podio, is\n> how it does only what I need it to do and nothing more and nothing\n> less.\n>\n> Matthew\n> Markoff\n> Founder and Tax Partner, Markoff\n> & Malatesta CPAs PLLC\n> [Read full\\\\\n> story](https://www.sharefile.com/resource/customer-story/markoff-malatesta-cpas-pllc)\n>\n> ![Managing growth with technology](https://www.progress.com/images/default-source/products/podio/website_blogs_gettyimages-1183666141.jpg?sfvrsn=59f3c338_1)\n\n> ### Podio keeps Integrity's teams connected and informed\n>\n> We needed an intuitive solution to\n> the problem of collaborating across diverse operating contexts and\n> time-zones, and to reduce the pain points of sharing spreadsheets back and\n> forth. Podio transformed our entire information environment and instilled a\n> culture of collaborative knowledge management.\n>\n> Will Lowrie\n>\n> Head of Data and Knowledge\n> Management, Integrity\n> [Read full\\\\\n> story](https://www.sharefile.com/resource/customer-story/integrity-global)\n>\n> ![Podio keeps Integrity's teams connected and informed](https://www.progress.com/images/default-source/products/podio/website_customer_stories_gettyimages-1320523831.jpg?sfvrsn=d90675ce_1)\n\n> ### Enterprise collaboration and business process automation\n>\n> Everything in Podio has enabled us\n> to take the tool, make it ours and do exactly what we want with it as\n> opposed to trying to fit our business into something else and does it in a\n> way that is simple enough that most people can figure it out.\n>\n> Chris\n> Blanchard\n> Director of IT, Schuster Companies\n>\n> [Read full\\\\\n> story](https://www.sharefile.com/resource/customer-story/schuster-concrete-companies)\n>\n> ![Enterprise collaboration and business process automation](https://www.progress.com/images/default-source/products/podio/website_customer_stories_gettyimages-1320808169.jpg?sfvrsn=9b9bec5f_1)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:36.618833Z",
+      "section_path": "Simplify Work, Amplify Results with Progress Podio > What Our Customers Say",
+      "chunk_index": 5,
+      "token_count": 782,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_3bd865b514e0",
+      "source_type": "official_docs",
+      "url": "https://podio.com",
+      "domain": "podio.com",
+      "page_title": "Work Management Platform | Streamline Collaboration & Workflows | Podio",
+      "content": "> ### Giving a voice to the voiceless with Podio\n>\n> We shared those records with the\n> hospital and identified that the person needed insulin. If that hadn’t\n> gotten picked up from his Podio records, who knows what could’ve\n> happened there.\n>\n> Jaquie Mills\n>\n> Managing Director, Microboards\n> Australia\n> [Read full\\\\\n> story](https://www.sharefile.com/resource/customer-story/microboards-australia)\n>\n> ![Giving a voice to the voiceless with Podio](https://www.progress.com/images/default-source/products/podio/website_photography_gettyimages-1084167490.jpg?sfvrsn=d1b842fc_1)\n\n![prefooter-bg](https://www.progress.com/images/default-source/products/podio/prefooter-bg.svg?sfvrsn=f54f056b_1)\n\nFor streamlined work that will drive your business forward.\n\n[Get Started](https://www.progress.com/podio/pricing)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:36.618860Z",
+      "section_path": "Simplify Work, Amplify Results with Progress Podio > Get Started on Podio",
+      "chunk_index": 6,
+      "token_count": 203,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_2125deece5c7",
+      "source_type": "developer_portal",
+      "url": "https://podio.com/login?provider=podio&return_to=https%3A%2F%2Fpodio.com%2Fdocs",
+      "domain": "podio.com",
+      "page_title": "Login | Podio",
+      "content": "Email\n\nPassword\n\nSign In\n\nRemember me\n\n[Forgot password?](https://podio.com/user/recover/)\n\nDon't have an account? [Sign up](https://podio.com/signup)\n\nShareFileGoogleMicrosoft\n\n![](https://d3apguah0u98pa.cloudfront.net/images/locale/en_GB/flag16x11.png)English\n\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/da_DK/flag16x11.png)Dansk](https://podio.com/locales/da_DK)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/de_DE/flag16x11.png)Deutsch](https://podio.com/locales/de_DE)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/fr_FR/flag16x11.png)Français](https://podio.com/locales/fr_FR)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/es_ES/flag16x11.png)Español](https://podio.com/locales/es_ES)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/it_IT/flag16x11.png)Italiano](https://podio.com/locales/it_IT)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/pt_PT/flag16x11.png)Português brasileiro](https://podio.com/locales/pt_PT)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/nl_NL/flag16x11.png)Nederlands](https://podio.com/locales/nl_NL)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/ja_JP/flag16x11.png)日本語](https://podio.com/locales/ja_JP)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/sv_SE/flag16x11.png)Svenska](https://podio.com/locales/sv_SE)\n\n![](https://d3apguah0u98pa.cloudfront.net/images/locale/en_GB/flag16x11.png)English\n\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/da_DK/flag16x11.png)Dansk](https://podio.com/locales/da_DK)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/de_DE/flag16x11.png)Deutsch](https://podio.com/locales/de_DE)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/fr_FR/flag16x11.png)Français](https://podio.com/locales/fr_FR)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/es_ES/flag16x11.png)Español](https://podio.com/locales/es_ES)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/it_IT/flag16x11.png)Italiano](https://podio.com/locales/it_IT)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/pt_PT/flag16x11.png)Português brasileiro](https://podio.com/locales/pt_PT)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/nl_NL/flag16x11.png)Nederlands](https://podio.com/locales/nl_NL)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/ja_JP/flag16x11.png)日本語](https://podio.com/locales/ja_JP)\n- [![](https://d3apguah0u98pa.cloudfront.net/images/locale/sv_SE/flag16x11.png)Svenska](https://podio.com/locales/sv_SE)\n\n- [About Podio](https://podio.com/site/)\n- [Terms of Service](https://www.progress.com/legal)\n- [Privacy Policy](https://www.progress.com/legal/privacy-policy)\n- [Cookie preferences](https://podio.com/login?provider=podio&return_to=https%3A%2F%2Fpodio.com%2Fdocs#)\n\n{}",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:37.382504Z",
+      "section_path": "Sign in with Podio > Sign in with",
+      "chunk_index": 0,
+      "token_count": 705,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_7fb2438f6e0b",
+      "source_type": "official_docs",
+      "url": "https://podio.com",
+      "domain": "podio.com",
+      "page_title": "Work Management Platform | Streamline Collaboration & Workflows | Podio",
+      "content": "- Real-time collaboration with comments, file sharing and mentions\n- Shared workspaces among team members\n- Client Access with free external licenses\n- Mobile apps for iOS, Android and iPad\n- Contextual search to find relevant content, conversations and records\n- Multi-level permissions to support controlled sharing and focused teamwork\n- Detailed user activity and revision history to support transparency and audit\npreparation\n\n![](https://www.progress.com/images/default-source/products/podio/collaborate7a2d3179-299e-4576-815c-fd8f635dae47.svg?sfvrsn=a85a9d99_1)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:36.618638Z",
+      "section_path": "Simplify Work, Amplify Results with Progress Podio > Structure, Automate and Scale—Your Way > Customize > Collaborate",
+      "chunk_index": 1,
+      "token_count": 142,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_8395199a7a3b",
+      "source_type": "official_docs",
+      "url": "https://podio.com",
+      "domain": "podio.com",
+      "page_title": "Work Management Platform | Streamline Collaboration & Workflows | Podio",
+      "content": "![Logo-Integrity-300x200](https://www.progress.com/images/default-source/products/podio/logo-integrity-300x200.png?sfvrsn=c6c21220_1)\n\n![Logo-kandio-300x200](https://www.progress.com/images/default-source/products/podio/logo-kandio-300x200.png?sfvrsn=abcedd88_1)\n\n![Logo-Dover-300x200](https://www.progress.com/images/default-source/products/podio/logo-dover-300x200.png?sfvrsn=dc82b3ee_1)\n\n![Logo-Markoff-300x200](https://www.progress.com/images/default-source/products/podio/logo-markoff-300x200.png?sfvrsn=2e058330_1)\n\n![Logo-Schuster-300x200](https://www.progress.com/images/default-source/products/podio/logo-schuster-300x200.png?sfvrsn=abae1c4_1)\n\n![Logo-Microboards-300x200](https://www.progress.com/images/default-source/products/podio/logo-microboards-300x200.png?sfvrsn=f387ac8e_1)\n\n![uqam](https://www.progress.com/images/default-source/products/podio/uqam.png?sfvrsn=57953fb2_1)\n\n![Logo-itv-300x200](https://www.progress.com/images/default-source/products/podio/logo-itv-300x200.png?sfvrsn=609ccaba_1)\n\n![Logo-Integrity-300x200](https://www.progress.com/images/default-source/products/podio/logo-integrity-300x200.png?sfvrsn=c6c21220_1)\n\n![Logo-kandio-300x200](https://www.progress.com/images/default-source/products/podio/logo-kandio-300x200.png?sfvrsn=abcedd88_1)\n\n![Logo-Dover-300x200](https://www.progress.com/images/default-source/products/podio/logo-dover-300x200.png?sfvrsn=dc82b3ee_1)\n\n![Logo-Markoff-300x200](https://www.progress.com/images/default-source/products/podio/logo-markoff-300x200.png?sfvrsn=2e058330_1)\n\n![Logo-Schuster-300x200](https://www.progress.com/images/default-source/products/podio/logo-schuster-300x200.png?sfvrsn=abae1c4_1)\n\n![Logo-Microboards-300x200](https://www.progress.com/images/default-source/products/podio/logo-microboards-300x200.png?sfvrsn=f387ac8e_1)\n\n![uqam](https://www.progress.com/images/default-source/products/podio/uqam.png?sfvrsn=57953fb2_1)\n\n![Logo-itv-300x200](https://www.progress.com/images/default-source/products/podio/logo-itv-300x200.png?sfvrsn=609ccaba_1)\n\n![Logo-Integrity-300x200](https://www.progress.com/images/default-source/products/podio/logo-integrity-300x200.png?sfvrsn=c6c21220_1)\n\n![Logo-kandio-300x200](https://www.progress.com/images/default-source/products/podio/logo-kandio-300x200.png?sfvrsn=abcedd88_1)\n\n![Logo-Dover-300x200](https://www.progress.com/images/default-source/products/podio/logo-dover-300x200.png?sfvrsn=dc82b3ee_1)\n\n![Logo-Markoff-300x200](https://www.progress.com/images/default-source/products/podio/logo-markoff-300x200.png?sfvrsn=2e058330_1)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:36.618786Z",
+      "section_path": "Simplify Work, Amplify Results with Progress Podio > Boost Efficiency, Empower Teams   and Scale with Confidence > Trusted by Thousands of Organisations... All Around the World!",
+      "chunk_index": 4,
+      "token_count": 637,
+      "quality_score": 0.36
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Podio is a flexible work management platform that supports customizable workflows and automation.",
+      "evidence_ids": [
+        "ev_8d475aa876b4"
+      ]
+    },
+    "category": {
+      "value": "CRM and Sales",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_77b053457be7",
+        "ev_71863d412915",
+        "ev_22731d439841",
+        "ev_2125deece5c7"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_8d475aa876b4",
+        "ev_22731d439841"
+      ]
+    },
+    "api_surface": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_8d475aa876b4"
+      ]
+    },
+    "api_breadth": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_8d475aa876b4"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_8d475aa876b4"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_8d475aa876b4"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_8d475aa876b4"
+      ]
+    }
+  },
+  "validation": {
+    "status": "INSUFFICIENT_EVIDENCE",
+    "score": 0.38,
+    "fields_checked": 8,
+    "fields_supported": 3,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "auth_methods",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'auth_methods' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "api_surface",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_surface' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "api_breadth",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_breadth' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": {
+    "verified_fields": [],
+    "corrections": {},
+    "screenshots": [],
+    "notes": ""
+  },
+  "pipeline_confidence": 0.38,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.38 below 0.90 threshold",
+      "Auth methods missing or UNKNOWN"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

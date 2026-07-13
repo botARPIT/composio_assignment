@@ -1,0 +1,1456 @@
+{
+  "app": {
+    "id": 96,
+    "name": "Devin",
+    "website": "docs.devin.ai",
+    "category_hint": "AI Research and Media"
+  },
+  "documentation_map": {
+    "app_name": "Devin",
+    "official_domain": "docs.devin.ai",
+    "homepage": {
+      "url": "https://docs.devin.ai",
+      "title": "Devin",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://docs.devin.ai/api-reference/authentication",
+        "title": "Authentication",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://docs.devin.ai/cli/reference/commands",
+        "title": "",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://docs.devin.ai/cli/reference/keyboard-shortcuts",
+          "title": "",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.devin.ai/cli/reference/permissions",
+          "title": "",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.devin.ai/cli/reference/terminal-compatibility",
+          "title": "",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://docs.devin.ai/admin/billing/enterprise",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://docs.devin.ai/cli/enterprise/controls",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.devin.ai/cli/enterprise/devin-auth",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.devin.ai/cli/enterprise/team-settings",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://docs.devin.ai/cli/extensibility/mcp/configuration",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://docs.devin.ai/cli/extensibility/mcp/overview",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https:///work-with-devin/mcp",
+          "title": "MCP",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https:///cli/extensibility/mcp/overview",
+          "title": "MCP",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://docs.devin.ai/admin/billing",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://docs.devin.ai/admin/billing/self-serve",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.devin.ai/admin/billing/usage",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.devin.ai/admin/common-issues",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "webhooks": null,
+    "llms_txt": {
+      "url": "https://docs.devin.ai/llms-full.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "Devin",
+      "official_domain": "docs.devin.ai",
+      "items": [
+        {
+          "url": "https://docs.devin.ai",
+          "page_type": "homepage",
+          "title": "Devin",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.devin.ai/admin/billing",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https:///admin/billing/enterprise",
+          "page_type": "pricing",
+          "title": "Enterprise",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.devin.ai/admin/billing/enterprise",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.devin.ai/admin/billing/self-serve",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://devin.ai/pricing",
+          "page_type": "pricing",
+          "title": "Devin pricing page",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://app.devin.ai/settings/plans",
+          "page_type": "pricing",
+          "title": "Settings > Plans",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https:///work-with-devin/mcp",
+          "page_type": "mcp",
+          "title": "MCP",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.devin.ai/admin/billing/usage",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https:///enterprise/security-access/personal-analytics",
+          "page_type": "pricing",
+          "title": "Personal Analytics",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.devin.ai/admin/common-issues",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.devin.ai/admin/security",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.devin.ai/cli/acp/jetbrains",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https:///cli/reference/commands",
+          "page_type": "api_reference",
+          "title": "`devin acp`",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.devin.ai/cli/acp/xcode",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.apple.com/documentation/xcode/setting-up-coding-intelligence",
+          "page_type": "developer_portal",
+          "title": "coding intelligence",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https:///cli/extensibility/mcp/overview",
+          "page_type": "mcp",
+          "title": "MCP",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.apple.com/documentation/xcode/giving-external-agents-access-to-xcode",
+          "page_type": "developer_portal",
+          "title": "giving external agents access to Xcode",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://developer.apple.com/documentation/xcode/extending-and-customizing-agents",
+          "page_type": "developer_portal",
+          "title": "extending and customizing agents",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://docs.devin.ai/cli/acp/zed",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://zed.dev/docs/ai/external-agents",
+          "page_type": "developer_portal",
+          "title": "external agents",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://docs.devin.ai/cli/adaptive",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https:///cli/reference/configuration/config-file",
+          "page_type": "api_reference",
+          "title": "config file",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://mcp.figma.com/v1`",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://api.githubcopilot.com/mcp/`",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.35,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://mcp.notion.com/mcp`",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://docs.devin.ai/cli/enterprise/controls",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https:///cli/reference/permissions",
+          "page_type": "api_reference",
+          "title": "permissions",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https:///cli/enterprise/team-settings",
+          "page_type": "pricing",
+          "title": "team settings",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://cli.devin.ai/docs/extensibility/rules",
+          "page_type": "developer_portal",
+          "title": "rules and AGENTS.md files",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://cli.devin.ai/docs/extensibility/skills/overview",
+          "page_type": "developer_portal",
+          "title": "skills",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https:///desktop/accounts/api-reference/cascade-analytics",
+          "page_type": "api_reference",
+          "title": "`cascade_tool_usage`",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://cli.devin.ai/docs/enterprise/team-settings",
+          "page_type": "pricing",
+          "title": "new controls only available with the Devin Local agent",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://cli.devin.ai/docs/reference/permissions",
+          "page_type": "api_reference",
+          "title": "permissions",
+          "confidence": 0.35,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://docs.devin.ai/cli/enterprise/devin-auth",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https:///enterprise/security-access/custom-roles",
+          "page_type": "pricing",
+          "title": "custom roles and RBAC system",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https:///enterprise/getting-started/get-started",
+          "page_type": "pricing",
+          "title": "Devin Enterprise documentation",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https:///enterprise/security-access/security/enterprise-security",
+          "page_type": "pricing",
+          "title": "Enterprise Security",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.devin.ai/cli/enterprise/team-settings",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.devin.ai/cli/enterprise/windsurf-auth",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https:///desktop/accounts/api-reference/api-introduction",
+          "page_type": "api_reference",
+          "title": "Analytics API",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.devin.ai/cli/essential-commands",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https:///cli/reference/keyboard-shortcuts",
+          "page_type": "api_reference",
+          "title": "Keyboard Shortcuts",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.devin.ai/cli/extensibility/configuration",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https:///cli/reference/configuration/global-vs-local",
+          "page_type": "api_reference",
+          "title": "Configuration Precedence",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.devin.ai/cli/extensibility/hooks/lifecycle-hooks",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.devin.ai/cli/extensibility/hooks/overview",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https:///cli/reference/configuration/read-config-from",
+          "page_type": "api_reference",
+          "title": "user config",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.devin.ai/cli/extensibility/index",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.devin.ai/cli/extensibility/mcp/configuration",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://mcp.notion.com/mcp\",",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://mcp.linear.app/mcp\",",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://mcp.atlassian.com/v1/mcp\",",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://mcp.example.com/mcp\",",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://docs.devin.ai/cli/extensibility/mcp/overview",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https:///cli/extensibility/mcp/configuration",
+          "page_type": "mcp",
+          "title": "MCP Configuration — Authentication",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.devin.ai/cli/extensibility/plugins/overview",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.devin.ai/cli/extensibility/rules",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.devin.ai/cli/extensibility/skills/creating-skills",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.devin.ai/cli/extensibility/skills/overview",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.devin.ai/cli/handoff",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.devin.ai/cli/index",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.devin.ai/cli/models",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.devin.ai/cli/reference/commands",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://mcp.notion.com/mcp",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://mcp.datadoghq.com/api/unstable/mcp-server/mcp",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.35,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://mcp.sentry.dev/mcp",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://docs.devin.ai/cli/reference/configuration/config-file",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.devin.ai/cli/reference/configuration/global-vs-local",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.devin.ai/cli/reference/configuration/read-config-from",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.devin.ai/cli/reference/keyboard-shortcuts",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https:///cli/reference/terminal-compatibility",
+          "page_type": "api_reference",
+          "title": "configuring Option as Meta",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.devin.ai/cli/reference/permissions",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://api.github.com/*",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.35,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://docs.devin.ai/cli/reference/terminal-compatibility",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://iterm2.com/documentation-preferences-profiles-keys.html",
+          "page_type": "developer_portal",
+          "title": "iTerm2 documentation",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://docs.devin.ai/api-reference/authentication",
+          "page_type": "authentication",
+          "title": "Authentication",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 2,
+        "urls_discovered": 77,
+        "official_urls": 56,
+        "non_official_filtered": 21,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 6
+      }
+    },
+    "stats": {
+      "queries": 2,
+      "urls_discovered": 77,
+      "official_urls": 56,
+      "non_official_filtered": 21,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 6
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_d2a7bf4a5297",
+      "source_type": "llms_txt",
+      "url": "https://docs.devin.ai/llms-full.txt",
+      "domain": "docs.devin.ai",
+      "page_title": "",
+      "content": "After `devin auth login`, Devin CLI stores your API token in `credentials.toml`. By default, this token is persistent and does not expire. You can copy the credentials file between your own machines to reuse the same authentication, but treat it as sensitive: anyone with this file can authenticate as you. Do not share it or commit it to source control.\n| Platform      | Location                                                                                                               |\n| ------------- | ---------------------------------------------------------------------------------------------------------------------- |\n| macOS / Linux | `$XDG_DATA_HOME/devin/credentials.toml` when `XDG_DATA_HOME` is set; otherwise `~/.local/share/devin/credentials.toml` |\n| Windows       | `%APPDATA%\\devin\\credentials.toml` (typically `C:\\Users\\Cmd+Shift+P\n           (macOS) or Ctrl+Shift+P\n           (Windows/Linux)\n        3. Search for and run **Install Devin CLI**\n        This adds the `devin` binary to your PATH so you can use it from any terminal.\n      ***\n**Bad Approach**\n***\n**Bad Approach**\nVerify app roles to Graph A-->M: 200 access_token (aud=graph) M-->S: Return access_token (store in cache) S->>G: GET /v1.0/teams with Authorization: Bearer access_token G-->S: 200 list of teams (paged via @odata.nextLink) ``` > Credential note: We use an X.509 certificate (client assertion) rather than a client secret for service-to-service authentication. This applies to Microsoft Graph calls, bot communications with the Bot Framework adapter, and any app-only API calls from the integration. #### Complete Message Processing Flow (Teams → Cognition) The diagram below shows the complete end-to-end flow when a user sends a message to Devin in Microsoft Teams, including token validation and bot processing. ```mermaid theme={null} sequenceDiagram participant U as Teams client participant T as Teams service participant W as Bot webhook adapter participant J as Jwt validator participant O as OpenID metadata & keys participant C as Credential provider participant B as Bot logic U->>T: @Devin user message T->>W: HTTP POST activity + Authorization Bearer token note over W: Extract Authorization header and token W->>J: Validate token J->>O: Fetch OpenID config and signing keys O-->J: Return JWKS keys J->>J: Verify RS256 signature\nand parse claims J-->W: Validated claims W->>C: Check appId against credentials C-->W: AppId recognized W->>W: Add serviceUrl to trusted list W->>B: Create TurnContext and call bot handler B->>B: Execute business logic B-->W: Outgoing activity W->>T: Send reply via connector service T->>U: Deliver message to user ``` > Credential note: We use an X.509 certificate (client assertion) rather than a client secret for service-to-service authentication. This applies to Microsoft Graph calls, bot communications with the Bot Framework adapter, and any app-only API calls from the integration. #### Consent & Installation Flow 1. **Admin Consent (tenant-wide)** * An Entra ID admin grants the Graph Application permissions listed above. 2. **App Discovery** * The integration queries the Teams app catalog to locate our app and retrieve `teamsAppId`. 3. **Targeted Installation** * From our dashboard, we install the bot into a specific Team. * During installation, the RSC scopes are granted only to that Team (or to the specific Chat when invoked in a chat). 4. **Operation** * Discovery (org/teams/channels/app catalog) uses Graph Application permissions. * Reading/sending messages and reading members/settings rely on RSC within installed surfaces. #### Least-Privilege Notes * Basic readers only: `User.ReadBasic.All` (no tenant-wide message reading). * Message content is accessed exclusively via RSC and only where the bot is installed/present. * No mailbox, files, or calendar permissions are requested. #### Revocation & Uninstallation * Revoke Admin Consent: A tenant admin can remove the app’s enterprise app permissions in Entra ID. * Uninstall from Teams: Remove the app from a Team/Chat to revoke RSC for that resource. * Data Handling: On uninstall, our integration stops processing events for that Team/Chat and cleans up related subscriptions/links. # Integrations Overview Source: https://docs.devin.ai/integrations/overview Connect Devin to your existing tools and workflows Devin integrates with the tools you already use, making it easy to incorporate AI-powered development into your existing workflows. From source control to project management to communication, Devin can work alongside your team in the platforms you rely on. ## How Integrations Work You can connect Devin to your tools in several ways: * **Native integrations** - Direct connections to platforms like GitHub, Slack, and Jira * **Secrets Manager** - Store API keys and credentials securely for Devin to use * **MCP (Model Context Protocol)** - Connect to hundreds of external tools and data sources\n/settings/organizations/create for enterprise organization creation.\n  \n  **Agent Dropdown Improvements**\n  When viewing an existing session, the agent dropdown now displays only the specific agent used for that session, making it clearer which agent version was used for each run.\n  **Agent Default Setting Hints**\n  The agent dropdown now includes helpful hint text explaining that starring an agent sets it as your default across all integrations, including Slack, VS Code, and the web interface.\n  **Slack Default Agent Tips**\n  Users receive a one-time ephemeral message in Slack with guidance on setting their default agent preference, helping teams adopt the latest agent versions more easily.\n  **Minor Bug Fixes & Quality of Life Improvements**\n  * Fixed bug preventing proper display of secrets page for organization members\n  * Fixed bug around gh CLI auth failing in certain circumstances on Devin's machine\n  * Enterprise API v2 git permissions endpoint now returns permission\\_names dict mapping permission IDs to repo/group paths\n  * Enhanced member page tabs and navigation\n  * Ongoing stability improvements and bug fixes\nFor example, /workflow-1 can include instructions like \"Call /workflow-2\" and \"Call /workflow-3\".\n- If you installed Devin Desktop in PATH, remove it from your system's PATH environment variable.\n- If you installed Devin Desktop using your system's package manager or control panel, you can also use that to uninstall it.\n- Empty your Trash or Recycle Bin to complete the uninstallation.\nFor example, /workflow-1 can include instructions like \"Call /workflow-2\" and \"Call /workflow-3\".\njupyter lab.- Create organizations\n- Invite individuals to organizations\n- Connect source code repository to account\n- Manage billing | | **Organization Admins** | - Invite members to their organization | | **Members** | - Use Devin and have full access within their organization\n- Execute Devin sessions | ### Custom Roles For more granular access control, Devin Enterprise supports [Custom Roles & RBAC](/enterprise/security-access/custom-roles). You can create custom roles with specific permissions at both the organization level (controlling access within a specific organization) and account level (applying across the entire enterprise). ### IdP Groups Custom roles can be automatically assigned based on SSO IdP group membership. See [IdP Group Integration](/enterprise/security-access/idp-groups) for detailed configuration steps. ### Adding Members After creating an organization, you can add members and assign them to specific organizations. 1. Navigate to **Enterprise Settings > Members** 2. Click **Add Members** 3. Enter the email address of each user you'd like to invite Users will receive an email invitation to join your Devin organization.\n- Running tests\n- Building the code\n- CI checks\n- A custom verification script |\nBrowse practical examples across engineering workflows. Each use case includes prompts you can try immediately.\n    Features:\n    Integrations \n    API \n    Schedules \n    Advanced Capabilities \n    Playbooks \n    MCP \n    Skills \n  \n  \n        ★\n        Project Management\n        Auto-Triage Bugs via Linear\n        Devin auto-investigates bugs the moment a label is applied in Linear.\n        IntegrationsPlaybooks\n      \n    \n    \n      \n        ★\n        Automations\n        Daily Sentry Error Fixes\n        Recurring session that pulls new Sentry errors overnight and opens fix PRs by morning.\n        SchedulesMCP\n      \n    \n    \n      \n        ★\n        Incident Response\n        Auto-Investigate Datadog Alerts\n        Wire PagerDuty or Datadog alerts to Devin for automatic incident investigation.\n        APIMCP\n      \n    \n    \n      \n        ★\n        Incident Response\n        Auto-Generate Incident Postmortems\n        When a PagerDuty incident resolves, Devin drafts a structured postmortem with timeline, root cause, and action items.\n        APIMCP\n      \n    \n    \n      \n        ★\n        Code Quality\n        Add Unit Tests to Your Payments Service\n        Build a test-writing playbook for payment processing and cover charge flows, refunds, and webhooks.\n        Playbooks\n      \n    \n    \n      \n        ★\n        Feature Development\n        Implement Bookings API from OpenAPI Spec\n        Hand Devin a YAML spec and get fully implemented Express route handlers, Zod validation, and Supertest integration tests — matching your existing codebase patterns.\n      \n    \n    \n      \n        Incident Response\n        Auto-Triage Sentry Errors\n        Wire Sentry webhooks to the Devin API to auto-triage each new production error.\n        APIMCP\n      \n    \n    \n      \n        Incident Response\n        Debug a Bug Report End-to-End\n        Hand Devin a bug report with Datadog logs and database access for root-cause analysis.\n        MCP\n      \n    \n    \n      \n        Migrations\n        Migrate 50 Files from REST to GraphQL\n        Scope a 50-file REST-to-GraphQL migration, split it into conflict-free work packages, and run them in parallel.\n        Advanced CapabilitiesPlaybooks\n      \n    \n    \n      \n        Migrations\n        Create a React 18 to 19 Upgrade Playbook\n        Turn the official React 19 upgrade guide into a phased playbook mapped to your codebase.\n        Advanced CapabilitiesPlaybooks\n      \n    \n    \n      \n        Migrations\n        Migrate from MongoDB to Postgres\n        Convert document schemas to relational tables, rewrite queries, migrate data, and verify end-to-end.\n        Playbooks\n      \n    \n    \n      \n        Feature Development\n        Build a Stripe Checkout Flow\n        Hand Devin a checkout spec and get a working payment flow with Stripe integration, tests, and browser verification.\n      \n    \n    \n      \n        Feature Development\n        Dockerize a Django App with Postgres and Redis\n        Devin writes a multi-stage Dockerfile and docker-compose.yml for Django, Postgres, and Redis, then verifies the stack runs.\n      \n    \n    \n      \n        Feature Development\n        Figma to Pixel-Perfect Code\n        Connect the Figma MCP and let Devin build components from your mockups.\n        MCP\n      \n    \n    \n      \n        Feature Development\n        Build a Team PTO Tracker\n        Describe your tool and Devin builds, tests, and verifies it end-to-end.\n      \n    \n    \n      \n        Feature Development\n        Add Japanese & Spanish to a Next.js App\n        Devin installs next-i18next, extracts strings into locale files, and verifies three languages in the browser.\n      \n    \n    \n      \n        Feature Development\n        Trace a Stripe Payment Flow End-to-End\n        Use Ask Devin to map every file in a Stripe checkout flow before writing code.\n        MCP\n      \n    \n    \n      \n        Feature Development\n        Enforce a Migration Checklist on Every PR\n        Build a repo skill that catches destructive operations and validates schema changes in every migration PR.\n        Skills\n      \n    \n    \n      \n        Feature Development\n        Catch Visual Regressions Before Every PR\n        A repo skill that makes Devin screenshot every affected page and flag layout breakage before opening a PR.\n        Skills\n      \n    \n    \n      \n        Data & Analytics\n        Ad-Hoc Data Queries in Slack\n        Type /dana in any Slack channel to query your database in plain English.\n        IntegrationsMCP\n      \n    \n    \n      \n        Data & Analytics\n        Customer Health Summaries in Slack\n        Use Dana and a playbook to pull customer account metrics from your database.\n        IntegrationsPlaybooksMCP\n      \n    \n    \n      \n        Data & Analytics\n        Build a Custom API Usage Dashboard\n        Devin has a built-in dashboard, but if you need custom metrics, have Devin build a tailored version using the v3 API.\n        API\n      \n    \n    \n      \n        Project Management\n        Turn PRDs into Sprint Tickets\n        Point Devin at a Notion PRD and get scoped Linear tickets for each work package.\n        IntegrationsMCP\n      \n    \n    \n      \n        Project Management\n        Bulk-Plan Your Ticket Backlog\n        Multi-select tickets in Linear and get confidence-scored implementation plans.\n        IntegrationsPlaybooks\n      \n    \n    \n      \n        Project Management\n        Auto-Generate API Docs from Linear\n        Create a docs playbook, sync it as a Linear label, and generate documentation by labeling a ticket.\n        IntegrationsPlaybooks\n      \n    \n    \n      \n        Automations\n        Auto-Fix Failing CI Builds\n        Add a GitHub Action that calls Devin to fix failing CI on your PRs.\n        API\n      \n    \n    \n      \n        Automations\n        Auto-Fix Tickets via Webhooks\n        Connect any ticketing system to Devin with a webhook-to-session bridge.\n        APIPlaybooks\n      \n    \n    \n      \n        Automations\n        Run Nightly E2E Tests on Staging\n        Schedule Devin to run your end-to-end test suite against staging every night and file tickets for failures.\n        APISchedulesPlaybooks\n      \n    \n    \n      \n        Automations\n        Weekly Dependency Update PRs\n        Schedule a weekly session that finds outdated packages, runs tests, and opens upgrade PRs.\n        Schedules\n      \n    \n    \n      \n        Automations\n        Daily Datadog Health Digest\n        Daily session that scans Datadog for errors and posts a health digest to Slack.\n        SchedulesMCPIntegrations\n      \n    \n    \n      \n        Automations\n        Weekly Changelog from PRs\n        Compile merged PRs into a categorized changelog and post it to Slack every Friday.\n        SchedulesIntegrations\n      \n    \n    \n      \n        Automations\n        Daily Design System Audit\n        Schedule Devin to scan merged PRs and flag hardcoded colors and missing tokens.\n        SchedulesIntegrations\n      \n    \n    \n      \n        Automations\n        Clean Up Feature Flags Post-Release\n        Schedule a one-time session to strip out a feature flag and its dead code after release.\n        Schedules\n      \n    \n    \n      \n        Automations\n        Weekly Status Digest in Notion\n        A scheduled Devin summarizes recent PRs and commits into a Notion status page every week.\n        SchedulesMCP\n      \n    \n    \n      \n        Automations\n        Create PRs After Every Call\n        An hourly Devin polls Granola for new meetings, extracts engineering tasks from transcripts, and starts child sessions to write PRs.\n        SchedulesMCPPlaybooksAdvanced Capabilities\n      \n    \n    \n      \n        Code Quality\n        Auto-Fix PR Bugs Before Merge\n        Devin reviews every PR for bugs and pushes fixes to the branch automatically.\n        Integrations\n      \n    \n    \n      \n        Code Quality\n        Split a Monolithic Express Router into Domain Routes\n        Devin breaks a 2,000-line Express router into domain-specific route files with shared middleware.\n      \n    \n    \n      \n        Devin Optimization\n        Cut a Feature Prompt from 42 to 12 ACUs\n        Walk through a pagination session that burned 3x the expected ACUs, find three root causes, and rewrite the prompt.\n        Advanced Capabilities\n      \n    \n    \n      \n        Devin Optimization\n        Fix Checkout Latency with Three Competing Strategies\n        Race 3 parallel sessions against a slow checkout API — each tries a different optimization, then the best ships.\n        Advanced Capabilities\n      \n    \n    \n      \n        Devin Optimization\n        Test 8 Untested Modules in One Night\n        Launch 8 parallel sessions overnight to write unit tests and open PRs by morning.\n        Advanced CapabilitiesPlaybooks\n      \n    \n    \n      \n        Devin Optimization\n        Evaluate 30 Logging Libraries for Your Stack\n        Run one session per library to score pricing, performance, and SDK quality — then merge into a ranked comparison.\n        Advanced Capabilities\n      \n    \n    \n      \n        Devin Optimization\n        Turn a Production Hotfix into a Playbook\n        Extract the steps from a successful incident response session into a reusable hotfix playbook.\n        Advanced CapabilitiesPlaybooks\n      \n    \n    \n      \n        Devin Optimization\n        Fix a Flaky DB Migration Playbook\n        Your db-migration playbook blows up on foreign keys. Feed session links into Devin to patch the gaps.\n        Advanced CapabilitiesPlaybooks\n      \n    \n    \n      \n        Devin Optimization\n        Weekly Knowledge Deduplication and Cleanup\n        Schedule a Monday Devin session that triages suggestions, merges duplicates, and resolves conflicts.\n        SchedulesAdvanced Capabilities\n      \n    \n    \n      \n        Devin Optimization\n        Generate a Team-Specific Devin Onboarding Guide\n        Devin reads its own docs and generates a getting-started guide customized to your team's stack and workflows.\n        MCP\n      \n    \n  No use cases match your filters.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:15:41.305300Z",
+      "section_path": "Devin Review and Automations Pricing > Authenticating > Credentials file location",
+      "chunk_index": 1,
+      "token_count": 4467,
+      "quality_score": 1.0
+    },
+    {
+      "id": "ev_5a9976bace5c",
+      "source_type": "auth_docs",
+      "url": "https://docs.devin.ai/api-reference/authentication",
+      "domain": "docs.devin.ai",
+      "page_title": "Authentication - Devin Docs",
+      "content": "Principals & tokens\n| Principal | Token | Description | \n|---|---|---|\n| Service User (non-human) | Service User API Key | For automated integrations and CI/CD pipelines | \n| User (human) | Personal Access Token (PAT) | For human programmatic access under your own identity | \ncog_ prefix format. Include your token in the Authorization header of every request:\n- A Service User API Key authenticates as the service user — the service user’s identity, permissions, and org memberships apply.\n- A Personal Access Token authenticates as the human user who created it — that user’s identity, permissions, and org memberships apply.\nService users (recommended for automation)\nService users are non-human accounts designed for API integrations. They can be assigned specific permissions via RBAC and added to organizations independently of human users.How it works\n- Create a service user in Settings > Service users (organization) or Enterprise settings > Service users (enterprise)\n- Assign a role that controls which endpoints the service user can access\n- Generate an API key — the key starts with cog_and is shown only once at creation\n- Use the key in the Authorizationheader of every API request\nService user scopes\n| Scope | Created in | API access | Use case | \n|---|---|---|---|\n| Organization | Settings > Service users | /v3/organizations/* | Session management, knowledge, playbooks, secrets | \n| Enterprise | Enterprise settings > Service users | /v3/enterprise/*+/v3/organizations/* | Cross-org management, analytics, audit logs, billing | \nSession attribution with create_as_user_id\nService users are separate identities from human users. By default, sessions created by a service user are attributed to the service user itself. To create sessions on behalf of a specific user, pass the create_as_user_id parameter when creating a session. The session will appear in that user’s session list and count toward their usage.\nThis requires the ImpersonateOrgSessions permission on the service user’s role.\nKey properties\n- Keys start with cog_and are shown only once at creation time\n- Service users appear separately from human users in audit logs\n- Permissions are controlled via RBAC — assign only what the integration needs\n- Enterprise service users inherit org-level permissions across all organizations\nPersonal access tokens (closed beta)\nPersonal Access Tokens are currently in closed beta and are feature-flagged. Contact support for access. PATs are not available for SSO/enterprise accounts.\nLegacy authentication (deprecated)\nLegacy API keys are used with the v1 and v2 APIs. They continue to work during the deprecation period but do not support new features like RBAC, session attribution, or cursor-based pagination.| Key type | Prefix | Used with | Description | \n|---|---|---|---|\n| Personal API key | apk_user_ | v1, v2 | Tied to a user account, inherits user permissions | \n| Service API key | apk_ | v1 | Organization-scoped, for automation | \nSecurity best practices\n- Store keys securely: Use environment variables or secret management systems\n- Rotate keys regularly: Generate new keys and revoke old ones periodically\n- Use service users for automation: Prefer service users over personal keys for production\n- Apply least privilege: Grant only the minimum permissions required\n- Monitor usage: Review audit logs for unexpected API activity\n- Revoke compromised keys immediately: If a key is exposed, revoke it and generate a new one\nTroubleshooting\n401 Unauthorized\nPossible causes:- Invalid or expired API key\n- Missing Authorizationheader\n- Incorrect Bearer token format\n- Using a legacy API key (apk_/apk_user_) with the Devin MCP — onlycog_-prefixed keys are supported\n403 Forbidden\nPossible causes:- API key doesn’t have required permissions\n- Using the wrong key type for the endpoint (e.g., legacy key with v3 endpoints)\n- Attempting to access resources outside your scope\n- Ensure your service user has the correct role and permissions\n- For legacy v2 endpoints: ensure you have the Enterprise Admin role\n- For legacy v1 endpoints: verify you have access to the organization\n404 Not Found\nPossible causes:- Incorrect API endpoint URL\n- Resource doesn’t exist or you don’t have access\nNext steps\n- Teams quick start — get started in minutes\n- Enterprise quick start — RBAC and multi-org setup\n- Common flows — end-to-end workflow examples\n- Migration guide — migrate from v1/v2",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:15:41.416201Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 1104,
+      "quality_score": 0.88
+    },
+    {
+      "id": "ev_573688579301",
+      "source_type": "llms_txt",
+      "url": "https://docs.devin.ai/llms-full.txt",
+      "domain": "docs.devin.ai",
+      "page_title": "",
+      "content": "[Automations](/product-guides/automations) and [Devin Review](/work-with-devin/devin-review) are available on self-serve plans.\n* **Teams use shared on-demand credits.** On the Teams plan, Automations and Devin Review draw directly from the team's shared [on-demand credit](#on-demand-credits) pool and do not consume full-seat quota.\n* **What happens when you run out of credits.** If you run out of credits, Automations stop running and Devin Review switches to its smart diff viewer. Top up [on-demand credits](#on-demand-credits) to start Automations again and re-enable AI-powered review.\n* **Public PRs are free.** Anyone can review a public GitHub PR at [devinreview.com](https://devinreview.com) — or by replacing `github.com` with `devinreview.com` in any PR URL — without a Devin account, and no on-demand credits are consumed.\nCmd+Shift+P on macOS or Ctrl+Shift+P on Windows/Linux) and run **Install Devin CLI** to add the `devin` binary to their PATH.\nCmd+Shift+P / Ctrl+Shift+P) and run **Install Devin CLI**.\nAlternatively, you can install using the standalone installer — see the [Quickstart](/cli/) for instructions.\n\nTo authenticate with your legacy Windsurf enterprise account:\n```bash theme={null}\ndevin auth login\n```\nFollow the prompts and be sure to select the **Log in with Windsurf for Enterprise** option to authenticate through your organization's identity provider.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:15:41.305172Z",
+      "section_path": "Devin Review and Automations Pricing > Authenticating",
+      "chunk_index": 0,
+      "token_count": 348,
+      "quality_score": 0.8
+    },
+    {
+      "id": "ev_dd3a3b3f586a",
+      "source_type": "api_reference",
+      "url": "https://docs.devin.ai/cli/reference/commands",
+      "domain": "docs.devin.ai",
+      "page_title": "Commands & Flags - Devin Docs",
+      "content": "Usage\nman devin.\nGlobal Flags\n| Flag | Short | Description | \n|---|---|---|\n| --model <MODEL> | Set the AI model for this session | |\n| --permission-mode <MODE> | Permission mode ( normal,dangerous,bypass) | |\n| --continue | -c | Resume the most recent session in the current directory | \n| --resume <SESSION_ID> | -r | Resume a specific session by ID | \n| --print [PROMPT] | -p | Print response and exit (non-interactive mode). Optionally accepts an inline prompt. | \n| --prompt-file <FILE> | Load the initial prompt from a file | |\n| --config <PATH> | Configuration file path | |\n| --export [PATH] | Export conversation to a file after each turn (ATIF format). Uses a default path if none is provided. | |\n| --respect-workspace-trust | Whether to respect workspace trust settings | \nSubcommands\ndevin auth\nAuthentication related commands.| Command | Description | \n|---|---|\n| devin auth login | Log in to your account | \n| devin auth logout | Log out and remove stored credentials | \n| devin auth status | Check authentication status | \ndevin auth login:\n- --force-manual-token-flow— Skip browser-based auth and manually paste a token (useful for remote/SSH sessions)\ndevin mcp\nConnect and log in to Model Context Protocol servers.| Command | Description | \n|---|---|\n| devin mcp add <name> | Add a new MCP server | \n| devin mcp list | List all configured MCP servers | \n| devin mcp get <name> | Show details for a specific MCP server | \n| devin mcp remove <name> | Remove a configured MCP server | \n| devin mcp login <name> | Authenticate with an MCP server via OAuth | \n| devin mcp logout <name> | Remove stored OAuth credentials for an MCP server | \n| devin mcp enable <name> | Enable a disabled MCP server | \n| devin mcp disable <name> | Disable an MCP server without removing it | \ndevin mcp add:\n- -t, --transport <stdio|http>— Transport type (optional; inferred from URL → http, trailing args → stdio)\n- -s, --scope <local|project|user>— Configuration scope (default:- local)\n- --url <URL>— URL for HTTP transport (can also be passed as a positional argument after the name)\n- --command <CMD>— Command for stdio transport (optional when trailing args are provided)\n- -e, --env <KEY=VALUE>— Environment variables (repeatable)\n- -H, --header <HEADER: VALUE>— HTTP headers (repeatable)\n- --scopes <SCOPE,SCOPE>— OAuth scopes to request (comma-separated)\n- <URL>— Positional URL argument for HTTP (alternative to- --url)\n- -- <COMMAND> [ARGS...]— Command and arguments for stdio (first arg is the command when- --commandis omitted)\nHTTP servers try Streamable HTTP first and fall back to legacy SSE on 4xx errors (per the MCP spec). You can also set \n\"transport\": \"sse\" explicitly. See MCP Configuration → Troubleshooting.devin mcp remove:\n- -s, --scope <local|project|user>— Configuration scope (default:- local)\ndevin mcp login:\n- --scopes <SCOPE,SCOPE>— OAuth scopes to request (comma-separated)\ndevin mcp enable:\n- -s, --scope <local|project|user>— Configuration scope (default:- local)\ndevin mcp disable:\n- -s, --scope <local|project|user>— Configuration scope (default:- local)\ndevin rules\nManage agent rules (always-on context blobs).| Command | Description | \n|---|---|\n| devin rules list | List all available rules | \n| devin rules show <name> | Show details for a specific rule | \n| devin rules paths | Show rule directory locations | \ndevin rules list:\n- --provider <cursor\\|windsurf>— Filter by rule provider\ndevin skills\nManage agent skills (slash commands and agent-triggered context blobs).| Command | Description | \n|---|---|\n| devin skills list | List all available skills | \n| devin skills show <name> | Show details for a specific skill | \n| devin skills paths | Show skill directory locations | \ndevin skills list:\n- --trigger <user\\|model>— Filter by trigger type\ndevin list\nList sessions in the current directory. Alias:devin ls\n| Command | Description | \n|---|---|\n| devin list | Interactive session picker (default) | \n| devin list --format json | Output sessions as JSON | \n| devin list --format csv | Output sessions as CSV | \ndevin version\nPrint the current version and exit.devin --version.\ndevin acp\nRun Devin as an Agent Client Protocol (ACP) server over stdio. This subcommand is intended to be invoked by an ACP-aware editor or IDE (such as Windsurf or Zed) as a subprocess — it speaks JSON-RPC over stdin/stdout and is not meant to be run interactively.WINDSURF_API_KEY if set, otherwise from the credentials stored by devin auth login. It can also accept credentials at runtime via the ACP authenticate request.\ndevin update\nCheck for updates and optionally install them.--force to re-install even if already on the latest version:\ndevin shell\n[Feature Preview] Shell integration commands. See Shell Integration for full details.| Command | Description | \n|---|---|\n| devin shell setup | Install shell integration into your shell config file | \n| devin shell setup <shell> | Install for a specific shell ( bash,zsh, orfish) | \ndevin sandbox\n[Research Preview] Manage OS-level process sandboxing for the exec tool. Pass the global--sandbox flag to run a session with the sandbox enforced.\ndevin sandbox setup\nPrint the sandbox prerequisites for the current platform. Requirements to run with--sandbox:\n- Linux: requires bubblewrap (bwrap) andsocat. A sandbox session fails to start with install instructions if either is missing — including in a fresh WSL distribution.\n- macOS: works out of the box via Seatbelt; no extra packages needed.\n- Windows: native Windows cannot run the sandbox. Install WSL 2 and run Devin inside your WSL distribution.\ndevin setup\nInteractive setup wizard for authentication and MCP configuration.devin uninstall\nUninstall Devin CLI and optionally remove all data.| Option | Description | \n|---|---|\n| --clean | Remove all data including configuration, history, and custom data | \n| --force | Skip confirmation prompt | \nSlash Commands\nThese commands are available inside an interactive session. Type them at the prompt.Mode & Model\n| Command | Description | \n|---|---|\n| /mode [normal|accept-edits|plan|bypass] | Show or switch the current mode ( autonomousis available in sandbox sessions) | \n| /normal | Switch to Normal mode (default) | \n| /accept-edits | Switch to Accept Edits mode (auto-approve file edits in workspace) | \n| /plan | Switch to Plan mode (read-only planning) | \n| /ask <question> | Ask a question without making code changes (oneshot) | \n| /bypass | Switch to Bypass mode (auto-approve all actions) | \n| /model [name] | Show or change the current model | \n| /fast | Switch to SWE-1.6 Fast | \n| /theme [dark|light|terminal-dark|terminal-light|no-color] | Switch between themes (dark, light, terminal dark, terminal light, no color) | \n/bypass has aliases /yolo and /dangerous. All three do the same thing.Session Management\n| Command | Description | \n|---|---|\n| /clear | Clear conversation history and start a new session. Alias: /new | \n| /continue [session-id] | Resume a previous session | \n| /fork [step] | Fork the current session to a new session. Optionally fork from a specific step (see /steps). | \n| /steps | List conversation steps (use with /forkand/revert) | \n| /revert <step> | Revert file changes from a specific step onwards and rewind the conversation to before that step | \n| /resume [session-id] | Open the interactive session picker, or resume a specific session by ID | \n| /ls [--all] | List recent sessions (current directory only by default). Alias: /list-sessions | \n| /rename-session <new title> | Rename the current session | \n| /rm-session <session-id> | Irreversibly delete a session and all its data | \n| /export | Show export info. Use the --exportCLI flag to enable conversation export. | \n| /exit | Exit the application (alias: /quit). You can also typeexitorquitwithout the/prefix. | \nWorkspace\n| Command | Description | \n|---|---|\n| /workspace | List workspace directories (alias: /workspaces) | \n| /add-dir <path> | Add an additional workspace directory | \n| /undo-add-dir <path> | Remove a workspace directory | \nAutomation\n| Command | Description | \n|---|---|\n| /loop <prompt> | Run a prompt then auto-review the diff in a loop | \n| /btw <prompt> | Ask a quick side question. Runs a sidechain using the current conversation context and prints the answer in a box, without adding the question to the main conversation. | \nExtensibility\n| Command | Description | \n|---|---|\n| /hooks | List all loaded hooks with their IDs, event types, and source paths | \nUtilities\n| Command | Description | \n|---|---|\n| /help | Show available slash commands | \n| /shortcuts | Browse keyboard shortcuts in an interactive, searchable list grouped by category | \n| /bug [description] | Report a bug to the Devin CLI developers | \n| /update [--force] | Check for and install updates. Pass --forceto re-install even when already on the latest version. | \n| /upgrade | Upgrade your subscription plan | \n| /login | Authenticate with your account | \n| /logout | Clear stored credentials and exit | \n| /context | Show context window usage | \n| /usage | Show estimated credit/ACU usage for the session, including usage from previous openings of a resumed session | \n| /compact | Force conversation compaction | \nCloud Sessions (insiders only)\n| Command | Description | \n|---|---|\n| /cloud-sessions [--all] | Open an interactive picker of your recent cloud Devin sessions. Use arrow keys to navigate, type to filter, Enter to attach, Esc to cancel. Pass --allfor org-wide sessions. | \n| /cloud-attach <session-id> | Attach to a cloud Devin session with full TUI rendering and bidirectional input. | \nModes\nModes control the agent’s autonomy level by combining a permission mode with an agent profile.- Normal (default)\n- Plan\n- Bypass\nFull autonomy for complex coding tasks. The agent can read, write, and execute commands with normal permission checks.\n- Permission mode: Normal\n- Profile: Normal\n- Use for: Multi-file refactoring, feature implementation, bug fixes\n/mode, or switch directly with /normal, /accept-edits, /plan, or /bypass. Use /ask <question> as a oneshot command to ask questions without switching modes.\nProfiles\nProfiles determine the agent’s available tools and behavior. Profiles are automatically set when you switch modes.| Profile | Description | Tool Access | \n|---|---|---|\n| normal | Full coding assistant (used by Normal, Accept Edits, and Bypass modes) | All tools | \n| plan | Structured planning workflow (used by Plan mode) | Read-only tools (grep, glob, read, todo, ask_user_question, exit_plan_mode) | \n| ask | Question answering (used by the /askcommand) | Read-only tools (grep, glob, read, todo, ask_user_question) |",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:15:42.443224Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 2663,
+      "quality_score": 0.8
+    },
+    {
+      "id": "ev_6de4a4592e02",
+      "source_type": "pricing_page",
+      "url": "https://docs.devin.ai/admin/billing/enterprise",
+      "domain": "docs.devin.ai",
+      "page_title": "Enterprise - Devin Docs",
+      "content": "Tracking ACU consumption\nEnterprise customers can track ACU consumption at both the Enterprise and Organization level:- Enterprise admins view Enterprise ACU consumption at Settings > Consumption in Enterprise Settings.\n- Organization admins view Organization ACU consumption at Settings > Consumption Analytics within Organization Settings.\n- Any user can see the ACU cost of a specific session from Session Insights.\nSetting Organization ACU limits\nEnterprise admins can set per-Organization ACU limits from Settings > Organizations in Enterprise Settings.Frequently asked questions\nWhen will I be billed?\nWhen will I be billed?\nEnterprise customers are billed for ACUs as stated in their order form.\nWhat are Enterprise ACUs?\nWhat are Enterprise ACUs?\nEnterprise ACUs represent the work performed by Devin for customers on the Enterprise plan, which adheres more strictly to task planning and end-to-end testing. They are distinct from self-serve quota and on-demand credits, and are priced per the customer’s Enterprise order form.\nHow can I tell which Organization or user consumed the most ACUs?\nHow can I tell which Organization or user consumed the most ACUs?\nEnterprise admins can break consumption down by Organization from the Consumption page in Enterprise Settings. Org admins can break it down by user from Consumption Analytics inside Organization Settings.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:15:43.744632Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 343,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_d4a00ed88685",
+      "source_type": "official_docs",
+      "url": "https://docs.devin.ai",
+      "domain": "docs.devin.ai",
+      "page_title": "Introducing Devin - Devin Docs",
+      "content": "In some cases Devin may not function exactly as referenced, or documentation may be out of date.\nAlready Signed Up? Get Started Now:\nWhat are Devin’s strengths?\nHere are the types of tasks where Devin excels:- \nTackling many tasks in parallel, before they end up in your backlog\n- Linear/Jira tickets\n- Entire features from scratch\n- Bug reports\n- App testing\n \n- \nCode migrations, refactors, and modernization\n- Language migrations (e.g. JavaScript to TypeScript)\n- Framework upgrades (e.g. Angular 16 -> 18)\n- Monorepo to submodule conversions\n- Removing unused feature flags\n- Extracting common code into libraries\n \n- \nCommon, repetitive engineering tasks\n- PR Review\n- Codebase Q&A\n- Reproducing & fixing bugs\n- Writing unit tests\n- Maintaining documentation\n \n- \nCustomer engineering support\n- Building new integrations and working with unfamiliar APIs\n- Creating customized demos\n- Prototyping solutions\n- Building internal tools\n \n- Write clear prompts with explicit completion criteria — the clearer the task, the higher the success rate, especially for complex work.\n- Make tasks easy to verify — e.g. checking that CI passes or testing an automatic deployment.\n- For harder tasks, break them into well-scoped steps and provide relevant context or examples.\n- Follow our best practices and pre-task checklist.\n- Tagging Devin on a Slack or Teams thread about a bug you’re discussing with coworkers\n- Delegating a more complex task via the web application and taking over in Devin’s IDE once it gives you a good first draft.\n- Running Devin CLI in your local environment for quick fixes, code exploration, and interactive coding right from the command line — then using /handoffto send longer tasks to cloud Devin.\n- Carving out tasks from your todo list at the start of your day and returning to draft PRs waiting for review.\nGeneral Product Features\nThe Devin Interface\nDevin is designed to be a conversational user interface, and allows you to follow and take over Devin’s development process in the embedded IDE. Devin is also available via the Devin API. In Devin’s Workspace, you’ll find developer tools that Devin will use to complete your task.Shell\nDevin’s terminal, where you can watch commands being executed and view output logs. You can also copy the shell output for debugging purposes. To run commands directly, use the IDE’s shell.\nIDE\nDevin’s embedded code editor equipped with all the IDE tools and shortcuts you’re familiar with. Follow Devin’s work in real time and take over to run commands, make direct code edits or test Devin’s code.\nBrowser\nWatch Devin browse through documentation, test web applications it builds,\ndownload/upload information, and more. You can jump in to help Devin navigate\nthrough browsing tasks via the Interactive Browser.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:15:41.664114Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 694,
+      "quality_score": 0.36
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Devin is an AI-powered development tool that integrates with existing workflows.",
+      "evidence_ids": [
+        "ev_573688579301"
+      ]
+    },
+    "category": {
+      "value": "AI Research and Media",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "API Key, Personal Access Token",
+      "evidence_ids": [
+        "ev_5a9976bace5c"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_573688579301"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API",
+      "evidence_ids": [
+        "ev_5a9976bace5c"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_5a9976bace5c"
+      ]
+    },
+    "mcp": {
+      "value": "Official MCP",
+      "evidence_ids": [
+        "ev_573688579301"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_573688579301"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_573688579301"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.88,
+    "fields_checked": 8,
+    "fields_supported": 7,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.88,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.88 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ app.name }} — Composio App Research</title>
+    <style>
+        :root {
+            --bg-base: #030305;
+            --bg-surface: rgba(18, 18, 24, 0.65);
+            --text-h: #ffffff;
+            --text-body: #a1a1aa;
+            --text-muted: #71717a;
+            --accent-primary: #3b82f6;
+            --accent-secondary: #8b5cf6;
+            --accent-tertiary: #10b981;
+            --border-subtle: rgba(255, 255, 255, 0.06);
+            --border-focus: rgba(255, 255, 255, 0.15);
+            --status-high: #10b981;
+            --status-high-bg: rgba(16, 185, 129, 0.15);
+            --status-medium: #f59e0b;
+            --status-medium-bg: rgba(245, 158, 11, 0.15);
+            --status-low: #ef4444;
+            --status-low-bg: rgba(239, 68, 68, 0.15);
+            --status-blocked: #f43f5e;
+            --status-blocked-bg: rgba(244, 63, 94, 0.15);
+            --radius-sm: 8px;
+            --radius-md: 16px;
+            --radius-lg: 24px;
+            --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--bg-base);
+            color: var(--text-body);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+        .bg-glow {
+            position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+            pointer-events: none; z-index: -1;
+            background:
+                radial-gradient(circle at 15% 10%, rgba(59, 130, 246, 0.08) 0%, transparent 40%),
+                radial-gradient(circle at 85% 20%, rgba(139, 92, 246, 0.08) 0%, transparent 40%);
+        }
+        .glass-panel {
+            background: var(--bg-surface);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-lg);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+        }
+        .nav-bar {
+            display: flex; align-items: center; justify-content: space-between;
+            padding: 20px 40px; max-width: 1300px; margin: 0 auto;
+        }
+        .nav-bar a {
+            color: var(--text-muted); text-decoration: none; font-weight: 500;
+            transition: color 0.2s;
+        }
+        .nav-bar a:hover { color: var(--accent-primary); }
+        .hero {
+            padding: 60px 40px; text-align: center; max-width: 1300px; margin: 0 auto;
+        }
+        .hero h1 {
+            font-size: 3rem; font-weight: 800; color: var(--text-h);
+            letter-spacing: -0.03em; margin-bottom: 12px;
+        }
+        .hero .website {
+            color: var(--accent-primary); text-decoration: none; font-size: 1.1rem;
+        }
+        .hero .website:hover { text-decoration: underline; }
+        .section {
+            max-width: 1300px; margin: 0 auto 60px; padding: 0 40px;
+        }
+        .section-title {
+            font-size: 1.5rem; font-weight: 700; color: var(--text-h);
+            margin-bottom: 24px; display: flex; align-items: center; gap: 12px;
+            letter-spacing: -0.02em;
+        }
+        .section-title::before {
+            content: ''; width: 4px; height: 24px;
+            background: linear-gradient(to bottom, var(--accent-primary), var(--accent-secondary));
+            border-radius: 4px;
+        }
+        .stats-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 16px; margin-bottom: 40px;
+        }
+        .stat-card {
+            padding: 20px; border-radius: var(--radius-md); text-align: center;
+        }
+        .stat-value {
+            font-size: 2rem; font-weight: 700; color: var(--text-h);
+            font-family: var(--font-mono); margin-bottom: 4px;
+        }
+        .stat-label { font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; }
+        .info-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px; margin-bottom: 40px;
+        }
+        .info-card { padding: 24px; border-radius: var(--radius-md); }
+        .info-card h3 { color: var(--text-h); font-size: 1rem; margin-bottom: 12px; }
+        .info-card .value { font-size: 1.1rem; }
+        .detail-section { margin-top: 32px; }
+        .detail-section h3 { color: var(--text-h); font-size: 1.1rem; margin-bottom: 16px; }
+        .evidence-list { list-style: none; }
+        .evidence-item {
+            padding: 12px 16px; border-bottom: 1px solid var(--border-subtle);
+            display: flex; gap: 12px; align-items: flex-start;
+        }
+        .evidence-item:last-child { border-bottom: none; }
+        .evidence-item a {
+            color: var(--accent-primary); text-decoration: none; font-weight: 500;
+        }
+        .evidence-item a:hover { text-decoration: underline; }
+        .evidence-item .snippet {
+            color: var(--text-muted); font-size: 0.85rem; margin-top: 4px;
+        }
+        .evidence-item .badge {
+            display: inline-flex; align-items: center; padding: 2px 8px;
+            border-radius: 12px; font-size: 0.7rem; font-weight: 600;
+            text-transform: uppercase; background: rgba(59, 130, 246, 0.15);
+            color: var(--accent-primary); white-space: nowrap;
+        }
+        .doc-list { list-style: none; }
+        .doc-item {
+            padding: 8px 0; border-bottom: 1px solid var(--border-subtle);
+            display: flex; justify-content: space-between; align-items: center;
+        }
+        .doc-item:last-child { border-bottom: none; }
+        .doc-item a { color: var(--accent-primary); text-decoration: none; }
+        .doc-item a:hover { text-decoration: underline; }
+        .doc-item .conf { font-family: var(--font-mono); font-size: 0.85rem; }
+        .badge-supported { background: var(--status-high-bg); color: var(--status-high); }
+        .badge-unsupported { background: var(--status-medium-bg); color: var(--status-medium); }
+        .badge-incomplete { background: rgba(161, 161, 170, 0.15); color: #a1a1aa; }
+        .badge-high { background: var(--status-high-bg); color: var(--status-high); }
+        .badge-medium { background: var(--status-medium-bg); color: var(--status-medium); }
+        .badge-low { background: var(--status-low-bg); color: var(--status-low); }
+        .badge-blocked { background: var(--status-blocked-bg); color: var(--status-blocked); }
+        .badge {
+            display: inline-flex; align-items: center; justify-content: center;
+            padding: 4px 12px; border-radius: 20px; font-size: 0.75rem;
+            font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase;
+            border: 1px solid transparent;
+        }
+        .conf-bar {
+            width: 100%; height: 8px; background: rgba(255,255,255,0.08);
+            border-radius: 4px; overflow: hidden; margin-top: 8px;
+        }
+        .conf-bar-fill {
+            height: 100%; border-radius: 4px; transition: width 0.6s ease;
+        }
+        .conf-bar-fill.high { background: linear-gradient(90deg, #10b981, #34d399); }
+        .conf-bar-fill.med { background: linear-gradient(90deg, #f59e0b, #fbbf24); }
+        .conf-bar-fill.low { background: linear-gradient(90deg, #ef4444, #f87171); }
+        .value-description {
+            background: rgba(255,255,255,0.03); border-radius: var(--radius-sm);
+            padding: 16px; margin-top: 8px; line-height: 1.7;
+        }
+        .blocker-text {
+            color: var(--status-blocked); font-weight: 600;
+        }
+        @media (max-width: 768px) {
+            .hero { padding: 40px 20px; }
+            .hero h1 { font-size: 2rem; }
+            .section { padding: 0 20px; }
+            .nav-bar { padding: 16px 20px; }
+            .info-grid { grid-template-columns: 1fr; }
+            .stats-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+    </style>
+</head>
+<body>
+<div class="bg-glow"></div>
+
+<nav class="nav-bar">
+    <a href="../../case_study.html">← Back to Report</a>
+    <span style="color: var(--text-muted); font-size: 0.9rem;">Composio App Research</span>
+    <a href="http://localhost:8000/review/{{ app.slug }}"
+       style="background: rgba(59,130,246,0.15); color: var(--accent-primary); border: 1px solid rgba(59,130,246,0.3);
+              padding: 6px 16px; border-radius: 20px; font-size: 0.85rem; font-weight: 600;"
+       target="_blank">Review in QA →</a>
+</nav>
+
+<section class="hero">
+    <h1>{{ app.name }}</h1>
+    <a href="https://{{ app.website }}" class="website" target="_blank">{{ app.website }}</a>
+    {% if extraction and extraction.category %}
+    <p style="margin-top: 12px; color: var(--text-muted);">{{ extraction.category.value }}</p>
+    {% endif %}
+</section>
+
+<section class="section">
+    <div class="stats-grid">
+        <div class="stat-card glass-panel">
+            <div class="stat-value">{{ "%.0f"|format(confidence * 100) }}%</div>
+            <div class="stat-label">Confidence</div>
+            <div class="conf-bar"><div class="conf-bar-fill {{ 'high' if confidence >= 0.75 else 'med' if confidence >= 0.5 else 'low' }}" style="width: {{ confidence * 100 }}%"></div></div>
+        </div>
+        <div class="stat-card glass-panel">
+            <div class="stat-value">{{ evidence_count }}</div>
+            <div class="stat-label">Evidence Pieces</div>
+        </div>
+        <div class="stat-card glass-panel">
+            {% if validation %}
+            <div class="stat-value"><span class="badge badge-{{ validation.status|lower }}">{{ validation.status }}</span></div>
+            {% else %}
+            <div class="stat-value">—</div>
+            {% endif %}
+            <div class="stat-label">Validation</div>
+        </div>
+        <div class="stat-card glass-panel">
+            {% if validation %}
+            <div class="stat-value">{{ "%.0f"|format(validation.score * 100) }}%</div>
+            <div class="stat-label">{{ validation.fields_supported }}/{{ validation.fields_checked }} Fields</div>
+            {% else %}
+            <div class="stat-value">—</div>
+            <div class="stat-label">Fields</div>
+            {% endif %}
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <h2 class="section-title">Extraction Results</h2>
+    <div class="info-grid">
+        {% if extraction %}
+        <div class="info-card glass-panel">
+            <h3>Auth Methods</h3>
+            {% if human_review and human_review.overrides.get("auth_methods") %}
+            <div class="value" style="color: var(--status-low); text-decoration: line-through; font-size: 0.9rem;">{{ extraction.auth_methods.value }}</div>
+            <div class="value" style="color: var(--status-high);">{{ human_review.overrides.auth_methods.new }}</div>
+            {% else %}
+            <div class="value">{{ result.effective_value("auth_methods") }}</div>
+            {% endif %}
+        </div>
+        <div class="info-card glass-panel">
+            <h3>Access Model</h3>
+            {% if human_review and human_review.overrides.get("self_serve") %}
+            <div class="value" style="color: var(--status-low); text-decoration: line-through; font-size: 0.9rem;">{{ extraction.self_serve.value }}</div>
+            <div class="value" style="color: var(--status-high);">{{ human_review.overrides.self_serve.new }}</div>
+            {% else %}
+            <div class="value">{{ result.effective_value("self_serve") }}</div>
+            {% endif %}
+        </div>
+        <div class="info-card glass-panel">
+            <h3>API Surface</h3>
+            {% if human_review and human_review.overrides.get("api_surface") %}
+            <div class="value" style="color: var(--status-low); text-decoration: line-through; font-size: 0.9rem;">{{ extraction.api_surface.value }}</div>
+            <div class="value" style="color: var(--status-high);">{{ human_review.overrides.api_surface.new }}</div>
+            {% else %}
+            <div class="value">{{ result.effective_value("api_surface") }}</div>
+            {% endif %}
+        </div>
+        <div class="info-card glass-panel">
+            <h3>API Breadth</h3>
+            {% if human_review and human_review.overrides.get("api_breadth") %}
+            <div class="value" style="color: var(--status-low); text-decoration: line-through; font-size: 0.9rem;">{{ extraction.api_breadth.value }}</div>
+            <div class="value" style="color: var(--status-high);">{{ human_review.overrides.api_breadth.new }}</div>
+            {% else %}
+            <div class="value">{{ result.effective_value("api_breadth") }}</div>
+            {% endif %}
+        </div>
+        <div class="info-card glass-panel">
+            <h3>MCP Readiness</h3>
+            {% if human_review and human_review.overrides.get("mcp") %}
+            <div class="value" style="color: var(--status-low); text-decoration: line-through; font-size: 0.9rem;">{{ extraction.mcp.value }}</div>
+            <div class="value" style="color: var(--status-high);">{{ human_review.overrides.mcp.new }}</div>
+            {% else %}
+            <div class="value">{{ result.effective_value("mcp") }}</div>
+            {% endif %}
+        </div>
+        <div class="info-card glass-panel">
+            <h3>Buildability</h3>
+            {% if human_review and human_review.overrides.get("buildability") %}
+            <div class="value" style="color: var(--status-low); text-decoration: line-through; font-size: 0.9rem;">{{ extraction.buildability.value }}</div>
+            <div class="value"><span class="badge" style="background: var(--status-high-bg); color: var(--status-high);">{{ human_review.overrides.buildability.new }}</span></div>
+            {% else %}
+            <div class="value"><span class="badge badge-{{ result.effective_value('buildability')|lower }}">{{ result.effective_value("buildability") }}</span></div>
+            {% endif %}
+        </div>
+        {% if extraction.blocker and extraction.blocker.value and extraction.blocker.value != 'None' %}
+        <div class="info-card glass-panel">
+            <h3>Blocker</h3>
+            <div class="value blocker-text">{{ extraction.blocker.value }}</div>
+        </div>
+        {% endif %}
+        {% endif %}
+    </div>
+    {% if extraction and extraction.description and extraction.description.value %}
+    <div class="glass-panel" style="padding: 24px; border-radius: var(--radius-md); margin-top: 20px;">
+        <h3 style="color: var(--text-h); font-size: 1rem; margin-bottom: 12px;">Description</h3>
+        <div class="value-description">{{ result.effective_value("description") }}</div>
+    </div>
+    {% endif %}
+</section>
+
+<section class="section">
+    <h2 class="section-title">Discovered Documentation</h2>
+    {% if doc_map %}
+    <div class="glass-panel" style="padding: 24px; border-radius: var(--radius-md);">
+        <ul class="doc-list">
+            {% for url_data in doc_urls %}
+            <li class="doc-item">
+                <div>
+                    <a href="{{ url_data.url }}" target="_blank">{{ url_data.url }}</a>
+                    {% if url_data.title %}
+                    <div style="font-size: 0.85rem; color: var(--text-muted);">{{ url_data.title }}</div>
+                    {% endif %}
+                </div>
+                <span class="conf badge badge-{{ 'high' if url_data.confidence >= 0.75 else 'medium' if url_data.confidence >= 0.5 else 'low' }}">{{ "%.0f"|format(url_data.confidence * 100) }}%</span>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% else %}
+    <p style="color: var(--text-muted);">No documentation discovered.</p>
+    {% endif %}
+</section>
+
+{% if evidence %}
+<section class="section">
+    <h2 class="section-title">Evidence ({{ evidence|length }})</h2>
+    <div class="glass-panel" style="padding: 24px; border-radius: var(--radius-md);">
+        <ul class="evidence-list">
+            {% for ev in evidence %}
+            <li class="evidence-item">
+                <div>
+                    <a href="{{ ev.url }}" target="_blank">{{ ev.title or ev.url }}</a>
+                    {% if ev.snippet %}
+                    <div class="snippet">{{ ev.snippet[:200] }}{% if ev.snippet|length > 200 %}...{% endif %}</div>
+                    {% endif %}
+                    <div style="margin-top: 4px;">
+                        <span class="badge">{{ ev.slot_name }}</span>
+                        {% if ev.discovered_from %}
+                        <span class="badge" style="background: rgba(16, 185, 129, 0.15); color: var(--accent-tertiary);">{{ ev.discovered_from }}</span>
+                        {% endif %}
+                    </div>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
+{% endif %}
+
+{% if browser_verification and browser_verification.verified_fields %}
+<section class="section">
+    <h2 class="section-title">Browser Verification</h2>
+    <div class="glass-panel" style="padding: 24px; border-radius: var(--radius-md);">
+        <p><strong style="color: var(--text-h);">Verified fields:</strong> {{ browser_verification.verified_fields | join(', ') }}</p>
+        {% if browser_verification.corrections %}
+        <div style="margin-top: 12px;">
+            <strong style="color: var(--text-h);">Corrections:</strong>
+            <ul style="margin-top: 8px; list-style: none;">
+                {% for field, correction in browser_verification.corrections.items() %}
+                <li style="padding: 8px 0; border-bottom: 1px solid var(--border-subtle);">
+                    <span style="color: var(--text-muted);">{{ field }}:</span> {{ correction }}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+        {% if browser_verification.notes %}
+        <p style="margin-top: 12px; color: var(--text-muted); font-style: italic;">{{ browser_verification.notes }}</p>
+        {% endif %}
+    </div>
+</section>
+{% endif %}
+
+{% if human_review and human_review.required %}
+<section class="section">
+    <h2 class="section-title">Human Review</h2>
+    <div class="glass-panel" style="padding: 24px; border-radius: var(--radius-md);">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+            <div>
+                <span class="badge badge-{{ 'high' if human_review.status == 'completed' else 'medium' if human_review.status == 'in_progress' else 'low' }}" style="font-size: 0.85rem;">
+                    {{ human_review.status|upper }}
+                </span>
+                <span class="badge" style="background: rgba(139, 92, 246, 0.15); color: var(--accent-secondary); margin-left: 8px;">
+                    {{ final_status }}
+                </span>
+            </div>
+            {% if human_review.reviewer %}
+            <span style="color: var(--text-muted); font-size: 0.9rem;">
+                Reviewed by <strong style="color: var(--text-h);">{{ human_review.reviewer }}</strong>
+                {% if human_review.reviewed_at %} · {{ human_review.reviewed_at }}{% endif %}
+            </span>
+            {% endif %}
+        </div>
+
+        {% if human_review.reason %}
+        <div style="margin-bottom: 16px;">
+            <h3 style="color: var(--text-h); font-size: 0.95rem; margin-bottom: 8px;">Why this was flagged</h3>
+            <ul style="list-style: none;">
+                {% for r in human_review.reason %}
+                <li style="padding: 6px 12px; margin-bottom: 4px; background: rgba(245, 158, 11, 0.08); border-radius: var(--radius-sm); color: var(--status-medium); font-size: 0.9rem;">
+                    ⚠ {{ r }}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+
+        {% if human_review.overrides %}
+        <div>
+            <h3 style="color: var(--text-h); font-size: 0.95rem; margin-bottom: 8px;">Overrides Applied</h3>
+            <div style="display: grid; gap: 12px;">
+                {% for field_name, override in human_review.overrides.items() %}
+                <div style="background: rgba(255,255,255,0.03); border-radius: var(--radius-sm); padding: 12px 16px;">
+                    <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 6px;">
+                        <span class="badge" style="background: rgba(59, 130, 246, 0.15); color: var(--accent-primary);">{{ field_name }}</span>
+                        <span style="color: var(--status-low); font-family: var(--font-mono); font-size: 0.85rem;">{{ override.old }}</span>
+                        <span style="color: var(--text-muted);">→</span>
+                        <span style="color: var(--status-high); font-family: var(--font-mono); font-size: 0.85rem;">{{ override.new }}</span>
+                    </div>
+                    {% if override.reason %}
+                    <p style="color: var(--text-muted); font-size: 0.85rem; margin: 0;">{{ override.reason }}</p>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if human_review.notes %}
+        <div style="margin-top: 16px; padding: 12px 16px; background: rgba(255,255,255,0.03); border-radius: var(--radius-sm);">
+            <h3 style="color: var(--text-h); font-size: 0.95rem; margin-bottom: 4px;">Notes</h3>
+            <p style="color: var(--text-body); font-style: italic; margin: 0;">{{ human_review.notes }}</p>
+        </div>
+        {% endif %}
+    </div>
+</section>
+{% endif %}
+
+<footer style="text-align: center; padding: 40px; color: var(--text-muted); font-size: 0.9rem; border-top: 1px solid var(--border-subtle);">
+    <p><strong>Composio App Research Pipeline</strong></p>
+    <p style="margin-top: 8px;">Generated by the AI-driven evidence analysis pipeline</p>
+</footer>
+</body>
+</html>

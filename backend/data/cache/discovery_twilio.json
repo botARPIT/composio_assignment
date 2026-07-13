@@ -1,0 +1,1253 @@
+{
+  "app_name": "Twilio",
+  "official_domain": "twilio.com",
+  "homepage": {
+    "url": "https://twilio.com",
+    "title": "Twilio",
+    "confidence": 0.4,
+    "confidence_reason": [
+      "official_docs: +0.40"
+    ],
+    "is_official": true,
+    "discovered_from": "domain_probe"
+  },
+  "authentication": {
+    "primary": {
+      "url": "https://www.twilio.com/en-us/legal/authy-app-terms.md",
+      "title": "Twilio Authy App Terms",
+      "confidence": 0.65,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "llms_txt_source: +0.05"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "alternatives": [
+      {
+        "url": "https://www.twilio.com/en-us/lp/authentication-identity-guide-5-best-practices-user-onboarding.md",
+        "title": "5 Best Practices for Seamless & Secure User Onboarding",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https://www.twilio.com/en-us/lp/authenticate-identify-verify.md",
+        "title": "Forget about tackling User Verification alone | Twilio",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https://www.twilio.com/en-us/resource-center/authentication-identity-guide-5-best-practices-user-onboarding.md",
+        "title": "5 Best Practices for Seamless & Secure User Onboarding",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      }
+    ]
+  },
+  "api_reference": {
+    "primary": {
+      "url": "https://www.twilio.com/en-us/voice/api.md",
+      "title": "Voice API",
+      "confidence": 0.75,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "canonical_doc: +0.10",
+        "llms_txt_source: +0.05"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "alternatives": [
+      {
+        "url": "https:///docs/conversation-intelligence-classic/api.md",
+        "title": "Conversation Intelligence (classic) API Overview",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https:///docs/sip-trunking/api.md",
+        "title": "Elastic SIP Trunking REST API Reference",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https:///docs/conversation-intelligence-classic/api/transcript-sentence-subresource.md",
+        "title": "Conversation Intelligence (classic) - Transcript Sentence Subresource",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      }
+    ]
+  },
+  "pricing": {
+    "primary": {
+      "url": "https://www.twilio.com/en-us/solutions/enterprise.md",
+      "title": "Enterprise | Twilio",
+      "confidence": 0.65,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "llms_txt_source: +0.05"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "alternatives": [
+      {
+        "url": "https://www.twilio.com/en-us/products/connections/pricing.md",
+        "title": "Connections pricing",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      }
+    ]
+  },
+  "mcp": {
+    "primary": {
+      "url": "https:///docs/ai/mcp.md",
+      "title": "Twilio MCP server",
+      "confidence": 0.65,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "llms_txt_source: +0.05"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "alternatives": []
+  },
+  "developer_portal": {
+    "primary": {
+      "url": "https://www.twilio.com/en-us/developers.md",
+      "title": "Developer Hub",
+      "confidence": 0.65,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "llms_txt_source: +0.05"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "alternatives": [
+      {
+        "url": "https://www.twilio.com/en-us/developers/conversation-relay.md",
+        "title": "Developer Hub",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https://www.twilio.com/en-us/developers/rcs.md",
+        "title": "Developer Hub",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https://www.twilio.com/en-us/developers/sendgrid-email.md",
+        "title": "Developer Hub",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      }
+    ]
+  },
+  "sdk": null,
+  "webhooks": null,
+  "llms_txt": {
+    "url": "https://twilio.com/llms.txt",
+    "title": "llms.txt index",
+    "confidence": 1.0,
+    "confidence_reason": [
+      "llms_txt_source: +0.05",
+      "official_docs: +0.40",
+      "canonical_doc: +0.10"
+    ],
+    "is_official": true,
+    "discovered_from": "llms_txt"
+  },
+  "inventory": {
+    "app_name": "Twilio",
+    "official_domain": "twilio.com",
+    "items": [
+      {
+        "url": "https://twilio.com",
+        "page_type": "homepage",
+        "title": "Twilio",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      },
+      {
+        "url": "https://www.twilio.com/en-us/developers.md",
+        "page_type": "developer_portal",
+        "title": "Developer Hub",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://www.twilio.com/en-us/developers/conversation-relay.md",
+        "page_type": "developer_portal",
+        "title": "Developer Hub",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://www.twilio.com/en-us/developers/rcs.md",
+        "page_type": "developer_portal",
+        "title": "Developer Hub",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://www.twilio.com/en-us/developers/sendgrid-email.md",
+        "page_type": "developer_portal",
+        "title": "Developer Hub",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://www.twilio.com/en-us/developers/user-authentication-verification.md",
+        "page_type": "developer_portal",
+        "title": "Developer Hub",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://www.twilio.com/en-us/developers/voice.md",
+        "page_type": "developer_portal",
+        "title": "Developer Hub",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://www.twilio.com/en-us/developers/messaging.md",
+        "page_type": "developer_portal",
+        "title": "Developer Hub",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://www.twilio.com/en-us/developers/video.md",
+        "page_type": "developer_portal",
+        "title": "Developer Hub",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://www.twilio.com/en-us/legal/privacy/archive/authy.md",
+        "page_type": "authentication",
+        "title": "Authy App Privacy Notice",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://www.twilio.com/en-us/legal/developer-hackathon-terms.md",
+        "page_type": "developer_portal",
+        "title": "Twilio Dev.to Hackathon Terms | Twilio",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://www.twilio.com/en-us/legal/authy-app-terms.md",
+        "page_type": "authentication",
+        "title": "Twilio Authy App Terms",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://www.twilio.com/en-us/lp/authentication-identity-guide-5-best-practices-user-onboarding.md",
+        "page_type": "authentication",
+        "title": "5 Best Practices for Seamless & Secure User Onboarding",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://www.twilio.com/en-us/lp/authentication-identity-guide-5-best-practices-user-onboarding/1.md",
+        "page_type": "authentication",
+        "title": "Why secure onboarding matters for businesses",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://www.twilio.com/en-us/lp/authentication-identity-guide-5-best-practices-user-onboarding/2.md",
+        "page_type": "authentication",
+        "title": "5 ways to build a better new user onboarding process",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://www.twilio.com/en-us/lp/authentication-identity-guide-5-best-practices-user-onboarding/3.md",
+        "page_type": "authentication",
+        "title": "Protect your customers’ accounts with Twilio",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://www.twilio.com/en-us/lp/developer-verify-signup.md",
+        "page_type": "developer_portal",
+        "title": "Developer Verify Signup",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://www.twilio.com/en-us/lp/developer-verify-migrate.md",
+        "page_type": "developer_portal",
+        "title": "Developer Verify Migrate",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://www.twilio.com/en-us/lp/authenticate-identify-verify.md",
+        "page_type": "authentication",
+        "title": "Forget about tackling User Verification alone | Twilio",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://www.twilio.com/en-us/products/connections/pricing.md",
+        "page_type": "pricing",
+        "title": "Connections pricing",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://www.twilio.com/en-us/resource-center/authentication-identity-guide-5-best-practices-user-onboarding.md",
+        "page_type": "authentication",
+        "title": "5 Best Practices for Seamless & Secure User Onboarding",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://www.twilio.com/en-us/solutions/enterprise.md",
+        "page_type": "pricing",
+        "title": "Enterprise | Twilio",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://www.twilio.com/en-us/voice/api.md",
+        "page_type": "api_reference",
+        "title": "Voice API",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/authy.md",
+        "page_type": "authentication",
+        "title": "Authy: 2FA and Passwordless Login",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/ai.md",
+        "page_type": "developer_portal",
+        "title": "Building with AI",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/ai/mcp.md",
+        "page_type": "mcp",
+        "title": "Twilio MCP server",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/ai/skills.md",
+        "page_type": "developer_portal",
+        "title": "Twilio Skills for AI coding agents",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/bulk-messaging/tags.md",
+        "page_type": "developer_portal",
+        "title": "Tags",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/bulk-messaging/sender-pools.md",
+        "page_type": "developer_portal",
+        "title": "Sender Pools",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/conversation-intelligence-classic/pre-built-operators.md",
+        "page_type": "developer_portal",
+        "title": "Pre-built Language Operators",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/conversation-intelligence-classic/onboarding.md",
+        "page_type": "developer_portal",
+        "title": "Conversation Intelligence (classic) onboarding guide",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/conversation-intelligence-classic/language-operators.md",
+        "page_type": "developer_portal",
+        "title": "Language Operators",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/conversation-intelligence-classic.md",
+        "page_type": "developer_portal",
+        "title": "Conversation Intelligence (classic)",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/conversation-intelligence-classic/generative-custom-operators.md",
+        "page_type": "developer_portal",
+        "title": "Generative Custom Operators",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/conversation-intelligence-classic/customize.md",
+        "page_type": "developer_portal",
+        "title": "Customize Your Conversation Intelligence (classic) Configuration",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/conversation-intelligence-classic/conversation-relay-integration.md",
+        "page_type": "developer_portal",
+        "title": "Conversation Relay integration for AI agent observability",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/conversation-intelligence-classic/ai-nutrition-fact-labels.md",
+        "page_type": "developer_portal",
+        "title": "AI Nutrition Fact Labels",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/conversation-intelligence-classic/api/transcript-sentence-subresource.md",
+        "page_type": "api_reference",
+        "title": "Conversation Intelligence (classic) - Transcript Sentence Subresource",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/conversation-intelligence-classic/api/transcript-resource.md",
+        "page_type": "api_reference",
+        "title": "Conversation Intelligence (classic) - Transcript Resource",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/conversation-intelligence-classic/api/service-resource.md",
+        "page_type": "api_reference",
+        "title": "Conversation Intelligence (classic) - Service Resource",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/conversation-intelligence-classic/api.md",
+        "page_type": "api_reference",
+        "title": "Conversation Intelligence (classic) API Overview",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/sip-trunking/voice-dialing-geographic-permissions.md",
+        "page_type": "developer_portal",
+        "title": "Protect your account with Voice Dialing Geographic Permissions",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/sip-trunking/trunk-verification.md",
+        "page_type": "developer_portal",
+        "title": "Test your Elastic SIP Trunk",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/sip-trunking/troubleshooting.md",
+        "page_type": "developer_portal",
+        "title": "Troubleshooting your Trunk",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/sip-trunking/solution-blueprints.md",
+        "page_type": "developer_portal",
+        "title": "Elastic SIP Trunking — Solution Blueprints",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/sip-trunking/sip-header-manipulation.md",
+        "page_type": "developer_portal",
+        "title": "SIP Header Manipulation",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/sip-trunking/scale-and-limits.md",
+        "page_type": "developer_portal",
+        "title": "Twilio SIP Trunking Scale and Limits",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/sip-trunking/ip-addresses.md",
+        "page_type": "developer_portal",
+        "title": "IP Addresses for Elastic SIP Trunking Services",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/sip-trunking.md",
+        "page_type": "developer_portal",
+        "title": "Elastic SIP Trunking",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/sip-trunking/extended-call-duration.md",
+        "page_type": "developer_portal",
+        "title": "Extended Call Duration",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/sip-trunking/emergency-calling.md",
+        "page_type": "developer_portal",
+        "title": "Emergency Calling for SIP Trunking",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/sip-trunking/cps-trunk-termination.md",
+        "page_type": "developer_portal",
+        "title": "Calls per Second (CPS) — Trunking Termination",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/sip-trunking/configure-with-interconnect.md",
+        "page_type": "developer_portal",
+        "title": "Configure your Trunk using Twilio Interconnect",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/sip-trunking/codecs.md",
+        "page_type": "developer_portal",
+        "title": "Elastic SIP Trunking Codecs",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/sip-trunking/call-transfer.md",
+        "page_type": "developer_portal",
+        "title": "Call Transfer via SIP REFER",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/sip-trunking/sample-configuration.md",
+        "page_type": "developer_portal",
+        "title": "Elastic SIP Trunking Configuration Guides",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/sip-trunking/api/trunk-resource.md",
+        "page_type": "api_reference",
+        "title": "Trunk Resource",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/sip-trunking/api/phonenumber-resource.md",
+        "page_type": "api_reference",
+        "title": "PhoneNumber Resource",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/sip-trunking/api.md",
+        "page_type": "api_reference",
+        "title": "Elastic SIP Trunking REST API Reference",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/sip-trunking/api/emergency-calling.md",
+        "page_type": "api_reference",
+        "title": "Emergency Calling for SIP Trunking API",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/events.md",
+        "page_type": "developer_portal",
+        "title": "Event Streams",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/flex.md",
+        "page_type": "developer_portal",
+        "title": "Flex",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/flex/how-we-release-flex.md",
+        "page_type": "developer_portal",
+        "title": "How we release Flex",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/flex/conversations.md",
+        "page_type": "developer_portal",
+        "title": "Get Started with Flex Conversations",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/flex/building-checklist.md",
+        "page_type": "developer_portal",
+        "title": "Checklist for setting up Twilio Flex",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/flex/quickstart/getting-started-plugin.md",
+        "page_type": "developer_portal",
+        "title": "Twilio Flex Quickstart: Getting Started with Flex Plugin Development",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/flex/flex-mobile.md",
+        "page_type": "developer_portal",
+        "title": "Flex Mobile (public beta)",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/flex/end-user-guide/warm-transfer.md",
+        "page_type": "developer_portal",
+        "title": "Warm transfer",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/flex/end-user-guide/troubleshooting.md",
+        "page_type": "developer_portal",
+        "title": "User Guide to Troubleshooting the Flex UI",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/flex/end-user-guide/team-view-filters.md",
+        "page_type": "developer_portal",
+        "title": "Advanced Team view filters",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/flex/end-user-guide/service-level-preferences.md",
+        "page_type": "developer_portal",
+        "title": "Service Level Preferences",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/flex/end-user-guide/pre-release-features.md",
+        "page_type": "developer_portal",
+        "title": "Pre-Release Features - End User Guide",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/flex/end-user-guide/messaging.md",
+        "page_type": "developer_portal",
+        "title": "Use Chat and Messaging",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/flex/end-user-guide/keyboard-shortcuts.md",
+        "page_type": "developer_portal",
+        "title": "Keyboard Shortcuts",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/flex/end-user-guide/initial-audio-device-check.md",
+        "page_type": "developer_portal",
+        "title": "Initial Audio Device Check",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///docs/flex/end-user-guide/flex-mobile.md",
+        "page_type": "developer_portal",
+        "title": "Use Flex on a mobile device (public beta)",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      }
+    ],
+    "stats": {
+      "queries": 1,
+      "urls_discovered": 76,
+      "official_urls": 76,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 6
+    }
+  },
+  "stats": {
+    "queries": 1,
+    "urls_discovered": 76,
+    "official_urls": 76,
+    "non_official_filtered": 0,
+    "blog_community_filtered": 0,
+    "third_party_sdk_filtered": 0,
+    "duplicates_removed": 0,
+    "canonical_selected": 6
+  }
+}

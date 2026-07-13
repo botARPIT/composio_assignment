@@ -1,0 +1,279 @@
+{
+  "app_name": "MongoDB Atlas",
+  "official_domain": "mongodb.com",
+  "homepage": {
+    "url": "https://mongodb.com/docs/atlas/api",
+    "title": "MongoDB Atlas",
+    "confidence": 0.5,
+    "confidence_reason": [
+      "official_docs: +0.40",
+      "canonical_doc: +0.10"
+    ],
+    "is_official": true,
+    "discovered_from": "domain_probe"
+  },
+  "authentication": {
+    "primary": {
+      "url": "https://www.mongodb.com/docs",
+      "title": "",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "alternatives": []
+  },
+  "api_reference": {
+    "primary": {
+      "url": "https://www.mongodb.com/api/reference",
+      "title": "",
+      "confidence": 0.7,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "alternatives": []
+  },
+  "pricing": {
+    "primary": {
+      "url": "https://www.mongodb.com/products/self-managed/enterprise-advanced",
+      "title": "Self-Managed",
+      "confidence": 0.65,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "llms_txt_source: +0.05"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "alternatives": [
+      {
+        "url": "https://www.mongodb.com/pricing.md",
+        "title": "Pricing",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      }
+    ]
+  },
+  "sdk": {
+    "primary": {
+      "url": "https://www.mongodb.com/api/client-libraries",
+      "title": "",
+      "confidence": 0.7,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "alternatives": []
+  },
+  "mcp": {
+    "primary": {
+      "url": "https://www.mongodb.com/docs",
+      "title": "",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "alternatives": []
+  },
+  "developer_portal": {
+    "primary": {
+      "url": "https://www.mongodb.com/docs",
+      "title": "",
+      "confidence": 0.65,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "llms_txt_source: +0.05"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "alternatives": []
+  },
+  "webhooks": {
+    "primary": {
+      "url": "https://www.mongodb.com/api/webhooks",
+      "title": "",
+      "confidence": 0.7,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "alternatives": []
+  },
+  "llms_txt": {
+    "url": "https://mongodb.com/llms.txt",
+    "title": "llms.txt index",
+    "confidence": 1.0,
+    "confidence_reason": [
+      "llms_txt_source: +0.05",
+      "official_docs: +0.40",
+      "canonical_doc: +0.10"
+    ],
+    "is_official": true,
+    "discovered_from": "llms_txt"
+  },
+  "inventory": {
+    "app_name": "MongoDB Atlas",
+    "official_domain": "mongodb.com",
+    "items": [
+      {
+        "url": "https://mongodb.com/docs/atlas/api",
+        "page_type": "homepage",
+        "title": "MongoDB Atlas",
+        "confidence": 0.5,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "canonical_doc: +0.10"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      },
+      {
+        "url": "https://www.mongodb.com/products/self-managed/enterprise-advanced",
+        "page_type": "pricing",
+        "title": "Self-Managed",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://www.mongodb.com/docs",
+        "page_type": "developer_portal",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://www.mongodb.com/pricing.md",
+        "page_type": "pricing",
+        "title": "Pricing",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://www.mongodb.com/docs",
+        "page_type": "authentication",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      },
+      {
+        "url": "https://www.mongodb.com/api/reference",
+        "page_type": "api_reference",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      },
+      {
+        "url": "https://www.mongodb.com/api/client-libraries",
+        "page_type": "sdk",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      },
+      {
+        "url": "https://www.mongodb.com/api/webhooks",
+        "page_type": "webhooks",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      },
+      {
+        "url": "https://www.mongodb.com/docs",
+        "page_type": "mcp",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      }
+    ],
+    "stats": {
+      "queries": 1,
+      "urls_discovered": 9,
+      "official_urls": 9,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 2,
+      "canonical_selected": 8
+    }
+  },
+  "stats": {
+    "queries": 1,
+    "urls_discovered": 9,
+    "official_urls": 9,
+    "non_official_filtered": 0,
+    "blog_community_filtered": 0,
+    "third_party_sdk_filtered": 0,
+    "duplicates_removed": 2,
+    "canonical_selected": 8
+  }
+}

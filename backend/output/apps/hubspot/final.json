@@ -1,0 +1,639 @@
+{
+  "app": {
+    "id": 2,
+    "name": "HubSpot",
+    "website": "hubspot.com",
+    "category_hint": "CRM and Sales"
+  },
+  "documentation_map": {
+    "app_name": "HubSpot",
+    "official_domain": "hubspot.com",
+    "homepage": {
+      "url": "https://hubspot.com",
+      "title": "HubSpot",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://app.hubspot.com/myaccounts?next=developerdocs&redirect=%2Fauthentication",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://developers.hubspot.com/docs/api-reference/latest/overview",
+        "title": "",
+        "confidence": 0.95,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://www.hubspot.com/pricing",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://developers.hubspot.com/ai-tools/mcp",
+        "title": "",
+        "confidence": 0.85,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://developers.hubspot.com/docs",
+        "title": "",
+        "confidence": 0.85,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "HubSpot",
+      "official_domain": "hubspot.com",
+      "items": [
+        {
+          "url": "https://hubspot.com",
+          "page_type": "homepage",
+          "title": "HubSpot",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://app.hubspot.com/myaccounts?next=developerdocs&redirect=%2Fauthentication",
+          "page_type": "authentication",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.hubspot.com/docs/api-reference/latest/overview",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.95,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://www.hubspot.com/pricing",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.hubspot.com/docs",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.85,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.hubspot.com/ai-tools/mcp",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.85,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 0,
+        "urls_discovered": 6,
+        "official_urls": 6,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 6
+      }
+    },
+    "stats": {
+      "queries": 0,
+      "urls_discovered": 6,
+      "official_urls": 6,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 6
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_0a6d007e91f7",
+      "source_type": "api_reference",
+      "url": "https://developers.hubspot.com/docs/api-reference/latest/overview",
+      "domain": "developers.hubspot.com",
+      "page_title": "2026-03 API reference - HubSpot docs",
+      "content": "> ## Documentation Index\n>\n> Fetch the complete documentation index at: [/docs/llms.txt](https://developers.hubspot.com/docs/llms.txt)\n>\n> Use this file to discover all available pages before exploring further.\n\n[Skip to main content](https://developers.hubspot.com/docs/api-reference/latest/overview#content-area)\n\nThe 2026-03 APIs use a date-based versioning scheme that replaces the previous numeric version paths (e.g., `/crm/v3/`). All endpoints in this section follow the pattern:\n\n```\n/api-name/2026-03/resource\n```\n\nFor example, to retrieve all contacts:\n\n```\nGET /crm/objects/2026-03/contacts\n```\n\nAll APIs, whether legacy, new, or beta, use the same root path as before: `https://api.hubapi.com/`.This versioning model gives HubSpot the ability to ship updates on a predictable schedule. When a new date version is released, the previous version continues to work until its end-of-life date, giving you time to migrate. For new integrations, always use the latest date version. Learn more about this change on [HubSpot’s Developer Changelog](https://developers.hubspot.com/changelog/introducing-date-based-api-versioning).Across the API reference section, use the versioning dropdown menu in the top bar to switch versions. If there’s an equivalent endpoint to the one you’re currently viewing, you’ll automatically be sent there. Otherwise, you’ll land on that version’s home page.\n\n![Using the version selector in the developer docs to explore versions of HubSpot APIs](https://developers.hubspot.com/hubfs/Knowledge_Base_2023-24-25/developer/hs-docs-version-selector.png)\n\nLast modified onMarch 31, 2026\n\nWas this page helpful?\n\nYesNo\n\n[Web and mobile SDKs\\\\\n\\\\\nNext](https://developers.hubspot.com/docs/api-reference/latest/sdk)\n\nCtrl+I\n\nAssistant\n\nResponses are generated using AI and may contain mistakes.\n\n![Using the version selector in the developer docs to explore versions of HubSpot APIs](https://developers.hubspot.com/hubfs/Knowledge_Base_2023-24-25/developer/hs-docs-version-selector.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:55:57.261184Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 503,
+      "quality_score": 0.78
+    },
+    {
+      "id": "ev_741b960dd905",
+      "source_type": "pricing_page",
+      "url": "https://www.hubspot.com/pricing",
+      "domain": "www.hubspot.com",
+      "page_title": "Marketing Software Pricing | HubSpot",
+      "content": "Smarter tools, lower price. Get special Starter pricing when you choose a monthly or annual subscription. New customers only. Select offers available for a limited time.\n\nHubSpot AEO\n\nNew\n\nSee how your business shows up in answer engines\n\nHubSpot AEO shows you how you appear in ChatGPT, Gemini, and Perplexity, where competitors are winning, and what to do about it.\n\n$50/mo\n\n$45/mo if you pay annually\n\nTrack 25 prompts across 3 answer engines daily. Purchase additional prompts anytime.\n\nBuy now\n\nLoading\n\n[Start 28-day trial](https://app.hubspot.com/signup-hubspot/aeo)\n\nNo additional subscription required.\n\n[Learn about AEO](https://www.hubspot.com/products/aeo)\n\nWHAT'S INCLUDED\n\n- Brand visibility scores across answer engines\n\n- Prompt tracking and suggestions\n\n- Competitor comparison\n\n- Source and citation analysis\n\n- Prioritized recommendations\n\n\n3x\n\nincrease in lead conversion rate from AI, at HubSpot\n\n\\*Also included in Marketing Hub Professional and Enterprise\n\n![](https://static.hsappstatic.net/pricing-pages-ui-components/static-1.12790/js/productIcon/images/breeze.svg)\n\nGenerate leads and automate marketing that drives growth [Calculate your price](https://www.hubspot.com/pricing/bundle?products=marketing-hub-professional_1)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:55:58.181964Z",
+      "section_path": "![](https://static.hsappstatic.net/pricing-pages-ui-components/static-1.7121/js/productIcon/inbound/MarketingHub.svg)Marketing Hub",
+      "chunk_index": 0,
+      "token_count": 312,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_dcd3b79f8a12",
+      "source_type": "pricing_page",
+      "url": "https://www.hubspot.com/pricing",
+      "domain": "www.hubspot.com",
+      "page_title": "Marketing Software Pricing | HubSpot",
+      "content": "Start generating and emailing new leads, and measuring your success — for free\n\n$0/mo\n\nFree for up to 2 users. No credit card required.\n\n[Get started free](https://app.hubspot.com/signup-hubspot/crm?hubs_signup-url=www.hubspot.com%2Fpricing%2Fmarketing&hubs_signup-cta=marketing-merch-signupcard-hubspot-free&uuid=d094c10b-be75-4c4d-b4dd-7d82c0f0a729)\n\nIncludes:\n\n![MARKETING_PRODUCTS Hub](https://static.hsappstatic.net/pricing-pages-ui-components/static-1.7121/js/productIcon/inbound/MarketingHub.svg)\n\nFree Marketing tools\n\n![SALES_PRODUCTS Hub](https://static.hsappstatic.net/pricing-pages-ui-components/static-1.7121/js/productIcon/inbound/SalesHub.svg)\n\nFree Sales tools\n\n![SERVICE_HUB_PRODUCTS Hub](https://static.hsappstatic.net/pricing-pages-ui-components/static-1.7121/js/productIcon/inbound/ServiceHub.svg)\n\nFree Service tools\n\n![CMS_HUB_PRODUCTS Hub](https://static.hsappstatic.net/pricing-pages-ui-components/static-1.7121/js/productIcon/inbound/ContentHub.svg)\n\nFree Content tools\n\n![OPERATIONS_HUB_PRODUCTS Hub](https://static.hsappstatic.net/pricing-pages-ui-components/static-1.7121/js/productIcon/inbound/DataHub.svg)\n\nFree Data tools\n\n![COMMERCE_PRODUCTS Hub](https://static.hsappstatic.net/pricing-pages-ui-components/static-1.7121/js/productIcon/inbound/CommerceHub.svg)\n\nFree Revenue tools",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:55:58.182034Z",
+      "section_path": "![](https://static.hsappstatic.net/pricing-pages-ui-components/static-1.7121/js/productIcon/inbound/MarketingHub.svg)Marketing Hub > Free",
+      "chunk_index": 1,
+      "token_count": 327,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_b89b78fde6a5",
+      "source_type": "pricing_page",
+      "url": "https://www.hubspot.com/pricing",
+      "domain": "www.hubspot.com",
+      "page_title": "Marketing Software Pricing | HubSpot",
+      "content": "Essential marketing, sales, service, content, and data management software\n\nStarts at\n\n$7/mo/seat\n\n$20/mo/seat\n\nBilling period\n\nPay Monthly\n\nCommit monthly\n\nPay Annually\n\nBest Value\n\nBuy now\n\nLoading\n\n500 HubSpot Credits\n\n1,000marketing contacts\n\nFree tools with increased limits, plus remove HubSpot branding from:\n\nfeature available\n\nEmail marketing\n\nfeature available\n\nLive chat\n\nAnd:\n\nfeature available\n\nForms\n\nfeature available\n\nSimple marketing automation\n\nfeature available\n\nAd management\n\nfeature available\n\nAd retargeting\n\nfeature available\n\nCRM segments\n\nfeature available\n\nCookie Management Tools\n\nFor marketing teams who want to effectively run omni-channel campaigns, automation, and reporting to build a scalable demand engine\n\nStarts at\n\n$800/mo\n\n$890/mo\n\n**Includes 3 Core Seats**\n\nAdditional Core Seats start at $45/mo\n\nBilling period\n\nPay Monthly\n\nCommit annually\n\nPay Annually\n\nBest Value\n\n[Talk to Sales](https://offers.hubspot.com/contact-sales?hubs_signup-url=www.hubspot.com%2Fpricing%2Fmarketing&hubs_signup-cta=marketing-merch-card-marketing-hub-professional-marketing-hub-professional)\n\n3,000 HubSpot Credits\n\n2,000marketing contacts\n\nMarketing Hub Starter, plus:\n\nfeature available\n\nAEO(Beta)\n\nfeature available\n\nSocial media\n\nfeature available\n\nLead scoring\n\nfeature available\n\nAdvanced personalization\n\nfeature available\n\nTeams\n\nfeature available\n\nOmni-channel marketing automation\n\nfeature available\n\nCustom reporting\n\n\\*Cost shown does not include the required, one-time Professional Onboarding for a fee of $3,000. [Learn more](https://www.hubspot.com/services/onboarding/)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:55:58.182089Z",
+      "section_path": "![](https://static.hsappstatic.net/pricing-pages-ui-components/static-1.7121/js/productIcon/inbound/MarketingHub.svg)Marketing Hub > Professional",
+      "chunk_index": 2,
+      "token_count": 401,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_822b93abfd9d",
+      "source_type": "pricing_page",
+      "url": "https://www.hubspot.com/pricing",
+      "domain": "www.hubspot.com",
+      "page_title": "Marketing Software Pricing | HubSpot",
+      "content": "For marketing organizations seeking power, flexibility, and governance to orchestrate data-driven customer journeys at scale and accelerate revenue growth\n\nStarts at\n\n$3,600/mo\n\n**Includes 5 Core Seats**\n\nAdditional Core Seats start at $75/mo\n\n[Talk to Sales](https://offers.hubspot.com/contact-sales?hubs_signup-url=www.hubspot.com%2Fpricing%2Fmarketing&hubs_signup-cta=marketing-merch-card-marketing-hub-enterprise-marketing-hub-enterprise)\n\n5,000 HubSpot Credits\n\n10,000marketing contacts\n\nMarketing Hub Professional, plus:\n\nfeature available\n\nOrganize teams\n\nfeature available\n\nMulti-touch revenue attribution\n\nfeature available\n\nLookalike Lists(Beta)\n\nfeature available\n\nCustomer journey analytics\n\nfeature available\n\nLimit access to content and data\n\nfeature available\n\nJourney automation(Beta)\n\nfeature available\n\nEmail approvals\n\n\\*Cost shown does not include the required, one-time Enterprise Onboarding for a fee of $7,000. [Learn more](https://www.hubspot.com/services/onboarding/)\n\nView Professional & Enterprise plans\n\nHubSpot Credits\n\nPower agents and features that do work for you with HubSpot Credits. See every action taken, scale when you're ready, and only pay for what you use. $9.00 per 1,000 credits when you pay annually.\n\n1\\. How many contacts are in your CRM?\n\n0 - 2,000\n\n2\\. Select your features\n\nCustomer Agent\n\n50 credits per conversation resolved\n\nProfessional+\n\nData Agent\n\n10 credits per smart properties run\n\nStarter+\n\n[Create a custom plan](https://www.hubspot.com/pricing/bundle?creditEstimatorCrmTier=%3C%202k&products=crm-suite-starter-bundle_1&products=marketing-hub-starter_1&products=sales-hub-starter_1&products=service-hub-starter_1&products=cms-hub-starter_1&products=operations-hub-starter_1#credit-estimator)\n\nUse arrow keys to see other items\n\nAI Agents",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:55:58.182135Z",
+      "section_path": "![](https://static.hsappstatic.net/pricing-pages-ui-components/static-1.7121/js/productIcon/inbound/MarketingHub.svg)Marketing Hub > Enterprise",
+      "chunk_index": 3,
+      "token_count": 449,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_4193a8f161b7",
+      "source_type": "pricing_page",
+      "url": "https://www.hubspot.com/pricing",
+      "domain": "www.hubspot.com",
+      "page_title": "Marketing Software Pricing | HubSpot",
+      "content": "Resolves inquiries with fast, accurate responses — and escalates when needed, so your team can focus on complex cases and building loyalty. [Learn more](https://www.hubspot.com/products/artificial-intelligence/ai-customer-service-agent)\n\n![Customer Agent](https://static.hsappstatic.net/pricing-pages-ui-components/static-1.13971/js/hsocImages/carousel_credits_usage_dashboard.svg)\n\n* * *\n\n70%+\n\nof conversations resolved automatically\n\n39%\n\nfaster ticket resolution vs. teams not using customer agent",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:55:58.182167Z",
+      "section_path": "![](https://static.hsappstatic.net/pricing-pages-ui-components/static-1.7121/js/productIcon/inbound/MarketingHub.svg)Marketing Hub > Enterprise > Customer Agent",
+      "chunk_index": 4,
+      "token_count": 125,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_3cce40e04a7e",
+      "source_type": "pricing_page",
+      "url": "https://www.hubspot.com/pricing",
+      "domain": "www.hubspot.com",
+      "page_title": "Marketing Software Pricing | HubSpot",
+      "content": "| Generate Leads | Free tools<br>[Get started free](https://app.hubspot.com/signup-hubspot/crm?hubs_signup-url=www.hubspot.com%2Fpricing%2Fmarketing&hubs_signup-cta=marketing-feature-signupmonetization-hubspot-free&uuid=d094c10b-be75-4c4d-b4dd-7d82c0f0a729) | Starter<br>$7/mo<br>Buy now<br>Loading | Professional<br>$800/mo<br>[Talk to Sales](https://offers.hubspot.com/contact-sales?hubs_signup-url=www.hubspot.com%2Fpricing%2Fmarketing&hubs_signup-cta=marketing-feature-monetization-category-header-marketing-hub-professional) | Enterprise<br>$3,600/mo<br>[Talk to Sales](https://offers.hubspot.com/contact-sales?hubs_signup-url=www.hubspot.com%2Fpricing%2Fmarketing&hubs_signup-cta=marketing-feature-monetization-category-header-marketing-hub-enterprise) |\n| --- | --- | --- | --- | --- |\n| AEO<br>(Beta) |  |  | Get started with 25 prompts, each run daily across 3 engines, for 2,500 answers per month. Purchase the AEO Answers Limit Increase for additional prompts and tracking volume. | Get started with 50 prompts, each run daily across 3 engines, for 5,000 answers per month. Purchase the AEO Answers Limit Increase for additional prompts and tracking volume. |\n| SEO recommendations & optimizations | Basic recommendations. | Basic recommendations, one page at a time. | Advanced recommendations, full site auditing, and topics. | Advanced recommendations, full site auditing, and topics. |\n| Ad management | All available ad types<br>Simple website audiences only |  |  |  |\n| Simple ad automation |  | 1 simple workflow per form, with up to 10 actions. | Unlimited simple workflows per form, with unlimited actions. | Unlimited simple workflows per form, with unlimited actions. |\n| Ad retargeting | All available ad types<br>2 audiences | All available ad types<br>2 audiences | All available ad types<br>5 audiences | All available ad types<br>15 audiences |\n| Ad conversion events |  |  | Up to 50 synced events to ad accounts | Up to 100 synced events to ad accounts |\n| CTAs |  | Does not include custom targeting by device type, country, referral URL, etc. | Includes custom targeting by device type, country, referral URL, and more. | Includes custom targeting by device type, country, referral URL, and more. |\n| Forms | Limited features | Remove HubSpot branding<br>Additional features | Remove HubSpot branding<br>Additional features | Remove HubSpot branding<br>Additional features |\n| Form automation |  | 10 automated actions. Includes automating emails, creating records, and updating properties in your HubSpot database after a form is submitted. | Unlimited actions. Includes automating emails, creating records, and updating properties in your HubSpot database after a form is submitted. | Unlimited actions. Includes automating emails, creating records, and updating properties in your HubSpot database after a form is submitted. |\n| CRM segments |  | Up to 50 active CRM segments and 1,000 static CRM segments. CRM segmentation criteria limited to form submission data, contact property information, and marketing email activity. | Up to 1,200 active CRM segments and 1,200 static CRM segments. Create random samples from any CRM segment. | Up to 2,000 active CRM segments and 2,000 static CRM segments. Create random samples from any CRM segment, or split segments into random smaller segments (up to 10). |\n| Filter insights in segments<br>(Beta) |  |  |  |  |\n| Lookalike Lists<br>(Beta) |  |  |  |  |\n| Segment analytics<br>(Beta) |  |  |  |  |\n| Web visitor segments<br>(Beta) |  |  |  |  |\n| AI Segment Suggestions<br>(Beta) |  |  |  |  |\n| Live chat | Includes HubSpot branding | Remove HubSpot branding | Remove HubSpot branding | Remove HubSpot branding |\n| Conversational bots | Limited features | Limited features | Additional features | Additional features |\n| Facebook Messenger integration | Send and receive simple messages and quick replies | Remove HubSpot branding | Includes advanced Messenger bot branching and advanced reporting | Includes the ability to use code snippets for custom Messenger bot actions |\n| Draggable chat widget |  |  |  |  |\n| Logged-in visitor identification |  |  |  |  |\n| WhatsApp integration |  |  | Up to 1,000 messages per month | Up to 1,000 messages per month |\n| Breeze Customer Agent |  |  | 50 HubSpot Credits per conversation | 50 HubSpot Credits per conversation |\n| Social media |  |  | Up to 50 connected accounts, 10,000 posts per month, and post scheduling up to 3 years in advance. | Up to 300 connected accounts, 10,000 posts per month, and post scheduling up to 3 years in advance. Limit of up to 3 competitor streams connected. |\n| Social media approvals |  |  |  |  |\n| Lead scoring |  |  | Up to 5 scores. | Includes AI recommendations. Up to 50 scores. |\n| Multi-account management |  |  |  | Connect up to 5 total HubSpot accounts to manage within your organization. |",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:55:58.182266Z",
+      "section_path": "![](https://static.hsappstatic.net/pricing-pages-ui-components/static-1.7121/js/productIcon/inbound/MarketingHub.svg)Marketing Hub > Enterprise > Customer Agent",
+      "chunk_index": 5,
+      "token_count": 1216,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_0c3e82a39b2d",
+      "source_type": "pricing_page",
+      "url": "https://www.hubspot.com/pricing",
+      "domain": "www.hubspot.com",
+      "page_title": "Marketing Software Pricing | HubSpot",
+      "content": "| Automate Marketing | Free tools<br>[Get started free](https://app.hubspot.com/signup-hubspot/crm?hubs_signup-url=www.hubspot.com%2Fpricing%2Fmarketing&hubs_signup-cta=marketing-feature-signupmonetization-hubspot-free&uuid=d094c10b-be75-4c4d-b4dd-7d82c0f0a729) | Starter<br>$7/mo<br>Buy now<br>Loading | Professional<br>$800/mo<br>[Talk to Sales](https://offers.hubspot.com/contact-sales?hubs_signup-url=www.hubspot.com%2Fpricing%2Fmarketing&hubs_signup-cta=marketing-feature-monetization-category-header-marketing-hub-professional) | Enterprise<br>$3,600/mo<br>[Talk to Sales](https://offers.hubspot.com/contact-sales?hubs_signup-url=www.hubspot.com%2Fpricing%2Fmarketing&hubs_signup-cta=marketing-feature-monetization-category-header-marketing-hub-enterprise) |\n| --- | --- | --- | --- | --- |\n| Email marketing | 2,000 email sends per calendar month, with HubSpot branding | 5x marketing contact tier email send limit per calendar month. Connect and authenticate an email sending domain.<br>Remove HubSpot branding | 10x marketing contact tier email send limit per calendar month<br>Remove HubSpot branding<br>Additional features | 20x marketing contact tier email send limit per calendar month<br>Remove HubSpot branding<br>Additional features |\n| Email automation | 1 automated action | Up to 10 automated actions | Unlimited actions, plus omni-channel marketing automation | Unlimited actions, plus omni-channel marketing automation |\n| Email health reporting | Limited features | Limited features | Additional features | Additional features |\n| Messaging Insights<br>(Beta) |  |  |  |  |\n| A/B testing |  |  |  |  |\n| Smart content for marketing email |  |  |  |  |\n| Advanced personalization |  |  |  | Includes email marketing content powered by HubDB tables. |\n| Programmable email \\[Beta\\] |  |  | Includes email marketing content powered by CRM object data. | Includes email marketing content powered by CRM object or HubDB data. |\n| AI email template upload<br>(Beta) |  |  | 100 template uploads per account per month. | 100 template uploads per account per month. |\n| Email approvals |  |  |  |  |\n| Marketing email single send API |  |  |  |  |\n| Email send time optimization<br>(Beta) |  |  |  |  |\n| Cookie Management Tools | Create up to 100 consent banners with different geotargeting rules, languages, and banner templates. Includes support for GPC signals. Allow visitors to update their consent preferences with the cookie settings button. | Create up to 100 consent banners with different geotargeting rules, languages, and banner templates. Includes support for GPC signals. Allow visitors to update their consent preferences with the cookie settings button. Remove HubSpot branding. | Create up to 100 consent banners with different geotargeting rules, languages, and banner templates. Includes support for GPC signals. Allow visitors to update their consent preferences with the cookie settings button. Remove HubSpot branding. | Create up to 100 consent banners with different geotargeting rules, languages, and banner templates. Includes support for GPC signals. Allow visitors to update their consent preferences with the cookie settings button. Remove HubSpot branding. |\n| Reporting dashboard | 10 dashboards, 50 reports per dashboard | 30 dashboards, 50 reports per dashboard | 75 dashboards, 50 reports per dashboard | 100 dashboards, 50 reports per dashboard |\n| Website traffic analytics | Standard web analytics dashboard | Standard web analytics dashboard | Customizable website traffic analytics | Customizable website traffic analytics |\n| Custom reporting |  |  | Up to 100 custom reports and 10 million events per custom reporting query | Up to 500 custom reports and 100 million events per custom reporting query |\n| SEO analytics |  |  |  |  |\n| Google Search Console integration |  |  |  |  |\n| Multi-touch revenue attribution |  |  |  | Track up to 10,000 logged interactions per contact |\n| Customer journey analytics |  |  |  | Each report can include up to 15 stages (with 1-5 events per stage, up to a max of 15 unique events) and is limited to 60 months of data or 20 million events (whichever comes first). |\n| User management |  |  |  |  |\n| Limit access to content and data |  |  |  |  |\n| Campaign management |  |  |  |  |\n| Campaign reporting |  |  | 5,000 campaigns per account | 10,000 campaigns per account |\n| Video creation & editing |  |  |  |  |\n| Omni-channel marketing automation |  |  | Up to 300 workflows for 10 teams. | Up to 1,000 workflows for 300 teams, with the ability to leverage behavioral events and predictive lead scoring. Also includes workflow health monitoring. |\n| Custom events |  |  |  | Includes codeless creation via the event visualizer. Limited to 500 event definitions and 30 million completions per month. |\n| Event Visualizer |  |  |  |  |",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:55:58.182363Z",
+      "section_path": "![](https://static.hsappstatic.net/pricing-pages-ui-components/static-1.7121/js/productIcon/inbound/MarketingHub.svg)Marketing Hub > Enterprise > Customer Agent",
+      "chunk_index": 6,
+      "token_count": 1208,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_497dc244209d",
+      "source_type": "pricing_page",
+      "url": "https://www.hubspot.com/pricing",
+      "domain": "www.hubspot.com",
+      "page_title": "Marketing Software Pricing | HubSpot",
+      "content": "View the [Product & Services Catalog](https://legal.hubspot.com/hubspot-product-and-services-catalog) for full technical limits and definitions\n\n[+1 (888) 482-7768](tel:+1 888 482 7768)\n\nOver 2,000 leading apps and web services available\n\n![Amplitude](https://www.hubspot.com/hubfs/pricing_page/integrations/amplitude_logo.png)\n\nAmplitude\n\n![Jira](https://www.hubspot.com/hubfs/pricing_page/integrations/jira_logo.png)\n\nJira\n\n![Adobe Express](https://www.hubspot.com/hubfs/pricing_page/integrations/adobe_express_logo.png)\n\nAdobe Express\n\n![Aircall](https://www.hubspot.com/hubfs/pricing_page/integrations/aircall_logo.png)\n\nAircall\n\n![LinkedIn](https://www.hubspot.com/hubfs/pricing_page/integrations/linked_in_logo.png)\n\nLinkedIn\n\n![Microsoft Teams](https://www.hubspot.com/hubfs/pricing_page/integrations/microsoft_teams_logo.png)\n\nMicrosoft Teams\n\n[+1 (888) 482-7768](tel:+1 888 482 7768)\n\nChat Widget",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:55:58.182396Z",
+      "section_path": "![](https://static.hsappstatic.net/pricing-pages-ui-components/static-1.7121/js/productIcon/inbound/MarketingHub.svg)Marketing Hub > Still have questions about how HubSpot's software can help your business?",
+      "chunk_index": 7,
+      "token_count": 226,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_eb62fb56e909",
+      "source_type": "developer_portal",
+      "url": "https://developers.hubspot.com/docs",
+      "domain": "developers.hubspot.com",
+      "page_title": "HubSpot Developer Documentation - HubSpot docs",
+      "content": "[**Get Started** \\\\\n\\\\\nCreate your first app or template in minutes](https://developers.hubspot.com/docs/getting-started/quickstart)\n\n[**Platform Overview** \\\\\n\\\\\nGet to know HubSpot’s development platform and tools](https://developers.hubspot.com/docs/apps/developer-platform/overview)\n\n[**API Reference** \\\\\n\\\\\nIntegrate with HubSpot’s APIs](https://developers.hubspot.com/docs/api-reference/latest/overview)\n\n[**Developer Changelog** \\\\\n\\\\\nLearn about new changes and releases](https://developers.hubspot.com/changelog)\n\n[**HubSpot Developers Channel** \\\\\n\\\\\nExplore educational developer content](https://www.youtube.com/c/HubSpotDevelopers)\n\n[**HubSpot Community** \\\\\n\\\\\nJoin the HubSpot Community](https://developers.hubspot.com/community)\n\nCtrl+I\n\nAssistant\n\nResponses are generated using AI and may contain mistakes.\n\n![Get Data In and Out of HubSpot](https://mintlify-assets.b-cdn.net/hubspot/datain-light.svg)\n\n![Visualize Data in HubSpot](https://mintlify-assets.b-cdn.net/hubspot/visualize-light.svg)\n\n![Act on Data in HubSpot](https://mintlify-assets.b-cdn.net/hubspot/act-light.svg)\n\n![Get Data In and Out of HubSpot](https://mintlify-assets.b-cdn.net/hubspot/datain-dark.svg)\n\n![Visualize Data in HubSpot](https://mintlify-assets.b-cdn.net/hubspot/visualize-dark.svg)\n\n![Act on Data in HubSpot](https://mintlify-assets.b-cdn.net/hubspot/act-dark.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:55:58.129804Z",
+      "section_path": "Get Data In and Out of HubSpot > Resources",
+      "chunk_index": 2,
+      "token_count": 341,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_824c194bea16",
+      "source_type": "auth_docs",
+      "url": "https://app.hubspot.com/myaccounts?next=developerdocs&redirect=%2Fauthentication",
+      "domain": "app.hubspot.com",
+      "page_title": "HubSpot Login and Sign in",
+      "content": "Please log in again to continue.\n\nEmail\n\nContinue\n\nSee how HubSpot can help you achieve your growth goals.\n\n[Get a demo](https://offers.hubspot.com/crm-platform-demo?hubs_signup-url=app.hubspot.com/login&hubs_signup-cta=login-demo-existing)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:55:57.080559Z",
+      "section_path": "Your authentication has expired",
+      "chunk_index": 0,
+      "token_count": 60,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_aae3ac912576",
+      "source_type": "developer_portal",
+      "url": "https://developers.hubspot.com/docs",
+      "domain": "developers.hubspot.com",
+      "page_title": "HubSpot Developer Documentation - HubSpot docs",
+      "content": "Easily migrate data in and out of HubSpot using modern APIs and data tools.\n\n- [Import/Export data](https://developers.hubspot.com/docs/api-reference/latest/crm/imports/guide)\n- [Custom channels](https://developers.hubspot.com/docs/api-reference/legacy/conversations/guide)\n- [CRM object sync](https://github.com/hubspotdev/crm-object-sync)\n\n![Visualize Data in HubSpot](https://mintlify-assets.b-cdn.net/hubspot/visualize-light.svg)\n\nAdd custom UI elements (like CRM cards) to display your data right inside of HubSpot.\n\n- [Custom cards](https://developers.hubspot.com/docs/apps/developer-platform/add-features/ui-extensions/extension-points/app-cards/overview)\n- [App settings page](https://developers.hubspot.com/docs/apps/developer-platform/add-features/ui-extensions/extension-points/create-a-settings-page)\n- [Custom calling extensions](https://developers.hubspot.com/docs/api-reference/latest/crm/extensions/calling-extensions/third-party-calling)\n\n![Act on Data in HubSpot](https://mintlify-assets.b-cdn.net/hubspot/act-light.svg)\n\nAutomate actions, trigger workflows, and extend HubSpot logic to fit your business.\n\n- [Custom coded workflows](https://developers.hubspot.com/docs/api-reference/latest/automation/workflow-actions/custom-action-guide)\n- [Custom action builder](https://developers.hubspot.com/docs/apps/developer-platform/add-features)\n- [Gated website content](https://developers.hubspot.com/docs/cms/start-building/features/memberships/overview)\n- [Conversations API](https://developers.hubspot.com/docs/api-reference/legacy/conversations/guide)\n\n![Get Data In and Out of HubSpot](https://mintlify-assets.b-cdn.net/hubspot/datain-dark.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:55:58.129676Z",
+      "section_path": "Get Data In and Out of HubSpot > Act on Data in HubSpot",
+      "chunk_index": 0,
+      "token_count": 415,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_8c09f2bc7f80",
+      "source_type": "developer_portal",
+      "url": "https://developers.hubspot.com/docs",
+      "domain": "developers.hubspot.com",
+      "page_title": "HubSpot Developer Documentation - HubSpot docs",
+      "content": "Easily migrate data in and out of HubSpot using modern APIs and data tools.\n\n- [Import/Export data](https://developers.hubspot.com/docs/api-reference/latest/crm/imports/guide)\n- [Custom channels](https://developers.hubspot.com/docs/api-reference/legacy/conversations/guide)\n- [CRM object sync](https://github.com/hubspotdev/crm-object-sync)\n\n![Visualize Data in HubSpot](https://mintlify-assets.b-cdn.net/hubspot/visualize-dark.svg)\n\nAdd custom UI elements (like CRM cards) to display your data right inside of HubSpot.\n\n- [Custom cards](https://developers.hubspot.com/docs/apps/developer-platform/add-features/ui-extensions/extension-points/app-cards/overview)\n- [App settings page](https://developers.hubspot.com/docs/apps/developer-platform/add-features/ui-extensions/extension-points/create-a-settings-page)\n- [Custom calling extensions](https://developers.hubspot.com/docs/api-reference/latest/crm/extensions/calling-extensions/third-party-calling)\n\n![Act on Data in HubSpot](https://mintlify-assets.b-cdn.net/hubspot/act-dark.svg)\n\nAutomate actions, trigger workflows, and extend HubSpot logic to fit your business.\n\n- [Custom coded workflows](https://developers.hubspot.com/docs/api-reference/automation-actions-v4-v4/custom-action-guide)\n- [Custom action builders](https://developers.hubspot.com/docs/apps/developer-platform/add-features/custom-workflow-actions)\n- [Gated content](https://developers.hubspot.com/docs/cms/start-building/features/memberships/overview)\n- [Conversations API](https://developers.hubspot.com/docs/api-reference/2026-09-beta/conversations/conversations/guide)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:55:58.129739Z",
+      "section_path": "Get Data In and Out of HubSpot > Act on Data in HubSpot",
+      "chunk_index": 1,
+      "token_count": 398,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_498e9a11f02f",
+      "source_type": "official_docs",
+      "url": "https://hubspot.com",
+      "domain": "hubspot.com",
+      "page_title": "HubSpot | Software & Tools for your Business - Homepage",
+      "content": "Unite marketing, sales, and customer service on one agenticcustomer platform that delivers results fast.\n\n[Get a demo\\\\\nof HubSpot's premium software](https://offers.hubspot.com/crm-platform-demo?hubs_signup-url=www.hubspot.com/&hubs_signup-cta=homepage-hero) [Get started free\\\\\nwith HubSpot's free tools](https://app.hubspot.com/signup-hubspot/crm?hubs_signup-url=www.hubspot.com%2F&hubs_signup-cta=homepage-hero2&uuid=anon1b13a6089a634d595c41de0fc808)\n\nPreviousNext\n\n- ![ebay-logo](https://www.hubspot.com/hubfs/ebay-logo.svg)\n\n- ![doordash-logo](https://www.hubspot.com/hubfs/doordash-logo.svg)\n\n- ![reddit-logo](https://www.hubspot.com/hubfs/reddit-logo.svg)\n\n- ![tripadvisor-logo](https://www.hubspot.com/hubfs/tripadvisor-logo.svg)\n\n- ![eventbrite-logo](https://www.hubspot.com/hubfs/eventbrite-logo.svg)\n\nConnected data and tools make it easier to know, do, and connect everything across your business.\n\nPreviousNext\n\n- ![Shows the products that make up the HubSpot customer platform, starting with Smart CRM (highlighted in this image), then the hub engagement products, then Breeze, HubSpot's AI.](https://www.hubspot.com/hs-fs/hubfs/Customer%20Platform%20Graphic%20-%20Smart%20CRM1.5x%20(1).png?width=704&height=353&name=Customer%20Platform%20Graphic%20-%20Smart%20CRM1.5x%20(1).png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:55:57.275129Z",
+      "section_path": "Where go-to-marketteams go to   - grow - scale - close - retain - grow > HubSpot's Agentic Customer Platform",
+      "chunk_index": 0,
+      "token_count": 323,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_12986059dfad",
+      "source_type": "official_docs",
+      "url": "https://hubspot.com",
+      "domain": "hubspot.com",
+      "page_title": "HubSpot | Software & Tools for your Business - Homepage",
+      "content": "HubSpot’s Smart CRM is the single source of truth that connects all your business data.\n\n- ![Shows the products that make up the HubSpot customer platform, starting with Smart CRM, then the hub engagement products (highlighted in this image), then Breeze, HubSpot's AI.](https://www.hubspot.com/hs-fs/hubfs/Customer%20Platform%20Graphic%20-%20Hubs1.5x%20(1).png?width=704&height=353&name=Customer%20Platform%20Graphic%20-%20Hubs1.5x%20(1).png)\n\nUnify your teams to create content, find leads, close deals, and grow revenue.\n\n- ![Shows the products that make up the HubSpot customer platform, starting with Smart CRM, then the hub engagement products, then Breeze, HubSpot's AI (highlighted in this image) showing the Breeze Assistant and Breeze Agents..](https://www.hubspot.com/hs-fs/hubfs/customer-platform-graphic-breeze.png?width=704&height=353&name=customer-platform-graphic-breeze.png)\n\nBuilt-in AI tools boost productivity, scale growth, and unlock insights.\n\n\n![](https://www.hubspot.com/hubfs/DO%20NOT%20USE%20-%20WBZ%202025%20Rebrand-%20contact%20Teenie%20Rose%20for%20usage/Hub%20Logos/AI%20Sparkle.svg)Powered by AI\n\nDisconnected tools and data slow you down. HubSpot connects everything — and everyone — in one place to make growing a business easier than you think.\n\n[Get a demo\\\\\nof HubSpot's software](https://offers.hubspot.com/crm-platform-demo?hubs_signup-url=www.hubspot.com/&hubs_signup-cta=homepage-products) [Get started free\\\\\nwith HubSpot's free tools](https://app.hubspot.com/signup-hubspot/crm?hubs_signup-url=www.hubspot.com%2F&hubs_signup-cta=homepage-products2&uuid=anon1b13a6089a634d595c41de0fc808)\n\n![](https://www.hubspot.com/hs-fs/hubfs/DO%20NOT%20USE%20-%20WBZ%202025%20Rebrand-%20contact%20Teenie%20Rose%20for%20usage/Hub%20Logos/ProductIcons_MarketingHub_Icon_Orange.webp?width=182&height=239&name=ProductIcons_MarketingHub_Icon_Orange.webp)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:55:57.275194Z",
+      "section_path": "Where go-to-marketteams go to   - grow - scale - close - retain - grow > Growing a business is hard. HubSpot makes it easier.",
+      "chunk_index": 1,
+      "token_count": 469,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_a61cb4fb0ec0",
+      "source_type": "official_docs",
+      "url": "https://hubspot.com",
+      "domain": "hubspot.com",
+      "page_title": "HubSpot | Software & Tools for your Business - Homepage",
+      "content": "Scale your business with HubSpot. The proof is in our customers’ success.\n\n- Enterprise\n- Mid-Sized Business\n- Small Business\n\n![](https://www.hubspot.com/hs-fs/hubfs/Unipart-1.png?width=600&height=400&name=Unipart-1.png)\n\n“HubSpot took the time to understand our business needs fully. The pre-sales and subsequent support really stood out from the start. They committed to engage with us deeply and work side-by-side with us on the implementation. They’ve since more than met this commitment.”\n\nAdam Jones\n\nDirector of Business Development, Unipart\n\n[Read full case studyabout Unipart](https://www.hubspot.com/case-studies/unipart?hubs_content=www.hubspot.com/&hubs_content-cta=homepage-unipart)\n\n12\n\nmonths for the pipeline to grow from millions to billions\n\n5\n\npoint increase in net promoter score (NPS)\n\n![](https://www.hubspot.com/hs-fs/hubfs/angel-FC.png?width=600&height=400&name=angel-FC.png)\n\n“HubSpot gave us the tools we needed to grow without losing the personal connection with our fans. Their support has been vital to our continued marketing success.”\n\nWhitney Hallock\n\nDirector of Marketing & Experience, Angel City FC\n\n[Read full case studyof Angel City FC](https://www.hubspot.com/case-studies/angel-city?hubs_content=www.hubspot.com/&hubs_content-cta=homepage-angel)\n\n300%+\n\nfan database growth in just 2 years\n\n~350\n\nnew fan sign-ups per week\n\n7\n\nminutes average content engagement time\n\n![](https://www.hubspot.com/hs-fs/hubfs/youth-on-course.png?width=600&height=400&name=youth-on-course.png)\n\n“Just like you’d train a new hire, we trained customer agent — and now it’s often more accurate than we were. \\[...\\] And when something needs a human touch, our team can step in quickly — with full context at their fingertips.”\n\nJohn Mothershead\n\nDirector of Member Success, Youth on Course\n\n[Read full case studyof Youth on Course](https://www.hubspot.com/case-studies/youth-on-course?hubs_content=www.hubspot.com/&hubs_content-cta=homepage-youth)\n\n59%\n\nincrease in members YoY\n\n17%\n\nincrease in response time\n\n7%\n\nincrease in customer satisfaction",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:55:57.275551Z",
+      "section_path": "Where go-to-marketteams go to   - grow - scale - close - retain - grow > Remarkable results for every size business.",
+      "chunk_index": 9,
+      "token_count": 516,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_b8409917dba0",
+      "source_type": "official_docs",
+      "url": "https://hubspot.com",
+      "domain": "hubspot.com",
+      "page_title": "HubSpot | Software & Tools for your Business - Homepage",
+      "content": "![G2 Award Badge: Grid Leader (Small Business)](https://www.hubspot.com/hs-fs/hubfs/G2%20badges%20all/G2%20badges%20evergreen/badge-leader-small-business.png?width=80&height=80&name=badge-leader-small-business.png)![G2 Award Badge: Most Implementable](https://www.hubspot.com/hs-fs/hubfs/G2%20badges%20all/G2%20badges%20evergreen/bagde-most-implementable.png?width=80&height=80&name=bagde-most-implementable.png)![G2 Award Badge: Best Relationship (Small Business)](https://www.hubspot.com/hs-fs/hubfs/G2%20badges%20all/G2%20badges%20evergreen/best-relationships-small-business.png?width=80&height=80&name=best-relationships-small-business.png)![G2 Award Badge: Easiest Admin (Enterprise)](https://www.hubspot.com/hs-fs/hubfs/G2%20badges%20all/G2%20badges%20evergreen/best-support-enterprise.png?width=80&height=80&name=best-support-enterprise.png)![G2 Award Badge: Best Results (Mid-Market)](https://www.hubspot.com/hs-fs/hubfs/G2%20badges%20all/G2%20badges%20evergreen/badge-best-results-mid-market.png?width=80&height=80&name=badge-best-results-mid-market.png)![G2 Award Badge: Best Usability (Enterprise)](https://www.hubspot.com/hs-fs/hubfs/G2%20badges%20all/G2%20badges%20evergreen/badge-best-usability-enterprise.png?width=80&height=80&name=badge-best-usability-enterprise.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:55:57.275579Z",
+      "section_path": "Where go-to-marketteams go to   - grow - scale - close - retain - grow > Remarkable results for every size business. > Voted \\#1 in 526 G2 Reports",
+      "chunk_index": 10,
+      "token_count": 321,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_faed9bbea904",
+      "source_type": "official_docs",
+      "url": "https://hubspot.com",
+      "domain": "hubspot.com",
+      "page_title": "HubSpot | Software & Tools for your Business - Homepage",
+      "content": "[Get a demo\\\\\nof HubSpot's premium software](https://offers.hubspot.com/crm-platform-demo?hubs_signup-url=www.hubspot.com/&hubs_signup-cta=homepage-bottom) [Get started free\\\\\nwith HubSpot's free tools](https://app.hubspot.com/signup-hubspot/crm?hubs_signup-url=www.hubspot.com%2F&hubs_signup-cta=homepage-bottom2&uuid=anon1b13a6089a634d595c41de0fc808)\n\nChat Widget",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:55:57.275594Z",
+      "section_path": "Where go-to-marketteams go to   - grow - scale - close - retain - grow > Make impossible growth feel impossibly easy, with HubSpot",
+      "chunk_index": 11,
+      "token_count": 91,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_f5f0ffb68009",
+      "source_type": "official_docs",
+      "url": "https://hubspot.com",
+      "domain": "hubspot.com",
+      "page_title": "HubSpot | Software & Tools for your Business - Homepage",
+      "content": "* * *\n\n- Attract and convert the right leads.\n\n- Run campaigns, personalize content, and track it all.\n\n\n* * *\n\n[Learn more\\\\\nabout Marketing Hub software](https://www.hubspot.com/products/marketing?hubs_content=www.hubspot.com/&hubs_content-cta=homepage-marketing)\n\n![](https://www.hubspot.com/hs-fs/hubfs/DO%20NOT%20USE%20-%20WBZ%202025%20Rebrand-%20contact%20Teenie%20Rose%20for%20usage/Hub%20Logos/ProductIcons_SalesHub_Icon_Orange.webp?width=224&height=225&name=ProductIcons_SalesHub_Icon_Orange.webp)\n\n* * *\n\n- Generate quality leads and close deals, faster.\n\n- Automate prospecting, manage pipeline, and accelerate revenue growth.\n\n\n* * *\n\n[Learn more\\\\\nabout Sales Hub software](https://www.hubspot.com/products/sales?hubs_content=www.hubspot.com/&hubs_content-cta=homepage-sales)\n\n![](https://www.hubspot.com/hs-fs/hubfs/DO%20NOT%20USE%20-%20WBZ%202025%20Rebrand-%20contact%20Teenie%20Rose%20for%20usage/Hub%20Logos/ProductIcons_ServiceHub_Icon_Orange.webp?width=222&height=186&name=ProductIcons_ServiceHub_Icon_Orange.webp)\n\n* * *\n\n- Streamline and scale support to serve customers faster.\n\n- Drive retention with actionable insights, customer health scores, and real-time usage data.\n\n\n* * *\n\n[Learn more\\\\\nabout Service Hub software](https://www.hubspot.com/products/service?hubs_content=www.hubspot.com/&hubs_content-cta=homepage-service)\n\n![](https://www.hubspot.com/hs-fs/hubfs/DO%20NOT%20USE%20-%20WBZ%202025%20Rebrand-%20contact%20Teenie%20Rose%20for%20usage/Hub%20Logos/ProductIcons_ContentHub_Icon_Orange.webp?width=206&height=227&name=ProductIcons_ContentHub_Icon_Orange.webp)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:55:57.275229Z",
+      "section_path": "Where go-to-marketteams go to   - grow - scale - close - retain - grow > Growing a business is hard. HubSpot makes it easier. > Service Hub®",
+      "chunk_index": 2,
+      "token_count": 399,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_c4775b77e282",
+      "source_type": "official_docs",
+      "url": "https://hubspot.com",
+      "domain": "hubspot.com",
+      "page_title": "HubSpot | Software & Tools for your Business - Homepage",
+      "content": "* * *\n\n- Create content that clicks with your audience.\n\n- Build pages, publish content across channels, and stay on brand.\n\n\n* * *\n\n[Learn more\\\\\nabout Content Hub software](https://www.hubspot.com/products/content?hubs_content=www.hubspot.com/&hubs_content-cta=homepage-cms)\n\n![](https://www.hubspot.com/hs-fs/hubfs/WBZ%202025%20Rebrand/Hub%20Logos/Icons%20Webp/ProductIcons_DataHub_Icon_Orange.webp?width=239&height=208&name=ProductIcons_DataHub_Icon_Orange.webp)\n\n* * *\n\n- Turn scattered data into unified intelligence.\n\n- Combine, clean, and activate your customer data across every team and tool.\n\n\n* * *\n\n[Learn more\\\\\nabout Data Hub software](https://www.hubspot.com/products/data?hubs_content=www.hubspot.com/&hubs_content-cta=homepage-data)\n\n![](https://www.hubspot.com/hs-fs/hubfs/DO%20NOT%20USE%20-%20WBZ%202025%20Rebrand-%20contact%20Teenie%20Rose%20for%20usage/Hub%20Logos/ProductIcons_CommerceHub_Icon_Orange.webp?width=206&height=213&name=ProductIcons_CommerceHub_Icon_Orange.webp)\n\n* * *\n\n- Make it easy for customers to pay you.\n\n- Send quotes, collect payments, and manage subscriptions.\n\n\n* * *\n\n[Learn more\\\\\nabout Revenue Hub](https://www.hubspot.com/products/revenue?hubs_content=www.hubspot.com/&hubs_content-cta=homepage-revenue)\n\n![](https://www.hubspot.com/hs-fs/hubfs/DO%20NOT%20USE%20-%20WBZ%202025%20Rebrand-%20contact%20Teenie%20Rose%20for%20usage/Hub%20Logos/ProductIcons_SmartCRM_Icon_Orange.webp?width=201&height=201&name=ProductIcons_SmartCRM_Icon_Orange.webp)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:55:57.275261Z",
+      "section_path": "Where go-to-marketteams go to   - grow - scale - close - retain - grow > Growing a business is hard. HubSpot makes it easier. > Revenue Hub™",
+      "chunk_index": 3,
+      "token_count": 373,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_e2430f1b2645",
+      "source_type": "official_docs",
+      "url": "https://hubspot.com",
+      "domain": "hubspot.com",
+      "page_title": "HubSpot | Software & Tools for your Business - Homepage",
+      "content": "* * *\n\n- All your customer data in one place.\n\n- Keep your data clean, connected, and actionable.\n\n\n* * *\n\n[Learn more\\\\\nabout HubSpot's Smart CRM](https://www.hubspot.com/products/crm/ai-crm?hubs_content=www.hubspot.com/&hubs_content-cta=homepage-smartcrm)\n\n![](https://www.hubspot.com/hubfs/DO%20NOT%20USE%20-%20WBZ%202025%20Rebrand-%20contact%20Teenie%20Rose%20for%20usage/Hub%20Logos/Breeze%20Icon.svg)\n\n* * *\n\n- AI that works with you, and for you.\n\n- Agents & assistants everywhere you need them.\n\n\n* * *\n\n[Learn more\\\\\nabout Breeze, HubSpot's AI tools](https://www.hubspot.com/products/artificial-intelligence?hubs_content=www.hubspot.com/&hubs_content-cta=homepage-breeze)\n\n* * *\n\n- The Starter edition of each product, at one low price.\n\n\n* * *\n\n[Learn more\\\\\nabout the HubSpot Small Business Bundle of tools](https://www.hubspot.com/products/crm/starter?hubs_content=www.hubspot.com/&hubs_content-cta=homepage-starter)\n\n* * *\n\n- See where your brand shows up in AI results.\n\n- Get recommendations to improve your visibility.\n\n\n* * *\n\n[Learn more\\\\\nabout AEO](https://www.hubspot.com/products/aeo?hubs_content=www.hubspot.com/&hubs_content-cta=homepage-aeo)\n\n![](https://www.hubspot.com/hubfs/DO%20NOT%20USE%20-%20WBZ%202025%20Rebrand-%20contact%20Teenie%20Rose%20for%20usage/Hub%20Logos/Breeze%20Icon.svg)\n\n[Explore Breeze Agents\\\\\nbuilt-in AI that do work for you](https://www.hubspot.com/products/artificial-intelligence/breeze-ai-agents?hubs_content=www.hubspot.com/&hubs_content-cta=homepage-breezeagents)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:55:57.275299Z",
+      "section_path": "Where go-to-marketteams go to   - grow - scale - close - retain - grow > Growing a business is hard. HubSpot makes it easier. > AEO (Beta)",
+      "chunk_index": 4,
+      "token_count": 379,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_aba3da8ea902",
+      "source_type": "official_docs",
+      "url": "https://hubspot.com",
+      "domain": "hubspot.com",
+      "page_title": "HubSpot | Software & Tools for your Business - Homepage",
+      "content": "Breeze Agents are your always-on teammates. They can resolve over 65% of customer inquiries, accelerate your sales pipeline, and whip up quality content in no time.\n\nPrevious slideNext slide\n\n- ![Shows HubSpot's customer agent asking a HubSpot user how it can help today.](https://www.hubspot.com/hs-fs/hubfs/customer-agent-en@2x.png?width=640&height=640&name=customer-agent-en@2x.png)\n\nResolve 65% of your customer inquiries automatically.\n\n[Learn moreabout Customer Agent](https://www.hubspot.com/products/service/ai-customer-service-agent?hubs_content=www.hubspot.com/&hubs_content-cta=homepage-agents1)\n\n- ![Shows HubSpot's prospecting agent introducing itself to a HubSpot user, letting them know it's there to help put their prospecting efforts on auto-pilot, and giving them the option to view automations.](https://www.hubspot.com/hs-fs/hubfs/prospecting-agent-en@2x.png?width=640&height=640&name=prospecting-agent-en@2x.png)\n\nSpot buying signals, source contacts, and launch personalized outreach — instantly.\n\n[Learn moreabout prospecting agent](https://www.hubspot.com/products/sales/ai-prospecting-agent?hubs_content=www.hubspot.com/&hubs_content-cta=homepage-agents2)\n\n- ![Shows a HubSpot user requesting Data Agent to generate a smart property.](https://www.hubspot.com/hs-fs/hubfs/data-hub-en@2x.png?width=640&height=640&name=data-hub-en@2x.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:55:57.275364Z",
+      "section_path": "Where go-to-marketteams go to   - grow - scale - close - retain - grow > Built-in AI agents that work for you 24/7. > Prospecting Agent",
+      "chunk_index": 5,
+      "token_count": 340,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_e934bf36bbda",
+      "source_type": "official_docs",
+      "url": "https://hubspot.com",
+      "domain": "hubspot.com",
+      "page_title": "HubSpot | Software & Tools for your Business - Homepage",
+      "content": "Get instant answers to custom questions about your customers.\n\n[Learn moreabout content agent](https://www.hubspot.com/products/artificial-intelligence/ai-data-agent?hubs_content=www.hubspot.com/&hubs_content-cta=homepage-agents3)\n\n- ![Shows HubSpot's customer agent asking a HubSpot user how it can help today.](https://www.hubspot.com/hs-fs/hubfs/customer-agent-en@2x.png?width=640&height=640&name=customer-agent-en@2x.png)\n\nResolve 65% of your customer inquiries automatically.\n\n[Learn moreabout Customer Agent](https://www.hubspot.com/products/service/ai-customer-service-agent?hubs_content=www.hubspot.com/&hubs_content-cta=homepage-agents1)\n\n- ![Shows HubSpot's prospecting agent introducing itself to a HubSpot user, letting them know it's there to help put their prospecting efforts on auto-pilot, and giving them the option to view automations.](https://www.hubspot.com/hs-fs/hubfs/prospecting-agent-en@2x.png?width=640&height=640&name=prospecting-agent-en@2x.png)\n\nSpot buying signals, source contacts, and launch personalized outreach — instantly.\n\n[Learn moreabout prospecting agent](https://www.hubspot.com/products/sales/ai-prospecting-agent?hubs_content=www.hubspot.com/&hubs_content-cta=homepage-agents2)\n\n- ![Shows a HubSpot user requesting Data Agent to generate a smart property.](https://www.hubspot.com/hs-fs/hubfs/data-hub-en@2x.png?width=640&height=640&name=data-hub-en@2x.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:55:57.275413Z",
+      "section_path": "Where go-to-marketteams go to   - grow - scale - close - retain - grow > Built-in AI agents that work for you 24/7. > Prospecting Agent",
+      "chunk_index": 6,
+      "token_count": 350,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_2844addd505b",
+      "source_type": "official_docs",
+      "url": "https://hubspot.com",
+      "domain": "hubspot.com",
+      "page_title": "HubSpot | Software & Tools for your Business - Homepage",
+      "content": "Get instant answers to custom questions about your customers.\n\n[Learn moreabout content agent](https://www.hubspot.com/products/artificial-intelligence/ai-data-agent?hubs_content=www.hubspot.com/&hubs_content-cta=homepage-agents3)\n\n- ![Shows HubSpot's customer agent asking a HubSpot user how it can help today.](https://www.hubspot.com/hs-fs/hubfs/customer-agent-en@2x.png?width=640&height=640&name=customer-agent-en@2x.png)\n\nResolve 65% of your customer inquiries automatically.\n\n[Learn moreabout Customer Agent](https://www.hubspot.com/products/service/ai-customer-service-agent?hubs_content=www.hubspot.com/&hubs_content-cta=homepage-agents1)\n\n- ![Shows HubSpot's prospecting agent introducing itself to a HubSpot user, letting them know it's there to help put their prospecting efforts on auto-pilot, and giving them the option to view automations.](https://www.hubspot.com/hs-fs/hubfs/prospecting-agent-en@2x.png?width=640&height=640&name=prospecting-agent-en@2x.png)\n\nSpot buying signals, source contacts, and launch personalized outreach — instantly.\n\n[Learn moreabout prospecting agent](https://www.hubspot.com/products/sales/ai-prospecting-agent?hubs_content=www.hubspot.com/&hubs_content-cta=homepage-agents2)\n\n- ![Shows a HubSpot user requesting Data Agent to generate a smart property.](https://www.hubspot.com/hs-fs/hubfs/data-hub-en@2x.png?width=640&height=640&name=data-hub-en@2x.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:55:57.275458Z",
+      "section_path": "Where go-to-marketteams go to   - grow - scale - close - retain - grow > Built-in AI agents that work for you 24/7. > Prospecting Agent",
+      "chunk_index": 7,
+      "token_count": 350,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_c442672ea32b",
+      "source_type": "official_docs",
+      "url": "https://hubspot.com",
+      "domain": "hubspot.com",
+      "page_title": "HubSpot | Software & Tools for your Business - Homepage",
+      "content": "Get instant answers to custom questions about your customers.\n\n[Learn moreabout content agent](https://www.hubspot.com/products/artificial-intelligence/ai-data-agent?hubs_content=www.hubspot.com/&hubs_content-cta=homepage-agents3)\n\n\nPause Carousel\n\n[See all app integrations](https://ecosystem.hubspot.com/marketplace/apps)\n\n- ![Gmail](https://www.hubspot.com/hubfs/gmail-icon-3.svg)\n- ![Shopify](https://www.hubspot.com/hubfs/shopify-icon-3.svg)\n- ![Mailchimp](https://www.hubspot.com/hubfs/mailchimp-icon-3.svg)\n- ![Zapier](https://www.hubspot.com/hubfs/Imported%20sitepage%20images/zapier-icon-2.svg)\n- ![Google Ads](https://www.hubspot.com/hubfs/Imported%20sitepage%20images/google-ads-icon-2.svg)\n- ![Slack](https://www.hubspot.com/hubfs/Imported%20sitepage%20images/slack-icon-2.svg)\n- ![Gmail](https://www.hubspot.com/hubfs/gmail-icon-3.svg)\n- ![Shopify](https://www.hubspot.com/hubfs/shopify-icon-3.svg)\n- ![Mailchimp](https://www.hubspot.com/hubfs/mailchimp-icon-3.svg)\n\n- ![Gmail](https://www.hubspot.com/hubfs/gmail-icon-3.svg)\n- ![Shopify](https://www.hubspot.com/hubfs/shopify-icon-3.svg)\n- ![Mailchimp](https://www.hubspot.com/hubfs/mailchimp-icon-3.svg)\n- ![Zapier](https://www.hubspot.com/hubfs/Imported%20sitepage%20images/zapier-icon-2.svg)\n- ![Google Ads](https://www.hubspot.com/hubfs/Imported%20sitepage%20images/google-ads-icon-2.svg)\n- ![Slack](https://www.hubspot.com/hubfs/Imported%20sitepage%20images/slack-icon-2.svg)\n- ![Gmail](https://www.hubspot.com/hubfs/gmail-icon-3.svg)\n- ![Shopify](https://www.hubspot.com/hubfs/shopify-icon-3.svg)\n- ![Mailchimp](https://www.hubspot.com/hubfs/mailchimp-icon-3.svg)\n\n- ![Gmail](https://www.hubspot.com/hubfs/gmail-icon-3.svg)\n- ![Shopify](https://www.hubspot.com/hubfs/shopify-icon-3.svg)\n- ![Mailchimp](https://www.hubspot.com/hubfs/mailchimp-icon-3.svg)\n- ![Zapier](https://www.hubspot.com/hubfs/Imported%20sitepage%20images/zapier-icon-2.svg)\n- ![Google Ads](https://www.hubspot.com/hubfs/Imported%20sitepage%20images/google-ads-icon-2.svg)\n- ![Slack](https://www.hubspot.com/hubfs/Imported%20sitepage%20images/slack-icon-2.svg)\n- ![Gmail](https://www.hubspot.com/hubfs/gmail-icon-3.svg)\n- ![Shopify](https://www.hubspot.com/hubfs/shopify-icon-3.svg)\n- ![Mailchimp](https://www.hubspot.com/hubfs/mailchimp-icon-3.svg)\n\nCase Studies\n\n[See all case studies\\\\\na11y text suffix](https://www.hubspot.com/case-studies?hubs_content=www.hubspot.com/&hubs_content-cta=homepage-casestudies)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:55:57.275503Z",
+      "section_path": "Where go-to-marketteams go to   - grow - scale - close - retain - grow > Built-in AI agents that work for you 24/7. > Works with the tools you already use. 2,000+ integrations.",
+      "chunk_index": 8,
+      "token_count": 612,
+      "quality_score": 0.36
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "HubSpot is a platform for marketing, sales, service, and CRM.",
+      "evidence_ids": [
+        "ev_0a6d007e91f7"
+      ]
+    },
+    "category": {
+      "value": "CRM and Sales",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "OAuth2, API Key",
+      "evidence_ids": [
+        "ev_824c194bea16"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_dcd3b79f8a12"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API",
+      "evidence_ids": [
+        "ev_0a6d007e91f7"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_0a6d007e91f7"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_0a6d007e91f7"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_eb62fb56e909"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_0a6d007e91f7"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.75,
+    "fields_checked": 8,
+    "fields_supported": 6,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.75,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.75 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

@@ -1,0 +1,543 @@
+{
+  "app": {
+    "id": 85,
+    "name": "iPayX",
+    "website": "ipayx.ai/docs",
+    "category_hint": "Finance and Fintech"
+  },
+  "documentation_map": {
+    "app_name": "iPayX",
+    "official_domain": "ipayx.ai",
+    "homepage": {
+      "url": "https://ipayx.ai/docs",
+      "title": "iPayX",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://www.ipayx.ai/docs/authentication",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://api.ipayx.ai/functions/v1/fx-audit-engine",
+        "title": "",
+        "confidence": 1.0,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://www.ipayx.ai/.well-known/openapi.json",
+          "title": "",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "pricing": {
+      "primary": {
+        "url": "https:///pricing",
+        "title": "Pricing",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "sdk": {
+      "primary": {
+        "url": "https://www.ipayx.ai/docs/sdk",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "mcp": {
+      "primary": {
+        "url": "https://mcp.ipayx.ai/mcp",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://www.ipayx.ai/mcp-marketplace",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://www.ipayx.ai/mcp",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://www.ipayx.ai/.well-known/mcp.json",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://www.ipayx.ai/docs",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": {
+      "primary": {
+        "url": "https://www.ipayx.ai/docs/webhooks",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "llms_txt": {
+      "url": "https://ipayx.ai/llms.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "iPayX",
+      "official_domain": "ipayx.ai",
+      "items": [
+        {
+          "url": "https://ipayx.ai/docs",
+          "page_type": "homepage",
+          "title": "iPayX",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https:///pricing",
+          "page_type": "pricing",
+          "title": "Pricing",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://mcp.ipayx.ai/mcp",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://www.ipayx.ai/mcp-marketplace",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://www.ipayx.ai/mcp",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://www.ipayx.ai/.well-known/mcp.json",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://www.ipayx.ai/.well-known/openapi.json",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://api.ipayx.ai/functions/v1/fx-audit-engine",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 1.0,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://www.ipayx.ai/docs/authentication",
+          "page_type": "authentication",
+          "title": "",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://www.ipayx.ai/docs",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://www.ipayx.ai/docs/sdk",
+          "page_type": "sdk",
+          "title": "",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://www.ipayx.ai/docs/webhooks",
+          "page_type": "webhooks",
+          "title": "",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 1,
+        "urls_discovered": 12,
+        "official_urls": 12,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 8
+      }
+    },
+    "stats": {
+      "queries": 1,
+      "urls_discovered": 12,
+      "official_urls": 12,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 8
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_e77e164e5f2b",
+      "source_type": "auth_docs",
+      "url": "https://www.ipayx.ai/docs/authentication",
+      "domain": "www.ipayx.ai",
+      "page_title": "iPayX Protocol — FINTRAC-registered FX forensic audit layer",
+      "content": "iPayX Protocol — Neutral FX Verification Layer\n        iPayX Protocol is the neutral FX verification layer for fintech sales teams and FX brokers. We audit foreign-exchange transactions, compare the rate a bank or card network applied against the real-time mid-market rate, reveal invisible spreads, quantify FX costs, and project annual savings.\n        How It Works\n        \n          - Enter your transaction – Amount, currencies (e.g. CAD → USD), and the rate your bank applied.\n- We capture the mid-market rate – From regulated interbank data sources at the exact transaction time.\n- Instant audit report – Spread %, FX cost in your base currency, execution grade (A/B/C), and annual savings projection.\nTrust & Compliance\n        MSB FINTRAC C10001283 | 0-custody | AES-256 | Built in Canada 🇨🇦\n        Links\n        \n        Contact: info@ipayx.ai",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:13:42.870683Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 213,
+      "quality_score": 0.58
+    },
+    {
+      "id": "ev_02534ed791d6",
+      "source_type": "official_docs",
+      "url": "https://ipayx.ai/docs",
+      "domain": "ipayx.ai",
+      "page_title": "iPayX Protocol — FINTRAC-registered FX forensic audit layer",
+      "content": "iPayX Protocol — Neutral FX Verification Layer\n        iPayX Protocol is the neutral FX verification layer for fintech sales teams and FX brokers. We audit foreign-exchange transactions, compare the rate a bank or card network applied against the real-time mid-market rate, reveal invisible spreads, quantify FX costs, and project annual savings.\n        How It Works\n        \n          - Enter your transaction – Amount, currencies (e.g. CAD → USD), and the rate your bank applied.\n- We capture the mid-market rate – From regulated interbank data sources at the exact transaction time.\n- Instant audit report – Spread %, FX cost in your base currency, execution grade (A/B/C), and annual savings projection.\nTrust & Compliance\n        MSB FINTRAC C10001283 | 0-custody | AES-256 | Built in Canada 🇨🇦\n        Links\n        \n        Contact: info@ipayx.ai",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:13:43.906208Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 213,
+      "quality_score": 0.36
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "iPayX Protocol is the neutral FX verification layer for fintech sales teams and FX brokers.",
+      "evidence_ids": [
+        "ev_e77e164e5f2b",
+        "ev_02534ed791d6"
+      ]
+    },
+    "category": {
+      "value": "Finance and Fintech",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_e77e164e5f2b",
+        "ev_02534ed791d6"
+      ]
+    },
+    "self_serve": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_e77e164e5f2b",
+        "ev_02534ed791d6"
+      ]
+    },
+    "api_surface": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_e77e164e5f2b",
+        "ev_02534ed791d6"
+      ]
+    },
+    "api_breadth": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_e77e164e5f2b",
+        "ev_02534ed791d6"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_e77e164e5f2b",
+        "ev_02534ed791d6"
+      ]
+    },
+    "buildability": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_e77e164e5f2b",
+        "ev_02534ed791d6"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_e77e164e5f2b",
+        "ev_02534ed791d6"
+      ]
+    }
+  },
+  "validation": {
+    "status": "INSUFFICIENT_EVIDENCE",
+    "score": 0.12,
+    "fields_checked": 8,
+    "fields_supported": 1,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "auth_methods",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'auth_methods' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "self_serve",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'self_serve' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "api_surface",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_surface' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "api_breadth",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_breadth' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "buildability",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'buildability' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": {
+    "verified_fields": [
+      "self_serve"
+    ],
+    "corrections": {
+      "self_serve": "Self-serve (verified by browser)"
+    },
+    "screenshots": [],
+    "notes": ""
+  },
+  "pipeline_confidence": 0.12,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.12 below 0.90 threshold",
+      "Self-serve access model is UNKNOWN",
+      "Auth methods missing or UNKNOWN",
+      "Browser verification found discrepancies",
+      "Insufficient evidence (2 pieces, minimum 3)"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

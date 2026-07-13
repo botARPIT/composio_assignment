@@ -1,0 +1,432 @@
+{
+  "app": {
+    "id": 77,
+    "name": "ClickUp",
+    "website": "clickup.com/api",
+    "category_hint": "Productivity and Project Management"
+  },
+  "documentation_map": {
+    "app_name": "ClickUp",
+    "official_domain": "clickup.com",
+    "homepage": {
+      "url": "https://clickup.com/api",
+      "title": "ClickUp",
+      "confidence": 0.5,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://developer.clickup.com/docs/authentication",
+        "title": "",
+        "confidence": 0.95,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://clickup.com/api",
+        "title": "Developer Portal",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://clickup.com/api/reference",
+          "title": "API Reference",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://clickup.com/pricing",
+        "title": "Pricing",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "sdk": {
+      "primary": {
+        "url": "https://developers.clickup.com/docs/sdk",
+        "title": "",
+        "confidence": 0.95,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "mcp": {
+      "primary": {
+        "url": "https://developers.clickup.com/docs/mcp",
+        "title": "",
+        "confidence": 0.95,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://clickup.com/features/docs",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": {
+      "primary": {
+        "url": "https://clickup.com/api/webhooks",
+        "title": "Webhooks",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "llms_txt": {
+      "url": "https://clickup.com/llms-full.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "ClickUp",
+      "official_domain": "clickup.com",
+      "items": [
+        {
+          "url": "https://clickup.com/api",
+          "page_type": "homepage",
+          "title": "ClickUp",
+          "confidence": 0.5,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://clickup.com/api",
+          "page_type": "api_reference",
+          "title": "Developer Portal",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://clickup.com/api/reference",
+          "page_type": "api_reference",
+          "title": "API Reference",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://clickup.com/api/webhooks",
+          "page_type": "webhooks",
+          "title": "Webhooks",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://clickup.com/pricing",
+          "page_type": "pricing",
+          "title": "Pricing",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.clickup.com/docs/authentication",
+          "page_type": "authentication",
+          "title": "",
+          "confidence": 0.95,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://clickup.com/features/docs",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.clickup.com/docs/sdk",
+          "page_type": "sdk",
+          "title": "",
+          "confidence": 0.95,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.clickup.com/docs/mcp",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.95,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 1,
+        "urls_discovered": 9,
+        "official_urls": 9,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 1,
+        "canonical_selected": 8
+      }
+    },
+    "stats": {
+      "queries": 1,
+      "urls_discovered": 9,
+      "official_urls": 9,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 1,
+      "canonical_selected": 8
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_89bb4e024747",
+      "source_type": "auth_docs",
+      "url": "https://developer.clickup.com/docs/authentication",
+      "domain": "developer.clickup.com",
+      "page_title": "Authentication",
+      "content": "Authentication\nAuthenticate to the ClickUp API using a personal token or OAuth.\nAuthentication\nTo use the ClickUp API, you must authenticate every request.\nFor personal use, authenticate with your personal API token.\nFor apps or integrations that other people use, use the OAuth flow, allowing users to authorize Workspaces for your app.\nInclude the token in the Authorization header of your requests.\nBoth methods ensure that you and your users only have access to the information permitted by ClickUp.\nPersonal Token\nUse a personal API token for individual or testing purposes. Personal tokens begin with pk_.\nAdd the token to the header: Authorization: {personal_token}. This is also needed to use the Try-It feature in the API docs.\nGenerate or regenerate a Personal API Token\n- \nLog in to ClickUp. \n- \nIn the upper-right corner, click your avatar. \n- \nSelect Settings. \n- \nIn the sidebar, click Apps. Or click here to go directly to your settings. \n- \nUnder API Token, click Generate or Regenerate. \n- \nClick Copy to copy the personal token to your clipboard. Personal tokens never expire. \nBuild Apps for others - OAuth Flow\nTo allow others to use your app, implement the OAuth2 flow so each user has their own token for accessing their ClickUp resources.\nOAuth resources and specs:\n- Authentication: OAuth 2.0\n- Grant Type: Authorization Code. Learn more.\n- Authorization URL: https://app.clickup.com/api\n- Access Token URL: https://api.clickup.com/api/v2/oauth/token\nNoteClickUp uses the authorization code\ngrant type.\nUse your personal API key to use the Try-It feature in the API docs.\nStep 1: Create an OAuth app\nOnly Workspace owners or admins can create OAuth apps.\n- Log in to ClickUp.\n- In the upper-right corner, click your avatar.\n- Select Settings.\n- In the sidebar, click Apps.\n- Click Create new app.\n- Name the app and add a redirect URL.\n- You'll receive a client_idandsecret.\nStep 2: Retrieve an Authorization Code\nSend users to this URL to connect their ClickUp account:\nhttps://app.clickup.com/api?client_id={client_id}&redirect_uri={redirect_uri}\nYou can also add a state parameter:\nhttps://app.clickup.com/api?client_id={client_id}&redirect_uri={redirect_uri}&state={state}\nUsers will be redirected back to the redirect_uri with the authorization code after logging in.\nSelect Workspaces\nUsers can authorize one or more Workspaces. Use the Get Authorized Teams (Workspaces) endpoint to see which Workspaces are authorized. Redirect users to the authorization URL to modify Workspace permissions.\nStep 3: Request a Token\nUse the Get Access Token endpoint with client_id, client_secret, and code to get the access token. This token is used in the Authorization: Bearer {access_token} header for all API requests made on behalf of the user.\nThe access token currently does not expire. This is subject to change.\nLearn more about OAuth:",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:12:31.045774Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 714,
+      "quality_score": 0.88
+    },
+    {
+      "id": "ev_90a54822cc51",
+      "source_type": "pricing_page",
+      "url": "https://clickup.com/pricing",
+      "domain": "clickup.com",
+      "page_title": "ClickUp Pricing and Plans",
+      "content": "100% Money-back Guarantee\nThe best work solution, for the best price.\n100% Money-back Guarantee\nSave up to 30% with yearly\nfree forever\nKey Features:\nunlimited\nEverything in Free Forever, plus:\nbusiness\nEverything in Unlimited, plus:\nenterprise\nGet a custom demo\nEverything in Business, plus:\nThe world's most advanced AI for work\nSave up to 20% with yearly\nFree Forever\nPer user/month\nSTART USING AI\n- Try AI across chat, tasks and docs\n- Trial access to advanced AI features\n- Upgrade at any time\nBrain AI\nPer user/month\nHIGHLIGHTS\n- Unlimited Brain Assistant\n- Unlimited @Brain Agent\n- Unlimited AI chatClaude, ChatGPT, Gemini\n- Expanded use of Premium AI Models\n- Unlimited AI writing\n- Enterprise SearchWorkspace\nEverything AI\nPer user/month\nBEST FOR FULL AGENTIC SUITE\n- Unlimited Ambient Answers\n- Unlimited AI Notetaker\n- Unlimited Image Generation *\n- Unlimited AI Fields\n- Unlimited AI Automations & Dashboards\n- Unlimited AI Assign & Prioritize\n- 3X more usage of Super Agents\n- Enterprise SearchPrivate & Workspace\nAI Super Credits\nEvery AI plan includes a monthly credit allowance shared across your Workspace. Credits fuel Super Agents, AI Fields, Automations, Image Generation, and more. Usage varies by complexity. Add more anytime.\nClickUp Certified Agents\nBuilt, tested, and verified by ClickUp's AI experts. The only agents that power complex workflows, with complete context across your tools and teams.\n* Usage subject to our fair use policy\nWhen we optimize, you save $\nWhen our teams save on AI costs, we pass them onto you. When sudden increases in AI costs occur, we subsidize the cost. If AI providers raise rates, we'll adjust pricing gradually and transparently, while continuing to optimize wherever possible.\nLive training and support for AI\nPersonalized expert guidance for setup and success.\n- 2 hours of 1:1 expert time/month\n- Guidance on setting up AI agents\nFrequently asked questions\nFind answers to your questions right here, and don't hesitate to Contact us if you couldn't find what you're looking for.\nTo upgrade ClickUp, you'll need to upgrade your entire Workspace, which means all members in your Workspace.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:12:32.076595Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 537,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_4684370638c5",
+      "source_type": "official_docs",
+      "url": "https://clickup.com/api",
+      "domain": "clickup.com",
+      "page_title": "ClickUp",
+      "content": "Build integrations and apps with our Public API. Connect your AI with ClickUp using our MCP Server.\nBrowse our Public API specification.\nUse ClickUp right from your AI assistant.\nTrigger workflows from ClickUp events.\nLet people sign into their ClickUp account.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:12:31.153157Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 65,
+      "quality_score": 0.5
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "ClickUp is a productivity platform that offers task management and collaboration tools.",
+      "evidence_ids": [
+        "ev_90a54822cc51"
+      ]
+    },
+    "category": {
+      "value": "Productivity and Project Management",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "OAuth2, API Key",
+      "evidence_ids": [
+        "ev_89bb4e024747"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_90a54822cc51"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API",
+      "evidence_ids": [
+        "ev_4684370638c5"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_4684370638c5"
+      ]
+    },
+    "mcp": {
+      "value": "Official MCP",
+      "evidence_ids": [
+        "ev_4684370638c5"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_4684370638c5"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_4684370638c5"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.88,
+    "fields_checked": 8,
+    "fields_supported": 7,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.88,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.88 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

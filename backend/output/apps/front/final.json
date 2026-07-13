@@ -1,0 +1,617 @@
+{
+  "app": {
+    "id": 14,
+    "name": "Front",
+    "website": "front.com",
+    "category_hint": "Support and Helpdesk"
+  },
+  "documentation_map": {
+    "app_name": "Front",
+    "official_domain": "front.com",
+    "homepage": {
+      "url": "https://front.com",
+      "title": "Front",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": null,
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://front.com/product/integrate-with-customer-service-apps-front",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://front.com/pricing",
+        "title": "Pricing",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": null,
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://dev.frontapp.com/docs/welcome",
+        "title": "API Documentation",
+        "confidence": 0.25,
+        "confidence_reason": [
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": false,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": {
+      "url": "https://front.com/llms.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "Front",
+      "official_domain": "front.com",
+      "items": [
+        {
+          "url": "https://front.com",
+          "page_type": "homepage",
+          "title": "Front",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://front.com/pricing",
+          "page_type": "pricing",
+          "title": "Pricing",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://dev.frontapp.com/docs/welcome",
+          "page_type": "developer_portal",
+          "title": "API Documentation",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://front.com/product/integrate-with-customer-service-apps-front",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 3,
+        "urls_discovered": 4,
+        "official_urls": 3,
+        "non_official_filtered": 1,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 4
+      }
+    },
+    "stats": {
+      "queries": 3,
+      "urls_discovered": 4,
+      "official_urls": 3,
+      "non_official_filtered": 1,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 4
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_b724658115f4",
+      "source_type": "llms_txt",
+      "url": "https://front.com/llms.txt",
+      "domain": "front.com",
+      "page_title": "llms.txt index",
+      "content": "\\# Front\n\n\\> Deliver exceptional service at scale with Front, the modern CX platform combining client communication, automation, and analytics for customer-first teams\n\n\\## Core Features / Products\n\\- \\[Front Overview\\](https://front.com/product): Discover the main features and benefits of Front’s customer service platform.\n\\- \\[Customer Service\\](https://front.com/customer-service): AI-powered customer service platform built for collaboration.\n\\- \\[Email Management\\](https://front.com/email-management): Discover tools to manage customer emails efficiently.\n\\- \\[Client Communication\\](https://front.com/client-communication): Learn how to streamline communication with your clients.\n\\- \\[AI Agent\\](https://front.com/product/ai): Explore AI capabilities that enhance customer interactions.\n\\- \\[Automation\\](https://front.com/product/autopilot-customer-service-automation): Explore automation features to streamline workflows.\n\\- \\[Copilot\\](https://front.com/product/copilot-ai-assistant): Use AI assistant features to enhance customer support.\n\\- \\[Smart QA\\](https://front.com/product/smart-qa-automated-quality-assurance): Automate quality assurance for customer interactions.\n\\- \\[Smart CSAT\\](https://front.com/product/smart-csat-ai-scoring): Utilize AI to score and analyze customer satisfaction.\n\\- \\[Omnichannel\\](https://front.com/product/omnichannel-support-inbox): Support customers across multiple channels seamlessly.\n\\- \\[Ticketing\\](https://front.com/product/ticketing-system): Learn how to automate and manage customer support tickets.\n\\- \\[Live chat\\](https://front.com/product/live-chat): Implement live chat features to engage customers instantly.\n\\- \\[Knowledge base\\](https://front.com/product/knowledge-base): Create helpful articles and resources for customer self-service.\n\\- \\[Integrations and API\\](https://front.com/product/integrations-api): 100s of integrations to supercharge workflows bespoke to your business\n\n\\## Pricing and Plans\n\\- \\[Pricing\\](https://front.com/pricing): Compare pricing plans and features available for different tiers.\n\n\\## Resources and Insights\n\\- \\[Product Tour\\](https://front.com/product-tour): Take a guided tour of Front’s features and benefits.\n\\- \\[Discover best practices\\](https://front.com/resources): Access best practices for optimizing customer interactions.\n\\- \\[Blog\\](https://front.com/blog): Front's official blog is the best source for customer service, support, experience, and sales tips.\n\\- \\[Customer Stories\\](https://front.com/customer-stories): How Front customers drive measurable impact to their business.\n\n\\## Integrations / API\n\\- \\[Integrations\\](https://front.com/integrations): Explore third-party integrations to enhance Front's capabilities.\n\\- \\[API Documentation\\](https://dev.frontapp.com/docs/welcome): Learn how to integrate and use Front's APIs.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:55.151376Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 712,
+      "quality_score": 0.8
+    },
+    {
+      "id": "ev_2076bdc3b3c6",
+      "source_type": "llms_txt",
+      "url": "https://front.com/llms.txt",
+      "domain": "front.com",
+      "page_title": "llms.txt index",
+      "content": "\\## Support and Documentation\n\\- \\[Help Center\\](https://help.front.com/): Access FAQs and support articles for troubleshooting.\n\\- \\[Community\\](https://community.front.com/): Access key product discussions, read more about key product updates and view product roadmap ideas.\n\\- \\[Request Demo\\](https://front.com/request-demo): Contact the Front sales team for an overview of our product.\n\n\\## Company Information\n\\- \\[Careers\\](https://front.com/careers): View job openings and learn about working at Front.\n\\- \\[About Us\\](https://front.com/about): Discover Front’s mission and company background.\n\n\\## Legal and Compliance\n\\- \\[Privacy Policy\\](https://front.com/privacy): Understand how Front handles user data and privacy.\n\\- \\[Terms of Service\\](https://front.com/terms): Review the terms and conditions for using Front services.\n\\- \\[Cookie Policy\\](https://front.com/cookies): Check how cookies are used on the Front website.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:55.151437Z",
+      "section_path": "",
+      "chunk_index": 1,
+      "token_count": 233,
+      "quality_score": 0.7
+    },
+    {
+      "id": "ev_866230c7f014",
+      "source_type": "pricing_page",
+      "url": "https://front.com/pricing",
+      "domain": "front.com",
+      "page_title": "Front Pricing and Plans | Front",
+      "content": "Get set up for long-term success by partnering with our team of experts. Request a consultation to learn more about our service add-ons for Professional and Enterprise plans.\n\nTalk to Sales\n\nTailored onboarding\n\nEnsure your team achieves immediate productivity with a personalized onboarding experience meticulously shaped around your unique workflows and business objectives.\n\nSolution design and technical consultation\n\nPlatform optimization\n\nTraining and change management best practices\n\nBuild custom apps and integrations\n\nTry for Free\n\nTry for Free",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:56.222826Z",
+      "section_path": "Services to help you scale > Starter > Professional",
+      "chunk_index": 0,
+      "token_count": 138,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_0916893c9806",
+      "source_type": "pricing_page",
+      "url": "https://front.com/pricing",
+      "domain": "front.com",
+      "page_title": "Front Pricing and Plans | Front",
+      "content": "What are your Success Services packages and how much do they cost?\n\nFront offers 3 Success Services packages: Professional Onboarding, Enterprise Onboarding, and Success Services project hours. [You can view pricing and what's included in each package here.](https://front.com/webassets/rebrand/Front_Success_Services_7_3.pdf) To ensure you're set up for success, we require an onboarding package be purchased for contracts over $25k.\n\nHow does Front’s free trial work? Do I need a credit card?\n\nOur free 14-day trial offers all the features available in our Professional plan. You can get started without a credit card and can upgrade at any time during your trial. You do not need a credit card to start, continue, or complete your Front trial.\n\nWhat is a seat?\n\nA seat is a paid Front license that can be granted to a unique user in your organization.\n\nWhat is a channel?\n\nA channel is the communication medium that people use to get in touch with you like email, SMS, Front Chat, WhatsApp, and more.\n\nCan I connect multiple channel types with the Starter plan?\n\nNo, the Starter plan only supports a single channel type of Email, Front Chat, or SMS. The Professional and Enterprise plan support multiple channel types.\n\nWhat is the maximum number of channels per plan?\n\nYour channel maximum depends on both your plan and number of licenses. On Starter, you can connect up to 10 channels per license, with Professional up to 30 per license, and with Enterprise up to 50 per license. For example, a team of 5 users on Professional would have a maximum of 150 channels. [Please see our help article for more details](https://help.front.com/en/articles/808896).\n\nWhich providers power Front AI features?\n\nWe’re using OpenAI, Azure OpenAI, and Amazon AWS, which are industry-leading AI providers. Specifically, we use the text generation API.\n\nHow is my data processed? Is my data protected?\n\nWhile we may use your data to further train your model, your data will never be cross-contaminated with other companies’ data. We also have extensive agreements in place with our AI providers to ensure that they’re not training their foundational models on any data that we send to them.\n\nHow can I learn more about Front’s security and compliance best practices?\n\nEnsuring your data’s confidentiality, integrity, and availability is core to our mission and platform. [Read more here](https://front.com/security) about Front’s security, privacy and compliance practices. You also may request access to our security documentation by reaching out to your sales representative.\n\nCan I combine seats across multiple plans?\n\nNo, plans are assigned at the organization level. You can add or remove seats as needed within a single plan.\n\nCan I pay with my bank instead of my credit card?\n\nYou can pay by wire transfer or ACH if you purchase annually and the total contract value is over $12K. Reach out to [billing@front.com](mailto:billing@front.com) to have your payment method updated.\n\nResources",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:56.223079Z",
+      "section_path": "Services to help you scale > Frequently asked questions",
+      "chunk_index": 3,
+      "token_count": 745,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_d9ab9ab2cd54",
+      "source_type": "api_reference",
+      "url": "https://front.com/product/integrate-with-customer-service-apps-front",
+      "domain": "front.com",
+      "page_title": "Customer Service Software Integrations and API | Front",
+      "content": "How can we help you today?\n\nGet a DemoPricingProduct TourChat with our AI Virtual Rep ✨",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:55.220044Z",
+      "section_path": "Managing tools and channels in most help desks feels like a circus. Let Front be your ringmaster. > Welcome to Front!",
+      "chunk_index": 6,
+      "token_count": 21,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_3623519e04b3",
+      "source_type": "pricing_page",
+      "url": "https://front.com/pricing",
+      "domain": "front.com",
+      "page_title": "Front Pricing and Plans | Front",
+      "content": "Request a Demo\n\nUnified Workspace\n\nWorkspaces\n\nWorkspaces are a way to divide up your inboxes into separate spaces with their own workflows, analytics and resources such as tags or message templates.\n\n1\n\nUp to 5\n\nUnlimited\n\nShared inbox\n\nTrack and manage important conversations, customized across specific inboxes, tags, and assignees\n\nViews\n\nCreate real-time views to track important conversations in certain inboxes, tags, or assignees\n\nAssignments\n\nGain clear ownership over messages by assigning messages directly to individual teammates\n\nTags\n\nCategorize, organize, and prioritize messages with tags like \"product bug\" or \"upsell opportunity\" — as an individual or a team\n\nInternal comments and shared drafts\n\nCollaborate behind the scenes with teammates using comments and drafts\n\nScheduling and snoozing messages\n\nMessage templates\n\nGuest accounts\n\nInvite colleagues to comment on a conversation in Front without needing a license\n\nIndividual inbox\n\nBring your individual email into Front and manage it alongside conversations in shared inboxes\n\nYes, if email is single channel type\n\nCalendar\n\nYes, if email is single channel type\n\nMeeting scheduling\n\nQuickly add suggested meeting times to your messages, and allow recipients to book with a click\n\nYes, if email is single channel type\n\nReal-time agent availability\n\nLet your team know when you’re available and ensure conversations are only assigned when you can respond\n\nFront AI\n\nTopics\n\nAnalyze your conversation history to understand why your customers reach out\n\nCompose\n\nQuickly polish and refine drafts with AI. Up to 200 total Compose actions per teammate per day\n\nTranslate\n\nGet immediate translations to your preferred language. Up to 200 total requests per teammate per day\n\nSummarize\n\nKeep teams in sync with AI-generated conversation summaries. Up to 200 total manually-triggered summaries per teammate per day\n\nAutopilot\n\nAutomate complex customer work with our omnichannel AI agent\n\nadd-on\n\nadd-on\n\nadd-on\n\nCopilot\n\nBoost agent productivity with a real-time AI assistant\n\nadd-on\n\nadd-on\n\nSmart QA\n\nGet a complete understanding of agent performance with automated, AI-powered QA\n\nadd-on\n\nadd-on\n\nSmart CSAT\n\nInfer and track customer satisfaction with AI — no surveys required\n\nadd-on\n\nadd-on\n\nCommunication channels\n\nChannel Type\n\nSingle Channel\n\nOmnichannel\n\nOmnichannel\n\nEmail\n\ne.g. Office 365, Gmail, Custom\n\nYes, if single channel type\n\nFront Chat\n\nFront's native live chat solution for your website or app\n\nYes, if single channel type\n\nSMS\n\nvia third-party integrations (e.g. Twilio, Dialpad)\n\nYes, if single channel type\n\nSlack\n\nRespond and react to Slack messages from public and private channels\n\nYes, if single channel type\n\nSocial channels\n\ne.g. Facebook, Instagram, X\n\nVoice and telephony\n\nManage calls and voicemails with integrations like Aircall and Dialpad\n\nCustomer portal with ticket forms\n\nOffer a customer portal with dynamic ticket forms to initiate support requests\n\nNative WhatsApp\n\nNative WhatsApp integration available as paid add-on\n\nadd-on\n\nadd-on\n\nThird-party WhatsApp\n\nvia Twilio or Number AI\n\nThird-party Chat\n\ne.g. Drift, Intercom, Google Play\n\nConnect any messaging platform via API\n\nTicketing system\n\nRules & workflow automation\n\nCRM\n\nReporting & analytics\n\nMessaging & live chat\n\nHelp center\n\nIntegrations\n\nSecurity & team management\n\nSupport & services",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:56.222985Z",
+      "section_path": "Services to help you scale > Starter > Enterprise",
+      "chunk_index": 1,
+      "token_count": 839,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_0bea97bddfc7",
+      "source_type": "pricing_page",
+      "url": "https://front.com/pricing",
+      "domain": "front.com",
+      "page_title": "Front Pricing and Plans | Front",
+      "content": "![Company Logo Branch](https://front.com/webassets/rebrand/icon-logo-branch.svg)\n\n428%\n\naverage ROI using Front\n\n![Company Logo Reed and Mackey](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fwebassets%2Frebrand%2Freed-and-mackey.png&w=828&q=75)\n\n97%\n\ncustomer satisfaction\n\n![Company Logo Culture Amp](https://front.com/webassets/rebrand/cultureApp-black.svg)\n\n40%\n\nproductivity increase\n\n![Company Logo Y Combinator](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fwebassets%2Frebrand%2Fy-combinator.png&w=256&q=75)\n\n7x\n\nfaster response time",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:56.223007Z",
+      "section_path": "Services to help you scale > Trusted by 9,300+ businesses",
+      "chunk_index": 2,
+      "token_count": 142,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_d1bf29111450",
+      "source_type": "pricing_page",
+      "url": "https://front.com/pricing",
+      "domain": "front.com",
+      "page_title": "Front Pricing and Plans | Front",
+      "content": "[See more resources](https://front.com/resources)\n\n![4 major customer pain points (and how to solve them)](https://front.com/webassets/rebrand/4-mayor-customer-pain-points-and-how-to-solve-them.svg)\n\nBlog\n\n[4 major customer pain points (and how to solve them)](https://front.com/blog/4-major-customer-pain-points)\n\n![How to achieve 100% CSAT and build a world-class support function](https://front.com/webassets/rebrand/improve-csat.svg)\n\nBlog\n\n[How to achieve 100% CSAT and build a world-class support function](https://front.com/blog/improve-csat)\n\n![Ticket handling best practices: 11 tips to elevate your support](https://front.com/webassets/rebrand/ticket-handling-best-practices.svg)\n\nBlog\n\n[Ticket handling best practices: 11 tips to elevate your support](https://front.com/blog/ticket-handling-best-practices)\n\n![Building a better queue: how to set up a support ticket system that grows with you](https://front.com/webassets/rebrand/support-ticket.svg)\n\nBlog\n\n[Building a better queue: how to set up a support ticket system that grows with you](https://front.com/blog/support-ticket)\n\nQualified\n\n![Website logo](https://messenger-assets.qualified.com/uploads/7uif2sntB8PR6zNeShyz8v17WycnKDno42qq6/15b0251d3a3f55f01e21f856d932683aaa30a51e2cbd405fd9cfa20e5feeddf5.png)\n\nReady to get started with Front? Just click below!\n\nGet Started with Front",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:56.223113Z",
+      "section_path": "Services to help you scale > Discover best practices",
+      "chunk_index": 4,
+      "token_count": 337,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_8664efba2b33",
+      "source_type": "official_docs",
+      "url": "https://front.com",
+      "domain": "front.com",
+      "page_title": "Front | Customer service platform — powered by AI, designed for humans",
+      "content": "Only Front brings teams, conversations, and AI into one coordinated system, so customer operations stay fast, accurate, and in control.\n\nRequest demoStart free trial\n\nCross-team coordination\n\nMulti-step workflows\n\nAI command center\n\nCross-team coordination\n\nMulti-step workflows\n\nAI command center\n\nTrusted by 9,300+ companies\n\nScattered tools mean incomplete context and customers who have to repeat themselves\n\nOther AI tools can only handle simple FAQs, not real-world, complex requests\n\nYour agents shouldn't spend half their time fixing what AI got wrong\n\n![](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fassets%2Fpages%2Fhomepage%2Fhome-front-ai.png&w=1080&q=75)\n\nFRONT AI\n\nFront AI takes on complex requests others escalate by automating responses, assisting teams, and analyzing quality across your entire operation. Every reply improves with each conversation.\n\n[Explore Front AI](https://front.com/product/ai)\n\n![](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fassets%2Fpages%2Fhomepage%2Fhome-customer-support-v2.png&w=1080&q=75)\n\nCUSTOMER SUPPORT\n\nTackle high-stakes inquiries with full customer context and shared visibility across every team and conversation. Route, escalate, or loop in the right team to resolve issues without dropping the ball.\n\n[Front for customer support](https://front.com/teams/customer-service-support)\n\n![](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fassets%2Fpages%2Fhomepage%2Fhome-operations.png&w=1080&q=75)\n\nOPERATIONS",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:55.649243Z",
+      "section_path": "AI for simple support is everywhere. Complex customer operations demand Front. > Where cross-team customer operations stops crossing wires > Complex tickets span departments, your system should too",
+      "chunk_index": 0,
+      "token_count": 377,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_c51f63975f6c",
+      "source_type": "official_docs",
+      "url": "https://front.com",
+      "domain": "front.com",
+      "page_title": "Front | Customer service platform — powered by AI, designed for humans",
+      "content": "Coordinate across teams and systems from one centralized AI command center. Eliminate bottlenecks and keep complex customer requests moving across your organization.\n\n[Front for complex operations](https://front.com/teams/operations)\n\nThe more complex the operation, the clearer the choice.\n\nFront’s AI doesn’t just reply. It runs the operation. G2 proves who’s built for complex work.\n\n![Capterra Customer Service Shortlist 2026](https://front.com/webassets/awards/front-capterra-customer-service-shortlist-2026.svg)\n\n2026\n\nCapterra Customer Service Shortlist\n\n![g2-high-performer-enterprise-winter-2026](https://front.com/assets/award-badges/g2-HighPerformer-Enterprise-Winter-2026.svg)\n\n![g2-momentum-leader-enterprise-winter-2026](https://front.com/assets/award-badges/g2-momentumLeader-Enterprise-Winter-2026.svg)\n\n![g2-easiest-to-do-business-with-enterprise-winter-2026](https://front.com/assets/award-badges/g2-EasiestToDoBusinessWith-Enterprise-Winter-2026.svg)\n\n![g2-easiest-to-use-enterprise-winter-2026](https://front.com/assets/award-badges/g2-EasiestToUse-Enterprise-Winter-2026.svg)\n\n![g2-mid-market-best-relationship-winter-2026](https://front.com/assets/award-badges/g2-MidMarket-BestRelationship-Winter-2026.svg)\n\n![Product awards](https://front.com/assets/pages/homepage/G2-categories-won-section.svg)\n\n![g2-high-performer-enterprise-winter-2026](https://front.com/assets/award-badges/g2-HighPerformer-Enterprise-Winter-2026.svg)\n\n![g2-momentum-leader-enterprise-winter-2026](https://front.com/assets/award-badges/g2-momentumLeader-Enterprise-Winter-2026.svg)\n\n![g2-easiest-to-do-business-with-enterprise-winter-2026](https://front.com/assets/award-badges/g2-EasiestToDoBusinessWith-Enterprise-Winter-2026.svg)\n\n![g2-easiest-to-use-enterprise-winter-2026](https://front.com/assets/award-badges/g2-EasiestToUse-Enterprise-Winter-2026.svg)\n\n![g2-mid-market-best-relationship-winter-2026](https://front.com/assets/award-badges/g2-MidMarket-BestRelationship-Winter-2026.svg)\n\nWhere industry complexity meets operational control\n\n[![Customer Service Support](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fassets%2Fpages%2Fhomepage%2Fcustomer-service-support-hp.png&w=828&q=75)\\\\\n\\\\\n**Customer Service Support** \\\\\n\\\\\nWork across departments to tackle your gnarliest tickets with ease\\\\\n\\\\\nExplore more](https://front.com/teams/customer-service-support)\n\n[![Inbound Sales](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fassets%2Fpages%2Fhomepage%2Finbound-sales-hp.png&w=828&q=75)\\\\\n\\\\\n**Inbound Sales** \\\\\n\\\\\nRoute requests, respond with speed, and nail the hand off every time\\\\\n\\\\\nExplore more](https://front.com/teams/inbound-sales)\n\n[![Customer Success](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fassets%2Fpages%2Fhomepage%2Ffeature-grid-professional-services.png&w=828&q=75)\\\\\n\\\\\n**Customer Success** \\\\\n\\\\\nWhere Success, Support, and Onboarding finally work as one\\\\\n\\\\\nExplore more](https://front.com/teams/customer-success)\n\n[![Operations](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fassets%2Fpages%2Fhomepage%2Ffeature-grid-manufacturing.png&w=828&q=75)\\\\\n\\\\\n**Operations** \\\\\n\\\\\nOrchestrate customer operations from one AI command center\\\\\n\\\\\nExplore more](https://front.com/teams/operations)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:55.649409Z",
+      "section_path": "AI for simple support is everywhere. Complex customer operations demand Front. > Where cross-team customer operations stops crossing wires > Tame the inbox chaos and tackle the workflows your business depends on",
+      "chunk_index": 1,
+      "token_count": 818,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_fe4a1343b4d6",
+      "source_type": "api_reference",
+      "url": "https://front.com/product/integrate-with-customer-service-apps-front",
+      "domain": "front.com",
+      "page_title": "Customer Service Software Integrations and API | Front",
+      "content": "Too many channels. Too many tools. Too much at stake. Front pulls conversations, external data, and AI automation into one place—so complex customer work stays controlled, connected, and accountable.\n\n- Request a demo\n- Try for free\n\n![Ticketing](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fassets%2Fpages%2Fproduct%2FIntegrations%2FIntegrations-hero-integrations-apps-ui-505x612.png&w=1080&q=75)![Ticketing](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fassets%2Fpages%2Fproduct%2FIntegrations%2FIntegrations-hero-integrations-apps-ui-505x612.png&w=1080&q=75)\n\n![Message square](https://front.com/assets/pages/product/Integrations/message-square.svg)\n\nStop chasing conversations\n\nAll the conversations, one place to run them, and no dropped threads when customers bounce between channels.\n\n![Ai](https://front.com/assets/pages/product/Integrations/ai.svg)\n\nAutomate beyond FAQs\n\nOrder, project, and account data drive smarter AI automation, handling the simple and complex inquiries with ease.\n\n![Status change](https://front.com/assets/pages/product/Integrations/status-change.svg)\n\nContext that holds up\n\nSee the right details from your [CRM, TMS, or other external system](https://front.com/integrations) right in Front, so answers hold up under pressure.\n\n![](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fassets%2Fpages%2Fproduct%2FIntegrations%2FIntegrations-overview-module-integrations-app-objects-ui-500x612.png&w=3840&q=75)![](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fassets%2Fpages%2Fproduct%2FIntegrations%2FIntegrations-overview-module-integrations-app-objects-ui-500x612.png&w=3840&q=75)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:55.219367Z",
+      "section_path": "Managing tools and channels in most help desks feels like a circus. Let Front be your ringmaster.",
+      "chunk_index": 0,
+      "token_count": 416,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_6d650f106e47",
+      "source_type": "api_reference",
+      "url": "https://front.com/product/integrate-with-customer-service-apps-front",
+      "domain": "front.com",
+      "page_title": "Customer Service Software Integrations and API | Front",
+      "content": "Connect teams, systems, and workflows in one platform built for real-world complexity.\n\n![Dealdash thumbnail](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fassets%2Fcustomers%2Fdealdash%2Fdealdash-thumbnail.png&w=3840&q=75)\n\n“If another team requires customer support to take action or proactively reach out to customers, the integrations in Front allow us to do that faster and more efficiently.”\n\nMary Ochs HEAD OF CUSTOMER SUPPORT\n\nLegacy Help Desks\n\nIntegrate with external systems at scale\n\nOptimized to work with multiple teams\n\nUnified platform for shared and individual work\n\nLower total cost of ownership\n\nStrategic partnership and top-tier support\n\n![Front logo](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fwebassets%2Frebrand%2Ffront-logo-white.png&w=256&q=75)\n\nIntegrate with external systems at scale\n\nOptimized to work with multiple teams\n\nUnified platform for shared and individual work\n\nLower total cost of ownership\n\nStrategic partnership and top-tier support\n\n![Dealdash thumbnail](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fassets%2Fcustomers%2Fdealdash%2Fdealdash-thumbnail.png&w=3840&q=75)\n\n“If another team requires customer support to take action or proactively reach out to customers, the integrations in Front allow us to do that faster and more efficiently.”\n\nMary Ochs HEAD OF CUSTOMER SUPPORT",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:55.219523Z",
+      "section_path": "Managing tools and channels in most help desks feels like a circus. Let Front be your ringmaster. > The only platform built to run customer operations across teams and tools",
+      "chunk_index": 1,
+      "token_count": 341,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_b799759a43b7",
+      "source_type": "api_reference",
+      "url": "https://front.com/product/integrate-with-customer-service-apps-front",
+      "domain": "front.com",
+      "page_title": "Customer Service Software Integrations and API | Front",
+      "content": "Email, chat, SMS, Slack, and more live in one shared inbox, so nothing gets lost between tools.\n\nSee who’s responding, who’s looped in, and what’s next—no channel-based silos or double work.\n\nCustomers can switch how they reach you without blowing up history, context, or ownership.\n\n![Integrations page feature 1 integrations multichannel ui 624x624](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fassets%2Fpages%2Fproduct%2FIntegrations%2FIntegrations-feature-1-integrations-multichannel-ui-624x624.png&w=3840&q=75)\n\nPower AI workflows with real customer data from your CRM, TMS, or other core system.\n\nThose AI workflows route inquiries, provide updates, and clear busywork tied to orders, projects, or quotes.\n\nWhen AI hits its limit, it passes the customer, context, and prior steps straight to your team.\n\n![Integrations feature 2 integrations playbooks ui 624x624](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fassets%2Fpages%2Fproduct%2FIntegrations%2FIntegrations-feature-2-integrations-playbooks-ui-624x624.png&w=3840&q=75)\n\nReal-time order status, account info, and records appear in the conversation right when they matter.\n\nAgents see what they need without switching tools or hunting through systems.\n\nResponses are informed by what’s actually true in your backend—not guesses or stale notes.\n\n![Integrations feature 3 integrations salesforce ui 624x624](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fassets%2Fpages%2Fproduct%2FIntegrations%2FIntegrations-feature-3-integrations-salesforce-ui-624x624.png&w=3840&q=75)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:55.219659Z",
+      "section_path": "Managing tools and channels in most help desks feels like a circus. Let Front be your ringmaster. > The only platform built to run customer operations across teams and tools > Skip the channel hopscotch. > Get context without the swivel chair.",
+      "chunk_index": 2,
+      "token_count": 393,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_182ae1d69609",
+      "source_type": "api_reference",
+      "url": "https://front.com/product/integrate-with-customer-service-apps-front",
+      "domain": "front.com",
+      "page_title": "Customer Service Software Integrations and API | Front",
+      "content": "Turn a conversation into a tracked issue or project in tools like Jira or Asana without leaving Front.\n\nStatus, ownership, and next steps are always synced, so there’s no more, “Let me get back to you.”\n\nWork moves across teams without losing history, context, or who’s on the hook.\n\n![Integrations feature 4 integrations create app object ui 624x624](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fassets%2Fpages%2Fproduct%2FIntegrations%2FIntegrations-feature-4-integrations-create-app-object-ui-624x624.png&w=3840&q=75)\n\nUpdate records, log emails, and more to Salesforce, HubSpot, or other CRMs, right in Front.\n\nChanges made in Front or your CRM stay aligned automatically, so no one’s working off stale data.\n\nCRM data flows into Front so rules fire smarter, workflows act faster, and analytics reflect reality.\n\n![Integrations feature 5 integrations CRM autosyncing ui 624x624](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fassets%2Fpages%2Fproduct%2FIntegrations%2FIntegrations-feature-5-integrations-CRM-autosyncing-ui-624x624.png&w=3840&q=75)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:55.219759Z",
+      "section_path": "Managing tools and channels in most help desks feels like a circus. Let Front be your ringmaster. > The only platform built to run customer operations across teams and tools > Skip the channel hopscotch. > Your CRM shouldn’t slow support down. Now it won’t.",
+      "chunk_index": 3,
+      "token_count": 269,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_1fe42814b6f7",
+      "source_type": "api_reference",
+      "url": "https://front.com/product/integrate-with-customer-service-apps-front",
+      "domain": "front.com",
+      "page_title": "Customer Service Software Integrations and API | Front",
+      "content": "[![Icon ai](https://front.com/assets/global/icon-ai.svg)\\\\\n\\\\\nFront AI Overview](https://front.com/product/ai) [![Icon autopilot](https://front.com/assets/global/icon-autopilot.svg)\\\\\n\\\\\nAutopilot](https://front.com/product/autopilot-customer-service-automation) [![Icon copilot](https://front.com/assets/global/icon-copilot.svg)\\\\\n\\\\\nCopilot](https://front.com/product/copilot-ai-assistant) [![Icon smart qa](https://front.com/assets/global/icon-smart-qa.svg)\\\\\n\\\\\nSmart QA](https://front.com/product/smart-qa-automated-quality-assurance) [![Icon smart csat](https://front.com/assets/global/icon-smart-csat.svg)\\\\\n\\\\\nSmart CSAT](https://front.com/product/smart-csat-ai-scoring) [![Icon omnichannel](https://front.com/assets/global/icon-omnichannel.svg)\\\\\n\\\\\nOmnichannel](https://front.com/product/omnichannel-support-inbox) [![Icon ticketing](https://front.com/assets/global/icon-ticketing.svg)\\\\\n\\\\\nTicketing](https://front.com/product/ticketing-system) [![Icon live chat](https://front.com/assets/global/icon-live-chat.svg)\\\\\n\\\\\nLive chat](https://front.com/product/live-chat) [![Icon knowledgebase](https://front.com/assets/global/icon-knowledgebase.svg)\\\\\n\\\\\nKnowledge base](https://front.com/product/knowledge-base-for-ai-front)\n\n![Product grid top front ui small](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fassets%2Fglobal%2Fproduct-grid-top-front-ui-small.png&w=3840&q=75)\n\n![Product grid left laptop small](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fassets%2Fglobal%2Fproduct-grid-left-laptop-small.png&w=3840&q=75)\n\n![Product grid right chat ai small](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fassets%2Fglobal%2Fproduct-grid-right-chat-ai-small.png&w=3840&q=75)\n\nReady to tame the insanity? Come to Front.\n\n- Request a demo\n- Try for free\n\n![](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fwebassets%2Frebrand%2Fpromo-banner.webp&w=1200&q=75)\n\n![](https://front.com/webassets/rebrand/bumper-notification.svg)\n\n![](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fwebassets%2Frebrand%2Fpromo-banner.webp&w=1200&q=75)\n\n![](https://front.com/webassets/rebrand/bumper-notification.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:55.219882Z",
+      "section_path": "Managing tools and channels in most help desks feels like a circus. Let Front be your ringmaster. > Explore the platform built for complex customer operations",
+      "chunk_index": 4,
+      "token_count": 542,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_1f7c0db7b95b",
+      "source_type": "api_reference",
+      "url": "https://front.com/product/integrate-with-customer-service-apps-front",
+      "domain": "front.com",
+      "page_title": "Customer Service Software Integrations and API | Front",
+      "content": "Can’t find the answer here? Our [support team](https://help.front.com/en/contact-us) is happy to help.\n\nHow does Front connect with our other customer service apps?\n\nFront integrates with 160+ customer service apps and business systems. It pulls real-time data from tools like your CRM, TMS, or project management system, directly into conversations. That way, teams see live context—account details, order status, project updates—inside Front without switching between customer service apps.\n\nCan Front automate work across customer service apps and other systems?\n\nYes. Front connects customer service apps and backend systems into AI-powered workflows. Using integration data, Front can route conversations based on CRM attributes, trigger updates in tools like Jira or Asana, and automatically log interactions back to Salesforce or HubSpot. This lets work move across customer service apps and Front without manual data entry or context getting lost between tools.\n\nWhat should I look for when connecting customer service apps to a customer operations platform?\n\nLook for deep, operational integrations—not just surface-level syncing. Front pulls real-time data from customer service apps and other systems into the conversation, uses that data to power AI routing and automation, and keeps changes synced bidirectionally. Updates made in Front reflect back in your connected customer service apps and CRMs, ensuring teams always work with current information and your systems stay aligned end to end.\n\nWhich customer service apps and other systems does Front integrate with?\n\nFront integrates with 160+ different tools and channels. See the full list [here](https://front.com/integrations).\n\nQualified\n\n![Website logo](https://messenger-assets.qualified.com/uploads/7uif2sntB8PR6zNeShyz8v17WycnKDno42qq6/15b0251d3a3f55f01e21f856d932683aaa30a51e2cbd405fd9cfa20e5feeddf5.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:55.220028Z",
+      "section_path": "Managing tools and channels in most help desks feels like a circus. Let Front be your ringmaster. > Frequently asked questions",
+      "chunk_index": 5,
+      "token_count": 469,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_685081dc1aea",
+      "source_type": "official_docs",
+      "url": "https://front.com",
+      "domain": "front.com",
+      "page_title": "Front | Customer service platform — powered by AI, designed for humans",
+      "content": "[![Account Management](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fassets%2Fpages%2Fhomepage%2Ffeature-grid-financial-services.png&w=828&q=75)\\\\\n\\\\\n**Account Management** \\\\\n\\\\\nManage complex accounts without the scramble across teams\\\\\n\\\\\nExplore more](https://front.com/teams/account-management)\n\n[![The Coordination Tax](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fassets%2FSlide-16_9-40.png&w=828&q=75)\\\\\n\\\\\n**The Coordination Tax** \\\\\n\\\\\nA report on the hidden cost of coordination in B2B customer operations\\\\\n\\\\\nExplore more](https://front.com/resources/coordination-tax-report)\n\n![Reed & Mackay Customer Logo](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fwebassets%2Fpages%2Fuse-cases%2Fcustomer-logo-reed-and-mackay.png&w=640&q=75)\n\n“Front enabled us to transition from a one-dimensional Outlook email setup to a more dynamic platform with internal and external functionalities that we previously lacked.”\n\nTony Peckham\n\nGlobal Operations Director\n\n![Spruce Customer Logo](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fwebassets%2Fpages%2Fuse-cases%2Fcustomer-logo-spruce.png&w=256&q=75)\n\n“Front keeps everything trackable in one place. Our agents who’ve worked in support roles elsewhere say they love the way collaboration is handled in Front.”\n\nLiz Sanchez\n\nSenior Customer Support Manager\n\n![Supacolor Customer Logo](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fwebassets%2Fpages%2Fuse-cases%2Fcustomer-logo-supacolor.png&w=384&q=75)\n\n“We use tagging automation extensively. It’s so flexible, yet powerful—it lets us see where the biggest pain points and inefficiencies are across the business.”\n\nRum Walia\n\nChief Operating Officer\n\n![Branch Customer Logo](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fwebassets%2Fpages%2Fuse-cases%2Fcustomer-logo-branch.png&w=384&q=75)\n\n“After switching from Zendesk, we saw our productivity improve by 40% in our member support team managing email, text, and chat channels.”\n\nJoe Emison\n\nCTO & Co-founder\n\nWe love that we can leave a comment on an email \\[in Front\\] and escalate it, and we know that nothing will get lost in Slack. We don’t need to open up tons of other tools like we used to\n\nLaura Ene\n\nCustomer Success Team Lead\n\nFront drives efficiency: it removes unnecessary work so the team can focus on the critical 1% of exceptions that truly matter.\n\nJordan Dunn\n\nSenior Manager, Strategic Customer Success\n\n![Arrow](https://front.com/webassets/rebrand/icon-arrow-carousel.svg)![Arrow](https://front.com/webassets/rebrand/icon-arrow-carousel.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:55.649570Z",
+      "section_path": "AI for simple support is everywhere. Complex customer operations demand Front. > 9,300+ customers trust Front with the hard stuff",
+      "chunk_index": 2,
+      "token_count": 649,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_5f5bdb37782b",
+      "source_type": "official_docs",
+      "url": "https://front.com",
+      "domain": "front.com",
+      "page_title": "Front | Customer service platform — powered by AI, designed for humans",
+      "content": "Connect your channels and most-used tools with Front’s 160+ integrations and no-code workflows bring your entire stack into one shared view.\n\n- [View all integrations](https://front.com/integrations)\n\n![Front Integrations](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fassets%2Fpages%2Fhomepage%2Fuse-case-integrations-logos.png&w=3840&q=75)\n\n![dropshadow](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fwebassets%2Frebrand%2Fellipse-background.png&w=3840&q=75)\n\nReady to tame the insanity? Come to Front.\n\n- Request a demo\n- Try for free\n\n![](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fwebassets%2Frebrand%2Fpromo-banner.webp&w=1200&q=75)\n\n![](https://front.com/webassets/rebrand/bumper-notification.svg)\n\n![](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fwebassets%2Frebrand%2Fpromo-banner.webp&w=1200&q=75)\n\n![](https://front.com/webassets/rebrand/bumper-notification.svg)\n\nDon't miss these\n\n[![](https://front.com/webassets/rebrand/Take-control-of-service-quality-with-ai.svg)\\\\\n\\\\\nBlog\\\\\n\\\\\nTake control of service quality with AI: Smart QA & ticketing for modern support leaders](https://front.com/blog/customer-service-quality-ai)\n\n[![](https://front.com/webassets/rebrand/must-track-sla-metrics.svg)\\\\\n\\\\\nBlog\\\\\n\\\\\n15 must-track SLA metrics to keep your team and customers aligned](https://front.com/blog/sla-metrics-customer-service)\n\n[![](https://front.com/webassets/rebrand/how-to-reduce-team-overload.svg)\\\\\n\\\\\nBlog\\\\\n\\\\\nHow to reduce email overload for your team](https://front.com/blog/how-to-reduce-email-overload-for-your-team)\n\n[![](https://front.com/_next/image?url=https%3A%2F%2Ffront.com%2Fwebassets%2Frebrand%2Fshared-inbox-rules-how-to-set-them-up-successfully.png&w=3840&q=75)\\\\\n\\\\\nBlog\\\\\n\\\\\nShared inbox rules: How to set them up successfully](https://front.com/blog/shared-inbox-rules-how-to-set-them-up-successfully)\n\nQualified",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:55.649686Z",
+      "section_path": "AI for simple support is everywhere. Complex customer operations demand Front. > Alt+Tab isn’t a workflow. Unify your whole stack.",
+      "chunk_index": 3,
+      "token_count": 477,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_06ff9fb2911b",
+      "source_type": "developer_portal",
+      "url": "https://dev.frontapp.com/docs/welcome",
+      "domain": "dev.frontapp.com",
+      "page_title": "Welcome",
+      "content": "Whether you’re looking to build a custom integration just for your team or looking to publicly launch a Front integration, you’re in the right place! Our documentation can help you build everything from contact synchronizing to automated message triaging to custom messaging channels.\n\nOur documentation is designed to get you up and running quickly, with walkthroughs, code examples, Postman collections and more. We’re also available at [Front Community](https://community.front.com/developer-q-a-37) to help with any questions or feedback!\n\nIf you are building an app you intend to publish on our App Store, you must build this app in a developer account. If you are building an app for use in a specific customer instance, creating a separate developer account is optional. The developer account will provide you with an environment that does not include production data so it will be safer to test in. The production account, however, will ultimately be where you want your app to live for your company to use it.\n\nYou can create a developer account by [signing up here](https://front.com/signup?affiliate=developers). You’ll get access to a free developer environment that will provide everything you need to begin building with our APIs. Developer accounts are limited to 3 teammates, so we recommend sharing credentials using a team email like engineering@ if you have more developers working on your team.\n\n> 📘\n>\n> You must use a unique email to create a developer account. If you already have a Front customer account, use a (+) alias if your email provider supports it (such as [john.doe+1@gmail.com](mailto:john.doe+1@gmail.com)) or use an email address that is not already associated with Front.\n\nAfter creating a developer account, read the [Create, manage, and publish apps](https://dev.frontapp.com/docs/create-and-manage-apps) topic to learn how to create apps on the Front Platform.",
+      "is_official": false,
+      "retrieved_at": "2026-07-13T19:57:56.332370Z",
+      "section_path": "Welcome to the Front Platform 👋   [Skip link to Welcome to the Front Platform 👋](https://dev.frontapp.com/docs/welcome\\#welcome-to-the-front-platform-) > Step 1: Create a developer account   [Skip link to Step 1: Create a developer account](https://dev.frontapp.com/docs/welcome\\#step-1-create-a-developer-account)",
+      "chunk_index": 0,
+      "token_count": 475,
+      "quality_score": 0.3
+    },
+    {
+      "id": "ev_d47bb7808da6",
+      "source_type": "developer_portal",
+      "url": "https://dev.frontapp.com/docs/welcome",
+      "domain": "dev.frontapp.com",
+      "page_title": "Welcome",
+      "content": "Front features APIs that cover a wide variety of functionality. You'll likely only need to use one of them, but some integration use cases are suited for a combination of the offerings.\n\n| Name | Description |\n| --- | --- |\n| **Core API** | Sync data between Front and external systems and perform backend operations that retrieve, create, modify, or delete resources in Front.<br>[Learn more](https://dev.frontapp.com/docs/welcome#core-api) |\n| **MCP Server** | Access Front data and actions through the MCP protocol, allowing AI agents like Claude and ChatGPT to read and reply to conversations and other Front resources.<br>[Learn more](https://dev.frontapp.com/docs/mcp-server) |\n| **Connectors** | Interact with third-party APIs and external systems with no-code connectors from Front that allow you to make external API requests or bring in additional context to Front conversations for your users to see.<br>[Learn more](https://dev.frontapp.com/docs/welcome#connectors) |\n| **Plugin SDK** | Expose a hosted application in the Front UI. The plugin displays in a drawer alongside Front conversations or in the composer window itself, and can expose additional information and useful actions from external systems for Front users to leverage in their daily workflow.<br>[Learn more](https://dev.frontapp.com/docs/welcome#plugin-sdk) |\n| **Channel API** | Add a new inbound/outbound conversation source in Front, such as social media messaging, SMS, custom chat, etc.<br>[Learn more](https://dev.frontapp.com/docs/welcome#channels-api) |\n| **Chat Widget** | Add a Front-powered chat box to your website.<br>[Learn more](https://dev.frontapp.com/docs/welcome#chat-widget) |\n| **Links** | Add links to items in external systems to Front conversations.<br>[Learn more](https://dev.frontapp.com/docs/welcome#links) |",
+      "is_official": false,
+      "retrieved_at": "2026-07-13T19:57:56.332466Z",
+      "section_path": "Welcome to the Front Platform 👋   [Skip link to Welcome to the Front Platform 👋](https://dev.frontapp.com/docs/welcome\\#welcome-to-the-front-platform-) > Step 4: Learn about the Front APIs   [Skip link to Step 4: Learn about the Front APIs](https://dev.frontapp.com/docs/welcome\\#step-4-learn-about-the-front-apis)",
+      "chunk_index": 2,
+      "token_count": 454,
+      "quality_score": 0.3
+    },
+    {
+      "id": "ev_4a52b8892383",
+      "source_type": "developer_portal",
+      "url": "https://dev.frontapp.com/docs/welcome",
+      "domain": "dev.frontapp.com",
+      "page_title": "Welcome",
+      "content": "Our primary backend API that allows you to read, create, update, and delete a wide range of data across Front’s various entities, from Contacts to Comments to Tags. In general, if your use case involves programmatic syncing, export, or modification of Front data, the Core API is likely what you’re looking for. Our webhooks also make it possible to respond to real-time events as actions and updates happen in Front.\n\nA few examples of how the Core API is used today:\n\n- Synchronizing Contacts into Front from a third party CRM\n- Automatically drafting replies to incoming messages\n- Exporting conversational metadata and analytics to a data warehouse\n- Automatically assigning conversations to particular teammates\n\n_**[Core API documentation](https://dev.frontapp.com/docs/core-api-overview)**_\n\nConnectors provide a no-code or low-code means of making API calls to external systems and can also transform URLs or strings found in comments or messages into structured Orders, Shipments, Itineraries, Tasks, etc. that are easy to access right from a conversation in Front. With connectors, you can build rules and macros that retrieve or update information in external systems and also attach a summary of information from an external system directly to conversations in Front.\n\n_**[Connectors documentation](https://dev.frontapp.com/docs/overview-2)**_",
+      "is_official": false,
+      "retrieved_at": "2026-07-13T19:57:56.332503Z",
+      "section_path": "Welcome to the Front Platform 👋   [Skip link to Welcome to the Front Platform 👋](https://dev.frontapp.com/docs/welcome\\#welcome-to-the-front-platform-) > Step 4: Learn about the Front APIs   [Skip link to Step 4: Learn about the Front APIs](https://dev.frontapp.com/docs/welcome\\#step-4-learn-about-the-front-apis) > Connectors   [Skip link to Connectors](https://dev.frontapp.com/docs/welcome\\#connectors)",
+      "chunk_index": 3,
+      "token_count": 338,
+      "quality_score": 0.2
+    },
+    {
+      "id": "ev_e8e88c375248",
+      "source_type": "developer_portal",
+      "url": "https://dev.frontapp.com/docs/welcome",
+      "domain": "dev.frontapp.com",
+      "page_title": "Welcome",
+      "content": "Front Plugins allow you to embed custom side-panel apps directly into the Front UI. These plugins can respond to and interact with the conversation a Front user might be viewing, enabling seamless integrations with CRMs, phone services, task management tools and more.\n\nA few examples of how the Plugin SDK is being used today:\n\n- Integrating a CRM, so that whenever a conversation is opened with a particular person, the corresponding CRM data is automatically displayed to the user\n- Integrating a phone service to enable dialing and messaging of customers without need to leave Front to use a separate app\n- Integrating a knowledge base to allow agents to search for help articles that might be useful for a customer\n\n_**[Plugin SDK documentation](https://dev.frontapp.com/docs/plugin-overview)**_\n\nA channel is a communication stream (like an email address, Twilio phone number, or Twitter handle) that can be connected to Front. With the Channels API, you can connect any messaging platform to Front. Users will then be able to leverage Front’s powerful collaboration and automation features to view, triage, and respond to those messages. With our APIs, you can build custom channels just for your team, or publish a Partner channel that can be used by any Front customer.\n\nA few examples of how the Channels API is being used today:\n\n- logging phone call records into Front\n- synchronizing third party SMS providers into Front\n- connecting a custom website live chat with Front\n\n_**[Channels API documentation](https://dev.frontapp.com/docs/channels-overview)**_",
+      "is_official": false,
+      "retrieved_at": "2026-07-13T19:57:56.332544Z",
+      "section_path": "Welcome to the Front Platform 👋   [Skip link to Welcome to the Front Platform 👋](https://dev.frontapp.com/docs/welcome\\#welcome-to-the-front-platform-) > Step 4: Learn about the Front APIs   [Skip link to Step 4: Learn about the Front APIs](https://dev.frontapp.com/docs/welcome\\#step-4-learn-about-the-front-apis) > Channels API   [Skip link to Channels API](https://dev.frontapp.com/docs/welcome\\#channels-api)",
+      "chunk_index": 4,
+      "token_count": 392,
+      "quality_score": 0.2
+    },
+    {
+      "id": "ev_05199aeef0bc",
+      "source_type": "developer_portal",
+      "url": "https://dev.frontapp.com/docs/welcome",
+      "domain": "dev.frontapp.com",
+      "page_title": "Welcome",
+      "content": "If you’re looking to partner with Front to launch a public integration to all Front customers, please see our guide to [Partnering with Front](https://dev.frontapp.com/docs/partnering-with-front). You can see what some of our other partners have already built at our [Integrations page](https://frontapp.com/integrations).\n\nIf you are building an integration meant only for your own company or for one client, you can skip learning about the partnership process.\n\nWe offer a developer community that provides the following benefits for anyone building integrations on Front:\n\n- [Developer Q&A](https://community.front.com/developer-q-a-37)—Ask questions about the API, and get answers. This is the primary means to receive technical guidance from our team or the community at large.\n- [Give feedback](https://community.front.com/ideas)—Share your ideas with our Product team or vote on existing ones.\n- [API news](https://community.front.com/news-updates-40)—Stay informed of API updates, deprecations, and other important news. Make sure to **Subscribe** to this space.\n- [Product updates](https://community.front.com/product-updates)—Learn of new Front features.\n- [Developer Discussion](https://community.front.com/general-discussion-39)—Connect with other Front developers to share ideas, tips & tricks, or best practices. Also, feel free to let us know how we can improve the developer experience (tools, docs, sample code, etc.) in this space.\n\nYou can join at [https://community.front.com](https://community.front.com/)!",
+      "is_official": false,
+      "retrieved_at": "2026-07-13T19:57:56.332435Z",
+      "section_path": "Welcome to the Front Platform 👋   [Skip link to Welcome to the Front Platform 👋](https://dev.frontapp.com/docs/welcome\\#welcome-to-the-front-platform-) > Step 3: Join the Front Developer Community   [Skip link to Step 3: Join the Front Developer Community](https://dev.frontapp.com/docs/welcome\\#step-3-join-the-front-developer-community)",
+      "chunk_index": 1,
+      "token_count": 381,
+      "quality_score": 0.1
+    },
+    {
+      "id": "ev_b31c636d152e",
+      "source_type": "developer_portal",
+      "url": "https://dev.frontapp.com/docs/welcome",
+      "domain": "dev.frontapp.com",
+      "page_title": "Welcome",
+      "content": "The Front chat widget allows you to easily add live chat support to your website. Our code snippet makes it easy to embed the chat widget and quickly start handling messages from Front.\n\n_**[Front Chat Widget documentation](https://dev.frontapp.com/docs/chat-overview)**_\n\nLinks allow you to add hyperlinks to external systems directly from Front conversations.\n\n_**[Front Links documentation](https://dev.frontapp.com/docs/overview-1)**_\n\n> 📘\n>\n> ### Need some inspiration?   [Skip link to Need some inspiration?](https://dev.frontapp.com/docs/welcome\\#need-some-inspiration)\n>\n> We've got a few customer stories and resources to give you ideas for how to leverage the Front Platform for your team:\n>\n> - [How Shopify uses custom plugins for their Merchant Success Team](https://frontapp.com/customer-stories/shopify)\n> - [How Fishbowl saves $150k through API-powered routing workflows](https://frontapp.com/customer-stories/fishbowl)\n> - [How SnapTravel uses automated bots to manage customer conversations](https://frontapp.com/customer-stories/snaptravel)\n> - [4 examples of customer plugins in Front](https://frontapp.com/blog/2018/04/19/how-4-innovative-companies-work-faster-with-custom-apps-in-front/)\n\nUpdated about 1 month ago\n\n* * *\n\nCopy Page\n\nFront Companion",
+      "is_official": false,
+      "retrieved_at": "2026-07-13T19:57:56.332580Z",
+      "section_path": "Welcome to the Front Platform 👋   [Skip link to Welcome to the Front Platform 👋](https://dev.frontapp.com/docs/welcome\\#welcome-to-the-front-platform-) > Step 4: Learn about the Front APIs   [Skip link to Step 4: Learn about the Front APIs](https://dev.frontapp.com/docs/welcome\\#step-4-learn-about-the-front-apis) > Links   [Skip link to Links](https://dev.frontapp.com/docs/welcome\\#links)",
+      "chunk_index": 5,
+      "token_count": 317,
+      "quality_score": 0.1
+    },
+    {
+      "id": "ev_5a5d01c594fe",
+      "source_type": "developer_portal",
+      "url": "https://dev.frontapp.com/docs/welcome",
+      "domain": "dev.frontapp.com",
+      "page_title": "Welcome",
+      "content": "**Error:** unknown format:\n\n Community Help",
+      "is_official": false,
+      "retrieved_at": "2026-07-13T19:57:56.332591Z",
+      "section_path": "Something went wrong",
+      "chunk_index": 6,
+      "token_count": 10,
+      "quality_score": 0.1
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Front is a modern CX platform combining client communication, automation, and analytics for customer-first teams.",
+      "evidence_ids": [
+        "ev_b724658115f4"
+      ]
+    },
+    "category": {
+      "value": "Support and Helpdesk",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_b724658115f4"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_0916893c9806"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API",
+      "evidence_ids": [
+        "ev_b799759a43b7"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_b799759a43b7"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_b724658115f4"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_b724658115f4"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_b724658115f4"
+      ]
+    }
+  },
+  "validation": {
+    "status": "UNSUPPORTED",
+    "score": 0.62,
+    "fields_checked": 8,
+    "fields_supported": 5,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "auth_methods",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'auth_methods' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": {
+    "verified_fields": [
+      "auth_methods"
+    ],
+    "corrections": {
+      "auth_methods": "oauth2, token"
+    },
+    "screenshots": [],
+    "notes": ""
+  },
+  "pipeline_confidence": 0.62,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.62 below 0.90 threshold",
+      "Auth methods missing or UNKNOWN",
+      "Browser verification found discrepancies"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

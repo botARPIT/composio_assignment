@@ -1,0 +1,1201 @@
+{
+  "app_name": "Attio",
+  "official_domain": "attio.com",
+  "homepage": {
+    "url": "https://attio.com",
+    "title": "Attio",
+    "confidence": 0.4,
+    "confidence_reason": [
+      "official_docs: +0.40"
+    ],
+    "is_official": true,
+    "discovered_from": "domain_probe"
+  },
+  "authentication": {
+    "primary": {
+      "url": "https://docs.attio.com/docs/oauth/authorize.md",
+      "title": "Authorize",
+      "confidence": 0.65,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "llms_txt_source: +0.05"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "alternatives": [
+      {
+        "url": "https://docs.attio.com/docs/oauth/introspect.md",
+        "title": "Introspect",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https://docs.attio.com/docs/oauth/token.md",
+        "title": "Token",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      }
+    ]
+  },
+  "api_reference": {
+    "primary": {
+      "url": "https://docs.attio.com/rest-api/overview",
+      "title": "",
+      "confidence": 0.85,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "developer_domain: +0.25",
+        "exact_slot_match: +0.20"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "alternatives": []
+  },
+  "pricing": {
+    "primary": {
+      "url": "https://attio.com/pricing",
+      "title": "",
+      "confidence": 0.6,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "alternatives": []
+  },
+  "mcp": {
+    "primary": {
+      "url": "https://docs.attio.com/mcp/overview.md",
+      "title": "Attio MCP",
+      "confidence": 0.65,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "llms_txt_source: +0.05"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "alternatives": []
+  },
+  "developer_portal": {
+    "primary": {
+      "url": "https://docs.attio.com/docs/actors.md",
+      "title": "Actors",
+      "confidence": 0.65,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "llms_txt_source: +0.05"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "alternatives": [
+      {
+        "url": "https://docs.attio.com/docs/archiving-vs-deleting.md",
+        "title": "Archiving vs deleting",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https://docs.attio.com/docs/default-values.md",
+        "title": "Default values",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https://docs.attio.com/docs/objects-and-lists.md",
+        "title": "Objects and lists",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      }
+    ]
+  },
+  "sdk": null,
+  "webhooks": null,
+  "llms_txt": {
+    "url": "https://docs.attio.com/llms.txt",
+    "title": "llms.txt index",
+    "confidence": 1.0,
+    "confidence_reason": [
+      "llms_txt_source: +0.05",
+      "official_docs: +0.40",
+      "canonical_doc: +0.10"
+    ],
+    "is_official": true,
+    "discovered_from": "llms_txt"
+  },
+  "inventory": {
+    "app_name": "Attio",
+    "official_domain": "attio.com",
+    "items": [
+      {
+        "url": "https://attio.com",
+        "page_type": "homepage",
+        "title": "Attio",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/docs/actors.md",
+        "page_type": "developer_portal",
+        "title": "Actors",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/docs/archiving-vs-deleting.md",
+        "page_type": "developer_portal",
+        "title": "Archiving vs deleting",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/docs/default-values.md",
+        "page_type": "developer_portal",
+        "title": "Default values",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/docs/oauth/authorize.md",
+        "page_type": "authentication",
+        "title": "Authorize",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/docs/oauth/introspect.md",
+        "page_type": "authentication",
+        "title": "Introspect",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/docs/oauth/token.md",
+        "page_type": "authentication",
+        "title": "Token",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/docs/objects-and-lists.md",
+        "page_type": "developer_portal",
+        "title": "Objects and lists",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/docs/overview.md",
+        "page_type": "developer_portal",
+        "title": "Overview",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/docs/slugs-and-ids.md",
+        "page_type": "developer_portal",
+        "title": "Slugs and IDs",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/docs/standard-objects/standard-objects.md",
+        "page_type": "developer_portal",
+        "title": "Overview",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/docs/standard-objects/standard-objects-companies.md",
+        "page_type": "developer_portal",
+        "title": "Companies",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/docs/standard-objects/standard-objects-deals.md",
+        "page_type": "developer_portal",
+        "title": "Deals",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/docs/standard-objects/standard-objects-people.md",
+        "page_type": "developer_portal",
+        "title": "People",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/docs/standard-objects/standard-objects-users.md",
+        "page_type": "developer_portal",
+        "title": "Users",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/docs/standard-objects/standard-objects-workspaces.md",
+        "page_type": "developer_portal",
+        "title": "Workspaces",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/docs/users-and-workspaces.md",
+        "page_type": "developer_portal",
+        "title": "Users and workspaces",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/mcp/overview.md",
+        "page_type": "mcp",
+        "title": "Attio MCP",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types.md",
+        "page_type": "developer_portal",
+        "title": "Overview",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-actor-reference.md",
+        "page_type": "developer_portal",
+        "title": "Actor reference",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-checkbox.md",
+        "page_type": "developer_portal",
+        "title": "Checkbox",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-currency.md",
+        "page_type": "developer_portal",
+        "title": "Currency",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-date.md",
+        "page_type": "developer_portal",
+        "title": "Date",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-domain.md",
+        "page_type": "developer_portal",
+        "title": "Domain",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-email-address.md",
+        "page_type": "developer_portal",
+        "title": "Email address",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-interaction.md",
+        "page_type": "developer_portal",
+        "title": "Interaction",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-location.md",
+        "page_type": "developer_portal",
+        "title": "Location",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-number.md",
+        "page_type": "developer_portal",
+        "title": "Number",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-personal-name.md",
+        "page_type": "developer_portal",
+        "title": "(Personal) name",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-phone-number.md",
+        "page_type": "developer_portal",
+        "title": "Phone number",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-rating.md",
+        "page_type": "developer_portal",
+        "title": "Rating",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-record-reference.md",
+        "page_type": "developer_portal",
+        "title": "Record reference",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-select.md",
+        "page_type": "developer_portal",
+        "title": "Select",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-status.md",
+        "page_type": "developer_portal",
+        "title": "Status",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-text.md",
+        "page_type": "developer_portal",
+        "title": "Text",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-timestamp.md",
+        "page_type": "developer_portal",
+        "title": "Timestamp",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/attributes/create-a-select-option.md",
+        "page_type": "developer_portal",
+        "title": "Create a select option",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/attributes/create-a-status.md",
+        "page_type": "developer_portal",
+        "title": "Create a status",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/attributes/create-an-attribute.md",
+        "page_type": "developer_portal",
+        "title": "Create an attribute",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/attributes/get-an-attribute.md",
+        "page_type": "developer_portal",
+        "title": "Get an attribute",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/attributes/list-attributes.md",
+        "page_type": "developer_portal",
+        "title": "List attributes",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/attributes/list-select-options.md",
+        "page_type": "developer_portal",
+        "title": "List select options",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/attributes/list-statuses.md",
+        "page_type": "developer_portal",
+        "title": "List statuses",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/attributes/update-a-select-option.md",
+        "page_type": "developer_portal",
+        "title": "Update a select option",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/attributes/update-a-status.md",
+        "page_type": "developer_portal",
+        "title": "Update a status",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/attributes/update-an-attribute.md",
+        "page_type": "developer_portal",
+        "title": "Update an attribute",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/call-recordings/get-call-recording.md",
+        "page_type": "developer_portal",
+        "title": "Get call recording",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/call-recordings/list-call-recordings.md",
+        "page_type": "developer_portal",
+        "title": "List call recordings",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/comments/create-a-comment.md",
+        "page_type": "developer_portal",
+        "title": "Create a comment",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/comments/delete-a-comment.md",
+        "page_type": "developer_portal",
+        "title": "Delete a comment",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/comments/get-a-comment.md",
+        "page_type": "developer_portal",
+        "title": "Get a comment",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/companies/create-a-company-record.md",
+        "page_type": "developer_portal",
+        "title": "Create a company record",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/companies/delete-a-company-record.md",
+        "page_type": "developer_portal",
+        "title": "Delete a company record",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/companies/get-a-company-record.md",
+        "page_type": "developer_portal",
+        "title": "Get a company record",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/companies/list-company-record-attribute-values.md",
+        "page_type": "developer_portal",
+        "title": "List company record attribute values",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/companies/list-company-record-entries.md",
+        "page_type": "developer_portal",
+        "title": "List company record entries",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/companies/list-company-records.md",
+        "page_type": "developer_portal",
+        "title": "List company records",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/companies/update-a-company-record.md",
+        "page_type": "developer_portal",
+        "title": "Update a company record",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/companies/upsert-a-company-record.md",
+        "page_type": "developer_portal",
+        "title": "Upsert a company record",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/deals/create-a-deal-record.md",
+        "page_type": "developer_portal",
+        "title": "Create a deal record",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/deals/delete-a-deal-record.md",
+        "page_type": "developer_portal",
+        "title": "Delete a deal record",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/deals/get-a-deal-record.md",
+        "page_type": "developer_portal",
+        "title": "Get a deal record",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/deals/list-deal-record-attribute-values.md",
+        "page_type": "developer_portal",
+        "title": "List deal record attribute values",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/deals/list-deal-record-entries.md",
+        "page_type": "developer_portal",
+        "title": "List deal record entries",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/deals/list-deal-records.md",
+        "page_type": "developer_portal",
+        "title": "List deal records",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/deals/update-a-deal-record.md",
+        "page_type": "developer_portal",
+        "title": "Update a deal record",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/deals/upsert-a-deal-record.md",
+        "page_type": "developer_portal",
+        "title": "Upsert a deal record",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/entries/create-an-entry-add-record-to-list.md",
+        "page_type": "developer_portal",
+        "title": "Create an entry (add record to list)",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/entries/delete-a-list-entry.md",
+        "page_type": "developer_portal",
+        "title": "Delete a list entry",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/entries/get-a-list-entry.md",
+        "page_type": "developer_portal",
+        "title": "Get a list entry",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/entries/list-attribute-values-for-a-list-entry.md",
+        "page_type": "developer_portal",
+        "title": "List attribute values for a list entry",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/entries/list-entries.md",
+        "page_type": "developer_portal",
+        "title": "List entries",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/entries/update-a-list-entry-append-multiselect-values.md",
+        "page_type": "developer_portal",
+        "title": "Update a list entry (append multiselect values)",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/entries/update-a-list-entry-overwrite-multiselect-values.md",
+        "page_type": "developer_portal",
+        "title": "Update a list entry (overwrite multiselect values)",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/entries/upsert-a-list-entry-by-parent.md",
+        "page_type": "developer_portal",
+        "title": "Upsert a list entry by parent",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/endpoint-reference/files/create-a-folder.md",
+        "page_type": "developer_portal",
+        "title": "Create a folder",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/overview",
+        "page_type": "api_reference",
+        "title": "",
+        "confidence": 0.85,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      },
+      {
+        "url": "https://attio.com/pricing",
+        "page_type": "pricing",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      }
+    ],
+    "stats": {
+      "queries": 1,
+      "urls_discovered": 78,
+      "official_urls": 78,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 6
+    }
+  },
+  "stats": {
+    "queries": 1,
+    "urls_discovered": 78,
+    "official_urls": 78,
+    "non_official_filtered": 0,
+    "blog_community_filtered": 0,
+    "third_party_sdk_filtered": 0,
+    "duplicates_removed": 0,
+    "canonical_selected": 6
+  }
+}

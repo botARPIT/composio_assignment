@@ -1,0 +1,1206 @@
+{
+  "app_name": "Datadog",
+  "official_domain": "docs.datadoghq.com",
+  "homepage": {
+    "url": "https://docs.datadoghq.com/api",
+    "title": "Datadog",
+    "confidence": 0.5,
+    "confidence_reason": [
+      "official_docs: +0.40",
+      "canonical_doc: +0.10"
+    ],
+    "is_official": true,
+    "discovered_from": "domain_probe"
+  },
+  "authentication": {
+    "primary": {
+      "url": "https://docs.datadoghq.com/api/latest/authentication",
+      "title": "Authentication",
+      "confidence": 0.7,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "tavily_search"
+    },
+    "alternatives": []
+  },
+  "api_reference": {
+    "primary": {
+      "url": "https://docs.datadoghq.com/api_reference/llms.txt",
+      "title": "API Reference",
+      "confidence": 0.75,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "canonical_doc: +0.10",
+        "llms_txt_source: +0.05"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "alternatives": [
+      {
+        "url": "https://docs.datadoghq.com/reference_tables/llms.txt",
+        "title": "Reference Tables",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      }
+    ]
+  },
+  "pricing": {
+    "primary": {
+      "url": "https://www.datadoghq.com/pricing",
+      "title": "Pricing",
+      "confidence": 0.6,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20"
+      ],
+      "is_official": true,
+      "discovered_from": "tavily_search"
+    },
+    "alternatives": []
+  },
+  "mcp": {
+    "primary": {
+      "url": "https://www.datadoghq.com/knowledge-center/mcp-server",
+      "title": "What Is an MCP Server (Model Context Protocol Server)?",
+      "confidence": 0.6,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20"
+      ],
+      "is_official": true,
+      "discovered_from": "tavily_search"
+    },
+    "alternatives": []
+  },
+  "developer_portal": {
+    "primary": {
+      "url": "https://docs.datadoghq.com/apm/llms.txt",
+      "title": "APM",
+      "confidence": 0.65,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "llms_txt_source: +0.05"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "alternatives": [
+      {
+        "url": "https://docs.datadoghq.com/account_management/llms.txt",
+        "title": "Account Management",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https://docs.datadoghq.com/actions/llms.txt",
+        "title": "Actions",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https://docs.datadoghq.com/administrator_s_guide/llms.txt",
+        "title": "Administrator's Guide",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      }
+    ]
+  },
+  "sdk": null,
+  "webhooks": null,
+  "llms_txt": {
+    "url": "https://docs.datadoghq.com/llms.txt",
+    "title": "llms.txt index",
+    "confidence": 1.0,
+    "confidence_reason": [
+      "llms_txt_source: +0.05",
+      "official_docs: +0.40",
+      "canonical_doc: +0.10"
+    ],
+    "is_official": true,
+    "discovered_from": "llms_txt"
+  },
+  "inventory": {
+    "app_name": "Datadog",
+    "official_domain": "docs.datadoghq.com",
+    "items": [
+      {
+        "url": "https://docs.datadoghq.com/api",
+        "page_type": "homepage",
+        "title": "Datadog",
+        "confidence": 0.5,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "canonical_doc: +0.10"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/api_reference/llms.txt",
+        "page_type": "api_reference",
+        "title": "API Reference",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/apm/llms.txt",
+        "page_type": "developer_portal",
+        "title": "APM",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/account_management/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Account Management",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/actions/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Actions",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/administrator_s_guide/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Administrator's Guide",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/agent/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Agent",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/agent_console/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Agent Console",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/agent_observability/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Agent Observability",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/agentic_onboarding/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Agentic Onboarding",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/byoc_logs/llms.txt",
+        "page_type": "developer_portal",
+        "title": "BYOC Logs",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/bits_ai/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Bits AI",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/change_tracking/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Change Tracking",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/client_sdks/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Client SDKs",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/cloud_cost_management/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Cloud Cost Management",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/cloudcraft_standalone/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Cloudcraft (Standalone)",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/cloudcraft_in_datadog/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Cloudcraft in Datadog",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/coscreen/llms.txt",
+        "page_type": "developer_portal",
+        "title": "CoScreen",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/code_coverage/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Code Coverage",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/containers/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Containers",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/continuous_delivery_visibility/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Continuous Delivery Visibility",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/continuous_integration_visibility/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Continuous Integration Visibility",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/continuous_profiler/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Continuous Profiler",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/continuous_testing/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Continuous Testing",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/ddsql_editor/llms.txt",
+        "page_type": "developer_portal",
+        "title": "DDSQL Editor",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/ddsql_reference/llms.txt",
+        "page_type": "developer_portal",
+        "title": "DDSQL Reference",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/dashboards/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Dashboards",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/data_observability_overview/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Data Observability Overview",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/data_streams_monitoring/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Data Streams Monitoring",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/database_monitoring/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Database Monitoring",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/datadog_coterm/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Datadog CoTerm",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/datadog_documentation_guides/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Datadog Documentation Guides",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/datadog_help/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Datadog Help",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/datadog_ide_plugins/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Datadog IDE Plugins",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/datadog_mcp_server/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Datadog MCP Server",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/datadog_mobile_app/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Datadog Mobile App",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/datadog_security/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Datadog Security",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/datadog_watchdog/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Datadog Watchdog™",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/default_standard_attributes/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Default Standard Attributes",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/delivery_performance/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Delivery Performance",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/deployment_gates/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Deployment Gates",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/error_tracking/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Error Tracking",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/event_management/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Event Management",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/experiments/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Experiments",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/extend_datadog/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Extend Datadog",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/feature_flags/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Feature Flags",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/gpu_monitoring/llms.txt",
+        "page_type": "developer_portal",
+        "title": "GPU Monitoring",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/getting_started/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Getting Started",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/incident_response/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Incident Response",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/infrastructure/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Infrastructure",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/internal_developer_portal/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Internal Developer Portal",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/journey_monitoring/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Journey Monitoring",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/log_management/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Log Management",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/metrics/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Metrics",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/monitors/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Monitors",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/network_monitoring/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Network Monitoring",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/notebooks/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Notebooks",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/observability_pipelines/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Observability Pipelines",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/opentelemetry_in_datadog/llms.txt",
+        "page_type": "developer_portal",
+        "title": "OpenTelemetry in Datadog",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/pr_gates/llms.txt",
+        "page_type": "developer_portal",
+        "title": "PR Gates",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/partners/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Partners",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/product_analytics/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Product Analytics",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/pup_cli/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Pup CLI",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/rum_session_replay/llms.txt",
+        "page_type": "developer_portal",
+        "title": "RUM & Session Replay",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/reducing_data_related_risks/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Reducing Data Related Risks",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/reference_tables/llms.txt",
+        "page_type": "api_reference",
+        "title": "Reference Tables",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/remote_configuration/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Remote Configuration",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/search_results/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Search Results",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/serverless/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Serverless",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/service_level_objectives/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Service Level Objectives",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/session_replay/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Session Replay",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/sheets/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Sheets",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/source_code_integration/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Source Code Integration",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/synthetic_testing_and_monitoring/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Synthetic Testing and Monitoring",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/test_optimization_in_datadog/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Test Optimization in Datadog",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/universal_service_monitoring/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Universal Service Monitoring",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/api/latest/authentication",
+        "page_type": "authentication",
+        "title": "Authentication",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "discovered_from": "tavily_search",
+        "is_official": true
+      },
+      {
+        "url": "https://www.datadoghq.com/pricing",
+        "page_type": "pricing",
+        "title": "Pricing",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "discovered_from": "tavily_search",
+        "is_official": true
+      },
+      {
+        "url": "https://www.datadoghq.com/knowledge-center/mcp-server",
+        "page_type": "mcp",
+        "title": "What Is an MCP Server (Model Context Protocol Server)?",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "discovered_from": "tavily_search",
+        "is_official": true
+      }
+    ],
+    "stats": {
+      "queries": 4,
+      "urls_discovered": 79,
+      "official_urls": 79,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 6
+    }
+  },
+  "stats": {
+    "queries": 4,
+    "urls_discovered": 79,
+    "official_urls": 79,
+    "non_official_filtered": 0,
+    "blog_community_filtered": 0,
+    "third_party_sdk_filtered": 0,
+    "duplicates_removed": 0,
+    "canonical_selected": 6
+  }
+}

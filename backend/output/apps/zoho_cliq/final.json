@@ -1,0 +1,763 @@
+{
+  "app": {
+    "id": 23,
+    "name": "Zoho Cliq",
+    "website": "zoho.com/cliq",
+    "category_hint": "Communications and Messaging"
+  },
+  "documentation_map": {
+    "app_name": "Zoho Cliq",
+    "official_domain": "zoho.com",
+    "homepage": {
+      "url": "https://zoho.com/cliq",
+      "title": "Zoho Cliq",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": null,
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": null,
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://www.zoho.com/en-in/enterprise",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://www.zoho.com/mcp",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://www.zoho.com/workdrive/?src=zdocs",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "Zoho Cliq",
+      "official_domain": "zoho.com",
+      "items": [
+        {
+          "url": "https://zoho.com/cliq",
+          "page_type": "homepage",
+          "title": "Zoho Cliq",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://www.zoho.com/en-in/enterprise",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://www.zoho.com/workdrive/?src=zdocs",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://www.zoho.com/mcp",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 2,
+        "urls_discovered": 4,
+        "official_urls": 4,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 4
+      }
+    },
+    "stats": {
+      "queries": 2,
+      "urls_discovered": 4,
+      "official_urls": 4,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 4
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_b12a6c449043",
+      "source_type": "pricing_page",
+      "url": "https://www.zoho.com/en-in/enterprise",
+      "domain": "www.zoho.com",
+      "page_title": "Customizable enterprise software by Zoho",
+      "content": "Blend data from 500+ sources, including files, feeds, local/cloud databases, and business applications, to generate 360-degree business insights.\n\n- [![analytics](https://www.zohowebstatic.com/sites/zweb/images/productlogos/analytics.svg)](https://www.zoho.com/analytics/?src=entin)\n- [![dataprep](https://www.zohowebstatic.com/sites/zweb/images/productlogos/dataprep.png)](https://www.zoho.com/dataprep/?src=entin)\n\nInternet of Things\n\nManage your IoT operations, build custom applications from scratch, or directly deploy ready-to-use vertical solutions.\n\n- [![IoT](https://www.zohowebstatic.com/sites/zweb/images/productlogos/iot.svg)](https://www.zoho.com/iot/?src=entin)\n\n- [IIoT for Manufacturing](https://www.zoho.com/iot/solutions/industrial-iot.html?src=entin)\n- [Energy Management](https://www.zoho.com/iot/solutions/energy-management.html?src=entin)\n- [Fleet Management](https://www.zoho.com/iot/solutions/fleet-monitoring.html?src=entin)\n\nStreamline IT and enterprise service operations with a complete toolkit—from cloud access management and endpoint security to mobile device management.\n\n[LEARN MORE](https://www.zoho.com/it-management/)\n\n- [Adaptive single sign-on](https://www.zoho.com/directory/features/single-sign-on.html)\n- [Endpoint management](https://www.zoho.com/endpoint-central/)\n- [Password management](https://www.zoho.com/vault/)\n- [Multi-factor authentication](https://www.zoho.com/accounts/oneauth/)\n- [Identity and access management](https://www.zoho.com/directory/)\n- [Mobile device management](https://www.zoho.com/mdm-cloud.html)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:01.059411Z",
+      "section_path": "Accelerate enterprise growth with customisable software solutions > Security and IT management",
+      "chunk_index": 3,
+      "token_count": 391,
+      "quality_score": 0.84
+    },
+    {
+      "id": "ev_02a325dedb35",
+      "source_type": "pricing_page",
+      "url": "https://www.zoho.com/en-in/enterprise",
+      "domain": "www.zoho.com",
+      "page_title": "Customizable enterprise software by Zoho",
+      "content": "The breadth and depth of the Zoho suite empower enterprises to adopt a solution-based approach.\n\n- Interoperable, customisable, and extensible\n- Faster time to value with quicker implementation\n- Contextually integrated tech stack\n\nWith [2,500+ third-party apps](https://marketplace.zoho.com/home), pre-built extensions, and integrations paired with APls, and plug-and-play workflow builders, it's easy to extend and customize your Zoho deployment with your existing cloud and on-prem systems.\n\n[**APIs** \\\\\nIntegrate apps across your tech stack](https://www.zoho.com/developer/rest-api.html)\n\n[**SDKs** \\\\\nBuild customised web and mobile apps](https://www.zoho.com/creator/mobile-sdk.html)\n\n[**Serverless functions** \\\\\nAutomate operations at scale](https://catalyst.zoho.com/serverless/functions.html)\n\n[**Workflow builder** \\\\\nConnect third-party apps with one another](https://www.zoho.com/flow/)\n\n[**Sigma** \\\\\nDevelop custom extensions](https://help.zoho.com/portal/en/kb/sigma/general/articles/sigma-overview)\n\n[**Vertical platform** \\\\\nBuild white-label solutions](https://www.zoho.com/developer/industry-solutions.html)\n\nWe heavily invest in contextual coding with [serverless capabilities](https://www.zoho.com/deluge/) to reduce the learning curve and shorten the implementation cycle while minimising the time and costs of building custom solutions to meet your requirements.\n\nA CRM deployment of this magnitude would normally require 18 to 24 months.\n\nThe launch of Zoho CRM is one of TAFE's significant initiatives to drive digital transformation and growth. The solution with Zoho is very innovative and truly digital. There was a complete re-engineering of processes done for simplification, and the Zoho Team completed this project in a mere six months.\n\nShobhana RaviChief IT, Innovation and Learning Officer, TAFE\n\n[LEARN MORE](https://www.zoho.com/enterprise/ebs/)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:01.059539Z",
+      "section_path": "Accelerate enterprise growth with customisable software solutions > Uniquely positioned for enterprises > Faster time to value with quicker implementation",
+      "chunk_index": 7,
+      "token_count": 471,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_9cb64b11f69d",
+      "source_type": "mcp_registry",
+      "url": "https://www.zoho.com/mcp",
+      "domain": "www.zoho.com",
+      "page_title": "Zoho MCP | Zoho's Model Context Protocol to empower AI Agents",
+      "content": "[Sign Up for Free](https://www.zoho.com/mcp/signup.html)\n\n- Product Understanding\n- Technical\n- Business Impact\n- Access & Security\n- Integration & Compatibility\n\nWhat is Zoho MCP?\n\nZoho MCP is a product built around the Model Context Protocol (MCP), a standardized interface that allows AI agents to interact with business software. With Zoho MCP, you can create MCP Servers that expose tools, actions, and contextual data from Zoho apps in a way AI agents can understand and act upon, regardless of which LLM they use.\n\nWhile MCP is the open protocol that defines how agents communicate with business systems, Zoho MCP provides the infrastructure, configuration UI, security, and integrations needed to implement it quickly and securely within the Zoho ecosystem (and beyond). In short:\n\n- MCP is the protocol\n- Zoho MCP is the product that lets you stand up agent-ready endpoints, making Zoho apps executable by AI agents.\n\nHow is MCP different from chatbot builders or automation tools?\n\nZoho MCP isn’t a chatbot builder or an automation tool, it’s the execution layer that enables AI agents to take real action. Traditional chatbot builders focus on conversation flow. Automation tools execute predefined, rule-based workflows. Zoho MCP takes a different approach: it exposes your apps' tools, actions, and business context through a standardized protocol, so AI agents (powered by any LLM) can turn natural language into real outcomes.\n\nWhile LLMs handle intent understanding, MCP enables agents to:\n\n- Access structured data (like deals, meetings, or tasks)\n- Trigger product-level actions (like sending invoices or creating records)\n- Coordinate multi-step workflows without rigid scripts\n\nUnlike chatbots that reply or automation tools that need manual configuration, Zoho MCP lets agents operate your apps directly, securely, and autonomously.\n\nAre AI Agents and Zoho MCP the same?\n\nNo, AI agents and Zoho MCP are not the same.\n\nAI agents are intelligent systems often powered by LLMs like GPT or Claude , that interpret natural language and act on user intent. Zoho MCP is a product built on the Model Context Protocol (MCP), a standard that exposes structured tools, data, and actions from Zoho apps in a way agents can use. It allows developers to create MCP servers that agents connect to via an MCP client\n\nIn this relationship:\n\n- The agent handles the intelligence and interpretation.\n- MCP provides the execution interface (what actions are available, how they work, and what’s allowed).\n- Think of MCP as the infrastructure layer and agents as the brains and operators.\n- Zoho MCP doesn’t make agents smarter, it makes them more capable of acting.\n\nWhat kind of AI agents can I build with MCP?\n\nYou can build task-based, goal-based, or autonomous agents. Agents can be reactive or autonomous, depending on your goals.\n\nExamples include:\n\n- A sales assistant that schedules meetings and sends proposals\n- A support agent that triages tickets and notifies teams\n- A project bot that tracks tasks and updates timelines",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:02.229789Z",
+      "section_path": "Apps weren’t built for AI agentsuntil now. > FAQ > Product Understanding",
+      "chunk_index": 4,
+      "token_count": 758,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_dae39e71a8b6",
+      "source_type": "mcp_registry",
+      "url": "https://www.zoho.com/mcp",
+      "domain": "www.zoho.com",
+      "page_title": "Zoho MCP | Zoho's Model Context Protocol to empower AI Agents",
+      "content": "Who can access the MCP playground?\n\nNew users can sign up and start using MCP immediately, while Zoho users, developers, and partners can log in to access the MCP playground.\n\nIs MCP secure?\n\nYes. MCP follows Zoho’s enterprise-grade security protocols. All data access and agent actions are governed by strict access controls, encrypted data handling, and audit trails, ensuring safe, compliant execution.\n\nHow does MCP handle authentication and permissions?\n\nAgents operate under user-level permissions, so they can only perform actions that the user is authorized to do. Zoho supports OAuth to ensure secure identity management.\n\nWhich Zoho apps does MCP work with today?\n\nMCP integrates with many Zoho apps, including CRM, Mail, Calendar, Desk, Cliq, Projects, and WorkDrive. It leverages existing APIs and standard actions, so your agents can operate across tools natively.\n\nDoes MCP support third-party tools like Asana or Twilio?\n\nYes, you can extend agent actions to tools like Asana, Twilio, OneDrive, Notion, and more. MCP is designed to be flexible for multi-app workflows. With MCP, you can connect to 500+ third party apps. For any unsupported apps, please raise a request to [support@zohomcp.com](mailto:support@zohomcp.com)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:02.229879Z",
+      "section_path": "Apps weren’t built for AI agentsuntil now. > FAQ > Integration & Compatibility",
+      "chunk_index": 6,
+      "token_count": 309,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_3882214f5895",
+      "source_type": "pricing_page",
+      "url": "https://www.zoho.com/en-in/enterprise",
+      "domain": "www.zoho.com",
+      "page_title": "Customizable enterprise software by Zoho",
+      "content": "Deliver great customer experiences, collaborate seamlessly, and automate business processes—all on a software platform built in India.\n\n[CONTACT SALES](https://www.zoho.com/en-in/enterprise/get-in-touch.html)\n\n![Zia](https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/index/zia-logo-gradient.png)\n\nRun sales, marketing, finance, and support with pre-built AI agents that are autonomous and context-aware.\n\n[Explore Agents](https://www.zoho.com/agents/?src=ent-in)\n\nRecognised in the Gartner® Magic Quadrant™ for\n\n- [Analytics and Business Intelligence Platforms 2025](https://www.zoho.com/analytics/2025-gartner-mq-report.html?src=entin)\n- [Sales Force Automation Platforms 2025](https://www.zoho.com/crm/gartner-sfa-mq.html?src=entin)\n- [Enterprise Low-Code Application Platforms 2024](https://www.zoho.com/creator/analyst/gartner-magic-quadrant-for-low-code-application-platforms-2024-report.html?src=entin)\n- B2B Marketing Automation Platforms\n\n[![nucleus research](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/nucleus-research-white.svg)\\\\\nRecognised in their Technology Value Matrix for Sales Force Automation (Zoho CRM) 2025](https://www.zoho.com/crm/nucleus-crm-value-matrix.html?src=entin)\n\n[![frost sullivan](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/frost-and-sullivan-white.svg)\\\\\nRecognised in the Frost Radar™ for Electronic Signature Software 2024](https://www.zoho.com/sign/frost-and-sullivan-radar-report-2024.html?src=entin)\n\n[![isg](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/isg-white.svg)\\\\\nRecognised in the ISG Provider Lens for Future of Work (Workplace) Solutions 2024](https://www.zoho.com/projects/isg-future-of-work-2024.html?src=entin)\n\n[![dresner](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/dresner-advisory-services-light.svg)\\\\\nAn overall leader in Customer Experience and Vendor Credibility by Dresner Advisory 2024](https://www.zoho.com/analytics/dresner-report-2024.html)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:01.059286Z",
+      "section_path": "Accelerate enterprise growth with customisable software solutions > Meet your new team, powered by Zia Agents",
+      "chunk_index": 0,
+      "token_count": 501,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_4f35fbe5dd0e",
+      "source_type": "pricing_page",
+      "url": "https://www.zoho.com/en-in/enterprise",
+      "domain": "www.zoho.com",
+      "page_title": "Customizable enterprise software by Zoho",
+      "content": "Transform your organisational operations with integrated enterprise software that streamlines email, chat, project management, files, meetings, and everything your teams need.\n\n- [![workplace](https://www.zohowebstatic.com/sites/zweb/images/productlogos/workplace.svg)](https://www.zoho.com/en-in/workplace/?src=entin)\n- [![projects](https://www.zohowebstatic.com/sites/zweb/images/productlogos/projects.svg)](https://www.zoho.com/projects/?src=entin)\n\nFinance\n\nFrom billing and order management to accounting, everything you need to manage your enterprise's finance operations.\n\n- [![billing](https://www.zohowebstatic.com/sites/zweb/images/productlogos/billing.svg)](https://www.zoho.com/in/billing/?src=entin)\n- [![inventory](https://www.zohowebstatic.com/sites/zweb/images/productlogos/inventory.png)](https://www.zoho.com/in/inventory/?src=entin)\n- [![books](https://www.zohowebstatic.com/sites/zweb/images/productlogos/books.png)](https://www.zoho.com/in/books/?src=entin)\n\nCustom Solutions\n\nCreate scalable web/mobile apps using low-code and pro-code tools, with AI enhancements like end-to-end automation, language detection, trend analysis, and more.\n\n- [![creator](https://www.zohowebstatic.com/sites/zweb/images/productlogos/creator.svg)](https://www.zoho.com/en-in/creator/?src=entin)\n- [![catalyst](https://www.zohowebstatic.com/sites/zweb/images/productlogos/catalyst.svg)](https://catalyst.zoho.com/?src=entin)\n\nBusiness Intelligence",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:01.059376Z",
+      "section_path": "Accelerate enterprise growth with customisable software solutions > Customisable solutions for enterprise management > Design, build, and deploy bespoke solutions for your organisation’s specific needs",
+      "chunk_index": 2,
+      "token_count": 362,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_b6f6caa285c0",
+      "source_type": "pricing_page",
+      "url": "https://www.zoho.com/en-in/enterprise",
+      "domain": "www.zoho.com",
+      "page_title": "Customizable enterprise software by Zoho",
+      "content": "![MANUFACTURING](https://www.zohowebstatic.com/sites/zweb/images/enterprise/homeus/harish-manian.png)\n\nHEALTHCARE AND PHARMA\n\n\"I'd have to say that Zoho Creator is not only one of the best low-code platforms you can find at an affordable cost, but also a constantly evolving product with fantastic technical support.\"\n\nHarish ManianCEO, MGM Healthcare\n\n[LEARN MORE](https://www.zoho.com/creator/case-studies/healthcare-mgm-patient-management.html)\n\nBFSI\n\n\"This platform has automated approximately 90-95% of customer query processes, leading to a remarkable 30% increase in customer satisfaction and a 25% boost in retention rates.\"\n\nManimekhalai AManaging Director & CEO, Union Bank of India\n\n[LEARN MORE](https://www.zoho.com/news/union-bank-of-india-and-zoho-mark-digital-transformation-success.html)\n\nMANUFACTURING\n\n\"Today, 100 percent of our pre-sales across all businesses and divisions and locations run on Zoho CRM. We have also created a Dealer Enquiry (DEQ) system that centralised deal onboarding operations, automated workflows, and helped us reduce both customer response times and manual user errors by over 40 percent.\"\n\nUdit PahwaChief Information Officer, Blue Star Limited\n\nFMCG AND RETAIL",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:01.059481Z",
+      "section_path": "Accelerate enterprise growth with customisable software solutions > Bespoke solutions across industries > Cutting-edge clinical care: The MGM success story",
+      "chunk_index": 5,
+      "token_count": 301,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_4b7dfa2f6c44",
+      "source_type": "pricing_page",
+      "url": "https://www.zoho.com/en-in/enterprise",
+      "domain": "www.zoho.com",
+      "page_title": "Customizable enterprise software by Zoho",
+      "content": "\"In the past six months, we've saved nearly INR 3 crore with Zoho Creator, cutting task completion time by 50% and boosting productivity and performance by 1.5x.\"\n\nVinayaka GangavatiHead of Procurement, BigBasket\n\n[LEARN MORE](https://www.zoho.com/creator/case-studies/bigbasket-retail-capex-procurement.html)\n\nIT SERVICES\n\n![MANUFACTURING](https://www.zohowebstatic.com/sites/zweb/images/enterprise/homeus/harish-manian.png)\n\nHEALTHCARE AND PHARMA\n\n\"I'd have to say that Zoho Creator is not only one of the best low-code platforms you can find at an affordable cost, but also a constantly evolving product with fantastic technical support.\"\n\nHarish ManianCEO, MGM Healthcare\n\n[LEARN MORE](https://www.zoho.com/creator/case-studies/healthcare-mgm-patient-management.html)\n\nBFSI\n\n\"This platform has automated approximately 90-95% of customer query processes, leading to a remarkable 30% increase in customer satisfaction and a 25% boost in retention rates.\"\n\nManimekhalai AManaging Director & CEO, Union Bank of India\n\n[LEARN MORE](https://www.zoho.com/news/union-bank-of-india-and-zoho-mark-digital-transformation-success.html)\n\nMANUFACTURING\n\n\"Today, 100 percent of our pre-sales across all businesses and divisions and locations run on Zoho CRM. We have also created a Dealer Enquiry (DEQ) system that centralised deal onboarding operations, automated workflows, and helped us reduce both customer response times and manual user errors by over 40 percent.\"\n\nUdit PahwaChief Information Officer, Blue Star Limited",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:01.059510Z",
+      "section_path": "Accelerate enterprise growth with customisable software solutions > Bespoke solutions across industries > Cutting-edge clinical care: The MGM success story",
+      "chunk_index": 6,
+      "token_count": 378,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_2dfff48164e9",
+      "source_type": "pricing_page",
+      "url": "https://www.zoho.com/en-in/enterprise",
+      "domain": "www.zoho.com",
+      "page_title": "Customizable enterprise software by Zoho",
+      "content": "All of Zoho’s software technology is built on top of a unified and integrated data layer, enabling enterprises to use our microservices across all of our apps.\n\n![Contextually integrated tech stack](https://www.zohowebstatic.com/sites/zweb/images/enterprise/homeus/contextual-img.png)\n\n- Get a clearer picture of your entire organisation as you add more apps and integrations to your Zoho deployment.\n- Zoho supports deep, native integrations with nearly every domain of enterprise software.\n- Cut down on the time and costs of building bespoke integrations with custom data-sharing connections.\n\nWith offices and data centers in multiple countries, a global workforce, and an international network of SI partners, we are here to help you get set up—wherever your company is based.\n\nBuilt on our own cloud infrastructure with [24/7 monitoring](https://status.zoho.in/), Zoho guarantees availability and the fastest response times—excluding the downtime caused by scheduled maintenance, which will be communicated well in advance.\n\nCentralise access at scale by managing users from Active Directory and LDAP and enabling them to log in with single sign-on—one username and password for all their applications.\n\nOur premium enterprise support provides round-the-clock access to highly skilled support professionals who work under tightly laid SLA.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:01.059579Z",
+      "section_path": "Accelerate enterprise growth with customisable software solutions > Uniquely positioned for enterprises > Dedicated customer relationship management",
+      "chunk_index": 8,
+      "token_count": 336,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_79a651c5d1c9",
+      "source_type": "pricing_page",
+      "url": "https://www.zoho.com/en-in/enterprise",
+      "domain": "www.zoho.com",
+      "page_title": "Customizable enterprise software by Zoho",
+      "content": "At Zoho, we take data privacy and security seriously at every level of our business, from product development to vendor standards. We also comply with all applicable data protection laws and regulations.\n\n[LEARN MORE](https://www.zoho.com/privacy-commitment.html)\n\nData integrity is important to us—that's why we handle all user data using the latest [international security compliance](https://www.zoho.com/security.html) standards, with [100% data encryption](https://www.zoho.com/encryption.html) in transit, using the latest version of TLS.\n\nWe have a strict [privacy policy](https://www.zoho.com/privacy.html) to protect personal information, and we never put our users at risk by selling or disclosing their information to unauthorized third parties. We comply with GDPR and CCPA worldwide, going above and beyond what’s mandated by law.\n\nZoho owns and operates its own [data centers](https://www.zoho.com/know-your-datacenter.html)—we do not run on a public cloud. Our unified data model and unified cloud storage allows for shared services like AI, search, analytics, and messaging to scale alongside our users.\n\n- ![ism](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/bsi-iso-iec-27001-information-security-management.png)\n- ![pim](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/bsi-iso-iec-27001-privacy-information-management.png)\n- ![csm](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/bsi-iso-iec-27017-cloud-security-management.png)\n- ![pdc](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/bsi-iso-iec-27018.png)\n- ![qms](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/bsi-iso-9001-quality-management_systems.png)\n- ![aic](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/aicpa-soc.png)\n- ![gdpr](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/gdpr.png)\n- ![hippa](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/hippa.png)\n\nENTERPRISE BUSINESS SOLUTIONS",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:01.059630Z",
+      "section_path": "Accelerate enterprise growth with customisable software solutions > Enterprise-grade security at the forefront > Scalable tech infrastructure",
+      "chunk_index": 9,
+      "token_count": 500,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_591cf80c6ea2",
+      "source_type": "pricing_page",
+      "url": "https://www.zoho.com/en-in/enterprise",
+      "domain": "www.zoho.com",
+      "page_title": "Customizable enterprise software by Zoho",
+      "content": "Our partnership goes far beyond the point of purchase. The enterprise services team comes with the product insight and specialised industry knowledge tailored to the unique business needs of your company.\n\n[LEARN MORE ABOUT EBS](http://zoho.com/ebs)\n\nSI PARTNERS\n\nTeam up with world-class experts who will partner with you on a comprehensive strategy for deployment, so you can reduce time to value and scale with confidence. If you have a preferred SI in mind, let us know and we'll make the connection.\n\n[EXPLORE MORE](https://www.zoho.com/partners/system-integrators/)\n\n150M+\n\nUsers Worldwide\n\n30+\n\nYears\n\n150+\n\nCountries\n\n18\n\nData Centers\n\n19K+\n\nEmployees\n\n60+\n\nApps\n\nOur team will get in touch with you for an exploratory call.\n\n[CONTACT SALES](https://www.zoho.com/en-in/enterprise/get-in-touch.html)\n\n![](https://www.zohowebstatic.com/sites/zweb/images/enterprise/homeus/mandela.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:01.059653Z",
+      "section_path": "Accelerate enterprise growth with customisable software solutions > Explore how our customised solutions can help your enterprise.",
+      "chunk_index": 10,
+      "token_count": 222,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_8f891825d114",
+      "source_type": "mcp_registry",
+      "url": "https://www.zoho.com/mcp",
+      "domain": "www.zoho.com",
+      "page_title": "Zoho MCP | Zoho's Model Context Protocol to empower AI Agents",
+      "content": "[Sign Up for Free](https://www.zoho.com/mcp/signup.html)\n\n![Just prompt—or don’t prompt—and watch work get done.](https://www.zohowebstatic.com/sites/zweb/images/mcp/homepage/zwc-header-video-post-img.png)\n\nMeet Zoho MCP (Model Context Protocol), which enables developers to instantly transform business apps into intelligent, agent-ready systems—systems that think, act, and respond like a teammate, not just a tool.\n\nIt connects LLMs like GPT or Claude to Zoho’s APIs, data models, and actions, so agents gain the context, access, and control they need to turn natural instructions into real actions across your business apps.\n\nNot just another product, Zoho MCP redefines how Al agents integrate with business apps to help you empower your teams to work faster, smarter, and friction-free by letting agents handle what used to take clicks.\n\n- Manual clicks.\n- Forms. Menus. Tabs.\n- Your apps demand you adapt to them.\n\n- Natural language prompts.\n- Multi-app execution via a single agent.\n- API-native, agent-driven workflows.\n\nZoho MCP isn’t just for chat-based prompts. It can also be used by autonomous agents. That means you don’t have to prompt explicitly. It enables fully autonomous agents to monitor, reason, and act without human input.\n\nSome examples:\n\n![Autonomous by design](https://www.zohowebstatic.com/sites/zweb/images/mcp/homepage/zwc-autonomous-design-animation.svg)\n\nAutonomous agent\n\n- Auto-escalating unresolved support tickets overnight\n- Monitoring deal progress and reassigning accounts\n- Launching reports or alerts when anomalies are detected\n\nWhether the instruction comes from a user or the agent itself, Zoho MCP translates intent into action across your Zoho apps.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:02.229465Z",
+      "section_path": "Apps weren’t built for AI agentsuntil now. > Autonomous by design",
+      "chunk_index": 0,
+      "token_count": 424,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_04d0aaa7957f",
+      "source_type": "mcp_registry",
+      "url": "https://www.zoho.com/mcp",
+      "domain": "www.zoho.com",
+      "page_title": "Zoho MCP | Zoho's Model Context Protocol to empower AI Agents",
+      "content": "MCP standardizes how AI agents interact with Zoho applications and other third-party services\n\n![Made for developers. Loved by agents.](https://www.zohowebstatic.com/sites/zweb/images/mcp/homepage/zwc-empower-agents-img.png)\n\nCompatible with Claude, GPT, and other AI agents right out of the box.\n\nTest your integrations without writing code.\n\nSelf-describing APIs with clear input/output contracts.\n\nConsistent patterns across all Zoho applications.\n\nWorks immediately with agent frameworks and tools.\n\n![Built-in playground](https://www.zohowebstatic.com/sites/zweb/images/mcp/homepage/zwc-secure-scoped-img.png)\n\nOAuth-based authorization ensures proper access control.\n\nMCP provides a standardized way for AI Agents to interact with Zoho applications and third-party services\n\nThe AI agent sends a user request.\n\n```\nCreate a lead with an email as emma@zylker.com\n```\n\nAgents fetch the relevant content.\n\n```\n{\n```\n\n```\n    \"Module\": \"Leads\",\n```\n\n```\n    \"instructions\": \"Create a new lead with email\n```\n\n```\n    address emma@zylker.com. Please set the email\n```\n\n```\n    as the primary contact method.\"\n```\n\n```\n}\n```\n\nAgents call the right tool.\n\n```\n{\n```\n\n```\n    \"url\": \"https://www.zohoapis.com/crm/v2/Leads\",\n```\n\n```\n    \"body\": \"{\\\"data\\\":[{\\\"Email\\\":\\\"emma@zylker.com\\\",\\\n```\\\n\\\n```\\\n    \\\"Last_Name\\\":\\\"\\\",\\\"First_Name\\\":\\\"Emma\\\"}]}\",\n```\n\n```\n    \"method\": \"POST\",\n```\n\n```\n\n```\n\n```\n    \"instructions\": \"Create a new lead in Zoho CRM with email address emma@zylker.com. Use the standard layout and include the email as the primary contact method.\"\n```\n\n```\n}\n```",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:02.229588Z",
+      "section_path": "Apps weren’t built for AI agentsuntil now. > How it works > Step 3: MCP tool execution",
+      "chunk_index": 2,
+      "token_count": 395,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_7acfebf5689f",
+      "source_type": "mcp_registry",
+      "url": "https://www.zoho.com/mcp",
+      "domain": "www.zoho.com",
+      "page_title": "Zoho MCP | Zoho's Model Context Protocol to empower AI Agents",
+      "content": "Do I need technical or coding experience to use MCP?\n\nNot at all. Through its UI, you can configure MCP servers, define tools, and manage authentication with minimal code. It provides a low-code way to expose Zoho app functionality to AI agents.\n\nWhat models, such as GPT or Claude, are supported?\n\nZoho MCP is completely model-agnostic. It doesn't connect to or depend on any specific LLM. Instead, it exposes a standardized interface that any AI agent, powered by any LLM, can call through an MCP client.\n\nWhether you’re using GPT, Claude, a fine-tuned model, or an open-source LLM, as long as your agent speaks the MCP protocol, it can securely access tools, actions, and data across your Zoho apps.\n\nHow will this benefit my team or company?\n\nZoho MCP dramatically cuts time spent toggling between apps, performing manual tasks, or managing workflows. Agents streamline execution, so your team focuses on decisions, not distractions. It boosts productivity, speeds up response times, and minimizes errors. It provides the structured tools, APIs, and secure access needed for agents to turn interpreted intent into real actions - across CRM, Calendar, Books, and more.\n\nWhile the LLM interprets natural language, MCP is what lets the agent act on it - by exposing data, context, and business logic in a standardized, secure way. So instead of just responding to users, MCP-enabled agents can actually get work done\n\nWhat kinds of workflows can MCP automate?\n\nEverything from lead follow-ups and internal notifications to deal tracking and project updates. If it’s a routine task that lives across Zoho apps—or even third-party tools—MCP agents can handle it with context and precision.\n\nCommon workflows include:\n\n- Lead follow-ups and meeting scheduling\n- Sales proposals and contract approvals\n- Ticket escalations and support routing\n- Internal updates and stakeholder alerts, and more",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:02.229846Z",
+      "section_path": "Apps weren’t built for AI agentsuntil now. > FAQ > Business Impact",
+      "chunk_index": 5,
+      "token_count": 472,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_2c951396c721",
+      "source_type": "pricing_page",
+      "url": "https://www.zoho.com/en-in/enterprise",
+      "domain": "www.zoho.com",
+      "page_title": "Customizable enterprise software by Zoho",
+      "content": "- ![Blue Star](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/blue-star.png)\n- ![coromandel](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/coromandel.png)\n- ![Union Bank](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/union-bank.png)\n- ![chola](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/chola.svg)\n- ![johnson](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/johnson.png)\n- ![mercedes benz](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/mercedes-benz-secondary.svg)\n- ![bigbasket](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/bigbasket-primary.svg)\n\nCustomer Experience\n\nUnify CRM activities like sales, marketing, and support using a single platform for a coordinated, context-rich response to every lead and customer.\n\n- [![CRM](https://www.zohowebstatic.com/sites/zweb/images/productlogos/crmplus.svg)](https://www.zoho.com/crm/crmplus/?src=entin)\n- [![Desk](https://www.zohowebstatic.com/sites/zweb/images/productlogos/desk.png)](https://www.zoho.com/en-in/desk/?src=entin)\n\nEmployee Experience\n\nManage your entire employee lifecycle on a single, integrated HRMS platform that provides seamless digital experiences while prioritising employee satisfaction.\n\n- [![people](https://www.zohowebstatic.com/sites/zweb/images/productlogos/peopleplus.png)](https://www.zoho.com/peopleplus/?src=entin)\n- [![payroll](https://www.zohowebstatic.com/sites/zweb/images/productlogos/payroll.svg)](https://www.zoho.com/in/payroll/?src=entin)\n- [![expense](https://www.zohowebstatic.com/sites/zweb/images/productlogos/expense.svg)](https://www.zoho.com/in/expense/?src=entin)\n\nProductivity & Collaboration",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:01.059343Z",
+      "section_path": "Accelerate enterprise growth with customisable software solutions > Customisable solutions for enterprise management > Streamline HR operations across departments, business units, and locations",
+      "chunk_index": 1,
+      "token_count": 429,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_4da7ff8eb433",
+      "source_type": "pricing_page",
+      "url": "https://www.zoho.com/en-in/enterprise",
+      "domain": "www.zoho.com",
+      "page_title": "Customizable enterprise software by Zoho",
+      "content": "Whether you work in retail, manufacturing, financial services, IT, or any other sector, our CRM, AI, BI, and ERP tools will help you make the most of Zoho.\n\nBFSI\n\n\"This platform has automated approximately 90-95% of customer query processes, leading to a remarkable 30% increase in customer satisfaction and a 25% boost in retention rates.\"\n\nManimekhalai AManaging Director & CEO, Union Bank of India\n\n[LEARN MORE](https://www.zoho.com/news/union-bank-of-india-and-zoho-mark-digital-transformation-success.html)\n\nMANUFACTURING\n\n\"Today, 100 percent of our pre-sales across all businesses and divisions and locations run on Zoho CRM. We have also created a Dealer Enquiry (DEQ) system that centralised deal onboarding operations, automated workflows, and helped us reduce both customer response times and manual user errors by over 40 percent.\"\n\nUdit PahwaChief Information Officer, Blue Star Limited\n\nFMCG AND RETAIL\n\n\"In the past six months, we've saved nearly INR 3 crore with Zoho Creator, cutting task completion time by 50% and boosting productivity and performance by 1.5x.\"\n\nVinayaka GangavatiHead of Procurement, BigBasket\n\n[LEARN MORE](https://www.zoho.com/creator/case-studies/bigbasket-retail-capex-procurement.html)\n\nIT SERVICES",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:01.059454Z",
+      "section_path": "Accelerate enterprise growth with customisable software solutions > Bespoke solutions across industries > Tata's BigBasket automates CapEx procurement with ERP built on Zoho Creator",
+      "chunk_index": 4,
+      "token_count": 309,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_f47e5a762ff7",
+      "source_type": "mcp_registry",
+      "url": "https://www.zoho.com/mcp",
+      "domain": "www.zoho.com",
+      "page_title": "Zoho MCP | Zoho's Model Context Protocol to empower AI Agents",
+      "content": "The tools return a success/failure response.\n\n```\n{\n```\n\n```\n    \"data\":\n```\n\n```\n        {\n```\n\n```\n        \"status_code\":\"Success\",\n```\n\n```\n        \"message\":\"Lead Created Successfully\",\n```\n\n```\n        \"lead_id\":\"10000000000022\"\n```\n\n```\n        }\n```\n\n```\n}\n```\n\nPrevious\n\n\"Zoho MCP bridged the gap between data sitting in Zoho and decisions that need to happen fast. I connected Books, CRM, and Creator to Claude AI for my CA practice and client engagements. Clients now ask questions in plain English and get real-time answers from their own data. Month-end closures, lead follow-ups, invoice tracking, all reduced from hours to minutes. A game changer for any Zoho partner.\"\n\n![CA Bhavik Bhanushali](https://www.zohowebstatic.com/sites/zweb/images/mcp/bhavik-bhanushali-customer-img.png)\n\nCA Bhavik Bhanushali\n\nFounder & CEO Bhanushali & Bhanushali\n\n\"Zoho MCP, along with Zoho Books, has transformed the way we handle our accounting workflows. By integrating it with tools like Claude and OpenClaw, we’re able to manage bills, invoices, and routine bookkeeping through simple AI-driven instructions. What once took hours of manual effort is now completed in a fraction of the time, with far less operational overhead. Zoho MCP has fundamentally changed how we approach day-to-day operations.\"\n\n![Tushar Khattar](https://www.zohowebstatic.com/sites/zweb/images/mcp/tushar-khattar-customer-img.png)\n\nTushar Khattar\n\nCo-Founder Once Upon Me\n\n\"We’ve been using Zoho MCP across multiple Zoho Bigin CRM and Zoho Books instances, and the impact has been significant. Across different brand environments, we now run sales reviews, extract financial insights, and analyze dealer performance, all through simple, natural conversations. At AllHome, this has completely transformed how we interact with our Zoho data — shifting from static dashboards to real-time AI-driven insights.\"\n\n![AllHome.in logo](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/allhome-white.png)\n\nHardik Dedhia\n\nCo-founder & CTO AllHome.in\n\n\"The moment I started using Zoho MCP, my first thought was \"why didn’t this exist sooner?\" It transformed time-consuming tasks like reporting, data entry, and follow-ups into simple, natural conversations. As a partner, it has completely redefined what we can deliver. One of our clients reduced weekly reporting from two days to just minutes, while another now accesses real-time CRM insights in the middle of client calls. This isn’t just an upgrade, it’s a genuine game-changer.\"\n\n![Adithya R](https://www.zohowebstatic.com/sites/zweb/images/mcp/adithya-customer-img.jpg)\n\nAdithya R\n\nCTO & Co-Founder the desk\n\n\"Zoho’s MCP has been a real game changer for our client implementations. As an early adopter, I’ve seen how smoothly it connects workflows, reduces manual effort, and speeds up delivery. For our clients, it is saving close to 40 minutes every day, creating measurable efficiency and a much better user experience.\"\n\n![Oluwasegun O.O - (Oluwatoyin)](https://www.zohowebstatic.com/sites/zweb/images/mcp/oluwasegun-customer-img.png)\n\nOluwasegun O.O - (Oluwatoyin)\n\nChief EvangelistIDEAIOUS Limited\n\nNext",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:02.229697Z",
+      "section_path": "Apps weren’t built for AI agentsuntil now. > What our users say",
+      "chunk_index": 3,
+      "token_count": 786,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_3faedd25c927",
+      "source_type": "official_docs",
+      "url": "https://zoho.com/cliq",
+      "domain": "zoho.com",
+      "page_title": "Team chat & communication software for businesses - Zoho Cliq",
+      "content": "Work how you want from wherever you want. Zoho Cliq streamlines your business communication and fuels effortless conversations within teams and external stakeholders through organization, automation, and AI.\n\n[Try for free](https://www.zoho.com/cliq/signup.html)\n\n![ISG](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/isg.svg)\n\nAnchor Point UCaas Solution\n\nISG Research 2023: Must have for Modern Communication Collaboration Needs\n\n![G2](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/g2.svg)\n\nLeader\n\nG2 Spring Reports: Grid and Momentum Leader in Business Instant Messaging\n\nName \\*\n\nCompany Name \\*\n\nEmail \\*\n\nPassword \\*",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:01.101492Z",
+      "section_path": "Business communication software for teams > Start your 15-day free trial",
+      "chunk_index": 0,
+      "token_count": 164,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_6b0e8761c1de",
+      "source_type": "official_docs",
+      "url": "https://zoho.com/cliq",
+      "domain": "zoho.com",
+      "page_title": "Team chat & communication software for businesses - Zoho Cliq",
+      "content": "+1\n\nPhone number (Optional)\n\n![Captcha](https://accounts.zoho.com/accounts/images/spacer.gif)\n\nCountry/RegionAfghanistanAlbaniaAlgeriaAmerican SamoaAndorraAngolaAnguillaAntigua and BarbudaArgentinaArmeniaArubaAustraliaAustriaAzerbaijanBahamasBahrainBangladeshBarbadosBelarusBelgiumBelizeBeninBermudaBhutanBoliviaBosnia and HerzegovinaBotswanaBrazilBritish Virgin IslandsBruneiBulgariaBurkina FasoBurundiCambodiaCameroonCanadaCape VerdeCayman IslandsCentral African RepublicChadChileChinaColombiaComorosCongoCook IslandsCosta RicaCroatiaCubaCyprusCzech RepublicCôte d'IvoireDenmarkDjiboutiDominicaDominican RepublicEcuadorEgyptEl SalvadorEquatorial GuineaEritreaEstoniaEthiopiaFalkland IslandsFaroe IslandsFijiFinlandFranceFrench GuianaFrench PolynesiaGabonGambiaGeorgiaGermanyGhanaGibraltarGreeceGreenlandGrenadaGuadeloupeGuamGuatemalaGuineaGuinea-BissauGuyanaHaitiHondurasHong KongHungaryIcelandIndiaIndonesiaIranIraqIrelandIsraelItalyJamaicaJapanJordanKazakhstanKenyaKiribatiKosovoKuwaitKyrgyzstanLaosLatviaLebanonLesothoLiberiaLibyaLiechtensteinLithuaniaLuxembourgMacaoMacedoniaMadagascarMalawiMalaysiaMaldivesMaliMaltaMarshall IslandsMartiniqueMauritaniaMauritiusMexicoMicronesiaMoldovaMonacoMongoliaMontenegroMontserratMoroccoMozambiqueMyanmarNamibiaNauruNepalNetherlandsNetherlands AntillesNew CaledoniaNew ZealandNicaraguaNigerNigeriaNiueNorth KoreaNorthern Mariana IslandsNorwayOmanPakistanPalauPalestinePanamaPapua New GuineaParaguayPeruPhilippinesPolandPortugalPuerto RicoQatarReunionRomaniaRussiaRwandaSaint HelenaSaint Kitts And NevisSaint LuciaSaint Pierre And MiquelonSaint Vincent And The GrenadinesSamoaSan MarinoSao Tome And PrincipeSaudi ArabiaSenegalSerbiaSeychellesSierra LeoneSingaporeSlovakiaSloveniaSolomon IslandsSomaliaSouth AfricaSouth KoreaSpainSri LankaSudanSurinameSwazilandSwedenSwitzerlandSyriaTaiwanTajikistanTanzaniaThailandThe Democratic Republic Of CongoTimor-LesteTogoTokelauTongaTrinidad and TobagoTunisiaTurkeyTurkmenistanTurks And Caicos IslandsTuvaluU.S. Virgin IslandsUgandaUkraineUnited Arab EmiratesUnited KingdomUnited StatesUruguayUzbekistanVanuatuVaticanVenezuelaVietnamWallis And FutunaYemenZambiaZimbabweÅland Islands\n\nAlabamaAlaskaAmerican SamoaArizonaArkansasCaliforniaColoradoConnecticutDelawareFloridaGeorgiaGuamHawaiiIdahoIllinoisIndianaIowaKansasKentuckyLouisianaMaineMarylandMassachusettsMichiganMinnesotaMississippiMissouriMontanaNebraskaNevadaNew HampshireNew JerseyNew MexicoNew YorkNorth CarolinaNorth DakotaNorthern Mariana IslandsOhioOklahomaOregonPennsylvaniaPuerto RicoRhode IslandSouth CarolinaSouth DakotaTennesseeTexasU.S. Virgin IslandsUtahVermontVirginiaWashingtonWashington, D.CWest VirginiaWisconsinWyoming\n\nYour data will be stored in the US data center.\n\nYes, I would like to receive marketing communication regarding [Zoho’s](https://www.zohocorp.com/) products, services, and events from Zoho and its regional partners.\n\nI agree to the [Terms of Service](https://www.zoho.com/cliq/terms.html) and [Privacy Policy](https://www.zoho.com/privacy.html).\n\nor sign in using GoogleLinkedinOffice365\n\nVerify your sign-up\n\nEnter the one-time password sent to your email address.\n\nChange\nResend OTP",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:01.101733Z",
+      "section_path": "Business communication software for teams > Start your 15-day free trial",
+      "chunk_index": 2,
+      "token_count": 790,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_c77a8995f41f",
+      "source_type": "official_docs",
+      "url": "https://zoho.com/cliq",
+      "domain": "zoho.com",
+      "page_title": "Team chat & communication software for businesses - Zoho Cliq",
+      "content": "- ![FinancesOnline](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/finances-online.svg)\n4.4 / 5\n\nNo matter the industry, communication is key. Zoho Cliq is designed to accommodate all kinds of teams and businesses.\n\nWith Cliq’s enterprise-grade security and admin controls, members of your organization can communicate securely.\n\n[Learn more](https://www.zoho.com/cliq/enterprise-chat-software.html \"Learn more\")\n\nConnect with employees across time zones with online collaboration tools.\n\n[Learn more](https://www.zoho.com/cliq/announcing-zoho-cliq-3.0-collaboration-platform-for-hybrid-work.html \"Learn more\")\n\nBuild and deploy software with Zoho Cliq’s built-in developer tools. Share code snippets, identify bugs, review progress, and iterate, all from the Cliq platform.\n\n[Learn more](https://www.zoho.com/cliq/teams/software.html \"Learn more\")\n\nConduct trainings, courses, and webinars with virtual meetings, screen sharing, whiteboard collaboration, channels, and file sharing.\n\n[Learn more](https://www.zoho.com/cliq/education.html \"Learn more\")\n\nZoho Cliq is easy to set up. Kick-start your internal communication in a few clicks.\n\nCreate a new account by filling in your organization’s details.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:01.102114Z",
+      "section_path": "Business communication software for teams > Getting started with team communication is simple > 1\\. Sign up",
+      "chunk_index": 8,
+      "token_count": 305,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_c367219fef9f",
+      "source_type": "official_docs",
+      "url": "https://zoho.com/cliq",
+      "domain": "zoho.com",
+      "page_title": "Team chat & communication software for businesses - Zoho Cliq",
+      "content": "Migrating from your existing solution to Cliq is a breeze. Our [help guides](https://help.zoho.com/portal/en/kb/zoho-cliq/cliq-user-guide/migrate-to-cliq/articles/cliq#Zoho_Cliq_the_one-stop_place_for_all_internal_communications_with_power_packed_features_and_a_robust_platformnow_has_the_migration_wizardto_help_you_bringin_your_teams_to_Cliq_from_Slack_or_Hipchat_Cliqs_easy_to_use_interface_is_the_ideal_place_to_get_connected_with_your_team_as_well_as_across_teams_and_departments_in_your_company) show you how to import your data so you can pick up right where you left off.\n\nLooking for help or a product demo? [Get in touch](https://www.zoho.com/cliq/contact-demo.html) and we’ll be happy to assist you.\n\n[Sign up for free](https://www.zoho.com/cliq/signup.html)\n\n- [Request Demo](https://www.zoho.com/cliq/contact-demo.html)\n- [Compare Plans](https://www.zoho.com/cliq/plan-comparison.html)\n- [Try now for free](https://www.zoho.com/cliq/signup.html?planname=free&source=Pricing)\n- [Join our product webinars](https://www.zoho.com/cliq/webinars.html)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:01.102252Z",
+      "section_path": "Business communication software for teams > Try Zoho Cliq for your business > Next Steps",
+      "chunk_index": 10,
+      "token_count": 264,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_cf62397c9d51",
+      "source_type": "developer_portal",
+      "url": "https://www.zoho.com/workdrive/?src=zdocs",
+      "domain": "www.zoho.com",
+      "page_title": "Zoho WorkDrive | Online file management for teams",
+      "content": "[SIGN UP FOR FREE](https://www.zoho.com/workdrive/signup.html) [Request Demo](https://www.zoho.com/workdrive/book-a-demo.html)\n\nWatch video [Get WorkDrive for Individuals](https://www.zoho.com/workdrive/individual-plan.html)\n\n[**Workflows**\\\\\n\\\\\n![Workflows automation](https://www.zohowebstatic.com/sites/zweb/images/workdrive/home/workflow-home.png)](https://www.zoho.com/workdrive/workflow.html?src=dd) [**Data Loss Prevention**\\\\\n\\\\\n![Data Loss Prevention](https://www.zohowebstatic.com/sites/zweb/images/workdrive/home/desktop-home.png)](https://www.zoho.com/workdrive/data-loss-prevention.html?src=dd) [**Desktop App**\\\\\n\\\\\n![Desktop App](https://www.zohowebstatic.com/sites/zweb/images/workdrive/home/feature-truesync.jpg)](https://www.zoho.com/workdrive/truesync.html?src=dd) [**Introducing WorkDrive 6.0 (Phase 1)** Advancing toward intelligent enterprise content management.](https://www.zoho.com/blog/workdrive/6.0-intelligent-enterprise-content-management.html)\n\nacross the world store, collaborate, and organize their teams’ work with Zoho WorkDrive\n\n- ![Tomedes logo](https://www.zoho.com/sites/zweb/images/otherbrandlogos/tomedes.svg)\n- ![IIFL logo](https://www.zoho.com/sites/zweb/images/otherbrandlogos/iifl.svg)\n- ![Star Health logo](https://www.zoho.com/sites/zweb/images/otherbrandlogos/star-health-insurance.png)\n- ![Purolite logo](https://www.zoho.com/sites/zweb/images/otherbrandlogos/purolite.svg)\n- ![cortem group logo](https://www.zoho.com/sites/zweb/images/otherbrandlogos/cortem-group.png)\n- ![Barings-law logo](https://www.zoho.com/sites/zweb/images/otherbrandlogos/barings-law.svg)\n- ![Rhopoint instruments logo](https://www.zoho.com/sites/zweb/images/otherbrandlogos/rhopoint-instruments.png)\n- ![mchemist logo](https://www.zoho.com/sites/zweb/images/otherbrandlogos/mchemist.png)\n\n[see more customers](https://www.zoho.com/workdrive/customers/)\n\n![Gartner Award](https://www.zohowebstatic.com/sites/zweb/images/workdrive/home/gart-award.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:01.282831Z",
+      "section_path": "_Intelligent content management_ platform for secure, collaborative work > Over 750K businesses",
+      "chunk_index": 0,
+      "token_count": 493,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_31f71dd69d6d",
+      "source_type": "developer_portal",
+      "url": "https://www.zoho.com/workdrive/?src=zdocs",
+      "domain": "www.zoho.com",
+      "page_title": "Zoho WorkDrive | Online file management for teams",
+      "content": "You've seen the chaos. Now see how Zoho WorkDrive brings order to everyday work with one platform to organize files, find information faster, and collaborate securely.\n\n[EXPLORE MORE](https://www.zoho.com/workdrive/lp/stop-the-circus.html)\n\nCentralize your files, collaborate in real time, and automate workflows—all in one secure, AI-powered platform.\n\n- Industry\n- Function\n- Size\n\nIndustry\n\nFrom providing a collaborative workspace to securing corporate content, Zoho WorkDrive caters to a wide range of business needs across industries.\n\n![Industry](https://www.zohowebstatic.com/sites/zweb/images/workdrive/home/solutions-industry.jpg)\n\n\"WorkDrive is a big data solution because, by focusing on teams, it gives a greater push to meet the organizational and corporate objectives. I recommend it more than Google Drive, by far.\"\n\n![Esteban Rojas,SeguroInteligente](https://www.zohowebstatic.com/sites/zweb/images/workdrive/zoho-workdrive-customers-esteban-rojas.png)\n\nEsteban Rojas\n\nSeguroInteligente.mx\n\n[See more customers](https://www.zoho.com/workdrive/customers/)\n\nFunction\n\nWhether legal, financial, or something else entirely, Zoho WorkDrive helps companies perform business functions by breaking down content silos and bringing everyone's work under one roof.\n\n![Whether legal, financial, or something else entirely, Zoho WorkDrive helps companies perform business functions by breaking down content silos and bringing everyone's work under one roof.](https://www.zohowebstatic.com/sites/zweb/images/workdrive/home/solutions-function.jpg)\n\n\"Beautiful file system, exhaustive APIs, and \\[a system\\] that is absolutely safe and secure.\"\n\n![Beautiful file system, exhaustive APIs, and [a system] that is absolutely safe and secure.](https://www.zohowebstatic.com/sites/zweb/images/workdrive/customers/easytocheck-customer.jpg)\n\nAmit Kumar\n\nFounder, EasytoCheck\n\n[See more customers](https://www.zoho.com/workdrive/customers/)\n\nSize\n\nNo matter the size or goals of your business, Zoho WorkDrive can help your team work together better and stay productive.\n\n![No matter the size or goals of your business, Zoho WorkDrive can help your team work together better and stay productive.](https://www.zohowebstatic.com/sites/zweb/images/workdrive/home/solutions-size.jpg)\n\n\"We were looking for a centralized file repository with enterprise-grade security, which Zoho WorkDrive has \\[provided\\].\"\n\n![Vishal P. Shirke,Ex-Vice President - CRM Product Head at IIFL](https://www.zohowebstatic.com/sites/zweb/images/workdrive/customers/iifl-customer.jpg)\n\nVishal P. Shirke\n\nEx-Vice President, CRM Product Head at IIFL\n\n[See more customers](https://www.zoho.com/workdrive/customers/)\n\n★★★★★4.6 / 5\n\n★★★★★4.3 / 5\n\n★★★★★4.5 / 5\n\n★★★★★4.6 / 5\n\n★★★★★4.4 / 5\n\n★★★★★9.2 / 10\n\nPricing",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:01.282973Z",
+      "section_path": "Zoho recognized in Gartner® Magic Quadrant™ for Document Management 2026 > Stop the circus.",
+      "chunk_index": 2,
+      "token_count": 692,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_a5d27cf77b2a",
+      "source_type": "developer_portal",
+      "url": "https://www.zoho.com/workdrive/?src=zdocs",
+      "domain": "www.zoho.com",
+      "page_title": "Zoho WorkDrive | Online file management for teams",
+      "content": "- Pay monthly\n- Pay yearly (Save 18%)\n\nSTARTER\n\n£2 _.50_£2.5£2£2\n\n/user/month billed annuallyStarting with 3 users [Get Started](https://www.zoho.com/workdrive/signup.html?src=team&plan=starter)\n\n- Storage starts at 1 TB/Team Get 1 TB of team storage for up to 10 users.\n- After 10 users, get additional shared storage of 100 GB/new user Up to 20 TB/Team\n- 10 GB upload limit per file\n\nTEAM\n\n£5£5£4£4\n\n/user/month billed annuallyStarting with 3 users [Get Started](https://www.zoho.com/workdrive/signup.html?src=team&plan=team)\n\n- Storage starts at 3 TB/Team Get 3 TB of team storage for up to 10 users.\n- After 10 users, get additional shared storage of 300 GB/new user Up to 60 TB/Team\n- 50 GB upload limit per file\n\nBUSINESS\n\n£9£9£7£7\n\n/user/month billed annuallyStarting with 3 users [Get Started](https://www.zoho.com/workdrive/signup.html?src=team&plan=business)\n\n- Storage starts at 5 TB/team Get 5 TB of team storage for up to 10 users.\n- After 10 users, get additional shared storage of 500 GB/new user Up to 100 TB/Team\n- 250 GB upload limit per file\n\nBest Deal\n\nFREE - 5GB Secure cloud storage for individual use [Get Started](https://www.zoho.com/workdrive/signup.html?src=individual)\n\nEnterprise (more than 200 users)Get a custom quoteCONTACT SALES\n\nLocal taxes (VAT, GST, etc.) will be charged in addition to the prices mentioned.\n\n[View more](https://www.zoho.com/workdrive/pricing.html)\n\n[**Ensure data compliance** \\\\\nWorkDrive is GDPR and HIPAA-compliant and meets industry-specific compliance standards](https://www.zoho.com/workdrive/security.html)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:01.283023Z",
+      "section_path": "Zoho recognized in Gartner® Magic Quadrant™ for Document Management 2026 > Pricing that scales with your business",
+      "chunk_index": 3,
+      "token_count": 392,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_d08f34c61b23",
+      "source_type": "developer_portal",
+      "url": "https://www.zoho.com/workdrive/?src=zdocs",
+      "domain": "www.zoho.com",
+      "page_title": "Zoho WorkDrive | Online file management for teams",
+      "content": "From real-time collaboration to AI-driven insights, this intelligent office suite brings your entire workflow under one roof.\n\n[**Writer** \\\\\nA clean, intelligent word processor that helps you write, refine, and automate—effortlessly.](https://www.zoho.com/writer/) [**Sheet** \\\\\nA sleek spreadsheet app built for collaborative number crunching and data organization—supercharged with AI and smart summarization.](https://www.zoho.com/sheet/) [**Show** \\\\\nA modern presentation tool that lets you craft stunning slides with elegant animations and interactive elements to captivate any audience.](https://www.zoho.com/show/)\n\n- [File Annotations](https://www.zoho.com/workdrive/file-annotations.html?src=dd)\n- [Data Templates](https://www.zoho.com/workdrive/data-templates.html?src=dd)\n- [Collect Files](https://www.zoho.com/workdrive/collect-files.html?src=dd)\n- [Admin Console](https://www.zoho.com/workdrive/admin-dashboard.html?src=dd)\n- [Security](https://www.zoho.com/workdrive/security.html?src=dd)\n- [Desktop App](https://www.zoho.com/workdrive/truesync.html?src=dd)\n- [Mobile Apps](https://www.zoho.com/workdrive/mobile-apps.html?src=dd)\n- [WorkDrive Genie](https://www.zoho.com/workdrive/genie.html?src=dd)\n- [GDPR Compliance](https://www.zoho.com/workdrive/gdpr.html?src=dd)\n- [HIPAA Compliance](https://www.zoho.com/workdrive/hipaa.html?src=dd)\n- [Work Flows](https://www.zoho.com/workdrive/workflow.html?src=dd)\n- [Data Loss Prevention](https://www.zoho.com/workdrive/data-loss-prevention.html?src=dd)\n- [Zia Hubs Beta](https://www.zoho.com/workdrive/zia-hubs.html?src=dd)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:01.283085Z",
+      "section_path": "Zoho recognized in Gartner® Magic Quadrant™ for Document Management 2026 > Pricing that scales with your business > Zoho Office Suite",
+      "chunk_index": 4,
+      "token_count": 396,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_f348f27c6f33",
+      "source_type": "developer_portal",
+      "url": "https://www.zoho.com/workdrive/?src=zdocs",
+      "domain": "www.zoho.com",
+      "page_title": "Zoho WorkDrive | Online file management for teams",
+      "content": "[SIGN UP FOR FREE](https://www.zoho.com/workdrive/signup.html)\n\nSee how Zoho WorkDrive helps teams store, share, and collaborate securely — all in one place.\n\n[Request Demo](https://www.zoho.com/workdrive/book-a-demo.html) [15-Day Free Trial](https://www.zoho.com/workdrive/signup.html)\n\n![See how Zoho WorkDrive helps teams store, share, and collaborate securely — all in one place.](https://www.zohowebstatic.com/sites/zweb/images/workdrive/home/popup-banner-s.png)\n\n- [Get started](https://www.zoho.com/workdrive/signup.html)\n- [Schedule a demo](https://www.zoho.com/workdrive/contact.html)\n- [Join a live webinar](https://www.zoho.com/workdrive/monthly-webinars.html)\n- [Compare plans](https://www.zoho.com/workdrive/plan-comparison.html)\n\nAt Zoho, we do not use third-party software to track\nwebsite visitors. We take\nyour privacy seriously and use our own tools hosted in our data centres. Your data is yours, and we\nnever monetize it for advertisement purposes. You can learn more about our cookie policy [here](https://www.zoho.com/privacy/cookie-policy.html?src=cp-banner) and\nchange your preferences at any time.\n\nManage\nCookies\n\nAccept All Cookies\n\nReject Unnecessary\nCookies\n\nclose\n\n![Cookie policy - Zoho](https://www.zoho.com/sites/zweb/images/zoho_general_pages/cookie-widget.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:01.283200Z",
+      "section_path": "Zoho recognized in Gartner® Magic Quadrant™ for Document Management 2026 > Work Smarter. Together. > Next Steps",
+      "chunk_index": 6,
+      "token_count": 323,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_0011c188c608",
+      "source_type": "mcp_registry",
+      "url": "https://www.zoho.com/mcp",
+      "domain": "www.zoho.com",
+      "page_title": "Zoho MCP | Zoho's Model Context Protocol to empower AI Agents",
+      "content": "Here are some sample prompts for you to try in the playground.\n\n- Sales\n- Marketing\n- Support\n- Finance\n\nPrompt: “Mark the Zylker deal as won and schedule a call with John for an onboarding meeting”\n\nAuto-update deals, trigger follow-ups, and log meetings.\n\nPrompt: “Schedule a campaign called ‘Summer Sale Blast’ for next Tuesday at 11 AM and target all leads from Bangalore.”\n\nGenerate campaign reports, launch workflows, optimize content\n\nPrompt: “Search the desk for any open tickets. Mark them as in progress and send a reply that we are working on it and will update by end of the day”\n\nEscalate tickets, summarize threads, and auto-assign queries\n\nPrompt: “Generate an invoice for Naveen Kumar from ABC Corp for ₹1200 on consulting services”\n\nGenerate invoices, track payments, log expenses, and create financial reports.\n\nat your fingertips across Asana, Twilio, Zoho, and beyond.\n\n- Zoho Apptics\n- ActiveCampaign\n- Notion\n- Zoho People\n- Microsoft To-Do\n- Basecamp\n- Zoho Mail\n- Outlook\n- awork\n- Zoho Expense\n- Freshsales\n- OneDrive\n- Zoho Desk\n- Backlog\n- Basin\n- Zoho Billing\n- Zoho Apptics\n- ActiveCampaign\n- Notion\n- Zoho People\n- Microsoft To-Do\n- Basecamp\n- Zoho Mail\n- Outlook\n- awork\n- Zoho Expense\n- Freshsales\n- OneDrive\n- Zoho Desk\n- Backlog\n- Basin\n- Zoho Billing\n\n- Demio\n- Mailchimp\n- Zoho CRM\n- OnceHub\n- PagerDuty\n- Zoho Cliq\n- GitLab\n- Apify\n- Zoho Books\n- Zoho Survey\n- Arattai\n- Bigin\n- GitHub\n- Stripe\n- Zoho Creator\n- Twilio\n- Demio\n- Mailchimp\n- Zoho CRM\n- OnceHub\n- PagerDuty\n- Zoho Cliq\n- GitLab\n- Apify\n- Zoho Books\n- Zoho Survey\n- Arattai\n- Bigin\n- GitHub\n- Stripe\n- Zoho Creator\n- Twilio",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:02.229550Z",
+      "section_path": "Apps weren’t built for AI agentsuntil now. > 500+ integrations",
+      "chunk_index": 1,
+      "token_count": 406,
+      "quality_score": 0.44
+    },
+    {
+      "id": "ev_6e00f7a09351",
+      "source_type": "official_docs",
+      "url": "https://zoho.com/cliq",
+      "domain": "zoho.com",
+      "page_title": "Team chat & communication software for businesses - Zoho Cliq",
+      "content": "Afghanistan (+93)Albania (+355)Algeria (+213)American Samoa (+1)Andorra (+376)Angola (+244)Anguilla (+1)Antigua and Barbuda (+1)Argentina (+54)Armenia (+374)Aruba (+297)Australia (+61)Austria (+43)Azerbaijan (+994)Bahamas (+1)Bahrain (+973)Bangladesh (+880)Barbados (+1)Belarus (+375)Belgium (+32)Belize (+501)Benin (+229)Bermuda (+1)Bhutan (+975)Bolivia (+591)Bosnia and Herzegovina (+387)Botswana (+267)Brazil (+55)British Virgin Islands (+1)Brunei (+673)Bulgaria (+359)Burkina Faso (+226)Burundi (+257)Cambodia (+855)Cameroon (+237)Canada (+1)Cape Verde (+238)Cayman Islands (+1)Central African Republic (+236)Chad (+235)Chile (+56)China (+86)Colombia (+57)Comoros (+269)Congo (+242)Cook Islands (+682)Costa Rica (+506)Croatia (+385)Cuba (+53)Cyprus (+357)Czech Republic (+420)Côte d'Ivoire (+225)Denmark (+45)Djibouti (+253)Dominica (+1)Dominican Republic (+1)Ecuador (+593)Egypt (+20)El Salvador (+503)Equatorial Guinea (+240)Eritrea (+291)Estonia (+372)Ethiopia (+251)Falkland Islands (+500)Faroe Islands (+298)Fiji (+679)Finland (+358)France (+33)French Guiana (+594)French Polynesia (+689)Gabon (+241)Gambia (+220)Georgia (+995)Germany (+49)Ghana (+233)Gibraltar (+350)Greece (+30)Greenland (+299)Grenada (+1)Guadeloupe (+590)Guam (+1)Guatemala (+502)Guinea (+224)Guinea-Bissau (+245)Guyana (+592)Haiti (+509)Honduras (+504)Hong Kong (+852)Hungary (+36)Iceland (+354)India (+91)Indonesia (+62)Iran (+98)Iraq (+964)Ireland (+353)Israel (+972)Italy (+39)Jamaica (+1)Japan (+81)Jordan (+962)Kazakhstan (+7)Kenya (+254)Kiribati (+686)Kosovo (+383)Kuwait (+965)Kyrgyzstan (+996)Laos (+856)Latvia (+371)Lebanon (+961)Lesotho (+266)Liberia (+231)Libya (+218)Liechtenstein (+423)Lithuania (+370)Luxembourg (+352)Macao (+853)Macedonia (+389)Madagascar (+261)Malawi (+265)Malaysia (+60)Maldives (+960)Mali (+223)Malta (+356)Marshall Islands (+692)Martinique (+596)Mauritania (+222)Mauritius (+230)Mexico (+52)Micronesia (+691)Moldova (+373)Monaco (+377)Mongolia (+976)Montenegro (+382)Montserrat (+1)Morocco (+212)Mozambique (+258)Myanmar (+95)Namibia (+264)Nauru (+674)Nepal (+977)Netherlands (+31)Netherlands Antilles (+599)New Caledonia (+687)New Zealand (+64)Nicaragua (+505)Niger (+227)Nigeria (+234)Niue (+683)North Korea (+850)Northern Mariana Islands (+1)Norway (+47)Oman (+968)Pakistan (+92)Palau (+680)Palestine (+970)Panama (+507)Papua New Guinea (+675)Paraguay (+595)Peru (+51)Philippines (+63)Poland (+48)Portugal (+351)Puerto Rico (+1)Qatar (+974)Reunion (+262)Romania (+40)Russia (+7)Rwanda (+250)Saint Helena (+290)Saint Kitts And Nevis (+1)Saint Lucia (+1)Saint Pierre And Miquelon (+508)Saint Vincent And The Grenadines (+1)Samoa (+685)San Marino (+378)Sao Tome And Principe (+239)Saudi Arabia (+966)Senegal (+221)Serbia (+381)Seychelles (+248)Sierra Leone (+232)Singapore (+65)Slovakia (+421)Slovenia (+386)Solomon Islands (+677)Somalia (+252)South Africa (+27)South Korea (+82)Spain (+34)Sri Lanka (+94)Sudan (+249)Suriname (+597)Swaziland (+268)Sweden (+46)Switzerland (+41)Syria (+963)Taiwan (+886)Tajikistan (+992)Tanzania (+255)Thailand (+66)The Democratic Republic Of Congo (+243)Timor-Leste (+670)Togo (+228)Tokelau (+690)Tonga (+676)Trinidad and Tobago (+1)Tunisia (+216)Turkey (+90)Turkmenistan (+993)Turks And Caicos Islands (+1)Tuvalu (+688)U.S. Virgin Islands (+1)Uganda (+256)Ukraine (+380)United Arab Emirates (+971)United Kingdom (+44)United States (+1)Uruguay (+598)Uzbekistan (+998)Vanuatu (+678)Vatican (+379)Venezuela (+58)Vietnam (+84)Wallis And Futuna (+681)Yemen (+967)Zambia (+260)Zimbabwe (+263)Åland Islands (+358)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:01.101611Z",
+      "section_path": "Business communication software for teams > Start your 15-day free trial",
+      "chunk_index": 1,
+      "token_count": 889,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_96ed57e01ba6",
+      "source_type": "official_docs",
+      "url": "https://zoho.com/cliq",
+      "domain": "zoho.com",
+      "page_title": "Team chat & communication software for businesses - Zoho Cliq",
+      "content": "![Team communication software](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/streamline-communication.png)\n\n![Team communication software](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/streamline-communication1.png)\n\n![](https://www.zoho.com/sites/zweb/images/cliq/home/popup-message1.svg)![](https://www.zoho.com/sites/zweb/images/cliq/home/popup-message2.svg)![](https://www.zoho.com/sites/zweb/images/cliq/home/popup-message3.svg)\n\nBrands using Zoho Cliq\n\n- ![credit access](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/credit-access.png)\n- ![iifl](https://www.zohowebstatic.com/sites/zweb/images/othercompanylogos/iifl.png)\n- ![health and glow](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/health-glow.png)\n- ![skilledge](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/skilledge.png)\n- ![vitalaxis](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/vitalaxis.jpg)\n- ![ECE contact centers](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/ece-contact-centers.png)\n\n![Experience productive collaboration with teams in your organization through various modules like chats, channels, file management, tasks and calendar in Zoho Cliq.](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/dashboard-mobile.svg)\n\n![Experience productive collaboration with teams in your organization through various modules like chats, channels, file management, tasks and calendar in Zoho Cliq.](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/screen-bg.svg)\n\nRemotechatschannelhistoryfilescalendarnotesprojectsorg\n\n![Zoho Cliq remote work](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/screen-remote-work.svg)![Zoho Cliq chat history](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/screen-history.svg)![Zoho Cliq channel](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/screen-channels.svg)![Zoho Cliq chats](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/screen-chat.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:01.101792Z",
+      "section_path": "Business communication software for teams > Your central hub for uninterrupted team collaboration",
+      "chunk_index": 3,
+      "token_count": 498,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_0745fb1d9f46",
+      "source_type": "official_docs",
+      "url": "https://zoho.com/cliq",
+      "domain": "zoho.com",
+      "page_title": "Team chat & communication software for businesses - Zoho Cliq",
+      "content": "Break down silos in your organization and connect with colleagues effortlessly. Be it internal communication or external communication with vendors and agencies, keep conversations flowing through chats, channels, and online meetings in Zoho Cliq.\n\n![Zoho Cliq dashboard](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/dashboard-outer.svg)![Menu](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/side-menu.jpg)![Video](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/connect-video.png)![Chat](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/connect-chat.svg)\n\nFind the best time to start discussions. Communicate instantly and arrive at conclusions with synchronous communication tools like calls, or schedule your conversations and work with teammates across time zones using asynchronous voice and video messages.\n\n![Zoho Cliq dashboard](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/dashboard-outer.svg)![Audio Video message](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/audio-video-message.svg)![Conversation](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/communicate-conversation.svg)![](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/communicate-schedule.svg)![Communicate](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/communicate-call.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:01.101836Z",
+      "section_path": "Business communication software for teams > Your central hub for uninterrupted team collaboration > Communicate with ease",
+      "chunk_index": 4,
+      "token_count": 336,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_f113aa9fb255",
+      "source_type": "official_docs",
+      "url": "https://zoho.com/cliq",
+      "domain": "zoho.com",
+      "page_title": "Team chat & communication software for businesses - Zoho Cliq",
+      "content": "Keep your team on track and save time with better planning. Unlock the full potential of online meetings with a collaborative whiteboard and screen sharing. Manage your day-to-day tasks and stay on top of your schedule with the built-in calendar. Plus, meet all your deadlines with contextual reminders.\n\n![Zoho Cliq dashboard](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/dashboard-outer.svg)![Calendar](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/collaborate-calendar.svg)![Whiteboard](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/collaborate-whiteboard.svg)\n\nMaintain a centralized hub for your teams. With Zoho Cliq, you can give your employees access to people, data, and actions in the same space, while also displaying information from your key external apps through integrations.\n\n![Zoho Cliq dashboard](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/dashboard-outer.svg)![Peopleconversatio](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/conversation-people.svg)![Conversation tickets](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/conversation-tickets.svg)![Chat bot](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/conversation-chat-bot.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:01.101897Z",
+      "section_path": "Business communication software for teams > Your central hub for uninterrupted team collaboration > Centralize conversations and information",
+      "chunk_index": 5,
+      "token_count": 309,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_48cade241115",
+      "source_type": "official_docs",
+      "url": "https://zoho.com/cliq",
+      "domain": "zoho.com",
+      "page_title": "Team chat & communication software for businesses - Zoho Cliq",
+      "content": "Make Zoho Cliq your own. With Cliq's admin panel, explore the range of customizations available for your business by setting up your own domain, brand assets, and themes. Have the app work the way you want with easy-to-build components in Cliq’s developer platform.\n\n![Zoho Cliq dashboard](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/dashboard-outer.svg)![Branding assests](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/customise-brand-assets.svg)![Custom domain](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/customise-custom-domain.svg)![Themes](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/customise-color.svg)\n\n- Connect\n- Communicate\n- Collaborate\n- Centralize\n- Customize",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:01.101948Z",
+      "section_path": "Business communication software for teams > Your central hub for uninterrupted team collaboration > Customize your overall experience",
+      "chunk_index": 6,
+      "token_count": 182,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_bca940acf32e",
+      "source_type": "official_docs",
+      "url": "https://zoho.com/cliq",
+      "domain": "zoho.com",
+      "page_title": "Team chat & communication software for businesses - Zoho Cliq",
+      "content": "- ### AI-powered conversations\n\nSummarize chats instantly and save time.\n\n- ### Seamless integrations\n\nConnect your favorite tools to stay productive.\n\n- ### Workflow automation\n\nAutomate repetitive tasks for better efficiency.\n\nAwards & Recognition\n\n- ![g2-leader-fall](https://www.zoho.com/sites/zweb/images/cliq/g2-leader-fall-2024.svg)\n- ![getapp-best-functionality-award](https://www.zoho.com/sites/zweb/images/otherbrandlogos/getapp-best-functionality-features-2025.svg)\n- ![constellation-shortlist](https://www.zoho.com/sites/zweb/images/otherbrandlogos/constellation-shortlist-top-solution.png)\n- ![capterra-best-ease-of-use](https://www.zoho.com/sites/zweb/images/otherbrandlogos/capterra-best-ease-of-use-2025.svg)\n- ![software-advice-front-runners](https://www.zoho.com/sites/zweb/images/otherbrandlogos/software-advice-front-runners-2025.png)\n- ![tech-cares](https://www.zoho.com/sites/zweb/images/cliq/tech-cares-2024.png)\n- ![sourceforge-top-performer-summer](https://www.zoho.com/sites/zweb/images/otherbrandlogos/sourceforge-top-performer-summer-2024.svg)\n- ![crozdesk-leader](https://www.zoho.com/sites/zweb/images/otherbrandlogos/crozdesk-leader-software-awards.png)\n- ![slash-dot](https://www.zoho.com/sites/zweb/images/otherbrandlogos/slashdot-fall-2024.svg)\n- ![slash-dot](https://www.zoho.com/sites/zweb/images/otherbrandlogos/2025-emotional-footprint-champion-infotech.png)\n\nWhy Businesses love Zoho Cliq\n\nZoho Cliq supports teams of all sizes, empowering almost 500,000 users globally\n\n![Cliq every minute of every hour of every ](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/trusted-quote.svg)\n\nWe use Cliq every minute of every hour of every day. Without Cliq, our communication would have been a lot more difficult. Cliq has been the biggest surprise. We never even thought about bringing a product like that into printIQ, but once we started using it, the email traffic internally dropped significantly and now everyone is chatting all the time across the world over Cliq.\n\nAdrian FlemingGlobal Director of Sales, printIQ\n\nZoho Cliq is not only a chat application, but also an information lifeline for the company. We can easily collaborate on multiple projects, attend meetings and screen-sharing sessions, and instantly exchange documents to bring out the best campaigns for our clients. It helps us feel that we are working together (physically) even when we are not.\n\nXavier TanCo-Founder, Heroes of Digital\n\n![One Business soplution](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/cliq-thumbnail.jpg)\"One Business Solutions\"\n\n- 1\n- 2\n- 3\n\n- ![SourceForge](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/sourceforge.svg)\n4.9 / 5\n\n- ![](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/appstore-icon.svg)\n4.7 / 5\n\n- ![GetApp](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/getapp.svg)\n4.6 / 5\n\n- ![Capterra](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/capterra.svg)\n4.6 / 5\n\n- ![Google Play](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/google-play.svg)\n4.4 / 5\n\n- ![](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/g2.svg)\n4.4 / 5",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:01.102050Z",
+      "section_path": "Business communication software for teams > Features that power your team's productivity",
+      "chunk_index": 7,
+      "token_count": 797,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_88d6c4bef2e1",
+      "source_type": "official_docs",
+      "url": "https://zoho.com/cliq",
+      "domain": "zoho.com",
+      "page_title": "Team chat & communication software for businesses - Zoho Cliq",
+      "content": "Navigate to Cliq’s admin panel to get your organization account ready.\n\nStart onboarding your employees as users and start collaborating!\n\n[Get personalized assistance](https://www.zoho.com/cliq/feature-request.html)\n\nCollaborate with your team even while you are away from your desktop with [Zoho Cliq for mobile and wearables.](https://www.zoho.com/cliq/mobile-apps.html \"Mobile apps\")\n\n![Cliq Devices](https://www.zohowebstatic.com/sites/zweb/images/cliq/home/devices-anim.svg)![Cliq Devices](https://www.zoho.com/sites/zweb/images/cliq/home/devices-support1.svg)![Cliq Devices](https://www.zoho.com/sites/zweb/images/cliq/home/devices-support2.svg)![Cliq Devices](https://www.zoho.com/sites/zweb/images/cliq/home/devices-support3.svg)\n\n[App store](https://itunes.apple.com/app/apple-store/id1056478397?pt=423641&ct=cliq_home_page&mt=8) [Playstore](https://play.google.com/store/apps/details?id=com.zoho.chat&referrer=utm_source%3Dcliq_home_page&utm_medium=appbadge&utm_campaign=cliqhomepage)\n\n[Windows](https://www.microsoft.com/store/apps/9MVPHLK2M32S) [Mac](https://itunes.apple.com/us/app/cliq/id1205882554?ls=1&mt=12) [Linux](https://www.zoho.com/cliq/desktop/linux.html)\n\n[Play store](https://play.google.com/store/apps/details?id=com.zoho.cliqtv)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:01.102191Z",
+      "section_path": "Business communication software for teams > Get Cliq for mobile > TV",
+      "chunk_index": 9,
+      "token_count": 314,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_705ee78569a0",
+      "source_type": "developer_portal",
+      "url": "https://www.zoho.com/workdrive/?src=zdocs",
+      "domain": "www.zoho.com",
+      "page_title": "Zoho WorkDrive | Online file management for teams",
+      "content": "[Read more](https://www.zoho.com/workdrive/2026-gartner-report.html)\n\n![Content Services and Collaboration Technology Value Matrix 2025](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/nucleus-research-value-matrix-leader-2025.png)\n\nNucleus Research\n\n**Value Matrix Leader 2025**\n\n![Emotional Footprint Champion 2025](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/2025-emotional-footprint-champion-infotech.png)\n\nInfo-Tech Research\n\n**Data Quadrant Champion 2025**\n\n![Document management, Cloud Storage](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/getapp-category-leaders-2025.svg)\n\nDocument Management\n\n![Document management, Cloud Storage, File Sharing](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/software-advice-front-runners-2026.svg)\n\nDocument Management\n\n![G2 Leader Fall 2025](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/capterra-shortlist-2026.svg)\n\nDocument Management",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:01.282882Z",
+      "section_path": "Zoho recognized in Gartner® Magic Quadrant™ for Document Management 2026",
+      "chunk_index": 1,
+      "token_count": 243,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_30d4c79ef072",
+      "source_type": "developer_portal",
+      "url": "https://www.zoho.com/workdrive/?src=zdocs",
+      "domain": "www.zoho.com",
+      "page_title": "Zoho WorkDrive | Online file management for teams",
+      "content": "Stay connected with all your information. Work from wherever you are with Zoho WorkDrive.\n\nZoho WorkDrive for your smartphone and tablet.\n\n![Zoho WorkDrive for your smartphone and tablet.](https://www.zohowebstatic.com/sites/zweb/images/workdrive/home/mobile-section-bg.jpg)\n\n[download zoho workdrive app store](https://itunes.apple.com/us/app/zoho-workdrive/id1408591221?ls=1&mt=8)[download zoho workdrive google play](https://play.google.com/store/apps/details?id=com.zoho.work.drive)\n\nBack up your team files offline. Always synced and always available.\n\n![Back up your team files offline. Always synced and always available.](https://www.zohowebstatic.com/sites/zweb/images/workdrive/home/web-section-bg.jpg)\n\nDOWNLOAD DESKTOP APP\n\nCreate custom workflows to streamline information across all your business apps.\n\n[Learn more](https://www.zoho.com/workdrive/zapier-integration.html?src=ft)\n\n- ![Jira Logo](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/jira-icon.svg)\n- ![Squarespace Logo](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/square-space.svg)\n- ![Zendesk Logo](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/zendesk.png)\n- ![Gmail Logo](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/gmail.svg)\n- ![Slack Logo](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/slack-icon.svg)\n- ![Evernote Logo](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/evernote-icon.svg)\n- ![Asana Logo](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/asana-vertical.svg)\n- ![Salesforce Logo](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/salesforce.svg)\n- ![Shopify Logo](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/shopify-icon.svg)\n- ![Mailchimp Logo](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/mailchimp.svg)\n- ![webflow Logo](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/webflow.svg)\n- ![Intercom Logo](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/intercom-icon.svg)\n- ![Basecamp Logo](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/basecamp.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:01.283148Z",
+      "section_path": "Zoho recognized in Gartner® Magic Quadrant™ for Document Management 2026 > Integrate Zoho WorkDrive with thousands of apps",
+      "chunk_index": 5,
+      "token_count": 542,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_6ca4dfaa77c9",
+      "source_type": "developer_portal",
+      "url": "https://www.zoho.com/workdrive/?src=zdocs",
+      "domain": "www.zoho.com",
+      "page_title": "Zoho WorkDrive | Online file management for teams",
+      "content": "The options below allow you to manage your consent for the cookies that are set on this website. You\ncan manage your preference anytime by visiting our [cookie\\\\\npolicy](https://www.zoho.com/privacy/cookie-policy.html?src=cp-popup) or by clicking on the cookie icon at the bottom-left corner of the webpage.\n\nThey are necessary for our website to function and cannot be switched off in our systems.\nThey are essential in order to enable you to navigate around the website and use its\nfeatures. If you remove or disable these cookies from your browser, we cannot guarantee\nthat you will be able to use our websites.\n\n[Learn\\\\\nMore](https://www.zoho.com/privacy/cookie-policy.html?src_tab=sn)\n\nThey allow us to remember the choices made by you (such as your user name, language or\nregion) as well as other functionalities (such as controlling the cookie banner,\nredirection to a new page) in order to provide a more personalised online experience.\nThese preferences are remembered (through the use of persistent cookies) so that you\nneed not set them again the next time you visit the page.\n\nNote : The **live chat** widget will **not** work if the\nfunctionality/preference setting is disabled.\n\n[Learn\\\\\nMore](https://www.zoho.com/privacy/cookie-policy.html?src_tab=fp)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:01.283244Z",
+      "section_path": "Zoho recognized in Gartner® Magic Quadrant™ for Document Management 2026 > Work Smarter. Together. > Next Steps > Cookie Settings > Functional/Preference",
+      "chunk_index": 7,
+      "token_count": 317,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_4a54a633f80d",
+      "source_type": "developer_portal",
+      "url": "https://www.zoho.com/workdrive/?src=zdocs",
+      "domain": "www.zoho.com",
+      "page_title": "Zoho WorkDrive | Online file management for teams",
+      "content": "They help us improve the way our websites work (e.g. by ensuring that users are finding\nwhat they are looking for easily). These collect aggregate information about visits,\nnavigations in the websites so that we can make improvement and report our performance.\nAnalytics cookies may also be used to test new pages or features to understand how users\nadopt them.\n\n[Learn\\\\\nMore](https://www.zoho.com/privacy/cookie-policy.html?src_tab=an)\n\nWhen you visit some of our webpages that contain embedded content hosted on a third party\nplatform such as YouTube videos, these third parties set cookies on your browser. We\nalways opt for the most privacy friendly options provided by these parties, however\nthese are not controlled by us. If you do not want these parties to set cookies on your\nbrowser on visiting our site, you should avoid visiting webpages that contain such\nembeds.\n\n[Learn\\\\\nMore](https://www.zoho.com/privacy/cookie-policy.html?src_tab=tp)\n\nSave & Exit",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:01.283281Z",
+      "section_path": "Zoho recognized in Gartner® Magic Quadrant™ for Document Management 2026 > Work Smarter. Together. > Next Steps > Cookie Settings > Third-party company cookies",
+      "chunk_index": 8,
+      "token_count": 241,
+      "quality_score": 0.36
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Zoho Cliq is a collaboration tool that integrates with various Zoho applications.",
+      "evidence_ids": [
+        "ev_b12a6c449043"
+      ]
+    },
+    "category": {
+      "value": "Communications and Messaging",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "OAuth",
+      "evidence_ids": [
+        "ev_dae39e71a8b6"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_9cb64b11f69d"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API, SDKs",
+      "evidence_ids": [
+        "ev_02a325dedb35"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_02a325dedb35"
+      ]
+    },
+    "mcp": {
+      "value": "Official MCP",
+      "evidence_ids": [
+        "ev_9cb64b11f69d"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_02a325dedb35"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_79a651c5d1c9"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.88,
+    "fields_checked": 8,
+    "fields_supported": 7,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.88,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.88 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

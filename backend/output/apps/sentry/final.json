@@ -1,0 +1,1376 @@
+{
+  "app": {
+    "id": 70,
+    "name": "Sentry",
+    "website": "docs.sentry.io/api",
+    "category_hint": "Developer Infra and Data"
+  },
+  "documentation_map": {
+    "app_name": "Sentry",
+    "official_domain": "docs.sentry.io",
+    "homepage": {
+      "url": "https://docs.sentry.io/api",
+      "title": "Sentry",
+      "confidence": 0.5,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://docs.sentry.io/api/auth.md",
+        "title": "Authentication",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://docs.sentry.io/account/auth-tokens.md",
+          "title": "Auth Tokens",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.sentry.io/organization/authentication.md",
+          "title": "Authentication",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://docs.sentry.io/api/pagination.md",
+        "title": "Paginating Results",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://docs.sentry.io/api/permissions.md",
+          "title": "Permissions & Scopes",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.sentry.io/api/ratelimits.md",
+          "title": "Rate Limits",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.sentry.io/api/requests.md",
+          "title": "Requests",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://docs.sentry.io/pricing/quotas.md",
+        "title": "Billing Quota Management",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://mcp.sentry.dev`.",
+        "title": "",
+        "confidence": 0.25,
+        "confidence_reason": [
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": false,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://docs.sentry.io/platforms/javascript.md`",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://docs.sentry.io/platforms/dotnet.md",
+          "title": ".NET",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.sentry.io/platforms/android.md",
+          "title": "Android",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.sentry.io/platforms/apple.md",
+          "title": "Apple",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "webhooks": null,
+    "llms_txt": {
+      "url": "https://docs.sentry.io/llms.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "Sentry",
+      "official_domain": "docs.sentry.io",
+      "items": [
+        {
+          "url": "https://docs.sentry.io/api",
+          "page_type": "homepage",
+          "title": "Sentry",
+          "confidence": 0.5,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/platforms/javascript.md`",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://mcp.sentry.dev`.",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://docs.sentry.io/platforms/dotnet.md",
+          "page_type": "developer_portal",
+          "title": ".NET",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/platforms/android.md",
+          "page_type": "developer_portal",
+          "title": "Android",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/platforms/apple.md",
+          "page_type": "developer_portal",
+          "title": "Apple",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/platforms/dart.md",
+          "page_type": "developer_portal",
+          "title": "Dart",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/platforms/elixir.md",
+          "page_type": "developer_portal",
+          "title": "Elixir",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/platforms/go.md",
+          "page_type": "developer_portal",
+          "title": "Go",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/platforms/godot.md",
+          "page_type": "developer_portal",
+          "title": "Godot Engine",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/platforms/java.md",
+          "page_type": "developer_portal",
+          "title": "Java",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/platforms/javascript.md",
+          "page_type": "developer_portal",
+          "title": "JavaScript",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/platforms/kotlin.md",
+          "page_type": "developer_portal",
+          "title": "Kotlin",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/platforms/native.md",
+          "page_type": "developer_portal",
+          "title": "Native",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/platforms/nintendo-switch.md",
+          "page_type": "developer_portal",
+          "title": "Nintendo Switch",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/platforms/php.md",
+          "page_type": "developer_portal",
+          "title": "PHP",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/platforms/playstation.md",
+          "page_type": "developer_portal",
+          "title": "PlayStation",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/platforms/powershell.md",
+          "page_type": "developer_portal",
+          "title": "PowerShell",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/platforms/python.md",
+          "page_type": "developer_portal",
+          "title": "Python",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/platforms/react-native.md",
+          "page_type": "developer_portal",
+          "title": "React Native",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/platforms/ruby.md",
+          "page_type": "developer_portal",
+          "title": "Ruby",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/platforms/rust.md",
+          "page_type": "developer_portal",
+          "title": "Rust",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/platforms/unity.md",
+          "page_type": "developer_portal",
+          "title": "Unity",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/platforms/unreal.md",
+          "page_type": "developer_portal",
+          "title": "Unreal Engine",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/platforms/xbox.md",
+          "page_type": "developer_portal",
+          "title": "Xbox",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/ai/agent-plugin.md",
+          "page_type": "developer_portal",
+          "title": "Agent Plugin",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/ai/dotagents.md",
+          "page_type": "developer_portal",
+          "title": "dotagents",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/ai/monitoring.md",
+          "page_type": "developer_portal",
+          "title": "AI Monitoring",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/account/user-settings.md",
+          "page_type": "developer_portal",
+          "title": "Account Preferences",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/account/auth-tokens.md",
+          "page_type": "authentication",
+          "title": "Auth Tokens",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/organization/getting-started.md",
+          "page_type": "developer_portal",
+          "title": "Set Up Your Organization",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/organization/authentication.md",
+          "page_type": "authentication",
+          "title": "Authentication",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/organization/membership.md",
+          "page_type": "developer_portal",
+          "title": "Organization and User Management",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/organization/data-storage-location.md",
+          "page_type": "developer_portal",
+          "title": "Data Storage Location (US or EU)",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/organization/dynamic-sampling.md",
+          "page_type": "developer_portal",
+          "title": "Dynamic Sampling",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/organization/early-adopter-features.md",
+          "page_type": "developer_portal",
+          "title": "Early Adopter Features",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/product/sentry-basics.md",
+          "page_type": "developer_portal",
+          "title": "Getting Started With Sentry",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/product/issues.md",
+          "page_type": "developer_portal",
+          "title": "Issues",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/product/user-feedback.md",
+          "page_type": "developer_portal",
+          "title": "User Feedback",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/product/snapshots.md",
+          "page_type": "developer_portal",
+          "title": "Snapshots",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/product/size-analysis.md",
+          "page_type": "developer_portal",
+          "title": "Size Analysis",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/product/trace-explorer.md",
+          "page_type": "developer_portal",
+          "title": "Traces and Spans",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/product/logs.md",
+          "page_type": "developer_portal",
+          "title": "Logs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/product/session-replay.md",
+          "page_type": "developer_portal",
+          "title": "Session Replay",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/product/profiling.md",
+          "page_type": "developer_portal",
+          "title": "Profiling",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/product/metrics.md",
+          "page_type": "developer_portal",
+          "title": "Application Metrics",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/product/drains.md",
+          "page_type": "developer_portal",
+          "title": "Log and Trace Drains",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/product/discover-queries.md",
+          "page_type": "developer_portal",
+          "title": "Discover",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/product/dashboards.md",
+          "page_type": "developer_portal",
+          "title": "Dashboards",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/product/releases.md",
+          "page_type": "developer_portal",
+          "title": "Releases",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/product/stats.md",
+          "page_type": "developer_portal",
+          "title": "Stats",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/product/ai-in-sentry.md",
+          "page_type": "developer_portal",
+          "title": "AI in Sentry",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/product/monitors-and-alerts.md",
+          "page_type": "developer_portal",
+          "title": "Monitors and Alerts",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/product/build-distribution.md",
+          "page_type": "developer_portal",
+          "title": "Build Distribution",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/product/projects.md",
+          "page_type": "developer_portal",
+          "title": "Projects",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/product/notifications.md",
+          "page_type": "developer_portal",
+          "title": "Sentry Notifications",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/product/sentry-toolbar.md",
+          "page_type": "developer_portal",
+          "title": "Sentry Toolbar",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/product/relay.md",
+          "page_type": "developer_portal",
+          "title": "Relay",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/product/partnership-platform.md",
+          "page_type": "developer_portal",
+          "title": "Partnership Platform",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/pricing/quotas.md",
+          "page_type": "pricing",
+          "title": "Billing Quota Management",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/cli/installation.md",
+          "page_type": "developer_portal",
+          "title": "Installation",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/cli/configuration.md",
+          "page_type": "developer_portal",
+          "title": "Configuration and Authentication",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/cli/releases.md",
+          "page_type": "developer_portal",
+          "title": "Release Management",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/cli/dif.md",
+          "page_type": "developer_portal",
+          "title": "Debug Information Files",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/cli/send-event.md",
+          "page_type": "developer_portal",
+          "title": "Sending Events",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/cli/code-mappings.md",
+          "page_type": "developer_portal",
+          "title": "Code Mappings",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/cli/logs.md",
+          "page_type": "developer_portal",
+          "title": "Logs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/cli/snapshots.md",
+          "page_type": "developer_portal",
+          "title": "Snapshots (CLI)",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/cli/crons.md",
+          "page_type": "developer_portal",
+          "title": "Crons (CLI)",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/api/auth.md",
+          "page_type": "authentication",
+          "title": "Authentication",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/api/pagination.md",
+          "page_type": "api_reference",
+          "title": "Paginating Results",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/api/permissions.md",
+          "page_type": "api_reference",
+          "title": "Permissions & Scopes",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/api/ratelimits.md",
+          "page_type": "api_reference",
+          "title": "Rate Limits",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/api/requests.md",
+          "page_type": "api_reference",
+          "title": "Requests",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/api/crons.md",
+          "page_type": "api_reference",
+          "title": "Crons",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.sentry.io/api/dashboards.md",
+          "page_type": "api_reference",
+          "title": "Dashboards",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 1,
+        "urls_discovered": 76,
+        "official_urls": 75,
+        "non_official_filtered": 1,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 6
+      }
+    },
+    "stats": {
+      "queries": 1,
+      "urls_discovered": 76,
+      "official_urls": 75,
+      "non_official_filtered": 1,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 6
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_32c25d480897",
+      "source_type": "official_docs",
+      "url": "https://docs.sentry.io/api",
+      "domain": "docs.sentry.io",
+      "page_title": "API Reference",
+      "content": "API Reference\nThe Sentry web API is used to access the Sentry platform programmatically. You can use the APIs to manage account-level resources, like organizations and teams, as well as manage and export data.\nIf you're looking for information about the API surface for Sentry's SDKs, see the SDK Development docs.\nThe current version of the Sentry's web API is considered v0. Our public endpoints are generally stable, but beta endpoints are subject to change.\nWhile many of Sentry's APIs use sentry.io as the host for API endpoints, if you want to indicate a specific data storage location, you can use your region-specific domain. Using your organization's region-specific domain will generally result in lower latency for most API calls. For example, if you are hosted in US2 region, you would use us2.sentry.io. You can check which region your organization is in by viewing your organization’s settings page.\n- US region is hosted on us.sentry.io\n- US2 region is hosted on us2.sentry.io\n- DE region is hosted on de.sentry.io.\nTo find out which API resources are available on region-based domains, see what types of data are stored where for more information.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:11:17.774816Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 290,
+      "quality_score": 0.5
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Sentry web API for managing account-level resources and data.",
+      "evidence_ids": [
+        "ev_32c25d480897"
+      ]
+    },
+    "category": {
+      "value": "Developer Infra and Data",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_32c25d480897"
+      ]
+    },
+    "self_serve": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_32c25d480897"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API, SDKs",
+      "evidence_ids": [
+        "ev_32c25d480897"
+      ]
+    },
+    "api_breadth": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_32c25d480897"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_32c25d480897"
+      ]
+    },
+    "buildability": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_32c25d480897"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_32c25d480897"
+      ]
+    }
+  },
+  "validation": {
+    "status": "INSUFFICIENT_EVIDENCE",
+    "score": 0.25,
+    "fields_checked": 8,
+    "fields_supported": 2,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "auth_methods",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'auth_methods' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "self_serve",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'self_serve' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "api_breadth",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_breadth' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "buildability",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'buildability' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": {
+    "verified_fields": [
+      "self_serve"
+    ],
+    "corrections": {
+      "self_serve": "Self-serve (verified by browser)"
+    },
+    "screenshots": [],
+    "notes": ""
+  },
+  "pipeline_confidence": 0.25,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.25 below 0.90 threshold",
+      "Self-serve access model is UNKNOWN",
+      "Auth methods missing or UNKNOWN",
+      "Browser verification found discrepancies",
+      "Insufficient evidence (1 pieces, minimum 3)"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

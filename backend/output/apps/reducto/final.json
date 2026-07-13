@@ -1,0 +1,650 @@
+{
+  "app": {
+    "id": 95,
+    "name": "Reducto",
+    "website": "reducto.ai",
+    "category_hint": "AI Research and Media"
+  },
+  "documentation_map": {
+    "app_name": "Reducto",
+    "official_domain": "reducto.ai",
+    "homepage": {
+      "url": "https://reducto.ai",
+      "title": "Reducto",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://docs.reducto.ai/quickstart",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://docs.reducto.ai/api-reference/parse.md",
+        "title": "",
+        "confidence": 1.0,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://docs.reducto.ai/api-reference/split.md",
+          "title": "",
+          "confidence": 1.0,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.reducto.ai/api-reference/extract.md",
+          "title": "",
+          "confidence": 1.0,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.reducto.ai/api-reference/classify.md",
+          "title": "",
+          "confidence": 1.0,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.reducto.ai/api-reference/edit.md",
+          "title": "",
+          "confidence": 1.0,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://reducto.ai/pricing",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "sdk": {
+      "primary": {
+        "url": "https://docs.reducto.ai/sdk/python/overview",
+        "title": "",
+        "confidence": 0.85,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "mcp": {
+      "primary": {
+        "url": "https://docs.reducto.ai/mcp-server,",
+        "title": "",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://mcp.reducto.ai/mcp",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://docs.reducto.ai/llms.txt",
+        "title": "",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://docs.reducto.ai/cli",
+          "title": "",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.reducto.ai/agent-guide.md",
+          "title": "",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.reducto.ai",
+          "title": "",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.reducto.ai/security/policies",
+          "title": "",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "webhooks": {
+      "primary": {
+        "url": "https://docs.reducto.ai/workflows/svix-webhooks",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "llms_txt": {
+      "url": "https://reducto.ai/llms-full.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "Reducto",
+      "official_domain": "reducto.ai",
+      "items": [
+        {
+          "url": "https://reducto.ai",
+          "page_type": "homepage",
+          "title": "Reducto",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.reducto.ai/llms.txt",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.reducto.ai/api-reference/parse.md",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 1.0,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.reducto.ai/api-reference/split.md",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 1.0,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.reducto.ai/api-reference/extract.md",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 1.0,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.reducto.ai/api-reference/classify.md",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 1.0,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.reducto.ai/api-reference/edit.md",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 1.0,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://mcp.reducto.ai/mcp",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.reducto.ai/mcp-server,",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.reducto.ai/cli",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.reducto.ai/agent-guide.md",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.reducto.ai",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://reducto.ai/pricing",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.reducto.ai/security/policies",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.reducto.ai/quickstart",
+          "page_type": "authentication",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.reducto.ai/sdk/python/overview",
+          "page_type": "sdk",
+          "title": "",
+          "confidence": 0.85,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.reducto.ai/workflows/svix-webhooks",
+          "page_type": "webhooks",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 1,
+        "urls_discovered": 17,
+        "official_urls": 17,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 8
+      }
+    },
+    "stats": {
+      "queries": 1,
+      "urls_discovered": 17,
+      "official_urls": 17,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 8
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_44225bc3ccf5",
+      "source_type": "auth_docs",
+      "url": "https://docs.reducto.ai/quickstart",
+      "domain": "docs.reducto.ai",
+      "page_title": "API Quickstart - Reducto",
+      "content": "Fastest path for coding agents\nIf you are using Claude Code, Codex, Cursor, or another coding agent, start here. This path avoids Studio clicks and extra docs navigation.- Set REDUCTO_API_KEY.\n- Choose one interface:\n- Local file or folder: use the Reducto CLI.\n- Agent tool calling: use the Reducto MCP server.\n- Application code: use the Python, Node.js, Go, or cURL examples below.\n \n- Parse the sample PDF first, then replace the URL or file path with your document.\nWhat we’re going to parse\nWe’ll use a financial statement PDF that contains multiple tables, headers, account summaries, and formatted text. This is the kind of complex document that’s difficult to process manually but straightforward with Reducto. View the sample PDF in Studio or download it directly to follow along. What we want to extract:- The portfolio value table with beginning and ending values\n- Account information including account numbers and types\n- Income summary broken down by tax category\n- Top holdings with values and percentages\nPrerequisites\nCreate a Reducto account\nGo to studio.reducto.ai and sign up for a free account.\nGet your API key\nIn the Studio sidebar, click API Keys, then Create new API key. Give it a name and copy the key.\nSet your API key as an environment variable\nThis allows the SDK to authenticate automatically without hardcoding the key in your code.\n- macOS / Linux\n- Windows (PowerShell)\nSetup with AI\nYou can also copy the below snippet for your AI coding agent to connect to Reducto via the MCP Server.\nInstall the SDK\nChoose your language and install the Reducto SDK:- Python\n- Node.js\n- Go\nParse the document\nNow let’s write the code to parse our financial statement. We’ll go through each part step by step.- Python\n- Node.js\n- Go\n- cURL\nImport the SDK and initialize the client\nFirst, we import the Reducto client. When you create a \nReducto() client without passing an API key, it automatically reads from the REDUCTO_API_KEY environment variable you set earlier.Upload your document\nBefore parsing, you need to upload the document to Reducto’s servers. The \nupload() method accepts a file path (as a string) and returns a reference that you’ll use in the next step.You can download the sample PDF from here.Parse the document\nNow we call the \nparse.run() method with the uploaded file reference. This sends the document through Reducto’s processing pipeline, which runs OCR, detects layout, extracts tables, and structures everything into chunks.Access the extracted content\nThe response contains Each block has a \nchunks, which are logical sections of the document. Each chunk has a content field with the full text and a blocks field with individual elements like tables, headers, and paragraphs.type that tells you what kind of content it is: Title, Section Header, Text, Table, Figure, Key Value, and others. The bbox field contains the bounding box coordinates so you know exactly where on the page this content came from.Understanding the response\nHere’s what we got back from parsing our financial statement:| Field | What it contains | \n|---|---|\n| job_id | Unique identifier for this job. Use it to retrieve results later or debug in Studio. | \n| usage.num_pages | Number of pages that were processed. | \n| usage.credits | Credits consumed by this request. | \n| chunks | Logical sections of the document, optimized for feeding into LLMs. | \n| chunks[].content | The full text content of this chunk. | \n| chunks[].blocks | Individual elements (tables, headers, text) with their types and positions. | \n| blocks[].type | What kind of element this is: Title,Table,Section Header,Text,Figure, etc. | \n| blocks[].bbox | Bounding box with normalized coordinates (0-1) showing where this element appears on the page. | \n| studio_link | Direct link to view this job in Reducto Studio for visual debugging. | \nCustomizing the output\nThe default settings work well for most documents, but you can customize the parsing behavior for specific use cases.- Python\n- Node.js\n- Go\n- cURL\nYou can pass configuration options as \nTypedDict imports from reducto.types or as plain dictionaries:- enhance.agentic: Runs AI-powered cleanup on the specified scope. Use- \"text\"for OCR correction on scanned documents, or- \"table\"to improve table structure detection.\n- enhance.summarize_figures: Generates natural language descriptions of charts, graphs, and images. Useful for RAG pipelines where you need to search figure content.\n- formatting.table_output_format: Controls how tables are returned. Options are- html,- md(markdown),- json,- csv,- dynamic(default, returns markdown for simple tables and HTML for complex ones), or- jsonbbox.\n- settings.page_range: Limits processing to specific pages. Useful for large documents where you only need certain sections.\nWhat’s next\nNow that you can parse documents, explore the other Reducto endpoints:/extract\nDefine a JSON schema and extract specific fields from your documents.\n/split\nDivide long documents into sections based on content type.\n/edit\nFill PDF forms and modify DOCX documents programmatically.\n/parse (async)\nProcess documents asynchronously with webhooks for high-volume workloads.\nTroubleshooting\nTables aren't structured correctly\nTables aren't structured correctly\nSome complex tables need extra help. Enable \nenhance.agentic with [{\"scope\": \"table\"}] for AI-powered table reconstruction, or try formatting.table_output_format set to \"html\" or \"json\" for more structured output.Content is missing or garbled\nContent is missing or garbled\nFor scanned documents or low-quality PDFs, enable the agentic text enhancement: \nenhance.agentic: [{\"scope\": \"text\"}]. If the document is password-protected, pass the password in settings.document_password. This may also be due to bad metadata polluting the output, in which case, reach out to Reducto support.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:15:26.588576Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 1456,
+      "quality_score": 0.86
+    },
+    {
+      "id": "ev_98fef4e0b435",
+      "source_type": "pricing_page",
+      "url": "https://reducto.ai/pricing",
+      "domain": "reducto.ai",
+      "page_title": "Pricing | Reducto Agentic Document Platform",
+      "content": "Flexible plans\nChoose the plan that best fits your needs\nStandard\nPay-as-you-go for early-stage teams\nFreeUp to your first 15K credits\nCore Functionality\n- Parse API\n- Extract API\n- Edit API\n- Split API\n- 30+ Supported File Types\n- Up to 5 seats for Reducto Studio\n- No Page Limits\nThen, $0.015 per credit after first 15K.\nMost Popular\nGrowth\nBuilt for scaling teams\nCustom pricing\nEverything in Standard, plus:\n- Volume Discounts\n- Zero Data Retention Agreement\n- Business Associate Agreement\n- Premium Rate Limits and Priority Requests\n- Priority Slack and Email Support\n- EU/AU Data Residency Endpoints\n- Unlimited Studio Seats\n- Studio Evaluations\nEnterprise\nBuilt for full control & custom needs\nCustom pricing\nEverything in Growth, plus:\n- VPC and On-Prem Deployments\n- Custom MSA\n- Custom SLA\n- Custom Rate Limits and Throughput\n- Custom Processing Pipelines\n- Dedicated On-Call Support\n- Role-Based Access Control\n- SSO and SAML Authentication\nFeatures list\nChoose the plan that best fits your needs\nFeatures list\nChoose the plan that best fits your needs\nQuestions, answered.\nTry for freeEvery time you process a document through Reducto — for example, when you parse, extract, split, or edit a file — you use credits. Each API call consumes credits based on the operation type, configurations, and the number of pages processed.\nFor a detailed breakdown of how credit usage works, see our Credit Usage Overview.\nFor a detailed breakdown of how credit usage works, see our Credit Usage Overview.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:15:26.929704Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 376,
+      "quality_score": 0.86
+    },
+    {
+      "id": "ev_d7631e842082",
+      "source_type": "official_docs",
+      "url": "https://reducto.ai",
+      "domain": "reducto.ai",
+      "page_title": "Reducto: The Agentic Document Platform for AI Teams",
+      "content": "Turn documents\ninto data.\nThe agentic document platform for leading AI teams who demand enterprise performance at scale. One platform for parsing, classification, extraction, and every document task in between.\nHelping everyone from startups to Fortune 10 enterprises unlock their data.\n- Harvey\n- Scale AI\n- Newfront\n- Medallion\n- Vanta\n- Legora\n- Rogo\n- Levelpath\n- JLL\n- Vise\n- Laurel\n- Toast\n- Mercor\n- Zip\n- Anterior\n- Supio\nOver\n3,000,000,000\npages processed\nFree your data from documents.\nA toolbox of flexible APIs for all your needs.\nParse\nReducto's parser reads documents like a human would—capturing layout, structure, and meaning with high accuracy. Our Agentic OCR reviews and corrects outputs in real-time for near-perfect results, even on edge cases.\nLearn moreSplit\nAutomatically separate multi-document files or long forms into individually useful units. Intelligent heuristics and layout-aware splitting keep your pipelines clean and efficient—no manual pre-processing needed.\nLearn moreExtract\nExtract structured data directly from documents with schema-level precision. Whether it's invoice fields, onboarding forms, or financial disclosures, Reducto ensures the right data lands exactly where you need it.\nLearn moreEdit\nFill in detected blanks, tables, and checkboxes with supplied data. No bounding boxes or pre-defined templates are required; Edit dynamically identifies fillable elements regardless of document layout or format, supporting scanned PDFs, digital forms, and complex multi-page documents.\nLearn morePowering the world's best AI teams.\nTrusted across industries where accuracy matters—finance, healthcare, legal, and more.\nFinance\nExtract key insights from investor decks, huge spreadsheets, dense pitch materials, and SEC filings. Reducto handles complex tables, charts, and financial statements with precision.\nReducto helped us parse documents we previously could not because of table complexity. It's probably the only AI product that has actually worked for us.\nEngineering Leader, Top 5 Global Hedge Fund\nBuilt to read the way humans do.\nReducto’s multi-pass system utilizes both OCR and vision language models for unmatched accuracy and reliability.\nTraditional computer vision\nReducto first uses layout-aware models to break down the document visually, capturing regions, tables, figures, and text.\nVLMs make corrections to mistakes\nLike a human editor, our Agentic model can detect minor mistakes and correct them, ensuring accuracy even in the most detailed cases.\nVLMs review Reducto's outputs\nVision-language models then interpret each region in context—linking labels to values, understanding tables, and classifying segments.\nThe all-in-one agentic document platform.\nReducto's wide feature set covers the long tail of your processing needs, out of the box.\nLayout extraction\nHandle everything from massive tables to handwritten forms while preserving bounding boxes and structure.\nFile type support\nSupport for PDFs, images, spreadsheets, slides, and more—all through one API.\nLanguage support\nMultilingual parsing across 100+ languages, including mixed-language docs.\nLLM optimized\nIntelligent document chunking, embedding optimization, and everything else you need to make your data LLM-ready.\nImage support\nOCR for scanned pages, faxes, and handwritten content—accurate even with low quality.\n+ many more features\nEverything else you need to make your data LLM-ready.\nEnterprise-ready\nFrom security to scale, Reducto is built for the demands of production AI.\n99.9%+ uptime\nBattle-tested infrastructure you can trust in production and at scale.\nEnterprise support and SLAs\nHands-on forward deployed support and tailored SLAs to meet your enterprise needs.\nSOC2, HIPAA compliant\nEnterprise-grade security, certified for sensitive and regulated data. View our security policies here.\nDeploy in your environment\nRun Reducto entirely within your own infrastructure—ideal for strict security, compliance, and data residency requirements.\nWidely trusted by enterprises worldwide",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:15:25.266325Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 1007,
+      "quality_score": 0.46
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Agentic document platform for parsing, classification, extraction, and document tasks.",
+      "evidence_ids": [
+        "ev_d7631e842082"
+      ]
+    },
+    "category": {
+      "value": "AI Research and Media",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "API Key",
+      "evidence_ids": [
+        "ev_44225bc3ccf5"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_98fef4e0b435"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API",
+      "evidence_ids": [
+        "ev_d7631e842082"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_d7631e842082"
+      ]
+    },
+    "mcp": {
+      "value": "Official MCP",
+      "evidence_ids": [
+        "ev_44225bc3ccf5"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_d7631e842082"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_d7631e842082"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.88,
+    "fields_checked": 8,
+    "fields_supported": 7,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.88,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.88 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

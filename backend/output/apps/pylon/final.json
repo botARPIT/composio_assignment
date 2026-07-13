@@ -1,0 +1,1586 @@
+{
+  "app": {
+    "id": 15,
+    "name": "Pylon",
+    "website": "usepylon.com",
+    "category_hint": "Support and Helpdesk"
+  },
+  "documentation_map": {
+    "app_name": "Pylon",
+    "official_domain": "usepylon.com",
+    "homepage": {
+      "url": "https://usepylon.com",
+      "title": "Pylon",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+        "title": "Authentication | Pylon",
+        "confidence": 0.95,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://docs.usepylon.com/pylon-docs/developer/api/api-reference",
+        "title": "API reference | Pylon",
+        "confidence": 0.95,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://www.usepylon.com/enterprise",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://docs.usepylon.com/pylon-docs/platform/mcp-connections.md",
+        "title": "MCP Connections",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://docs.usepylon.com/pylon-docs/getting-started/quickstart.md",
+        "title": "Introduction",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/getting-started/publish-your-docs.md",
+          "title": "Quick Start",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/getting-started/slack-setup.md",
+          "title": "Slack Setup",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/getting-started/channel-configuration.md",
+          "title": "Channel Configuration",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "webhooks": null,
+    "llms_txt": {
+      "url": "https://docs.usepylon.com/llms.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "Pylon",
+      "official_domain": "usepylon.com",
+      "items": [
+        {
+          "url": "https://usepylon.com",
+          "page_type": "homepage",
+          "title": "Pylon",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/getting-started/quickstart.md",
+          "page_type": "developer_portal",
+          "title": "Introduction",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/getting-started/publish-your-docs.md",
+          "page_type": "developer_portal",
+          "title": "Quick Start",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/getting-started/slack-setup.md",
+          "page_type": "developer_portal",
+          "title": "Slack Setup",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/getting-started/channel-configuration.md",
+          "page_type": "developer_portal",
+          "title": "Channel Configuration",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/getting-started/user-guide.md",
+          "page_type": "developer_portal",
+          "title": "User Guide",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/support-workflows/omnichannel-support.md",
+          "page_type": "developer_portal",
+          "title": "Omnichannel Support",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/support-workflows/phone-support.md",
+          "page_type": "developer_portal",
+          "title": "Phone Support",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/support-workflows/issues.md",
+          "page_type": "developer_portal",
+          "title": "Issues",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/support-workflows/issues/views.md",
+          "page_type": "developer_portal",
+          "title": "Views",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/support-workflows/issues/message-editor.md",
+          "page_type": "developer_portal",
+          "title": "Message Editor",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/support-workflows/issues/copilot.md",
+          "page_type": "developer_portal",
+          "title": "Copilot",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/support-workflows/issues/sidebar.md",
+          "page_type": "developer_portal",
+          "title": "Sidebar",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/support-workflows/issues/internal-threads.md",
+          "page_type": "developer_portal",
+          "title": "Internal Threads",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/support-workflows/issues/proactive-issues.md",
+          "page_type": "developer_portal",
+          "title": "Proactive Issues",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/support-workflows/issues/translation.md",
+          "page_type": "developer_portal",
+          "title": "Translation",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/support-workflows/issues/bulk-actions.md",
+          "page_type": "developer_portal",
+          "title": "Bulk actions",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/support-workflows/issues/issue-groups.md",
+          "page_type": "developer_portal",
+          "title": "Issue Groups",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/support-workflows/issues/anomaly-detection.md",
+          "page_type": "developer_portal",
+          "title": "Anomaly Detection",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/support-workflows/slas.md",
+          "page_type": "developer_portal",
+          "title": "SLAs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/support-workflows/support-hours.md",
+          "page_type": "developer_portal",
+          "title": "Support Hours",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/support-workflows/csat.md",
+          "page_type": "developer_portal",
+          "title": "CSAT",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/support-workflows/ticket-forms.md",
+          "page_type": "developer_portal",
+          "title": "Ticket Forms",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/support-workflows/assignment-rules.md",
+          "page_type": "developer_portal",
+          "title": "Assignment Rules",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/support-workflows/assignment-rules/user-status.md",
+          "page_type": "developer_portal",
+          "title": "User Status",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/support-workflows/email.md",
+          "page_type": "developer_portal",
+          "title": "Email",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/support-workflows/ai-issue-qa.md",
+          "page_type": "developer_portal",
+          "title": "AI Issue QA",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/platform/custom-fields.md",
+          "page_type": "developer_portal",
+          "title": "Custom Fields",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/platform/custom-fields/required-and-conditional-fields.md",
+          "page_type": "developer_portal",
+          "title": "Required and Conditional Fields",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/platform/custom-fields/field-history.md",
+          "page_type": "developer_portal",
+          "title": "Field History",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/platform/tags.md",
+          "page_type": "developer_portal",
+          "title": "Tags",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/platform/teams.md",
+          "page_type": "developer_portal",
+          "title": "Teams",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/platform/triggers.md",
+          "page_type": "developer_portal",
+          "title": "Triggers",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/platform/triggers/logs-and-history.md",
+          "page_type": "developer_portal",
+          "title": "Logs & History",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/platform/macros.md",
+          "page_type": "developer_portal",
+          "title": "Macros",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/platform/command-search.md",
+          "page_type": "developer_portal",
+          "title": "Command Search",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/platform/roles-and-user-management.md",
+          "page_type": "developer_portal",
+          "title": "Roles & User Management",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/platform/training-data.md",
+          "page_type": "developer_portal",
+          "title": "Training Data",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/platform/ask-ai.md",
+          "page_type": "developer_portal",
+          "title": "Ask AI",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/platform/mcp-connections.md",
+          "page_type": "mcp",
+          "title": "MCP Connections",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/platform/ai-reports.md",
+          "page_type": "developer_portal",
+          "title": "AI Reports",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/platform/surveys.md",
+          "page_type": "developer_portal",
+          "title": "Surveys",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/platform/audit-logs.md",
+          "page_type": "developer_portal",
+          "title": "Audit Logs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/platform/languages-and-localization.md",
+          "page_type": "developer_portal",
+          "title": "Languages & Localization",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/platform/custom-objects.md",
+          "page_type": "developer_portal",
+          "title": "Custom Objects",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/ai-agents/overview.md",
+          "page_type": "developer_portal",
+          "title": "Overview",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/ai-agents/build.md",
+          "page_type": "developer_portal",
+          "title": "Build",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/ai-agents/build/resources.md",
+          "page_type": "developer_portal",
+          "title": "Resources",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/ai-agents/build/runbooks.md",
+          "page_type": "developer_portal",
+          "title": "Runbooks",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/ai-agents/build/bring-your-own-agent.md",
+          "page_type": "developer_portal",
+          "title": "Bring Your Own Agent",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/ai-agents/test.md",
+          "page_type": "developer_portal",
+          "title": "Test",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/ai-agents/deploy.md",
+          "page_type": "developer_portal",
+          "title": "Deploy",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/ai-agents/monitor-and-iterate.md",
+          "page_type": "developer_portal",
+          "title": "Monitor & Iterate",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/knowledge-base/overview.md",
+          "page_type": "developer_portal",
+          "title": "Overview",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/knowledge-base/articles-and-collections.md",
+          "page_type": "developer_portal",
+          "title": "Articles & Collections",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/knowledge-base/articles-and-collections/editor.md",
+          "page_type": "developer_portal",
+          "title": "Editor",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/knowledge-base/articles-and-collections/copilot.md",
+          "page_type": "developer_portal",
+          "title": "Copilot",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/knowledge-base/articles-and-collections/templates.md",
+          "page_type": "developer_portal",
+          "title": "Templates",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/knowledge-base/articles-and-collections/collaboration.md",
+          "page_type": "developer_portal",
+          "title": "Collaboration",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/knowledge-base/articles-and-collections/article-review.md",
+          "page_type": "developer_portal",
+          "title": "Article Review",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/knowledge-base/articles-and-collections/synced-blocks.md",
+          "page_type": "developer_portal",
+          "title": "Synced Blocks",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/knowledge-base/gaps.md",
+          "page_type": "developer_portal",
+          "title": "Gaps",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/knowledge-base/styling-and-customization.md",
+          "page_type": "developer_portal",
+          "title": "Styling & Customization",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/knowledge-base/custom-authentication.md",
+          "page_type": "developer_portal",
+          "title": "Custom Authentication",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/knowledge-base/search.md",
+          "page_type": "developer_portal",
+          "title": "Search",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/customer-portal/overview.md",
+          "page_type": "developer_portal",
+          "title": "Overview",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/customer-portal/styling-and-customization.md",
+          "page_type": "developer_portal",
+          "title": "Styling & Customization",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/customer-portal/access-control.md",
+          "page_type": "developer_portal",
+          "title": "Access Control",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/customer-portal/portal-experience.md",
+          "page_type": "developer_portal",
+          "title": "Portal Experience",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/customer-portal/custom-authentication.md",
+          "page_type": "developer_portal",
+          "title": "Custom Authentication",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/account-intelligence/accounts.md",
+          "page_type": "developer_portal",
+          "title": "Accounts",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/account-intelligence/accounts/views.md",
+          "page_type": "developer_portal",
+          "title": "Views",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/account-intelligence/accounts/copilot.md",
+          "page_type": "developer_portal",
+          "title": "Copilot",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/account-intelligence/accounts/memories.md",
+          "page_type": "developer_portal",
+          "title": "Memories",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/account-intelligence/accounts/sidebar.md",
+          "page_type": "developer_portal",
+          "title": "Sidebar",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/account-intelligence/accounts/personal-email.md",
+          "page_type": "developer_portal",
+          "title": "Personal Email",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://www.usepylon.com/enterprise",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+          "page_type": "authentication",
+          "title": "Authentication | Pylon",
+          "confidence": 0.95,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/developer/api/api-reference",
+          "page_type": "api_reference",
+          "title": "API reference | Pylon",
+          "confidence": 0.95,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 3,
+        "urls_discovered": 79,
+        "official_urls": 79,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 6
+      }
+    },
+    "stats": {
+      "queries": 3,
+      "urls_discovered": 79,
+      "official_urls": 79,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 6
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_fad14d9a2cba",
+      "source_type": "llms_txt",
+      "url": "https://docs.usepylon.com/llms.txt",
+      "domain": "docs.usepylon.com",
+      "page_title": "llms.txt index",
+      "content": "\\- \\[Introduction\\](https://docs.usepylon.com/pylon-docs/getting-started/quickstart.md)\n\\- \\[Quick Start\\](https://docs.usepylon.com/pylon-docs/getting-started/publish-your-docs.md)\n\\- \\[Slack Setup\\](https://docs.usepylon.com/pylon-docs/getting-started/slack-setup.md)\n\\- \\[Channel Configuration\\](https://docs.usepylon.com/pylon-docs/getting-started/channel-configuration.md): To integrate Pylon seamlessly with Slack, there's two main steps to configuration: setting up your Internal Threads workflow, and then actually connecting individual channels in Pylon.\n\\- \\[User Guide\\](https://docs.usepylon.com/pylon-docs/getting-started/user-guide.md): Common tips and tracks on how to setup and use Pylon!\n\\- \\[Omnichannel Support\\](https://docs.usepylon.com/pylon-docs/support-workflows/omnichannel-support.md): Pylon can support you wherever you interact with your customers.\n\\- \\[Phone Support\\](https://docs.usepylon.com/pylon-docs/support-workflows/phone-support.md)\n\\- \\[Issues\\](https://docs.usepylon.com/pylon-docs/support-workflows/issues.md): Track, manage, and act on all your customer requests in a single place\n\\- \\[Views\\](https://docs.usepylon.com/pylon-docs/support-workflows/issues/views.md): Customize how you view and act on issues. Change the view by clicking on the icon just left of the \"Create Issue\" button.\n\\- \\[Statuses\\](https://docs.usepylon.com/pylon-docs/support-workflows/issues/statuses.md): An overview of issue statuses in Pylon.\n\\- \\[Message Editor\\](https://docs.usepylon.com/pylon-docs/support-workflows/issues/message-editor.md): Pylon's message editor can be used to reply to customer issues (synced to their source system) or to leave internal notes for your team.\n\\- \\[Copilot\\](https://docs.usepylon.com/pylon-docs/support-workflows/issues/copilot.md): Use AI to help streamline your issue responses by clicking on the AI icon in the text formatting bar.\n\\- \\[Sidebar\\](https://docs.usepylon.com/pylon-docs/support-workflows/issues/sidebar.md): Everything you need to know about the issue sidebar.\n\\- \\[Internal Threads\\](https://docs.usepylon.com/pylon-docs/support-workflows/issues/internal-threads.md): Have internal discussions on customer issues\n\\- \\[Proactive Issues\\](https://docs.usepylon.com/pylon-docs/support-workflows/issues/proactive-issues.md): Initiate conversations from Pylon to customers proactively\n\\- \\[Translation\\](https://docs.usepylon.com/pylon-docs/support-workflows/issues/translation.md): Automatically detect language for and translate inbound and outbound messages.\n\\- \\[Bulk actions\\](https://docs.usepylon.com/pylon-docs/support-workflows/issues/bulk-actions.md): Take bulk actions to manage issues\n\\- \\[Issue Groups\\](https://docs.usepylon.com/pylon-docs/support-workflows/issues/issue-groups.md): Group related issues together during incidents\n\\- \\[Anomaly Detection\\](https://docs.usepylon.com/pylon-docs/support-workflows/issues/anomaly-detection.md): Automatically detect outages and issues across your customer base.\n\\- \\[SLAs\\](https://docs.usepylon.com/pylon-docs/support-workflows/slas.md): Set differentiated service level agreement timers on customer issues.\n\\- \\[Support Hours\\](https://docs.usepylon.com/pylon-docs/support-workflows/support-hours.md): Set schedules your company's operates on.\n\\- \\[CSAT\\](https://docs.usepylon.com/pylon-docs/support-workflows/csat.md): Pylon has a built-in tool to help you collect satisfaction scores from customers!\n\\- \\[Ticket Forms\\](https://docs.usepylon.com/pylon-docs/support-workflows/ticket-forms.md): Let your customers submit structured tickets across different channels.\n\\- \\[Assignment Rules\\](https://docs.usepylon.com/pylon-docs/support-workflows/assignment-rules.md): Setup assignment rules to make sure issues make their way to the right person.\n\\- \\[User Status\\](https://docs.usepylon.com/pylon-docs/support-workflows/assignment-rules/user-status.md): Allow users to set their status to active, busy, our out of office\n\\- \\[Email\\](https://docs.usepylon.com/pylon-docs/support-workflows/email.md): Connect your email addresses with Pylon to track and response to support requests over email.\n\\- \\[AI Issue QA\\](https://docs.usepylon.com/pylon-docs/support-workflows/ai-issue-qa.md): Apply rubrics to issues to make sure guidelines and process are being followed.\n\\- \\[Custom Fields\\](https://docs.usepylon.com/pylon-docs/platform/custom-fields.md): Set up custom fields to add structured data to your issues, accounts, and contacts.\n\\- \\[Required and Conditional Fields\\](https://docs.usepylon.com/pylon-docs/platform/custom-fields/required-and-conditional-fields.md): Different field types allow you to collect only the information relevant to the current Issue you're editing.\n\\- \\[Field History\\](https://docs.usepylon.com/pylon-docs/platform/custom-fields/field-history.md): Track how field values change over time to monitor trends and identify important shifts in your customer data.\n\\- \\[Tags\\](https://docs.usepylon.com/pylon-docs/platform/tags.md): Use tags to quickly create labels to categorize issues and accounts, or to enable step-by-step workflows that fire throughout the lifecycle of an issue.\n\\- \\[Teams\\](https://docs.usepylon.com/pylon-docs/platform/teams.md): Represent your organizational structure within Pylon to set up workflows and automations\n\\- \\[Triggers\\](https://docs.usepylon.com/pylon-docs/platform/triggers.md): Set up complex workflows and automations to execute your business processes\n\\- \\[Logs & History\\](https://docs.usepylon.com/pylon-docs/platform/triggers/logs-and-history.md): Advanced tooling helps you set up, debug, and iterate on your automations.\n\\- \\[Macros\\](https://docs.usepylon.com/pylon-docs/platform/macros.md): Set up macros to simplify sending templated responses and taking common actions on customer issues.\n\\- \\[Command Search\\](https://docs.usepylon.com/pylon-docs/platform/command-search.md): Use Pylon's powerful Command Search to search, navigate, and perform commands in Pylon.\n\\- \\[Roles & User Management\\](https://docs.usepylon.com/pylon-docs/platform/roles-and-user-management.md): Create custom roles and permissions to lock down access to parts of Pylon for different users.\n\\- \\[Training Data\\](https://docs.usepylon.com/pylon-docs/platform/training-data.md): Supercharge all of Pylon's AI features by connecting training data for the AI to consume.\n\\- \\[Ask AI\\](https://docs.usepylon.com/pylon-docs/platform/ask-ai.md): Get all your questions about customers answered!\n\\- \\[MCP Connections\\](https://docs.usepylon.com/pylon-docs/platform/mcp-connections.md): Connect first party or third party tools into Pylon's AI.\n\\- \\[AI Reports\\](https://docs.usepylon.com/pylon-docs/platform/ai-reports.md): Automatically generate and send summaries and insights to specified destinations\n\\- \\[Surveys\\](https://docs.usepylon.com/pylon-docs/platform/surveys.md): Create and send out-of-the-box and customized surveys to your customers\n\\- \\[Audit Logs\\](https://docs.usepylon.com/pylon-docs/platform/audit-logs.md): View granular logging of key actions taken in Pylon to maintain an audit trail for your workspace.\n\\- \\[Languages & Localization\\](https://docs.usepylon.com/pylon-docs/platform/languages-and-localization.md): Using Pylon in different languages for both your team and your customers.\n\\- \\[Custom Objects\\](https://docs.usepylon.com/pylon-docs/platform/custom-objects.md): Represent complex data and relationships within Pylon.\n\\- \\[Overview\\](https://docs.usepylon.com/pylon-docs/ai-agents/overview.md): AI Agents can deflect customer questions using content, gather internal context for your team, and take action.\n\\- \\[Build\\](https://docs.usepylon.com/pylon-docs/ai-agents/build.md): Build your swarm of AI Agents to help augment your team.\n\\- \\[Resources\\](https://docs.usepylon.com/pylon-docs/ai-agents/build/resources.md): Give the Agent the knowledge it needs to operate.\n\\- \\[Runbooks\\](https://docs.usepylon.com/pylon-docs/ai-agents/build/runbooks.md): Give your agents manuals to execute complex procedures.\n\\- \\[Bring Your Own Agent\\](https://docs.usepylon.com/pylon-docs/ai-agents/build/bring-your-own-agent.md): Bring your own agent to connect into Pylon.\n\\- \\[Test\\](https://docs.usepylon.com/pylon-docs/ai-agents/test.md): Testing makes sure you can be confident your AI Agent will behave as you want it to.\n\\- \\[Deploy\\](https://docs.usepylon.com/pylon-docs/ai-agents/deploy.md): Unleash your AI Agent!\n\\- \\[Monitor & Iterate\\](https://docs.usepylon.com/pylon-docs/ai-agents/monitor-and-iterate.md): Inspect why the AI acted in a certain way, view analytics, and continue to improve your flywheel.\n\\- \\[Overview\\](https://docs.usepylon.com/pylon-docs/knowledge-base/overview.md): A dedicated place to host your support content, including question-and-answer style articles, internal runbooks, and more -- all supercharged with AI and tightly integrated with the Pylon platform.\n\\- \\[Articles & Collections\\](https://docs.usepylon.com/pylon-docs/knowledge-base/articles-and-collections.md): How articles and collections within the knowledge base function\n\\- \\[Editor\\](https://docs.usepylon.com/pylon-docs/knowledge-base/articles-and-collections/editor.md): How to use Pylon's WYSIWG editor to write knowledge base content\n\\- \\[Copilot\\](https://docs.usepylon.com/pylon-docs/knowledge-base/articles-and-collections/copilot.md): Use AI Assistant features to help streamline your knowledge curation.\n\\- \\[Templates\\](https://docs.usepylon.com/pylon-docs/knowledge-base/articles-and-collections/templates.md): Create templates for common article formats\n\\- \\[Collaboration\\](https://docs.usepylon.com/pylon-docs/knowledge-base/articles-and-collections/collaboration.md): Work on knowledge base content together with your team\n\\- \\[Article Review\\](https://docs.usepylon.com/pylon-docs/knowledge-base/articles-and-collections/article-review.md): Request reviews on articles before publishing to ensure content quality and accuracy.\n\\- \\[Synced Blocks\\](https://docs.usepylon.com/pylon-docs/knowledge-base/articles-and-collections/synced-blocks.md): Synced blocks let you reuse the same content across multiple knowledge base articles.\n\\- \\[Gaps\\](https://docs.usepylon.com/pylon-docs/knowledge-base/gaps.md): Discover gaps in your documentation\n\\- \\[Styling & Customization\\](https://docs.usepylon.com/pylon-docs/knowledge-base/styling-and-customization.md): Customize the look and feel of your knowledge base\n\\- \\[Custom Authentication\\](https://docs.usepylon.com/pylon-docs/knowledge-base/custom-authentication.md): Add unified sign-in between the customer portal and your product dashboard\n\\- \\[Search\\](https://docs.usepylon.com/pylon-docs/knowledge-base/search.md): Allow your team and users to search for knowledge\n\\- \\[Overview\\](https://docs.usepylon.com/pylon-docs/customer-portal/overview.md): A dedicated place for customers to view and submit tickets.\n\\- \\[Styling & Customization\\](https://docs.usepylon.com/pylon-docs/customer-portal/styling-and-customization.md): Customize the look and feel of your knowledge base\n\\- \\[Access Control\\](https://docs.usepylon.com/pylon-docs/customer-portal/access-control.md): Control who gets access to the portal and what level of access they get\n\\- \\[Portal Experience\\](https://docs.usepylon.com/pylon-docs/customer-portal/portal-experience.md): How the portal experience works for your customers\n\\- \\[Custom Authentication\\](https://docs.usepylon.com/pylon-docs/customer-portal/custom-authentication.md): Add unified sign-in between the customer portal and your product dashboard\n\\- \\[Overview\\](https://docs.usepylon.com/pylon-docs/chat-widget/overview.md): Embed chat in your dashboard to allow users to ask for help where they need it\n\\- \\[Styling\\](https://docs.usepylon.com/pylon-docs/chat-widget/styling.md): Customize your Chat Widget to look how you want\n\\- \\[Functionality\\](https://docs.usepylon.com/pylon-docs/chat-widget/functionality.md): Customize the behavior of your Chat Widget\n\\- \\[Chat Experience\\](https://docs.usepylon.com/pylon-docs/chat-widget/chat-experience.md): How the chat experience works for your customers\n\\- \\[Chat Setup\\](https://docs.usepylon.com/pylon-docs/chat-widget/chat-setup.md): How to setup Pylon's Chat Widget\n\\- \\[Identity Verification\\](https://docs.usepylon.com/pylon-docs/chat-widget/identity-verification.md): Use identity verification to secure your chat from user impersonation\n\\- \\[JavaScript API\\](https://docs.usepylon.com/pylon-docs/chat-widget/javascript-api.md): Available API methods to programmatically interface with the chat widget\n\\- \\[Mobile SDKs\\](https://docs.usepylon.com/pylon-docs/chat-widget/mobile-sdks.md): Embed Pylon's chat widget in your iOS, Android, or React Native application.\n\\- \\[Accounts\\](https://docs.usepylon.com/pylon-docs/account-intelligence/accounts.md): Track, manage, and action on all your accounts with intelligent context\n\\- \\[Views\\](https://docs.usepylon.com/pylon-docs/account-intelligence/accounts/views.md): Customize how you view and act on accounts\n\\- \\[Copilot\\](https://docs.usepylon.com/pylon-docs/account-intelligence/accounts/copilot.md): Use AI to help quickly pull up information from an account\n\\- \\[Memories\\](https://docs.usepylon.com/pylon-docs/account-intelligence/accounts/memories.md): Collect key notes about an account to keep everyone on the same page without any manual work\n\\- \\[Sidebar\\](https://docs.usepylon.com/pylon-docs/account-intelligence/accounts/sidebar.md): Everything you need to know about the account sidebar.\n\\- \\[Personal Email\\](https://docs.usepylon.com/pylon-docs/account-intelligence/accounts/personal-email.md): Connect your inbox to surface relevant emails on accounts in Pylon.\n\\- \\[Internal Channels & DMs\\](https://docs.usepylon.com/pylon-docs/account-intelligence/accounts/internal-channels-and-dms.md): Connect internal Slack channels to customer accounts to keep Pylon in sync with internal customer context and conversations.\n\\- \\[Partner Accounts\\](https://docs.usepylon.com/pylon-docs/account-intelligence/accounts/partner-accounts.md): Create partner accounts to represent agencies or consultants who work across multiple customer accounts.\n\\- \\[Subaccounts\\](https://docs.usepylon.com/pylon-docs/account-intelligence/accounts/subaccounts.md): Connect related accounts together so parent accounts automatically roll up issues and contacts from their subaccounts.\n\\- \\[Notebooks\\](https://docs.usepylon.com/pylon-docs/account-intelligence/notebooks.md): Create notebooks to see curated context on accounts for different use cases.\n\\- \\[Blocks\\](https://docs.usepylon.com/pylon-docs/account-intelligence/notebooks/blocks.md): Drag and drop blocks onto your notebook to create exactly the layout and views you want based on your use cases.\n\\- \\[Tasks & Projects\\](https://docs.usepylon.com/pylon-docs/account-intelligence/tasks-and-projects.md): Create tasks and projects in order to track work being done for customers\n\\- \\[Project Templates\\](https://docs.usepylon.com/pylon-docs/account-intelligence/tasks-and-projects/project-templates.md): Templates for projects that repeated across customers\n\\- \\[AI Tasks\\](https://docs.usepylon.com/pylon-docs/account-intelligence/tasks-and-projects/ai-tasks.md): Pylon's AI will automatically create tasks for you\n\\- \\[Views\\](https://docs.usepylon.com/pylon-docs/account-intelligence/tasks-and-projects/views.md): Customize how you view and act on accounts\n\\- \\[Activities\\](https://docs.usepylon.com/pylon-docs/account-intelligence/activities.md): See a timeline of all changes and activities for an account\n\\- \\[Custom Activities\\](https://docs.usepylon.com/pylon-docs/account-intelligence/activities/custom-activities.md): Define custom activity types to write in important account events into Pylon.\n\\- \\[Fields\\](https://docs.usepylon.com/pylon-docs/account-intelligence/fields.md): Use default and custom fields on an account to add and view additional data about accounts\n\\- \\[Formulas\\](https://docs.usepylon.com/pylon-docs/account-intelligence/fields/formulas.md): Intelligently calculated account fields to help with decisioning on accounts\n\\- \\[AI Fields\\](https://docs.usepylon.com/pylon-docs/account-intelligence/fields/ai-fields.md): Rollup qualitative data onto your account views to quickly assess accounts\n\\- \\[Web Research\\](https://docs.usepylon.com/pylon-docs/account-intelligence/fields/web-research.md): Gather customer intelligence from live web sources into your account fields.\n\\- \\[Rollups\\](https://docs.usepylon.com/pylon-docs/account-intelligence/fields/rollups.md): Aggregated fields that summarize a related set of records — counts, totals, or lists — onto a parent account.\n\\- \\[Feature Requests\\](https://docs.usepylon.com/pylon-docs/product-intelligence/feature-requests.md): Automatically extract and organize customer feedback into feature requests to share with your product team.\n\\- \\[Analytics\\](https://docs.usepylon.com/pylon-docs/reporting-and-analytics/analytics.md): View out-of-the-box analytics about customer issues\n\\- \\[Default Dashboards\\](https://docs.usepylon.com/pylon-docs/reporting-and-analytics/default-dashboards.md): Prebuilt dashboards with all your typical metrics.\n\\- \\[Custom Dashboards\\](https://docs.usepylon.com/pylon-docs/reporting-and-analytics/custom-dashboards.md): Create dedicated dashboards that display the metrics you care about.\n\\- \\[Overview\\](https://docs.usepylon.com/pylon-docs/broadcasts/overview.md): Send proactive updates to your customers\n\\- \\[Create a Broadcast\\](https://docs.usepylon.com/pylon-docs/broadcasts/create-a-broadcast.md): Instructions on how to create and send a broadcast.\n\\- \\[Analytics\\](https://docs.usepylon.com/pylon-docs/broadcasts/analytics.md): View engagement data on your broadcasts\n\\- \\[CRM\\](https://docs.usepylon.com/pylon-docs/integrations/crm.md): Sync CRM data to and from Pylon\n\\- \\[Salesforce\\](https://docs.usepylon.com/pylon-docs/integrations/crm/salesforce.md)\n\\- \\[Hubspot\\](https://docs.usepylon.com/pylon-docs/integrations/crm/hubspot.md)\n\\- \\[Attio\\](https://docs.usepylon.com/pylon-docs/integrations/crm/attio.md)\n\\- \\[Pipedrive\\](https://docs.usepylon.com/pylon-docs/integrations/crm/pipedrive.md)\n\\- \\[Ticketing\\](https://docs.usepylon.com/pylon-docs/integrations/ticketing.md): Link customer issues in Pylon with tickets in other systems.\n\\- \\[Linear\\](https://docs.usepylon.com/pylon-docs/integrations/ticketing/linear.md): Link customer issues in Pylon to issues in Linear\n\\- \\[GitHub Issues\\](https://docs.usepylon.com/pylon-docs/integrations/ticketing/github-issues.md): Link customer issues in Pylon to issues in GitHub\n\\- \\[Asana\\](https://docs.usepylon.com/pylon-docs/integrations/ticketing/asana.md): Link customer issues in Pylon to tasks in Asana\n\\- \\[Jira\\](https://docs.usepylon.com/pylon-docs/integrations/ticketing/jira.md): Link customer issues in Pylon to ticket in Jira\n\\- \\[Shortcut\\](https://docs.usepylon.com/pylon-docs/integrations/ticketing/shortcut.md): Link customer issues in Pylon to stories in Shortcut\n\\- \\[Alerting\\](https://docs.usepylon.com/pylon-docs/integrations/alerting.md): Connect Pylon to your alerting system to notify individuals about incidents.\n\\- \\[PagerDuty\\](https://docs.usepylon.com/pylon-docs/integrations/alerting/pagerduty.md): Connect Pylon to PagerDuty to create incidents.\n\\- \\[Opsgenie\\](https://docs.usepylon.com/pylon-docs/integrations/alerting/opsgenie.md): Connect Pylon to Opsgenie to create incidents.\n\\- \\[Chat\\](https://docs.usepylon.com/pylon-docs/integrations/chat.md): Connect Pylon to platforms where you talk to your customers to automatically track conversations.\n\\- \\[Slack\\](https://docs.usepylon.com/pylon-docs/integrations/chat/slack.md): Connect Pylon with Slack to automatically track customer conversations and receive notifications.\n\\- \\[Internal Threads\\](https://docs.usepylon.com/pylon-docs/integrations/chat/slack/editor.md): Internal discussions for customer conversations in Slack\n\\- \\[Collect Data\\](https://docs.usepylon.com/pylon-docs/integrations/chat/slack/collect-data.md): Collect additional structured information when a ticket is opened in Slack\n\\- \\[Support Ticket Flow\\](https://docs.usepylon.com/pylon-docs/integrations/chat/slack/support-ticket-flow.md): Enable customers to self-serve into support workflows in Slack\n\\- \\[Welcome Message\\](https://docs.usepylon.com/pylon-docs/integrations/chat/slack/welcome-message.md)\n\\- \\[Bookmarks\\](https://docs.usepylon.com/pylon-docs/integrations/chat/slack/bookmarks.md): Give customers easy access to quick links like docs or tutorials\n\\- \\[Onboard Employees\\](https://docs.usepylon.com/pylon-docs/integrations/chat/slack/onboard-employees.md): Onboard new employees into your customer channels\n\\- \\[Left Company\\](https://docs.usepylon.com/pylon-docs/integrations/chat/slack/left-company.md): Receive real-time notifications when champions leave or join your customer Slack channel\n\\- \\[Slack Community\\](https://docs.usepylon.com/pylon-docs/integrations/chat/slack/slack-community.md)\n\\- \\[Microsoft Teams\\](https://docs.usepylon.com/pylon-docs/integrations/chat/microsoft-teams.md): View, respond to, and track customer requests coming from Microsoft Teams.\n\\- \\[Discord\\](https://docs.usepylon.com/pylon-docs/integrations/chat/discord.md): View, respond to, and track customer requests coming from Discord.\n\\- \\[Telegram\\](https://docs.usepylon.com/pylon-docs/integrations/chat/telegram.md): View, respond to, and track customer requests coming from Telegram.\n\\- \\[Whatsapp\\](https://docs.usepylon.com/pylon-docs/integrations/chat/whatsapp.md): View, respond to, and track customer requests coming from WhatsApp.\n\\- \\[SMS\\](https://docs.usepylon.com/pylon-docs/integrations/chat/sms.md): View, respond to, and track customer requests coming from SMS text messages.\n\\- \\[Incident Management\\](https://docs.usepylon.com/pylon-docs/integrations/incident-management.md): Connect customer issues in Pylon to incidents in your incident tracking system.\n\\- \\[incident.io\\](https://docs.usepylon.com/pylon-docs/integrations/incident-management/incident.io.md): Connect customer issues in Pylon to incidents in incident.io.\n\\- \\[Rootly\\](https://docs.usepylon.com/pylon-docs/integrations/incident-management/rootly.md): Connect customer issues in Pylon to incidents in Rootly.\n\\- \\[Call Recording\\](https://docs.usepylon.com/pylon-docs/integrations/call-recording.md): Ingest call recordings into Pylon\n\\- \\[Gong\\](https://docs.usepylon.com/pylon-docs/integrations/call-recording/gong.md): Connect Pylon to Gong to ingest call recordings.\n\\- \\[Fathom\\](https://docs.usepylon.com/pylon-docs/integrations/call-recording/fathom.md): Connect Pylon to Fathom to ingest call recordings.\n\\- \\[Grain\\](https://docs.usepylon.com/pylon-docs/integrations/call-recording/grain.md): Connect Pylon to Grain to ingest call recordings.\n\\- \\[Granola\\](https://docs.usepylon.com/pylon-docs/integrations/call-recording/granola.md): Connect Pylon to Granola to ingest call recordings.\n\\- \\[Fireflies\\](https://docs.usepylon.com/pylon-docs/integrations/call-recording/fireflies.md): Connect Pylon to Fireflies to ingest call recordings.\n\\- \\[Circleback\\](https://docs.usepylon.com/pylon-docs/integrations/call-recording/circleback.md): Connect Pylon to Circleback to ingest call recordings.\n\\- \\[Attention\\](https://docs.usepylon.com/pylon-docs/integrations/call-recording/attention.md): Connect Pylon to Attention to ingest call recordings.\n\\- \\[Google Meet\\](https://docs.usepylon.com/pylon-docs/integrations/call-recording/google-meet.md): Connect Pylon to Google Meet to ingest call recordings.\n\\- \\[Calendar\\](https://docs.usepylon.com/pylon-docs/integrations/calendar.md): Connect Pylon to your Google or Outlook calendar to ingest meeting events.\n\\- \\[Google Calendar\\](https://docs.usepylon.com/pylon-docs/integrations/calendar/google-calendar.md): Ingest events from Google calendar\n\\- \\[Outlook Calendar\\](https://docs.usepylon.com/pylon-docs/integrations/calendar/outlook-calendar.md): Ingest events from Outlook calendar\n\\- \\[Data Warehouse\\](https://docs.usepylon.com/pylon-docs/integrations/data-warehouse.md): Sync customer issue data directly into your warehouse\n\\- \\[Snowflake\\](https://docs.usepylon.com/pylon-docs/integrations/data-warehouse/snowflake.md): Sync customer issue data into Snowflake\n\\- \\[BigQuery\\](https://docs.usepylon.com/pylon-docs/integrations/data-warehouse/bigquery.md): Sync customer issue data into BigQuery\n\\- \\[Redshift\\](https://docs.usepylon.com/pylon-docs/integrations/data-warehouse/redshift.md): Sync customer issue data into Redshift\n\\- \\[AWS S3\\](https://docs.usepylon.com/pylon-docs/integrations/data-warehouse/aws-s3.md): Sync customer issue data into AWS S3\n\\- \\[Codebase \\](https://docs.usepylon.com/pylon-docs/integrations/codebase.md): Connect development tools to Pylon so your support and success teams have technical context when helping customers.\n\\- \\[Cursor\\](https://docs.usepylon.com/pylon-docs/integrations/codebase/cursor.md): Bring the power of Cursor's codebase understanding to help you answer questions directly in Pylon.\n\\- \\[Pylon MCP\\](https://docs.usepylon.com/pylon-docs/integrations/pylon-mcp.md): Expose Pylon data to AI tools and assistants via Model Context Protocol.\n\\- \\[Security Overview\\](https://docs.usepylon.com/pylon-docs/security/security-overview.md): Learn more about Pylon's Security\n\\- \\[API\\](https://docs.usepylon.com/pylon-docs/developer/api.md): Programmatic access to read and write data in Pylon\n\\- \\[Authentication\\](https://docs.usepylon.com/pylon-docs/developer/api/authentication.md): How to authenticate with Pylon's API\n\\- \\[Errors\\](https://docs.usepylon.com/pylon-docs/developer/api/errors.md): Handling errors from Pylon's API\n\\- \\[API reference\\](https://docs.usepylon.com/pylon-docs/developer/api/api-reference.md): Documentation on available endpoints.\n\\- \\[Accounts\\](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/accounts.md)\n\\- \\[Activities\\](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/accounts/activities.md): Create custom activity types and write new activity onto accounts.\n\\- \\[Files\\](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/accounts/files.md): APIs for adding file attachments to accounts\n\\- \\[Highlights\\](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/accounts/highlights.md): APIs for adding highlights on accounts.\n\\- \\[Attachments\\](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/attachments.md)\n\\- \\[Audit Logs\\](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/audit-logs.md)\n\\- \\[Call Recordings\\](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/call-recordings.md)\n\\- \\[Contacts\\](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/contacts.md)\n\\- \\[Custom Fields\\](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/custom-fields.md)\n\\- \\[Custom Objects\\](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/custom-objects.md)\n\\- \\[Issues\\](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/issues.md)\n\\- \\[Feature Requests\\](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/feature-requests.md)\n\\- \\[Knowledge Base\\](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/knowledge-base.md)\n\\- \\[Macros\\](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/macros.md)\n\\- \\[Me\\](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/me.md)\n\\- \\[Messages\\](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/messages.md)\n\\- \\[Surveys\\](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/surveys.md)\n\\- \\[Tags\\](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/tags.md)\n\\- \\[Tasks & Projects\\](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/tasks-and-projects.md)\n\\- \\[Teams\\](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/teams.md)\n\\- \\[Ticket Forms\\](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/ticket-forms.md)\n\\- \\[Training Data\\](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/training-data.md): Endpoints for managing training data sources used by Pylon AI.\n\\- \\[User roles\\](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/user-roles.md)\n\\- \\[Users\\](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/users.md)\n\\- \\[External IDs\\](https://docs.usepylon.com/pylon-docs/developer/api/external-ids.md): Identifiers from external systems\n\\- \\[Custom Apps\\](https://docs.usepylon.com/pylon-docs/developer/custom-apps.md)\n\\- \\[Embedded Iframes\\](https://docs.usepylon.com/pylon-docs/developer/embedded-iframes.md): Pylon provides an out-of-the-box customizable iframe app that allows embedding of webpages within the issues and accounts view.\n\\- \\[Webhooks\\](https://docs.usepylon.com/pylon-docs/developer/webhooks.md): Receive webhooks for various events happening in Pylon.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:10.445240Z",
+      "section_path": "",
+      "chunk_index": 1,
+      "token_count": 7252,
+      "quality_score": 1.0
+    },
+    {
+      "id": "ev_9e5ef1f72e4d",
+      "source_type": "auth_docs",
+      "url": "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+      "domain": "docs.usepylon.com",
+      "page_title": "Authentication | Pylon",
+      "content": "For the complete documentation index, see [llms.txt](https://docs.usepylon.com/pylon-docs/llms.txt). This page is also available as [Markdown](https://docs.usepylon.com/pylon-docs/developer/api/authentication.md).\n\nThe Pylon API uses [Bearer](https://www.rfc-editor.org/rfc/rfc6750#section-2.1) authentication. This means you’ll need to pass your API token in the header of your request:\n\nCopy\n\n```\nAuthorization: Bearer <token>\n```\n\nGenerate an API token in the [Pylon dashboard](https://app.usepylon.com/settings/api-tokens).\n\nOnce creating a token, you can hit the [`/me`](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/me) endpoint to retrieve details about your organization to confirm your token is working as expected.\n\nActions performed by the token will show up with name of the token.\n\n[PreviousAPI](https://docs.usepylon.com/pylon-docs/developer/api) [NextErrors](https://docs.usepylon.com/pylon-docs/developer/api/errors)\n\nLast updated 1 year ago\n\nWas this helpful?",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:10.153226Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 248,
+      "quality_score": 0.88
+    },
+    {
+      "id": "ev_2ed468258182",
+      "source_type": "pricing_page",
+      "url": "https://www.usepylon.com/enterprise",
+      "domain": "www.usepylon.com",
+      "page_title": "Enterprise | Pylon",
+      "content": "AI Agents greet, diagnose, respond, and close — executing Runbooks for complex scenarios and escalating with full context when humans are needed.\n\n[Book a demo](https://www.usepylon.com/enterprise#)\n\n[Manage customer data with confidence](https://www.usepylon.com/enterprise#) [Handle enterprise complexity with ease](https://www.usepylon.com/enterprise#) [Do more with the team you have](https://www.usepylon.com/enterprise#) [Migrate with zero downtime, zero risk](https://www.usepylon.com/enterprise#)\n\nEnterprise-grade security and compliance that passes your toughest audits, without the procurement headaches.\n\nSOC 2 Type II, GDPR, HIPAA compliant with BAA available\n\nSSO and SCIM provisioning synced with your identity provider\n\nComprehensive audit logs and complete security documentation\n\nGranular RBAC with custom roles and PII redaction\n\nSupport multiple products, teams, regions, and customer segments on one platform.\n\nWe've migrated 300+ companies off Zendesk, Intercom, and Salesforce Service Cloud in 2025 alone.\n\nTeam SLAs and workforce management for capacity planning\n\nData warehouse sync and native integrations with your stack\n\nCustom domains and branded customer portals\n\nEnterprise analytics and reporting capabilities\n\nScale your support operations without exploding headcount. Unlike legacy platforms, Pylon AI is built in - not bolted on.\n\nAssemblyAI automatically resolves 50% of eligible tickets\n\nBuilder.io reduced automation complexity by 90% in weeks\n\nSardine supports 6x the business volume with the same team\n\nSpecialized AI agents and assistants working together to resolve, route, & triage\n\nWe've migrated 300+ companies off Zendesk, Intercom, and Salesforce Service Cloud in 2025 alone.\n\nTypical go-live in 2-4 weeks, not quarters\n\nDedicated CSM and SE specialized in migrations from day one\n\nProfessional services team for complex implementations\n\nZero downtime migrations with full data transfer\n\nExpert guidance on workflows and best practices\n\n\"We ran the same ticket through our homegrown agent and Pylon's Assist Agent. The Assist Agent did a better job — it has access to our repo and can check the real-time state of the feature the customer is asking about.\"\n\nAlexis Malveaux\n\nProduct Expert at Hex\n\n![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a4e7c71510a96556e1604a9_home-portrait.webp)\n\nProfessional Services\n\nWe can work with you to ensure successful deployment through tailored implementation support — from strategic guidance to hands-on assistance.\n\n[Talk to sales](https://www.usepylon.com/thank-you)\n\nDETAILS\n\nBest practice recommendations and architecture guidance\n\nTeam training and enablement\n\nPlatform configuration support and workflow optimization\n\nIntegration setup consultation\n\nData migration from your previous system\n\n![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a4e7d9adec4794e14807115_enterprise-cta.webp)\n\nFrequently asked questions\n\nWhat professional services are available to enterprise customers?\n\n![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a33f8e0a58c2b44b153f9e1_bar.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a33f8e0a58c2b44b153f9e1_bar.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:11.406002Z",
+      "section_path": "Why modern enterprises choose Pylon",
+      "chunk_index": 4,
+      "token_count": 800,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_1abb0e210570",
+      "source_type": "pricing_page",
+      "url": "https://www.usepylon.com/enterprise",
+      "domain": "www.usepylon.com",
+      "page_title": "Enterprise | Pylon",
+      "content": "Professional Services is available exclusively for annual Enterprise customers and requires a dedicated point of contact. The team can help with best-practice and architecture guidance, team training and enablement, platform configuration and workflow optimization, and integration setup consultation.\n\nHow does Pylon help us scale support without adding headcount?\n\n![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a33f8e0a58c2b44b153f9e1_bar.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a33f8e0a58c2b44b153f9e1_bar.svg)\n\nPylon's AI is built in, not bolted on, so specialized agents and assistants work together to resolve, route, and triage. Humans and agents collaborate rather than AI replacing your team.\n\nCan Pylon support multiple products, teams, and regions on one platform?\n\n![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a33f8e0a58c2b44b153f9e1_bar.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a33f8e0a58c2b44b153f9e1_bar.svg)\n\nYes. You can run multiple chat widgets for different products and customer segments, set team SLAs and plan capacity with workforce management, sync to your data warehouse, connect native integrations across your stack, and stand up custom domains and branded customer portals.\n\nHow long does an enterprise migration take?\n\n![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a33f8e0a58c2b44b153f9e1_bar.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a33f8e0a58c2b44b153f9e1_bar.svg)\n\nMost teams go live in two to four weeks. Pylon has migrated 300+ companies off Zendesk, Intercom, and Salesforce Service Cloud in 2025 alone, with zero downtime and full data transfer. You'll have a dedicated CSM and SE specialized in migrations from day one.\n\nWhat security and compliance standards does Pylon meet?\n\n![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a33f8e0a58c2b44b153f9e1_bar.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a33f8e0a58c2b44b153f9e1_bar.svg)\n\nPylon is SOC 2 Type II, GDPR, and HIPAA compliant, with a BAA available. It supports SSO and SCIM provisioning synced with your identity provider, comprehensive audit logs, and granular RBAC with custom roles and PII redaction.\n\nGo Agentic.\n\nPylon Workforce Management is available now. See it in action with a live demo.\n\nPylon is the only agentic support platform purpose-built for B2B.\n\nThank you! Your submission has been received!\n\nOops! Something went wrong while submitting the form.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:11.406069Z",
+      "section_path": "Why modern enterprises choose Pylon",
+      "chunk_index": 5,
+      "token_count": 636,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_2d608111cf5a",
+      "source_type": "llms_txt",
+      "url": "https://docs.usepylon.com/llms.txt",
+      "domain": "docs.usepylon.com",
+      "page_title": "llms.txt index",
+      "content": "\\# Pylon\n\n\\## Pylon",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:10.444809Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 4,
+      "quality_score": 0.7
+    },
+    {
+      "id": "ev_a5f87f735698",
+      "source_type": "llms_txt",
+      "url": "https://docs.usepylon.com/llms.txt",
+      "domain": "docs.usepylon.com",
+      "page_title": "llms.txt index",
+      "content": "\\-\\-\\-\n\n\\# Agent Instructions\nThis documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.\n\n\\## Querying This Documentation\nIf you need additional information, you can query the documentation dynamically by asking a question.\nPerform an HTTP GET request on a page URL with the \\`ask\\` query parameter:\n\\`\\`\\`\nGET https://docs.usepylon.com/pylon-docs/getting-started/quickstart.md?ask=\n\\`\\`\\`\nThe question should be specific, self-contained, and written in natural language.\nThe response will contain a direct answer to the question and relevant excerpts and sources from the documentation.\nUse this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:10.445281Z",
+      "section_path": "",
+      "chunk_index": 2,
+      "token_count": 233,
+      "quality_score": 0.7
+    },
+    {
+      "id": "ev_4593e5f25c29",
+      "source_type": "api_reference",
+      "url": "https://docs.usepylon.com/pylon-docs/developer/api/api-reference",
+      "domain": "docs.usepylon.com",
+      "page_title": "API reference | Pylon",
+      "content": "For the complete documentation index, see [llms.txt](https://docs.usepylon.com/pylon-docs/llms.txt). This page is also available as [Markdown](https://docs.usepylon.com/pylon-docs/developer/api/api-reference.md).\n\n[Accounts](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/accounts) [Activities](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/accounts/activities) [Attachments](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/attachments) [Audit Logs](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/audit-logs) [Call Recordings](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/call-recordings) [Contacts](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/contacts) [Custom Fields](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/custom-fields) [Custom Objects](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/custom-objects) [Feature Requests](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/feature-requests) [Issues](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/issues) [Knowledge Base](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/knowledge-base) [Macros](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/macros) [Me](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/me) [Messages](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/messages) [Surveys](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/surveys) [Tags](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/tags) [Tasks & Projects](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/tasks-and-projects) [Teams](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/teams) [Ticket Forms](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/ticket-forms) [Training Data](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/training-data) [User roles](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/user-roles) [Users](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/users)\n\n[PreviousErrors](https://docs.usepylon.com/pylon-docs/developer/api/errors) [NextAccounts](https://docs.usepylon.com/pylon-docs/developer/api/api-reference/accounts)\n\nLast updated 18 days ago\n\nWas this helpful?",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:10.973050Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 600,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_520116688c9a",
+      "source_type": "pricing_page",
+      "url": "https://www.usepylon.com/enterprise",
+      "domain": "www.usepylon.com",
+      "page_title": "Enterprise | Pylon",
+      "content": "![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a3154df8734ad849a557dcb_689b271e5944c1c5dd254587_anyscale.svg%20fill.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a3154dfcb8b83ceb270a9de_Union.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a3154dfeeadf5a2412a31db_689b2828ee063690ec3e4eb1_Modal.svg%20fill.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a3154dfc127b598ee880677_689b278c3253ae070077780e_cartesia.svg%20fill.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a3154ed997e0ed3a08e3a04_6981bdaa2cdd9cae96251437_Privy_Brandmark_Black.svg%20fill.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467dfc21be70f9eb1efaa6_alchemy.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467e22ba741d4601d752b2_assembly-ai.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467e52db8e9d671b2477cc_applied-nutrition.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467e63006b1534e53ca997_cognition.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467e7e093038a03037aa24_dx.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467e93b95650fda90418a5_flatfile.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467eaf870f3e1ff920ad2c_hightouch.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467ec6c5e35cb689e1b12c_loop.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467ed8a76bc52306a913a6_guru.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467ee75018e8208aad5380_deel.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467f00ba741d4601d7f70e_linear.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467f113319c4fd26308e1b_writer.svg)\n\nPylon for enterprise - YouTube\n\nTap to unmute\n\n[Pylon for enterprise](https://www.youtube.com/watch?v=HoXAYIDTi8g) [Pylon](https://www.youtube.com/channel/UCPw7E2l3NSVNALiYvAnYoSQ)\n\n![thumbnail-image](https://yt3.ggpht.com/5ie6G4ZgPj8P1JYLEgjBwItb4XKdIUqBM7sr4mp6otFL1hWcgymzYRkhElJ4tTBJPJiq9Gqr=s68-c-k-c0x00ffffff-no-rj)\n\nPylon1.28K subscribers\n\n[Watch on](https://www.youtube.com/watch?v=HoXAYIDTi8g)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:11.405879Z",
+      "section_path": "Built for enterprises. Loved by support.",
+      "chunk_index": 3,
+      "token_count": 570,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_e9383ea3b6d9",
+      "source_type": "pricing_page",
+      "url": "https://www.usepylon.com/enterprise",
+      "domain": "www.usepylon.com",
+      "page_title": "Enterprise | Pylon",
+      "content": "See how Pylon delivers security approvals, operational controls, and agentic workflows your team needs without the complexity that slows you down.\n\nThank you! Your submission has been received!\n\nOops! Something went wrong while submitting the form.\n\nTrusted by 1,500+ B2B customers globally\n\n![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a3154df8734ad849a557dcb_689b271e5944c1c5dd254587_anyscale.svg%20fill.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a3154dfcb8b83ceb270a9de_Union.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a3154dfeeadf5a2412a31db_689b2828ee063690ec3e4eb1_Modal.svg%20fill.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a3154dfc127b598ee880677_689b278c3253ae070077780e_cartesia.svg%20fill.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a3154ed997e0ed3a08e3a04_6981bdaa2cdd9cae96251437_Privy_Brandmark_Black.svg%20fill.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467dfc21be70f9eb1efaa6_alchemy.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467e22ba741d4601d752b2_assembly-ai.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467e52db8e9d671b2477cc_applied-nutrition.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467e63006b1534e53ca997_cognition.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467e7e093038a03037aa24_dx.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467e93b95650fda90418a5_flatfile.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467eaf870f3e1ff920ad2c_hightouch.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467ec6c5e35cb689e1b12c_loop.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467ed8a76bc52306a913a6_guru.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467ee75018e8208aad5380_deel.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467f00ba741d4601d7f70e_linear.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467f113319c4fd26308e1b_writer.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:11.405685Z",
+      "section_path": "Built for enterprises. Loved by support.",
+      "chunk_index": 0,
+      "token_count": 542,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_dcee3aa5beb9",
+      "source_type": "pricing_page",
+      "url": "https://www.usepylon.com/enterprise",
+      "domain": "www.usepylon.com",
+      "page_title": "Enterprise | Pylon",
+      "content": "![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a3154df8734ad849a557dcb_689b271e5944c1c5dd254587_anyscale.svg%20fill.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a3154dfcb8b83ceb270a9de_Union.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a3154dfeeadf5a2412a31db_689b2828ee063690ec3e4eb1_Modal.svg%20fill.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a3154dfc127b598ee880677_689b278c3253ae070077780e_cartesia.svg%20fill.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a3154ed997e0ed3a08e3a04_6981bdaa2cdd9cae96251437_Privy_Brandmark_Black.svg%20fill.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467dfc21be70f9eb1efaa6_alchemy.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467e22ba741d4601d752b2_assembly-ai.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467e52db8e9d671b2477cc_applied-nutrition.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467e63006b1534e53ca997_cognition.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467e7e093038a03037aa24_dx.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467e93b95650fda90418a5_flatfile.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467eaf870f3e1ff920ad2c_hightouch.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467ec6c5e35cb689e1b12c_loop.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467ed8a76bc52306a913a6_guru.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467ee75018e8208aad5380_deel.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467f00ba741d4601d7f70e_linear.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467f113319c4fd26308e1b_writer.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:11.405761Z",
+      "section_path": "Built for enterprises. Loved by support.",
+      "chunk_index": 1,
+      "token_count": 469,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_32a79e28ac23",
+      "source_type": "pricing_page",
+      "url": "https://www.usepylon.com/enterprise",
+      "domain": "www.usepylon.com",
+      "page_title": "Enterprise | Pylon",
+      "content": "![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a3154df8734ad849a557dcb_689b271e5944c1c5dd254587_anyscale.svg%20fill.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a3154dfcb8b83ceb270a9de_Union.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a3154dfeeadf5a2412a31db_689b2828ee063690ec3e4eb1_Modal.svg%20fill.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a3154dfc127b598ee880677_689b278c3253ae070077780e_cartesia.svg%20fill.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a3154ed997e0ed3a08e3a04_6981bdaa2cdd9cae96251437_Privy_Brandmark_Black.svg%20fill.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467dfc21be70f9eb1efaa6_alchemy.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467e22ba741d4601d752b2_assembly-ai.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467e52db8e9d671b2477cc_applied-nutrition.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467e63006b1534e53ca997_cognition.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467e7e093038a03037aa24_dx.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467e93b95650fda90418a5_flatfile.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467eaf870f3e1ff920ad2c_hightouch.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467ec6c5e35cb689e1b12c_loop.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467ed8a76bc52306a913a6_guru.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467ee75018e8208aad5380_deel.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467f00ba741d4601d7f70e_linear.svg)![](https://cdn.prod.website-files.com/6a2c6d7ab6674379553c0824/6a467f113319c4fd26308e1b_writer.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:11.405821Z",
+      "section_path": "Built for enterprises. Loved by support.",
+      "chunk_index": 2,
+      "token_count": 469,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_8ec7c500817c",
+      "source_type": "official_docs",
+      "url": "https://usepylon.com",
+      "domain": "usepylon.com",
+      "page_title": "Pylon | AI-native B2B Support",
+      "content": "Pylon is AI-native B2B support, across every channel.\n\nSee Pylon\n\nThank you! Your submission has been received!\n\nOops! Something went wrong while submitting the form.\n\n![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/69435ececc54841d9d054c0f_alchemy-logo-black.png)[![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/68a420c620e6b75c99443878_assembly.svg)](https://www.usepylon.com/case-study/assembly-ai) ![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6973e161f513c80f30a27450_applied.svg)\n\n[Migrated off Zendesk](https://www.usepylon.com/competitors/zendesk)\n\n![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6a186e7c119cab63a741965b_Cognition_AI_logo.png)\n\n![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/69792b696ff66fdad2ec3acc_dx.svg)![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/68a421e72d4e1419d9e6af86_flatfile%20(1).svg)[![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/68a420356832315dd490bf09_Hightouch-logo_black%20(1).svg)](https://www.usepylon.com/case-study/hightouch) [![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/694362bbf3490e75387a7d55_loop.jpg)](https://www.usepylon.com/case-study/loop)\n\n[Migrated off Intercom](https://www.usepylon.com/pylon-v-intercom)\n\n![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/68f62be65a4e23f103e7a12f_images.png)![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/694364cb318c4ef8793c98eb_Deel_Logo_1.png)![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/68e79b59808f9caa88b7829d_Frame.svg)\n\nOthers\n\n[![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/69436464a59135caa34ca0f4_writer.jpg)](https://www.usepylon.com/case-study/writer)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:10.281393Z",
+      "section_path": "Your support platform wasn't built for AI",
+      "chunk_index": 0,
+      "token_count": 441,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_8816bb81cac6",
+      "source_type": "official_docs",
+      "url": "https://usepylon.com",
+      "domain": "usepylon.com",
+      "page_title": "Pylon | AI-native B2B Support",
+      "content": "[![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a35c65ef91985c6334a6_plus.svg)\\\\\n\\\\\nEvery channel, full context\\\\\n\\\\\nSlack, Teams, WhatsApp, email — all in one place, with complete account history on every conversation.\\\\\n\\\\\nLearn More\\\\\n\\\\\n![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a82e889e17fc76a25679_chevron-right.svg)](https://www.usepylon.com/omnichannel) [![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a35c65ef91985c6334a6_plus.svg)\\\\\n\\\\\nRouting based on intent\\\\\n\\\\\nAI reads the issue, identifies the right team, and routes instantly — eliminating manual triage queues.\\\\\n\\\\\nLearn More\\\\\n\\\\\n![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a82e889e17fc76a25679_chevron-right.svg)](https://www.usepylon.com/ai-agents) [![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a35c65ef91985c6334a6_plus.svg)\\\\\n\\\\\nKnowledge automation\\\\\n\\\\\nAI finds gaps in your KB, drafts articles, and surfaces the right answer before your team has to search.\\\\\n\\\\\nLearn More\\\\\n\\\\\n![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a82e889e17fc76a25679_chevron-right.svg)](https://www.usepylon.com/ai-knowledge-management) [![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a35c65ef91985c6334a6_plus.svg)\\\\\n\\\\\nAccount Intelligence\\\\\n\\\\\nSupport conversations surface churn signals, feature requests, and renewal risk automatically.\\\\\n\\\\\nLearn More\\\\\n\\\\\n![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a82e889e17fc76a25679_chevron-right.svg)](https://www.usepylon.com/account-intelligence)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:10.281467Z",
+      "section_path": "Your support platform wasn't built for AI > Automate resolution",
+      "chunk_index": 1,
+      "token_count": 407,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_d24901be56ec",
+      "source_type": "official_docs",
+      "url": "https://usepylon.com",
+      "domain": "usepylon.com",
+      "page_title": "Pylon | AI-native B2B Support",
+      "content": "Omnichannel\n\nBring every customer conversation — Slack, WhatsApp, Email, Chat, Teams, Discord and more — into a single view.\n\n[Learn about Omnichannel Support](https://www.usepylon.com/omnichannel)\n\nManage [**Slack Connect and Community**](https://docs.usepylon.com/pylon-docs/getting-started/slack-setup) channels in Pylon\n\nSupport [**Microsoft Teams**](https://docs.usepylon.com/pylon-docs/integrations/chat/microsoft-teams) users without switching apps\n\nTrack all [**Discord**](https://docs.usepylon.com/pylon-docs/integrations/chat/discord) conversations and forums in one place\n\nAI\n\nRoute issues, identify and fill knowledge gaps, draft articles and replies, categorize tickets, surface insights across accounts, generate charts, and Ask AI any question about your customers.\n\n[Learn about AI Assistants + Agents](https://www.usepylon.com/ai-assistants)\n\n[**Automate repetitive tasks**](https://docs.usepylon.com/pylon-docs/ai-agents/overview) and ticket pre-work\n\n[**Ask AI**](https://docs.usepylon.com/pylon-docs/platform/ask-ai) anything and get answers with sources\n\nFill [**knowledge gaps**](https://docs.usepylon.com/pylon-docs/knowledge-base/knowledge-gaps) and automatically generate docs\n\nAccount Intelligence",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:10.281507Z",
+      "section_path": "Your support platform wasn't built for AI > Work faster with AI built for B2B.",
+      "chunk_index": 2,
+      "token_count": 305,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_66f740649077",
+      "source_type": "official_docs",
+      "url": "https://usepylon.com",
+      "domain": "usepylon.com",
+      "page_title": "Pylon | AI-native B2B Support",
+      "content": "Manage accounts proactively with shared context from support, success, and sales in one view.\n\n[Learn about Account Intelligence](https://www.usepylon.com/account-intelligence)\n\nTrack [**key account signals**](https://docs.usepylon.com/pylon-docs/account-intelligence/fields/ai-fields) automatically\n\nSee full [**customer context**](https://docs.usepylon.com/pylon-docs/account-intelligence/notebooks) in seconds\n\nTurn conversations into actionable [**tasks and projects**](https://docs.usepylon.com/pylon-docs/account-intelligence/tasks-and-projects)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:10.281526Z",
+      "section_path": "Your support platform wasn't built for AI > Surface the right context for each team.",
+      "chunk_index": 3,
+      "token_count": 137,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_3ec217dbcced",
+      "source_type": "official_docs",
+      "url": "https://usepylon.com",
+      "domain": "usepylon.com",
+      "page_title": "Pylon | AI-native B2B Support",
+      "content": "![](https://cdn.prod.website-files.com/6890c3359b2bc255b3a2df8c/6890c5976ec237b6465c8adc_cs-logo.avif)![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a35c65ef91985c6334a6_plus.svg)\n\n![](https://cdn.prod.website-files.com/6890c3359b2bc255b3a2df8c/6890c5976ec237b6465c8adc_cs-logo.avif)![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a35c65ef91985c6334a6_plus.svg)\n\n90%\n\n**decrease in First Response Time,** from 35 minutes to < 3.5 minutes\n\nLearn more\n\n![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a82e889e17fc76a25679_chevron-right.svg)\n\n90%\n\n**decrease in First Response Time,** from 35 minutes to < 3.5 minutes\n\nLearn more\n\n![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/689454fc37e56408159d0a5f_chevron-right.svg)\n\n90%\n\n**decrease in First Response Time,** from 35 minutes to < 3.5 minutes\n\nLearn more\n\n![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a82e889e17fc76a25679_chevron-right.svg)\n\n90%\n\n**decrease in First Response Time,** from 35 minutes to < 3.5 minutes\n\nLearn more\n\n![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a82e889e17fc76a25679_chevron-right.svg)\n\n![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)\n\n[Open Case Study](https://www.usepylon.com/case-study/sardine) Open Case Study\n\n![](https://cdn.prod.website-files.com/6890c3359b2bc255b3a2df8c/6890c5b2903d7fdbc6337824_assembly.avif)![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a35c65ef91985c6334a6_plus.svg)\n\n![](https://cdn.prod.website-files.com/6890c3359b2bc255b3a2df8c/6890c5b2903d7fdbc6337824_assembly.avif)![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a35c65ef91985c6334a6_plus.svg)\n\n50%\n\nof eligible support inquiries resolved without human intervention\n\nLearn more\n\n![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a82e889e17fc76a25679_chevron-right.svg)\n\n50%\n\nof eligible support inquiries resolved without human intervention\n\nLearn more\n\n![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/689454fc37e56408159d0a5f_chevron-right.svg)\n\n50%\n\nof eligible support inquiries resolved without human intervention\n\nLearn more\n\n![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a82e889e17fc76a25679_chevron-right.svg)\n\n50%\n\nof eligible support inquiries resolved without human intervention\n\nLearn more\n\n![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a82e889e17fc76a25679_chevron-right.svg)\n\n![](https://cdn.prod.website-files.com/6890c3359b2bc255b3a2df8c/6890c5b55062d22cb678893d_Bkg.avif)\n\n[Open Case Study](https://www.usepylon.com/case-study/assembly-ai) Open Case Study\n\n![](https://cdn.prod.website-files.com/6890c3359b2bc255b3a2df8c/698140f7b21559dc71fa7cb1_wispr.avif)![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a35c65ef91985c6334a6_plus.svg)\n\n![](https://cdn.prod.website-files.com/6890c3359b2bc255b3a2df8c/698140f7b21559dc71fa7cb1_wispr.avif)![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a35c65ef91985c6334a6_plus.svg)\n\n8x\n\nfaster resolution time, despite 76% more ticket volume\n\nLearn more\n\n![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a82e889e17fc76a25679_chevron-right.svg)\n\n8x",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:10.281581Z",
+      "section_path": "Your support platform wasn't built for AI > Learn from the best",
+      "chunk_index": 4,
+      "token_count": 826,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_ef106f37792e",
+      "source_type": "official_docs",
+      "url": "https://usepylon.com",
+      "domain": "usepylon.com",
+      "page_title": "Pylon | AI-native B2B Support",
+      "content": "faster resolution time, despite 76% more ticket volume\n\nLearn more\n\n![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/689454fc37e56408159d0a5f_chevron-right.svg)\n\n8x\n\nfaster resolution time, despite 76% more ticket volume\n\nLearn more\n\n![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a82e889e17fc76a25679_chevron-right.svg)\n\n8x\n\nfaster resolution time, despite 76% more ticket volume\n\nLearn more\n\n![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a82e889e17fc76a25679_chevron-right.svg)\n\n![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)\n\n[Open Case Study](https://www.usepylon.com/case-study/wispr-flow) Open Case Study\n\n[![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890e7fc92e7ba9b1ee7b0ec_soc.avif)![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a35c65ef91985c6334a6_plus.svg)\\\\\n\\\\\nCompliance\\\\\n\\\\\nWe are SOC 2 Type II, GDPR, ISO 27001, and HIPAA compliant.\\\\\n\\\\\nLearn more\\\\\n\\\\\n![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a82e889e17fc76a25679_chevron-right.svg)](https://www.usepylon.com/security) [![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/68a3b082ab0ff58fb6b14b9f_investor%20logos.png)![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a35c65ef91985c6334a6_plus.svg)\\\\\n\\\\\nInvestors\\\\\n\\\\\nWe've raised $50M from the best firms including a16z, Bain Capital Ventures, General Catalyst, and YC.\\\\\n\\\\\nLearn more\\\\\n\\\\\n![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a82e889e17fc76a25679_chevron-right.svg)](https://www.usepylon.com/about) [![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890e7fc6471d5175dfcc698_industry.avif)![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a35c65ef91985c6334a6_plus.svg)\\\\\n\\\\\nIndustry\\\\\n\\\\\nWe have earned dozens of badges and are rated 5 stars on G2.\\\\\n\\\\\nLearn more\\\\\n\\\\\n![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a82e889e17fc76a25679_chevron-right.svg)](https://www.g2.com/products/pylon-pylon/reviews)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:10.281619Z",
+      "section_path": "Your support platform wasn't built for AI > Security & trust",
+      "chunk_index": 5,
+      "token_count": 527,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_28d617bd251b",
+      "source_type": "official_docs",
+      "url": "https://usepylon.com",
+      "domain": "usepylon.com",
+      "page_title": "Pylon | AI-native B2B Support",
+      "content": "See how Pylon cuts the busywork and brings your support teams into one place.\n\n[Book a Demo](https://www.usepylon.com/schedule-demo)\n\nIndustry\n\n![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a35c65ef91985c6334a6_plus.svg)\n\n![](https://cdn.prod.website-files.com/6890c3359b2bc255b3a2df8c/689d2e2605464e404f7a648e_1566286290895.avif)\n\nDan Guo\n\nNovember 20, 2025\n\nLearn more\n\n![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a82e889e17fc76a25679_chevron-right.svg)\n\n[Blog post](https://www.usepylon.com/blog/customer-retention) Blog post\n\nGuides\n\n![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a35c65ef91985c6334a6_plus.svg)\n\n![](https://cdn.prod.website-files.com/6890c3359b2bc255b3a2df8c/689d2e2605464e404f7a648e_1566286290895.avif)\n\nDan Guo\n\nNovember 7, 2025\n\nLearn more\n\n![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a82e889e17fc76a25679_chevron-right.svg)\n\n[Blog post](https://www.usepylon.com/blog/effective-customer-support) Blog post\n\nIndustry\n\n![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a35c65ef91985c6334a6_plus.svg)\n\n![](https://cdn.prod.website-files.com/6890c3359b2bc255b3a2df8c/689d2e2605464e404f7a648e_1566286290895.avif)\n\nDan Guo\n\nNovember 20, 2025\n\nLearn more\n\n![](https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/6890a82e889e17fc76a25679_chevron-right.svg)\n\n[Blog post](https://www.usepylon.com/blog/customer-retention-strategy) Blog post",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:10.281648Z",
+      "section_path": "Your support platform wasn't built for AI > See our latest updates > Customer Retention Strategies and Insights To Reduce Churn",
+      "chunk_index": 6,
+      "token_count": 368,
+      "quality_score": 0.36
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Pylon is a customer support platform that integrates with various communication channels.",
+      "evidence_ids": [
+        "ev_fad14d9a2cba"
+      ]
+    },
+    "category": {
+      "value": "Support and Helpdesk",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_fad14d9a2cba"
+      ]
+    },
+    "self_serve": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_fad14d9a2cba"
+      ]
+    },
+    "api_surface": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_fad14d9a2cba"
+      ]
+    },
+    "api_breadth": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_fad14d9a2cba"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_fad14d9a2cba"
+      ]
+    },
+    "buildability": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_fad14d9a2cba"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_fad14d9a2cba"
+      ]
+    }
+  },
+  "validation": {
+    "status": "INSUFFICIENT_EVIDENCE",
+    "score": 0.12,
+    "fields_checked": 8,
+    "fields_supported": 1,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "auth_methods",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'auth_methods' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "self_serve",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'self_serve' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "api_surface",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_surface' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "api_breadth",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_breadth' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "buildability",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'buildability' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": {
+    "verified_fields": [
+      "self_serve"
+    ],
+    "corrections": {
+      "self_serve": "Gated (verified by browser)"
+    },
+    "screenshots": [],
+    "notes": ""
+  },
+  "pipeline_confidence": 0.12,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.12 below 0.90 threshold",
+      "Self-serve access model is UNKNOWN",
+      "Auth methods missing or UNKNOWN",
+      "Browser verification found discrepancies"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

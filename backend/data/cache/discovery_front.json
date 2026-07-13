@@ -1,0 +1,151 @@
+{
+  "app_name": "Front",
+  "official_domain": "front.com",
+  "homepage": {
+    "url": "https://front.com",
+    "title": "Front",
+    "confidence": 0.4,
+    "confidence_reason": [
+      "official_docs: +0.40"
+    ],
+    "is_official": true,
+    "discovered_from": "domain_probe"
+  },
+  "authentication": {
+    "primary": null,
+    "alternatives": []
+  },
+  "api_reference": {
+    "primary": {
+      "url": "https://front.com/product/integrate-with-customer-service-apps-front",
+      "title": "",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "alternatives": []
+  },
+  "pricing": {
+    "primary": {
+      "url": "https://front.com/pricing",
+      "title": "Pricing",
+      "confidence": 0.65,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "llms_txt_source: +0.05"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "alternatives": []
+  },
+  "mcp": {
+    "primary": null,
+    "alternatives": []
+  },
+  "developer_portal": {
+    "primary": {
+      "url": "https://dev.frontapp.com/docs/welcome",
+      "title": "API Documentation",
+      "confidence": 0.25,
+      "confidence_reason": [
+        "exact_slot_match: +0.20",
+        "llms_txt_source: +0.05"
+      ],
+      "is_official": false,
+      "discovered_from": "llms_txt"
+    },
+    "alternatives": []
+  },
+  "sdk": null,
+  "webhooks": null,
+  "llms_txt": {
+    "url": "https://front.com/llms.txt",
+    "title": "llms.txt index",
+    "confidence": 1.0,
+    "confidence_reason": [
+      "llms_txt_source: +0.05",
+      "official_docs: +0.40",
+      "canonical_doc: +0.10"
+    ],
+    "is_official": true,
+    "discovered_from": "llms_txt"
+  },
+  "inventory": {
+    "app_name": "Front",
+    "official_domain": "front.com",
+    "items": [
+      {
+        "url": "https://front.com",
+        "page_type": "homepage",
+        "title": "Front",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      },
+      {
+        "url": "https://front.com/pricing",
+        "page_type": "pricing",
+        "title": "Pricing",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://dev.frontapp.com/docs/welcome",
+        "page_type": "developer_portal",
+        "title": "API Documentation",
+        "confidence": 0.25,
+        "confidence_reason": [
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": false
+      },
+      {
+        "url": "https://front.com/product/integrate-with-customer-service-apps-front",
+        "page_type": "api_reference",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      }
+    ],
+    "stats": {
+      "queries": 3,
+      "urls_discovered": 4,
+      "official_urls": 3,
+      "non_official_filtered": 1,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 4
+    }
+  },
+  "stats": {
+    "queries": 3,
+    "urls_discovered": 4,
+    "official_urls": 3,
+    "non_official_filtered": 1,
+    "blog_community_filtered": 0,
+    "third_party_sdk_filtered": 0,
+    "duplicates_removed": 0,
+    "canonical_selected": 4
+  }
+}

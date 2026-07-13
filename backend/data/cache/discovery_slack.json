@@ -1,0 +1,226 @@
+{
+  "app_name": "Slack",
+  "official_domain": "slack.com",
+  "homepage": {
+    "url": "https://slack.com",
+    "title": "Slack",
+    "confidence": 0.4,
+    "confidence_reason": [
+      "official_docs: +0.40"
+    ],
+    "is_official": true,
+    "discovered_from": "domain_probe"
+  },
+  "authentication": {
+    "primary": {
+      "url": "https://slack.com/oauth",
+      "title": "",
+      "confidence": 0.6,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "alternatives": []
+  },
+  "api_reference": {
+    "primary": {
+      "url": "https://slack.com/api/reference",
+      "title": "",
+      "confidence": 0.7,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "alternatives": []
+  },
+  "pricing": {
+    "primary": {
+      "url": "https://slack.com/pricing",
+      "title": "Slack Pricing",
+      "confidence": 0.65,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "llms_txt_source: +0.05"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "alternatives": [
+      {
+        "url": "https://slack.com/enterprise",
+        "title": "Slack Enterprise",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https://slack.com/features/enterprise-search",
+        "title": "Enterprise Search",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      }
+    ]
+  },
+  "mcp": {
+    "primary": null,
+    "alternatives": []
+  },
+  "developer_portal": {
+    "primary": {
+      "url": "https://slack.com/intl/en-in/help/categories/360000049043",
+      "title": "",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "alternatives": []
+  },
+  "sdk": null,
+  "webhooks": null,
+  "llms_txt": {
+    "url": "https://slack.com/llms.txt",
+    "title": "llms.txt index",
+    "confidence": 1.0,
+    "confidence_reason": [
+      "llms_txt_source: +0.05",
+      "official_docs: +0.40",
+      "canonical_doc: +0.10"
+    ],
+    "is_official": true,
+    "discovered_from": "llms_txt"
+  },
+  "inventory": {
+    "app_name": "Slack",
+    "official_domain": "slack.com",
+    "items": [
+      {
+        "url": "https://slack.com",
+        "page_type": "homepage",
+        "title": "Slack",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      },
+      {
+        "url": "https://slack.com/pricing",
+        "page_type": "pricing",
+        "title": "Slack Pricing",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://slack.com/enterprise",
+        "page_type": "pricing",
+        "title": "Slack Enterprise",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://slack.com/features/enterprise-search",
+        "page_type": "pricing",
+        "title": "Enterprise Search",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://slack.com/oauth",
+        "page_type": "authentication",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      },
+      {
+        "url": "https://slack.com/api/reference",
+        "page_type": "api_reference",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      },
+      {
+        "url": "https://slack.com/intl/en-in/help/categories/360000049043",
+        "page_type": "developer_portal",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      }
+    ],
+    "stats": {
+      "queries": 2,
+      "urls_discovered": 7,
+      "official_urls": 7,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 5
+    }
+  },
+  "stats": {
+    "queries": 2,
+    "urls_discovered": 7,
+    "official_urls": 7,
+    "non_official_filtered": 0,
+    "blog_community_filtered": 0,
+    "third_party_sdk_filtered": 0,
+    "duplicates_removed": 0,
+    "canonical_selected": 5
+  }
+}

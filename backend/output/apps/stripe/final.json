@@ -1,0 +1,857 @@
+{
+  "app": {
+    "id": 81,
+    "name": "Stripe",
+    "website": "stripe.com/docs/api",
+    "category_hint": "Finance and Fintech"
+  },
+  "documentation_map": {
+    "app_name": "Stripe",
+    "official_domain": "stripe.com",
+    "homepage": {
+      "url": "https://stripe.com/docs/api",
+      "title": "Stripe",
+      "confidence": 0.5,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://stripe.com/authorization",
+        "title": "Payments authorization",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://stripe.com/payments/authentication",
+          "title": "Authentication",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://docs.stripe.com/api.md",
+        "title": "API Reference",
+        "confidence": 1.0,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://stripe.com/enterprise",
+        "title": "Enterprise",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://stripe.com/pricing",
+          "title": "Stripe pricing",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://stripe.com/connect/pricing",
+          "title": "Stripe Connect pricing",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://stripe.com/billing/pricing",
+          "title": "Stripe Billing pricing",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://docs.stripe.com/mcp",
+        "title": "",
+        "confidence": 0.85,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://docs.stripe.com/payments.md",
+        "title": "Stripe Payments documentation",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://docs.stripe.com/connect.md",
+          "title": "Stripe Connect documentation",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.stripe.com/payment-links.md",
+          "title": "Stripe Payment Links documentation",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.stripe.com/payments/checkout.md",
+          "title": "Stripe Checkout documentation",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "webhooks": null,
+    "llms_txt": {
+      "url": "https://stripe.com/llms.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "Stripe",
+      "official_domain": "stripe.com",
+      "items": [
+        {
+          "url": "https://stripe.com/docs/api",
+          "page_type": "homepage",
+          "title": "Stripe",
+          "confidence": 0.5,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://stripe.com/authorization",
+          "page_type": "authentication",
+          "title": "Payments authorization",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://stripe.com/payments/authentication",
+          "page_type": "authentication",
+          "title": "Authentication",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.stripe.com/payments.md",
+          "page_type": "developer_portal",
+          "title": "Stripe Payments documentation",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://stripe.com/connect/pricing",
+          "page_type": "pricing",
+          "title": "Stripe Connect pricing",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.stripe.com/connect.md",
+          "page_type": "developer_portal",
+          "title": "Stripe Connect documentation",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.stripe.com/payment-links.md",
+          "page_type": "developer_portal",
+          "title": "Stripe Payment Links documentation",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.stripe.com/payments/checkout.md",
+          "page_type": "developer_portal",
+          "title": "Stripe Checkout documentation",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.stripe.com/payments/elements.md",
+          "page_type": "developer_portal",
+          "title": "Stripe Elements documentation",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://stripe.com/billing/pricing",
+          "page_type": "pricing",
+          "title": "Stripe Billing pricing",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.stripe.com/billing.md",
+          "page_type": "developer_portal",
+          "title": "Stripe Billing documentation",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://stripe.com/invoicing/pricing",
+          "page_type": "pricing",
+          "title": "Stripe Invoicing pricing",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.stripe.com/invoicing.md",
+          "page_type": "developer_portal",
+          "title": "Stripe Invoicing documentation",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://stripe.com/tax/pricing",
+          "page_type": "pricing",
+          "title": "Stripe Tax pricing",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.stripe.com/tax.md",
+          "page_type": "developer_portal",
+          "title": "Stripe Tax documentation",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.stripe.com/atlas.md",
+          "page_type": "developer_portal",
+          "title": "Stripe Atlas documentation",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.stripe.com/terminal.md",
+          "page_type": "developer_portal",
+          "title": "Stripe Terminal documentation",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://stripe.com/radar/pricing",
+          "page_type": "pricing",
+          "title": "Stripe Radar pricing",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.stripe.com/radar.md",
+          "page_type": "developer_portal",
+          "title": "Stripe Radar documentation",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.stripe.com/issuing.md",
+          "page_type": "developer_portal",
+          "title": "Stripe Issuing documentation",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.stripe.com/revenue-recognition.md",
+          "page_type": "developer_portal",
+          "title": "Stripe Revenue Recognition documentation",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.stripe.com/identity.md",
+          "page_type": "developer_portal",
+          "title": "Stripe Identity documentation",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.stripe.com/financial-connections.md",
+          "page_type": "developer_portal",
+          "title": "Stripe Financial Connections documentation",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.stripe.com/treasury.md",
+          "page_type": "developer_portal",
+          "title": "Stripe Treasury documentation",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.stripe.com/capital/how-stripe-capital-works.md",
+          "page_type": "developer_portal",
+          "title": "Stripe Capital documentation",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.stripe.com/stripe-data/access-data-in-warehouse.md",
+          "page_type": "developer_portal",
+          "title": "Stripe Data Pipeline documentation",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.stripe.com/stripe-data/access-data-in-dashboard.md",
+          "page_type": "developer_portal",
+          "title": "Stripe Sigma pricing",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.stripe.com/climate.md",
+          "page_type": "developer_portal",
+          "title": "Stripe Climate documentation",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://stripe.com/enterprise",
+          "page_type": "pricing",
+          "title": "Enterprise",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.stripe.com/llms.txt",
+          "page_type": "developer_portal",
+          "title": "Stripe Documentation",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.stripe.com/api.md",
+          "page_type": "api_reference",
+          "title": "API Reference",
+          "confidence": 1.0,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.stripe.com/testing.md",
+          "page_type": "developer_portal",
+          "title": "Testing",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.stripe.com/payouts.md",
+          "page_type": "developer_portal",
+          "title": "Receive payouts",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.stripe.com/products.md",
+          "page_type": "developer_portal",
+          "title": "Product documentation",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://stripe.com/pricing",
+          "page_type": "pricing",
+          "title": "Stripe pricing",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.stripe.com/mcp",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.85,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 1,
+        "urls_discovered": 36,
+        "official_urls": 36,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 6
+      }
+    },
+    "stats": {
+      "queries": 1,
+      "urls_discovered": 36,
+      "official_urls": 36,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 6
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_1ad19b2488af",
+      "source_type": "auth_docs",
+      "url": "https://stripe.com/authorization",
+      "domain": "stripe.com",
+      "page_title": "Stripe Authorisation Boost | Increase Your Authorisation Rates",
+      "content": "Increase acceptance rates by 3.8% on average with Authorisation Boost, which combines Stripe's AI-powered acceptance optimisations into one product. Businesses on custom interchange pricing can also lower card processing costs by up to 3.3%.\nRecover false declines with real-time retries and maximise acceptance using issuer-optimised preferences.\nReduce costs with network tokens and AI-powered optimisations, such as decline prevention and excessive retry prevention.\nAutomatically keep card information up-to-date, even if a card has been replaced, and retry false declines to mitigate involuntary churn.\nGet a comprehensive view of your payments performance, including insights and recommendations.\nTrained on billions of transactions, Stripe's Payments Foundation Model uses self-supervised learning to improve the performance of products such as Authorisation Boost by capturing and analysing hundreds of subtle signals about each payment.\nincrease in revenue on average\nIdentify and retry false declines in real time before customers see a declined payment. Authorisation Boost pairs decline data with hundreds of signals across the Stripe network, recovering 20% of false declines on average.\nIncrease the likelihood of payments acceptance with issuer-optimised messaging and formatting. Authorisation Boost automatically adjusts authorisation requests based on issuer preferences to help increase your authorisation rates.\nBusinesses on IC+ pricing can lower their costs with AI that prevents excessive retries and costly declines, and access network tokens savings.\npotential reduction in processing costs with custom IC+ pricing\nPredict and proactively decline charges most likely to be rejected, while balancing impact to your auth rates.\nAvoid network penalties by automatically preventing excessive retries and declining previously rejected charges.\nTap into possible interchange rate and scheme fee reductions with network tokens.\nMitigate involuntary churn with features that keep customers’ payment information up-to-date, even if a card has been replaced since their last interaction.\nStripe's AI determines when to retry a transaction using a network token versus the primary account number to improve acceptance rates. Businesses can use Stripe to provision tokens or bring external tokens for processing.\nCard account updater accesses updated card information in real time to prevent payment failures.\nStripe supports card account updater on Visa, Mastercard, American Express and Discover volume – including cross-brand updates.\n- \n  \n    \n  \n  \n    View payments performance and access insights in one place \n- \n  \n    \n  \n  \n    Get recommendations to improve performance and increase revenue \n- \n  \n    \n  \n  \n    Receive AI-driven anomaly alerts for sudden changes in payments performance \nRead the full storyTwilio SendGrid increased conversion by 2% with Stripe's Authorisation Boost, including Adaptive Acceptance, network tokens and card account updater.\n, \nRead the full storyWith Stripe managing both one-time payments and recurring subscriptions, CLEAR has achieved higher conversion rates. Stripe's card account updater and network tokenisation help CLEAR protect revenue, increase authorisation rates and reduce churn caused by changes in customers' credit cards.\nWith Stripe's Authorisation Boost, Notion has increased acceptance rates by 1.9%, helping us ensure our users stay subscribed without payment friction, and letting us stay focused on building the connected workspace where teams do their best thinking and most meaningful work.\n, Head of Revenue Accounting, Notion \nStripe's cost optimisations have delivered best-in-class network savings for US Mobile, enabling us to reduce network costs by over 2% and focus on building the best wireless service for our customers.\n, Chief Accounting Officer \nAuthorisation Boost is part of the Payments Intelligence Suite, an AI-powered set of payment optimisations, fraud prevention and business intelligence products that easily balance across authorisation, fraud and costs.\n      \n        Authentication\n      \n    \n  Stripe automatically requests SCA exemptions where available and authenticates your customers only when necessary to reduce friction.\n      \n        Radar\n      \n    \n  Detect and reduce fraud by 38% on average with Radar's AI models and approve more legitimate transactions.\n      \n        Dispute management\n      \n    \n  Unify dispute management with automated end-to-end solutions, stay out of card brand monitoring programmes and automate evidence submission with Smart Disputes.\nStripe has direct connections to card networks to ensure our data is as rich as possible. Our industry-first Enhanced Issuer Network enables card issuers to make more informed decisions about whether to authorise transactions.\n- Comprises several major US and European issuers, including Capital One, Discover and American Express\n- Provides issuers with secure access to transaction fraud scores from Radar\n- Helps businesses achieve a 1%-2% authorisation rate uplift on eligible volume and up to 8% reduction in fraud\n- Connect to Visa, Mastercard, Discover, American Express and local networks through a single integration\n- Improve reliability through Stripe's direct integrations with global card networks and issuers\nOur team is made up of veterans from financial networks, consultancies, leading brands and industry groups. We can advise on changing regulations and provide engineering assistance to optimise your setup for conversion. Consider Stripe your advocate for concerns related to card networks and other financial partners.\nIncrease acceptance rates and reduce network costs with AI-powered payment optimisations, inclusive of Adaptive Acceptance, card account updater and network tokens.\nwith Stripe Payments\n  \n    \n      \n      \n  \n  0.2% per successful online card transaction for accounts with custom payments pricing\n  \n  \n  \n  \n- Machine learning to increase acceptance rates\n- Optimised messaging, formatting and retries\nin Authorisation Boost\n  \n    \n      \n      \n  \n  0.08% per successful online card transaction without Authorisation Boost and with custom payments pricing\n  \n  \n  \n  \n- Card information updated in real time to reduce payment failures\n- Support for major card networks.\nin Authorisation Boost\n  \n    \n      \n      \n  \n  25¢ per update for accounts without Authorisation Boost and with custom payments pricing\n  \n  \n  \n  \n- More secure payment credentials that are a substitute for card numbers, stay updated and increase acceptance rates\n- Support for major card networks.\nin Authorisation Boost\n  \n    \n      \n      \n  \n  15¢ per token provisioned for accounts without Authorisation Boost and with custom interchange pricing \n  \n  \n  \n  \n  \n  \n  \n        \n            Guide\n          \n      \n  \n      \n        Optimising payments at scale\n        \n          \n        \n          Learn how Stripe applies AI at every stage of the payment lifecycle, from checkout to disputes.\n        \n      \n  \n  \n  \n        \n            Blog\n          \n      \n  \n      \n        Using AI to optimise payments performance\n        \n          \n        \n          Learn how Stripe uses AI to enhance your payments experience, from checkout to fraud prevention and dispute management.\n        \n      \n  \n  \n  \n        \n            Report\n          \n      \n  \n      \n        How AI is transforming payments\n        \n          \nLearn how AI can be used to optimise each stage of the payment lifecycle to turn payments into a revenue growth driver.\n        \n      Make the most of every customer interaction.\nOptimise every stage of the payments lifecycle with AI.\nAccept payments online, in-person, and around the world.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:13:05.803652Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 1933,
+      "quality_score": 0.76
+    },
+    {
+      "id": "ev_a63dc3526a21",
+      "source_type": "pricing_page",
+      "url": "https://stripe.com/enterprise",
+      "domain": "stripe.com",
+      "page_title": "Enterprise Payment Solutions for Large Businesses | Stripe",
+      "content": "Leading enterprises use Stripe to revolutionise their business – from Amazon’s rapid expansion into global markets to BMW’s re-imagination of the customer experience.\n    \n  \n  \n  \n    \n  \n  \nPanel discussion\n    AI enhancements to Adaptive Acceptance\n    News\n    Businesses on Stripe generated $1.9 trillion in total volume\n    Stories\n    URBN consolidates $5 billion in online and in-store revenue onto Stripe\n    Report\n    Stripe named a Leader for its Billing product\n    \n      Expand and win in every market with optimised checkout and payments.\n    \n  \n  \n  \n  \n      Optimise conversion by automatically surfacing the highest converting payment methods for every customer and enabling a one-click checkout.\n    \n  \n  \n  \n    \n  \n  \n      Build a custom in-person checkout with a toolkit of APIs and SDKs, pre-certified readers, Tap to Pay, and configurable on-reader interactions.\n    \n  \n  \n  \n    \n  \n  \n      Maximise revenue and reduce card processing costs with real-time retries, optimised messaging and formatting, card lifecycle management, decline prevention and excessive retry prevention.\n    \n  \n  \n  \n    \n  \n  \n      Reinvent business models or monetize financial services on your platform.\n    \n  \n  \n  \n  \n      Embed payments into your platform with user onboarding, multiparty fund flows, payouts, managed risk and support, and monetisation.\n    \n  \n  \n  \n    \n  \n  \n      Use Stripe's embedded finance solutions to diversify revenue streams by offering your users access to card issuing, financial accounts and business financing.\n    \n  \n  \n  \n    \n  \n  \n      Automate revenue and finance workflows to move your back office forward.\n    \n  \n  \n  \n  \n      Generate more revenue and reduce churn with invoicing, subscriptions, and usage-based billing.\n    \n  \n  \n  \n    \n  \n  \n      Automatically monitor, calculate, and collect sales tax in 100+ markets.\n    \n  \n  \n  \n    \n  \n  \n      Eliminate manual work to streamline accounting and consolidate your data for precise decision-making.\n    \n  \n  \n  \n    \n  \n  \n      \n        \n          \n        \n        \n          \n        \n      \n      /\n      \n    \n    \n  \n        99.999%\n      \n      historical uptime for Stripe services\n        50+\n      \n      category leaders processing over $1B in annual payment volume on Stripe\n        250M+\n      \n      API requests per day processed by Stripe\n      Market insights, trends, and reports to keep you on the cutting edge of financial technology.\n    \n  \n  \n  \n  \n  \n  \n  Online event\n  \n  \n  \n  \n    \n      \n      \n      \n      \n        \n          How Zoom and Wix build exceptional customer experiences in a fast-paced market\n        \n      \n      \n     \n  \n  \n     \n      \n      Hear how enterprise executives are overcoming institutional risk aversion, brittle systems, and a bias toward the status quo to foster an innovative culture.\n    \n  \n  \n  \n    \n  \n  \n  \n  \n  Report\n  \n  \n  \n  \n    \n      \n      \n      \n      \n        \n          Four ways modern payment systems drive growth\n        \n      \n      \n     \n  \n  \n     \n      \n      Learn how brands like Toyota, Alaska Airlines, and River Island are transforming their payments strategy to stay competitive.\n    \n  \n  \n  \n    \n  \n  \n  \n  \n  Guide\n  \n  \n  \n  \n    \n      \n      \n      \n      \n        \n          Guide to payments provider RFPs\n        \n      \n      \n     \n  \n  \n     \n      \n      Evaluate payment providers, including overlooked capabilities and important questions to ask, and get a downloadable RFP template.\n    \n  \n  \n  \n    \n  \n  \n  \n  \n  Report\n  \n  \n  \n  \n    \n      \n      \n      \n      \n        \n          How to increase revenue with an optimised checkout\n        \n      \n      \n     \n  \n  \n     \n      \n      Read about how businesses using Stripe’s Optimized Checkout Suite achieved 11.9% more revenue on average.\n    \n  \n  \n  \n    \n  \n  \n  \n  \n  Report\n  \n  \n  \n  \n    \n      \n      \n      \n      \n        \n          Stripe named a Leader in Payments\n        \n      \n      \n     \n  \n  \n     \n      \n      According to the IDC MarketScape evaluation, “merchants of all sizes can benefit from Stripe’s wide range of products and services.”\n    \n  \n  \n  \n    \n  \n  \n  \n  \n  Report\n  \n  \n  \n  \n    \n      \n      \n      \n      \n        \n          Stripe named a Leader in Billing\n        \n      \n      \n     \n  \n  \n     \n      According to The Forrester Wave™, “Along with Stripe Payments’ synergies, Stripe Billing’s architecture and reliability are its key strengths.”\n    \n  \n  \n  \n    \n  \n  \nSimplify operations and centralise reporting across business lines and geographies with Stripe Organisations.\n      Speak to an expert for tailored solutions and custom pricing for your business.\n    \n  \n  \n  \n    \n  \n  \n- Interchange plus pricing\n- Volume discounts\n- Country-specific rates\n- Multi-product discounts\n- Deployment services\n- Technical account management",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:13:07.978392Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 1220,
+      "quality_score": 0.76
+    },
+    {
+      "id": "ev_3e0b2a3c4603",
+      "source_type": "official_docs",
+      "url": "https://stripe.com/docs/api",
+      "domain": "stripe.com",
+      "page_title": "Stripe API Reference",
+      "content": "The Stripe API is organized around REST. Our API has predictable resource-oriented URLs, accepts form-encoded request bodies, returns JSON-encoded responses, and uses standard HTTP response codes, authentication, and verbs.\nYou can use the Stripe API in sandboxes without affecting your live data or interacting with banking networks. The API key that you use to authenticate the request determines whether the request runs in live mode or in a sandbox. Sandboxes support all v2 APIs. Test mode sandboxes support some v2 APIs.\nThe Stripe API doesn’t support bulk updates. You can work on only one object per request.\nThe Stripe API differs for every account as we release new versions and tailor functionality. Log in to see docs with your test key and data.\nJust getting started?\nCheck out our development quickstart guide.\nNot a developer?\nUse Stripe’s no-code options or apps from our partners to get started with Stripe and to do more with your Stripe account—no code required.\nThe Stripe API uses API keys to authenticate requests. You can view and manage your API keys in the Stripe Dashboard.\nTest mode secret keys start with sk_ and have unrestricted access to their sandboxes. In live mode, you configure a restricted API key (starts with rk_) with specific API permissions. Using a restricted API key with only a subset of API permissions limits the damage a bad actor could cause if they obtained the key. In both test mode and live mode, you can create as many restricted API keys as you need for different use cases or components of your application. We also create a live mode secret key (starts with sk_) that grants access to all Stripe API resources. To protect your business, use restricted API keys instead.\nYour API keys carry many privileges. Follow best practices to keep your keys safe. Don’t embed secret or restricted API keys in source code or client-side applications. Instead, use your server platform’s secrets vault to provide keys to your server-side applications. If your platform doesn’t offer a secrets vault, set your keys in environment variables.\nMake all API requests over HTTPS. Calls made over plain HTTP fail. API requests without authentication also fail.\nA sample test API key is included in all the examples here, so you can test any example right away. Do not submit any personally identifiable information in requests made with this key.\nTo test requests using your account, replace the sample API key with your actual API key or sign in.\nStripe uses conventional HTTP response codes to indicate the success or failure of an API request. In general: Codes in the 2xx range indicate success. Codes in the 4xx range indicate an error that failed given the information provided (e.g., a required parameter was omitted, a charge failed, etc.). Codes in the 5xx range indicate an error with Stripe’s servers (these are rare).\nSome 4xx errors that could be handled programmatically (e.g., a card is declined) include an error code that briefly explains the error reported.\nAttributes\n- codenullable stringFor some errors that could be handled programmatically, a short string indicating the error code reported. \n- decline_codenullable string For card errors resulting from a card issuer decline, a short string indicating the card issuer’s reason for the decline if they provide one. \n- messagenullable stringA human-readable message providing more details about the error. For card errors, these messages can be shown to your users. \n- paramnullable stringIf the error is parameter-specific, the parameter related to the error. For example, you can use this to display a message near the correct form field. \n- payment_intentnullable object The PaymentIntent object for errors returned on a request involving a PaymentIntent. \n- typeenumThe type of error returned. One of api_,error card_,error idempotency_, orerror invalid_request_ error Possible enum valuesapi_error card_error idempotency_error invalid_request_ error \nMore\n- advice_codenullable string \n- chargenullable string\n- doc_urlnullable string \n- network_advice_ codenullable string \n- network_decline_ codenullable string \n- payment_methodnullable object \n- payment_method_ typenullable string \n- request_log_ urlnullable string \n- setup_intentnullable object \n- sourcenullable object\n| 200 | OK | Everything worked as expected. | \n| 400 | Bad Request | The request was unacceptable, often due to missing a required parameter. | \n| 401 | Unauthorized | No valid API key provided. | \n| 402 | Request Failed | The parameters were valid but the request failed. | \n| 403 | Forbidden | The API key doesn’t have permissions to perform the request. | \n| 404 | Not Found | The requested resource doesn’t exist. | \n| 409 | Conflict | The request conflicts with another request (perhaps due to using the same idempotent key). | \n| 424 | External Dependency Failed | The request couldn’t be completed due to a failure in a dependency external to Stripe. | \n| 429 | Too Many Requests | Too many requests hit the API too quickly. We recommend an exponential backoff of your requests. | \n| 500, 502, 503, 504 | Server Errors | Something went wrong on Stripe’s end. (These are rare.) | \n| api_ | API errors cover any other type of problem (e.g., a temporary problem with Stripe’s servers), and are extremely uncommon. | \n| card_ | Card errors are the most common type of error you should expect to handle. They result when the user enters a card that can’t be charged for some reason. | \n| idempotency_ | Idempotency errors occur when an Idempotency-Keyis re-used on a request that does not match the first request’s API endpoint and parameters. | \n| invalid_ | Invalid request errors arise when your request has invalid parameters. |",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:13:06.348391Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 1431,
+      "quality_score": 0.6
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Stripe is a payment processing platform that helps businesses manage online payments.",
+      "evidence_ids": [
+        "ev_1ad19b2488af"
+      ]
+    },
+    "category": {
+      "value": "Finance and Fintech",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "API Key",
+      "evidence_ids": [
+        "ev_3e0b2a3c4603"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_a63dc3526a21"
+      ]
+    },
+    "api_surface": {
+      "value": "REST",
+      "evidence_ids": [
+        "ev_3e0b2a3c4603"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_3e0b2a3c4603"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_1ad19b2488af"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_3e0b2a3c4603"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_3e0b2a3c4603"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.75,
+    "fields_checked": 8,
+    "fields_supported": 6,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.75,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.75 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

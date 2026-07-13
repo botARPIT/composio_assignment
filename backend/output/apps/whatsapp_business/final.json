@@ -1,0 +1,645 @@
+{
+  "app": {
+    "id": 28,
+    "name": "WhatsApp Business",
+    "website": "developers.facebook.com/docs/whatsapp",
+    "category_hint": "Communications and Messaging"
+  },
+  "documentation_map": {
+    "app_name": "WhatsApp Business",
+    "official_domain": "developers.facebook.com",
+    "homepage": {
+      "url": "https://developers.facebook.com/docs/whatsapp",
+      "title": "WhatsApp Business",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": null,
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/reference/llms.txt",
+        "title": "API References llms.txt",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing",
+        "title": "Pricing on the WhatsApp Business Platform",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": null,
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/llms.txt",
+        "title": "All Guides & Docs llms.txt",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://developers.meta.com",
+          "title": "",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": false,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "webhooks": null,
+    "llms_txt": {
+      "url": "https://developers.facebook.com/llms.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "WhatsApp Business",
+      "official_domain": "developers.facebook.com",
+      "items": [
+        {
+          "url": "https://developers.facebook.com/docs/whatsapp",
+          "page_type": "homepage",
+          "title": "WhatsApp Business",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/llms.txt",
+          "page_type": "developer_portal",
+          "title": "All Guides & Docs llms.txt",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/reference/llms.txt",
+          "page_type": "api_reference",
+          "title": "API References llms.txt",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.meta.com",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing",
+          "page_type": "pricing",
+          "title": "Pricing on the WhatsApp Business Platform",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 4,
+        "urls_discovered": 5,
+        "official_urls": 4,
+        "non_official_filtered": 1,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 4
+      }
+    },
+    "stats": {
+      "queries": 4,
+      "urls_discovered": 5,
+      "official_urls": 4,
+      "non_official_filtered": 1,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 4
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_d2fe8035b263",
+      "source_type": "llms_txt",
+      "url": "https://developers.facebook.com/llms.txt",
+      "domain": "developers.facebook.com",
+      "page_title": "llms.txt index",
+      "content": "\\# llms.txt for developers.facebook.com\n\\# See https://llmstxt.org/ for specification\n\n\\> Facebook Developer Documentation\n\nThis site contains developer documentation for Facebook platforms and APIs.\n\n\\## Documentation Sections\n\n\\- /docs/ - API and SDK documentation\n\\- /blog/ - Developer blog and announcements\n\\- /tools/ - Developer tools and utilities\n\\- /products/ - Product documentation\n\n\\## WhatsApp Cloud API Guides & Documentation\n\n\\- \\[All Guides & Docs llms.txt\\](https://developers.facebook.com/documentation/business-messaging/whatsapp/llms.txt): Full index of WhatsApp Cloud API guides and documentation\n\\- \\[API References llms.txt\\](https://developers.facebook.com/documentation/business-messaging/whatsapp/reference/llms.txt): Full index of WhatsApp Cloud API endpoint reference docs\n\n\\## Additional Resources\n\n\\- https://developers.meta.com - Meta Developer Platform\n\\- https://ai.meta.com - Meta AI\n\\- https://llama.meta.com - Llama models\n\n\\## Meta Marketing API\n\nGuidelines for AI agents and automated tools using the Meta Marketing API (Graph API) and Ads MCP Server.\n\n\\### Agent Self-Identification\n\nInclude structured identification in your User-Agent HTTP header on all requests.\n\nFormat: / ()\n\nExamples:\n User-Agent: MyAdBot/1.3 (GPT-4o) python-requests/2.31.0\n User-Agent: CampaignAgent/2.0 (Claude-Sonnet-4) axios/1.7.2\n User-Agent: AdOptimizer/0.9 (Gemini-2.5-Flash) curl/8.4.0\n\nFields:\n\\- AgentName (required): Your agent or product name. Be consistent across requests.\n\\- Version (required): Semantic version of your agent.\n\\- ModelName (recommended): LLM model powering the agent. Omit if unknown.\n\\- HTTPClient (existing): Keep your HTTP library's default UA string.\n\nRules:\n\\- Append agent info to the existing User-Agent. Do not replace it.\n\\- Use the same agent name on every request. Do not randomize.\n\\- Do not impersonate other agents.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:09.679877Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 468,
+      "quality_score": 0.9
+    },
+    {
+      "id": "ev_54dfb99cac0e",
+      "source_type": "pricing_page",
+      "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing",
+      "domain": "developers.facebook.com",
+      "page_title": "Pricing on the WhatsApp Business Platform | Developer Documentation",
+      "content": "Starting October 1, 2025, an [account\\_update](https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/reference/account_update) webhook with `event` set to `VOLUME_BASED_PRICING_TIER_UPDATE` will be triggered when your WhatsApp Business account reaches a new volume tier, in any market, in a given month. This complements our [pricing\\_analytics](https://developers.facebook.com/documentation/business-messaging/whatsapp/analytics#pricing-analytics) endpoint, which will continue to provide intra-month tiering progress and tiering information for delivered messages.\n\nExample webhook:\n\n```\n{\n  \"object\": \"whatsapp_business_account\",\n  \"entry\": [\\\n    {\\\n      \"id\": \"102290129340398\",\\\n      \"time\": 1743451903,\\\n      \"changes\": [\\\n        {\\\n          \"value\": {\\\n            \"volume_tier_info\": {\\\n                \"tier_update_time\": 1743451903,\\\n                \"pricing_category\": \"UTILITY\",\\\n                \"tier\": \"25000001:50000000\",\\\n                \"effective_month\": \"2025-11\",\\\n                \"region\": \"India\"\\\n            },\\\n            \"event\": \"VOLUME_BASED_PRICING_TIER_UPDATE\"\\\n          },\\\n          \"field\": \"account_update\"\\\n        }\\\n      ]\\\n    }\\\n  ]\n}\n```\n\n`tier_update_time` tells when your WABA reached a higher volume tier (Unix timestamp).\n`pricing_category` tells you the template category (`UTILITY` or `AUTHENTICATION`) for which your new volume tier rate applies.\n`tier` tells you the new volume tier’s lower and upper bounds.\n`effective_month` tells you the month in which your new volume tier rate is in effect.\n`region` tells you the WhatsApp user country/region for which your new volume tier rate applies.\n\nNote that it’s possible for multiple [account\\_update](https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/reference/account_update) webhooks to be triggered that describe the same tier switch event. In these cases, use the webhook with the smaller `tier_update_time` Unix timestamp as the official webhook.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:11.155481Z",
+      "section_path": "Pricing on the WhatsApp Business Platform > Volume tiers > Tiering webhooks",
+      "chunk_index": 14,
+      "token_count": 504,
+      "quality_score": 0.84
+    },
+    {
+      "id": "ev_6d9732b54055",
+      "source_type": "pricing_page",
+      "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing",
+      "domain": "developers.facebook.com",
+      "page_title": "Pricing on the WhatsApp Business Platform | Developer Documentation",
+      "content": "Updated: Jul 1, 2026\n\nCopy for LLM\n\n[View as Markdown](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing.md)\n\nThis document explains how pricing works on the WhatsApp Business Platform.\n\nPricing updates for Meta Business Agent, service, and utility messages will launch on August 1, 2026 and October 1, 2026. [Learn more](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing/non-template-messages).\n\nEffective July 1, 2025, Meta charges on a **per-message basis** for messages businesses deliver to WhatsApp users:\n\nYou are only charged when a [template message](https://developers.facebook.com/documentation/business-messaging/whatsapp/templates/overview) is _delivered_ (`\"type\":\"template\"`).\nRates vary based on the template’s [category](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing#message-template-categories) and the recipient WhatsApp phone number’s [country calling code](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing#country-calling-codes).\n\nMeta offers value to businesses in the following ways:\n\nAs of November 1, 2024 - Meta does not charge for [non-template messages](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing#non-template-messages) (`\"type\":\"text\"`, `\"type\":\"image\"`, and so on). Non-template messages can only be sent within an open [customer service window](https://developers.facebook.com/documentation/business-messaging/whatsapp/messages/send-messages#customer-service-windows). See [Sending messages](https://developers.facebook.com/documentation/business-messaging/whatsapp/messages/send-messages#sending-messages) for a list of message types.\nAs of July 1, 2025 - Meta does not charge for [utility templates in response to users](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing#Utility-template-messages-in-response-to-users) (delivered within an open customer service window).\nAs of July 1, 2025 - You can unlock [lower rates](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing#volume-tiers) for utility and authentication template messages, based on messaging volume.\nFree entry point window - All messages, including template messages, are free for 72 hours, if sent within an open [free entry point window](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing#free-entry-point-windows).",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:11.153997Z",
+      "section_path": "Pricing on the WhatsApp Business Platform > Cloud API and Marketing Messages API for WhatsApp",
+      "chunk_index": 0,
+      "token_count": 620,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_109a400507d6",
+      "source_type": "pricing_page",
+      "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing",
+      "domain": "developers.facebook.com",
+      "page_title": "Pricing on the WhatsApp Business Platform | Developer Documentation",
+      "content": "The pricing explainer PDF outlines how Meta charges businesses, in PDF form:\n\n[Pricing Explainer PDF](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-2.xx.fbcdn.net%2Fv%2Ft39.2365-6%2F506409115_515804291560768_5477144239594007982_n.pdf%3F_nc_cat%3D111%26ccb%3D1-7%26_nc_sid%3De280be%26_nc_ohc%3DkH028x_IuUgQ7kNvwG15YIk%26_nc_oc%3DAdpfnkwYPnTzmbEqbc2Hj58UG5icQ9nlzalu-mAVrqM8Cln74FqNbBRzR_n1CxP30lU%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-2.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQBYz5z5Rf4WZCLJxpdtPKOskh2-028lzPKhdPUzkE2l7g%26oe%3D6A6F877A&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg)\n\nUnlike non-template messages, template messages are the only message type that can be sent outside of a customer service window. Templates can be categorized as:\n\nMarketing\nUtility\nAuthentication\n\nSee [Template categorization](https://developers.facebook.com/documentation/business-messaging/whatsapp/templates/template-categorization) to learn how template categorization works.\n\n![Diagram showing template messages vs non-template messages pricing](https://scontent-lax3-1.xx.fbcdn.net/v/t39.2365-6/571069280_1541820816822527_6328052606712176022_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=ReMmCYwugiQQ7kNvwHgWqzx&_nc_oc=AdqGmCoQCAiBu-k2gx-Ht4Snsb8NgUxf0OWWZ0VHLTuO-Z-z111cyao-BpixYW-UNYo&_nc_zt=14&_nc_ht=scontent-lax3-1.xx&_nc_gid=L5FrbgzAnG1JCCTddUVAig&_nc_ss=7b289&oh=00_AQDbVk1T5ppEaiC6BDvD0Kj319i4FyQ0oU6k7AkbA9FBow&oe=6A6F816F)\n\nCSW = [Customer service window](https://developers.facebook.com/documentation/business-messaging/whatsapp/messages/send-messages#customer-service-windows)\nFEP = [Free entry point window](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing#free-entry-point-windows)\n\nBusinesses are responsible for reviewing the category assigned to their approved templates. Whenever a template is used, a business accepts the charges associated with the category applied to the template at time of use.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:11.154056Z",
+      "section_path": "Pricing on the WhatsApp Business Platform > Message template categories > Template messages vs. non-template messages",
+      "chunk_index": 1,
+      "token_count": 521,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_3e4e14ad82c8",
+      "source_type": "pricing_page",
+      "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing",
+      "domain": "developers.facebook.com",
+      "page_title": "Pricing on the WhatsApp Business Platform | Developer Documentation",
+      "content": "To better enable our customers to plan and prepare for pricing updates, the following pricing calendar applies for messaging and voice on the WhatsApp Business Platform:\n\nMeta may update pricing only _on the 1st day of each quarter_, thus up to 4 times per year: January 1, April 1, July 1, and/or October 1.\nMeta will provide advanced notice that is better aligned to the effort required to implement different types of pricing updates, per below:\n\n| Type of pricing update | Examples | Minimum advance notice |\n| --- | --- | --- |\n| **Rate card update** | Updating the [rate](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing#rates) for a given market–product<br>Updating the volume tiers for a given market–product (utility and authentication only)<br>Moving a market from one [pricing region](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing#country-calling-codes) (for example, “Other”) to another or to be standalone on the rate card | 1 month |\n| **Pricing model add-on** | Our July 1, 2025, introduction of new [volume tiers](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing#volume-tiers) for utility and authentication messages | 3 months |\n| **Pricing model change** | Our July 1, 2025 update to our pricing model, from conversation-based pricing to per-message pricing | 6 months |",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:11.154174Z",
+      "section_path": "Pricing on the WhatsApp Business Platform > Pricing calendar",
+      "chunk_index": 3,
+      "token_count": 347,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_516281794c20",
+      "source_type": "pricing_page",
+      "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing",
+      "domain": "developers.facebook.com",
+      "page_title": "Pricing on the WhatsApp Business Platform | Developer Documentation",
+      "content": "Below are future updates to our rates. See our [rate cards](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing#rate-cards-and-volume-tiers) above for current rates.\n\nTo give customers more than 1-month notice – more time to plan and prepare – Meta is sharing pricing updates launching October 1, 2026 by June 1, 2026. Consistent with July 1, 2026, Meta will move additional markets out of their respective “Rest Of” pricing region to be standalone on rate cards. Below are at least the markets Meta will move out, and the corresponding updates to rates. Meta will announce to-be rates no later than September 1, 2026, per the [pricing calendar](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing#pricing-calendar).\n\nBangladesh\\*, Iraq\\*, Nepal\\*, Sri Lanka\\* – Lower utility and authentication rates, plus a new authentication-international rate that is higher vs. the current regional authentication rate\nKazakhstan\\*, Kuwait\\*, Morocco\\*, Oman\\*, Ukraine\\* – Higher utility and authentication rates, plus a new authentication-international rate that is higher vs. the current regional authentication rate\n\nPricing updates for Meta Business Agent, service, and utility messages will launch on August 1, 2026 and October 1, 2026. Refer [here to learn more](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing/non-template-messages).",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:11.154978Z",
+      "section_path": "Pricing on the WhatsApp Business Platform > Rates > Updates to rate cards > Pricing updates effective August 1, 2026 and October 1, 2026",
+      "chunk_index": 6,
+      "token_count": 356,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_8ac3753e32c4",
+      "source_type": "pricing_page",
+      "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing",
+      "domain": "developers.facebook.com",
+      "page_title": "Pricing on the WhatsApp Business Platform | Developer Documentation",
+      "content": "Effective July 1, 2026 at 12am by WhatsApp Business account timezone, the rate updates below applied:\n\nHong Kong\\* – Higher utility and authentication rates.\nHungary\\* – Higher utility and authentication rates.\nItaly – Higher marketing message rate.\nPoland\\* – Lower marketing, utility and authentication rates.\nQatar\\* – Higher utility and authentication rates.\nRomania\\* – Higher utility and authentication rates.\nSingapore\\* – Higher utility and authentication rates.\nSpain – Higher marketing message rate.\nUnited Kingdom – Higher marketing message rate.\n\n\\\\* Until June 30, 2026, messages to users in these markets were charged the respective regional rates (e.g., Rest of Central and Eastern Europe for Poland). These markets have been moved out of regional rate pricing to be standalone on rate cards, with market-specific rates.\n\nFor utility and authentication messages – Volume tiers for these markets are now market-specific. For example, messages businesses send to users in Poland a/ no longer count toward the volume tiers of Rest of Central and Eastern Europe and instead b/ count toward the volume tiers of Poland.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:11.155100Z",
+      "section_path": "Pricing on the WhatsApp Business Platform > Rates > Updates to rate cards > Previous rate card updates",
+      "chunk_index": 8,
+      "token_count": 282,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_dbe39d53a1f0",
+      "source_type": "pricing_page",
+      "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing",
+      "domain": "developers.facebook.com",
+      "page_title": "Pricing on the WhatsApp Business Platform | Developer Documentation",
+      "content": "Effective April 1, 2026 at 12am by WhatsApp Business account timezone, the rate updates below applied:\nSaudi Arabia – Higher marketing message rate.\nIndia – Higher authentication-international rate.\nPakistan – Higher utility and authentication rates. No change to the authentication-international rate.\nTurkey – Lower utility and authentication rates.\n8 new billing currencies introduced: ARS (Argentina), CLP (Chile), COP (Colombia), MYR (Malaysia), PEN (Peru), SAR (Saudi Arabia), SGD (Singapore), AED (United Arab Emirates).\nEffective January 1, 2026 at 12am by WhatsApp Business account timezone, the rate updates below applied:\nIndia - Higher marketing rate.\nFrance, Egypt - Lower marketing rates.\nNorth America - Lower utility and authentication rates.\nEffective October 1, 2025 at 12am by WhatsApp Business account timezone, the rate updates below applied:\nColombia – Higher utility and authentication rates.\nMexico – Lower marketing rates.\nUnited Arab Emirates – Higher marketing message rate.\nArgentina, Egypt, Saudi Arabia – Lower utility and authentication rates.\nZimbabwe is mapped to our “Rest of Africa” region vs. “Other”. Messages delivered to WhatsApp users with a +263 country calling code (Zimbabwe) will be charged “Rest of Africa” rates.\nEffective July 1, 2025 – Lower utility and authentication message rates across several markets, to ensure pricing is on-par to alternate channels for these use cases. Marketing conversation rates became marketing message rates.\nEffective April 1, 2025 – Lowered [authentication-international conversation rates](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing/authentication-international-rates) for Egypt, Nigeria, Pakistan, and South Africa.\nEffective February 1, 2025 – Lowered [authentication conversation rates](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing#rates) for Egypt, Malaysia, Nigeria, Pakistan, Saudi Arabia, South Africa, and the United Arab Emirates.\nEffective November 1, 2024 – [Service conversations](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing/conversation-based-pricing#service-conversations) are now free for all businesses.\nEffective October 1, 2024 – Updated [marketing conversation rates](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing#rates) in India, Saudi Arabia, the United Arab Emirates, and the United Kingdom.\nEffective August 1, 2024 – Lowered [utility conversation rates](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing#rates).",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:11.155171Z",
+      "section_path": "Pricing on the WhatsApp Business Platform > Rates > Updates to rate cards > Previous rate card updates",
+      "chunk_index": 9,
+      "token_count": 649,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_8a09403e26bb",
+      "source_type": "pricing_page",
+      "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing",
+      "domain": "developers.facebook.com",
+      "page_title": "Pricing on the WhatsApp Business Platform | Developer Documentation",
+      "content": "Specific countries have an authentication-international rate. Our rate cards reflect these rates. See [Authentication-International rates](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing/authentication-international-rates) to learn about these rates and if they apply to you.\n\nCharges for messages are based on the country calling code of the recipient WhatsApp phone number. The table below shows how Meta maps country calling codes and ISO 3166 Alpha-2 country codes to countries or regions. If a country is not listed below, it maps to **Other**.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:11.155195Z",
+      "section_path": "Pricing on the WhatsApp Business Platform > Rates > Country calling codes",
+      "chunk_index": 10,
+      "token_count": 145,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_61d99561f153",
+      "source_type": "pricing_page",
+      "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing",
+      "domain": "developers.facebook.com",
+      "page_title": "Pricing on the WhatsApp Business Platform | Developer Documentation",
+      "content": "You can unlock lower utility and authentication rates based on the number of messages you send in a month.\n\n**Messages are aggregated at the business portfolio level, across all WhatsApp Business accounts (WABAs) owned by the portfolio** — To determine what tier rates may apply in a given month for a given market–category pair, Meta aggregates messages across all of a business portfolio’s WABAs for each market-category pair (e.g., Brazil–authentication, Brazil–utility, India–authentication, and so on).\n**Only messages that are charged count toward the tiers**— Thus, the following messages do not count:\n\nUtility templates delivered to WhatsApp users within an open customer service window.\nUtility templates delivered within a [free entry point window](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing#free-entry-point-windows).\n**Volume tiers will be determined solely by Meta** — All insights data is approximate due to small variations in data processing. Undue reliance should not be placed on insights data.\n\n**Tiers are market–category specific** — Volume tiers are aligned to our rate cards and differ by market (e.g., Brazil or Rest of Latin America) and category (utility, authentication).\n**Rates are tier-specific** — When a business sends enough messages at a given market–category pair to reach the next tier, they unlock the rate of the next tier, specifically for messages in that tier. This rate applies across all of their WABAs.\n**Tiers reset monthly** — At the start of the next month (12am WABA timezone), message count resets to 0 and businesses begin to accrue messages toward that month.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:11.155338Z",
+      "section_path": "Pricing on the WhatsApp Business Platform > Volume tiers > Key dynamics",
+      "chunk_index": 12,
+      "token_count": 412,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_06c7f79f734f",
+      "source_type": "pricing_page",
+      "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing",
+      "domain": "developers.facebook.com",
+      "page_title": "Pricing on the WhatsApp Business Platform | Developer Documentation",
+      "content": "The table below is illustrative and only highlights the dynamics of volume tiers. Please refer to our [rate cards](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing#rate-cards-and-volume-tiers) to see the rates charged.\n\n![Table showing volume tier rate examples](https://scontent-lax3-1.xx.fbcdn.net/v/t39.2365-6/502514970_1202956304344062_4629097874159039633_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZLLCwV1nmvwQ7kNvwF9EJBa&_nc_oc=AdqIJ2uRCGAuUD2pAmBZOcUb2jgXXTtPHHeR-v8Cqtgf0oQFMpzZfDyjSZ9mIWM_Gf0&_nc_zt=14&_nc_ht=scontent-lax3-1.xx&_nc_gid=L5FrbgzAnG1JCCTddUVAig&_nc_ss=7b289&oh=00_AQDZs4O3Ld1wo2iz7xZ6EdtNAMh-ZChqWroXAt9UEp7jSA&oe=6A6F8191)\n\nBelow are several examples to highlight how the tiers work and what is charged in a given month, for a given market–category. These examples refer to the illustrative table above:\n\nExample 1: A business that sends a total of B authentication messages in a month to India is charged:\n\nList rate for the first A messages.\nTier rate 1 for messages A+1 to B.\nTotal charges for that month = Rate per tier 𝗑 messages in each tier.\n\nExample 2: A business that starts to be charged our authentication-international rates on the 15th day of the month:\n\nDay 1 to 14 of that month: Volume tiers apply on the authentication rate.\nDay 15 onward of that month: Volume tiers apply on the authentication-international rate, with messages continuing to accrue in that month. For example, if a business has already reached the Tier 2, the business would be charged Tier 2’s authentication-international rate:\n\nExample 3: A business has 3 WABAs sending authentication messages to India. For WABA A, it is still July 31 based on their timezone. For WABAs B and C, it is already August 1 based on their timezone. For July, the business is already being charged Tier Rate 1.\n\nThe business portfolio will be accruing toward tiers for both July (via WABA A) and August (via WABAs B, C) for a period of time.\nThe business can reach the next tier for July, via WABA A. If that happens, messages for the remainder of July for WABA A will be charged Tier Rate 2.\n\nExample 4: A business has 3 WABAs, integrated across 2 partners. Provider 1 sends the first B messages in a given month, and provider 2 starts sending messages as of when the business is in the 3rd tier. The business does not send enough messages that month to reach the next tier. What Meta charges each provider:\n\nProvider 1: List rate for A messages, then Tier Rate 1 from A+1 to B, and Tier Rate 2 for B+1 to C.\nProvider 2: Tier Rate 2 across all of their messages.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:11.155401Z",
+      "section_path": "Pricing on the WhatsApp Business Platform > Volume tiers > Volume tiers examples",
+      "chunk_index": 13,
+      "token_count": 648,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_49a9ee092afc",
+      "source_type": "pricing_page",
+      "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing",
+      "domain": "developers.facebook.com",
+      "page_title": "Pricing on the WhatsApp Business Platform | Developer Documentation",
+      "content": "You can get [volume tier information](https://developers.facebook.com/documentation/business-messaging/whatsapp/analytics#volume-tier-information) via [template analytics](https://developers.facebook.com/documentation/business-messaging/whatsapp/analytics#template-analytics).\n\nMeta does not charge for messages in certain cases, as outlined below.\n\nPricing updates for Meta Business Agent, service, and utility messages will launch on August 1, 2026 and October 1, 2026. [Learn more](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing/non-template-messages).\n\nNon-template messages, which can only be sent within an open [customer service window](https://developers.facebook.com/documentation/business-messaging/whatsapp/messages/send-messages#customer-service-windows), are not charged as of November 1, 2024. These messages have `type` set to `free_customer_service` in the `pricing` object of status [messages](https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/reference/messages/status) webhooks:\n\n```\n\"pricing\": {\n  \"billable\": false,\n  \"pricing_model\": \"PMP\",\n  \"type\": \"free_customer_service\",\n  \"category\": \"service\"\n}\n```\n\nPricing updates for Meta Business Agent, service, and utility messages will launch on August 1, 2026 and October 1, 2026. [Learn more](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing/non-template-messages).\n\nUtility template messages sent within an open [customer service window](https://developers.facebook.com/documentation/business-messaging/whatsapp/messages/send-messages#customer-service-windows) are not charged as of July 1, 2025. These messages will have `type` set to `free_customer_service` and `category` set to `utility` in the `pricing` object of status [messages](https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/reference/messages/status) webhooks:\n\n```\n\"pricing\": {\n  \"billable\": false,\n  \"pricing_model\": \"PMP\",\n  \"type\": \"free_customer_service\",\n  \"category\": \"utility\"\n}\n```",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:11.155538Z",
+      "section_path": "Pricing on the WhatsApp Business Platform > When messages are not charged > Utility template messages in response to users",
+      "chunk_index": 15,
+      "token_count": 514,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_dcbecbc948f6",
+      "source_type": "pricing_page",
+      "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing",
+      "domain": "developers.facebook.com",
+      "page_title": "Pricing on the WhatsApp Business Platform | Developer Documentation",
+      "content": "If you send a message to a WhatsApp user prior to July 1, 2025 (which is when Meta switched from conversation-based pricing to per-message pricing), a utility conversation is opened between you and a user that spans the switch to per-message pricing (the conversation was opened before the switch but won’t close until after the switch). In this case, utility templates sent to the user after the switch while the conversation is open will be free, but attributed to the open conversation. In status [messages](https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/reference/messages/status) webhooks, these messages will have a `pricing_model` of `CBP` and the utility conversation ID will be assigned to `conversation.id`. Once the conversation closes, subsequent utility messages will use per-message pricing, which will be reflected in new webhooks.\n\nIf a WhatsApp user messages you via a Click to WhatsApp Ad or Facebook Page Call-to-Action button using a device running our Android or iOS app (our desktop and web apps are not supported):\n\nA 24-hour [customer service window](https://developers.facebook.com/documentation/business-messaging/whatsapp/messages/send-messages#customer-service-windows) is opened (as normal).\nIf you respond within 24 hours using any type of message, the message will be free, and a Free Entry Point (“FEP”) window will be opened, starting from the time when you responded.\n\nFEP windows remain open for 72 hours. While open, you can send any type of message to the user at no charge. Note, however, that the customer service window is independent of the FEP window, so if the customer service window closes, you will only be able to send template messages.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:11.155598Z",
+      "section_path": "Pricing on the WhatsApp Business Platform > When messages are not charged > Free entry point windows (FEP)",
+      "chunk_index": 16,
+      "token_count": 430,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_4d786bd63ba8",
+      "source_type": "pricing_page",
+      "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing",
+      "domain": "developers.facebook.com",
+      "page_title": "Pricing on the WhatsApp Business Platform | Developer Documentation",
+      "content": "Billable messages have `type` set to `regular` in the `pricing` object of status [messages](https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/reference/messages/status) webhooks:\n\n```\n\"pricing\": {\n  \"billable\": true,\n  \"pricing_model\": \"PMP\",\n  \"type\": \"regular\",\n  \"category\": \"<PRICING_CATEGORY>\"\n}\n```\n\nThe `<PRICING_CATEGORY>` tells you what rate was applied (for example, `marketing`). See the status messages webhook reference for a list of possible values.\n\nNote that currently, tiering information is not included in any webhooks. Use the [pricing\\_analytics field](https://developers.facebook.com/documentation/business-messaging/whatsapp/analytics#pricing-analytics) to get tiering information for delivered messages.\n\nBilling and billing-related actions are handled through the Meta Business Suite. See [About Billing For Your WhatsApp Business Account⁠](https://www.facebook.com/business/help/2225184664363779) for more information.\n\nDid you find this page helpful?\n\n![Thumbs up icon](https://static.xx.fbcdn.net/rsrc.php/yR/r/OEXJ0_DJeZv.svg)\n\n![Thumbs down icon](https://static.xx.fbcdn.net/rsrc.php/yb/r/qKPgNVNeatU.svg)\n\n* * *",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:11.155695Z",
+      "section_path": "Pricing on the WhatsApp Business Platform > Billing",
+      "chunk_index": 18,
+      "token_count": 293,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_a12232fa9bc5",
+      "source_type": "official_docs",
+      "url": "https://developers.facebook.com/docs/whatsapp",
+      "domain": "developers.facebook.com",
+      "page_title": "WhatsApp Business Platform | Developer Documentation",
+      "content": "Start building conversational experiences that delight your customers\n\nAbout the platform\n\n\nLearn more about the key components of the platform and how things work together.\n\n[Learn more](https://developers.facebook.com/documentation/business-messaging/whatsapp/about-the-platform)\n\nMessaging\n\nLearn about the different message types and how to send them.\n\n\n[Learn more](https://developers.facebook.com/documentation/business-messaging/whatsapp/messages/send-messages)\n\nPricing\n\nLearn how pricing on the WhatsApp Business Platform works.\n\n\n[Learn more](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing)\n\nTemplates\n\n\nLearn how to create and manage template messages.\n\n[Learn more](https://developers.facebook.com/documentation/business-messaging/whatsapp/templates/overview)\n\nWebhooks\n\n\nLearn what webhooks are and how they are a core component of Business Messaging.\n\n[Learn more](https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/overview)\n\nAuthentication and authorization\n\n\nLearn how access controls and permissions work on the platform.\n\n[Learn more](https://developers.facebook.com/documentation/business-messaging/whatsapp/about-the-platform#authentication-and-authorization)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:09.758636Z",
+      "section_path": "WhatsApp Business Platform > Essentials",
+      "chunk_index": 1,
+      "token_count": 311,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_dfde22f88b65",
+      "source_type": "pricing_page",
+      "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing",
+      "domain": "developers.facebook.com",
+      "page_title": "Pricing on the WhatsApp Business Platform | Developer Documentation",
+      "content": "Rates vary based on [template category](https://developers.facebook.com/documentation/business-messaging/whatsapp/templates/template-categorization), [volume tier](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing#volume-tiers), and [country/region](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing#country-calling-codes) rate.\n\nThese rate cards reflect our current rates and volume tiers, effective July 1, 2026, based on WhatsApp Business account timezone. This information is also available interactively on our [WhatsApp Business website⁠](https://l.facebook.com/l.php?u=https%3A%2F%2Fbusiness.whatsapp.com%2Fproducts%2Fplatform-pricing%23rates&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg).",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:11.154217Z",
+      "section_path": "Pricing on the WhatsApp Business Platform > Rates > Rate cards and volume tiers",
+      "chunk_index": 4,
+      "token_count": 215,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_4fa411462df9",
+      "source_type": "pricing_page",
+      "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing",
+      "domain": "developers.facebook.com",
+      "page_title": "Pricing on the WhatsApp Business Platform | Developer Documentation",
+      "content": "**Brazil**\n\nFor Brazil, roll-out began as planned on July 1, 2026 but will be gradual. We expect all eligible customers to be able to create new WABAs in BRL by mid-July.\n\n_Effective July 1, 2026, as of 9am PT_ – Only partners and directly-integrated clients whose Sold-To country is Brazil in [Billing Hub⁠](https://business.facebook.com/billing_hub/legal_entities) (eligible customers) can create new WhatsApp Business accounts (WABAs) in BRL (Brazilian Reals). Learn more about billing localization for Brazil [here⁠](https://www.facebook.com/business/help/4344414845795884).\n\nPer-message rates in BRL are now published [below](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing#updates-to-rate-cards). Charges from any BRL WABA will be invoiced in BRL by Meta’s local entity in Brazil, Facebook Brasil.\n\nAs a reminder, eligible customers must ensure all WABAs in their business portfolio are migrated to BRL by June 30, 2027 to avoid disruptions, since as of July 1, 2027 Meta will no longer deliver the messages of non-BRL WABAs of eligible customers. To make this migration process easier and faster, use the [WABA Currency Migration APIs](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing/change-billing-currency), which are available as of June 1, 2026.\n\n**India**\n\nBilling localization launched on January 1, 2026 for partners and directly-integrated clients whose Sold-To country is India in [Billing Hub⁠](https://business.facebook.com/billing_hub/legal_entities) (eligible customers). Learn more [here⁠](https://www.facebook.com/business/help/2301408543603167).\n\nEligible customers must ensure all WABAs in their business portfolio are migrated to INR by December 31, 2026 to avoid disruptions, since as of January 1, 2027 Meta will no longer deliver the messages of non-INR WABAs of eligible customers. To make this migration process easier and faster, use the [WABA Currency Migration APIs](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing/change-billing-currency), which are available as of June 1, 2026.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:11.155059Z",
+      "section_path": "Pricing on the WhatsApp Business Platform > Rates > Updates to rate cards > Billing localization for Brazil and India",
+      "chunk_index": 7,
+      "token_count": 528,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_78d045e355fd",
+      "source_type": "pricing_page",
+      "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing",
+      "domain": "developers.facebook.com",
+      "page_title": "Pricing on the WhatsApp Business Platform | Developer Documentation",
+      "content": "Starting in 2026, businesses integrated into Marketing Messages API for WhatsApp can choose to set a [max-price](https://developers.facebook.com/documentation/business-messaging/whatsapp/marketing-messages/pricing) per marketing message delivery; when a max-price is set, Meta will charge that max-price or lower for delivery.\n\nClick [here](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing/ai-providers) to learn more about our new pricing policy for “AI Providers” leveraging WhatsApp Business Platform, which is effective February 16, 2026, and updated as of May 12, 2026.\n\nThe WhatsApp Business Calling API has different pricing. See our [Calling API pricing document](https://developers.facebook.com/documentation/business-messaging/whatsapp/calling/pricing) to learn more.\n\n[Conversation-based pricing](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing/conversation-based-pricing) is deprecated. It was replaced with per-message pricing on July 1, 2025.\n\nUse the [pricing\\_analytics field](https://developers.facebook.com/documentation/business-messaging/whatsapp/analytics#pricing-analytics) to get per-message pricing breakdowns and tiering information for delivered messages.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:11.155653Z",
+      "section_path": "Pricing on the WhatsApp Business Platform > Analytics",
+      "chunk_index": 17,
+      "token_count": 312,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_295604737af0",
+      "source_type": "api_reference",
+      "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/reference/llms.txt",
+      "domain": "developers.facebook.com",
+      "page_title": "Page Not Found - Meta for Developers",
+      "content": "![](https://googleads.g.doubleclick.net/pagead/viewthroughconversion/963623955/?guid=ON&script=0)\n\n![](https://dc.ads.linkedin.com/collect/?pid=276116&fmt=gif)\n\n![](https://analytics.twitter.com/i/adsct?txn_id=nz7m3&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0)\n\n![](https://t.co/i/adsct?txn_id=nz7m3&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0)\n\n![](https://facebook.com/security/hsts-pixel.gif)\n\nSorry, the link you followed may be broken, or the page may have been removed.\n\n[Search for documentation business messaging whatsapp reference llms.txt on developers.facebook.com](https://developers.facebook.com/search/?q=documentation%20business%20messaging%20whatsapp%20reference%20llms.txt&notfound=1)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:09.797505Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 178,
+      "quality_score": 0.6
+    },
+    {
+      "id": "ev_108af8f938d5",
+      "source_type": "official_docs",
+      "url": "https://developers.facebook.com/docs/whatsapp",
+      "domain": "developers.facebook.com",
+      "page_title": "WhatsApp Business Platform | Developer Documentation",
+      "content": "Drive revenue growth, boost efficiency, and deliver exceptional customer experiences with the WhatsApp Business Platform—our enterprise-grade APIs for messaging and calling.\n\n\n[Get started](https://developers.facebook.com/documentation/business-messaging/whatsapp/get-started/)\n\nPreview an interactive experience showing how Jasper’s Market (our demo retail business) connects with customers using the WhatsApp Business Platform.\n\nDemo retail business![](https://scontent-lax7-1.xx.fbcdn.net/v/t39.8562-6/547429620_764982376167016_715228206216507834_n.png?stp=dst-webp&_nc_cat=105&ccb=1-7&_nc_sid=9a942e&_nc_ohc=xiHc25zURpMQ7kNvwFKnEPW&_nc_oc=Adq0sg6q3OZX6qktnHXEfnL2SQ3cDJa2Cnr0A7LkPs75MjE30RpYZ-DWqYQt5bmfbOc&_nc_zt=14&_nc_ht=scontent-lax7-1.xx&_nc_gid=TPls5wWroL4u9-Q-zacfEQ&_nc_ss=7b289&oh=00_AQDoOHg_azvFA7ASkRvBg1nhJtfrZtcG6q7Hl1I6zxKmcg&oe=6A5AF13E)\n\nTry the demo\n\n[Download the sample app](https://developers.facebook.com/documentation/business-messaging/whatsapp/get-started#download-the-sample-app)\n\nSelect language\n\nPythonJavaScriptcURL\n\n* * *\n\n```\n\nimport requests\n\nurl = \"https://graph.facebook.com/<API_VERSION>/<WHATSAPP_BUSINESS_PHONE_NUMBER_ID>/messages\"\nheaders = {\n    \"Authorization\": \"Bearer <ACCESS_TOKEN>\",\n    \"Content-Type\": \"application/json\",\n}\ndata = {\n    \"messaging_product\": \"whatsapp\",\n    \"to\": \"<WHATSAPP_USER_PHONE_NUMBER>\",\n    \"type\": \"template\",\n    \"template\": {\n        \"name\": \"hello_world\",\n        \"language\": {\"code\": \"en_US\"},\n    }\n}\n\nresponse = requests.post(url, headers=headers, json=data, timeout=30)\nprint(response.json())\n\n```",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:09.758596Z",
+      "section_path": "WhatsApp Business Platform > Demo the API",
+      "chunk_index": 0,
+      "token_count": 394,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_caf7b7604fa2",
+      "source_type": "pricing_page",
+      "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing",
+      "domain": "developers.facebook.com",
+      "page_title": "Pricing on the WhatsApp Business Platform | Developer Documentation",
+      "content": "In the example below, a business sends 4 messages to a WhatsApp user but is only charged for 2 (1 marketing charge, 1 utility charge).\n\n| Hour | Action | Rate | Reason |\n| --- | --- | --- | --- |\n| 0 | You send a marketing template message to a WhatsApp user, promoting your new product. | Marketing | All marketing template messages are charged. |\n| 2 | The user messages you about the product.<br>This opens a 24 hour [customer service window](https://developers.facebook.com/documentation/business-messaging/whatsapp/messages/send-messages#customer-service-windows) (“CSW”). | - | Messages sent from a WhatsApp user to a business are not charged. |\n| 3 | You send a [text message](https://developers.facebook.com/documentation/business-messaging/whatsapp/messages/text-messages) to the user (`\"type\":\"text\"`), describing the product in more detail. | None | All non-template messages are free within an open customer service window. |\n| 4 | The user purchases the product and you send them a utility template confirming their order. | None | The CSW is still open, and utility templates sent within an open CSW are free. |\n| 26 | The CSW closes, which means you can no longer send non-template messages. | - | 24 hours have passed since the user last messaged you. |\n| 30 | You send a utility template message to the user, updating them on their order. | Utility | Utility template messages sent outside of a CSW are charged, and no open CSW exists between you and the user. |",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:11.154127Z",
+      "section_path": "Pricing on the WhatsApp Business Platform > Charge example",
+      "chunk_index": 2,
+      "token_count": 369,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_276d0b127729",
+      "source_type": "pricing_page",
+      "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing",
+      "domain": "developers.facebook.com",
+      "page_title": "Pricing on the WhatsApp Business Platform | Developer Documentation",
+      "content": "| Currency | Rates(CSV) | Volume tiers(CSV) | Rates and Volume tiers(PDF) |\n| --- | --- | --- | --- |\n| USD | [USD rates](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-2.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F735608455_876449615529066_702006520977041900_n.csv%3F_nc_cat%3D100%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3DU7kKUSm8PjoQ7kNvwHnEov3%26_nc_oc%3DAdoy5aquiuJN4HMEBB6mjfX8r102cdr8PKFLiEggxo1TYdEFrnl4152iQ4gyz1RH-10%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-2.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQBNqme7oR44A2Z805PIvzCz1qfHt5beIMTPAZSAMHYqWQ%26oe%3D6A5AEF8A&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) | [USD volume tiers](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax7-1.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F737075891_1702232854373489_5701801020098956708_n.csv%3F_nc_cat%3D101%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3Dd-3QYLuNh3UQ7kNvwEQqzhI%26_nc_oc%3DAdo1ikpr4rZzyHGtuvBEKb7MZgipaDqaFCdFOnnZx0BWrugFptX4tTuxkgTYUD7unBA%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax7-1.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQC44qvNZIv3QWe9PwABJ9jcGo58ygqExZ-Lof7s-LsVvg%26oe%3D6A5B18F2&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) | [USD rates and volume tiers](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-2.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F735958960_1334659692185186_1051304524066939928_n.pdf%3F_nc_cat%3D100%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3DLMf0qi4CPrYQ7kNvwHFrGtD%26_nc_oc%3DAdpYYOH2oetM0BgUsnU6wZrWLQudeX2pacP58vNzetRINm8zKXqs5Az1pgge_32VfHs%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-2.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQDPUg5T1HsNcf8RwxvC0sMyEZ_UrV_IJ-F-mFftne-K8A%26oe%3D6A5B0242&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) |\n| AED | [AED rates](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-2.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F736007923_1007780768825862_1511088673050509864_n.csv%3F_nc_cat%3D100%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3DTJc9N8Va978Q7kNvwH-qisc%26_nc_oc%3DAdqzVcf0ABA6ZZr0Fm7tf8SOba51mDATkZEr0_-VY9FZEtkNgxGvO3N8G4sCUQOe_hM%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-2.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQBzi53oe6ot4qOT3dhKUt0v2GwWmuBvwvbAz-FM-nF3Uw%26oe%3D6A5AFDC3&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) | [AED volume tiers](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-2.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F737543898_2205636523614147_3149899026296297993_n.csv%3F_nc_cat%3D106%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3D3mN1Z32-jkIQ7kNvwEgKjvc%26_nc_oc%3DAdruOJnxNsWJ2AS_hE36xuJVDaANpRJtrg_p_4NdEO3DaiaCnKf6T-ObTZgBhOcAnoM%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-2.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQAQ-dOIPu9QOXkHHfJZ5aHM4Uqi31p4jZccxlEo04r2vA%26oe%3D6A5AEF59&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) | [AED rates and volume tiers](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-1.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F737577477_1529340172226220_5555586059054904533_n.pdf%3F_nc_cat%3D110%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3DAIC7TRww0FIQ7kNvwEWIMc1%26_nc_oc%3DAdqgsk1q0pA0UnmK_Xxsd1QF6oq3g8G5Ea9xqOsmaFxU1SGPczxH0OqkoyxqTpw1DDo%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-1.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQCwbEpQ73K6g2EyH9M1TDgGkv5ya7liNHGEPR9mzgqw4A%26oe%3D6A5B189E&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) |\n| ARS | [ARS rates](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-2.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F735544505_1951035662214119_8041070606606550692_n.csv%3F_nc_cat%3D107%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3D1rxvZ3DAM8EQ7kNvwE6cXT4%26_nc_oc%3DAdqH1Pc6BP9y88vjXlBnYwbWIe8k3CYqiaYC4ZVR9Pq-z0VLT9FxoUvtmGKp2NUtis8%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-2.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQDwUV_CkP_GX5RYpxBz-5tQDxVKyc3mhgZ9l_6CgLUwrA%26oe%3D6A5AFD04&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) | [ARS volume tiers](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax7-1.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F736032900_1646538203123299_3991554277711287498_n.csv%3F_nc_cat%3D101%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3DIAjqArJLa_IQ7kNvwHwvEQc%26_nc_oc%3DAdq3QlehjTYOJfs0aFpTWAOvAH7gzWJsK3WMBt4o39laC7yJ1SeaRgNQfJL6UIlsJVQ%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax7-1.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQDeJZUsCOhf2LHstkCdqK03Y-zaHXWrgUk9M9FEqxPtgA%26oe%3D6A5AFF2F&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) | [ARS rates and volume tiers](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-2.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F737413236_1579756600476488_3419930143722592762_n.pdf%3F_nc_cat%3D111%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3DN6khSJW9k1EQ7kNvwFhM2H-%26_nc_oc%3DAdroUujnS4qlhrRHP3AAPddmaH4tAsYgBmqBsgTY97k5XfROtPUuZI2AB0wRrVThe6I%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-2.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQBSinhYkfDKTUzb_Zoe7Wa1rSQJge7qWOOXO0vZSlUYYA%26oe%3D6A5AECC6&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) |\n| AUD | [AUD rates](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-1.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F737819602_2250319009144778_2723599044309184961_n.csv%3F_nc_cat%3D108%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3DFGzgDPlWPLAQ7kNvwE8KnbG%26_nc_oc%3DAdp7Nm3TusWOmu9aF1gKdBA42ZdVRw2u_XioLG1DftzVOcgo3N7Of4k-QGitg_G0mtg%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-1.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQBrJ7EZw_75-uX5oQwDlRD9EValIRFfyoMrP6zrTFxm8A%26oe%3D6A5B1821&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) | [AUD volume tiers](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-1.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F738188485_1032545096390806_7329272158665046349_n.csv%3F_nc_cat%3D108%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3DC7GhEQjKgB0Q7kNvwFliBfT%26_nc_oc%3DAdroSEXbT0zw8WASacnqzVEIHm9c_QxJ8EA7Y1vKrmfTEqUxTxVLIPYYqse9AfUHboU%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-1.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQDjPWSKV4aW2APQ_1tBQV7Wd3tReS3RJ0gFILBcmheeJQ%26oe%3D6A5AE64F&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) | [AUD rates and volume tiers](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-1.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F735210839_884591274108825_6944922357200504424_n.pdf%3F_nc_cat%3D110%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3DMXViph52vcEQ7kNvwGzqLaZ%26_nc_oc%3DAdoYYdVByMy_sSYHxWeNnLF6otWrAGVUqNqQnKkP8PH3NgeBUt4T7BtFdx0Rb01YKis%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-1.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQDWKcLzspBO8zOooyyMNe7N4bXYu3Wmiai_UfbVaXcghw%26oe%3D6A5AF605&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) |\n| BRL | [BRL rates](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-1.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F735552825_1485054360056316_195551103792202202_n.csv%3F_nc_cat%3D110%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3Dn6IamPsE6EIQ7kNvwEXz2Ia%26_nc_oc%3DAdoWqOobEUln_CDF39RX1YXxvIAIUOuqlZuNBQIwgy89wHpTASJEnI7uUICaRJbHed8%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-1.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQD2idqIKs6ZK4GThzozqgadroe1RY2eizw59X-q0J0UGg%26oe%3D6A5AF6D5&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) | [BRL volume tiers](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-1.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F735595288_1739825867366495_2229215757296612949_n.csv%3F_nc_cat%3D102%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3DV2JhV2SeBOIQ7kNvwE5MVJN%26_nc_oc%3DAdo2HRJebrLAlilklpAz7kkKc3-au-aZYwoS-v9ty8XQ0_ySnQZrCKZkrwft_8cEAAc%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-1.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQBOohLFXvWZOvuWu7uyX0kYqsm5NnG1VEoDxXkRT9iPtw%26oe%3D6A5AF866&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) | [BRL rates and volume tiers](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-2.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F737730541_1380600147294120_5812385598624907160_n.pdf%3F_nc_cat%3D106%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3Dx6MC7YVMt3cQ7kNvwErj2Mb%26_nc_oc%3DAdrRm0syAEnL8z1h7mjV28gSeCQlbHAn7NaJZoW13pAmEpXzva_Za4xFkgmrEF0aKvk%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-2.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQDGli7FValfcshN_0cebtXeA1L4yzZFT2VIjymCBv7RSQ%26oe%3D6A5B0081&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) |\n| CLP | [CLP rates](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-2.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F737577492_1804373267193354_4636676735932956940_n.csv%3F_nc_cat%3D100%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3D7KtIjCkqL8MQ7kNvwHrcKEM%26_nc_oc%3DAdp-k_S_5hU68JyiTiPIdq62FZ9J9S5Yt27B39_5-YzewnHlt8mh709ycv8wNVN-slE%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-2.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQD9XdmHUeNvpg06-cYmkXLjAWgHkJqByKGScyF-IMoEBQ%26oe%3D6A5AFFC4&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) | [CLP volume tiers](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-1.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F736413128_1042652738200319_72159566375144995_n.csv%3F_nc_cat%3D108%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3DlMQweD2a_vcQ7kNvwHmS750%26_nc_oc%3DAdoCsmyZ11D_AkGu8F2kg0bFINz_gLiG6kj6whSBr5Ka9odOAGxZcH4O5OBERLg0fH0%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-1.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQBJdK7R8jkTeclB-f8gWhhqoIaiygdO4gVL9INx0EzLwg%26oe%3D6A5B0878&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) | [CLP rates and volume tiers](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-1.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F736413007_999185086362914_3868948611378535219_n.pdf%3F_nc_cat%3D109%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3D7WfZviH1UpwQ7kNvwGfTfAq%26_nc_oc%3DAdrkB_0drUKo07RA0LN0ezTU06SjBKEXjje6sqf6bws9YC_3jMwOdndQhYhstb2Qc7Y%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-1.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQC1clJf3lAv_J0zkDoHGOQ_v-NtAyjhgzVUmGnjKtfLLg%26oe%3D6A5AF950&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) |\n| COP | [COP rates](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-1.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F735482743_2296023081140804_2474258772751213192_n.csv%3F_nc_cat%3D110%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3DykKpHao9u2wQ7kNvwEeEunY%26_nc_oc%3DAdpyL7MybPwm5xTQ9aY4l68Qu0bE9NqQmotcJUSXwVqpwIflHPd4IthiHQT-m80Huik%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-1.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQCZ_UGmHeNwYls68cwT5XMBTA4LHDAc68xQQaNRhyqtKQ%26oe%3D6A5AFE71&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) | [COP volume tiers](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-1.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F735786322_1563169278856774_8318221048910614101_n.csv%3F_nc_cat%3D108%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3DmZBKjqNPF8kQ7kNvwFN0REh%26_nc_oc%3DAdpEanRGctHMubZ1pvklzCiYIzrQwhdDRUtLW6BNm91SJpoFTy6mRTXsAjpWxYe0fww%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-1.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQCfNCEn9rISwVrni1G2jXQfhqRaU8DV6gre1DE4hWCBEw%26oe%3D6A5AFC5B&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) | [COP rates and volume tiers](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax7-1.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F736261268_3399672776863686_6664467053461918579_n.pdf%3F_nc_cat%3D101%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3DNvRdI16f8mIQ7kNvwHNyWxe%26_nc_oc%3DAdr2NyoRVny_Qwe-t5hnIVyoi9RxoWvYyt_7jzRUPnO6TaRc8fwX11iREgO_LjFpDPI%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax7-1.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQBBmJxU4l_Mno5cRTkoIf3IHCQTN6SsyXFQmlD0am6CvQ%26oe%3D6A5AE88E&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) |\n| EUR | [EUR rates](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-2.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F735577288_880523067910219_5282602229183099875_n.csv%3F_nc_cat%3D111%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3DjSAweHiFPigQ7kNvwGGBpaP%26_nc_oc%3DAdoVV791r2ONE9bMvRgRoacP4vmfbjccMNG65S65Or2mYTxii_nj2s-iOqgZ75E2LUA%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-2.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQAzNW35RYHtISe8I1Es_Dm8NP2hJpi4gICwe5XYKGx-PQ%26oe%3D6A5B17CA&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) | [EUR volume tiers](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax7-1.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F738438435_4431554183839532_4085221187255469478_n.csv%3F_nc_cat%3D101%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3DAsCyalgesAEQ7kNvwEDit7T%26_nc_oc%3DAdppSJlCrHvikjeiE6tOIfj3iGh-Mf1DrySvJxqQJ11V6wUhGZQXcSmKVYbaiVkAhOU%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax7-1.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQDWBY0U90fEzZXc6K3vVIhcc-S75RBsZI95fTy8-2bLHQ%26oe%3D6A5B0605&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) | [EUR rates and volume tiers](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-1.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F734958213_26993049673710039_8772457889658925801_n.pdf%3F_nc_cat%3D104%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3DkcxkLcge_GgQ7kNvwHFKxne%26_nc_oc%3DAdrANsUzTGmCeL5oU6lt_cC6CVHiPcHw32SYT4ytM5hptgGBa0C7HxDJ9_Xmg80Ev08%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-1.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQBXdRXNrzbNEUrAc0_tE5QhrGzg6G_b77T3W-q1xlKwbQ%26oe%3D6A5B054C&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) |\n| GBP | [GBP rates](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-1.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F735430054_26918261854536870_5055388467024304012_n.csv%3F_nc_cat%3D110%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3DJg2-2iAE7MkQ7kNvwFkhJSl%26_nc_oc%3DAdri8YhWhpvV8if8qpBAmJaYw9JflUewns2r2BUDVS-Ac3-aneQ6ZEKNqzmX5--1Gjs%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-1.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQB53r4R-zJAflA3QLN2-r3aamMJykhZhmByo3ev-0ERNQ%26oe%3D6A5B028E&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) | [GBP volume tiers](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-1.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F735504700_2096207764666537_2245163982827477699_n.csv%3F_nc_cat%3D110%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3DEls0JZrUAtQQ7kNvwFRdrOn%26_nc_oc%3DAdpU9_xSEXd_UvQcQObZUeEB_gNddjGkwo34chRB429j3tR6xYekRvk4uZ0HcWLYkRY%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-1.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQAYWAici1pyZ5IVOYLZBF-UdCm6jpJ0e-mIH2ZhYbegKw%26oe%3D6A5B098E&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) | [GBP rates and volume tiers](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-1.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F735608285_4417940318486706_4352340668351392604_n.pdf%3F_nc_cat%3D110%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3DeMJSa_xCRGEQ7kNvwEiphzP%26_nc_oc%3DAdq-Y_fBwLzJG9fH5oAOerFzbunPZs6cDeU9MvBc-HP6mByBAkAbA4APMS0NRBzhfn0%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-1.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQDCnYggIuZ6OpkiZYIdQGlbfvPBuYEhFmDNSW5IAilCWQ%26oe%3D6A5B1866&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) |\n| IDR | [IDR rates](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-2.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F736248761_4017328625226592_348718840733499952_n.csv%3F_nc_cat%3D106%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3DRWsbqKmBt_4Q7kNvwExVh88%26_nc_oc%3DAdpjuNDBEluINwR6Dp4yiYAMsesUTbssjYor3VN57aVsJKSPJzm5szDGiFiUUo1ID1o%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-2.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQAoVPRPR3lruzMM0o1z0M2ytUKgDGYhujSOHm2MOdsvIQ%26oe%3D6A5B1229&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) | [IDR volume tiers](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-2.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F738217727_1011684251610955_29790659035043351_n.csv%3F_nc_cat%3D111%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3DN7d1mbS0yPAQ7kNvwEHitJV%26_nc_oc%3DAdqy8UtPYi3kCXCvBw9NS1lky3oo-FBc4G492lUBMl_pYBoRzbxiWmh931PeJIpCNag%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-2.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQDhckOaID3OSLk8_t4qwtxkjQDYx9nQGpjKrHfY9O58zA%26oe%3D6A5B080A&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) | [IDR rates and volume tiers](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-2.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F737249720_4588912348010993_3128121200416753655_n.pdf%3F_nc_cat%3D100%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3DlgSZy0dR3WoQ7kNvwEsJeTj%26_nc_oc%3DAdpskGyY7w88_CknYBAi2tK1HM4l8SSGWHIehj_5qRUoNsKZOu7iMOFwlN0kRGQBVJQ%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-2.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQCOUYg285FHOej5uqlbnm9vtgGQiekGJV4lwc3olO8slA%26oe%3D6A5B13C2&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) |\n| INR | [INR rates](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-2.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F736778577_2057477481812167_3914865669314423839_n.csv%3F_nc_cat%3D107%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3DlzE0N01Y0pMQ7kNvwHkD3hm%26_nc_oc%3DAdqflXMVzWX3y7vDbbM8E3seZl8BLvtG2Ejb3c28bUqFUS35bv5bA9NTLo1W_GgSi8Q%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-2.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQCBTJ1ZTDCmVagwEyDN3N2laGz9KT_idad7N1Bjo9w6Rw%26oe%3D6A5AF42D&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) | [INR volume tiers](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-2.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F735482746_895954676210792_8671102688426610970_n.csv%3F_nc_cat%3D107%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3D-wTuj9e0i34Q7kNvwHdGDTc%26_nc_oc%3DAdowfq9DkiAG7ObhKKqt-SPzdvP4PJa0xSQgXpZKqJYRGemFbw8hk0XLdtWeZLKRGD8%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-2.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQDJF7wQFz1gKImgVBDefC5A4Rgvw1Q7Y7fBChd9778XAQ%26oe%3D6A5B0A20&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) | [INR rates and volume tiers](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-2.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F736384855_1505842434676019_4947936918470739818_n.pdf%3F_nc_cat%3D111%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3D391hdFjLe9YQ7kNvwG9CB4k%26_nc_oc%3DAdpOHWmKBjfsLZpUnAlZrX_Yxy9emW29j_reVj3TZAF2n0CX5ifAhGILAcZDPIzObZ8%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-2.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQCIv9mCyFkYAS1stcnCcjxL5nlftE_B1YXypP6H6gJwVg%26oe%3D6A5AECF7&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) |\n| MXN | [MXN rates](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-1.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F738303933_2082142922514658_5654975035703609718_n.csv%3F_nc_cat%3D110%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3DeHy_4TIhl60Q7kNvwFHkVHE%26_nc_oc%3DAdqE-oskqcIT5-c6PkTn7ijk-_bkq6vKjXjZxNdQG908AIRf5j4_TT2d0-yUtKBQ6T4%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-1.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQAUnX6SghNv6N9dVVxgzzHUS9OU4XPgfGZcyHlihMFO1w%26oe%3D6A5B1BA7&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) | [MXN volume tiers](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-2.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F737467685_1942444759760824_5108418538792223432_n.csv%3F_nc_cat%3D107%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3DjLewAtApMuYQ7kNvwH_EG3H%26_nc_oc%3DAdqN0XOhVEmBGzVhddGviNoNyKUYaT_zDnJR2xKq7HkT2nxaGLyI1Ihk8jo7XiEmR3I%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-2.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQBVcx8gw6Qyj4krajB0SC9BhShc3uBMmia6tAfxZ56Yrw%26oe%3D6A5B02C3&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) | [MXN rates and volume tiers](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-2.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F735010003_1033289046050785_4574233614213498855_n.pdf%3F_nc_cat%3D100%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3D1vfTSh0jFp0Q7kNvwHIQfVu%26_nc_oc%3DAdqIznA26NiDcdq_MBcp1PH5Uee0b2XKO6sdGp2XSdS9-wIQKK4UFJnSCDCnxcbDYv0%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-2.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQCgdhEthdyFGhGR90sQz55Qk1TppqSSVmk5gw3yNsCQUg%26oe%3D6A5B074F&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) |\n| MYR | [MYR rates](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-1.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F736019878_2036940027213698_6346536453281015409_n.csv%3F_nc_cat%3D104%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3D3p3pgHrS4fAQ7kNvwFZd1lx%26_nc_oc%3DAdoepggLpBv_dyUoZUVRCIX4lCA5HcRstOoVp-aRJJXf8rkwKEQmy-JEzdoSUpgKLCo%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-1.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQBL1Dm2dw0rLtDqRn6-P-8dUv-VxJKqSwEDa9-31Qn0cw%26oe%3D6A5B13E1&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) | [MYR volume tiers](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax7-1.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F737249720_1529462038920457_4883100668876133763_n.csv%3F_nc_cat%3D105%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3DUOSo4ncAKccQ7kNvwFwOPyy%26_nc_oc%3DAdrsss1Qi0mJbVgVE0TzrUsh7PJpHDuogejVX_40ZepZ2gmH3b3f8CjQdQaPKSeHoQ8%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax7-1.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQA7rnvslsb0MYrDzKj063uOGKM0N_N9ZBiL5zPxeQnACw%26oe%3D6A5AE72F&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) | [MYR rates and volume tiers](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-2.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F735597616_991741870500391_6460664815430493087_n.pdf%3F_nc_cat%3D107%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3DaxE6ENKtuXMQ7kNvwGa3HHE%26_nc_oc%3DAdrIepRUEyOABc5obIhfR3pOrzBCuHaOlJk4WkYW-9Pb80qrKiTP-ShVT-tu-pOIevg%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-2.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQB35F4qdf4jVEfE7jGjYWuGJ5W_h1qI0VRI_imzt23tpw%26oe%3D6A5B061D&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) |\n| PEN | [PEN rates](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-2.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F735210839_913840621730202_4639960200844523870_n.csv%3F_nc_cat%3D111%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3D7b-kQanFrWQQ7kNvwGRgB4a%26_nc_oc%3DAdrEpazz4vs57ibS9JkeHb_48n0ySA5bpjWAAURAjHa38MtwWOwd1ZHtK-xBjUOgFcU%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-2.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQA401XPeaHu73Vekrlrwa4JDcfHPXZRgXootY6DWgEisQ%26oe%3D6A5B1A4F&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) | [PEN volume tiers](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-2.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F735608282_2191695831666586_6461143467874321366_n.csv%3F_nc_cat%3D106%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3DB1zzZv4NFR0Q7kNvwFWjLUk%26_nc_oc%3DAdpK2o3R70YB_gyWY3Z6OtH2zNHJChSyILKh8vDDj67qP3zK_s_0irXRLZf4DBEbXA8%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-2.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQCi84TiAIzmwoLQ489lRpr6eDJkjTI7u2z9YEu5cnmYBQ%26oe%3D6A5B0B63&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) | [PEN rates and volume tiers](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-2.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F735994319_3400176270160441_2750577549294559078_n.pdf%3F_nc_cat%3D103%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3D9Ia7iGMxGKAQ7kNvwHBgYMD%26_nc_oc%3DAdrDOMaI3t0pym9ev7FOLg6nfvklmyMJOFtKDJJpZ64031Zbqe7u64zkVRAcgbhkrck%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-2.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQBzr3AARcIgZdxFycCmfqQYt5sXzBVY-x5maYikXm6Ovg%26oe%3D6A5AF677&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) |\n| SAR | [SAR rates](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-1.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F734958344_1400197512001211_1727363918616552387_n.csv%3F_nc_cat%3D104%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3DHUxS2sI182YQ7kNvwHdB8TX%26_nc_oc%3DAdob85C4WDeVlrh2zWsDHn-4uf0xLOYcsyZt2KnBpI-g8UxWjGMTdKUc4pbZbaAsXiE%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-1.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQAts59c_0S7aWKk9Y3o6nmZ8CdSFpoUIylIwbYDfp3z6g%26oe%3D6A5AEDBD&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) | [SAR volume tiers](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-2.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F736045144_4611753665817050_6210021807198769413_n.csv%3F_nc_cat%3D103%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3D-8J_DnHlVw0Q7kNvwEHuCRi%26_nc_oc%3DAdpARENHXebiP7PfeVljhIzOsa9YQjvKxTRehKQcXkFv4KMG0uwVvPow66GIfJHrqbU%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-2.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQDZNrsz3a3rdZaIGvJC_7AdCbtc_QtMMhDXnanAULwl0Q%26oe%3D6A5B15A3&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) | [SAR rates and volume tiers](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-1.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F737674863_845888481708031_7067407008342933548_n.pdf%3F_nc_cat%3D104%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3DEMPqT8i8TEUQ7kNvwFz0sD5%26_nc_oc%3DAdqXwKsRkS1Ox3QVEMHNhORXKS9wnmTik1YutWTBwiCaskwF8tmu7HWxf4jL6mzdtCQ%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-1.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQDAUx4Inzm4lQBCwF3Flo7XXHcINajmpfNddMBids9zNA%26oe%3D6A5B1B91&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) |\n| SGD | [SGD rates](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-2.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F738235648_27545834748410359_3612846730455957655_n.csv%3F_nc_cat%3D107%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3D9iBhJzEWAmkQ7kNvwHQJazF%26_nc_oc%3DAdoO8AUKbj8eULOaHGiH4XykiwuCNOA_gk1vWJ2072HwmSybpg117N66MLnld9rVuBc%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-2.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQA8tmM8AHgQg2cVRyxVmB6IOtL5zZIOPGmmbgzB9E2CsQ%26oe%3D6A5B0C64&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) | [SGD volume tiers](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-2.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F735544502_1024960916924033_6280503177956106671_n.csv%3F_nc_cat%3D103%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3DzECzHg4wisUQ7kNvwFiJ2dD%26_nc_oc%3DAdoFHJ3nyhSwEbNqesapsquS0uOK1HBUbBq3WcOWAqtxfj6fxiOx0q02wihYZLjvPFc%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-2.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQAZ2DQLV3vrYpkoGDbXskfILgd7lJbx6SS2w3pBtu7xgA%26oe%3D6A5AFD9D&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) | [SGD rates and volume tiers](https://l.facebook.com/l.php?u=https%3A%2F%2Fscontent-lax3-1.xx.fbcdn.net%2Fv%2Ft39.8562-6%2F735687605_1604668864416234_1010790687769924176_n.pdf%3F_nc_cat%3D109%26ccb%3D1-7%26_nc_sid%3Db8d81d%26_nc_ohc%3Dz3i28xg9YKkQ7kNvwEYovr-%26_nc_oc%3DAdr4tvppngRrr5crWSq12h3mpSluYJmZEUUtFVvX_oIHoPgxoOQjsEdmJanDxFQSwpI%26_nc_zt%3D14%26_nc_ht%3Dscontent-lax3-1.xx%26_nc_gid%3DL5FrbgzAnG1JCCTddUVAig%26_nc_ss%3D7b289%26oh%3D00_AQATWP3VqjBId1Z4xK0sNCkgdwceXGJ44JtTkURoBXokOQ%26oe%3D6A5AE548&h=AUDWs8ekmOiNtCZ-S2xM_PscuXqtLMdqFG5EG9502ek1ZCAw8hzj87qVC_PblLWih0moO_a4Z-NU1lVKmxvsOoYsUS4eSRECax_ikq_-ERi8rE_TmRP7JA9cKmElu0gyJTQaAUU28BleGg) |",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:11.154927Z",
+      "section_path": "Pricing on the WhatsApp Business Platform > Rates > Rate cards and volume tiers",
+      "chunk_index": 5,
+      "token_count": 7794,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_f5767d9df625",
+      "source_type": "pricing_page",
+      "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing",
+      "domain": "developers.facebook.com",
+      "page_title": "Pricing on the WhatsApp Business Platform | Developer Documentation",
+      "content": "| Markets | Calling Code<br>(and network prefix if applicable) | ISO Country Code |\n| --- | --- | --- |\n| Countries<br>Argentina<br>Brazil<br>Chile<br>Colombia<br>Egypt<br>France<br>Germany<br>Hong Kong<br>Hungary<br>India<br>Indonesia<br>Israel<br>Italy<br>Malaysia<br>Mexico<br>Netherlands<br>Nigeria<br>Pakistan<br>Peru<br>Poland<br>Qatar<br>Romania<br>Russia<br>Saudi Arabia<br>Singapore<br>South Africa<br>Spain<br>Turkey<br>United Arab Emirates<br>United Kingdom | 54<br>55<br>56<br>57<br>20<br>33<br>49<br>852<br>36<br>91<br>62<br>972<br>39<br>60<br>52<br>31<br>234<br>92<br>51<br>48<br>974<br>40<br>7<br>966<br>65<br>27<br>34<br>90<br>971<br>44 | AR<br>BR<br>CL<br>CO<br>EG<br>FR<br>DE<br>HK<br>HU<br>IN<br>ID<br>IL<br>IT<br>MY<br>MX<br>NL<br>NG<br>PK<br>PE<br>PL<br>QA<br>RO<br>RU<br>SA<br>SG<br>ZA<br>ES<br>TR<br>AE<br>GB |\n| North America<br>Canada<br>United States | 1<br>1 | CA<br>US |\n| Rest of Africa<br>Algeria<br>Angola<br>Benin<br>Botswana<br>Burkina Faso<br>Burundi<br>Cameroon<br>Chad<br>Republic of the Congo (Brazzaville)<br>Eritrea<br>Ethiopia<br>Gabon<br>Gambia<br>Ghana<br>Guinea-Bissau<br>Ivory Coast<br>Kenya<br>Lesotho<br>Liberia<br>Libya<br>Madagascar<br>Malawi<br>Mali<br>Mauritania<br>Morocco<br>Mozambique<br>Namibia<br>Niger<br>Rwanda<br>Senegal<br>Sierra Leone<br>Somalia<br>South Sudan<br>Sudan<br>Swaziland<br>Tanzania<br>Togo<br>Tunisia<br>Uganda<br>Zambia<br>Zimbabwe | 213<br>244<br>229<br>267<br>226<br>257<br>237<br>235<br>242<br>291<br>251<br>241<br>220<br>233<br>245<br>225<br>254<br>266<br>231<br>218<br>261<br>265<br>223<br>222<br>212<br>258<br>264<br>227<br>250<br>221<br>232<br>252<br>211<br>249<br>268<br>255<br>228<br>216<br>256<br>260<br>263 | DZ<br>AO<br>BJ<br>BW<br>BF<br>BI<br>CM<br>TD<br>CG<br>ER<br>ET<br>GA<br>GM<br>GH<br>GW<br>CI<br>KE<br>LS<br>LR<br>LY<br>MG<br>MW<br>ML<br>MR<br>MA<br>MZ<br>NA<br>NE<br>RW<br>SN<br>SL<br>SO<br>SS<br>SD<br>SZ<br>TZ<br>TG<br>TN<br>UG<br>ZM<br>ZW |\n| Rest of Asia Pacific<br>Afghanistan<br>Australia<br>Bangladesh<br>Cambodia<br>China<br>Japan<br>Laos<br>Mongolia<br>Nepal<br>New Zealand<br>Papua New Guinea<br>Philippines<br>Sri Lanka<br>Taiwan<br>Tajikistan<br>Thailand<br>Turkmenistan<br>Uzbekistan<br>Vietnam | 93<br>61<br>880<br>855<br>86<br>81<br>856<br>976<br>977<br>64<br>675<br>63<br>94<br>886<br>992<br>66<br>993<br>998<br>84 | AF<br>AU<br>BD<br>KH<br>CN<br>JP<br>LA<br>MN<br>NP<br>NZ<br>PG<br>PH<br>LK<br>TW<br>TJ<br>TH<br>TM<br>UZ<br>VN |\n| Rest of Central and Eastern Europe<br>Albania<br>Armenia<br>Azerbaijan<br>Belarus<br>Bulgaria<br>Croatia<br>Czech Republic<br>Georgia<br>Greece<br>Latvia<br>Lithuania<br>Moldova<br>North Macedonia<br>Serbia<br>Slovakia<br>Slovenia<br>Ukraine | 355<br>374<br>994<br>375<br>359<br>385<br>420<br>995<br>30<br>371<br>370<br>373<br>389<br>381<br>421<br>386<br>380 | AL<br>AM<br>AZ<br>BY<br>BG<br>HR<br>CZ<br>GE<br>GR<br>LV<br>LT<br>MD<br>MK<br>RS<br>SK<br>SI<br>UA |\n| Rest of Western Europe<br>Austria<br>Belgium<br>Denmark<br>Finland<br>Ireland<br>Norway<br>Portugal<br>Sweden<br>Switzerland | 43<br>32<br>45<br>358<br>353<br>47<br>351<br>46<br>41 | AT<br>BE<br>DK<br>FI<br>IE<br>NO<br>PT<br>SE<br>CH |\n| Rest of Latin America<br>Bolivia<br>Costa Rica<br>Dominican Republic<br>Ecuador<br>El Salvador<br>Guatemala<br>Haiti<br>Honduras<br>Jamaica<br>Nicaragua<br>Panama<br>Paraguay<br>Puerto Rico<br>Uruguay<br>Venezuela | 591<br>506<br>1 (809, 829, 849)<br>593<br>503<br>502<br>509<br>504<br>1 (658, 876)<br>505<br>507<br>595<br>1 (787, 939)<br>598<br>58 | BO<br>CR<br>DO<br>EC<br>SV<br>GT<br>HT<br>HN<br>JM<br>NI<br>PA<br>PY<br>PR<br>UY<br>VE |\n| Rest of Middle East<br>Bahrain<br>Iraq<br>Jordan<br>Kuwait<br>Lebanon<br>Oman<br>Yemen | 973<br>964<br>962<br>965<br>961<br>968<br>967 | BH<br>IQ<br>JO<br>KW<br>LB<br>OM<br>YE |\n| Other<br>All other countries | Varies by country |  |",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:11.155284Z",
+      "section_path": "Pricing on the WhatsApp Business Platform > Rates > Country calling codes",
+      "chunk_index": 11,
+      "token_count": 955,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_63bbc2023b3f",
+      "source_type": "official_docs",
+      "url": "https://developers.facebook.com/docs/whatsapp",
+      "domain": "developers.facebook.com",
+      "page_title": "WhatsApp Business Platform | Developer Documentation",
+      "content": "Learn about the APIs that are part of the WhatsApp Business Platform\n\nCloud API\n\n\nSend and receive WhatsApp messages, make WhatsApp calls, and more from your business phone number.\n\n[Learn more](https://developers.facebook.com/documentation/business-messaging/whatsapp/about-the-platform#whatsapp-cloud-api)\n\nMarketing Messages API for WhatsApp\n\n\nAccess new features not available on Cloud API and get automatic optimizations, so high engagement messages can reach more customers.\n\n[Learn more](https://developers.facebook.com/documentation/business-messaging/whatsapp/marketing-messages/overview)\n\nBusiness Management API\n\nProgrammatically manage your WhatsApp business account and its assets.\n\n\n\n[Learn more](https://developers.facebook.com/documentation/business-messaging/whatsapp/about-the-platform#business-management-api)\n\nExplore our newest features and launches\n\nWhatsApp API Calling\n\n\nSeamless, secure, and personalized voice calling natively within WhatsApp chat to drive superior business outcomes.\n\n\n[Learn more](https://developers.facebook.com/documentation/business-messaging/whatsapp/calling)\n\nGroups API\n\n\nDrive sales and solve customer problems with groups on the WhatsApp Business Platform.\n\n\n[Learn more](https://developers.facebook.com/documentation/business-messaging/whatsapp/groups)\n\nAPI solutions for WhatsApp Business app users\n\n\nUse both the WhatsApp Business app and API with the same phone number to simplify onboarding and unlock new features to scale your business.\n\n\n[Learn more](https://developers.facebook.com/documentation/business-messaging/whatsapp/embedded-signup/onboarding-business-app-users)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:09.758686Z",
+      "section_path": "WhatsApp Business Platform > New releases",
+      "chunk_index": 2,
+      "token_count": 408,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_3790f46d05a4",
+      "source_type": "official_docs",
+      "url": "https://developers.facebook.com/docs/whatsapp",
+      "domain": "developers.facebook.com",
+      "page_title": "WhatsApp Business Platform | Developer Documentation",
+      "content": "Build WhatsApp solutions for your business customers.\n\nBecome a Tech Provider\n\n\nFollow this guide to onboard as a WhatsApp Tech Provider so that you can start providing messaging services to your clients.\n\n[Learn more](https://developers.facebook.com/documentation/business-messaging/whatsapp/solution-providers/get-started-for-tech-providers)\n\nOnboard customers\n\nLearn how to build Embedded Signup; a flow to onboard customers directly from your website.\n\n\n[Learn more](https://developers.facebook.com/documentation/business-messaging/whatsapp/embedded-signup/overview)\n\nMM API for WhatsApp Partner Guide\n\n\nLearn how to integrate with MM API for WhatsApp and onboard your customers to send marketing messages with optimizations.\n\n[Learn more](https://developers.facebook.com/documentation/business-messaging/whatsapp/marketing-messages/onboard-business-customers)\n\n![](https://lookaside.fbsbx.com/elementpath/media/?media_id=1822211262016548&version=1781033968&transcode_extension=webp)\n\nView the Partner Showcase to find a partner tailored to fit your business needs.\n\n[Find a partner](https://business.facebook.com/messaging/partner-showcase)\n\nDid you find this page helpful?\n\n![Thumbs up icon](https://static.xx.fbcdn.net/rsrc.php/yR/r/OEXJ0_DJeZv.svg)\n\n![Thumbs down icon](https://static.xx.fbcdn.net/rsrc.php/yb/r/qKPgNVNeatU.svg)\n\n* * *",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:09.758728Z",
+      "section_path": "WhatsApp Business Platform > Not a developer?",
+      "chunk_index": 3,
+      "token_count": 335,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_5e61f5e4eb81",
+      "source_type": "developer_portal",
+      "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/llms.txt",
+      "domain": "developers.facebook.com",
+      "page_title": "Page Not Found - Meta for Developers",
+      "content": "![](https://googleads.g.doubleclick.net/pagead/viewthroughconversion/963623955/?guid=ON&script=0)\n\n![](https://dc.ads.linkedin.com/collect/?pid=276116&fmt=gif)\n\n![](https://analytics.twitter.com/i/adsct?txn_id=nz7m3&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0)\n\n![](https://t.co/i/adsct?txn_id=nz7m3&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0)\n\n![](https://facebook.com/security/hsts-pixel.gif)\n\nSorry, the link you followed may be broken, or the page may have been removed.\n\n[Search for documentation business messaging whatsapp llms.txt on developers.facebook.com](https://developers.facebook.com/search/?q=documentation%20business%20messaging%20whatsapp%20llms.txt&notfound=1)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:10.592051Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 173,
+      "quality_score": 0.46
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "WhatsApp Business is a platform for businesses to communicate with customers via WhatsApp.",
+      "evidence_ids": [
+        "ev_d2fe8035b263"
+      ]
+    },
+    "category": {
+      "value": "Communications and Messaging",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_d2fe8035b263"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_54dfb99cac0e"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API",
+      "evidence_ids": [
+        "ev_d2fe8035b263"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_d2fe8035b263"
+      ]
+    },
+    "mcp": {
+      "value": "No known MCP",
+      "evidence_ids": [
+        "ev_d2fe8035b263"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_d2fe8035b263"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_d2fe8035b263"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.75,
+    "fields_checked": 8,
+    "fields_supported": 6,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "auth_methods",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'auth_methods' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.75,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.75 below 0.90 threshold",
+      "Auth methods missing or UNKNOWN"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

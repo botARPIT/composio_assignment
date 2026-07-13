@@ -1,0 +1,166 @@
+{
+  "app_name": "Plaid",
+  "official_domain": "plaid.com",
+  "homepage": {
+    "url": "https://plaid.com/docs",
+    "title": "Plaid",
+    "confidence": 0.4,
+    "confidence_reason": [
+      "official_docs: +0.40"
+    ],
+    "is_official": true,
+    "discovered_from": "domain_probe"
+  },
+  "authentication": {
+    "primary": {
+      "url": "https://plaid.com/docs/auth",
+      "title": "",
+      "confidence": 0.7,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "alternatives": []
+  },
+  "api_reference": {
+    "primary": {
+      "url": "https://plaid.com/docs/api",
+      "title": "",
+      "confidence": 0.7,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "alternatives": []
+  },
+  "pricing": {
+    "primary": {
+      "url": "https://plaid.com/pricing",
+      "title": "",
+      "confidence": 0.6,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "alternatives": []
+  },
+  "mcp": {
+    "primary": null,
+    "alternatives": []
+  },
+  "developer_portal": {
+    "primary": {
+      "url": "https://plaid.com/docs",
+      "title": "",
+      "confidence": 0.6,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "alternatives": []
+  },
+  "sdk": null,
+  "webhooks": null,
+  "llms_txt": null,
+  "inventory": {
+    "app_name": "Plaid",
+    "official_domain": "plaid.com",
+    "items": [
+      {
+        "url": "https://plaid.com/docs",
+        "page_type": "homepage",
+        "title": "Plaid",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      },
+      {
+        "url": "https://plaid.com/docs/auth",
+        "page_type": "authentication",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      },
+      {
+        "url": "https://plaid.com/docs/api",
+        "page_type": "api_reference",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      },
+      {
+        "url": "https://plaid.com/pricing",
+        "page_type": "pricing",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      },
+      {
+        "url": "https://plaid.com/docs",
+        "page_type": "developer_portal",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      }
+    ],
+    "stats": {
+      "queries": 1,
+      "urls_discovered": 5,
+      "official_urls": 5,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 1,
+      "canonical_selected": 5
+    }
+  },
+  "stats": {
+    "queries": 1,
+    "urls_discovered": 5,
+    "official_urls": 5,
+    "non_official_filtered": 0,
+    "blog_community_filtered": 0,
+    "third_party_sdk_filtered": 0,
+    "duplicates_removed": 1,
+    "canonical_selected": 5
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "app": {
+    "id": 59,
+    "name": "Waterfall.io",
+    "website": "waterfall.io",
+    "category_hint": "Data SEO and Scraping"
+  },
+  "documentation_map": {
+    "app_name": "Waterfall.io",
+    "official_domain": "waterfall.io",
+    "homepage": {
+      "url": "https://waterfall.io",
+      "title": "Waterfall.io",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": null,
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": null,
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": null,
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://docs.waterfall.io/mcp",
+        "title": "",
+        "confidence": 0.85,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://docs.waterfall.io/v1/introduction",
+        "title": "Waterfall.io API Documentation: Introduction",
+        "confidence": 0.85,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "Waterfall.io",
+      "official_domain": "waterfall.io",
+      "items": [
+        {
+          "url": "https://waterfall.io",
+          "page_type": "homepage",
+          "title": "Waterfall.io",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.waterfall.io/mcp",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.85,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.waterfall.io/v1/introduction",
+          "page_type": "developer_portal",
+          "title": "Waterfall.io API Documentation: Introduction",
+          "confidence": 0.85,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 4,
+        "urls_discovered": 3,
+        "official_urls": 3,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 3
+      }
+    },
+    "stats": {
+      "queries": 4,
+      "urls_discovered": 3,
+      "official_urls": 3,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 3
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_999814d2fa65",
+      "source_type": "developer_portal",
+      "url": "https://docs.waterfall.io/v1/introduction",
+      "domain": "docs.waterfall.io",
+      "page_title": "Introduction - Waterfall.io API Documentation",
+      "content": "| Prospector | Async | Find contacts at a target company by title and location filters. Returns emails, phones (optional), and employment history. | \n| Search Contact | Sync | Search contacts by company identity, title, department, seniority, or hire date. Returns profile data — contact channels not included. | \n| Search Company | Sync | Search companies by industry, headquarters country, and headcount range. | \n| Contact Enrichment | Async | Enrich a contact by LinkedIn, email, or name + domain. Returns verified email, phone (optional), title, and employment history. | \n| Phone Enrichment | Async | Find mobile and direct-dial numbers for a contact. | \n| Company Enrichment | Async | Enrich a company by domain, LinkedIn, or name. Returns full company profile. | \n| Company Reveal | Sync | Reveal company information from an IPv4 address. Beta. | \n| Company Titles | Sync | Get all active job titles at a company by domain or LinkedIn. Ideal for flexible title targeting and use alongside Search Contact title lists. Beta. | \n| Job Change Detection | Sync | Check if a contact is still at a given company. Returns status and a profile snapshot. | \n| Email Verification | Sync | Verify an email address and return deliverability status. | \n| Webhook JWKS | Sync | Fetch Ed25519 public keys for verifying signed webhook deliveries. | \n| Account Reporting | Sync | Retrieve usage counters at the account and key level. | \n| API Key Management | Sync | Create and manage sub-keys under a master key. |",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:08:12.068592Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 376,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_03a82c63eb8c",
+      "source_type": "official_docs",
+      "url": "https://waterfall.io",
+      "domain": "waterfall.io",
+      "page_title": "Waterfall | One B2B data solution to connect them all",
+      "content": "Waterfall Enrichment api, powered by 30+ data vendors\nOne GTM API to\nTrack job changes\nSearch for prospects\nFind verified emails\nFind mobile numbers\nTrack job changes\nVerify emails\n*Waterfall™ aggregates 30+ different data vendors so that you can maximize contact, email and mobile number coverage without signing multiple data vendors or long-term contracts.\nGTM & Revenue leaders at top B2B companies use Waterfall\n3 reasons (plus a bonus) why these brands choose Waterfall\nBefore\nAll your data vendors\nAFTER\n1\nQuality\n1\nQuality\nBefore\nIncomplete & Outdated Data\nYou’re working with outdated information. Emails bounce and phone numbers disconnect. Contact profiles don’t match reality.\nAfter\nCleaned, Structured and Verified Data\nEvery profile verified in real-time. What you see is current, accurate and ready to use.\n2\nCoverage\n2\nCoverage\nBefore\nMissing Contact Coverage\nYou look for complete profiles across multiple platforms. One vendor has North America covered but not Europe, others give you emails but no phones - leaving you with prospects you can't actually reach.\nAfter\nGlobal Contact Coverage\nYou pull verified contact data that's comprehensive globally. Email, phone, title, company - all accurate and together in one place.\n3\nCost\n3\nCost\nBefore\nMultiple Vendors, Multiple Costs & Integrations\nYou pay for the same missing, partial or inaccurate data multiple times across vendors. Credits expire and subscriptions require minimum commitments regardless of actual usage.\nAfter\nOne Contract & Integration, Complete Access\nPay only for what you actually use. No monthly commitments or short-term credit expiration - scale up or down whenever you need.\n+\nSupport\n+\nSupport\nBefore\nPending Tickets. Ignored Emails. Limited Product Input\nYou submit tickets and wait days for answers. Your emails get buried in their inbox. Feature requests are prioritized by contract size, not urgency or potential business impact.\nAfter\nDirect Access to Founders & Engineers\nMessage our team directly in Slack - no tickets, no waiting. Your feedback turns into features in days, and we prioritize by impact, not account size.\nHear what our customers say about us\nHow teams use Waterfall\nFrom GTM engineers and RevOps to PLG teams, here are the most effective ways our customers use Waterfall to improve data coverage and quality.\nProspector API\nContact Enrichment API\nPhone Enrichment API\nJob Changes API\nContact Enrichment API\nModular & Scalable GTM API\nEverything you need to build reliable data pipelines - from flexible architecture to dedicated developer support\nUnified data schema\nOne clean, consistent data format for all your contacts and target accounts. No more field mapping headaches or schema changes.\nHigh rate limits\nUnlike typical waterfall enrichment vendors who struggle with rate limits, we handle high volumes seamlessly - whether you need 100 or 1,000 requests per minute.\n99.99% uptime\nTrue 99.99% uptime with built-in redundancy. With 30+ data vendors, we keep running even if multiple providers go down.\nDedicated onboarding\nDirect access to our engineering team via Slack. Get implementation help, custom solutions, and <1hr response times from the people who built it.\nTransparent pricing\nUsage-based pricing with no surprises. Pay for what you use, scale as you grow, no hidden fees.\nEnterprise-grade security, reliability and compliance\nWe don’t store, reuse or resell any of your data. On top, our infrastructure design allow us to be up even multiple (hand-vetted) vendors go down.\nSOC 2 Type II Certified\nWhile most vendors stop at the required Security module, we went further - achieving the complete compliance suite with Confidentiality and Privacy modules.\nGDPR & CCPA\nFull GDPR & CCPA compliance with data minimization, processing records, and privacy by design. We're ready for your EU & US data requirements.\nEnterprise-grade Security\nWe don't just claim security; we prove it with the industry's best. Our pen tests are conducted by the same auditors who secure brands like Snowflake and T-Mobile.\nMonited by Drata\nContinuous security monitoring and compliance automation through Drata. Real-time alerts and regular audits keep us ahead of threats.\nBook a call\nEvery company has different needs. Talk to our team (most likely one of the founders) to share your use case and see how Waterfall can help.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:08:12.445258Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 1084,
+      "quality_score": 0.46
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Waterfall Enrichment API for contact and company data",
+      "evidence_ids": [
+        "ev_999814d2fa65"
+      ]
+    },
+    "category": {
+      "value": "Data SEO and Scraping",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "API Key",
+      "evidence_ids": [
+        "ev_999814d2fa65"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (usage-based pricing)",
+      "evidence_ids": [
+        "ev_03a82c63eb8c"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API",
+      "evidence_ids": [
+        "ev_999814d2fa65"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_03a82c63eb8c"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_999814d2fa65"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_03a82c63eb8c"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_03a82c63eb8c"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.75,
+    "fields_checked": 8,
+    "fields_supported": 6,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.75,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.75 below 0.90 threshold",
+      "Insufficient evidence (2 pieces, minimum 3)"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

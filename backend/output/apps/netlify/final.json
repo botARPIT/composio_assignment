@@ -1,0 +1,2142 @@
+{
+  "app": {
+    "id": 63,
+    "name": "Netlify",
+    "website": "docs.netlify.com/api",
+    "category_hint": "Developer Infra and Data"
+  },
+  "documentation_map": {
+    "app_name": "Netlify",
+    "official_domain": "docs.netlify.com",
+    "homepage": {
+      "url": "https://docs.netlify.com/api",
+      "title": "Netlify",
+      "confidence": 0.5,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": null,
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://docs.netlify.com/api-and-cli-guides/cli-guides/get-started-with-cli",
+        "title": "",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://docs.netlify.com/build/edge-functions/api.md",
+          "title": "Netlify Edge Functions API",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/api-and-cli-guides/cli-guides/get-started-with-cli.md",
+          "title": "Netlify CLI: Get Started",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/api-and-cli-guides/cli-guides/manage-functions.md",
+          "title": "Netlify CLI: Manage Functions",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/api-and-cli-guides/cli-guides/local-development.md",
+          "title": "Netlify Dev: Local Development",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/api-and-cli-guides/cli-guides/debug-with-vscode.md",
+          "title": "VS Code Netlify CLI Debugging",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api.md",
+          "title": "Netlify API Quickstart",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-legacy-plans/billing-faq-for-legacy-plans",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://netlify-mcp.netlify.app/mcp`",
+        "title": "",
+        "confidence": 0.25,
+        "confidence_reason": [
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": false,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://docs.netlify.com/build/build-with-ai/netlify-skills",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://docs.netlify.com/build/build-with-ai/netlify-mcp-server",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/functions/overview.md",
+          "title": "Netlify Functions Overview",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/functions/get-started.md",
+          "title": "Get started with Functions",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/functions/background-functions.md",
+          "title": "Background Functions",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/functions/scheduled-functions.md",
+          "title": "Scheduled Functions",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/functions/logs.md",
+          "title": "Function logs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/functions/usage-and-billing.md",
+          "title": "Functions usage and billing",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/edge-functions/overview.md",
+          "title": "Netlify Edge Functions Overview",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/edge-functions/get-started.md",
+          "title": "Netlify Edge Functions: Get Started",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/edge-functions/declarations.md",
+          "title": "Edge Function Declarations",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/edge-functions/optional-configuration.md",
+          "title": "Edge Functions Configuration",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/edge-functions/limits.md",
+          "title": "Edge Functions Limits",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/edge-functions/create-integration.md",
+          "title": "Edge Functions Integrations",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/edge-functions/usage-and-billing.md",
+          "title": "Edge Functions Usage and Billing",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/async-workloads/overview.md",
+          "title": "Netlify Async Workloads Overview",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/async-workloads/get-started.md",
+          "title": "Async Workloads: Get Started",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/async-workloads/writing-workloads.md",
+          "title": "Writing Async Workloads",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/async-workloads/sending-events.md",
+          "title": "Sending Events",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/async-workloads/multi-step-workloads.md",
+          "title": "Multi-Step Workloads",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/async-workloads/optional-configuration.md",
+          "title": "Async Workloads Configuration",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/async-workloads/lifecycle.md",
+          "title": "Async Workloads Lifecycle",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/async-workloads/limitations.md",
+          "title": "Async Workloads Limits",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/build-with-ai/overview.md",
+          "title": "Build with AI overview",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/build-with-ai/agent-runners/overview.md",
+          "title": "Agent Runners overview",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/build-with-ai/agent-setup-guides/agent-setup-overview.md",
+          "title": "AI context files",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/frameworks/overview.md",
+          "title": "Netlify Framework Docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/frameworks/frameworks-api.md",
+          "title": "Netlify Frameworks API",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/frameworks/framework-setup-guides/nextjs/overview.md",
+          "title": "Next.js Adapter v5",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/frameworks/framework-setup-guides/nextjs/legacy-runtime/overview.md",
+          "title": "Next.js Legacy Runtime Overview (v4)",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/frameworks/framework-setup-guides/nextjs/legacy-runtime/advanced-api-routes.md",
+          "title": "Next.js Advanced API Routes (Legacy v4)",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/frameworks/framework-setup-guides/nextjs/legacy-runtime/middleware.md",
+          "title": "Next.js Middleware on Netlify (Legacy v4)",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/frameworks/framework-setup-guides/nextjs/legacy-runtime/redirects-and-rewrites.md",
+          "title": "Next.js Redirects & Rewrites (Legacy v4)",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/frameworks/framework-setup-guides/astro.md",
+          "title": "Astro on Netlify",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/frameworks/framework-setup-guides/angular.md",
+          "title": "Angular on Netlify",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/frameworks/framework-setup-guides/tanstack-start.md",
+          "title": "TanStack Start on Netlify",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/frameworks/framework-setup-guides/gatsby.md",
+          "title": "Gatsby on Netlify",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/frameworks/framework-setup-guides/hugo.md",
+          "title": "Hugo framework on Netlify",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/frameworks/framework-setup-guides/eleventy.md",
+          "title": "Eleventy Static Site Generator on Netlify",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/frameworks/framework-setup-guides/hydrogen.md",
+          "title": "Hydrogen on Netlify",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/frameworks/framework-setup-guides/express.md",
+          "title": "Deploy Express on Netlify",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/configure-builds/overview.md",
+          "title": "Netlify Build Configuration",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/configure-builds/file-based-configuration.md",
+          "title": "Netlify File-Based Configuration",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/environment-variables/overview.md",
+          "title": "Netlify Environment Variables",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/environment-variables/get-started.md",
+          "title": "Netlify Environment Variables: Get Started",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/configure-builds/environment-variables.md",
+          "title": "Netlify Build Environment Variables",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/frameworks/use-environment-variables-with-frameworks.md",
+          "title": "Netlify Environment Variables with Frameworks",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/environment-variables/secrets-controller.md",
+          "title": "Netlify Secrets Controller",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/configure-builds/available-software-at-build-time.md",
+          "title": "Netlify Build Software",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/configure-builds/manage-dependencies.md",
+          "title": "Netlify Dependency Management",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/extend/develop-and-share/develop-build-plugins.md",
+          "title": "Netlify Build Plugins",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/extend/develop-and-share/share-build-plugins.md",
+          "title": "Share Netlify Build Plugins",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/configure-builds/build-hooks.md",
+          "title": "Netlify Build Hooks",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/configure-builds/on-demand-builders.md",
+          "title": "Netlify On-demand Builders",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/configure-builds/stop-or-activate-builds.md",
+          "title": "Netlify Build Control",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/configure-builds/ignore-builds.md",
+          "title": "Netlify Build Ignoring",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/configure-builds/monorepos.md",
+          "title": "Netlify Monorepo Builds",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/configure-builds/javascript-spas.md",
+          "title": "Netlify SPA Build Configurations",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/configure-builds/troubleshooting-tips.md",
+          "title": "Netlify Build Troubleshooting",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/deploy/deploy-overview.md",
+          "title": "Deploy overview",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/deploy/create-deploys.md",
+          "title": "Create deploys",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/deploy/manage-deploys/manage-deploys-overview.md",
+          "title": "Manage deploys",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/deploy/protect-deploys.md",
+          "title": "Protect deploys",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/deploy/deploy-notifications.md",
+          "title": "Deploy notifications",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/data-and-storage/netlify-database/index.md",
+          "title": "Netlify Database",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/data-and-storage/netlify-database/getting-started.md",
+          "title": "Netlify Database: Getting started",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.netlify.com/build/data-and-storage/netlify-database/migrations.md",
+          "title": "Netlify Database: Migrations",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "webhooks": null,
+    "llms_txt": {
+      "url": "https://docs.netlify.com/llms.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "Netlify",
+      "official_domain": "docs.netlify.com",
+      "items": [
+        {
+          "url": "https://docs.netlify.com/api",
+          "page_type": "homepage",
+          "title": "Netlify",
+          "confidence": 0.5,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/api-and-cli-guides/cli-guides/get-started-with-cli",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/build-with-ai/netlify-skills",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://netlify-mcp.netlify.app/mcp`",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://docs.netlify.com/build/build-with-ai/netlify-mcp-server",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/functions/overview.md",
+          "page_type": "developer_portal",
+          "title": "Netlify Functions Overview",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/functions/get-started.md",
+          "page_type": "developer_portal",
+          "title": "Get started with Functions",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/functions/background-functions.md",
+          "page_type": "developer_portal",
+          "title": "Background Functions",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/functions/scheduled-functions.md",
+          "page_type": "developer_portal",
+          "title": "Scheduled Functions",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/functions/logs.md",
+          "page_type": "developer_portal",
+          "title": "Function logs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/functions/usage-and-billing.md",
+          "page_type": "developer_portal",
+          "title": "Functions usage and billing",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/edge-functions/overview.md",
+          "page_type": "developer_portal",
+          "title": "Netlify Edge Functions Overview",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/edge-functions/get-started.md",
+          "page_type": "developer_portal",
+          "title": "Netlify Edge Functions: Get Started",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/edge-functions/api.md",
+          "page_type": "api_reference",
+          "title": "Netlify Edge Functions API",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/edge-functions/declarations.md",
+          "page_type": "developer_portal",
+          "title": "Edge Function Declarations",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/edge-functions/optional-configuration.md",
+          "page_type": "developer_portal",
+          "title": "Edge Functions Configuration",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/edge-functions/limits.md",
+          "page_type": "developer_portal",
+          "title": "Edge Functions Limits",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/edge-functions/create-integration.md",
+          "page_type": "developer_portal",
+          "title": "Edge Functions Integrations",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/edge-functions/usage-and-billing.md",
+          "page_type": "developer_portal",
+          "title": "Edge Functions Usage and Billing",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/async-workloads/overview.md",
+          "page_type": "developer_portal",
+          "title": "Netlify Async Workloads Overview",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/async-workloads/get-started.md",
+          "page_type": "developer_portal",
+          "title": "Async Workloads: Get Started",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/async-workloads/writing-workloads.md",
+          "page_type": "developer_portal",
+          "title": "Writing Async Workloads",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/async-workloads/sending-events.md",
+          "page_type": "developer_portal",
+          "title": "Sending Events",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/async-workloads/multi-step-workloads.md",
+          "page_type": "developer_portal",
+          "title": "Multi-Step Workloads",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/async-workloads/optional-configuration.md",
+          "page_type": "developer_portal",
+          "title": "Async Workloads Configuration",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/async-workloads/lifecycle.md",
+          "page_type": "developer_portal",
+          "title": "Async Workloads Lifecycle",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/async-workloads/limitations.md",
+          "page_type": "developer_portal",
+          "title": "Async Workloads Limits",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/api-and-cli-guides/cli-guides/get-started-with-cli.md",
+          "page_type": "api_reference",
+          "title": "Netlify CLI: Get Started",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/api-and-cli-guides/cli-guides/manage-functions.md",
+          "page_type": "api_reference",
+          "title": "Netlify CLI: Manage Functions",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/api-and-cli-guides/cli-guides/local-development.md",
+          "page_type": "api_reference",
+          "title": "Netlify Dev: Local Development",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/api-and-cli-guides/cli-guides/debug-with-vscode.md",
+          "page_type": "api_reference",
+          "title": "VS Code Netlify CLI Debugging",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api.md",
+          "page_type": "api_reference",
+          "title": "Netlify API Quickstart",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/build-with-ai/overview.md",
+          "page_type": "developer_portal",
+          "title": "Build with AI overview",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/build-with-ai/agent-runners/overview.md",
+          "page_type": "developer_portal",
+          "title": "Agent Runners overview",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/build-with-ai/agent-setup-guides/agent-setup-overview.md",
+          "page_type": "developer_portal",
+          "title": "AI context files",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/frameworks/overview.md",
+          "page_type": "developer_portal",
+          "title": "Netlify Framework Docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/frameworks/frameworks-api.md",
+          "page_type": "developer_portal",
+          "title": "Netlify Frameworks API",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/frameworks/framework-setup-guides/nextjs/overview.md",
+          "page_type": "developer_portal",
+          "title": "Next.js Adapter v5",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/frameworks/framework-setup-guides/nextjs/legacy-runtime/overview.md",
+          "page_type": "developer_portal",
+          "title": "Next.js Legacy Runtime Overview (v4)",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/frameworks/framework-setup-guides/nextjs/legacy-runtime/advanced-api-routes.md",
+          "page_type": "developer_portal",
+          "title": "Next.js Advanced API Routes (Legacy v4)",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/frameworks/framework-setup-guides/nextjs/legacy-runtime/middleware.md",
+          "page_type": "developer_portal",
+          "title": "Next.js Middleware on Netlify (Legacy v4)",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/frameworks/framework-setup-guides/nextjs/legacy-runtime/redirects-and-rewrites.md",
+          "page_type": "developer_portal",
+          "title": "Next.js Redirects & Rewrites (Legacy v4)",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/frameworks/framework-setup-guides/astro.md",
+          "page_type": "developer_portal",
+          "title": "Astro on Netlify",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/frameworks/framework-setup-guides/angular.md",
+          "page_type": "developer_portal",
+          "title": "Angular on Netlify",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/frameworks/framework-setup-guides/tanstack-start.md",
+          "page_type": "developer_portal",
+          "title": "TanStack Start on Netlify",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/frameworks/framework-setup-guides/gatsby.md",
+          "page_type": "developer_portal",
+          "title": "Gatsby on Netlify",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/frameworks/framework-setup-guides/hugo.md",
+          "page_type": "developer_portal",
+          "title": "Hugo framework on Netlify",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/frameworks/framework-setup-guides/eleventy.md",
+          "page_type": "developer_portal",
+          "title": "Eleventy Static Site Generator on Netlify",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/frameworks/framework-setup-guides/hydrogen.md",
+          "page_type": "developer_portal",
+          "title": "Hydrogen on Netlify",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/frameworks/framework-setup-guides/express.md",
+          "page_type": "developer_portal",
+          "title": "Deploy Express on Netlify",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/configure-builds/overview.md",
+          "page_type": "developer_portal",
+          "title": "Netlify Build Configuration",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/configure-builds/file-based-configuration.md",
+          "page_type": "developer_portal",
+          "title": "Netlify File-Based Configuration",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/environment-variables/overview.md",
+          "page_type": "developer_portal",
+          "title": "Netlify Environment Variables",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/environment-variables/get-started.md",
+          "page_type": "developer_portal",
+          "title": "Netlify Environment Variables: Get Started",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/configure-builds/environment-variables.md",
+          "page_type": "developer_portal",
+          "title": "Netlify Build Environment Variables",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/frameworks/use-environment-variables-with-frameworks.md",
+          "page_type": "developer_portal",
+          "title": "Netlify Environment Variables with Frameworks",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/environment-variables/secrets-controller.md",
+          "page_type": "developer_portal",
+          "title": "Netlify Secrets Controller",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/configure-builds/available-software-at-build-time.md",
+          "page_type": "developer_portal",
+          "title": "Netlify Build Software",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/configure-builds/manage-dependencies.md",
+          "page_type": "developer_portal",
+          "title": "Netlify Dependency Management",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/extend/develop-and-share/develop-build-plugins.md",
+          "page_type": "developer_portal",
+          "title": "Netlify Build Plugins",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/extend/develop-and-share/share-build-plugins.md",
+          "page_type": "developer_portal",
+          "title": "Share Netlify Build Plugins",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/configure-builds/build-hooks.md",
+          "page_type": "developer_portal",
+          "title": "Netlify Build Hooks",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/configure-builds/on-demand-builders.md",
+          "page_type": "developer_portal",
+          "title": "Netlify On-demand Builders",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/configure-builds/stop-or-activate-builds.md",
+          "page_type": "developer_portal",
+          "title": "Netlify Build Control",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/configure-builds/ignore-builds.md",
+          "page_type": "developer_portal",
+          "title": "Netlify Build Ignoring",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/configure-builds/monorepos.md",
+          "page_type": "developer_portal",
+          "title": "Netlify Monorepo Builds",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/configure-builds/javascript-spas.md",
+          "page_type": "developer_portal",
+          "title": "Netlify SPA Build Configurations",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/configure-builds/troubleshooting-tips.md",
+          "page_type": "developer_portal",
+          "title": "Netlify Build Troubleshooting",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/deploy/deploy-overview.md",
+          "page_type": "developer_portal",
+          "title": "Deploy overview",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/deploy/create-deploys.md",
+          "page_type": "developer_portal",
+          "title": "Create deploys",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/deploy/manage-deploys/manage-deploys-overview.md",
+          "page_type": "developer_portal",
+          "title": "Manage deploys",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/deploy/protect-deploys.md",
+          "page_type": "developer_portal",
+          "title": "Protect deploys",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/deploy/deploy-notifications.md",
+          "page_type": "developer_portal",
+          "title": "Deploy notifications",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/data-and-storage/netlify-database/index.md",
+          "page_type": "developer_portal",
+          "title": "Netlify Database",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/data-and-storage/netlify-database/getting-started.md",
+          "page_type": "developer_portal",
+          "title": "Netlify Database: Getting started",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/build/data-and-storage/netlify-database/migrations.md",
+          "page_type": "developer_portal",
+          "title": "Netlify Database: Migrations",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-legacy-plans/billing-faq-for-legacy-plans",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 4,
+        "urls_discovered": 77,
+        "official_urls": 76,
+        "non_official_filtered": 1,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 5
+      }
+    },
+    "stats": {
+      "queries": 4,
+      "urls_discovered": 77,
+      "official_urls": 76,
+      "non_official_filtered": 1,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 5
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_2fa8d9127dfc",
+      "source_type": "api_reference",
+      "url": "https://docs.netlify.com/api-and-cli-guides/cli-guides/get-started-with-cli",
+      "domain": "docs.netlify.com",
+      "page_title": "Get started with Netlify CLI | Netlify Docs",
+      "content": "For the complete Netlify documentation index, see llms.txt. Markdown versions of this page are available by appending .md to the URL.   Netlify’s command line interface (CLI) lets you configure continuous deployment straight from the command line. You can use Netlify CLI to create a new project from a prompt, run a local development server that you can share with others, run a local build and plugins, and deploy your site.\nThe sections below describe how to perform common tasks with Netlify CLI. You can also access a full command reference online, or get help within Netlify CLI.\nInstallation\nSection titled “Installation”To install Netlify CLI, make sure you have Node.js version 18.14.0 or later.\nThen, run this command from any directory in your terminal:\nThis installs Netlify CLI globally, so you can run netlify commands from any directory. You can check the version and find out some basic information about the tool with the following command:\nInstallation in a CI environment\nSection titled “Installation in a CI environment”When using Netlify CLI in a continuous integration (CI) environment such as GitHub Actions, CircleCI, or Travis CI, we recommend installing it locally as a development dependency instead of globally. This binds a specific CLI version to your project repository. To install Netlify CLI locally, run the following command from the root directory of your project:\nFor CI environments, we also recommend using a lock file to guarantee reproducible builds and relying on an automated tool like Renovate or Dependabot to manage Netlify CLI version updates.\nAuthentication\nSection titled “Authentication”Netlify CLI uses an access token to authenticate with Netlify. You can obtain this token using the command line or in the Netlify UI.\nObtain a token with the command line\nSection titled “Obtain a token with the command line”To authenticate and obtain an access token using the command line, enter the following command from any directory:\nThis will open a browser window, asking you to log in with Netlify and grant access to Netlify CLI.\nOnce authorized, Netlify CLI stores your access token in a config.json global configuration file. The Netlify CLI uses the token in this file automatically for all future commands.\nconfig.json location\nSection titled “config.json location”You can find the Netlify CLI global configuration file, config.json, under your user in these OS-specific locations:\n- macOS: Library/Preferences/netlify/config.json\n- Linux: .config/netlify/config.json\n- Windows: AppData\\Roaming\\netlify\\Config\\config.json\nObtain a token in the Netlify UI\nSection titled “Obtain a token in the Netlify UI”You can generate a personal access token (PAT) manually in your Netlify user settings:\n- Go to Applications Personal access tokens.\n- Select New access token.\n- Enter a descriptive name to help you remember what the token will be used for.\n- Select Allow access to my SAML-based Netlify team to authorize access to your SAML-based team data through the API.\n- Select an Expiration date for your token to help keep your information secure.\n- Select Generate token.\n- Copy the token to your clipboard and store it in a safe location. Once you navigate away from this page, you won’t be able to access the value again.\n- Select Done.\n- Save the token as a NETLIFY_AUTH_TOKENenvironment variable in your terminal settings or in the UI of a Continuous Integration (CI) tool.\nCancel access tokens\nSection titled “Cancel access tokens”To revoke your user access token for Netlify CLI, go to your Netlify user Applications settings. The procedure for revoking access depends on how access was granted.\n- For access granted using the netlify logincommand, scroll to the Authorized applications section, and find Netlify CLI. Select .\n- If you manually created a personal access token, you can find it in the Personal access tokens section. Select .\nUsage data collection\nSection titled “Usage data collection”By default, Netlify collects data on usage of Netlify CLI commands. We do this to improve the reliability and performance of Netlify CLI, and to help drive new features and improvements.\nIf you’d like to opt out of sending usage data, you can do so by editing the telemetryDisabled property in the Netlify CLI config.json. You can also do this with the command line:\nCreate a project from a prompt\nSection titled “Create a project from a prompt”You can use the netlify create command to generate, deploy, and download a new Netlify project from a natural language description. This command uses Agent Runners to build and deploy your project automatically.\nWhen you run netlify create, the CLI will:\n- Generate a new Netlify project based on your prompt\n- Deploy it to a live URL\n- Download the code to your local machine for further iteration\nYou can also connect the project to a GitHub repository during creation, allowing the CLI to create the repository and set up continuous deployment without manual configuration.\nContinuous deployment\nSection titled “Continuous deployment”With continuous deployment, Netlify will automatically deploy new versions of your site when you push commits to your connected Git repository. This also facilitates features like Deploy Previews, branch deploys, and split testing. (Some of these features must be enabled in the Netlify UI.)\nAutomated setup\nSection titled “Automated setup”For repositories stored on GitHub.com, you can use Netlify CLI to connect your repository by running the following command from your local repository:\nIn order to connect your repository for continuous deployment, Netlify CLI will need access to create a deploy key and a webhook on the repository. When you run the command above, you’ll be prompted to log in to your GitHub account, which will create an account-level access token.\nThe access token will be stored in the Netlify CLI config.json. Your login password will never be stored. You can revoke the access token at any time from your GitHub account settings; however, this will disable continuous deployment on all sites that were configured with that access token.\nManual setup\nSection titled “Manual setup”For repositories stored on GitLab, Bitbucket, or Azure DevOps, you can connect your repository manually with the --manual flag.\nFor repositories on GitHub, you can also connect your repository manually, if you prefer to give more limited, repository-only access for your repositories on GitHub.\nFrom your local repository, run the following command:\nThe Netlify CLI will prompt you to set your deploy settings and then provide you with a deploy/access key and a webhook URL. You’ll need to manually add the key and webhook URL to your Git provider.\nAdd your deploy or access key\nSection titled “Add your deploy or access key”Netlify uses a deploy or access key to fetch your repository using ssh for building and deploying. The deploy key does not require write access.\nCopy the key printed in the command line, then add it to your Git provider.\n- GitHub, GitLab, or Bitbucket. Add the deploy key to your repository’s settings. If you have more than one site connected to a repository, you will need a unique key for each repository.\n- Azure DevOps. Add the Netlify SSH public key to your Azure DevOps user settings under SSH Public Keys.\nAdd your webhook URL\nSection titled “Add your webhook URL”Your Git provider will send a message to this webhook when you push changes to your repository, triggering a new deploy on Netlify.\nCopy the webhook address printed in the command line, then add the URL and webhook details to your Git provider. If available, the Content type should be set to application/json.\n- \nGitHub, GitLab, or Bitbucket. Add the webhook address as the Payload URL for a new webhook in your repository’s settings. When selecting events to trigger the webhook, Push events will trigger production and branch deploys on watched branches, and Pull/Merge request events will trigger Deploy Previews. \n- \nAzure DevOps. In your project’s settings under Service hooks, add webhooks for these Azure DevOps events using the Netlify webhook address as the Payload URL: - Code pushed\n- Pull request created\n- Pull request merge attempted\n- Pull request updated\n Ensure that you set webhooks for your repository with the default [Any]branch setting. Once configured, these webhook events can trigger production and branch deploys on your watched branches.\nRun a local development environment\nSection titled “Run a local development environment”Netlify Dev brings the functionality of your Netlify production environment directly to your local machine.\nFor more information on how to configure and use Netlify Dev, refer to our local development with Netlify Dev doc.\nRun builds locally\nSection titled “Run builds locally”You can run builds in Netlify CLI to mimic the behavior of running a build on Netlify — including Build Plugins. To execute a build locally, run the following command from the root of your linked repository:\nThe command will build your project using environment variables set in netlify.toml and those set using the Netlify UI, CLI, or API. Note that environment variables apply to all scopes when running netlify build locally.\nIf you’d like to get a summary of what a build will do without taking the time to do a full build, you can use the --dry flag:\nThis command will output a list of all the stages of the build and the behaviors that are configured to run during each stage.\nThe default deploy context is production but you can also use the --context flag to run a build for a different deploy context.\nThis command will run the build as if it is a Deploy Preview, applying any settings and environment variable values specific to that context.\nManual deploys\nSection titled “Manual deploys”It’s also possible to deploy a site manually, without continuous deployment. This method uploads files directly from your local project directory to your site on Netlify. If builds are stopped, manual deploys are the only way you can update your site.\nA common use case for this command is when you’re using a separate Continuous Integration (CI) tool, deploying prebuilt files to Netlify at the end of the CI tool tasks.\nTo get started with manual deploys, run the following command from your project directory:\nThe first time you run the command, Netlify CLI will prompt you to select an existing site or create a new one, linking the site for all future deploys.\nThe following sections describe the requirements and options for manual deploys.\nDeploy directories\nSection titled “Deploy directories”The deploy command needs to know which folder to publish. If your project includes serverless functions, it needs to know the location of the functions folder as well. Netlify CLI will look for this information in three places, in the following order:\n- in flags specified in the command itself.\n- in a netlify.toml file stored at the root of your project directory.\n- in your project configuration in the Netlify UI, if continuous deployment is set up for the site.\nHere is an example using command flags to set the publish folder and functions folder:\nIn both cases, folder paths are relative to the current directory. Note that paths starting with / will begin at the computer’s root directory — not the base of your project directory.\nDraft deploys\nSection titled “Draft deploys”By default, the deploy command deploys to a unique draft URL for previewing and testing.\nThe default draft URL uses random alphanumeric characters for the subdomain. To customize the subdomain of your draft URL with a unique string, use the --alias flag with the deploy command.\nProduction deploys\nSection titled “Production deploys”To do a production deploy to your main site URL, use the --prod flag (or -p for short):\nAnonymous deploys\nSection titled “Anonymous deploys”You can deploy without logging in or creating a Netlify account by using the --allow-anonymous flag:\nThis creates a project, deploys it, and generates a live URL. You have one hour to claim ownership of the deployed project by logging in or creating a Netlify account. After one hour, unclaimed projects are removed.\nThis is particularly useful for AI agents and automated workflows that need to create temporary projects without requiring credentials.\nNode.js function dependencies\nSection titled “Node.js function dependencies”Before manually deploying TypeScript or JavaScript functions with Netlify CLI, populate node_modules folders with your dependencies by running the following command in any folder containing package.json.\nWhen you deploy TypeScript or JavaScript functions using the netlify deploy command, Netlify CLI parses each function file to note its dependencies. For each function, the CLI then pulls the required dependencies from the associated node_modules folder and zips them with the function file for deployment.\nClone and link a Netlify site\nSection titled “Clone and link a Netlify site”Clone a Netlify site\nSection titled “Clone a Netlify site”The netlify clone command is the recommended way to get started with a Netlify site that's already connected to a Git repository. Instead of manually finding the repository URL, cloning it with Git, navigating into the directory, and then linking it to Netlify, you can do all of this with a single command.\nTo clone a repository and link it to a Netlify site, run the following command with the repository URL or GitHub owner/repo format:\nOr with a full repository URL:\nYou can also specify a target directory:\nThe CLI will automatically detect and link to the matching Netlify site. If multiple sites match or none are found, you'll be prompted to select one. You can also specify a site explicitly using the --id or --name flags:\nWhen you run netlify clone, the CLI will:\n- Clone the Git repository to your local machine\n- Automatically link the local repository to the Netlify site\n- Set up the necessary configuration for local development\nThis streamlined workflow is particularly useful when:\n- Joining a team project: New team members can get set up in seconds\n- Working across multiple machines: Quickly set up your development environment on a new computer\n- Contributing to deployed sites: Start working on a site that's already live on Netlify\nLink an existing local project\nSection titled “Link an existing local project”If you want to connect an existing local project or repository to a site already on Netlify, you can skip the initial setup steps above and run the following command from the root of the local directory:\nThis will add a siteId field to a new file inside your project folder, at .netlify/state.json.\nTo unlink your folder from the site, you can remove this field, or you can run the following command from inside the project folder:\nLink with an environment variable\nSection titled “Link with an environment variable”Alternatively, you can link to a site by finding the site ID in the Netlify UI, then adding it to your local terminal environment:\n- Go to Project configuration General Project details Project information, and copy the value for Project ID. (Also known as Site ID.)\n- Assign the ID to a NETLIFY_SITE_IDenvironment variable, in your terminal settings or in the UI of a Continuous Integration (CI) tool.\nManage environment variables\nSection titled “Manage environment variables”You can create and update site environment variables stored on Netlify with the CLI’s env command. Any changes made using the CLI will be reflected in the Netlify UI. Environment variable changes require a build and deploy to take effect.\nBy default, the Netlify CLI context is the local development context (dev). Unless a different context is specified, CLI commands will retrieve and use variables that have values set specifically for use with the dev deploy context and variables that have a single value for use across all contexts.\nUse the --context and --scope flags with your CLI commands to set contextual or scope values, or to filter results. You can use both flags in the same command, for example:\nCreate or update environment variables\nSection titled “Create or update environment variables”To create or update a site environment variable on Netlify, use env:set with the key followed by a space and then the value. You can only set one value at a time, but you can specify multiple deploy contexts and scopes in a space-separated list (no commas) using the --context and --scope flags.\nIf you omit the --scope or --context flags when running the env:set command, the variable is set to all scopes and with the same value for all deploy contexts.\nTo set one value for production and deploy-preview and another value for a branch named staging, run the command twice:\nYou can also import environment variables from a .env file into Netlify using env:import followed by the filename. The imported variables are set to all scopes and with the same value for all deploy contexts.\nTo copy environment variables from one project to another, use env:clone.\nIf you are using environment variable secrets with Netlify’s Secrets Controller, you can flag that an environment variable value is secret using the --secret flag when creating or modifying a value.\nGet environment variables\nSection titled “Get environment variables”To retrieve a list of site environment variables stored on Netlify, use env:list. The CLI gets all variables that have values set for local development with the Netlify CLI (deploy contexts dev or all) and outputs a list of keys with an option to display their values.\nYou can request other contextual values using the --context flag and filter the list using the --scope flag. You can also use the --json and --plain flags to retrieve the list in JSON or plain text format, which can be helpful if you want to copy the values into a .env file locally.\nThe list will only include shared environment variables if the command is run by a Team Owner.\nThis list will not include raw, unmasked values of any environment variables marked as secret unless the --context is dev. Review the environment variable secrets policy for more details on the access restrictions.\nTo retrieve an individual environment variable’s value, use env:get. The CLI gets the values set for local development with the Netlify CLI (deploy contexts dev or all). You can use the --context flag to retrieve a value from another context or the --scope flag to retrieve a value only if the variable is available to a specific scope.\nDelete environment variables\nSection titled “Delete environment variables”To delete environment variables from Netlify, use env:unset. This command deletes the specified variable and its values from all deploy contexts. Once unset, these variables will no longer be stored on Netlify or appear in the UI. You can use the --context flag to delete one value from a specific deploy context instead.\nWork with monorepos\nSection titled “Work with monorepos”A monorepo is a repository that contains multiple sites or apps, each in its own subdirectory.\nWhen you use the Netlify CLI, Netlify automatically scans the repository to detect if you are using a monorepo. If you are, the Netlify CLI will ask you to specify the site to run a command on and you can choose from the list of detected sites.\nYou also have the option to manually set the following flag:\n- \n--filter: to specify which site in your monorepo to use for a command. You can use the package name or the path to the package. This way you can run commands directly from the repository root for all projects in your monorepo.\nNote that selecting a site with the Netlify CLI only applies to the command you are running and doesn’t influence the build settings in the Netlify UI. Learn more about how to set up a site from a monorepo.\nPrint debugging output\nSection titled “Print debugging output”To print the full debugging output for a command to the terminal, set the DEBUG variable before running the command.\nOn Mac OS, Linux, and some common Windows terminals, add DEBUG=* to the beginning of the command:\nIf you are using the Windows command prompt (cmd.exe), use set to set the variable:\nIn Windows PowerShell, use $env: to set the variable:\nGet help\nSection titled “Get help”To get usage tips and learn more about available commands from within Netlify CLI, run the following:\nFor more information about a specific command, run help with the name of the command.\nThis also works for sub-commands.\nIf you have additional questions or ideas for new features, you can start an issue on Netlify CLI’s open source repository. You can also visit our Support Forums to start or join a conversation. We’d love to hear from you!\nDid you find this doc useful?\nYour feedback helps us improve our docs.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:08:45.078869Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 5178,
+      "quality_score": 0.8
+    },
+    {
+      "id": "ev_8a0813484822",
+      "source_type": "developer_portal",
+      "url": "https://docs.netlify.com/build/build-with-ai/netlify-skills",
+      "domain": "docs.netlify.com",
+      "page_title": "Agent setup overview | Netlify Docs",
+      "content": "Quick setup\nEquip your agent with the latest Netlify context, including agent skills:\nFor the complete Netlify documentation index, see llms.txt. Markdown versions of this page are available by appending .md to the URL.   Learn how to set up most agents, including custom agents, quickly. For even more specific setup guidance, check out our agent setup guides for your specific agent.\nQuick setup\nEquip your agent with the latest Netlify context, including agent skills:\nConnect to the Netlify MCP server to equip your agent with the best of Netlify expertise and the Netlify CLI.\nNetlify offers an MCP server, which you can connect to through a connector, plugin, or your agent.\nTo start connecting to Netlify’s remote MCP server by running this command and following the prompts to select the agents you want to configure:\nIf you would like to use your agent's own official setup command, check out the agent-specific MCP instructions below:\n- Claude Code\n- Codex\n- Claude Web via Claude's Netlify Connector\n- Claude Desktop via Claude's Netlify Connector\n- ChatGPT via ChatGPT's Netlify App\n- Antigravity\nThe following editors allow one-click install of our MCP with the following links\nOur recommendation is to use the remote MCP server to have the most up-to-date version of the MCP capabilities. However, some developers are required to use local MCP servers in their environments. You can use the following command to install Netlify's local MCP:\nTo help your agent build with best practices, check out our agent skills for building and deploying on Netlify.\nYou can share a skill directly with your agent or have all skills installed in your local project files or repository. Some agents also support invoking a specific skill by name in a command, such as Claude Code with /<skill-name>.\nTo install agent skills for Netlify with any agent directly in your terminal or agent chat:\nLearn more about agent skills for building and deploying on Netlify in our official agent skills repository.\nHere are some highlights of agent skills for building and deploying on Netlify. Note that if you are using Agent Runners, you don't need to invoke agent skills as they are applied automatically for you.\n| Skill | Feature Support | Description | \n|---|---|---|\n| netlify-functions | Netlify Functions | Modern syntax, routing, Background Functions, Scheduled Functions, and streaming | \n| netlify-edge-functions | Edge Functions | Deno runtime, middleware patterns, geolocation, and request manipulation | \n| netlify-blobs | Netlify Blobs | Key-value and binary object storage with zero configuration | \n| netlify-db | Netlify Database | Managed Postgres, Drizzle ORM integration, and migrations | \n| netlify-image-cdn | Image CDN | On-the-fly image transformation and optimization | \n| netlify-forms | Netlify Forms | HTML form handling, AJAX submissions, and spam filtering | \n| netlify-config | File-based configuration | netlify.tomlconfiguration, including redirects, headers, build settings, and deploy contexts | \n| netlify-cli-and-deploy | Netlify CLI | Commands, Git and manual deploys, and environment variables | \n| netlify-deploy | Create deploys | Authentication, site linking, Deploy Previews, and production deploys | \n| netlify-frameworks | Framework adapters | Vite, Astro, TanStack Start, and Next.js on Netlify | \n| netlify-caching | Caching | CDN cache control, cache tags, purge, and stale-while-revalidate | \n| netlify-ai-gateway | AI Gateway | Proxy for OpenAI, Anthropic, and Google AI SDKs | \nYour feedback helps us improve our docs.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:08:45.825588Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 889,
+      "quality_score": 0.76
+    },
+    {
+      "id": "ev_62a3b34a0be6",
+      "source_type": "official_docs",
+      "url": "https://docs.netlify.com/api",
+      "domain": "docs.netlify.com",
+      "page_title": "Get started with the Netlify API | Netlify Docs",
+      "content": "For the complete Netlify documentation index, see llms.txt. Markdown versions of this page are available by appending .md to the URL.   Use the Netlify REST API to manage atomic deploys of your sites and apps, manage form submissions, inject JavaScript snippets, manage DNS, and so much more.\nThis document covers the basics for interacting with the Netlify API, plus instructions for deploying sites and notes on some commonly used endpoints.\nYou can browse the OpenAPI reference for the Netlify API to explore available endpoints. Visit our Forums for more tips and conversation about understanding and using Netlify’s API.\nAdditionally, we have two API clients for your convenience:\nIf you’d like to interact with the Netlify API using a no-code tool, you can use n8n.io’s Netlify node. The node currently supports the following operations:\n- Create a new deployment\n- Get a deployment\n- Get all deployments\n- Cancel a deployment\n- Get a site\n- Get all sites\n- Delete a site\nMake a request\nSection titled “Make a request”All URLs start with https://api.netlify.com/api/v1/. SSL only. The path is prefixed with the API version. If we change the API in backward-incompatible ways, we’ll bump the version marker and maintain stable support for the old URLs.\nTo make a request for all sites you have access to, for example, append the sites index path to the base URL to form something like https://api.netlify.com/api/v1/sites. Here’s an example in curl:\nAuthentication\nSection titled “Authentication”Netlify uses OAuth2 for authentication. All requests must use HTTPS.\nTo generate a personal access token (PAT):\n- Go to Applications Personal access tokens.\n- Select New access token.\n- Enter a descriptive name to help you remember what the token will be used for.\n- Select Allow access to my SAML-based Netlify team to authorize access to your SAML-based team data through the API.\n- Select an Expiration date for your token to help keep your information secure.\n- Select Generate token.\n- Copy the token to your clipboard and store it in a safe location. Once you navigate away from this page, you won’t be able to access the value again.\n- Select Done.\nUse your PAT for manual authentication in shell scripts or commands that use the Netlify API.\nTo authenticate API requests, include the token in the authorization header:\nAuthorization: Bearer <YOUR_PERSONAL_ACCESS_TOKEN>\nTo authenticate in shell scripts, refer to the code sample above for an example of how to use this token in a curl request.\nIf you’re making a public integration with Netlify for others to enjoy, you must use OAuth2. This allows users to authorize your application to use Netlify on their behalf without having to copy/paste API tokens or touch sensitive login info. You’ll need an application client key and a client secret to integrate with the Netlify API. You can register a new application in your Netlify user settings for OAuth applications. Visit our blog post on integrating with Netlify for more information including common grant types and an example project.\nThe OAuth2 end-user authorization endpoint is https://app.netlify.com/authorize.\nRate limiting\nSection titled “Rate limiting”To protect Netlify from getting flooded by automated deploys or misbehaving applications, the Netlify API is rate limited.\nYou can make up to 500 requests per minute for most requests. Certain operations have their own stricter limits. For example, you can deploy through the Netlify API up to 3 times per minute and up to 100 times per day.\nYou can check the returned HTTP headers of any API request to verify your current rate limit status:\nIf you need higher limits, please contact us.\nPagination\nSection titled “Pagination”All API requests that return over 100 items are paginated by default, with a limit of 100 items per page. You can specify further pages with the ?page parameter. You can also set a custom page size that’s less than 100 with the ?per_page parameter.\nNote that page numbering starts with 1 and that omitting the ?page parameter will return the first page.\nLink header\nSection titled “Link header”The pagination info is included in the Link header.\nLinebreak is included for readability.\nThe possible rel values are:\n- nextShows the URL of the immediate next page of results.\n- lastShows the URL of the last page of results.\n- prevShows the URL of the immediate previous page of results.\nDeploy with the API\nSection titled “Deploy with the API”The most common API action is doing deploys, either of a new site or an existing site. If builds are stopped for an existing site, you can still deploy with the API to update the site.\nNetlify supports two ways of doing deploys:\n- Sending a digest of all files in your deploy, and then uploading any files Netlify doesn’t already have on its storage servers.\n- Sending a ZIP file of the entire site and letting Netlify unzip and deploy.\nIf you’re looking to deploy sites at scale, such as building an AI code agent and looking for a deploy target, check out the APIs for code agents docs.\nWhether you deploy a brand new site or create a deploy within an existing site, the process is similar.\nFirst create a new site, if needed:\nNow you have a site ID and you can create a new deploy, either with a file digest or a ZIP file.\nFile digest method\nSection titled “File digest method”We recommend using a digest including a file path and SHA1 for each item. This method also allows you to upload serverless functions, however serverless functions should use SHA256 instead.\nWhen using a file digest, the API will return an object which includes the following properties:\nThe required property will give you a list of files by SHA1 that you need to upload. Similarly, required_functions will get you an array of required functions by SHA256 to upload, if you included a functions digest when creating the deploy.\nNow upload the files, using the deploy ID returned as id in the file digest response:\nUse Content-Type: application/octet-stream and use the file contents as the HTTP request body.\nIf the required file is a function, upload it to the functions endpoint, again using the deploy ID returned as id in the file digest response:\nPossible runtime parameters are:\n- js: zipped Node.js programs or bundled JavaScript files\n- go: Go binaries\nWhen uploading functions, use the name of the function, not the file path or any file extensions. Clients must zip the function prior to uploading to the API.\nOnce all files have been uploaded, Netlify will post process the deploy and invalidate the CDN.\nAsync requests for large deploys\nSection titled “Async requests for large deploys”API requests that last longer than 30 seconds will be terminated automatically. When creating large deploys, pass the async property in your file digest:\nThe request will then return the deploy ID (as id) which can be polled to determine when the deploy is ready for file uploads.\nYou can check the state parameter in the response. It will be set to preparing as the upload manifest is generated, and either prepared, uploading, uploaded, or ready depending on the contents of the deploy. At this point, the deploy is either ready, or the API will give you a list of required files and required_functions.\nAdditionally, when uploading large files, sometimes the request will time out. It is safe to retry these uploads a few times to verify whether additional attempts are successful.\nZIP file method\nSection titled “ZIP file method”You can deploy using a ZIP file but note there’s a limit of 25,000 files per zip extraction for a site. For the same site, you always need to upload a single zip with all the files.\nTo deploy using a ZIP file, create a new deploy with Content-Type: application/zip and the ZIP file as the HTTP request body:\nA deploy from a ZIP file will enter post-processing mode straight after being created.\nWhile we generally recommend using file digests, you can use the ZIP file method straight from the command line with cURL:\nCreate and deploy at once\nSection titled “Create and deploy at once”When creating a new site, you can include a file digest or a ZIP file straight away, to save an HTTP request.\nThe following will create a new site and deploy it from a ZIP file:\nPoll for deploy state\nSection titled “Poll for deploy state”You can poll the deploy to check the state:\nOnce the state changes to ready, the deploy is live.\nDraft deploys\nSection titled “Draft deploys”When creating a new deploy, you can set \"draft\": true to mark the deploy as a draft deploy.\nA draft deploy works like a normal deploy, but it won’t change the current published deploy of the site when it’s done processing.\nCommonly used endpoints\nSection titled “Commonly used endpoints”This section describes usage for some popular endpoints.\nWe also have an OpenAPI reference for the Netlify API that you can explore.\nVisit our Forums for more tips and conversation about understanding and using Netlify’s API.\nThe /sites endpoint allows you to access sites deployed on Netlify.\nGet sites\nSection titled “Get sites”GET /api/v1/sites returns all sites you have access to.\nGet site\nSection titled “Get site”GET /api/v1/sites/{site_id} returns the specified site.\nGET /api/v1/sites/3970e0fe-8564-4903-9a55-c5f8de49fb8b returns the site with a matching id.\nGET /api/v1/sites/www.example.com returns the site matching the domain www.example.com.\nCreate site\nSection titled “Create site”POST /api/v1/sites creates a new site. By default the site will be created in your personal team.\nWhen creating a site, you can set the following properties:\n- name: the name of the site (mysite.netlify.app)\n- custom_domain: the custom domain of the site (www.example.com)\n- password: password protect the site\n- force_ssl: will force SSL on the site if SSL is enabled\n- processing_settings: sets the Pretty URLs post processing setting:\n- repo: configures continuous deployment. It’s a bit complicated to create a- repoobject so please visit our Forums for a verified Support Guide on linking a repository using the API.\nCreate site in team\nSection titled “Create site in team”POST /api/v1/{account_slug}/sites/ creates a new site in a specific team. It takes the same parameters as when creating a site.\nUpdate site\nSection titled “Update site”PATCH /api/v1/sites/{site_id} updates some attributes on a site.\nPUT /api/v1/sites/{site_id} updates some attributes on a site.\nThis lets you update a site. It takes all the same parameters as when creating a site.\nIf you do a PUT request to a site with Content-Type: application/zip and a zipped website in the HTTP request body, it works exactly like creating a new deploy for the site based on a ZIP file.\nProvision SSL for a site\nSection titled “Provision SSL for a site”POST /api/v1/sites/{site_id}/ssl activates SSL for a site.\nThe site must have a custom domain with DNS records configured to point to Netlify’s infrastructure.\nAny domain aliases with valid DNS records will also be included in the SSL certificate for the site.\nThis endpoint manually triggers SSL provisioning for a site’s custom domains. Once SSL provisioning is successful, the domain will be served over HTTPS.\nDelete site\nSection titled “Delete site”DELETE /api/v1/sites/{site_id} permanently deletes a site.\nThis will return 200 OK.\nSite metadata\nSection titled “Site metadata”Each site has a metadata object. The properties of the metadata object can be used within the snippets for a site by using the Liquid template syntax.\nGet metadata\nSection titled “Get metadata”GET /api/v1/sites/{site_id}/metadata gets the metadata for a site.\nUpdate metadata\nSection titled “Update metadata”PUT /api/v1/sites/{site_id}/metadata replaces the metadata object with a new metadata object.\nEnvironment variables\nSection titled “Environment variables”The environment variables API endpoints allow you to access and set both site and shared environment variables. Environment variable changes require a build and deploy to take effect.\nGet environment variables\nSection titled “Get environment variables”GET /api/v1/accounts/{account_id}/env returns all environment variables for a team or site. The list will only include shared environment variables if the request is made by a Team Owner.\nGET /api/v1/accounts/{account_id}/env/{key} returns an individual environment variable for a team or site.\nCreate and update environment variables\nSection titled “Create and update environment variables”POST /api/v1/accounts/{account_id}/env creates site or shared environment variables with the specified scopes and contextual values. An environment variable’s contextual values are the different values set for use in each deploy context.\nPUT /api/v1/accounts/{account_id}/env/{key} updates an existing environment variable by replacing all of its values with the values provided with this request.\nPATCH /api/v1/accounts/{account_id}/env/{key} updates or creates a new value for an existing environment variable.\nDelete environment variables\nSection titled “Delete environment variables”DELETE /api/v1/accounts/{account_id}/env/{key} deletes an environment variable and all of its values.\nDELETE /api/v1/accounts/{account_id}/env/{key}/value/{id} deletes a specific environment variable value.\nAll files deployed by Netlify can be read through the API. Where the public URL of a file will serve the processed version for HTML pages, the files accessed through the API are the original uploaded files.\nNetlify is based on a concept of atomic deploys. This means you never work on individual files. If you want to change a file, you do a new deploy with a new version of the site. To delete a file, you create a new deploy without the file. The file digest based deployment method means that these operations are fast and low-cost. Atomic deploys guarantees that your site is never in an inconsistent state where some files are being uploaded and where users might get HTML files that are not in sync with the CSS, image files, etc.\nGet files\nSection titled “Get files”GET /api/v1/sites/{site_id}/files returns a list of all the files in the current deploy.\nGet file\nSection titled “Get file”GET /api/v1/sites/{site_id}/files/{file_path} returns the file.\nYou can get the raw contents of the file by using the custom media type application/vnd.bitballoon.v1.raw as the Content-Type of your HTTP request.\nDeploys\nSection titled “Deploys”You can access all deploys for a specific site.\nGet deploys\nSection titled “Get deploys”GET /api/v1/sites/{site_id}/deploys returns a list of all deploys for a site.\nGet deploy\nSection titled “Get deploy”GET /api/v1/sites/{site_id}/deploys/{deploy_id} returns a specific deploy.\nRestore deploy (rollback)\nSection titled “Restore deploy (rollback)”POST /api/v1/sites/{site_id}/deploys/{deploy_id}/restore restores an old deploy and makes it the live version of the site.\nSnippets\nSection titled “Snippets”Snippets are code snippets that are injected into every HTML page of the website, either right before the closing head tag or right before the closing body tag.\nEach snippet can specify code for all pages and code that gets injected into “Thank you” pages shown after a successful form submission.\nGet snippets\nSection titled “Get snippets”GET /api/v1/sites/{site_id}/snippets gets a list of snippets specific to a site.\nThe general property is the code that will be injected right before either the head or body end tag. The general_position can be head or footer and determines whether to inject the code in the head element or before the closing body tag.\nThe goal property is the code that will be injected into the “Thank you” page after a form submission. goal_position determines where to inject this code.\nGet snippet\nSection titled “Get snippet”GET /api/v1/sites/{site_id}/snippets/{snippet_id} gets a specific snippet.\nAdd snippet\nSection titled “Add snippet”POST /api/v1/sites/{site_id}/snippets adds a new snippet to a site.\nUpdate snippet\nSection titled “Update snippet”PUT /api/v1/sites/{site_id}/snippets/{snippet_id} replaces a snippet.\nDelete snippet\nSection titled “Delete snippet”DELETE /api/v1/sites/{site_id}/snippets/{snippet_id} deletes a snippet.\nYou can access all Netlify Forms metadata and submissions for a site.\nGet forms\nSection titled “Get forms”GET /api/v1/sites/{site_id}/forms returns a list of all forms for a site, including metadata about each form, but not including form submissions.\nGet verified submissions\nSection titled “Get verified submissions”GET /api/v1/sites/{site_id}/submissions returns a list of verified form submissions across all forms for a specific site.\nGET /api/v1/forms/{form_id}/submissions returns a list of verified form submissions for a specific form.\nGet spam submissions\nSection titled “Get spam submissions”To get spam submissions, add a state=spam query parameter to the URL:\nGET /api/v1/sites/{site_id}/submissions?state=spam returns a list of spam form submissions across all forms for a specific site.\nGET /api/v1/forms/{form_id}/submissions?state=spam returns a list of spam form submissions for a specific form.\nChange submission state\nSection titled “Change submission state”You can change the state of a submission from spam to verified or vice versa.\nPUT /api/v1/submissions/{submission_id}/spam marks the submission as spam.\nPUT /api/v1/submissions/{submission_id}/ham marks the submission as verified.\nDelete submissions\nSection titled “Delete submissions”DELETE /api/v1/submissions/{submission_id} removes a form submission.\nDelete form\nSection titled “Delete form”DELETE /api/v1/sites/{site_id}/forms/{form_id} removes a form and any existing submissions to it.\nFuture submissions to the form will result in a 404 error, and previous submissions will no longer be available.\nNetlify can trigger webhooks, send email notifications, or send Slack messages on certain events.\nThe /hooks endpoint lets you control the hooks for your site.\nGet hook types\nSection titled “Get hook types”GET /api/v1/hooks/types returns a list of types of hooks that you can configure on Netlify.\nEach type has a series of fields that you need to set to create a new hook, and a list of events that can trigger them.\nGet hooks for a site\nSection titled “Get hooks for a site”GET /api/v1/hooks?site_id={site_id} returns a list of a hooks defined for a specific site.\nCreate hook\nSection titled “Create hook”POST /api/v1/hooks creates a new hook.\nAn example request body for an email hook for a specific form in your site would be formatted like this:\nform_id is optional and links the hook to a specific form within your site. You can also use form_name with the value of the name attribute of the form of your site as an alternative to form_id.\nDelete hook\nSection titled “Delete hook”DELETE /api/v1/hooks/{hook_id} removes a hook permanently.\nNote, for outgoing webhooks, returning a 410 Gone status code from the URL endpoint will trigger a deletion of the hook.\nDid you find this doc useful?\nYour feedback helps us improve our docs.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:08:43.986675Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 4734,
+      "quality_score": 0.6
+    },
+    {
+      "id": "ev_e84647bf5e47",
+      "source_type": "pricing_page",
+      "url": "https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-legacy-plans/billing-faq-for-legacy-plans",
+      "domain": "docs.netlify.com",
+      "page_title": "Billing FAQ for Legacy pricing plans | Netlify Docs",
+      "content": "For the complete Netlify documentation index, see llms.txt. Markdown versions of this page are available by appending .md to the URL.   This page answers frequently asked questions about Netlify billing for our Legacy pricing plans. Visit our manage payments or Legacy billing docs for instructions on how to change your billing information, access payment history, and more. If you have questions that aren’t answered by the docs, you can reach out to Netlify Support.\nWhere can I find Legacy pricing plan information?\nSection titled “Where can I find Legacy pricing plan information?”For the most specific pricing plan information for your team account, check out your Usage & billing dashboard.\nGet more help below in Do I have a Legacy plan?.\nDo I have a Legacy plan?\nSection titled “Do I have a Legacy plan?”If you've created your Netlify team account with a Free, Starter, or Pro plan before September 4, 2025, then you have a Legacy pricing plan. Note that your Legacy pricing plan may be even older than the pricing plan information featured in our Legacy plans docs. For the most specific pricing plan information for your team account, check out your Usage & billing dashboard.\nTo check what kind of pricing plan you have, follow these steps:\n- From your Netlify team dashboard, go to Usage & billing.\n- Under Plan, you will see your pricing plan details.\nIf you have the latest Legacy pricing plans, you can find info about them in these docs as well:\nCan I use Netlify’s AI features?\nSection titled “Can I use Netlify’s AI features?”If you have a Legacy pricing plan, you can use Ask Netlify AI and the Why did it fail? AI-assisted troubleshooting feature.\nThe following Netlify AI features are only available for Credit-based plans:\nHow does team membership affect billing?\nSection titled “How does team membership affect billing?”The Team Owner is billed based on the number of active members, your team plan’s member limit, and your team’s usage. Teams will not be charged for the Netlify Reviewer role.\nNetlify will send a notification email to Team Owners when teams approach the member limit for their current team plan.\nGit Contributors and billing\nSection titled “Git Contributors and billing”You will only be charged for Git Contributors if you are on a Legacy Pro or Enterprise plan.\nOnce a Git Contributor is added to your team manually or through the auto-approval setting, they will contribute to your total member count and will be added to your bill. Visit our documentation on deploy permissions for more information.\nTeam Owners are only charged for Git Contributors who have triggered a deploy during your team’s billing period.\nHow do metered features work?\nSection titled “How do metered features work?”For legacy paid plans, metered features are priced based on your usage. When a site’s usage of a metered feature reaches the limit of the current level, it triggers an automatic upgrade to the next level, or purchase of an extra usage package.\nFree tier limits\nSection titled “Free tier limits”Accounts on the legacy free tier also have metered features, but they work differently than paid plans.\nYou will receive email notifications when your site usage is approaching the free tier limits. Notifications are sent when your usage is at 50%, 75%, 90%, and 100% to the limit.\nIf the build limit is reached, your sites will still be served to visitors, but new builds will be disabled for all sites on your account.\nFor all other metered features, when reaching 100% of the limit, new builds will be disabled and all sites on your account will be paused. You will need to add a payment method and upgrade to a paid plan to restore the account and your sites.\nNote that deleting the site with overages will not restore the account. Once a limit is reached on the free tier, the account must be upgraded to restore service.\nWhat’s an extra usage package?\nSection titled “What’s an extra usage package?”With metered features on paid plans, some usage thresholds trigger an automatic upgrade to the next level, and others trigger purchase of an extra usage package.\nExtra usage packages increase your allowance for all metered features in the package — including ones that are still below their limit. Multiple packages can be added in a single billing period as package limits are reached. They are one-time purchases, meaning they will not be prorated, and will not be added in the next billing cycle unless usage in that month requires it.\nFree tier accounts do not have extra usage packages.\nWhen will I be charged?\nSection titled “When will I be charged?”For teams linked to an organization, Netlify billing runs on a monthly cycle which starts on the day the organization was created. To find the billing dates for your organization, Organization Owners can go to Organization overview and check the billing period dates.\nFor teams that aren't linked to an organization, billing runs on a monthly cycle starting on the day you create your team. Billing period dates for specific teams can be found on the team's Billing page and on the team's Projects page.\nDifferent payment timing patterns apply to our products as described below:\n- Charged annually: payment timing pattern that applies to domain registrations, which renew on a yearly cycle. Registration fees are charged to the team payment method immediately on purchase or renewal.\n- Charged monthly, in advance: payment timing pattern that applies to team plans, team member seats, extra concurrent builds, and Web Analytics. Recurring fees are charged in a combined payment on the billing date to cover future usage in the new billing cycle that has just started. When you add a team plan or Web Analytics, fees for the first month are prorated for the number of days left in the billing cycle and charged immediately to the team payment method. When you add team member seats or extra concurrent builds, fees for the first month are prorated for the number of days left in the billing cycle and charged on the next billing date.\n- Charged once per purchase: payment timing pattern that applies to extra usage packages for bandwidth, build minutes, edge functions, and project add-ons (formerly called site add-ons). Each package purchase is applied to a running balance for the team and combined in a single payment at the end of the billing cycle. These one-time purchases are not prorated.\nAre charges prorated?\nSection titled “Are charges prorated?”We prorate team plan, extra capacity, and add-on level fees based on the number of days with that plan, team member seat count, extra concurrent build count, or level in the current billing cycle. This can happen in the following situations:\n- Usage-triggered automatic level upgrade for a site add-on\n- Manual upgrade of a team plan or site add-on level\n- Manual downgrade of a team plan or site add-on level\n- Addition or removal of a team member seat\n- Addition or removal of an extra concurrent build\nFor items charged monthly in advance, downgrading or removing the item mid-cycle results in a prorated credit applied to any other charges in the invoice. For Web Analytics removals, the invoice is processed immediately. For scheduled team plan downgrades, the downgrade is scheduled to take effect at the end of your billing cycle. For extra capacity reductions, the invoice is processed on the next billing date.\nExtra usage packages are one-time purchases and are neither prorated nor carried to the next billing cycle.\nWhy can’t I downgrade my add-on level?\nSection titled “Why can’t I downgrade my add-on level?”You cannot downgrade to a lower level for a metered feature if your current usage is above the limits of the lower level. If you wait until the start of the next billing cycle, you can downgrade the add-on level before usage reaches the lower level limits. Remember that if site usage does pass a level limit, it will automatically upgrade back to the higher level.\nThis does not apply to free tier accounts, which do not have add-on levels. Learn more about free tier limits.\nHow will I know when metered feature usage has passed the level limit?\nSection titled “How will I know when metered feature usage has passed the level limit?”You can check a site’s usage of an add-on by going to the configuration page for that add-on. For example, you can find Functions usage at Project configuration Functions. You can check the usage of all project add-ons (formerly called site add-ons) across a team by going to Billing Current services Project add-ons with fees and selecting All Project add-ons in the menu.\nYou can find your team’s usage of bandwidth, build minutes, and edge functions under Billing . You can also find bandwidth and build minutes usage on your team’s Projects page. Learn more about these options in our team plans and usage docs.\nMore detailed information about build minutes used, including a chart of the sites that have accrued the most build time, is available under Builds Usage & insights.\nOrganization Owners can monitor usage for all of the teams linked to their organization on the Organization overview.\nFor teams on a Legacy Starter or Legacy Pro plan, we also send notification emails when metered feature usage is approaching the limit of the current level, and when it triggers an upgrade or extra usage package.\nWhen will I receive notifications about my usage?\nSection titled “When will I receive notifications about my usage?”For legacy free tier accounts, you will begin receiving notification emails when your site usage reaches 50%. Learn more about free tier limits.\nIf your team is on a Legacy Starter or Legacy Pro plan, Netlify will send usage notification emails to your team’s billing email. Netlify sends a notification email when any site add-on is enabled, as usage for a metered feature approaches allowance limits, when usage triggers a level upgrade or extra usage package, and when the team payment method is charged at the end of the billing cycle.\nBelow is an example of the notifications sent at different stages of usage.\n- \nNew service enabled: - You add a form to a site and form detection is enabled. Netlify sends a notification email that the site is now on Forms Level 0, which includes 100 form submissions per month and 10 MB of uploaded files per month.\n \n- \nUsage is approaching the Level 0 limit: - The site reaches 50 form submissions a week later. Netlify sends a notification that form submissions are at 50% of the Forms Level 0 submissions limit.\n- The site reaches 75 form submissions a few days later. Netlify sends a notification that form submissions are now at 75% of the Forms Level 0 submissions limit.\n- The site reaches 90 form submissions the next day. Netlify sends a notification that form submissions are now at 90% of the Forms Level 0 submissions limit.\n \n- \nUsage triggers a level upgrade: - The site reaches 100 form submissions halfway through the first month. This triggers an upgrade to Forms Level 1, increasing the allowance to 1000 submissions and 1GB of uploads. Netlify will send a notification email, but the team payment method will not be charged until the end of the billing cycle.\n \n- \nUsage is approaching the Level 1 limit: - The site has a sudden spike in traffic and reaches 500 submissions a few days later. Netlify sends a notification that form submissions are now at 50% of the Forms Level 1 limit.\n- The traffic spike continues and reaches 750 submissions a couple of days later. Netlify sends a notification that form submissions are now at 75% of the Forms Level 1 limit.\n- The site reaches 900 submissions the next day. Netlify sends a notification that form submissions are now at 90% of the Forms Level 1 limit.\n \n- \nUsage triggers an extra usage package: - The site reaches 1000 submissions the next day. Netlify adds an extra usage package to the site, which adds 500 submissions and 500 MB of uploads to that site’s monthly allowance. Netlify sends an email confirming this purchase, but the team payment method won’t be charged yet.\n \n- \nBilling cycle ends: - At the end of the billing period, the team payment method is charged a single amount including a prorated charge for Forms Level 1 (because the site was at Forms Level 1 for only half the month), plus one extra usage package. Netlify will email a receipt.\n- The following month, the site continues on Forms Level 1. Netlify will send the first usage notification email when the site reaches 50% of the Forms Level 1 limits (500 form submissions or 500 MB of file uploads).\n \nCan I set a limit on my usage?\nSection titled “Can I set a limit on my usage?”By using the Free plan, you can ensure you won’t incur charges.\nOn other plans, there is no direct way to set limits on metered feature usage, aside from not using a feature at all.\nFor serverless functions, you can reduce usage by adding the durable cache control directive to allow edge nodes to share a cached response.\nHow can I make sure I never get charged?\nSection titled “How can I make sure I never get charged?”Legacy Free tier accounts are not charged, but have metered limits. For paid plans, we will send you notifications based on your usage, as described above.\nFor details about your team’s metered usage, including bandwidth and build minutes, check out the following:\n- your team’s Projects page for a brief usage summary\n- the Account usage insights section on your team’s Billing page for more in-depth details\nOrganization Owners can monitor usage details for organizations on the Organization overview.\nIf you are approaching your allowance limit and want to avoid being charged, you can change your site code to remove the metered feature functionality. To prevent build minute usage from exceeding your current allowance, you can stop builds. Remember that a sudden spike in usage may cause your site to pass the free level limit before you have a chance to change your site.\nWhat can I do if my site usage went over a limit because of spammers?\nSection titled “What can I do if my site usage went over a limit because of spammers?”We recommend taking measures to help prevent abuse of your project add-ons (formerly called site add-ons). For example, form submission spam can be reduced by adding a reCAPTCHA 2 challenge and honeypot field. To help prevent bot registrations for your Identity add-on, you can require email confirmation for new users.\nWhat will happen if I don’t enter my credit card?\nSection titled “What will happen if I don’t enter my credit card?”You can get started with most Netlify add-ons for free without a credit card, including the features with metered pricing. When you start using a metered feature, you'll receive notifications as you approach the free tier limits.\nAt 100% of the limit, new builds will be disabled and all sites on your account will be paused. You will need to add a payment method and upgrade to a paid plan to restore the account and your sites.\nWhat can I do if I’ve been charged the wrong amount?\nSection titled “What can I do if I’ve been charged the wrong amount?”If you find a problem with your billing, please contact our support team and we’ll do our best to make it right!\nCan I get a free trial?\nSection titled “Can I get a free trial?”Most paid features include a free tier of service for evaluation and smaller projects. When upgrading to a paid account, most charges are prorated.\nHow do I cancel?\nSection titled “How do I cancel?”To learn how to delete a team or delete your Netlify user, and the impact of either action, visit our Forums for a verified Support Guide on how to cancel an account.\nHow can I know if Netlify will start charging for a free service in the future?\nSection titled “How can I know if Netlify will start charging for a free service in the future?”We may find we need to change pricing to best match customer needs with company goals. Though we can’t make promises about what the future will bring, we fundamentally believe that composability is the best approach to building web projects, and we want to make it simple and free for developers everywhere to try it. That’s why our metered features have a free tier.\nFor a general guideline, you can expect that any feature marked as “beta” will usually undergo pricing changes on release.\nDid you find this doc useful?\nYour feedback helps us improve our docs.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:08:44.869518Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 4082,
+      "quality_score": 0.56
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Netlify is a platform for deploying and managing web projects.",
+      "evidence_ids": [
+        "ev_2fa8d9127dfc"
+      ]
+    },
+    "category": {
+      "value": "Developer Infra and Data",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "Access Token",
+      "evidence_ids": [
+        "ev_2fa8d9127dfc"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_2fa8d9127dfc"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API",
+      "evidence_ids": [
+        "ev_2fa8d9127dfc"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_2fa8d9127dfc"
+      ]
+    },
+    "mcp": {
+      "value": "Official MCP",
+      "evidence_ids": [
+        "ev_8a0813484822"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_2fa8d9127dfc"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_2fa8d9127dfc"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.88,
+    "fields_checked": 8,
+    "fields_supported": 7,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.88,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.88 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

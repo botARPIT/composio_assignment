@@ -1,0 +1,297 @@
+{
+  "app_name": "ClickUp",
+  "official_domain": "clickup.com",
+  "homepage": {
+    "url": "https://clickup.com/api",
+    "title": "ClickUp",
+    "confidence": 0.5,
+    "confidence_reason": [
+      "official_docs: +0.40",
+      "canonical_doc: +0.10"
+    ],
+    "is_official": true,
+    "discovered_from": "domain_probe"
+  },
+  "authentication": {
+    "primary": {
+      "url": "https://developer.clickup.com/docs/authentication",
+      "title": "",
+      "confidence": 0.95,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "developer_domain: +0.25",
+        "exact_slot_match: +0.20",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "alternatives": []
+  },
+  "api_reference": {
+    "primary": {
+      "url": "https://clickup.com/api",
+      "title": "Developer Portal",
+      "confidence": 0.75,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "canonical_doc: +0.10",
+        "llms_txt_source: +0.05"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "alternatives": [
+      {
+        "url": "https://clickup.com/api/reference",
+        "title": "API Reference",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      }
+    ]
+  },
+  "pricing": {
+    "primary": {
+      "url": "https://clickup.com/pricing",
+      "title": "Pricing",
+      "confidence": 0.65,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "llms_txt_source: +0.05"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "alternatives": []
+  },
+  "sdk": {
+    "primary": {
+      "url": "https://developers.clickup.com/docs/sdk",
+      "title": "",
+      "confidence": 0.95,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "developer_domain: +0.25",
+        "exact_slot_match: +0.20",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "alternatives": []
+  },
+  "mcp": {
+    "primary": {
+      "url": "https://developers.clickup.com/docs/mcp",
+      "title": "",
+      "confidence": 0.95,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "developer_domain: +0.25",
+        "exact_slot_match: +0.20",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "alternatives": []
+  },
+  "developer_portal": {
+    "primary": {
+      "url": "https://clickup.com/features/docs",
+      "title": "",
+      "confidence": 0.6,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "alternatives": []
+  },
+  "webhooks": {
+    "primary": {
+      "url": "https://clickup.com/api/webhooks",
+      "title": "Webhooks",
+      "confidence": 0.75,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "canonical_doc: +0.10",
+        "llms_txt_source: +0.05"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "alternatives": []
+  },
+  "llms_txt": {
+    "url": "https://clickup.com/llms-full.txt",
+    "title": "llms.txt index",
+    "confidence": 1.0,
+    "confidence_reason": [
+      "llms_txt_source: +0.05",
+      "official_docs: +0.40",
+      "canonical_doc: +0.10"
+    ],
+    "is_official": true,
+    "discovered_from": "llms_txt"
+  },
+  "inventory": {
+    "app_name": "ClickUp",
+    "official_domain": "clickup.com",
+    "items": [
+      {
+        "url": "https://clickup.com/api",
+        "page_type": "homepage",
+        "title": "ClickUp",
+        "confidence": 0.5,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "canonical_doc: +0.10"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      },
+      {
+        "url": "https://clickup.com/api",
+        "page_type": "api_reference",
+        "title": "Developer Portal",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://clickup.com/api/reference",
+        "page_type": "api_reference",
+        "title": "API Reference",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://clickup.com/api/webhooks",
+        "page_type": "webhooks",
+        "title": "Webhooks",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://clickup.com/pricing",
+        "page_type": "pricing",
+        "title": "Pricing",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer.clickup.com/docs/authentication",
+        "page_type": "authentication",
+        "title": "",
+        "confidence": 0.95,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      },
+      {
+        "url": "https://clickup.com/features/docs",
+        "page_type": "developer_portal",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.clickup.com/docs/sdk",
+        "page_type": "sdk",
+        "title": "",
+        "confidence": 0.95,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.clickup.com/docs/mcp",
+        "page_type": "mcp",
+        "title": "",
+        "confidence": 0.95,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      }
+    ],
+    "stats": {
+      "queries": 1,
+      "urls_discovered": 9,
+      "official_urls": 9,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 1,
+      "canonical_selected": 8
+    }
+  },
+  "stats": {
+    "queries": 1,
+    "urls_discovered": 9,
+    "official_urls": 9,
+    "non_official_filtered": 0,
+    "blog_community_filtered": 0,
+    "third_party_sdk_filtered": 0,
+    "duplicates_removed": 1,
+    "canonical_selected": 8
+  }
+}

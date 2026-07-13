@@ -1,0 +1,287 @@
+{
+  "app": {
+    "id": 50,
+    "name": "fanbasis",
+    "website": "fanbasis.com",
+    "category_hint": "Ecommerce"
+  },
+  "documentation_map": {
+    "app_name": "fanbasis",
+    "official_domain": "fanbasis.com",
+    "homepage": {
+      "url": "https://fanbasis.com",
+      "title": "fanbasis",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": null,
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": null,
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://www.fanbasis.com",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": null,
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://www.fanbasis.com",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "fanbasis",
+      "official_domain": "fanbasis.com",
+      "items": [
+        {
+          "url": "https://fanbasis.com",
+          "page_type": "homepage",
+          "title": "fanbasis",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://www.fanbasis.com",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://www.fanbasis.com",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 5,
+        "urls_discovered": 3,
+        "official_urls": 3,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 1,
+        "canonical_selected": 3
+      }
+    },
+    "stats": {
+      "queries": 5,
+      "urls_discovered": 3,
+      "official_urls": 3,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 1,
+      "canonical_selected": 3
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_2911788b425a",
+      "source_type": "pricing_page",
+      "url": "https://www.fanbasis.com",
+      "domain": "www.fanbasis.com",
+      "page_title": "FanBasis",
+      "content": "All-in-one software to run high-ticket, high-margin digital businesses. Everything from checkout to fulfillment with built-in financing, premium payments, and enterprise-grade scale.\nBook a Demo CallOur Top Features\nCrypto Payments\nAutomated Fulfillment\nOrder Bumps\nUpsells\nCustom Dashboards\n7+ BNPL Providers\nShareable Payment Links\nFlexible Financing\nCheckout Funnels\nOnline Payments\nCrypto Payments\nAutomated Fulfillment\nOrder Bumps\nUpsells\nCustom Dashboards\n7+ BNPL Providers\nShareable Payment Links\nFlexible Financing\nCheckout Funnels\nOnline Payments\nHigh-Growth Businesses.\nIf you're selling knowledge, experience, or services online—FanBasis was built to run your business end-to-end. From payments to fulfillment, it's everything you need to sell smarter, get paid faster, and scale without limits.\nUnlock end-to-end growth tools — from hosting products to processing payments — all in one powerful platform.\nAccept payments with confidence and get reliable payouts—for you and your affiliates. Backed by infrastructure built to protect your revenue at every step.\nFrom real-time dashboards and embedded BNPL to dedicated automation and growth specialists, FanBasis treats your business like the serious operation it is.\nWe're the Stack.\nMost platforms stop at checkout. FanBasis is full-stack business infrastructure powering the next generation of internet entrepreneurs.\nBuilt for how you sell—with custom checkout funnels, scalable infra, and zero surprises.\nPlug into tools you already use—CRMs, workflows, and data pipelines.\nTrack affiliates, pay commissions, and grow through partners.\nLive dashboards with insights on churn, failed payments, and buyer behavior.\nLaunch fast with expert-led setup and seamless migration of your data, customers, and offers.\nHost and auto-deliver courses, communities, or services—with done-for-you automation support.\nAll the tools your business needs to maximize its revenue\nCreate products with a single click. Quick and seamless.\nBill clients on autopilot with built-in recurring logic.\nFully customizable offers with forced VSLs, delayed CTAs, and conversion-focused flow.\nAdd bonus offers at checkout to boost conversions instantly.\nOffer flexible installment options without third-party tools.\nRecover failed payments in real-time with intelligent fallback logic.\nConvert first. Charge later. Full control over trial timing and access.\nFanBasis is built for scale—no middleware, no lag.\n- \n                                    You Should Run Everything on FanBasisFanBasis has seriously accelerated our growth—it's the team behind it that really makes the difference. They're incredibly responsive, invested in our success. You'll quickly see just how much they care. \n- \n                                    Payments Made Ridiculously EasyFanBasis completely simplified everything. It's straightforward, fast, and reliable, no matter if clients prefer cards, Apple Pay, or BNPL. It's exactly what we needed—simple, effective, and trustworthy. \n- \n                                    Built Exactly for Agency NeedsThe flexibility to customize offers, create OTOs, and automate our sales funnels has been fantastic. Plus, the built-in analytics give us clear insights on performance, helping us make smarter decisions with our ads. \n- \n                                    Finally, a Platform That Understands UsFanBasis isn't just another tool—it's built by people who genuinely get us. Their real edge isn't just tech; it's understanding our needs before we ask. Plus, they've got SWAG—this is THE team to back your growth. \n- \n                                    FanBasis Nailed Our Affiliate MarketingTheir affiliate system got rid of our messy spreadsheets and multiple tools. FanBasis even connected us to a top media buyer who TRIPLED our numbers. They make it feel as easy as ordering Uber Eats. \n- \n                                    Real White Glove SupportWhat blew me away was how fast I launched. I went from juggling DMs & invoices to migrating everything over. The support is phenomenal. It's like Shopify meets Square meets a business coach—and it just works. \n- \n                                    FanBasis wasn’t just a platform — it was momentumNo bloated setup, no downtime, just a clean interface and tools that work. It’s been the easiest part of scaling our business. \n- \n                                    You Should Run Everything on FanBasisFanBasis has seriously accelerated our growth—it's the team behind it that really makes the difference. They're incredibly responsive, invested in our success. You'll quickly see just how much they care. \n- \n                                    Payments Made Ridiculously EasyFanBasis completely simplified everything. It's straightforward, fast, and reliable, no matter if clients prefer cards, Apple Pay, or BNPL. It's exactly what we needed—simple, effective, and trustworthy. \n- \n                                    Built Exactly for Agency NeedsThe flexibility to customize offers, create OTOs, and automate our sales funnels has been fantastic. Plus, the built-in analytics give us clear insights on performance, helping us make smarter decisions with our ads. \n- \n                                    Finally, a Platform That Understands UsFanBasis isn't just another tool—it's built by people who genuinely get us. Their real edge isn't just tech; it's understanding our needs before we ask. Plus, they've got SWAG—this is THE team to back your growth. \n- \n                                    FanBasis Nailed Our Affiliate MarketingTheir affiliate system got rid of our messy spreadsheets and multiple tools. FanBasis even connected us to a top media buyer who TRIPLED our numbers. They make it feel as easy as ordering Uber Eats. \n- \n                                    Real White Glove SupportWhat blew me away was how fast I launched. I went from juggling DMs & invoices to migrating everything over. The support is phenomenal. It's like Shopify meets Square meets a business coach—and it just works. \n- \n                                    FanBasis wasn’t just a platform — it was momentumNo bloated setup, no downtime, just a clean interface and tools that work. It’s been the easiest part of scaling our business. \n- \n                                    FanBasis is why I don’t have to worry about the biggest problem entrepreneurs have… paymentsThe support makes me feel like a family member, the software itself is unmatched, and most importantly, my money is protected. \n- \n                                    FanBasis has completely changed the way we run our businessPayments are effortless, support feels personal, and the platform just works. It’s rare to find a partner that gives you confidence at every step - FanBasis makes scaling faster, smoother, and stress-free \n- \n                                    Most platforms come with hidden friction, but FanBasis stripped that awayFrom day one, everything worked exactly how we needed it to. We’ve scaled faster because we aren’t fighting the tool we rely on. \n- \n                                    I’m just so impressed with every aspect of FanBasisFrom their back end infrastructure to the front end customer service, they’ve been great to work with. \n- \n                                    FanBasis isn’t just another software, it’s a growth partnerIn e-commerce, speed, reliability, and support are everything, and FanBasis delivers on all three at a world-class level. When you’re scaling fast, you need partners who can keep up and FanBasis doesn’t just keep up, they help you win. \n- \n                                    We needed a tool that wouldn’t bog us downFanBasis was that solution — intuitive, quick to launch, and consistently reliable. It’s helped us stay lean while still scaling aggressively. \n- \n                                    FanBasis combines everything I used to have to duct-tape together with multiple servicesAs an 8-figure entrepreneur, I’ve tested nearly every tool in internet marketing. FanBasis is the best all-in-one platform for running an online business—backed by real numbers. \n- \n                                    FanBasis is why I don’t have to worry about the biggest problem entrepreneurs have… paymentsThe support makes me feel like a family member, the software itself is unmatched, and most importantly, my money is protected. \n- \n                                    FanBasis has completely changed the way we run our businessPayments are effortless, support feels personal, and the platform just works. It’s rare to find a partner that gives you confidence at every step - FanBasis makes scaling faster, smoother, and stress-free \n- \n                                    Most platforms come with hidden friction, but FanBasis stripped that awayFrom day one, everything worked exactly how we needed it to. We’ve scaled faster because we aren’t fighting the tool we rely on. \n- \n                                    I’m just so impressed with every aspect of FanBasisFrom their back end infrastructure to the front end customer service, they’ve been great to work with. \n- \n                                    FanBasis isn’t just another software, it’s a growth partnerIn e-commerce, speed, reliability, and support are everything, and FanBasis delivers on all three at a world-class level. When you’re scaling fast, you need partners who can keep up and FanBasis doesn’t just keep up, they help you win. \n- \n                                    We needed a tool that wouldn’t bog us downFanBasis was that solution — intuitive, quick to launch, and consistently reliable. It’s helped us stay lean while still scaling aggressively. \n- \n                                    FanBasis combines everything I used to have to duct-tape together with multiple servicesAs an 8-figure entrepreneur, I’ve tested nearly every tool in internet marketing. FanBasis is the best all-in-one platform for running an online business—backed by real numbers. \n| Top Features | FanBasis | Other Companies | \n|---|---|---|\n| All-in-One Platform | Single unified stack | 6+ tools duct-taped together | \n| Industry-Specific Online Payments | Payment rails built for your offer | Limitations at scale | \n| Financing Options | Several BNPL options | Limited access | \n| Full-fledge checkout funnels | Easy OTOs, forced VSLs, delayed CTAs | Costly development | \n| Breadth of Payment Methods | Accept card, crypto, ACH, & more | Collect crypto & wires offline | \n| Payouts | Fast payouts | Weeks delayed, payouts frozen | \n| Risk & Dispute Support | Team of resolution specialists | No support, reserves due to high chargebacks | \n| White Glove Onboarding | Personalized migration & setup | Not included | \n| Automations Support | In-house automations specialists | Not included | \n| Dedicated Account Manager | 24/7 Account Management | Not included | \n| Automated Fulfillment | Auto course, community, or service delivery | Not included | \n| Real-Time Analytics | Instant insights, buyer data | Delayed CSV exports | \nTens of thousands of sellers who have generated billions of dollars in revenue trust FanBasis to power their business.\nCreate an Account",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:06:16.675039Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 2791,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_9098b33f4595",
+      "source_type": "official_docs",
+      "url": "https://fanbasis.com",
+      "domain": "fanbasis.com",
+      "page_title": "FanBasis",
+      "content": "All-in-one software to run high-ticket, high-margin digital businesses. Everything from checkout to fulfillment with built-in financing, premium payments, and enterprise-grade scale.\nBook a Demo CallOur Top Features\nCrypto Payments\nAutomated Fulfillment\nOrder Bumps\nUpsells\nCustom Dashboards\n7+ BNPL Providers\nShareable Payment Links\nFlexible Financing\nCheckout Funnels\nOnline Payments\nCrypto Payments\nAutomated Fulfillment\nOrder Bumps\nUpsells\nCustom Dashboards\n7+ BNPL Providers\nShareable Payment Links\nFlexible Financing\nCheckout Funnels\nOnline Payments\nHigh-Growth Businesses.\nIf you're selling knowledge, experience, or services online—FanBasis was built to run your business end-to-end. From payments to fulfillment, it's everything you need to sell smarter, get paid faster, and scale without limits.\nUnlock end-to-end growth tools — from hosting products to processing payments — all in one powerful platform.\nAccept payments with confidence and get reliable payouts—for you and your affiliates. Backed by infrastructure built to protect your revenue at every step.\nFrom real-time dashboards and embedded BNPL to dedicated automation and growth specialists, FanBasis treats your business like the serious operation it is.\nWe're the Stack.\nMost platforms stop at checkout. FanBasis is full-stack business infrastructure powering the next generation of internet entrepreneurs.\nBuilt for how you sell—with custom checkout funnels, scalable infra, and zero surprises.\nPlug into tools you already use—CRMs, workflows, and data pipelines.\nTrack affiliates, pay commissions, and grow through partners.\nLive dashboards with insights on churn, failed payments, and buyer behavior.\nLaunch fast with expert-led setup and seamless migration of your data, customers, and offers.\nHost and auto-deliver courses, communities, or services—with done-for-you automation support.\nAll the tools your business needs to maximize its revenue\nCreate products with a single click. Quick and seamless.\nBill clients on autopilot with built-in recurring logic.\nFully customizable offers with forced VSLs, delayed CTAs, and conversion-focused flow.\nAdd bonus offers at checkout to boost conversions instantly.\nOffer flexible installment options without third-party tools.\nRecover failed payments in real-time with intelligent fallback logic.\nConvert first. Charge later. Full control over trial timing and access.\nFanBasis is built for scale—no middleware, no lag.\n- \n                                    You Should Run Everything on FanBasisFanBasis has seriously accelerated our growth—it's the team behind it that really makes the difference. They're incredibly responsive, invested in our success. You'll quickly see just how much they care. \n- \n                                    Payments Made Ridiculously EasyFanBasis completely simplified everything. It's straightforward, fast, and reliable, no matter if clients prefer cards, Apple Pay, or BNPL. It's exactly what we needed—simple, effective, and trustworthy. \n- \n                                    Built Exactly for Agency NeedsThe flexibility to customize offers, create OTOs, and automate our sales funnels has been fantastic. Plus, the built-in analytics give us clear insights on performance, helping us make smarter decisions with our ads. \n- \n                                    Finally, a Platform That Understands UsFanBasis isn't just another tool—it's built by people who genuinely get us. Their real edge isn't just tech; it's understanding our needs before we ask. Plus, they've got SWAG—this is THE team to back your growth. \n- \n                                    FanBasis Nailed Our Affiliate MarketingTheir affiliate system got rid of our messy spreadsheets and multiple tools. FanBasis even connected us to a top media buyer who TRIPLED our numbers. They make it feel as easy as ordering Uber Eats. \n- \n                                    Real White Glove SupportWhat blew me away was how fast I launched. I went from juggling DMs & invoices to migrating everything over. The support is phenomenal. It's like Shopify meets Square meets a business coach—and it just works. \n- \n                                    FanBasis wasn’t just a platform — it was momentumNo bloated setup, no downtime, just a clean interface and tools that work. It’s been the easiest part of scaling our business. \n- \n                                    You Should Run Everything on FanBasisFanBasis has seriously accelerated our growth—it's the team behind it that really makes the difference. They're incredibly responsive, invested in our success. You'll quickly see just how much they care. \n- \n                                    Payments Made Ridiculously EasyFanBasis completely simplified everything. It's straightforward, fast, and reliable, no matter if clients prefer cards, Apple Pay, or BNPL. It's exactly what we needed—simple, effective, and trustworthy. \n- \n                                    Built Exactly for Agency NeedsThe flexibility to customize offers, create OTOs, and automate our sales funnels has been fantastic. Plus, the built-in analytics give us clear insights on performance, helping us make smarter decisions with our ads. \n- \n                                    Finally, a Platform That Understands UsFanBasis isn't just another tool—it's built by people who genuinely get us. Their real edge isn't just tech; it's understanding our needs before we ask. Plus, they've got SWAG—this is THE team to back your growth. \n- \n                                    FanBasis Nailed Our Affiliate MarketingTheir affiliate system got rid of our messy spreadsheets and multiple tools. FanBasis even connected us to a top media buyer who TRIPLED our numbers. They make it feel as easy as ordering Uber Eats. \n- \n                                    Real White Glove SupportWhat blew me away was how fast I launched. I went from juggling DMs & invoices to migrating everything over. The support is phenomenal. It's like Shopify meets Square meets a business coach—and it just works. \n- \n                                    FanBasis wasn’t just a platform — it was momentumNo bloated setup, no downtime, just a clean interface and tools that work. It’s been the easiest part of scaling our business. \n- \n                                    FanBasis is why I don’t have to worry about the biggest problem entrepreneurs have… paymentsThe support makes me feel like a family member, the software itself is unmatched, and most importantly, my money is protected. \n- \n                                    FanBasis has completely changed the way we run our businessPayments are effortless, support feels personal, and the platform just works. It’s rare to find a partner that gives you confidence at every step - FanBasis makes scaling faster, smoother, and stress-free \n- \n                                    Most platforms come with hidden friction, but FanBasis stripped that awayFrom day one, everything worked exactly how we needed it to. We’ve scaled faster because we aren’t fighting the tool we rely on. \n- \n                                    I’m just so impressed with every aspect of FanBasisFrom their back end infrastructure to the front end customer service, they’ve been great to work with. \n- \n                                    FanBasis isn’t just another software, it’s a growth partnerIn e-commerce, speed, reliability, and support are everything, and FanBasis delivers on all three at a world-class level. When you’re scaling fast, you need partners who can keep up and FanBasis doesn’t just keep up, they help you win. \n- \n                                    We needed a tool that wouldn’t bog us downFanBasis was that solution — intuitive, quick to launch, and consistently reliable. It’s helped us stay lean while still scaling aggressively. \n- \n                                    FanBasis combines everything I used to have to duct-tape together with multiple servicesAs an 8-figure entrepreneur, I’ve tested nearly every tool in internet marketing. FanBasis is the best all-in-one platform for running an online business—backed by real numbers. \n- \n                                    FanBasis is why I don’t have to worry about the biggest problem entrepreneurs have… paymentsThe support makes me feel like a family member, the software itself is unmatched, and most importantly, my money is protected. \n- \n                                    FanBasis has completely changed the way we run our businessPayments are effortless, support feels personal, and the platform just works. It’s rare to find a partner that gives you confidence at every step - FanBasis makes scaling faster, smoother, and stress-free \n- \n                                    Most platforms come with hidden friction, but FanBasis stripped that awayFrom day one, everything worked exactly how we needed it to. We’ve scaled faster because we aren’t fighting the tool we rely on. \n- \n                                    I’m just so impressed with every aspect of FanBasisFrom their back end infrastructure to the front end customer service, they’ve been great to work with. \n- \n                                    FanBasis isn’t just another software, it’s a growth partnerIn e-commerce, speed, reliability, and support are everything, and FanBasis delivers on all three at a world-class level. When you’re scaling fast, you need partners who can keep up and FanBasis doesn’t just keep up, they help you win. \n- \n                                    We needed a tool that wouldn’t bog us downFanBasis was that solution — intuitive, quick to launch, and consistently reliable. It’s helped us stay lean while still scaling aggressively. \n- \n                                    FanBasis combines everything I used to have to duct-tape together with multiple servicesAs an 8-figure entrepreneur, I’ve tested nearly every tool in internet marketing. FanBasis is the best all-in-one platform for running an online business—backed by real numbers. \n| Top Features | FanBasis | Other Companies | \n|---|---|---|\n| All-in-One Platform | Single unified stack | 6+ tools duct-taped together | \n| Industry-Specific Online Payments | Payment rails built for your offer | Limitations at scale | \n| Financing Options | Several BNPL options | Limited access | \n| Full-fledge checkout funnels | Easy OTOs, forced VSLs, delayed CTAs | Costly development | \n| Breadth of Payment Methods | Accept card, crypto, ACH, & more | Collect crypto & wires offline | \n| Payouts | Fast payouts | Weeks delayed, payouts frozen | \n| Risk & Dispute Support | Team of resolution specialists | No support, reserves due to high chargebacks | \n| White Glove Onboarding | Personalized migration & setup | Not included | \n| Automations Support | In-house automations specialists | Not included | \n| Dedicated Account Manager | 24/7 Account Management | Not included | \n| Automated Fulfillment | Auto course, community, or service delivery | Not included | \n| Real-Time Analytics | Instant insights, buyer data | Delayed CSV exports | \nTens of thousands of sellers who have generated billions of dollars in revenue trust FanBasis to power their business.\nCreate an Account",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:06:17.576760Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 2791,
+      "quality_score": 0.46
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "All-in-one software to run high-ticket, high-margin digital businesses.",
+      "evidence_ids": [
+        "ev_2911788b425a",
+        "ev_9098b33f4595"
+      ]
+    },
+    "category": {
+      "value": "Ecommerce",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_2911788b425a",
+        "ev_9098b33f4595"
+      ]
+    },
+    "self_serve": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_2911788b425a",
+        "ev_9098b33f4595"
+      ]
+    },
+    "api_surface": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_2911788b425a",
+        "ev_9098b33f4595"
+      ]
+    },
+    "api_breadth": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_2911788b425a",
+        "ev_9098b33f4595"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_2911788b425a",
+        "ev_9098b33f4595"
+      ]
+    },
+    "buildability": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_2911788b425a",
+        "ev_9098b33f4595"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_2911788b425a",
+        "ev_9098b33f4595"
+      ]
+    }
+  },
+  "validation": {
+    "status": "INSUFFICIENT_EVIDENCE",
+    "score": 0.12,
+    "fields_checked": 8,
+    "fields_supported": 1,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "auth_methods",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'auth_methods' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "self_serve",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'self_serve' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "api_surface",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_surface' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "api_breadth",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_breadth' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "buildability",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'buildability' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": {
+    "verified_fields": [],
+    "corrections": {},
+    "screenshots": [],
+    "notes": ""
+  },
+  "pipeline_confidence": 0.12,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.12 below 0.90 threshold",
+      "Self-serve access model is UNKNOWN",
+      "Auth methods missing or UNKNOWN",
+      "Insufficient evidence (2 pieces, minimum 3)"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

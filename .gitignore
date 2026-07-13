@@ -1,2 +1,44 @@
-.agents/
+# Python
+__pycache__/
+*.py[codz]
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables (API keys)
+.env
+.envrc
+
+# Tooling caches
 .ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.pdm-python
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Agent meta-docs (internal, not needed by evaluator)
+.agents/
+
+# Discovery cache — commit these so evaluator can skip re-discovery
+# backend/data/cache/   ← intentionally NOT ignored
+
+# Virtual environment inside backend (511 MB, do not commit)
+backend/.venv/
+
+# Playwright browsers cache
+backend/.playwright/

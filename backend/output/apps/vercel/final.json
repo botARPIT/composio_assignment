@@ -1,0 +1,1324 @@
+{
+  "app": {
+    "id": 62,
+    "name": "Vercel",
+    "website": "vercel.com/docs/rest-api",
+    "category_hint": "Developer Infra and Data"
+  },
+  "documentation_map": {
+    "app_name": "Vercel",
+    "official_domain": "vercel.com",
+    "homepage": {
+      "url": "https://vercel.com/docs/rest-api",
+      "title": "Vercel",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://vercel.com/docs/sign-in-with-vercel/authorization-server-api",
+        "title": "Authorization Server API",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://vercel.com/docs/platforms/multi-tenant-platforms/reference",
+        "title": "Reference",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://vercel.com/docs/platforms/multi-project-platforms/reference",
+          "title": "Reference",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://vercel.com/pricing",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://vercel.com/docs/mcp",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://vercel.com/docs/llms-full.txt",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://vercel.com/docs",
+          "title": "Vercel Documentation",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://vercel.com/docs/getting-started-with-vercel",
+          "title": "Getting Started",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://vercel.com/docs/fundamentals",
+          "title": "Fundamental Concepts",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "webhooks": null,
+    "llms_txt": {
+      "url": "https://help.vercel.com/llms.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "Vercel",
+      "official_domain": "vercel.com",
+      "items": [
+        {
+          "url": "https://vercel.com/docs/rest-api",
+          "page_type": "homepage",
+          "title": "Vercel",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/llms-full.txt",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs",
+          "page_type": "developer_portal",
+          "title": "Vercel Documentation",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/getting-started-with-vercel",
+          "page_type": "developer_portal",
+          "title": "Getting Started",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/fundamentals",
+          "page_type": "developer_portal",
+          "title": "Fundamental Concepts",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/fundamentals/infrastructure",
+          "page_type": "developer_portal",
+          "title": "Request Lifecycle",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/fundamentals/builds",
+          "page_type": "developer_portal",
+          "title": "Build System",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/fundamentals/what-is-compute",
+          "page_type": "developer_portal",
+          "title": "What is Compute?",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/frameworks",
+          "page_type": "developer_portal",
+          "title": "Supported Frameworks",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/frameworks/full-stack",
+          "page_type": "developer_portal",
+          "title": "Full-stack",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/frameworks/full-stack/nextjs",
+          "page_type": "developer_portal",
+          "title": "Next.js",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/frameworks/full-stack/sveltekit",
+          "page_type": "developer_portal",
+          "title": "SvelteKit",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/frameworks/full-stack/nuxt",
+          "page_type": "developer_portal",
+          "title": "Nuxt",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/frameworks/full-stack/remix",
+          "page_type": "developer_portal",
+          "title": "Remix",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/frameworks/full-stack/tanstack-start",
+          "page_type": "developer_portal",
+          "title": "TanStack Start",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/frameworks/full-stack/vite-with-nitro",
+          "page_type": "developer_portal",
+          "title": "Vite + Nitro",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/frameworks/full-stack/django",
+          "page_type": "developer_portal",
+          "title": "Django",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/frameworks/frontend",
+          "page_type": "developer_portal",
+          "title": "Frontends",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/frameworks/frontend/astro",
+          "page_type": "developer_portal",
+          "title": "Astro",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/frameworks/frontend/vite",
+          "page_type": "developer_portal",
+          "title": "Vite",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/frameworks/frontend/react-router",
+          "page_type": "developer_portal",
+          "title": "React Router",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/frameworks/frontend/create-react-app",
+          "page_type": "developer_portal",
+          "title": "Create React App",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/frameworks/backend",
+          "page_type": "developer_portal",
+          "title": "Backends",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/frameworks/backend/nitro",
+          "page_type": "developer_portal",
+          "title": "Nitro",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/frameworks/backend/express",
+          "page_type": "developer_portal",
+          "title": "Express",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/frameworks/backend/elysia",
+          "page_type": "developer_portal",
+          "title": "Elysia",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/frameworks/backend/fastapi",
+          "page_type": "developer_portal",
+          "title": "FastAPI",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/frameworks/backend/fastify",
+          "page_type": "developer_portal",
+          "title": "Fastify",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/frameworks/backend/flask",
+          "page_type": "developer_portal",
+          "title": "Flask",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/frameworks/backend/hono",
+          "page_type": "developer_portal",
+          "title": "Hono",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/frameworks/backend/koa",
+          "page_type": "developer_portal",
+          "title": "Koa",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/frameworks/backend/nestjs",
+          "page_type": "developer_portal",
+          "title": "NestJS",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/frameworks/backend/xmcp",
+          "page_type": "developer_portal",
+          "title": "xmcp",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/frameworks/more-frameworks",
+          "page_type": "developer_portal",
+          "title": "All Frameworks",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/incremental-migration",
+          "page_type": "developer_portal",
+          "title": "Incremental Migration",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/production-checklist",
+          "page_type": "developer_portal",
+          "title": "Production Checklist",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/platforms/multi-tenant-platforms",
+          "page_type": "developer_portal",
+          "title": "Multi-Tenant Platforms",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/platforms/multi-tenant-platforms/concepts",
+          "page_type": "developer_portal",
+          "title": "Concepts",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/platforms/multi-tenant-platforms/quickstart",
+          "page_type": "developer_portal",
+          "title": "Quickstart",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/platforms/multi-tenant-platforms/configuring-domains",
+          "page_type": "developer_portal",
+          "title": "Configuring Domains",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/platforms/multi-tenant-platforms/custom-subpaths",
+          "page_type": "developer_portal",
+          "title": "Custom Subpaths",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/platforms/multi-tenant-platforms/middleware-and-routing",
+          "page_type": "developer_portal",
+          "title": "Middleware and Routing",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/platforms/multi-tenant-platforms/serving-static-files",
+          "page_type": "developer_portal",
+          "title": "Serving Static Files",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/platforms/multi-tenant-platforms/preview-url-prefixes",
+          "page_type": "developer_portal",
+          "title": "Multi-tenant Preview URLs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/platforms/multi-tenant-platforms/reference",
+          "page_type": "api_reference",
+          "title": "Reference",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/platforms/multi-tenant-platforms/limits",
+          "page_type": "developer_portal",
+          "title": "Limits",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/platforms/multi-project-platforms",
+          "page_type": "developer_portal",
+          "title": "Multi-Project Platforms",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/platforms/multi-project-platforms/concepts",
+          "page_type": "developer_portal",
+          "title": "Concepts",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/platforms/multi-project-platforms/quickstart",
+          "page_type": "developer_portal",
+          "title": "Quickstart",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/platforms/multi-project-platforms/reference",
+          "page_type": "api_reference",
+          "title": "Reference",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/platforms/examples",
+          "page_type": "developer_portal",
+          "title": "Examples",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/platforms/examples/multi-tenant-template",
+          "page_type": "developer_portal",
+          "title": "Multi-Tenant Template",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/platforms/examples/oss-coding-agent",
+          "page_type": "developer_portal",
+          "title": "OSS Coding Agent",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/platforms/examples/platform-template",
+          "page_type": "developer_portal",
+          "title": "Platform Template",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/platforms/platform-elements",
+          "page_type": "developer_portal",
+          "title": "Platform Elements",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/platforms/platform-elements/actions",
+          "page_type": "developer_portal",
+          "title": "Actions",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/platforms/platform-elements/actions/add-custom-domain",
+          "page_type": "developer_portal",
+          "title": "Add Custom Domain",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/platforms/platform-elements/actions/deploy-files",
+          "page_type": "developer_portal",
+          "title": "Deploy Files",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/platforms/platform-elements/blocks",
+          "page_type": "developer_portal",
+          "title": "Blocks",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/platforms/platform-elements/blocks/claim-deployment",
+          "page_type": "developer_portal",
+          "title": "Claim Deployment",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/platforms/platform-elements/blocks/custom-domain",
+          "page_type": "developer_portal",
+          "title": "Custom Domain",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/platforms/platform-elements/blocks/deploy-popover",
+          "page_type": "developer_portal",
+          "title": "Deploy Popover",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/platforms/platform-elements/blocks/dns-table",
+          "page_type": "developer_portal",
+          "title": "DNS Table",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/platforms/platform-elements/blocks/report-abuse",
+          "page_type": "developer_portal",
+          "title": "Report Abuse",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/accounts",
+          "page_type": "developer_portal",
+          "title": "Account Management",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/sign-in-with-vercel",
+          "page_type": "developer_portal",
+          "title": "Sign in with Vercel",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/sign-in-with-vercel/getting-started",
+          "page_type": "developer_portal",
+          "title": "Getting Started",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/sign-in-with-vercel/scopes-and-permissions",
+          "page_type": "developer_portal",
+          "title": "Scopes & Permissions",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/sign-in-with-vercel/tokens",
+          "page_type": "developer_portal",
+          "title": "Tokens",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/sign-in-with-vercel/authorization-server-api",
+          "page_type": "authentication",
+          "title": "Authorization Server API",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/sign-in-with-vercel/manage-from-dashboard",
+          "page_type": "developer_portal",
+          "title": "Manage from Dashboard",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/sign-in-with-vercel/consent-page",
+          "page_type": "developer_portal",
+          "title": "Consent Page",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/sign-in-with-vercel/troubleshooting",
+          "page_type": "developer_portal",
+          "title": "Troubleshooting",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/activity-log",
+          "page_type": "developer_portal",
+          "title": "Activity Log",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/deployment-protection",
+          "page_type": "developer_portal",
+          "title": "Deployment Protection",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/deployment-protection/methods-to-bypass-deployment-protection",
+          "page_type": "developer_portal",
+          "title": "Bypass Deployment Protection",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/pricing",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://vercel.com/docs/mcp",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 1,
+        "urls_discovered": 78,
+        "official_urls": 78,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 6
+      }
+    },
+    "stats": {
+      "queries": 1,
+      "urls_discovered": 78,
+      "official_urls": 78,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 6
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_fa5adce85037",
+      "source_type": "pricing_page",
+      "url": "https://vercel.com/pricing",
+      "domain": "vercel.com",
+      "page_title": "Vercel Pricing: Hobby, Pro, and Enterprise plans",
+      "content": "Scale your app,\ncontrol your costs\nThe perfect starting place for your web app or personal project.\nPopular\nEverything you need to build and scale your app.\nCritical security, performance, observability, platform SLAs, and support.\nVercel Delivery Network\nGlobal Points of Presence\nVercel Regions\nAutomatic Routing\nHTTPS Certificates\nTLS/SSL Encryption\nTraffic Load Balancing\nPrivate Inter-Region Network\nAutomatic Region Failover\nReverse Proxy\nRewrites\nRedirects\nMiddleware Support\nVercel Firewall\nCustom Firewall Rules\nUp to 3\nUp to 40\nUp to 1,000\nIP Blocking\nUp to 3\nUp to 100\nUp to 1,000\nSystem Bypass Rules\nUp to 25\nUp to 100\nRate Limiting\n1M allowed requests / month included\nStarting at $0.50 per 1M allowed requests\nCustom\nOWASP Core Ruleset (managed)\nCustom\nAutomated DDoS Mitigation\nAI Bots (managed ruleset)\nBot Protection (managed ruleset)\nBotID\nBasic checks included\n$1 per 1,000 Deep Analysis checks\nCustom\nAttack Challenge Mode\nContent, Caching & Optimization\nZero-config CDN cache\nAutomated Compression\nBackground Revalidation\nStale-While-Revalidate\nISR Reads\n1M / month included\nStarting at $0.40 per 1M\nCustom\nISR Writes\n200k / month included\nStarting at $4 per 1M\nCustom\n1K included per project\n$50 per month per 25K redirects\nCustom\nStorage Size\n1 GB / month included\n$0.023 per GB\nCustom\nSimple Operations\n10K / month included\n$0.40 per 1M\nCustom\nAdvanced Operations\n2K / month included\n$5 per 1M\nCustom\nBlob Data Transfer\n10 GB / month included\nStarting at $0.05 per GB\nCustom\nImage Transformations\n5K / month included\nStarting at $0.05 per 1K\nCustom\nImage Cache Reads\n300K / month included\nStarting at $0.40 per 1M\nCustom\nImage Cache Writes\n100K / month included\nStarting at $4 per 1M\nCustom\nEdge Config Reads\n100K / month included\nStarting at $3 per 1M reads\nCustom\nEdge Config Writes\n100 writes / month included\n$1 per 100 writes\nCustom\nMicrofrontends\n2 included projects\n2 included projects\nthen $250 per additional project\nCustom\nMicrofrontend Routing\n50K routed requests / month included\n$2 per 1M routed requests\nCustom\nVercel Compute\nActive CPU\n4 hours / month included\nStarting at $0.128 per hour\nCustom\nProvisioned Memory\n360 GB-hrs / month included\nStarting at $0.0106 per GB-hr\nCustom\nInvocations\n1M / month included\nStarting at $0.60 per 1M\nCustom\nBeta\nActive CPU\n5 hours / month included\nStarting at $0.128 per hour\nCustom\nProvisioned Memory\n420 GB-hrs / month included\nStarting at $0.0212 per GB-hr\nCustom\nCreation\n5K / month included\nStarting at $0.60 per 1M\nCustom\nNetwork\n20 GB / month included\nStarting at $0.15 per GB\nCustom\nConcurrent Sandboxes\n10\n2K\nCustom\nSnapshot Storage\n15 GB\nStarting at $0.08 per GB-month\nCustom\nBeta\nEvents\n50K events / month included\n$20 per 1M\nCustom\nData Written\n1 GB\n$0.50 per GB\nCustom\nData Retained\n$0.50 per GB-month\nCustom\nBeta\nAPI Operations\n1M / month included\nStarting at $0.60 per 1M\nCustom\nAI\n—\nPaid add-on\nPaid add-on\nBeta\n$0.25 / million tokens\n+ pass-through token cost\nCustom\nCode Review\nInvestigations\nObservability\nImage generation\nBring your own key\nApp attribution\nManaged fallback\nLoad balancing\nSpend monitoring\nEmbedding support\nAutomatic retries\n5K requests / month included\n$3 per 10K requests\nCustom\nBuild & Deploy\nAutomatic CI/CD\nEnvironment Variables\nBuild Logs\nRemote Cache\nMonorepo Support\nWebhook Triggers\nCustom Environments\n1 environment\n12 environments\nStandard machines\n$0.014 per minute\nCustom\nEnhanced machines\n$0.028 per minute\nCustom\nTurbo machines\n$0.105 per minute\nCustom\nElastic machines\n$0.0035 per CPU minute\nCustom\nUnlimited Deployments\nEnvironment Variables\nInstant Rollback\nMulti-tenant support\nSkew Protection\nRolling Releases\n1 project included\nCustom\nPreview Deployment Suffix\n$100 per month\nDeveloper seat\n1\n$20 per month\nCustom\nViewer seat\nUnlimited\nCustom\nBilling seat\n1\nCustom\nComments\nLayout Shift Tool\nDraft Mode\nProductivity Integrations\nPreviewers\nUnlimited\nUnlimited\nAccessibility Audit\nFlags Explorer\n150 overrides / month included\n150 overrides / month included\nthen $250 for unlimited overrides\n150 overrides / month included\nthen $250 for unlimited overrides\n10K requests / month included\n$0.03 per 1K requests\nCustom\nObservability\nAdd-on\n$1.20 per 1M events\nCustom\nExtended retention\n30 days\n30 days\nAdvanced metrics\nQuery engine\nAlerts\nAdd-on\n$10 per month\nReporting windows\nAdditional 12 months (24 total)\n24 months\nUTM Parameters\nAccess & Deployment Security\nGitHub\nGitLab\nBitbucket\nMulti-Factor Authentication (MFA)\nRole-Based Access Control\nTeam level\nTeam & project level\nAudit Logs\nSAML Single Sign-On (SSO)\n$300 / month\nDirectory Sync (SCIM)\nCompliance\nSOC 2 Type 2\nPCI DSS\nISO 27001\nEU-U.S. DPF\nHIPAA BAA\n$350 / month\nCustom\nTISAX\nCustom Security Questionnaire\nFrequently asked questions\nWhich Vercel plan is right for me?\nOur Hobby plan is for personal, non-commercial use. Pro is designed for professional developers, freelancers, and businesses who need enhanced features and team collaboration. Enterprise is for teams seeking greater performance, collaboration, and security. Contact our sales team to learn more.\nDo you offer custom invoicing?\nYes, we offer custom invoicing for Enterprise customers. Contact our sales team to learn more.\nWhat are the limits for each plan?\nOur limits are listed here. Pro plans have a $20 included credit to use across resources. Finally, check out our Fair Use Policy.\nI went over my included credit. What can I do?\nWe are glad you are growing with Vercel! You can continue to self serve or contact us to discuss your requirements and we can customize a plan for your team.\nCan I buy additional usage?\nYes! On top of your included credit on Pro, you can pay as you go, uncapped. If you have a free Hobby account, you are limited to the usage caps and cannot purchase additional usage. Read more details in our documentation.\nI have a Hobby account, how do I upgrade to a paid plan?\nThanks for continuing to use Vercel! You can upgrade to Pro directly in the Vercel dashboard.\nIs there a limit to how many teams I can have?\nNo, there is not a limit.\nHow does Vercel calculate usage?\nLearn more about usage in our documentation.\nI want to transfer a domain name to Vercel. Is there a fee?\nPotentially. Transfer fees are dependent on the TLD and the domain renewal fee. The domain-transfer workflow will alert you of fees before initiating transfer.\nDo cached responses affect usage?\nCaching responses can reduce the usage of Vercel Functions. If the function response is cached, it will not run and incur a Function invocation or any GB/hrs of duration. Any request made to Vercel will incur an Edge Request. Requests to static assets incur the same Fast Data Transfer usage if the response is cached or uncached. Further, Vercel automatically adds etags to all responses to prevent end users from downloading the same asset many times. Our Edge Network automatically compresses responses to reduce your Fast Data Transfer.\nHow can I manage my spend?\nWe provide customers with tools to observe, control, and alert on their infrastructure spend with Spend Management.\nAll new teams have a default on-demand usage budget of $200 (which can be customized) and receive email, web, and SMS notifications as you reach that amount. When reaching 100%, you can optionally configure Vercel to automatically pause all projects with a hard limit.\nOver the past year, we've added features to the platform based on your feedback to help automatically prevent runaway spend, including recursion protection, improved function defaults, hard spend limits, Attack Challenge Mode, and more.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:08:36.020773Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 1888,
+      "quality_score": 0.84
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Vercel is a platform for building and scaling web applications.",
+      "evidence_ids": [
+        "ev_fa5adce85037"
+      ]
+    },
+    "category": {
+      "value": "Developer Infra and Data",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "SAML",
+      "evidence_ids": [
+        "ev_fa5adce85037"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_fa5adce85037"
+      ]
+    },
+    "api_surface": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_fa5adce85037"
+      ]
+    },
+    "api_breadth": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_fa5adce85037"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_fa5adce85037"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_fa5adce85037"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_fa5adce85037"
+      ]
+    }
+  },
+  "validation": {
+    "status": "UNSUPPORTED",
+    "score": 0.5,
+    "fields_checked": 8,
+    "fields_supported": 4,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "api_surface",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_surface' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "api_breadth",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_breadth' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": {
+    "verified_fields": [],
+    "corrections": {},
+    "screenshots": [],
+    "notes": ""
+  },
+  "pipeline_confidence": 0.5,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.50 below 0.90 threshold",
+      "Insufficient evidence (1 pieces, minimum 3)"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

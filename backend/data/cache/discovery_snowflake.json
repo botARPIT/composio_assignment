@@ -1,0 +1,1192 @@
+{
+  "app_name": "Snowflake",
+  "official_domain": "docs.snowflake.com",
+  "homepage": {
+    "url": "https://docs.snowflake.com",
+    "title": "Snowflake",
+    "confidence": 0.4,
+    "confidence_reason": [
+      "official_docs: +0.40"
+    ],
+    "is_official": true,
+    "discovered_from": "domain_probe"
+  },
+  "authentication": {
+    "primary": {
+      "url": "https:///user-guide/oauth-intro",
+      "title": "OAuth",
+      "confidence": 0.65,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "llms_txt_source: +0.05"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "alternatives": [
+      {
+        "url": "https://learn.microsoft.com/en-us/linkedin/shared/authentication/authorization-code-flow?context=linkedin%2Fcontext&tabs=HTTPS1",
+        "title": "Authorization Code Flow",
+        "confidence": 0.25,
+        "confidence_reason": [
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": false,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https://learn.microsoft.com/en-us/linkedin/shared/authentication/client-credentials-flow?context=linkedin%2Fcontext&tabs=HTTPS1",
+        "title": "Client Credentials Flow",
+        "confidence": 0.25,
+        "confidence_reason": [
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": false,
+        "discovered_from": "llms_txt"
+      }
+    ]
+  },
+  "api_reference": {
+    "primary": {
+      "url": "https://docs.snowflake.com/en/api-reference.md",
+      "title": "",
+      "confidence": 0.75,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "canonical_doc: +0.10",
+        "llms_txt_source: +0.05"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "alternatives": [
+      {
+        "url": "https://docs.snowflake.com/en/reference.md",
+        "title": "",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https://developer-guide/snowflake-rest-api/reference",
+        "title": "API Reference",
+        "confidence": 0.35,
+        "confidence_reason": [
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": false,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https://api.developers.snowflake.com",
+        "title": "SQL API Playground",
+        "confidence": 0.35,
+        "confidence_reason": [
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": false,
+        "discovered_from": "llms_txt"
+      }
+    ]
+  },
+  "pricing": {
+    "primary": null,
+    "alternatives": []
+  },
+  "mcp": {
+    "primary": null,
+    "alternatives": []
+  },
+  "developer_portal": {
+    "primary": {
+      "url": "https://docs.snowflake.com/en/appendices.md",
+      "title": "",
+      "confidence": 0.65,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "llms_txt_source: +0.05"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "alternatives": [
+      {
+        "url": "https://docs.snowflake.com/en/sql-reference-functions.md",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https://docs.snowflake.com/en/getting-started-for-users.md",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https://docs.snowflake.com/en/concepts-for-administrators.md",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      }
+    ]
+  },
+  "sdk": null,
+  "webhooks": null,
+  "llms_txt": {
+    "url": "https://docs.snowflake.com/llms-full.txt",
+    "title": "llms.txt index",
+    "confidence": 1.0,
+    "confidence_reason": [
+      "llms_txt_source: +0.05",
+      "official_docs: +0.40",
+      "canonical_doc: +0.10"
+    ],
+    "is_official": true,
+    "discovered_from": "llms_txt"
+  },
+  "inventory": {
+    "app_name": "Snowflake",
+    "official_domain": "docs.snowflake.com",
+    "items": [
+      {
+        "url": "https://docs.snowflake.com",
+        "page_type": "homepage",
+        "title": "Snowflake",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.snowflake.com/en/api-reference.md",
+        "page_type": "api_reference",
+        "title": "",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///developer-guide/golang/go-driver",
+        "page_type": "developer_portal",
+        "title": "Developer Guide",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///developer-guide/jdbc/jdbc",
+        "page_type": "developer_portal",
+        "title": "Developer Guide",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///developer-guide/jdbc/jdbc-api",
+        "page_type": "developer_portal",
+        "title": "JDBC API Support Reference",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///developer-guide/dotnet/dotnet-driver",
+        "page_type": "developer_portal",
+        "title": "Developer Guide",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///developer-guide/node-js/nodejs-driver",
+        "page_type": "developer_portal",
+        "title": "Developer Guide",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///developer-guide/odbc/odbc",
+        "page_type": "developer_portal",
+        "title": "Developer Guide",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///developer-guide/odbc/odbc-api",
+        "page_type": "developer_portal",
+        "title": "ODBC Driver API Support Reference",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///developer-guide/php-pdo/php-pdo-driver",
+        "page_type": "developer_portal",
+        "title": "Developer Guide",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///developer-guide/python-connector/python-connector",
+        "page_type": "developer_portal",
+        "title": "Developer Guide",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///developer-guide/python-connector/python-connector-api",
+        "page_type": "developer_portal",
+        "title": "API Reference",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///developer-guide/snowflake-python-api/snowflake-python-overview",
+        "page_type": "developer_portal",
+        "title": "Developer Guide",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-guide/snowflake-python-api/reference/latest/index",
+        "page_type": "api_reference",
+        "title": "API Reference",
+        "confidence": 0.35,
+        "confidence_reason": [
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": false
+      },
+      {
+        "url": "https:///developer-guide/snowflake-rest-api/snowflake-rest-api",
+        "page_type": "developer_portal",
+        "title": "Developer Guide",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-guide/snowflake-rest-api/reference",
+        "page_type": "api_reference",
+        "title": "API Reference",
+        "confidence": 0.35,
+        "confidence_reason": [
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": false
+      },
+      {
+        "url": "https:///developer-guide/sql-api/index",
+        "page_type": "developer_portal",
+        "title": "Developer Guide",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///developer-guide/sql-api/reference",
+        "page_type": "api_reference",
+        "title": "API Reference",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://api.developers.snowflake.com",
+        "page_type": "api_reference",
+        "title": "SQL API Playground",
+        "confidence": 0.35,
+        "confidence_reason": [
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": false
+      },
+      {
+        "url": "https:///developer-guide/udf/udf-overview",
+        "page_type": "developer_portal",
+        "title": "Developer Guide",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///developer-guide/snowpark/scala/index",
+        "page_type": "developer_portal",
+        "title": "Developer Guide",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-guide/snowpark/reference/scala/com/snowflake/snowpark/index.html",
+        "page_type": "api_reference",
+        "title": "API Reference",
+        "confidence": 0.35,
+        "confidence_reason": [
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": false
+      },
+      {
+        "url": "https:///developer-guide/snowpark/java/index",
+        "page_type": "developer_portal",
+        "title": "Developer Guide",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-guide/snowpark/reference/java/index.html",
+        "page_type": "api_reference",
+        "title": "API Reference",
+        "confidence": 0.35,
+        "confidence_reason": [
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": false
+      },
+      {
+        "url": "https:///developer-guide/snowpark/python/index",
+        "page_type": "developer_portal",
+        "title": "Developer Guide",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///developer-guide/snowpark/reference/python/latest/index.html",
+        "page_type": "api_reference",
+        "title": "API Reference",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///developer-guide/snowflake-ml/overview",
+        "page_type": "developer_portal",
+        "title": "Developer Guide",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///developer-guide/snowpark-ml/reference/latest/index.html",
+        "page_type": "api_reference",
+        "title": "API Reference",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///developer-guide/stored-procedure/stored-procedures-overview",
+        "page_type": "developer_portal",
+        "title": "Developer Guide",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///developer-guide/stored-procedure/stored-procedures-api",
+        "page_type": "developer_portal",
+        "title": "API Reference",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.snowflake.com/en/appendices.md",
+        "page_type": "developer_portal",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.snowflake.com/en/sql-reference-functions.md",
+        "page_type": "developer_portal",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.snowflake.com/en/getting-started-for-users.md",
+        "page_type": "developer_portal",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.snowflake.com/en/concepts-for-administrators.md",
+        "page_type": "developer_portal",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.snowflake.com/en/user-guide-manage.md",
+        "page_type": "developer_portal",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.snowflake.com/en/user-guide-admin.md",
+        "page_type": "developer_portal",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.snowflake.com/user-guide/contacting-support",
+        "page_type": "developer_portal",
+        "title": "Snowflake Support",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.snowflake.com/en/reference.md",
+        "page_type": "api_reference",
+        "title": "",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///developer-guide/snowflake-scripting/index",
+        "page_type": "developer_portal",
+        "title": "Snowflake Scripting",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///user-guide/oauth-intro",
+        "page_type": "authentication",
+        "title": "OAuth",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.snowflake.com/en/data-types.md",
+        "page_type": "developer_portal",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.snowflake.com/en/sql-reference-snowflake-scripting.md",
+        "page_type": "developer_portal",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.snowflake.com/en/sql-reference-classes.md",
+        "page_type": "developer_portal",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.snowflake.com/en/sql-reference-commands.md",
+        "page_type": "developer_portal",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.snowflake.com/en/sql-reference-data-types.md",
+        "page_type": "developer_portal",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.snowflake.com/en/sql-reference-stored-procedures.md",
+        "page_type": "developer_portal",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///developer-guide/logging-tracing/event-table-setting-up",
+        "page_type": "developer_portal",
+        "title": "Default event table",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.snowflake.com/en/other-resources.md",
+        "page_type": "developer_portal",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.snowflake.com/en/learn-tutorials.md",
+        "page_type": "developer_portal",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.snowflake.com/en/index.md",
+        "page_type": "developer_portal",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///sql-reference/references",
+        "page_type": "api_reference",
+        "title": "References",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.snowflake.com/en/user-guide/data-integration/openflow/processors/abortqueryjob.md",
+        "page_type": "developer_portal",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.snowflake.com/en/user-guide/data-integration/openflow/about.md",
+        "page_type": "developer_portal",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://nifi.apache.org/docs/nifi-docs/html/administration-guide.html",
+        "page_type": "developer_portal",
+        "title": "Encrypted Passwords in Configuration Files",
+        "confidence": 0.25,
+        "confidence_reason": [
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": false
+      },
+      {
+        "url": "https:///developer-guide/snowpark-container-services/overview",
+        "page_type": "developer_portal",
+        "title": "SPCS session tokens",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///developer-guide/snowpark-container-services/working-with-compute-pool",
+        "page_type": "developer_portal",
+        "title": "compute pool",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.snowflake.com/en/user-guide/data-integration/openflow/about-spcs.md",
+        "page_type": "developer_portal",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https:///developer-guide/external-network-access/external-network-access-overview",
+        "page_type": "developer_portal",
+        "title": "External access integration",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.snowflake.com/en/user-guide/data-integration/openflow/connectors/amazon-ads/about.md",
+        "page_type": "developer_portal",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://advertising.amazon.com/API/docs/en-us/reference/concepts/rate-limiting",
+        "page_type": "api_reference",
+        "title": "rate limit",
+        "confidence": 0.35,
+        "confidence_reason": [
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": false
+      },
+      {
+        "url": "https://docs.snowflake.com/en/user-guide/data-integration/openflow/connectors/box/about.md",
+        "page_type": "developer_portal",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.snowflake.com/en/user-guide/data-integration/openflow/connectors/google-ads/about.md",
+        "page_type": "developer_portal",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://cloud.google.com/endpoints/docs/openapi/enable-api",
+        "page_type": "api_reference",
+        "title": "Google Ads API",
+        "confidence": 0.35,
+        "confidence_reason": [
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": false
+      },
+      {
+        "url": "https://developers.google.com/google-ads/api/fields/v17/metrics",
+        "page_type": "api_reference",
+        "title": "metrics",
+        "confidence": 0.35,
+        "confidence_reason": [
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": false
+      },
+      {
+        "url": "https://developers.google.com/google-ads/api/docs/access-levels",
+        "page_type": "api_reference",
+        "title": "Google Ads API limits",
+        "confidence": 0.35,
+        "confidence_reason": [
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": false
+      },
+      {
+        "url": "https://docs.snowflake.com/en/user-guide/data-integration/openflow/connectors/google-drive/about.md",
+        "page_type": "developer_portal",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.snowflake.com/en/user-guide/data-integration/openflow/connectors/google-sheets/about.md",
+        "page_type": "developer_portal",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.snowflake.com/en/user-guide/data-integration/openflow/connectors/hubspot/about.md",
+        "page_type": "developer_portal",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.snowflake.com/en/user-guide/data-integration/openflow/connectors/jira-cloud/about.md",
+        "page_type": "developer_portal",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro",
+        "page_type": "developer_portal",
+        "title": "Jira Cloud REST API",
+        "confidence": 0.25,
+        "confidence_reason": [
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": false
+      },
+      {
+        "url": "https://developer.atlassian.com/cloud/jira/software/rest/intro",
+        "page_type": "developer_portal",
+        "title": "Jira Agile REST API",
+        "confidence": 0.25,
+        "confidence_reason": [
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": false
+      },
+      {
+        "url": "https://docs.snowflake.com/en/user-guide/data-integration/openflow/connectors/linkedin-ads/about.md",
+        "page_type": "developer_portal",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://learn.microsoft.com/en-us/linkedin/shared/authentication/authorization-code-flow?context=linkedin%2Fcontext&tabs=HTTPS1",
+        "page_type": "authentication",
+        "title": "Authorization Code Flow",
+        "confidence": 0.25,
+        "confidence_reason": [
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": false
+      },
+      {
+        "url": "https://learn.microsoft.com/en-us/linkedin/shared/authentication/client-credentials-flow?context=linkedin%2Fcontext&tabs=HTTPS1",
+        "page_type": "authentication",
+        "title": "Client Credentials Flow",
+        "confidence": 0.25,
+        "confidence_reason": [
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": false
+      },
+      {
+        "url": "https://docs.snowflake.com/en/user-guide/data-integration/openflow/connectors/meta-ads/about.md",
+        "page_type": "developer_portal",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developers.facebook.com/docs/marketing-api/insights",
+        "page_type": "developer_portal",
+        "title": "Meta Ads Insights API",
+        "confidence": 0.25,
+        "confidence_reason": [
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": false
+      }
+    ],
+    "stats": {
+      "queries": 3,
+      "urls_discovered": 76,
+      "official_urls": 61,
+      "non_official_filtered": 15,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 4
+    }
+  },
+  "stats": {
+    "queries": 3,
+    "urls_discovered": 76,
+    "official_urls": 61,
+    "non_official_filtered": 15,
+    "blog_community_filtered": 0,
+    "third_party_sdk_filtered": 0,
+    "duplicates_removed": 0,
+    "canonical_selected": 4
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "app": {
+    "id": 65,
+    "name": "Supabase",
+    "website": "supabase.com/docs",
+    "category_hint": "Developer Infra and Data"
+  },
+  "documentation_map": {
+    "app_name": "Supabase",
+    "official_domain": "supabase.com",
+    "homepage": {
+      "url": "https://supabase.com/docs",
+      "title": "Supabase",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://supabase.com/auth.md",
+        "title": "Supabase Auth",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://supabase.com/llms/api.txt",
+        "title": "Supabase Management API Reference",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://supabase.com/pricing.md",
+        "title": "Supabase Pricing",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://supabase.com/docs/guides/ai-tools/mcp",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://supabase.com/docs",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": {
+      "url": "https://supabase.com/llms.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "Supabase",
+      "official_domain": "supabase.com",
+      "items": [
+        {
+          "url": "https://supabase.com/docs",
+          "page_type": "homepage",
+          "title": "Supabase",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://supabase.com/llms/api.txt",
+          "page_type": "api_reference",
+          "title": "Supabase Management API Reference",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://supabase.com/auth.md",
+          "page_type": "authentication",
+          "title": "Supabase Auth",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://supabase.com/pricing.md",
+          "page_type": "pricing",
+          "title": "Supabase Pricing",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://supabase.com/docs",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://supabase.com/docs/guides/ai-tools/mcp",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 1,
+        "urls_discovered": 6,
+        "official_urls": 6,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 1,
+        "canonical_selected": 6
+      }
+    },
+    "stats": {
+      "queries": 1,
+      "urls_discovered": 6,
+      "official_urls": 6,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 1,
+      "canonical_selected": 6
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_5039d8ecc63a",
+      "source_type": "official_docs",
+      "url": "https://supabase.com/docs",
+      "domain": "supabase.com",
+      "page_title": "Supabase Docs",
+      "content": "Supabase Documentation\nLearn how to get up and running with Supabase through tutorials, APIs and platform resources.\nGetting Started\nSet up and connect a database in just a few minutes.\nProducts\n- Supabase provides a full Postgres database for every project with Realtime functionality, database backups, extensions, and more.Database \n- Add and manage email and password, passwordless, OAuth, and mobile logins to your project through a suite of identity providers and APIs.Auth \n- Store, organize, transform, and serve large files—fully integrated with your Postgres database with Row Level Security access policies.Storage \n- Listen to database changes, store and sync user states across clients, broadcast data to clients subscribed to a channel, and more.Realtime \n- Globally distributed, server-side functions to execute your code closest to your users for the lowest latency.Edge Functions \nMigrate to Supabase\nBring your existing data, auth and storage to Supabase following our migration guides.\nExplore more resources about /guides/resourcesExplore more resources\nAdditional resources\n- Develop with Supabase AI-first using plugins, MCP, and skills.AI tools \n- Learn more about the tools and services powering Supabase.Platform guides \n- Use the CLI to develop, manage and deploy your projects.Supabase CLI \n- Manage your Supabase projects and organizations.Management API \n- Explore a variety of integrations from Supabase partners.Integrations \n- A collection of pre-built Supabase components to speed up your project.Supabase UI \n- Our troubleshooting guide for solutions to common Supabase issues.Troubleshooting \nSelf-Hosting\nGet started with self-hosting Supabase.\nMore on Self-Hosting about /guides/self-hostingMore on Self-Hosting",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:09:03.220841Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 437,
+      "quality_score": 0.56
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Supabase provides a full Postgres database with Realtime functionality and various APIs.",
+      "evidence_ids": [
+        "ev_5039d8ecc63a"
+      ]
+    },
+    "category": {
+      "value": "Developer Infra and Data",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "OAuth, email and password, passwordless",
+      "evidence_ids": [
+        "ev_5039d8ecc63a"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_5039d8ecc63a"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API",
+      "evidence_ids": [
+        "ev_5039d8ecc63a"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_5039d8ecc63a"
+      ]
+    },
+    "mcp": {
+      "value": "Official MCP",
+      "evidence_ids": [
+        "ev_5039d8ecc63a"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_5039d8ecc63a"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_5039d8ecc63a"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.88,
+    "fields_checked": 8,
+    "fields_supported": 7,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.88,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.88 below 0.90 threshold",
+      "Insufficient evidence (1 pieces, minimum 3)"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

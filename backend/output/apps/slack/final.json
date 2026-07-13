@@ -1,0 +1,775 @@
+{
+  "app": {
+    "id": 21,
+    "name": "Slack",
+    "website": "slack.com",
+    "category_hint": "Communications and Messaging"
+  },
+  "documentation_map": {
+    "app_name": "Slack",
+    "official_domain": "slack.com",
+    "homepage": {
+      "url": "https://slack.com",
+      "title": "Slack",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://slack.com/oauth",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://slack.com/api/reference",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://slack.com/pricing",
+        "title": "Slack Pricing",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://slack.com/enterprise",
+          "title": "Slack Enterprise",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://slack.com/features/enterprise-search",
+          "title": "Enterprise Search",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": null,
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://slack.com/intl/en-in/help/categories/360000049043",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": {
+      "url": "https://slack.com/llms.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "Slack",
+      "official_domain": "slack.com",
+      "items": [
+        {
+          "url": "https://slack.com",
+          "page_type": "homepage",
+          "title": "Slack",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://slack.com/pricing",
+          "page_type": "pricing",
+          "title": "Slack Pricing",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://slack.com/enterprise",
+          "page_type": "pricing",
+          "title": "Slack Enterprise",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://slack.com/features/enterprise-search",
+          "page_type": "pricing",
+          "title": "Enterprise Search",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://slack.com/oauth",
+          "page_type": "authentication",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://slack.com/api/reference",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://slack.com/intl/en-in/help/categories/360000049043",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 2,
+        "urls_discovered": 7,
+        "official_urls": 7,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 5
+      }
+    },
+    "stats": {
+      "queries": 2,
+      "urls_discovered": 7,
+      "official_urls": 7,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 5
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_1d4e95c970ef",
+      "source_type": "llms_txt",
+      "url": "https://slack.com/llms.txt",
+      "domain": "slack.com",
+      "page_title": "llms.txt index",
+      "content": "\\- \\[Email, meet Slack. Slack, email.\\](https://slack.com/blog/productivity/email-meet-slack-slack-email): Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done.\n \\- \\[Collaboration\\](https://slack.com/blog/collaboration): Improving the way teams work together\n \\- \\[Get more from Slack on mobile\\](https://slack.com/blog/productivity/get-more-from-slack-on-mobile): Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done.\n \\- \\[The new Amazon Chime Meetings App for Slack is here\\](https://slack.com/blog/collaboration/new-amazon-chime-meetings-app-for-slack): Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done.\n \\- \\[An easier way to use JIRA with Slack\\](https://slack.com/blog/productivity/an-easier-way-to-use-jira-with-slack): Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done.\n \\- \\[Bring outsiders into your team’s workspace with guest access and shared channels\\](https://slack.com/blog/collaboration/how-to-bring-outsiders-into-your-teams-workspace): Managing freelancers and other external partners in Slack\n \\- \\[10 must-haves for successful team collaboration\\](https://slack.com/blog/collaboration/10-tips-for-successful-team-collaboration): Use these 10 strategies to improve your team’s transparency, flexibility and productivity.\n \\- \\[What Are Standard Operating Procedure Templates?\\](https://slack.com/blog/productivity/standard-operating-procedure-templates-why-theyre-important-and-how-to-create-one): Learn what standard operating procedure templates are, why they matter, and how to use Slack tools to create SOPs that improve organizational efficiency.\n \\- \\[How to Use an AI Scheduling Assistant to Organize Your Week\\](https://slack.com/blog/productivity/simplify-your-days-with-ai-scheduling-assistant): Streamline your schedule with an AI scheduling assistant. Discover how an AI assistant can simplify your tasks efficiently.\n \\- \\[What Is a Knowledge Base? How to Create One Your Team Will Actually Use\\](https://slack.com/blog/collaboration/what-is-knowledge-base): What is a knowledge base? Discover best practices and strategies to enhance team collaboration and customer support.\n \\- \\[Top Team Collaboration Tools for 2026\\](https://slack.com/blog/collaboration/best-collaboration-tools): Explore the best team collaboration tools for 2026. Compare features, boost productivity, and see how Slack connects your workplace.\n \\- \\[Neat features that maximize Slack\\](https://slack.com/blog/productivity/slick-features-and-capabilities-you-didnt-know-about-in-slack): Oft-enjoyed, perpetually useful shortcuts and customizations\n \\- \\[When will email die and what will replace it?\\](https://slack.com/blog/collaboration/what-will-replace-email): Business needs are changing, especially as employers work to provide a stronger culture for remote and hybrid teams\n \\- \\[Flowcharts 101: A Quick Guide\\](https://slack.com/blog/productivity/flowcharts-101-a-quick-guide): Learn how to create visually appealing flowcharts and boost your team’s productivity with easy-to-use flowchart integrations in Slack.\n \\- \\[What to post where in Slack\\](https://slack.com/blog/collaboration/what-to-post-where-in-slack): Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done.\n \\- \\[How to Document Workflows: Best Practices and Examples\\](https://slack.com/blog/productivity/workflow-documentation-what-it-is-how-to-create-it-and-why-it-matters): Learn how to document workflows with clear steps, best practices, and real-world examples to improve efficiency, consistency, and collaboration.\n \\- \\[Setting up Slack for small teams\\](https://slack.com/blog/collaboration/setting-up-slack-for-small-teams): Matt Haughey’s tips for organizing your group to get more done\n \\- \\[What Is Synchronous Communication: A Complete Guide\\](https://slack.com/blog/collaboration/how-synchronous-communication-boosts-productivity): Learn what synchronous communication is, its pros and cons, and how Slack enables real-time collaboration for faster, clearer team decisions.\n \\- \\[10 Creative Ways to Boost Employee Morale\\](https://slack.com/blog/collaboration/methods-boosting-employee-morale): Boost employee morale with 15 proven strategies for recognition, work-life balance, leadership, and wellness. Improve engagement and productivity today.\n \\- \\[Slack Hack: All the ways to update your Slack status\\](https://slack.com/blog/productivity/set-your-status-in-slack): Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done.\n \\- \\[Beyond chat: 10 smart ways to work in Slack\\](https://slack.com/blog/collaboration/beyond-chat-10-smart-ways-to-work-in-slack): Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done.\n \\- \\[Salesforce completes acquisition of Slack\\](https://slack.com/blog/news/salesforce-completes-acquisition-of-slack): Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done.\n \\- \\[Collaborate with kindness: Consider these etiquette tips in Slack\\](https://slack.com/blog/collaboration/etiquette-tips-in-slack): Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done.\n \\- \\[Designing and formatting messages in Slack\\](https://slack.com/blog/collaboration/designing-and-formatting-messages-in-slack): Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done.\n \\- \\[How to Use Robert’s Rules of Order for Meetings\\](https://slack.com/blog/collaboration/roberts-rules-more-effective-meetings): Learn how Robert’s Rules of Order for meetings can help you run structured, fair, and productive meetings for boards, cross-functional teams, and more.\n \\- \\[6 Types of Team Meetings You Need (And 4 You Don’t)\\](https://slack.com/blog/productivity/team-meetings-you-need-and-dont-need): Learn how to make your next team meeting collaborative, efficient, and productive.\n \\- \\[New emoji pack to help with your remote work balance\\](https://slack.com/blog/collaboration/new-emoji-pack-to-help-with-your-remote-work-balance): Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done.\n \\- \\[Salesforce updates Slack pricing\\](https://slack.com/blog/news/june-2025-pricing-and-packaging-announcement): Slack has evolved into a unified work OS and conversational interface for all your enterprise apps, data, and agents.\n \\- \\[How to write corporate meeting minutes: Best practices and examples\\](https://slack.com/blog/productivity/how-to-write-corporate-meeting-minutes): Explore our comprehensive guide to corporate meeting minutes, including easy-to-use templates for legal compliance and efficient meeting documentation.\n \\- \\[Coordinating pull requests and code reviews in Slack\\](https://slack.com/blog/collaboration/coordinating-pull-requests-and-code-reviews-in-slack): Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done.\n \\- \\[Some of the ways we use emoji at Slack\\](https://slack.com/blog/productivity/some-of-the-ways-we-use-emoji-at-slack): Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done.\n \\- \\[Introducing channel search: an easier way to find channels in Slack\\](https://slack.com/blog/productivity/introducing-channel-search-for-slack): Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done.\n \\- \\[Top 10 Strategies for Increasing Productivity at Work\\](https://slack.com/blog/collaboration/top-strategies-improving-business-productivity): Ready to supercharge your team’s output? Discover actionable strategies for increasing productivity that cut through busywork and unlock a more focused, efficient workflow.\n \\- \\[In case you missed it: save drafts, send emails to Slack and work in dark mode\\](https://slack.com/blog/productivity/in-case-you-missed-it-drafts-email-dark-mode): Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done.\n \\- \\[Agentforce 2.0 in Slack: AI Conversational Agent for Team Collaboration\\](https://slack.com/blog/news/limitless-workforce-with-agentforce-in-slack): Discover Agentforce 2.0 in Slack. Enable customizable AI agents into your team’s conversations and workflows. Create new agents fast with pre-built skills for CRM, analytics, and more specific recurrent tasks within Slack for your teams.\n \\- \\[Build a self-serve IT help desk in Slack\\](https://slack.com/blog/productivity/build-a-self-serve-it-help-desk-in-slack): Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done.\n \\- \\[10 team-building activities to strengthen your culture\\](https://slack.com/blog/collaboration/10-team-building-activities-strengthen-culture): Embrace the digital-first culture with thoughtful, creative activities that build team chemistry.\n \\- \\[Book meetings quickly without leaving Slack\\](https://slack.com/blog/productivity/book-meetings-quickly-without-leaving-slack): Updated Google Calendar and Outlook Calendar apps for Slack will sort through guests’ schedules and suggest times on your behalf\n \\- \\[New Hide Person feature gives you more control over your interactions in Slack\\](https://slack.com/blog/news/new-hide-person-feature): With a focus on integrity and trust, we’re providing a new tool that helps customers foster a healthy and positive work environment.\n \\- \\[The 8 Best Document Collaboration Tools You Need for Productivity\\](https://slack.com/blog/collaboration/best-document-collaboration-tools): Discover the best document collaboration tools for 2025. Learn how to share, edit, and manage files seamlessly to boost team productivity and streamline workflows.\n \\- \\[Organograms 101: Everything you need to know about org charts\\](https://slack.com/blog/productivity/what-is-organogram): Learn the ins and outs of organograms — what they do, how they work, who can use them, and what benefits they offer.\n \\- \\[Conditional Branching Comes to Workflow Builder in Slack\\](https://slack.com/blog/news/conditional-branching-workflow-builder): Workflow Builder now includes conditional branching, allowing users to create complex, multi-branched automated workflows without a line of code.\n \\- \\[Spring cleaning: tips for tidying up your channels\\](https://slack.com/blog/productivity/spring-cleaning-tips-for-tidying-up-your-channels): Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done.\n \\- \\[Slack Essentials: Organize your work and conversations\\](https://slack.com/blog/collaboration/slack-essentials-organize-your-work-and-conversations): Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done.\n \\- \\[A Slack guide to taking time off\\](https://slack.com/blog/productivity/a-slack-guide-to-going-out-of-office): How to go offline, ready your team and return worry-free\n \\- \\[8 Effective Collaboration Strategies for Workplace Success\\](https://slack.com/blog/collaboration/5-tips-for-effective-collaboration-at-work): Discover eight proven strategies to boost team collaboration, improve communication, and build a stronger, more productive work environment.\n \\- \\[Org charts guide: definition, types, and how to create one for your business\\](https://slack.com/blog/collaboration/organizational-charts): Read our step-by-step guide to learn what an org chart is, the different types, and tips for making one.\n \\- \\[Agentforce Is Here: Turn AI Agents into Teammates, with Slack\\](https://slack.com/blog/news/turn-agents-into-teammates-with-slack): Learn how to unlock agentic productivity with Agentforce and Slack.\n \\- \\[What Is Process Documentation, and Why Do I Need It?\\](https://slack.com/blog/collaboration/process-documentation): How to boost companywide accountability and performance by updating your business process-documentation procedures.\n \\- \\[Shrinking the haystack: how to narrow search results in Slack\\](https://slack.com/blog/productivity/shrinking-the-haystack-how-to-narrow-search-results-in-slack): Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done.\n \\- \\[Find Everything: Introducing Enterprise Search in Slack\\](https://slack.com/blog/news/slack-enterprise-search-uncover-knowledge-work-smarter): Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done.\n \\- \\[AWS Chatbot: Bring AWS into your Slack channel\\](https://slack.com/blog/collaboration/aws-chatbot-bring-aws-into-your-slack-channel): This new tool is a boon for your company’s operations\n \\- \\[A new way to share messages across channels — using emoji\\](https://slack.com/blog/productivity/a-new-way-to-share-messages-across-channels-using-emoji): Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done.\n \\- \\[From Huddle to Action: How to Take Effective Meeting Notes\\](https://slack.com/blog/productivity/how-to-take-effective-meeting-notes): Learn how to take meeting notes efficiently. Capture key details, organize notes, and turn them into actionable tasks with Slack.\n \\- \\[The Kanban System Simplified: Tips for Efficiency\\](https://slack.com/blog/productivity/the-kanban-system-simplified-tips-for-efficiency): Keeping your team organized and on track is a key to business success. Learn how Kanban-style project management can help your organization become more efficient.\n \\- \\[Say hello, new logo.\\](https://slack.com/blog/news/say-hello-new-logo): Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done.\n \\- \\[Enterprise-grade security is woven into every aspect of how users collaborate and get work done in Slack.\\](https://slack.com/blog/news/secure-your-slack-data): Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done.\n \\- \\[Slack AI at Dreamforce: Introducing Native AI for Teams\\](https://slack.com/blog/news/dreamforce-slack-native-ai): Dreamforce news: Slack introduces native AI and agent apps, unlocking a smarter, new way of working with Slack AI.\n \\- \\[AI team-building with the AI persona quiz\\](https://slack.com/blog/transformation/ai-team-building-with-the-ai-personas-quiz): Slack’s Workforce Lab uncovers the 5 persona types that are defining the AI-driven workplace—and how leaders can make AI work better for every worker\n \\- \\[The Best Video Conferencing Platforms of 2025\\](https://slack.com/blog/collaboration/video-conferencing-platforms): Discover the best video conferencing platforms for remote and hybrid teams in 2025. Compare top tools, key features, and innovations to enhance collaboration.\n \\- \\[Keep calm and automate: 3 Slack workflows your team can use now\\](https://slack.com/blog/productivity/workflow-builder-tools-automation-examples): Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done.\n \\- \\[How to Create a Meeting Agenda: Your Complete Guide\\](https://slack.com/blog/productivity/effective-team-meeting-agendas): Learn how to create effective team meeting agendas with step-by-step guidance, best practices, and templates. Boost productivity and streamline collaboration with ease.\n \\- \\[Types of electronic communication in business\\](https://slack.com/blog/collaboration/electronic-communication-in-business): Electronic communication plays a pivotal role in the success of a business. Learn the different types and best practices for each.\n \\- \\[Business communication: Effective Techniques for Workplace Success\\](https://slack.com/blog/collaboration/effective-business-communication-techniques): Learn how to adapt messages, practice active listening, and improve teamwork with essential business communication techniques for workplace success.\n \\- \\[How to pick the most effective communication channels at work\\](https://slack.com/blog/collaboration/pick-communication-channels-at-work): Have important messages to convey at work but not sure which communication channels to use? Use these steps to identify the best choice.\n \\- \\[Choosing an AI Meeting Note-Taker: Features and Tips for Teams\\](https://slack.com/blog/productivity/ai-meeting-note-taker-how-it-works-and-features-to-look-for): An AI meeting note-taker can help you capture and streamline your meetings. Discover how this innovative tool can revolutionize your meeting experience.\n \\- \\[How feeling left out at work can affect your job\\](https://slack.com/blog/collaboration/how-feeling-left-out-at-work-can-affect-your-job): Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done.\n \\- \\[Meet Channel Expert: Your Always-On Agent in Slack\\](https://slack.com/blog/news/channel-expert): Channel Expert gives each Slack channel a digital teammate that responds to FAQs, surfaces relevant information, and escalates to a human when needed.\n \\- \\[Best Shareable To-Do List Apps for Teams\\](https://slack.com/blog/productivity/a-guide-to-the-7-best-shareable-to-do-lists-for-teams): Discover the best shareable to-do list tools for team collaboration. Explore top apps, key features, and how Slack helps you work smarter and stay aligned.\n \\- \\[5 advantages of technology in your business strategy\\](https://slack.com/blog/collaboration/5-advantages-of-technology-business-strategy): The Covid-19 pandemic hastened organizations’ adoption of technology. Learn how technology as a business strategy can boost your bottom line.\n \\- \\[8 time management tips for productivity\\](https://slack.com/blog/collaboration/8-time-management-tips-for-productivity): Tips, tricks and new skills to improve your time management and help you be more productive.\n \\- \\[The difference between formal and informal meetings\\](https://slack.com/blog/collaboration/difference-between-formal-informal-meetings): Understanding best practices and which to use when can go a long way to making sure your meetings are highly efficient and productive.\n \\- \\[Slack huddles’ new jukebox hits just the right notes\\](https://slack.com/blog/collaboration/slack-huddles-jukebox-hits-right-notes): The new huddles jukebox provides a whimsical selection of hold music to keep you company as you wait for team members to join.\n \\- \\[How 42 keeps campuses, staff and students connected and collaborating\\](https://slack.com/blog/productivity/ecole-42): Students and staff at computer programming school 42 use Slack to communicate, collaborate and automate everyday tasks.\n \\- \\[The Best AI Tools for Time Management: Which One Is Right for You?\\](https://slack.com/blog/productivity/the-10-best-ai-tools-for-time-management): These intelligent tools use artificial intelligence to automate tasks, optimize schedules, and provide valuable insights into work patterns.\n \\- \\[The Best Document-Sharing Platforms in 2025\\](https://slack.com/blog/collaboration/best-document-sharing-apps): Discover the top document-sharing platforms for 2025, designed for secure, seamless collaboration. Compare key features, integrations, and best practices to enhance team productivity.\n \\- \\[Just for admins: Tips for managing external access to channels\\](https://slack.com/blog/collaboration/channels-admin-tips-external-access): Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done.\n \\- \\[Slack canvas is a new way to power up your intelligent productivity platform\\](https://slack.com/blog/news/meet-slack-canvas): With a focus on innovation and efficiency, we’re helping customers build a productivity platform with new knowledge curation capabilities\n \\- \\[Board Meeting Minutes Template and Best Practices\\](https://slack.com/blog/productivity/better-board-meeting-minutes): Learn how to effectively use a board meeting minutes template in tandem with Slack tools to boost accuracy, efficiency, and collaboration.\n \\- \\[How to Transform Your Meetings with Better Minutes\\](https://slack.com/blog/productivity/meeting-minutes-template): Host more effective meetings — virtually or in-person — with clear agendas, engagement strategies, and actionable follow-ups. Learn how to maximize productivity and streamline collaboration.\n \\- \\[Team Culture: How to Build a Positive Team Culture That Drives Success\\](https://slack.com/blog/collaboration/6-ways-build-great-team-culture): Discover practical strategies for building a strong team culture that enhances collaboration, boosts morale, and drives business success.\n \\- \\[Neatly organize your work life with custom sidebar sections in Slack\\](https://slack.com/blog/productivity/neatly-organize-your-work-life-with-custom-sidebar-sections-in-slack): Focus on the conversations that matter most by tailoring your sidebar to fit your needs\n \\- \\[5 new Workflow Builder templates for remote teams\\](https://slack.com/blog/productivity/workflow-builder-templates-remote-teams): Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done.\n \\- \\[Why nearly 80% of Fortune 100 companies rely on Slack Connect to build their digital HQ\\](https://slack.com/blog/transformation/fortune-100-rely-slack-connect-build-digital-hq): Nurture stronger relationships with customers and foster seamless communication with external partners.\n \\- \\[How Slack helps you onboard new employees\\](https://slack.com/blog/productivity/how-slack-helps-you-onboard-new-employees): Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done.\n \\- \\[How to Run Effective Meetings\\](https://slack.com/blog/productivity/run-effective-meetings): Host more effective meetings—virtual or in-person—with clear agendas, engagement strategies, and actionable follow-ups. Learn how to maximize productivity and streamline collaboration.\n \\- \\[15 Engaging Team Meeting Ideas for 2025\\](https://slack.com/blog/collaboration/engaging-team-meetings): Boost engagement, collaboration, and results with these creative team meeting ideas for in-office and remote teams.\n \\- \\[Security at Slack: How Slack Protects Your Data\\](https://slack.com/blog/collaboration/security-at-slack-how-slack-protects-your-data): Our number one value: Maintaining your trust. Learn how Slack keeps your organization safe and productive.\n \\- \\[Slack Essentials: Getting the most out of messaging\\](https://slack.com/blog/collaboration/slack-essentials-getting-the-most-out-of-messaging): Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done.\n \\- \\[Team Dynamics: How Trust and Leadership Build High-Performing Teams\\](https://slack.com/blog/collaboration/team-dynamics-high-performing-teams): Team dynamics shape how teams communicate, make decisions, and stay aligned. Learn key strategies to build stronger, more effective teams.\n \\- \\[11 Best AI Workflow Automation Tools for 2026\\](https://slack.com/blog/productivity/9-best-ai-automation-tools-to-automate-tasks-and-streamline-workflows): Explore the best AI workflow automation tools to save time and boost productivity. Compare features, functionality, and integrations with Slack.\n \\- \\[Assign and complete: How to run a triage channel\\](https://slack.com/blog/productivity/assign-and-complete-how-to-run-a-triage-channel): Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done.\n \\- \\[Your Guide to Employee Productivity Tracking Without Micromanaging\\](https://slack.com/blog/collaboration/productivity-tracking): Make the most of employee productivity tracking with the right tools, KPIs, and strategies—while respecting privacy and maintaining team trust.\n \\- \\[Break down walls with shared channels\\](https://slack.com/blog/collaboration/slack-shared-channels): Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done.\n \\- \\[Despite AI enthusiasm, Workforce Index reveals workers aren’t yet unlocking its benefits\\](https://slack.com/blog/news/the-workforce-index-june-2024): Using AI tools at work is associated with a host of positive outcomes, from improved productivity to higher employee satisfaction. And yet, two-thirds of workers have still not tried AI tools and 93% do not consider AI outputs completely trustworthy for work-related tasks.\n \\- \\[Master AI Note Taking: Revolutionize Your Workflow\\](https://slack.com/blog/productivity/ai-note-taking-everything-you-need-to-know): Elevate your productivity with AI note-taking. Explore how this technology can simplify your daily tasks.\n \\- \\[What Is AI Summarization? Benefits and Uses\\](https://slack.com/blog/productivity/ai-summarization-a-guide-to-conquering-information-overload): Learn how AI summarization tools streamline work, see use cases and best practices, and understand how Slack AI accurately and efficiently enhances productivity.\n \\- \\[Streamline your time with these 5 apps for Slack\\](https://slack.com/blog/productivity/streamline-your-time-with-these-5-apps-for-slack): Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done.\n \\- \\[Roadmap for the future of work\\](https://slack.com/blog/transformation/roadmap-for-the-future-of-work): With flexible principles, work will be easier, better, more productive and maybe even a little more joyful.\n \\- \\[Top 8 virtual meeting platforms to consider for your business in 2025\\](https://slack.com/blog/collaboration/best-virtual-meeting-platform): Boost your collaboration and team productivity with the best virtual meeting platforms. Discover staff picks, best practices, and tips for interactive team dynamics.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:59:08.582915Z",
+      "section_path": "",
+      "chunk_index": 5,
+      "token_count": 6801,
+      "quality_score": 0.9
+    },
+    {
+      "id": "ev_0ccbca6cb80a",
+      "source_type": "llms_txt",
+      "url": "https://slack.com/llms.txt",
+      "domain": "slack.com",
+      "page_title": "llms.txt index",
+      "content": "\\- \\[Slack Pricing\\](https://slack.com/pricing): Overview of available Slack pricing plans highlighting their features, costs, and differences.\n\\- \\[Slack Downloads\\](https://slack.com/downloads): Official downloads for Slack desktop and mobile apps across platforms.\n\\- \\[Slack Download for Windows\\](https://slack.com/downloads/windows): Official download for the Slack app on a Windows device.\n\\- \\[Slack Download for Mac\\](https://slack.com/downloads/mac): Official download for the Slack app on a Mac.\n\\- \\[Slack Download for Linux\\](https://slack.com/downloads/linux) : Official download for the Slack app on a device using the Linux operating system.\n\\- \\[Slack Enterprise\\](https://slack.com/enterprise): Enterprise-grade Slack with advanced security, compliance, and scalability.\n\\- \\[Slack Demo\\](https://slack.com/demo): Explore Slack through an interactive product demo that showcases key features like channels, huddles, and integrations without needing to sign up.\n\\- \\[Slack Work Operating System\\](https://slack.com/work-operating-system): Slack’s vision as the Work Operating System, unifying people, apps, and AI for productivity.\n\n\\## Slack Features\n\n\\- \\[Slack Channels\\](https://slack.com/features/channels): Organize conversations into channels for transparent and focused teamwork.\n\\- \\[Slack Team Messaging and Chat\\](https://slack.com/team-chat): Collaborate with your colleagues with team chat and messaging.\n\\- \\[Slack Huddles\\](https://slack.com/features/huddles): Lightweight audio and video calls for quick, informal discussions.\n\\- \\[Slack Clips\\](https://slack.com/features/clips): Record and share video or audio clips to communicate asynchronously.\n\\- \\[Slack Canvas\\](https://slack.com/features/canvas): Collaborative canvases for capturing knowledge, notes, and context inside Slack.\n\\- \\[Slack Task List\\](https://slack.com/features/task-list): Track and manage tasks directly in Slack with task lists.\n\\- \\[Workflow Automation\\](https://slack.com/features/workflow-automation): Automate routine work with Workflow Builder and integrations.\n\\- \\[Slack AI\\](https://slack.com/features/ai): Slack AI for smart recaps, summaries, and search across conversations.\n\\- \\[Enterprise Search\\](https://slack.com/features/enterprise-search): Enterprise Search to find information across people, messages, and files.\n\\- \\[Slack Templates\\](https://slack.com/templates): Pre-built templates to jumpstart workflows and use cases in Slack.\n\\- \\[Slack AI Agents\\](https://slack.com/ai-agents): AI agents in Slack to automate tasks and extend productivity.\n\\- \\[Slack Document Sharing\\](https://slack.com/document-sharing): Securely share, preview, and collaborate on documents in Slack.\n\\- \\[Slack CRM\\](https://slack.com/features/crm): Slack and Salesforce integrate to create a conversational CRM experience for teams.\n\\- \\[Slack Agentic Platform\\](https://slack.com/features/agentic-platform):Build, integrate, and deploy AI agents for work automation, collaboration, and enhanced productivity with Slack.\n\n\\## Slack Solutions",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:59:08.582076Z",
+      "section_path": "",
+      "chunk_index": 1,
+      "token_count": 762,
+      "quality_score": 0.8
+    },
+    {
+      "id": "ev_4230a3dcc6e3",
+      "source_type": "llms_txt",
+      "url": "https://slack.com/llms.txt",
+      "domain": "slack.com",
+      "page_title": "llms.txt index",
+      "content": "\\## Slack Resources\n\n\\- \\[Slack Help Center\\](https://slack.com/help): Slack Help Center with how-tos, troubleshooting, and admin guides.\n\\- \\[Slack Blog\\](https://slack.com/blog): Official Slack blog with product updates, tips, and customer stories.\n\\- \\[Slack vs Email\\](https://slack.com/why/slack-vs-email): Explains how Slack is more effective for collaboration compared to email.\n\\- \\[Why Use Slack\\](https://slack.com/resources/why-use-slack): Guides on why and how teams use Slack for productivity and collaboration.\n\\- \\[Slack Resources\\](https://slack.com/resources): Slack resources library with guides, webinars, and best practices.\n\\- \\[Slack Events\\](https://slack.com/events): Upcoming Slack events, webinars, and conferences for users and developers.\n\\- \\[What is slack and how does it work\\](https://slack.com/resources/why-use-slack/what-is-slack-and-how-does-it-work): What is Slack and how does it work: overview of the platform’s purpose and benefits.\n\\- \\[Launching AgentForce in slack\\](https://slack.com/resources/collections/launching-agentforce-in-slack): Collection on launching AgentForce in Slack: resources for getting started.\n\\- \\[Slack for new users\\](https://slack.com/resources/collections/slack-for-new-users): Collection for new users: guides to get up and running with Slack.\n\\- \\[What's New at Slack\\](https://slack.com/whats-new): Stay up to date with the latest Slack features and improvements.\n\\- \\[Slack Community\\](https://slack.com/community): Whether you’re a beginner, expert, developer or designer, everyone’s invited to join our international network of users for support in all endeavors work and Slack.\n\\- \\[Slack Marketplace\\](https://slack.com/marketplace): Browse apps and tools that integrate with the Slack platform.\n\\- \\[Slack Partners\\](https://slack.com/partners): Slack partners with the most innovative leaders in the industry to help teams achieve a better way to work.\n\\- \\[Slack Partner Offers\\](https://slack.com/partner-offers): Get discounts on products and tools designed to integrate with Slack and make your work life simpler and more productive.\n\n\\## Slackbot\n\n\\- \\[Slackbot, Personal AI agent for Work\\](https://slack.com/features/slackbot): Your personal AI agent right in the flow of work with Slackbot. Prepare for meetings, analyze reports, and uncover insights without ever leaving Slack.\n \\- \\[Introducing Slackbot, Your Context-Aware AI Agent for Work\\](https://slack.com/blog/news/slackbot-context-aware-ai-agent-for-work): Slackbot is your deeply personalized AI agent designed to help you work more productively. Learn more about how you can use Slackbot to help you move faster!\n \\- \\[Watch a demo of Slackbot, Your AI agent for work\\](https://slack.com/features/slackbot/demo-slackbot): See the Slackbot AI tool in action. Discover how Slackbot AI delivers deeply personalized responses powered by contextual intelligence, takes action in addition to providing answers and gets smarter with every interaction.\n \\- \\[Contact Sales for Slackbot\\](https://slack.com/features/slackbot/contact-sales): Speak with our sales experts to discover how Slackbot AI uses contextual intelligence to personalize responses and actions.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:59:08.582323Z",
+      "section_path": "",
+      "chunk_index": 3,
+      "token_count": 801,
+      "quality_score": 0.8
+    },
+    {
+      "id": "ev_90465d8d64b2",
+      "source_type": "pricing_page",
+      "url": "https://slack.com/pricing",
+      "domain": "slack.com",
+      "page_title": "Slack Pricing Plans: Find the Right Fit for Your Team | Slack",
+      "content": "| **Automation tools** |\n| Integrations with other apps<br>Choose from over 2,600 apps in the Slack App Directory — from Salesforce, Jira, Google Drive, ChatGPT, and more. | 10 | Included | Included | Included |\n| Deploy apps to Slack infrastructure<br>Deploy custom functions run on Slack's secure infrastructure at no extra cost. |  | Included | Included | Included |\n| Workflow Builder<br>Automate routine tasks and processes right in Slack, no coding required. |  | Included | Included | Included |\n| Conditional branching in Workflow Builder<br>Create workflows with conditional logic in Slack, no coding required. |  |  | Included | Included |\n| Custom workflow steps<br>Custom workflow steps let developers bring org-specific systems into workflows with Slack APIs. |  | Included | Included | Included |\n\n| **Security** |\n| Data encryption at rest and in transit<br>By default, Slack encrypts data at rest and in transit as part of our security controls. | Included | Included | Included | Included |\n| Two-factor authentication<br>Add extra security so you never have to worry about your password being compromised. | Included | Included | Included | Included |\n| Session duration<br>Require members to sign back in when they close Slack, or after a set time. | Included | Included | Included | Included |\n| Native device management<br>Enforce policies like blocking jailbroken devices or file downloads on mobile and desktop. | Included | Included | Included | Included |\n| Access logs<br>Access logs track sign-ins, dates, devices, and IPs to detect suspicious activity. |  | Included | Included | Included |\n| Single sign-on (SSO)<br>Sign in with your IDP of choice. Supports 12 SSO options including Okta, Google, and Azure. |  | OAuth with Google | SAML-based | Supports Multi-SAML |\n| Slack Enterprise Key Management<br>Slack EKM secures sensitive data with your own encryption keys and AWS KMS activity logs. |  |  |  | Add-on |\n| Integration with Enterprise Mobility Management<br>Control mobile data with Enterprise Mobility Management like VMware AirWatch or Ivanti MobileIron. |  |  |  | Included |\n| Anomaly Event Response<br>Defend against risks by automatically ending user sessions on anomalous events. |  |  |  | Included |",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:59:09.705233Z",
+      "section_path": "Terms & Conditions > Compare all features",
+      "chunk_index": 3,
+      "token_count": 561,
+      "quality_score": 0.76
+    },
+    {
+      "id": "ev_1ab0cbad8b03",
+      "source_type": "pricing_page",
+      "url": "https://slack.com/pricing",
+      "domain": "slack.com",
+      "page_title": "Slack Pricing Plans: Find the Right Fit for Your Team | Slack",
+      "content": "Slack CRM: Track deals, log calls, and manage contacts in Slack. Ask Slackbot to surface account details and draft follow-ups.\n\nIncludedUpon Request\n\nManage support emails\n\nSlack CRM: Turn support emails into cases and manage them in Slack channels. Slackbot summarizes issues and helps draft replies.\n\nIncludedUpon Request\n\nPrepare for meetings\n\nSlack CRM: Ask Slackbot to research accounts, draft emails, and keep customer records up to date.\n\nIncludedUpon Request\n\nAutomation\n\nIntegrations with other apps\n\nChoose from over 2,600 apps in the Slack App Directory — from Salesforce, Jira, Google Drive, ChatGPT, and more.\n\n10IncludedIncludedIncluded\n\nDeploy apps to Slack infrastructure\n\nDeploy custom functions run on Slack's secure infrastructure at no extra cost.\n\nIncludedIncludedIncluded\n\nWorkflow Builder\n\nAutomate routine tasks and processes right in Slack, no coding required.\n\nIncludedIncludedIncluded\n\nConditional branching in Workflow Builder\n\nCreate workflows with conditional logic in Slack, no coding required.\n\nIncludedIncluded\n\nCustom workflow steps\n\nCustom workflow steps let developers bring org-specific systems into workflows with Slack APIs.\n\nIncludedIncludedIncluded\n\nSecurity\n\nData encryption at rest and in transit\n\nBy default, Slack encrypts data at rest and in transit as part of our security controls.\n\nIncludedIncludedIncludedIncluded\n\nTwo-factor authentication\n\nAdd extra security so you never have to worry about your password being compromised.\n\nIncludedIncludedIncludedIncluded\n\nSession duration\n\nRequire members to sign back in when they close Slack, or after a set time.\n\nIncludedIncludedIncludedIncluded\n\nNative device management\n\nEnforce policies like blocking jailbroken devices or file downloads on mobile and desktop.\n\nIncludedIncludedIncludedIncluded\n\nAccess logs\n\nAccess logs track sign-ins, dates, devices, and IPs to detect suspicious activity.\n\nIncludedIncludedIncluded\n\nSingle sign-on (SSO)\n\nSign in with your IDP of choice. Supports 12 SSO options including Okta, Google, and Azure.\n\nOAuth with GoogleSAML-basedSupports Multi-SAML\n\nSlack Enterprise Key Management\n\nSlack EKM secures sensitive data with your own encryption keys and AWS KMS activity logs.\n\nAdd-on\n\nIntegration with Enterprise Mobility Management\n\nControl mobile data with Enterprise Mobility Management like VMware AirWatch or Ivanti MobileIron.\n\nIncluded\n\nAnomaly Event Response\n\nDefend against risks by automatically ending user sessions on anomalous events.\n\nIncluded\n\nCompliance\n\nData retention policies\n\nFree Slack deletes data after 1 year. Paid plans keep it for life by default, with adjustable settings.\n\nUp to 1 yearIncludedIncludedIncluded\n\nData residency\n\nFor global teams, choose the region where certain types of data at rest will be stored.\n\nIncludedIncluded\n\nData exports for all messages\n\nWorkspace owners and admins can export data all workspace data, including private channels and direct messages.\n\nIncludedIncluded\n\nData exports for all messages from a single user\n\nWorkspace owners and admins can export data from all conversations a single user has joined.\n\nIncluded\n\nNative data loss prevention\n\nScan external messages and files to prevent data loss or leaks.\n\nIncluded\n\nInformation barriers\n\nCreate info barriers between IDP groups to block certain DMs or huddles, avoiding conflicts of interest.\n\nIncluded\n\nLegal holds",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:59:09.705545Z",
+      "section_path": "Terms & Conditions > Compare all features",
+      "chunk_index": 7,
+      "token_count": 839,
+      "quality_score": 0.76
+    },
+    {
+      "id": "ev_f8af9856f936",
+      "source_type": "llms_txt",
+      "url": "https://slack.com/llms.txt",
+      "domain": "slack.com",
+      "page_title": "llms.txt index",
+      "content": "\\# Slack\n\n\\> Welcome, humans and bots alike, to Slack's official LLMs.txt file! Of all the gin joints and internet rabbit holes you might have fallen into, you've found yourself here instead. Life (and, we suppose, search engine bot crawling) is a process of continual discovery and re-evaluation given the things learned along the way. We hope this document is instructive, in its way, and that the following details be displayed in AI search engines when people search for terms related to Slack, its features, and the ways people use it. Please enjoy Slack responsibly.\n\n\\+\\+\\+\\+ ::::: LLLLL KKKKK\n \\+\\+\\+\\+\\+\\+ ::::::: LLLLL KKKKK\n \\+\\+\\+\\+\\+ ::::::: LLLLL KKKKK\n ::::::: LLLLL KKKKK\n \\+\\+\\+\\+\\+\\+\\+\\+\\+\\+\\+\\+ ::::::: :::: sSSSSSSSSs LLLLL aAAAAaa AAAAA ccccccc KKKKK KKKKK\n \\+\\+\\+\\+\\+\\+\\+\\+\\+\\+\\+\\+\\+\\+ ::::::: :::::: SSSSSSSSSSSSSs LLLLL aAAAAAAAAAAAAAA CCCCCCCCCCCc KKKKK KKKKK\n \\+\\+\\+\\+\\+\\+\\+\\+\\+\\+\\+\\+ ::::: ::::: SSSSSS SSSSs LLLLL aAAAAAAAAAAAAAAA cCCCCCCCCCCCCCC KKKKK KKKKK\n SSSSSs LLLLL aAAAAa AAAAAA CCCCC cCCCc KKKKKKKKKK\n ::::: ::::: \\+\\+\\+\\+\\+\\+\\+\\+\\+\\+\\+\\+\\+ sSSSSSSSSSs LLLLL aAAAA AAAAA CCCCC KKKKKKKKKK\n :::::: ::::::: \\+\\+\\+\\+\\+\\+\\+\\+\\+\\+\\+\\+\\+\\+\\+ sSSSSSs LLLLL aAAAAa aAAAAA CCCCCC cCCCc KKKKKkKKKKK\n :::: ::::::: \\+\\+\\+\\+\\+\\+\\+\\+\\+\\+\\+\\+\\+ SSSS SSSSSs LLLLL aAAAAAAAAAAAAAAA CCCCCcccccCCCCC KKKKK KKKKK\n ::::::: SSSSSSSSSSSSSs LLLLL aAAAAAAAAAAAAAA cCCCCCCCCCCCC KKKKK KKKKK\n ::::::: \\+\\+\\+\\+\\+ sSSSSSSSSSs LLLLL aAAAAaa AAAAA CCCCCCCCc KKKKK KKKKK\n ::::::: ++++++\n ::::: ++++\n\n\\## Company Slack\n\n\\- \\[About Slack\\](https://slack.com/about): About Slack: mission, values, and leadership.\n\\- \\[Slack Newsroom\\](https://slack.com/blog/news): Slack Newsroom with press releases and company announcements.\n\\- \\[Slack Careers\\](https://slack.com/careers): Careers at Slack with current openings and culture insights.\n\\- \\[Slack Customer Stories\\](https://slack.com/customer-stories): Customer success stories showcasing how organizations use Slack.\n\\- \\[Slack Trust Center\\](https://slack.com/trust): Slack Trust Center covering security, compliance, and privacy.\n\n\\## Slack Core Product",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:59:08.581982Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 527,
+      "quality_score": 0.7
+    },
+    {
+      "id": "ev_3f2632fc00c1",
+      "source_type": "llms_txt",
+      "url": "https://slack.com/llms.txt",
+      "domain": "slack.com",
+      "page_title": "llms.txt index",
+      "content": "-\\[Solutions with Slack\\](https://slack.com/solutions): All sorts of teams at all sorts of companies can use Slack to make teamwork more organized and efficient.\n -\\[Slack Solutions for Engineering\\](https://slack.com/solutions/engineering): Slack is where engineering happens. Release better code faster by bringing developers, code changes, and tools into one place.\n -\\[Slack Solutions for Information Technology\\](https://slack.com/solutions/information-technology): Slack brings IT tools and teams together in a central place. So teams are better aligned, and organizations get more from all their technology investments.\n -\\[Slack Solutions for Customer Service\\](https://slack.com/solutions/customer-service): Slack keeps agents connected with the rest of the company, so they have what they need to resolve issues faster and grow customer loyalty.\n -\\[Slack Solutions for Sales Teams\\](https://slack.com/solutions/sales): With Slack as your productivity platform for sales, all your people, tools and data are right where you need them. Welcome to a world of faster, more efficient dealmaking.\n -\\[Slack Solutions for Project Management\\](https://slack.com/solutions/project-management): Slack helps you manage your projects by bringing teams, files, and tools all into the same hub. No matter how many deliverables you’re tracking, you can see their progress easily in Slack. Try Slack for free.\n -\\[Slack Solutions for Marketing Teams\\](https://slack.com/solutions/marketing): Learn how your team can execute a winning marketing strategy in Slack. It’s free to use for as long as you want for teams of all sizes. Explore Slack today!\n -\\[Slack Solutions for HR Teams\\](https://slack.com/solutions/human-resources): Human resources teams use Slack to make new hires faster and keep employees engaged and happy. From preparing for interviews to promoting transparency, Slack brings companies together.\n -\\[Slack Solutions for Security Teams\\](https://slack.com/solutions/security): Slack keeps agents connected with the rest of the company, so they have what they need to resolve issues faster and grow customer loyalty\n -\\[Slack Solutions for Manufacturing, Automotive, and Energy Teams\\](https://slack.com/solutions/manufacturing): Streamline project management in the manufacturing, automotive, and energy industries with Slack's cross-functional collaboration tools.\n -\\[Slack Solutions for Tech Teams\\](https://slack.com/solutions/technology): Discover operational efficiency like never before. See how Slack helps tech companies increase productivity, driving faster innovation in the tech industry.\n -\\[Slack Solutions for Media Teams\\](https://slack.com/solutions/media): See how Slack helps media companies ship better content and respond to client needs faster than the competition, by enabling agile, cross-functional collaboration at the level of transparency that fits your business model.\n -\\[Slack Solutions for Small Businesses\\](https://slack.com/solutions/small-business): Small businesses and teams use Slack for messaging, project management, and customer chats — all in one place. Stay organized and get more done with Slack.\n -\\[Slack Solutions for Financial Service Teams\\](https://slack.com/solutions/financial-services): See how Slack helps financial services organizations achieve digital transformation and secure collaboration. Radically simplified operations and custom workflows enable you to deliver more value to your customers.\n -\\[Slack Solutions for Retail Teams\\](https://slack.com/solutions/retail): Shopping for the right way to transform your retail operations? With Slack you’ll get a more productive team and even more loyal customers, right off the rack.\n -\\[Slack Solutions for Government Agencies, Government Contractors, and Nonprofits\\](https://slack.com/solutions/public-sector): Learn how government agencies, contractors, and nonprofits leverage Slack to collaborate securely and efficiently.\n -\\[Slack Solutions for Schools, Colleges and Universities\\](https://slack.com/solutions/distance-learning): Learn how Slack can help your whole campus stay connected and engaged when everyone’s remote.\n -\\[Slack Solutions for Healthcare and Life Sciences\\](https://slack.com/solutions/healthcare): Learn why Slack is the productivity platform of choice for healthcare payers and providers, MedTech companies and life sciences firms.\n -\\[Slack Solutions for Productivity\\](https://slack.com/engage-users): Software works best when people love using it. Learn why Slack is the tried-and-true solution for millions of users worldwide.\n -\\[Slack Solutions for Task Management\\](https://slack.com/solutions/task-management): Stay on track and move work forward by using Slack for task management. Connect your task management apps or keep your team up to date with channels.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:59:08.582232Z",
+      "section_path": "",
+      "chunk_index": 2,
+      "token_count": 1205,
+      "quality_score": 0.7
+    },
+    {
+      "id": "ev_adaf29b277d7",
+      "source_type": "llms_txt",
+      "url": "https://slack.com/llms.txt",
+      "domain": "slack.com",
+      "page_title": "llms.txt index",
+      "content": "\\## Slack Blog",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:59:08.582353Z",
+      "section_path": "",
+      "chunk_index": 4,
+      "token_count": 3,
+      "quality_score": 0.7
+    },
+    {
+      "id": "ev_e8200addb70b",
+      "source_type": "pricing_page",
+      "url": "https://slack.com/pricing",
+      "domain": "slack.com",
+      "page_title": "Slack Pricing Plans: Find the Right Fit for Your Team | Slack",
+      "content": "To be eligible for this limited-time offer, you must be purchasing the Slack Pro or Business+ plan online within the first 7 days of creating your team. For more information on Slack’s plans and features, see [hereOpens in new window](https://slack.com/help/articles/115003205446). This 50% discount will only apply for the first 3 months from the date of your eligible upgraded plan (the “Discount Period”). After the Discount Period, Slack’s standard pricing will apply to the remainder of your plan and to any plan renewals.\n\nBy redeeming this offer, you agree that these offer terms form part of and modify Slack’s [Customer Terms of ServiceOpens in new window](https://slack.com/terms-of-service) (or the terms of your written agreement regarding your use of Slack’s services) (your “Agreement”) entered into between you and the Slack entity identified in the Agreement and that, after the Discount Period, Slack’s then-current standard pricing set forth on Slack’s [Pricing PageOpens in new window](https://slack.com/plans) will apply to the remainder of your plan and to any plan renewals. Please see the terms of your Agreement for information on how to cancel or downgrade your paid subscription prior to any such renewal. If you redeem this offer and then cancel your paid Slack plan or downgrade to a free plan during the Discount Period, this offer may no longer be available to you.\n\nThis offer cannot be combined with any other offer. Limit one offer per customer. Offer is non-transferable. This offer does not apply to annual plans or to upgrades to Slack’s Enterprise+ Plan. If you are interested in the Enterprise+ Plan, you can [contact our Sales teamOpens in new window](https://slack.com/contact-sales?from_pricing=1) for more information. This offer is available for a limited time only, and prior to redemption by you, Slack may end or modify this offer at any time without notice to you.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:59:09.705008Z",
+      "section_path": "Terms & Conditions",
+      "chunk_index": 0,
+      "token_count": 477,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_0ca16da8b6a3",
+      "source_type": "pricing_page",
+      "url": "https://slack.com/pricing",
+      "domain": "slack.com",
+      "page_title": "Slack Pricing Plans: Find the Right Fit for Your Team | Slack",
+      "content": "|  | **Free** [Get Started](https://slack.com/get-started?p=free&entry_point=pricing_page#/create) | **Pro**<br>Get Started | **Business+** Get Started | **Enterprise+** [Contact sales](https://slack.com/contact-sales?from_pricing=1&campaign=7013y000002UvizAAC) |\n| --- | --- | --- | --- | --- |\n| **Productivity and collaboration** |\n| Message and file history<br>Search across people, channels, and files to find context and get new team members up to speed faster. | 90-day limit | Included | Included | Included |\n| Channels<br>Channels bring order and clarity to work — create them for every project, topic, or team. | Included | Included | Included | Included |\n| Search<br>With your organization’s messages searchable, the answers you need are only a quick query away. | Included | Included | Included | Included |\n| Audio and video clips<br>Share audio ideas or screen recordings with clips — all without leaving Slack. | Included | Included | Included | Included |\n| Slack Connect<br>Collaborate securely with vendors, customers, and partners using Slack Connect. | 1:1 only | Included | Included | Included |\n| Huddles<br>Work together in real time through audio and video meetings (including screen sharing) using Slack huddles. | 1:1 only | Included | Included | Included |\n| Canvases<br>Create content like text, files, images, and videos directly in a Slack canvas. |  | Included | Included | Included |\n| Lists<br>Collaboratively manage projects and organize tasks in Slack lists. |  | Included | Included | Included |\n| Customizable sections<br>Keep projects and teams organized. Group channels and conversations into custom sidebar sections. |  | Included | Included | Included |\n| Templates<br>Access ready-to-use templates with automation. On Enterprise+, publish custom templates for your company. |  | User-created | User-created | Admin-created |",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:59:09.705093Z",
+      "section_path": "Terms & Conditions > Compare all features",
+      "chunk_index": 1,
+      "token_count": 467,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_9e4161f0ae88",
+      "source_type": "pricing_page",
+      "url": "https://slack.com/pricing",
+      "domain": "slack.com",
+      "page_title": "Slack Pricing Plans: Find the Right Fit for Your Team | Slack",
+      "content": "| **AI-powered work** |\n| Thread and channel summaries<br>Catch up on channels and threads in just a click. |  | Included | Included | Included |\n| Huddles notes<br>Get meeting summaries with transcripts, key takeaways, and action items. |  | Included | Included | Included |\n| AI assistant apps<br>Embed third-party agents and modern AI apps to work alongside you in Slack. |  | Included | Included | Included |\n| Slackbot (personal AI agent)New<br>Your personal AI agent that understands conversations, files, and projects in Slack. Plan limits apply. |  |  | Included | Included |\n| Daily recaps<br>Get a daily digest of what’s happening across all of your teams and projects. |  |  | Included | Included |\n| File summaries<br>Catch up on documents quickly with AI-powered summaries of shared files. |  |  | Included | Included |\n| AI language translations<br>Translate messages and get Slack AI results in your preferred language. |  |  | Included | Included |\n| AI workflow generation<br>Build workflows from a single prompt with the power of Slack AI and Workflow Builder. |  |  | Included | Included |\n| AI steps in Workflow Builder<br>Enhance workflows with AI-powered steps like channel summaries for daily or weekly recaps. |  |  | Included | Included |\n| AI message explanations<br>Instantly understand acronyms, projects, or jargon with clear explanations drawn from your team’s conversations. |  |  | Included | Included |\n| AI writing assistance in canvas <br>AI helps create, structure, and polish your content. |  |  | Included | Included |\n| AI search<br>Get clear answers from conversations and shared files—just type a question in your search bar. AI will handle the rest. |  |  | Included | Included |\n| Enterprise search<br>Search across connected apps, databases, and systems with enterprise search. |  |  |  | Included |\n\n| **CRM capabilities** New |\n| Bring Salesforce data into Slack channels<br>Connect Salesforce records (such as accounts, cases, opportunities, leads, etc.) to dedicated Slack channels so customer conversations, context, and data are all side by side. Requires a Salesforce account. | Included | Included | Included | Included |\n| Track leads & deals<br>Slack CRM: Track deals, log calls, and manage contacts in Slack. Ask Slackbot to surface account details and draft follow-ups. |  |  | Included | Upon Request |\n| Manage support emails<br>Slack CRM: Turn support emails into cases and manage them in Slack channels. Slackbot summarizes issues and helps draft replies. |  |  | Included | Upon Request |\n| Prepare for meetings<br>Slack CRM: Ask Slackbot to research accounts, draft emails, and keep customer records up to date. |  |  | Included | Upon Request |",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:59:09.705178Z",
+      "section_path": "Terms & Conditions > Compare all features",
+      "chunk_index": 2,
+      "token_count": 676,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_458c61154870",
+      "source_type": "pricing_page",
+      "url": "https://slack.com/pricing",
+      "domain": "slack.com",
+      "page_title": "Slack Pricing Plans: Find the Right Fit for Your Team | Slack",
+      "content": "| **Compliance** |\n| Data retention policies<br>Free Slack deletes data after 1 year. Paid plans keep it for life by default, with adjustable settings. | Up to 1 year | Included | Included | Included |\n| Data residency<br>For global teams, choose the region where certain types of data at rest will be stored. |  |  | Included | Included |\n| Data exports for all messages<br>Workspace owners and admins can export data all workspace data, including private channels and direct messages. |  |  | Included | Included |\n| Data exports for all messages from a single user<br>Workspace owners and admins can export data from all conversations a single user has joined. |  |  |  | Included |\n| Native data loss prevention<br>Scan external messages and files to prevent data loss or leaks. |  |  |  | Included |\n| Information barriers<br>Create info barriers between IDP groups to block certain DMs or huddles, avoiding conflicts of interest. |  |  |  | Included |\n| Legal holds<br>Place a legal hold on members to preserve their Slack data regardless of edits, deletes, or retention. |  |  |  | Included |\n| Discovery API<br>Use approved third-party apps to export or act on messages and files from Slack. |  |  |  | Included |\n| Audit logs<br>Audit logs track changes and usage. View in Slack, export CSV, or use the Audit Logs API. |  |  |  | Included |\n| Support for HIPAA compliance<br>Slack can be configured to support protected health information (PHI) in files and message content. |  |  |  | Included |",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:59:09.705279Z",
+      "section_path": "Terms & Conditions > Compare all features",
+      "chunk_index": 4,
+      "token_count": 376,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_9ff0ba8f6167",
+      "source_type": "pricing_page",
+      "url": "https://slack.com/pricing",
+      "domain": "slack.com",
+      "page_title": "Slack Pricing Plans: Find the Right Fit for Your Team | Slack",
+      "content": "| **Administration** |\n| Workspaces<br>Like a virtual office, a workspace is where work happens: all your channels, DMs, and tools live here. | 1 | 1 | 1 | Unlimited |\n| Manage channel posting permissions<br>Control who can post or @mention everyone in channels. This keeps large announcement channels distraction-free. | Limited to #general channel only | Limited to #general channel only | Posting permissions in any channel | Posting permissions in any channel |\n| Admin analytics dashboards<br>Analytics dashboard shows how your org uses Slack. Sort data to understand messages, channels, and members. |  | Included | Included | Included |\n| SCIM user management<br>Slack supports member provisioning with SCIM. Use a connector app and supported identity provider. |  |  | Included | Supports guests |\n| Admin analytics API<br>Retrieve analytics data for a given date as a compressed JSON file. |  |  | Included | Included |\n| Message activity analytics<br>Owners, admins, or members can view message activity to measure impact of communications. |  |  | Included | Included |\n| Custom user groups<br>Simplify team-wide comms by adding multiple people to a single user group @mention. |  | Included | Included | Included |\n| Domain claiming<br>Slack can help companies claim multiple web domains. |  |  |  | Included |\n| Custom terms of service<br>Org owners and admins can set custom rules for joining and using their Slack org. |  |  |  | Included |\n| Granular roles<br>Assign system roles to members or IDP groups. Choose if they manage admin tasks org-wide or by workspace. |  |  |  | Included |\n| Manage flagged content<br>Enterprise+ members can flag messages for review. Owners and admins can act and view flag history. |  |  |  | Included |\n\n| **Support** |\n| Access to customer support<br>We’re here to help you get the most out of Slack, with support for your team every step of the way. |  | 24/7 support | 24/7 support with 4-hr. first response time | 24/7 priority with 4-hr. first response time |",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:59:09.705344Z",
+      "section_path": "Terms & Conditions > Compare all features",
+      "chunk_index": 5,
+      "token_count": 503,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_11db0482e1a5",
+      "source_type": "pricing_page",
+      "url": "https://slack.com/pricing",
+      "domain": "slack.com",
+      "page_title": "Slack Pricing Plans: Find the Right Fit for Your Team | Slack",
+      "content": "FreeProBusiness+Enterprise+\n\nProductivity and collaboration\n\nMessage and file history\n\nSearch across people, channels, and files to find context and get new team members up to speed faster.\n\n90-day limitIncludedIncludedIncluded\n\nChannels\n\nChannels bring order and clarity to work — create them for every project, topic, or team.\n\nIncludedIncludedIncludedIncluded\n\nSearch\n\nWith your organization’s messages searchable, the answers you need are only a quick query away.\n\nIncludedIncludedIncludedIncluded\n\nAudio and video clips\n\nShare audio ideas or screen recordings with clips — all without leaving Slack.\n\nIncludedIncludedIncludedIncluded\n\nSlack Connect\n\nCollaborate securely with vendors, customers, and partners using Slack Connect.\n\n1:1 onlyIncludedIncludedIncluded\n\nHuddles\n\nWork together in real time through audio and video meetings (including screen sharing) using Slack huddles.\n\n1:1 onlyIncludedIncludedIncluded\n\nCanvases\n\nCreate content like text, files, images, and videos directly in a Slack canvas.\n\nIncludedIncludedIncluded\n\nLists\n\nCollaboratively manage projects and organize tasks in Slack lists.\n\nIncludedIncludedIncluded\n\nCustomizable sections\n\nKeep projects and teams organized. Group channels and conversations into custom sidebar sections.\n\nIncludedIncludedIncluded\n\nTemplates\n\nAccess ready-to-use templates with automation. On Enterprise+, publish custom templates for your company.\n\nUser-createdUser-createdAdmin-created\n\nAI-powered work\n\nThread and channel summaries\n\nCatch up on channels and threads in just a click.\n\nIncludedIncludedIncluded\n\nHuddles notes\n\nGet meeting summaries with transcripts, key takeaways, and action items.\n\nIncludedIncludedIncluded\n\nAI assistant apps\n\nEmbed third-party agents and modern AI apps to work alongside you in Slack.\n\nIncludedIncludedIncluded\n\nSlackbot (personal AI agent)New\n\nYour personal AI agent that understands conversations, files, and projects in Slack. Plan limits apply.\n\nIncludedIncluded\n\nDaily recaps\n\nGet a daily digest of what’s happening across all of your teams and projects.\n\nIncludedIncluded\n\nFile summaries\n\nCatch up on documents quickly with AI-powered summaries of shared files.\n\nIncludedIncluded\n\nAI language translations\n\nTranslate messages and get Slack AI results in your preferred language.\n\nIncludedIncluded\n\nAI workflow generation\n\nBuild workflows from a single prompt with the power of Slack AI and Workflow Builder.\n\nIncludedIncluded\n\nAI steps in Workflow Builder\n\nEnhance workflows with AI-powered steps like channel summaries for daily or weekly recaps.\n\nIncludedIncluded\n\nAI message explanations\n\nInstantly understand acronyms, projects, or jargon with clear explanations drawn from your team’s conversations.\n\nIncludedIncluded\n\nAI writing assistance in canvas\n\nAI helps create, structure, and polish your content.\n\nIncludedIncluded\n\nAI search\n\nGet clear answers from conversations and shared files—just type a question in your search bar. AI will handle the rest.\n\nIncludedIncluded\n\nEnterprise search\n\nSearch across connected apps, databases, and systems with enterprise search.\n\nIncluded\n\nCRM capabilities\n\nBring Salesforce data into Slack channels\n\nConnect Salesforce records (such as accounts, cases, opportunities, leads, etc.) to dedicated Slack channels so customer conversations, context, and data are all side by side. Requires a Salesforce account.\n\nIncludedIncludedIncludedIncluded\n\nTrack leads & deals",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:59:09.705473Z",
+      "section_path": "Terms & Conditions > Compare all features",
+      "chunk_index": 6,
+      "token_count": 852,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_fb88cdd0670a",
+      "source_type": "pricing_page",
+      "url": "https://slack.com/pricing",
+      "domain": "slack.com",
+      "page_title": "Slack Pricing Plans: Find the Right Fit for Your Team | Slack",
+      "content": "Place a legal hold on members to preserve their Slack data regardless of edits, deletes, or retention.\n\nIncluded\n\nDiscovery API\n\nUse approved third-party apps to export or act on messages and files from Slack.\n\nIncluded\n\nAudit logs\n\nAudit logs track changes and usage. View in Slack, export CSV, or use the Audit Logs API.\n\nIncluded\n\nSupport for HIPAA compliance\n\nSlack can be configured to support protected health information (PHI) in files and message content.\n\nIncluded\n\nAdministration\n\nWorkspaces\n\nLike a virtual office, a workspace is where work happens: all your channels, DMs, and tools live here.\n\n111Unlimited\n\nManage channel posting permissions\n\nControl who can post or @mention everyone in channels. This keeps large announcement channels distraction-free.\n\nLimited to #general channel onlyLimited to #general channel onlyPosting permissions in any channelPosting permissions in any channel\n\nAdmin analytics dashboards\n\nAnalytics dashboard shows how your org uses Slack. Sort data to understand messages, channels, and members.\n\nIncludedIncludedIncluded\n\nSCIM user management\n\nSlack supports member provisioning with SCIM. Use a connector app and supported identity provider.\n\nIncludedSupports guests\n\nAdmin analytics API\n\nRetrieve analytics data for a given date as a compressed JSON file.\n\nIncludedIncluded\n\nMessage activity analytics\n\nOwners, admins, or members can view message activity to measure impact of communications.\n\nIncludedIncluded\n\nCustom user groups\n\nSimplify team-wide comms by adding multiple people to a single user group @mention.\n\nIncludedIncludedIncluded\n\nDomain claiming\n\nSlack can help companies claim multiple web domains.\n\nIncluded\n\nCustom terms of service\n\nOrg owners and admins can set custom rules for joining and using their Slack org.\n\nIncluded\n\nGranular roles\n\nAssign system roles to members or IDP groups. Choose if they manage admin tasks org-wide or by workspace.\n\nIncluded\n\nManage flagged content\n\nEnterprise+ members can flag messages for review. Owners and admins can act and view flag history.\n\nIncluded\n\nSupport\n\nAccess to customer support\n\nWe’re here to help you get the most out of Slack, with support for your team every step of the way.\n\n24/7 support24/7 support with 4-hr. first response time24/7 priority with 4-hr. first response time\n\n![An abstract illustration of stacked cubes with one cube representing a lock moving into place.](https://a.slack-edge.com/91c9006/marketing/img/pricing/security-illustration-mobile.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:59:09.705624Z",
+      "section_path": "Terms & Conditions > Compare all features",
+      "chunk_index": 8,
+      "token_count": 620,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_2b2471698edd",
+      "source_type": "pricing_page",
+      "url": "https://slack.com/pricing",
+      "domain": "slack.com",
+      "page_title": "Slack Pricing Plans: Find the Right Fit for Your Team | Slack",
+      "content": "- Data encryption in transit and at rest\n\n- Comprehensive compliance and assurance programs\n\n- Audit logs, data loss prevention, single sign-on and much more\n\n\n[Learn more about security](https://slack.com/security?from_pricing=1)\n\n![An abstract illustration of stacked cubes with one cube representing a lock moving into place.](https://a.slack-edge.com/9799658/marketing/img/pricing/security-illustration.png)\n\n![Government building](https://a.slack-edge.com/91c9006/marketing/img/pricing/govslack-illustration-mobile.png)\n\nGovSlack has all the features of the Slack Enterprise+ with additional security, so government agencies and their external partners can work together seamlessly.\n\n[Learn more about GovSlack](https://slack.com/solutions/govslack?from_pricing=1)\n\n![Government building](https://a.slack-edge.com/9799658/marketing/img/pricing/govslack-illustration.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:59:09.705670Z",
+      "section_path": "Terms & Conditions > GovSlack meets public sector compliance needs",
+      "chunk_index": 9,
+      "token_count": 218,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_6926ccd06804",
+      "source_type": "pricing_page",
+      "url": "https://slack.com/pricing",
+      "domain": "slack.com",
+      "page_title": "Slack Pricing Plans: Find the Right Fit for Your Team | Slack",
+      "content": "How does Slack protect the security of my data when using AI features?\n\nAI in Slack runs in Slack’s trusted infrastructure, and upholds the [security practices and compliance standards](https://slack.com/trust/data-management/privacy-principles) that customers expect from Slack itself. Slack does not share customer data with large language model (LLM) providers and does not use customer data to train LLMs. Visit our [Help Center](https://slack.com/help/articles/28310650165907-Security-for-AI-features-in-Slack) for more details.\n\nOur large language models are hosted directly within Slack’s AWS virtual private cloud, ensuring your data remains in-house.\n\nHow can I pay for Slack? Can I pay by credit card, or can you invoice me?\n\nYou can use a credit card to pay for any plan. If you choose to pay annually, you may be eligible to be invoiced and pay by ACH or wire transfer. [Visit our Help Center](https://slack.com/help/articles/360002038947-Supported-payment-methods#pay-by-invoice) for more details, or contact us to start the process.\n\nIf you choose to pay by credit card, you’ll see the first credit card charge from Slack on the day you purchase a paid plan. Here are some other times you’ll see charges:\n\n- On your monthly renewal date if you pay monthly.\n- On your annual renewal date if you pay annually.\n- On the last day of the month if you pay annually and there’s an outstanding balance for adding new members.\n\nYou can change billing cycles or switch to invoicing at any time. Learn more about managing billing details [here](https://slack.com/help/articles/218915087-Manage-your-Slack-plan-and-billing-details#change-your-billing-cycle).\n\nOur team has several accounts which are not being actively used, but which we don’t want to disable. Do we still have to pay for them?\n\nAt Slack, we believe you should only be billed for what you use. Members who take an action in Slack at any time within a 28-day period will be considered active for billing purposes. If someone you’ve already paid for becomes inactive, we’ll add a prorated credit to your account for the unused time.\n\nWe want to add new users to our workspace. How will that be billed?\n\nYou’ll be charged a prorated amount for new team members for the remainder of the current billing period. For a detailed overview of our billing model and how your subscription term affects when you will be billed, [visit the Help Center](https://slack.com/help/articles/218915077-Slacks-Fair-Billing-Policy).\n\nWhich plan do I need to use Slackbot?\n\nSoon, Slack users across every plan will be able to try Slackbot. Demand has been extraordinary, and we are opening access so every team can experience an agent built directly into their flow of work. Slack Free and Pro users will have the chance to explore Slackbot’s capabilities firsthand through a limited trial experience. Ongoing Slackbot access will continue to be available to Business+ and Enterprise+ customers, and coming soon, Salesforce CRM customers who connect their accounts to Slack will also receive ongoing access to Slackbot!\n\nDo you offer discounts for non-profit organizations or educational institutions?",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:59:09.705795Z",
+      "section_path": "Terms & Conditions > Frequently Asked Questions",
+      "chunk_index": 10,
+      "token_count": 786,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_03de44d02d1b",
+      "source_type": "pricing_page",
+      "url": "https://slack.com/pricing",
+      "domain": "slack.com",
+      "page_title": "Slack Pricing Plans: Find the Right Fit for Your Team | Slack",
+      "content": "We do! Slack wants to support people doing good in the world, which is why we offer special discount pricing for qualified [nonprofit organizations](https://slack.com/help/articles/204368833-Apply-for-the-Slack-for-Nonprofits-discount) and [educational institutions](https://slack.com/help/articles/206646877-Apply-for-the-Slack-for-Education-discount).\n\nGet more information on [billing at Slack](https://slack.com/help/articles/218915087-Manage-your-Slack-plan-and-billing-details) and [Slackbot Plan limits](https://slack.com/help/articles/48167543695379-A-reintroduction-to-Slackbot#slackbot-availability).\n\nGet more information on [billing at Slack](https://slack.com/help/articles/218915087-Manage-your-Slack-plan-and-billing-details) and [Slackbot Plan limits](https://slack.com/help/articles/48167543695379-A-reintroduction-to-Slackbot#slackbot-availability).\n\n[Get started](https://slack.com/get-started?entry_point=footer) [Talk to sales](https://slack.com/contact-sales?from_pricing=1)\n\nYouTube\n\nTap to unmute\n\nesc",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:59:09.705845Z",
+      "section_path": "Terms & Conditions > Frequently Asked Questions > Whatever work you do, you can do it in Slack",
+      "chunk_index": 11,
+      "token_count": 256,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_e38eded89dbc",
+      "source_type": "auth_docs",
+      "url": "https://slack.com/oauth",
+      "domain": "slack.com",
+      "page_title": "Something went wrong when authorizing this app. | Slack",
+      "content": "We use three kinds of cookies on our websites: required, functional, and advertising. You can choose whether functional and advertising cookies apply. Click on the different cookie categories to find out more about each category and to change the default settings. [More information](https://slack.com/cookie-policy)\n\nAllow All\n\nAlways Active\n\nRequired cookies are necessary for basic website functionality. Some examples include: session cookies needed to transmit the website, authentication cookies, and security cookies.\n\nCookies Details\n\nFunctional Cookies\n\nFunctional cookies enhance functions, performance, and services on the website. Some examples include: cookies used to analyze site traffic, cookies used for market research, and cookies used to display advertising that is not directed to a particular individual.\n\nCookies Details\n\nAdvertising Cookies\n\nAdvertising cookies track activity across websites in order to understand a viewer’s interests, and direct them specific marketing. Some examples include: cookies used for remarketing, or interest-based advertising.\n\nCookies Details\n\nBack Button\n\nSearch Icon\n\nFilter Icon\n\nClear\n\n- checkbox labellabel\n\n\nApplyCancel\n\nConsentLeg.Interest\n\ncheckbox labellabel\n\ncheckbox labellabel\n\ncheckbox labellabel\n\nConfirm My Choices\n\n[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/?utm_source=cmp&utm_medium=cmpbanner)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:59:08.131191Z",
+      "section_path": "Privacy Preference Center > Required Cookies > Cookie List",
+      "chunk_index": 0,
+      "token_count": 367,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_d73fdc367528",
+      "source_type": "api_reference",
+      "url": "https://slack.com/api/reference",
+      "domain": "slack.com",
+      "page_title": "",
+      "content": "```json\n{\"ok\":false,\"error\":\"unknown_method\",\"req_method\":\"reference\"}\n```",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:59:08.969890Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 18,
+      "quality_score": 0.58
+    },
+    {
+      "id": "ev_b56a6a930d32",
+      "source_type": "official_docs",
+      "url": "https://slack.com",
+      "domain": "slack.com",
+      "page_title": "Slack | AI Work Platform & Productivity Tools",
+      "content": "Slack connects your team. Slackbot multiplies what they can do.\n\n[Get started](https://slack.com/get-started?entry_point=home_page) [Find your plan](https://slack.com/pricing)\n\nTrusted by top teams\n\n- ![GM Logo](https://a.slack-edge.com/84f9021/marketing/img/homepage/true-prospects/hero-revamp/logos/logo-gm-small@2x.png)\n- ![OpenAI Logo](https://a.slack-edge.com/84f9021/marketing/img/homepage/true-prospects/hero-revamp/logos/logo-openai-small@2x.png)\n- ![Target Logo](https://a.slack-edge.com/a4c4a15/marketing/img/homepage/true-prospects/revamp-exp/logos/logo-target-small@2x.png)\n- ![Paramount Logo](https://a.slack-edge.com/84f9021/marketing/img/homepage/true-prospects/hero-revamp/logos/logo-paramount-small@2x.png)\n- ![Stripe Logo](https://a.slack-edge.com/84f9021/marketing/img/homepage/true-prospects/hero-revamp/logos/logo-stripe-small@2x.png)\n- ![IBM Logo](https://a.slack-edge.com/84f9021/marketing/img/homepage/true-prospects/hero-revamp/logos/logo-ibm-small@2x.png)\n\nAsk Slackbot![](https://slack.com/marketing/img/homepage/revamped-25/hero/icons/icon-slackbot.svg)\n\nPlan launches![](https://slack.com/marketing/img/homepage/revamped-25/hero/icons/icon-pencil.svg)\n\nRun projects![](https://slack.com/marketing/img/homepage/revamped-25/hero/icons/icon-list.svg)\n\nChat with clients![](https://slack.com/marketing/img/homepage/revamped-25/hero/icons/icon-chat.svg)\n\nAutomate tasks![](https://slack.com/marketing/img/homepage/revamped-25/hero/icons/icon-zap.svg)\n\nAsk Slackbot\n\nPlan launches\n\nRun projects\n\nChat with clients\n\nAutomate tasks",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:59:08.535739Z",
+      "section_path": "All your people and AI agents working together.",
+      "chunk_index": 0,
+      "token_count": 388,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_5e52bd70da11",
+      "source_type": "official_docs",
+      "url": "https://slack.com",
+      "domain": "slack.com",
+      "page_title": "Slack | AI Work Platform & Productivity Tools",
+      "content": "AI in Slack doesn’t make you think, it helps you do. It summarizes and searches based on actual conversations, and with it, makes every app and agent more helpful and contextually aware than ever.\n\n**Update deals just by asking Slackbot**\n\nNEW\n\n**Summarize a conversation you missed**\n\n**Get fast answers with Claude**\n\nNEW\n\n**Turn on AI note-taking in huddles**\n\n**Review code with Github Copilot**\n\n**Lookup customer data in Agentforce**\n\n[Link may open in new tab\\\\\n![](https://d34u8crftukxnk.cloudfront.net/slackpress/prod/sites/6/mcp-partner-apps.png)](https://slack.com/whats-new#063026_partner_apps)\n\n[Link may open in new tab\\\\\n![](https://d34u8crftukxnk.cloudfront.net/slackpress/prod/sites/6/slackbot-mcp.png)](https://slack.com/whats-new#063026_slackbot_mcp)\n\n[Link may open in new tab\\\\\n![](https://a.slack-edge.com/6dfe43d/marketing/img/homepage/revamped-25/placeholders/img-whats-new-placeholder@2x.png)](https://slack.com/whats-new#063026_slackbot_memory)\n\n[Link may open in new tab\\\\\n![](https://d34u8crftukxnk.cloudfront.net/slackpress/prod/sites/6/slackbot-voice-dictation.png)](https://slack.com/whats-new#063026_slackbot_voice)\n\n[Link may open in new tab\\\\\n![](https://d34u8crftukxnk.cloudfront.net/slackpress/prod/sites/6/native-charts.png)](https://slack.com/whats-new#063026_slackbot_native)\n\n[Link may open in new tab\\\\\n![](https://d34u8crftukxnk.cloudfront.net/slackpress/prod/sites/6/mpmd-naming.png)](https://slack.com/whats-new#063026_group_dm)\n\n[Link may open in new tab\\\\\n![](https://d34u8crftukxnk.cloudfront.net/slackpress/prod/sites/6/sidebar-filter.png)](https://slack.com/whats-new#063026_sidebar_filter)\n\nKnowledgePeopleProcessPlatform",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:59:08.535814Z",
+      "section_path": "All your people and AI agents working together. > Reimagine what’s possible with AI and agents.",
+      "chunk_index": 1,
+      "token_count": 417,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_6f3ac80c8292",
+      "source_type": "official_docs",
+      "url": "https://slack.com",
+      "domain": "slack.com",
+      "page_title": "Slack | AI Work Platform & Productivity Tools",
+      "content": "[![Company logo](https://a.slack-edge.com/a889c36/marketing/img/homepage/revamped-24/customer-videos/logos/logo-mr-beast@2x.png)\\\\\n\\\\\n**Slackbot helps MrBeast create viral videos.**\\\\\n\\\\\n![Play video](https://a.slack-edge.com/54df558/marketing/img/homepage/revamped-24/customer-videos/play-button@2x.png)](https://www.youtube.com/embed/nl66SzwkGKU)\n\n[![Company logo](https://a.slack-edge.com/66e1519/marketing/img/homepage/revamped-24/customer-videos/logos/logo-box@2x.png)\\\\\n\\\\\n**Slack helps Box bring agents to every employee**\\\\\n\\\\\n![Play video](https://a.slack-edge.com/54df558/marketing/img/homepage/revamped-24/customer-videos/play-button@2x.png)](https://www.youtube.com/embed/o2c2_EGP8w4)\n\n[![Company logo](https://a.slack-edge.com/66e1519/marketing/img/homepage/revamped-24/customer-videos/logos/logo-caraway@2x.png)\\\\\n\\\\\n**Caraway Brings All The Right Ingredients Together In Slack**\\\\\n\\\\\n![Play video](https://a.slack-edge.com/54df558/marketing/img/homepage/revamped-24/customer-videos/play-button@2x.png)](https://www.youtube.com/embed/EOTqujB8_R4)\n\n[![Company logo](https://a.slack-edge.com/66e1519/marketing/img/homepage/revamped-24/customer-videos/logos/logo-rivian@2x.png)\\\\\n\\\\\n**Slack helps Rivian do business in the fast lane**\\\\\n\\\\\n![Play video](https://a.slack-edge.com/54df558/marketing/img/homepage/revamped-24/customer-videos/play-button@2x.png)](https://www.youtube.com/embed/8NjVIWfje1o)\n\n[![Company logo](https://a.slack-edge.com/a889c36/marketing/img/homepage/revamped-24/customer-videos/logos/logo-mr-beast@2x.png)\\\\\n\\\\\n**Slackbot helps MrBeast create viral videos.**\\\\\n\\\\\n![Play video](https://a.slack-edge.com/54df558/marketing/img/homepage/revamped-24/customer-videos/play-button@2x.png)](https://www.youtube.com/embed/nl66SzwkGKU)\n\n[![Company logo](https://a.slack-edge.com/66e1519/marketing/img/homepage/revamped-24/customer-videos/logos/logo-box@2x.png)\\\\\n\\\\\n**Slack helps Box bring agents to every employee**\\\\\n\\\\\n![Play video](https://a.slack-edge.com/54df558/marketing/img/homepage/revamped-24/customer-videos/play-button@2x.png)](https://www.youtube.com/embed/o2c2_EGP8w4)\n\n[![Company logo](https://a.slack-edge.com/66e1519/marketing/img/homepage/revamped-24/customer-videos/logos/logo-caraway@2x.png)\\\\\n\\\\\n**Caraway Brings All The Right Ingredients Together In Slack**\\\\\n\\\\\n![Play video](https://a.slack-edge.com/54df558/marketing/img/homepage/revamped-24/customer-videos/play-button@2x.png)](https://www.youtube.com/embed/EOTqujB8_R4)\n\n[![Company logo](https://a.slack-edge.com/66e1519/marketing/img/homepage/revamped-24/customer-videos/logos/logo-rivian@2x.png)\\\\\n\\\\\n**Slack helps Rivian do business in the fast lane**\\\\\n\\\\\n![Play video](https://a.slack-edge.com/54df558/marketing/img/homepage/revamped-24/customer-videos/play-button@2x.png)](https://www.youtube.com/embed/8NjVIWfje1o)\n\n[Get Started](https://slack.com/get-started?entry_point=home_page) [Find Your Plan](https://slack.com/pricing)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:59:08.536086Z",
+      "section_path": "All your people and AI agents working together. > The most innovative companies run their business in Slack.",
+      "chunk_index": 6,
+      "token_count": 734,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_6a4290c826b5",
+      "source_type": "official_docs",
+      "url": "https://slack.com",
+      "domain": "slack.com",
+      "page_title": "Slack | AI Work Platform & Productivity Tools",
+      "content": "700M\n\nMessages sent daily3\n\n4M\n\nSlack Connect users working directly with external teams each week3\n\n3M\n\nDaily Workflows3\n\n1.7M\n\nApps actively used each week3\n\nDon’t just take our word for it.\n\nSlack is a leader in over 303 G2 market reports.5\n\n![Awarded Best Result - Spring 2026 by G2 market reports](https://a.slack-edge.com/2e87281/marketing/img/homepage/revamped-25/badges/G2_Best_Results_spring_2026.png)![Awarded Easiest Setup - Spring 2026 by G2 market reports](https://a.slack-edge.com/2e87281/marketing/img/homepage/revamped-25/badges/G2_easiest_setup_spring_2026.png)![Awarded Highest User Adoption - Spring 2026 by G2 market reports](https://a.slack-edge.com/2e87281/marketing/img/homepage/revamped-25/badges/G2_Highest_user_adoption_spring_2026.png)![Awarded Grid Leader in Small Business - Spring 2026 by G2 market reports](https://a.slack-edge.com/2e87281/marketing/img/homepage/revamped-25/badges/G2_Leader_small_business_spring_2026.png)![Awarded Grid Leader in mid-market - Spring 2026 by G2 market reports](https://a.slack-edge.com/2e87281/marketing/img/homepage/revamped-25/badges/G2_Leader_mid_market_spring_2026.png)![Awarded Grid Leader in Enterprise - Spring 2026 by G2 market reports](https://a.slack-edge.com/2e87281/marketing/img/homepage/revamped-25/badges/G2_Leader_enterprise_spring_2026.png)\n\n[Link may open in new tab\\\\\n![Slack user interface with a floating agentforce mascot.](https://a.slack-edge.com/496f288/marketing/img/promos/promo-state-of-work@2x.png)\\\\\n\\\\\nGet the report](https://slack.com/resources/why-use-slack/state-of-ai-agents) [Link may open in new tab\\\\\n![Slack Agentforce mascot along with various others.](https://a.slack-edge.com/cd054cc/marketing/img/agentforce/lp/updated-img-promo-1@2x.jpg)\\\\\n\\\\\nWatch Now](https://slack.com/events/introducing-agentforce-in-slack) [Link may open in new tab\\\\\n![A picture of two women clapping at a conference next to a Dreamforce logo.](https://a.slack-edge.com/5903307/marketing/img/thought-leadership/slack-vs-teams/compete-teams-promo@2x.png)\\\\\n\\\\\nLearn more](https://slack.com/resources/why-use-slack/rethinking-email-ai-conversations-work) [Link may open in new tab\\\\\n![An image of a Slack workspace with a number of users chatting.](https://a.slack-edge.com/938f265/marketing/img/promos/promo-10-ways@2x.png)\\\\\n\\\\\nRead more](https://slack.com/resources/why-use-slack/10-ways-to-replace-ineffective-meetings-with-slack)\n\n[Link may open in new tab\\\\\n![Slack user interface with a floating agentforce mascot.](https://a.slack-edge.com/496f288/marketing/img/promos/promo-state-of-work@2x.png)\\\\\n\\\\\nGet the report](https://slack.com/resources/why-use-slack/state-of-ai-agents)\n\n[Link may open in new tab\\\\\n![Slack Agentforce mascot along with various others.](https://a.slack-edge.com/cd054cc/marketing/img/agentforce/lp/updated-img-promo-1@2x.jpg)\\\\\n\\\\\nWatch Now](https://slack.com/events/introducing-agentforce-in-slack)\n\n[Link may open in new tab\\\\\n![A picture of two women clapping at a conference next to a Dreamforce logo.](https://a.slack-edge.com/5903307/marketing/img/thought-leadership/slack-vs-teams/compete-teams-promo@2x.png)\\\\\n\\\\\nLearn more](https://slack.com/resources/why-use-slack/rethinking-email-ai-conversations-work)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:59:08.536185Z",
+      "section_path": "All your people and AI agents working together. > Millions of people love to work in Slack.",
+      "chunk_index": 8,
+      "token_count": 807,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_774c570ffa9b",
+      "source_type": "official_docs",
+      "url": "https://slack.com",
+      "domain": "slack.com",
+      "page_title": "Slack | AI Work Platform & Productivity Tools",
+      "content": "[Link may open in new tab\\\\\n![An image of a Slack workspace with a number of users chatting.](https://a.slack-edge.com/938f265/marketing/img/promos/promo-10-ways@2x.png)\\\\\n\\\\\nRead more](https://slack.com/resources/why-use-slack/10-ways-to-replace-ineffective-meetings-with-slack)\n\n1Based on an internal analysis during the pilot of AI in Slack features (channel recaps, thread summaries, and AI search answers).\n\n2FY24 Customer Success Metrics. Base: Total n = 247-1,696, Slack internal data.\n\n3FY25 Slack internal data, product usage analysis.\n\n4FY25 Slack Customer Tracking Survey. Internal survey of weekly active Slack users in the US, UK, CA, and AU. Total n = 2,410.\n\n5G2 Spring 2026 market reports for work management, workflow management, project collaboration software, enterprise search, knowledge base, employee Q&A, audio conferencing, business instant messaging, unified workspaces and more.\n\n[Get started](https://slack.com/get-started?entry_point=footer) [Request a demo](https://slack.com/contact-sales)\n\nYouTube\n\nTap to unmute\n\nesc\n\na11179690159.cdn.optimizely.com\n\nThis page has been blocked by an extension\n\n- Try disabling your extensions.\n\nERR\\_BLOCKED\\_BY\\_CLIENT\n\nReload\n\n\nThis page has been blocked by an extension\n\n![](<Base64-Image-Removed>)![](<Base64-Image-Removed>)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:59:08.536221Z",
+      "section_path": "a11179690159.cdn.optimizely.com is blocked",
+      "chunk_index": 9,
+      "token_count": 323,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_acf70178371c",
+      "source_type": "official_docs",
+      "url": "https://slack.com",
+      "domain": "slack.com",
+      "page_title": "Slack | AI Work Platform & Productivity Tools",
+      "content": "Give everyone instant context.\n\nGet access to every file, decision, and conversation, so you can build on past work instead of recreating it.\n\nMeet Slackbot: Your personal agent for work.\n\nSlackbot isn't just any AI. It's AI that knows you and your team. It coordinates work across your apps and agents so one conversation gets work done.\n\n[Learn more about Slackbot](https://slack.com/features/slackbot)\n\nOne search to rule them all.\n\nAI-powered search puts your company’s entire memory at your fingertips.\n\n[Learn about AI-powered search](https://slack.com/features/ai)\n\nBring CRM data to the conversation.\n\nCustomer insights now live alongside conversations, so deals keep moving forward.\n\n[Learn about Salesforce in Slack](https://slack.com/features/crm)\n\n97 min\n\naverage time users can save weekly with AI in Slack1\n\n![Slack UI displays an AI answer to a search query.](https://a.slack-edge.com/c3ea545/marketing/img/homepage/revamped-25/carousels/img-meet-slackbot@2x.png)\n\n![Slack UI displays an AI answer to a search query.](https://a.slack-edge.com/5cb5052/marketing/img/homepage/revamped-25/carousels/img-knowledge-1@2x.png)\n\n![A Salesforce channel in Slack shows a dashboard with data related to an opportunity.](https://a.slack-edge.com/5cb5052/marketing/img/homepage/revamped-25/carousels/img-knowledge-2@2x.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:59:08.535867Z",
+      "section_path": "All your people and AI agents working together. > Knowledge",
+      "chunk_index": 2,
+      "token_count": 331,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_db99e73a85a6",
+      "source_type": "official_docs",
+      "url": "https://slack.com",
+      "domain": "slack.com",
+      "page_title": "Slack | AI Work Platform & Productivity Tools",
+      "content": "Let your people connect like people.\n\nSlack’s conversational UI makes collaborating more approachable, whether you're working with a colleague or an agent.\n\nIt all starts with a channel.\n\nChannels are flexible, transparent spaces for working with your team, AI assistants, and agents.\n\n[Learn about channels](https://slack.com/features/channels)\n\nWhen talking is easier than typing…\n\n…hop on a huddle, our built-in video tool. With AI in Slack, your meeting notes take themselves.\n\n[Learn about huddles](https://slack.com/features/huddles)\n\nBring conversations out of the inbox.\n\nSlack Connect lets you chat with clients and vendors in real-time, right from Slack. Email could never.\n\n[Learn about Slack connect](https://slack.com/connect)\n\n![](https://a.slack-edge.com/a044bde/marketing/img/features/ai/lp/logos/logo-anthropic@2x.png)“Slack has been essential to our growth, our speed, and our ability to stay aligned as we scale”\n\n**Kate Jenson,** Head of Americas, Anthropic\n\n![Slack UI shows the a conversation thread between a team and an Agentforce agent.](https://a.slack-edge.com/5cb5052/marketing/img/homepage/revamped-25/carousels/img-people-1@2x.png)\n\n![A huddle in Slack shows a presentation for product launch strategy.](https://a.slack-edge.com/5cb5052/marketing/img/homepage/revamped-25/carousels/img-people-2@2x.png)\n\n![A Slack Connect channel shows a conversation between an internal team and external clients.](https://a.slack-edge.com/5cb5052/marketing/img/homepage/revamped-25/carousels/img-people-3@2x.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:59:08.535924Z",
+      "section_path": "All your people and AI agents working together. > People",
+      "chunk_index": 3,
+      "token_count": 381,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_8ad5163d80cb",
+      "source_type": "official_docs",
+      "url": "https://slack.com",
+      "domain": "slack.com",
+      "page_title": "Slack | AI Work Platform & Productivity Tools",
+      "content": "Manage all your work from one place.\n\nAutomate daily stand-ups, project updates, and approvals so your team can focus on growth instead of guesswork.\n\nAnyone can automate in Slack.\n\nBy click or by code, Slack makes it easy for anyone to build time-saving automations of their own.\n\n[Learn about workflows](https://slack.com/features/workflow-automation)\n\nManage projects and tasks.\n\nTrack. Approve. Mark as complete. All without leaving the conversation.\n\n[Learn about lists](https://slack.com/features/task-list)\n\nA simpler way to get started.\n\nProject manager's block? Beginning a brief? There’s a template for that.\n\n[See all templates](https://slack.com/templates/gallery)\n\n35%\n\nincrease in time saved due to automations for Slack users2\n\n![A workflow builder outlines steps to send a message to a channel and add steps.](https://a.slack-edge.com/5cb5052/marketing/img/homepage/revamped-25/carousels/img-process-2@2x.png)\n\n![A project management board in Slack displays customer incidents.](https://a.slack-edge.com/5cb5052/marketing/img/homepage/revamped-25/carousels/img-process-1@2x.png)\n\n![Slack UI shows various workflow templates.](https://a.slack-edge.com/5cb5052/marketing/img/homepage/revamped-25/carousels/img-process-3@2x.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:59:08.535972Z",
+      "section_path": "All your people and AI agents working together. > Process",
+      "chunk_index": 4,
+      "token_count": 310,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_2c137d6d5d4a",
+      "source_type": "official_docs",
+      "url": "https://slack.com",
+      "domain": "slack.com",
+      "page_title": "Slack | AI Work Platform & Productivity Tools",
+      "content": "Secure. Scaleable. Silo-free.\n\nOur flexible, open platform is purpose-built for bringing the best agents and AI to every business, and can be tailored to fit however your teams work best.\n\nFrom Atlassian to Zoom.\n\nGoogle Drive. ChatGPT. Vercel. Box. Asana. Workday. You name it, it works in Slack.\n\n[See all integrations](https://slack.com/marketplace)\n\nCustomize Slack to fit your needs.\n\nOur platform is flexible so you can build solutions specific to your business.\n\n[Learn about dev tools](https://slack.dev/)\n\nWork without worry.\n\nIf it’s shared in Slack, it’s safe. Our security program protects your data at every layer.\n\n[Learn about security](https://slack.com/trust/security)\n\n![](https://a.slack-edge.com/38141b7/marketing/img/homepage/revamped-25/logos/logo-vercel@2x.png)“Work starts in conversation. That’s why we see Slack as the natural place to build our agents.”\n\n**Guillermo Rauch,** CEO, Vercel\n\n![filler alt](https://a.slack-edge.com/5cb5052/marketing/img/homepage/revamped-25/carousels/img-platform-1@2x.png)\n\n![filler alt](https://a.slack-edge.com/5cb5052/marketing/img/homepage/revamped-25/carousels/img-platform-2@2x.png)\n\n![filler alt](https://a.slack-edge.com/326ec33/marketing/img/homepage/revamped-25/carousels/img-platform-3@2x.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:59:08.536022Z",
+      "section_path": "All your people and AI agents working together. > Platform",
+      "chunk_index": 5,
+      "token_count": 315,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_956a0680e436",
+      "source_type": "official_docs",
+      "url": "https://slack.com",
+      "domain": "slack.com",
+      "page_title": "Slack | AI Work Platform & Productivity Tools",
+      "content": "90\n\n%\n\nof users say Slack helps them stay more connected4\n\n43\n\nThe average number of apps used by teams in Slack3\n\n87\n\n%\n\nof users say Slack helps them collaborate more efficiently4",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:59:08.536102Z",
+      "section_path": "All your people and AI agents working together. > We’re in the business of growing businesses.",
+      "chunk_index": 7,
+      "token_count": 45,
+      "quality_score": 0.36
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Slack is where work flows.",
+      "evidence_ids": [
+        "ev_1d4e95c970ef"
+      ]
+    },
+    "category": {
+      "value": "Communications and Messaging",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_1d4e95c970ef"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_1d4e95c970ef"
+      ]
+    },
+    "api_surface": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_1d4e95c970ef"
+      ]
+    },
+    "api_breadth": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_1d4e95c970ef"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_1d4e95c970ef"
+      ]
+    },
+    "buildability": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_1d4e95c970ef"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_1d4e95c970ef"
+      ]
+    }
+  },
+  "validation": {
+    "status": "INSUFFICIENT_EVIDENCE",
+    "score": 0.25,
+    "fields_checked": 8,
+    "fields_supported": 2,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "auth_methods",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'auth_methods' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "api_surface",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_surface' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "api_breadth",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_breadth' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "buildability",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'buildability' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": {
+    "verified_fields": [],
+    "corrections": {},
+    "screenshots": [],
+    "notes": ""
+  },
+  "pipeline_confidence": 0.25,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.25 below 0.90 threshold",
+      "Auth methods missing or UNKNOWN"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

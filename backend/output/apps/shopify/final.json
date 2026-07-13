@@ -1,0 +1,490 @@
+{
+  "app": {
+    "id": 41,
+    "name": "Shopify",
+    "website": "shopify.dev",
+    "category_hint": "Ecommerce"
+  },
+  "documentation_map": {
+    "app_name": "Shopify",
+    "official_domain": "shopify.dev",
+    "homepage": {
+      "url": "https://shopify.dev",
+      "title": "Shopify",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://shopify.dev/docs/apps/build/authentication-authorization",
+        "title": "Authentication and authorization",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://shopify.dev/docs/api",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": null,
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": null,
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://shopify.dev/docs",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "Shopify",
+      "official_domain": "shopify.dev",
+      "items": [
+        {
+          "url": "https://shopify.dev",
+          "page_type": "homepage",
+          "title": "Shopify",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://shopify.dev/docs/api",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://shopify.dev/docs",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://shopify.dev/docs/apps/build/authentication-authorization",
+          "page_type": "authentication",
+          "title": "Authentication and authorization",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 3,
+        "urls_discovered": 4,
+        "official_urls": 4,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 4
+      }
+    },
+    "stats": {
+      "queries": 3,
+      "urls_discovered": 4,
+      "official_urls": 4,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 4
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_f3a9c284493f",
+      "source_type": "api_reference",
+      "url": "https://shopify.dev/docs/api",
+      "domain": "shopify.dev",
+      "page_title": "Shopify APIs, libraries, and tools",
+      "content": "Turn your idea into a working integration. Find everything you need to build across every Shopify surface.\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/graphql-CtV9Er4e.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/graphql-dark-D164nhV9.png)\\\\\n\\\\\n**About Shopify APIs** \\\\\n\\\\\nAuthentication, versioning, rate limits, and other topics that apply across APIs.](https://shopify.dev/docs/api/usage)\n\n[\\#### About Shopify APIs\\\\\n\\\\\nAuthentication, versioning, rate limits, and other topics that apply across APIs.](https://shopify.dev/docs/api/usage)\n\nGET STARTED\n\nSet up the essential tools and packages for building on Shopify.\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/clicode-rF2-GQAf.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/clicode-dark-1wPLlZdJ.png)\\\\\n\\\\\n**Shopify CLI** \\\\\n\\\\\nGenerate apps and extensions, run dev servers, and deploy projects.](https://shopify.dev/docs/api/shopify-cli)\n\n[\\#### Shopify CLI\\\\\n\\\\\nGenerate apps and extensions, run dev servers, and deploy projects.](https://shopify.dev/docs/api/shopify-cli)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/app-C6BJqvDS.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/app-dark-Cv9837SX.png)\\\\\n\\\\\n**React Router app package** \\\\\n\\\\\nUse Shopify's recommended package for building apps with React Router v7+.](https://shopify.dev/docs/api/shopify-app-react-router)\n\n[\\#### React Router app package\\\\\n\\\\\nUse Shopify's recommended package for building apps with React Router v7+.](https://shopify.dev/docs/api/shopify-app-react-router)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/store-management-DdjELX1m.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/store-management-DdjELX1m.png)\\\\\n\\\\\n**Dev stores** \\\\\n\\\\\nSet up development stores for testing your apps and themes.](https://shopify.dev/docs/apps/build/dev-dashboard/development-stores)\n\n[\\#### Dev stores\\\\\n\\\\\nSet up development stores for testing your apps and themes.](https://shopify.dev/docs/apps/build/dev-dashboard/development-stores)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/ruby-DMl2EgcL.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/ruby-dark-BLgCVBON.png)\\\\\n\\\\\n**Libraries and templates** \\\\\n\\\\\nAPI libraries for Ruby, Node, PHP, Go, and .NET, plus app templates and sample apps.](https://shopify.dev/docs/api/libraries-and-templates)\n\n[\\#### Libraries and templates\\\\\n\\\\\nAPI libraries for Ruby, Node, PHP, Go, and .NET, plus app templates and sample apps.](https://shopify.dev/docs/api/libraries-and-templates)\n\nAPP DATA AND LOGIC",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:41.651001Z",
+      "section_path": "Shopify APIs, libraries, and tools > [Anchor to Set up your development environment](https://shopify.dev/docs/api\\#set-up-your-development-environment) Set up your development environment",
+      "chunk_index": 0,
+      "token_count": 745,
+      "quality_score": 0.78
+    },
+    {
+      "id": "ev_c2565025bfae",
+      "source_type": "auth_docs",
+      "url": "https://shopify.dev/docs/apps/build/authentication-authorization",
+      "domain": "shopify.dev",
+      "page_title": "Authentication and authorization",
+      "content": "[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/48/book-Dln-RR9e.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/48/tutorial-dark-6Bh6Mzs3.png)\\\\\n\\\\\nShopify CLI\\\\\n\\\\\nA command-line tool to help you build Shopify apps faster\\\\\n\\\\\nShopify CLI\\\\\n\\\\\nA command-line tool to help you build Shopify apps faster](https://shopify.dev/docs/apps/build/cli-for-apps)\n\n[Shopify CLI\\\\\n\\\\\nA command-line tool to help you build Shopify apps faster](https://shopify.dev/docs/apps/build/cli-for-apps)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/48/github-ByuPTTJu.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/48/github-dark-CoaNuIDT.png)\\\\\n\\\\\nshopify\\_api\\\\\n\\\\\nShopify’s official Ruby gem for interacting with the Admin API\\\\\n\\\\\nshopify\\_api\\\\\n\\\\\nShopify’s official Ruby gem for interacting with the Admin API](https://github.com/Shopify/shopify-api-ruby)\n\n[shopify\\_api\\\\\n\\\\\nShopify’s official Ruby gem for interacting with the Admin API](https://github.com/Shopify/shopify-api-ruby)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/48/github-ByuPTTJu.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/48/github-dark-CoaNuIDT.png)\\\\\n\\\\\n@shopify/shopify-api\\\\\n\\\\\nShopify’s official Node library for interacting with the Storefront and Admin APIs, handling OAuth, webhooks, and billing\\\\\n\\\\\n@shopify/shopify-api\\\\\n\\\\\nShopify’s official Node library for interacting with the Storefront and Admin APIs, handling OAuth, webhooks, and billing](https://github.com/Shopify/shopify-app-js/tree/main/packages/apps/shopify-api)\n\n[@shopify/shopify-api\\\\\n\\\\\nShopify’s official Node library for interacting with the Storefront and Admin APIs, handling OAuth, webhooks, and billing](https://github.com/Shopify/shopify-app-js/tree/main/packages/apps/shopify-api)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/48/node_api-DNaDkiLG.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/48/node_api-dark-DaAWIgAL.png)\\\\\n\\\\\n@shopify/admin-api-client\\\\\n\\\\\nShopify’s official lightweight Node library for interacting with the Admin API\\\\\n\\\\\n@shopify/admin-api-client\\\\\n\\\\\nShopify’s official lightweight Node library for interacting with the Admin API](https://github.com/Shopify/shopify-app-js/tree/main/packages/api-clients/admin-api-client)\n\n[@shopify/admin-api-client\\\\\n\\\\\nShopify’s official lightweight Node library for interacting with the Admin API](https://github.com/Shopify/shopify-app-js/tree/main/packages/api-clients/admin-api-client)\n\n* * *\n\nWas this page helpful?\n\nYesNo\n\nAssistant",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:41.468093Z",
+      "section_path": "[Anchor to Authentication vs. authorization](https://shopify.dev/docs/apps/build/authentication-authorization\\#authentication-vs-authorization) Authentication vs. authorization > [Anchor to Tools](https://shopify.dev/docs/apps/build/authentication-authorization\\#tools) Tools",
+      "chunk_index": 3,
+      "token_count": 705,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_0de367cec8a9",
+      "source_type": "api_reference",
+      "url": "https://shopify.dev/docs/api",
+      "domain": "shopify.dev",
+      "page_title": "Shopify APIs, libraries, and tools",
+      "content": "Access core APIs and backend tools for reading, writing, and reacting to store data. Build integrations that manage your store and respond to changes in real time.\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/graphql-CtV9Er4e.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/graphql-dark-D164nhV9.png)\\\\\n\\\\\n**GraphQL Admin API** \\\\\n\\\\\nBuild apps that extend and interact with the Shopify admin. Access products, customers, orders, inventory, and more.](https://shopify.dev/docs/api/admin-graphql)\n\n[\\#### GraphQL Admin API\\\\\n\\\\\nBuild apps that extend and interact with the Shopify admin. Access products, customers, orders, inventory, and more.](https://shopify.dev/docs/api/admin-graphql)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/clicode-rF2-GQAf.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/clicode-dark-1wPLlZdJ.png)\\\\\n\\\\\n**Shopify Functions** \\\\\n\\\\\nCustomize backend logic for discounts, payments, and delivery.](https://shopify.dev/docs/api/functions)\n\n[\\#### Shopify Functions\\\\\n\\\\\nCustomize backend logic for discounts, payments, and delivery.](https://shopify.dev/docs/api/functions)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/changelog-BON5ZEPY.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/changelog-dark-EdbYP_Tk.png)\\\\\n\\\\\n**Events** \\\\\n\\\\\nSubscribe to granular changes to GraphQL Admin objects, and shape the data you receive.](https://shopify.dev/docs/api/events)\n\n[\\#### Events\\\\\n\\\\\nSubscribe to granular changes to GraphQL Admin objects, and shape the data you receive.](https://shopify.dev/docs/api/events)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/gear-Dp8iz837.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/gear-dark-cBM9HQwb.png)\\\\\n\\\\\n**Webhooks** \\\\\n\\\\\nListen for store events and trigger your own logic.](https://shopify.dev/docs/api/webhooks)\n\n[\\#### Webhooks\\\\\n\\\\\nListen for store events and trigger your own logic.](https://shopify.dev/docs/api/webhooks)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/coin-Cs59BzsB.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/coin-dark-gYJIcgqs.png)\\\\\n\\\\\n**Payments Apps API** \\\\\n\\\\\nManage payments, refunds, and more through the Payments Apps API.](https://shopify.dev/docs/api/payments-apps)\n\n[\\#### Payments Apps API\\\\\n\\\\\nManage payments, refunds, and more through the Payments Apps API.](https://shopify.dev/docs/api/payments-apps)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:41.651056Z",
+      "section_path": "Shopify APIs, libraries, and tools > [Anchor to Read and write store data](https://shopify.dev/docs/api\\#read-and-write-store-data) Read and write store data",
+      "chunk_index": 1,
+      "token_count": 703,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_99398764c80c",
+      "source_type": "api_reference",
+      "url": "https://shopify.dev/docs/api",
+      "domain": "shopify.dev",
+      "page_title": "Shopify APIs, libraries, and tools",
+      "content": "[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/pickaxe-3-DFINCkLw.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/pickaxe-3-dark-RhzjiVkj.png)\\\\\n\\\\\n**REST Admin API (legacy)** \\\\\n\\\\\nAccess Shopify admin data using REST endpoints. For new integrations, use the GraphQL Admin API instead.](https://shopify.dev/docs/api/admin-rest)\n\n[\\#### REST Admin API (legacy)\\\\\n\\\\\nAccess Shopify admin data using REST endpoints. For new integrations, use the GraphQL Admin API instead.](https://shopify.dev/docs/api/admin-rest)\n\nPOLARIS",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:41.651075Z",
+      "section_path": "Shopify APIs, libraries, and tools > [Anchor to Read and write store data](https://shopify.dev/docs/api\\#read-and-write-store-data) Read and write store data",
+      "chunk_index": 2,
+      "token_count": 154,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_a05c10cf3292",
+      "source_type": "api_reference",
+      "url": "https://shopify.dev/docs/api",
+      "domain": "shopify.dev",
+      "page_title": "Shopify APIs, libraries, and tools",
+      "content": "Access everything you need to build, customize, and manage the buyer-facing side of a Shopify store, from headless commerce and theme development to customer identity and privacy.\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/graphql-CtV9Er4e.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/graphql-dark-D164nhV9.png)\\\\\n\\\\\n**Storefront API** \\\\\n\\\\\nBuild custom shopping experiences for web, mobile, gaming, and more.](https://shopify.dev/docs/api/storefront)\n\n[\\#### Storefront API\\\\\n\\\\\nBuild custom shopping experiences for web, mobile, gaming, and more.](https://shopify.dev/docs/api/storefront)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/pickaxe-2-CG9qA6oP.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/pickaxe-2-dark-agLLGi4y.png)\\\\\n\\\\\n**ShopifyQL** \\\\\n\\\\\nQuery store data with an SQL-like language.](https://shopify.dev/docs/api/shopifyql)\n\n[\\#### ShopifyQL\\\\\n\\\\\nQuery store data with an SQL-like language.](https://shopify.dev/docs/api/shopifyql)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/themes-wgZTan0z.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/themes-dark-gLEmRFTj.png)\\\\\n\\\\\n**Liquid** \\\\\n\\\\\nBuild or customize Shopify themes using the Liquid template language.](https://shopify.dev/docs/api/liquid)\n\n[\\#### Liquid\\\\\n\\\\\nBuild or customize Shopify themes using the Liquid template language.](https://shopify.dev/docs/api/liquid)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/lightning-DYmgnkLp.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/lightning-dark-D4Oz6lm_.png)\\\\\n\\\\\n**Ajax API** \\\\\n\\\\\nAdd dynamic elements to online stores with a lightweight JSON API.](https://shopify.dev/docs/api/ajax)\n\n[\\#### Ajax API\\\\\n\\\\\nAdd dynamic elements to online stores with a lightweight JSON API.](https://shopify.dev/docs/api/ajax)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/custom-storefronts-BaLaCBnH.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/custom-storefronts-dark-BITMPSF8.png)\\\\\n\\\\\n**Hydrogen framework** \\\\\n\\\\\nBuild full-stack React storefronts with built-in hosting and server-side rendering.](https://shopify.dev/docs/api/hydrogen)\n\n[\\#### Hydrogen framework\\\\\n\\\\\nBuild full-stack React storefronts with built-in hosting and server-side rendering.](https://shopify.dev/docs/api/hydrogen)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/custom-storefronts-BaLaCBnH.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/custom-storefronts-dark-BITMPSF8.png)\\\\\n\\\\\n**Hydrogen React library** \\\\\n\\\\\nAdd React hooks and components for cart, shop pay, and storefront data to any React app.](https://shopify.dev/docs/api/hydrogen-react)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:41.651177Z",
+      "section_path": "Shopify APIs, libraries, and tools > [Anchor to Build custom commerce experiences](https://shopify.dev/docs/api\\#build-custom-commerce-experiences) Build custom commerce experiences",
+      "chunk_index": 4,
+      "token_count": 788,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_9a3a1507e5f9",
+      "source_type": "api_reference",
+      "url": "https://shopify.dev/docs/api",
+      "domain": "shopify.dev",
+      "page_title": "Shopify APIs, libraries, and tools",
+      "content": "[\\#### Hydrogen React library\\\\\n\\\\\nAdd React hooks and components for cart, shop pay, and storefront data to any React app.](https://shopify.dev/docs/api/hydrogen-react)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/blocks-DlrZj-5s.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/blocks-dark-DQXthPnt.png)\\\\\n\\\\\n**Storefront Web Components** \\\\\n\\\\\nBring Shopify commerce to any website with embedded HTML components.](https://shopify.dev/docs/api/storefront-web-components)\n\n[\\#### Storefront Web Components\\\\\n\\\\\nBring Shopify commerce to any website with embedded HTML components.](https://shopify.dev/docs/api/storefront-web-components)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/key-4B2yHMmv.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/key-dark-BYWGft3h.png)\\\\\n\\\\\n**Customer Privacy API** \\\\\n\\\\\nManage customer consent and privacy preferences for your storefront.](https://shopify.dev/docs/api/customer-privacy)\n\n[\\#### Customer Privacy API\\\\\n\\\\\nManage customer consent and privacy preferences for your storefront.](https://shopify.dev/docs/api/customer-privacy)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/graphql-CtV9Er4e.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/graphql-dark-D164nhV9.png)\\\\\n\\\\\n**Customer Account API** \\\\\n\\\\\nManage customer data with single sign-on across multiple surfaces.](https://shopify.dev/docs/api/customer)\n\n[\\#### Customer Account API\\\\\n\\\\\nManage customer data with single sign-on across multiple surfaces.](https://shopify.dev/docs/api/customer)\n\nAPP MANAGEMENT",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:41.651211Z",
+      "section_path": "Shopify APIs, libraries, and tools > [Anchor to Build custom commerce experiences](https://shopify.dev/docs/api\\#build-custom-commerce-experiences) Build custom commerce experiences",
+      "chunk_index": 5,
+      "token_count": 452,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_9b7d3a5a6e61",
+      "source_type": "api_reference",
+      "url": "https://shopify.dev/docs/api",
+      "domain": "shopify.dev",
+      "page_title": "Shopify APIs, libraries, and tools",
+      "content": "Use tools for specific use cases that complement Shopify's core APIs.\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/star-Cr07pym4.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/star-dark-CpTqXjRp.png)\\\\\n\\\\\n**Multipass** \\\\\n\\\\\nLet customers who sign in on your platform skip the Shopify login entirely.](https://shopify.dev/docs/api/customer-authentication/multipass)\n\n[\\#### Multipass\\\\\n\\\\\nLet customers who sign in on your platform skip the Shopify login entirely.](https://shopify.dev/docs/api/customer-authentication/multipass)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/hearts-9jBkFPns.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/hearts-dark-C0kOi1Uf.png)\\\\\n\\\\\n**Web pixel extensions** \\\\\n\\\\\nCollect behavioral data for marketing, optimization, and analytics.](https://shopify.dev/docs/api/pixels)\n\n[\\#### Web pixel extensions\\\\\n\\\\\nCollect behavioral data for marketing, optimization, and analytics.](https://shopify.dev/docs/api/pixels)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/shop-DV7EB4UW.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/shop-DV7EB4UW.png)\\\\\n\\\\\n**Shop API** \\\\\n\\\\\nConnect with Shop users on your storefront and build with Shopify's consumer commerce surface.](https://shopify.dev/docs/api/shop)\n\n[\\#### Shop API\\\\\n\\\\\nConnect with Shop users on your storefront and build with Shopify's consumer commerce surface.](https://shopify.dev/docs/api/shop)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/shop-DV7EB4UW.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/shop-DV7EB4UW.png)\\\\\n\\\\\n**Shop Minis** \\\\\n\\\\\nBuild mini app experiences within the Shop app.](https://shopify.dev/docs/api/shop-minis)\n\n[\\#### Shop Minis\\\\\n\\\\\nBuild mini app experiences within the Shop app.](https://shopify.dev/docs/api/shop-minis)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/shop-DV7EB4UW.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/shop-DV7EB4UW.png)\\\\\n\\\\\n**Shop Pay Wallet API** \\\\\n\\\\\nAdd Shop Pay checkout to your existing ecommerce site.](https://shopify.dev/docs/api/commerce-components/pay)\n\n[\\#### Shop Pay Wallet API\\\\\n\\\\\nAdd Shop Pay checkout to your existing ecommerce site.](https://shopify.dev/docs/api/commerce-components/pay)\n\nAssistant",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:41.651275Z",
+      "section_path": "Shopify APIs, libraries, and tools > [Anchor to Go deeper with specialized tools](https://shopify.dev/docs/api\\#go-deeper-with-specialized-tools) Go deeper with specialized tools",
+      "chunk_index": 7,
+      "token_count": 666,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_30911c7ebda2",
+      "source_type": "auth_docs",
+      "url": "https://shopify.dev/docs/apps/build/authentication-authorization",
+      "domain": "shopify.dev",
+      "page_title": "Authentication and authorization",
+      "content": "Authentication is the process of verifying the identity of the user or the app. To keep transactions on Shopify’s platform [safe and secure](https://shopify.dev/docs/apps/build/compliance/privacy-law-compliance), all apps connecting with Shopify APIs must authenticate when making API requests.\n\nAuthorization is the process of giving permissions to apps. When an app user installs a Shopify app they authorize the app, enabling the app to acquire an access token. For example, an app might be authorized to access orders and product data in a store.\n\n* * *\n\nThe authentication and authorization methods that your app needs to use depends on the tool that you used to create your app, and the components that your app uses.\n\n- Apps rendered in the Shopify admin need to authenticate their incoming requests with [session tokens](https://shopify.dev/docs/apps/build/authentication-authorization/session-tokens).\n- Standalone apps need to implement their own authentication method for incoming requests.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:41.467814Z",
+      "section_path": "[Anchor to Authentication vs. authorization](https://shopify.dev/docs/apps/build/authentication-authorization\\#authentication-vs-authorization) Authentication vs. authorization > [Anchor to Types of authentication and authorization methods](https://shopify.dev/docs/apps/build/authentication-authorization\\#types-of-authentication-and-authorization-methods) Types of authentication and authorization methods > [Anchor to Authentication](https://shopify.dev/docs/apps/build/authentication-authorization\\#authentication) Authentication",
+      "chunk_index": 0,
+      "token_count": 250,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_abbf303bfe57",
+      "source_type": "auth_docs",
+      "url": "https://shopify.dev/docs/apps/build/authentication-authorization",
+      "domain": "shopify.dev",
+      "page_title": "Authentication and authorization",
+      "content": "Authorization encompasses the installation of an app and the means to acquire an access token.\n\nTo avoid unnecessary redirects and page flickers during the app installation process, you should [configure your app's required access scopes using Shopify CLI](https://shopify.dev/docs/apps/build/cli-for-apps/app-configuration). This allows Shopify to [manage the installation process for you](https://shopify.dev/docs/apps/build/authentication-authorization/app-installation).\n\nIf you aren't able to use Shopify CLI to configure your app, then your app will install as part of the [authorization code grant flow](https://shopify.dev/docs/apps/build/authentication-authorization/access-tokens/authorization-code-grant). This provides a degraded user experience.\n\nIf you're building an app for your own organization and don't require user interaction, you can use the [client credentials grant](https://shopify.dev/docs/apps/build/authentication-authorization/access-tokens/client-credentials-grant) to acquire access tokens.\n\nThe following table outlines the supported installation and token acquisition flows for various app configurations.\n\nWhenever possible, you should create apps rendered in the Shopify admin that use Shopify managed installation and token exchange.\n\n| Type of app | Supported installation flows | Supported token acquisition flows |\n| --- | --- | --- |\n| App rendered in the Shopify admin | [Shopify managed installation (recommended)](https://shopify.dev/docs/apps/build/authentication-authorization/app-installation)<br>[Installation during authorization code grant](https://shopify.dev/docs/apps/build/authentication-authorization/access-tokens/authorization-code-grant) | [Token exchange (recommended)](https://shopify.dev/docs/apps/build/authentication-authorization/access-tokens/token-exchange)<br>[Authorization code grant](https://shopify.dev/docs/apps/build/authentication-authorization/access-tokens/authorization-code-grant) |\n| Standalone app | [Shopify managed installation (recommended)](https://shopify.dev/docs/apps/build/authentication-authorization/app-installation)<br>[Installation during authorization code grant](https://shopify.dev/docs/apps/build/authentication-authorization/access-tokens/authorization-code-grant) | [Authorization code grant](https://shopify.dev/docs/apps/build/authentication-authorization/access-tokens/authorization-code-grant) |\n| Admin-created custom app | Installed upon generation in the Shopify admin | [Generate in the Shopify admin](https://shopify.dev/docs/apps/build/authentication-authorization/access-tokens/generate-app-access-tokens-admin) |\n\nOAuth 2.0 is the industry-standard protocol for authorizing or giving permissions to apps. The following video illustrates how OAuth works at Shopify. Note that this video was created before [token exchange](https://shopify.dev/docs/apps/build/authentication-authorization/access-tokens/token-exchange) was introduced, and might use the term \"OAuth\" interchangeably with \"authorization code grant.\"\n\nWhat is OAuth? Open Authorization 2.0 Explained - YouTube\n\nTap to unmute",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:41.467928Z",
+      "section_path": "[Anchor to Authentication vs. authorization](https://shopify.dev/docs/apps/build/authentication-authorization\\#authentication-vs-authorization) Authentication vs. authorization > [Anchor to Types of authentication and authorization methods](https://shopify.dev/docs/apps/build/authentication-authorization\\#types-of-authentication-and-authorization-methods) Types of authentication and authorization methods > [Anchor to Authorization](https://shopify.dev/docs/apps/build/authentication-authorization\\#authorization) Authorization",
+      "chunk_index": 1,
+      "token_count": 774,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_61c6dc43b4f9",
+      "source_type": "auth_docs",
+      "url": "https://shopify.dev/docs/apps/build/authentication-authorization",
+      "domain": "shopify.dev",
+      "page_title": "Authentication and authorization",
+      "content": "[What is OAuth? Open Authorization 2.0 Explained](https://www.youtube.com/watch?v=3NTWjZ1IvDk) [ShopifyDevs](https://www.youtube.com/channel/UCcYsEEKJtpxoO9T-keJZrEw)\n\n![thumbnail-image](https://yt3.ggpht.com/fu13tAvmMGx1kgVZPQ4Tc0wnr6OEDMdHj-sgoMOepSVTmGd2Z8ptkTkmHPCQX9udHG6-bSbz9A=s68-c-k-c0x00ffffff-no-rj)\n\nShopifyDevs50.6K subscribers\n\n[Watch on](https://www.youtube.com/watch?v=3NTWjZ1IvDk)\n\n* * *\n\n- Authenticate your app using [session tokens](https://shopify.dev/docs/apps/build/authentication-authorization/session-tokens).\n- Authorize your app using a session token with [token exchange](https://shopify.dev/docs/apps/build/authentication-authorization/access-tokens/token-exchange).\n- Authorize your standalone app with [authorization code grant](https://shopify.dev/docs/apps/build/authentication-authorization/access-tokens/authorization-code-grant).\n- Authenticate your app created in the Shopify admin with [access tokens](https://shopify.dev/docs/apps/build/authentication-authorization/access-tokens/generate-app-access-tokens-admin).\n\n* * *",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:41.467977Z",
+      "section_path": "[Anchor to Authentication vs. authorization](https://shopify.dev/docs/apps/build/authentication-authorization\\#authentication-vs-authorization) Authentication vs. authorization > [Anchor to Getting started](https://shopify.dev/docs/apps/build/authentication-authorization\\#getting-started) Getting started",
+      "chunk_index": 2,
+      "token_count": 265,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_d508bcf75ef9",
+      "source_type": "api_reference",
+      "url": "https://shopify.dev/docs/api",
+      "domain": "shopify.dev",
+      "page_title": "Shopify APIs, libraries, and tools",
+      "content": "Build interfaces that render natively across Shopify. Your code lives inside the Shopify experience.\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/app-C6BJqvDS.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/app-dark-Cv9837SX.png)\\\\\n\\\\\n**App Home** \\\\\n\\\\\nBuild and customize your app's home page in the Shopify admin.](https://shopify.dev/docs/api/app-home)\n\n[\\#### App Home\\\\\n\\\\\nBuild and customize your app's home page in the Shopify admin.](https://shopify.dev/docs/api/app-home)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/store-management-DdjELX1m.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/store-management-DdjELX1m.png)\\\\\n\\\\\n**Admin UI extensions** \\\\\n\\\\\nCreate admin UI extensions for deeper integration into the Shopify admin.](https://shopify.dev/docs/api/admin-extensions)\n\n[\\#### Admin UI extensions\\\\\n\\\\\nCreate admin UI extensions for deeper integration into the Shopify admin.](https://shopify.dev/docs/api/admin-extensions)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/cart-CQUbdBXV.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/cart-CQUbdBXV.png)\\\\\n\\\\\n**Checkout UI extensions** \\\\\n\\\\\nExtend your app into checkout and customize the checkout experience.](https://shopify.dev/docs/api/checkout-ui-extensions)\n\n[\\#### Checkout UI extensions\\\\\n\\\\\nExtend your app into checkout and customize the checkout experience.](https://shopify.dev/docs/api/checkout-ui-extensions)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/heart-BOkGl6Uf.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/heart-dark-CKHfx-OJ.png)\\\\\n\\\\\n**Customer account UI extensions** \\\\\n\\\\\nBuild extensions for customer account pages.](https://shopify.dev/docs/api/customer-account-ui-extensions)\n\n[\\#### Customer account UI extensions\\\\\n\\\\\nBuild extensions for customer account pages.](https://shopify.dev/docs/api/customer-account-ui-extensions)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/shopify-BGdlnCWK.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/shopify-dark-CADi3Wz3.png)\\\\\n\\\\\n**POS UI extensions** \\\\\n\\\\\nBuild POS UI extensions, loyalty programs, and product recommendations.](https://shopify.dev/docs/api/pos-ui-extensions)\n\n[\\#### POS UI extensions\\\\\n\\\\\nBuild POS UI extensions, loyalty programs, and product recommendations.](https://shopify.dev/docs/api/pos-ui-extensions)\n\nSTOREFRONTS",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:41.651127Z",
+      "section_path": "Shopify APIs, libraries, and tools > [Anchor to Extend every Shopify surface](https://shopify.dev/docs/api\\#extend-every-shopify-surface) Extend every Shopify surface",
+      "chunk_index": 3,
+      "token_count": 696,
+      "quality_score": 0.58
+    },
+    {
+      "id": "ev_d2314613c0b2",
+      "source_type": "api_reference",
+      "url": "https://shopify.dev/docs/api",
+      "domain": "shopify.dev",
+      "page_title": "Shopify APIs, libraries, and tools",
+      "content": "Automate Partner Dashboard operations and emit events from your app to track behaviour, billing, and usage.\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/apps-LBodhFZS.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/apps-dark-ZLYDK9k1.png)\\\\\n\\\\\n**Partner API** \\\\\n\\\\\nManage apps, payouts, and organizations without the Partner Dashboard UI.](https://shopify.dev/docs/api/partner)\n\n[\\#### Partner API\\\\\n\\\\\nManage apps, payouts, and organizations without the Partner Dashboard UI.](https://shopify.dev/docs/api/partner)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/apps-LBodhFZS.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/32/apps-dark-ZLYDK9k1.png)\\\\\n\\\\\n**App Events API** \\\\\n\\\\\nSend events from your app for monitoring or usage charges.](https://shopify.dev/docs/api/app-events)\n\n[\\#### App Events API\\\\\n\\\\\nSend events from your app for monitoring or usage charges.](https://shopify.dev/docs/api/app-events)\n\nADDITIONAL APIS",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:41.651238Z",
+      "section_path": "Shopify APIs, libraries, and tools > [Anchor to Manage and monitor your apps](https://shopify.dev/docs/api\\#manage-and-monitor-your-apps) Manage and monitor your apps",
+      "chunk_index": 6,
+      "token_count": 281,
+      "quality_score": 0.58
+    },
+    {
+      "id": "ev_701fa1248a8a",
+      "source_type": "developer_portal",
+      "url": "https://shopify.dev/docs",
+      "domain": "shopify.dev",
+      "page_title": "Shopify Dev Docs",
+      "content": "Learn how to build an app, or customize your storefront. Whether you're just getting started, deep in the development process, or ready to distribute and monetize your work, Shopify's docs, dev tools and frameworks make building easy and efficient.\n\n![Apps](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/apps-desktop-BsnUGCoX.png)![Apps](<Base64-Image-Removed>)\n\nExtend Shopify's core functionality with apps that integrate into Shopify's admin, online store, checkout and more.\n\n[Build your first app](https://shopify.dev/docs/apps/build)\n\n![Storefronts](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/themes-desktop-DTbEPbPn.png)![Storefronts](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/themes-desktop-dark-aYAGsPuE.png)\n\nHelp merchants express their unique brand by building a custom theme or Hydrogen storefront.\n\n[Build a storefront](https://shopify.dev/docs/storefronts)\n\n![Agents](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/agent-desktop-CehiKHFI.png)![Agents](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/agent-desktop-dark-COq6pmnG.png)\n\nBuild agentic shopping experiences powered by Shopify merchants, from product discovery to checkout.\n\n[Build agents with UCP](https://shopify.dev/docs/agents)\n\n![Apps](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/apps-mobile-2x-mDe9INEz.png)![Apps](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/apps-mobile-dark-2x-_74-DPb0.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:42.130017Z",
+      "section_path": "Shopify Dev Docs > Agents",
+      "chunk_index": 0,
+      "token_count": 382,
+      "quality_score": 0.44
+    },
+    {
+      "id": "ev_dbc297e4e0eb",
+      "source_type": "developer_portal",
+      "url": "https://shopify.dev/docs",
+      "domain": "shopify.dev",
+      "page_title": "Shopify Dev Docs",
+      "content": "Extend Shopify's core functionality with apps that integrate into Shopify's admin, online store, checkout and more.\n\n[Build your first app](https://shopify.dev/docs/apps/build)\n\n![Storefronts](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/themes-mobile-2x-Duh2lFs6.png)![Storefronts](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/themes-mobile-dark-2x-V-dQkPrZ.png)\n\nHelp merchants express their unique brand by building a custom theme or Hydrogen storefront.\n\n[Build a storefront](https://shopify.dev/docs/storefronts)\n\n![Agents](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/agent-mobile-2x-DijL_qiQ.png)![Agents](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/agent-mobile-dark-2x-2DDHeMpz.png)\n\nBuild agentic shopping experiences powered by Shopify merchants, from product discovery to checkout.\n\n[Build agents with UCP](https://shopify.dev/docs/agents)\n\nInitialize new [apps](https://shopify.dev/docs/api/shopify-cli/app), [themes](https://shopify.dev/docs/api/shopify-cli/theme), and [headless storefronts](https://shopify.dev/docs/api/shopify-cli/hydrogen) in an instant with the latest Shopify CLI. A single command installs all the dependencies you need, including the CLI itself, so you can dive straight into development.\n\nApps\n\n1. Install Shopify CLI globally.\n\n2. Navigate to the directory where you want to create your app.\n\n3. Run the second command to create a new app. Your app will be added as a new subdirectory.\n\n\nThemes\n\n1. Install Shopify CLI globally.\n\n2. Navigate to the directory where you want to create your theme.\n\n3. Run the second command to clone a Shopify starter theme that you can build on top of. Your theme will be created in a new subdirectory.\n\n\nHeadless storefronts\n\n1. Install Shopify CLI globally.\n\n2. Navigate to the directory where you want to create your Hydrogen storefront.\n\n3. Run the second command to initialize a Hydrogen storefront in a new subdirectory.\n\n\n9\n\n1\n\nnpmi-g@shopify/cli@latest\n\n9\n\n1\n\nyarnglobaladd@shopify/cli@latest\n\n9\n\n1\n\npnpmadd-g@shopify/cli@latest",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:42.130093Z",
+      "section_path": "Shopify Dev Docs > Accelerate development with Shopify CLI 3.0",
+      "chunk_index": 1,
+      "token_count": 524,
+      "quality_score": 0.44
+    },
+    {
+      "id": "ev_6a569804766c",
+      "source_type": "developer_portal",
+      "url": "https://shopify.dev/docs",
+      "domain": "shopify.dev",
+      "page_title": "Shopify Dev Docs",
+      "content": "```bash\nnpm i -g @shopify/cli@latest\n```\n\n```bash\nyarn global add @shopify/cli@latest\n```\n\n```bash\npnpm add -g @shopify/cli@latest\n```\n\n9\n\n1\n\nshopifyappinit\n\n9\n\n1\n\nshopifythemeinit\n\n9\n\n1\n\nshopifyhydrogeninit\n\nWhen you're ready, submit your app to the [Shopify App Store](https://apps.shopify.com/) so merchants can find and buy your app through search or personalized recommendations.\n\n[See App Store requirements](https://shopify.dev/docs/apps/store/requirements)\n\nPromote and sell your custom theme to merchants building their brands on the [Shopify Theme Store](https://themes.shopify.com/).\n\n[See Theme Store requirements](https://shopify.dev/docs/themes/store/requirements)\n\n![Banner](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/launch-banner-tablet-2x-B1ipneF8.png)\n\n![](<Base64-Image-Removed>)![](<Base64-Image-Removed>)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/48/help-Dzjg2DgY.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/48/forums-dark-DizTiPbt.png)\\\\\n\\\\\n**.dev Community ->** \\\\\n\\\\\nQ&A and advice from Shopify community experts](https://community.shopify.dev/)\n\n[\\#### .dev Community ->\\\\\n\\\\\nQ&A and advice from Shopify community experts](https://community.shopify.dev/)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/48/twitter-D_0VR6z2.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/48/twitter-dark-5i2LhWo_.png)\\\\\n\\\\\n**@ShopifyDevs on X ->** \\\\\n\\\\\nProduct announcements, API updates, tips, and more](https://twitter.com/shopifydevs)\n\n[\\#### @ShopifyDevs on X ->\\\\\n\\\\\nProduct announcements, API updates, tips, and more](https://twitter.com/shopifydevs)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/48/book-dark-CStxq_eU.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/48/changelog-dark-XFWTr4kL.png)\\\\\n\\\\\n**Developer Changelog ->** \\\\\n\\\\\nThe latest Shopify ecosystem updates](https://shopify.dev/changelog)\n\n[\\#### Developer Changelog ->\\\\\n\\\\\nThe latest Shopify ecosystem updates](https://shopify.dev/changelog)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/48/youtube-DN3ZbJC5.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/48/youtube-dark-ck5Bv5_S.png)\\\\\n\\\\\n**ShopifyDevs YouTube channel ->** \\\\\n\\\\\nTips and insights in dev and design](https://www.youtube.com/c/shopifydevs)\n\n[\\#### ShopifyDevs YouTube channel ->\\\\\n\\\\\nTips and insights in dev and design](https://www.youtube.com/c/shopifydevs)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/48/shopify-BdcFRNdB.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/48/shopify-dark-DD6nUhdZ.png)\\\\\n\\\\\n**Shopify Partners blog ->** \\\\\n\\\\\nEducational resources and product previews](https://www.shopify.com/partners/blog)\n\n[\\#### Shopify Partners blog ->\\\\\n\\\\\nEducational resources and product previews](https://www.shopify.com/partners/blog)\n\nAssistant",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:42.130179Z",
+      "section_path": "Shopify Dev Docs > Join a community of builders",
+      "chunk_index": 2,
+      "token_count": 802,
+      "quality_score": 0.44
+    },
+    {
+      "id": "ev_9e9a1b780841",
+      "source_type": "official_docs",
+      "url": "https://shopify.dev",
+      "domain": "shopify.dev",
+      "page_title": "Shopify Dev Docs",
+      "content": "Learn how to build an app, or customize your storefront. Whether you're just getting started, deep in the development process, or ready to distribute and monetize your work, Shopify's docs, dev tools and frameworks make building easy and efficient.\n\n![Apps](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/apps-desktop-BsnUGCoX.png)![Apps](<Base64-Image-Removed>)\n\nExtend Shopify's core functionality with apps that integrate into Shopify's admin, online store, checkout and more.\n\n[Build your first app](https://shopify.dev/docs/apps/build)\n\n![Storefronts](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/themes-desktop-DTbEPbPn.png)![Storefronts](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/themes-desktop-dark-aYAGsPuE.png)\n\nHelp merchants express their unique brand by building a custom theme or Hydrogen storefront.\n\n[Build a storefront](https://shopify.dev/docs/storefronts)\n\n![Agents](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/agent-desktop-CehiKHFI.png)![Agents](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/agent-desktop-dark-COq6pmnG.png)\n\nBuild agentic shopping experiences powered by Shopify merchants, from product discovery to checkout.\n\n[Build agents with UCP](https://shopify.dev/docs/agents)\n\n![Apps](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/apps-mobile-2x-mDe9INEz.png)![Apps](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/apps-mobile-dark-2x-_74-DPb0.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:41.311847Z",
+      "section_path": "Shopify Dev Docs > Agents",
+      "chunk_index": 0,
+      "token_count": 382,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_ecdc6cabdea0",
+      "source_type": "official_docs",
+      "url": "https://shopify.dev",
+      "domain": "shopify.dev",
+      "page_title": "Shopify Dev Docs",
+      "content": "Extend Shopify's core functionality with apps that integrate into Shopify's admin, online store, checkout and more.\n\n[Build your first app](https://shopify.dev/docs/apps/build)\n\n![Storefronts](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/themes-mobile-2x-Duh2lFs6.png)![Storefronts](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/themes-mobile-dark-2x-V-dQkPrZ.png)\n\nHelp merchants express their unique brand by building a custom theme or Hydrogen storefront.\n\n[Build a storefront](https://shopify.dev/docs/storefronts)\n\n![Agents](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/agent-mobile-2x-DijL_qiQ.png)![Agents](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/agent-mobile-dark-2x-2DDHeMpz.png)\n\nBuild agentic shopping experiences powered by Shopify merchants, from product discovery to checkout.\n\n[Build agents with UCP](https://shopify.dev/docs/agents)\n\nInitialize new [apps](https://shopify.dev/docs/api/shopify-cli/app), [themes](https://shopify.dev/docs/api/shopify-cli/theme), and [headless storefronts](https://shopify.dev/docs/api/shopify-cli/hydrogen) in an instant with the latest Shopify CLI. A single command installs all the dependencies you need, including the CLI itself, so you can dive straight into development.\n\nApps\n\n1. Install Shopify CLI globally.\n\n2. Navigate to the directory where you want to create your app.\n\n3. Run the second command to create a new app. Your app will be added as a new subdirectory.\n\n\nThemes\n\n1. Install Shopify CLI globally.\n\n2. Navigate to the directory where you want to create your theme.\n\n3. Run the second command to clone a Shopify starter theme that you can build on top of. Your theme will be created in a new subdirectory.\n\n\nHeadless storefronts\n\n1. Install Shopify CLI globally.\n\n2. Navigate to the directory where you want to create your Hydrogen storefront.\n\n3. Run the second command to initialize a Hydrogen storefront in a new subdirectory.\n\n\n9\n\n1\n\nnpmi-g@shopify/cli@latest\n\n9\n\n1\n\nyarnglobaladd@shopify/cli@latest\n\n9\n\n1\n\npnpmadd-g@shopify/cli@latest",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:41.311924Z",
+      "section_path": "Shopify Dev Docs > Accelerate development with Shopify CLI 3.0",
+      "chunk_index": 1,
+      "token_count": 524,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_9e00be95e0f8",
+      "source_type": "official_docs",
+      "url": "https://shopify.dev",
+      "domain": "shopify.dev",
+      "page_title": "Shopify Dev Docs",
+      "content": "```bash\nnpm i -g @shopify/cli@latest\n```\n\n```bash\nyarn global add @shopify/cli@latest\n```\n\n```bash\npnpm add -g @shopify/cli@latest\n```\n\n9\n\n1\n\nshopifyappinit\n\n9\n\n1\n\nshopifythemeinit\n\n9\n\n1\n\nshopifyhydrogeninit\n\nWhen you're ready, submit your app to the [Shopify App Store](https://apps.shopify.com/) so merchants can find and buy your app through search or personalized recommendations.\n\n[See App Store requirements](https://shopify.dev/docs/apps/store/requirements)\n\nPromote and sell your custom theme to merchants building their brands on the [Shopify Theme Store](https://themes.shopify.com/).\n\n[See Theme Store requirements](https://shopify.dev/docs/themes/store/requirements)\n\n![Banner](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/launch-banner-tablet-2x-B1ipneF8.png)\n\n![](<Base64-Image-Removed>)![](<Base64-Image-Removed>)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/48/help-Dzjg2DgY.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/48/forums-dark-DizTiPbt.png)\\\\\n\\\\\n**.dev Community ->** \\\\\n\\\\\nQ&A and advice from Shopify community experts](https://community.shopify.dev/)\n\n[\\#### .dev Community ->\\\\\n\\\\\nQ&A and advice from Shopify community experts](https://community.shopify.dev/)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/48/twitter-D_0VR6z2.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/48/twitter-dark-5i2LhWo_.png)\\\\\n\\\\\n**@ShopifyDevs on X ->** \\\\\n\\\\\nProduct announcements, API updates, tips, and more](https://twitter.com/shopifydevs)\n\n[\\#### @ShopifyDevs on X ->\\\\\n\\\\\nProduct announcements, API updates, tips, and more](https://twitter.com/shopifydevs)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/48/book-dark-CStxq_eU.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/48/changelog-dark-XFWTr4kL.png)\\\\\n\\\\\n**Developer Changelog ->** \\\\\n\\\\\nThe latest Shopify ecosystem updates](https://shopify.dev/changelog)\n\n[\\#### Developer Changelog ->\\\\\n\\\\\nThe latest Shopify ecosystem updates](https://shopify.dev/changelog)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/48/youtube-DN3ZbJC5.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/48/youtube-dark-ck5Bv5_S.png)\\\\\n\\\\\n**ShopifyDevs YouTube channel ->** \\\\\n\\\\\nTips and insights in dev and design](https://www.youtube.com/c/shopifydevs)\n\n[\\#### ShopifyDevs YouTube channel ->\\\\\n\\\\\nTips and insights in dev and design](https://www.youtube.com/c/shopifydevs)\n\n[![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/48/shopify-BdcFRNdB.png)![](https://cdn.shopify.com/shopifycloud/shopify-dev/production/assets/assets/images/icons/48/shopify-dark-DD6nUhdZ.png)\\\\\n\\\\\n**Shopify Partners blog ->** \\\\\n\\\\\nEducational resources and product previews](https://www.shopify.com/partners/blog)\n\n[\\#### Shopify Partners blog ->\\\\\n\\\\\nEducational resources and product previews](https://www.shopify.com/partners/blog)\n\nAssistant",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:41.312011Z",
+      "section_path": "Shopify Dev Docs > Join a community of builders",
+      "chunk_index": 2,
+      "token_count": 802,
+      "quality_score": 0.36
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Shopify provides APIs, libraries, and tools for building integrations and apps.",
+      "evidence_ids": [
+        "ev_f3a9c284493f"
+      ]
+    },
+    "category": {
+      "value": "Ecommerce",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "OAuth 2.0, session tokens",
+      "evidence_ids": [
+        "ev_c2565025bfae",
+        "ev_30911c7ebda2"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_f3a9c284493f"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API, GraphQL, webhooks, SDKs",
+      "evidence_ids": [
+        "ev_0de367cec8a9",
+        "ev_99398764c80c",
+        "ev_a05c10cf3292"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_f3a9c284493f"
+      ]
+    },
+    "mcp": {
+      "value": "No known MCP",
+      "evidence_ids": [
+        "ev_f3a9c284493f"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_f3a9c284493f"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_f3a9c284493f"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.88,
+    "fields_checked": 8,
+    "fields_supported": 7,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.88,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.88 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

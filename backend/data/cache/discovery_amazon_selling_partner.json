@@ -1,0 +1,1224 @@
+{
+  "app_name": "Amazon Selling Partner",
+  "official_domain": "developer-docs.amazon.com",
+  "homepage": {
+    "url": "https://developer-docs.amazon.com/sp-api",
+    "title": "Amazon Selling Partner",
+    "confidence": 0.4,
+    "confidence_reason": [
+      "official_docs: +0.40"
+    ],
+    "is_official": true,
+    "discovered_from": "domain_probe"
+  },
+  "authentication": {
+    "primary": {
+      "url": "https://developer-docs.amazon/sp-api/docs/authorizing-selling-partner-api-applications.md",
+      "title": "Authorize Applications",
+      "confidence": 0.75,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "canonical_doc: +0.10",
+        "llms_txt_source: +0.05"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "alternatives": [
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/authorize-public-applications.md",
+        "title": "Authorize Public Applications",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/authorize-your-application-to-access-vendor-groups.md",
+        "title": "Authorize your Application to Access Vendor Groups",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/authorization-with-the-restricted-data-token.md",
+        "title": "Authorization with the Restricted Data Token",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      }
+    ]
+  },
+  "api_reference": {
+    "primary": {
+      "url": "https://developer-docs.amazon/sp-api/page/404",
+      "title": "",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "alternatives": []
+  },
+  "pricing": {
+    "primary": {
+      "url": "https://developer-docs.amazon/sp-api/page/404",
+      "title": "",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "alternatives": []
+  },
+  "mcp": {
+    "primary": {
+      "url": "https://developer-docs.amazon/sp-api/page/404",
+      "title": "",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "alternatives": []
+  },
+  "developer_portal": {
+    "primary": {
+      "url": "https://developer-docs.amazon/sp-api/docs/welcome.md",
+      "title": "Welcome to SP-API Documentation",
+      "confidence": 0.65,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "llms_txt_source: +0.05"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "alternatives": [
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/what-is-the-selling-partner-api.md",
+        "title": "What is the Selling Partner API?",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/selling-partner-api-onboarding-overview.md",
+        "title": "Selling Partner API Onboarding Overview",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/onboarding-overview.md",
+        "title": "Onboarding as a Developer",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      }
+    ]
+  },
+  "sdk": null,
+  "webhooks": null,
+  "llms_txt": {
+    "url": "https://developer-docs.amazon.com/llms.txt",
+    "title": "llms.txt index",
+    "confidence": 1.0,
+    "confidence_reason": [
+      "llms_txt_source: +0.05",
+      "official_docs: +0.40",
+      "canonical_doc: +0.10"
+    ],
+    "is_official": true,
+    "discovered_from": "llms_txt"
+  },
+  "inventory": {
+    "app_name": "Amazon Selling Partner",
+    "official_domain": "developer-docs.amazon.com",
+    "items": [
+      {
+        "url": "https://developer-docs.amazon.com/sp-api",
+        "page_type": "homepage",
+        "title": "Amazon Selling Partner",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/welcome.md",
+        "page_type": "developer_portal",
+        "title": "Welcome to SP-API Documentation",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/what-is-the-selling-partner-api.md",
+        "page_type": "developer_portal",
+        "title": "What is the Selling Partner API?",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/selling-partner-api-onboarding-overview.md",
+        "page_type": "developer_portal",
+        "title": "Selling Partner API Onboarding Overview",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/onboarding-overview.md",
+        "page_type": "developer_portal",
+        "title": "Onboarding as a Developer",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/onboarding-step-1-prepare-for-registration.md",
+        "page_type": "developer_portal",
+        "title": "Step 1: Prepare for Registration",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/onboarding-step-2-create-an-spp-account.md",
+        "page_type": "developer_portal",
+        "title": "Step 2: Create a Solution Provider Portal Account",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/onboarding-step-3-create-a-developer-profile.md",
+        "page_type": "developer_portal",
+        "title": "Step 3: Create a Developer Profile",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/onboarding-step-4-register-your-first-sandbox-application.md",
+        "page_type": "developer_portal",
+        "title": "Step 4: Register a Sandbox Application",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/onboarding-step-5-make-your-first-call-to-the-sp-api-sandbox.md",
+        "page_type": "developer_portal",
+        "title": "Step 5: Make Your First Call to the SP-API Sandbox",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/onboarding-step-6-set-up-the-authorization-workflow.md",
+        "page_type": "developer_portal",
+        "title": "Step 6: Set up the Authorization Workflow",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/onboarding-step-7-register-your-first-production-application.md",
+        "page_type": "developer_portal",
+        "title": "Step 7: Register Your Production Application",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/onboarding-step-8-call-the-sp-api-in-production.md",
+        "page_type": "developer_portal",
+        "title": "Step 8: Call the SP-API in Production",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/onboarding-step-9-test-your-application.md",
+        "page_type": "developer_portal",
+        "title": "Step 9: Test Your Application",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/onboarding-step-10-list-your-application.md",
+        "page_type": "developer_portal",
+        "title": "Step 10: List Your Application",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/service-provider-onboarding-overview.md",
+        "page_type": "developer_portal",
+        "title": "Onboarding as a Service Provider",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/service-provider-onboarding-step-1.md",
+        "page_type": "developer_portal",
+        "title": "Step 1: Learn the Service Provider Registration and Permissions Workflow",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/service-provider-onboarding-step-2.md",
+        "page_type": "developer_portal",
+        "title": "Step 2: Create a Solution Provider Portal Account for Your Company",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/service-provider-onboarding-step-3.md",
+        "page_type": "developer_portal",
+        "title": "Step 3: Verify Your Identity",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/service-provider-onboarding-step-4.md",
+        "page_type": "developer_portal",
+        "title": "Step 4: Complete the Service Profile for Your Company",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/service-provider-onboarding-step-5.md",
+        "page_type": "developer_portal",
+        "title": "Step 5: Apply for Seller Central Roles",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/service-provider-onboarding-step-6.md",
+        "page_type": "developer_portal",
+        "title": "Step 6: Invite Employees to Your Account",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/service-provider-onboarding-step-7.md",
+        "page_type": "developer_portal",
+        "title": "Step 7: Connect With Sellers",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/service-provider-onboarding-step-8.md",
+        "page_type": "developer_portal",
+        "title": "Step 8: List Your Service in the Service Provider Network",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/terminology.md",
+        "page_type": "developer_portal",
+        "title": "Terminology",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/faq.md",
+        "page_type": "developer_portal",
+        "title": "Frequently Asked Questions",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/general-faq.md",
+        "page_type": "developer_portal",
+        "title": "SP-API General FAQ",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/spp-faq.md",
+        "page_type": "developer_portal",
+        "title": "Solution Provider Portal FAQ",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/sp-api-release-notes.md",
+        "page_type": "developer_portal",
+        "title": "SP-API Release Notes",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/sp-api-deprecations.md",
+        "page_type": "developer_portal",
+        "title": "SP-API Deprecation Schedule",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/sp-api-metadata-updates.md",
+        "page_type": "developer_portal",
+        "title": "SP-API Product Metadata Updates",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/sp-api-models.md",
+        "page_type": "developer_portal",
+        "title": "SP-API Models",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/sp-api-seller-use-cases.md",
+        "page_type": "developer_portal",
+        "title": "SP-API Seller Use Cases",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/sp-api-vendor-use-cases.md",
+        "page_type": "developer_portal",
+        "title": "SP-API Vendor Use Cases",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/seller-central-urls.md",
+        "page_type": "developer_portal",
+        "title": "Seller Central URLs",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/vendor-central-urls.md",
+        "page_type": "developer_portal",
+        "title": "Vendor Central URLs",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/sp-api-registration-overview.md",
+        "page_type": "developer_portal",
+        "title": "SP-API Registration Overview",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/register-as-a-public-developer.md",
+        "page_type": "developer_portal",
+        "title": "Register as a Public SP-API Developer",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/register-as-a-private-developer.md",
+        "page_type": "developer_portal",
+        "title": "Register as a Private SP-API Developer",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/register-as-a-private-vendor.md",
+        "page_type": "developer_portal",
+        "title": "Register as a Private SP-API Vendor",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/register-as-a-service-provider.md",
+        "page_type": "developer_portal",
+        "title": "Register as a Service Provider (Setup and Migration)",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/check-the-status-of-your-request-to-register-as-a-developer.md",
+        "page_type": "developer_portal",
+        "title": "Developer Registration Request Status",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/tpp-registration.md",
+        "page_type": "developer_portal",
+        "title": "Third-Party Provider Registration",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/tpp-registration-signature-guidance.md",
+        "page_type": "developer_portal",
+        "title": "Third-Party Provider Signature Guidance",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/service-provider-registration-and-role-approval-process.md",
+        "page_type": "developer_portal",
+        "title": "Service Provider Registration and Role Approval Process Overview",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/website-guidelines.md",
+        "page_type": "developer_portal",
+        "title": "Website Guidelines for Public Developers and Service Providers",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/user-permissions-for-service-providers.md",
+        "page_type": "developer_portal",
+        "title": "User Permissions for Service Providers",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/registering-your-application.md",
+        "page_type": "developer_portal",
+        "title": "Register your Application",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/updating-your-application-information.md",
+        "page_type": "developer_portal",
+        "title": "Update your Application Information",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/rotating-your-apps-lwa-credentials.md",
+        "page_type": "developer_portal",
+        "title": "Rotate your Application's LWA Credentials",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/lwa-credentials-faq.md",
+        "page_type": "developer_portal",
+        "title": "LWA Credentials FAQ",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/viewing-your-application-information-and-credentials.md",
+        "page_type": "developer_portal",
+        "title": "View your Application Information and Credentials",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/learn-how-sellers-authorize-service-providers.md",
+        "page_type": "developer_portal",
+        "title": "Learn How Sellers Authorize Service Providers",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/roles-in-the-selling-partner-api.md",
+        "page_type": "developer_portal",
+        "title": "Selling Partner API Roles",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/role-mappings.md",
+        "page_type": "developer_portal",
+        "title": "Role Mappings for SP-API Operations",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/role-mappings-for-types.md",
+        "page_type": "developer_portal",
+        "title": "Role Mappings for SP-API Types",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/policies-and-agreements.md",
+        "page_type": "developer_portal",
+        "title": "Policies and Agreements",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/facial-data-privacy-policy.md",
+        "page_type": "developer_portal",
+        "title": "About Facial Data",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/authorizing-selling-partner-api-applications.md",
+        "page_type": "authentication",
+        "title": "Authorize Applications",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/authorize-public-applications.md",
+        "page_type": "authentication",
+        "title": "Authorize Public Applications",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/selling-partner-appstore-authorization-workflow.md",
+        "page_type": "developer_portal",
+        "title": "Selling Partner Appstore Authorization Workflow",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/website-authorization-workflow.md",
+        "page_type": "developer_portal",
+        "title": "Website Authorization Workflow",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/self-authorization.md",
+        "page_type": "developer_portal",
+        "title": "Authorize Private Applications",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/renew-authorizations.md",
+        "page_type": "developer_portal",
+        "title": "Renew Authorizations",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/revoke-authorizations.md",
+        "page_type": "developer_portal",
+        "title": "Revoke Authorizations",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/application-authorization-limits.md",
+        "page_type": "developer_portal",
+        "title": "Authorization Limits",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/special-authorization-types.md",
+        "page_type": "developer_portal",
+        "title": "Special Authorization Types",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/authorize-your-application-to-access-vendor-groups.md",
+        "page_type": "authentication",
+        "title": "Authorize your Application to Access Vendor Groups",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/authorization-with-the-restricted-data-token.md",
+        "page_type": "authentication",
+        "title": "Authorization with the Restricted Data Token",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/building-robust-apps.md",
+        "page_type": "developer_portal",
+        "title": "Building Robust Amazon SP-API Applications",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/sp-api-sdks.md",
+        "page_type": "developer_portal",
+        "title": "SP-API SDKs",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/connect-to-the-selling-partner-api-using-a-generated-c-sharp-sdk.md",
+        "page_type": "developer_portal",
+        "title": "Connect to the Selling Partner API Using a Generated C# SDK",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/connecting-to-the-selling-partner-api-using-a-generated-java-sdk.md",
+        "page_type": "developer_portal",
+        "title": "Connecting to the Selling Partner API Using a Generated Java SDK",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/delete-an-application-from-your-developer-account.md",
+        "page_type": "developer_portal",
+        "title": "Delete an Application From Your Developer Account",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/configuration-details.md",
+        "page_type": "developer_portal",
+        "title": "Configuration Details",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/sp-api-endpoints.md",
+        "page_type": "developer_portal",
+        "title": "SP-API Endpoints",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/page/404",
+        "page_type": "api_reference",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/page/404",
+        "page_type": "pricing",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/page/404",
+        "page_type": "mcp",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      }
+    ],
+    "stats": {
+      "queries": 1,
+      "urls_discovered": 79,
+      "official_urls": 79,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 2,
+      "canonical_selected": 6
+    }
+  },
+  "stats": {
+    "queries": 1,
+    "urls_discovered": 79,
+    "official_urls": 79,
+    "non_official_filtered": 0,
+    "blog_community_filtered": 0,
+    "third_party_sdk_filtered": 0,
+    "duplicates_removed": 2,
+    "canonical_selected": 6
+  }
+}

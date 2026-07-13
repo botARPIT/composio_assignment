@@ -1,0 +1,493 @@
+{
+  "app": {
+    "id": 24,
+    "name": "Lark",
+    "website": "open.larksuite.com",
+    "category_hint": "Communications and Messaging"
+  },
+  "documentation_map": {
+    "app_name": "Lark",
+    "official_domain": "open.larksuite.com",
+    "homepage": {
+      "url": "https://open.larksuite.com",
+      "title": "Lark",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://open.larksuite.com/document/server-docs/getting-started/api-access-token/auth-v3/tenant_access_token_internal",
+        "title": "自建应用获取 tenant_access_token",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/bitable-overview",
+        "title": "多维表格插件概述",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://open.larksuite.com/document/server-docs/getting-started/api-access-token/get-access-token",
+          "title": "获取访问凭证",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://open.larksuite.com/document/server-docs/getting-started/api-access-token/get-",
+          "title": "调用 API",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "pricing": {
+      "primary": null,
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": null,
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://open.larksuite.com/document/uAjLw4CM/uYjL24iN/docs-add-on/overview",
+        "title": "云文档小组件",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": {
+      "url": "https://open.larksuite.com/llms.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "Lark",
+      "official_domain": "open.larksuite.com",
+      "items": [
+        {
+          "url": "https://open.larksuite.com",
+          "page_type": "homepage",
+          "title": "Lark",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://open.larksuite.com/document/uAjLw4CM/uYjL24iN/docs-add-on/overview",
+          "page_type": "developer_portal",
+          "title": "云文档小组件",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/bitable-overview",
+          "page_type": "api_reference",
+          "title": "多维表格插件概述",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://open.larksuite.com/document/server-docs/getting-started/api-access-token/auth-v3/tenant_access_token_internal",
+          "page_type": "authentication",
+          "title": "自建应用获取 tenant_access_token",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://open.larksuite.com/document/server-docs/getting-started/api-access-token/get-access-token",
+          "page_type": "api_reference",
+          "title": "获取访问凭证",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://open.larksuite.com/document/server-docs/getting-started/api-access-token/get-",
+          "page_type": "api_reference",
+          "title": "调用 API",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 3,
+        "urls_discovered": 6,
+        "official_urls": 6,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 4
+      }
+    },
+    "stats": {
+      "queries": 3,
+      "urls_discovered": 6,
+      "official_urls": 6,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 4
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_deae82af7fec",
+      "source_type": "llms_txt",
+      "url": "https://open.larksuite.com/llms.txt",
+      "domain": "open.larksuite.com",
+      "page_title": "llms.txt index",
+      "content": "\\# Lark Developer\n\n\\> Lark is an advanced enterprise collaboration and management platform that integrates instant messaging, calendar, cloud documents, video conferencing, and more in one stop. Through smooth communication and efficient collaboration, it helps enterprises or team organizations upgrade. The Lark Developer is based on the numerous OpenAPIs exposed by Lark, helping Lark client enterprises integrate their own systems with Lark, breaking down barriers between systems, and making information transmission more efficient.\n\n\\## Lark Developer Capabilities\n\n\\*\\*Application\\*\\*: Applications are the means by which developers provide services to internal or external users. They are typically manifested as robots, web pages, mini-programs, and other forms, and serve as the vehicle for developers to access the open capabilities provided by Lark.\n\n\\- Application type\n\n\\- Custom Apps: Developed by internal personnel or authorized developers within an enterprise, these apps can only be published and used within the same enterprise.\n \\- Store Apps: Developed by third-party service providers, these apps are published in the Lark App Directory and can be installed and used by all Lark tenants.\n\n\\- Application forms: Based on capability forms, Lark apps are mainly classified into \\[Bots\\](https://open.larksuite.com/document/client-docs/bot-v3/bot-overview), \\[Web apps\\](https://open.larksuite.com/document/client-docs/h5/introduction), and Widgets (\\[Docs add-on\\](https://open.larksuite.com/document/uAjLw4CM/uYjL24iN/docs-add-on/overview), \\[Bitable plugin\\](https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/bitable-overview), \\[Workplace widget\\](https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/workplace-v1/workplace-block/overview)). You can also develop backend-only service apps.\n\n\\*\\*App authentication\\*\\*\n\n\\- \\*\\*API permissions (scopes)\\*\\*: In the process of developing an application, you may need to call server-side APIs or listen to subscribed events. Such operations may involve accessing the privacy information of the enterprise or users, or may need to operate on the application data of the enterprise or users. For security reasons, you need to apply for corresponding permissions for the application, and only after the enterprise administrator approves can the application proceed with subsequent API calls or event listening. \\[Apply for API permissions\\](https://open.larksuite.com/document/server-docs/getting-started/overview-of-app-scopes)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:07.547138Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 632,
+      "quality_score": 1.0
+    },
+    {
+      "id": "ev_10e4de229b64",
+      "source_type": "llms_txt",
+      "url": "https://open.larksuite.com/llms.txt",
+      "domain": "open.larksuite.com",
+      "page_title": "llms.txt index",
+      "content": "\\- \\*\\*Access tokens (access\\_token)\\*\\*\n \\- tenant\\_access\\_token: The credentials required to call the API as an app. The range of readable and writable data is determined by the app's own data permission range. This access credential is suitable for automated operations that do not require user login, such as when the application bot calls the Send Message API to push message notifications to a specified conversation. \\[Get tenant\\_access\\_token for custom app\\](https://open.larksuite.com/document/server-docs/getting-started/api-access-token/auth-v3/tenant\\_access\\_token\\_internal)\n \\- user\\_access\\_token: The credentials required when calling the API as a user. The range of readable and writable data is determined by the user's data permission range. This access credential is applicable for operations performed on behalf of the user after authorization login, such as calling the Create Bitable API with the user\\_access\\_token. The owner of the created Bitable will be the user corresponding to the user\\_access\\_token. Obtaining user\\_access\\_token follows standard OAuth 2.0. \\[Learn more\\](https://open.larksuite.com/document/common-capabilities/sso/web-application-end-user-consent/guide)\n\\- \\*\\*App availability\\*\\*: The application availability scope defines which user groups (departments, individuals) can use the application, while other members cannot use the application, thereby achieving permission control. \\[Configure app availability\\](https://open.larksuite.com/document/home/introduction-to-scope-and-authorization/availability)\n\n\\- \\*\\*Data permissions\\*\\*: App data permission refers to the scope of data accessible when accessing business resources with the app identity (tenant\\_access\\_token). After the app has applied for some app identity permissions (for example, Contacts, Lark CoreHR Enterprise Edition), you also need to configure the corresponding data permissions and submit a review request. The permissions will take effect upon approval, allowing successful API calls to retrieve data. Otherwise, calling the API will result in a permission error. \\[Configure app data permissions\\](https://open.larksuite.com/document/home/introduction-to-scope-and-authorization/configure-app-data-permissions)\n\n\\*\\*Event and callback subscriptions\\*\\*\n\n\\- \\*\\*Event subscriptions\\*\\*: Through event subscription, applications can respond to change events in Lark in a timely manner. When an event occurs, the open platform will send event messages according to the subscription method you configured. \\[Event overview\\](https://open.larksuite.com/document/server-docs/event-subscription/overview-of-event-subscription)\n\n\\- \\*\\*Callbacks\\*\\*: Callbacks are suitable for business scenarios that require synchronous response to user behavior. That is, when a user triggers certain operations on Lark, the front-end loads and waits for the server to return response data. When the server returns the response result, the front-end loading is completed and the returned response result is displayed to the user. \\[Callback overview\\](https://open.larksuite.com/document/server-docs/event-subscription/overview-of-event-subscription)\n\n\\*\\*Subscription methods\\*\\*",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:07.547206Z",
+      "section_path": "",
+      "chunk_index": 1,
+      "token_count": 798,
+      "quality_score": 0.9
+    },
+    {
+      "id": "ev_5a3163c2187c",
+      "source_type": "llms_txt",
+      "url": "https://open.larksuite.com/llms.txt",
+      "domain": "open.larksuite.com",
+      "page_title": "llms.txt index",
+      "content": "\\- \\*\\*Send to developer server\\*\\*: Traditional webhook mode, requiring you to provide a public internet address for receiving event messages. When the subscribed event occurs, the Open Platform will send an HTTP POST request to the public address of your server containing the event data. \\[Send events to developer server\\](https://open.larksuite.com/document/server-docs/event-subscription/overview-of-event-subscription)\n\n\\*\\*Server SDKs\\*\\*\n\nLark Developer provides server-side SDKs, which handle the acquisition and maintenance of access tokens, data encryption and decryption, and request signature verification logic internally. It supports a complete type system and provides semantic programming interfaces externally to improve the actual coding experience.\n\n\\- \\[oapi-sdk-go\\](https://github.com/larksuite/oapi-sdk-go)\n\\- \\[oapi-sdk-python\\](https://github.com/larksuite/oapi-sdk-python)\n\\- \\[oapi-sdk-java\\](https://github.com/larksuite/oapi-sdk-java)\n\\- \\[oapi-sdk-nodejs\\](https://github.com/larksuite/node-sdk)\n\n\\*\\*Sample code\\*\\*\n\n\\- \\[lark-samples\\](https://github.com/larksuite/lark-samples)\n\\- \\[oapi-sdk-go-demo\\](https://github.com/larksuite/oapi-sdk-go-demo)\n\\- \\[oapi-sdk-python-demo\\](https://github.com/larksuite/oapi-sdk-python-demo)\n\\- \\[oapi-sdk-java-demo\\](https://github.com/larksuite/oapi-sdk-java-demo)\n\n\\*\\*API call process\\*\\*\n\n1\\. Create an app. In the \\[Developer Console\\](https://open.larksuite.com/app), create custom apps or store apps according to actual needs. (Only ISV-qualified users can create store apps.)\n\n2\\. \\[Obtain access tokens\\](https://open.larksuite.com/document/server-docs/getting-started/api-access-token/get-access-token). When calling APIs, you must include access tokens in HTTP headers to retrieve resources within the permission scope.\n\n3\\. \\[Apply for API scopes\\](https://open.larksuite.com/document/server-docs/getting-started/overview-of-app-scopes). Different APIs have different interface scopes and field scopes. If you need to call an API, you must first apply for matching API scopes. If it involves accessing sensitive fields, you must also apply for scopes to access sensitive fields.\n\n4\\. \\[Call APIs\\](https://open.larksuite.com/document/server-docs/getting-started/api-access-token/get-). After you complete the above configuration steps according to your actual needs, you can start calling the API. For the specific introduction and parameter description of the API, see the corresponding API documentation.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:07.547255Z",
+      "section_path": "",
+      "chunk_index": 2,
+      "token_count": 622,
+      "quality_score": 0.9
+    },
+    {
+      "id": "ev_e745cd0458b2",
+      "source_type": "auth_docs",
+      "url": "https://open.larksuite.com/document/server-docs/getting-started/api-access-token/auth-v3/tenant_access_token_internal",
+      "domain": "open.larksuite.com",
+      "page_title": "Get custom app tenant_access_token - Server API - Documentation - Lark Developer",
+      "content": "Custom apps can obtain `tenant_access_token` through this interface.\n\nThe maximum validity period of `tenant_a ccess_token` is 2 hours. If called when the validity is less than 30 minutes, this interface will return a new `tenant_a ccess_token`, resulting in two valid tokens existing simultaneously.\n\n| Facts |  |\n| --- | --- |\n| HTTP URL | https://open.larksuite.com/open-apis/auth/v3/tenant\\_access\\_token/internal |\n| HTTP Method | POST |\n| Supported app types | Only custom apps |\n| Required scopes | None |\n\n| Parameter | Type | Required | Description |\n| --- | --- | --- | --- |\n| Content-Type | string | Yes | **Fixed value**: \"application/json; charset=utf-8\" |\n\n| Parameter | Type | Required | Description |\n| --- | --- | --- | --- |\n| app\\_id | string | Yes | The unique identifier of the application is obtained after the application is created. For a detailed introduction to `app_id`, please refer to the introduction of [General parameters](https://open.larksuite.com/document/ukTMukTMukTM/uYTM5UjL2ETO14iNxkTN/terminology).<br>**Example value:** \"cli\\_slkdjalasdkjasd\" |\n| app\\_secret | string | Yes | Application key, obtained after creating the application. For a detailed introduction to `app_secret`, please refer to the introduction of [General parameters](https://open.larksuite.com/document/ukTMukTMukTM/uYTM5UjL2ETO14iNxkTN/terminology).<br>**Example value:** \"dskLLdkasdjlasdKK\" |",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:07.427814Z",
+      "section_path": "Custom apps get tenant\\_access\\_token > Request > Request body",
+      "chunk_index": 1,
+      "token_count": 351,
+      "quality_score": 0.8
+    },
+    {
+      "id": "ev_951e2ef0c0ae",
+      "source_type": "auth_docs",
+      "url": "https://open.larksuite.com/document/server-docs/getting-started/api-access-token/auth-v3/tenant_access_token_internal",
+      "domain": "open.larksuite.com",
+      "page_title": "Get custom app tenant_access_token - Server API - Documentation - Lark Developer",
+      "content": "```\n\n{\n    \"app_id\": \"cli_slkdjalasdkjasd\",\n    \"app_secret\": \"dskLLdkasdjlasdKK\"\n}\n```\n\n| Parameter | Type | Description |\n| --- | --- | --- |\n| code | int | Error code, non-0 indicates failure. |\n| msg | string | Error description. |\n| tenant\\_access\\_token | string | The access token. |\n| expire | int | The expiration time of tenant\\_access\\_token, in seconds. |\n\n```\n\n{\n    \"code\": 0,\n    \"msg\": \"ok\",\n    \"tenant_access_token\": \"t-caecc734c2e3328a62489fe0648c4b98779515d3\",\n    \"expire\": 7200\n}\n```\n\nFor a detailed description of error codes, see Introduction to [Common error codes](https://open.larksuite.com/document/ukTMukTMukTM/ugjM14COyUjL4ITN).\n\nFeedback\n\n[Previous:Log out](https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/passport-v1/session/logout) [Next:Get custom app app\\_access\\_token](https://open.larksuite.com/document/server-docs/getting-started/api-access-token/auth-v3/app_access_token_internal)\n\nNeed help with a problem?\n\nSubmit feedback\n\nPlease log in first before exploring any API.\n\nLog In\n\nRUN [Go to API Explorer](https://open.larksuite.com/api-explorer?from=op_doc&)\n\nNeed help with a problem?\n\nSubmit feedback\n\nThe contents of this article\n\n[Request](https://open.larksuite.com/document/server-docs/getting-started/api-access-token/auth-v3/tenant_access_token_internal#7dbabeae \"Request\")\n\n[Request header](https://open.larksuite.com/document/server-docs/getting-started/api-access-token/auth-v3/tenant_access_token_internal#20964697 \"Request header\")\n\n[Request body](https://open.larksuite.com/document/server-docs/getting-started/api-access-token/auth-v3/tenant_access_token_internal#422ed976 \"Request body\")\n\n[Request body example](https://open.larksuite.com/document/server-docs/getting-started/api-access-token/auth-v3/tenant_access_token_internal#82f133c0 \"Request body example\")\n\n[Response](https://open.larksuite.com/document/server-docs/getting-started/api-access-token/auth-v3/tenant_access_token_internal#aa567d02 \"Response\")\n\n[Response body](https://open.larksuite.com/document/server-docs/getting-started/api-access-token/auth-v3/tenant_access_token_internal#0797b7de \"Response body\")\n\n[Response body example](https://open.larksuite.com/document/server-docs/getting-started/api-access-token/auth-v3/tenant_access_token_internal#30f4b514 \"Response body example\")\n\n[Error code](https://open.larksuite.com/document/server-docs/getting-started/api-access-token/auth-v3/tenant_access_token_internal#4b37c186 \"Error code\")\n\nTry It\n\nFeedback\n\nOnCall\n\nCollapse\n\nExpand\n\nWe use cookies and similar technologies to provide and maintain our services and ensure performance, security, and stability of our website. We also use first and third party cookies for analytics and marketing purposes. Learn more about how we use cookies in our [Cookie Policy](https://www.larksuite.com/en_us/cookie-policy). You can manage your cookie preference at any time.\n\nGot ItManage Settings",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:07.427911Z",
+      "section_path": "Custom apps get tenant\\_access\\_token > Request > Error code",
+      "chunk_index": 2,
+      "token_count": 730,
+      "quality_score": 0.8
+    },
+    {
+      "id": "ev_f2cf37e6b674",
+      "source_type": "llms_txt",
+      "url": "https://open.larksuite.com/llms.txt",
+      "domain": "open.larksuite.com",
+      "page_title": "llms.txt index",
+      "content": "\\## Docs\n\\- \\[Home\\](https://open.larksuite.com/llms-docs/en-US/llms-home.txt)\n\\- \\[Developer Guides\\](https://open.larksuite.com/llms-docs/en-US/llms-developer-guides.txt)\n\\- \\[API Call Guide\\](https://open.larksuite.com/llms-docs/en-US/llms-api-call-guide.txt)\n\\- \\[Events and callbacks\\](https://open.larksuite.com/llms-docs/en-US/llms-events-and-callbacks.txt)\n\\- \\[Authenticate and Authorize\\](https://open.larksuite.com/llms-docs/en-US/llms-authenticate-and-authorize.txt)\n\\- \\[Deprecated Version (Not Recommended)\\](https://open.larksuite.com/llms-docs/en-US/llms-deprecated-version-(not-recommended).txt)\n\\- \\[Contacts\\](https://open.larksuite.com/llms-docs/en-US/llms-contacts.txt)\n\\- \\[Messaging\\](https://open.larksuite.com/llms-docs/en-US/llms-messaging.txt)\n\\- \\[Group Chat\\](https://open.larksuite.com/llms-docs/en-US/llms-group-chat.txt)\n\\- \\[Feed\\](https://open.larksuite.com/llms-docs/en-US/llms-feed.txt)\n\\- \\[Docs\\](https://open.larksuite.com/llms-docs/en-US/llms-docs.txt)\n\\- \\[Calendar\\](https://open.larksuite.com/llms-docs/en-US/llms-calendar.txt)\n\\- \\[Video Conferencing\\](https://open.larksuite.com/llms-docs/en-US/llms-video-conferencing.txt)\n\\- \\[Attendance\\](https://open.larksuite.com/llms-docs/en-US/llms-attendance.txt)\n\\- \\[Approval\\](https://open.larksuite.com/llms-docs/en-US/llms-approval.txt)\n\\- \\[Bot\\](https://open.larksuite.com/llms-docs/en-US/llms-bot.txt)\n\\- \\[Tasks v2\\](https://open.larksuite.com/llms-docs/en-US/llms-tasks-v2.txt)\n\\- \\[Email\\](https://open.larksuite.com/llms-docs/en-US/llms-email.txt)\n\\- \\[App Information\\](https://open.larksuite.com/llms-docs/en-US/llms-app-information.txt)\n\\- \\[Company Information\\](https://open.larksuite.com/llms-docs/en-US/llms-company-information.txt)\n\\- \\[Personal Settings\\](https://open.larksuite.com/llms-docs/en-US/llms-personal-settings.txt)\n\\- \\[AI\\](https://open.larksuite.com/llms-docs/en-US/llms-ai.txt)\n\\- \\[Admin\\](https://open.larksuite.com/llms-docs/en-US/llms-admin.txt)\n\\- \\[OKR\\](https://open.larksuite.com/llms-docs/en-US/llms-okr.txt)\n\\- \\[security\\_and\\_compliance\\](https://open.larksuite.com/llms-docs/en-US/llms-security\\_and\\_compliance.txt)\n\\- \\[Minutes\\](https://open.larksuite.com/llms-docs/en-US/llms-minutes.txt)\n\\- \\[Workplace\\](https://open.larksuite.com/llms-docs/en-US/llms-workplace.txt)\n\\- \\[Web app\\](https://open.larksuite.com/llms-docs/en-US/llms-web-app.txt)\n\\- \\[Gadget Basic Components (Not Recommended)\\](https://open.larksuite.com/llms-docs/en-US/llms-gadget-basic-components-(not-recommended).txt)\n\\- \\[Blocks\\](https://open.larksuite.com/llms-docs/en-US/llms-blocks.txt)\n\\- \\[Docs Add-ons\\](https://open.larksuite.com/llms-docs/en-US/llms-docs-add-ons.txt)\n\\- \\[Base Extension\\](https://open.larksuite.com/llms-docs/en-US/llms-base-extension.txt)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:07.547333Z",
+      "section_path": "",
+      "chunk_index": 3,
+      "token_count": 694,
+      "quality_score": 0.7
+    },
+    {
+      "id": "ev_3e0870998aa8",
+      "source_type": "auth_docs",
+      "url": "https://open.larksuite.com/document/server-docs/getting-started/api-access-token/auth-v3/tenant_access_token_internal",
+      "domain": "open.larksuite.com",
+      "page_title": "Get custom app tenant_access_token - Server API - Documentation - Lark Developer",
+      "content": "Copy Page\n\nLast updated on 2023-11-13\n\nThe contents of this article\n\n[Request](https://open.larksuite.com/document/server-docs/getting-started/api-access-token/auth-v3/tenant_access_token_internal#7dbabeae \"Request\")\n\n[Request header](https://open.larksuite.com/document/server-docs/getting-started/api-access-token/auth-v3/tenant_access_token_internal#20964697 \"Request header\")\n\n[Request body](https://open.larksuite.com/document/server-docs/getting-started/api-access-token/auth-v3/tenant_access_token_internal#422ed976 \"Request body\")\n\n[Request body example](https://open.larksuite.com/document/server-docs/getting-started/api-access-token/auth-v3/tenant_access_token_internal#82f133c0 \"Request body example\")\n\n[Response](https://open.larksuite.com/document/server-docs/getting-started/api-access-token/auth-v3/tenant_access_token_internal#aa567d02 \"Response\")\n\n[Response body](https://open.larksuite.com/document/server-docs/getting-started/api-access-token/auth-v3/tenant_access_token_internal#0797b7de \"Response body\")\n\n[Response body example](https://open.larksuite.com/document/server-docs/getting-started/api-access-token/auth-v3/tenant_access_token_internal#30f4b514 \"Response body example\")\n\n[Error code](https://open.larksuite.com/document/server-docs/getting-started/api-access-token/auth-v3/tenant_access_token_internal#4b37c186 \"Error code\")",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:07.427732Z",
+      "section_path": "Get custom app tenant\\_access\\_token",
+      "chunk_index": 0,
+      "token_count": 339,
+      "quality_score": 0.7
+    },
+    {
+      "id": "ev_0b4c9f38fa71",
+      "source_type": "api_reference",
+      "url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/reference/bitable-v1/bitable-overview",
+      "domain": "open.larksuite.com",
+      "page_title": "Lark Developer",
+      "content": "- [Home](https://open.larksuite.com/document/home/index)\n- [Developer Guides](https://open.larksuite.com/document/client-docs/intro)\n- [Server API](https://open.larksuite.com/document/server-docs/getting-started/getting-started)\n- [Client API](https://open.larksuite.com/document/client-docs/h5/)\n- [Lark CLI](https://open.larksuite.com/document/mcp_open_tools/overview-of-lark-agent-integration-capabilities)\n- [Lark Plugin for OpenClaw](https://lark-technologies.larksuite.com/wiki/I1PEw40PJi8mbMkLdIJuk9Pasne)\n\nAPI Explorer [CardKit](https://open.larksuite.com/tool/cardbuilder?from=open_docs_header)\n\n![The documentation could not be found.](https://lf-package-sg.larksuitecdn.com/obj/lark-static-sgsaas/lark/open/doc/frontend/images/3b92fd84627520f5e4ba5c1960d78c45.svg)\n\nThe documentation could not be found.\n\nFeedback\n\nOnCall\n\nCollapse\n\nExpand\n\nWe use cookies and similar technologies to provide and maintain our services and ensure performance, security, and stability of our website. We also use first and third party cookies for analytics and marketing purposes. Learn more about how we use cookies in our [Cookie Policy](https://www.larksuite.com/en_us/cookie-policy). You can manage your cookie preference at any time.\n\nGot ItManage Settings",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:08.196104Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 313,
+      "quality_score": 0.7
+    },
+    {
+      "id": "ev_a09b7c5ee7df",
+      "source_type": "developer_portal",
+      "url": "https://open.larksuite.com/document/uAjLw4CM/uYjL24iN/docs-add-on/overview",
+      "domain": "open.larksuite.com",
+      "page_title": "Lark Developer",
+      "content": "- [Home](https://open.larksuite.com/document/home/index)\n- [Developer Guides](https://open.larksuite.com/document/client-docs/intro)\n- [Server API](https://open.larksuite.com/document/server-docs/getting-started/getting-started)\n- [Client API](https://open.larksuite.com/document/client-docs/h5/)\n- [Lark CLI](https://open.larksuite.com/document/mcp_open_tools/overview-of-lark-agent-integration-capabilities)\n- [Lark Plugin for OpenClaw](https://lark-technologies.larksuite.com/wiki/I1PEw40PJi8mbMkLdIJuk9Pasne)\n\nAPI Explorer [CardKit](https://open.larksuite.com/tool/cardbuilder?from=open_docs_header)\n\n![The documentation could not be found.](https://lf-package-sg.larksuitecdn.com/obj/lark-static-sgsaas/lark/open/doc/frontend/images/3b92fd84627520f5e4ba5c1960d78c45.svg)\n\nThe documentation could not be found.\n\nFeedback\n\nOnCall\n\nCollapse\n\nExpand\n\nWe use cookies and similar technologies to provide and maintain our services and ensure performance, security, and stability of our website. We also use first and third party cookies for analytics and marketing purposes. Learn more about how we use cookies in our [Cookie Policy](https://www.larksuite.com/en_us/cookie-policy). You can manage your cookie preference at any time.\n\nGot ItManage Settings",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:08.298346Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 313,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_6d397b7310a3",
+      "source_type": "official_docs",
+      "url": "https://open.larksuite.com",
+      "domain": "open.larksuite.com",
+      "page_title": "Lark Developer",
+      "content": "![](https://lf-package-sg.larksuitecdn.com/obj/lark-static-sgsaas/lark/open/website/share-logo.png)\n\n- ## Build your customized Lark\n\nAn open, swift, and accessible way to reshape workplace experiences\n\n[CREATE APP](https://open.larksuite.com/app) [VIEW TUTORIALS](https://open.larksuite.com/document/home/course)\n\n- ## Lark CLI, Now Open Source\n\nBring any AI agent to Lark. Up and running in a single command.\n\n[Get Started](https://open.larksuite.com/document/mcp_open_tools/feishu-cli-let-ai-actually-do-your-work-in-feishu)\n\n- ## Official Lark Plugin for OpenClaw\n\nIt gets your context—and gets it done.\n\n[Install Now](https://lark-technologies.larksuite.com/wiki/I1PEw40PJi8mbMkLdIJuk9Pasne)\n\n- ## Build your customized Lark\n\nAn open, swift, and accessible way to reshape workplace experiences\n\n[CREATE APP](https://open.larksuite.com/app) [VIEW TUTORIALS](https://open.larksuite.com/document/home/course)\n\n- ## Lark CLI, Now Open Source\n\nBring any AI agent to Lark. Up and running in a single command.\n\n[Get Started](https://open.larksuite.com/document/mcp_open_tools/feishu-cli-let-ai-actually-do-your-work-in-feishu)\n\nWhat's New\n\nWelcome to join the [Lark Developer Community](https://go.larksuite.com/join-chat/17ep08b0-6a76-4bce-8770-8e2eff4cbb4t), to ask, share and exchange ideas with other Lark developers! [View More](https://open.larksuite.com/changelog)\n\nAn Open Ecosystem for Any Scenario\n\n![](https://sf16-sg.larksuitecdn.com/obj/lark-open-web-usbackup-sg/file/36c3c6de4a1d5bf43e563474a6f06625.png)Developer APIs\n\n![](https://sf16-sg.larksuitecdn.com/obj/lark-open-web-usbackup-sg/file/157124d4aeb911d209634a837739ef0d.png)App Types\n\nUnlock Lark's full potential with  2500+  APIs",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:07.380169Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 424,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_c83d96cb6bda",
+      "source_type": "official_docs",
+      "url": "https://open.larksuite.com",
+      "domain": "open.larksuite.com",
+      "page_title": "Lark Developer",
+      "content": "[Go to AnyCross](https://anycross.larksuite.com/home)\n\nNo-code\n\nFor everyone\n\n[![](https://sf16-sg.larksuitecdn.com/obj/lark-open-web-usbackup-sg/file/b4041460c46b20ff1886277a4b236cf7.png)\\\\\nBase\\\\\n\\\\\nFrom simple tables to complex tasks, Base is your go-to solution for managing your data and getting things done.](https://www.larksuite.com/base)\n\n[Go to Base](https://www.larksuite.com/base)\n\nTools & Support\n\n[![](https://sf16-sg.larksuitecdn.com/obj/lark-open-web-usbackup-sg/file/66ff54bfb2609c3e18df89e492b4351f.png)\\\\\n\\\\\nDeveloper tutorials\\\\\n\\\\\nOur step-by-step guides make it easy to get started.\\\\\n\\\\\nRead Now](https://open.larksuite.com/document/home/course?from=home)\n\n[![](https://sf16-sg.larksuitecdn.com/obj/lark-open-web-usbackup-sg/file/8a9c522223b2b6129808bf570dccc86a.png)\\\\\nDeveloper toolbox\\\\\n\\\\\nBuild better apps faster with our powerful development and debugging tools.](https://open.larksuite.com/document/developer-tools-portal?from=home)\n\n[Learn More](https://open.larksuite.com/document/developer-tools-portal?from=home)\n\n[![](https://sf16-sg.larksuitecdn.com/obj/lark-open-web-usbackup-sg/file/812b29ebca180528a86eaa756e1caac6.png)\\\\\nTechnical support\\\\\n\\\\\nNeed help with your Lark app? Contact our support team for fast answers.](https://applink.larksuite.com/client/web_app/open?appId=cli_a4517c8461f8100a&mode=sidebar&channel=TS+Help+Desk)\n\n[Contact Us](https://applink.larksuite.com/client/web_app/open?appId=cli_a4517c8461f8100a&mode=sidebar&channel=TS+Help+Deskt)\n\n![](https://lf-package-sg.larksuitecdn.com/obj/lark-static-sgsaas/lark/open/website/images/09315cac72a0d8cc9d600f399b22aa48.svg)\n\nSolutions\n\n[SSO with Lark](https://open.larksuite.com/solutions/detail/sso) [Streamlined Project Collaboration](https://open.larksuite.com/solutions/detail/project) [Intelligent BPM](https://open.larksuite.com/solutions/detail/automation)\n\nResources\n\n[Lark Official Website](https://www.larksuite.com/) [App Directory](https://app.larksuite.com/) [Download Lark](https://www.larksuite.com/download)\n\nMost Visited\n\n[App Development Process](https://open.larksuite.com/document/home/introduction-to-custom-app-development/self-built-application-development-process) [Develop a Gadget](https://open.larksuite.com/document/home/develop-a-gadget-in-5-minutes/create-a-custom-app) [Integrate a Web App](https://open.larksuite.com/document/home/integrating-web-apps-in-5-minutes/create-app-and-configuration) [Build a Bot](https://open.larksuite.com/document/home/develop-a-bot-in-5-minutes/create-an-app)\n\nTerms & Privacy\n\n[User Terms of Service](https://www.larksuite.com/user-terms-of-service) [Privacy Policy](https://www.larksuite.com/privacy-policy) [Security & Compliance](https://www.larksuite.com/security) [Lark API Terms of Service](https://open.larksuite.com/document/ugTOwEjL4kDMx4CO5ATM/uMzMyYjLzMjM24yMzIjN) [Lark Independent Software Service Provider Agreement](https://open.larksuite.com/document/ugTOwEjL4kDMx4CO5ATM/uMTO3QjLzkzN04yM5cDN)\n\n简体中文English\n\n© Lark Technologies Pte. Ltd.\n\nFeedback\n\nOnCall\n\nCollapse\n\nExpand",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:07.380376Z",
+      "section_path": "",
+      "chunk_index": 2,
+      "token_count": 764,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_601b831e04e9",
+      "source_type": "official_docs",
+      "url": "https://open.larksuite.com",
+      "domain": "open.larksuite.com",
+      "page_title": "Lark Developer",
+      "content": "[![](https://sf16-sg.larksuitecdn.com/obj/lark-open-web-usbackup-sg/file/1db5edcf8df9cc0526174e391e011162.png)Contacts](https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/reference/contact-v3) [![](https://sf16-sg.larksuitecdn.com/obj/lark-open-web-usbackup-sg/file/ba268c065ff2aed9fa5d06d1dcf82dcc.png)Messenger](https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/reference/im-v1) [![](https://sf16-sg.larksuitecdn.com/obj/lark-open-web-usbackup-sg/file/1884aefc15b9f234e34815298bf73dee.png)Doc](https://open.larksuite.com/document/server-docs/docs/docs/docx-v1/docx-overview) [![](https://sf16-sg.larksuitecdn.com/obj/lark-open-web-usbackup-sg/file/1d564838259ee20050212791d05d21cc.png)Base](https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/bitable/notification) [![](https://sf16-sg.larksuitecdn.com/obj/lark-open-web-usbackup-sg/file/2132c0e528fa196aafad08d4ac04658b.png)Sheet](https://open.larksuite.com/document/ukTMukTMukTM/uATMzUjLwEzM14CMxMTN/overview) [![](https://sf16-sg.larksuitecdn.com/obj/lark-open-web-usbackup-sg/file/1c515271b9861ba1f5d3e74b125fca3d.png)Wiki](https://open.larksuite.com/document/ukTMukTMukTM/uUDN04SN0QjL1QDN/wiki-v2/getting-start) [![](https://sf16-sg.larksuitecdn.com/obj/lark-open-web-usbackup-sg/file/40572ad1e036a95ee2068feee22712bd.png)Approval](https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/reference/approval-v4) [![](https://sf16-sg.larksuitecdn.com/obj/lark-open-web-usbackup-sg/file/fe8e172bd70ea1f04d0b1f49b0561d2e.png)Calendar](https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/reference/calendar-v4) [![](https://sf16-sg.larksuitecdn.com/obj/lark-open-web-usbackup-sg/file/a929e93b67bf302219d9f475a2255bd2.png)Video Conferencing](https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/reference/vc-v1)\n\n[More APIs](https://open.larksuite.com/document/server-docs/getting-started/server-api-list?from=home)\n\n3 app types to fit every use case\n\nBot\n\nEngage users directly in Lark chats.\n\n[Learn More](https://open.larksuite.com/document/client-docs/bot-v3/bot-overview?from=home)\n\nWeb app\n\nBuilt with H5 technology, natively integrated into Lark.\n\n[Learn More](https://open.larksuite.com/document/client-docs/h5/introduction?from=home)\n\nBlock\n\nExpand the functionality of Docs, Base, and more with your apps.\n\n[Docs Add-ons](https://open.larksuite.com/document/uAjLw4CM/uYjL24iN/docs-add-on/docs-add-on-introduction?from=home) [Base Extensions](https://open.larksuite.com/document/uAjLw4CM/uYjL24iN/base-extensions/base-extension-introduction?from=home)\n\nFind the Right Platform for Every Project\n\nFull-code\n\nFor developers\n\n[![](https://sf16-sg.larksuitecdn.com/obj/lark-open-web-usbackup-sg/file/a5bd8d1c9b354a0d0e1ab0ed04cdd7e4.png)\\\\\nOpen Platform\\\\\n\\\\\nExtend Lark with custom bots, web apps, blocks, powerful open APIs, and more.](https://open.larksuite.com/document/home/index?from=home)\n\n[Developer Guides](https://open.larksuite.com/document/home/index?from=home)\n\nLow-code\n\nFor developers\n\n[![](https://sf16-sg.larksuitecdn.com/obj/lark-open-web-usbackup-sg/file/4c14ec4a7c28d0862a374fcc4e49336b.png)\\\\\nAnyCross\\\\\n\\\\\nConnect your systems and unlock new levels of efficiency with our robust, standardized solutions.](https://anycross.larksuite.com/home)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:07.380268Z",
+      "section_path": "",
+      "chunk_index": 1,
+      "token_count": 813,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_6e04e6fe6d1d",
+      "source_type": "official_docs",
+      "url": "https://open.larksuite.com",
+      "domain": "open.larksuite.com",
+      "page_title": "Lark Developer",
+      "content": "We use cookies and similar technologies to provide and maintain our services and ensure performance, security, and stability of our website. We also use first and third party cookies for analytics and marketing purposes. Learn more about how we use cookies in our [Cookie Policy](https://www.larksuite.com/en_us/cookie-policy). You can manage your cookie preference at any time.\n\nGot ItManage Settings",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:07.380401Z",
+      "section_path": "",
+      "chunk_index": 3,
+      "token_count": 100,
+      "quality_score": 0.36
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Lark is an advanced enterprise collaboration and management platform.",
+      "evidence_ids": [
+        "ev_deae82af7fec"
+      ]
+    },
+    "category": {
+      "value": "Communications and Messaging",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "OAuth2, API Key",
+      "evidence_ids": [
+        "ev_10e4de229b64",
+        "ev_e745cd0458b2"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_6d397b7310a3"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API, SDKs",
+      "evidence_ids": [
+        "ev_deae82af7fec",
+        "ev_5a3163c2187c"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_6d397b7310a3"
+      ]
+    },
+    "mcp": {
+      "value": "No known MCP",
+      "evidence_ids": [
+        "ev_0b4c9f38fa71"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_6d397b7310a3"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_6d397b7310a3"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.88,
+    "fields_checked": 8,
+    "fields_supported": 7,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.88,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.88 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

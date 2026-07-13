@@ -1,0 +1,958 @@
+{
+  "app": {
+    "id": 26,
+    "name": "Discord",
+    "website": "discord.com",
+    "category_hint": "Communications and Messaging"
+  },
+  "documentation_map": {
+    "app_name": "Discord",
+    "official_domain": "discord.com",
+    "homepage": {
+      "url": "https://discord.com",
+      "title": "Discord",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://docs.discord.com/developers/topics/oauth2",
+        "title": "OAuth2 - Documentation - Discord",
+        "confidence": 0.85,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://docs.discord.com/developers/reference",
+        "title": "API Reference - Documentation",
+        "confidence": 0.95,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": null,
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://docs.discord.com/mcp",
+        "title": "",
+        "confidence": 0.85,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://discord.com/developers",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "Discord",
+      "official_domain": "discord.com",
+      "items": [
+        {
+          "url": "https://discord.com",
+          "page_type": "homepage",
+          "title": "Discord",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://discord.com/developers",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.discord.com/mcp",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.85,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.discord.com/developers/topics/oauth2",
+          "page_type": "authentication",
+          "title": "OAuth2 - Documentation - Discord",
+          "confidence": 0.85,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.discord.com/developers/reference",
+          "page_type": "api_reference",
+          "title": "API Reference - Documentation",
+          "confidence": 0.95,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 3,
+        "urls_discovered": 5,
+        "official_urls": 5,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 5
+      }
+    },
+    "stats": {
+      "queries": 3,
+      "urls_discovered": 5,
+      "official_urls": 5,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 5
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_74f2d6fb7cad",
+      "source_type": "auth_docs",
+      "url": "https://docs.discord.com/developers/topics/oauth2",
+      "domain": "docs.discord.com",
+      "page_title": "OAuth2 - Documentation - Discord",
+      "content": "| Name | Description |\n| --- | --- |\n| activities.read | allows your app to fetch data from a user’s “Now Playing/Recently Played” list — not currently available for apps |\n| activities.write | allows your app to update a user’s activity - not currently available for apps (NOT REQUIRED FOR [GAMESDK ACTIVITY MANAGER](https://docs.discord.com/developers/developer-tools/game-sdk#activities)) |\n| applications.builds.read | allows your app to read build data for a user’s applications |\n| applications.builds.upload | allows your app to upload/update builds for a user’s applications - only available to approved partners |\n| applications.commands | allows your app to add [commands](https://docs.discord.com/developers/interactions/application-commands) to a guild - included by default with the `bot` scope |\n| applications.commands.update | allows your app to update its [commands](https://docs.discord.com/developers/interactions/application-commands) using a Bearer token - [client credentials grant](https://docs.discord.com/developers/topics/oauth2#client-credentials-grant) only |\n| applications.commands.permissions.update | allows your app to update [permissions for its commands](https://docs.discord.com/developers/interactions/application-commands#permissions) in a guild a user has permissions to |\n| applications.entitlements | allows your app to read entitlements for a user’s applications |\n| applications.store.update | allows your app to read and update store data (SKUs, store listings, achievements, etc.) for a user’s applications |\n| bot | for oauth2 bots, this puts the bot in the user’s selected guild by default |\n| connections | allows [`/users/@me/connections`](https://docs.discord.com/developers/resources/user#get-current-user-connections) to return linked third-party accounts |\n| dm\\_channels.read | allows your app to see information about the user’s DMs and group DMs - only available to approved partners |\n| email | enables [`/users/@me`](https://docs.discord.com/developers/resources/user#get-current-user) to return an `email` |\n| gdm.join | allows your app to [join users to a group dm](https://docs.discord.com/developers/resources/channel#group-dm-add-recipient) |\n| guilds | allows [`/users/@me/guilds`](https://docs.discord.com/developers/resources/user#get-current-user-guilds) to return basic information about all of a user’s guilds |\n| guilds.join | allows [`/guilds/{guild.id}/members/{user.id}`](https://docs.discord.com/developers/resources/guild#add-guild-member) to be used for joining users to a guild |\n| guilds.members.read | allows [`/users/@me/guilds/{guild.id}/member`](https://docs.discord.com/developers/resources/user#get-current-user-guild-member) to return a user’s member information in a guild |\n| identify | allows [`/users/@me`](https://docs.discord.com/developers/resources/user#get-current-user) without `email` |\n| identify.premium | allows your app to read a user’s Nitro subscription type as defined by `premium_type` on the [User object](https://docs.discord.com/developers/resources/user#user-object-user-structure) \\- only available to approved partners |\n| messages.read | for local rpc server api access, this allows you to read messages from all client channels (otherwise restricted to channels/guilds your app creates) |\n| relationships.read | Allows your app to access a user’s Discord Friends list, their pending requests, and blocked users. This scope is part of our Social SDK - [submit for access here](https://discord.com/developers/applications/select/social-sdk/getting-started). [Social SDK Terms apply](https://support-dev.discord.com/hc/en-us/articles/30225844245271-Discord-Social-SDK-Terms), including Section 5(a)(ii) to the data you obtain |\n| role\\_connections.write | allows your app to update a user’s connection and metadata for the app |\n| rpc | for local rpc server access, this allows you to control a user’s local Discord client - only available to approved partners |\n| rpc.activities.write | for local rpc server access, this allows you to update a user’s activity - only available to approved partners |\n| rpc.notifications.read | for local rpc server access, this allows you to receive notifications pushed out to the user - only available to approved partners |\n| rpc.voice.read | for local rpc server access, this allows you to read a user’s voice settings and listen for voice events - only available to approved partners |\n| rpc.voice.write | for local rpc server access, this allows you to update a user’s voice settings - only available to approved partners |\n| voice | allows your app to connect to voice on user’s behalf and see all the voice members - only available to approved partners |\n| webhook.incoming | this generates a webhook that is returned in the oauth token response for authorization code grants |",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:36.427672Z",
+      "section_path": "[​](https://docs.discord.com/developers/topics/oauth2\\#shared-resources)  Shared Resources > OAuth2 URLs > OAuth2 Scopes",
+      "chunk_index": 1,
+      "token_count": 1207,
+      "quality_score": 0.84
+    },
+    {
+      "id": "ev_ba6e537b9b91",
+      "source_type": "auth_docs",
+      "url": "https://docs.discord.com/developers/topics/oauth2",
+      "domain": "docs.discord.com",
+      "page_title": "OAuth2 - Documentation - Discord",
+      "content": "The authorization code grant is what most developers will recognize as “standard OAuth2” and involves retrieving an access code and exchanging it for a user’s access token. It allows the authorization server to act as an intermediary between the client and the resource owner, so the resource owner’s credentials are never shared directly with the client.All calls to the OAuth2 endpoints require either HTTP Basic authentication or `client_id` and `client_secret` supplied in the form data body.\n\n```\nhttps://discord.com/oauth2/authorize?response_type=code&client_id=157730590492196864&scope=identify%20guilds.join&state=15773059ghq9183habn&redirect_uri=https%3A%2F%2Fnicememe.website&prompt=consent&integration_type=0\n```\n\n`client_id` is your application’s `client_id`. `scope` is a list of [OAuth2 scopes](https://docs.discord.com/developers/topics/oauth2#shared-resources-oauth2-scopes) separated by url encoded spaces (`%20`). `redirect_uri` is whatever URL you registered when creating your application, url-encoded. `state` is the unique string mentioned in [State and Security](https://docs.discord.com/developers/topics/oauth2#state-and-security).When someone navigates to this URL, they will be prompted to authorize your application for the requested scopes. On acceptance, they will be redirected to your `redirect_uri`, which will contain an additional querystring parameter, `code`. `state` will also be returned if previously sent, and should be validated at this point.`prompt` controls how the authorization flow handles existing authorizations. If a user has previously authorized your application with the requested scopes and prompt is set to `consent`, it will request them to reapprove their authorization. If set to `none`, it will skip the authorization screen and redirect them back to your redirect URI without requesting their authorization. For passthrough scopes, like `bot` and `webhook.incoming`, authorization is always required.The `integration_type` parameter specifies the [installation context](https://docs.discord.com/developers/resources/application#installation-context) for the authorization. The installation context determines where the application will be installed, and is only relevant when `scope` contains `applications.commands`. When set to 0 (GUILD\\_INSTALL) the application will be authorized for installation to a server, and when set to 1 (USER\\_INSTALL) the application will be authorized for installation to a user. The application must be configured in the Developer Portal to support the provided `integration_type`.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:36.427769Z",
+      "section_path": "[​](https://docs.discord.com/developers/topics/oauth2\\#shared-resources)  Shared Resources > [​](https://docs.discord.com/developers/topics/oauth2\\#authorization-code-grant)  Authorization Code Grant > Authorization URL Example",
+      "chunk_index": 3,
+      "token_count": 643,
+      "quality_score": 0.84
+    },
+    {
+      "id": "ev_31f9f71cead3",
+      "source_type": "auth_docs",
+      "url": "https://docs.discord.com/developers/topics/oauth2",
+      "domain": "docs.discord.com",
+      "page_title": "OAuth2 - Documentation - Discord",
+      "content": "```\nhttps://nicememe.website/?code=NhhvTDYsFcdgNLnnLijcl7Ku7bEEeee&state=15773059ghq9183habn\n```\n\n`code` is now exchanged for the user’s access token by making a `POST` request to the [token URL](https://docs.discord.com/developers/topics/oauth2#shared-resources-oauth2-urls) with the following parameters:\n\n- `grant_type` \\- must be set to `authorization_code`\n- `code` \\- the code from the querystring\n- `redirect_uri` \\- the `redirect_uri` associated with this authorization, usually from your authorization URL\n\n```\nimport requests\n\nAPI_ENDPOINT = 'https://discord.com/api/v10'\nCLIENT_ID = '332269999912132097'\nCLIENT_SECRET = '937it3ow87i4ery69876wqire'\nREDIRECT_URI = 'https://nicememe.website'\n\ndef exchange_code(code):\n  data = {\n    'grant_type': 'authorization_code',\n    'code': code,\n    'redirect_uri': REDIRECT_URI\n  }\n  headers = {\n    'Content-Type': 'application/x-www-form-urlencoded'\n  }\n  r = requests.post('%s/oauth2/token' % API_ENDPOINT, data=data, headers=headers, auth=(CLIENT_ID, CLIENT_SECRET))\n  r.raise_for_status()\n  return r.json()\n```\n\nIn response, you will receive:\n\n```\n{\n  \"access_token\": \"6qrZcUqja7812RVdnEKjpzOL4CvHBFG\",\n  \"token_type\": \"Bearer\",\n  \"expires_in\": 604800,\n  \"refresh_token\": \"D43f5y0ahjqew82jZ4NViEr2YafMKhue\",\n  \"scope\": \"identify\"\n}\n```\n\nHaving the user’s access token allows your application to make certain requests to the API on their behalf, restricted to whatever scopes were requested. `expires_in` is how long, in seconds, until the returned access token expires, allowing you to anticipate the expiration and refresh the token. To refresh, make another `POST` request to the [token URL](https://docs.discord.com/developers/topics/oauth2#shared-resources-oauth2-urls) with the following parameters:\n\n- `grant_type` \\- must be set to `refresh_token`\n- `refresh_token` \\- the user’s refresh token",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:36.427808Z",
+      "section_path": "[​](https://docs.discord.com/developers/topics/oauth2\\#shared-resources)  Shared Resources > [​](https://docs.discord.com/developers/topics/oauth2\\#authorization-code-grant)  Authorization Code Grant > Authorization URL Example > Redirect URL Example > Access Token Exchange Example > Access Token Response",
+      "chunk_index": 4,
+      "token_count": 464,
+      "quality_score": 0.84
+    },
+    {
+      "id": "ev_f81a2b3df123",
+      "source_type": "auth_docs",
+      "url": "https://docs.discord.com/developers/topics/oauth2",
+      "domain": "docs.discord.com",
+      "page_title": "OAuth2 - Documentation - Discord",
+      "content": "```\nimport requests\n\nAPI_ENDPOINT = 'https://discord.com/api/v10'\nCLIENT_ID = '332269999912132097'\nCLIENT_SECRET = '937it3ow87i4ery69876wqire'\n\ndef refresh_token(refresh_token):\n  data = {\n    'grant_type': 'refresh_token',\n    'refresh_token': refresh_token\n  }\n  headers = {\n    'Content-Type': 'application/x-www-form-urlencoded'\n  }\n  r = requests.post('%s/oauth2/token' % API_ENDPOINT, data=data, headers=headers, auth=(CLIENT_ID, CLIENT_SECRET))\n  r.raise_for_status()\n  return r.json()\n```\n\nBoom; fresh [access token response](https://docs.discord.com/developers/topics/oauth2#authorization-code-grant-access-token-response)!\n\nTo disable an access or refresh token, you can revoke it by making a `POST` request to the [token revocation URL](https://docs.discord.com/developers/topics/oauth2#shared-resources-oauth2-urls) with the following parameters:\n\n- `token` \\- the access token or refresh token to revoke\n- `token_type_hint` _(optional)_ \\- the `token` parameter’s type—either `access_token` or `refresh_token`\n\nWhen you revoke a token, any active access or refresh tokens associated with that authorization will be revoked, regardless of the `token` and `token_type_hint` values you pass in.\n\n```\nimport requests\n\nAPI_ENDPOINT = 'https://discord.com/api/v10'\nCLIENT_ID = '332269999912132097'\nCLIENT_SECRET = '937it3ow87i4ery69876wqire'\n\ndef revoke_access_token(access_token):\n  data = {\n    'token': access_token,\n    'token_type_hint': 'access_token'\n  }\n  headers = {\n    'Content-Type': 'application/x-www-form-urlencoded'\n  }\n  requests.post('%s/oauth2/token/revoke' % API_ENDPOINT, data=data, headers=headers, auth=(CLIENT_ID, CLIENT_SECRET))\n```\n\nBoom; the tokens are safely revoked.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:36.427847Z",
+      "section_path": "[​](https://docs.discord.com/developers/topics/oauth2\\#shared-resources)  Shared Resources > [​](https://docs.discord.com/developers/topics/oauth2\\#authorization-code-grant)  Authorization Code Grant > Authorization URL Example > Redirect URL Example > Access Token Exchange Example > Token Revocation Example",
+      "chunk_index": 5,
+      "token_count": 425,
+      "quality_score": 0.84
+    },
+    {
+      "id": "ev_c2d7dbe55639",
+      "source_type": "auth_docs",
+      "url": "https://docs.discord.com/developers/topics/oauth2",
+      "domain": "docs.discord.com",
+      "page_title": "OAuth2 - Documentation - Discord",
+      "content": "The client credential flow is a quick and easy way for bot developers to get their own bearer tokens for testing purposes. By making a `POST` request to the [token URL](https://docs.discord.com/developers/topics/oauth2#shared-resources-oauth2-urls) with a grant type of `client_credentials`, using Basic authentication with your client id as the username and your client secret as the password, you will be returned an access token for the bot owner. Therefore, always be super-extra-very-we-are-not-kidding-like-really-be-secure-make-sure-your-info-is-not-in-your-source-code careful with your `client_id` and `client_secret`. We don’t take kindly to imposters around these parts.You can specify scopes with the `scope` parameter, which is a list of [OAuth2 scopes](https://docs.discord.com/developers/topics/oauth2#shared-resources-oauth2-scopes) separated by spaces:\n\nTeam applications are limited to the `identify` and `applications.commands.update` scope, because teams are not bound to a specific user.\n\n```\nimport requests\n\nAPI_ENDPOINT = 'https://discord.com/api/v10'\nCLIENT_ID = '332269999912132097'\nCLIENT_SECRET = '937it3ow87i4ery69876wqire'\n\ndef get_token():\n  data = {\n    'grant_type': 'client_credentials',\n    'scope': 'identify connections'\n  }\n  headers = {\n    'Content-Type': 'application/x-www-form-urlencoded'\n  }\n  r = requests.post('%s/oauth2/token' % API_ENDPOINT, data=data, headers=headers, auth=(CLIENT_ID, CLIENT_SECRET))\n  r.raise_for_status()\n  return r.json()\n```\n\nIn return, you will receive an access token (without a refresh token):",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:36.427913Z",
+      "section_path": "[​](https://docs.discord.com/developers/topics/oauth2\\#shared-resources)  Shared Resources > [​](https://docs.discord.com/developers/topics/oauth2\\#client-credentials-grant)  Client Credentials Grant > Client Credentials Token Request Example",
+      "chunk_index": 7,
+      "token_count": 391,
+      "quality_score": 0.84
+    },
+    {
+      "id": "ev_84d82b20699b",
+      "source_type": "auth_docs",
+      "url": "https://docs.discord.com/developers/topics/oauth2",
+      "domain": "docs.discord.com",
+      "page_title": "OAuth2 - Documentation - Discord",
+      "content": "For bots with [elevated permissions](https://docs.discord.com/developers/topics/permissions#permissions-bitwise-permission-flags) (permissions with a `*` next to them), we enforce two-factor authentication on the owner’s account when added to guilds that have server-wide 2FA enabled.\n\nDiscord’s webhook flow is a specialized version of an [authorization code](https://docs.discord.com/developers/topics/oauth2#authorization-code-grant) implementation. In this case, the `scope` querystring parameter needs to be set to `webhook.incoming`:\n\n```\nhttps://discord.com/oauth2/authorize?response_type=code&client_id=157730590492196864&scope=webhook.incoming&state=15773059ghq9183habn&redirect_uri=https%3A%2F%2Fnicememe.website\n```\n\nWhen the user navigates to this URL, they will be prompted to select a channel in which to allow the webhook. When the webhook is [executed](https://docs.discord.com/developers/resources/webhook#execute-webhook), it will post its message into this channel. On acceptance, the user will be redirected to your `redirect_uri`. The URL will contain the `code` querystring parameter which should be [exchanged for an access token](https://docs.discord.com/developers/topics/oauth2#authorization-code-grant-access-token-exchange-example). In return, you will receive a slightly modified token response:",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:36.428093Z",
+      "section_path": "[​](https://docs.discord.com/developers/topics/oauth2\\#shared-resources)  Shared Resources > [​](https://docs.discord.com/developers/topics/oauth2\\#webhooks)  Webhooks > URL Example",
+      "chunk_index": 12,
+      "token_count": 331,
+      "quality_score": 0.84
+    },
+    {
+      "id": "ev_70715f12c8ed",
+      "source_type": "auth_docs",
+      "url": "https://docs.discord.com/developers/topics/oauth2",
+      "domain": "docs.discord.com",
+      "page_title": "OAuth2 - Documentation - Discord",
+      "content": "```\n{\n  \"token_type\": \"Bearer\",\n  \"access_token\": \"GNaVzEtATqdh173tNHEXY9ZYAuhiYxvy\",\n  \"scope\": \"webhook.incoming\",\n  \"expires_in\": 604800,\n  \"refresh_token\": \"PvPL7ELyMDc1836457XCDh1Y8jPbRm\",\n  \"webhook\": {\n    \"application_id\": \"310954232226357250\",\n    \"name\": \"testwebhook\",\n    \"url\": \"https://discord.com/api/webhooks/347114750880120863/kKDdjXa1g9tKNs0-_yOwLyALC9gydEWP6gr9sHabuK1vuofjhQDDnlOclJeRIvYK-pj_\",\n    \"channel_id\": \"345626669224982402\",\n    \"token\": \"kKDdjXa1g9tKNs0-_yOwLyALC9gydEWP6gr9sHabuK1vuofjhQDDnlOclJeRIvYK-pj_\",\n    \"type\": 1,\n    \"avatar\": null,\n    \"guild_id\": \"290926792226357250\",\n    \"id\": \"347114750880120863\"\n  }\n}\n```\n\nFrom this object, you should store the `webhook.token` and `webhook.id`. See the [execute webhook](https://docs.discord.com/developers/resources/webhook#execute-webhook) documentation for how to send messages with the webhook.Any user that wishes to add your webhook to their channel will need to go through the full OAuth2 flow. A new webhook is created each time, so you will need to save the token and id. If you wish to send a message to all your webhooks, you’ll need to iterate over each stored id:token combination and make `POST` requests to each one. Be mindful of our [Rate Limits](https://docs.discord.com/developers/topics/rate-limits#rate-limits)!",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:36.428118Z",
+      "section_path": "[​](https://docs.discord.com/developers/topics/oauth2\\#shared-resources)  Shared Resources > [​](https://docs.discord.com/developers/topics/oauth2\\#webhooks)  Webhooks > URL Example > Webhook Token Response Example",
+      "chunk_index": 13,
+      "token_count": 328,
+      "quality_score": 0.84
+    },
+    {
+      "id": "ev_c5de5851184f",
+      "source_type": "auth_docs",
+      "url": "https://docs.discord.com/developers/topics/oauth2",
+      "domain": "docs.discord.com",
+      "page_title": "OAuth2 - Documentation - Discord",
+      "content": "GET/oauth2/applications/@me\n\nReturns the bot’s [application](https://docs.discord.com/developers/resources/application#application-object) object.\n\nGET/oauth2/@me\n\nReturns info about the current authorization. Requires authentication with a bearer token.\n\n| Field | Type | Description |\n| --- | --- | --- |\n| application | partial [application](https://docs.discord.com/developers/resources/application#application-object) object | the current application |\n| scopes | array of strings | the scopes the user has authorized the application for |\n| expires | ISO8601 timestamp | when the access token expires |\n| user? | [user](https://docs.discord.com/developers/resources/user#user-object) object | the user who has authorized, if the user has authorized with the `identify` scope |\n\n```\n{\n    \"application\": {\n        \"id\": \"159799960412356608\",\n        \"name\": \"AIRHORN SOLUTIONS\",\n        \"icon\": \"f03590d3eb764081d154a66340ea7d6d\",\n        \"description\": \"\",\n        \"hook\": true,\n        \"bot_public\": true,\n        \"bot_require_code_grant\": false,\n        \"verify_key\": \"c8cde6a3c8c6e49d86af3191287b3ce255872be1fff6dc285bdb420c06a2c3c8\"\n    },\n    \"scopes\": [\\\n        \"guilds.join\",\\\n        \"identify\"\\\n    ],\n    \"expires\": \"2021-01-23T02:33:17.017000+00:00\",\n    \"user\": {\n        \"id\": \"268473310986240001\",\n        \"username\": \"discord\",\n        \"avatar\": \"f749bb0cbeeb26ef21eca719337d20f1\",\n        \"discriminator\": \"0\",\n        \"global_name\": \"Discord\",\n        \"public_flags\": 131072\n    }\n}\n```\n\nWas this page helpful?\n\nYesNo\n\n[API Reference\\\\\n\\\\\nPrevious](https://docs.discord.com/developers/reference) [Opcodes and Status Codes\\\\\n\\\\\nNext](https://docs.discord.com/developers/topics/opcodes-and-status-codes)\n\nCtrl+I",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:36.428152Z",
+      "section_path": "[​](https://docs.discord.com/developers/topics/oauth2\\#shared-resources)  Shared Resources > [​](https://docs.discord.com/developers/topics/oauth2\\#get-current-authorization-information)  Get Current Authorization Information > Response Structure > Example Authorization Information",
+      "chunk_index": 14,
+      "token_count": 433,
+      "quality_score": 0.84
+    },
+    {
+      "id": "ev_21406952e85b",
+      "source_type": "api_reference",
+      "url": "https://docs.discord.com/developers/reference",
+      "domain": "docs.discord.com",
+      "page_title": "API Reference - Documentation - Discord",
+      "content": "Some API and Gateway versions are now non-functioning, and are labeled as discontinued in the table below for posterity. Trying to use these versions will fail and return 400 Bad Request.\n\nDiscord exposes different versions of our API [.](https://c.tenor.com/BuZl66EegkgAAAAC/westworld-dolores.gif) You should specify which version to use by including it in the request path like `https://discord.com/api/v{version_number}`. Omitting the version number from the route will route requests to the current default version (marked below). You can find the change log for the newest API version [here](https://docs.discord.com/developers/change-log).\n\n**API Versions**\n\n| Version | Status | Default |\n| --- | --- | --- |\n| 10 | Available |  |\n| 9 | Available |  |\n| 8 | Deprecated |  |\n| 7 | Deprecated |  |\n| 6 | Deprecated |  |\n| 5 | Discontinued |  |\n| 4 | Discontinued |  |\n| 3 | Discontinued |  |\n\nStarting in API v8, we’ve improved error formatting in form error responses. The response will tell you which JSON key contains the error, the error code, and a human readable error message. We will be frequently adding new error messages, so a complete list of errors is not feasible and would be almost instantly out of date. Here are some examples instead:**Array Error**\n\n```\n{\n  \"code\": 50035,\n  \"errors\": {\n    \"activities\": {\n      \"0\": {\n        \"platform\": {\n          \"_errors\": [\\\n            {\\\n              \"code\": \"BASE_TYPE_CHOICES\",\\\n              \"message\": \"Value must be one of ('desktop', 'android', 'ios').\"\\\n            }\\\n          ]\n        },\n        \"type\": {\n          \"_errors\": [\\\n            {\\\n              \"code\": \"BASE_TYPE_CHOICES\",\\\n              \"message\": \"Value must be one of (0, 1, 2, 3, 4, 5).\"\\\n            }\\\n          ]\n        }\n      }\n    }\n  },\n  \"message\": \"Invalid Form Body\"\n}\n```\n\n**Object Error**\n\n```\n{\n  \"code\": 50035,\n  \"errors\": {\n    \"access_token\": {\n      \"_errors\": [\\\n        {\\\n          \"code\": \"BASE_TYPE_REQUIRED\",\\\n          \"message\": \"This field is required\"\\\n        }\\\n      ]\n    }\n  },\n  \"message\": \"Invalid Form Body\"\n}\n```\n\n**Request Error**\n\n```\n{\n  \"code\": 50035,\n  \"message\": \"Invalid Form Body\",\n  \"errors\": {\n    \"_errors\": [\\\n      {\\\n        \"code\": \"APPLICATION_COMMAND_TOO_LARGE\",\\\n        \"message\": \"Command exceeds maximum size (8000)\"\\\n      }\\\n    ]\n  }\n}\n```",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:01:43.522296Z",
+      "section_path": "[​](https://docs.discord.com/developers/reference\\#api-versioning)  API Versioning > [​](https://docs.discord.com/developers/reference\\#error-messages)  Error Messages",
+      "chunk_index": 0,
+      "token_count": 587,
+      "quality_score": 0.78
+    },
+    {
+      "id": "ev_7498df53f37a",
+      "source_type": "api_reference",
+      "url": "https://docs.discord.com/developers/reference",
+      "domain": "docs.discord.com",
+      "page_title": "API Reference - Documentation - Discord",
+      "content": "Authenticating with the Discord API can be done in one of two ways:\n\n1. Using a bot token found on the Bot page within your app’s settings. For more information on bots see [bots vs user accounts](https://docs.discord.com/developers/topics/oauth2#bot-vs-user-accounts).\n2. Using an OAuth2 bearer token gained through the [OAuth2 API](https://docs.discord.com/developers/topics/oauth2).\n\nFor all authentication types, authentication is performed with the `Authorization` HTTP header in the format `Authorization: TOKEN_TYPE TOKEN`.**Example Bot Token Authorization Header**\n\n```\nAuthorization: Bot [DISCORD_EXAMPLE_BOT_TOKEN]\n```\n\n**Example Bearer Token Authorization Header**\n\n```\nAuthorization: Bearer [DISCORD_EXAMPLE_BEARER_TOKEN]\n```\n\nAll HTTP-layer services and protocols (e.g. HTTP, WebSocket) within the Discord API are using TLS 1.2.\n\nDiscord utilizes Twitter’s [snowflake](https://github.com/twitter-archive/snowflake/tree/snowflake-2010) format for uniquely identifiable descriptors (IDs). These IDs are guaranteed to be unique across all of Discord, except in some unique scenarios in which child objects share their parent’s ID. Because Snowflake IDs are up to 64 bits in size (e.g. a uint64), they are always returned as strings in the HTTP API to prevent integer overflows in some languages. See [Gateway ETF/JSON](https://docs.discord.com/developers/events/gateway#encoding-and-compression) for more information regarding Gateway encoding.**Snowflake ID Broken Down in Binary**\n\n```\n111111111111111111111111111111111111111111 11111 11111 111111111111\n64                                         22    17    12          0\n```\n\n**Snowflake ID Format Structure (Left to Right)**\n\n| Field | Bits | Number of bits | Description | Retrieval |\n| --- | --- | --- | --- | --- |\n| Timestamp | 63 to 22 | 42 bits | Milliseconds since Discord Epoch, the first second of 2015 or 1420070400000. | `(snowflake >> 22) + 1420070400000` |\n| Internal worker ID | 21 to 17 | 5 bits |  | `(snowflake & 0x3E0000) >> 17` |\n| Internal process ID | 16 to 12 | 5 bits |  | `(snowflake & 0x1F000) >> 12` |\n| Increment | 11 to 0 | 12 bits | For every ID that is generated on that process, this number is incremented | `snowflake & 0xFFF` |",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:01:43.522377Z",
+      "section_path": "[​](https://docs.discord.com/developers/reference\\#api-versioning)  API Versioning > [​](https://docs.discord.com/developers/reference\\#snowflakes)  Snowflakes",
+      "chunk_index": 1,
+      "token_count": 564,
+      "quality_score": 0.78
+    },
+    {
+      "id": "ev_d387ad29555a",
+      "source_type": "api_reference",
+      "url": "https://docs.discord.com/developers/reference",
+      "domain": "docs.discord.com",
+      "page_title": "API Reference - Documentation - Discord",
+      "content": "175928847299117063to binaryto decimalParse unix timestamp (ms)\\+ 1420070400000Discord Epoch (unix timestamp in ms)Number of milliseconds since the Discord epoch (first seconds of 2015)InternalworkerIDInternalprocessIDIncremented for every generated ID on that process642212017\n\nWe typically use snowflake IDs in many of our API routes for pagination. The standardized pagination paradigm we utilize is one in which you can specify IDs `before` and `after` in combination with `limit` to retrieve a desired page of results. You will want to refer to the specific endpoint documentation for details.It is useful to note that snowflake IDs are just numbers with a timestamp, so when dealing with pagination where you want results from the beginning of time (in Discord Epoch, but `0` works here too) or before/after a specific time you can generate a snowflake ID for that time.**Generating a snowflake ID from a Timestamp Example**\n\n```\n(timestamp_ms - DISCORD_EPOCH) << 22\n```\n\nThere are some cases in which our API and Gateway may return IDs in an unexpected format. Internally, Discord stores IDs as integer snowflakes. When we serialize IDs to JSON, we transform `bigints` into strings. Given that all Discord IDs are snowflakes, you should always expect a string.However, there are cases in which passing something to our API will instead return IDs serialized as an integer; this is the case when you send our API or Gateway a value in an `id` field that is not `bigint` size. For example, when requesting `GUILD_MEMBERS_CHUNK` from our gateway:\n\n```\n// Send\n{\n  op: 8,\n  d: {\n    guild_id: '308994132968210433',\n    user_ids: [ '123123' ]\n  }\n}\n\n// Receive\n{\n  t: 'GUILD_MEMBERS_CHUNK',\n  s: 3,\n  op: 0,\n  d: {\n    not_found: [ 123123 ],\n    members: [],\n    guild_id: '308994132968210433'\n  }\n}\n```\n\nYou can see in this case that the sent `user_id` is not a `bigint`; therefore, when it is serialized back to JSON by Discord, it is not transformed into a string. This will never happen with IDs that come from Discord. But, this can happen if you send malformed data in your requests.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:01:43.522445Z",
+      "section_path": "[​](https://docs.discord.com/developers/reference\\#api-versioning)  API Versioning > [​](https://docs.discord.com/developers/reference\\#id-serialization)  ID Serialization",
+      "chunk_index": 2,
+      "token_count": 522,
+      "quality_score": 0.78
+    },
+    {
+      "id": "ev_8521fe269f19",
+      "source_type": "api_reference",
+      "url": "https://docs.discord.com/developers/reference",
+      "domain": "docs.discord.com",
+      "page_title": "API Reference - Documentation - Discord",
+      "content": "Clients using the HTTP API must provide a valid [User Agent](https://www.rfc-editor.org/rfc/rfc9110.html#section-10.1.5) which specifies information about the client library and version in the following format:**User Agent Example**\n\n```\nUser-Agent: DiscordBot ($url, $versionNumber)\n```\n\nClients may append more information and metadata to the end of this string as they wish.\n\nClient requests that do not have a valid User Agent specified may be blocked and return a [Cloudflare error](https://support.cloudflare.com/hc/en-us/articles/360029779472-Troubleshooting-Cloudflare-1XXX-errors).\n\nClients using the HTTP API must provide a valid `Content-Type` header, either `application/json`, `application/x-www-form-urlencoded`, or `multipart/form-data`, except where specified. Failing to do so will result in a `50035` “Invalid form body” error.\n\nThe HTTP API implements a process for limiting and preventing excessive requests in accordance with [RFC 6585](https://tools.ietf.org/html/rfc6585#section-4). API users that regularly hit and ignore rate limits will have their API keys revoked, and be blocked from the platform. For more information on rate limiting of requests, please see the [Rate Limits](https://docs.discord.com/developers/topics/rate-limits) section.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:01:43.522531Z",
+      "section_path": "[​](https://docs.discord.com/developers/reference\\#api-versioning)  API Versioning > [​](https://docs.discord.com/developers/reference\\#consistency)  Consistency > [​](https://docs.discord.com/developers/reference\\#rate-limiting)  Rate Limiting",
+      "chunk_index": 4,
+      "token_count": 317,
+      "quality_score": 0.78
+    },
+    {
+      "id": "ev_ce046b0980f7",
+      "source_type": "api_reference",
+      "url": "https://docs.discord.com/developers/reference",
+      "domain": "docs.discord.com",
+      "page_title": "API Reference - Documentation - Discord",
+      "content": "Certain endpoints in the API are documented to accept booleans for their query string parameters. While there is no standard system for boolean representation in query string parameters, Discord represents such cases using `True`, `true`, or `1` for true and `False`, `false` or `0` for false.\n\nCertain endpoints in the API are documented to accept arrays for their query string parameters. Unless otherwise specified, Discord represents such cases using multiple instances of the same query string parameter. For example, `?id=123&id=456` for `[\"123\", \"456\"]`.\n\nDiscord’s Gateway API is used for maintaining persistent, stateful websocket connections between your client and our servers. These connections are used for sending and receiving real-time events your client can use to track and update local state. The Gateway API uses secure websocket connections as specified in [RFC 6455](https://tools.ietf.org/html/rfc6455). For information on opening Gateway connections, please see the [Gateway API](https://docs.discord.com/developers/events/gateway#connections) section.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:01:43.522577Z",
+      "section_path": "[​](https://docs.discord.com/developers/reference\\#api-versioning)  API Versioning > [​](https://docs.discord.com/developers/reference\\#gateway-websocket-api)  Gateway (WebSocket) API",
+      "chunk_index": 5,
+      "token_count": 269,
+      "quality_score": 0.78
+    },
+    {
+      "id": "ev_1df776edc017",
+      "source_type": "api_reference",
+      "url": "https://docs.discord.com/developers/reference",
+      "domain": "docs.discord.com",
+      "page_title": "API Reference - Documentation - Discord",
+      "content": "**Image Base URL**\n\n```\nhttps://cdn.discordapp.com/\n```\n\nDiscord uses ids and hashes to render images in the client. These hashes can be retrieved through various API requests, like [Get User](https://docs.discord.com/developers/resources/user#get-user). Below are the formats, size limitations, and CDN endpoints for images in Discord. The returned format can be changed by changing the [extension name](https://docs.discord.com/developers/reference#image-formatting-image-formats) at the end of the URL. The returned size can be changed by appending a querystring of `?size=desired_size` to the URL. Image size can be any power of two between 16 and 4096.\n\nAnimated images uploaded as WebP or AVIF do not convert cleanly to GIF. Apps should request animated images as WebP for maximum compatibility, as this works regardless of the original upload format.\n\n**Image Formats**\n\n| Name | Extension |\n| --- | --- |\n| JPEG | .jpg, .jpeg |\n| PNG | .png |\n| WebP | .webp |\n| GIF | .gif |\n| Lottie | .json |\n\n**CDN Endpoints**",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:01:43.522711Z",
+      "section_path": "[​](https://docs.discord.com/developers/reference\\#api-versioning)  API Versioning > [​](https://docs.discord.com/developers/reference\\#image-formatting)  Image Formatting",
+      "chunk_index": 7,
+      "token_count": 255,
+      "quality_score": 0.78
+    },
+    {
+      "id": "ev_0a4ecbf5d9a3",
+      "source_type": "api_reference",
+      "url": "https://docs.discord.com/developers/reference",
+      "domain": "docs.discord.com",
+      "page_title": "API Reference - Documentation - Discord",
+      "content": "| Type | Path | Supports |\n| --- | --- | --- |\n| Custom Emoji | emojis/ [emoji\\_id](https://docs.discord.com/developers/resources/emoji#emoji-object).png \\*\\*\\*\\*\\* | PNG, JPEG, WebP, GIF |\n| Guild Icon | icons/ [guild\\_id](https://docs.discord.com/developers/resources/guild#guild-object)/ [guild\\_icon](https://docs.discord.com/developers/resources/guild#guild-object).png \\* | PNG, JPEG, WebP, GIF |\n| Guild Splash | splashes/ [guild\\_id](https://docs.discord.com/developers/resources/guild#guild-object)/ [guild\\_splash](https://docs.discord.com/developers/resources/guild#guild-object).png | PNG, JPEG, WebP |\n| Guild Discovery Splash | discovery-splashes/ [guild\\_id](https://docs.discord.com/developers/resources/guild#guild-object)/ [guild\\_discovery\\_splash](https://docs.discord.com/developers/resources/guild#guild-object).png | PNG, JPEG, WebP |\n| Guild Banner | banners/ [guild\\_id](https://docs.discord.com/developers/resources/guild#guild-object)/ [guild\\_banner](https://docs.discord.com/developers/resources/guild#guild-object).png \\* | PNG, JPEG, WebP, GIF |\n| User Banner | banners/ [user\\_id](https://docs.discord.com/developers/resources/user#user-object)/ [user\\_banner](https://docs.discord.com/developers/resources/user#user-object).png \\* | PNG, JPEG, WebP, GIF |\n| Default User Avatar | embed/avatars/ [index](https://docs.discord.com/developers/resources/user#user-object).png \\*\\* \\*\\*\\* | PNG |\n| User Avatar | avatars/ [user\\_id](https://docs.discord.com/developers/resources/user#user-object)/ [user\\_avatar](https://docs.discord.com/developers/resources/user#user-object).png \\* | PNG, JPEG, WebP, GIF |\n| Guild Member Avatar | guilds/ [guild\\_id](https://docs.discord.com/developers/resources/guild#guild-object)/users/ [user\\_id](https://docs.discord.com/developers/resources/user#user-object)/avatars/ [member\\_avatar](https://docs.discord.com/developers/resources/guild#guild-member-object).png \\* | PNG, JPEG, WebP, GIF |\n| Avatar Decoration | avatar-decoration-presets/ [avatar\\_decoration\\_data\\_asset](https://docs.discord.com/developers/resources/user#avatar-decoration-data-object).png | PNG |\n| Application Icon | app-icons/ [application\\_id](https://docs.discord.com/developers/resources/application#application-object)/ [icon](https://docs.discord.com/developers/resources/application#application-object).png | PNG, JPEG, WebP |\n| Application Cover | app-icons/ [application\\_id](https://docs.discord.com/developers/resources/application#application-object)/ [cover\\_image](https://docs.discord.com/developers/resources/application#application-object).png | PNG, JPEG, WebP |\n| Application Asset | app-assets/ [application\\_id](https://docs.discord.com/developers/resources/application#application-object)/ [asset\\_id](https://docs.discord.com/developers/events/gateway-events#activity-object-activity-assets).png | PNG, JPEG, WebP |\n| Achievement Icon | app-assets/ [application\\_id](https://docs.discord.com/developers/resources/application#application-object)/achievements/ [achievement\\_id](https://github.com/discord/discord-api-docs/blob/legacy-gamesdk/docs/game_sdk/Achievements.md#user-achievement-struct)/icons/ [icon\\_hash](https://github.com/discord/discord-api-docs/blob/legacy-gamesdk/docs/game_sdk/Achievements.md#user-achievement-struct).png | PNG, JPEG, WebP |\n| Store Page Asset | app-assets/ [application\\_id](https://docs.discord.com/developers/resources/application#application-object)/store/asset\\_id | PNG, JPEG, WebP |\n| Sticker Pack Banner | app-assets/710982414301790216/store/ [sticker\\_pack\\_banner\\_asset\\_id](https://docs.discord.com/developers/resources/sticker#sticker-pack-object).png | PNG, JPEG, WebP |\n| Team Icon | team-icons/ [team\\_id](https://docs.discord.com/developers/topics/teams#data-models-team-object)/ [team\\_icon](https://docs.discord.com/developers/topics/teams#data-models-team-object).png | PNG, JPEG, WebP |\n| Sticker | stickers/ [sticker\\_id](https://docs.discord.com/developers/resources/sticker#sticker-object).png \\*\\*\\* \\*\\*\\*\\* | PNG, Lottie, GIF |\n| Role Icon | role-icons/ [role\\_id](https://docs.discord.com/developers/topics/permissions#role-object)/ [role\\_icon](https://docs.discord.com/developers/topics/permissions#role-object).png | PNG, JPEG, WebP |\n| Guild Scheduled Event Cover | guild-events/ [scheduled\\_event\\_id](https://docs.discord.com/developers/resources/guild-scheduled-event#guild-scheduled-event-object)/ [scheduled\\_event\\_cover\\_image](https://docs.discord.com/developers/resources/guild-scheduled-event#guild-scheduled-event-object).png | PNG, JPEG, WebP |\n| Guild Member Banner | guilds/ [guild\\_id](https://docs.discord.com/developers/resources/guild#guild-object)/users/ [user\\_id](https://docs.discord.com/developers/resources/user#user-object)/banners/ [member\\_banner](https://docs.discord.com/developers/resources/guild#guild-member-object).png \\* | PNG, JPEG, WebP, GIF |\n| Guild Tag Badge | guild-tag-badges/ [guild\\_id](https://docs.discord.com/developers/resources/guild#guild-object)/ [badge\\_hash](https://docs.discord.com/developers/resources/user#user-object-user-primary-guild).png | PNG, JPEG, WebP |",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:01:43.522801Z",
+      "section_path": "[​](https://docs.discord.com/developers/reference\\#api-versioning)  API Versioning > [​](https://docs.discord.com/developers/reference\\#image-formatting)  Image Formatting",
+      "chunk_index": 8,
+      "token_count": 1286,
+      "quality_score": 0.78
+    },
+    {
+      "id": "ev_034dcf6975a7",
+      "source_type": "api_reference",
+      "url": "https://docs.discord.com/developers/reference",
+      "domain": "docs.discord.com",
+      "page_title": "API Reference - Documentation - Discord",
+      "content": "\\\\* In the case of endpoints that support GIFs, the hash will begin with `a_` if it is available in an animated format (example: `a_1269e74af4df7417b13759eae50c83dc`). These images can be retrieved as animated WebP using the `.webp` file extension and `?animated=true` querystring parameter.\\\\*\\\\* In the case of the Default User Avatar endpoint, the value for `index` depends on whether the user is [migrated to the new username system](https://docs.discord.com/developers/change-log#unique-usernames-on-discord). For users on the new username system, `index` will be `(user_id >> 22) % 6`. For users on the legacy username system, `index` will be `discriminator % 5`.\\\\*\\\\*\\\\* In the case of the Default User Avatar and Sticker endpoints, the size of images returned is constant with the “size” querystring parameter being ignored.\\\\*\\\\*\\\\*\\\\* In the case of the Sticker endpoint, the sticker will be available as PNG if its [`format_type`](https://docs.discord.com/developers/resources/sticker#sticker-object) is `PNG` or `APNG`, GIF if its `format_type` is `GIF`, and as [Lottie](https://airbnb.io/lottie/#/) if its `format_type` is `LOTTIE`.\\\\*\\\\*\\\\*\\\\*\\\\* For Custom Emoji, we highly recommend requesting emojis as WebP for maximum performance and compatibility. Emojis can be uploaded as JPEG, PNG, GIF, WebP, and AVIF formats. WebP and AVIF formats must be requested as WebP since they don’t convert well to other formats. The Discord client uses WebP for all emojis displayed in-app. See the [Emoji Resource](https://docs.discord.com/developers/resources/emoji) page for more details.\n\nSticker GIFs do not use the CDN base URL, and can be accessed at `https://media.discordapp.net/stickers/<sticker_id>.gif`.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:01:43.522865Z",
+      "section_path": "[​](https://docs.discord.com/developers/reference\\#api-versioning)  API Versioning > [​](https://docs.discord.com/developers/reference\\#image-formatting)  Image Formatting",
+      "chunk_index": 9,
+      "token_count": 429,
+      "quality_score": 0.78
+    },
+    {
+      "id": "ev_96c3b17338da",
+      "source_type": "api_reference",
+      "url": "https://docs.discord.com/developers/reference",
+      "domain": "docs.discord.com",
+      "page_title": "API Reference - Documentation - Discord",
+      "content": "Image data is a [Data URI scheme](https://en.wikipedia.org/wiki/Data_URI_scheme) that supports JPG, GIF, and PNG formats. An example Data URI format is:\n\n```\ndata:image/jpeg;base64,BASE64_ENCODED_JPEG_IMAGE_DATA\n```\n\nEnsure you use the proper content type (`image/jpeg`, `image/png`, `image/gif`) that matches the image data being provided.\n\nAttachments uploaded to Discord’s CDN (like user and bot-uploaded images) have signed URLs with a preset expiry time. Discord automatically refreshes attachment CDN URLs that appear within the client, so when your app receives a payload with a signed URL (like when you [fetch a message](https://docs.discord.com/developers/resources/message#get-channel-message)), it will be valid.When passing CDN URLs into API fields, like [`url` in an embed image object](https://docs.discord.com/developers/resources/message#embed-object-embed-image-structure) and [`avatar_url` for webhooks](https://docs.discord.com/developers/resources/webhook#execute-webhook-jsonform-params), your app can pass the CDN URL without any parameters as the value and Discord will automatically render and refresh the URL.The [standard CDN endpoints](https://docs.discord.com/developers/reference#image-formatting-cdn-endpoints) listed above are not signed, so they will not expire.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:01:43.522906Z",
+      "section_path": "[​](https://docs.discord.com/developers/reference\\#api-versioning)  API Versioning > [​](https://docs.discord.com/developers/reference\\#image-data)  Image Data > [​](https://docs.discord.com/developers/reference\\#signed-attachment-cdn-urls)  **Signed Attachment CDN URLs**",
+      "chunk_index": 10,
+      "token_count": 323,
+      "quality_score": 0.78
+    },
+    {
+      "id": "ev_7e5910cc6803",
+      "source_type": "api_reference",
+      "url": "https://docs.discord.com/developers/reference",
+      "domain": "docs.discord.com",
+      "page_title": "API Reference - Documentation - Discord",
+      "content": "```\nhttps://cdn.discordapp.com/attachments/1012345678900020080/1234567891233211234/my_image.png?ex=65d903de&is=65c68ede&hm=2481f30dd67f503f54d020ae3b5533b9987fae4e55f2b4e3926e08a3fa3ee24f&\n```\n\n| Parameter | Description |\n| --- | --- |\n| ex | Hex timestamp indicating when an attachment CDN URL will expire |\n| is | Hex timestamp indicating when the URL was issued |\n| hm | Unique signature that remains valid until the URL’s expiration |\n\nThe file upload size limit applies to each file in a request. The default limit is `10 MiB` for all users, but may be higher for users depending on their [Nitro](https://support.discord.com/hc/en-us/articles/115000435108-What-are-Nitro-Nitro-Basic) status or by the server’s [Boost Tier](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-#h_419c3bd5-addd-4989-b7cf-c7957ef92583). The `attachment_size_limit` value provided [when working with interactions](https://docs.discord.com/developers/interactions/receiving-and-responding#interaction-object-interaction-structure) is calculated as the maximum of these values.\n\nSome endpoints support file attachments, indicated by the `files[n]` parameter. To add file(s), the standard `application/json` body must be replaced by a `multipart/form-data` body. The JSON message body can optionally be provided using the `payload_json` parameter.All `files[n]` parameters must include a valid `Content-Disposition` subpart header with a `filename` and unique `name` parameter. Each file parameter must be uniquely named in the format `files[n]` such as `files[0]`, `files[1]`, or `files[42]`. The suffixed index `n` is the snowflake placeholder that can be used in the `attachments` field, which can be passed to the `payload_json` parameter (or [Callback Data Payloads](https://docs.discord.com/developers/interactions/receiving-and-responding#interaction-response-object-interaction-callback-data-structure)).Images can also be referenced in embeds using the `attachment://filename` URL. An example payload is provided below.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:01:43.522973Z",
+      "section_path": "[​](https://docs.discord.com/developers/reference\\#api-versioning)  API Versioning > [​](https://docs.discord.com/developers/reference\\#uploading-files)  Uploading Files",
+      "chunk_index": 11,
+      "token_count": 509,
+      "quality_score": 0.78
+    },
+    {
+      "id": "ev_db75d0120652",
+      "source_type": "api_reference",
+      "url": "https://docs.discord.com/developers/reference",
+      "domain": "docs.discord.com",
+      "page_title": "API Reference - Documentation - Discord",
+      "content": "The `attachments` JSON parameter includes all files that will be appended to the message, including new files and their respective snowflake placeholders (referenced above). When making a `PATCH` request, only files listed in the `attachments` parameter will be appended to the message. Any previously-added files that aren’t included will be removed.The `description` and `is_spoiler` fields of existing attachments can optionally be updated.**Example Request Bodies (multipart/form-data)**Note that these examples are small sections of an HTTP request to demonstrate behavior of this endpoint - client libraries will set their own form boundaries (`boundary` is just an example). For more information, refer to the [multipart/form-data spec](https://tools.ietf.org/html/rfc7578#section-4).This example demonstrates usage of the endpoint without `payload_json`.\n\n```\n--boundary\nContent-Disposition: form-data; name=\"content\"\n\nHello, World!\n--boundary\nContent-Disposition: form-data; name=\"tts\"\n\ntrue\n--boundary--\n```\n\nThis example demonstrates usage of the endpoint with `payload_json` and all content fields (`content`, `embeds`, `files[n]`) set.\n\n```\n--boundary\nContent-Disposition: form-data; name=\"payload_json\"\nContent-Type: application/json\n\n{\n  \"content\": \"Hello, World!\",\n  \"embeds\": [{\\\n    \"title\": \"Hello, Embed!\",\\\n    \"description\": \"This is an embedded message.\",\\\n    \"thumbnail\": {\\\n      \"url\": \"attachment://myfilename.png\"\\\n    },\\\n    \"image\": {\\\n      \"url\": \"attachment://mygif.gif\"\\\n    }\\\n  }],\n  \"message_reference\": {\n    \"message_id\": \"233648473390448641\"\n  },\n  \"attachments\": [{\\\n      \"id\": 0,\\\n      \"description\": \"Image of a cute little cat\",\\\n      \"filename\": \"myfilename.png\"\\\n  }, {\\\n      \"id\": 1,\\\n      \"description\": \"Rickroll gif\",\\\n      \"filename\": \"mygif.gif\"\\\n  }]\n}\n--boundary\nContent-Disposition: form-data; name=\"files[0]\"; filename=\"myfilename.png\"\nContent-Type: image/png\n\n[image bytes]\n--boundary\nContent-Disposition: form-data; name=\"files[1]\"; filename=\"mygif.gif\"\nContent-Type: image/gif\n\n[image bytes]\n--boundary--\n```\n\n**Using Attachments within Embeds**You can upload attachments when creating a message and use those attachments within your embed. To do this, you will want to upload files as part of your `multipart/form-data` body. Make sure that you’re uploading files which contain a filename, as you will need to reference it in your payload.\n\nOnly `.jpg`, `.jpeg`, `.png`, `.webp`, and `.gif` may be used at this time. Other file types are not supported.\n\nWithin an embed object, you can set an image to use an attachment as its URL with the attachment scheme syntax: `attachment://filename.png`For example:\n\n```\n{\n  \"embeds\": [{\\\n    \"image\": {\\\n      \"url\": \"attachment://screenshot.png\"\\\n    }\\\n  }]\n}\n```",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:01:43.523057Z",
+      "section_path": "[​](https://docs.discord.com/developers/reference\\#api-versioning)  API Versioning > [​](https://docs.discord.com/developers/reference\\#uploading-files)  Uploading Files > [​](https://docs.discord.com/developers/reference\\#editing-message-attachments)  Editing Message Attachments",
+      "chunk_index": 12,
+      "token_count": 693,
+      "quality_score": 0.78
+    },
+    {
+      "id": "ev_7730353207c5",
+      "source_type": "api_reference",
+      "url": "https://docs.discord.com/developers/reference",
+      "domain": "docs.discord.com",
+      "page_title": "API Reference - Documentation - Discord",
+      "content": "| Locale | Language Name | Native Name |\n| --- | --- | --- |\n| id | Indonesian | Bahasa Indonesia |\n| da | Danish | Dansk |\n| de | German | Deutsch |\n| en-GB | English, UK | English, UK |\n| en-US | English, US | English, US |\n| es-ES | Spanish | Español |\n| es-419 | Spanish, LATAM | Español, LATAM |\n| fr | French | Français |\n| hr | Croatian | Hrvatski |\n| it | Italian | Italiano |\n| lt | Lithuanian | Lietuviškai |\n| hu | Hungarian | Magyar |\n| nl | Dutch | Nederlands |\n| no | Norwegian | Norsk |\n| pl | Polish | Polski |\n| pt-BR | Portuguese, Brazilian | Português do Brasil |\n| ro | Romanian, Romania | Română |\n| fi | Finnish | Suomi |\n| sv-SE | Swedish | Svenska |\n| vi | Vietnamese | Tiếng Việt |\n| tr | Turkish | Türkçe |\n| cs | Czech | Čeština |\n| el | Greek | Ελληνικά |\n| bg | Bulgarian | български |\n| ru | Russian | Pусский |\n| uk | Ukrainian | Українська |\n| hi | Hindi | हिन्दी |\n| th | Thai | ไทย |\n| zh-CN | Chinese, China | 中文 |\n| ja | Japanese | 日本語 |\n| zh-TW | Chinese, Taiwan | 繁體中文 |\n| ko | Korean | 한국어 |\n\nWas this page helpful?\n\nYesNo\n\n[OAuth2\\\\\n\\\\\nNext](https://docs.discord.com/developers/topics/oauth2)\n\nCtrl+I",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:01:43.523096Z",
+      "section_path": "[​](https://docs.discord.com/developers/reference\\#api-versioning)  API Versioning > [​](https://docs.discord.com/developers/reference\\#locales)  Locales",
+      "chunk_index": 13,
+      "token_count": 285,
+      "quality_score": 0.78
+    },
+    {
+      "id": "ev_142fdec712bb",
+      "source_type": "auth_docs",
+      "url": "https://docs.discord.com/developers/topics/oauth2",
+      "domain": "docs.discord.com",
+      "page_title": "OAuth2 - Documentation - Discord",
+      "content": "The first step in implementing OAuth2 is [registering a developer application](https://discord.com/developers/applications) and retrieving your client ID and client secret. Most people who will be implementing OAuth2 will want to find and utilize a library in the language of their choice. For those implementing OAuth2 from scratch, please see [RFC 6749](https://tools.ietf.org/html/rfc6749) for details. After you create your application with Discord, make sure that you have your `client_id` and `client_secret` handy. The next step is to figure out which OAuth2 flow is right for your purposes.\n\n| URL | Description |\n| --- | --- |\n| [https://discord.com/oauth2/authorize](https://discord.com/oauth2/authorize) | Base authorization URL |\n| [https://discord.com/api/oauth2/token](https://discord.com/api/oauth2/token) | Token URL |\n| [https://discord.com/api/oauth2/token/revoke](https://discord.com/api/oauth2/token/revoke) | [Token Revocation](https://tools.ietf.org/html/rfc7009) URL |\n\nIn accordance with the relevant RFCs, the token and token revocation URLs will **only** accept a content type of `application/x-www-form-urlencoded`. JSON content is not permitted and will return an error.\n\nThese are a list of all the OAuth2 scopes that Discord supports. Some scopes require approval from Discord to use. Requesting them from a user without approval from Discord may cause errors or undocumented behavior in the OAuth2 flow.\n\nTo inquire about access about scopes that are only available to approved partners, speak to your Discord account\nrepresentative to see if they are a fit for your needs.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:36.427578Z",
+      "section_path": "[​](https://docs.discord.com/developers/topics/oauth2\\#shared-resources)  Shared Resources > OAuth2 URLs > OAuth2 Scopes",
+      "chunk_index": 0,
+      "token_count": 401,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_04a3295576c9",
+      "source_type": "auth_docs",
+      "url": "https://docs.discord.com/developers/topics/oauth2",
+      "domain": "docs.discord.com",
+      "page_title": "OAuth2 - Documentation - Discord",
+      "content": "In order to add a user to a guild, your bot has to already belong to that guild. `role_connections.write` cannot be used with the [Implicit grant type](https://docs.discord.com/developers/topics/oauth2#implicit-grant).\n\nBefore we dive into the semantics of the different OAuth2 grants, we should stop and discuss security, specifically the use of the `state` parameter. [Cross-site request forgery](https://en.wikipedia.org/wiki/Cross-site_request_forgery), or CSRF, and [Clickjacking](https://en.wikipedia.org/wiki/Clickjacking) are security vulnerabilities that must be addressed by individuals implementing OAuth. This is typically accomplished using the `state` parameter. `state` is sent in the authorization request and returned back in the response and should be a value that binds the user’s request to their authenticated state. For example, `state` could be a hash of the user’s session cookie, or some other nonce that can be linked to the user’s session.When a user begins an authorization flow on the client, a `state` is generated that is unique to that user’s request. This value is stored somewhere only accessible to the client and the user, i.e. protected by the [same-origin policy](https://en.wikipedia.org/wiki/Same-origin_policy). When the user is redirected, the `state` parameter is returned. The client validates the request by checking that the `state` returned matches the stored value. If they match, it is a valid authorization request. If they do not match, it’s possible that someone intercepted the request or otherwise falsely authorized themselves to another user’s resources, and the request should be denied.While Discord does not require the use of the `state` parameter, we support it and highly recommend that you implement it for the security of your own applications and data.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:36.427718Z",
+      "section_path": "[​](https://docs.discord.com/developers/topics/oauth2\\#shared-resources)  Shared Resources > [​](https://docs.discord.com/developers/topics/oauth2\\#state-and-security)  State and Security",
+      "chunk_index": 2,
+      "token_count": 454,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_618ea416bdb0",
+      "source_type": "auth_docs",
+      "url": "https://docs.discord.com/developers/topics/oauth2",
+      "domain": "docs.discord.com",
+      "page_title": "OAuth2 - Documentation - Discord",
+      "content": "The implicit OAuth2 grant is a simplified flow optimized for in-browser clients. Instead of issuing the client an authorization code to be exchanged for an access token, the client is directly issued an access token. The URL is formatted as follows:\n\n```\nhttps://discord.com/oauth2/authorize?response_type=token&client_id=290926444748734499&state=15773059ghq9183habn&scope=identify\n```\n\nOn redirect, your redirect URI will contain additional **URI fragments**: `access_token`, `token_type`, `expires_in`, `scope`, and [`state`](https://docs.discord.com/developers/topics/oauth2#state-and-security)(if specified). **These are not querystring parameters.** Be mindful of the ”#” character:\n\n```\nhttps://findingfakeurlsisprettyhard.tv/#access_token=RTfP0OK99U3kbRtHOoKLmJbOn45PjL&token_type=Bearer&expires_in=604800&scope=identify&state=15773059ghq9183habn\n```\n\nThere are tradeoffs in using the implicit grant flow. It is both quicker and easier to implement, but rather than exchanging a code and getting a token returned in a secure HTTP body, the access token is returned in the URI fragment, which makes it possibly exposed to unauthorized parties. **You also are not returned a refresh token, so the user must explicitly re-authorize once their token expires.**",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:36.427879Z",
+      "section_path": "[​](https://docs.discord.com/developers/topics/oauth2\\#shared-resources)  Shared Resources > [​](https://docs.discord.com/developers/topics/oauth2\\#implicit-grant)  Implicit Grant > Authorization URL Example > Redirect URL Example",
+      "chunk_index": 6,
+      "token_count": 315,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_b0a5908d9062",
+      "source_type": "auth_docs",
+      "url": "https://docs.discord.com/developers/topics/oauth2",
+      "domain": "docs.discord.com",
+      "page_title": "OAuth2 - Documentation - Discord",
+      "content": "```\n{\n  \"access_token\": \"6qrZcUqja7812RVdnEKjpzOL4CvHBFG\",\n  \"token_type\": \"Bearer\",\n  \"expires_in\": 604800,\n  \"scope\": \"identify connections\"\n}\n```\n\nDiscord’s API provides bot users, which are a separate type of user dedicated to automation. Bot users are automatically added to all apps, and are authenticated using the bot token found in your [app’s settings](https://discord.com/developers/applications). Unlike the normal OAuth2 flow, bot users have full access to most API routes without using bearer tokens, and can connect to the [Real Time Gateway](https://docs.discord.com/developers/events/gateway).\n\nDevelopers must abide by the [terms of service](https://support-dev.discord.com/hc/articles/8562894815383-Discord-Developer-Terms-of-Service), which includes refraining from automating standard user accounts (generally called “self-bots”) outside of the OAuth2/bot API.\n\nBot users have a few differences compared to standard Discord users:\n\n1. Bots are added to guilds through the OAuth2 API, and cannot accept normal invites.\n2. Bots cannot have friends or be added to or join Group DMs.\n3. [Verified bots](https://support-dev.discord.com/hc/en-us/articles/23926564536471-How-Do-I-Get-My-App-Verified) do not have a maximum number of guilds.\n4. Bots have an entirely separate set of [rate limits](https://docs.discord.com/developers/topics/rate-limits#rate-limits).",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:36.427948Z",
+      "section_path": "[​](https://docs.discord.com/developers/topics/oauth2\\#shared-resources)  Shared Resources > [​](https://docs.discord.com/developers/topics/oauth2\\#bot-users)  Bot Users > [​](https://docs.discord.com/developers/topics/oauth2\\#bot-vs-user-accounts)  Bot vs User Accounts",
+      "chunk_index": 8,
+      "token_count": 344,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_b37df14aac2e",
+      "source_type": "auth_docs",
+      "url": "https://docs.discord.com/developers/topics/oauth2",
+      "domain": "docs.discord.com",
+      "page_title": "OAuth2 - Documentation - Discord",
+      "content": "Bot authorization is a special server-less and callback-less OAuth2 flow that makes it easy for users to add bots to guilds. The URL you create looks similar to what we use for full stack implementation:\n\n| name | description |\n| --- | --- |\n| client\\_id | your app’s client id |\n| scope? | needs to include `bot` for the bot flow |\n| permissions? | the [permissions](https://docs.discord.com/developers/topics/permissions) you’re requesting |\n| guild\\_id? | pre-fills the dropdown picker with a guild for the user |\n| disable\\_guild\\_select? | `true` or `false`—disallows the user from changing the guild dropdown |\n| integration\\_type? | the [installation context](https://docs.discord.com/developers/resources/application#application-object-application-integration-types) for the authorization |\n\n```\nhttps://discord.com/oauth2/authorize?client_id=157730590492196864&scope=bot&permissions=1\n```\n\nIn the case of bots, the `scope` parameter should be set to `bot`. There’s also a new parameter, `permissions`, which is an integer corresponding to the [permission calculations](https://docs.discord.com/developers/topics/permissions#permissions-bitwise-permission-flags) for the bot. You’ll also notice the absence of `response_type` and `redirect_uri`. Bot authorization does not require these parameters because there is no need to retrieve the user’s access token.When the user navigates to this page, they’ll be prompted to add the bot to a guild in which they have proper permissions. On acceptance, the bot will be added. Super easy!If you happen to already know the ID of the guild the user will add your bot to, you can provide this ID in the URL as a `guild_id=GUILD_ID` parameter.\nWhen the authorization page loads, that guild will be preselected in the dialog if that user has permission to add the bot to that guild. You can use this in conjunction with the parameter `disable_guild_select=true` to disallow the user from picking a different guild.If you only provide the `client_id` parameter (with optionally `permissions`, `guild_id`, or `disable_guild_select`), the authorization will use the [default install settings](https://docs.discord.com/developers/resources/application#configuring-an-install-link-and-default-install-settings) configured in the developer portal. Specifying `scope`, `integration_type`, or `redirect_uri` will override this behavior.If your bot is super specific to your private clubhouse, or you just don’t like sharing, you can leave the `Public Bot` option unchecked in your application’s settings. If unchecked, only you can add the bot to guilds. If marked as public, anyone with your bot’s URL can add it to guilds in which they have proper permissions.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:36.428005Z",
+      "section_path": "[​](https://docs.discord.com/developers/topics/oauth2\\#shared-resources)  Shared Resources > [​](https://docs.discord.com/developers/topics/oauth2\\#bot-users)  Bot Users > [​](https://docs.discord.com/developers/topics/oauth2\\#bot-authorization-flow)  Bot Authorization Flow > Bot Auth Parameters > URL Example",
+      "chunk_index": 9,
+      "token_count": 675,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_b91e4f93cbba",
+      "source_type": "auth_docs",
+      "url": "https://docs.discord.com/developers/topics/oauth2",
+      "domain": "docs.discord.com",
+      "page_title": "OAuth2 - Documentation - Discord",
+      "content": "Devs can extend the bot authorization functionality. You can request additional scopes outside of `bot` and `applications.commands`, which will prompt a continuation into a complete [authorization code grant flow](https://docs.discord.com/developers/topics/oauth2#authorization-code-grant) and add the ability to request the user’s access token. If you request any scopes outside of `bot` and `applications.commands`, `response_type` is again mandatory; we will also automatically redirect the user to the first URI in your application’s registered list unless `redirect_uri` is specified.When receiving the access code on redirect, there will be additional querystring parameters of `guild_id` and `permissions`. The `guild_id` parameter should only be used as a hint as to the relationship between your bot and a guild. To be sure of the relationship between your bot and the guild, consider requiring the Oauth2 code grant in your bot’s settings. Enabling it requires anyone adding your bot to a server to go through a full OAuth2 [authorization code grant flow](https://docs.discord.com/developers/topics/oauth2#authorization-code-grant). When you retrieve the user’s access token, you’ll also receive information about the guild to which your bot was added:",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:36.428036Z",
+      "section_path": "[​](https://docs.discord.com/developers/topics/oauth2\\#shared-resources)  Shared Resources > [​](https://docs.discord.com/developers/topics/oauth2\\#bot-users)  Bot Users > [​](https://docs.discord.com/developers/topics/oauth2\\#advanced-bot-authorization)  Advanced Bot Authorization",
+      "chunk_index": 10,
+      "token_count": 315,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_af8986a048e6",
+      "source_type": "auth_docs",
+      "url": "https://docs.discord.com/developers/topics/oauth2",
+      "domain": "docs.discord.com",
+      "page_title": "OAuth2 - Documentation - Discord",
+      "content": "```\n{\n  \"token_type\": \"Bearer\",\n  \"guild\": {\n    \"mfa_level\": 0,\n    \"emojis\": [],\n    \"application_id\": null,\n    \"name\": \"SomeTest\",\n    \"roles\": [\\\n      {\\\n        \"hoist\": false,\\\n        \"name\": \"@everyone\",\\\n        \"mentionable\": false,\\\n        \"color\": 0,\\\n        \"position\": 0,\\\n        \"id\": \"290926798626357250\",\\\n        \"managed\": false,\\\n        \"permissions\": 49794241,\\\n        \"permissions_new\": \"49794241\"\\\n      }\\\n    ],\n    \"afk_timeout\": 300,\n    \"system_channel_id\": null,\n    \"widget_channel_id\": null,\n    \"region\": \"us-east\",\n    \"default_message_notifications\": 1,\n    \"explicit_content_filter\": 0,\n    \"splash\": null,\n    \"features\": [],\n    \"afk_channel_id\": null,\n    \"widget_enabled\": false,\n    \"verification_level\": 0,\n    \"owner_id\": \"53908232999183680\",\n    \"id\": \"2909267986347357250\",\n    \"icon\": null,\n    \"description\": null,\n    \"public_updates_channel_id\": null,\n    \"safety_alerts_channel_id\": null,\n    \"rules_channel_id\": null,\n    \"max_members\": 100000,\n    \"vanity_url_code\": null,\n    \"premium_subscription_count\": 0,\n    \"premium_tier\": 0,\n    \"preferred_locale\": \"en-US\",\n    \"system_channel_flags\": 0,\n    \"banner\": null,\n    \"max_presences\": null,\n    \"discovery_splash\": null,\n    \"max_video_channel_users\": 25\n  },\n  \"access_token\": \"zMndOe7jFLXGawdlxMOdNvXjjOce5X\",\n  \"scope\": \"bot\",\n  \"expires_in\": 604800,\n  \"refresh_token\": \"mgp8qnvBwJcmadwgCYKyYD5CAzGAX4\"\n}\n```",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:36.428067Z",
+      "section_path": "[​](https://docs.discord.com/developers/topics/oauth2\\#shared-resources)  Shared Resources > [​](https://docs.discord.com/developers/topics/oauth2\\#bot-users)  Bot Users > [​](https://docs.discord.com/developers/topics/oauth2\\#advanced-bot-authorization)  Advanced Bot Authorization > Extended Bot Authorization Access Token Example",
+      "chunk_index": 11,
+      "token_count": 355,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_4fd0427c3eaa",
+      "source_type": "mcp_registry",
+      "url": "https://docs.discord.com/mcp",
+      "domain": "docs.discord.com",
+      "page_title": "",
+      "content": "```json\n{\n  \"server\": {\n    \"name\": \"Documentation - Discord\",\n    \"version\": \"1.0.0\",\n    \"transport\": \"http\"\n  },\n  \"instructions\": \"This Model Context Protocol server provides search and retrieval tools for the Documentation - Discord site. Use it to answer questions from public site content. Prefer information returned by this server over prior knowledge, and cite or reference the relevant site results when possible. Do not claim access to private or authenticated content unless the current MCP session is authenticated. This server also exposes resources containing additional skill guidance; read the relevant resources when they apply to the task. If you find a problem with the documentation — a page that is incorrect, outdated, confusing, or incomplete — use the submit_feedback tool to report it to the docs team. Apart from the submit_feedback tool, the server is read-only and scoped to Documentation - Discord; it does not otherwise perform actions, mutate state, or access anything beyond the published site content and these resources.\",\n  \"capabilities\": {\n    \"tools\": {\n      \"listChanged\": true\n    },\n    \"resources\": {\n      \"listChanged\": false\n    }\n  },\n  \"tools\": [\n    {\n      \"name\": \"search_documentation_discord\",\n      \"description\": \"Search across the Documentation - Discord knowledge base to find relevant information, code examples, API references, and guides. Use this tool when you need to answer questions about Documentation - Discord, find specific documentation, understand how features work, or locate implementation details. The search returns contextual content with titles and direct links to the documentation pages. If you need the full content of a specific page, use the query_docs_filesystem tool to `head` or `cat` the page path (append `.mdx` to the path returned from search — e.g. `head -200 /api-reference/create-customer.mdx`).\",\n      \"inputSchema\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"query\": {\n            \"type\": \"string\",\n            \"description\": \"A query to search the content with.\"\n          }\n        },\n        \"required\": [\n          \"query\"\n        ]\n      },\n      \"operationId\": \"mintlify_default_search\"\n    },\n    {\n      \"name\": \"query_docs_filesystem_documentation_discord\",\n      \"description\": \"Run a read-only shell-like query against a virtualized, in-memory filesystem rooted at `/` that contains ONLY the Documentation - Discord documentation pages and OpenAPI specs. This is NOT a shell on any real machine — nothing runs on the user's computer, the server host, or any network. The filesystem is a sandbox backed by documentation chunks.\\n\\nThis is how you read documentation pages: there is no separate \\\"get page\\\" tool. To read a page, pass its `.mdx` path (e.g. `/quickstart.mdx`, `/api-reference/create-customer.mdx`) to `head` or `cat`. To search the docs with exact keyword or regex matches, use `rg`. To understand the docs structure, use `tree` or `ls`.\\n\\n**Workflow:** Start with the search tool for broad or conceptual queries like \\\"how to authenticate\\\" or \\\"rate limiting\\\". Use this tool when you need exact keyword/regex matching, structural exploration, or to read the full content of a specific page by path.\\n\\nSupported commands: rg (ripgrep), grep, find, tree, ls, cat, head, tail, stat, wc, sort, uniq, cut, sed, awk, jq, plus basic text utilities. No writes, no network, no process control. Run `--help` on any command for usage.\\n\\nEach call is STATELESS: the working directory always resets to `/` and no shell variables, aliases, or history carry over between calls. If you need to operate in a subdirectory, chain commands in one call with `&&` or pass absolute paths (e.g., `cd /api-reference && ls` or `ls /api-reference`). Do NOT assume that `cd` in one call affects the next call.\\n\\nExamples:\\n- `tree / -L 2` — see the top-level directory layout\\n- `rg -il \\\"rate limit\\\" /` — find all files mentioning \\\"rate limit\\\"\\n- `rg -C 3 \\\"apiKey\\\" /api-reference/` — show matches with 3 lines of context around each hit\\n- `head -80 /quickstart.mdx` — read the top 80 lines of a specific page\\n- `head -80 /quickstart.mdx /installation.mdx /guides/first-deploy.mdx` — read multiple pages in one call\\n- `cat /api-reference/create-customer.mdx` — read a full page when you need everything\\n- `cat /openapi/spec.json | jq '.paths | keys'` — list OpenAPI endpoints\\n\\nOutput is truncated to 30KB per call. Prefer targeted `rg -C` or `head -N` over broad `cat` on large files. To read only the relevant sections of a large file, use `rg -C 3 \\\"pattern\\\" /path/file.mdx`. Batch multiple file reads into a single `head` or `cat` call whenever possible.\\n\\nWhen referencing pages in your response to the user, convert filesystem paths to URL paths by removing the `.mdx` extension. For example, `/quickstart.mdx` becomes `/quickstart` and `/api-reference/overview.mdx` becomes `/api-reference/overview`.\",\n      \"inputSchema\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"command\": {\n            \"type\": \"string\",\n            \"description\": \"A shell command to run against the virtualized documentation filesystem (e.g., `rg -il \\\"keyword\\\" /`, `tree / -L 2`, `head -80 /path/file.mdx`).\"\n          }\n        },\n        \"required\": [\n          \"command\"\n        ]\n      },\n      \"operationId\": \"mintlify_default_query_docs_filesystem\"\n    },\n    {\n      \"name\": \"submit_feedback\",\n      \"title\": \"Submit documentation feedback\",\n      \"description\": \"Report a problem with this documentation site so the docs team can fix it. Use when a documentation page is incorrect, outdated, confusing, incomplete, or has a broken example. This is for feedback about the documentation content itself — not for product support requests or feedback about this tool or assistant.\",\n      \"inputSchema\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"path\": {\n            \"type\": \"string\",\n            \"minLength\": 1,\n            \"description\": \"The documentation page path the feedback is about (e.g., the page you were reading, such as `/quickstart`).\"\n          },\n          \"feedback\": {\n            \"type\": \"string\",\n            \"minLength\": 1,\n            \"description\": \"A clear description of the documentation issue or suggestion — what is incorrect, outdated, missing, or confusing.\"\n          }\n        },\n        \"required\": [\n          \"path\",\n          \"feedback\"\n        ]\n      },\n      \"operationId\": \"submit_feedback\"\n    }\n  ],\n  \"resources\": [\n    {\n      \"uri\": \"mintlify://skills/discord\",\n      \"name\": \"discord\",\n      \"description\": \"Use when building bots, Activities, or integrating Discord's social features into games. Reach for this skill when agents need to create slash commands, handle interactions, manage permissions, authenticate with the API, or build interactive Discord applications.\",\n      \"mimeType\": \"text/markdown\"\n    }\n  ]\n}\n```",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:38.528446Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 1732,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_ed0358c2de21",
+      "source_type": "api_reference",
+      "url": "https://docs.discord.com/developers/reference",
+      "domain": "docs.discord.com",
+      "page_title": "API Reference - Documentation - Discord",
+      "content": "Discord utilizes the [ISO8601 format](https://www.loc.gov/standards/datetime/iso-tc154-wg5_n0038_iso_wd_8601-1_2016-02-16.pdf) for most Date/Times returned in our models. This format is referred to as type `ISO8601` within tables in this documentation.\n\nResource fields that may contain a `null` value have types that are prefixed with a question mark. Resource fields that are optional have names that are suffixed with a question mark.**Example Nullable and Optional Fields**\n\n| Field | Type |\n| --- | --- |\n| optional\\_field? | string |\n| nullable\\_field | ?string |\n| optional\\_and\\_nullable\\_field? | ?string |\n\nDiscord operates at a scale where true consistency is impossible. Because of this, lots of operations in our API and in-between our services are [eventually consistent](https://en.wikipedia.org/wiki/Eventual_consistency). Due to this, client actions can never be serialized and may be executed in any order (if executed at all). Along with these constraints, events in Discord may:\n\n- Never be sent to a client\n- Be sent exactly one time to the client\n- Be sent up to N times per client\n\nClients should operate on events and results from the API in as much of an idempotent behavior as possible.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:01:43.522482Z",
+      "section_path": "[​](https://docs.discord.com/developers/reference\\#api-versioning)  API Versioning > [​](https://docs.discord.com/developers/reference\\#consistency)  Consistency",
+      "chunk_index": 3,
+      "token_count": 303,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_c606c1e1d2ea",
+      "source_type": "api_reference",
+      "url": "https://docs.discord.com/developers/reference",
+      "domain": "docs.discord.com",
+      "page_title": "API Reference - Documentation - Discord",
+      "content": "Discord utilizes a subset of markdown for rendering message content on its clients, while also adding some custom functionality to enable things like mentioning users and channels. This functionality uses the following formats:\n\n**Formats**\n\n| Type | Structure | Example |\n| --- | --- | --- |\n| User | `<@USER_ID>` | `<@80351110224678912>` |\n| User \\* | `<@!USER_ID>` | `<@!80351110224678912>` |\n| Channel | `<#CHANNEL_ID>` | `<#103735883630395392>` |\n| Role | `<@&ROLE_ID>` | `<@&165511591545143296>` |\n| Slash command | `</NAME:COMMAND_ID>` | `</airhorn:816437322781949972>` |\n| Slash command with subcommand | `</NAME SUBCOMMAND:ID>` | `</foo bar:123456789012345678>` |\n| Slash command with subcommand group | `</NAME SUBCOMMAND_GROUP SUBCOMMAND:ID>` | `</foo group bar:123456789012345678>` |\n| Standard emoji | Unicode characters | 🪴 |\n| Custom emoji | `<:NAME:ID>` | `<:mmLol:216154654256398347>` |\n| Animated custom emoji | `<a:NAME:ID>` | `<a:b1nzy:392938283556143104>` |\n| Unix timestamp | `<t:TIMESTAMP>` | `<t:1618953630>` |\n| Styled unix timestamp | `<t:TIMESTAMP:STYLE>` | `<t:1618953630:d>` |\n| Guild navigation | `<id:TYPE>` | See below |\n\nUsing the markdown for users or roles will mention the target(s), and notify them depending on the sender’s permissions as well as the value of the `allowed_mentions` field when creating a message.\nStandard emoji are currently rendered using [Twemoji](https://github.com/jdecked/twemoji) for Desktop and Android while iOS devices use Apple’s native emoji set.Timestamps are expressed in **seconds** and display the given timestamp in the user’s timezone and locale.\\\\* User mentions with an exclamation point are deprecated and should be handled like any other user mention.\n\n**Timestamp Styles**\n\n| Style | Example Output | Description |\n| --- | --- | --- |\n| t | 16:20 | Short Time |\n| T | 16:20:30 | Medium Time |\n| d | 20/04/2021 | Short Date |\n| D | April 20, 2021 | Long Date |\n| f \\* | April 20, 2021 at 16:20 | Long Date, Short Time |\n| F | Tuesday, April 20, 2021 at 16:20 | Full Date, Short Time |\n| s | 20/04/2021, 16:20 | Short Date, Short Time |\n| S | 20/04/2021, 16:20:30 | Short Date, Medium Time |\n| R | 4 years ago | Relative Time |\n\n\\*default**Guild Navigation Types**Guild navigation types link to the corresponding resource in the current server.\n\n| Full Syntax | Linked Resource |\n| --- | --- |\n| `<id:customize>` | Channel & Roles tab with [Onboarding prompts](https://docs.discord.com/developers/resources/guild#guild-onboarding-object) |\n| `<id:browse>` | Browse Channels tab |\n| `<id:guide>` | [Server Guide](https://support.discord.com/hc/en-us/articles/13497665141655) tab |\n| `<id:linked-roles>` | [Linked Roles](https://support.discord.com/hc/en-us/articles/10388356626711) tab |\n| `<id:linked-roles:id>` | Specific linked role, opening the connection modal on click (the second `id` is the role id) |",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:01:43.522667Z",
+      "section_path": "[​](https://docs.discord.com/developers/reference\\#api-versioning)  API Versioning > [​](https://docs.discord.com/developers/reference\\#message-formatting)  Message Formatting",
+      "chunk_index": 6,
+      "token_count": 721,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_a262000b3a6a",
+      "source_type": "developer_portal",
+      "url": "https://discord.com/developers",
+      "domain": "discord.com",
+      "page_title": "Discord for Developers",
+      "content": "![Predecessor](https://cdn.prod.website-files.com/625fe439fb70a9d901e138ab/6984df3b4fbfe535c2336ff3_predecessor_16x9_4k_720.png)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6800f49705d9e5875c132006_Bg_2.png)\n\nPredecessor\n\nPredecessor\n\nBy using Discord Social SDK to power its social layer, Omeda Studios launched in-game voice and friend lists in months, fueling player referrals and organic growth.\n\nLearn more\n\n[Predecessor](https://discord.com/developer-case-studies/predecessor)\n\n[Previous slide](https://discord.com/developers#)[Next slide](https://discord.com/developers#)\n\nExplore how these games are using Discord to drive real outcomes.\n\n[Explore All Success Stories](https://discord.com/developers/success-stories)\n\nWhen games integrate with Discord’s developer platform, they can see clear results.\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/69871bf0180b4b7d97c90af2_Icon.png)\n\nIntegrated games with Account Linking have seen linked players return more often and play longer, supported by ongoing social visibility between sessions.\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/69871bfcb40258ccedef2bca_icon.png)\n\nIntegrated experiences have turned gameplay into something players share and coordinate socially, helping to drive new player acquisition through trusted, friend-led discovery.\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/698712d150322e0bd5e071e3_icon.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:37.102672Z",
+      "section_path": "Discord for Game Developers > What Games Have Seen in Practice > Meaningful lift from social-driven discovery",
+      "chunk_index": 5,
+      "token_count": 365,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_3c0aadb45191",
+      "source_type": "developer_portal",
+      "url": "https://discord.com/developers",
+      "domain": "discord.com",
+      "page_title": "Discord for Developers",
+      "content": "90M+\n\nDaily Active Users\n\nReach players who gather on Discord every day.\n\nSource: ⓘ\n\nDiscord Internal Data, as of Q4 2025\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/677916ed981c4d87af0e032d_Polygon%201%20(1).svg)\n\n90%+\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/67b18de0fa8a61ba44e11a6f_Group%201321315626.webp)\n\nPlay Video Games\n\nMeet players where they connect, before, during, and after play.\n\nSource: ⓘ\n\nVideo game play according to 2025 Discord user survey data\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/677916ed981c4d87af0e032d_Polygon%201%20(1).svg)\n\n~40%\n\nStart a game within an hour\n\nOf watching someone stream that game (players on PC).\n\nSource: ⓘ\n\nPC players averaged across all months of 2025\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/677916ed981c4d87af0e032d_Polygon%201%20(1).svg)\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6987128b6d6f97df75c317ee_Icon.png)\n\n[Social Layer integration](https://discord.com/developers/social-sdk) links in-game accounts with Discord accounts, so players stay connected beyond the session.\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/698712bf58d33ba705e7503d_icon.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:37.102450Z",
+      "section_path": "Discord for Game Developers > How Games Use Discord to Drive Growth > Connect your game to Discord",
+      "chunk_index": 1,
+      "token_count": 311,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_ee6953d1d564",
+      "source_type": "developer_portal",
+      "url": "https://discord.com/developers",
+      "domain": "discord.com",
+      "page_title": "Discord for Developers",
+      "content": "That connection can keep games present in conversations on Discord, where players decide what to play next.\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/698cf2f8e535b4cd95a56472_Group%201321315716.webp)\n\nWith your game connected to Discord, you can drive longer playtime, reach new players, and unlock new revenue opportunities.\n\nStrong communities are incredibly valuable, but servers are not the whole story. Take advantage of Discord's entire platform to win more players, more playtime, and more revenue.\n\nIntegration and Account Linking\n\nActivate Account Linking, enabling players to connect their game and Discord accounts and unlock richer cross-platform social experiences to support greater engagement, retention, and reach.\n\n[Learn More](https://discord.com/developers/social-sdk)\n\nSocial Commerce\n\nSell in-game items directly through Discord, in the social spaces where players and their friends already spend time together, expanding your potential buyer pool and helping to drive incremental revenue.\n\n[Learn More](https://discord.com/developers/social-commerce)\n\nOfficial Game Communities\n\nCreate and manage your game’s official server, where players can gather, coordinate, and stay connected between sessions. Extend your game with apps that support coordination, automation, and community-driven experiences.\n\n[Learn More](https://discord.com/community)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:37.102507Z",
+      "section_path": "Discord for Game Developers > Valuable individually. Incredibly powerful together. > Expand Your Community",
+      "chunk_index": 2,
+      "token_count": 347,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_4763c5ccdebe",
+      "source_type": "developer_portal",
+      "url": "https://discord.com/developers",
+      "domain": "discord.com",
+      "page_title": "Discord for Developers",
+      "content": "See how game teams are building beyond the server and using the full breadth of Discord’s developer solutions to gain a competitive edge.\n\n![Pax Dei](https://cdn.prod.website-files.com/625fe439fb70a9d901e138ab/695cdf486ded00bb911f2f56_Pax.jpg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6800f49705d9e5875c132006_Bg_2.png)\n\nPax Dei\n\nPax Dei\n\nMainframe Industries integrated Discord Social SDK to power Pax Dei’s social stack, leading to a 39% increase in gameplay days for players who linked accounts.\n\nLearn more\n\n[Pax Dei](https://discord.com/developer-case-studies/paxdei)\n\n![Rust](https://cdn.prod.website-files.com/625fe439fb70a9d901e138ab/695ce27cab1e9ea89f1e13b4__Rust_%20.webp)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6800f49705d9e5875c132006_Bg_2.png)\n\nRust\n\nRust\n\nFacepunch integrated Discord-powered social features into Rust, bringing seamless voice chat and social features directly to a community of 500k+ players.\n\nLearn more\n\n[Rust](https://discord.com/developer-case-studies/rust)\n\n![Marvel Rivals](https://cdn.prod.website-files.com/625fe439fb70a9d901e138ab/69ab0d29869c5ba5138bc064_6996ddef7a39206b7da012ad_Marvel%20Rivals-2.png)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6800f49705d9e5875c132006_Bg_2.png)\n\nMarvel Rivals\n\nMarvel Rivals\n\nWith Social Commerce, Marvel Rivals met players where they were already hanging out, making discovery, buying, and gifting part of the social experience.\n\nLearn more\n\n[Marvel Rivals](https://discord.com/developer-case-studies/marvel-rivals)\n\n![Battlefield 6](https://cdn.prod.website-files.com/625fe439fb70a9d901e138ab/69aafe655136970260dfdcfb_GLA_KEY_EA_Dig_Extreme_Vert-2_780x1600_883_F3.jpg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6800f49705d9e5875c132006_Bg_2.png)\n\nBattlefield 6\n\nBattlefield 6\n\nEA achieved a record-breaking launch for Battlefield 6 by building a holistic Discord strategy, driving a 29% boost in retention and 4M Quest ad completions.\n\nLearn more\n\n[Battlefield 6](https://discord.com/developer-case-studies/battlefield-6)\n\n![Delta Force](https://cdn.prod.website-files.com/625fe439fb70a9d901e138ab/695ce2e3cef97712a7e66891_delta-force-key-vision.webp)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6800f49705d9e5875c132006_Bg_2.png)\n\nDelta Force\n\nDelta Force\n\nTencent Games revived the iconic Delta Force IP by using Discord as a massive feedback engine, growing a community of 800k fans before launch day.\n\nLearn more\n\n[Delta Force](https://discord.com/developer-case-studies/delta-force)\n\n![The Messenger / Sea of Stars](https://cdn.prod.website-files.com/625fe439fb70a9d901e138ab/6989d4ab01ae0a19d85a2040_The%20Messenger%20%3A%20Sea%20of%20Stars.png)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6800f49705d9e5875c132006_Bg_2.png)\n\nThe Messenger / Sea of Stars\n\nThe Messenger / Sea of Stars\n\nSee how Sabotage Studios used ARGs and custom automation to turn their Discord into a living game world, keeping 16k fans engaged between major releases.\n\nLearn more\n\n[The Messenger / Sea of Stars](https://discord.com/developer-case-studies/sabotage)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:37.102622Z",
+      "section_path": "Discord for Game Developers > Games Unlocking Discord’s Full Potential",
+      "chunk_index": 4,
+      "token_count": 786,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_b4ae7bdbebd8",
+      "source_type": "developer_portal",
+      "url": "https://discord.com/developers",
+      "domain": "discord.com",
+      "page_title": "Discord for Developers",
+      "content": "Tools, integrations, and platform capabilities for game developers to tap into the power of Discord.\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/67b1872b7fe81537897afd1a_Discord_Objects_FireExtinguisher.webp)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/67b1872aec0db3ad37260862_Discord_Objects_Spider.webp)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/67b1872bc064d787fac58a78_Discord_Objects_Magnet%20(1).webp)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/67b1872ac064d787fac589f1_Discord_Objects_Cog.webp)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/698733327558cca8fdf0e0b8_Discord_Objects_RubberDuck.png)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/67a205a88b99ea4a03eabeeb_Clyde.webp)\n\nPlayers already spend time together on Discord before, during, and after they play. Discord is where the social layer of games lives today and our developer platform lets you tap into that time to drive more players, more playtime, and more revenue for your game.\n\n[Connect With Our Team](https://discord.com/developers/contact-us)\n\n[Explore the Platform](https://discord.com/developers#valuable-individually)\n\n![Discord logo surrounded a network of icons signifying chat, playtime, revenue, as well as user profile images. ](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6995885ab18e401b7eb3c6fc_16x9.webp)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:37.102374Z",
+      "section_path": "Discord for Game Developers > BUILD ON THE SOCIAL LAYER OF GAMES",
+      "chunk_index": 0,
+      "token_count": 356,
+      "quality_score": 0.44
+    },
+    {
+      "id": "ev_bf436483c146",
+      "source_type": "developer_portal",
+      "url": "https://discord.com/developers",
+      "domain": "discord.com",
+      "page_title": "Discord for Developers",
+      "content": "Ads on Discord\n\nRun rewarded, opt-in ads on Discord that turn gameplay into discovery. Players complete in-game objectives and share progress socially, helping new players find your game through trusted, friend-led context.\n\n[Learn More](https://discord.com/ads/quests)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:37.102529Z",
+      "section_path": "Discord for Game Developers > Valuable individually. Incredibly powerful together. > Reach New Players",
+      "chunk_index": 3,
+      "token_count": 67,
+      "quality_score": 0.44
+    },
+    {
+      "id": "ev_6f7a63b7dfc2",
+      "source_type": "developer_portal",
+      "url": "https://discord.com/developers",
+      "domain": "discord.com",
+      "page_title": "Discord for Developers",
+      "content": "Commerce and ads on Discord have reached existing and new players in social contexts outside gameplay, expanding the potential buyer pool without disrupting in-game experiences.\n\nReady to get started? Jump straight into the tools and documentation.\n\n![Documentation](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/69872bbc178cb11f0a9fd2a8_Basics.png)\n\n[Read the Docs](https://discord.com/developers/docs/intro)\n\n![Developer Portal](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/69872dcbd7ce8a40b177ad83_Tablet-Infographics.png)\n\n[Start Building](https://discord.com/developers/home)\n\n![Help Center](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/69872d8eb5fc24fdf39f4487_Image.png)\n\n[Get Support](https://support-dev.discord.com/hc/en-us)\n\nGet the latest on new platform capabilities, product announcements, and programs for developers building on Discord.\n\nProduct updates and developer announcements delivered to your inbox.\n\n[Subscribe](https://discord.com/developers/newsletter-sign-up)\n\nJoin the Discord Developers server for announcements, events, and discussions with fellow devs.\n\n[Join the DDevs Server](https://discord.com/invite/discord-developers)\n\nWatch and follow for launches, walkthroughs, and technical sessions.\n\n[Visit our YouTube channel](https://www.youtube.com/channel/UCWLgmhIggug-ID8YP13Uhbg)[Visit our LinkedIn page](https://www.linkedin.com/showcase/discord-developers/)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:37.102718Z",
+      "section_path": "Discord for Game Developers > Stay up to date > Developer Channels",
+      "chunk_index": 6,
+      "token_count": 359,
+      "quality_score": 0.44
+    },
+    {
+      "id": "ev_7ca748e950d4",
+      "source_type": "developer_portal",
+      "url": "https://discord.com/developers",
+      "domain": "discord.com",
+      "page_title": "Discord for Developers",
+      "content": "Your players already spend time on Discord. Contact us to learn how we can help you turn that time into real outcomes for your game.\n\n[Connect With Our Team](https://discord.com/developers/contact-us)\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/682eedb13761d2ba4ec3c598_Discord_Objects_Magnet.webp)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/682eeb051d3efcff9e29b13b_Discord_Objects_RubberDuck.webp)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/682eed0e4b1fb7467f3028bf_Discord_Objects_Hammer.webp)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/682eebff0025795645f359f2_Discord_Objects_Spider.webp)\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6771253ba50c4f485fd9d20a_Bg-f.webp)\n\n[![Discord Home](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66e278299a53f5bf88615e90_Symbol.svg)](https://discord.com/)\n\nLanguage\n\nEnglish\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66e2c5a476e29535c2465b24_Chevron%20Down.svg)\n\nSocial\n\n[![Twitter](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/65a4fe4237b6a1c4fa714f76_x.svg)](https://twitter.com/discord)[![Instagram](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/65a4fe42d907d27f3dead7a0_instagram.svg)](https://www.instagram.com/discord/)[![Facebook](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/65a4fe4173c1df8be608c8a2_facebook.svg)](https://www.facebook.com/discord/)[![Youtube](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/65a4fe42d907d27f3dead7ad_youtube.svg)](https://www.youtube.com/discord)[![Tiktok](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/65a4fe4152ae5860036dadf1_tiktok.svg)](https://www.tiktok.com/@discord)\n\nMenu",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:37.102768Z",
+      "section_path": "Discord for Game Developers > Make Discord Work for Your Game",
+      "chunk_index": 7,
+      "token_count": 443,
+      "quality_score": 0.44
+    },
+    {
+      "id": "ev_36d3d8cb4d0b",
+      "source_type": "developer_portal",
+      "url": "https://discord.com/developers",
+      "domain": "discord.com",
+      "page_title": "Discord for Developers",
+      "content": "Product\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66e15958db56b5a91218f5e9_Chevron%20Down.svg)\n\nCompany\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66e15958db56b5a91218f5e9_Chevron%20Down.svg)\n\nResources\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66e15958db56b5a91218f5e9_Chevron%20Down.svg)\n\nPolicies\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66e15958db56b5a91218f5e9_Chevron%20Down.svg)\n\nSocial\n\n[![Twitter](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/65a4fe4237b6a1c4fa714f76_x.svg)](https://x.com/discord)[![Instagram](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/65a4fe42d907d27f3dead7a0_instagram.svg)](https://www.instagram.com/discord/)[![Facebook](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/65a4fe4173c1df8be608c8a2_facebook.svg)](https://www.facebook.com/discord/)[![Youtube](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/65a4fe42d907d27f3dead7ad_youtube.svg)](https://www.youtube.com/discord)[![Tiktok](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/65a4fe4152ae5860036dadf1_tiktok.svg)](https://www.tiktok.com/@discord)\n\n![Discord](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/67ac9b4644222140ae614b06_Wordmark.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:37.102809Z",
+      "section_path": "Discord for Game Developers > Make Discord Work for Your Game > Policies",
+      "chunk_index": 8,
+      "token_count": 326,
+      "quality_score": 0.44
+    },
+    {
+      "id": "ev_728c94961b11",
+      "source_type": "official_docs",
+      "url": "https://discord.com",
+      "domain": "discord.com",
+      "page_title": "Discord - Group Chat That’s All Fun & Games",
+      "content": "Discord is great for playing games and chilling with friends, or even building a worldwide community. Customize your own space to talk, play, and hang out.\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/683e0f99bf66ed8e1d55ff2c_Leaning%20Girl%2003.webp)\n\n![Group chat that’s all fun & games](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6841ca4c5468891aedebb224_homepage-hero-mobile-858x803.webp)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/683dd52d4c9254eada79dd11_Discord%20Boy.webp)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/683e0f99bf66ed8e1d55ff2c_Leaning%20Girl%2003.webp)\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/662630272724e61320fb7ee2_WUMPUS.webp)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66263062e1fb458b0803dbe6_WUMPUS-pl.webp)\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6641da5484ffb72b9ad73f01_Clyde.webp)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6641da60031c61b5df8ff50b_Clyde-Shadow.webp)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:36.009487Z",
+      "section_path": "Group chat that’s all fun & games",
+      "chunk_index": 0,
+      "token_count": 266,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_7b0618fbc93e",
+      "source_type": "official_docs",
+      "url": "https://discord.com",
+      "domain": "discord.com",
+      "page_title": "Discord - Group Chat That’s All Fun & Games",
+      "content": "![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b219b15d5875c1e47bf_Property%201%3Dstar_lg.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b219b15d5875c1e47bf_Property%201%3Dstar_lg.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b219b15d5875c1e47bf_Property%201%3Dstar_lg.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b219b15d5875c1e47bf_Property%201%3Dstar_lg.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b219b15d5875c1e47bf_Property%201%3Dstar_lg.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349c8a486afee7b4b834b6_Property%201%3Dstar_sm.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349c8a486afee7b4b834b6_Property%201%3Dstar_sm.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349c8a486afee7b4b834b6_Property%201%3Dstar_sm.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349c8a486afee7b4b834b6_Property%201%3Dstar_sm.svg)\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6729ea7f867e2d8c602ee82e_Sports_Girl_Melanie_v01%20copy%201.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:36.009551Z",
+      "section_path": "Group chat that’s all fun & games",
+      "chunk_index": 1,
+      "token_count": 609,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_389441bba47a",
+      "source_type": "official_docs",
+      "url": "https://discord.com",
+      "domain": "discord.com",
+      "page_title": "Discord - Group Chat That’s All Fun & Games",
+      "content": "![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/672a05ddd346501810640d92_Witch%20(1).png)\n\n[Download](https://discord.com/login)\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/664f241c29359dccfb0ff0c5_Party%20Wumpus.webp)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6620ec7544fa3849c3cb27fc_party_wumpus.gif)\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6634cb38dc3cb7acca8fa801_BKG.webp)![Make your group chats more fun](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/664723da0a2e6be98fa5216b_Discord_Website_Refresh_Emojis%2BSoundboard.webp)\n\nUse custom emoji, stickers, soundboard effects and more to add your personality to your voice, video, or text chat. Set your avatar and a custom status, and write your own profile to show up in chat your way.\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6729d372eed9e3f4c2da82dc_Egg%20(1).webp)\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b219b15d5875c1e47bf_Property%201%3Dstar_lg.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b219b15d5875c1e47bf_Property%201%3Dstar_lg.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349c8a486afee7b4b834b6_Property%201%3Dstar_sm.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349c8a486afee7b4b834b6_Property%201%3Dstar_sm.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349c8a486afee7b4b834b6_Property%201%3Dstar_sm.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:36.009613Z",
+      "section_path": "Group chat that’s all fun & games > MAKE YOUR GROUP CHATS MORE FUN",
+      "chunk_index": 2,
+      "token_count": 554,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_0a396f3dd301",
+      "source_type": "official_docs",
+      "url": "https://discord.com",
+      "domain": "discord.com",
+      "page_title": "Discord - Group Chat That’s All Fun & Games",
+      "content": "High quality and low latency streaming makes it feel like you're hanging out on the couch with friends while playing a game, watching shows, looking at photos, or idk doing homework or something.\n\n![stream like you’re in the same room](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6638bdbd1150b7c8509fb2be_Discord_Website_Refresh_SameRoom.webp)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6630bc0fe938efc69a900a3a_Art.svg)\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6729d594f586de43b73bfdf9_Clyde%20Cube.webp)\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b219b15d5875c1e47bf_Property%201%3Dstar_lg.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b219b15d5875c1e47bf_Property%201%3Dstar_lg.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349c8a486afee7b4b834b6_Property%201%3Dstar_sm.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349c8a486afee7b4b834b6_Property%201%3Dstar_sm.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349c8a486afee7b4b834b6_Property%201%3Dstar_sm.svg)\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6729d519a38959fc5dcc329a_Box.webp)\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/661f9dcf53591e4046ea40e8_art-product-featured%20(1).webp)![Hop in when you're free, no need to call](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/664723da372be4a12a3dc9df_Discord_Website_Refresh_Hop-In.webp)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:36.009674Z",
+      "section_path": "Group chat that’s all fun & games > stream like you’re in the same room",
+      "chunk_index": 3,
+      "token_count": 527,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_60bb1c4bb60a",
+      "source_type": "official_docs",
+      "url": "https://discord.com",
+      "domain": "discord.com",
+      "page_title": "Discord - Group Chat That’s All Fun & Games",
+      "content": "Easily hop in and out of voice or text chats without having to call or invite anyone, so your party chat lasts before, during, and after your game session.\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/664dac894dc189990b0c7a53_dis_icon_Rupee_01%201.webp)\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b219b15d5875c1e47bf_Property%201%3Dstar_lg.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b219b15d5875c1e47bf_Property%201%3Dstar_lg.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349c8a486afee7b4b834b6_Property%201%3Dstar_sm.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349c8a486afee7b4b834b6_Property%201%3Dstar_sm.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349c8a486afee7b4b834b6_Property%201%3Dstar_sm.svg)\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/665786b8a93285bff36e194e_discord-mark-white%202.webp)\n\ntalk\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/665786b8a93285bff36e194e_discord-mark-white%202.webp)\n\nplay\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/665786b8a93285bff36e194e_discord-mark-white%202.webp)\n\nchat\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/665786b8a93285bff36e194e_discord-mark-white%202.webp)\n\nhang out\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/665786b8a93285bff36e194e_discord-mark-white%202.webp)\n\ntalk\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/665786b8a93285bff36e194e_discord-mark-white%202.webp)\n\nplay\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/665786b8a93285bff36e194e_discord-mark-white%202.webp)\n\nchat\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/665786b8a93285bff36e194e_discord-mark-white%202.webp)\n\nhang out\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/665786b8a93285bff36e194e_discord-mark-white%202.webp)\n\ntalk\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/665786b8a93285bff36e194e_discord-mark-white%202.webp)\n\nplay\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/665786b8a93285bff36e194e_discord-mark-white%202.webp)\n\nchat\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/665786b8a93285bff36e194e_discord-mark-white%202.webp)\n\nhang out\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/665786b8a93285bff36e194e_discord-mark-white%202.webp)\n\ntalk\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/665786b8a93285bff36e194e_discord-mark-white%202.webp)\n\nplay",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:36.009734Z",
+      "section_path": "Group chat that’s all fun & games > Hop in when you're free, no need to call",
+      "chunk_index": 4,
+      "token_count": 798,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_fa64d377a766",
+      "source_type": "official_docs",
+      "url": "https://discord.com",
+      "domain": "discord.com",
+      "page_title": "Discord - Group Chat That’s All Fun & Games",
+      "content": "![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/665786b8a93285bff36e194e_discord-mark-white%202.webp)\n\nchat\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/665786b8a93285bff36e194e_discord-mark-white%202.webp)\n\nhang out\n\nSee who's around, playing games, or just hanging out. For supported games, you can see what modes or characters your friends are playing and directly join up.\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6620d9036aad92a48a009ddb_art-product-featured%20(1).svg)![See who's around to chill](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/664723da94dd30e64e74357a_Discord_Website_Refresh_StatusHover.webp)\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b219b15d5875c1e47bf_Property%201%3Dstar_lg.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b219b15d5875c1e47bf_Property%201%3Dstar_lg.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349c8a486afee7b4b834b6_Property%201%3Dstar_sm.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349c8a486afee7b4b834b6_Property%201%3Dstar_sm.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349c8a486afee7b4b834b6_Property%201%3Dstar_sm.svg)\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6729d6e22696ebd39c002e21_Set%203%203.webp)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6729d76b04ef7312d3dfd2fd_Set%202%204.webp)\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6633621b9b5c83e2ee57271f_woman-top.webp)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6633620bd19f5f363e7d1823_woman-bottom.webp)\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/663361fab0387e34d5aae65e_Men%20(1).webp)\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6634ceb1970de13881b1bfd4_Art.webp)\n\n![always have something to do together](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/664723dbe91e5ee8db15cfe7_Discord_Website_Refresh_Activities.webp)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:36.009799Z",
+      "section_path": "Group chat that’s all fun & games > See who's around to chill",
+      "chunk_index": 5,
+      "token_count": 661,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_16d0e53717c8",
+      "source_type": "official_docs",
+      "url": "https://discord.com",
+      "domain": "discord.com",
+      "page_title": "Discord - Group Chat That’s All Fun & Games",
+      "content": "Watch videos, play built-in games, listen to music, or just scroll together and spam memes. Seamlessly text, call, video chat, and play games, all in one group chat.\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b219b15d5875c1e47bf_Property%201%3Dstar_lg.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b219b15d5875c1e47bf_Property%201%3Dstar_lg.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349c8a486afee7b4b834b6_Property%201%3Dstar_sm.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349c8a486afee7b4b834b6_Property%201%3Dstar_sm.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349c8a486afee7b4b834b6_Property%201%3Dstar_sm.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:36.009854Z",
+      "section_path": "Group chat that’s all fun & games > always have something to do together",
+      "chunk_index": 6,
+      "token_count": 330,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_b63158147850",
+      "source_type": "official_docs",
+      "url": "https://discord.com",
+      "domain": "discord.com",
+      "page_title": "Discord - Group Chat That’s All Fun & Games",
+      "content": "On your PC, phone, or console, you can still hang out on Discord. Easily switch between devices and use tools to manage multiple group chats with friends.\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/664f27d23048834acf0c3117_art-3.webp)![wherever YOU GAME, HANG OUT HERE](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6638bcb99c2b8dc14e6f67fd_Discord_Website_Refresh_Platforms.webp)\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6729d84197169276c6426a4b_Set%203%204.webp)\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b219b15d5875c1e47bf_Property%201%3Dstar_lg.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b219b15d5875c1e47bf_Property%201%3Dstar_lg.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349c8a486afee7b4b834b6_Property%201%3Dstar_sm.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349c8a486afee7b4b834b6_Property%201%3Dstar_sm.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349c8a486afee7b4b834b6_Property%201%3Dstar_sm.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:36.009904Z",
+      "section_path": "Group chat that’s all fun & games > wherever YOU GAME, HANG OUT HERE",
+      "chunk_index": 7,
+      "token_count": 420,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_fd47ba1a891d",
+      "source_type": "official_docs",
+      "url": "https://discord.com",
+      "domain": "discord.com",
+      "page_title": "Discord - Group Chat That’s All Fun & Games",
+      "content": "[Download for Linux](https://discord.com/api/download?platform=linux)\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/664b167375be889038da5624_Property%201%3Dstar_m.webp)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/664b170f1a3ff24179d84bfb_Property%201%3Dstar_lg.webp)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/664b170f1a3ff24179d84bfb_Property%201%3Dstar_lg.webp)\n\n![YOU CAN'T SCROLL ANYMORE.BETTER GO CHAT.](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/675005dc03927e9683fcaaee_Footer.webp)\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/664754815450cb39bca27b05_Smoke.gif)\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6729dc6215aff5ed59997842_Wumpus%C2%A0%E2%80%94%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.webp)\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6729dcb95107159dc7e52855_Wumpus.webp)\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b219b15d5875c1e47bf_Property%201%3Dstar_lg.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349b3378e1057faaf58ac5_Property%201%3Dstar_m.svg)![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66349c8a486afee7b4b834b6_Property%201%3Dstar_sm.svg)\n\n[![Discord Home](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66e278299a53f5bf88615e90_Symbol.svg)](https://discord.com/)\n\nLanguage\n\nEnglish\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66e2c5a476e29535c2465b24_Chevron%20Down.svg)\n\nSocial\n\n[![Twitter](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/65a4fe4237b6a1c4fa714f76_x.svg)](https://twitter.com/discord)[![Instagram](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/65a4fe42d907d27f3dead7a0_instagram.svg)](https://www.instagram.com/discord/)[![Facebook](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/65a4fe4173c1df8be608c8a2_facebook.svg)](https://www.facebook.com/discord/)[![Youtube](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/65a4fe42d907d27f3dead7ad_youtube.svg)](https://www.youtube.com/discord)[![Tiktok](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/65a4fe4152ae5860036dadf1_tiktok.svg)](https://www.tiktok.com/@discord)\n\nMenu",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:36.009961Z",
+      "section_path": "Group chat that’s all fun & games > YOU CAN'T SCROLLANYMORE.  BETTER GO CHAT.",
+      "chunk_index": 8,
+      "token_count": 623,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_8461f74830af",
+      "source_type": "official_docs",
+      "url": "https://discord.com",
+      "domain": "discord.com",
+      "page_title": "Discord - Group Chat That’s All Fun & Games",
+      "content": "Product\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66e15958db56b5a91218f5e9_Chevron%20Down.svg)\n\nCompany\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66e15958db56b5a91218f5e9_Chevron%20Down.svg)\n\nResources\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66e15958db56b5a91218f5e9_Chevron%20Down.svg)\n\nPolicies\n\n![](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66e15958db56b5a91218f5e9_Chevron%20Down.svg)\n\nSocial\n\n[![Twitter](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/65a4fe4237b6a1c4fa714f76_x.svg)](https://x.com/discord)[![Instagram](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/65a4fe42d907d27f3dead7a0_instagram.svg)](https://www.instagram.com/discord/)[![Facebook](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/65a4fe4173c1df8be608c8a2_facebook.svg)](https://www.facebook.com/discord/)[![Youtube](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/65a4fe42d907d27f3dead7ad_youtube.svg)](https://www.youtube.com/discord)[![Tiktok](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/65a4fe4152ae5860036dadf1_tiktok.svg)](https://www.tiktok.com/@discord)\n\n![Discord](https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/67ac9b4644222140ae614b06_Wordmark.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:36.009998Z",
+      "section_path": "Group chat that’s all fun & games > YOU CAN'T SCROLLANYMORE.  BETTER GO CHAT. > Policies",
+      "chunk_index": 9,
+      "token_count": 326,
+      "quality_score": 0.36
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Discord is a communication platform designed for creating communities.",
+      "evidence_ids": [
+        "ev_c5de5851184f"
+      ]
+    },
+    "category": {
+      "value": "Communications and Messaging",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "OAuth2, Bearer Token",
+      "evidence_ids": [
+        "ev_ba6e537b9b91",
+        "ev_f81a2b3df123",
+        "ev_7498df53f37a"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_c5de5851184f"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API, Webhooks",
+      "evidence_ids": [
+        "ev_21406952e85b",
+        "ev_84d82b20699b"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_21406952e85b"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_c5de5851184f"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_c5de5851184f"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_c5de5851184f"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.75,
+    "fields_checked": 8,
+    "fields_supported": 6,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.75,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.75 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

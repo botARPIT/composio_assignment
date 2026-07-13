@@ -1,0 +1,377 @@
+{
+  "app": {
+    "id": 38,
+    "name": "Pinterest",
+    "website": "developers.pinterest.com",
+    "category_hint": "Marketing Ads Email and Social"
+  },
+  "documentation_map": {
+    "app_name": "Pinterest",
+    "official_domain": "developers.pinterest.com",
+    "homepage": {
+      "url": "https://developers.pinterest.com",
+      "title": "Pinterest",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://developers.pinterest.com/docs/overview/welcome",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://developers.pinterest.com/docs/api/v5/introduction",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://developers.pinterest.com",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://developers.pinterest.com/docs/overview/welcome",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://developers.pinterest.com/docs",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "Pinterest",
+      "official_domain": "developers.pinterest.com",
+      "items": [
+        {
+          "url": "https://developers.pinterest.com",
+          "page_type": "homepage",
+          "title": "Pinterest",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.pinterest.com/docs/overview/welcome",
+          "page_type": "authentication",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.pinterest.com/docs/api/v5/introduction",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.pinterest.com",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.pinterest.com/docs",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.pinterest.com/docs/overview/welcome",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 0,
+        "urls_discovered": 6,
+        "official_urls": 6,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 2,
+        "canonical_selected": 6
+      }
+    },
+    "stats": {
+      "queries": 0,
+      "urls_discovered": 6,
+      "official_urls": 6,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 2,
+      "canonical_selected": 6
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_8c16fec19922",
+      "source_type": "api_reference",
+      "url": "https://developers.pinterest.com/docs/api/v5/introduction",
+      "domain": "developers.pinterest.com",
+      "page_title": "Pinterest Developers",
+      "content": "The Pinterest API significantly increases the scope of what is possible for you to create as a site or application developer. Access to the Pinterest API can be used for:\n\n- Conversion tracking: send conversion events\n- Content management: view, edit, delete Pins and boards\n- Ad management: view, edit, delete campaigns, ad groups, and ads\n- Targeting: view, edit, delete customer lists, audiences, and other targeting options\n- Shopping management: view, edit, delete catalog feeds and product groups\n- Analytics & Reporting: request analytics for your Pins, ads, ad groups, campaigns, or accounts\n\nHere you will find information on all endpoints available in the Pinterest API. For implementation guides on supported use cases, visit our [Docs page.](https://developers.pinterest.com/docs/)\n\nTo get started with the Pinterest API and learn about what you need to do to authenticate, read [this section](https://developers.pinterest.com/docs/getting-started/connect-app/) of the API documentation. Alternatively, check out our [development quickstart guide](https://github.com/pinterest/api-quickstart#readme) or [Python SDK.](https://developers.pinterest.com/docs/developer-tools/sdk/)\n\n[Share feedback](https://docs.google.com/forms/d/e/1FAIpQLSfrdJeyLjMuw9COc9G5ICIW0sVrmjX5PmPvGic8YNmGkUBHUg/viewform?usp=sf_link)\n\n[Share feedback](https://docs.google.com/forms/d/e/1FAIpQLSfrdJeyLjMuw9COc9G5ICIW0sVrmjX5PmPvGic8YNmGkUBHUg/viewform?usp=sf_link)\n\nAda X Storage\n\nChat",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:18.767842Z",
+      "section_path": "Pinterest REST API 5.30.0 > Just getting started?",
+      "chunk_index": 0,
+      "token_count": 367,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_437e4e01b945",
+      "source_type": "auth_docs",
+      "url": "https://developers.pinterest.com/docs/overview/welcome",
+      "domain": "developers.pinterest.com",
+      "page_title": "Pinterest Developers | Welcome",
+      "content": "We offer several developer tools such as a Python SDK, sandbox environment, and test tokens that can make it easier for you to start making calls. More details are found under the [Developer tools](https://developers.pinterest.com/docs/developer-tools/sdk/) section of our docs.\n\nThe [Reference](https://developers.pinterest.com/docs/reference/rate-limits/) section contains details on rate limiting, pagination, and error codes.\n\nOur [Changelog](https://developers.pinterest.com/docs/changelog/changelog/) is the most up-to-date resource for information on breaking changes, deprecations, and new features in the Pinterest API. For breaking changes we'll send an [email notification](https://developers.pinterest.com/docs/reference/manage-notifications/) to the contacts provided under your app's details. In order to ensure you receive these notifications, be sure you have enabled business emails under your profile settings.\n\nAll technical support for the Pinterest Developer Platform is managed through our Help Center. For details on how to file a ticket, review our [Help & feedback](https://developers.pinterest.com/docs/reference/help-and-feedback/) page. Don't forget to join our [Developer Community](https://community.pinterest.biz/c/developers) to connect and ask questions to other developers building on our platform!\n\n[NEXT\\\\\n\\\\\nConnect app](https://developers.pinterest.com/docs/getting-started/connect-app/)\n\nWas this page helpful?\n\n- [Getting started](https://developers.pinterest.com/docs/overview/welcome/#getting-started)\n- [Integrate with the Pinterest API](https://developers.pinterest.com/docs/overview/welcome/#integrate-with-the-pinterest-api)\n- [Test & deploy](https://developers.pinterest.com/docs/overview/welcome/#test--deploy)\n- [Maintaining your app](https://developers.pinterest.com/docs/overview/welcome/#maintaining-your-app)\n- [Troubleshooting & help](https://developers.pinterest.com/docs/overview/welcome/#troubleshooting--help)\n\nWas this page helpful?\n\nAda X Storage\n\nChat",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:18.979185Z",
+      "section_path": "Pinterest Developer Platform Overview > Troubleshooting & help",
+      "chunk_index": 1,
+      "token_count": 503,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_041692124596",
+      "source_type": "developer_portal",
+      "url": "https://developers.pinterest.com/docs",
+      "domain": "developers.pinterest.com",
+      "page_title": "Pinterest Developers | Welcome",
+      "content": "We offer several developer tools such as a Python SDK, sandbox environment, and test tokens that can make it easier for you to start making calls. More details are found under the [Developer tools](https://developers.pinterest.com/docs/developer-tools/sdk/) section of our docs.\n\nThe [Reference](https://developers.pinterest.com/docs/reference/rate-limits/) section contains details on rate limiting, pagination, and error codes.\n\nOur [Changelog](https://developers.pinterest.com/docs/changelog/changelog/) is the most up-to-date resource for information on breaking changes, deprecations, and new features in the Pinterest API. For breaking changes we'll send an [email notification](https://developers.pinterest.com/docs/reference/manage-notifications/) to the contacts provided under your app's details. In order to ensure you receive these notifications, be sure you have enabled business emails under your profile settings.\n\nAll technical support for the Pinterest Developer Platform is managed through our Help Center. For details on how to file a ticket, review our [Help & feedback](https://developers.pinterest.com/docs/reference/help-and-feedback/) page. Don't forget to join our [Developer Community](https://community.pinterest.biz/c/developers) to connect and ask questions to other developers building on our platform!\n\n[NEXT\\\\\n\\\\\nConnect app](https://developers.pinterest.com/docs/getting-started/connect-app/)\n\nWas this page helpful?\n\n- [Getting started](https://developers.pinterest.com/docs/overview/welcome/#getting-started)\n- [Integrate with the Pinterest API](https://developers.pinterest.com/docs/overview/welcome/#integrate-with-the-pinterest-api)\n- [Test & deploy](https://developers.pinterest.com/docs/overview/welcome/#test--deploy)\n- [Maintaining your app](https://developers.pinterest.com/docs/overview/welcome/#maintaining-your-app)\n- [Troubleshooting & help](https://developers.pinterest.com/docs/overview/welcome/#troubleshooting--help)\n\nWas this page helpful?\n\nAda X Storage\n\nChat",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:19.638035Z",
+      "section_path": "Pinterest Developer Platform Overview > Troubleshooting & help",
+      "chunk_index": 1,
+      "token_count": 503,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_7aa7020755ae",
+      "source_type": "auth_docs",
+      "url": "https://developers.pinterest.com/docs/overview/welcome",
+      "domain": "developers.pinterest.com",
+      "page_title": "Pinterest Developers | Welcome",
+      "content": "Use with AI\n\nWelcome to the Pinterest Developer Platform. The Pinterest API allows developers to build experiences and apps for creators, advertisers, and merchants. This page provides an overview of the information you can expect to find within our documentation.\n\n[Connect your app](https://developers.pinterest.com/docs/getting-started/connect-app/)\n\n[API reference](https://developers.pinterest.com/docs/api/v5/introduction/)\n\n[Change log](https://developers.pinterest.com/docs/changelog/changelog/)\n\n[Get help](https://developers.pinterest.com/docs/reference/help-and-feedback/)\n\nConnect your app to the Pinterest API today. Create a developer account, tell us about your app, then submit it for review. For more details, follow the steps in our [Connect app](https://developers.pinterest.com/docs/getting-started/connect-app/) page.\n\n![Getting started steps](https://i.pinimg.com/originals/75/f8/ee/75f8ee5eaaa6375b4045c646a98c5985.png)\n\nUse Transport Layer Security (TLS) version 1.2 or later when calling the Pinterest API v5, as the 1.0 and 1.1 protocols are deprecated. [Learn more.](https://www.ssl.com/guide/ssl-best-practices/)\n\nUse Transport Layer Security (TLS) version 1.2 or later when calling the Pinterest API v5, as the 1.0 and 1.1 protocols are deprecated. [Learn more.](https://www.ssl.com/guide/ssl-best-practices/)\n\nOnce you've connected your app to Pinterest, you'll get access to all of our most popular API features. While you get started, refer to the [Key concepts](https://developers.pinterest.com/docs/key-concepts/access-tiers/) section of our docs to understand core Pinterest concepts which will help ground your understanding in how the Developer Platform works.\n\nRefer to our [API reference](https://developers.pinterest.com/docs/api/v5/introduction/) for a comprehensive look at available endpoints including query parameters and sample responses. Finally, review our integration guides for a more instructional walk through of how to use the Pinterest API for the most common use cases.\n\n1. [Conversion Tracking](https://developers.pinterest.com/docs/track-conversions/track-conversions-in-the-api/)\n\n2. [Content Management](https://developers.pinterest.com/docs/work-with-organic-content-and-users/create-boards-and-pins/)\n\n3. [Ads Management](https://developers.pinterest.com/docs/work-with-ads/ads-overview/)\n\n4. [Targeting](https://developers.pinterest.com/docs/work-with-targets-and-audiences/set-up-targets-for-your-ads/)\n\n5. [Shopping](https://developers.pinterest.com/docs/work-with-catalogs/shopping-overview/)\n\n6. [Analytics & reporting](https://developers.pinterest.com/docs/analytics-and-reports/analytics-overview/)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:18.979146Z",
+      "section_path": "Pinterest Developer Platform Overview > Integrate with the Pinterest API",
+      "chunk_index": 0,
+      "token_count": 666,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_27b2f63385f0",
+      "source_type": "developer_portal",
+      "url": "https://developers.pinterest.com/docs",
+      "domain": "developers.pinterest.com",
+      "page_title": "Pinterest Developers | Welcome",
+      "content": "Use with AI\n\nWelcome to the Pinterest Developer Platform. The Pinterest API allows developers to build experiences and apps for creators, advertisers, and merchants. This page provides an overview of the information you can expect to find within our documentation.\n\n[Connect your app](https://developers.pinterest.com/docs/getting-started/connect-app/)\n\n[API reference](https://developers.pinterest.com/docs/api/v5/introduction/)\n\n[Change log](https://developers.pinterest.com/docs/changelog/changelog/)\n\n[Get help](https://developers.pinterest.com/docs/reference/help-and-feedback/)\n\nConnect your app to the Pinterest API today. Create a developer account, tell us about your app, then submit it for review. For more details, follow the steps in our [Connect app](https://developers.pinterest.com/docs/getting-started/connect-app/) page.\n\n![Getting started steps](https://i.pinimg.com/originals/75/f8/ee/75f8ee5eaaa6375b4045c646a98c5985.png)\n\nUse Transport Layer Security (TLS) version 1.2 or later when calling the Pinterest API v5, as the 1.0 and 1.1 protocols are deprecated. [Learn more.](https://www.ssl.com/guide/ssl-best-practices/)\n\nUse Transport Layer Security (TLS) version 1.2 or later when calling the Pinterest API v5, as the 1.0 and 1.1 protocols are deprecated. [Learn more.](https://www.ssl.com/guide/ssl-best-practices/)\n\nOnce you've connected your app to Pinterest, you'll get access to all of our most popular API features. While you get started, refer to the [Key concepts](https://developers.pinterest.com/docs/key-concepts/access-tiers/) section of our docs to understand core Pinterest concepts which will help ground your understanding in how the Developer Platform works.\n\nRefer to our [API reference](https://developers.pinterest.com/docs/api/v5/introduction/) for a comprehensive look at available endpoints including query parameters and sample responses. Finally, review our integration guides for a more instructional walk through of how to use the Pinterest API for the most common use cases.\n\n1. [Conversion Tracking](https://developers.pinterest.com/docs/track-conversions/track-conversions-in-the-api/)\n\n2. [Content Management](https://developers.pinterest.com/docs/work-with-organic-content-and-users/create-boards-and-pins/)\n\n3. [Ads Management](https://developers.pinterest.com/docs/work-with-ads/ads-overview/)\n\n4. [Targeting](https://developers.pinterest.com/docs/work-with-targets-and-audiences/set-up-targets-for-your-ads/)\n\n5. [Shopping](https://developers.pinterest.com/docs/work-with-catalogs/shopping-overview/)\n\n6. [Analytics & reporting](https://developers.pinterest.com/docs/analytics-and-reports/analytics-overview/)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:19.637978Z",
+      "section_path": "Pinterest Developer Platform Overview > Integrate with the Pinterest API",
+      "chunk_index": 0,
+      "token_count": 666,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_9e88b09d8942",
+      "source_type": "official_docs",
+      "url": "https://developers.pinterest.com",
+      "domain": "developers.pinterest.com",
+      "page_title": "Pinterest Developers",
+      "content": "Securely plan content, manage ads, upload product feeds, and more.\n\n[Get started](https://developers.pinterest.com/account-setup/)\n\n![Getting started with Pinterest API](https://i.pinimg.com/originals/79/3a/7e/793a7efe85c922a0247dc1175f324603.png)\n\nUse cases\n\n[Track Conversions\\\\\n\\\\\nMaximize conversion visibility on Pinterest by using Pinterest Conversions API, Pinterest Tag, or uploading conversion data.](https://developers.pinterest.com/usecase/conversions/)\n\n[Create content\\\\\n\\\\\nBuild apps and experiences that allow Pinterest users to create and manage organic content (Pins and Boards) on Pinterest.](https://developers.pinterest.com/usecase/content/)\n\n[Build & Manage ads\\\\\n\\\\\nUse Pinterest API to manage ad campaigns, set up targeting, and report on campaign performance.](https://developers.pinterest.com/usecase/ads/)\n\n[Manage product catalogs\\\\\n\\\\\nPinterest API for Shopping allows you to create and manage your product catalogs on Pinterest as well as create, manage and report on shopping ads.](https://developers.pinterest.com/usecase/catalogs/)\n\n[Analyze Pinterest data\\\\\n\\\\\nPinterest API helps you ingest analytics data for content and ads directly from Pinterest into your data warehouse or analytics tools.](https://developers.pinterest.com/usecase/analyze/)\n\nSuccess stories\n\nVisit California shares personalized travel tips with Pinterest API\n\n[Read more](https://developers.pinterest.com/success/visit-california/)\n\n![Developer community](https://i.pinimg.com/originals/10/bb/c8/10bbc825c9ddbf9428df5733875cd6bc.jpg)\n\nJoin our community of developers\n\n[Check it out\\\\\n, Opens a new tab](https://community.pinterest.biz/t5/developer-corner/gh-p/developers-api)\n\n![Latest updates](https://i.pinimg.com/originals/09/cf/8e/09cf8e3882865b2f897967c8d0ed8565.jpg)\n\nCatch up on the latest updates\n\n[Read our blog\\\\\n, Opens a new tab](https://developers.pinterest.com/blog/2023/10/05/pin-creation-update-a-simplified-format-with-new-features)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:18.790666Z",
+      "section_path": "One API to seamlessly integrate with Pinterest",
+      "chunk_index": 0,
+      "token_count": 489,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_6fe0b64d00f6",
+      "source_type": "official_docs",
+      "url": "https://developers.pinterest.com",
+      "domain": "developers.pinterest.com",
+      "page_title": "Pinterest Developers",
+      "content": "[Get started](https://developers.pinterest.com/account-setup/)\n\nAda X Storage\n\nChat",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:18.790692Z",
+      "section_path": "One API to seamlessly integrate with Pinterest > Ready to build?",
+      "chunk_index": 1,
+      "token_count": 20,
+      "quality_score": 0.36
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Pinterest API allows developers to build experiences and apps for creators, advertisers, and merchants.",
+      "evidence_ids": [
+        "ev_7aa7020755ae"
+      ]
+    },
+    "category": {
+      "value": "Marketing Ads Email and Social",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "OAuth2",
+      "evidence_ids": [
+        "ev_7aa7020755ae"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_7aa7020755ae"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API",
+      "evidence_ids": [
+        "ev_8c16fec19922"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_8c16fec19922"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_8c16fec19922"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_041692124596"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_041692124596"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.75,
+    "fields_checked": 8,
+    "fields_supported": 6,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.75,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.75 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

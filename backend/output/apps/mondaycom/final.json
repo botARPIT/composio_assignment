@@ -1,0 +1,2372 @@
+{
+  "app": {
+    "id": 76,
+    "name": "Monday.com",
+    "website": "developer.monday.com",
+    "category_hint": "Productivity and Project Management"
+  },
+  "documentation_map": {
+    "app_name": "Monday.com",
+    "official_domain": "developer.monday.com",
+    "homepage": {
+      "url": "https://developer.monday.com",
+      "title": "Monday.com",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://developer.monday.com/api-reference/docs/authentication.md",
+        "title": "Authentication",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://developer.monday.com/api-reference/docs/basics.md",
+        "title": "The basics",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://developer.monday.com/api-reference/docs/api-versioning.md",
+          "title": "Versioning",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/rate-limits.md",
+          "title": "Rate limits",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/idempotency.md",
+          "title": "Idempotency",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/error-handling.md",
+          "title": "Error handling",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/migrating-user-entity-to-2026-10.md",
+          "title": "Migrating the User entity: 2026-04 → 2026-10",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/migrating-to-version-2025-04.md",
+          "title": "Migrating to version 2025-04",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/platform-mcp-tools.md",
+          "title": "Platform MCP tools",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-board.md",
+          "title": "Create Board (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/get-board-info.md",
+          "title": "Get Board Info (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/get-board-items.md",
+          "title": "Get Board Items (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/get-board-activity.md",
+          "title": "Get Board Activity (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-group.md",
+          "title": "Create Group (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-column.md",
+          "title": "Create Column (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/get-column-type-info.md",
+          "title": "Get Column Type Info (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-item.md",
+          "title": "Create Item (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/change-item-column-values.md",
+          "title": "Change Item Column Values (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-workspace.md",
+          "title": "Create Workspace (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/update-workspace.md",
+          "title": "Update Workspace (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/list-workspaces.md",
+          "title": "List Workspaces (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/workspace-info.md",
+          "title": "Workspace Info (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-folder.md",
+          "title": "Create Folder (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/update-folder.md",
+          "title": "Update Folder (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/move-object.md",
+          "title": "Move Object (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-doc.md",
+          "title": "Create Doc (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/update-doc.md",
+          "title": "Update Doc (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/read-docs.md",
+          "title": "Read Docs (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-dashboard.md",
+          "title": "Create Dashboard (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-widget.md",
+          "title": "Create Widget (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/all-widgets-schema.md",
+          "title": "All Widgets Schema (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-view.md",
+          "title": "Create View (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-view-table.md",
+          "title": "Create Table View (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/update-view.md",
+          "title": "Update View (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/update-view-table.md",
+          "title": "Update Table View (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-form.md",
+          "title": "Create Form (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/get-form.md",
+          "title": "Get Form (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/update-form.md",
+          "title": "Update Form (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/form-questions-editor.md",
+          "title": "Form Questions Editor (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-form-submission.md",
+          "title": "Create Form Submission (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/get-user-context.md",
+          "title": "Get User Context (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/list-users-and-teams.md",
+          "title": "List Users and Teams (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-update.md",
+          "title": "Create Update (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/get-updates.md",
+          "title": "Get Updates (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-notification.md",
+          "title": "Create Notification (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/get-assets.md",
+          "title": "Get Assets (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/get-asset-upload-url.md",
+          "title": "Get Asset Upload URL (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/finalize-asset-upload.md",
+          "title": "Finalize Asset Upload (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/list-automations.md",
+          "title": "List Automations (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/manage-automations.md",
+          "title": "Manage Automations (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-automation.md",
+          "title": "Create Automation (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/plan-workflow.md",
+          "title": "Plan Workflow (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-workflow.md",
+          "title": "Create Workflow (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/update-workflow.md",
+          "title": "Update Workflow (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/publish-workflow.md",
+          "title": "Publish Workflow (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/manage-agent.md",
+          "title": "Manage Agent (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/manage-agent-triggers.md",
+          "title": "Manage Agent Triggers (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/manage-agent-skills.md",
+          "title": "Manage Agent Skills (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/manage-agent-knowledge.md",
+          "title": "Manage Agent Knowledge (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/agent-catalog.md",
+          "title": "Agent Catalog (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/get-notetaker-meetings.md",
+          "title": "Get Notetaker Meetings (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/get-sprints-boards.md",
+          "title": "Get Sprints Boards (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/get-sprints-metadata.md",
+          "title": "Get Sprints Metadata (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/get-sprint-summary.md",
+          "title": "Get Sprint Summary (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/all-monday-api.md",
+          "title": "Execute API Query (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/get-graphql-schema.md",
+          "title": "Get GraphQL Schema (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/get-type-details.md",
+          "title": "Get Type Details (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/show-table.md",
+          "title": "Show Table (Platform MCP UI)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/show-chart.md",
+          "title": "Show Chart (Platform MCP UI)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/show-battery.md",
+          "title": "Show Battery (Platform MCP UI)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/show-assign.md",
+          "title": "Show Assign (Platform MCP UI)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/monday-mcp-security-overview.md",
+          "title": "Platform MCP security",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/introduction-to-graphql.md",
+          "title": "GraphQL overview",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/getting-started.md",
+          "title": "Making your first request",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://developer.monday.com/apps/docs/plans-and-pricing",
+        "title": "Plans and pricing",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://developer.monday.com/api-reference/docs/mcp-search.md",
+        "title": "Search (Platform MCP)",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://developer.monday.com",
+        "title": "monday.com API documentation",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "webhooks": {
+      "primary": {
+        "url": "https://developer.monday.com/apps/docs/webhooks-1",
+        "title": "Webhooks",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "llms_txt": {
+      "url": "https://developer.monday.com/llms.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "Monday.com",
+      "official_domain": "developer.monday.com",
+      "items": [
+        {
+          "url": "https://developer.monday.com",
+          "page_type": "homepage",
+          "title": "Monday.com",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/basics.md",
+          "page_type": "api_reference",
+          "title": "The basics",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/authentication.md",
+          "page_type": "authentication",
+          "title": "Authentication",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/api-versioning.md",
+          "page_type": "api_reference",
+          "title": "Versioning",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/rate-limits.md",
+          "page_type": "api_reference",
+          "title": "Rate limits",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/idempotency.md",
+          "page_type": "api_reference",
+          "title": "Idempotency",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/error-handling.md",
+          "page_type": "api_reference",
+          "title": "Error handling",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/migrating-user-entity-to-2026-10.md",
+          "page_type": "api_reference",
+          "title": "Migrating the User entity: 2026-04 → 2026-10",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/migrating-to-version-2025-04.md",
+          "page_type": "api_reference",
+          "title": "Migrating to version 2025-04",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/platform-mcp-tools.md",
+          "page_type": "api_reference",
+          "title": "Platform MCP tools",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-board.md",
+          "page_type": "api_reference",
+          "title": "Create Board (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/get-board-info.md",
+          "page_type": "api_reference",
+          "title": "Get Board Info (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/get-board-items.md",
+          "page_type": "api_reference",
+          "title": "Get Board Items (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/get-board-activity.md",
+          "page_type": "api_reference",
+          "title": "Get Board Activity (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-group.md",
+          "page_type": "api_reference",
+          "title": "Create Group (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-column.md",
+          "page_type": "api_reference",
+          "title": "Create Column (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/get-column-type-info.md",
+          "page_type": "api_reference",
+          "title": "Get Column Type Info (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-item.md",
+          "page_type": "api_reference",
+          "title": "Create Item (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/change-item-column-values.md",
+          "page_type": "api_reference",
+          "title": "Change Item Column Values (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-workspace.md",
+          "page_type": "api_reference",
+          "title": "Create Workspace (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/update-workspace.md",
+          "page_type": "api_reference",
+          "title": "Update Workspace (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/list-workspaces.md",
+          "page_type": "api_reference",
+          "title": "List Workspaces (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/workspace-info.md",
+          "page_type": "api_reference",
+          "title": "Workspace Info (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-folder.md",
+          "page_type": "api_reference",
+          "title": "Create Folder (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/update-folder.md",
+          "page_type": "api_reference",
+          "title": "Update Folder (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/move-object.md",
+          "page_type": "api_reference",
+          "title": "Move Object (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-doc.md",
+          "page_type": "api_reference",
+          "title": "Create Doc (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/update-doc.md",
+          "page_type": "api_reference",
+          "title": "Update Doc (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/read-docs.md",
+          "page_type": "api_reference",
+          "title": "Read Docs (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-dashboard.md",
+          "page_type": "api_reference",
+          "title": "Create Dashboard (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-widget.md",
+          "page_type": "api_reference",
+          "title": "Create Widget (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/all-widgets-schema.md",
+          "page_type": "api_reference",
+          "title": "All Widgets Schema (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-view.md",
+          "page_type": "api_reference",
+          "title": "Create View (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-view-table.md",
+          "page_type": "api_reference",
+          "title": "Create Table View (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/update-view.md",
+          "page_type": "api_reference",
+          "title": "Update View (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/update-view-table.md",
+          "page_type": "api_reference",
+          "title": "Update Table View (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-form.md",
+          "page_type": "api_reference",
+          "title": "Create Form (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/get-form.md",
+          "page_type": "api_reference",
+          "title": "Get Form (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/update-form.md",
+          "page_type": "api_reference",
+          "title": "Update Form (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/form-questions-editor.md",
+          "page_type": "api_reference",
+          "title": "Form Questions Editor (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-form-submission.md",
+          "page_type": "api_reference",
+          "title": "Create Form Submission (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/get-user-context.md",
+          "page_type": "api_reference",
+          "title": "Get User Context (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/list-users-and-teams.md",
+          "page_type": "api_reference",
+          "title": "List Users and Teams (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-update.md",
+          "page_type": "api_reference",
+          "title": "Create Update (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/get-updates.md",
+          "page_type": "api_reference",
+          "title": "Get Updates (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-notification.md",
+          "page_type": "api_reference",
+          "title": "Create Notification (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/mcp-search.md",
+          "page_type": "mcp",
+          "title": "Search (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/get-assets.md",
+          "page_type": "api_reference",
+          "title": "Get Assets (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/get-asset-upload-url.md",
+          "page_type": "api_reference",
+          "title": "Get Asset Upload URL (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/finalize-asset-upload.md",
+          "page_type": "api_reference",
+          "title": "Finalize Asset Upload (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/list-automations.md",
+          "page_type": "api_reference",
+          "title": "List Automations (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/manage-automations.md",
+          "page_type": "api_reference",
+          "title": "Manage Automations (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-automation.md",
+          "page_type": "api_reference",
+          "title": "Create Automation (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/plan-workflow.md",
+          "page_type": "api_reference",
+          "title": "Plan Workflow (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/create-workflow.md",
+          "page_type": "api_reference",
+          "title": "Create Workflow (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/update-workflow.md",
+          "page_type": "api_reference",
+          "title": "Update Workflow (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/publish-workflow.md",
+          "page_type": "api_reference",
+          "title": "Publish Workflow (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/manage-agent.md",
+          "page_type": "api_reference",
+          "title": "Manage Agent (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/manage-agent-triggers.md",
+          "page_type": "api_reference",
+          "title": "Manage Agent Triggers (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/manage-agent-skills.md",
+          "page_type": "api_reference",
+          "title": "Manage Agent Skills (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/manage-agent-knowledge.md",
+          "page_type": "api_reference",
+          "title": "Manage Agent Knowledge (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/agent-catalog.md",
+          "page_type": "api_reference",
+          "title": "Agent Catalog (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/get-notetaker-meetings.md",
+          "page_type": "api_reference",
+          "title": "Get Notetaker Meetings (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/get-sprints-boards.md",
+          "page_type": "api_reference",
+          "title": "Get Sprints Boards (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/get-sprints-metadata.md",
+          "page_type": "api_reference",
+          "title": "Get Sprints Metadata (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/get-sprint-summary.md",
+          "page_type": "api_reference",
+          "title": "Get Sprint Summary (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/all-monday-api.md",
+          "page_type": "api_reference",
+          "title": "Execute API Query (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/get-graphql-schema.md",
+          "page_type": "api_reference",
+          "title": "Get GraphQL Schema (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/get-type-details.md",
+          "page_type": "api_reference",
+          "title": "Get Type Details (Platform MCP)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/show-table.md",
+          "page_type": "api_reference",
+          "title": "Show Table (Platform MCP UI)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/show-chart.md",
+          "page_type": "api_reference",
+          "title": "Show Chart (Platform MCP UI)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/show-battery.md",
+          "page_type": "api_reference",
+          "title": "Show Battery (Platform MCP UI)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/show-assign.md",
+          "page_type": "api_reference",
+          "title": "Show Assign (Platform MCP UI)",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/monday-mcp-security-overview.md",
+          "page_type": "api_reference",
+          "title": "Platform MCP security",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/introduction-to-graphql.md",
+          "page_type": "api_reference",
+          "title": "GraphQL overview",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/getting-started.md",
+          "page_type": "api_reference",
+          "title": "Making your first request",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/apps/docs/plans-and-pricing",
+          "page_type": "pricing",
+          "title": "Plans and pricing",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com",
+          "page_type": "developer_portal",
+          "title": "monday.com API documentation",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.monday.com/apps/docs/webhooks-1",
+          "page_type": "webhooks",
+          "title": "Webhooks",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 5,
+        "urls_discovered": 79,
+        "official_urls": 79,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 1,
+        "canonical_selected": 7
+      }
+    },
+    "stats": {
+      "queries": 5,
+      "urls_discovered": 79,
+      "official_urls": 79,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 1,
+      "canonical_selected": 7
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_ff33c5cb602e",
+      "source_type": "api_reference",
+      "url": "https://developer.monday.com/api-reference/docs/basics.md",
+      "domain": "developer.monday.com",
+      "page_title": "",
+      "content": "Read what the monday platform API can do, who can use it, and how it works\n{`\nStop! Before you scroll...\nGet your answer faster.\nAsk our AI assistant any question about the monday API and get an instant answer.\n→\n`}\nWelcome to monday.com, a work OS where teams create and shape their own workflows in minutes, code-free. Our mission is to help teams outdo their best, fulfilling their potential, and collaborating more effectively.\nThe monday GraphQL API is part of the monday apps framework. It is an application layer that allows apps to read and update data inside a monday.com account. It supports operations boards, items, column values, users, workspaces, and more.\n\nThere are countless use cases for the API, including:\n* Accessing board data to render a custom report inside a monday.com dashboard\n* Creating a new item on a board when a record is created on another system\n* Importing data from another source programmatically\nWith the monday apps framework, developers can package their own web apps and integrations as native monday.com building blocks.\n\n**Admin**, **member**, and **guest** users are all able to utilize the monday.com API.\n**Admins** and **members** have access to their own API tokens. **Guests** cannot access an API key but can utilize API features through other authentication methods, like OAuth or a shortLivedToken.\n**Viewers**, users who have been deactivated or disabled, users with unconfirmed emails, or users on student accounts **cannot** access the API.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:12:24.010479Z",
+      "section_path": "Who can use the API?",
+      "chunk_index": 0,
+      "token_count": 374,
+      "quality_score": 0.8
+    },
+    {
+      "id": "ev_8f6ece51f208",
+      "source_type": "pricing_page",
+      "url": "https://developer.monday.com/apps/docs/plans-and-pricing",
+      "domain": "developer.monday.com",
+      "page_title": "Plans and pricing",
+      "content": "Plans and pricing\nAfter creating your app, you must define the number of plans you want to offer, the difference between each tier, the pricing model they follow, and the price of each tier.\nCheck out our pricing report for a deeper look into selecting plan types, pricing your plans, selecting plan tiers, and how to measure success.\nTypes of plans\nYour app can support different types of plans, including feature- or seat-based, trial, and free (optional) plans. One plan will be used as the recommended option.\nFeature or seat-based plans\nYour plans can follow three different pricing models: feature-based, seat-based, and account seat-based (new). The number of supported plans, pricing information format displayed in the UI, and plan submission process vary based on your app's selected pricing model.\nFeature-based\nPlan limit: Up to 15 plans per app\nFeature-based pricing lets you define plan tiers based on feature access or usage limits. This model is ideal for apps that offer multiple features or that measure user activity and consumption.\nWith this model, customers can choose a plan tier that fits their needs, only paying for the functionality or usage they require. This flexibility creates opportunities for upselling as accounts grow. However, creating effective bundles can be challenging and requires thorough planning.\n💡 Examples:\n- An app offers 5 features on the Basic plan, 10 on Intermediate, 15 on Advanced, and 20 on Premium.\n- An app offers up to 50 actions on Basic, 100 on Intermediate, 250 on Advanced, and unlimited on Premium.\nSeat-based (after September 2025)\nSeat-based pricing provides a scalable and predictable way to monetize your app based on the total number of seats in a customer’s monday.com account. Customers purchase the app for all seats in their account, and pricing is automatically calculated based on predefined seat buckets that correspond to the account’s size, scaling naturally as the account grows.\nStarting in August 2025, all new seat-based marketplace app submissions default to this model.\nBy default, plans use optimized mode, which applies a progressive pricing structure: as seat count increases, the per-seat price gradually decreases, allowing you to offer stronger discounts to larger accounts without applying a single flat reduction to all seats. Because pricing is calculated progressively across seat ranges, the per-seat cost may include decimal values.\nSeat-based plans can be offered on both monthly and yearly billing cycles. Yearly pricing follows the same bucket-based structure, with discounts applied per bucket rather than as one uniform percentage across all account sizes.\nAll seat-based apps must include a trial, and you may optionally configure free buckets, such as offering the app at no cost up to a defined seat threshold.\nLegacy seat-based (before September 2025)\nLegacy seat-based pricing won't be supported in the near future. We encourage apps to migrate to the new account seat-based model.\nPlan limit: Up to 25 plans per app\nLegacy seat-based pricing lets you organize users into pricing tiers (or \"buckets\") based on seat count. Customers then purchase a subscription for the bucket that best aligns with the seats in their monday.com account.\nThis model is ideal for apps that deliver one core capability rather than a set of features. It is simple and allows customers to only pay for what they need. However, it may deter large companies or organizations with more seats from subscribing since their plan is determined by the number of required seats.\nLegacy eat-based apps must offer a designated trial plan that has unlimited seats to allow users to fully explore your app’s capabilities before committing to a subscription.\nHow seat count works\nWhen customers subscribe to an app, our UI intuitively recommends the best-fit pricing tier based on the number of seats in their monday.com account (across all products).\nIf an account grows or shrinks, we monitor seat usage and compare it to the selected plan's limits for views, dashboard widgets, or custom objects. If the user count exceeds the plan's limit, the account maintains app access but is prompted to upgrade through pop-up messages and notifications on the Installed Apps page.\nFor example, a monday.com account with 200 seats purchases an app subscription for that size. If they expand to 300 seats, they will be prompted to upgrade their app accordingly in the UI.\nIf you're building a different type of app or prefer to manage access yourself, you can verify an account's seat count via the apps_monetization_info endpoint. This requires the account:read scope.\nquery {\n  apps_monetization_info {\n    seats_count\n  }\n}Trial and free plans\nTrial plan\nTrial plans enable customers to evaluate your app, understand its value, and decide if it's a good fit. This can help attract a wider audience, increase engagement, and drive more subscriptions.\nThe default trial period is 14 days. If a customer requests more time, you can manually extend their trial. Once the trial period ends, app admins will receive a notification prompting them to upgrade their plan. They will also see prompts on the Installed Apps page. For view apps, customer access will be blocked in the app's view, where they will also be prompted to upgrade.\nFree plan\nFree plans are optional but can be leveraged to attract more app users. With a free plan, users can experience parts of your app and explore its benefits without committing to a paid subscription. They are also a great way to retain trial users after their initial trial subscription ends.\nPricing\nEffectively pricing your app is one key to making enough revenue to sustain development. After defining the plan tiers, you need to decide how much each plan costs (in USD). Part of this process involves defining different prices for each plan for both monthly and yearly billing periods. All of the pricing and plan information will be submitted for approval when you implement monetization.\nUpdate your pricing\nIf you need to change your app's pricing, check out this guide!",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:12:25.105045Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 1518,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_84850d40123d",
+      "source_type": "auth_docs",
+      "url": "https://developer.monday.com/api-reference/docs/authentication.md",
+      "domain": "developer.monday.com",
+      "page_title": "",
+      "content": "Learn about monday platform API token permissions, how to access tokens, and how to authenticate requests\nThe monday.com platform API utilizes **personal V2 API tokens** to authenticate requests and identify the user making the call. These tokens are unique to each user and have no explicit length.\nPersonal tokens allow you to interact with the API using your own user account. Their permissions mirror what you can do in the monday.com UI, ensuring that API access is consistent with your platform-level permissions.\n\nPersonal tokens mirror all permission levels set in the monday.com UI, including [board](https://support.monday.com/hc/en-us/articles/115005315809-Board-permissions), [column](https://support.monday.com/hc/en-us/articles/360011926640-Column-permissions), [item](https://support.monday.com/hc/en-us/articles/360021172320-Item-viewing-permissions-), or [account](https://support.monday.com/hc/en-us/articles/360003457320-Account-permissions) access.\n> For example: If you don't have permission to access a certain workspace via the UI, you won't have permission using your personal API token either.\nApp tokens have an additional [set of permission scopes](https://developer.monday.com/apps/docs/oauth#set-up-permission-scopes) that specify which queries and mutations it can access, while personal tokens have all permission scopes.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:12:23.034782Z",
+      "section_path": "Token permissions",
+      "chunk_index": 0,
+      "token_count": 338,
+      "quality_score": 0.7
+    },
+    {
+      "id": "ev_0fc487a89cc2",
+      "source_type": "auth_docs",
+      "url": "https://developer.monday.com/api-reference/docs/authentication.md",
+      "domain": "developer.monday.com",
+      "page_title": "",
+      "content": "You can access your API token in two ways, depending on your [user type](https://support.monday.com/hc/en-us/articles/360002144900-User-types-explained).\n\nAll [users with API access](https://developer.monday.com/api-reference/docs/basics#who-can-use-the-api) can follow these steps to access their API token:\n1. In your monday.com account, click on your profile picture in the top right corner.\n2. Select **Developers**. This will open the *Developer Center* in another tab.\n3. Click **API token** > **Show**.\n4. Copy your personal token.\n\nAccount admins can use the *Developer Center* steps above or access their token via the *Administration* tab:\n1. In your monday.com account, click on your profile picture in the top right corner.\n2. Select **Administration** > **Connections** > **Personal API token**.\n3. Copy your personal token.\n\nOnce you have your token, you can make requests with the API by passing the token in the `Authorization` header.\n```curl cURL\ncurl -X POST https://api.monday.com/v2 \\\n  -H \"Authorization: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"query\": \"query { me { id name } }\"}'\n```\n\nAPI tokens can be regenerated at any time. However, this will immediately invalidate your current token, so be sure to update any integrations using it.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:12:23.034818Z",
+      "section_path": "Regenerating a token",
+      "chunk_index": 1,
+      "token_count": 327,
+      "quality_score": 0.7
+    },
+    {
+      "id": "ev_8cce953e04a0",
+      "source_type": "auth_docs",
+      "url": "https://developer.monday.com/api-reference/docs/authentication.md",
+      "domain": "developer.monday.com",
+      "page_title": "",
+      "content": "1. In your monday.com account, click on your profile picture in the top right corner.\n2. Select **Developers**. This will open the *Developer Center* in another tab.\n3. Click **API token** > **Regenerate**.\n\n1. In your monday.com account, click on your profile picture in the top right corner.\n2. Select **Administration** > **Connections** > **Personal API token**.\n3. Click **Regenerate**.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:12:23.034834Z",
+      "section_path": "Regenerating a token > In the Developer Center > In the Administration tab",
+      "chunk_index": 2,
+      "token_count": 97,
+      "quality_score": 0.7
+    },
+    {
+      "id": "ev_039ac5c1c094",
+      "source_type": "api_reference",
+      "url": "https://developer.monday.com/api-reference/docs/basics.md",
+      "domain": "developer.monday.com",
+      "page_title": "",
+      "content": "The platform API currently supports the monday work management, dev, sales CRM, and service products. It currently does not support Workforms.\n\nThe monday.com API is built with GraphQL, a flexible query language that allows you to return as much or as little data as you need. GraphQL is an application layer that parses the query you send it and returns (or changes) data accordingly. To learn more about the fundamental GraphQL components, check out our GraphQL overview!\n> 📘 Join our developer community!\n>\n> We've created a [community](https://developer-community.monday.com/) specifically for our devs where you can search through previous topics to find solutions, ask new questions, hear about new features and updates, and learn tips and tricks from other devs. Come join in on the fun! 😎",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:12:24.010537Z",
+      "section_path": "How does GraphQL work?",
+      "chunk_index": 1,
+      "token_count": 199,
+      "quality_score": 0.7
+    },
+    {
+      "id": "ev_e86f09a4136d",
+      "source_type": "official_docs",
+      "url": "https://developer.monday.com",
+      "domain": "developer.monday.com",
+      "page_title": "Developer Platform - monday.com",
+      "content": "Build on monday, the AI work platform\nThe first 100% open AI work platform to connect your enterprise data, automate any workflow, customize every surface, and turn any AI agent into a teammate.\nTurn agents into teammates\nGive any agent a real identity on monday — then put it to work alongside your team, everywhere your team already works.\nConnect agents to the platform\nUse our native integration, or manually connect with our hosted MCP url. Each agent gets its own identity on monday.\nBring any agent in\nConnect agents from Claude, ChatGPT, Make, or any provider through a managed connection or a simple webhook — or build code-first with the apps framework. Each one gets its own identity on monday.\nChat, assign, and @mention\nTalk to agents like teammates. Message them in updates, assign them items, and @mention them in any conversation to kick off real work — replies, statuses, and follow-ups included.\nUse them anywhere you work\nBring an agent in once and reach it from Slack, WhatsApp, Telegram, Make, our MCP, or the API. One identity, every surface — no rebuilding per channel.\nGovern everything\nScope each agent's board access from the admin, audit every action it takes, and track AI credit spend across the whole org — all from one dashboard.\nConnect to any LLM\nWire your apps and agents to leading providers — Anthropic, Google, and OpenAI — through one unified Models API.\nRun agents from your code\nRun and manage every monday agent programmatically from your own code, anywhere you need it.\nConnect to your monday data from anywhere\nAn expressive GraphQL API to interact with your workflows, automate processes, power integrations, and more!\nCustomize monday to your exact needs\nBuild new views, widgets, menu actions, and doc plug-ins right inside the product. Match monday with Vibe, our open-source React components, so your app looks native from day one.\nBuild the views you need\nCreate custom board views, item views, dashboard widgets, and full-page apps.\nExtend menus with your actions\nAdd actions to the item, board, and column menus, right where work happens.\nAdd functionality everywhere\nShip new reusable workflow blocks, agent skills, and board column types.\nOne design system\nBuild with Vibe, monday's open-source React components, and look native instantly.\nBuild and deploy apps on our infrastructure\nGet hosting, storage, secrets, and scaling on infra certified for SOC 2, HIPAA, and ISO 27001. Your data never leaves our secure servers.\nGet started with apps →Write code, skip the servers\nDeploy to isolated sandboxes monday manages. Your syncs and tools run on our infra, not yours.\nOAuth2 scopes built in\nRequest granular scopes like boards:read. Store keys in managed secret storage.\nBuild and deploy using AI\nConnect the developer MCP to any agent. Scaffold, set env vars, and promote versions from chat.\nEverything apps need\nKey-value storage, a pub/sub queue, cron, logs, and alerts out of the box.\nTrigger workflows from any monday action\nListen for real-time events and run your workflow the moment data changes. We post the payload as it happens, signed and verifiable.\nAct when data changes\nSubscribe to create_item, change_column_value, and more.\nTrigger on agent activity\nFire when an agent is messaged, assigned an item, or mentioned in an update.\nReact to platform events\nRespond when a new user joins or a board is created to keep your backend in sync.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:12:22.923346Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 851,
+      "quality_score": 0.66
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "monday.com is a work OS where teams create and shape their own workflows in minutes, code-free.",
+      "evidence_ids": [
+        "ev_ff33c5cb602e"
+      ]
+    },
+    "category": {
+      "value": "Productivity and Project Management",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "OAuth, Personal API Token",
+      "evidence_ids": [
+        "ev_84850d40123d",
+        "ev_0fc487a89cc2"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (trial available)",
+      "evidence_ids": [
+        "ev_8f6ece51f208"
+      ]
+    },
+    "api_surface": {
+      "value": "GraphQL",
+      "evidence_ids": [
+        "ev_ff33c5cb602e",
+        "ev_039ac5c1c094"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_ff33c5cb602e"
+      ]
+    },
+    "mcp": {
+      "value": "Official MCP",
+      "evidence_ids": [
+        "ev_e86f09a4136d"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_e86f09a4136d"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_ff33c5cb602e"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.88,
+    "fields_checked": 8,
+    "fields_supported": 7,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.88,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.88 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "app_name": "PitchBook",
+  "official_domain": "pitchbook.com",
+  "homepage": {
+    "url": "https://pitchbook.com",
+    "title": "PitchBook",
+    "confidence": 0.4,
+    "confidence_reason": [
+      "official_docs: +0.40"
+    ],
+    "is_official": true,
+    "discovered_from": "domain_probe"
+  },
+  "authentication": {
+    "primary": null,
+    "alternatives": []
+  },
+  "api_reference": {
+    "primary": null,
+    "alternatives": []
+  },
+  "pricing": {
+    "primary": {
+      "url": "https://pitchbook.com/pricing",
+      "title": "",
+      "confidence": 0.6,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "alternatives": []
+  },
+  "sdk": null,
+  "mcp": {
+    "primary": null,
+    "alternatives": []
+  },
+  "developer_portal": {
+    "primary": null,
+    "alternatives": []
+  },
+  "webhooks": null,
+  "llms_txt": null,
+  "inventory": {
+    "app_name": "PitchBook",
+    "official_domain": "pitchbook.com",
+    "items": [
+      {
+        "url": "https://pitchbook.com",
+        "page_type": "homepage",
+        "title": "PitchBook",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      },
+      {
+        "url": "https://pitchbook.com/pricing",
+        "page_type": "pricing",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      }
+    ],
+    "stats": {
+      "queries": 6,
+      "urls_discovered": 2,
+      "official_urls": 2,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 2
+    }
+  },
+  "stats": {
+    "queries": 6,
+    "urls_discovered": 2,
+    "official_urls": 2,
+    "non_official_filtered": 0,
+    "blog_community_filtered": 0,
+    "third_party_sdk_filtered": 0,
+    "duplicates_removed": 0,
+    "canonical_selected": 2
+  }
+}

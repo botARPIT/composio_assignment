@@ -1,0 +1,371 @@
+{
+  "app": {
+    "id": 27,
+    "name": "Telegram",
+    "website": "core.telegram.org",
+    "category_hint": "Communications and Messaging"
+  },
+  "documentation_map": {
+    "app_name": "Telegram",
+    "official_domain": "core.telegram.org",
+    "homepage": {
+      "url": "https://core.telegram.org",
+      "title": "Telegram",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://core.telegram.org/docs/authentication",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://core.telegram.org/docs/api",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://core.telegram.org/pricing",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://core.telegram.org/docs/mcp",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://core.telegram.org/docs",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "Telegram",
+      "official_domain": "core.telegram.org",
+      "items": [
+        {
+          "url": "https://core.telegram.org",
+          "page_type": "homepage",
+          "title": "Telegram",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://core.telegram.org/docs/authentication",
+          "page_type": "authentication",
+          "title": "",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://core.telegram.org/docs/api",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://core.telegram.org/pricing",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://core.telegram.org/docs",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://core.telegram.org/docs/mcp",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 0,
+        "urls_discovered": 6,
+        "official_urls": 6,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 6
+      }
+    },
+    "stats": {
+      "queries": 0,
+      "urls_discovered": 6,
+      "official_urls": 6,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 6
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_4c1ecd4ba093",
+      "source_type": "auth_docs",
+      "url": "https://core.telegram.org/docs/authentication",
+      "domain": "core.telegram.org",
+      "page_title": "Page not found",
+      "content": "Follow on X\nHome\nFAQ\nApps\nAPI\nProtocol\nSchema\nPage not found\nThe page has not been saved",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:01:56.022362Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 22,
+      "quality_score": 0.58
+    },
+    {
+      "id": "ev_58feff32465b",
+      "source_type": "api_reference",
+      "url": "https://core.telegram.org/docs/api",
+      "domain": "core.telegram.org",
+      "page_title": "Page not found",
+      "content": "Follow on X\nHome\nFAQ\nApps\nAPI\nProtocol\nSchema\nPage not found\nThe page has not been saved",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:01:55.952453Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 22,
+      "quality_score": 0.58
+    },
+    {
+      "id": "ev_b3329a4a4108",
+      "source_type": "pricing_page",
+      "url": "https://core.telegram.org/pricing",
+      "domain": "core.telegram.org",
+      "page_title": "Page not found",
+      "content": "Follow on X\nHome\nFAQ\nApps\nAPI\nProtocol\nSchema\nPage not found\nThe page has not been saved",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:01:57.144561Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 22,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_e784d2c7ccf7",
+      "source_type": "official_docs",
+      "url": "https://core.telegram.org",
+      "domain": "core.telegram.org",
+      "page_title": "Telegram APIs",
+      "content": "We offer three kinds of APIs for developers. The Bot API allows you to easily create programs that use Telegram messages for an interface. The Telegram API and TDLib allow you to build your own customized Telegram clients. You are welcome to use both APIs free of charge. Lastly, the Gateway API allows any business, app or website to send verification codes through Telegram instead of traditional SMS.\nYou can also add Telegram Widgets to your website.\nDesigners are welcome to create Animated Stickers and Emoji or Custom Themes for Telegram.\nThis API allows you to connect bots to our system. Telegram Bots are special accounts that do not require an additional phone number to set up. These accounts serve as an interface for code running somewhere on your server.\nTo use this, you don't need to know anything about how our MTProto encryption protocol works — our intermediary server will handle all encryption and communication with the Telegram API for you. You communicate with this server via a simple HTTPS interface that offers a simplified version of the Telegram API.\nBot developers can also make use of our Payments API to accept payments from Telegram users around the world.\nEven if you're looking for maximum customization, you don't have to create your app from scratch. Try our Telegram Database Library (or simply TDLib), a tool for third-party developers that makes it easy to build fast, secure and feature-rich Telegram apps.\nTDLib takes care of all network implementation details, encryption and local data storage, so that you can dedicate more time to design, responsive interfaces and beautiful animations.\nTDLib supports all Telegram features and makes developing Telegram apps a breeze on any platform. It can be used on Android, iOS, Windows, macOS, Linux and virtually any other system. The library is open source and compatible with virtually any programming language.\nThe Telegram Gateway API allows any business, app or website to send authorization codes through Telegram instead of traditional SMS – offering a powerful and convenient way to lower costs while increasing the security and delivery speed of your codes to Telegram’s 1 billion monthly active users. Users will instantly receive messages with codes in a special chat inside Telegram.\nTelegram's Gateway API is completely free to test. Learn more here »\nThis API allows you to build your own customized Telegram clients. It is 100% open for all developers who wish to create Telegram applications on our platform. Feel free to study the open source code of existing Telegram applications for examples of how things work here. Don't forget to register your application in our system.\nHow to get your application identifier and create a new Telegram app.\nHow to register a user's phone to start using the API.\nHow to log in to a user's account if they have enabled 2FA, and how to change the password.\nQR code login flow.\nTelegram allows creating a passkey on your device to instantly log in to Telegram with a PIN or biometric data like Face ID and fingerprints — instead of an SMS code.\nHow to handle API return errors correctly.\nHow to connect to the closest DC access point for faster interaction with the API, and things to watch out for when developing a client.\nHow to subscribe to updates and handle them properly.\nHow to subscribe and handle them properly.\nHow to handle channels, supergroups, gigagroups, basic groups, and what's the difference between them.\nTelegram allows creating forums with multiple distinct topics.\nBots can also make use of topics, if enabled through @botfather.\nTelegram supports direct messages to channels, which can also be used to suggest (even paid) channel posts.\nTelegram offers detailed statistics for channels and supergroups.\nHow to report read state, channel post views, message read metrics and music listens.\nAdditional options for calling methods.\nHow to transfer large data batches correctly.\nHow to fetch results from large lists of objects.\nThe MTProto API has multiple client configuration parameters that can be fetched with the appropriate methods.\nTelegram supports E2E-encrypted one-to-one calls.\nTelegram supports E2E-encrypted group calls.\nEnd-to-end-encrypted messaging.\nImportant checks required in your client application.\nBinding temporary authorization keys to permanent ones.\nEnd-to-end-encrypted calls.\nEnd-to-end-encrypted group calls.\nRe-keying secret chats to provide Perfect Forward Secrecy.\nHow to assign and interpret seq_no counters in secret chats.\nWays to boost API interactions.\nA list of available high-level methods.\nText and JSON presentation of types and methods used in the API.\nA detailed changelog of available schema versions.\nHow to work with bots using the MTProto API.\nTelegram offers many AI features powered by Cocoon — a decentralized network designed to maximize privacy.\nA bot API dialog ID is a single, unique 64-bit peer ID sequence derived from the user, chat, channel and secret chat ID sequences, maintaining uniqueness across all of them.\nThis page specifies how to convert MTProto peer IDs to bot API dialog IDs and vice versa.\nUsers can create managed bots (which are controlled by a specific manager bot) directly through the MTProto API, without interacting with @BotFather.\nBots offer a set of commands that can be used by users in private, or in a chat.\nUsers can interact with your bot via buttons or even inline buttons, straight from inline messages in any chat.\nBots can choose the behavior of the menu button shown next to the text input field.\nUsers can interact with your bot via inline queries, straight from the text input field in any chat.\nBots can offer users HTML5 games to play solo or to compete against each other in groups and one-on-one chats; how to work with games in the MTProto API.\nBots can offer users interactive HTML5 mini apps to completely replace any website.\nDevelopers can open affiliate programs for their mini app – allowing content creators, other mini app developers and any Telegram user to promote it and earn commissions on purchases made by people they referred.\nBots can install attachment menu entries, offering conveniently accessible, versatile mini apps.\nUsers can edit and localize the profile picture, name, about text and description of bots they own; the same can be done by the bots themselves.\nTelegram bots offer a number of features for AI chatbots.\nGuest bots can be queried by username from any non-secret private chat, group and supergroup, posting their results directly into the chat, even if they're not a member.\nBots may receive and send messages to and from other bots in groups, private chats and chats, if Bot-to-Bot Communication Mode is enabled.\nTelegram users and channels can easily post and view stories through the API.\nThe API offers a method to obtain a list of similarly themed public channels and bots, selected based on similarities in their subscriber bases.\nTelegram users and channels can change the accent color and background pattern of their profile page and their messages!\nTelegram allows users to specify granular privacy settings, choosing which users can or can't interact with them in certain ways.\nTelegram allows applying detailed message filters while looking for messages in chats.\nThis allows the server to filter messages based on a text query, and even on their type, and this feature is often used by graphical clients to implement features like the chat gallery, chat profile pictures and more.\nTelegram allows sending polls and quizzes, that can be voted on by thousands, if not millions of users in chats and channels.\nPremium users can now create collaborative checklists in any chat to track tasks and coordinate teams — or manage shopping and to-do lists.\nTelegram allows users to react to any message using specific emojis, triggering cute Lottie animations.\nTelegram allows adding spectacular animated effects to messages you send.\nSticker, custom emoji and GIF selection UIs should offer a list of categories to quickly filter results by a (list of) emojis, or by some other criteria.\nTelegram allows users to set an emoticon or a custom emoji as status, to show next to their name in chats and profiles.\nChannels, basic groups and supergroups may have a public username or a private invite link: private invite links may be further enhanced with per-user join requests.\nHow to handle admin permissions, granular bans and global permissions in channels, groups and supergroups.\nGroups can be associated with a channel as a discussion group, allowing users to discuss posts.\nTelegram allows commenting on a channel post or on a generic group message, thanks to message threads.\nBoth supergroups and channels offer a so-called admin log, a log of recent relevant supergroup and channel actions, like the modification of group/channel settings or information on behalf of an admin, user kicks and bans, and more.\nTelegram allows pinning multiple messages on top of a specific chat.\nMembers in group chats (both basic groups and supergroups) can now add a tag next to their name — to show their role at work, what they study in school, and more.\nTelegram allows mentioning other users in case of urgent duckling matters, and quickly navigating to those mentions in order to read them as swiftly as possible.\nTelegram allows scheduling messages.\nTelegram allows sending the live geolocation of a user in a chat, optionally setting a proximity alert.\nHow to work with peer information in the API.\nSometimes, user and channel constructors encountered in group chat updates may not contain full info about the user: this page explains how to handle such constructors.\nHow to delete a Telegram account.\nTelegram allows importing messages and media from foreign chat apps.\nHow to work with Telegram Passport directly using the MTProto API.\nHow to work with Telegram Payments directly using the MTProto API.\nTo further improve transparency on Telegram, official third-party services are able to assign extra verification icons to user accounts and chats — in order to prevent scams and reduce misinformation.\nHow to create styled text with message entities.\nTelegram clients support displaying GIFs.\nTelegram clients support displaying animated, static and video stickers.\nTelegram allows including custom animated, static and video emojis directly inside of messages.\nGraphical Telegram clients should transform emojis into their respective animated versions.\nTelegram supports sending animated dice emojis.\nHow to handle message drafts.\nWorking with folders.\nIf enabled, the rating of top peers indicates the relevance of a frequently used peer in a certain category (frequently messaged users, frequently used bots, inline bots, frequently visited channels and so on).\nHow to handle file references.\nHandle Seamless Telegram Login URL authorization requests.\nHow to work with chat backgrounds.\nHow to work with chat notification sounds.\nHow to transcribe voice messages.\nTelegram allows translating chat messages, and Telegram Premium users may even enable real-time chat translation.\nAdmins of supergroups with a certain number of members can choose to unleash the full proactive power of Telegram's own antispam algorithms – turning on the new Aggressive mode for the automated spam filters.\nTelegram users can make it easy for others to contact them or find their public groups and channels via usernames: clients can also assign multiple Fragment » collectible usernames to accounts, supergroups and channels they own; Fragment » also allows purchasing phone number collectibles that can be used to register Telegram accounts.\nTelegram Premium is an optional subscription service that unlocks additional exclusive client-side and API-side features, while helping support the development of the app. It is a part of Telegram’s sustainable monetization – driven by our users, rather than advertisers or shareholders. This way, Telegram can remain independent and prioritize its users first.\nUsers can turn their Telegram account into a business account, gaining access to business features such as opening hours, location, quick replies, automated messages, custom start page, chatbot support, and more.\nMost Telegram Business features are available to Telegram Premium » subscribers; connected business bots » are also available to non-Premium users.\nTelegram Stars are virtual items that allow users to purchase digital goods and services from bots and mini apps inside the Telegram ecosystem, send gifts to content creators on the Telegram platform, and more.\nBots and channels may create subscriptions, periodically charging users a certain amount of Telegram Stars in exchange for content and services.\nUsers and bots who want to keep their messages private, as well as Group and Channel owners who want to keep their content members-only can restrict message forwarding from their chat, which also prevents screenshots, disables message forwards (attempting to forward protected messages will emit a CHAT_FORWARDS_RESTRICTED RPC error) and limits the ability to save media from posts.  \nUsers can send Gifts to their friends. The recipients of gifts can display them on their profile pages or turn them into Telegram Stars ». Telegram Stars can be used for many things, including supporting creators and buying services in mini apps.\nTo guarantee fair distribution of collectible gifts, new gift releases will be based on auctions — allowing users to place bids with Stars for new gifts over several rounds.\nContent creators can accept Stars by publishing paid photos or videos on their channels. Subscribers will be allowed to view such posts only after paying the author to unlock them.\nTelegram Stars can be used to pay for sending messages to users, supergroups and channels that have configured Star Messages », requiring a payment for every message sent to them.\nTelegram offers a powerful monetization feature to channel administrators: suggested posts.\nTelegram Premium users can grant their favorite channels additional features like the ability to post stories by giving them boosts.\nTelegram channel administrators may launch giveaways to randomly distribute Telegram Premium subscriptions and other gifts among their followers, in exchange for boosts.\nSometimes, when interacting with Telegram users via private or secret chats, an action bar must be shown on top of the chat, offering convenient action buttons or notices regarding the user.\nThe Saved Messages chat allows users to bookmark messages and media: it's a personal cloud storage for any messages or media you may want to send or forward there.\nTelegram offers many customization options for your profile!\nTelegram apps support generating, sharing and synchronizing app themes.\nIf your app allows accessing content from Telegram channels, you must include support for official sponsored messages in Telegram channels.\nTelegram has one of the most generous reward systems in the history of social media. Telegram channel and bot owners can now receive 50% of the revenue from ads displayed in their channels and bots.\nThis page describes the methods used to withdraw channel and bot ad revenue, as well as view detailed revenue stats.\nTelegram clients support displaying fact-checks added to messages by independent fact-checkers.\nWorking with contacts in the API.\nWorking with the blocklist.\nSome legislations require age verification to view restricted content: Telegram implements this through the Main Mini App of a special bot.\nWhen interacting with HTML5 games and the websites of payment gateways, Telegram apps should expose the following JS APIs.\nTelegram clients must handle special tg:// and t.me deep links encountered in messages, link entities and in other apps by registering OS handlers. \nTelegram's API allows users to export all of their information through the takeout API.\nTerms of Service that all third-party client apps must comply with.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:01:56.087198Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 3984,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_71de0e17dd19",
+      "source_type": "developer_portal",
+      "url": "https://core.telegram.org/docs",
+      "domain": "core.telegram.org",
+      "page_title": "Page not found",
+      "content": "Follow on X\nHome\nFAQ\nApps\nAPI\nProtocol\nSchema\nPage not found\nThe page has not been saved",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:01:57.270337Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 22,
+      "quality_score": 0.44
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Telegram offers various APIs for developers to create bots and customized clients.",
+      "evidence_ids": [
+        "ev_e784d2c7ccf7"
+      ]
+    },
+    "category": {
+      "value": "Communications and Messaging",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_e784d2c7ccf7"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_e784d2c7ccf7"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API",
+      "evidence_ids": [
+        "ev_e784d2c7ccf7"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_e784d2c7ccf7"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_e784d2c7ccf7"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_e784d2c7ccf7"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_e784d2c7ccf7"
+      ]
+    }
+  },
+  "validation": {
+    "status": "UNSUPPORTED",
+    "score": 0.62,
+    "fields_checked": 8,
+    "fields_supported": 5,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "auth_methods",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'auth_methods' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": {
+    "verified_fields": [],
+    "corrections": {},
+    "screenshots": [],
+    "notes": ""
+  },
+  "pipeline_confidence": 0.62,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.62 below 0.90 threshold",
+      "Auth methods missing or UNKNOWN"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

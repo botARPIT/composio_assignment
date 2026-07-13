@@ -1,0 +1,1595 @@
+{
+  "app": {
+    "id": 4,
+    "name": "Attio",
+    "website": "attio.com",
+    "category_hint": "CRM and Sales"
+  },
+  "documentation_map": {
+    "app_name": "Attio",
+    "official_domain": "attio.com",
+    "homepage": {
+      "url": "https://attio.com",
+      "title": "Attio",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://docs.attio.com/docs/oauth/authorize.md",
+        "title": "Authorize",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://docs.attio.com/docs/oauth/introspect.md",
+          "title": "Introspect",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.attio.com/docs/oauth/token.md",
+          "title": "Token",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://docs.attio.com/rest-api/overview",
+        "title": "",
+        "confidence": 0.85,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://attio.com/pricing",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://docs.attio.com/mcp/overview.md",
+        "title": "Attio MCP",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://docs.attio.com/docs/actors.md",
+        "title": "Actors",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://docs.attio.com/docs/archiving-vs-deleting.md",
+          "title": "Archiving vs deleting",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.attio.com/docs/default-values.md",
+          "title": "Default values",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.attio.com/docs/objects-and-lists.md",
+          "title": "Objects and lists",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "webhooks": null,
+    "llms_txt": {
+      "url": "https://docs.attio.com/llms.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "Attio",
+      "official_domain": "attio.com",
+      "items": [
+        {
+          "url": "https://attio.com",
+          "page_type": "homepage",
+          "title": "Attio",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/docs/actors.md",
+          "page_type": "developer_portal",
+          "title": "Actors",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/docs/archiving-vs-deleting.md",
+          "page_type": "developer_portal",
+          "title": "Archiving vs deleting",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/docs/default-values.md",
+          "page_type": "developer_portal",
+          "title": "Default values",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/docs/oauth/authorize.md",
+          "page_type": "authentication",
+          "title": "Authorize",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/docs/oauth/introspect.md",
+          "page_type": "authentication",
+          "title": "Introspect",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/docs/oauth/token.md",
+          "page_type": "authentication",
+          "title": "Token",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/docs/objects-and-lists.md",
+          "page_type": "developer_portal",
+          "title": "Objects and lists",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/docs/overview.md",
+          "page_type": "developer_portal",
+          "title": "Overview",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/docs/slugs-and-ids.md",
+          "page_type": "developer_portal",
+          "title": "Slugs and IDs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/docs/standard-objects/standard-objects.md",
+          "page_type": "developer_portal",
+          "title": "Overview",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/docs/standard-objects/standard-objects-companies.md",
+          "page_type": "developer_portal",
+          "title": "Companies",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/docs/standard-objects/standard-objects-deals.md",
+          "page_type": "developer_portal",
+          "title": "Deals",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/docs/standard-objects/standard-objects-people.md",
+          "page_type": "developer_portal",
+          "title": "People",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/docs/standard-objects/standard-objects-users.md",
+          "page_type": "developer_portal",
+          "title": "Users",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/docs/standard-objects/standard-objects-workspaces.md",
+          "page_type": "developer_portal",
+          "title": "Workspaces",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/docs/users-and-workspaces.md",
+          "page_type": "developer_portal",
+          "title": "Users and workspaces",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/mcp/overview.md",
+          "page_type": "mcp",
+          "title": "Attio MCP",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types.md",
+          "page_type": "developer_portal",
+          "title": "Overview",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-actor-reference.md",
+          "page_type": "developer_portal",
+          "title": "Actor reference",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-checkbox.md",
+          "page_type": "developer_portal",
+          "title": "Checkbox",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-currency.md",
+          "page_type": "developer_portal",
+          "title": "Currency",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-date.md",
+          "page_type": "developer_portal",
+          "title": "Date",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-domain.md",
+          "page_type": "developer_portal",
+          "title": "Domain",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-email-address.md",
+          "page_type": "developer_portal",
+          "title": "Email address",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-interaction.md",
+          "page_type": "developer_portal",
+          "title": "Interaction",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-location.md",
+          "page_type": "developer_portal",
+          "title": "Location",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-number.md",
+          "page_type": "developer_portal",
+          "title": "Number",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-personal-name.md",
+          "page_type": "developer_portal",
+          "title": "(Personal) name",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-phone-number.md",
+          "page_type": "developer_portal",
+          "title": "Phone number",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-rating.md",
+          "page_type": "developer_portal",
+          "title": "Rating",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-record-reference.md",
+          "page_type": "developer_portal",
+          "title": "Record reference",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-select.md",
+          "page_type": "developer_portal",
+          "title": "Select",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-status.md",
+          "page_type": "developer_portal",
+          "title": "Status",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-text.md",
+          "page_type": "developer_portal",
+          "title": "Text",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/attribute-types/attribute-types-timestamp.md",
+          "page_type": "developer_portal",
+          "title": "Timestamp",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/attributes/create-a-select-option.md",
+          "page_type": "developer_portal",
+          "title": "Create a select option",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/attributes/create-a-status.md",
+          "page_type": "developer_portal",
+          "title": "Create a status",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/attributes/create-an-attribute.md",
+          "page_type": "developer_portal",
+          "title": "Create an attribute",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/attributes/get-an-attribute.md",
+          "page_type": "developer_portal",
+          "title": "Get an attribute",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/attributes/list-attributes.md",
+          "page_type": "developer_portal",
+          "title": "List attributes",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/attributes/list-select-options.md",
+          "page_type": "developer_portal",
+          "title": "List select options",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/attributes/list-statuses.md",
+          "page_type": "developer_portal",
+          "title": "List statuses",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/attributes/update-a-select-option.md",
+          "page_type": "developer_portal",
+          "title": "Update a select option",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/attributes/update-a-status.md",
+          "page_type": "developer_portal",
+          "title": "Update a status",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/attributes/update-an-attribute.md",
+          "page_type": "developer_portal",
+          "title": "Update an attribute",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/call-recordings/get-call-recording.md",
+          "page_type": "developer_portal",
+          "title": "Get call recording",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/call-recordings/list-call-recordings.md",
+          "page_type": "developer_portal",
+          "title": "List call recordings",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/comments/create-a-comment.md",
+          "page_type": "developer_portal",
+          "title": "Create a comment",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/comments/delete-a-comment.md",
+          "page_type": "developer_portal",
+          "title": "Delete a comment",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/comments/get-a-comment.md",
+          "page_type": "developer_portal",
+          "title": "Get a comment",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/companies/create-a-company-record.md",
+          "page_type": "developer_portal",
+          "title": "Create a company record",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/companies/delete-a-company-record.md",
+          "page_type": "developer_portal",
+          "title": "Delete a company record",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/companies/get-a-company-record.md",
+          "page_type": "developer_portal",
+          "title": "Get a company record",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/companies/list-company-record-attribute-values.md",
+          "page_type": "developer_portal",
+          "title": "List company record attribute values",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/companies/list-company-record-entries.md",
+          "page_type": "developer_portal",
+          "title": "List company record entries",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/companies/list-company-records.md",
+          "page_type": "developer_portal",
+          "title": "List company records",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/companies/update-a-company-record.md",
+          "page_type": "developer_portal",
+          "title": "Update a company record",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/companies/upsert-a-company-record.md",
+          "page_type": "developer_portal",
+          "title": "Upsert a company record",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/deals/create-a-deal-record.md",
+          "page_type": "developer_portal",
+          "title": "Create a deal record",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/deals/delete-a-deal-record.md",
+          "page_type": "developer_portal",
+          "title": "Delete a deal record",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/deals/get-a-deal-record.md",
+          "page_type": "developer_portal",
+          "title": "Get a deal record",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/deals/list-deal-record-attribute-values.md",
+          "page_type": "developer_portal",
+          "title": "List deal record attribute values",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/deals/list-deal-record-entries.md",
+          "page_type": "developer_portal",
+          "title": "List deal record entries",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/deals/list-deal-records.md",
+          "page_type": "developer_portal",
+          "title": "List deal records",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/deals/update-a-deal-record.md",
+          "page_type": "developer_portal",
+          "title": "Update a deal record",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/deals/upsert-a-deal-record.md",
+          "page_type": "developer_portal",
+          "title": "Upsert a deal record",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/entries/create-an-entry-add-record-to-list.md",
+          "page_type": "developer_portal",
+          "title": "Create an entry (add record to list)",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/entries/delete-a-list-entry.md",
+          "page_type": "developer_portal",
+          "title": "Delete a list entry",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/entries/get-a-list-entry.md",
+          "page_type": "developer_portal",
+          "title": "Get a list entry",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/entries/list-attribute-values-for-a-list-entry.md",
+          "page_type": "developer_portal",
+          "title": "List attribute values for a list entry",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/entries/list-entries.md",
+          "page_type": "developer_portal",
+          "title": "List entries",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/entries/update-a-list-entry-append-multiselect-values.md",
+          "page_type": "developer_portal",
+          "title": "Update a list entry (append multiselect values)",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/entries/update-a-list-entry-overwrite-multiselect-values.md",
+          "page_type": "developer_portal",
+          "title": "Update a list entry (overwrite multiselect values)",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/entries/upsert-a-list-entry-by-parent.md",
+          "page_type": "developer_portal",
+          "title": "Upsert a list entry by parent",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/endpoint-reference/files/create-a-folder.md",
+          "page_type": "developer_portal",
+          "title": "Create a folder",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/overview",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.85,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://attio.com/pricing",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 1,
+        "urls_discovered": 78,
+        "official_urls": 78,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 6
+      }
+    },
+    "stats": {
+      "queries": 1,
+      "urls_discovered": 78,
+      "official_urls": 78,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 6
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_1a3ecfe18855",
+      "source_type": "llms_txt",
+      "url": "https://docs.attio.com/llms.txt",
+      "domain": "docs.attio.com",
+      "page_title": "llms.txt index",
+      "content": "\\- \\[Actors\\](https://docs.attio.com/docs/actors.md): Keeping track of who did what\n\\- \\[Archiving vs deleting\\](https://docs.attio.com/docs/archiving-vs-deleting.md)\n\\- \\[Default values\\](https://docs.attio.com/docs/default-values.md)\n\\- \\[Authorize\\](https://docs.attio.com/docs/oauth/authorize.md)\n\\- \\[Introspect\\](https://docs.attio.com/docs/oauth/introspect.md)\n\\- \\[Token\\](https://docs.attio.com/docs/oauth/token.md)\n\\- \\[Objects and lists\\](https://docs.attio.com/docs/objects-and-lists.md)\n\\- \\[Overview\\](https://docs.attio.com/docs/overview.md): Start building Attio Apps\n\\- \\[Slugs and IDs\\](https://docs.attio.com/docs/slugs-and-ids.md)\n\\- \\[Overview\\](https://docs.attio.com/docs/standard-objects/standard-objects.md): Companies and people are available in all workspaces\n\\- \\[Companies\\](https://docs.attio.com/docs/standard-objects/standard-objects-companies.md): An object to represent businesses: customers, partners, peers...\n\\- \\[Deals\\](https://docs.attio.com/docs/standard-objects/standard-objects-deals.md): An object to represent deals involving people & companies\n\\- \\[People\\](https://docs.attio.com/docs/standard-objects/standard-objects-people.md): An object to represent human beings\n\\- \\[Users\\](https://docs.attio.com/docs/standard-objects/standard-objects-users.md): An object to represent users of your product\n\\- \\[Workspaces\\](https://docs.attio.com/docs/standard-objects/standard-objects-workspaces.md): An object to group users of your product\n\\- \\[Users and workspaces\\](https://docs.attio.com/docs/users-and-workspaces.md)\n\\- \\[Building workflow blocks\\](https://docs.attio.com/guides/building-workflow-blocks.md): How to add custom triggers and steps to Attio Workflows using the App SDK\n\\- \\[Attio MCP\\](https://docs.attio.com/mcp/overview.md)\n\\- \\[Overview\\](https://docs.attio.com/rest-api/attribute-types/attribute-types.md)\n\\- \\[Actor reference\\](https://docs.attio.com/rest-api/attribute-types/attribute-types-actor-reference.md): References to workspace members and others\n\\- \\[Checkbox\\](https://docs.attio.com/rest-api/attribute-types/attribute-types-checkbox.md): Modelling boolean values\n\\- \\[Currency\\](https://docs.attio.com/rest-api/attribute-types/attribute-types-currency.md): More than just numbers\n\\- \\[Date\\](https://docs.attio.com/rest-api/attribute-types/attribute-types-date.md): A timezone-less calendar date\n\\- \\[Domain\\](https://docs.attio.com/rest-api/attribute-types/attribute-types-domain.md): An internet domain\n\\- \\[Email address\\](https://docs.attio.com/rest-api/attribute-types/attribute-types-email-address.md): An email address\n\\- \\[Interaction\\](https://docs.attio.com/rest-api/attribute-types/attribute-types-interaction.md): Calendar events and emails\n\\- \\[Location\\](https://docs.attio.com/rest-api/attribute-types/attribute-types-location.md): A physical location in the world\n\\- \\[Number\\](https://docs.attio.com/rest-api/attribute-types/attribute-types-number.md): Quantities, sums and metrics\n\\- \\[(Personal) name\\](https://docs.attio.com/rest-api/attribute-types/attribute-types-personal-name.md): A person's name\n\\- \\[Phone number\\](https://docs.attio.com/rest-api/attribute-types/attribute-types-phone-number.md): International telephone numbers\n\\- \\[Rating\\](https://docs.attio.com/rest-api/attribute-types/attribute-types-rating.md): Star ratings from 0 to 5\n\\- \\[Record reference\\](https://docs.attio.com/rest-api/attribute-types/attribute-types-record-reference.md): Relationships and one-way links between records\n\\- \\[Select\\](https://docs.attio.com/rest-api/attribute-types/attribute-types-select.md): An option from a predefined list\n\\- \\[Status\\](https://docs.attio.com/rest-api/attribute-types/attribute-types-status.md): Similar to select attributes, originally designed for use in Lists\n\\- \\[Text\\](https://docs.attio.com/rest-api/attribute-types/attribute-types-text.md): Human-readable, unconstrained text inputs\n\\- \\[Timestamp\\](https://docs.attio.com/rest-api/attribute-types/attribute-types-timestamp.md): A calendar date including time information, stored in UTC\n\\- \\[Create a select option\\](https://docs.attio.com/rest-api/endpoint-reference/attributes/create-a-select-option.md): Adds a select option to a select attribute on an object or a list.\n\\- \\[Create a status\\](https://docs.attio.com/rest-api/endpoint-reference/attributes/create-a-status.md): Add a new status to a status attribute on either an object or a list.\n\\- \\[Create an attribute\\](https://docs.attio.com/rest-api/endpoint-reference/attributes/create-an-attribute.md): Creates a new attribute on either an object or a list.\n\\- \\[Get an attribute\\](https://docs.attio.com/rest-api/endpoint-reference/attributes/get-an-attribute.md): Gets information about a single attribute on either an object or a list.\n\\- \\[List attributes\\](https://docs.attio.com/rest-api/endpoint-reference/attributes/list-attributes.md): Lists all attributes defined on a specific object or list. Attributes are returned in the order that they are sorted by in the UI.\n\\- \\[List select options\\](https://docs.attio.com/rest-api/endpoint-reference/attributes/list-select-options.md): Lists all select options for a particular attribute on either an object or a list.\n\\- \\[List statuses\\](https://docs.attio.com/rest-api/endpoint-reference/attributes/list-statuses.md): Lists all statuses for a particular status attribute on either an object or a list.\n\\- \\[Update a select option\\](https://docs.attio.com/rest-api/endpoint-reference/attributes/update-a-select-option.md): Updates a select option on an attribute on either an object or a list.\n\\- \\[Update a status\\](https://docs.attio.com/rest-api/endpoint-reference/attributes/update-a-status.md): Update a status on an status attribute on either an object or a list.\n\\- \\[Update an attribute\\](https://docs.attio.com/rest-api/endpoint-reference/attributes/update-an-attribute.md): Updates a single attribute on a given object or list.\n\\- \\[Get call recording\\](https://docs.attio.com/rest-api/endpoint-reference/call-recordings/get-call-recording.md): Get a single call recording by ID.\n\\- \\[List call recordings\\](https://docs.attio.com/rest-api/endpoint-reference/call-recordings/list-call-recordings.md): List all call recordings for a meeting.\n\\- \\[Create a comment\\](https://docs.attio.com/rest-api/endpoint-reference/comments/create-a-comment.md): Creates a new comment related to an existing thread, record or entry.\n\\- \\[Delete a comment\\](https://docs.attio.com/rest-api/endpoint-reference/comments/delete-a-comment.md): Deletes a comment by ID. If deleting a comment at the head of a thread, all messages in the thread are also deleted.\n\\- \\[Get a comment\\](https://docs.attio.com/rest-api/endpoint-reference/comments/get-a-comment.md): Get a single comment by ID.\n\\- \\[Create a company record\\](https://docs.attio.com/rest-api/endpoint-reference/companies/create-a-company-record.md): Creates a new company record. This endpoint will throw on conflicts of unique attributes, like \\`domains\\`. If you would prefer to update company records on conflicts, please use the Assert company record endpoint instead. Please note, the \\`logo\\_url\\` attribute cannot currently be set via the API.\n\\- \\[Delete a company record\\](https://docs.attio.com/rest-api/endpoint-reference/companies/delete-a-company-record.md): Deletes a single company record by ID.\n\\- \\[Get a company record\\](https://docs.attio.com/rest-api/endpoint-reference/companies/get-a-company-record.md): Gets a single company record by its \\`record\\_id\\`.\n\\- \\[List company record attribute values\\](https://docs.attio.com/rest-api/endpoint-reference/companies/list-company-record-attribute-values.md): Gets all values for a given attribute on a company record. Historic values can be queried using the \\`show\\_historic\\` query param. Historic values cannot be queried on COMINT (Communication Intelligence) or enriched attributes and the endpoint will return a 400 error if this is attempted. Historic val…\n\\- \\[List company record entries\\](https://docs.attio.com/rest-api/endpoint-reference/companies/list-company-record-entries.md): List all entries, across all lists, for which this company record is the parent.\n\\- \\[List company records\\](https://docs.attio.com/rest-api/endpoint-reference/companies/list-company-records.md): Lists company records, with the option to filter and sort results.\n\\- \\[Update a company record\\](https://docs.attio.com/rest-api/endpoint-reference/companies/update-a-company-record.md): Use this endpoint to update company records by \\`record\\_id\\`. If the update payload includes multiselect attributes, the values supplied will be created and prepended to the list of values that already exist (if any). Use the \\[Upsert company endpoint\\](/rest-api/endpoint-reference/standard-objects/comp…\n\\- \\[Upsert a company record\\](https://docs.attio.com/rest-api/endpoint-reference/companies/upsert-a-company-record.md): Use this endpoint to create or update company records, using a unique attribute to search for existing companies (for example, the \\`domains\\` attribute). If a company is found with the same value for the matching attribute, that company will be updated. If no company with the same value for the match…\n\\- \\[Create a deal record\\](https://docs.attio.com/rest-api/endpoint-reference/deals/create-a-deal-record.md): Creates a new deal record. This endpoint will throw on conflicts of unique attributes, if defined. If you would prefer to update deal records on conflicts, please use the Assert deal record endpoint instead.\n\\- \\[Delete a deal record\\](https://docs.attio.com/rest-api/endpoint-reference/deals/delete-a-deal-record.md): Deletes a single deal record by ID.\n\\- \\[Get a deal record\\](https://docs.attio.com/rest-api/endpoint-reference/deals/get-a-deal-record.md): Gets a single deal record by its \\`record\\_id\\`.\n\\- \\[List deal record attribute values\\](https://docs.attio.com/rest-api/endpoint-reference/deals/list-deal-record-attribute-values.md): Gets all values for a given attribute on a deal record. Historic values can be queried using the \\`show\\_historic\\` query param. Historic values are sorted from oldest to newest (by \\`active\\_from\\`).\n\\- \\[List deal record entries\\](https://docs.attio.com/rest-api/endpoint-reference/deals/list-deal-record-entries.md): List all entries, across all lists, for which this deal record is the parent.\n\\- \\[List deal records\\](https://docs.attio.com/rest-api/endpoint-reference/deals/list-deal-records.md): Lists deal records, with the option to filter and sort results.\n\\- \\[Update a deal record\\](https://docs.attio.com/rest-api/endpoint-reference/deals/update-a-deal-record.md): Use this endpoint to update deal records by \\`record\\_id\\`. If the update payload includes multiselect attributes, the values supplied will be created and prepended to the list of values that already exist (if any). Use the \\[Upsert deal endpoint\\](/rest-api/endpoint-reference/standard-objects/deals/upse…\n\\- \\[Upsert a deal record\\](https://docs.attio.com/rest-api/endpoint-reference/deals/upsert-a-deal-record.md): Use this endpoint to create or update deal records, using a unique attribute to search for existing deals. By default, deals do not have a unique attribute, so you should add your own attribute with a unique constraint to use this API. If a deal is found with the same value for the matching attribut…\n\\- \\[Create an entry (add record to list)\\](https://docs.attio.com/rest-api/endpoint-reference/entries/create-an-entry-add-record-to-list.md): Adds a record to a list as a new list entry. This endpoint will throw on conflicts of unique attributes. Multiple list entries are allowed for the same parent record\n\\- \\[Delete a list entry\\](https://docs.attio.com/rest-api/endpoint-reference/entries/delete-a-list-entry.md): Deletes a single list entry by its \\`entry\\_id\\`.\n\\- \\[Get a list entry\\](https://docs.attio.com/rest-api/endpoint-reference/entries/get-a-list-entry.md): Gets a single list entry by its \\`entry\\_id\\`.\n\\- \\[List attribute values for a list entry\\](https://docs.attio.com/rest-api/endpoint-reference/entries/list-attribute-values-for-a-list-entry.md): Gets all values for a given attribute on a list entry. This endpoint has the ability to return all historic values using the \\`show\\_historic\\` query param. Historic values are sorted from oldest to newest (by \\`active\\_from\\`).\n\\- \\[List entries\\](https://docs.attio.com/rest-api/endpoint-reference/entries/list-entries.md): Lists entries in a given list, with the option to filter and sort results.\n\\- \\[Update a list entry (append multiselect values)\\](https://docs.attio.com/rest-api/endpoint-reference/entries/update-a-list-entry-append-multiselect-values.md): Use this endpoint to update list entries by \\`entry\\_id\\`. If the update payload includes multiselect attributes, the values supplied will be created and prepended to the list of values that already exist (if any). Use the \\`PUT\\` endpoint to overwrite or remove multiselect attribute values.\n\\- \\[Update a list entry (overwrite multiselect values)\\](https://docs.attio.com/rest-api/endpoint-reference/entries/update-a-list-entry-overwrite-multiselect-values.md): Use this endpoint to update list entries by \\`entry\\_id\\`. If the update payload includes multiselect attributes, the values supplied will overwrite/remove the list of values that already exist (if any). Use the \\`PATCH\\` endpoint to add multiselect attribute values without removing those value that alre…\n\\- \\[Upsert a list entry by parent\\](https://docs.attio.com/rest-api/endpoint-reference/entries/upsert-a-list-entry-by-parent.md): Use this endpoint to create or update a list entry for a given parent record. If an entry with the specified parent record is found, that entry will be updated. If no such entry is found, a new entry will be created instead. If there are multiple entries with the same parent record, this endpoint wi…\n\\- \\[Create a folder\\](https://docs.attio.com/rest-api/endpoint-reference/files/create-a-folder.md): Creates a native folder entry or a connected file/folder entry on an object record.\n\\- \\[Delete a file\\](https://docs.attio.com/rest-api/endpoint-reference/files/delete-a-file.md): Delete a single file by ID. Deleting a folder will delete all of its descendants.\n\\- \\[Download a file\\](https://docs.attio.com/rest-api/endpoint-reference/files/download-a-file.md): Downloads a file by redirecting to a signed URL.\n\\- \\[Get a file\\](https://docs.attio.com/rest-api/endpoint-reference/files/get-a-file.md): Get a single file entry by ID.\n\\- \\[List files\\](https://docs.attio.com/rest-api/endpoint-reference/files/list-files.md): Lists internal files, externally connected files and folders for a specific record. Use the \\`object\\` and \\`record\\_id\\` query parameters to specify the record. Optional query parameters may be provided to filter results by storage provider or parent folder.\n\\- \\[Upload a file\\](https://docs.attio.com/rest-api/endpoint-reference/files/upload-a-file.md): Uploads a file to native Attio storage for a record. Send multipart/form-data with a single binary field named \\`file\\` together with the body fields \\`object\\`, \\`record\\_id\\`, and optional \\`parent\\_folder\\_id\\`. Maximum file size is 50 MB.\n\\- \\[Create a list\\](https://docs.attio.com/rest-api/endpoint-reference/lists/create-a-list.md): Creates a new list.\n\\- \\[Get a list\\](https://docs.attio.com/rest-api/endpoint-reference/lists/get-a-list.md): Gets a single list in your workspace that your access token has access to.\n\\- \\[List all lists\\](https://docs.attio.com/rest-api/endpoint-reference/lists/list-all-lists.md): List all lists that your access token has access to. lists are returned in the order that they are sorted in the sidebar.\n\\- \\[List views for list\\](https://docs.attio.com/rest-api/endpoint-reference/lists/list-views-for-list.md): Lists saved views for a list. Results are ordered by view ID (\\`id.view\\_id\\` ascending).\n\\- \\[Update a list\\](https://docs.attio.com/rest-api/endpoint-reference/lists/update-a-list.md): Updates an existing list. Permissions for the list are controlled with the \\`workspace\\_access\\` and \\`workspace\\_member\\_access\\` parameters. Please note that lists must have either \\`workspace\\_access\\` set to \\`\"full-access\"\\` or one or more element of \\`workspace\\_member\\_access\\` with a \\`\"full-access\"\\` level.…\n\\- \\[Get a meeting\\](https://docs.attio.com/rest-api/endpoint-reference/meetings/get-a-meeting.md): Get a single meeting by ID.\n\\- \\[List meetings\\](https://docs.attio.com/rest-api/endpoint-reference/meetings/list-meetings.md): Lists all meetings in the workspace using a deterministic sort order. When both the \\`participants\\` and \\`linked\\_record\\_id\\` filters are supplied, they are combined with OR: meetings that match either filter are returned.\n\\- \\[Identify\\](https://docs.attio.com/rest-api/endpoint-reference/meta/identify.md): Identify the current access token, the workspace it is linked to, and any permissions it has.\n\\- \\[Create a note\\](https://docs.attio.com/rest-api/endpoint-reference/notes/create-a-note.md): Creates a new note for a given record.\n\\- \\[Delete a note\\](https://docs.attio.com/rest-api/endpoint-reference/notes/delete-a-note.md): Delete a single note by ID.\n\\- \\[Get a note\\](https://docs.attio.com/rest-api/endpoint-reference/notes/get-a-note.md): Get a single note by ID.\n\\- \\[List notes\\](https://docs.attio.com/rest-api/endpoint-reference/notes/list-notes.md): List notes for all records or for a specific record.\n\\- \\[Create an object\\](https://docs.attio.com/rest-api/endpoint-reference/objects/create-an-object.md): Creates a new custom object in your workspace.\n\\- \\[Get an object\\](https://docs.attio.com/rest-api/endpoint-reference/objects/get-an-object.md): Gets a single object by its \\`object\\_id\\` or slug.\n\\- \\[List objects\\](https://docs.attio.com/rest-api/endpoint-reference/objects/list-objects.md): Lists all system-defined and user-defined objects in your workspace.\n\\- \\[List views for object\\](https://docs.attio.com/rest-api/endpoint-reference/objects/list-views-for-object.md): Lists saved views for an object. Results are ordered by view ID (\\`id.view\\_id\\` ascending).\n\\- \\[Update an object\\](https://docs.attio.com/rest-api/endpoint-reference/objects/update-an-object.md): Updates a single object. The object to be updated is identified by its \\`object\\_id\\`.\n\\- \\[OpenAPI\\](https://docs.attio.com/rest-api/endpoint-reference/openapi.md): Access the OpenAPI specification for the Attio REST API\n\\- \\[Create a person Record\\](https://docs.attio.com/rest-api/endpoint-reference/people/create-a-person-record.md): Creates a new person Record. This endpoint will throw on conflicts of unique attributes, like \\`email\\_addresses\\`. If you would prefer to update person records on conflicts, please use the Assert person record endpoint instead. Please note, the \\`avatar\\_url\\` attribute cannot currently be set via the AP…\n\\- \\[Delete a person Record\\](https://docs.attio.com/rest-api/endpoint-reference/people/delete-a-person-record.md): Deletes a single person record by ID.\n\\- \\[Get a person Record\\](https://docs.attio.com/rest-api/endpoint-reference/people/get-a-person-record.md): Gets a single person record by its \\`record\\_id\\`.\n\\- \\[List person record attribute values\\](https://docs.attio.com/rest-api/endpoint-reference/people/list-person-record-attribute-values.md): Gets all values for a given attribute on a person record. Historic values can be queried using the \\`show\\_historic\\` query param. Historic values cannot be queried on COMINT (Communication Intelligence) or enriched attributes and the endpoint will return a 400 error if this is attempted. Historic valu…\n\\- \\[List person record entries\\](https://docs.attio.com/rest-api/endpoint-reference/people/list-person-record-entries.md): List all entries, across all lists, for which this person record is the parent.\n\\- \\[List person records \\](https://docs.attio.com/rest-api/endpoint-reference/people/list-person-records.md): Lists person records, with the option to filter and sort results.\n\\- \\[Update a person Record\\](https://docs.attio.com/rest-api/endpoint-reference/people/update-a-person-record.md): Use this endpoint to update person records by \\`record\\_id\\`. If the update payload includes multiselect attributes, the values supplied will be created and prepended to the list of values that already exist (if any). Use the \\[Upsert person endpoint\\](/reference/put\\_v2-objects-people-records) to overwri…\n\\- \\[Upsert a person record\\](https://docs.attio.com/rest-api/endpoint-reference/people/upsert-a-person-record.md): Use this endpoint to create or update person records, using a unique attribute to search for existing People (for example the \\`email\\_addresses\\` attribute). If a person is found with the same value for the matching attribute, that person will be updated. If no person with the same value for the match…\n\\- \\[Create a record\\](https://docs.attio.com/rest-api/endpoint-reference/records/create-a-record.md): Creates a new person, company or other record. This endpoint will throw on conflicts of unique attributes. If you would prefer to update records on conflicts, please use the \\[Upsert record endpoint\\](/rest-api/endpoint-reference/records/upsert-a-record) instead.\n\\- \\[Delete a record\\](https://docs.attio.com/rest-api/endpoint-reference/records/delete-a-record.md): Deletes a single record (e.g. a company or person) by ID.\n\\- \\[Get a record\\](https://docs.attio.com/rest-api/endpoint-reference/records/get-a-record.md): Gets a single person, company or other record by its \\`record\\_id\\`.\n\\- \\[List record attribute values\\](https://docs.attio.com/rest-api/endpoint-reference/records/list-record-attribute-values.md): Gets all values for a given attribute on a record. Historic values can be queried using the \\`show\\_historic\\` query param. Historic values cannot be queried on COMINT (Communication Intelligence) or enriched attributes and the endpoint will return a 400 error if this is attempted. Historic values are…\n\\- \\[List record entries\\](https://docs.attio.com/rest-api/endpoint-reference/records/list-record-entries.md): List all entries, across all lists, for which this record is the parent.\n\\- \\[List records\\](https://docs.attio.com/rest-api/endpoint-reference/records/list-records.md): Lists people, company or other records, with the option to filter and sort results.\n\\- \\[Search records\\](https://docs.attio.com/rest-api/endpoint-reference/records/search-records.md): The search records endpoint provides a convenient way to fuzzy search for records across one or more objects. The matching strategy employed in this endpoint follows the in-product strategy and will match names, domains, emails, phone numbers and social handles on people and companies, and labels on…\n\\- \\[Update a record (append multiselect values)\\](https://docs.attio.com/rest-api/endpoint-reference/records/update-a-record-append-multiselect-values.md): Use this endpoint to update people, companies, and other records by \\`record\\_id\\`. If the update payload includes multiselect attributes, the values supplied will be created and prepended to the list of values that already exist (if any). Use the \\`PUT\\` endpoint to overwrite or remove multiselect attri…\n\\- \\[Update a record (overwrite multiselect values)\\](https://docs.attio.com/rest-api/endpoint-reference/records/update-a-record-overwrite-multiselect-values.md): Use this endpoint to update people, companies, and other records by \\`record\\_id\\`. If the update payload includes multiselect attributes, the values supplied will overwrite/remove the list of values that already exist (if any). Use the \\`PATCH\\` endpoint to append multiselect values without removing tho…\n\\- \\[Upsert a record\\](https://docs.attio.com/rest-api/endpoint-reference/records/upsert-a-record.md): Use this endpoint to create or update people, companies and other records. A matching attribute is used to search for existing records. If a record is found with the same value for the matching attribute, that record will be updated. If no record with the same value for the matching attribute is fou…\n\\- \\[Query SQL\\](https://docs.attio.com/rest-api/endpoint-reference/sql/query-sql.md): Query records and lists with SQL.\n\\- \\[Create a task\\](https://docs.attio.com/rest-api/endpoint-reference/tasks/create-a-task.md): Creates a new task.\n\\- \\[Delete a task\\](https://docs.attio.com/rest-api/endpoint-reference/tasks/delete-a-task.md): Delete a task by ID.\n\\- \\[Get a task\\](https://docs.attio.com/rest-api/endpoint-reference/tasks/get-a-task.md): Get a single task by ID.\n\\- \\[List tasks\\](https://docs.attio.com/rest-api/endpoint-reference/tasks/list-tasks.md): List all tasks. Results are sorted by creation date, from oldest to newest.\n\\- \\[Update a task\\](https://docs.attio.com/rest-api/endpoint-reference/tasks/update-a-task.md): Updates an existing task by \\`task\\_id\\`. At present, only the \\`deadline\\_at\\`, \\`is\\_completed\\`, \\`linked\\_records\\`, and \\`assignees\\` fields can be updated.\n\\- \\[Get a thread\\](https://docs.attio.com/rest-api/endpoint-reference/threads/get-a-thread.md): Get all comments in a thread.\n\\- \\[List threads\\](https://docs.attio.com/rest-api/endpoint-reference/threads/list-threads.md): List threads of comments on a record or list entry.\n\\- \\[Get call transcript\\](https://docs.attio.com/rest-api/endpoint-reference/transcripts/get-call-transcript.md): Get the transcript for a call recording.\n\\- \\[Create a user record\\](https://docs.attio.com/rest-api/endpoint-reference/users/create-a-user-record.md): Creates a new user record. This endpoint will throw on conflicts of unique attributes, like \\`primary\\_email\\_address\\`. If you would prefer to update user records on conflicts, please use the Assert user record endpoint instead. Please note, the \\`avatar\\_url\\` attribute cannot currently be set via the AP…\n\\- \\[Delete a user record\\](https://docs.attio.com/rest-api/endpoint-reference/users/delete-a-user-record.md): Deletes a single user record by ID.\n\\- \\[Get a user record\\](https://docs.attio.com/rest-api/endpoint-reference/users/get-a-user-record.md): Gets a single user record by its \\`record\\_id\\`.\n\\- \\[List user record attribute values\\](https://docs.attio.com/rest-api/endpoint-reference/users/list-user-record-attribute-values.md): Gets all values for a given attribute on a user record. Historic values can be queried using the \\`show\\_historic\\` query param. Historic values are sorted from oldest to newest (by \\`active\\_from\\`).\n\\- \\[List user record entries\\](https://docs.attio.com/rest-api/endpoint-reference/users/list-user-record-entries.md): List all entries, across all lists, for which this user record is the parent.\n\\- \\[List user records\\](https://docs.attio.com/rest-api/endpoint-reference/users/list-user-records.md): Lists user records, with the option to filter and sort results.\n\\- \\[Update a user Record\\](https://docs.attio.com/rest-api/endpoint-reference/users/update-a-user-record.md): Use this endpoint to update user records by \\`record\\_id\\`. If the update payload includes multiselect attributes, the values supplied will be created and prepended to the list of values that already exist (if any). Use the \\[Upsert user endpoint\\](/reference/put\\_v2-objects-users-records) to overwrite or…\n\\- \\[Upsert a user record\\](https://docs.attio.com/rest-api/endpoint-reference/users/upsert-a-user-record.md): Use this endpoint to create or update user records, using a unique attribute to search for existing users (for example the \\`primary\\_email\\_address\\` attribute). If a user is found with the same value for the matching attribute, that user will be updated, otherwise a new user will be created instead. I…\n\\- \\[Create a webhook\\](https://docs.attio.com/rest-api/endpoint-reference/webhooks/create-a-webhook.md): Create a webhook and associated subscriptions.\n\\- \\[Delete a webhook\\](https://docs.attio.com/rest-api/endpoint-reference/webhooks/delete-a-webhook.md): Delete a webhook by ID.\n\\- \\[Get a webhook\\](https://docs.attio.com/rest-api/endpoint-reference/webhooks/get-a-webhook.md): Get a single webhook.\n\\- \\[List webhooks\\](https://docs.attio.com/rest-api/endpoint-reference/webhooks/list-webhooks.md): Get all of the webhooks in your workspace.\n\\- \\[Update a webhook\\](https://docs.attio.com/rest-api/endpoint-reference/webhooks/update-a-webhook.md): Update a webhook and associated subscriptions.\n\\- \\[Get a workspace member\\](https://docs.attio.com/rest-api/endpoint-reference/workspace-members/get-a-workspace-member.md): Gets a single workspace member by ID.\n\\- \\[List workspace members\\](https://docs.attio.com/rest-api/endpoint-reference/workspace-members/list-workspace-members.md): Lists all workspace members in the workspace.\n\\- \\[Create a workspace record\\](https://docs.attio.com/rest-api/endpoint-reference/workspaces/create-a-workspace-record.md): Creates a new workspace record. This endpoint will throw on conflicts of unique attributes, like \\`workspace\\_id\\`. If you would prefer to update workspace records on conflicts, please use the Assert workspace record endpoint instead.\n\\- \\[Delete a workspace record\\](https://docs.attio.com/rest-api/endpoint-reference/workspaces/delete-a-workspace-record.md): Deletes a single workspace record by ID.\n\\- \\[Get a workspace record\\](https://docs.attio.com/rest-api/endpoint-reference/workspaces/get-a-workspace-record.md): Gets a single workspace record by its \\`record\\_id\\`.\n\\- \\[List workspace record attribute values\\](https://docs.attio.com/rest-api/endpoint-reference/workspaces/list-workspace-record-attribute-values.md): Gets all values for a given attribute on a workspace record. Historic values can be queried using the \\`show\\_historic\\` query param. Historic values are sorted from oldest to newest (by \\`active\\_from\\`).\n\\- \\[List workspace record entries\\](https://docs.attio.com/rest-api/endpoint-reference/workspaces/list-workspace-record-entries.md): List all entries, across all lists, for which this workspace record is the parent.\n\\- \\[List workspace records\\](https://docs.attio.com/rest-api/endpoint-reference/workspaces/list-workspace-records.md): Lists workspace records, with the option to filter and sort results.\n\\- \\[Update a workspace Record\\](https://docs.attio.com/rest-api/endpoint-reference/workspaces/update-a-workspace-record.md): Use this endpoint to update workspace records by \\`record\\_id\\`. If the update payload includes multiselect attributes, the values supplied will be created and prepended to the list of values that already exist (if any). Use the \\[Upsert workspace endpoint\\](/rest-api/endpoint-reference/standard-objects/…\n\\- \\[Upsert a workspace record\\](https://docs.attio.com/rest-api/endpoint-reference/workspaces/upsert-a-workspace-record.md): Use this endpoint to create or update workspace records, using a unique attribute to search for existing workspaces (for example the \\`workspace\\_id\\` attribute). If a workspace is found with the same value for the matching attribute, that workspace will be updated, otherwise a new workspace will be cr…\n\\- \\[Authenticating requests\\](https://docs.attio.com/rest-api/guides/authentication.md): How to generate access tokens and make requests\n\\- \\[Filtering and sorting\\](https://docs.attio.com/rest-api/guides/filtering-and-sorting.md): Searching for just the records you need\n\\- \\[Paginating API results\\](https://docs.attio.com/rest-api/guides/pagination.md): Retrieving particular ranges of data\n\\- \\[Handling rate limits\\](https://docs.attio.com/rest-api/guides/rate-limiting.md): How to ensure your app handles rate limits gracefully\n\\- \\[Configuring webhooks\\](https://docs.attio.com/rest-api/guides/webhooks.md): Responding to changes in real-time\n\\- \\[Overview\\](https://docs.attio.com/rest-api/overview.md): Learn about the REST API\n\\- \\[Create a SCIM group\\](https://docs.attio.com/rest-api/scim/create-group.md): Creates a SCIM group (team) in the workspace.\n\\- \\[Create a SCIM user\\](https://docs.attio.com/rest-api/scim/create-user.md): Creates a SCIM user in the workspace. For verified domains the user is added as an active member immediately. For unverified domains an invite is sent and the invite ID is returned as the SCIM user ID.\n\\- \\[Delete a SCIM group\\](https://docs.attio.com/rest-api/scim/delete-group.md): Deletes a SCIM group from the workspace. Returns 204 No Content on success.\n\\- \\[Delete a SCIM user\\](https://docs.attio.com/rest-api/scim/delete-user.md): Deletes a SCIM user from the workspace, suspending active members and cancelling pending invites. Returns 204 No Content on success.\n\\- \\[Get a SCIM group\\](https://docs.attio.com/rest-api/scim/get-group-by-id.md): Gets a SCIM group by ID.\n\\- \\[Get a SCIM user\\](https://docs.attio.com/rest-api/scim/get-user-by-id.md): Gets a SCIM user by ID. Returns both active members and pending invites.\n\\- \\[List SCIM groups\\](https://docs.attio.com/rest-api/scim/list-groups.md): Lists all SCIM groups in the workspace, with optional filtering and pagination.\n\\- \\[List SCIM schemas\\](https://docs.attio.com/rest-api/scim/list-schemas.md): Returns the SCIM 2.0 resource schemas supported by Attio (User and Group), allowing SCIM clients to discover supported attributes.\n\\- \\[List SCIM users\\](https://docs.attio.com/rest-api/scim/list-users.md): Lists all SCIM users in the workspace, including active members and pending invites, with optional filtering and pagination.\n\\- \\[Patch a SCIM group\\](https://docs.attio.com/rest-api/scim/patch-group.md): Applies partial updates to a SCIM group using SCIM PatchOp operations. Supports updating the display name and adding, removing, or replacing members.\n\\- \\[Patch a SCIM user\\](https://docs.attio.com/rest-api/scim/patch-user.md): Applies partial updates to a SCIM user using SCIM PatchOp operations. Returns 200 with the updated user. Returns 204 when setting \\`active\\` to \\`false\\` on a pending invite.\n\\- \\[Update a SCIM group\\](https://docs.attio.com/rest-api/scim/update-group.md): Fully replaces a SCIM group's display name and member list.\n\\- \\[Update a SCIM user\\](https://docs.attio.com/rest-api/scim/update-user.md): Fully replaces a SCIM user's attributes. Returns 200 with the updated user. Returns 204 when setting \\`active\\` to \\`false\\` on a pending invite.\n\\- \\[Connect an app to Attio through OAuth\\](https://docs.attio.com/rest-api/tutorials/connect-an-app-through-oauth.md): Learn how to create an OAuth 2.0 app to access Attio's REST API\n\\- \\[Call recording created\\](https://docs.attio.com/rest-api/webhook-reference/call-recording-events/call-recordingcreated.md): This event fires after a call recording has finished and its media upload is complete.\n\\- \\[Comment created\\](https://docs.attio.com/rest-api/webhook-reference/comment-events/commentcreated.md): This event is fired whenever a comment is created.\n\\- \\[Comment deleted\\](https://docs.attio.com/rest-api/webhook-reference/comment-events/commentdeleted.md): This event is fired whenever a comment is deleted.\n\\- \\[Comment resolved\\](https://docs.attio.com/rest-api/webhook-reference/comment-events/commentresolved.md): This event is fired whenever a comment is resolved.\n\\- \\[Comment unresolved\\](https://docs.attio.com/rest-api/webhook-reference/comment-events/commentunresolved.md): This event is fired whenever a comment is un-resolved.\n\\- \\[List attribute created\\](https://docs.attio.com/rest-api/webhook-reference/list-attribute-events/list-attributecreated.md): This event is fired whenever a list attribute is created (e.g. adding an \"Owner\" attribute).\n\\- \\[List attribute updated\\](https://docs.attio.com/rest-api/webhook-reference/list-attribute-events/list-attributeupdated.md): This event is fired whenever a list attribute is updated (e.g. when changing the name of the \"Owner\" attribute to \"Proprietor\").\n\\- \\[List entry created\\](https://docs.attio.com/rest-api/webhook-reference/list-entry-events/list-entrycreated.md): This event is fired whenever a list entry is created (i.e. when a record is added to a list).\n\\- \\[List entry deleted\\](https://docs.attio.com/rest-api/webhook-reference/list-entry-events/list-entrydeleted.md): This event is fired whenever a list entry is deleted (i.e. when a record is removed from a list).\n\\- \\[List entry updated\\](https://docs.attio.com/rest-api/webhook-reference/list-entry-events/list-entryupdated.md): This event is fired whenever an existing list entry is updated (i.e. when a list attribute is changed for a specific list entry, e.g. when setting \"Owner\").\n\\- \\[List created\\](https://docs.attio.com/rest-api/webhook-reference/list-events/listcreated.md): This event is fired whenever a list is created.\n\\- \\[List deleted\\](https://docs.attio.com/rest-api/webhook-reference/list-events/listdeleted.md): This event is fired whenever a list is deleted.\n\\- \\[List updated\\](https://docs.attio.com/rest-api/webhook-reference/list-events/listupdated.md): This event is fired whenever a list is updated (e.g. when changing the name or icon of the list).\n\\- \\[Note content updated\\](https://docs.attio.com/rest-api/webhook-reference/note-content-events/note-contentupdated.md): This event is fired whenever the content (body) of a note is updated. The \\`parent\\_object\\_id\\` refers to the object that the note references (e.g. the person object), and the \\`parent\\_record\\_id\\` refers to the record that the note references.\n\\- \\[Note created\\](https://docs.attio.com/rest-api/webhook-reference/note-events/notecreated.md): This event is fired whenever a note is created. The \\`parent\\_object\\_id\\` refers to the object that the note references (e.g. the person object), and the \\`parent\\_record\\_id\\` refers to the record that the note references.\n\\- \\[Note deleted\\](https://docs.attio.com/rest-api/webhook-reference/note-events/notedeleted.md): This event is fired whenever a note is deleted.\n\\- \\[Note updated\\](https://docs.attio.com/rest-api/webhook-reference/note-events/noteupdated.md): This event is fired whenever the title of a note is modified. Body updates do not currently trigger webhooks.\n\\- \\[Object attribute created\\](https://docs.attio.com/rest-api/webhook-reference/object-attribute-events/object-attributecreated.md): This event is fired whenever an object attribute is created (e.g. when defining a new attribute \"Rating\" on the company object).\n\\- \\[Object attribute updated\\](https://docs.attio.com/rest-api/webhook-reference/object-attribute-events/object-attributeupdated.md): This event is fired whenever an object attribute is updated (e.g. when renaming the \"Rating\" attribute to \"Score\" on the company object).\n\\- \\[Record created\\](https://docs.attio.com/rest-api/webhook-reference/record-events/recordcreated.md): This event is fired whenever a record is created.\n\\- \\[Record deleted\\](https://docs.attio.com/rest-api/webhook-reference/record-events/recorddeleted.md): This event is fired whenever a record is deleted.\n\\- \\[Record merged\\](https://docs.attio.com/rest-api/webhook-reference/record-events/recordmerged.md): This event is fired whenever two records are merged together. Merging copies properties from the \"duplicate\" record into the original record, so that the original record has the properties of both, and the duplicate record is deleted.\n\\- \\[Record updated\\](https://docs.attio.com/rest-api/webhook-reference/record-events/recordupdated.md): This event is fired whenever an attribute on a record is updated (e.g. changing the \"name\" field on a record).\n\\- \\[Task created\\](https://docs.attio.com/rest-api/webhook-reference/task-events/taskcreated.md): This event is fired whenever a task is created.\n\\- \\[Task deleted\\](https://docs.attio.com/rest-api/webhook-reference/task-events/taskdeleted.md): This event is fired whenever a task is deleted.\n\\- \\[Task updated\\](https://docs.attio.com/rest-api/webhook-reference/task-events/taskupdated.md): This event is fired whenever a task is updated (e.g. the assignees or deadline are changed).\n\\- \\[Workspace member created\\](https://docs.attio.com/rest-api/webhook-reference/workspace-member-events/workspace-membercreated.md): This event is fired whenever a workspace member is added to the workspace.\n\\- \\[\\](https://docs.attio.com/sdk/components/avatar.md): An avatar component for displaying profile pictures or organization logos.\n\\- \\[\\](https://docs.attio.com/sdk/components/badge.md): A colored badge of information.\n\\- \\[\\](https://docs.attio.com/sdk/components/banner.md): A component displaying important information to the user.\n\\- \\[\\](https://docs.attio.com/sdk/components/button.md): A button component.\n\\- \\[\\](https://docs.attio.com/sdk/components/description-list.md): A component displaying label-value information.\n\\- \\[\\](https://docs.attio.com/sdk/components/divider.md): A component for drawing a horizontal dividing line between UI elements.\n\\- \\[\\](https://docs.attio.com/sdk/components/forms/attio-record-combobox.md): A combobox input for selecting Attio records.\n\\- \\[\\](https://docs.attio.com/sdk/components/forms/attio-user-combobox.md): A combobox input for selecting Attio workspace users.\n\\- \\[\\](https://docs.attio.com/sdk/components/forms/checkbox.md): A checkbox input field.\n\\- \\[\\](https://docs.attio.com/sdk/components/forms/combobox.md): A combobox input which allows searching for and selecting from a list of options.\n\\- \\[\\](https://docs.attio.com/sdk/components/forms/date-time-input.md): A date and time input field for selecting both date and time.\n\\- \\[\\](https://docs.attio.com/sdk/components/forms/fieldset.md): A fieldset component that groups related form inputs together with a legend.\n\\- \\[\\](https://docs.attio.com/sdk/components/forms/form.md): A component that wraps your form inputs and provides an \\`onSubmit\\` handler.\n\\- \\[\\](https://docs.attio.com/sdk/components/forms/input-group.md): A component for grouping inputs.\n\\- \\[\\](https://docs.attio.com/sdk/components/forms/number-input.md): A numeric input field.\n\\- \\[\\](https://docs.attio.com/sdk/components/forms/plain-date-input.md): A date input field for selecting ISO 8601 dates (YYYY-MM-DD).\n\\- \\[\\](https://docs.attio.com/sdk/components/forms/radio-group.md): A radio group input field for selecting a single option from a list.\n\\- \\[\\](https://docs.attio.com/sdk/components/forms/submit-button.md): A submit button for the form.\n\\- \\[",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:18.183755Z",
+      "section_path": "",
+      "chunk_index": 1,
+      "token_count": 10586,
+      "quality_score": 1.0
+    },
+    {
+      "id": "ev_ea786d2b526b",
+      "source_type": "api_reference",
+      "url": "https://docs.attio.com/rest-api/overview",
+      "domain": "docs.attio.com",
+      "page_title": "Overview - Attio Docs",
+      "content": "> ## Documentation Index\n>\n> Fetch the complete documentation index at: [/llms.txt](https://docs.attio.com/llms.txt)\n>\n> Use this file to discover all available pages before exploring further.\n\n[Skip to main content](https://docs.attio.com/rest-api/overview#content-area)\n\nAttio provides a public REST API which exchanges JSON over HTTPS. In this section, you will find\nguidance about working with the API.To get up and running, read our guide on [how to authenticate requests](https://docs.attio.com/rest-api/guides/authentication).From there, feel free to explore other topics or jump straight to the [reference documentation](https://docs.attio.com/rest-api/endpoint-reference).\n\n- [Building an OAuth flow for your app](https://docs.attio.com/rest-api/tutorials/connect-an-app-through-oauth)\n- [Working within our rate limits](https://docs.attio.com/rest-api/guides/rate-limiting)\n- [Setting up and listening to webhooks](https://docs.attio.com/rest-api/guides/webhooks)\n- [Filtering and sorting record and entry API queries](https://docs.attio.com/rest-api/guides/filtering-and-sorting)\n- [Paginating API responses](https://docs.attio.com/rest-api/guides/pagination)\n\nIf you’re looking to move beyond just the REST API and understand the Attio developer platform as a\nwhole, you can find [general documentation for Attio developers here](https://docs.attio.com/docs).\n\nWas this page helpful?\n\nYesNo\n\n[Authenticating requests](https://docs.attio.com/rest-api/guides/authentication)\n\nCtrl+I\n\nAssistant\n\nResponses are generated using AI and may contain mistakes.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:18.699164Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 390,
+      "quality_score": 0.84
+    },
+    {
+      "id": "ev_9172fac96b99",
+      "source_type": "pricing_page",
+      "url": "https://attio.com/pricing",
+      "domain": "attio.com",
+      "page_title": "Pricing | Attio",
+      "content": "Teams\n\nUp to 10\n\nUnlimited\n\nAccess permissions\n\nNone\n\nBasic\n\nAdvanced\n\nAdvanced\n\nManage for workspace\n\nManage by teams\n\nManage by individuals\n\nPayment by invoice\n\nProtected recipients\n\nLimit CSV exports\n\nSingle sign-on\n\nSCIM\n\nHelp center\n\nChat and email\n\nPriority support\n\nMigration service\n\nTalk to sales\n\nTalk to sales\n\nTalk to sales\n\nEverything you need to build the perfect relationship management tool for your team.\n\nMonthlyAnnual\n\nSeat credits\n\nFree100 per user/mo\n\nPlus500 per user/mo\n\nPro1,000 per user/mo\n\nEnterprise2,500 per user/mo\n\nWorkspace credits\n\nFree250 per workspace/mo\n\nPlus1,500 per workspace/mo\n\nPro10,000 per workspace/mo\n\nEnterpriseCustom\n\nAdd workspace credits\n\nFree\n\nPlus\n\nPro\n\nEnterprise\n\nObjects\n\nFreeUp to 3\n\nPlusUp to 5\n\nProUp to 12\n\nEnterpriseUnlimited\n\nRecords\n\nFree50,000\n\nPlus250,000\n\nPro1,000,000\n\nEnterpriseCustom\n\nRecord and entry templates\n\nFree\n\nPlus\n\nPro\n\nEnterprise\n\nCall Intelligence\n\nFree\n\nPlus\n\nPro\n\nEnterprise\n\nAsk Attio\n\nFree\n\nPlus\n\nPro\n\nEnterprise\n\nAI agents\n\nFree\n\nPlus\n\nPro\n\nEnterprise\n\nIntegrations\n\nFree\n\nPlus\n\nPro\n\nEnterprise\n\nAPI and webhook access\n\nFree\n\nPlus\n\nPro\n\nEnterprise\n\nApp SDK\n\nFree\n\nPlus\n\nPro\n\nEnterprise\n\nMCP server\n\nFree\n\nPlus\n\nPro\n\nEnterprise\n\nWorkflows\n\nFree\n\nPlus\n\nPro\n\nEnterprise\n\nIntegration blocks\n\nFree\n\nPlus\n\nPro\n\nEnterprise\n\nSequences\n\nFree\n\nPlus\n\nPro\n\nEnterprise",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:19.002188Z",
+      "section_path": "From zero to IPO. > Compare plans. > Automations",
+      "chunk_index": 3,
+      "token_count": 334,
+      "quality_score": 0.84
+    },
+    {
+      "id": "ev_88e3559f22c7",
+      "source_type": "pricing_page",
+      "url": "https://attio.com/pricing",
+      "domain": "attio.com",
+      "page_title": "Pricing | Attio",
+      "content": "$00per user/month,\n\nbilled monthlyannually\n\n[Start for free](https://app.attio.com/welcome/sign-in?ref=free_plan_cta)\n\n$3629per user/month,\n\nbilled monthlyannually\n\n[Continue with Plus](https://app.attio.com/welcome/sign-in?ref=plus_plan_cta)\n\nPopular\n\n$8669per user/month,\n\nbilled monthlyannually\n\n[Continue with Pro](https://app.attio.com/welcome/sign-in?ref=pro_plan_cta)\n\nGet a custom quote,\n\nbilled annually\n\nTalk to salesTalk to sales\n\nSeat credits\n\n100 per user/mo\n\n500 per user/mo\n\n1,000 per user/mo\n\n2,500 per user/mo\n\nWorkspace credits\n\n250 per workspace/mo\n\n1,500 per workspace/mo\n\n10,000 per workspace/mo\n\nCustom\n\nAdd workspace credits\n\n\\+ 5,000/month\n\n$85/mo$70/mo\n\n$85/mo$70/mo\n\n$85/mo$70/mo\n\n\\+ 10,000/month\n\n$150/mo$120/mo\n\n$150/mo$120/mo\n\n$150/mo$120/mo\n\n\\+ 25,000/month\n\n$330/mo$260/mo\n\n$330/mo$260/mo\n\n$330/mo$260/mo\n\n\\+ 50,000/month\n\n$595/mo$475/mo\n\n$595/mo$475/mo\n\n$595/mo$475/mo\n\nObjects\n\nUp to 3\n\nUp to 5\n\nUp to 12\n\nUnlimited\n\nManual activity logging\n\nCustom relationship attributes\n\nCustom objects\n\nRecords\n\n50,000\n\n250,000\n\n1,000,000\n\nCustom\n\nRecord and entry templates\n\nCall Intelligence\n\nAsk Attio\n\nAI agents\n\nIntegrations\n\nAPI and webhook access\n\nApp SDK\n\nMCP server\n\nWorkflows\n\nIntegration blocks\n\nSequences",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:19.002085Z",
+      "section_path": "From zero to IPO. > Automations",
+      "chunk_index": 1,
+      "token_count": 309,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_a6987a224bc5",
+      "source_type": "llms_txt",
+      "url": "https://docs.attio.com/llms.txt",
+      "domain": "docs.attio.com",
+      "page_title": "llms.txt index",
+      "content": "\\# Attio Docs\n\n\\## Docs",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:18.183152Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 5,
+      "quality_score": 0.7
+    },
+    {
+      "id": "ev_e4c1d611ae52",
+      "source_type": "auth_docs",
+      "url": "https://docs.attio.com/docs/oauth/authorize.md",
+      "domain": "docs.attio.com",
+      "page_title": "Authorize",
+      "content": "Your app's client ID. You can find this in your app's settings pages at\n \\[build.attio.com\\](https://build.attio.com).\n\n The response type. This should always be \\`\"code\"\\`.\n\n The URL to redirect to after the user authorizes access to your app. This URL must exactly match\n one of the registered redirect URLs in your app's settings pages at\n \\[build.attio.com\\](https://build.attio.com).\n\n A random string to prevent CSRF attacks. Set this when starting the OAuth flow and verify it\n matches when the user is redirected back to your app.\n\nAfter the user approves the connection, they are redirected to the \\`redirect\\_uri\\` with a \\`code\\`\n query parameter. If provided, the original \\`state\\` is also included.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:17.879047Z",
+      "section_path": "Query Parameters > Response",
+      "chunk_index": 0,
+      "token_count": 178,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_9067977ad541",
+      "source_type": "pricing_page",
+      "url": "https://attio.com/pricing",
+      "domain": "attio.com",
+      "page_title": "Pricing | Attio",
+      "content": "Designed for every stage of your journey. Start today, no credit card required.\n\nMonthlyAnnual\n\n$00\n\nPer user/month, billedmonthlyannually\n\nFor individuals getting started\n\n- Real-time contact syncing\n\n- Automatic data enrichment\n\n- Up to 3 seats\n\n\n[Start for free](https://app.attio.com/welcome/sign-in?ref=free_plan_cta)\n\n$3629\n\nSave 20%\n\nPer user/month, billedmonthlyannually\n\nFor small teams collaborating\n\n- Private lists\n\n- Enhanced email sending\n\n- No seat limits\n\n\n[Continue with Plus](https://app.attio.com/welcome/sign-in?ref=plus_plan_cta)\n\n$8669\n\nSave 20%\n\nPer user/month, billedmonthlyannually\n\nFor growing teams scaling up\n\n- Call Intelligence & sequences\n\n- Advanced permissions\n\n- Priority support\n\n\n[Continue with Pro](https://app.attio.com/welcome/sign-in?ref=pro_plan_cta)\n\nCustom\n\nBilled annually\n\nFor enterprises needing control\n\n- Unlimited objects\n\n- Unlimited teams\n\n- Advanced security & admin\n\n\nTalk to salesTalk to sales\n\n![](https://a.storyblok.com/f/234930/172x60/fcdb777219/granola.svg)![](https://a.storyblok.com/f/234930/173x60/5aa9938421/wispr-flow.svg)![](https://a.storyblok.com/f/234930/173x60/7800e4c389/listen-labs.svg)![](https://a.storyblok.com/f/234930/172x60/b5a865340d/obvious.svg)![](https://a.storyblok.com/f/234930/172x60/5ed753dd8e/modal.svg)![](https://a.storyblok.com/f/234930/173x60/bbb189948e/usv.svg)![](https://a.storyblok.com/f/234930/172x60/4fe58634ce/replicate.svg)![](https://a.storyblok.com/f/234930/173x60/1daf489031/railway.svg)![](https://a.storyblok.com/f/234930/172x60/b410ff1288/taskrabbit.svg)![](https://a.storyblok.com/f/234930/173x60/7a911b221e/public.svg)![](https://a.storyblok.com/f/234930/173x60/baaf394a5a/wordsmith.svg)![](https://a.storyblok.com/f/234930/173x60/34144cc093/passionfroot-3.svg)\n\nSelect preferred\n\nbilling cycle\n\nMonthlyAnnual",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:19.002037Z",
+      "section_path": "From zero to IPO.",
+      "chunk_index": 0,
+      "token_count": 453,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_3690e5633b8e",
+      "source_type": "pricing_page",
+      "url": "https://attio.com/pricing",
+      "domain": "attio.com",
+      "page_title": "Pricing | Attio",
+      "content": "Email and calendar sync\n\nFree1 account per user\n\nPlus1 account per user\n\nPro2 accounts per user\n\nEnterprise3+ accounts per user\n\nEmail sharing\n\nFreeManage subject line and metadata visibility.\n\nPlusManage visibility of full email content for your workspace.\n\nProManage visibility of full email content for your entire workspace and individual users.\n\nEnterpriseManage visibility of full email content for your entire workspace and individual users.\n\nEmails on records\n\nFree\n\nPlus\n\nPro\n\nEnterprise\n\nIndividual email requests\n\nFree\n\nPlus\n\nPro\n\nEnterprise\n\nEmail visibility on records\n\nFree\n\nPlus\n\nPro\n\nEnterprise\n\nEmail limits\n\nFree200 emails/mo\n\nPlus1,000 emails/mo\n\nProUnlimited\n\nEnterpriseUnlimited\n\nBulk email sending\n\nFree10 emails at once\n\nPlus50 emails at once\n\nPro50 emails at once\n\nEnterprise50 emails at once\n\nRemove 'Sent with Attio'\n\nFree\n\nPlus\n\nPro\n\nEnterprise\n\nAuto-labeling\n\nFree\n\nPlus\n\nPro\n\nEnterprise\n\nAuto-summaries\n\nFree\n\nPlus\n\nPro\n\nEnterprise\n\nCommunication intelligence\n\nFree\n\nPlus\n\nPro\n\nEnterprise\n\nCompany enrichment\n\nFree\n\nPlus\n\nPro\n\nEnterprise\n\nPeople enrichment\n\nFree\n\nPlus\n\nPro\n\nEnterprise\n\nNumber of reports\n\nFreeUp to 3 reports\n\nPlusUp to 15 reports\n\nProUp to 100 reports\n\nEnterprise100+ reports\n\nInsight reports\n\nFree\n\nPlus\n\nPro\n\nEnterprise\n\nFunnel reports\n\nFree\n\nPlus\n\nPro\n\nEnterprise\n\nSegment by\n\nFree\n\nPlus\n\nPro\n\nEnterprise\n\nTargets\n\nFree\n\nPlus\n\nPro\n\nEnterprise\n\nHistorical attributes\n\nFree\n\nPlus\n\nPro\n\nEnterprise\n\nTime comparisons\n\nFree\n\nPlus\n\nPro\n\nEnterprise",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:19.002230Z",
+      "section_path": "From zero to IPO. > Compare plans. > Reporting",
+      "chunk_index": 4,
+      "token_count": 372,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_00ab7984a2b0",
+      "source_type": "pricing_page",
+      "url": "https://attio.com/pricing",
+      "domain": "attio.com",
+      "page_title": "Pricing | Attio",
+      "content": "Teams\n\nFree\n\nPlus\n\nProUp to 10\n\nEnterpriseUnlimited\n\nAccess permissions\n\nFreeNone\n\nPlusBasic\n\nProAdvanced\n\nEnterpriseAdvanced\n\nPayment by invoice\n\nFree\n\nPlus\n\nPro\n\nEnterprise\n\nProtected recipients\n\nFree\n\nPlus\n\nPro\n\nEnterprise\n\nLimit CSV exports\n\nFree\n\nPlus\n\nPro\n\nEnterprise\n\nSingle sign-on\n\nFree\n\nPlus\n\nPro\n\nEnterprise\n\nSCIM\n\nFree\n\nPlus\n\nPro\n\nEnterprise\n\nHelp center\n\nFree\n\nPlus\n\nPro\n\nEnterprise\n\nChat and email\n\nFree\n\nPlus\n\nPro\n\nEnterprise\n\nPriority support\n\nFree\n\nPlus\n\nPro\n\nEnterprise\n\nMigration service\n\nFree\n\nPlusTalk to sales\n\nProTalk to sales\n\nEnterpriseTalk to sales\n\nExpand all\n\nWe use cookies to improve your experience. You can opt out of certain cookies. Find out more in our [privacy policy](https://attio.com/legal/privacy).\n\nContinueReject\n\nreCAPTCHA\n\nRecaptcha requires verification.\n\nprotected by **reCAPTCHA**",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:19.002263Z",
+      "section_path": "From zero to IPO. > Compare plans. > Does Attio have an API?",
+      "chunk_index": 5,
+      "token_count": 206,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_7c5563eb3e73",
+      "source_type": "official_docs",
+      "url": "https://attio.com",
+      "domain": "attio.com",
+      "page_title": "Attio: The system for agentic revenue",
+      "content": "●Pulled the transcript, flagged a pricing objection, and queued the AE's follow-up.Pulled the transcript, flagged a pricing objection, and queued the AE's follow-up.\n\n·Churned (41s · ↓ 13k tokens)\n\n>Score companies from recent activity and write the score back to Attio.\n\n>\n\n▶▶ autoOpus 4.8 · 1M context\n\n[Lessons from GTM operators](https://atlas.attio.com/)\n\nAttio is the AI CRM that builds pipeline, advances deals, and grows accounts around the clock.\n\n[Start for free](https://app.attio.com/welcome/sign-in)\n\nSend me a demo\n\nTalk to salesTalk to sales\n\n[Read the Taskrabbit customer story](https://attio.com/customers/taskrabbit)[Read the Granola customer story](https://attio.com/customers/granola)\n\n[Read the Modal customer story](https://attio.com/customers/modal)\n\n[Read the Railway customer story](https://attio.com/customers/railway)\n\nPlatform",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:18.129092Z",
+      "section_path": "Welcome to agentic revenue.",
+      "chunk_index": 1,
+      "token_count": 213,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_df3a7a3712d8",
+      "source_type": "pricing_page",
+      "url": "https://attio.com/pricing",
+      "domain": "attio.com",
+      "page_title": "Pricing | Attio",
+      "content": "Email and calendar sync\n\n1 account per user\n\n1 account per user\n\n2 accounts per user\n\n3+ accounts per user\n\nEmail sharing\n\nManage subject line and metadata visibility.\n\nManage visibility of full email content for your workspace.\n\nManage visibility of full email content for your entire workspace and individual users.\n\nManage visibility of full email content for your entire workspace and individual users.\n\nEmails on records\n\nIndividual email requests\n\nEmail visibility on records\n\nEmail limits\n\n200 emails/mo\n\n1,000 emails/mo\n\nUnlimited\n\nUnlimited\n\nBulk email sending\n\n10 emails at once\n\n50 emails at once\n\n50 emails at once\n\n50 emails at once\n\nRemove 'Sent with Attio'\n\nAuto-labeling\n\nAuto-summaries\n\nCommunication intelligence\n\nFirst interaction\n\nLast interaction\n\nConnection strength\n\nStrongest connection\n\nFirst email interaction\n\nLast email interaction\n\nFirst calendar interaction\n\nLast calendar interaction\n\nNext calendar interaction\n\nCompany enrichment\n\nName\n\nDescription\n\nLogo\n\nCategory\n\nSocial media\n\nLocation\n\nEmployee count\n\nARR\n\nFunding raised\n\nPeople enrichment\n\nName\n\nDescription\n\nProfile picture\n\nSocial media\n\nLocation\n\nNumber of reports\n\nUp to 3 reports\n\nUp to 15 reports\n\nUp to 100 reports\n\n100+ reports\n\nInsight reports\n\nFunnel reports\n\nSegment by\n\nTargets\n\nHistorical attributes\n\nTime comparisons",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:19.002138Z",
+      "section_path": "From zero to IPO. > Reporting",
+      "chunk_index": 2,
+      "token_count": 329,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_a85ef5ab1234",
+      "source_type": "official_docs",
+      "url": "https://attio.com",
+      "domain": "attio.com",
+      "page_title": "Attio: The system for agentic revenue",
+      "content": "Attio is the AI CRM that builds pipeline, advances deals, and grows accounts around the clock.\n\nTalk to salesTalk to sales\n\n[Start for free](https://app.attio.com/welcome/sign-in)\n\nSend me a demo\n\n![Basepoint](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhome-ui-layout-sidebar-header-avatar.088o.skd6akjf.png&w=256&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\nBasepoint\n\nWin deal with GreenLeaf\n\nQuick Actions\n\n⌘K\n\n/\n\nHome\n\nNotifications\n\nTasks\n\nNotes\n\nCalls\n\nReports\n\nAutomations\n\nSequences\n\nWorkflows\n\nFavorites\n\nLead workflows\n\nPipelineDeals\n\nOutreach\n\nLead triage\n\nReports\n\nRevenue\n\nRecords\n\nPeople\n\nCompanies\n\nHow do I win my deal with GreenLeaf?\n\nStrategy to win GreenLeafDeal context:\n\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgreenleaf-thumbnail.05the1.-k.g-n.jpg&w=3840&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\nGreenLeaf IntroDec 12, 10:40 – 11:32 AM\n\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-1.11bg9q5ek40ox.jpg&w=128&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-2.0y_8l3mudqt--.jpg&w=128&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n3\n\n2\n\n2\n\nRecorded 48m\n\nGood morning, Alex\n\nAsk anything...\n\nAuto\n\nPrep for next meeting\n\nRecap last call\n\nMeetings\n\nToday, Oct 14\n\nBasepoint x Stripe\n\n10:00 - 11:00 AM\n\nAshley & Martin\n\n10:20 - 10:40 AM\n\nGreenLeaf // Basepoint\n\n2:30 - 3:00 PM\n\nDetails\n\nDemo call with GreenLeaf team to help them get the most out of their PRO trial.\n\nhttps://meet.google.com/psn-zfzb-yaw\n\nParticipants8\n\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-1.11bg9q5ek40ox.jpg&w=128&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)Dylan ParkerCEO of Basepoint\n\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-2.0y_8l3mudqt--.jpg&w=128&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)Annie ZhangProduct Manager at GreenLeaf\n\nProduct Demo w/ GreenLeaf\n\n10:0028:14\n\nMeeting\n\nTranscript\n\nSpeakers\n\nAAshley0:02\n\nEverything's in spreadsheets right now and it's getting unmanageable. I'd like the whole team moved over by Monday if we can.\n\nSSam0:11\n\nWe can have you live well before then. How many seats are you thinking?\n\nAAshley0:24\n\nSix, on the Pro plan. I'll be the one signing off.\n\nSSam0:38\n\nPerfect — I'll send a Pro quote over today. It covers the workflow automations you flagged.\n\nAAshley0:55\n\nCan we bring our existing deal history across too?\n\nSSam1:09\n\nYep — we'll map it during onboarding, and I'll include a migration checklist.\n\nAAshley1:23\n\nLove it. Looking forward to finally getting off spreadsheets.\n\n\\# pipeline\n\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-slack-avatar.0h-_da91t.wbm.jpg&w=64&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\nMarcus10:24\n\n@Attiowhat deals should I focus on today?\n\nAttioApp10:24\n\nGreenLeaf (verbal yes, no quote out) and Ramp (stalled in Legal 5d).\n\n>Score companies from recent activity and write the score back to Attio.\n\n●Ran 3 commands\n\n⎿ search-notes-by-metadata\n\n⎿ search-emails-by-metadata\n\n⎿ update-record\n\n●Ranked companies by engagement drop-off and pushed updated health scores to Attio.Ranked companies by engagement drop-off and pushed updated health scores to Attio.\n\n>Find yesterday's demo call and create the right follow-up task.\n\n●Ran 3 commands\n\n⎿ search-call-recordings-by-metadata\n\n⎿ get-call-recording\n\n⎿ create-task",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:18.129053Z",
+      "section_path": "Welcome to agentic revenue.",
+      "chunk_index": 0,
+      "token_count": 854,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_90f30a7e886d",
+      "source_type": "official_docs",
+      "url": "https://attio.com",
+      "domain": "attio.com",
+      "page_title": "Attio: The system for agentic revenue",
+      "content": "Companies to work\n\nA\n\nL\n\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fheader-avatar.0_f6eiq8~ss_5.png&w=128&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n+1\n\nShare\n\nAsk Attio\n\nAll Companies\n\nView settings\n\nNew person\n\nCompany\n\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fopenai.07qzv7ned230k.png&w=828&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)OpenAI\n\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fharvey.163ne.uwmqih_.png&w=828&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)Harvey\n\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbrowserbase.0ui5dut6fuv8s.png&w=828&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)Browserbase\n\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcursor.05.ediovg6t2t.png&w=1080&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)Cursor\n\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnotion.04i5_6c8~w9~8.png&w=828&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)Notion\n\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgranola.0w3l8~0cp~cp2.png&w=828&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)Granola\n\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Framp.0urcb.70zw843.png&w=1080&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)Ramp\n\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Felevenlabs.0po6e8-wn7wl_.png&w=828&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)Elevenlabs\n\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flinear.13mhxry9j07t1.png&w=828&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)Linear\n\nICP Score\n\n98\n\n98\n\n97\n\n96\n\n96\n\n92\n\n91\n\n91\n\n88\n\nOwner\n\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fowner-isla.11m-kt4x3c9x4.png&w=128&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)Isla Harrington\n\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fowner-george.0lfft4ooq9wc0.png&w=128&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)George Wilkes\n\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fowner-theo.12jtytwc-fc_d.png&w=128&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)Theo Marshall\n\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fowner-amelia.0gykyum-gaulu.png&w=128&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)Amelia Carter\n\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fowner-nathan.16cm_0e8fj.5k.png&w=128&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)Nathan Cole\n\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fowner-daniel.01w30-q7sfbz4.png&w=128&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)Daniel Fraser\n\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fowner-maxwell.0ue541e0-1afx.png&w=128&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)Maxwell Turner\n\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fowner-theo.12jtytwc-fc_d.png&w=128&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)Theo Marshall\n\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fowner-samuel.0sjr6vgsuay39.png&w=128&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)Samuel Clarke\n\nResearch agent\n\nOpened 40+ GTM roles\n\nHired a new CRO\n\nBuilding its first GTM team\n\nOpened 14 AE roles this quarter\n\nOpening a new sales hub\n\nRaised $125M Series C\n\nDoubling its sales org this year\n\nNew VP Sales from enterprise SaaS",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:18.129157Z",
+      "section_path": "Welcome to agentic revenue. > Your team, amplified.Agents prospect and reach out when buyers are looking, building a pipeline of deals ready to win.",
+      "chunk_index": 2,
+      "token_count": 827,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_2de1fe084fcf",
+      "source_type": "official_docs",
+      "url": "https://attio.com",
+      "domain": "attio.com",
+      "page_title": "Attio: The system for agentic revenue",
+      "content": "Made its first sales hires\n\nSend email\n\nSend follow up email to Maya White\n\nThe intro email ties Maya's new VP role, the Series C, and 14 open AE roles to faster hiring.\n\nTo\n\nMMaya White\n\nCC / BCC\n\nSend email\n\nDiscard\n\nSave draft\n\nAgents handle the research and busywork. Reps focus their time where deals get won.\n\nAsk something...\n\n10 accounts ready for outreach\n\n- ![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgranola.0w3l8~0cp~cp2.png&w=828&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)GranolaRaised $125M Series C\n- ![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flinear.13mhxry9j07t1.png&w=828&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)LinearBuilding out its sales team\n- ![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnotion.04i5_6c8~w9~8.png&w=828&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)NotionNew VP Sales from enterprise SaaS\n- ![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fopenai.07qzv7ned230k.png&w=828&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)OpenAIScaling faster than it can hire\n- ![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fshopify.08h46m-c314a0.png&w=828&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)ShopifyDoubling down on enterprise sales\n- ![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdropbox.0jkw9xkyd3a_l.png&w=828&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)DropboxGTM reset under a new CRO",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:18.129196Z",
+      "section_path": "Welcome to agentic revenue. > Your team, amplified.Agents prospect and reach out when buyers are looking, building a pipeline of deals ready to win. > Free your reps to sell.",
+      "chunk_index": 3,
+      "token_count": 357,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_11c1ca4cdf10",
+      "source_type": "official_docs",
+      "url": "https://attio.com",
+      "domain": "attio.com",
+      "page_title": "Attio: The system for agentic revenue",
+      "content": "Every lead is enriched and qualified, so reps know when and why to engage.\n\nICP: 98New ExecWarm intro via a16z$5B Series H\n\nTrigger\n\nRecord created\n\nNew record created\n\nWeb agent\n\nEnrich lead with web research\n\nCustom agent\n\nScore lead for ICP fit\n\nIf\n\nRoute lead by segment\n\nTrue\n\nFalse\n\nEnroll in sequence\n\nEnterprise sequence\n\nEnroll in sequence\n\nSMB sequence\n\nDiscovery2\n\nLumio AI\n\nSep 30, 2026\n\nUSD$20,800\n\nAAmelia Carter\n\nSet Next step...\n\n12d\n\nVerda Labs\n\nSep 10, 2026\n\nUSD$36,400\n\nGGeorge Hall\n\nScheduling demo\n\n15d\n\nDemo2\n\nProposal2\n\nDriftwave\n\nJul 31, 2026\n\nUSD$31,200\n\nNNathan Cole\n\nProposal sent, in procurem...\n\n22d\n\nSynthred\n\nAug 12, 2026\n\nUSD$62,500\n\nIIsla Harrington\n\nSecurity review underway\n\n25d\n\nNegotiation2\n\nNorthpeak\n\nJun 30, 2026\n\nUSD$78,000\n\nSSamuel\n\nVerbal yes, drafting contract\n\n31d\n\nWestwind\n\nJul 8, 2026\n\nUSD$26,400\n\nPPaul\n\nFinalizing terms\n\n18d\n\nPinevox\n\nJul 20, 2026\n\nUSD$11,000\n\nRRachel Adams\n\nAdd note...\n\n9d\n\nCortexa\n\nAug 28, 2026\n\nUSD$54,000\n\nTTheo Marshall\n\nDemo went well, sending fo...\n\n7d\n\nSpot new stakeholders, competitor moves, and stalls before your next call.\n\nMMichael James\n\nVP Sales at Cortexa\n\nmichael@cortexa.ai+3\n\nSan Francisco, California\n\nCortexa\n\n41d\n\nMMichael James\n\nVP Sales at Cortexa\n\nmichael@cortexa.ai+3\n\nSan Francisco, California\n\nCortexa\n\n41d\n\nSSarah Chen\n\nHead of Growth at Northgate\n\nsarah@northgate.io+2\n\nNew York, New York\n\nNorthgate\n\n62d\n\nDDavid Okafor\n\nCTO at Fairwind\n\ndavid@fairwind.dev+5\n\nAustin, Texas\n\nFairwind\n\n34h",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:18.129232Z",
+      "section_path": "Welcome to agentic revenue. > Your team, amplified.Agents prospect and reach out when buyers are looking, building a pipeline of deals ready to win. > Run every motion, your way.Pipeline built for how you sell, while agents brief the meetings and keep deals moving. > Catch changes to the deal.",
+      "chunk_index": 4,
+      "token_count": 371,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_bb9300200fbf",
+      "source_type": "official_docs",
+      "url": "https://attio.com",
+      "domain": "attio.com",
+      "page_title": "Attio: The system for agentic revenue",
+      "content": "![](https://attio.com/_next/static/media/fin.0fcy4tl1p0ikm.svg?dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n![](https://attio.com/_next/static/media/chatgpt.0.7l0_4dle051.svg?dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n![](https://attio.com/_next/static/media/stripe.0a74f4qf28x5z.svg?dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n![](https://attio.com/_next/static/media/granola.16re36qsplk48.svg?dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n[View docs](https://docs.attio.com/)\n\n“WhenIfirstopenedAttio,IinstantlygotthefeelingthiswasthenextgenerationofCRM.”\n\nMargaret Shen\n\nHead of Business Operations · Modal\n\nBuild to scale\n\n2.6M\n\nMCP calls/month\n\n400M\n\nAPI calls/week\n\n76k\n\nactive customer agents\n\n15M\n\nemails ingested/day\n\nCustomer stories\n\n[Read more](https://attio.com/customers)\n\nArtificial Intelligence: 83% faster lead triage. How Granola turns product signals into revenue at scale.\n\n[Artificial Intelligence\\\\\n\\\\\n83% faster lead triage.How Granola turns product signals into revenue at scale.\\\\\n\\\\\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgranola-cover.0p.5qbmwde4z0.webp&w=3840&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frailway-cover.0.98vl6l-17c1.webp&w=3840&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmodal-cover.01w-_9krci1t0.webp&w=3840&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftaskrabbit-cover.0ly8tg1cdiunv.webp&w=3840&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\\\\\n\\\\\n![Granola](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgranola-cover.0p.5qbmwde4z0.webp&w=3840&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)](https://attio.com/customers/granola)\n\nChangelog",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:18.129510Z",
+      "section_path": "Welcome to agentic revenue. > Trusted by 30,000+ customers.  From first agent to enterprise scale.",
+      "chunk_index": 9,
+      "token_count": 447,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_9dbddc15075f",
+      "source_type": "official_docs",
+      "url": "https://attio.com",
+      "domain": "attio.com",
+      "page_title": "Attio: The system for agentic revenue",
+      "content": "Walk in with quota coverage, deal velocity, and potential risks already mapped.\n\nThinkingThinking\n\n🚨 Deals at Risk\n\nThese are in late stages but showing warning signs:\n\n- Forage - Negotiation, $29,288. Close date passed today with no signature. Jordan asked for a demo to share internally, a sign a new stakeholder needs convincing.\n- Helix - Procurement/Signing, $18,280. Unsigned since June 1 despite a June 15 follow-up. Stalling in legal.\n\n🚨 Deals at Risk\n\nThese are in late stages but showing warning signs:\n\n- Forage - Negotiation, $29,288. Close date passed today with no signature. Jordan asked for a demo to share internally, a sign a new stakeholder needs convincing.\n- Helix - Procurement/Signing, $18,280. Unsigned since June 1 despite a June 15 follow-up. Stalling in legal.\n\nWhat is the estimate of this week’s closed-won deal value\n\n2 tools used\n\nAttributes searched:19 results\n\nSQL query executed:1452 rows in 6.2s\n\nSQL\n\n```\n\n```\n\nShow all\n\nBook Size - ARR\n\nUSEMEA\n\n1.4m0.7m0.0m\n\nQ1Q2Q3Q4Q1Q2\n\nAccount Health\n\nHealthyWatchAt risk\n\nCount\n\n100806040200\n\nJanFebMarAprMay\n\n2 tools used\n\nWhether an account's climbing or cooling, you'll know weeks before the call.\n\nDDrew Austin\n\nChanged roles\n\nHead of IT\n\nGreenLeaf\n\nNew funding round\n\n$250M\n\nJJoshua Reed\n\nUpcoming renewal date\n\nJoshua to send documentation on the public API\n\nMMaya Lin\n\nUsage spike\n\n+42% seats\n\nDDrew Austin\n\nChanged roles\n\nHead of IT\n\nGreenLeaf\n\nNew funding round\n\n$250M\n\nJJoshua Reed\n\nUpcoming renewal date\n\nJoshua to send documentation on the public API\n\nMMaya Lin\n\nUsage spike\n\n+42% seats",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:18.129285Z",
+      "section_path": "Welcome to agentic revenue. > Your team, amplified.Agents prospect and reach out when buyers are looking, building a pipeline of deals ready to win. > Keep more. Grow more.Agents track the whole book, so you save what's slipping and grow what's rising. > Spot the shift early.",
+      "chunk_index": 5,
+      "token_count": 393,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_afaebce1f063",
+      "source_type": "official_docs",
+      "url": "https://attio.com",
+      "domain": "attio.com",
+      "page_title": "Attio: The system for agentic revenue",
+      "content": "Save, upsell, or renewal, agents draft the play for you to approve and run.\n\nEmail suggestion\n\nLooking for more seats?ME\n\nHi Marcus, saw Quanta's usage jumped 42% this month. Looks like the team is scaling fast. Happy to add more seats on your plan so no one gets blocked.\n\nEmail suggestion\n\nAhead of your renewalJP\n\nHi Joshua, your renewal is coming up at the end of the month. Happy to review usage together beforehand and make sure the plan still fits where the team is headed.\n\nSelf-building\n\n[Start for free](https://app.attio.com/welcome/sign-in)\n\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar.0kitz7l54crbx.png&w=384&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\nSarah Johnson\n\nCompose email\n\nHighlights\n\nSummary\n\nSarah Johnson, the Head of IT, is leading the initiative to modernize their data infrastructure, which aligns with GreenLeaf’s growth and sustainability goals. A successful demo call on August 29 confirmed the need for Attio’s solutions, and the opportunity is moving forward with a 75% confidence level.\n\nLinkedIn\n\nsarahjohnson\n\nUpcoming\n\nDemo CallAug 29, 10:40 AM\n\nTHU\n\n29\n\nCompany\n\nGreenLeaf Inc.San Francisco, CA\n\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.05-m_s1~d9h8r.png&w=256&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\nSales Outreach\n\nStep 2Automated email\n\nActivity\n\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-1.06ilmmedoqriv.jpg&w=128&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\nMichael Changattended an in-person meeting\n\n6 hours ago\n\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar.0kitz7l54crbx.png&w=384&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\nSarah Johnsonattended an event\n\n2 days ago\n\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-1.06ilmmedoqriv.jpg&w=128&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\nMichael Changmade an outbound phone call\n\n4 days ago\n\nThe only CRM with",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:18.129349Z",
+      "section_path": "Welcome to agentic revenue. > Live from day one.Connect your inbox and calendar. Attio learns your business and builds itself around it, before your first agent even gets to work.",
+      "chunk_index": 6,
+      "token_count": 487,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_fc5d7f559424",
+      "source_type": "official_docs",
+      "url": "https://attio.com",
+      "domain": "attio.com",
+      "page_title": "Attio: The system for agentic revenue",
+      "content": "It logs itself.\n\nEmails, calls, product, billing, captured automatically.\n\nYour tools finally talk.\n\nGranola, Slack, your whole stack, always in sync.\n\nGets to know you.\n\nSo each play is sharper than the last.\n\nAsk, and it's there.\n\nAny record, any answer, in a second.\n\nNo agent left guessing.\n\nWorking from the same facts as your team.\n\nSignals\n\n[See more](https://attio.com/context)\n\nContext\n\nEmails, calls, records, product usage, connected tools. All live.\n\nAgents + automations\n\nEcosystem\n\nSignals\n\n[See more](https://attio.com/context)\n\nContext\n\nEmails, calls, records, product usage, connected tools. All live.\n\nAgents + automations\n\nAn always-on revenue engine. Prospect, follow-up, research, running 24/7.\n\nEcosystem\n\nAttio wherever you work. Browser, inbox, Slack, terminal, agents.\n\nContext\n\nEmails, calls, records, product usage, connected tools. All live.\n\nConnectivity",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:18.129379Z",
+      "section_path": "Welcome to agentic revenue. > All of the signals, none of the noise.Ready to act on.",
+      "chunk_index": 7,
+      "token_count": 220,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_2b5c9a06cbf9",
+      "source_type": "official_docs",
+      "url": "https://attio.com",
+      "domain": "attio.com",
+      "page_title": "Attio: The system for agentic revenue",
+      "content": "Claude, Slack, Clay, Linear, Notion, and anything your team and agents run on.\n\n[Explore the ecosystem](https://attio.com/apps)\n\n![](https://attio.com/_next/static/media/claude.15m6zlgir6whi.svg?dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n![](https://attio.com/_next/static/media/notion.00zvf2ls00z-z.svg?dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n![](https://attio.com/_next/static/media/apollo.0ulzihems46we.svg?dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n![](https://attio.com/_next/static/media/linear.0fo_ow82kkvtp.svg?dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n![](https://attio.com/_next/static/media/slack.0dp111xkh.6d0.svg?dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n![](https://attio.com/_next/static/media/lemlist.02u3w1-7enuz~.svg?dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpylon.0qvasvcbpxqei.png&w=3840&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n![](https://attio.com/_next/static/media/fin.0fcy4tl1p0ikm.svg?dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n![](https://attio.com/_next/static/media/chatgpt.0.7l0_4dle051.svg?dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n![](https://attio.com/_next/static/media/stripe.0a74f4qf28x5z.svg?dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n![](https://attio.com/_next/static/media/granola.16re36qsplk48.svg?dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n![](https://attio.com/_next/static/media/claude.15m6zlgir6whi.svg?dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n![](https://attio.com/_next/static/media/notion.00zvf2ls00z-z.svg?dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n![](https://attio.com/_next/static/media/apollo.0ulzihems46we.svg?dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n![](https://attio.com/_next/static/media/linear.0fo_ow82kkvtp.svg?dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n![](https://attio.com/_next/static/media/slack.0dp111xkh.6d0.svg?dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n![](https://attio.com/_next/static/media/lemlist.02u3w1-7enuz~.svg?dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpylon.0qvasvcbpxqei.png&w=3840&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n![](https://attio.com/_next/static/media/fin.0fcy4tl1p0ikm.svg?dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n![](https://attio.com/_next/static/media/chatgpt.0.7l0_4dle051.svg?dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n![](https://attio.com/_next/static/media/stripe.0a74f4qf28x5z.svg?dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n![](https://attio.com/_next/static/media/granola.16re36qsplk48.svg?dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n![](https://attio.com/_next/static/media/claude.15m6zlgir6whi.svg?dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n![](https://attio.com/_next/static/media/notion.00zvf2ls00z-z.svg?dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n![](https://attio.com/_next/static/media/apollo.0ulzihems46we.svg?dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n![](https://attio.com/_next/static/media/linear.0fo_ow82kkvtp.svg?dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n![](https://attio.com/_next/static/media/slack.0dp111xkh.6d0.svg?dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n![](https://attio.com/_next/static/media/lemlist.02u3w1-7enuz~.svg?dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)\n\n![](https://attio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpylon.0qvasvcbpxqei.png&w=3840&q=75&dpl=dpl_8AoaMzxfqrUz5JLvDeYFbvq1Wjwg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:18.129452Z",
+      "section_path": "Welcome to agentic revenue. > All of the signals, none of the noise.Ready to act on. > Your whole stack, connected.",
+      "chunk_index": 8,
+      "token_count": 819,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_9ae444f63794",
+      "source_type": "official_docs",
+      "url": "https://attio.com",
+      "domain": "attio.com",
+      "page_title": "Attio: The system for agentic revenue",
+      "content": "[View all](https://attio.com/changelog)\n\n[June 29, 2026\\\\\n\\\\\n**What's new in Workflows** \\\\\n\\\\\nMore of the work, off your plate.](https://attio.com/changelog/2026/what-s-new-in-workflows) [June 29, 2026\\\\\n\\\\\n**New activity timeline** \\\\\n\\\\\nEliminate noise in your records.](https://attio.com/changelog/2026/new-activity-timeline) [June 29, 2026\\\\\n\\\\\n**Calls on mobile** \\\\\n\\\\\nCall recordings are now on mobile.](https://attio.com/changelog/2026/calls-on-mobile) [June 29, 2026\\\\\n\\\\\n**More App Store updates** \\\\\n\\\\\nConnect Attio to more of the tools you use every day.](https://attio.com/changelog/2026/more-app-store-updates)\n\nStay ahead of GTM.\n\nProduct updates in your inbox.\n\nSubscribe\n\nTalk to salesTalk to sales\n\n[Start for free](https://app.attio.com/welcome/sign-in)\n\nSend me a demo\n\nWe use cookies to improve your experience. You can opt out of certain cookies. Find out more in our [privacy policy](https://attio.com/legal/privacy).\n\nContinueReject\n\nreCAPTCHA\n\nRecaptcha requires verification.\n\nprotected by **reCAPTCHA**",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:18.129551Z",
+      "section_path": "Welcome to agentic revenue. > Agentic revenue runs on Attio.",
+      "chunk_index": 10,
+      "token_count": 257,
+      "quality_score": 0.36
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Attio is a collaborative workspace for managing relationships and workflows.",
+      "evidence_ids": [
+        "ev_1a3ecfe18855"
+      ]
+    },
+    "category": {
+      "value": "CRM and Sales",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "OAuth",
+      "evidence_ids": [
+        "ev_1a3ecfe18855"
+      ]
+    },
+    "self_serve": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_1a3ecfe18855"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API, OpenAPI",
+      "evidence_ids": [
+        "ev_1a3ecfe18855"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_1a3ecfe18855"
+      ]
+    },
+    "mcp": {
+      "value": "Official MCP",
+      "evidence_ids": [
+        "ev_1a3ecfe18855"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_1a3ecfe18855"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_1a3ecfe18855"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.75,
+    "fields_checked": 8,
+    "fields_supported": 6,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "self_serve",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'self_serve' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.75,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.75 below 0.90 threshold",
+      "Self-serve access model is UNKNOWN"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

@@ -1,0 +1,909 @@
+{
+  "app": {
+    "id": 88,
+    "name": "Brex",
+    "website": "developer.brex.com",
+    "category_hint": "Finance and Fintech"
+  },
+  "documentation_map": {
+    "app_name": "Brex",
+    "official_domain": "developer.brex.com",
+    "homepage": {
+      "url": "https://developer.brex.com",
+      "title": "Brex",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://developer.brex.com/guides/authentication",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://developer.brex.com/openapi/accounting_api.md",
+        "title": "Accounting API",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://developer.brex.com/openapi/budgets_api.md",
+          "title": "Budgets API",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.brex.com/openapi/expenses_api.md",
+          "title": "Expenses API",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.brex.com/openapi/fields_api.md",
+          "title": "Fields API",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.brex.com/openapi/onboarding_api.md",
+          "title": "Onboarding API",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.brex.com/openapi/payments_api.md",
+          "title": "Payments API",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.brex.com/openapi/team_api.md",
+          "title": "Team API",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.brex.com/openapi/transactions_api.md",
+          "title": "Transactions API",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.brex.com/openapi/travel_api.md",
+          "title": "Travel API",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "pricing": {
+      "primary": null,
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://developer.brex.com/docs/mcp.md",
+        "title": "Brex MCP",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://developer.brex.com/docs/partner_onboarding.md",
+        "title": "Steps",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://developer.brex.com/docs/pipedream.md",
+          "title": "Pipedream",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.brex.com/docs/postman.md",
+          "title": "Get started with Postman",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.brex.com/docs/support.md",
+          "title": "Contact Us",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.brex.com/docs/pipedream_examples.md",
+          "title": "Bulk Issue Virtual Cards using the Brex Pipedream Integration",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.brex.com/index.html.md",
+          "title": "Overview",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.brex.com/docs/workato.md",
+          "title": "Workato",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.brex.com/docs/faq.md",
+          "title": "Brex API FAQ",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.brex.com/examples/expenses_examples.md",
+          "title": "Expenses API examples",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.brex.com/examples/onboarding_examples.md",
+          "title": "Onboarding API examples",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.brex.com/examples/payments_examples.md",
+          "title": "Payments API examples",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.brex.com/examples/team_examples.md",
+          "title": "Team API examples",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.brex.com/examples/transactions_examples.md",
+          "title": "Transactions API examples",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://developer.brex.com/onboarding/referrals.md",
+          "title": "Referrals",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "webhooks": {
+      "primary": {
+        "url": "https://developer.brex.com/openapi/webhooks_api.md",
+        "title": "Webhooks API",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://developer.brex.com/examples/webhook_examples.md",
+          "title": "Webhooks API Examples",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "llms_txt": {
+      "url": "https://developer.brex.com/llms.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "Brex",
+      "official_domain": "developer.brex.com",
+      "items": [
+        {
+          "url": "https://developer.brex.com",
+          "page_type": "homepage",
+          "title": "Brex",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.brex.com/docs/partner_onboarding.md",
+          "page_type": "developer_portal",
+          "title": "Steps",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.brex.com/docs/pipedream.md",
+          "page_type": "developer_portal",
+          "title": "Pipedream",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.brex.com/docs/postman.md",
+          "page_type": "developer_portal",
+          "title": "Get started with Postman",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.brex.com/docs/support.md",
+          "page_type": "developer_portal",
+          "title": "Contact Us",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.brex.com/docs/pipedream_examples.md",
+          "page_type": "developer_portal",
+          "title": "Bulk Issue Virtual Cards using the Brex Pipedream Integration",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.brex.com/index.html.md",
+          "page_type": "developer_portal",
+          "title": "Overview",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.brex.com/docs/mcp.md",
+          "page_type": "mcp",
+          "title": "Brex MCP",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.brex.com/docs/workato.md",
+          "page_type": "developer_portal",
+          "title": "Workato",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.brex.com/docs/faq.md",
+          "page_type": "developer_portal",
+          "title": "Brex API FAQ",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.brex.com/examples/expenses_examples.md",
+          "page_type": "developer_portal",
+          "title": "Expenses API examples",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.brex.com/examples/onboarding_examples.md",
+          "page_type": "developer_portal",
+          "title": "Onboarding API examples",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.brex.com/examples/payments_examples.md",
+          "page_type": "developer_portal",
+          "title": "Payments API examples",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.brex.com/examples/team_examples.md",
+          "page_type": "developer_portal",
+          "title": "Team API examples",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.brex.com/examples/transactions_examples.md",
+          "page_type": "developer_portal",
+          "title": "Transactions API examples",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.brex.com/examples/webhook_examples.md",
+          "page_type": "webhooks",
+          "title": "Webhooks API Examples",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.brex.com/onboarding/referrals.md",
+          "page_type": "developer_portal",
+          "title": "Referrals",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.brex.com/openapi/accounting_api.md",
+          "page_type": "api_reference",
+          "title": "Accounting API",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.brex.com/openapi/budgets_api.md",
+          "page_type": "api_reference",
+          "title": "Budgets API",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.brex.com/openapi/expenses_api.md",
+          "page_type": "api_reference",
+          "title": "Expenses API",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.brex.com/openapi/fields_api.md",
+          "page_type": "api_reference",
+          "title": "Fields API",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.brex.com/openapi/onboarding_api.md",
+          "page_type": "api_reference",
+          "title": "Onboarding API",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.brex.com/openapi/payments_api.md",
+          "page_type": "api_reference",
+          "title": "Payments API",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.brex.com/openapi/team_api.md",
+          "page_type": "api_reference",
+          "title": "Team API",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.brex.com/openapi/transactions_api.md",
+          "page_type": "api_reference",
+          "title": "Transactions API",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.brex.com/openapi/travel_api.md",
+          "page_type": "api_reference",
+          "title": "Travel API",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.brex.com/openapi/webhooks_api.md",
+          "page_type": "webhooks",
+          "title": "Webhooks API",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.brex.com/guides/authentication",
+          "page_type": "authentication",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 3,
+        "urls_discovered": 28,
+        "official_urls": 28,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 6
+      }
+    },
+    "stats": {
+      "queries": 3,
+      "urls_discovered": 28,
+      "official_urls": 28,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 6
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_8be19c025609",
+      "source_type": "auth_docs",
+      "url": "https://developer.brex.com/guides/authentication",
+      "domain": "developer.brex.com",
+      "page_title": "Authentication",
+      "content": "If your company has not accepted the developer API agreement, please review the terms and conditions. These must be accepted to use the developer API.\nClick Create Token.\nCreate a name for your token that will help you identify it. Choose what level of data access you need for your application; these are the scopes your token will have.\nThe next screen will confirm your previous selections. Make sure it looks good, then select Allow Access.\nYour token is now created. Copy and store the token securely. You won't be able to see it again.\nBack on the developer page of your Brex dashboard, you should see your token listed now. As a security measure, part of the string is obfuscated. If you lose it, create a new one and replace the token.\nCaution: Your user token is private and should not be shared. Never check it into version control or save it somewhere publicly accessible. If your user token is compromised or leaked, make sure to revoke it.\n2. Pass the user token in your API call headers\nTo pass your user token to Brex APIs, add it as a header to your API calls in the following format:\nAuthorization: \"Bearer {{your user_token here}}\"\nIf, for example, your user token value is bxt_jBWQLZXtu1f4sVT6UjaWPp7Gh9nVGjzEZgRX, your header will be:\nThere are two scenarios where tokens will be invalid for authentication:\nUser tokens will expire if they are not used to make an API call for 90 days\nUser tokens associated to users in a non-active status will no longer work\nIf your token is compromised, or you no longer need it, revoke the user token from the developer page in your Brex dashboard. Once revoked, any calls made with this token will immediately begin to fail.\nAPI Server\nBrex currently only offers a production API server at https://api.brex.com. This is the base URL for all API calls.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:14:17.530825Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 452,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_06e5d613269a",
+      "source_type": "official_docs",
+      "url": "https://developer.brex.com",
+      "domain": "developer.brex.com",
+      "page_title": "Overview",
+      "content": "Brex is the first fully unified spend platform — with global corporate cards, expense management, reimbursements, travel, and bill pay. Brex makes it easy for finance teams to control all of their spend, all in one place. Using the Brex API, you can power your internal tools and create custom workflows.\nBrex APIs use the REST architecture, are defined using the OpenAPI specification and use standard HTTP response codes and verbs. All APIs accept and return JSON and require HTTPS.\nExplore our guides and review our API documentation to see how you can integrate with Brex.\n- Accounting API: View and manage accounting data\n- Budgets API: Manage budgets and budget programs\n- Expenses API: View and manage card expenses data, receipt match and receipt uploads\n- Fields API: View and manage fields and their options\n- Onboarding API: Refer your customers and personal contacts to Brex and prefill signup information\n- Payments API: Manage vendors and send ACH, domestic wires, and checks\n- Team API: Manage users, locations, departments, and cards\n- Transactions API: View your transactions, accounts, and statements\n- Travel API: View trips made in Brex Travel\n- Webhooks API: Send real-time notifications based on events\nCheck out our quickstart guide to get up and running making your first Brex API call in just a few minutes. The rest of the guides and documentation provide more in-depth context.\nGo to https://status.brex.com to see API and Brex system status.\nHave feedback, questions, or ideas? Join our Slack community to discuss your API integrations with Brex employees and other developers.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:14:17.288653Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 401,
+      "quality_score": 0.56
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Brex is the first fully unified spend platform — with global corporate cards, expense management, reimbursements, travel, and bill pay.",
+      "evidence_ids": [
+        "ev_06e5d613269a"
+      ]
+    },
+    "category": {
+      "value": "Finance and Fintech",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "Bearer Token",
+      "evidence_ids": [
+        "ev_8be19c025609"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_06e5d613269a"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API, OpenAPI",
+      "evidence_ids": [
+        "ev_06e5d613269a"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_06e5d613269a"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_06e5d613269a"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_06e5d613269a"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_06e5d613269a"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.75,
+    "fields_checked": 8,
+    "fields_supported": 6,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.75,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.75 below 0.90 threshold",
+      "Insufficient evidence (2 pieces, minimum 3)"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

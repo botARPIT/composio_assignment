@@ -1,0 +1,516 @@
+{
+  "app_name": "Firecrawl",
+  "official_domain": "firecrawl.dev",
+  "homepage": {
+    "url": "https://firecrawl.dev",
+    "title": "Firecrawl",
+    "confidence": 0.4,
+    "confidence_reason": [
+      "official_docs: +0.40"
+    ],
+    "is_official": true,
+    "discovered_from": "domain_probe"
+  },
+  "authentication": {
+    "primary": null,
+    "alternatives": []
+  },
+  "api_reference": {
+    "primary": {
+      "url": "https://docs.firecrawl.dev/api-reference/v2-introduction",
+      "title": "API Reference",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "developer_domain: +0.25",
+        "exact_slot_match: +0.20",
+        "canonical_doc: +0.10",
+        "llms_txt_source: +0.05"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "alternatives": []
+  },
+  "pricing": {
+    "primary": {
+      "url": "https://www.firecrawl.dev/pricing",
+      "title": "Pricing",
+      "confidence": 0.65,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "llms_txt_source: +0.05"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "alternatives": [
+      {
+        "url": "https://www.firecrawl.dev/enterprise",
+        "title": "Enterprise",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      }
+    ]
+  },
+  "sdk": {
+    "primary": {
+      "url": "https://docs.firecrawl.dev/sdks/cli",
+      "title": "CLI Docs",
+      "confidence": 0.9,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "developer_domain: +0.25",
+        "exact_slot_match: +0.20",
+        "llms_txt_source: +0.05"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "alternatives": [
+      {
+        "url": "https://docs.firecrawl.dev/sdks/overview",
+        "title": "SDKs overview",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      }
+    ]
+  },
+  "mcp": {
+    "primary": {
+      "url": "https://docs.firecrawl.dev/mcp-server",
+      "title": "MCP Server Docs",
+      "confidence": 0.9,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "developer_domain: +0.25",
+        "exact_slot_match: +0.20",
+        "llms_txt_source: +0.05"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "alternatives": []
+  },
+  "developer_portal": {
+    "primary": {
+      "url": "https://docs.firecrawl.dev/ai-onboarding",
+      "title": "Build with AI",
+      "confidence": 0.9,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "developer_domain: +0.25",
+        "exact_slot_match: +0.20",
+        "llms_txt_source: +0.05"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "alternatives": [
+      {
+        "url": "https://docs.firecrawl.dev/llms.txt",
+        "title": "Full Documentation Index",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https://docs.firecrawl.dev/features/search",
+        "title": "Search",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https://docs.firecrawl.dev/features/scrape",
+        "title": "Scrape",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https://docs.firecrawl.dev/features/interact",
+        "title": "Interact",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https://docs.firecrawl.dev/features/crawl",
+        "title": "Crawl",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https://docs.firecrawl.dev/features/map",
+        "title": "Map",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https://docs.firecrawl.dev/features/parse",
+        "title": "Parse",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https://docs.firecrawl.dev/quickstarts/go",
+        "title": "docs.firecrawl.dev/quickstarts/go",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https://docs.firecrawl.dev/quickstarts/rust",
+        "title": "docs.firecrawl.dev/quickstarts/rust",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      }
+    ]
+  },
+  "webhooks": null,
+  "llms_txt": {
+    "url": "https://firecrawl.dev/llms-full.txt",
+    "title": "llms.txt index",
+    "confidence": 1.0,
+    "confidence_reason": [
+      "llms_txt_source: +0.05",
+      "official_docs: +0.40",
+      "canonical_doc: +0.10"
+    ],
+    "is_official": true,
+    "discovered_from": "llms_txt"
+  },
+  "inventory": {
+    "app_name": "Firecrawl",
+    "official_domain": "firecrawl.dev",
+    "items": [
+      {
+        "url": "https://firecrawl.dev",
+        "page_type": "homepage",
+        "title": "Firecrawl",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.firecrawl.dev/sdks/cli",
+        "page_type": "sdk",
+        "title": "CLI Docs",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.firecrawl.dev/mcp-server",
+        "page_type": "mcp",
+        "title": "MCP Server Docs",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.firecrawl.dev/ai-onboarding",
+        "page_type": "developer_portal",
+        "title": "Build with AI",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.firecrawl.dev/llms.txt",
+        "page_type": "developer_portal",
+        "title": "Full Documentation Index",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.firecrawl.dev/api-reference/v2-introduction",
+        "page_type": "api_reference",
+        "title": "API Reference",
+        "confidence": 1.0,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.firecrawl.dev/features/search",
+        "page_type": "developer_portal",
+        "title": "Search",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.firecrawl.dev/features/scrape",
+        "page_type": "developer_portal",
+        "title": "Scrape",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.firecrawl.dev/features/interact",
+        "page_type": "developer_portal",
+        "title": "Interact",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.firecrawl.dev/features/crawl",
+        "page_type": "developer_portal",
+        "title": "Crawl",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.firecrawl.dev/features/map",
+        "page_type": "developer_portal",
+        "title": "Map",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.firecrawl.dev/features/parse",
+        "page_type": "developer_portal",
+        "title": "Parse",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.firecrawl.dev/sdks/overview",
+        "page_type": "sdk",
+        "title": "SDKs overview",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.firecrawl.dev/quickstarts/go",
+        "page_type": "developer_portal",
+        "title": "docs.firecrawl.dev/quickstarts/go",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.firecrawl.dev/quickstarts/rust",
+        "page_type": "developer_portal",
+        "title": "docs.firecrawl.dev/quickstarts/rust",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://www.firecrawl.dev/pricing",
+        "page_type": "pricing",
+        "title": "Pricing",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://www.firecrawl.dev/enterprise",
+        "page_type": "pricing",
+        "title": "Enterprise",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      }
+    ],
+    "stats": {
+      "queries": 3,
+      "urls_discovered": 17,
+      "official_urls": 17,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 6
+    }
+  },
+  "stats": {
+    "queries": 3,
+    "urls_discovered": 17,
+    "official_urls": 17,
+    "non_official_filtered": 0,
+    "blog_community_filtered": 0,
+    "third_party_sdk_filtered": 0,
+    "duplicates_removed": 0,
+    "canonical_selected": 6
+  }
+}

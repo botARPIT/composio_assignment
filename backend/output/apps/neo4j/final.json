@@ -1,0 +1,1365 @@
+{
+  "app": {
+    "id": 66,
+    "name": "Neo4j",
+    "website": "neo4j.com/docs/api",
+    "category_hint": "Developer Infra and Data"
+  },
+  "documentation_map": {
+    "app_name": "Neo4j",
+    "official_domain": "neo4j.com",
+    "homepage": {
+      "url": "https://neo4j.com/docs/api",
+      "title": "Neo4j",
+      "confidence": 0.5,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://dist.neo4j.com/wp-content/uploads/20171030144149/oAuth.jpg",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://neo4j.com/docs/graphql",
+        "title": "GraphQL",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://neo4j.com/product/graphql-library",
+          "title": "GraphQL Library",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.spring.io/spring-data/neo4j/reference",
+          "title": "Spring Data Neo4j docs",
+          "confidence": 0.35,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": false,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://neo4j.com/pricing",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://neo4j.com/docs/mcp/installation",
+        "title": "MCP installation docs",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://neo4j.com/docs/mcp",
+          "title": "MCP docs",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/developer/genai-ecosystem/model-context-protocol-mcp",
+          "title": "All Neo4j MCP servers",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/labs/genai-ecosystem/mcp-toolbox",
+          "title": "MCP Toolbox",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://github.com/neo4j/mcp",
+          "title": "Neo4j MCP server",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": false,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://neo4j.com/docs/llms-full.txt",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://neo4j.com/docs/aura",
+          "title": "Aura docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/docs/operations-manual/installation",
+          "title": "Operations Manual",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/docs/python-manual",
+          "title": "Python driver docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/docs/javascript-manual",
+          "title": "JS driver docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/docs/java-manual",
+          "title": "Java driver docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/docs/go-manual",
+          "title": "Go driver docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/docs/dotnet-manual",
+          "title": ".NET driver docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/docs/query-api",
+          "title": "Query API docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/docs/cypher-manual/current/deprecations-additions-removals-compatibility",
+          "title": "Cypher 25 additions & removals",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/docs/cypher-cheat-sheet/current",
+          "title": "Cheat Sheet (version-switchable)",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/docs/apoc/current",
+          "title": "APOC docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/docs/graph-data-science/current",
+          "title": "GDS docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/docs/cypher-manual",
+          "title": "Cypher Manual",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/docs/cypher-cheat-sheet",
+          "title": "Cheat Sheet",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/docs/getting-started",
+          "title": "Getting Started",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/docs/operations-manual/tools/cypher-shell",
+          "title": "docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/docs/operations-manual/neo4j-admin-neo4j-cli",
+          "title": "docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/docs/aura/aura-cli",
+          "title": "docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/docs/neo4j-graphrag-python",
+          "title": "GraphRAG Python docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/docs/aura/aura-agent",
+          "title": "Aura Agent docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/docs/nvl",
+          "title": "NVL docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/docs/python-graph-visualization",
+          "title": "Python Graph Viz docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/docs/graph-data-science",
+          "title": "GDS docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/docs/graph-data-science/python-client",
+          "title": "Python client docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/developer/genai-ecosystem/graphrag-python",
+          "title": "GraphRAG Python Package",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/developer/genai-ecosystem/vector-search",
+          "title": "Vector Search",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/docs/operations-manual",
+          "title": "Operations Manual",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/docs/apoc",
+          "title": "APOC",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/docs/llms.txt",
+          "title": "Full docs index (all doc sets)",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/developer",
+          "title": "Developer Center",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://graphacademy.neo4j.com/categories/developer",
+          "title": "category",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/docs/bolt",
+          "title": "Bolt Protocol",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/docs/kafka",
+          "title": "Kafka Connector",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://neo4j.com/docs/cdc",
+          "title": "Change Data Capture",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "webhooks": null,
+    "llms_txt": {
+      "url": "https://neo4j.com/llms-full.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "Neo4j",
+      "official_domain": "neo4j.com",
+      "items": [
+        {
+          "url": "https://neo4j.com/docs/api",
+          "page_type": "homepage",
+          "title": "Neo4j",
+          "confidence": 0.5,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/docs/llms-full.txt",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/docs/aura",
+          "page_type": "developer_portal",
+          "title": "Aura docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/docs/operations-manual/installation",
+          "page_type": "developer_portal",
+          "title": "Operations Manual",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/docs/python-manual",
+          "page_type": "developer_portal",
+          "title": "Python driver docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/docs/javascript-manual",
+          "page_type": "developer_portal",
+          "title": "JS driver docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/docs/java-manual",
+          "page_type": "developer_portal",
+          "title": "Java driver docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.spring.io/spring-data/neo4j/reference",
+          "page_type": "api_reference",
+          "title": "Spring Data Neo4j docs",
+          "confidence": 0.35,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://neo4j.com/docs/go-manual",
+          "page_type": "developer_portal",
+          "title": "Go driver docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/docs/dotnet-manual",
+          "page_type": "developer_portal",
+          "title": ".NET driver docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/docs/query-api",
+          "page_type": "developer_portal",
+          "title": "Query API docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/docs/cypher-manual/current/deprecations-additions-removals-compatibility",
+          "page_type": "developer_portal",
+          "title": "Cypher 25 additions & removals",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/docs/cypher-cheat-sheet/current",
+          "page_type": "developer_portal",
+          "title": "Cheat Sheet (version-switchable)",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/docs/apoc/current",
+          "page_type": "developer_portal",
+          "title": "APOC docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/docs/graph-data-science/current",
+          "page_type": "developer_portal",
+          "title": "GDS docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/docs/cypher-manual",
+          "page_type": "developer_portal",
+          "title": "Cypher Manual",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/docs/cypher-cheat-sheet",
+          "page_type": "developer_portal",
+          "title": "Cheat Sheet",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/docs/getting-started",
+          "page_type": "developer_portal",
+          "title": "Getting Started",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://github.com/neo4j/mcp",
+          "page_type": "mcp",
+          "title": "Neo4j MCP server",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://neo4j.com/docs/mcp/installation",
+          "page_type": "mcp",
+          "title": "MCP installation docs",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://127.0.0.1:8080/mcp\",",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://neo4j.com/docs/mcp",
+          "page_type": "mcp",
+          "title": "MCP docs",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/developer/genai-ecosystem/model-context-protocol-mcp",
+          "page_type": "mcp",
+          "title": "All Neo4j MCP servers",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/docs/operations-manual/tools/cypher-shell",
+          "page_type": "developer_portal",
+          "title": "docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/docs/operations-manual/neo4j-admin-neo4j-cli",
+          "page_type": "developer_portal",
+          "title": "docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/docs/aura/aura-cli",
+          "page_type": "developer_portal",
+          "title": "docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/docs/neo4j-graphrag-python",
+          "page_type": "developer_portal",
+          "title": "GraphRAG Python docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/docs/aura/aura-agent",
+          "page_type": "developer_portal",
+          "title": "Aura Agent docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/docs/nvl",
+          "page_type": "developer_portal",
+          "title": "NVL docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/docs/python-graph-visualization",
+          "page_type": "developer_portal",
+          "title": "Python Graph Viz docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/docs/graph-data-science",
+          "page_type": "developer_portal",
+          "title": "GDS docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/docs/graph-data-science/python-client",
+          "page_type": "developer_portal",
+          "title": "Python client docs",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/labs/genai-ecosystem/mcp-toolbox",
+          "page_type": "mcp",
+          "title": "MCP Toolbox",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/developer/genai-ecosystem/graphrag-python",
+          "page_type": "developer_portal",
+          "title": "GraphRAG Python Package",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/developer/genai-ecosystem/vector-search",
+          "page_type": "developer_portal",
+          "title": "Vector Search",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/docs/operations-manual",
+          "page_type": "developer_portal",
+          "title": "Operations Manual",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/docs/apoc",
+          "page_type": "developer_portal",
+          "title": "APOC",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/docs/graphql",
+          "page_type": "api_reference",
+          "title": "GraphQL",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/docs/llms.txt",
+          "page_type": "developer_portal",
+          "title": "Full docs index (all doc sets)",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/product/graphql-library",
+          "page_type": "api_reference",
+          "title": "GraphQL Library",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/developer",
+          "page_type": "developer_portal",
+          "title": "Developer Center",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://graphacademy.neo4j.com/categories/developer",
+          "page_type": "developer_portal",
+          "title": "category",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/docs/bolt",
+          "page_type": "developer_portal",
+          "title": "Bolt Protocol",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/docs/kafka",
+          "page_type": "developer_portal",
+          "title": "Kafka Connector",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/docs/cdc",
+          "page_type": "developer_portal",
+          "title": "Change Data Capture",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://dist.neo4j.com/wp-content/uploads/20171030144149/oAuth.jpg",
+          "page_type": "authentication",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://neo4j.com/pricing",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 3,
+        "urls_discovered": 47,
+        "official_urls": 44,
+        "non_official_filtered": 3,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 6
+      }
+    },
+    "stats": {
+      "queries": 3,
+      "urls_discovered": 47,
+      "official_urls": 44,
+      "non_official_filtered": 3,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 6
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_9682d31cf599",
+      "source_type": "api_reference",
+      "url": "https://neo4j.com/docs/graphql",
+      "domain": "neo4j.com",
+      "page_title": "Introduction - Neo4j GraphQL Library",
+      "content": "Introduction\n| This is the documentation of the GraphQL Library version 7. For the long-term support (LTS) version 5, refer to GraphQL Library version 5 LTS. | \nThe Neo4j GraphQL Library is a highly flexible, low-code, open source JavaScript library that enables rapid API development for cross-platform and mobile applications by tapping into the power of connected data.\nHow it works\nThe Neo4j GraphQL Library requires a set of type definitions that describes the shape of your graph data and creates an API layer to communicate with the data.\nIt generates an entire executable schema with all additional types needed to execute queries and mutations to interact with your Neo4j database.\nFor example, consider these type definitions:\ntype Product @node {\n    productName: String\n    category: [Category!]! @relationship(type: \"PART_OF\", direction: OUT)\n}\ntype Category @node {\n    categoryName: String\n    products: [Product!]! @relationship(type: \"PART_OF\", direction: IN)\n}Based on these type definitions, the library generates query and mutation templates to create new instances of the types as well as query existing instances.\nThe following mutation creates a new product as well as a new category:\nmutation {\n  createProducts(\n    input: [\n      {\n        productName: \"New Product\"\n        category: { create: [{ node: { categoryName: \"New Category\" } }] }\n      }\n    ]\n  ) {\n    products {\n      productName\n      category {\n        categoryName\n      }\n    }\n  }\n}Here is an example of how you can query existing data:\nquery {\n  products {\n    productName\n    category {\n      categoryName\n    }\n  }\n}The response looks like this:\n{\n  \"data\": {\n    \"products\": [\n      {\n        \"productName\": \"New Product\",\n        \"category\": [\n          {\n            \"categoryName\": \"New Category\"\n          }\n        ]\n      }\n    ]\n  }\n}For every query and mutation that is executed against this generated schema, the Neo4j GraphQL Library generates a single Cypher query which is executed against the database. This eliminates the N+1 Problem, which can make GraphQL implementations slow and inefficient.\nSee Integrating the library to learn how to use the GraphQL Library in your technology stack. Check out Creating a new project to create a new project, either based on Neo4j Aura or self-hosted.\nLibrary features\n- \nAutomatic generation of Queries and Mutations for CRUD interactions. \n- \nTypes, including temporal and spatial. \n- \nSupport for both node and relationship properties. \n- \nExtensive Filtering, Sorting and Pagination options. \n- \nSecurity options and additional Schema Configuration. \n- \nSubscriptions to server events. \n- \nExtensibility through the @cypherdirective and/or Custom Resolvers.\n- \nA Toolbox (UI) to experiment with your Neo4j GraphQL API on Neo4j Desktop. \nLicense\nDocumentation license: Creative Commons 4.0\nSource: Apache 2.0\nGet hands-on with the GraphQL course on GraphAcademy.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:09:13.287143Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 729,
+      "quality_score": 0.7
+    },
+    {
+      "id": "ev_a56a65f5b902",
+      "source_type": "pricing_page",
+      "url": "https://neo4j.com/pricing",
+      "domain": "neo4j.com",
+      "page_title": "Cloud & self-hosted graph database platform pricing | Neo4j",
+      "content": "- \n                  Fully ManagedGraph database pricing plansDeploy Neo4j AuraDB on any cloud provider of your choice. \n- \n                  Self ManagedGraph database pricing plansThe best way to run Neo4j on premises in your private cloud, or public cloud infrastructure. \nAuraDB Professional\n(minimum 1GB cluster)\nBuild Production-Ready Apps\nView Trial and Pricing Details\nAuraDB Professional pricing\n14-day free trial available. Try it now.\nFor sizing larger than 64GB, consider AuraDB Business Critical.\n- Up to 128GB memory per database instance\n- Scalable on demand\n- Daily backups, 7-day retention\n- Available on Azure, AWS, and Google Cloud\n- Advanced instance-level metrics\nAuraDB Business Critical\n(minimum 2GB cluster)\nScale Apps for Enterprise Use\nSign Up (opens in new tab)View Pricing Details\nAuraDB Business Critical pricing\n- Up to 1944GB memory instance (GCP) & 512GB memory instance (AWS & Azure)\n- Highly available 3-zone cluster with 99.95% uptime SLA\n- Daily backups with 30-day retention and hourly point-in-time restore\n- Role-based access control with granular security\n- Pay-as-you-go and prepaid consumption billing\n- 24x7 support\nAuraDB Virtual Dedicated Cloud\nDeploy applications, using all capabilities of AuraDB Business Critical, but in a dedicated environment\nContact us\nabout AuraDB Virtual Dedicated Cloud\n                        - VPC isolation and dedicated infrastructure\n- Up to 1944GB memory instance (GCP) & 512GB memory instance (AWS & Azure)\n- Hourly backups with 60-day retention\n- Enhanced 24x7 support and services\nSimple pricing, predictable cost\nSimple, transparent pricing\nPay for provisioned database capacity — no extras for storage, compute, IO, network, or backups. With hourly metering, costs are simple to model and predict.\nScale seamlessly, on demand\nEasily add or reduce capacity with a few clicks to meet your changing needs, without any service interruption.\nPause database, save 80% costs\nPause your database when not in use and save 80% of running costs. Your data and backups are stored securely. Resume with just a click.\nCapacity-based consumption pricing\nIncluded in your price: Storage, IO, Backup, and Data Transfer.\nSee all plan details\nDatabase administration\nPerformance and scalability\nSecurity\nProductivity and visualization\nAI and analytics\nPricing and usage\nCustomer support and success\nPricing and features are subject to change and are based on the latest Neo4j Graph Database version.\nAre you an educator or startup?\nLearn more about Neo4j for Educators. Get tools/training for your students.\nInterested in building solid data foundations for your startup? Learn more about Neo4j for Startups.\nCommunity Edition\nGPL3-licensed with community support. For projects that don’t need automatic HA, horizontal scalability, or beyond-basic security\nDownload Free (opens in new tab)- Fully featured, best-in-class native graph database\n- GQL-compliant Cypher graph query language\n- Fully ACID transactions\n- Fully compatible with Neo4j Graph Data Science community edition\nEnterprise Edition\nEnterprise-grade availability and security with scale-up and scale-out options. Run in your private cloud or public cloud infrastructure.\n- Includes all features from community edition\n- Unlimited horizontal read scaling with replication\n- Fine-grained access controls\n- High availability and advanced manageability\n- Available as an operational cluster or stand-alone data science environment\n- Support for analytical queries using Parallel Runtime\n- Change Data Capture\n- Federated scale-out across multiple databases\nTwo ways to get started graphing\nNeo4j Desktop: Code, Query, Visualize\nCode, query, manage, and visualize with desktop. Includes tools and an unlimited free developer license for Neo4j Graph Database Enterprise Edition for Developers.\nDownloadCommunity Edition: Free, Community-Supported\nStart using Neo4j for free, upgrade to a commercial license when you are ready for enterprise-class features and support.\nDownloadSee all plan details\nServer architecture\nIndexing\nClient, drivers, and connectivity\nGraph Data Science\nHigh availability & operations\nSecurity\nScalability and performance\nFabric\nPricing and features are subject to change and are based on the latest Neo4j Graph Database version.\nAre you an educator or startup?\nLearn more about Neo4j for Educators. Get tools/training for your students.\nInterested in building solid data foundations for your startup? Learn more about Neo4j for Startups.\n- \n                  Fully ManagedGraph analytics pricing plansUnlock insights from connected data to improve decisions on any cloud, any data—no ETL required. Apply 65+ ready-to-use graph algorithms, cutting costs by 70% and boosting accuracy by 50-80%. Compare our offerings and start extracting insights from your data today. \n- \n                  Self ManagedGraph analytics pricing plansUnlock insights from connected data to improve decisions on any cloud, any data—no ETL required. Apply 65+ ready-to-use graph algorithms, cutting costs by 70% and boosting accuracy by 50-80%. Compare our offerings and start extracting insights from your data today. \nAura Graph Analytics\nUnlock insights from connected data to improve decisions on any cloud, any data—no ETL required.\n- Up to 512 GB (RAM)\n- Pay-as-you-go and prepaid consumption billing\n- Unlimited concurrent sessions; Spin up and down as needed\n- Works with any data source including AuraDB, relational databases, CSVs – no ETL required\n- Native integration with AuraDB (not included)\n- Available on Azure, AWS, and Google Cloud\n- Scale compute up or down independently with serverless architecture\nAuraDS Professional\nDeploy graph data science experiments to production on a single platform for storage and compute with monthly billing.\nAuraDB Professional pricing\n14-day free trial available. Try it now.\nFor sizing larger than 64GB, consider AuraDB Business Critical.\n- 8-96GB (RAM)\n See size increment and cost\n- Pay as you go: credit card, AWS, or Google Cloud billing\n- Pause instances when not in use to reduce cost\n- Includes Neo4j AuraDB\nAuraDS Enterprise\nEnjoy additional scale, security, premium support, and negotiable contracts.\n- 8-384GB (RAM)\n- Custom pricing and sales contracts\n- Pause instances when not in use, pay 80% less\n- Includes Neo4j AuraDB\n- Premium 24x7 support\n- Pay with committed spend from AWS, Azure, and Google Cloud\n- Private marketplace offers for AWS, Azure, and Google Cloud\n- Dedicated virtual private cloud (VPC)\n- Customer managed keys\nGraph Data Science Community\nOpen source for small projects, learning, experimentation, and prototyping.\nStart for Free (opens in new tab)- Maximum of 4 CPU cores\n- Open source\nPricing frequently asked questions\n- \n\t\t\tHow do the different Neo4j AuraDB plans compare?\n\t\t\t- Free: Start with a free plan to learn and explore graph data.\n- Professional: Build high-performance applications with a production-ready cloud database.\n- Business Critical: Ideal for mission-critical applications requiring a highly available database, robust enterprise controls, and 24/7 support. Perfect for running production workloads in a fully managed, secure, and flexible environment where uninterrupted access and security are essential.\n- Virtual Dedicated Cloud: Ideal for customers needing highly customized, dedicated infrastructure with Virtual Private Cloud (VPC) and specific networking requirements. It offers a highly available database, robust security controls, and premium 24/7 support.\n For more details on AuraDB capabilities, visit Neo4j AuraDB. \n- \n\t\t\tHow does Neo4j AuraDB Professional differ from the free plan?\n\t\t\tThe free plan places limits on the number of nodes and relationships. It is suitable for small projects, learning, and prototyping. In contrast, AuraDB Professional offers enhanced performance and best-effort support, making it ideal for building high-performance, production-ready applications. \n- \n\t\t\tIs there a free trial for the paid plans?\n\t\t\tNeo4j provides free trials on the AuraDB Professional tier as part of the paid plans, allowing users to explore the features and benefits before committing. The AuraDB Professional trial is available only in certain geographies for now. Contact [email protected] or sign up directly. \n- \n\t\t\tCan you use AuraDB on multiple cloud providers and marketplaces?\n\t\t\tAuraDB is available on AWS, Microsoft Azure, and Google Cloud. You can deploy AuraDB in over 60 global cloud regions. You can easily access and deploy AuraDB Professional through the following marketplaces: \n- \n\t\t\tWhat are the differences between Neo4j graph analytics product offerings?\n\t\t\tNeo4j offers a few different product offerings to provide the 65+ algorithms that accomplish tasks like community detection, node similarity, and centrality. - Neo4j Aura Graph Analytics is a fully managed advanced analytics offering that provides graph algorithms available in both a PAYG and prepaid model and for use.\n- Neo4j AuraDS is a fully managed advanced analytics offering that includes a dedicated graph database and the graph algorithms running in the same deployment (storage and compute together).\n- Neo4j Graph Data Science is a self-managed advanced analytics offering that users deploy and manage themselves. It requires a Neo4j graph database and runs on and uses the same compute resources as the graph database.\n- Neo4j Graph Analytics for Snowflake is a fully managed advanced analytics offering only available in the Snowflake Marketplace in a PAYG model. Deployed in your Snowflake environment, it enables users to run graph algorithms on demand using data in tables stored in Snowflake. See pricing information on Snowflake Marketplace.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:09:13.963985Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 2425,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_dd87d7fb392c",
+      "source_type": "auth_docs",
+      "url": "https://dist.neo4j.com/wp-content/uploads/20171030144149/oAuth.jpg",
+      "domain": "dist.neo4j.com",
+      "page_title": "",
+      "content": "����ExifII*��Ducky<���http://ns.adobe.com/xap/1.0/        ��Adobed����\t\t\n�������\n!1A�UQa�\"2�S�T���7q��BRr�3��56V��Ѣ#�4�fb����$t�C%u&'�csdE���D�v81��R!Qa�24A���q���\"3Br�b#�҂����?�;~ۮ��~����iŒ���Yo�_=�2�&��z�|zp��z|~-57Y�vǎ�Ͷi�?�NK?��FW�Ξ)�N�^L��fߊOv_Kڜ�wt�L��fߊOv=/i�'wO�L��fߊOvOK�sI��y2��~)=����4��?���/�����s����wt���,���ݏK�sY��y2��~)=����4��?���7���ݏI�sY��y2��~)=����5��'�,�����Iڼ�wt�L��fߊOv='jsY���L��fߊOv='i�gwO�y2�����c�v�5��+��/�m���c�GZsY���L�xjߊOv='i�'wO�y3��~)=����sI��y3��~)=����4��'�<���ݏI�sI���L�xfߊOv='i�'wO�y4��~)=����4��$x���~)=����4��+��7�m���c�v��wt��L���ݏI�sI�ҾM3xfߊOv='i�'wI��7�m���c�GY�gwO�y5��~)=�=$u��wt�M3xfߊOv='i�'wI��7�m���c�v��wt��-�G��m���c��Y�gwI��7�m���c��Y�'wI��7�m���c���5��'�l���ݏI�sY���M�xfߊOv=i�gwO�y6��~)=����5��?�>-�xfߊOv='i�gwI��7�m���c����wt��\\���ݏG�sY���MsxfߊOv='i�gwO�M�xfߊOv_I�sY��y6��~)=�='i�gwI>-�xfߊOv='i�gwI��7�m���c�v��wt�M�xfߊOv_Ii�'wJy5��~)=����4��'�\\���ݏI�sI��G�\\���~)=����sI�ҾM�xfߊOv=$u��wt�M�xfߊOv='i�'wI��7�m���c�v��wt�M�xfߊOv='i�'wI��7�m���c����wt�M�xfߊOv=/i�'wI��7�m���c����wt�MsxfߊOv=/i�'wI��7�m���e����'wI��7�m���c����wt�M��fߊOv=/i�'wI��7�m���c����wt�M�xfߊOv=/i�'wI��7�m���c���4��)��7�m���c����wt��l���ݓ����wt�M�xfߊOv=/i�'wI��7�m���c�v��wt���7�m���c����wt�M�xfߊOv=/i�'wI��7�m���c����wt�M�xfߊOv=/jsI��y6��~)=�}/i�'wI��7�m���c����wt�M�xfߊOv=/i�'wI��7�m���c���4��'�l���ݏK�sI��y6��~)=����4��'�l���ݏKڜ�wt�M�xfߊOv=/i�'wI��7�m���c���4��'�|���ݏKڜ�wt�M�xfߊOv=/i�'wI��7�m���c����wt�M�xfߊOv=/i�'wI��?�m���c����wt��|���ݏKڼ�wt��l���ݏK�sI��y6��~)=����4��+��7�-���c����wt�M�xfߊOv=/i�'wO�y7��~)=����4��'�|���ݏKڜ�wt�M�xfߊOv=/i�'wI��7�m���c����wt��|���ݏK�sI�ҾM�xfߊOv=/i�'wI��7�m���c����wt�N3�fߊOv=/i�'wI��7�m���c����wt�N3xfߊOv=/i�'wI��7�m���c����wt�N3xfߊOv=/i�'wI��?�m���c����wt�N3xfߊOv=/i�'wI��7�m���c����wt�M�xfߊOv_M�s9��y7��~)=��ݧ3��)��7�m���c�v��wt��|���ݏM�s9�ҞM�xfߊOv=7js9��y6��~)=�}?j�9��y7��~)=������wI��7�m���c���3��'�l���ݏO�s9��y6��~)=����3��'�l���ݏO�s9��y6��~)=����3��'�l���ݏOڜ�wt�M�xfߊOv=?i��wI��7�m���c����wt�M�xfߊOvOO�s)��y6��~)=�}?j�9��y6��~)=������wI��7�m���c����wt�M�xfߊOv=?i̧wI��7�m���c����wt�M�xfߊOv=?js)��y6��~)=����2��'�l���ݏOڜ�z�ɮo��I�Ǒ�s�<���Ϳ��Gi�g��k��6�R{��v��z�&��3o�'�Gi�g��k��6�R{��v��z��MsxfߊOv<���3��M�xfߊOv<�Ә���k��6�R{��v��z�&��3o�'�Gjs�<���Ϳ��y�1��$�������c��9��M3xfߊOv_'�9��'�<���ݏ'����y3��~)=��S��Ry2��~)=�|��OQ��7�����s�=t�LsxjߊOw<��ORy1��~)=�|����y1��~)=���]=G����Ov<��OQ��7�����s�=t�/�,���ݏ,���y2�����s�=t�Lsxj>)=�<����y2��~)=��]=K��5)ߨ���c�=t�L�S�տ��yG����e��V�R{���z�&Y�5o�'�/���z�Ɏo\n[�I��z��<�e�տ��yg���Ɇo\n[�I��z��<�f�տ��yg���Ɇ_\n[�I�밞�z��~_\n[�I����g��_��V�R{��z��<���տ��l�z�%�|5o�'������~_\n[�I����{%�|5o�'���g��_��V�R{��z��_&�5��Y맨�a��Q�I��垺z�&|5o�'�����Ɇo\n[�I���맩'�~_\n[�I���맩<�e�ݿ����<���ݿ��l��z��n_\n��'��)�{%�|7��l��z��n_\n��I����g�<���ݿ��l��z�%�|7o�'����;%��7��X����Y��q�I�凬�O%y|7��X����W��q�I�凫���^_\n��'���z�%y�7��'����^_\n��'���z�%y|7��Xz��#�^_\n��'����|�e�ݿ��Xz��<�e��|R{���z�%�|7�����Y��q�I���g��Y��q�I���g�<���ݿ���z��fZ~ۏ�OwS��Q�/������������s���OQ�/�����OQ=G�̾��Ow-=Ga�/�����OQ�G�̾��Ow-=Ga�/�����OQ�y-�����r���+r�������r���<����|R{�i���/��������<����|R{�i��Kr�jߊOw-<���v_\n[�I�姟�y.�����r���<�e�ݿ��Zy��������O?��]��q�I�����K�xn>)=��<���v_\n[�I�����/����o�'��G�؞K��j>)=��<���_�������sh��%��7��my�7����ͤ�%��7��Z�a�/_~����sh��%�|5o�'��G��y0�����ch��&�7��ma�/�����si<��Ɇo\n��'�G�ؾL3xj>)=��<���a��Q�I����v��/�����si|���a��V�R{��y�������ͣ��<�f��|R{��y������Ow-<��Ɏo\nG�'���a��7�����O?��c��V�R{�i��LsxjߊOw-<��Ɏn��5?��=ܴ��&9�5o�'��G�ؾLsxjߊOv6�?��e��V�R{��y���,���O?��c��V�R{�i��L��fߊOv-<���g��6�R{�i��L��fߊOv6�?��nܑ���n���f�8�H�l���\\�L�ZyҶ��%�~/�/��־���O�����5Yr]}ݟ��v���|�x��9��qf:�����|DVz\":�WI��~X��w뭺�Oj�&X�����t4U�É��K�櫋b������\n�y�7+.�C��<[�|[>��ƶ}4}�l����_&c+��6bS4�|L�9�GL��_�m�]6��*M&q�}�_�d]n/��6Mqo��}4�j�b��6�K���-���DOL}���}x�������;�6���|��gɩ�>��=�E��tq��6��b:gͬ9��i�b;���i�f�)����Du9�Xݤ�괚�5zK�V����1ٶ���=�eEsL�\n9���MŴ��[N�q�t��#�3�M���u]oں��aLO[�,�^pqjß�3���t۾�칧IL6[�?\nn��Dt��d�5D�\ngE�jvxn^,۞������ń]}��\\S���Q�O�ߖ�ׁ\\WD�0�Mq�U�C��F�M�4GVm�'�c�K��3��x��Q�E�-cv�Y������;V����1ٶ���=�g��UmS{~_1^\nq]3��m;�=�m�k���d_6O]������z�,H���>/�2�ыDWU_ci�`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��Ϝ��?��K�^�=�uZ�X���w�o��Ï{l�r�l�K/��G�V}-zSzj��l���GE6_e�L���}��\n�yٵ�o�~�C���6�.�����LtOD�b��|���'�ϕ��G��e�o���1a�k�f��7���߆���Mn���>n�=�b*�E��v?�,w��ע���_���\\6d�z���[m�7v\"f+=��\"ՙ������g�6�����4X/��L]~L�y�c�.��W����c3ر���qx��ý�F���6<�o�-��k���DV�5�OS8���7��mض}^�f�9˛$�������c�=*�!�4�6>\nɼ��t��;��Ϥ�9�u���nl���6\n>Kqq㘶��]OM�+���boٷ�m鋭���d�yC/�~Y�w\n�W�����ͧm��t�m�nK��t�;���k�㊑h�l�+�-��O�#�[.�͜�Ϝ�9�u�t�>�1i��\\�pE�&����\"؈���q�6�z��%�/Ev֙�a�����M�m���y��9'[�4��F���^���f�U����+�b�LR٘�tLL��ń�6[���������m�����I��1n��ߒg���u�u��:;,fl�>+1o��r���B��e��s���c�4�l�K����#%��ҝ<5��K�!��d��tM5�ˎ{lc�sO��\\l�6bOk����VV\"?�f'��t���X�鞈��Nœ-��]m�b'�#.K�[�.w2��aů���$W��b�l�\"�s���:]\\Ln����2[�8b�����<9�537U��uQ8QV�LM\\E��3��˴�x���W������/�n��/�xFѕ�&�>}/3��*Ūa��t�#�|�&>d�]tM5�ˎ{dc�}���x�3�=oǰ�3��D:���3���z#�$����زi�kEfH���n�I蘌�ݒ#й�T�8TĿB�sF^���wۏOn�O��l��q�͒�>+1�ɓ�\"��tW��+��ɌG�U|:u�w~0yw�8rջ.^N�43���\nV-v9�O�1X�o\n�u��J�І3m�W��>\n��-���~V�s/K�;��<�q]����LV\"ۦ8f���#�l�6���ѭ�m�(���?H�K����������e���y�i��혳%���$�uԚ��m+�Y�f��%=�����]�1���N�Ƿ:mZ�v�93}�_��l\\���_}ٽ\\��Ê8�}%+�����bj������6UD�=����8����Ƈ&�:\ne���pj�j�[��dc��nǊ�q͑t�W���T��g���b\">�칯Y�U��ƫ�aϥ���u&+m�k��i>t�4�WTN��$��L��u>���(�C�p|f�<_˙p��?ɖ7����>�����˶��/ܷmNZ\n5�9/�Kr_u��L�Dp���;,&&j�#�c�����9뿷x��}�o��j6����]�]��8�4NX�4L�^�e�uO��c���>�kj��b~�k>ֻ-��ߛ��כ�ۛ��&��g�y��q�t�uݳ�b�m��/��'��g���&&�M���v�ޮ������{u�.��A�8���XN��f�I[g>y��9�˿#�����ѕ1l�oWB���c{����~��o��~ŷي�=�QK0ű�1F�x;_����[~=q�L;>%��5o�5�t���lZ|wM�Y��e��u�t�=����.Z��o���Zr�-��g�b�`ˠ�4r뭺țs�ϊ.�vH��ff�=]]��h�l�G��k��~/�`��]��E�=ڍ�A�F\n�%�E��F�OtRb\")3wGfZ�fi�f��l������K�[*��,��/��e�5~;��ż9\"�Q|監��}?t���<�����9y������[uz��+t�e�nǃS�ǧ���g�8�ȧ��YWu3���|UD]o���8���08���08���08���08���08���08���08���08���08���08���08���08���08���08���08���08���08���08���08���08���08���08���08���08���08���08���08���08��y*�rޗ������>������;�6�����M�����V�gx�ͳ=q1ٶi�\n8��M��5�k�:i���s�0�m�Knx�FLY,�f<�d�%̫'�^��V��fi옟��c�rV�����x,�l�ܶO��_wTG���߃��m��s���*f���g���{h�\")P�<��#���[��&'�-��wҴ�\\Lvb\\�%�h�Q�WD����rٚ���.p.í�i88�Ͳ�i�i�^;��j��\"*��[�O�;�1hr���E�{8�x��ƞ��9�����*��:?�?7͘�Qe�~.ώ��8�u\\��i��5��wj�����fz�c�l�a�fr���d����34l��1t�^~Q�,WͶ�m��ɋ%�m2M�5\\;'�-�ylN���,�>�e��F����ݸ-�l�ܖO�Oû��tu���-�&�k�~G��5EX�w�?7���\"����Ӝ`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��h9�'�mϜ��7��Ǣ�j�Y������S�^���G튣zb�k�f��Śmj���i�݊ݻW�ܺ����v���4�㇊�+o�)u�^d��1���U�g��x�_��^/��N�s_�ͷ��p��%�t��e�ٛ�8���k�?m�sm[Q�)D���w���m��n��x��[�m���4��������L����7V�2bzO���!���Ŏ��Q���5�vM�i��7],zlv�����g�颟bf&t�mE�ѳ��u;O��73������?3j�����=�,��Œ&�s�˯���g���\"�eL���cT[��}.x&k6�ϟY<�����>y��j�\\a���s��Qwn�F9�'�q[���_S5�z&g�,*�b#��w^c�9���=������u����m�o���ٙ��7��3���¾��l��q:)��۩�N4b�N���5��M�z�y�.�n���N�M�EnX��ͱ7]�+��=<0�D�6v��,�����#��/���NM�z��MΣi�I���}1s�3��]N�<{^�t���|Y:���m���qp�3[b�4�:fΘ�&ً>\n���p�snnl�nc�˛Ƴ��a�W�5�[�=�%��Kc����I�q�c��d��g\"x��\\�7�tݳ�ɺ��[�k-�lc��Y��wt[_MOK�_�ُ�M�6��9[�^յx���{�x��:��ߛ,��3���VͶ�e�Ɉ�n�_JU�L���V�ڼ���U��N���m�&�j�e�io�1�6�O�ɲ�QX��������H�]4�M�OEV��M|���[��&���m�����8gM���`�=�\n�}����u�V�N�)�E��E���6��b�!��~�Q�l����r�{�cn�OfL�Y|�%��#&9�.���m�����ɋbʺY[d�\n~6�Wg�?���i��t�{��7�,�/�W�o�}�[��2)؎��m��u��kV���2j9cO�hy�[��]nY2mw�.Hǒ�nɊ�D_�b˺},[����]������%�\nlL|a�NX�����ɵ�6h�Vpc��t���_|�+u�L�)UV�*i��8���08���08���08���08���08���08���08���08���08���08���08���08���08���08���08���08���08���08���08���08���08���08���08���08���08���08���08���08��y?[����{/�m�E��>n{�/��ם�Z��s��[�>C�:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���:?f���v}=�/�pߚ�<�c��f��ﮘ���\"�w�G���\"���5�����5�����5�����5�����5�����5�����5�����5�����5�����5��0ͫ�sc�y�Ǔ��|E��:z�VQ�h�\"#5��/|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o�|t~�o��|��Ӹ~=����[��;��}����-Z��PB�(�P�\n�h�h�@T��\n�Z@(���@(��P�P\n%� \nP�\t@@\n(�PJ� � �QA�s�O3���ȵ�/��՝�Z�+s�\n�P�(PPAh�D@P�(�h�@T���h�\n@(�P�P�\t@(���PJ���D@(@@JP�9~�k��ȵ�/��՜�Yt�ϔ����*�P@��-@��@P�*����P�P\n�P\n@(@(�%��P\n@�P\n@(\t@\nP(� PD�\"�P� %( ���\t�2��ȵ�/��ӛ�Yt�Ϙ�(@h�\n�DP��PZ-(\n��(@Z@((�-�%�� ��P�� P@\nP(\t@� \n@E�\n\"@@\nߛ�x�ߏ�\n8}9��P���P���A@AU\n�@�*�(@Z@@�P\n�(��P\nP�%� ����\nP(��A(����o͝<ŭ�x��j��C���$������@P�\n(�U\n�@Ah*�hP����P\n��P�P\n@�P\n@(\t@(P\n@@(\nP� P@\n@@D�\"���%Q��������[���0Ձ��ӛ�Iu-��\n���A@P��(����(P(@�PP\n@P\n�\n@�P\nP\nP\nP\n�@J�@E(\t@� \n@E�  ;^j���~<~L5`x!�f��]Sk�h@P��\n�@��@P��-���(�\n@@��P\n@(��P\n@(�@((P�P�(\t@��@��\n(� \nPv���Y���0Ձ��њ�IuM��@h�QP@�����@��@Z-��@(\n��P\n@((��P\nPJ@�P� ���(�����P@@�ך?o�??&�<�3_�.���(\n���\nA@T\n��Z �P(\n�(@h\n@(����((P\n�@�\"� ��P@P@�(�@@\nә�ok??&�|�3_�.����P@Z \n�P\n��@���h@�P��\n@@(� ���@@�%��@�\"�(� \nP(���������ǏɆ�>���K�m|�-U\n ��PAU�� �@�(�Z\nhh���P\n@JP�\t@(%��@�\"�(�@���  ������ǏɆ�>���K�n|��A@��DT\n��Z �(��\n�@Z�\n��@( @J��@@(%@�\"�\t@( ��(  \nϙ�ok??&�|�3_�.���\n���*(�U���@P(\n-��P\n�-P(@@����P�P\n@JE\n� @J�\n\t@(%@\nPE(��D@\n���oۺ�ǏɆ�>���K�m|�(��\n( ����(*�@Ph-��@\n(�@(���� ���\t@@(%(�P@\n(��\n\"���������a���5����_:�Q(��\n-PZ@PZ �(��\n�-\n�-�P\n@(��@JE(\n(%��@�\"�@@J�(�\"��(�����������a���5����9DQh�\n�@@@hDU�����@P�(�P\nD�@(@(����(\tE\n@@� PJ(�(�� \n��  (;>f����x��k��C��$��6>uTP@@(\n@PZ �(��PZ-�(�@(����@(\t@\nP� P�\t@((�@E���\"P@Q�s7��g����N�Fk�%�6�pTPA@@PZ�@�(-@�(�@@�-���(P\n@(��P\n@(��P\n@(��P�PJ%� %�%E�\"P@�( ��7��g����V�Fk�%�6�qAPT�(\n@PZ@P(\n-���D:z*T*@��T\n�P�T\n�P*@��T\n�P*@��T\n�P*@��T@��T\n�P*@��\n T��P��@@((��P��@����oۺ�ǏɆ�>���K�n|�\n(�@@(\n@P@�(@h(@�����Q*\t�@^�:�:��@J(�P((J(��\"�PA�3~��~<~L5`x!�f��]ck�PE�@@(\n���\n@P@(\n-���A@�T\n�P*\tP*\ntP*P*@��T\n�P*@��:���:���:���:�\n�P*@��T\n�P*\tP*@�@*P*@�(\tE�PJ\t@@JPPEQA��4��g����N�Fk�%�6�pZ \n�((-U������������@�����T\n�P*@��T\n�P*@����+V��T 8��� 8��� 8��� 8��� 8��� 8���T\n��+T�T\n�P*@��T\n�P*@��������E�%PJ\t@( DE� ����_ۺ�ǏɆ�>���K�m|�\n,B��� ��@Z�\n@PZ@@P\n �@@I�J�T��@q�\t�@q���+q�@q�@q�@q�@q�@q�@q�@q�@q�@q�@q�@qX�T� 8��� ^ 8����-AjPPX(\t@��PJ@@(\t@��I�Pv|��wY���0Ճ��њ�IumϜ@@PP@@@h\n((�(D�-�c2\t2f�c7qq�\t�@q��`q��`q��`q��^x^x^x/@q�@q�@q�@q�@q�\t����@q��`q��`q��@�@q�`�@q(�.Qp,H2�X�(�P\n@@JP��A\n�\" \n(;>g����x��k��C��$���Ψ�\n@P�(\n@P\n���P��h�-\t��d̃�a7\t����o��0N08���08���08����08���08���08���08���08���08���08���08���08���08�8���08���08���0^08�x�b�e8�E��$D�(�P�\t@� %� D@D@Pv|��{Y���0Ճ��њ�Iu���@P��AT\n����(�(\nP�P�@$\t2fA��5� �np0����\t�\t�\t�`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q��`q�����e�(����.Ȑg�A��@(�(@@J� \n���;Nf����x��i������$�����\n��P(\n����-P�PZ@P$�0�ap5� �u���&}^y����7M�.�=�~rY9s�l��⋬�t����J���S�T���e6�3�R�T���d�~�?��?̛C�����C�ɴ�K�S����hO�����C�ɴ'�R�T���d������C�ɴ�S�Q����h?ڧ����&П�W�Q����h?گ������_�G��\n��j���?�B�o�G��\n��j���?�A�������6�����?Q�0m\t�������6����?Q�0m�X�T~��`������G����c�O����h?����������?�?�\n��k���A��?�����6�����Q�0m�X�S���`������G����c�O����h_�����G����c�Q����h?ڿ�������G�?�\n��j����B���G�?�\n��j����A�������6����?Q�0m�V�T~��`������G����[�Q����h?ڷ����п�W�Q����h?گ������O�G��\n��j���?�A��?���6����?P�2m�T�T~��d������C�ɴ�O�Q����h?ڟ����&��?�O��M�ڟ����&��?�O��M��j��?̛A�Կ�?��6��j_��?̛A�Կ�?��6�����P�2m�Q�T���d����P�2m�O�U~��d������C�ɴ/�N�U~��d������C�ɴ/�M���?̛B��7�U����he���_��6�������&��?�KQn+�O�����&�l�zzktg�c���#�.J��?w��y������3v�~;�-��X���ģ���m�l�g����P(%P� %(\t@���P�3���~<~L5`�a�3����Z@P��*���������P��Z\n$`�5� �t�U�Y�j�n�2��ػo�=�]V��_�ؘ�V&�q�RM��L�Z��L��@*j\tPJ�P@J�PJ�PJ�PJ�PJ�P*@�%@�-@��T\n�P*P*AjAj@�-@����T�T\n�P�����������d�@>_���tz���-�:��6�|�S�-�/���c%i�C*G�+e�6� �l�e��AA`��PJ�@@\nP��&D\n(   ��9�������a��\n���V��\n���\n@P��������@��(\t@$�0��j�A����\n?��ؾ�<�U���Z��$� $�$�$�1���%@�%A*A*@�%@���T\n�P*Aj@�-@��T�T���T\n�P*P*\n@���T���������@D�(�P|������}�'�0�7��Kb7Y �l�e���Ab�P\n\tE@JP��&I�Ev���Y���0׃����K�mh@P@@(\n�����P�(��@P$A�����j�/��\n?��ؾ�<�U����Z��L�L��I�@I�J�T�����������T�T\n�P*@���w�����w�N\\�ŃG����z���X�S���s9�0c���͘�Q�7�<��4�v����qD�k���c���'�9s�f��;�M�.�b�}�|��Ku�mtEgC��ݙ�W�q�̤O��es�b�]WV�ݗ�ы�u]L��ñ�n�5��rG^;�[����_q���bW�e�.wl��b~����O��L����s��X�9f>�����S��Z�0x����pٹY��1ǣ}���v<�ɕ!���;��G�*�~���I�c2\t2\t2fA*\tP*\tPJ�PJ�P*\tP*A*@��P*A�\nح�rf�i�m�rӦxq�7�>�1������UU�k�[���7��M�v\\�W�����ؤDR���x�lYĪj�����MuMR�5�i��������Y�]��d��n����eMSl^ʚ�&�v[�/h7n|�,����9��Z��>�-�%�[��swf��������[���%��L>�R��T�n�8�O�m�����=/�?\\������U��3�;�NK�Y�/��f{d�t]���O8���LLM��mt8�\t���ۣ��Y�o���X�|\\�m���m�N�l��O���SY��\n:z�c�:)�aE{_�ħ��'̊gb��/�[s�i�:�6X˧�~�Փ�m�I�\\Rz���LULZ�讪f�f�{\n�Ɩ���1�4�4�雩n[~��?�Gۇ31�p���·o)���+����u�����^��Nߚ2��}�m�]J��g�����M�E�a��a�ӵD��;�ҵ\n��\n�PP*d�T\n�PZ�\nAjPZ�PZ��ă  �,����?��7߂|�\n�x�}d�#�d�u��h6D(�PP�@@(\t@@J���$���������ǏɆ�7�|r��Z`P�P �-@h�@h\nh$�5�\nW�E��x=ψo����#̕\\?_KZ�$�1�@@c2\tPJ�L�TJ�T\n�T\n�PJ�PJ�P*@��T��(�[�K3�YpVb���9�:>̰ħj���a�N�3p��\\Y0�[f̸�/�z��f��Sd��œd�Dm编鵻V�\n�:��C��D�uf�FL�5[D��ۢ'̚�W����<�1T_����V��X���b'�j���]N��ýY��f���ӏK�,OO��GO_[�������C������ꚬ}Oh�����Gvߨͽ��fv[v��-��۫q�iY��·�U8�6�Ŷ��_�\n4��3L�$E����x�7)�Lv�c���۳i������g4E�g�[[��������х������ȧ��ؿ�~u�s�g0ۦ�1�f�Ae�1m���ϗ�����$�{/!���7�>+>��N�>)��g��r4|��ZK��&�Ml���Ι�\"��y�bo�߽�5]�l�����?�}�SL;Ɵ�yg�W�����>)����l��}�~/щvã��\"z+�;a��,�Ǘ��Öؿk&�_l�b]�j��ع֦��-����j@�-@��TAj(��X�e�������D{��>[�b�����r,���l�g�@��P�(���� L �Ӛ?o�??&�|0ߙ�˫mhbPU�bA@PPPP@T��\n�@�@I.����h���7�����J����X�1�@@c2\tPJ�T���T����T\n�P*@�%@�����Ӳm���wWŋO14�=/���X�s��e|�N�\n7�rx���tx��}���v�d�g|58��`�-��Vy�tڸ��K�&1e�En�����/���Z��L�y���f$��u��}�S���Qޢ˳Y|�k���V�pͳ�q��Rbk��s�3QV�����\nl��vz����ּ�͓�\"5jp���DΟK��٦��=NL�}NI�zb�+N��_���+���n������a��혮���������Z�f�[�˫��>�=�~\\��n��뙗����,��~�橚��fZY1{^]�F���ޯ������Vn������3*�=��po�����fn�f�3=s2��f��2�������Sf٭����I����K�#%�؊��9����ëf|��������·�r�K���ɘ��N�,jA@\n��@��(�,H(,�,H2�XP��x��$�~\t��+���6#�`7�\n��l8P(�@\nP�%@@aP@`�4~��~<~L5`�a�3�V����\n��@(\n����\n�@���\t �A��\n7�M���s��gb�_��%Wj�A��H$�1��1�I�J�T�����T�T�TJ�P*Aj@�>!���۷0j2[3�|�4��}M�I���WV^�!��>3�/���o�Ǚ�tGv�w�����uz۵ڋ���6���/�/\n&�\"#�k���3��dt�o�檫jf)�˯�S��#�1���K��v�G��۴��l�8�ٲ�D�S���ّ���[1d�W�zlM��i��M���9v�&�p��j�c�e\"�Œ�::<�׳L�S<:&����fǳ���ﺬx�i.�&�+�t�l�\"\"+m���9�y�Ǫ��z�{6���菺:K�ia����/��ܷqg���t���n�➙�-z,ׅ7�>Ok��ʾ�Ե\n�����T�T\n���$$�(2�d\n�x��$�~\t��+M������X\n�u���@�(%� P(@@��A��3���~<~L5`�a�3�V�Р\n��\n�����-@PZ�@PZ@�(\t �A��i�o�{��K;¾G�*�~���c �d�$�H1��%A*\tP@*\tP*@�%@��T\n�P*���ͭ�֗a�}�L~��O�Q�/���M=r����^\nUuS?���'�~d��/�<�|�|�d���t��[{U��qe�l��wD���u�<�8SG��>�^b1,��j��w����Yx����2�\\�Mf\\qsG�v��>�b-��b#���S%V�f��h�S���MS�;���?7�}�xߓ�7l��4���Ku��FkfZ3Qn_�?'Ց�1����v���,�uVd�干[}k�LO[�\\H�����H�����lQ�{f�R�L�z}F�������*?����{�����T\n��P�(�-AA``��2�X�Pe����D{��>[�i�~>�����n�mp(������@I�@A&v���{Y���0׃��ώ]\\64(\n���,@((@P ���A@@h\n@h�A$�5�\n7�M���s��gc�W��%W�r֬dA��H1�c �\t ��\tP@@*%@� A�`_u���M�I��jsY�%�p��ޞ���\\o�W��C��\\���<[�>Rj�.�h�8�N��t���/���3�u�,�Sț&.��؛S�1d��4|`h��W��C���CnN�E������V-��\"8\"�-|?%86�L��~%Nj�vbb�m���5<;���K��&;��옺ۣ�&&�0��y��cϪ����#I�b�f>��d�f3�\"&q勢~��3���T�-z�J��1\"�����wK�r��VY}��e����1�Y����X�V!�M�vݳE��17��p����|��i5�����+����=OU���Êz�*�ܵ�-AjA@�A`@((2�Pe��`?���I���V/��lF���n�mp�\n@@(%� \"� �� �\"\"�������ǏɆ�7�|r�ZaPP �bA@Z ����\n�\t ��d]�p4�>@{K;¾G�*�~���bd� $�2\t ���H  � T�T����r��e�qe���tc����Z�xuVc���9|f��+\\Gf��|Q�ߞ��}�A�p���2�1Y��^W_|�v)mzZ�f��f��cn4�%1W�j�~�z_r�ʜ���MV��K�ͧ�~�χ�_7���[[)7��Z�W�y��ū\"ff&�����i��i�b�&>�=v����Q��ކ�%��qhr���-g_�s�Rf�������U��3t[O��S����:��Mӻ:��߹m���W~�UgKi115��g���:.��鉇���5a�4�L:��4͒�0A�6L6\n�n�]o���dh��:|w�'Q�'�足��7�^���Z����覘���Fq��E3ӉT�GTO�(}ffffk3�/��@Z�PP�(��\n��A�, XP����M���-±x����`�`7Z\n������ �  \"� �� \t0 �(�P�3~��~<~L5`�a�1�X��\n� �\n����-A@@T���PZ��&��]��x4�>@{K¾G�*�~���c �d�H1�I2��@J�\tPJ��T\n�Pi�i��i3�r~o>;�_�/�m��g�\\�TU\tk�ÌJ&�����_�`˧�e�淇.�ǒ�2�f��=�5EQK���j�g�a����oɓ�[�l�f\\z\n+f�\t��[�i�~@�؎F0o���A�����P\nP@��@(�� \t0 �(�(;.f����x��k���~c�.���a@PA@�P@@P@(\n@h\n�A��]��x4^=���\"~�6?�|�2M��Ե�H1�c �d�$�H1�$A�*�{�u��\n���7Ӫ����G��5zn�ۣbo����'��������o�^9�p]�,���n��6��:��<��]ϧ+����k�s���]f箍Þ7�e�����1gm�l��_u'���l<�k��q4aF�N�&[���];���N��p쿓qR�9z3�z�^�o����8m�����nfg�\"!�9l�1f���T�V%�E�'��>�d��c6���ZOD��䈭:�K���p�&�JXW���u���zt�\n��7\n��2d�5�]M~�ɇ,[��3�w�mԘ{<�{1N���f�u��OM3t����u��=��=���pǃz�L]����3S���E�Ŷ]l�]�f�ឺ9�J��¶������XU��b]gDO�^�Ǧ��{vm���\n�4d�F��g(�/��im���M=7O���F6%qV���k�����ª�.)���b:�g�����|��y��<^�=�ج͖�j��͖�qe?���[5�3/)��f%�᧣[��<���l�����}�^��vJ���(�\n���e  �(P��2�Xϼ}o��n�����r,���m��2�P( ���� @`$&D@�3~��~<~L5�xa�1�X�а���\n�((�(\n((D�-@@h-@�(�$�\t@4�\n7��x=�������_#̓p�u-j�d�$�2\t ���@�IA$*\t 8[�Ӧݶ��DzL��o��n��n��-��\\U͛�ӏ�4U�������k6�~M�����\n��.�f��{jq)�����g-^\nsEq�ka�yoM�n�}��mt���g��=�\n�5�qb�g���&����W��q�{���^24��te�Nk������]�o��M�Ze��S٣�LL�Ֆ�p�1n����e(��ab�m��ޏ��������9�G�v��M���ض�|g�x��gm�虺����'��_\n���\\�T�E���`a��U1�m�|}�/��ɓ%�_�����]t�f|ٙw�U������������^�˒:�����C����N�>9��p~�\\�N����|_^yg�PXP�P�,����(2�(2�Pe�`(�|����&��O��Zo�,lG#9u�\n��8P\n%���%@��  \t � \t $��(;.f����x��k���~c�.�AT@A@P�\n����-�-I`�5�\n7�M��^o�'�cb�W��%W�r֬d�12\t �A$�  �\t ��   �:~d����Y���c���6�n�g����N�}yL�X5[|a��:��6U�T]=O#��{�x��ތ[^,Q�b�S�6I����_qs5U=n&=nDG����G1�o�o�����뮉�:\\�;�iѥ�w��}&X���;��4Օ��_�v*����ν3���5w[v�>ME�[Yv[�m�:��)�C��LStX�U\\�6���ܥ�Z���5Z�n�m�D�E�c̶;?��9��%N�������85x�W�p�v��t�m>�O�O���∷;b�3]sT�=3/q��M�4ő\n�Y�A`*\nP�PX@@2P\n�@, e��x��$�~\t��+M�����c\"�n�mq�\nPJ@@\n��� \t0����$��\nϙ�ok??&�0ݘ�ˬliU�P@X�PP�\n@P���0$�\t����h�{���D�,l\n�d����ZՌ�2dA��H$�I�\t H  �\t�K~hϚb���b��6�숻��;n���TM8����|B��Y��y�������'u�6��;���f���rL��3��m��L�c�ۺi=/�?��h�e�u�U]67c�\\�Qe�LE��:���l~/6-�%����6�]�#����ێ:?�L����ċ#��f�C'��pf*����w�ש�5�P`X@AAAA`@,(P��2�X��}o��f�����r1�}��h6��@-����� ���  H  �� ��_ۺ�ǏɆ�/7f@{?K¾G�*�~���c �A�1�I2\t �A$b  � ��̛�\\Y�؝�G:N�NLs5�Og��q�s��Sͦ��C��e|�m�>_}��}�_l�}�1u���뉇�������G���5ݳ=�nצ��Y�����¿���}�,��W�X���2ӋW�b����ٮ�1�O��:\"�c�-�:#��\"��((��(@(�@ PPX�XP\n�@,(�d����D���>Y�i�~@�؎F0r,�`-p�\n\t@JP���A@@@@@IE�;.e����x��k���vc�.���A@P�@PA@@A@@@h\n@PZH $��a����h�|���\">�6?�|�2Up�u-j�A$H$��b\t �@@� PX������LL��m>��pLj�Ku�&,��}���}�'�p�7�����E��`6Z\n��\n(�P��&E@I$IAA�s7��g����^���r�VU�P A@@b@(\n����*�$A��]��x4^>@{K¾G�*�~���c �d�$�� ��\t ��\nP\nh�h\n@P:AAh\n�� X�e�A`@2P����M���-´�?�lG#9}��h6@2�PPJ(�%�  PP@@A@A\tEg�߷����\nx^n��ˬ�m*��(���,��*\n����(@(\n��A$H5�\n7�E��������|+�y�����kV2dA��1�I�c ������J@J@@��@Z�\n��PAh\n���(, XP�`@2�e����=���-´�?�lG#9}��h6@2�PP(��P��@@\t@�@I$APv|��{Y���0ׇ�m��ˬfԪ���(\n��\n�(\n������PA@A$H5�\nW��x8���yF��ߢ�ۯ�M�K�.;�S���A��hh\n-�������2�@��`@,(P�x��$�~\t��+M���6�r1��`7�\n��d((����� � L� �$��� \t $�(�9�������a��\n��9u��@@(�((��������,@(\n��PP�\n\t ��d�����q�����Yؾ�<�U��쵫3�f&��$�$�%�� %������\n���5��|�5��$�����f��˦����|�6]^�*[�d��h?K�u�]v��I�3i�[�[z���H>m���������~�(>��G�����͠%��P\nH>G�Cx��?1�<_l��_}�7|��m�m/���o��ͺ���]%�=O4�,�n�O�Ǌۮ똲r�4��8vK��f\\�q���.*q[u�] �r�å�vM&Ѥ���i,�m�%8���t��\":�e@|���Y�S���,Yu��oLVۮ����{i�_���M��E�������'b͆u\\��&չ���-��߆���MtݒɯU��G��T�����j9O��n���9rR2d�~����c�.�UoOb�P��Z�|�����?�^�]��<����1o�˷�0�Ńf��\n,����g&[+�n�虦(���(����P ����,�(�e� A��2�|������O��X�~>�؎N0o���A����� � \t@@\n�  �� �$����@v���Y���0��ۍ�V��\n�����((\n�(�((\n@P��*�\t*1�k�i�/ =ǈ����#̕\\?^5�L�c ���A(\t@I�I�J@JP(=�?���j?G �,�A�'��:�k�Sv��(�V]��o��}m�0��f���^b�����\"2�홧����m���������A�}ac������貃��9q��4y��bǤ�}��T[n8����z�t�j�hw�)��v�.�3nL�4��m���ى��ᷣ�g�9[��Ni�\n��*s�.}��6�Qm�ح�1���]d�ͨ=���o���g�u����t��Ⲽ6沓<5�]l���V��{�2�w=sv���WY;f͠��[�c���n��;iu&蘲�f8��i�C���-�a��m���{��X˗%�����.�쉞�n�`�����Y�kyO�-��v�)�5\"'-�M.��Kf�M�G����YC����.e���v�5p��g��,Ǫ��#�O��G�w��m[VM�t��|���~O�Y���fg�����}����%�[����^`z/�v��7\nN�Q�K���nl7ݎ����K������<��O&l��o͟.�\n�2�o��ș�����;��~=?lr��'���(�X-�-L�̶����d��L�����Z�}�/�\n����.��E�f�4�3�˒g�7]�z8�+Y�������|���#�=�S�m��ݣ�i&q�c��貼6[�3t]u���A�|��|��w�]�u;�٦��4��':�n�+�}��u�m��Wf`>���Ϥ�~]�o{{_o�c6�q�xo���LtOf:A�}&��]��ya���:�F8ͨɓ%�<�����n�Ί[�o� ��[�i�~>�؎N0r,�A���2�(����  � ��$�� \t ��$� �9�������a����.���@X A@@@PP�(@(@�(\t (�`�\nwU���>@{��K[��G�*�~��kT�c �ƀ�\t0\t0h\t@JP\nPJ@J������������:�G���~��q�q�%���n�[6�Tv�S��~\\6�i�&:x��Mg�X����ϖs_���.���:�8��tD���^�ؾ�>e�����|�,���D�k���Ȏ���u@>_⯗��s�~۱sLm�[3�&��ےl��5��RA�'��j�LO;V&)1�[; �<\\r���}v��m�˵Yg6;�l�g�-���� �_W{�٤�t��]���힋�8n�;���}����k�j>�:y�G��Lk.��tio���ӊ�����;���s����h��j����\\n�0]1K�D��e�[���S�����Z�_�X'����E���ضLZ�F}D]��}b1e���m�����ِ}'����]��QlY��ܳ����͏�#�z�����]��C�� ����_������x��^�>\n6��FKp��lߗ-��m��f�z\" ��7x��Ǐu��7l�'�e�����➞�L��=d�m���;���&�7ųq�[��oVK:�1�p>s��Ə,��9O�=צ�YǠ�D[�1e���������]�ۇ4a��m-�]�i�1�țl��n�����u�d������˻�0x�捷j�ΗU~����lg��X+��b�}~ǚY�O��}6��P�h��w�5���.��u7[>�fn����]�gM�Z�>M�k�ß?���}@7�b1g�����8����jv\"qd���r�r�m&~\\��h�'K~����;\\R:����iͤ��[�]\\�[4��wV8{\\��+�Uྮس[����b̚��b�ꘌX�����A��S����3�p_1����a��vj2FJty�YP}~��ό9��;yO�b�V��x�=4[��x�&?�u�y�dg�-h,@2��� D��� PX@�����M���-´�?clG#9}��h2�P��� \n\"��� H\"������;>g����x��k���x��65\n@(�PXT��P TP@A$�5�\n7��ރ����7�����I�~�kV2\t0f&��%(\t@I�JP\n@J@J���W��������V�6,��_}��n��+>l���U��%h��������vL\\Vd�_������zb|�z���2�Ko���&���Q��k��>ˋi�3��#-�z[���鎈�>ݵ�a���|��&<�䳢i6�1���k9�y7~��܅v=Vݬ��>Ϛm���b�]u�u�L�Y��:�zj7Mw�c�;f\n�ŧ��d巊-���W]lO�L���&��ܻ˺M��fMm�{iv|�=s��D׆�z����^-��n�{���sُ[�f�f�|Ŗ䛺o�⥗[�zn��OLOUjy�Ǧ�M�=7-��:��&��ɶ��qY�b�}<_`O���=�S��p��+u�[t�]m�]鮛�������C�P\n�+9S~طeͺi�Ϗp��]ݳ�vE�&���}\\z�w��������������&�����E@|��')�V��a�l8��۲f˒'&,ql��+�o���'�)�>����1������p�/��/�-���lE�}�\"�nɆ�+.�艶鉎�8>����d��y�Mf\nv����a�6�c��3��s�8���c�zA�6���� �~ߴi���7��l���u��\n�_m�M�s�oۙ��?��u�~��˻_��n�X���$�=1�oۀ}W��-ųi6��n�IdYei�t��}ԧ��陟<�yg~�!���/���2Up�-j�A&��%&��%&((�P�P\n@J@( �P\n@|[�ό��y��|��a�jw\\���d�1�E�|�^L��}�R؈ԹGl϶r�ӷ�\"��.�,�4��\".���ހP\n�\n@(@(h���ǼT})�������.�) ������,@,�(�X��XQ�����~�'�p�7�Ǹ���E��`6ڣ8P���(��P@\n�  � H (�\t � $�����������a����.�����(\n��� �(\n@(\n����-T@@Q��������>@{��K[��E�*�~���c ����%��%�$�%(((�%��P�P���P�P���l�9�Î��ג-��k�Ҡ�@Z@(��P�P\n@Z�h�z]6<��Ǌ�2��y-�\"���VA�\n@Z����T�-Q������߬���O��Zo�q�#�����m��(�PP(�� � \t0L�$�(�\t ���� ;>f����x��a��l��K�f�(\n�,�\n�\n�(\n���((@P\n���������q�����/�����J���&���``���������P�P\n@(�%$\nH�P\n@(��P\n@($�\n@- \n�\n@Z@Zh@P(@Z��������Ͼ�D{��>[�b���b98�Ȱ��A�(�PP@D&@@\t@@A\tPI$�@���/��g����;�1|R�Y������\n�,��(\n��\n-P@���$�\t��i����d��\t���|/�Y������@JP`���%�%�%�%���P\n@(���P\nH�)>`�0\nO�$\n@(h�����@Z@(@(@Z@Z�@Z������|���G�|�V����m������mA�(@@EI$$IPA\t�˘�w�_��41ù��.��P(\n�(�((�\n���������\n��\n� ������A��q���@���2���>C�*�~�kP7���\n���]�i�~,�؎N>�9u��h3�@*\n@@�\n�  H H\t � �  H\t $���9��֯���Qsn7�]s6�X �P�PP@P�P@PP@PE�A@TP@AI2�]��x8����}]��y�!Ε\\?k����b�����.���?clG'`���m��(P@�� 0���\"L�$�� \t ����1�a�����\\ۍ�^ͨ�\n���(�,�\n@(\n�(�(��*\n�\tPa �r�7��� >��w�e��|�:Up��֠>o��������x�Ycb98�Ȱ�Q���2�F@�(�\"�(� � H �� \t* H  �\t $�(9���gU���(���.��R���,�\n�\n��(\n�(\n��\n(��DT(�\t �����h�l����闗���U���Z����n娶�3�4س�LYd�.��&fiY�I!�\"���=�Ͷ_����Y�i}�U�3��jL���·Kn��z|����ܶ�t�ឩዸ��k�-��.�u��6Oui4Q~�K&�,��ᛩ������HYstutX2�q��E���./��b��+x:>V�5{�=mڛ1�:l�b����m���n�Y��9�}���ݫ1�f�?j�7��1o��i6��n�L��P7���\n���]�i�~,�؎N0rl����3�U@@AD�@AbH\t $��\"�  ����ƫ���Qsf/�]{6��\n���(�(\n@(�\n�����\n��,B� H\"� ��k�j�|��d�>��L���ϐ�J�������~���c�Vt^»�K��������|ݺ�70�弗���ڴ�\\1�q�a�e��m���f۩}��D�L��3���XL�͎�|����w�u��Z��c�e��.���}����M+16Ӧ)5X�Rm�}�W�7�6�g�͋7�u��Y�v��7c���#�z����tt�t%1�Z���˔9Ǖ�k>�sf�U8����\\��m���<37_6L]O>��݉�12��O%�3�9Ge�j2]�>]���3u�]v8��맦fe���.t�9>�w_����zWs���괾$��4��i���5��a�l�ًl�:a��<�>]�o!|���:�u�t����l�}�v�1X�ۢ��e����٪���ɲ���_oz����[1:���5�Wb��s}\"�\\�aTY,�a�Q@_2lv�[]�9�گ��&+��/��q�LL��ؓ5ߞp��V[�i�����g�l�M��?�V���dJ[0�9�s��Phrߋ�[��Yl�����[ى�tM%\":Vg���jv�M�k���W�l�O��dL�5랹[:Kz\n/,��}����lf��3��Qd��>�<��K�@�k5{|���3����n�\",�i5�J�]',�����e˛y��ņ����o�n��3|�&m��\"���BGK��M�_��s��d�����m�kt�DOL�i=���/J�^G���k�m�Lj:c��U1��y��r�v}���>2�W�5{��N-�Q~���dE�M�uղ-���b��)*qw}�ڶ��M>��ϩ��lώ��l�+�Kff)d�0L=VɸN��u�o�싯�:��躞uc�%a�E���C|��?�`Zo�q�#�����l�!FP\n��(���� ��$���$�$���$��H  ���o߶5_����1|R�C6�X `�P�`�P@P`�E@TPP�c �Pk�o 8�����//|3�9ҫ��f�x_<���-�{>��Z�z�3_��:Y�[3\\�YwGe�c��[f����\"������ݏ�𥲔��|�ʜߥ�79����e��v�t[+K�bf����^���3b��g�\n�Ʀ��u6�\n&Ӷa�wj�-�_���[c�,�5=4������2��X�m��r,Lr^��pi�Ek\n�g8�2�]�z��m�p��n~�ڱq[ex3Y}ޚ���Sl���=%Q����{x��݇��u���t�vG��[l]o���N�з�,�m�l;�?ӱ߆��z�i���g��u�ox:箴-�,�r|\\l����{n۹b�������q����M�ϥ�:�*���:��s-�&�;˒�z�n����+u����ޖ:|Մ��ܲs���fM��ܳ��7G�LOGL�+��Y\t�����U<�;F�;~{1�Λl�/�n�M1�3֑=+1�٭�n�r��=у><��f�ٓ��1�N�IoIgC��w�w{����Vv�ܮ�o��lS�iuk���KН.G�X��ټ�M���aQK���N�k�2i�ػVk�ݒ-��K6�5�f;\tT�A��N�b�Ƴj����b�+n��~�d�\"���ڹ�`�5Z������<�y���ffi�1=�LW����,l���h��|��{�t�]�i��137D�:�{13>�lAbxóQ�S�٦�,�]��p�=���g�RT�r�zݴ��ɠǥ�%-��%�3lOb�L�y��/W�m����O��o��������x�[���`�X\n��m�� B�\n�\t@@@AIP@$�@@@;~�����4\\ً��X��\n���(�(\n�,�\n@(��\n���*\n��*�*\n$�\t(0��Q��q� ������2���>C�*�~�kP��F��84���F߫��94��3m��=5�V��S�bbc�ebLZ�w����<�{y��5;�ߦ�.�����9/��Lӊ��]��;/��ŋ+0�,Ŏس��\"�m�DDy��� =�k��m�tY���yi[��'�kt��X�a�'�7����~�v��qM�Y��k���<��cc��{f�l���ibc(蛦�L��n��fX̲r��o�ۦ�m�Fx�ݶm����iZ�=JĤ÷E|���7��v����b98�Ȱ�Q��l���(�D@$AI$@I$�@�@$�@�AAA��lj����6b���d���\n�\n���,�\n@(�\n���((���*�*\n�\n�7(�p4ރF@q���]��y�!Ε\\?k5���b�����.���?�lG'9}��j������H\n � H\n(� �\t $�� �\"�    9���}O��41���_���`@PTA@A@XaE@X@@��1��A��q�����������t���Y�@|���7��v����b98�ɰ��Tl�e�(\"� �(� (�\t* � �H H\t ��$���\t �\t $��P�������sf/�\\M`((�(�((B\n��(�,�\n(�����(� ���*\t*�A��\nwM��� =��\nV��j6�|��{��h�m�8��i}m��ٛ�|�$���:|d��4����֖�Q��G�?�SK�K#��z��>2?���_ZYe��|����T�����-���O������֖GYl�:|d��4���:�g����#��������[=GΟ���M/�,����>t�����i}idu��Q��G�?�SK�K#��z��>2?���_ZYe��|����T�����-���O������֖GYl�:|d��4���:�g����#��������[=GΟ���M/�,����>t�����i}idu��Q��G�?�SK�K#��z��>2?���_ZYe��|����T�����-���O������֖GYl�:|d��4���:�g����#��������[=GΟ���M/�,����>t�����i}idu��Q��G�?�SK�K#��z��>2?���_ZYe��|����T�����-���O������֖GYl�:|d��4���:�g����#��������[=GΟ���M/�,����>t�����i}idu��Q��G�?�SK�K#��z��>2?���_ZYe��|����T�����-���O������֖GYl�=ﺍ,����:���f���pR���D[5�\"RU��F�ޞ�j)�w�=��=Ѯ���Z�5����@�F�ޞ�h��{��-��z{e�{�]�Ol�tk��햁�w�=��=Ѯ���Z�5����@�F�ޞ�h��{��-��z{e�{�]�Ol�tk��햁�w�=��=Ѯ���Z�5����@�F�ޞ�h��{��-��z{e�{�]�Ol�tk��햁�w�=��=Ѯ���Z�5����@�F�ޞ�h��{��-��z{e�{�]�Ol�tk��햁�w�=��=Ѯ���Z�5����A�.m]�'��ri�]��J��O���,^?�؎N0rlQ��m�p�E@P@Q@P@I$@@�(�H H �������7�Cnl��K�ɬ�P@X@@PP@d���((@*\n�� �(\n�� ������oA��6@{����'/|3�9ҫ��f���W��0|������m���E�7�\n��d �\n����\"�\"�\"��\"H H\t ��$��H H\n���A���j����76b���d���(\n�������,�\n@(�\n*\n�(���(\n�( Q2nQ��i����d���}2r��>C�*�~�kP7��}s��]�i�~.�؎N0r,�m� B��\"�\"��\t ( � �@$�@�A7z����o�4�ى��Z�(��,��\n��(\n UX@P�TPTap5\\�U��� =���铗���U���Z����+�s�>��M��v6�rq�����Tl�e�\n�H\n �( (��$��H  �\t $�$�� �� �(9���MO�41���_�L��@XA@P@P�P@X `�PP�TPTPP�`\tAI]�4�>@q��}^>�9{�!Ε\\?k5���b��9��.���?clG'98���m�g\n2�PT@EA$\tPAE@  ����\t �\t  @3y����o�4�ى�\t�Z��(\n���(��\n��@E@TU!@A@PT@I2�U�4ރ��l���W��N_�g�s�Wڭj��X���`�˰-7������N0o�F�Pe�PP%P@ED%D@P@�@A@I$$@@A\tI$�����76b���d���P@@P@P��,�\n��((B\n, \n��\n�(\n���\t(1�F����{����x�e���|�:Up��֠>o��������x�]���`�c�n��R� H\"��\"�\"\"��(���H J��AA��i�?���sf/�\\8d֠�,��(��,�\n��(��\n�����**�*\n���, (������i� 8����L���ϐ�J��Z��߬�5�����y��6�xm�Ip��`�-���N)��OM_@!�M��ir��.l�2�LFLWM�Rz��H?m���0���7m�$����~<�f)7݃5�x�ϻ��A���;�៚�흿%�=���M,��c���}:^�娧+�6����_�c�8�M���6aϟ��K�d���i>|1���,��b�����v�nܡ���W��FK.�.I蛧K��O�<~u��)��UE7k�^�#�8�4�7��߾����טw=O:jv����f(ǧ����&r]R���:^����QU�5kx�7�UX�D�i����͝Gg�Q�H˃%زGU�]6���&\"oX�&���{ֻz�m�q�_�5yl�̹:��Ö�\\S��YY��;=�x�SMߣ���j�0)���tL�ӾG������[���m�����m�#M-���/��u�]N����Ug�o�35�4�l��gG�븀�ɻ��r��Qw{�ܗ�D�8�g��^\n0�.�K���i������6;���@7��}s��]�i�~.�؎V0r,�n��P2@Q��\"� ��H\n\"��\t ( H  �\t $� ��  � �� ������~7�1���_�pɭ@�(B\n��(��2 `�PP�X@EP�TPUI�\\\nW�U�8����x�e���|�:Up��֠?�`�����|�>vٟWϢ��-���Ǎ������c~��=��T���w|��]g����k���9�q�w_w�]���=�9z�)��.x��K�~\n�\\O]�=�=�9x~1�j��a�_{��G�[��f�Oʲ���w|��8?���ꗶ|��1�|��A��xW����/\t�}�}�L<Ӡ�>����3n����;�����P�\\����Kҹ���X���`�˰-7������N0n��Q�u8PP@EDEQ$$�@�AP�@A@I�����76b���d֠\n�,��\n @X `QPPQPP@P@@@T@EA���r\n7���A���x�d���|�:Up��֠?�`�����|�>v6�ڍV{4�lW�ϖb�Xq�7�u���mfdS���<��nٴ���S��Dv&�-����k�|�s���ݭ�ײ�Ӹ瘘Ǌ.��������oOP>y�^/9���b�4S�Y�ê�x��-��-�;1����`ٟWϢ��-���Ǎ������c~��=��T���w|��]g��l�1m�[��\":�P{]��7nxmϓ=�\n�Y:��/�'�˲.�?棍��|9�&j��z�,�\\[?�;]�O[�Yt�ܴ�d��n�%�3��E��$e÷���>����*���.M�_���if�7��E���8��:h�e8�?�zz�.vc)���F�_0?Dx�������NG��o������p�oO�^��}�˞:>����|��p�oO�^�{����x���-�_��q�o���m�ج��DDD$��=���6����Y�gâ��<�'�n��D��q3}��ⷡ�Q������-}u�1�ni������S���ķѦ��ey'�*��C�pmO�/l�7����4|���a�����\nK��ч$�D��Y�{\\��M�O\nh���ۼn��-��[�=����v�/O���Mu�e̓�,���]|b���tE���꤇�|nx���<�v��͟]��s�n��v���M��>u'�?f}_>�v���8>��5��O�>M����w�R�.݇G�Ǜ&:D��e�36��=�k�i��7e�|�Jk�ݙ�~�m�-�Q�Ǹ��v�sf=�wm�7��l�1m���f�S��ƚ�,���1��^0�b�����x���K}l�\t�VW��~��=�����R�ρ�|C�?�����1��\n������8Ϻ��釚t����Zj0iqkv[g>+p���ޚ�|DD�dt�quͱ���N-U4�tM��z��i���bȶ>?|}�烺۬�l�&ۭ�������\\L;Q6��ŝ����Mۻw��Q���N2G�c������Z��7�3���3dC�pnG��ŵUwd=V�ʛ馜�&;g��6+m�%���[���.����d0qi��c�|��͵�Z�:]a��Y�>;�ɖb5�S��xl�����|3�X���{n���^[���)���~���<�������ͻ����x�+�*��C�pokG�/J纀�}b��9��.��x�[���`����:��u(�APEEA@P@PAA\tI$@$$@@@3x����o�cM͘�)q5��((\n�,�\n�(�X`TPTPP@PP�A���r�7��� =���铗���U���Z��g���^��\t�,��=7�M�O�s����i:|��3�ɉ���.�ɤǪ�xj�����:�aql��]��6��պg-=��>Kb���;d�@���;}#i�\\yxq���o͇��v�&�1wbm�c�����8_0}]�gx�]95�6�tS�n��[�R��饘������@�3���C�|/���@~x����q�lo�8'���ꗑ���<����/���;�ߠ��j��d�[��=��|�*�ݦe�o�z��w��6��[�[d]�<�ǎz-������&i�r�>n-4oK���ytM]P����j5z���NI˨�tߗ%�3u�Mfe�]E4�4őUST�7��r���Øvl[�-v��}��ۦ��m��q�n��$�4���e�eX�Eq1��N��L�/|����ܗ��+އC�>-5���c������ɚ0��8f�n�&k�����z35��L�����z^5�s�~��Q�����ϸ��釮�~ޞ���k��ߗ9�.��!��y�𢙢o����<ߋ��5����I����?b�<]�������nֈ}|�-���o����e��ì��ɗe���e�)7��I��u�N(���f�lOUg����tYW�w�����m=4N����t���r�~��-�i�|'�Y^G�����P��S��K�>M���{��?���<+�����>��i�s~��W��t����1���j)K��1[\"���:+��!��s�3f�����2T�aS�E���r��r��]�Ş���[K��ꢒ�5���a�6S�LK����tLZ=-��O�8q��uԊ֕�fZ�1*�����\n�:b�z\"�6??�F��W1�Y��v�$Y>m��6�=��=�N��*c��g�6���K�}/���\\~�m��~�#�q_qWw��{Z;��zW=�|���9��v����M���'7�\nփ8Q���J� �(�H\n ����� J��\"��$��  � �� f��OQ���ƛ�1|R�2k�@�(�\n��,�\n�(�T BP�TX@PUA���p4�>Dl���W��N_�g�s�Wڭj���{�'Ȱ�`�~.w�{=�[�Y����b���b���3K.���>��z��O�n.`��u�f�-���lL����_�x/��#�����gA��n<:�|z�&�ؿ|WE�_l�m�:$����:m�.P�V�,_�n��&i3�O�$e��x��\"�7����l�W�Z�uVM�����vLw�Dۏ�f�\nx�bܘ���GMi �����|�!�>���� ?k�ª��f46���Ħ����M�A;�Ů�㻧W�ɏ�4��lŽ==~s���i�ƨ{*e�j�$[��f,wE���k����3�U_��?����È�Ğ��~��Q�����ϸ��釮�~ޞ���k��ߗo���Y�>�������߬7��{���7���|q����?������?V��������VGs��O{��^�W�C�x��}�d�>\n�5�|��yœ=�K��L�m�GM�tӦ;||'�LI��va���XxQ͓T�x��˼_�Y��N�.m�M�$a�}��e�6�]mfxg��>o��q|\n|�����/��+�fgfbz;_A�㥳7��vK���6]>[&z�g5��}2L9�*�1��_����ꘟ��~dzǊ��ķѦ��ey'�*��C�pmO�/l�7���bio]_nC+8ؑ��ĳ���3�S�{�h�����ͻ����x�+�*��C�pokG�/J纀�}b��9��.��x�]�����\n�u�3��e`�� � ��(��� �H\"�$��( ���$���\"�$�$�������~7�1���_����@P�Pa@�P�@UA@E�P!@AT@Q$\tU��x8�q���}^>�9�!Ε\\?j���X?�����\"����|m�N����V=:l�v��_��>+m��阛�m��o_GW� 6���~{�v�ݚ��nژǋ-���d�#��ݫ$�d�Ủ:+�x��j�����Ǩϥ�`�f��ͥ�~�vg,[c�Ի��c�@~}��]9y��vK��O1��z���ڬ�OD勫��g�>������W�ӓr��ա��������I{���K��g����/�=�]�L[-F\n;4��o7^={Uí}�o�q���}�|��}�]�({�\n�h����\\�P�W��0|��/��6#�����n�Fp� ��J�\"���J� ����\"�$��I$@\tI/w����o�cM͘�)q5��\n�\n�*�,�\n���(�����\n�\n�\n��*�\n���H�.����|��e���}2r��>C�*�~�kP���K���>E�;cɓKr�l�d��_l�]m�5�����}?�~��1�\\i���1��o������k.���)�|���(���]��1M�M�A�$��I͖�|D]�.�|��l�[�~ܲ�\"ɮ,K0�4�l�d[�٧f��̃�~���}��np}�Y}�_m�]6�l��tM&&:bba&-�&ǵ�}�q�/�6�lOe߆�K��Q�?�;u�|�=w���v�5�;7_vK�=��?��S�kޚ���'���;�yי7���u�]��m����t�=%��������xv�������s�)���:'����#�G�����r?>�~�����z{�r��S�~\\������丞��{z{�r��c�����ľ�1��w+���A�ێ2ݡ�b��)��p��צ��kţn���,m��خ*ݘ���=o�#Y����ݲc�����7F���_l�_���E)�����N=UT�l_o%���N~J�j�ۭ�i�I���x��n�{c����f�-|G����=���w�R��{����+�s�>����؛��M��`7Z�8`��$�� H\"�$��� ���1P@A@II�@�@@A@���i�?���sn7�\\FM@\n��(\n���(�X`T BP�X@Q@UI�\t ��k�oA��6P{���'/�3�9ҫ��V���������X�~���}��np}���_��)���������z������ֹO��s�G�^��o��z��������sWw�����?�F�7�~U��x�����q���=�T���t�����s�oc½�=�9xN3���a�0����w�ߧ���W�U����֎��^��u8��}s��]�b���b9X�ɰ�Q��g�삀$�\"�\"������( (��H H@@A���ij?���sn7�\\FM@\n��(\n�,�\n�(�(���P�TX@EPa@T@T@Pc ��k�oA��6P{���'/�3�9ҫ��V��7�!�{֛��{�.K�����6[7Yl��f��b=,�OO���ݥ�j�y���ÓQ����+f��fi�=r�~(�]��.6M�_��:�8��>��e��_�m������|pl[�kϹv����1�����lN,v�.��KN��^��h����L�G�6����1f�:'��r@x4���X1ݗ%��e�u�34�cUQL[3d2������j��\\���uVN=F;.�.;�[nɒ�J�q�:�x���*�����#�8x4�7����ߛ�y����]V�v��k��ɋQlM�D��f��b=,���a�xV53�����k�q湏�U�~7͝Gg�|�mŃ�r�1m�쉺陚DDGL�Rf#�V/���Şͬ�yj۵�]�U����u8��.[���&z��;=��UT\\��7�<\ni��skӾG������]���k�M�iuVY|e�&m��e���p��p�zg)��?��8�Z�ǚ���G�,x�]��Û5�;�d���ț�k��j�\"-�T�5M���ɻn}��t=E�f|v]vK.�m�%�_1��q<^11��.{��8X�7�]��}��}b��9��.��x�]���`��\n�(�h3�g�$�((\"�$����\"�$�\"��\t ��$���H\"�$� �����~7�1���_���� `BP�@XX@E@BPQa@TPU!P�����i� 8�AﾯL���ϐ�J��Z��>�_C���?�`X�~.�؎V0rl�m��3�P@IAA$ID@�$�@� �\t $� �\t ���������i���.#&�X�(B\n� @XPaE@E�PTP�TX@Q@U�0�ax4^���l���W��N_�g�s�Wڭj�X���`�˰,^?blG+96}�7@2�g�H�\"�J�\t (� H\"�$��H\"���@�@�@A@@�����76�x��d��\n��(����P�@XTU@PPaP@Y2$^\n��d(=���铗���U���Z����+�s�>����؛��M��b���(p\n �\t(\n�\"� � �(� H\"�$���T�@�AII@$$������76�x��d����(��((�((�,�\n*\n�\n�(\n���*\n�*� ��A��]��z6@q���}^>�9�!Ε\\?j���}b��9��.��x�]���`��\n�(�h2�g������*  � ( H\"�$���� �H �\t ��\"�$�������~7�1���o����P`X@P�P@d�,( �(�������\n��@(�d�5�\n��d(=���铗���U���Z����+�s�>����؛��M��b�փ8P\n����� ��\"�\"\"���� H H H�H J�$����~��~7�1���o����P`TX @d@(���\n����\n(���\n��*\n��, ��A��]��z6@q���}^>�9�!Ε\\?j���}b��9��.��x�]���`��\n�(�h3P\n ��J�\t*�J�\"\"���\t*\"��$�$��H J�   �\t 7ksƣU�4Yu�|ׂΖ�:�i��4M5�M�-�(\n�\n�*�,�\n�2 `QaBPQaA@P@PP@�@c ��k�/A��6P{���'/�3�9ҫ��V��W��0|��/��6#������`�AA@IAA%@IP@PA%D@A\tII�@�@@A@v|�e���]�G\n�u�6���\nx��}YڭŪe�7�PX@@@P\n�(�����(��� �(�(\n��*���7]��z6@q���}^>�9�!Ε\\?j��8���n�5z��ŏI���[1e�u>��v^^�a�p�[����j5���6�o�0b���m���E:�Ǟ_,o�]>�����v�L��QNLyq����tE��!m\\����n��o�̙:o���u�a�U�m����M�u�{��>�_C���?�`X�~.�؎V0rl�n��(�PPEI@T@�EIQP@AA@@$%@�@�������5Z�Nժ�����R��V٘�� �8��}s��]�b���b9X�ɰ�Q��f�@@IAA$IP@PA%D@A\tII�@�@@A@e���_���e�˦&��T��~�R�zSsPX@@@P\n�(�����(��� �(�(\n���H 1�cp5�\n��d(=���铗���U���Z����+�s�>����؛��M��b�փ0e����$�� ��$� (� ��� ���$�$��H J�   �\t 8�m=Ŏ�'-x��z�f鞚�c����r�@@P@P�P@@�,\n, �(@*\n, ��(\n�\n��@(�d�5�\n��d(=���铗���U���Z����+�s�>����؛��M��b�փ0e������ ��$� (� ��� H H H���$�����~���OU��<��(���(��,�\n� aAX@@P�X@PP@�@c �A��h� 8�AﾯL���ϐ�J��Z��>�_C���?�`X�~.�؎V0rl�n��2�PP@�@%P�A@�EE@AA@@�@AT@$�@�=�&6�Q3Y��1�\n�,��\n���,��\n��((�(@**� �(�\n�*��\n@,�2\nw�E�8���}�x�d���|�:Up��֠>q����������v&�r���`7أu����� J�\"���(��� ���\"�� H\t �$�� �H H&��ٻ��-@P@@�,�\n�(�((�(��@*����*��\n� 1�a ��h� 8�AﾯL���ϐ�J��Z��>�_C���?�`X�~.�؎V0rl�n��@3�PYI@PAPDA$b���$��� H H�\t �\t $�����c��fkf̑7L�=q|�}�� `@�(��X`@P�P@P@PPaEATc �A���z6@q���}^>�9�!Ε\\?j��ר�`��>{�q7_}�H��y���o�4[L�k�q�˟�<���>qs/��똽h8�����^��\\��?��/Z�.e��s��2����ց���\\��@��̿���b��|��_���1z�>qs/��똽h6��?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]��w�?�]����{���E�-n���m��4�����N+/���O@;@8��}s��]�b���b9X�ɰ�Q��8@@APEIDA%@A�@����$�$�� ���Q���)�j��0F@\n����(�\n��,�,�\n���((��\n�\n��*��*����A���p4ރ��l���W��N_�g�s�Wڭj:|��T�Ri���sXdDDR:\":���7��l�鎉�5�>|F���W��0|��/��6#�����mp�PPEI@@Q%@EI$bH H\t �(�H �6�.��e�����ُ:V���sR2�P�@P�T`�P@@Xd�����\n(���\n���(�]��z6@q���}^>�9�!Ε\\?j���9��O]���4v@��{9wῡ�w�>q����������v&�r���`7أm��������� ��\"�\"\"����$��  � �� \n����e�뛮�>��{.kF@\n��(\n���(�X`T BP�X@Q@UI�\t ��k�oA��6P{���'/�3�9ҫ��V�>��뿺�5���t��g.�7�0��>�_C���?�`X�~.�؎V0rl�Tm��3�; �\t �(�\"�\"�(  ��\"��$���E@@q���3i1��w�Vx���>�m��9 \n@(�(\n�\n�\n@(�\n��,����**�*\n�\n@*\n��\t H0����q�����������t���U�@AϿ�z��M`9��{�ns�m�~�SH�[�ɗ4�,�cR\".���0;�̞�W�����߫�Kv��d�j/�>�H����}4~���}�_��j�ju��n.�M�qۊ�\nM�]K���X��A�@�F�_���Y�����M��re�=�m�s�@�15�鉀�9�v�t|��:M6iǦ�f�f�-���,�m��L�&{���7���]�o�`��}b��9��.��x�]���`��\n�u�3�f( �J��(�H\n ��\t* $$�@�\tIA$$�&6�Q?��\\�,�ʀ�(�(\n���\n@(��\n�*��� ���\n(���\n���(�����i�|�8�AﾯL���ϐ�J��Z�t����������w�������d�z}uю�D�6ۊi3��|���S��4��Q�]��s�S�۲��F�.{T�Ⱥ�uc$}�bA����h���G�f�4�M�\n�]�1�̖��>�=�y/w�͇yڳ�&ך�ڝ=�LY��E������/;��U��-�Q~g0���|��m���ﾱ�ⶾuA�u����7d卿pͶ��^y7f��-�ųm��6�]���DN����}�5���u�7M�=F�]m͎����/��&i^@vz-�_w�-�o�Q�t8��2٦�����~8�z�� n��Ɔ٨��m�%�t�?��|]}.�|�K ��h��{���jǽj�;6�4�2ۂ�d���l�f;��&f�u�c�72k2蹛K�o;���4X�K��u���f�[u�s[LϛX�����}��^.�̛�oZۆ;l�Y1}Ѧ��Y���Ot_lLצ��ݡ��?���v.�l�,Q�h����,�v]u���f-��y��Z/��nK��|�F\nv�4�n�����x�m��꾿h��y�]��b�lۧy1ƃ]�q�Ջ8{U�[n����d��'2�nb����˟~���iu�=e�eɎrL[n[2]m���W�נ;\nE9����v-����FK�����+����:}��MC���2i�o[��wK���/��2�]�El͑m��E��ݎ�b�v�v��Ev�n�~�~�1i��ߣ�u}5���8�<��0S�{��~��Z��U~�_��pc������/�bx����u�Ѷ�_+w�Q����n}�4h3Y�������x2c�bb�LtGO��\n��{��V�~�����w->�$��}�k3v;~���:�<�v�2sVõ���7k��-�|zk\"�bٺ��z&�m�����^b�M�w��~����6ݭ�n{v<��-��)=f�R_0�q빋�u��c��٬��ra���Pu���Q�����|�`�6�,���Lۨ�e�ػ���'�-������n����6�}ɿ���ͷjn�����o��t[�E��tt�ҵ���&|��[u�ϝlVA�]�y�����ێ���t��C�e�6َ˦��u=7���W��@rw�5��.����-�w��Y=��\"ٳ��}x������{4�\t��w2m{N]�C��m�I���,���������cՋkN���8���[ο�6M�k�~�q����qM\"o��˭�ֶM�֓����6�j�=�K�h��n�]~[pj�jn�{��l�lx��ȋ��:A�2�|��[f��p���v�\\}��jrM�l�䘋�?���>�U(�[t]l]S�PA���r��C��|���9��v����M��c\"�o��Q�.�((����*  ��$� (���\t ��$��A\tE@@A@��_��K��>;�b���v�g�'�j��\n����!XA@�P�P@ �\n����@*�\n���B\n�H  1�����ȃ����������t���U�@AϿ�z��M`9���t:����M��]�=NN�����f{l���Yވ���l���Y��Y�O��8����b���\"(\n�&�s��q�5�h�F��>�l��k�6��}�ݛd�s[�����s�������랾�o���d�9��eٴ6�xu_rkt���Y\"�V/�o��[��~�8�^��z�~�s���E��O�<�%�m��1}&8���klz��=�q�s�1�9�ph���&^+g��b�o��3tR|���\n�=��}�`�e��Oً%�Dzn��x��ϙ�:�jw,rl����h0�9�.�\n�|i�:l�n��x�i=gڀ�2�����=���>\nF-�4`�ڭ�If[kw�wDy�\n�9Kyܷ��.i9c<�eɫ�u����11�[�����������7��h��cËY���6�n�6�nl33>��\"�➹�>Ą���=�y��vǥ���ǫ��b�e���n>�ͳo��!��ɛ�5oz�w4�M���6ϡ�%�]l]ר�q�u�]�Og��بi��|��ӕ�m�8lڷ�l۟<�u�]l]7��e#�:���.�Kϛ�*]˺>Zõ�ڢ�Fota�,�����wL���w��֫o�,����5Z<ۅ�}���dFI���?�Ps��g�w;vX�b����4ڭG���8������z���b�{���4�v(͛�l����LvE�uպc�����7����v���q���6f�Y|[dM�L��dL<���5i-�o���4Z���~�&�y��Ͷ[���6��:�o<����.�a��l�d�=�u����[e�17z���p7���9�71l�[��p�f=�m�u��E�1�GU�g��n�ݫ�}���6Ӌ�[��<ڌ�'��Ɏ�4��O\\?m�����v���<8�X��~k.��%�V'�8����{&���C]�M�۾�V_}�~��F<�m�7M������u�g��ח���ysm��â���n������y.�������x5��?���~�g/���Z�'�q�U��V[tp�u�[[�bz:n��\n��&k0r�Ų�vN���[�͞���+m�u�rz{�ﯯ\nj����-.ߋ�g�U�-��[e,���5�m��O�6��A�b������|V�X�$L��6����c�m�m��?j���{9wῡ�w�>q����������v&�r�#7�\n֨�:��u����(�(�\"�\"�(  ��� �� �H � ��H�u�h1]��.)�g�zg�-�@PP X`@P\n��((�(����\n��*\n�*\t* $�A��o\"6@{���'/�3�9ҫ��V�>��뿺�5����sݽ���a�7N�f�ۛ�[�n�m��)��ְ\t�ܹ��ݛۦ�rpLߛ=�K�d����#Џ8�:]Ǘn�s6ӽFx�ݲ��N����UX�ؐw@�y���߆��߀���+�s�>����؛��N0o��p�(�@%P�A$\tQ@�D\tI$$@A@$@-�)������@X@@@X`@PQPP�TX@BP�X@P�@I�]�4�>D\\���W��N_�g�s�Wڭj:}���u�k���7���]�o�`��}b��9��.��x�[���`����:��u(�APEEA@P@PAA\tI$@$$@@@m�e:\"�~T��\n�(�(\n���2 `�P@TUTPATQ$\\\nw �z�>D\\���W��N_�g�s�Wڭj:}���u�k���7���]�o�`���b��9��.���?clG+98���m�Fq��@�I@@Q@�EIATD�H H  �\t* ���$��8{T�A�g�.�Ɛs @P� �,�(\n @XA@E�P!@@PP�IQ���x5^���\\���W��^_�g�s�Wڭj:�f�2�{�E�i�-�8��[��/���f���o��Dc�d�I���6�䙶��ų��Ӗ���y}`=9kߞח��Ӗ���y}`=9kߞח��Ӗ���y}`=9kߞח��Ӗ���y}`=9kߞח��Ӗ���y}`9�?yO��՛�������Y�`?yO��՛�������Y�`?yO��՛�������Y�`?yO��՛�������Y�`?yO��՛�������Y�`?yO��՛�������Y�`?yO��՛�������Y�`?yO��՛�������Y�`?yO��՛�������Y�`?yO��՛�������Y�`?yO��՛�������Y�`?yO��՛�������Y�`?yO��՛�������Y�`?yO��՛�������Y�`?yO��՛�������Y�`?yO��՛�������Y�`?yO��՛�������Y�`?yO��՛�������Y�`?yO��՛�������Y�`?yO��՛�������Y�`?yO��՛�������Y�`?yO��՛�������Y�`?yO��՛�������Y�`?yO��՛�������Y�`?yO��՛�������Y�`?yO��՛�������Y�`?yO��՛�������Y�`5i�۾���Gm���m�MFKn�2ߞ�\nc����t�����+�s�>��M��v6�r������Tg@�ATAP@@ED\tI$$�@@$�@�@k�hqǟw��\\(��,��(��,�\n��(��\n�����**�*\n���, (������i� 8����L���ϐ�J��Z����_C���?�`Zo���#������q��d\"�\"� ����( H\n�H H\t �  H\"�$� ���Ѣ�d�iq���\"�o��C�*�~�kP�S�����; �'�������X���`�˰-7������N0n�mQ���(\t (����\"��H H\t ��$���(�� H �۬��V^��3��L�y��((��\n�,�\n@(���,����\n��*\n(���*�Pc �����h�6@{���'/|3�9ҫ��f��?���(8 8���m|>��ن��l�ku�v:,�&��v��i���p��u�7�K��k.������ד�ؿ��@l��W��0|������m���\"�o�F�A�� (�� � ( * �� \n\"� @@@@A\tI$Pm��59\"i�t�GQ7�4��(�,��\n��((��2@PE� TUP@P�@IA���z�7��� =���铗���U���Z�\nz������s��c�i�o��2kw�.�5�[����Z��KkODo��I�Ǿ��z�\\U�e-�&,�ێ�w�'�ً�=]�z0�1�v�v���A�pg�U��mޒ��tR��������7�`��b��9��.���?clG&�r,Q��m�!�UE�EQA@I$$�@A@P@@ \n,ɛ$M���&I��ߊ&,�M4�bzz���@��\n�,�� �,�\n��(���*��\n, �*�*\n���d̠�p4�>@q���]��9�!Ε\\?k5�ש���k�A�y�i����[m��`ŭ��gɆ���;�ዣ��h\nY�;��ZL���F-6�˲_6��Kl�8��n�#���9oU�ǒ�td���rYŨ�I����&�\n��v|q��o�~|Z]�t�e�����m�d�=3�^�zd�^22�:-��g�fM�5��:{.��6\t����#�#��T^w�V�k�t[��:�a͋�����}�)�}c�)�m|�N�߷�n��~�m�v��n:�3MF[�f�m�:m��k^��}��%��fk7]N�n:�4z�>��ۛ�=M�_��L�\":�����[���[��v�$�q��e�M7Ok���q��W�@�7=��\n�o�Q}��~K�������]6���:A���s����Տz��vm$i�e���_�ٶ�w}�L��4��ǘA�igI�����5���>i��S���7Od����t���w�N�e���9-��L�W�1_?��雩�ld��C�6�m�>��9'Olk.����f2vbf��^���Nً|�;�8jv�,Ygh�v��[&m霗b�%�u��x��-�[����u�o�ٶv�fkn��#%�Ͷ�p�4���Oڠ<�î˺i��9���k���tZ���۸���\n�LӪ\"z�8A�������~�tݵ{>ÓK�v�Ec���)��r[ͱ�I�M>�Ari��yyͶs5���&3���w�=��R���剭�M����@h��m��Zر�Y�źn�����7E�lS~k+��<�P��u۾�ʺ}�S~�]��s��4��0�5]�o��F��y��u{�_�k�6�1ݮ�i��>\\�b.��o�)��Z�P4�;�����[�MN������dî�2�Ŗ�E�[�i4��E>�$n�9�v�ٴ�ƧA�Ɨ�Sn��KxqO�M�Mfc�[�u;���6��Q��K��u��=]�M���_MoLy�u$:�}��g�t���u{�ՓW�5Z}}�%��zK��1עb>�`>�\ny?=��o��7��}s��]�i�~-���`�أ}��j�B�\n��$����\"��H �� P$�@�@h���W_37Ofz�T���\n�(\n�*���\n���,�����\n, \n�\n��J�d�\nw �x8����w�e���|�:Up��֠^��7}���s\n-�y~��\"��_mfb:n�t[l�뤻[�k4v�]���\n��TNK&�Ϣ��=�m�Mt��`�f;����-�k�:~X��~�I��~��1�@��Zl:�6]6{b��['��o���ă��+�MNNa�g���N��'.۶d�����u�[>u��]��͓�6�k���{�����ߒ1]wD[}���z�����}F���m�n�}�6ɶ�U8'5����g�鳪#���=}�߿�ɶs��˳hm���4����#%��E.�_l��ط����q���������-�Af�Ef�&x-�fK��K�b�Lq]u�L�����{>��.c�s�����I�L�V�j�6��bf���J�i5<ӣ��g�l�<{��ܚ{5��F,�Ŋ���u���iu~�W������������i����.�E�m͓.i�.��=-\"m��N����j�~^��q��6ox�<��M����e�Z����1=�����P���K��]~�\n~�r��qFL1��/��E��Ï��g��TF���~`ڣj�y_M;�ͶN�9�Ŷ�]�lG���t�O���n�s�ۛO�O����H������v�\"\"�t]}����<��h�;ֿ_��ڰn��;N+��n;,��k��=7Tz����\"�?0ku�����ߤ٦묾�rf�%�D[36���@��ț����V������앾۩���lL�m-��⎹?wٹ�g�����k7,�;1�[m�-�tݎ\"-Ɏ�/Ty������v�͜ѿ�ڭ�Cnϳ�9cS�Kۭ͗6{g��͝O��@v�-�q�����~*m��,8�q[5�m�31|Y��S�&\\��6ŶGL����^O�b�������C|��?�`Zo�q�#�����l�F�P\n��(\t2�\"��� \n\"� \t ��$��H H\n��H\t �A��kQ=~������P@X@A@X `@PE�PP�@@IA���j�oA� 8�����L���ϐ�J����k��f�����8��ܴۡ�iu�mς��Lvbb���:�����K�1��|��z_�Gtm���[~��.�\n�0YY�-�g�f�2H�u\\Ƿoz�%�v�ӽY�����V曬�f8c�c�k5�r�.i9wfö鮜�7��tR�.����#�l:]��n۷��t��7k������l�}Ug��� �ד�ؿ��@l��_��0|������m���\"�o�mQ�� T@ID@IAE$$�@@@P@m���Un��)(P@@PP`�P@UPP�TPQ$IA���r�7��� =���闗���U���Z�\nz�������\ny?=��o��7���\n���]�i�~-�؎N0r,�Tm�!�*�%@Q@P\tP@A\t@@�@I$$I$$�@�Pqv���Y����4�����,�\n���,�\n@(\n��,����\n��*� ���d�\nwM��� >��w�e��|�:Up��֠^��7}��v@^O�b�������C|��?�`Zo�q�#�����m�ă(QAP*�\"�( \t ��$�  (�� ���h:4�}��*A��\n���(�(\n@(�\n�����\n��,J� H\"� ��k�Pj�|��d�>��L���ϐ�J����a�ɿ��\\��114����{��}��8�H���_r@�N����p�ܐ=Ӈ���?��$t��/� {��}��8�H���_r@�N����p�ܐ=Ӈ���?��$t��/� {��}��8�H���_r@�N����p�ܐ=Ӈ���?��$t��/� {��}��8�H���_r@�N����p�ܐ=Ӈ���?��$t��/� {��}��8�H���_r@�N����p�ܐ=Ӈ���?��$t��/� {��}��8�H���_r@�N����p�ܐ=Ӈ���?��$t��/� {��}��8�H���_r@�N����p�ܐ=Ӈ��D�̖�o���3٨6����/�o�>��M��n6�rq��`7�\n��d(�PPE@@A@D�A@�@�@P@�@A@I$m}�ez�w�H9��(�,����((\n��\n��,�\n�(�UJ�H0�F����/ >��w�e��|�:Up��֠>o��������x�Y���`��\n�m�3�g�� (�\"�(� ����@IE@@�(8�m}Ŏ�u���@d��((\n�,�\n��\n@(\n�(�\n��-@@B@�H5ܣM�8����}]��y{�!Ε\\?k5���b�����.���?X؎N0r,�m�p�@Q�\"� ���\"H   J��H H\t ��\n.��Y}ߕ �,�\n@(�((�(\n@(�((�(�Ġ��*(� �$�A��i�|��d�>��L���ϐ�J�������C|��?�`Zo�1�#���E��`6��A�(�PE�P@E&A@A@�@A\tP@��\n&�,q=3[�*A�P@P@PP@`@@%P@A%F]҃U��� >��w�e���|�:Up��֠>o��������x�Y���}�r,�A��g\n2�T\n���\tPD@@�@�A@@@@�@I$A��&go�^����h����\n�,��(\n��\n-PP@���$�\t��i����d�>��L���ϐ�J�������C|��?�`Zo�1�#����m�p�PD$�@�%@I$@@�8{TSA��oʕ�PXT`@X�P�(�APT@IA��]��x8����}]��y{�!Ε\\?k����b�����.��x�W���`�X\n��m���H\n((� \n\"�   ��   ��(��$��H H�m����rl�\n�\n��((\nB\n�����,H(\n�E@P$�1�A��j�|����>��L���ϐ�J�����9x��똰��]�m�7<�m��F���v�LL���}-�����.�\\��[Ək�c�tۆH���Yͷݖz��z|Q��^�8bn��y��5�s�͓wf��|���7��v����b98�Ȱ��dB���(  \n\"L��   � H  �\"��H  �����thp�u�o}���>䃒\n��\n@(�\n��@(�\n@(\nĂ���*��(T\t�1��A�����d�~��L���ϐ�J�����?��`�Ϭ��`�|v�v�G��e�q�'=�p���g��I�{oG�'�sg8���y���2s^�f�2��gO���ɨ��9&ۺ+oT�`/6ro:rF���^�=�r��v{�_��y��i51�l�Yg\n��xk1�5�D�X7���i��#���˴빏q���<6_��`��e��ۢΉ���捃�|_��y�Aͻ��f]�M�����5���1j�F;���-�0���kJ��:C�z��m��=�>�ܚ�d�y�8�l[����yp��p�[͛���ũ�m�pv��w�+8f��o]�������l�ٺn�b\"n���fA�M�b�r��r����t�9kj����÷��r��m��}���u���^�d8����m��~[���/'r�/�\\Ѧ����vOt]m�6Y�H��`��:C_&l^0y�U��������m�]nM�M���I���f�˩���LWY�c����!��\\�F����s.���'%�,�/���i;Go��.��6�g���A�v^gڹ�o��Z��v�]v]&͵j����vqg�69�g5�J���+=`����}M�&��ߗ-�ip�Jc�O��v�:�\"#���1Z@8��1gť����m�9�O�F�C��vm���]�0���e��q�]u�}�I�9_���B�~��[���sh�t���\\��j�g�ǂ�,�l@<�}�kód��x����0�~��s�ݚ�x�Th�ӆ'�����Þ��x�7�\\ɰ�n����Y�����-�a�ɶ����^���\\��r�ڝN��{����[�����ǒ��N����.�� ���z�~h�~b�W�9g.����������\nL���_>�~�.n�7�w��X�-�W�K��7�`��gK�x0Ợ}.\\�@:M-���/�9��w�w/r�ì�k�a�/�>�S��Nݖ�G\n���E���Rj��W�|��#n���x��<�����5Z���|�Kx�Y�,E��˭���Ӫ�P��z�u����-^�&}&ݭ����kn+/�7]m�ح� �cl�8��h˪�~٥��9��K��cɒ�}���]�x�F�9ߝ5�ßu�\n�E���I��t9l���ї���&���L[OGX>����Ϝ��>�sf�r��z��v�[fK4���VjzmL�}ыG\n��zA�yO�.>F�7\\��Ϻh�k6=�Y1v��&�pf�\";g���R��uܱ����?��۞����e��}�gM������~[��T�#�y�wO������w߶̚�.ݹc�L��0��?h��}��ųoc�&j���~��:�\\�ܷ����˼d���D�k0i2F;��]�6��Gfb:CW9o�j�fn�77s����f��<��h/�\nD]�.͓&���o��4���u��x��9�2���f�����%�[f�m��3��\t����kty�lO|��M�k����:m�Gſ[��Fmn�e���k�o�y� �;�4k�o���:��h2i��g�>�Mm�~�&I�K����������:�]�=�[�l�t�>Ktڜ�t�L��j8n��fz-����;X��W)������ٷmM^ͯ��ݭ�~�i�{��l�c��c�탦������{fnl���Wڵ�����d��se�nN3���c�:���9�c�{�-�������[��N�>}�%����\\�]uڊL�Ӧ��������4r��B�j��N��Ӫ�6�6��a��;��2g�-���oM�1���29�'(�n���{�S��x��~�ٳ�>.���&i�_�ϑ�_Ÿo�����,�o:�c��e�ǃ���&�=�@�����C|��?�`Zo��#�����m�Fp�P*��&@@@\t�@�@PA@I$��x�ߋ�f�(���] ����`�PP@XA@XbA@PPAQ$A��]��z�=�8�����//|3�9�n���������Tm��n��7�F�����zL����o�����A��9�W�=n�<ݥ��OM���9{A����WY�m���KxbЭ.��>39#|�;Ǿr�L~c��e���`͇-�fm=�o����\"=��@t˟�;l�rͼ����ە��x��:����L��c�[���z+?c�����J�]��=�d��m.n�<���%��=&�L\\s�u�t���mg�?ƞ��o���E���F���A���e�SfL�V��=-��ӯ���9�o��˷�yga��Z=^�n٨�{��&,��ݚ���tM��JDz����}�7�D�mkI�LTC�9w�w^oϸ`�8�M�&�Aw���a�d_K&��Y=RA��NY�>U�ә9kg�̻?1��=���tڜ�V�v�Y2��M���f���X;�K��]����h�r����j��z�d䋫9�g�1��fގ��J�m�o�۾͓��r��#rߵ�����=>h�_�.���3�u'��_���ӛ���v�[��Y�����f��/��w��z.����<��Y�~0rn�x�j�L�m���t���YŒil�6��OM7˚O|���,��:~l�h\"�v}��M��������c���bzn����E�b���F���X�yy�s�kl���[n,Vv�.�8'%�E�]mxx��i�!�jv=���6+p�t��tQ������\\s<����.ѱnz�M�6(�tǲ٢���4��l㉛}_Ek@x��y�S�~�r��K�&:.���v�;��q�{o��ٞ��:��]��=4�d�S��mf�dF7�z���f�{�p����=3e#��t�&��Z�K��&����n�r����_�3��b&�\"�b�ꙷ����M�\\mS����c�F���7�g���3���������yc��>T���a��-�m��Wi��>>X�>K-�ttGLҵ��v�A���.�9���}�_u�i�zk�_1��c�^�c�ػ���WM�l��w߲N}�|�Zlf&?�z;F9���;����'���y�y�r�ӏ�9_�u3�ϷY�ť�i5y#�[��51�e�U�WU+prys�9ߘ��MμߢŲ�|t�Ǐ5���ߨ������+u��tE=0h�m���0w��c�c�6>f�9��ũæϥ���v���1[_G�t�~-�o�\\���ۤ���4�kt��٭�f�t�i���WS�fz'��x����c�o��L�ɭ�7\nv��;/���2�د��]N(�OO��`�?�}��Vѭ�FѲ��>_���liq��j�٭�n�n��v�&k�&�=�����1u�s�qDS���v�9�[ϸrF���[V��_�߫���6i��}�=����D}�zd���ù�\n_'h���uU���g���m��:�z��.�f�z?�?^.��z�[����ݼ_�ɗn�wlŤǬ�[�˫1=�<Ί��`�L���=�b���{\"��sǏk�ɿH�n�i�lN)�؉��螞��H2���9oU��y�x�x�ô���د��N)�u��n��(��tt�=���y�x����y����]��i,����z��9b;u,��H���9���|���ݼ��:\\[E�-�=�aŚ�E��4�k�>[=%�]��E:C�䭃v�y������M��8��v]�1[�ǎn��3o��b�RA�w\n���C��Nb�]��b�9��Y7=�������v�NlWe�;����\"*�_��c�ʼŻ��6~_�3��tj�����/����Yw��m�Lͽ�4��f>e��y��͟E��}�\n�mیYv��$]7���u�u��)��O��Ӄ�-�6�9m��\"�zh�:������C|��?�`Zo��#�����m��2�*\n�UD@*�� � ��  H\t ���\n���e��lqL�:#�j��4# X`�PTA@PP�� �-@Z��$���c(5�\nW��x8�����//|3�9ҫ�통�arg3sV6���o�6|����iq�q�ɨ�|�b��]mؽ-m��A�vm�C��:=�A��h�8l���똳�lV{3�� �9��w,iwLj�W�-�W��я��F��>�����.����`��c>����.���?�lG#9}��h2�P��� \n\"�� � H\"������6j2Y�5�ْ2�3і)^m�j�{.kF@�(\n@(\n���*��\n��� �j\n��\t ���������q��Wo�^^�g�s�W�\nj��Xϡ�`�˰-7��X���E��h6ڣ8P���%A�@@@@�@$�@�������i�G�eU�h������\n�\nB\n�� �((\nPPPB�($�H1�j�������}]��y{�!Ε\\?l5���c>����.��x�U���`�`7�\n��d(D@*P@��@@\t@I$�٨�~,�������u��f-�����.kFJ�(,��(����� �((\n(\nPU$A��]��x8����A��}2���>C�*�~�kP7��}\n���]�i�~*�؎F0r,���l�e��%@Q���@@\t�@@@@�$����fj��K*�a��i��@P@@XT�j\nPP\n��TE�\n$�H0�k�o������]��y{�!Ε\\?l5��}c>����.���?�lG#9}��h6@2�PP*��T��@@\t@�@I$APn������ʻ�a��Ś�\n�\n�����(((��,H(A@Z�����P��H0�k�o������]��y{�!Ε\\?l5��}c>����.���?�lG#9}��h6@2�PPJ��%@�  TP@@A@A\tE�}}ٚ��,�����b�AT@P@T�(A@Z����P%B�$�\t����h�|���\"�m�i���^ӣ��ۗ���ǣ�e��Ⱥ�Utvs��Q5U6S\nx����5U6D?[yW�\n{F�����+���O�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�<���=�S��s���V�����N�ʿ �S�5=��9]�j9�_{D�x/�0yCv�U���~��j�{��b�9���\n�zk��Sl�[��K�����{'Sf�Ī)��f{'S�f7I�9�Ȱ��A��U\n�T����  � ��� \t $�� \t(\"�(7k����Q駫��w����C`*\n��,�\n��\n�(\nPP\n���A%F3(5�\n7�E���iɟ��/�E{�ƽ�}�T9�W�����^\t�@t���������:��Q��ˣ½�=�)|�������l�ă(PA@\n�P@J�T��  � �� � \t   H\t(\"��ݮ��^Y����������@@P@PA@@@@jPP*\nP�@I\nw(�|��x8��rg�>����^�q�k_w���w|���x�':���?��-���Tw�2��qO�_1���b�c\"�n�A��g�A@� �� %@*\tP@\t�@@$$$�PZ�n��foƖU����Ř�����((\nĀ���-PPPP\n������\t�$H5�\nW�E���ӓ?y�_����+�{Z���s��������ƀ�9��gY���lux/����G�{�{�R���z�.F0o���A�(��T����d@\t@$o�����̫���ǆ,�AT@A@P�\n����-@�-@Id�5�\n7�M��^ד?y�_����+�{Z���s��������ƀ�9��cY���lux/����G�{�{�R���z�.F0r,�A��g��%@� �  �� �  \t2H J���۬ˏ.�5���㘋��xg���q��l4�f����\n�((�(\n((T�-A@@j-A@�(�$�\tH4�\n7��x;NL���{�+ܮ5�k�����ޮ�>��O��oݍg�_�������]�)��K�=�ع�Ȱ��l��2�PP*%@� %@*��II%P@@�I�Iu�l]��Y���ҵE�ƙ�-Dd�����(��H(\n��(����L�\t �A��j�/�v���Ϣ���W�\\k����C��}�]�8}I��4I���Kc��}��L�<+�S���,{ױr,���m��2�P* ���� A@d$&@D@�v��u�Q|��s1t�&�q�U=,h� b��AT�\"A@Z�����(-A@@�(�$\n�L�����i�|��93��G���r����?��z��p���[m��ff����D[4U�Kt�qb-�j�%�>f������1�K6�m��+ۧ�11��-}1�Ƙ�b��_Deqg�*�%�fÛ[�f��yl�_���n��&%��f&�薊���%�nä�g�%�pߖ�6�f��f��6�菲Κ*�����T�3l�\\�m.�U�1i�ߟ,��c�l�u#����EU6S�MT�k��c�l�}�6�m�I�����c116JLY�-�����rgŇ%�p�w-���e\n�C(êbf\"l��*��#�X1r�ͯq�5v�6�=��M�7F;\"�Kb�-�X5�U�D[-�XUbN�1l���~;��f�왶�n�LLtLLK\\ŝ�bΉb��9��cY���lux/����G�{�{�R��7�{#7�\nփm��bAA@@*A* \tPJ���I�@�@AM�\"���LD���4�P�����(\nD��� ���-PZ��\nPPZ�\nA@�@I2.�i�o ;NL����{�+ܮ5�k�����ޮ�>��O���;���ܟ˝���?������*?�������]F���+h�O�Ǘ��[8�f��v�&���E�鞗���r4������3Td�b��֧�����}>���uѩ�&�����]g��ُ�e���9�j�j���|qlx�fm�o�j�wn]�s�ӆ�?�n�7�FK�bn�S�/��f���/���ы��\"�|_o���*10�����9A�r�*j9�r�n�S�8��7uE�wLV&�]uz{�C.�F�+�g�~�n���у�8�E��.�S�_�sj�=���l�m��>�ly�[t�ۙ|Uq��ͻVvY��-���j��q9��s�=�;�:,5Zk&�ڜq�O����<���X�}Վ�ͦ�f�En�&������}�?=V^�c����d���]��{�|�ɻg7��7,�m����ˊގ�N���ܶ��s?��5G�������s'Ff�7���_����u��6_dͷ[tRbc�bb^VbΉy��:%� �9��cY���lux/����G�{�{�R��7�{#7�\nփdH3�e��P@*A*����$� L�� \n �l��:uzj�!ʁTPU�P$�(PP@\n�������Z� ��d�����q�kɟ�/�E{�ƽ�}�T9�W����Ԟ\t�@A�~�y�[��s���a������eG��|��q�P�ɸm����ٷ߂1ݒ#�����/��e���3]b�������F%>/y��\n�M��ޛC���3�~,7D�DNN����-��/G�L�d\"��UO�k��O���j����cf�&��c-����E�58�麖�}�O�fX��L����zf���uM�S8��o�z~���[ޗg�ߩ���}�����6�������]��S���S�U�SŗK��ǌ:��b��{_x6�ܑ�n�=�K�����F��M.�t��[m�0��:p�-Et�M3T�#���4�8WM1L����������t��G��;�/����.��o�����_����,�����y�Y�������1�y�z}�u�l{�/�w[�ǒ��m�%��&�=-�j{\n�E�a��uΟ��ٸ��ï�[�j9_/-�'5�&f�5�'6�$�݊�q�W϶bm�N���e�i�_wC�VVpr���>wC��\"������e����1m����興����\"ވ}��6?������]�t[m�4u��S���e����=��L)�l�����NG���x�e����n�����F�f��-�f\"�v�LŽu�w�f^k;��lY�\"Ϸǵ�y�;k��L�0�9��cY���lux/����G�{�{�R���z�-�}��h6��@(��TJ�P@E@&A@\tDEn������HrEPPU�b@A@PP����-@@�(-@�H�c �p4�\n7��x;^K���{�+ܮ5�k�����ޮ�>��O�G�M�K�z=�q�1�xtw_}����u�]ux;U��_N�g�QN8u��qOo����i:�ڈ��]��cp�3i4���o��k���[���'�1�Z�S��1������(�z����U�4�S=v���^0���&٫�Y��٫Ţ�>���p���I��1O��d��X4�Uxs�2�F�*v&6��w8��Ŷ�4��X�u�1u����V�X�bn�m��R��C)D�S���n��O�3�Zgj�?����O%�<�&���}��:}=��x��-���fg�}39��1^�]���f�u�յWtu6�8�ܳ��>�mɇ5#S���2[]]1tVi,�Y���[M�|2�g+���n����-fh��yc%����ن�b���m�힟6�Fs�:�j�/ݣ�'�9̭S�V���|�G9s��\n�n������EwVO�6�T[lE'�#��\\���)�)��͝����1N�4����=.�gy�}�n�/o���{gk���^��_��+����v����e�~U�e�qgܜ��_67{�r���\n�{Wl�t������|��g=>&ݛ]u,ߑ^Ֆ�X��ǖ��N+��}���m�_$ͳk�e��ru����v�����p���g�LDR�].����f�-���u'��8>]Ql�e��3��=W���a�7�vn�i�g�\nDG����U{���`�mbG�=N��a�bmW�M<��ۇ3��%p�0���I^�c��o�̱�B��]T�������jǪ��.��s���oݍo�_�������]�)��K�=�ع}��h6��$P*\tP*%A*�� �  �L�( �8l�xf��l��9#��}��Jg��(\n�*\n� �,H((\n�\n(���TZ�H $�H5^\n��x;^K���{�+ܮ5�k�����ޮ�>��O��oݍo�_�������]�)��K�=�ع}��h6D�8P(PJ�\tP*AJ�T�%A@@�E$�|��2���2��~�,�@X�@\"A@X�PPP����PP$A�����i�{���g�>����^�q�k_w���w|��'�x�';~�k?��-���Tw�2��qO�_/��^�Ȱ��A��(\n�\tP�� A*T��  \t2�( \t2\n���yz)麙W{?C`�����H(\n����\n�@����\t��d�����q�kɟ��/�E{�ƽ�}�T9�W����Ԟ\t�@t���������:��Q��ˣ½�=�)|�ǽ{���n� �,PP* ��� � %@@*�(\"��v��V_ƖU���\n,Y�(\n���H(PZ��T�(�������$̃���h�/kɟ��?�E{�ƽ�}�T9�W�����^\t�@t���������:��Q��ˣ½�=�)|��{ױo���A�$@,���\n�P@J��T&PE����}4����~�,�PPP\n����((-A@�\nA@@�(T\t�c ��k�o���&��Sh����W���}P��_oWw�Ox'��s��ֳ������_uG�.�\n�����+!�^ž�n�mp�`\n�T@*A�\"� A*� %A�Y�+/�2��~ib�AT��-@@jP@j�P�(T�H1�cp5��tM�ד���t�~��+�{Z���s�������<ƀ�y��kY���lux/����G�{�{�R�����b�du�\n��8P\n���TJ�T��� \t2�L�(  �v��VZ���t��2��~�,�@P��*���������P��Z�\nH $�1�atU�\nW@9F�6��O���������&۾�l�_�ª��|��7�:�UÛ|Ve�|_����zbb_��a�ESMQd���D�3L3`����t�f���o��5��}�ز�����z.��q<ُ����|-T��L~���-��N�lm�\n���%@��T\n�T��� \t2 T@�g�������S:�a�ᆖ�U@X�Z��A@Z�������\n�\n��P*\n$�2\nw]�\nwZV�yݴ��57㲵����-Շˏ���鮘����|l�'���&yǙ}��x�c��]�5k|��/��u��r�o~{V/Xr\\�暵��/��u��>g��b��%��i�Yʲ��gZ|��~�V/Xr\\�暵��/��u��Nh��b��%��i�Yʲ��gY�Ӛ=��X�a�r��j�r����|��~�V/Xr\\�暵��/��u�=9�߾Շ��+���g*���g�Nh��b��%��i�Yʲ��gY�Ӛ=��X�a�r��j�r����|��~�V/Xr\\�暵��/��u�=9�߾Ջ��+���g*���g�Nh��b��%��i�Yʲ��gY�Ӛ=��X�a�r��j�r����|��~�V/Xr\\�暵��/��u�=9�߾Ջ��+���g*���g�Nh��b��%��i�Yʲ��gY�Ӛ=��X�a�r��j�r����|��~�V/Xr\\�暵��/��u�=9�߾Ջ��+���g*���g�Nh��b��%��i�Yʲ��gY�Ӛ=��X�a�r��j�r����|��~�V/Xr\\�暵��/��u�=9�߾Ջ��+���g*���k�Ӛ=��X�a�r��j�r����|��~�V/Xr\\�暵��/��u�=9�߾Ջ��+���g*���g�Nh��b��%��i�Yʲ��gY�Ӛ=��X�a�r��j�r����|��~�V/Xr\\�暵��/��u�=9�߾Ջ��+���g*���g�Nh��b��%��i�Yʲ��gY�Ӛ=��X�a�r��j�r����|��~�V/Xr\\�暵��/��u�=9�߾Ջ��+���g*���g�Nh��b��%��i�Yʲ��gY�Ӛ=��X�a�r��j�r����|��~�V/Xr\\�暵��/��u�=9�߾Ջ��+���g*���g�Nh��b��%��i�Yʲ��gY�Ӛ=��X�a�r��j�r����|��~�V/Xr\\�暵��/��u�=9�߾Ջ��+���g*���g�Nh��b��%��i�Yʲ��gY�Ӛ=��X�a�r��j�r����|��~�V/Xr\\�暵��/��u�=9�߾Ջ��+���g*���g�Ng��b��%��i�Yʲ��gZ|��~�V/Xr\\�暵��/��u�=9�߾Ջ��+���g*���g�Nh��b��%��i�Yʲ��gY�Ӛ=��X�a�r��j�r����|��~�V/Xr\\�暵��/��u�=9�߾Ջ��+���g*���g�Nh��b��%��i�Yʲ��gY�Ӛ=��X�a�r��j�r����|��~�V/Xr\\�暵��/��u�=9�߾Ջ��+���g*���g�Nh��b��%��i�Yʲ��gY�Ӛ=��X�a�r��j�r����|��~�V/Xr\\�暵��/��u�=9�߾Ջ��+���g*���g�Nh��b��%��i�Yʲ��gY�Ӛ=��X�a�r��j�r����|��~�VXr\\�暵��/��u�=9�߾Շ��+���g*���g�Nh��b��%��i�Yʲ��gY�Ӛ=��X�a�r��j�r����|��~�V/Xr\\�暵��/��u��>g��b��%��i�Yʲ��gZ�9�?�=��9.WsMZ�U���:�G9s7�=��9.WsMZ�U���:��m�<�ͷk&��6c�}m�eO��6�f~r��M�:g[����_7�o���]5��>e҈��!�DDE���U[-�l�g�@�@*�(T�����PED*\n�ɉ�f�b���:hλ�a�Z�3P�-PU��-@j(\nA@j\n����@$�1��`M��mh1�888��8��8��8��8��8��8��8��8��8��8��8��8��8��8��8��8xb�e(�Š�-Ȁg�����P@*�  ��    �����\n�v��^_ƖU����Ś�\n�(A@Z��(A@*\nPPZ�PP��� $�1��m3h0�A8A8A8��8��8��8���8��8��8��8��8��8��8��8��8���8��8��8��^8A�X�8�D8�e��%@�(P@J�\tP@\n��\"���(�ݭ�j��_��+]�0�-�@@PP@@@j\n((�(T�-@$@I�3�h1�A8@���8@��8��8��8���8@��8@��8��8��8��8@��8@��88��8��8��8@��8@���Ab�e�PP*�P\n�P@J�T��A\n�� \" \n(6��e�n�*�a��ib�E�@@PP@�(PP@*\nPj(\nTj\t@JP�P\np�@8@��N^(��8Ax@��8@��8@��8@��8@��8@��8@��8@��8@��8@���8@��p�p��� p��-�-h@Z\nT�A*� ���T�%A\n�� \" \n�٫���O3�Y�{?S`(�@@PPZ��A@@j\nA@j-@@*T�%�%(�\n@(��P\n@(��R�@(��P\n@(��P\n@(��P\n@(��R�H�P\n@(��P\n@(�P\n�\n�\n�U�%@PJ�\tP* ADE� ��n����Zk^�u�������\n,J�PP��@PPZ��\nPPj-@�\n@J@(� ���P\n@(��t���H  t��H%$\n@(��P\n@(�\tI�P\n@(\nPJ���TJ�T��\"� �(�\"�\n�ɮ�$���Z�a��iFb\n(�@@*\nPP@�(A@j(A@�����U\n(T�T\n�T\n�T(��A*� P@� � A*� � PEm�������2��~�,�PA@PPPZ��(A@j-A@�(�\n��\nPP*PP\n@(��P\n@(��P\n@(��P\n@(� �P@*\tU@*��T���AJ��T@*��6���e���X�5�w���1f��\n(�(\nPZ���(���j(�U�T�T\n�P*@��T\n�P*@��T\n�P* @� T�T\n�\tP� ����T@��T�0�U:���gk㛽$O)3i�w���U`�@PP\n��T�*�\nA@j(�P*\n�T\n��Aj@�T\n�T��@@@*�TJ�P@J� T@�  �AA@h�i�i����N�d�DMc�M:I�)��R�(��j�*�����A@j-@��PP��(�-@�T�T\n�P\n�P*A*T�  ��P@��\n�UP*\tP@A@@Pg��rL��f\"m�6&\"b}U����Ś�U*��\n-PPZ�PPZ��(��\n��-@\n�\n�-@�T\n�P*@��PJ�U*A\n�A*%A��@�\"�P@J��(�\"��(���h/�~�˲����\"���T�6�1d9�(��\n( ����(*�PPj-@��P\n�\n(@�P*���� ��A�\tP@*%@*�T@\n�(�A�\n\"����]%���wD�4�7,�*����\n�\n�@@@�(-PT\n��Pj(��P\n�PPP*@�Aj@���T�UB��P*T�%@��TJ�\tT���AAJ���%@Q�(�h+�[+3[����\\�H�\n�TQj�(�@@�(-@�\n�PPj-@�(T�-@��( ��\tP* �TD\n�(���\"� �����h?���_U��4�7,��*�T*��\nA@T�������j(T����P* A*PJ�%@� �\n�T���\"P\n�( \"���\n>��5�5�]4��KneU�였�P@Z�\n�T\n���@���jA@�T��\n�P@*@� ���P@�%@��@�\"�A*� \nT*�������Β���~T�72��%X�(\n���\nA@T\n���Z��T*\n�*A@j@\n�P*�@���A*A*T\n�A�@�\"� ��T@P@�(�P@\n�6�)��#��R�g�72��!X�-@U\n���\n(�U��Z��T*P�*A@��\n�P*@��@��T@\n�PJ�\tP*T\n�� T�T@�� T�E5�[>}ߕ,i��W��b��(�\n-PT\n��Pj�\n�P*\n-@Z�P@\n�PP���P*@��T\n�P*@��T\n�P*�T\n�T�%@�\tP*T�\tP*�\tP*P@�\n\"��[v���O?�JSr��R�T*��\n(�T@P*\n-@�A@P�(T�-@������@����*\tP����T� P@�� P@@q���rYN����Ҕܵ^�(-@P@*��\n�@@���Z�\n�PZ��-@�(�����T��T\n�T\n���T\n�P@��*�P��T*��( \tPD�%@�8��4�v������)M�7�*�(PPU\n���\n���*�A@��@\n���-@��P*A@���T@*A*\tP�TJ�PEJ�A*PJ����P@@J��F�)��:�7~T���U^�ɈPP\n���B�(�TP�(�Z�T\n�PP���T\n�\nT\n�PZ�PJ�P*@@*A�%@*\tP@�\"��T� P@�� \tPD��4WM�kn����*X�s*�nd�����*�PP@��-P@��PP�*����T�T\n�\n�T\n�P*P*@�%@��T\n�P�T\n�P*\tP\n�T*A� TD�\"�T� %@* ����'Md�WO�JSr��B��T���@���PZ�\n�A@�T\n�\n�@�(�P*@���T\n�P*����J�PE� �D�\"�T�\n\"P@\n�T�����_�[d���S�Ȼkb�m鋢kVR��\"bb�5�6�PPPP^�@�C�QzP@�PzP@P�\n����@@��:@��� � ���'H�(�� �n߳n:��ك\n�m�[l䘞�Ee��8�[�2�bUd=/x�l��q�y�]n1����z^QO�Ͱ~w/W_c�������,/��u��a�X�5��O��p.�S��>����LV������,l���B���}G���WTu*1���Wa�0���Te���z��z�\n��u��u}��>�{w���u��q����2:�<�-�#�������=С=]�:�Vy~�A.=�$��{�}���(���U}��<�v;(2��v.랠O��?���a�TX��02��s�)o�����T���3��d�`l뎮�[?�v}WWPK}���w��e�3����Q�Sw��z����9�?��������a5���Ǫ�@ۇ�[�>�Z,3��Ǩ���U\\W]���^�%Þ±vx}\\z����e����u�:�1�vuOR+���Wuu�O���b�����ޯ������'�z������z�� _����2d����J��>�m��}����z�V}�������B�Ûg��}�,���}�E��]J�/�V����?���a>���g�H�|ޯ����TȌ�z������96z��=����}FOS�g��������/����֒4���rM�Q��c��6�;���z���t}�b����;7����������;=h�Î���d����=B�ޫ������J��7�{Q�M��=O�'���e�2��~ډz)>�,��u6��z����_Ҩ�z����:�n랯�_�c�*1�g`7c�q�H��˽OWc�\tj��GR�o����.F~��ꏰӗ��:�Bϵ���3Ԡ�o��϶��f����1\t,g�W�v:�ÏW?g��\\���3ao�����-�7�*4���Tc@ۏ�GRV��OWg��YB�:���_c��!e�]�L��2���ꎮ�W:��������������~��P���Q�����vz��\nZ�S���u�:�G��rɌ���>��n�S�z�_hda���]���/����u�K\t��uuv:�g�����e����z���]���k���u��^�z��(����S�+w�G�젷z��o��2n���.������Q>����.OS�V6}�Al����[(F8�V_Q�B3�����U�����#_��=O�����A-���?��S�B0���_c��X�S�����S���M���뎮��������F�^��S����u���n���}�S�Q�'W����*?7?���z��u��m�t�]_{�����V�ҫ�n�5?����_b=O�Uy.��5���S�?5���j�q.�C��Gc����V�v�Q�]���uu����=4���~c�[��^�=_�^b�������G_�z��Ϟ��O��������3�����掵��Y���������ѓ�&OQ����i�����]]b���o��ή�U���?�j��z��W\\uy��P���=G���KKk��z�~g�5�}�����8��\t�y_��🟏W��?%���t]s���?��>�_e�_�]��ڿ���}W_��&������Wy���o�GW��}�79���1���7�#���O[cS���k7���^��=O���núZ3�����S=]iQ��گQ�q�z������<2�W�������0c���:���KN?�����La�����v��\n�9��u���nJ|N�U�#U�?7=_k��i}.^��W~o����g�t������[cL���ޢ���r�U��~����{:Y�����'��]s���%���O���=v�/a�n|��9���?��o������Vj�q�?�}�S?�=~s<[�`^��=^��V_�^��?��-s���\\�6��z����OS�ĺ���uv=C���ۃ��}�k^/������o��_o�c��",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:09:11.069102Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 14758,
+      "quality_score": 0.54
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Neo4j is a highly flexible, low-code, open source JavaScript library for rapid API development.",
+      "evidence_ids": [
+        "ev_9682d31cf599"
+      ]
+    },
+    "category": {
+      "value": "Developer Infra and Data",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "OAuth2",
+      "evidence_ids": [
+        "ev_dd87d7fb392c"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (14-day free trial available)",
+      "evidence_ids": [
+        "ev_a56a65f5b902"
+      ]
+    },
+    "api_surface": {
+      "value": "GraphQL",
+      "evidence_ids": [
+        "ev_9682d31cf599"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_9682d31cf599"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_9682d31cf599"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_9682d31cf599"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_9682d31cf599"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.75,
+    "fields_checked": 8,
+    "fields_supported": 6,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.75,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.75 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

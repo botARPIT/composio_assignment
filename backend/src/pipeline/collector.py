@@ -18,6 +18,7 @@ from urllib.parse import urlparse
 
 import httpx
 import trafilatura
+from bs4 import BeautifulSoup
 from tenacity import retry, stop_after_attempt, wait_exponential
 from rich.console import Console
 
@@ -300,8 +301,6 @@ async def _fetch_fallback(url: str) -> dict | None:
                 favor_recall=True,
             )
 
-            from bs4 import BeautifulSoup
-
             soup = BeautifulSoup(resp.text, "html.parser")
             title = soup.title.get_text(strip=True) if soup.title else ""
 
@@ -387,7 +386,9 @@ async def collect_evidence(doc_map: DocumentationMap) -> list[Evidence]:
         "mcp",
     ]
     for slot_name in _SLOT_ORDER:
-        slot: DocumentSlot = getattr(doc_map, slot_name)
+        slot: DocumentSlot | None = getattr(doc_map, slot_name)
+        if slot is None:
+            continue
         if slot.primary:
             slot_urls.append((slot.primary, slot_name))
         elif slot.alternatives:

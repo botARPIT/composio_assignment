@@ -1,0 +1,364 @@
+{
+  "app": {
+    "id": 91,
+    "name": "NotebookLM",
+    "website": "cloud.google.com/gemini",
+    "category_hint": "AI Research and Media"
+  },
+  "documentation_map": {
+    "app_name": "NotebookLM",
+    "official_domain": "cloud.google.com",
+    "homepage": {
+      "url": "https://cloud.google.com/gemini",
+      "title": "NotebookLM",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://docs.cloud.google.com/docs/authentication",
+        "title": "",
+        "confidence": 0.95,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": null,
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://cloud.google.com/pricing",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "sdk": {
+      "primary": {
+        "url": "https://cloud.google.com/sdk",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "mcp": {
+      "primary": {
+        "url": "https://docs.cloud.google.com/mcp",
+        "title": "",
+        "confidence": 0.85,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://docs.cloud.google.com/docs",
+        "title": "",
+        "confidence": 0.85,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "NotebookLM",
+      "official_domain": "cloud.google.com",
+      "items": [
+        {
+          "url": "https://cloud.google.com/gemini",
+          "page_type": "homepage",
+          "title": "NotebookLM",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.cloud.google.com/docs/authentication",
+          "page_type": "authentication",
+          "title": "",
+          "confidence": 0.95,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://cloud.google.com/pricing",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.cloud.google.com/docs",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.85,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://cloud.google.com/sdk",
+          "page_type": "sdk",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.cloud.google.com/mcp",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.85,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 2,
+        "urls_discovered": 6,
+        "official_urls": 6,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 6
+      }
+    },
+    "stats": {
+      "queries": 2,
+      "urls_discovered": 6,
+      "official_urls": 6,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 6
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_67f0f6aab298",
+      "source_type": "auth_docs",
+      "url": "https://docs.cloud.google.com/docs/authentication",
+      "domain": "docs.cloud.google.com",
+      "page_title": "Authentication for Google Cloud APIs and services  |  Google Cloud Documentation",
+      "content": "Introduction\nAuthentication is the process by which your identity is confirmed through the use of some kind of credential. Authentication is about proving that you are who you say you are.\nGoogle provides many APIs and services, which require authentication to access. Google also provides a number of services that host applications written by our customers; these applications also need to determine the identity of their users.\nGoogle APIs implement and extend the OAuth 2.0 framework.\nHow to get help with authentication\n| Action | Instructions | \n|---|---|\n| Authenticate to Vertex AI in express mode (Preview). | Use the API key created for you during the sign-on process to authenticate to Vertex AI. For more information, see Vertex AI in express mode overview. | \n| Authenticate to a Google Cloud service from my application using a high-level programming language. | Set up Application Default Credentials, and then use one of the Cloud Client Libraries. | \n| Authenticate to an application that requires an ID token. | Get an OpenID Connect (OIDC) ID token and provide it with your request. | \n| Implement user authentication for an application that accesses Google or Google Cloud services and resources. | See Authenticate application users for a comparison of options. | \n| Try out some gcloudcommands in my local development\n      environment. | Initialize the gcloud CLI. | \n| Try out some Google Cloud REST API requests in my local development environment. | Use a command-line tool such as curlto\n      call the REST API. | \n| Try out a code snippet included in my product documentation. | Set up ADC for a local development environment, and install your product's client library in your local environment. The client library finds your credentials automatically. | \n| Get help with another authentication use case. | See the Authentication use cases page. | \n| See a list of the products Google provides in the identity and access management space. | See the Google identity and access management products page. | \nChoose the right authentication method for your use case\nWhen you access Google Cloud services by using the Google Cloud CLI, Cloud Client Libraries, tools that support Application Default Credentials (ADC) like Terraform, or REST requests, use the following diagram to help you choose an authentication method:\nThis diagram guides you through the following questions:\n- \n    Are you running code in a single-user development environment, such as your own workstation,\n    Cloud Shell, or a virtual desktop interface?\n    - If yes, proceed to question 4.\n- If no, proceed to question 2.\n \n- Are you running code in Google Cloud?\n    - If yes, proceed to question 3.\n- If no, proceed to question 5.\n \n- Are you running containers in Google Kubernetes Engine?\n    - If yes, use Workload Identity Federation for GKE to attach service accounts to Kubernetes pods.\n- If no, attach a service account to the resource.\n \n- \n    Does your use case require a service account? For example, you want to configure authentication and authorization consistently for your application across all environments. \n- \n    Does your workload authenticate with an external identity provider that supports\n    workload identity federation?\n    - If yes, configure Workload Identity Federation to let applications running on-premises or on other cloud providers use a service account.\n- If no, create a service account key.\n \nAuthorization methods for Google Cloud services\nAuthorization for Google Cloud is primarily handled by Identity and Access Management (IAM). IAM offers granular control by principal and by resource.\nYou can apply another layer of authorization with\nOAuth 2.0 scopes. When you\nauthenticate to a Google Cloud service, you can use a global scope that\nauthorizes access to all Google Cloud services\n(https://www.googleapis.com/auth/cloud-platform), or, if a service supports\nit, you can restrict access with a more limited scope. Limited scopes can\nhelp to reduce risk if your code is running in environments where compromised\ntokens might be a concern, such as mobile apps.\nThe authorization scopes that are accepted by an API method are listed in the API reference documentation for each Google Cloud service.\nApplication Default Credentials\nApplication Default Credentials (ADC) is a strategy used by the authentication libraries to automatically find credentials based on the application environment. The authentication libraries make those credentials available to Cloud Client Libraries and Google API Client Libraries. When you use ADC, your code can run in either a development or production environment without changing how your application authenticates to Google Cloud services and APIs.\nUsing ADC can simplify your development process, because it lets you use the same authentication code in a variety of environments. If you're using a service in express mode, however, you don't need to use ADC.\nBefore you can use ADC, you must provide your credentials to ADC, based on where you want your code to run. ADC automatically locates credentials and gets a token in the background, enabling your authentication code to run in different environments without modification. For example, the same version of your code could authenticate with Google Cloud APIs when running on a development workstation or on Compute Engine.\nYour gcloud credentials are not the same as the credentials you provide to ADC using the gcloud CLI. For more information, see gcloud CLI authentication configuration and ADC configuration.\nTerminology\nThe following terms are important to understand when discussing authentication and authorization.\nAuthentication\nAuthentication is the process of determining the identity of the principal attempting to access a resource.\nAuthorization\nAuthorization is the process of determining whether the principal or application attempting to access a resource has been authorized for that level of access.\nCredentials\nWhen this document uses the term user account, it refers to a Google Account, or a user account managed by your identity provider and federated with Workforce Identity Federation.\nFor authentication, credentials are a digital object that provide proof of identity. Passwords, PINs, and biometric data can all be used as credentials, depending on the application requirements. For example, when you log into your user account, you provide your password and satisfy any two-factor authentication requirement as proof that the account in fact belongs to you, and you are not being spoofed by a bad actor.\nTokens are not credentials. They are a digital object that proves that the caller provided proper credentials.\nThe type of credential you need to provide depends on what you are authenticating to.\nThe following types of credentials can be created in the Google Cloud console:\n- API keys - You can use API keys with APIs that accept them to access the API. API keys that are not bound to a service account provide a project, which is used for billing and quota purposes. If the API key is bound to a service account, the API key also provides the identity and authorization of the service account (Preview). - For more information about API keys, see API keys. For more information about API keys that are bound to a service account, see the Google Cloud express mode FAQ. \n- OAuth Client IDs - OAuth Client IDs are used to identify an application to Google Cloud. This is necessary when you want to access resources owned by your end users, also called three-legged OAuth (3LO). For more information about how to get and use an OAuth Client ID, see Setting up OAuth 2.0. \n- Service account keys - Service account keys identify a principal (the service account) and the project associated with the service account. \nYou can also create credentials by using the gcloud CLI. These credentials include the following types:\n- Local ADC files\n- Credential configurations used by Workload Identity Federation\n- Credential configurations used by Workforce Identity Federation\nPrincipal\nA principal is an identity that can be granted access to a resource. For authentication, Google APIs support two types of principals: user accounts and service accounts.\nWhether you use a user account or a service account to authenticate depends on your use case. You might use both, each at different stages of your project or in different development environments.\nUser accounts\nUser accounts represent a developer, administrator, or any other person who interacts with Google APIs and services.\nUser accounts are managed as Google Accounts, either with Google Workspace or Cloud Identity. They can also be user accounts that are managed by a third-party identity provider and federated with Workforce Identity Federation.\nWith a user account, you can authenticate to Google APIs and services in the following ways:\n- Use the gcloud CLI to set up Application Default Credentials (ADC).\n- Use your user credentials to sign in to the Google Cloud CLI, and then use the tool to access Google Cloud services.\n- Use your user credentials to impersonate a service account.\n- Use your user credentials to sign in to the Google Cloud CLI, and then use the tool to generate access tokens.\nFor an overview of ways to configure identities for users in Google Cloud, see Identities for users.\nService accounts\nService accounts are accounts that do not represent a human user. They provide a way to manage authentication and authorization when a human is not directly involved, such as when an application needs to access Google Cloud resources. Service accounts are managed by IAM.\nThe following list provides some methods for using a service account to authenticate to Google APIs and services, in order from most secure to least secure. For more information, see Choose the right authentication method for your use case on this page.\n- Attach a user-managed service account to the resource and use ADC to authenticate. - This is the recommended way to authenticate production code running on Google Cloud. \n- Use a service account to impersonate another service account. - Service account impersonation lets you temporarily grant more privileges to a service account. Granting extra privileges on a temporary basis enables that service account to perform the required access without having to permanently acquire more privilege. \n- Use Workload Identity Federation to authenticate workloads that run on-premises or on a different cloud provider. \n- Use the default service account. - Using the default service account isn't recommended because it's highly privileged by default, which violates the principle of least privilege. \nFor an overview of ways to configure workload identities, including service accounts, for Google Cloud, see Identities for workloads. For best practices, see Best practices for using service accounts.\nToken\nFor authentication and authorization, a token is a digital object that shows that a caller provided proper credentials that were exchanged for that token. The token contains information about the identity of the principal making the request and the type of access they're authorized for.\nTokens can be thought of as being like hotel keys. When you check in to a hotel and present the proper documentation to the hotel registration desk, you receive a key that gives you access to specific hotel resources. For example, the key might give you access to your room and the guest elevator, but would not give you access to any other room or the service elevator.\nWith the exception of API keys, Google APIs do not support credentials directly. Your application must acquire or generate a token and provide it to the API. There are several different types of tokens. For more information, see Tokens overview.\nWorkload and workforce\nGoogle Cloud identity and access products enable access to Google Cloud services and resources for both programmatic access and human users. Google Cloud uses the terms workload for programmatic access and workforce for user access.\nWorkload Identity Federation lets you provide access to on-premises or multi-cloud workloads without having to create and manage service account keys.\nWorkforce Identity Federation lets you use an external identity provider to authenticate and authorize a workforce—a group of users, such as employees, partners, and contractors—using IAM, so that the users can access Google Cloud services.\nWhat's next\n- Learn more about how Google Cloud services use IAM to control access to Google Cloud resources.\n- Understand how Application Default Credentials works, and how you can set it up for a variety of development environments.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:14:40.492824Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 3166,
+      "quality_score": 0.88
+    },
+    {
+      "id": "ev_0bed265c8559",
+      "source_type": "pricing_page",
+      "url": "https://cloud.google.com/pricing",
+      "domain": "cloud.google.com",
+      "page_title": "Pricing Overview | Google Cloud",
+      "content": "Save money with Google Cloud’s transparent and innovative approach to pricing. Estimate your costs with our pricing calculator or contact us to get a quote for your organization.\nStart running workloads for free\nCreate an account to evaluate how Google Cloud products perform in real-world scenarios. New customers get $300 in free credits to run, test, and deploy workloads, including Google-recommended, pre-built solutions. All customers can use 20+ products for free, up to monthly usage limits.\n$300\nin free credits\n20+\nfree products\nOnly pay for what you use\nWith Google Cloud’s pay-as-you-go pricing structure, you only pay for the services you use. No up-front fees. No termination charges. Pricing varies by product and usage—view detailed price list.\nSave up to 57% on workloads\nGoogle Cloud saves you money over other providers through automatic savings based on monthly usage and by pre-paying for resources at discounted rates. For example, save up to 57% with committed use discounts on Compute Engine resources like machine types or GPUs.\nGain visibility into current cost trends and forecasts\nStay in control of your spending\nControl your spending with budgets, alerts, quota limits, and other free cost management tools. Optimize costs with actionable, AI-powered intelligent recommendations and custom dashboards that display cost trends and forecasts.\nWe’re here to help with free 24/7 billing support.\nEstimate your costs \nUnderstand how your costs can fluctuate based on location, workloads, and other variables with the pricing calculator. Or get a custom quote by connecting with a sales representative.\nGet free credits\nFrom ideation to launch and beyond, build with us and get access to the best of Google. Startups can get up to $350,000 in Cloud credits through the Google for Startups Cloud Program to continue scaling with customized support and solutions.\nWant more guidance? We’ve got you covered.\n- Migration assessment: Estimate the cost of migration and get an end-to-end plan.Request free migration assessment\n- Discover five ways to reduce overall cloud spend with a cost optimization strategy.Download the whitepaper\n- Partner with trained consultants for help with implementation, migration & more.Find a partner for any budget\nTell us what you’re solving for. A Google Cloud expert will help you find the best solution.\n- Work with a trusted partnerFind a partner\n- Start using Google CloudTry it free\n- Continue browsingSee all products\n- Accelerate your digital transformation\n- Whether your business is early in its journey or well on its way to digital transformation, Google Cloud can help solve your toughest challenges.\n- Key benefits\n- Featured Products\n- AI and Machine Learning\n- Business Intelligence\n- Compute\n- Containers\n- Data Analytics\n- Databases\n- Developer Tools\n- Distributed Cloud\n- Hybrid and Multicloud\n- Industry Specific\n- Integration Services\n- Management Tools\n- Maps and Geospatial\n- Media Services\n- Migration\n- Networking\n- Operations\n- Productivity and Collaboration\n- Security and Identity\n- Serverless\n- Storage\n- Web3\n- Featured Products\n- Not seeing what you're looking for?\n- See all products (100+)\n- Not seeing what you're looking for?\n- See all AI and machine learning products\n- Business Intelligence\n- Not seeing what you're looking for?\n- See all compute products\n- Not seeing what you're looking for?\n- See all data analytics products\n- Not seeing what you're looking for?\n- See all developer tools\n- Hybrid and Multicloud\n- Industry Specific\n- Not seeing what you're looking for?\n- See all management tools\n- Media Services\n- Not seeing what you're looking for?\n- See all networking products\n- Productivity and Collaboration\n- Not seeing what you're looking for?\n- See all security and identity products\n- Save money with our transparent approach to pricing\n- Google Cloud's pay-as-you-go pricing offers automatic savings based on monthly usage and discounted rates for prepaid resources. Contact us today to get a quote.\n- Pricing overview and tools\n- Learn & build\n- Connect\n- Accelerate your digital transformation\n- Learn more\n- Key benefits\n- Why Google Cloud\n- AI and Agents\n- Multicloud\n- Global infrastructure\n- Data Cloud\n- Modern Infrastructure Cloud\n- Security\n- Productivity and collaboration\n- Reports and insights\n- Executive insights\n- Analyst reports\n- Whitepapers\n- Customer stories\n- Industry Solutions\n- Retail\n- Consumer Packaged Goods\n- Financial Services\n- Healthcare and Life Sciences\n- Media and Entertainment\n- Telecommunications\n- Games\n- Manufacturing\n- Supply Chain and Logistics\n- Government\n- Education\n- See all industry solutions\n- See all solutions\n- Application Modernization\n- CAMP\n- Modernize Traditional Applications\n- Migrate from PaaS: Cloud Foundry, Openshift\n- Migrate from Mainframe\n- Modernize Software Delivery\n- DevOps Best Practices\n- SRE Principles\n- Platform Engineering\n- Architect for Multicloud\n- Artificial Intelligence\n- Gemini Enterprise for Customer Experience\n- Gemini Enterprise\n- AI Commerce Search\n- Google Cloud with Gemini\n- Physical AI\n- APIs and Applications\n- New Business Channels Using APIs\n- Unlocking Legacy Applications Using APIs\n- Open Banking APIx\n- Data Analytics\n- Data Migration\n- Data Lakehouse\n- Real-time Analytics\n- Marketing Analytics\n- Datasets\n- Business Intelligence\n- Data Analytics Agents\n- Geospatial Analytics\n- Data Science\n- Databases\n- Database Migration\n- Database Modernization\n- Databases for Games\n- Google Cloud Databases\n- Migrate Oracle workloads to Google Cloud\n- Open Source Databases\n- SQL Server on Google Cloud\n- Gemini for Databases\n- Infrastructure\n- Application Migration\n- SAP on Google Cloud\n- High Performance Computing\n- Windows on Google Cloud\n- Data Center Migration\n- Active Assist\n- Virtual Desktops\n- Rapid Migration and Modernization Program\n- Backup and Disaster Recovery\n- Red Hat on Google Cloud\n- Cross-Cloud Network\n- AI Infrastructure\n- Productivity and Collaboration\n- Google Workspace\n- Google Workspace Essentials\n- Cloud Identity\n- Chrome Enterprise\n- Security\n- Agentic SOC\n- Web App and API Protection\n- Security and Resilience Framework\n- Risk and compliance as code (RCaC)\n- Software Supply Chain Security\n- Security Foundation\n- Google Cloud Cybershield™\n- Startups and SMB\n- Startup Program\n- Small and Medium Business\n- Software as a Service\n- Featured Products\n- Gemini Enterprise app\n- Agent Platform\n- Compute Engine\n- Cloud Storage\n- BigQuery\n- Cloud Run\n- Google Kubernetes Engine\n- Looker\n- Apigee API Management\n- Cloud SQL\n- Cloud CDN\n- See all products (100+)\n- AI and Machine Learning\n- Gemini Enterprise Agent Platform\n- Gemini Enterprise app\n- Gemini Enterprise for Customer Experience\n- Model Garden\n- Customer Experience Agent Studio\n- Agent Search\n- Speech-to-Text\n- Text-to-Speech\n- Translation AI\n- Vision AI\n- Contact Center as a Service\n- See all AI and machine learning products\n- Business Intelligence\n- Looker\n- Data Studio\n- Compute\n- Compute Engine\n- App Engine\n- Cloud GPUs\n- Migrate to Virtual Machines\n- Spot VMs\n- Batch\n- Sole-Tenant Nodes\n- Bare Metal\n- Recommender\n- VMware Engine\n- Cloud Run\n- See all compute products\n- Containers\n- Google Kubernetes Engine\n- Cloud Run\n- Cloud Build\n- Artifact Registry\n- Cloud Code\n- Cloud Deploy\n- Migrate to Containers\n- Deep Learning Containers\n- Knative\n- Data Analytics\n- BigQuery\n- Managed Service for Apache Spark\n- Dataflow\n- Looker\n- Lakehouse\n- Pub/Sub\n- Managed Service for Apache Airflow\n- Knowledge Catalog\n- Data Analytics Agents\n- Data Analytics Migration Services\n- Managed Service for Apache Kafka\n- See all data analytics products\n- Databases\n- AlloyDB for PostgreSQL\n- Cloud SQL\n- Firestore\n- Spanner\n- Bigtable\n- Datastream\n- Database Migration Service\n- Bare Metal Solution\n- Memorystore\n- Developer Tools\n- Artifact Registry\n- Cloud Code\n- Cloud Build\n- Cloud Deploy\n- Cloud Deployment Manager\n- Cloud SDK\n- Cloud Scheduler\n- Cloud Source Repositories\n- Infrastructure Manager\n- Cloud Workstations\n- Gemini Code Assist\n- See all developer tools\n- Distributed Cloud\n- Google Distributed Cloud Connected\n- Google Distributed Cloud Air-gapped\n- Hybrid and Multicloud\n- Google Kubernetes Engine\n- Apigee API Management\n- Migrate to Containers\n- Cloud Build\n- Observability\n- Cloud Service Mesh\n- Google Distributed Cloud\n- Industry Specific\n- Anti Money Laundering AI\n- Cloud Healthcare API\n- Device Connect for Fitbit\n- Telecom Network Automation\n- Telecom Data Fabric\n- Telecom Subscriber Insights\n- Spectrum Access System (SAS)\n- Integration Services\n- Application Integration\n- Workflows\n- Apigee API Management\n- Cloud Tasks\n- Cloud Scheduler\n- Managed Service for Apache Spark\n- Cloud Data Fusion\n- Managed Service for Apache Airflow\n- Pub/Sub\n- Eventarc\n- Management Tools\n- Cloud Shell\n- Cloud console\n- Cloud Endpoints\n- Cloud IAM\n- Cloud APIs\n- Service Catalog\n- Cost Management\n- Observability\n- Carbon Footprint\n- Config Connector\n- Active Assist\n- See all management tools\n- Maps and Geospatial\n- Earth Engine\n- Google Maps Platform\n- Media Services\n- Cloud CDN\n- Live Stream API\n- OpenCue\n- Transcoder API\n- Video Stitcher API\n- Migration\n- Migration Center\n- Application Migration\n- Migrate to Virtual Machines\n- Cloud Foundation Toolkit\n- Database Migration Service\n- Migrate to Containers\n- Data Analytics Migration Services\n- Rapid Migration and Modernization Program\n- Transfer Appliance\n- Storage Transfer Service\n- VMware Engine\n- Networking\n- Cloud Armor\n- Cloud CDN and Media CDN\n- Cloud DNS\n- Cloud Load Balancing\n- Cloud NAT\n- Cloud Connectivity\n- Network Connectivity Center\n- Network Intelligence Center\n- Network Service Tiers\n- Virtual Private Cloud\n- Private Service Connect\n- See all networking products\n- Operations\n- Cloud Logging\n- Cloud Monitoring\n- Error Reporting\n- Managed Service for Prometheus\n- Cloud Trace\n- Cloud Profiler\n- Cloud Quotas\n- Productivity and Collaboration\n- AppSheet\n- AppSheet Automation\n- Gemini Enterprise app\n- Google Workspace\n- Google Workspace Essentials\n- Cloud Identity\n- Chrome Enterprise\n- Security and Identity\n- Cloud IAM\n- Sensitive Data Protection\n- Mandiant Managed Defense\n- Google Threat Intelligence\n- Security Command Center\n- Cloud Key Management\n- Mandiant Incident Response\n- Chrome Enterprise Premium\n- Assured Workloads\n- Google Security Operations\n- Mandiant Consulting\n- See all security and identity products\n- Serverless\n- Cloud Run\n- Cloud Functions\n- App Engine\n- Workflows\n- API Gateway\n- Storage\n- Cloud Storage\n- Block Storage\n- Filestore\n- Persistent Disk\n- Cloud Storage for Firebase\n- Local SSD\n- Storage Transfer Service\n- Google Cloud Managed Lustre\n- Google Cloud NetApp Volumes\n- Backup and DR Service\n- Web3\n- Blockchain Node Engine\n- Blockchain RPC\n- Save money with our transparent approach to pricing\n- Request a quote\n- Pricing overview and tools\n- Google Cloud pricing\n- Pricing calculator\n- Google Cloud free tier\n- Cost optimization framework\n- Cost management tools\n- Product-specific Pricing\n- Compute Engine\n- Cloud SQL\n- Google Kubernetes Engine\n- Cloud Storage\n- BigQuery\n- See full price list with 100+ products\n- Learn & build\n- Google Cloud Free Program\n- Solution Generator\n- Quickstarts\n- Blog\n- Learning Hub\n- Google Cloud certification\n- Cloud computing basics\n- Cloud Architecture Center\n- Connect\n- Innovators\n- Developer Center\n- Events and webinars\n- Google Cloud Community\n- Consulting and Partners\n- Google Cloud Consulting\n- Google Cloud Marketplace\n- Find a partner\n- Google Cloud partners",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:14:40.435948Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 2878,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_d33294a3665f",
+      "source_type": "developer_portal",
+      "url": "https://docs.cloud.google.com/docs",
+      "domain": "docs.cloud.google.com",
+      "page_title": "Google Cloud Documentation",
+      "content": "Google Cloud Documentation\n            Find user guides, quickstarts, tutorials, use cases, code samples, and more.\n          \n        \n        \n        \n      Start your proof of concept with $300 in free credit\n- Develop with our latest Generative AI models and tools.\n- Get free usage of 20+ popular products, including Compute Engine and AI APIs.\n- No automatic charges, no commitment.\nKeep exploring with 20+ always-free products.\nAccess 20+ free products for common use cases, including AI APIs, VMs, data warehouses, and more.\nDiscover\n              \n  Learn about Google Cloud, find prescriptive guidance, and explore migration resources.\n            \n          \n        Google Cloud overview\n            Learn about Google Cloud, including popular features with pointers to documentation and tutorials.\n          \n        \n        \n        \n      Cloud Architecture Center\n            Plan and design your infrastructure with architectural guidance and best practices.\n          \n        \n        \n        \n      Start free\n            Start building in the console with $300 in free credits for new customers. All customers get free usage of over 20 products.\n          \n        \n        \n        \n      Migrate to Google Cloud\n            Plan how to migrate your workloads, data, and processes.\n          \n        \n        \n        \n      Google Cloud for AWS and Azure customers\n            Compare AWS and Azure services to Google Cloud.\n          \n        \n        \n        \n      Get started\n              \n  Find tools, resources, and training to begin building on Google Cloud.\n            \n          \n        Get started with Google Cloud\n            Explore product quickstarts, tutorials, and interactive walkthroughs.\n          \n        \n        \n        \n      Boost productivity with Generative AI\n            Get generative-AI powered assistance with an always-on collaborator.\n          \n        \n        \n        \n      Google Cloud Setup guided flow\n            Prepare your organization for scalable, production-ready, enterprise workloads.\n          \n        \n        \n        \n      Grow your skills and get certified\n            Study emerging cloud technologies and get Google Cloud certified.\n          \n        \n        \n        \n      Browse code samples\n            Review samples to demonstrate the use of Google Cloud products.\n          \n        \n        \n        \n      Jump Start Solutions\n            Plan and quickly deploy pre-built solutions to solve your business challenges.\n          \n        \n        \n        \n      Documentation spotlight\n  \n  \n  New guide\n        \n        \n    Build a generative AI application on Google Cloud\n            Learn the stages of building a generative AI application, choose the best products and tools for your use case, and access the documentation you need to get started.\n          \n        \n        \n        \n      \n  \n  \n  Popular guide\n        \n        \n    Install the Google Cloud CLI\n            Install and initialize the Google Cloud CLI and run core gcloud CLI commands.\n          \n        \n        \n        \n      SDKs, languages, frameworks, and tools\nExplore technology areas\nAI and ML\n            Leverage the power of AI/ML solutions to transform your organization and solve real-world problems.\n          \n        \n        \n        \n      Application development\n            Create applications with a comprehensive set of tools and services.\n          \n        \n        \n        \n      Application hosting\n            Run and manage applications on a secure platform.\n          \n        \n        \n        \n      Compute\n            Run your workloads on virtual machines with specialized offerings for ML, high-performance computing, and other workloads to match your needs.\n          \n        \n        \n        \n      Data analytics and pipelines\n            Load, transform, and analyze data to provide business intelligence insights.\n          \n        \n        \n        \n      Databases\n            Migrate and manage enterprise data with security, reliability, high availability, and fully-managed data services.\n          \n        \n        \n        \n      Distributed, hybrid, and multicloud\n            Extend your Google Cloud topology to the edge, on-premises, and other cloud platforms.\n          \n        \n        \n        \n      Industry solutions\n            Transform your business with Google Cloud solutions for specific industries like commerce, healthcare, and financial services.\n          \n        \n        \n        \n      Migration\n            Tools and services to help you migrate to Google Cloud.\n          \n        \n        \n        \n      Networking\n            Connect your networks and workloads, load balance traffic, and secure your network.\n          \n        \n        \n        \n      Observability and monitoring\n            Documentation, guides, and resources for observability and monitoring across Google Cloud products and services.\n          \n        \n        \n        \n      Security\n            Google Cloud security products help organizations secure their cloud environment, protect their data, and comply with industry regulations.\n          \n        \n        \n        \n      Storage\n            Data storage, backup, and disaster recovery.\n          \n        \n        \n        \n      Explore cross-product tools\nAccess and resource management\n            Organize, analyze, and manage access to your Google Cloud resources and services.\n          \n        \n        \n        \n      Costs and usage management\n            Manage costs and usage across Google Cloud products and services.\n          \n        \n        \n        \n      Google Cloud SDK, languages, frameworks, and tools\n            Use Google Cloud SDK, languages, frameworks, and tools effectively in cloud development.\n          \n        \n        \n        \n      Infrastructure as code\n            Configure your infrastructure using code instead of graphical interfaces or command-line scripts.\n          \n        \n        \n        \n      Migration\n            Use tools and information to help you on your journey to Google Cloud.\n          \n        \n        \n        \n      \n            The Rust logo is owned by the Rust Foundation and distributed under the terms of the Creative Commons Attribution license (CC-BY).",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:14:42.199744Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 1582,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_59c2baab7470",
+      "source_type": "general_docs",
+      "url": "https://cloud.google.com/sdk",
+      "domain": "cloud.google.com",
+      "page_title": "Cloud SDK - Libraries and Command Line Tools | Google Cloud",
+      "content": "Cloud SDK: Libraries and Command Line Interface\nLibraries and tools for interacting with Google Cloud products and services. Cloud SDK is available at no charge for users with a Google Cloud account.\nKey features\nKey features\nSDK Client Libraries for popular programming languages\nCloud SDK provides language-specific Cloud Client Libraries supporting each language’s natural conventions and styles. This makes it easier for you to interact with Google Cloud APIs in your language of choice. Client libraries also handle authentication, reduce the amount of necessary boilerplate code, and provide helper functions for pagination of large datasets and asynchronous handling of long-running operations.\nGoogle Cloud Command Line Interface (gcloud CLI)\nThe gcloud CLI manages authentication, local configuration, developer workflow, and general interactions with Google Cloud resources. With the Google Cloud CLI, it’s easy to perform many common cloud tasks like creating a Compute Engine VM instance, managing a Google Kubernetes Engine cluster, and deploying an App Engine application, either from the command line or in scripts and other automations.\nGenerate a solution\nWhat problem are you trying to solve?\nWhat you'll get:\ncheck_smallStep-by-step guide\ncheck_smallReference architecture\ncheck_smallAvailable pre-built solutions\nThis service was built with Gemini Enterprise Agent Platform. You must be 18 or older to use it. Do not enter sensitive, confidential, or personal info.\nAll features\n| Google Cloud SDK: Tools for all languages | Google Cloud CLI lets you manage resources and services from the command line. It also contains service and data emulators to speed up local development. Cloud Shell lets you code or use a terminal directly in the web-browser. Cloud Code provides IDE extensions for VSCode and IntelliJ. | \n| Google Cloud SDK for Java | |\n| Google Cloud SDK for Go | |\n| Google Cloud SDK for Python | Cloud SDK Libraries Python | \n| Google Cloud SDK for Ruby | |\n| Google Cloud SDK for Rust | |\n| Google Cloud SDK for PHP | |\n| Google Cloud SDK for C# | |\n| Google Cloud SDK for C++ | |\n| Google Cloud SDK for Node.js | Cloud SDK LibrariesNode.js | \n| Google Cloud SDK for ABAP | |\n| Other | Additional (paid) tools for tracing, logging, monitoring, and error reporting. | \nPricing\nCloud SDK is available at no charge for users with a Google Cloud account.\nNew customers get $300 in free credits to try Cloud SDK and other Google Cloud products.\n- Need help getting started?Contact sales\n- Work with a trusted partnerFind a partner\n- Continue browsingSee all products\n- Accelerate your digital transformation\n- Whether your business is early in its journey or well on its way to digital transformation, Google Cloud can help solve your toughest challenges.\n- Key benefits\n- Featured Products\n- AI and Machine Learning\n- Business Intelligence\n- Compute\n- Containers\n- Data Analytics\n- Databases\n- Developer Tools\n- Distributed Cloud\n- Hybrid and Multicloud\n- Industry Specific\n- Integration Services\n- Management Tools\n- Maps and Geospatial\n- Media Services\n- Migration\n- Networking\n- Operations\n- Productivity and Collaboration\n- Security and Identity\n- Serverless\n- Storage\n- Web3\n- Featured Products\n- Not seeing what you're looking for?\n- See all products (100+)\n- Not seeing what you're looking for?\n- See all AI and machine learning products\n- Business Intelligence\n- Not seeing what you're looking for?\n- See all compute products\n- Not seeing what you're looking for?\n- See all data analytics products\n- Not seeing what you're looking for?\n- See all developer tools\n- Hybrid and Multicloud\n- Industry Specific\n- Not seeing what you're looking for?\n- See all management tools\n- Media Services\n- Not seeing what you're looking for?\n- See all networking products\n- Productivity and Collaboration\n- Not seeing what you're looking for?\n- See all security and identity products\n- Save money with our transparent approach to pricing\n- Google Cloud's pay-as-you-go pricing offers automatic savings based on monthly usage and discounted rates for prepaid resources. Contact us today to get a quote.\n- Pricing overview and tools\n- Learn & build\n- Connect\n- Accelerate your digital transformation\n- Learn more\n- Key benefits\n- Why Google Cloud\n- AI and Agents\n- Multicloud\n- Global infrastructure\n- Data Cloud\n- Modern Infrastructure Cloud\n- Security\n- Productivity and collaboration\n- Reports and insights\n- Executive insights\n- Analyst reports\n- Whitepapers\n- Customer stories\n- Industry Solutions\n- Retail\n- Consumer Packaged Goods\n- Financial Services\n- Healthcare and Life Sciences\n- Media and Entertainment\n- Telecommunications\n- Games\n- Manufacturing\n- Supply Chain and Logistics\n- Government\n- Education\n- See all industry solutions\n- See all solutions\n- Application Modernization\n- CAMP\n- Modernize Traditional Applications\n- Migrate from PaaS: Cloud Foundry, Openshift\n- Migrate from Mainframe\n- Modernize Software Delivery\n- DevOps Best Practices\n- SRE Principles\n- Platform Engineering\n- Architect for Multicloud\n- Artificial Intelligence\n- Gemini Enterprise for Customer Experience\n- Gemini Enterprise\n- AI Commerce Search\n- Google Cloud with Gemini\n- Physical AI\n- APIs and Applications\n- New Business Channels Using APIs\n- Unlocking Legacy Applications Using APIs\n- Open Banking APIx\n- Data Analytics\n- Data Migration\n- Data Lakehouse\n- Real-time Analytics\n- Marketing Analytics\n- Datasets\n- Business Intelligence\n- Data Analytics Agents\n- Geospatial Analytics\n- Data Science\n- Databases\n- Database Migration\n- Database Modernization\n- Databases for Games\n- Google Cloud Databases\n- Migrate Oracle workloads to Google Cloud\n- Open Source Databases\n- SQL Server on Google Cloud\n- Gemini for Databases\n- Infrastructure\n- Application Migration\n- SAP on Google Cloud\n- High Performance Computing\n- Windows on Google Cloud\n- Data Center Migration\n- Active Assist\n- Virtual Desktops\n- Rapid Migration and Modernization Program\n- Backup and Disaster Recovery\n- Red Hat on Google Cloud\n- Cross-Cloud Network\n- AI Infrastructure\n- Productivity and Collaboration\n- Google Workspace\n- Google Workspace Essentials\n- Cloud Identity\n- Chrome Enterprise\n- Security\n- Agentic SOC\n- Web App and API Protection\n- Security and Resilience Framework\n- Risk and compliance as code (RCaC)\n- Software Supply Chain Security\n- Security Foundation\n- Google Cloud Cybershield™\n- Startups and SMB\n- Startup Program\n- Small and Medium Business\n- Software as a Service\n- Featured Products\n- Gemini Enterprise app\n- Agent Platform\n- Compute Engine\n- Cloud Storage\n- BigQuery\n- Cloud Run\n- Google Kubernetes Engine\n- Looker\n- Apigee API Management\n- Cloud SQL\n- Cloud CDN\n- See all products (100+)\n- AI and Machine Learning\n- Gemini Enterprise Agent Platform\n- Gemini Enterprise app\n- Gemini Enterprise for Customer Experience\n- Model Garden\n- Customer Experience Agent Studio\n- Agent Search\n- Speech-to-Text\n- Text-to-Speech\n- Translation AI\n- Vision AI\n- Contact Center as a Service\n- See all AI and machine learning products\n- Business Intelligence\n- Looker\n- Data Studio\n- Compute\n- Compute Engine\n- App Engine\n- Cloud GPUs\n- Migrate to Virtual Machines\n- Spot VMs\n- Batch\n- Sole-Tenant Nodes\n- Bare Metal\n- Recommender\n- VMware Engine\n- Cloud Run\n- See all compute products\n- Containers\n- Google Kubernetes Engine\n- Cloud Run\n- Cloud Build\n- Artifact Registry\n- Cloud Code\n- Cloud Deploy\n- Migrate to Containers\n- Deep Learning Containers\n- Knative\n- Data Analytics\n- BigQuery\n- Managed Service for Apache Spark\n- Dataflow\n- Looker\n- Lakehouse\n- Pub/Sub\n- Managed Service for Apache Airflow\n- Knowledge Catalog\n- Data Analytics Agents\n- Data Analytics Migration Services\n- Managed Service for Apache Kafka\n- See all data analytics products\n- Databases\n- AlloyDB for PostgreSQL\n- Cloud SQL\n- Firestore\n- Spanner\n- Bigtable\n- Datastream\n- Database Migration Service\n- Bare Metal Solution\n- Memorystore\n- Developer Tools\n- Artifact Registry\n- Cloud Code\n- Cloud Build\n- Cloud Deploy\n- Cloud Deployment Manager\n- Cloud SDK\n- Cloud Scheduler\n- Cloud Source Repositories\n- Infrastructure Manager\n- Cloud Workstations\n- Gemini Code Assist\n- See all developer tools\n- Distributed Cloud\n- Google Distributed Cloud Connected\n- Google Distributed Cloud Air-gapped\n- Hybrid and Multicloud\n- Google Kubernetes Engine\n- Apigee API Management\n- Migrate to Containers\n- Cloud Build\n- Observability\n- Cloud Service Mesh\n- Google Distributed Cloud\n- Industry Specific\n- Anti Money Laundering AI\n- Cloud Healthcare API\n- Device Connect for Fitbit\n- Telecom Network Automation\n- Telecom Data Fabric\n- Telecom Subscriber Insights\n- Spectrum Access System (SAS)\n- Integration Services\n- Application Integration\n- Workflows\n- Apigee API Management\n- Cloud Tasks\n- Cloud Scheduler\n- Managed Service for Apache Spark\n- Cloud Data Fusion\n- Managed Service for Apache Airflow\n- Pub/Sub\n- Eventarc\n- Management Tools\n- Cloud Shell\n- Cloud console\n- Cloud Endpoints\n- Cloud IAM\n- Cloud APIs\n- Service Catalog\n- Cost Management\n- Observability\n- Carbon Footprint\n- Config Connector\n- Active Assist\n- See all management tools\n- Maps and Geospatial\n- Earth Engine\n- Google Maps Platform\n- Media Services\n- Cloud CDN\n- Live Stream API\n- OpenCue\n- Transcoder API\n- Video Stitcher API\n- Migration\n- Migration Center\n- Application Migration\n- Migrate to Virtual Machines\n- Cloud Foundation Toolkit\n- Database Migration Service\n- Migrate to Containers\n- Data Analytics Migration Services\n- Rapid Migration and Modernization Program\n- Transfer Appliance\n- Storage Transfer Service\n- VMware Engine\n- Networking\n- Cloud Armor\n- Cloud CDN and Media CDN\n- Cloud DNS\n- Cloud Load Balancing\n- Cloud NAT\n- Cloud Connectivity\n- Network Connectivity Center\n- Network Intelligence Center\n- Network Service Tiers\n- Virtual Private Cloud\n- Private Service Connect\n- See all networking products\n- Operations\n- Cloud Logging\n- Cloud Monitoring\n- Error Reporting\n- Managed Service for Prometheus\n- Cloud Trace\n- Cloud Profiler\n- Cloud Quotas\n- Productivity and Collaboration\n- AppSheet\n- AppSheet Automation\n- Gemini Enterprise app\n- Google Workspace\n- Google Workspace Essentials\n- Cloud Identity\n- Chrome Enterprise\n- Security and Identity\n- Cloud IAM\n- Sensitive Data Protection\n- Mandiant Managed Defense\n- Google Threat Intelligence\n- Security Command Center\n- Cloud Key Management\n- Mandiant Incident Response\n- Chrome Enterprise Premium\n- Assured Workloads\n- Google Security Operations\n- Mandiant Consulting\n- See all security and identity products\n- Serverless\n- Cloud Run\n- Cloud Functions\n- App Engine\n- Workflows\n- API Gateway\n- Storage\n- Cloud Storage\n- Block Storage\n- Filestore\n- Persistent Disk\n- Cloud Storage for Firebase\n- Local SSD\n- Storage Transfer Service\n- Google Cloud Managed Lustre\n- Google Cloud NetApp Volumes\n- Backup and DR Service\n- Web3\n- Blockchain Node Engine\n- Blockchain RPC\n- Save money with our transparent approach to pricing\n- Request a quote\n- Pricing overview and tools\n- Google Cloud pricing\n- Pricing calculator\n- Google Cloud free tier\n- Cost optimization framework\n- Cost management tools\n- Product-specific Pricing\n- Compute Engine\n- Cloud SQL\n- Google Kubernetes Engine\n- Cloud Storage\n- BigQuery\n- See full price list with 100+ products\n- Learn & build\n- Google Cloud Free Program\n- Solution Generator\n- Quickstarts\n- Blog\n- Learning Hub\n- Google Cloud certification\n- Cloud computing basics\n- Cloud Architecture Center\n- Connect\n- Innovators\n- Developer Center\n- Events and webinars\n- Google Cloud Community\n- Consulting and Partners\n- Google Cloud Consulting\n- Google Cloud Marketplace\n- Find a partner\n- Google Cloud partners",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:14:42.901434Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 2908,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_069ec0833ad5",
+      "source_type": "official_docs",
+      "url": "https://cloud.google.com/gemini",
+      "domain": "cloud.google.com",
+      "page_title": "Google AI Studio vs. Gemini Enterprise Agent Platform vs. Gemini Enterprise app | Google Cloud",
+      "content": "Gemini's ecosystem of products and models can help developers and businesses get the most out of Google AI, from building with Gemini models to using Gemini across every employee in your organization.\nTry Gemini 3, our best model for reasoning, coding, and multimodal understanding\nBUILD WITH GEMINI MODELS:\nExperiment, prototype, and deploy. Google AI Studio is the fast path for developers, students, and researchers who want to try Gemini models and get started building with the Gemini Developer API.\nBuild AI agents and integrate generative AI into your applications. Google Cloud offers Agent Platform, a single, fully-managed, unified development platform for using Gemini models and other third party models at scale.\nUSE GEMINI IN YOUR BUSINESS:\nBring the best of Google AI to every employee. Gemini Enterprise app empowers teams to discover, create, share, and run AI agents all in one secure platform.\nYour AI-powered assistant built right into Gmail, Docs, Slides, Sheets, and more, to help boost your productivity and creativity.\n| Gemini offering | Use case | Resources | \n|---|---|---|\n| Gemini Developer API | Start using Gemini with Google AI Studio, a web-based tool that lets you prototype, run prompts right in your browser. Google AI Studio is the fast path for developers, students, and researchers who want to try Gemini models and get started building with the Gemini Developer API. | |\n| Gemini API in Gemini Enterprise Agent Platform | Enterprise customers and developers can experience Google's largest and most capable AI models through the Gemini API in Agent Platform. Agent Platform makes it possible to discover, customize, tune, and deploy Gemini models at scale, empowering developers to build new and differentiated applications that can process information across text, code, images, and video. | |\n| Gemini Enterprise app | With Gemini Enterprise app, every individual can shift from tedious tasks to high-impact work. They can access Google’s powerful AI models through an intuitive chat interface, deploy ready-to-use agents from Google and our thriving ecosystem of partners, and even transform their own expertise into shared automations for the entire company with a powerful no-code workbench. | |\n| Google Cloud with Gemini | Our AI assistant for developers. Gemini Code Assist offers AI-powered assistance to help developers build applications with higher velocity and quality. Code assistance is available in many popular IDEs, such as Visual Studio Code, JetBrains IDEs , Cloud Workstations, Cloud Shell Editor, and supports 20+ programming languages. | |\n| Gemini Cloud Assist (in preview) helps cloud teams design, operate, and optimize their application lifecycle. Gemini’s contextual and personalized AI guidance understands your Google Cloud resources to help you craft new designs, deploy workloads, manage applications, troubleshoot issues, and optimize performance and costs. | ||\n| Gemini in BigQuery provides AI-powered assistive and collaboration features including assisted SQL and Python data analysis, visual data preparation, and intelligent recommendations that help enhance productivity and optimize costs. | ||\n| Gemini in Looker (preview) provides an always-on intelligent assistant that enables you to have conversations with your data and helps you automatically create and share your insights even faster, with automated reports and visualizations. | ||\n| Generative AI-powered assistance to cloud defenders where and when they need it. Gemini in Security Operations and Gemini in Threat Intelligence are now generally available, while Gemini in Security Command Center is currently in preview. | ||\n| Database Center is an AI-assisted dashboard that gives you one centralized view across your entire database fleet. You can view database fleet health issues and recommendations, and you can ask questions about database fleet health issues, including availability configuration, data protection, security, and industry compliance. | ||\n| Jumpstart your startup and AI development by discovering, customizing, and deploying state-of-the art Gemini models and task-specific models for image generation, speech-to-text, and more through Gemini Enterprise Agent Platform. | ||\n| Google Workspace with Gemini | Google Workspace with is a powerful collaborative partner that can act as a coach, thought partner, source of inspiration, and productivity booster—all while ensuring every user and organization has control over their data. | \nStart using Gemini with Google AI Studio, a web-based tool that lets you prototype, run prompts right in your browser. Google AI Studio is the fast path for developers, students, and researchers who want to try Gemini models and get started building with the Gemini Developer API.\nEnterprise customers and developers can experience Google's largest and most capable AI models through the Gemini API in Agent Platform. Agent Platform makes it possible to discover, customize, tune, and deploy Gemini models at scale, empowering developers to build new and differentiated applications that can process information across text, code, images, and video.\nWith Gemini Enterprise app, every individual can shift from tedious tasks to high-impact work. They can access Google’s powerful AI models through an intuitive chat interface, deploy ready-to-use agents from Google and our thriving ecosystem of partners, and even transform their own expertise into shared automations for the entire company with a powerful no-code workbench.\nOur AI assistant for developers. Gemini Code Assist offers AI-powered assistance to help developers build applications with higher velocity and quality. Code assistance is available in many popular IDEs, such as Visual Studio Code, JetBrains IDEs , Cloud Workstations, Cloud Shell Editor, and supports 20+ programming languages.\nGoogle Workspace with is a powerful collaborative partner that can act as a coach, thought partner, source of inspiration, and productivity booster—all while ensuring every user and organization has control over their data.\nTry Google Cloud AI and machine learning products. New customers can get started with up to $300 in free credits.\n- Have a large project?Contact sales\n- Continue browsingSee all AI/ML products\n- Work with a trusted PartnerFind a partner\n- Accelerate your digital transformation\n- Whether your business is early in its journey or well on its way to digital transformation, Google Cloud can help solve your toughest challenges.\n- Key benefits\n- Featured Products\n- AI and Machine Learning\n- Business Intelligence\n- Compute\n- Containers\n- Data Analytics\n- Databases\n- Developer Tools\n- Distributed Cloud\n- Hybrid and Multicloud\n- Industry Specific\n- Integration Services\n- Management Tools\n- Maps and Geospatial\n- Media Services\n- Migration\n- Networking\n- Operations\n- Productivity and Collaboration\n- Security and Identity\n- Serverless\n- Storage\n- Web3\n- Featured Products\n- Not seeing what you're looking for?\n- See all products (100+)\n- Not seeing what you're looking for?\n- See all AI and machine learning products\n- Business Intelligence\n- Not seeing what you're looking for?\n- See all compute products\n- Not seeing what you're looking for?\n- See all data analytics products\n- Not seeing what you're looking for?\n- See all developer tools\n- Hybrid and Multicloud\n- Industry Specific\n- Not seeing what you're looking for?\n- See all management tools\n- Media Services\n- Not seeing what you're looking for?\n- See all networking products\n- Productivity and Collaboration\n- Not seeing what you're looking for?\n- See all security and identity products\n- Save money with our transparent approach to pricing\n- Google Cloud's pay-as-you-go pricing offers automatic savings based on monthly usage and discounted rates for prepaid resources. Contact us today to get a quote.\n- Pricing overview and tools\n- Learn & build\n- Connect\n- Accelerate your digital transformation\n- Learn more\n- Key benefits\n- Why Google Cloud\n- AI and Agents\n- Multicloud\n- Global infrastructure\n- Data Cloud\n- Modern Infrastructure Cloud\n- Security\n- Productivity and collaboration\n- Reports and insights\n- Executive insights\n- Analyst reports\n- Whitepapers\n- Customer stories\n- Industry Solutions\n- Retail\n- Consumer Packaged Goods\n- Financial Services\n- Healthcare and Life Sciences\n- Media and Entertainment\n- Telecommunications\n- Games\n- Manufacturing\n- Supply Chain and Logistics\n- Government\n- Education\n- See all industry solutions\n- See all solutions\n- Application Modernization\n- CAMP\n- Modernize Traditional Applications\n- Migrate from PaaS: Cloud Foundry, Openshift\n- Migrate from Mainframe\n- Modernize Software Delivery\n- DevOps Best Practices\n- SRE Principles\n- Platform Engineering\n- Architect for Multicloud\n- Artificial Intelligence\n- Gemini Enterprise for Customer Experience\n- Gemini Enterprise\n- AI Commerce Search\n- Google Cloud with Gemini\n- Physical AI\n- APIs and Applications\n- New Business Channels Using APIs\n- Unlocking Legacy Applications Using APIs\n- Open Banking APIx\n- Data Analytics\n- Data Migration\n- Data Lakehouse\n- Real-time Analytics\n- Marketing Analytics\n- Datasets\n- Business Intelligence\n- Data Analytics Agents\n- Geospatial Analytics\n- Data Science\n- Databases\n- Database Migration\n- Database Modernization\n- Databases for Games\n- Google Cloud Databases\n- Migrate Oracle workloads to Google Cloud\n- Open Source Databases\n- SQL Server on Google Cloud\n- Gemini for Databases\n- Infrastructure\n- Application Migration\n- SAP on Google Cloud\n- High Performance Computing\n- Windows on Google Cloud\n- Data Center Migration\n- Active Assist\n- Virtual Desktops\n- Rapid Migration and Modernization Program\n- Backup and Disaster Recovery\n- Red Hat on Google Cloud\n- Cross-Cloud Network\n- AI Infrastructure\n- Productivity and Collaboration\n- Google Workspace\n- Google Workspace Essentials\n- Cloud Identity\n- Chrome Enterprise\n- Security\n- Agentic SOC\n- Web App and API Protection\n- Security and Resilience Framework\n- Risk and compliance as code (RCaC)\n- Software Supply Chain Security\n- Security Foundation\n- Google Cloud Cybershield™\n- Startups and SMB\n- Startup Program\n- Small and Medium Business\n- Software as a Service\n- Featured Products\n- Gemini Enterprise app\n- Agent Platform\n- Compute Engine\n- Cloud Storage\n- BigQuery\n- Cloud Run\n- Google Kubernetes Engine\n- Looker\n- Apigee API Management\n- Cloud SQL\n- Cloud CDN\n- See all products (100+)\n- AI and Machine Learning\n- Gemini Enterprise Agent Platform\n- Gemini Enterprise app\n- Gemini Enterprise for Customer Experience\n- Model Garden\n- Customer Experience Agent Studio\n- Agent Search\n- Speech-to-Text\n- Text-to-Speech\n- Translation AI\n- Vision AI\n- Contact Center as a Service\n- See all AI and machine learning products\n- Business Intelligence\n- Looker\n- Data Studio\n- Compute\n- Compute Engine\n- App Engine\n- Cloud GPUs\n- Migrate to Virtual Machines\n- Spot VMs\n- Batch\n- Sole-Tenant Nodes\n- Bare Metal\n- Recommender\n- VMware Engine\n- Cloud Run\n- See all compute products\n- Containers\n- Google Kubernetes Engine\n- Cloud Run\n- Cloud Build\n- Artifact Registry\n- Cloud Code\n- Cloud Deploy\n- Migrate to Containers\n- Deep Learning Containers\n- Knative\n- Data Analytics\n- BigQuery\n- Managed Service for Apache Spark\n- Dataflow\n- Looker\n- Lakehouse\n- Pub/Sub\n- Managed Service for Apache Airflow\n- Knowledge Catalog\n- Data Analytics Agents\n- Data Analytics Migration Services\n- Managed Service for Apache Kafka\n- See all data analytics products\n- Databases\n- AlloyDB for PostgreSQL\n- Cloud SQL\n- Firestore\n- Spanner\n- Bigtable\n- Datastream\n- Database Migration Service\n- Bare Metal Solution\n- Memorystore\n- Developer Tools\n- Artifact Registry\n- Cloud Code\n- Cloud Build\n- Cloud Deploy\n- Cloud Deployment Manager\n- Cloud SDK\n- Cloud Scheduler\n- Cloud Source Repositories\n- Infrastructure Manager\n- Cloud Workstations\n- Gemini Code Assist\n- See all developer tools\n- Distributed Cloud\n- Google Distributed Cloud Connected\n- Google Distributed Cloud Air-gapped\n- Hybrid and Multicloud\n- Google Kubernetes Engine\n- Apigee API Management\n- Migrate to Containers\n- Cloud Build\n- Observability\n- Cloud Service Mesh\n- Google Distributed Cloud\n- Industry Specific\n- Anti Money Laundering AI\n- Cloud Healthcare API\n- Device Connect for Fitbit\n- Telecom Network Automation\n- Telecom Data Fabric\n- Telecom Subscriber Insights\n- Spectrum Access System (SAS)\n- Integration Services\n- Application Integration\n- Workflows\n- Apigee API Management\n- Cloud Tasks\n- Cloud Scheduler\n- Managed Service for Apache Spark\n- Cloud Data Fusion\n- Managed Service for Apache Airflow\n- Pub/Sub\n- Eventarc\n- Management Tools\n- Cloud Shell\n- Cloud console\n- Cloud Endpoints\n- Cloud IAM\n- Cloud APIs\n- Service Catalog\n- Cost Management\n- Observability\n- Carbon Footprint\n- Config Connector\n- Active Assist\n- See all management tools\n- Maps and Geospatial\n- Earth Engine\n- Google Maps Platform\n- Media Services\n- Cloud CDN\n- Live Stream API\n- OpenCue\n- Transcoder API\n- Video Stitcher API\n- Migration\n- Migration Center\n- Application Migration\n- Migrate to Virtual Machines\n- Cloud Foundation Toolkit\n- Database Migration Service\n- Migrate to Containers\n- Data Analytics Migration Services\n- Rapid Migration and Modernization Program\n- Transfer Appliance\n- Storage Transfer Service\n- VMware Engine\n- Networking\n- Cloud Armor\n- Cloud CDN and Media CDN\n- Cloud DNS\n- Cloud Load Balancing\n- Cloud NAT\n- Cloud Connectivity\n- Network Connectivity Center\n- Network Intelligence Center\n- Network Service Tiers\n- Virtual Private Cloud\n- Private Service Connect\n- See all networking products\n- Operations\n- Cloud Logging\n- Cloud Monitoring\n- Error Reporting\n- Managed Service for Prometheus\n- Cloud Trace\n- Cloud Profiler\n- Cloud Quotas\n- Productivity and Collaboration\n- AppSheet\n- AppSheet Automation\n- Gemini Enterprise app\n- Google Workspace\n- Google Workspace Essentials\n- Cloud Identity\n- Chrome Enterprise\n- Security and Identity\n- Cloud IAM\n- Sensitive Data Protection\n- Mandiant Managed Defense\n- Google Threat Intelligence\n- Security Command Center\n- Cloud Key Management\n- Mandiant Incident Response\n- Chrome Enterprise Premium\n- Assured Workloads\n- Google Security Operations\n- Mandiant Consulting\n- See all security and identity products\n- Serverless\n- Cloud Run\n- Cloud Functions\n- App Engine\n- Workflows\n- API Gateway\n- Storage\n- Cloud Storage\n- Block Storage\n- Filestore\n- Persistent Disk\n- Cloud Storage for Firebase\n- Local SSD\n- Storage Transfer Service\n- Google Cloud Managed Lustre\n- Google Cloud NetApp Volumes\n- Backup and DR Service\n- Web3\n- Blockchain Node Engine\n- Blockchain RPC\n- Save money with our transparent approach to pricing\n- Request a quote\n- Pricing overview and tools\n- Google Cloud pricing\n- Pricing calculator\n- Google Cloud free tier\n- Cost optimization framework\n- Cost management tools\n- Product-specific Pricing\n- Compute Engine\n- Cloud SQL\n- Google Kubernetes Engine\n- Cloud Storage\n- BigQuery\n- See full price list with 100+ products\n- Learn & build\n- Google Cloud Free Program\n- Solution Generator\n- Quickstarts\n- Blog\n- Learning Hub\n- Google Cloud certification\n- Cloud computing basics\n- Cloud Architecture Center\n- Connect\n- Innovators\n- Developer Center\n- Events and webinars\n- Google Cloud Community\n- Consulting and Partners\n- Google Cloud Consulting\n- Google Cloud Marketplace\n- Find a partner\n- Google Cloud partners",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:14:40.792601Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 3839,
+      "quality_score": 0.56
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "NotebookLM is a Google Cloud service for managing and analyzing notebooks.",
+      "evidence_ids": [
+        "ev_67f0f6aab298"
+      ]
+    },
+    "category": {
+      "value": "AI Research and Media",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "OAuth 2.0, API Key",
+      "evidence_ids": [
+        "ev_67f0f6aab298"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_0bed265c8559"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API",
+      "evidence_ids": [
+        "ev_67f0f6aab298"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_67f0f6aab298"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_67f0f6aab298"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_67f0f6aab298"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_67f0f6aab298"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.75,
+    "fields_checked": 8,
+    "fields_supported": 6,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.75,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.75 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

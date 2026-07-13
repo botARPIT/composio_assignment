@@ -1,0 +1,586 @@
+{
+  "app": {
+    "id": 5,
+    "name": "Twenty",
+    "website": "twenty.com",
+    "category_hint": "CRM and Sales"
+  },
+  "documentation_map": {
+    "app_name": "Twenty",
+    "official_domain": "twenty.com",
+    "homepage": {
+      "url": "https://twenty.com",
+      "title": "Twenty",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://developer.twenty.com/docs/authentication",
+        "title": "",
+        "confidence": 0.95,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://docs.twenty.com/developers/extend/api",
+        "title": "API guide",
+        "confidence": 1.0,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://twenty.com/.well-known/api-catalog",
+          "title": "API catalog",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://twenty.com/pricing",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://docs.twenty.com/user-guide/ai/capabilities/mcp",
+        "title": "MCP server guide",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://twenty.com/.well-known/mcp/server-card.json",
+          "title": "MCP server card",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://docs.twenty.com/developers/introduction",
+        "title": "Developer documentation",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": {
+      "url": "https://twenty.com/llms.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "Twenty",
+      "official_domain": "twenty.com",
+      "items": [
+        {
+          "url": "https://twenty.com",
+          "page_type": "homepage",
+          "title": "Twenty",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://{your-workspace-url}/mcp`",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://docs.twenty.com/user-guide/ai/capabilities/mcp",
+          "page_type": "mcp",
+          "title": "MCP server guide",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://twenty.com/.well-known/mcp/server-card.json",
+          "page_type": "mcp",
+          "title": "MCP server card",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.twenty.com/developers/extend/api",
+          "page_type": "api_reference",
+          "title": "API guide",
+          "confidence": 1.0,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://twenty.com/.well-known/api-catalog",
+          "page_type": "api_reference",
+          "title": "API catalog",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.twenty.com/developers/introduction",
+          "page_type": "developer_portal",
+          "title": "Developer documentation",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.twenty.com/docs/authentication",
+          "page_type": "authentication",
+          "title": "",
+          "confidence": 0.95,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://twenty.com/pricing",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 1,
+        "urls_discovered": 9,
+        "official_urls": 8,
+        "non_official_filtered": 1,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 6
+      }
+    },
+    "stats": {
+      "queries": 1,
+      "urls_discovered": 9,
+      "official_urls": 8,
+      "non_official_filtered": 1,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 6
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_09899ef2872a",
+      "source_type": "llms_txt",
+      "url": "https://twenty.com/llms.txt",
+      "domain": "twenty.com",
+      "page_title": "llms.txt index",
+      "content": "\\# Twenty\n\n\\> Twenty is an open-source CRM. AI assistants and agents can read and write CRM data through the Model Context Protocol (MCP) server or the REST/GraphQL API.\n\nEvery endpoint is workspace-scoped: replace \\`{your-workspace-url}\\` with your workspace host (e.g. \\`mycompany.twenty.com\\` or a custom domain). The MCP server is at \\`https://{your-workspace-url}/mcp\\` (transport: streamable-http; auth: OAuth 2.1 or an API-key Bearer token). The REST base is \\`https://{your-workspace-url}/rest\\`, with per-workspace OpenAPI at \\`/rest/open-api/core\\` and \\`/rest/open-api/metadata\\` (send an \\`Authorization: Bearer \\` header). GraphQL is at \\`/graphql\\` and \\`/metadata\\`.\n\nTwenty is multi-tenant, so there is no single global API host: each workspace has its own base URL, and the REST OpenAPI is generated per workspace, so it includes any custom objects and fields you have created. Prefer the MCP server for agents — it exposes typed tools with header-based auth and discovers your workspace's tools at runtime, so it does not depend on the per-workspace OpenAPI document.\n\n\\## Connect an AI assistant\n\n\\- \\[MCP server guide\\](https://docs.twenty.com/user-guide/ai/capabilities/mcp): connect Claude, Cursor, ChatGPT and others.\n\\- \\[MCP server card\\](https://twenty.com/.well-known/mcp/server-card.json): machine-readable MCP metadata.\n\n\\## APIs\n\n\\- \\[API guide\\](https://docs.twenty.com/developers/extend/api): REST and GraphQL, generated from your workspace schema.\n\\- \\[API catalog\\](https://twenty.com/.well-known/api-catalog): RFC 9727 index of the API surfaces.\n\n\\## Docs\n\n\\- \\[Developer documentation\\](https://docs.twenty.com/developers/introduction)\n\\- \\[Source code\\](https://github.com/twentyhq/twenty)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:25.354028Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 431,
+      "quality_score": 1.0
+    },
+    {
+      "id": "ev_0daa70027d9f",
+      "source_type": "api_reference",
+      "url": "https://docs.twenty.com/developers/extend/api",
+      "domain": "docs.twenty.com",
+      "page_title": "APIs - Twenty Documentation",
+      "content": "There is no static API reference for Twenty. Each workspace has its own schema — when you add a custom object (say `Invoice`), it immediately gets REST and GraphQL endpoints identical to built-in objects like `Company` or `Person`. The API is generated from the schema, so endpoints use your object and field names directly — no opaque IDs.Your workspace-specific API documentation is available under **Settings → API & Webhooks** after creating an API key. It includes an interactive playground where you can execute real calls against your data.\n\n**Core API** — `/rest/` and `/graphql/`CRUD on records: People, Companies, Opportunities, your custom objects. Query, filter, traverse relations.**Metadata API** — `/rest/metadata/` and `/metadata/`Schema management: create/modify/delete objects, fields, and relations. This is how you programmatically change your data model.Both are available as REST and GraphQL. GraphQL adds batch upserts and the ability to traverse relations in a single query. Same underlying data either way.\n\n| Environment | Base URL |\n| --- | --- |\n| Cloud | `https://api.twenty.com/` |\n| Self-Hosted | `https://{your-domain}/` |\n\n```\nAuthorization: Bearer YOUR_API_KEY\n```\n\nCreate an API key in **Settings → API & Webhooks → + Create key**. Copy it immediately — it’s shown once. Keys can be scoped to a specific role under **Settings → Members → Roles → Assignment tab** to limit what they can access.\n\ngenerate-api-key from Thomas Colas des Francs on Vimeo\n\n![video thumbnail](https://i.vimeocdn.com/video/1824370526-d3efb8f219966f770ffe67b6ddbe44824be59c72dcbedcc801d065bd04565bd4-d?mw=80&q=85)\n\nPlaying in picture-in-picture\n\nPause\n\nSpeed\n\n2x\n\n1.5x\n\n1.25x\n\n1x\n\n0.75x\n\n0.5x\n\nPicture-in-Picture\n\nFor OAuth-based access (external apps acting on behalf of users), see [OAuth](https://docs.twenty.com/developers/extend/oauth).",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:26.175298Z",
+      "section_path": "[​](https://docs.twenty.com/developers/extend/api\\#schema-per-tenant-apis)  Schema-per-tenant APIs > [​](https://docs.twenty.com/developers/extend/api\\#authentication)  Authentication",
+      "chunk_index": 0,
+      "token_count": 462,
+      "quality_score": 0.9
+    },
+    {
+      "id": "ev_6069f01c51f3",
+      "source_type": "pricing_page",
+      "url": "https://twenty.com/pricing",
+      "domain": "twenty.com",
+      "page_title": "Twenty CRM Pricing — Plans from $9 per User per Month",
+      "content": "Start your free trial today\nwithout credit card.\n\nMonthlyYearly-25%\n\nSelfhosting\n\n/user/month\n\n![Pro plan icon](https://twenty.com/_next/image?url=%2Fimages%2Fpricing%2Fplans%2Fpro-icon.webp&w=3840&q=75&dpl=dpl-770a1f29-29248756355-1)\n\n- Full customization\n- Create custom apps\n- AI Agents with custom skills\n- 50 workflow credits/year included\n- Standard support\n\n[Start for free](https://app.twenty.com/welcome)\n\n/user/month\n\n![Organization plan icon](https://twenty.com/_next/image?url=%2Fimages%2Fpricing%2Fplans%2Forganization-icon.webp&w=3840&q=75&dpl=dpl-770a1f29-29248756355-1)\n\n- Everything in Pro\n- Row-level permissions\n- SAML/OIDC SSO\n- Custom domain\n- Priority support\n\n[Start for free](https://app.twenty.com/welcome)\n\n![](https://twenty.com/_next/image?url=%2Fimages%2Fpricing%2Fengagement-band%2Fhalftone-on-white.webp&w=3840&q=75&dpl=dpl-770a1f29-29248756355-1)\n\nFind the right partner to implement, customize, and tailor Twenty to your team.\n\n[Find a partner](https://twenty.com/partners/list)\n\nName\n\nPro\n\nOrganization\n\nPrice\n\n$9\n\n$19\n\nSeats limit\n\nUnlimited\n\nUnlimited\n\nWorkspace\n\nCustom objects\n\nUnlimited\n\nUnlimited\n\nCustom fields\n\nUnlimited\n\nUnlimited\n\nCustom views\n\nUnlimited\n\nUnlimited\n\nView types\n\nTable, Kanban, Calendar\n\nTable, Kanban, Calendar\n\nCustom layout\n\nUnlimited\n\nUnlimited\n\nRecords\n\nUnlimited\n\nUnlimited\n\nCSV import & export\n\nYes\n\nYes\n\nLanguages\n\n30+\n\n30+\n\nReports\n\nNumber of dashboards\n\nUnlimited\n\nUnlimited\n\nEmails & Calendar\n\nInternet accounts per user\n\nUnlimited\n\nUnlimited\n\nFolder/Label import\n\nYes\n\nYes\n\nEmail sharing\n\nFully customizable\n\nFully customizable\n\nAI & Automations\n\nWorkflows\n\nYes\n\nYes\n\nAI agents\n\nYes\n\nYes\n\nSecurity\n\nTwo-factor authentication\n\nYes\n\nYes\n\nUser roles\n\nUnlimited\n\nUnlimited\n\nRead/Edit/Delete permissions\n\nUnlimited\n\nUnlimited\n\nField-level permissions\n\nUnlimited\n\nUnlimited\n\nRow-level permissions\n\nNo\n\nUnlimited\n\nSSO\n\nNo\n\nYes\n\nEncryption key rotation\n\nNo\n\nYes\n\nAudit logs\n\nNo\n\nYes\n\nEnvironments\n\nLocal, Production\n\nLocal, Production\n\nImpersonate users\n\nYes\n\nYes\n\nSupport\n\nCommunity\n\nYes\n\nYes\n\nHelp center\n\nYes\n\nYes\n\nEmail and Chat\n\nYes\n\nYes\n\nPriority support\n\nNo\n\nYes\n\nOnboarding Packs\n\nYes\n\nYes\n\nImplementation partners\n\nNo\n\nYes\n\nCustomization\n\nCustom apps\n\nUnlimited\n\nUnlimited\n\nSubdomain (yourco.twenty.com)\n\nYes\n\nYes\n\nCustom domain (crm.yourco.com)\n\nNo\n\nYes\n\nDevelopers\n\nREST & GraphQL API\n\nYes\n\nYes\n\nWebhooks\n\nYes\n\nYes\n\nMCP server\n\nYes\n\nYes\n\nInstall shared tarball app\n\nNo\n\nYes\n\nAPI calls\n\n50 per minute\n\n100 per minute\n\nSee more features",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:26.382904Z",
+      "section_path": "Simple  Pricing > Need help with customization?",
+      "chunk_index": 0,
+      "token_count": 627,
+      "quality_score": 0.84
+    },
+    {
+      "id": "ev_48347b6db319",
+      "source_type": "pricing_page",
+      "url": "https://twenty.com/pricing",
+      "domain": "twenty.com",
+      "page_title": "Twenty CRM Pricing — Plans from $9 per User per Month",
+      "content": "Some call this enterprise pricing. We prefer a CRM where API access, webhooks, and workflows don't show up as surprise add-ons.\n\n1‑800‑YES‑SOFTWARE\n\nSalesfarce Add-on Center\n\n?×\n\nSalesfarce Pro\n\n$100/ seat / month - billed yearly\n\n![Retro help document icon](https://twenty.com/images/pricing/salesfarce/help-icon.webp)\n\nAdd-ons\n\nSelect all\n\nAPI access+$35/user per month\n\nWebhooks (Change Data Capture)+$7000/org per month\n\nLive updatesUnavailable\n\nUnavailable\n\nReal-time is a state of mind, not a feature.\n\n✓UI themeRetro 2015\n\nIncluded!\n\nBetter than Liquid Glass!\n\nSSO+$5/user per month\n\n11 permissions\ngroups+$75/user per month\nSwitch to enterprise!\n\nMaps view+$105/user per month\n\n6 workflows+$75/user per month\nSwitch to enterprise!\n\nLock-in32 years contract-33% off\n\n✓APEX tutorialsFree for you!\n\nIncluded!\n\nAvailable on YouTube!\n\nSelf-hostingOut of stock\n\nOut of stock\n\nSelf-hosting, now for rent!\n\n✓Salesforce ClassicExtended run!\n\nIncluded!\n\nOutlived every redesign since 2004.\n\nFlow\norchestration$1/orchestration run/org\n+$75/user per month\nSwitch to enterprise!\n\nInfinite scrollComing soon!\n\nComing soon!\n\nPagination builds character.\n\nAI (Einstein)+$75/user per month\nSwitch to enterprise!\n\nEncrypt your data+20% of net spend\n+$75/user per month\nSwitch to enterprise!\n\nMore options available!\n\n[Check more add-ons](https://www.salesforce.com/en-us/wp-content/uploads/sites/4/documents/pricing/all-add-ons.pdf)\n\nAny Questions?",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:26.383003Z",
+      "section_path": "Simple  Pricing > Trust the n°1 CRM, or not!",
+      "chunk_index": 1,
+      "token_count": 359,
+      "quality_score": 0.84
+    },
+    {
+      "id": "ev_88de687fd0a3",
+      "source_type": "pricing_page",
+      "url": "https://twenty.com/pricing",
+      "domain": "twenty.com",
+      "page_title": "Twenty CRM Pricing — Plans from $9 per User per Month",
+      "content": "[Get started](https://app.twenty.com/welcome) Talk to us\n\nYes. Twenty is the #1 Open Source CRM on GitHub. You can self-host to fully own your infrastructure, or run it on our managed cloud for a zero-ops setup.\n\nSign up for Cloud in under a minute and start your 30-day trial. For larger rollouts, our 4-hour Onboarding Packs or certified partners get you live in 1–2 weeks.\n\nYes. Import your data via CSV, or use our API for 50,000+ records. Our partners can handle the full migration for you.\n\nNo. Build custom objects, fields, views, and no-code workflows straight from Settings. Unlimited, no extra charge.\n\nYes, with our Apps framework. Scaffold an extension with \\`npx create-twenty-app\\` and ship custom objects, server-side logic functions, React components that render inside Twenty’s UI, AI skills and agents, views, and navigation, all in TypeScript, deployable to any workspace.\n\nYes. Every Cloud workspace ships with a native MCP server. Connect your AI assistant via OAuth and it can read and write your CRM data in natural language.\n\nCloud Pro is $9/user/month (yearly). Organization is $19/user/month and unlocks SSO and row-level permissions for teams that need finer access control.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:26.383095Z",
+      "section_path": "Simple  Pricing > Stop fighting custom. Start building, with Twenty > What does Twenty cost?",
+      "chunk_index": 2,
+      "token_count": 300,
+      "quality_score": 0.84
+    },
+    {
+      "id": "ev_ddb5978e4d6f",
+      "source_type": "api_reference",
+      "url": "https://docs.twenty.com/developers/extend/api",
+      "domain": "docs.twenty.com",
+      "page_title": "APIs - Twenty Documentation",
+      "content": "Both REST and GraphQL support batching up to 60 records per request — create, update, or delete. GraphQL also supports batch upsert (create-or-update in one call) using plural names like `CreateCompanies`.\n\n| Limit | Value |\n| --- | --- |\n| Requests | 100 per minute |\n| Batch size | 60 records per call |\n\nWas this page helpful?\n\nYesNo\n\n[Translations\\\\\n\\\\\nPrevious](https://docs.twenty.com/developers/extend/apps/translations/overview) [Webhooks\\\\\n\\\\\nNext](https://docs.twenty.com/developers/extend/webhooks)\n\nCtrl+I\n\nAssistant\n\nResponses are generated using AI and may contain mistakes.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:26.175348Z",
+      "section_path": "[​](https://docs.twenty.com/developers/extend/api\\#schema-per-tenant-apis)  Schema-per-tenant APIs > [​](https://docs.twenty.com/developers/extend/api\\#rate-limits)  Rate limits",
+      "chunk_index": 1,
+      "token_count": 147,
+      "quality_score": 0.8
+    },
+    {
+      "id": "ev_f91da47720f9",
+      "source_type": "official_docs",
+      "url": "https://twenty.com",
+      "domain": "twenty.com",
+      "page_title": "Twenty | #1 Open Source CRM",
+      "content": "\\\n[Get started](https://app.twenty.com/welcome) Talk to us\\\n\\\n\n\\\nYes. Twenty is the #1 Open Source CRM on GitHub. You can self-host to fully own your infrastructure, or run it on our managed cloud for a zero-ops setup.\\\n\\\n\n\\\nSign up for Cloud in under a minute and start your 30-day trial. For larger rollouts, our 4-hour Onboarding Packs or certified partners get you live in 1–2 weeks.\\\n\\\n\n\\\nYes. Import your data via CSV, or use our API for 50,000+ records. Our partners can handle the full migration for you.\\\n\\\n\n\\\nNo. Build custom objects, fields, views, and no-code workflows straight from Settings. Unlimited, no extra charge.\\\n\\\n\n\\\nYes, with our Apps framework. Scaffold an extension with \\`npx create-twenty-app\\` and ship custom objects, server-side logic functions, React components that render inside Twenty’s UI, AI skills and agents, views, and navigation, all in TypeScript, deployable to any workspace.\\\n\\\n\n\\\nYes. Every Cloud workspace ships with a native MCP server. Connect your AI assistant via OAuth and it can read and write your CRM data in natural language.\\\n\\\n\n\\\nCloud Pro is $9/user/month (yearly). Organization is $19/user/month and unlocks SSO and row-level permissions for teams that need finer access control.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:25.543367Z",
+      "section_path": "Build your Enterprise CRM at AI Speed > Stop fighting custom. Start building, with Twenty\\ > What does Twenty cost?\\",
+      "chunk_index": 8,
+      "token_count": 309,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_8b4db33fc4ae",
+      "source_type": "official_docs",
+      "url": "https://twenty.com",
+      "domain": "twenty.com",
+      "page_title": "Twenty | #1 Open Source CRM",
+      "content": "Twenty gives technical teams the building blocks for a custom CRM that meets complex business needs and quickly adapts as the business evolves.\n\n[Get started](https://app.twenty.com/welcome) Talk to us\n\nTwenty\n\nCompanies\n\nNew\n\n⌘K\n\nAll Companies\n\n9\n\nFilterSortOptions\n\nCompanies\n\nUrl\n\nCreated By\n\nAddress\n\nAccount Owner\n\nICP\n\nARR\n\nLinkedin\n\nIndustry\n\nMain contact\n\nEmployees\n\nOpportunities\n\nAdded\n\n![Anthropic logo](https://twenty.com/images/shared/companies/logos/anthropic.webp)\n\nAnthropic\n\nanthropic.com\n\n![](https://twenty.com/images/shared/people/avatars/dario-amodei.webp)\n\nDario Amodei\n\n18 Rue De Navarin\n\n![](https://twenty.com/images/shared/people/avatars/dario-amodei.webp)\n\nDario Amodei\n\nTrue\n\n$500,000\n\nanthropic\n\nAI Research\n\n![](https://twenty.com/images/shared/people/avatars/dario-amodei.webp)\n\nDario Amodei\n\n612\n\nE\n\nEnterprise Expansion\n\nJul 1, 2023\n\n![Linkedin logo](https://twenty.com/images/shared/companies/logos/linkedin.webp)\n\nLinkedin\n\nlinkedin.com\n\n![](https://twenty.com/images/shared/people/avatars/reid-hoffman.webp)\n\nReid Hoffman\n\n1226 Moises Causeway\n\n![](https://twenty.com/images/shared/people/avatars/ryan-roslansky.webp)\n\nRyan Roslansky\n\nFalse\n\n$1,000,000\n\nlinkedin\n\nProfessional Networking\n\n![](https://twenty.com/images/shared/people/avatars/ryan-roslansky.webp)\n\nRyan Roslansky\n\n19,300\n\nT\n\nTalent Outreach\n\nJul 3, 2023\n\n![Slack logo](https://twenty.com/images/shared/companies/logos/slack.webp)\n\nSlack\n\nslack.com\n\n![](https://twenty.com/images/shared/people/avatars/stewart-butterfield.webp)\n\nStewart Butterfield\n\n1316 Dameon Mountain\n\n![](https://twenty.com/images/shared/people/avatars/stewart-butterfield.webp)\n\nStewart Butterfield\n\nTrue\n\n$2,300,000\n\nslack\n\nCollaboration Software\n\n![](https://twenty.com/images/shared/people/avatars/anonymous-indira.webp)\n\nLidiane Jones\n\n4,500\n\nW\n\nWorkspace Renewal\n\nJul 5, 2023\n\n![Notion logo](https://twenty.com/images/shared/companies/logos/notion.webp)\n\nNotion\n\nnotion.com\n\nAPI\n\nAPI - Key name\n\n1162 Sammy Creek\n\n![](https://twenty.com/images/shared/people/avatars/ivan-zhao.webp)\n\nIvan Zhao\n\nFalse\n\n$750,000\n\nnotion\n\nProductivity Software\n\n![](https://twenty.com/images/shared/people/avatars/ivan-zhao.webp)\n\nIvan Zhao\n\n620\n\nW\n\nWorkspace Consolidation\n\nJul 8, 2023\n\n![Figma logo](https://twenty.com/images/shared/companies/logos/figma.webp)\n\nFigma\n\nfigma.com\n\nWF\n\nWorkflow name\n\n110 Oswald Junction\n\n![](https://twenty.com/images/shared/people/avatars/dylan-field.webp)\n\nDylan Field\n\nTrue\n\n$3,500,000\n\nfigma\n\nDesign Tools\n\n![](https://twenty.com/images/shared/people/avatars/dylan-field.webp)\n\nDylan Field\n\n1,300\n\nAI\n\nAI Prototyping\n\nD\n\nDesign Ops\n\nJul 12, 2023\n\n![Github logo](https://twenty.com/images/shared/companies/logos/github.webp)\n\nGithub\n\ngithub.com\n\n![](https://twenty.com/images/shared/people/avatars/chris-wanstrath.webp)\n\nChris Wanstrath\n\n3891 Ranchview Drive\n\n![](https://twenty.com/images/shared/people/avatars/thomas-dohmke.webp)\n\nThomas Dohmke\n\nTrue\n\n$900,000\n\ngithub\n\nDeveloper Platform\n\n![](https://twenty.com/images/shared/people/avatars/thomas-dohmke.webp)\n\nThomas Dohmke\n\n3,800\n\nC\n\nCopilot Rollout\n\nJul 14, 2023\n\n![Airbnb logo](https://twenty.com/images/shared/companies/logos/airbnb.webp)\n\nAirbnb\n\nairbnb.com\n\n![](https://twenty.com/images/shared/people/avatars/joe-gebbia.webp)\n\nJoe Gebbia\n\n4517 Washington Avenue\n\n![](https://twenty.com/images/shared/people/avatars/brian-chesky.webp)\n\nBrian Chesky\n\nTrue\n\n$4,200,000\n\nairbnb\n\nTravel\n\n![](https://twenty.com/images/shared/people/avatars/brian-chesky.webp)\n\nBrian Chesky\n\n6,900\n\nH\n\nHost Ops\n\nJul 15, 2023\n\n![Stripe logo](https://twenty.com/images/shared/companies/logos/stripe.webp)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:25.542896Z",
+      "section_path": "Build your Enterprise CRM at AI Speed",
+      "chunk_index": 0,
+      "token_count": 908,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_68d4d719c4c1",
+      "source_type": "official_docs",
+      "url": "https://twenty.com",
+      "domain": "twenty.com",
+      "page_title": "Twenty | #1 Open Source CRM",
+      "content": "4 payload: { object: '16ffcc45-…', fields: { customer: 'd84468aa-…' } },\n\n5 launchSite: { object: '2f18d525-…', fields: { launches: 'b94b7f00-…' } },\n\n79 unmodified lines\n\n…my-twenty-app/src/objects/launch.object.ts\n\n+237-0\n\n1import { defineObject, FieldType, RelationType } from'twenty-sdk';\n\n3exportdefaultdefineObject({\n\n4 nameSingular: 'launch',\n\n5 labelSingular: 'Launch', labelPlural: 'Launches',\n\n6 icon: 'IconRocket',",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:25.543076Z",
+      "section_path": "Build your Enterprise CRM at AI Speed",
+      "chunk_index": 2,
+      "token_count": 106,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_0f11066b05cb",
+      "source_type": "official_docs",
+      "url": "https://twenty.com",
+      "domain": "twenty.com",
+      "page_title": "Twenty | #1 Open Source CRM",
+      "content": "7 fields: \\[\\\n\\\n8 { name: 'missionCode', type: FieldType.TEXT, isUnique: true },\\\n\\\n9 { name: 'status', type: FieldType.SELECT, options: \\[ … \\] },\\\n\\\n10 { name: 'plannedLaunchAt', type: FieldType.DATE\\_TIME },\\\n\\\n11 { name: 'rocket', type: FieldType.RELATION, relationType: RelationType.MANY\\_TO\\_ONE },\\\n\\\n226 unmodified lines\\\n\\\n…my-twenty-app/src/objects/payload.object.ts\\\n\\\n+198-0\\\n\\\n1import { STANDARD\\_OBJECT } from'twenty-sdk';\\\n\\\n4 { name: 'payloadType', type: FieldType.SELECT },\\\n\\\n5 { name: 'customer', type: FieldType.RELATION,\\\n\\\n6 relationTargetObjectMetadataUniversalIdentifier: STANDARD\\_OBJECT.company.universalIdentifier,\\\n\\\n7 universalSettings: { relationType: RelationType.MANY\\_TO\\_ONE, joinColumnName: 'companyId' },\\\n\\\n8 },\\\n\\\n190 unmodified lines\\\n\\\n…my-twenty-app/src/objects/rocket.object.ts\\\n\\\n+28-32\\\n\\\n140 unmodified lines\\\n\\\n141\\\n\\\n141 {\\\n\\\n142 name: 'launches',\\\n\\\n143 type: FieldType.RELATION,\\\n\\\n144 relationType: RelationType.ONE\\_TO\\_MANY,\\\n\\\n145 relationTargetObjectMetadataUniversalIdentifier: SCHEMA\\_IDS.launch.object,\\\n\\\n146 },\\\n\\\n…my-twenty-app/src/views/upcoming-launches.view.ts\\\n\\\n+82-0\\\n\\\n1import { defineView, ViewFilterOperand, ViewType } from'twenty-sdk';\\\n\\\n3exportdefaultdefineView({\\\n\\\n4 name: 'Upcoming launches',\\\n\\\n5 type: ViewType.TABLE,\\\n\\\n6 filters: \\[\\\n\\\n7 { fieldMetadataUniversalIdentifier: SCHEMA\\_IDS.launch.fields.plannedLaunchAt,\\\n\\\n8 operand: ViewFilterOperand.IS\\_IN\\_FUTURE },\\\n\\\n9 \\],\\\n\\\n73 unmodified lines\\\n\\\n…my-twenty-app/src/\\_\\_tests\\_\\_/schema.integration-test.ts\\\n\\\n+412-40\\\n\\\n150 unmodified lines\\\n\\\n151expect(application.objects).toHaveLength(1);\\\n\\\n151expect(application.objects).toHaveLength(4);\\\n\\\n152expectObject(application.objects, SCHEMA\\_IDS.launch.object, 'launch', 'Launch');\\\n\\\n153expectObject(application.objects, SCHEMA\\_IDS.payload.object, 'payload', 'Payload');\\\n\\\n154expectObject(application.objects, SCHEMA\\_IDS.launchSite.object, 'launchSite', 'Launch site');\\\n\\\n155expectRelationPair(payloadCustomerField, \\[payload.object, STANDARD\\_OBJECT.company.universalIdentifier\\], \\[...\\]);\\\n\\\n325 unmodified lines\\\n\\\ntrusted by\\\n\\\n![République Française](https://twenty.com/images/logo-bar/french-republic.webp?dpl=dpl-770a1f29-29248756355-1)![Bayer](https://twenty.com/images/logo-bar/bayer.webp?dpl=dpl-770a1f29-29248756355-1)![PwC](https://twenty.com/images/logo-bar/pwc.webp?dpl=dpl-770a1f29-29248756355-1)![Windmill](https://twenty.com/images/logo-bar/windmill-logo.webp?dpl=dpl-770a1f29-29248756355-1)![Fora](https://twenty.com/images/logo-bar/fora.svg?dpl=dpl-770a1f29-29248756355-1)![Wazoku](https://twenty.com/images/logo-bar/wazoku.svg?dpl=dpl-770a1f29-29248756355-1)![CivicActions](https://twenty.com/images/logo-bar/civicactions.svg?dpl=dpl-770a1f29-29248756355-1)![OTIIMA](https://twenty.com/images/logo-bar/otiima.svg?dpl=dpl-770a1f29-29248756355-1)![NIC Industries](https://twenty.com/images/logo-bar/nic.webp?dpl=dpl-770a1f29-29248756355-1)![Shiawase Home](https://twenty.com/images/logo-bar/shiawase-home.webp?dpl=dpl-770a1f29-29248756355-1)\\\n\\\n+10k others\\\n\\\nThe Problem.\\\n\\",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:25.543158Z",
+      "section_path": "Build your Enterprise CRM at AI Speed",
+      "chunk_index": 3,
+      "token_count": 770,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_2af53e86b8cb",
+      "source_type": "official_docs",
+      "url": "https://twenty.com",
+      "domain": "twenty.com",
+      "page_title": "Twenty | #1 Open Source CRM",
+      "content": "\\\n\n\\\nProprietary languages, slow deployment cycles, and \"black box\" logic.\\\n\\\n\n\\\nIt's fragile. V1 ships quickly, but maintaining and making changes is a long term burden.\\\n\\\nStop settling for trade-offs.\\\n\\\n\n\\\nCompose your CRM and internal apps with a single extensibility toolkit.\\\n\\\n\n\\\nW3villa used Twenty as a production-grade framework for the data model, permissions, authentication, and workflow engine they would otherwise have rebuilt themselves.\\\n\\\n\n\\\nAlternative Partners used agentic AI to compress what would typically be weeks of Salesforce migration work into something a single person could oversee.\\\n\\\n\n\\\nAC&T moved to a self-hosted Twenty instance with no vendor risk, no forced migration, and CRM costs reduced by more than 90%.\\\n\\\n01\\\n\\\n02\\\n\\\n03\\\n\\\n\n\\\nCompose your CRM and internal apps with a single extensibility toolkit. Data model, layout, and automation.\\\n\\\n\n\\\nEnjoy unlimited customization using the AI coding tools you already love. Adapt your CRM to fit the way your business grows and wins.\\\n\\\n\n\\\nDon't get locked into someone else's ecosystem. Twenty's developer experience looks like normal software, with local setup, real data, live testing, and no proprietary tooling.\\\n\\\nSkip the clunky UX that always comes with custom.\\\n\\",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:25.543202Z",
+      "section_path": "Build your Enterprise CRM at AI Speed > Assemble, iterate and adapt a robust CRM, that's quick to flex\\ > Stay in control with our open-source software\\",
+      "chunk_index": 4,
+      "token_count": 314,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_9d588898ec50",
+      "source_type": "official_docs",
+      "url": "https://twenty.com",
+      "domain": "twenty.com",
+      "page_title": "Twenty | #1 Open Source CRM",
+      "content": "\\\nW3villa\\\n\\\n\n\\\nW3villa built W3Grads for AI mock interviews at scale, with Twenty as the operational backbone.\\\n\\\n[Read the case](https://twenty.com/customers/w3villa)\\\n\\\nAC&T\\\n\\\n\n\\\nAC&T replaced a shuttered vendor CRM with self-hosted Twenty and cut CRM costs by more than 90%.\\\n\\\n[Read the case](https://twenty.com/customers/act-education)\\\n\\\nNetZero\\\n\\\n\n\\\nNetZero runs a modular Twenty setup across carbon credits, ag products, and industrial systems.\\\n\\\n[Read the case](https://twenty.com/customers/netzero)\\\n\\\n1/3\\\n\\\nThey are the real sales\\\n\\\nThe flexibility is really what made the difference. Our needs evolve very fast. I discover a new need and in two clicks I can address it. That is a real advantage when you are moving quickly.\\\n\\\nWe didn't want to patch over the problem. We wanted to build something institutions could rely on at scale, and that meant starting from a foundation solid enough to support the full complexity of what we had in mind.\\\n\\\nIt is just such a nicer experience than dealing with a Salesforce or a HubSpot. My mission has been to get every tool API-accessible, so everything talks to each other. Twenty made that possible in a way older CRM platforms simply do not.\\\n\\\nOlivier Reinaud\\\n\\\nCo-founder at NetZero\\\n\\\nAny Questions?\\\n\\",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:25.543328Z",
+      "section_path": "Build your Enterprise CRM at AI Speed > Dev teams power company-wide change with Twenty\\ > Grow with a flexible foundation\\",
+      "chunk_index": 7,
+      "token_count": 317,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_b9839306f67e",
+      "source_type": "official_docs",
+      "url": "https://twenty.com",
+      "domain": "twenty.com",
+      "page_title": "Twenty | #1 Open Source CRM",
+      "content": "Stripe\n\nstripe.com\n\n![](https://twenty.com/images/shared/people/avatars/patrick-collison.webp)\n\nPatrick Collison\n\n2118 Thornridge Circle\n\n![](https://twenty.com/images/shared/people/avatars/patrick-collison.webp)\n\nPatrick Collison\n\nTrue\n\n$1,800,000\n\nstripe\n\nPayments\n\n![](https://twenty.com/images/shared/people/avatars/patrick-collison.webp)\n\nPatrick Collison\n\n7,400\n\nB\n\nBilling Expansion\n\nJul 17, 2023\n\n![Sequoia logo](https://twenty.com/images/shared/companies/logos/sequoia.webp)\n\nSequoia\n\nsequoia.com\n\n![](https://twenty.com/images/shared/people/avatars/roelof-botha.webp)\n\nRoelof Botha\n\n1316 Dameon Mountain\n\n![](https://twenty.com/images/shared/people/avatars/roelof-botha.webp)\n\nRoelof Botha\n\nFalse\n\n$6,000,000\n\nsequoia\n\nVenture Capital\n\n![](https://twenty.com/images/shared/people/avatars/roelof-botha.webp)\n\nRoelof Botha\n\n1,100\n\nF\n\nFund Ops\n\nJul 20, 2023\n\n![Segment logo](https://twenty-icons.com/segment.com)\n\nSegment\n\nsegment.com\n\n![](https://twenty.com/images/shared/people/avatars/peter-reinhardt.webp)\n\nPeter Reinhardt\n\n8502 Preston Rd. East\n\n![](https://twenty.com/images/shared/people/avatars/peter-reinhardt.webp)\n\nPeter Reinhardt\n\nTrue\n\n$2,750,000\n\nsegment\n\nCustomer Data\n\n![](https://twenty.com/images/shared/people/avatars/peter-reinhardt.webp)\n\nPeter Reinhardt\n\n1,550\n\nW\n\nWarehouse Rollout\n\nJul 21, 2023\n\n![Mailchimp logo](https://twenty.com/images/shared/companies/logos/mailchimp.webp)\n\nMailchimp\n\nmailchimp.com\n\n![](https://twenty.com/images/shared/people/avatars/ben-chestnut.webp)\n\nBen Chestnut\n\n3517 W. Gray St.\n\n![](https://twenty.com/images/shared/people/avatars/ben-chestnut.webp)\n\nBen Chestnut\n\nFalse\n\n$1,250,000\n\nmailchimp\n\nMarketing Automation\n\n![](https://twenty.com/images/shared/people/avatars/anonymous-laura.webp)\n\nRania Succar\n\n1,900\n\nL\n\nLifecycle Campaigns\n\nJul 23, 2023\n\n![Accel logo](https://twenty.com/images/shared/companies/logos/accel.webp)\n\nAccel\n\naccel.com\n\n![](https://twenty.com/images/shared/people/avatars/ray-damm.webp)\n\nRay Damm\n\n4140 Parker Rd.\n\n![](https://twenty.com/images/shared/people/avatars/ping-li.webp)\n\nPing Li\n\nTrue\n\n$5,800,000\n\naccel\n\nVenture Capital\n\n![](https://twenty.com/images/shared/people/avatars/ping-li.webp)\n\nPing Li\n\n540\n\nP\n\nPortfolio Sync\n\nJul 24, 2023\n\n![Founders Fund logo](https://twenty-icons.com/foundersfund.com)\n\nFounders Fund\n\nfoundersfund.com\n\nSYS\n\nSystem\n\n2715 Ash Dr. San Jose\n\n![](https://twenty.com/images/shared/people/avatars/peter-thiel.webp)\n\nPeter Thiel\n\nTrue\n\n$2,100,000\n\nfoundersfund\n\nPrivate Equity\n\n![](https://twenty.com/images/shared/people/avatars/peter-thiel.webp)\n\nPeter Thiel\n\n734\n\nF\n\nFundraising\n\nJul 25, 2023\n\n![Google logo](https://twenty.com/images/shared/companies/logos/google.webp)\n\nGoogle\n\ngoogle.com\n\n![](https://twenty.com/images/shared/people/avatars/sundar-pichai.webp)\n\nSundar Pichai\n\n4140 Parker Rd.\n\n![](https://twenty.com/images/shared/people/avatars/sundar-pichai.webp)\n\nSundar Pichai\n\nFalse\n\n$7,500,000\n\ngoogle\n\nComputer Software\n\n![](https://twenty.com/images/shared/people/avatars/sundar-pichai.webp)\n\nSundar Pichai\n\n734\n\nG\n\nGoogle AI and Data Solutions\n\nL\n\nRelation 2\n\nL\n\nRelation 3\n\nJul 1, 2023 2:25 pm\n\nCalculate\n\nEditorAI Chat\n\n+1795-112\n\nScaffold a launch-ops CRM in my workspace with rockets, launches, payloads, customers, and launch sites, with relevant actions for each.\n\n~/code/my-twenty-appmain\n\nMythos\n\n…my-twenty-app/src/constants/schema-identifiers.ts\n\n+84-0\n\n1exportconstSCHEMA\\_IDS = {\n\n2 rocket: { object: '733956fd-…', fields: { launches: '5b877c2a-…' } },\n\n3 launch: { object: 'e7f1e750-…', fields: { rocket: '42c9106f-…' } },",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:25.543049Z",
+      "section_path": "Build your Enterprise CRM at AI Speed",
+      "chunk_index": 1,
+      "token_count": 893,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_f8e23e4471ca",
+      "source_type": "official_docs",
+      "url": "https://twenty.com",
+      "domain": "twenty.com",
+      "page_title": "Twenty | #1 Open Source CRM",
+      "content": "\\\nAll opportunities9\\\n\\\nIdentified3\\\n\\\nQualified1\\\n\\\n![](https://twenty.com/images/shared/companies/logos/github.webp)Github\\\n\\\n$6,562.04\\\n\\\n![](https://twenty.com/images/shared/companies/logos/github.webp)Github\\\n\\\n![](https://twenty.com/images/shared/people/avatars/eddy-cue.webp)Eddy Cue\\\n\\\nJun 16, 2023\\\n\\\n![](https://twenty.com/images/shared/people/avatars/chris-wanstrath.webp)Chris Wanstrath\\\n\\\nOPP-1\\\n\\\n![](https://twenty.com/images/shared/companies/logos/figma.webp)Figma\\\n\\\n$6,562.04\\\n\\\n![](https://twenty.com/images/shared/companies/logos/figma.webp)Figma\\\n\\\n![](https://twenty.com/images/shared/people/avatars/jeff-williams.webp)Jeff Williams\\\n\\\nJun 21, 2023\\\n\\\n![](https://twenty.com/images/shared/people/avatars/dylan-field.webp)Dylan Field\\\n\\\nOPP-2\\\n\\\n![](https://twenty.com/images/shared/companies/logos/airbnb.webp)Airbnb\\\n\\\n$2,433.89\\\n\\\n![](https://twenty.com/images/shared/companies/logos/airbnb.webp)Airbnb\\\n\\\n![](https://twenty.com/images/shared/people/avatars/katherine-adams.webp)Katherine Adams\\\n\\\nJun 6, 2023\\\n\\\nIIvan Zhao\\\n\\\nOPP-8\\\n\\\nNew\\\n\\\n![](https://twenty.com/images/shared/companies/logos/notion.webp)Notion\\\n\\\n$2,650\\\n\\\n![](https://twenty.com/images/shared/companies/logos/notion.webp)Notion\\\n\\\nAAirbnb\\\n\\\nJun 6, 2023\\\n\\\nIIvan Zhao\\\n\\\nOPP-6\\\n\\\nNew\\\n\\",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:25.543242Z",
+      "section_path": "Build your Enterprise CRM at AI Speed > Make your GTM team happy with a CRM they'll love\\",
+      "chunk_index": 5,
+      "token_count": 320,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_fa4266905e89",
+      "source_type": "official_docs",
+      "url": "https://twenty.com",
+      "domain": "twenty.com",
+      "page_title": "Twenty | #1 Open Source CRM",
+      "content": "\\\nTwenty makes it simple. It's clean, intuitive, and built to feel like Notion.\\\n\\\nAlice\\\n\\\nAll\\\n\\\n9\\\n\\\nTypeis Customer\\\n\\\nEmployees>500\\\n\\\nAdd filter\\\n\\\nCompanies\\\n\\\nType\\\n\\\nDomain\\\n\\\n![](https://twenty.com/images/shared/companies/logos/anthropic.webp)\\\n\\\nAnthropic\\\n\\\nCustomer\\\n\\\nanthropic.com\\\n\\\n![](https://twenty.com/images/shared/companies/logos/slack.webp)\\\n\\\nSlack\\\n\\\nCustomer\\\n\\\nslack.com\\\n\\\n![](https://twenty.com/images/shared/companies/logos/notion.webp)\\\n\\\nNotion\\\n\\\nCustomer\\\n\\\nnotion.so\\\n\\\n![](https://twenty.com/images/shared/companies/logos/sequoia.webp)\\\n\\\nSequoia\\\n\\\nCustomer\\\n\\\nsequoiacap.com\\\n\\\n![](https://twenty.com/images/shared/companies/logos/cursor.webp)\\\n\\\nCursor\\\n\\\nCustomer\\\n\\\ncursor.com\\\n\\\nCalculate\\\n\\\nTom\\\n\\\nBob\\\n\\\n\n\\\nEverything updates in real time, with AI chat always ready to help you move faster.\\\n\\\nNew Record\\\n\\\n⌘K\\\n\\\nType anything...\\\n\\\nRecord Selection\\\n\\\nSend email\\\n\\\nExport selection as CSV\\\n\\\nDelete 8 records\\\n\\\n\"Companies\" object\\\n\\\nImport data\\\n\\\nCreate company\\\n\\\nNavigate\\\n\\\nGo to People\\\n\\\nGthenP\\\n\\\nGo to Opportunities\\\n\\\nGthenO\\\n\\\nSettings\\\n\\\nGo to settings\\\n\\\nGthenS\\\n\\\nSwitch to dark mode\\\n\\\n\n\\\nSmart patterns, shortcuts, and layouts make everyday tasks faster and easier to execute.\\\n\\\nIn production.\\\n\\",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:25.543289Z",
+      "section_path": "Build your Enterprise CRM at AI Speed > Make your GTM team happy with a CRM they'll love\\ > Fast path to action\\",
+      "chunk_index": 6,
+      "token_count": 315,
+      "quality_score": 0.36
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Twenty is an open-source CRM.",
+      "evidence_ids": [
+        "ev_09899ef2872a"
+      ]
+    },
+    "category": {
+      "value": "CRM and Sales",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "OAuth 2.1, API Key",
+      "evidence_ids": [
+        "ev_09899ef2872a",
+        "ev_0daa70027d9f"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_6069f01c51f3",
+        "ev_88de687fd0a3"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API, GraphQL",
+      "evidence_ids": [
+        "ev_09899ef2872a",
+        "ev_0daa70027d9f"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_0daa70027d9f"
+      ]
+    },
+    "mcp": {
+      "value": "Official MCP",
+      "evidence_ids": [
+        "ev_09899ef2872a",
+        "ev_f91da47720f9"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_2af53e86b8cb"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_9d588898ec50"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.88,
+    "fields_checked": 8,
+    "fields_supported": 7,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.88,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.88 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

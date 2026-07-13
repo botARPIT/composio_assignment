@@ -1,0 +1,775 @@
+{
+  "app": {
+    "id": 7,
+    "name": "Zoho CRM",
+    "website": "zoho.com/crm",
+    "category_hint": "CRM and Sales"
+  },
+  "documentation_map": {
+    "app_name": "Zoho CRM",
+    "official_domain": "zoho.com",
+    "homepage": {
+      "url": "https://zoho.com/crm",
+      "title": "Zoho CRM",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+        "title": "OAuth 2.0 Authentication | Zoho CRM API | V8",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://www.zoho.com/crm/developer/docs/api/v8",
+        "title": "Zoho CRM V8 APIs",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://www.zoho.com/en-in/enterprise",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://www.zoho.com/mcp",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://www.zoho.com/workdrive/?src=zdocs",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "Zoho CRM",
+      "official_domain": "zoho.com",
+      "items": [
+        {
+          "url": "https://zoho.com/crm",
+          "page_type": "homepage",
+          "title": "Zoho CRM",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://www.zoho.com/en-in/enterprise",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://www.zoho.com/workdrive/?src=zdocs",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://www.zoho.com/mcp",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+          "page_type": "authentication",
+          "title": "OAuth 2.0 Authentication | Zoho CRM API | V8",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        },
+        {
+          "url": "https://www.zoho.com/crm/developer/docs/api/v8",
+          "page_type": "api_reference",
+          "title": "Zoho CRM V8 APIs",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 2,
+        "urls_discovered": 6,
+        "official_urls": 6,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 6
+      }
+    },
+    "stats": {
+      "queries": 2,
+      "urls_discovered": 6,
+      "official_urls": 6,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 6
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_14ad423119bc",
+      "source_type": "pricing_page",
+      "url": "https://www.zoho.com/en-in/enterprise",
+      "domain": "www.zoho.com",
+      "page_title": "Customizable enterprise software by Zoho",
+      "content": "Blend data from 500+ sources, including files, feeds, local/cloud databases, and business applications, to generate 360-degree business insights.\n\n- [![analytics](https://www.zohowebstatic.com/sites/zweb/images/productlogos/analytics.svg)](https://www.zoho.com/analytics/?src=entin)\n- [![dataprep](https://www.zohowebstatic.com/sites/zweb/images/productlogos/dataprep.png)](https://www.zoho.com/dataprep/?src=entin)\n\nInternet of Things\n\nManage your IoT operations, build custom applications from scratch, or directly deploy ready-to-use vertical solutions.\n\n- [![IoT](https://www.zohowebstatic.com/sites/zweb/images/productlogos/iot.svg)](https://www.zoho.com/iot/?src=entin)\n\n- [IIoT for Manufacturing](https://www.zoho.com/iot/solutions/industrial-iot.html?src=entin)\n- [Energy Management](https://www.zoho.com/iot/solutions/energy-management.html?src=entin)\n- [Fleet Management](https://www.zoho.com/iot/solutions/fleet-monitoring.html?src=entin)\n\nStreamline IT and enterprise service operations with a complete toolkit—from cloud access management and endpoint security to mobile device management.\n\n[LEARN MORE](https://www.zoho.com/it-management/)\n\n- [Adaptive single sign-on](https://www.zoho.com/directory/features/single-sign-on.html)\n- [Endpoint management](https://www.zoho.com/endpoint-central/)\n- [Password management](https://www.zoho.com/vault/)\n- [Multi-factor authentication](https://www.zoho.com/accounts/oneauth/)\n- [Identity and access management](https://www.zoho.com/directory/)\n- [Mobile device management](https://www.zoho.com/mdm-cloud.html)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:52.186523Z",
+      "section_path": "Accelerate enterprise growth with customisable software solutions > Security and IT management",
+      "chunk_index": 3,
+      "token_count": 391,
+      "quality_score": 0.84
+    },
+    {
+      "id": "ev_bc9b9011075c",
+      "source_type": "pricing_page",
+      "url": "https://www.zoho.com/en-in/enterprise",
+      "domain": "www.zoho.com",
+      "page_title": "Customizable enterprise software by Zoho",
+      "content": "The breadth and depth of the Zoho suite empower enterprises to adopt a solution-based approach.\n\n- Interoperable, customisable, and extensible\n- Faster time to value with quicker implementation\n- Contextually integrated tech stack\n\nWith [2,500+ third-party apps](https://marketplace.zoho.com/home), pre-built extensions, and integrations paired with APls, and plug-and-play workflow builders, it's easy to extend and customize your Zoho deployment with your existing cloud and on-prem systems.\n\n[**APIs** \\\\\nIntegrate apps across your tech stack](https://www.zoho.com/developer/rest-api.html)\n\n[**SDKs** \\\\\nBuild customised web and mobile apps](https://www.zoho.com/creator/mobile-sdk.html)\n\n[**Serverless functions** \\\\\nAutomate operations at scale](https://catalyst.zoho.com/serverless/functions.html)\n\n[**Workflow builder** \\\\\nConnect third-party apps with one another](https://www.zoho.com/flow/)\n\n[**Sigma** \\\\\nDevelop custom extensions](https://help.zoho.com/portal/en/kb/sigma/general/articles/sigma-overview)\n\n[**Vertical platform** \\\\\nBuild white-label solutions](https://www.zoho.com/developer/industry-solutions.html)\n\nWe heavily invest in contextual coding with [serverless capabilities](https://www.zoho.com/deluge/) to reduce the learning curve and shorten the implementation cycle while minimising the time and costs of building custom solutions to meet your requirements.\n\nA CRM deployment of this magnitude would normally require 18 to 24 months.\n\nThe launch of Zoho CRM is one of TAFE's significant initiatives to drive digital transformation and growth. The solution with Zoho is very innovative and truly digital. There was a complete re-engineering of processes done for simplification, and the Zoho Team completed this project in a mere six months.\n\nShobhana RaviChief IT, Innovation and Learning Officer, TAFE\n\n[LEARN MORE](https://www.zoho.com/enterprise/ebs/)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:52.186634Z",
+      "section_path": "Accelerate enterprise growth with customisable software solutions > Uniquely positioned for enterprises > Faster time to value with quicker implementation",
+      "chunk_index": 7,
+      "token_count": 471,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_64971e2544d0",
+      "source_type": "auth_docs",
+      "url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+      "domain": "www.zoho.com",
+      "page_title": "OAuth 2.0 Authentication | Zoho CRM API | V8",
+      "content": "The Zoho CRM API uses the **OAuth 2.0** protocol for authentication. **OAuth 2.0** is an industry-standard protocol specification that enables third-party applications (clients) to gain delegated access to protected resources in Zoho via an API.\n\n- [Why should we use OAuth 2.0?](https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html#why)\n- [How OAuth 2.0 works?](https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html#how)\n- [Key Terminologies in OAuth 2.0](https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html#terms)\n- [Tokens](https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html#tokens)\n\n- Clients are not required to support password authentication or store user credentials.\n- Clients gain delegated access, i.e., access only to resources authenticated by the user.\n- Users can revoke the client's delegated access anytime.\n- **OAuth 2.0** access tokens expire after a set time. If the client faces a security breach, user data will be compromised only until the access token is valid.\n\n![OAuth 2.0 Workflow](https://www.zohowebstatic.com/sites/zweb/images/crm/oauth-2-workflow.jpg)\n\nThe following are some terms you need to know before you start using the Zoho CRM APIs.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:51.281381Z",
+      "section_path": "OAuth 2.0 for V8 APIs - An Overview > Key Terminologies in OAuth 2.0",
+      "chunk_index": 0,
+      "token_count": 307,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_a2994f9a6597",
+      "source_type": "auth_docs",
+      "url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+      "domain": "www.zoho.com",
+      "page_title": "OAuth 2.0 Authentication | Zoho CRM API | V8",
+      "content": "The Zoho CRM resources, such as Leads, Contacts, Deals, etc.\n\nThe Zoho CRM server that hosts protected resources.\n\nAny end-user of your account, who can grant access to the protected resources.\n\nAn application that sends requests to the resource server to access the protected resources on behalf of the end-user.\n\nThe consumer key generated from the connected application.\n\nThe consumer secret generated from the connected application.\n\nAuthorization server provides the necessary credentials (such as Access and Refresh tokens) to the client. In this case, it will be the Zoho CRM authorization server.\n\nThe authorization server creates a temporary token and sends it to the client via the browser. The client will send this code to the authorization server to obtain access and refresh tokens.\n\nA token that is sent to the resource server to access the protected resources of the user. The Access token provides secure and temporary access to the protected resources and is used by the applications to make requests to the connected app. Each access token will be valid only for an hour and can be used only for the set of operations that are described in the scope.\n\nA token that can be used to obtain new access tokens. This token has an unlimited lifetime until it is revoked by the end-user.\n\n**Important**\n\nUser Access Token must be kept confidential since it provides access to protected resources. Do NOT expose your Access Token anywhere in public forums, public repositories or on your website's client-side code like HTML or JavaScript. Exposing it to the public may lead to data theft, loss or corruption.\n\n© 2026, Zoho Corporation Pvt. Ltd. All Rights Reserved.\n\n[Top](https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html#top)\n\n- [API Directory](https://www.zoho.com/crm/developer/docs/api-directory.html?source_from=qlink_)\n- [Postman Collection](https://www.postman.com/zoho-developers/zoho-crm-developers/collection/4128ndc/zoho-crm-rest-apis?source_from=qlink_)\n- [Kaizen Series](https://www.zoho.com/crm/developer/docs/kaizen-series-directory.html?source_from=qlink_)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:51.281449Z",
+      "section_path": "OAuth 2.0 for V8 APIs - An Overview > Key Terminologies in OAuth 2.0 > Protected resources > Refresh Token",
+      "chunk_index": 1,
+      "token_count": 525,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_27d1af1a5af1",
+      "source_type": "api_reference",
+      "url": "https://www.zoho.com/crm/developer/docs/api/v8",
+      "domain": "www.zoho.com",
+      "page_title": "Zoho CRM V8 APIs",
+      "content": "- ### [Metadata APIs](https://www.zoho.com/crm/developer/docs/api/v8/module-meta.html)\n\n\n\n[Fetch the metadata of modules, fields, layouts, custom views, and related lists.](https://www.zoho.com/crm/developer/docs/api/v8/module-meta.html)\n\n- ### [Core APIs](https://www.zoho.com/crm/developer/docs/api/v8/get-records.html)\n\n\n\n[Perform CRUD operations on CRM module entities and integrate with any third party application through flexible RESTful endpoints.](https://www.zoho.com/crm/developer/docs/api/v8/get-records.html)\n\n- ### [Composite API](https://www.zoho.com/crm/developer/docs/api/v8/composite-overview.html)\n\n\n\n[Combine up to five API calls in a single request through this API.](https://www.zoho.com/crm/developer/docs/api/v8/composite-overview.html)\n\n- ### [Bulk APIs](https://www.zoho.com/crm/developer/docs/api/v8/bulk-read/overview.html)\n\n\n\n[Push and retrieve data from Zoho CRM in bulk using a set of asynchronous APIs.](https://www.zoho.com/crm/developer/docs/api/v8/bulk-read/overview.html)\n\n- ### [Notification APIs](https://www.zoho.com/crm/developer/docs/api/v8/notifications/overview.html)\n\n\n\n[Get notified whenever a data change occurs inside your CRM.](https://www.zoho.com/crm/developer/docs/api/v8/notifications/overview.html)\n\n- ### [Query APIs](https://www.zoho.com/crm/developer/docs/api/v8/COQL-Overview.html)\n\n\n\n[Fetch records using the SELECT query(SQL syntax) from Zoho CRM.](https://www.zoho.com/crm/developer/docs/api/v8/COQL-Overview.html)\n\n\n© 2026, Zoho Corporation Pvt. Ltd. All Rights Reserved.\n\n[Top](https://www.zoho.com/crm/developer/docs/api/v8/#top)\n\n- [API Directory](https://www.zoho.com/crm/developer/docs/api-directory.html?source_from=qlink_)\n- [Postman Collection](https://www.postman.com/zoho-developers/zoho-crm-developers/collection/4128ndc/zoho-crm-rest-apis?source_from=qlink_)\n- [Kaizen Series](https://www.zoho.com/crm/developer/docs/kaizen-series-directory.html?source_from=qlink_)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:51.635477Z",
+      "section_path": "Zoho CRM V8 APIs",
+      "chunk_index": 0,
+      "token_count": 484,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_6567fc53a153",
+      "source_type": "pricing_page",
+      "url": "https://www.zoho.com/en-in/enterprise",
+      "domain": "www.zoho.com",
+      "page_title": "Customizable enterprise software by Zoho",
+      "content": "Deliver great customer experiences, collaborate seamlessly, and automate business processes—all on a software platform built in India.\n\n[CONTACT SALES](https://www.zoho.com/en-in/enterprise/get-in-touch.html)\n\n![Zia](https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/index/zia-logo-gradient.png)\n\nRun sales, marketing, finance, and support with pre-built AI agents that are autonomous and context-aware.\n\n[Explore Agents](https://www.zoho.com/agents/?src=ent-in)\n\nRecognised in the Gartner® Magic Quadrant™ for\n\n- [Analytics and Business Intelligence Platforms 2025](https://www.zoho.com/analytics/2025-gartner-mq-report.html?src=entin)\n- [Sales Force Automation Platforms 2025](https://www.zoho.com/crm/gartner-sfa-mq.html?src=entin)\n- [Enterprise Low-Code Application Platforms 2024](https://www.zoho.com/creator/analyst/gartner-magic-quadrant-for-low-code-application-platforms-2024-report.html?src=entin)\n- B2B Marketing Automation Platforms\n\n[![nucleus research](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/nucleus-research-white.svg)\\\\\nRecognised in their Technology Value Matrix for Sales Force Automation (Zoho CRM) 2025](https://www.zoho.com/crm/nucleus-crm-value-matrix.html?src=entin)\n\n[![frost sullivan](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/frost-and-sullivan-white.svg)\\\\\nRecognised in the Frost Radar™ for Electronic Signature Software 2024](https://www.zoho.com/sign/frost-and-sullivan-radar-report-2024.html?src=entin)\n\n[![isg](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/isg-white.svg)\\\\\nRecognised in the ISG Provider Lens for Future of Work (Workplace) Solutions 2024](https://www.zoho.com/projects/isg-future-of-work-2024.html?src=entin)\n\n[![dresner](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/dresner-advisory-services-light.svg)\\\\\nAn overall leader in Customer Experience and Vendor Credibility by Dresner Advisory 2024](https://www.zoho.com/analytics/dresner-report-2024.html)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:52.186406Z",
+      "section_path": "Accelerate enterprise growth with customisable software solutions > Meet your new team, powered by Zia Agents",
+      "chunk_index": 0,
+      "token_count": 501,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_db5d65b01d7b",
+      "source_type": "pricing_page",
+      "url": "https://www.zoho.com/en-in/enterprise",
+      "domain": "www.zoho.com",
+      "page_title": "Customizable enterprise software by Zoho",
+      "content": "Transform your organisational operations with integrated enterprise software that streamlines email, chat, project management, files, meetings, and everything your teams need.\n\n- [![workplace](https://www.zohowebstatic.com/sites/zweb/images/productlogos/workplace.svg)](https://www.zoho.com/en-in/workplace/?src=entin)\n- [![projects](https://www.zohowebstatic.com/sites/zweb/images/productlogos/projects.svg)](https://www.zoho.com/projects/?src=entin)\n\nFinance\n\nFrom billing and order management to accounting, everything you need to manage your enterprise's finance operations.\n\n- [![billing](https://www.zohowebstatic.com/sites/zweb/images/productlogos/billing.svg)](https://www.zoho.com/in/billing/?src=entin)\n- [![inventory](https://www.zohowebstatic.com/sites/zweb/images/productlogos/inventory.png)](https://www.zoho.com/in/inventory/?src=entin)\n- [![books](https://www.zohowebstatic.com/sites/zweb/images/productlogos/books.png)](https://www.zoho.com/in/books/?src=entin)\n\nCustom Solutions\n\nCreate scalable web/mobile apps using low-code and pro-code tools, with AI enhancements like end-to-end automation, language detection, trend analysis, and more.\n\n- [![creator](https://www.zohowebstatic.com/sites/zweb/images/productlogos/creator.svg)](https://www.zoho.com/en-in/creator/?src=entin)\n- [![catalyst](https://www.zohowebstatic.com/sites/zweb/images/productlogos/catalyst.svg)](https://catalyst.zoho.com/?src=entin)\n\nBusiness Intelligence",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:52.186492Z",
+      "section_path": "Accelerate enterprise growth with customisable software solutions > Customisable solutions for enterprise management > Design, build, and deploy bespoke solutions for your organisation’s specific needs",
+      "chunk_index": 2,
+      "token_count": 362,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_165ab1c8c0b2",
+      "source_type": "pricing_page",
+      "url": "https://www.zoho.com/en-in/enterprise",
+      "domain": "www.zoho.com",
+      "page_title": "Customizable enterprise software by Zoho",
+      "content": "![MANUFACTURING](https://www.zohowebstatic.com/sites/zweb/images/enterprise/homeus/harish-manian.png)\n\nHEALTHCARE AND PHARMA\n\n\"I'd have to say that Zoho Creator is not only one of the best low-code platforms you can find at an affordable cost, but also a constantly evolving product with fantastic technical support.\"\n\nHarish ManianCEO, MGM Healthcare\n\n[LEARN MORE](https://www.zoho.com/creator/case-studies/healthcare-mgm-patient-management.html)\n\nBFSI\n\n\"This platform has automated approximately 90-95% of customer query processes, leading to a remarkable 30% increase in customer satisfaction and a 25% boost in retention rates.\"\n\nManimekhalai AManaging Director & CEO, Union Bank of India\n\n[LEARN MORE](https://www.zoho.com/news/union-bank-of-india-and-zoho-mark-digital-transformation-success.html)\n\nMANUFACTURING\n\n\"Today, 100 percent of our pre-sales across all businesses and divisions and locations run on Zoho CRM. We have also created a Dealer Enquiry (DEQ) system that centralised deal onboarding operations, automated workflows, and helped us reduce both customer response times and manual user errors by over 40 percent.\"\n\nUdit PahwaChief Information Officer, Blue Star Limited\n\nFMCG AND RETAIL",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:52.186580Z",
+      "section_path": "Accelerate enterprise growth with customisable software solutions > Bespoke solutions across industries > Cutting-edge clinical care: The MGM success story",
+      "chunk_index": 5,
+      "token_count": 301,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_4fbf20d4caef",
+      "source_type": "pricing_page",
+      "url": "https://www.zoho.com/en-in/enterprise",
+      "domain": "www.zoho.com",
+      "page_title": "Customizable enterprise software by Zoho",
+      "content": "\"In the past six months, we've saved nearly INR 3 crore with Zoho Creator, cutting task completion time by 50% and boosting productivity and performance by 1.5x.\"\n\nVinayaka GangavatiHead of Procurement, BigBasket\n\n[LEARN MORE](https://www.zoho.com/creator/case-studies/bigbasket-retail-capex-procurement.html)\n\nIT SERVICES\n\n![MANUFACTURING](https://www.zohowebstatic.com/sites/zweb/images/enterprise/homeus/harish-manian.png)\n\nHEALTHCARE AND PHARMA\n\n\"I'd have to say that Zoho Creator is not only one of the best low-code platforms you can find at an affordable cost, but also a constantly evolving product with fantastic technical support.\"\n\nHarish ManianCEO, MGM Healthcare\n\n[LEARN MORE](https://www.zoho.com/creator/case-studies/healthcare-mgm-patient-management.html)\n\nBFSI\n\n\"This platform has automated approximately 90-95% of customer query processes, leading to a remarkable 30% increase in customer satisfaction and a 25% boost in retention rates.\"\n\nManimekhalai AManaging Director & CEO, Union Bank of India\n\n[LEARN MORE](https://www.zoho.com/news/union-bank-of-india-and-zoho-mark-digital-transformation-success.html)\n\nMANUFACTURING\n\n\"Today, 100 percent of our pre-sales across all businesses and divisions and locations run on Zoho CRM. We have also created a Dealer Enquiry (DEQ) system that centralised deal onboarding operations, automated workflows, and helped us reduce both customer response times and manual user errors by over 40 percent.\"\n\nUdit PahwaChief Information Officer, Blue Star Limited",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:52.186608Z",
+      "section_path": "Accelerate enterprise growth with customisable software solutions > Bespoke solutions across industries > Cutting-edge clinical care: The MGM success story",
+      "chunk_index": 6,
+      "token_count": 378,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_2b6f72917c6a",
+      "source_type": "pricing_page",
+      "url": "https://www.zoho.com/en-in/enterprise",
+      "domain": "www.zoho.com",
+      "page_title": "Customizable enterprise software by Zoho",
+      "content": "All of Zoho’s software technology is built on top of a unified and integrated data layer, enabling enterprises to use our microservices across all of our apps.\n\n![Contextually integrated tech stack](https://www.zohowebstatic.com/sites/zweb/images/enterprise/homeus/contextual-img.png)\n\n- Get a clearer picture of your entire organisation as you add more apps and integrations to your Zoho deployment.\n- Zoho supports deep, native integrations with nearly every domain of enterprise software.\n- Cut down on the time and costs of building bespoke integrations with custom data-sharing connections.\n\nWith offices and data centers in multiple countries, a global workforce, and an international network of SI partners, we are here to help you get set up—wherever your company is based.\n\nBuilt on our own cloud infrastructure with [24/7 monitoring](https://status.zoho.in/), Zoho guarantees availability and the fastest response times—excluding the downtime caused by scheduled maintenance, which will be communicated well in advance.\n\nCentralise access at scale by managing users from Active Directory and LDAP and enabling them to log in with single sign-on—one username and password for all their applications.\n\nOur premium enterprise support provides round-the-clock access to highly skilled support professionals who work under tightly laid SLA.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:52.186674Z",
+      "section_path": "Accelerate enterprise growth with customisable software solutions > Uniquely positioned for enterprises > Dedicated customer relationship management",
+      "chunk_index": 8,
+      "token_count": 336,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_1b548bc74a7b",
+      "source_type": "pricing_page",
+      "url": "https://www.zoho.com/en-in/enterprise",
+      "domain": "www.zoho.com",
+      "page_title": "Customizable enterprise software by Zoho",
+      "content": "At Zoho, we take data privacy and security seriously at every level of our business, from product development to vendor standards. We also comply with all applicable data protection laws and regulations.\n\n[LEARN MORE](https://www.zoho.com/privacy-commitment.html)\n\nData integrity is important to us—that's why we handle all user data using the latest [international security compliance](https://www.zoho.com/security.html) standards, with [100% data encryption](https://www.zoho.com/encryption.html) in transit, using the latest version of TLS.\n\nWe have a strict [privacy policy](https://www.zoho.com/privacy.html) to protect personal information, and we never put our users at risk by selling or disclosing their information to unauthorized third parties. We comply with GDPR and CCPA worldwide, going above and beyond what’s mandated by law.\n\nZoho owns and operates its own [data centers](https://www.zoho.com/know-your-datacenter.html)—we do not run on a public cloud. Our unified data model and unified cloud storage allows for shared services like AI, search, analytics, and messaging to scale alongside our users.\n\n- ![ism](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/bsi-iso-iec-27001-information-security-management.png)\n- ![pim](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/bsi-iso-iec-27001-privacy-information-management.png)\n- ![csm](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/bsi-iso-iec-27017-cloud-security-management.png)\n- ![pdc](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/bsi-iso-iec-27018.png)\n- ![qms](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/bsi-iso-9001-quality-management_systems.png)\n- ![aic](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/aicpa-soc.png)\n- ![gdpr](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/gdpr.png)\n- ![hippa](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/hippa.png)\n\nENTERPRISE BUSINESS SOLUTIONS",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:52.186721Z",
+      "section_path": "Accelerate enterprise growth with customisable software solutions > Enterprise-grade security at the forefront > Scalable tech infrastructure",
+      "chunk_index": 9,
+      "token_count": 500,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_128f6bca1e9a",
+      "source_type": "pricing_page",
+      "url": "https://www.zoho.com/en-in/enterprise",
+      "domain": "www.zoho.com",
+      "page_title": "Customizable enterprise software by Zoho",
+      "content": "Our partnership goes far beyond the point of purchase. The enterprise services team comes with the product insight and specialised industry knowledge tailored to the unique business needs of your company.\n\n[LEARN MORE ABOUT EBS](http://zoho.com/ebs)\n\nSI PARTNERS\n\nTeam up with world-class experts who will partner with you on a comprehensive strategy for deployment, so you can reduce time to value and scale with confidence. If you have a preferred SI in mind, let us know and we'll make the connection.\n\n[EXPLORE MORE](https://www.zoho.com/partners/system-integrators/)\n\n150M+\n\nUsers Worldwide\n\n30+\n\nYears\n\n150+\n\nCountries\n\n18\n\nData Centers\n\n19K+\n\nEmployees\n\n60+\n\nApps\n\nOur team will get in touch with you for an exploratory call.\n\n[CONTACT SALES](https://www.zoho.com/en-in/enterprise/get-in-touch.html)\n\n![](https://www.zohowebstatic.com/sites/zweb/images/enterprise/homeus/mandela.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:52.186742Z",
+      "section_path": "Accelerate enterprise growth with customisable software solutions > Explore how our customised solutions can help your enterprise.",
+      "chunk_index": 10,
+      "token_count": 222,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_ec88aa69eed9",
+      "source_type": "pricing_page",
+      "url": "https://www.zoho.com/en-in/enterprise",
+      "domain": "www.zoho.com",
+      "page_title": "Customizable enterprise software by Zoho",
+      "content": "- ![Blue Star](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/blue-star.png)\n- ![coromandel](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/coromandel.png)\n- ![Union Bank](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/union-bank.png)\n- ![chola](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/chola.svg)\n- ![johnson](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/johnson.png)\n- ![mercedes benz](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/mercedes-benz-secondary.svg)\n- ![bigbasket](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/bigbasket-primary.svg)\n\nCustomer Experience\n\nUnify CRM activities like sales, marketing, and support using a single platform for a coordinated, context-rich response to every lead and customer.\n\n- [![CRM](https://www.zohowebstatic.com/sites/zweb/images/productlogos/crmplus.svg)](https://www.zoho.com/crm/crmplus/?src=entin)\n- [![Desk](https://www.zohowebstatic.com/sites/zweb/images/productlogos/desk.png)](https://www.zoho.com/en-in/desk/?src=entin)\n\nEmployee Experience\n\nManage your entire employee lifecycle on a single, integrated HRMS platform that provides seamless digital experiences while prioritising employee satisfaction.\n\n- [![people](https://www.zohowebstatic.com/sites/zweb/images/productlogos/peopleplus.png)](https://www.zoho.com/peopleplus/?src=entin)\n- [![payroll](https://www.zohowebstatic.com/sites/zweb/images/productlogos/payroll.svg)](https://www.zoho.com/in/payroll/?src=entin)\n- [![expense](https://www.zohowebstatic.com/sites/zweb/images/productlogos/expense.svg)](https://www.zoho.com/in/expense/?src=entin)\n\nProductivity & Collaboration",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:52.186463Z",
+      "section_path": "Accelerate enterprise growth with customisable software solutions > Customisable solutions for enterprise management > Streamline HR operations across departments, business units, and locations",
+      "chunk_index": 1,
+      "token_count": 429,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_679d05399e44",
+      "source_type": "pricing_page",
+      "url": "https://www.zoho.com/en-in/enterprise",
+      "domain": "www.zoho.com",
+      "page_title": "Customizable enterprise software by Zoho",
+      "content": "Whether you work in retail, manufacturing, financial services, IT, or any other sector, our CRM, AI, BI, and ERP tools will help you make the most of Zoho.\n\nBFSI\n\n\"This platform has automated approximately 90-95% of customer query processes, leading to a remarkable 30% increase in customer satisfaction and a 25% boost in retention rates.\"\n\nManimekhalai AManaging Director & CEO, Union Bank of India\n\n[LEARN MORE](https://www.zoho.com/news/union-bank-of-india-and-zoho-mark-digital-transformation-success.html)\n\nMANUFACTURING\n\n\"Today, 100 percent of our pre-sales across all businesses and divisions and locations run on Zoho CRM. We have also created a Dealer Enquiry (DEQ) system that centralised deal onboarding operations, automated workflows, and helped us reduce both customer response times and manual user errors by over 40 percent.\"\n\nUdit PahwaChief Information Officer, Blue Star Limited\n\nFMCG AND RETAIL\n\n\"In the past six months, we've saved nearly INR 3 crore with Zoho Creator, cutting task completion time by 50% and boosting productivity and performance by 1.5x.\"\n\nVinayaka GangavatiHead of Procurement, BigBasket\n\n[LEARN MORE](https://www.zoho.com/creator/case-studies/bigbasket-retail-capex-procurement.html)\n\nIT SERVICES",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:52.186556Z",
+      "section_path": "Accelerate enterprise growth with customisable software solutions > Bespoke solutions across industries > Tata's BigBasket automates CapEx procurement with ERP built on Zoho Creator",
+      "chunk_index": 4,
+      "token_count": 309,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_77e5f90b78f7",
+      "source_type": "official_docs",
+      "url": "https://zoho.com/crm",
+      "domain": "zoho.com",
+      "page_title": "Zoho CRM | Top-rated Sales CRM Software by Customers",
+      "content": "Intelligent automation meets intuitive design. Built with AI at its core, Zoho CRM supercharges your business to get ahead without the overhead.\n\n[GET STARTED](https://www.zoho.com/crm/signup.html?plan=enterprise&source_from=crm_home)\n\nVisionary in 2025 Magic Quadrant™\n\nfor Sales Force Automation Platforms\n\n[Read more](https://www.zoho.com/crm/gartner-sfa-mq.html?source_from=crm_home)\n\n![Zoho CRM's home banner](https://www.zohowebstatic.com/sites/zweb/images/crm/homepage_banner_image.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:51.046598Z",
+      "section_path": "The easiest AI CRM for growth.",
+      "chunk_index": 0,
+      "token_count": 123,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_dac82841cb90",
+      "source_type": "official_docs",
+      "url": "https://zoho.com/crm",
+      "domain": "zoho.com",
+      "page_title": "Zoho CRM | Top-rated Sales CRM Software by Customers",
+      "content": "+1\n\n![](https://accounts.zoho.com/accounts/images/spacer.gif)\n\nIt looks like you‘re in the united states based on your IP.\n\nCountry/RegionAfghanistanAlbaniaAlgeriaAmerican SamoaAndorraAngolaAnguillaAntigua and BarbudaArgentinaArmeniaArubaAustraliaAustriaAzerbaijanBahamasBahrainBangladeshBarbadosBelarusBelgiumBelizeBeninBermudaBhutanBoliviaBosnia and HerzegovinaBotswanaBrazilBritish Virgin IslandsBruneiBulgariaBurkina FasoBurundiCambodiaCameroonCanadaCape VerdeCayman IslandsCentral African RepublicChadChileChinaColombiaComorosCongoCook IslandsCosta RicaCroatiaCubaCyprusCzech RepublicCôte d'IvoireDenmarkDjiboutiDominicaDominican RepublicEcuadorEgyptEl SalvadorEquatorial GuineaEritreaEstoniaEthiopiaFalkland IslandsFaroe IslandsFijiFinlandFranceFrench GuianaFrench PolynesiaGabonGambiaGeorgiaGermanyGhanaGibraltarGreeceGreenlandGrenadaGuadeloupeGuamGuatemalaGuineaGuinea-BissauGuyanaHaitiHondurasHong KongHungaryIcelandIndiaIndonesiaIranIraqIrelandIsraelItalyJamaicaJapanJordanKazakhstanKenyaKiribatiKosovoKuwaitKyrgyzstanLaosLatviaLebanonLesothoLiberiaLibyaLiechtensteinLithuaniaLuxembourgMacaoMacedoniaMadagascarMalawiMalaysiaMaldivesMaliMaltaMarshall IslandsMartiniqueMauritaniaMauritiusMexicoMicronesiaMoldovaMonacoMongoliaMontenegroMontserratMoroccoMozambiqueMyanmarNamibiaNauruNepalNetherlandsNetherlands AntillesNew CaledoniaNew ZealandNicaraguaNigerNigeriaNiueNorth KoreaNorthern Mariana IslandsNorwayOmanPakistanPalauPalestinePanamaPapua New GuineaParaguayPeruPhilippinesPolandPortugalPuerto RicoQatarReunionRomaniaRussiaRwandaSaint HelenaSaint Kitts And NevisSaint LuciaSaint Pierre And MiquelonSaint Vincent And The GrenadinesSamoaSan MarinoSao Tome And PrincipeSaudi ArabiaSenegalSerbiaSeychellesSierra LeoneSingaporeSlovakiaSloveniaSolomon IslandsSomaliaSouth AfricaSouth KoreaSpainSri LankaSudanSurinameSwazilandSwedenSwitzerlandSyriaTaiwanTajikistanTanzaniaThailandThe Democratic Republic Of CongoTimor-LesteTogoTokelauTongaTrinidad and TobagoTunisiaTurkeyTurkmenistanTurks And Caicos IslandsTuvaluU.S. Virgin IslandsUgandaUkraineUnited Arab EmiratesUnited KingdomUnited StatesUruguayUzbekistanVanuatuVaticanVenezuelaVietnamWallis And FutunaYemenZambiaZimbabweÅland Islands\n\nYour data will be stored in the US data center.\n\nAlabamaAlaskaAmerican SamoaArizonaArkansasCaliforniaColoradoConnecticutDelawareFloridaGeorgiaGuamHawaiiIdahoIllinoisIndianaIowaKansasKentuckyLouisianaMaineMarylandMassachusettsMichiganMinnesotaMississippiMissouriMontanaNebraskaNevadaNew HampshireNew JerseyNew MexicoNew YorkNorth CarolinaNorth DakotaNorthern Mariana IslandsOhioOklahomaOregonPennsylvaniaPuerto RicoRhode IslandSouth CarolinaSouth DakotaTennesseeTexasU.S. Virgin IslandsUtahVermontVirginiaWashingtonWashington, D.CWest VirginiaWisconsinWyoming\n\nYes, I would like to receive marketing communication regarding [Zoho’s](https://www.zohocorp.com/) products, services, and events from Zoho and its regional partners.\n\nI agree to the [Terms of Service](https://www.zoho.com/crm/terms.html) and [Privacy Policy](https://www.zoho.com/privacy.html).\n\nVerify your sign-up\n\nEnter the one-time password sent to your email address.\n\nChange\n\nResend OTP\n\nor sign in usingGoogleLinkedin",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:51.046907Z",
+      "section_path": "The easiest AI CRM for growth. > Get started with your    flexible free trial",
+      "chunk_index": 4,
+      "token_count": 795,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_ad3f88a8c39b",
+      "source_type": "official_docs",
+      "url": "https://zoho.com/crm",
+      "domain": "zoho.com",
+      "page_title": "Zoho CRM | Top-rated Sales CRM Software by Customers",
+      "content": "[GET STARTED](https://www.zoho.com/crm/signup.html?plan=enterprise&source_from=crm_home) [See Pricing](https://www.zoho.com/crm/zohocrm-pricing.html?source_from=crm_home)\n\nUncompromized privacy & compliance.\n\nView all of our security certificates.\n\n[Read more](https://www.zoho.com/privacy-commitment.html?source_from=crm_home)\n\nIS 642819: Information Security\n\nManagement Certificate\n\nPM 732705: Privacy Information\n\nManagement Certificate\n\nCLOUD 714132, PII 714133: Cloud Security\n\nManagement Certificate\n\nCLOUD 714132, PII 714133: Personal Data in\n\nthe Cloud Certificate\n\n27%Increased productivityDo more in less time\n\n50%Faster implementationGet started in no time\n\n71%Saved on licensing feesBig savings for a lifetime\n\n\\\\* Growth metrics reported by our customers in an internal survey.\n\n[Quick Tour](https://www.zoho.com/crm/resources/guided-tour/zoho-crm-overview.html?source_from=crm_home)\n\nWatch Overview\n\n![image calling for a demo of zoho crm](https://www.zohowebstatic.com/sites/zweb/images/crm/canvas-screen-crm-home.svg)\n\nZoho CRM seamlessly integrates with over 1,000+ applications, and it takes no time to set up and get started. Check out Zoho Marketplace to find out which of your daily-drivers are ready to pair.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:51.047065Z",
+      "section_path": "The easiest AI CRM for growth. > Take us for a spin! > Can I integrate my favorite apps with Zoho CRM?",
+      "chunk_index": 7,
+      "token_count": 307,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_d99f0997cb8e",
+      "source_type": "official_docs",
+      "url": "https://zoho.com/crm",
+      "domain": "zoho.com",
+      "page_title": "Zoho CRM | Top-rated Sales CRM Software by Customers",
+      "content": "Try our [Edition Selector](https://www.zoho.com/crm/edition-selector-quiz-zoho-crm.html?source_from=crm_home) and answer a few questions about your requirements for a CRM. Based on your choices, we'll recommend the edition that aligns best with your business goals.\n\nYou are not bound by any contracts or commitments. Zoho CRM is a pay-as-you-go service (monthly or yearly), so you can make changes to your plan whenever you need to, and upgrade or downgrade at will.\n\nYou can comfortably switch to Zoho from any popular CRM service–even spreadsheets. You can also avail our Jumpstart service that includes everything from requirement gathering to setup and onboarding. Alongside, we have a dedicated program for Enterprises looking to move, and we'll help you get started in no time.\n\n[Explore Zwitch (Migration)](https://www.zoho.com/crm/switch-crm-save-70.html?source_from=crm_home) [Explore Jumpstart (Service)](https://www.zoho.com/jumpstart/?source_from=crm_home) [Contact EBS (Enterprise)](https://www.zoho.com/enterprise/ebs/?source_from=crm_home)\n\nZoho CRM is built to serve business of all kinds, and we cater to all industries and verticals. Explore our [industry-specific solutions](https://www.zoho.com/crm/verticals/?source_from=crm_home) to learn more, and book a personalized demo to understand how Zoho CRM can be customized to meet your business needs.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:51.047110Z",
+      "section_path": "The easiest AI CRM for growth. > Take us for a spin! > Is Zoho CRM available for my industry?",
+      "chunk_index": 8,
+      "token_count": 342,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_cee1ddd9bc23",
+      "source_type": "official_docs",
+      "url": "https://zoho.com/crm",
+      "domain": "zoho.com",
+      "page_title": "Zoho CRM | Top-rated Sales CRM Software by Customers",
+      "content": "Zoho CRM's freemium edition supports up to 3 users and comes with the essentials like leads, documents, and mobile apps, it’s a perfect fit for your home business. Alternatively, check out [Bigin by Zoho CRM,](https://www.bigin.com/?source_from=crm_home) built specifically for small businesses, freelancers, and entrepreneurs.\n\nYes, we would be happy to demonstrate Zoho CRM through a web-conference at your convenience. The demo is a one hour session. To schedule your personal session, please contact [sales@zohocorp.com.](mailto:sales@zohocorp.com)\n\n- 1\n- 2\n- 3\n- 4\n- 5\n- 6\n- 7\n\n<<\n\n- [Request a Callback](https://www.zoho.com/crm/request-callback.html?source_from=crm_home)\n- [Request a Demo](https://www.zoho.com/crm/solutions/non-profit/request-demo.html?source_from=crm_home)\n- [Get a Quote](https://www.zoho.com/crm/request-quote.html?source_from=crm_home)\n- [Contact Enterprise Sales](https://www.zoho.com/crm/enterprise/contact-us.html?source_from=crm_home)\n\n[Contact Sales](https://www.zoho.com/crm/request-callback.html?source_from=crm_home)\n\nOn your way to Zoho CRM ...\n\nAt Zoho, we do not use third-party software to track\nwebsite visitors. We take\nyour privacy seriously and use our own tools hosted in our data centres. Your data is yours, and we\nnever monetize it for advertisement purposes. You can learn more about our cookie policy [here](https://www.zoho.com/privacy/cookie-policy.html?src=cp-banner) and\nchange your preferences at any time.\n\nManage\nCookies\n\nAccept All Cookies\n\nReject Unnecessary\nCookies\n\nclose\n\n![Cookie policy - Zoho](https://www.zoho.com/sites/zweb/images/zoho_general_pages/cookie-widget.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:51.047165Z",
+      "section_path": "The easiest AI CRM for growth. > Take us for a spin! > Can I get a demo of Zoho CRM?",
+      "chunk_index": 9,
+      "token_count": 409,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_71ce780927d4",
+      "source_type": "developer_portal",
+      "url": "https://www.zoho.com/workdrive/?src=zdocs",
+      "domain": "www.zoho.com",
+      "page_title": "Zoho WorkDrive | Online file management for teams",
+      "content": "[SIGN UP FOR FREE](https://www.zoho.com/workdrive/signup.html) [Request Demo](https://www.zoho.com/workdrive/book-a-demo.html)\n\nWatch video [Get WorkDrive for Individuals](https://www.zoho.com/workdrive/individual-plan.html)\n\n[**Workflows**\\\\\n\\\\\n![Workflows automation](https://www.zohowebstatic.com/sites/zweb/images/workdrive/home/workflow-home.png)](https://www.zoho.com/workdrive/workflow.html?src=dd) [**Data Loss Prevention**\\\\\n\\\\\n![Data Loss Prevention](https://www.zohowebstatic.com/sites/zweb/images/workdrive/home/desktop-home.png)](https://www.zoho.com/workdrive/data-loss-prevention.html?src=dd) [**Desktop App**\\\\\n\\\\\n![Desktop App](https://www.zohowebstatic.com/sites/zweb/images/workdrive/home/feature-truesync.jpg)](https://www.zoho.com/workdrive/truesync.html?src=dd) [**Introducing WorkDrive 6.0 (Phase 1)** Advancing toward intelligent enterprise content management.](https://www.zoho.com/blog/workdrive/6.0-intelligent-enterprise-content-management.html)\n\nacross the world store, collaborate, and organize their teams’ work with Zoho WorkDrive\n\n- ![Tomedes logo](https://www.zoho.com/sites/zweb/images/otherbrandlogos/tomedes.svg)\n- ![IIFL logo](https://www.zoho.com/sites/zweb/images/otherbrandlogos/iifl.svg)\n- ![Star Health logo](https://www.zoho.com/sites/zweb/images/otherbrandlogos/star-health-insurance.png)\n- ![Purolite logo](https://www.zoho.com/sites/zweb/images/otherbrandlogos/purolite.svg)\n- ![cortem group logo](https://www.zoho.com/sites/zweb/images/otherbrandlogos/cortem-group.png)\n- ![Barings-law logo](https://www.zoho.com/sites/zweb/images/otherbrandlogos/barings-law.svg)\n- ![Rhopoint instruments logo](https://www.zoho.com/sites/zweb/images/otherbrandlogos/rhopoint-instruments.png)\n- ![mchemist logo](https://www.zoho.com/sites/zweb/images/otherbrandlogos/mchemist.png)\n\n[see more customers](https://www.zoho.com/workdrive/customers/)\n\n![Gartner Award](https://www.zohowebstatic.com/sites/zweb/images/workdrive/home/gart-award.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:52.334750Z",
+      "section_path": "_Intelligent content management_ platform for secure, collaborative work > Over 750K businesses",
+      "chunk_index": 0,
+      "token_count": 493,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_75b174ba4c30",
+      "source_type": "developer_portal",
+      "url": "https://www.zoho.com/workdrive/?src=zdocs",
+      "domain": "www.zoho.com",
+      "page_title": "Zoho WorkDrive | Online file management for teams",
+      "content": "You've seen the chaos. Now see how Zoho WorkDrive brings order to everyday work with one platform to organize files, find information faster, and collaborate securely.\n\n[EXPLORE MORE](https://www.zoho.com/workdrive/lp/stop-the-circus.html)\n\nCentralize your files, collaborate in real time, and automate workflows—all in one secure, AI-powered platform.\n\n- Industry\n- Function\n- Size\n\nIndustry\n\nFrom providing a collaborative workspace to securing corporate content, Zoho WorkDrive caters to a wide range of business needs across industries.\n\n![Industry](https://www.zohowebstatic.com/sites/zweb/images/workdrive/home/solutions-industry.jpg)\n\n\"WorkDrive is a big data solution because, by focusing on teams, it gives a greater push to meet the organizational and corporate objectives. I recommend it more than Google Drive, by far.\"\n\n![Esteban Rojas,SeguroInteligente](https://www.zohowebstatic.com/sites/zweb/images/workdrive/zoho-workdrive-customers-esteban-rojas.png)\n\nEsteban Rojas\n\nSeguroInteligente.mx\n\n[See more customers](https://www.zoho.com/workdrive/customers/)\n\nFunction\n\nWhether legal, financial, or something else entirely, Zoho WorkDrive helps companies perform business functions by breaking down content silos and bringing everyone's work under one roof.\n\n![Whether legal, financial, or something else entirely, Zoho WorkDrive helps companies perform business functions by breaking down content silos and bringing everyone's work under one roof.](https://www.zohowebstatic.com/sites/zweb/images/workdrive/home/solutions-function.jpg)\n\n\"Beautiful file system, exhaustive APIs, and \\[a system\\] that is absolutely safe and secure.\"\n\n![Beautiful file system, exhaustive APIs, and [a system] that is absolutely safe and secure.](https://www.zohowebstatic.com/sites/zweb/images/workdrive/customers/easytocheck-customer.jpg)\n\nAmit Kumar\n\nFounder, EasytoCheck\n\n[See more customers](https://www.zoho.com/workdrive/customers/)\n\nSize\n\nNo matter the size or goals of your business, Zoho WorkDrive can help your team work together better and stay productive.\n\n![No matter the size or goals of your business, Zoho WorkDrive can help your team work together better and stay productive.](https://www.zohowebstatic.com/sites/zweb/images/workdrive/home/solutions-size.jpg)\n\n\"We were looking for a centralized file repository with enterprise-grade security, which Zoho WorkDrive has \\[provided\\].\"\n\n![Vishal P. Shirke,Ex-Vice President - CRM Product Head at IIFL](https://www.zohowebstatic.com/sites/zweb/images/workdrive/customers/iifl-customer.jpg)\n\nVishal P. Shirke\n\nEx-Vice President, CRM Product Head at IIFL\n\n[See more customers](https://www.zoho.com/workdrive/customers/)\n\n★★★★★4.6 / 5\n\n★★★★★4.3 / 5\n\n★★★★★4.5 / 5\n\n★★★★★4.6 / 5\n\n★★★★★4.4 / 5\n\n★★★★★9.2 / 10\n\nPricing",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:52.334877Z",
+      "section_path": "Zoho recognized in Gartner® Magic Quadrant™ for Document Management 2026 > Stop the circus.",
+      "chunk_index": 2,
+      "token_count": 692,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_215a83397568",
+      "source_type": "developer_portal",
+      "url": "https://www.zoho.com/workdrive/?src=zdocs",
+      "domain": "www.zoho.com",
+      "page_title": "Zoho WorkDrive | Online file management for teams",
+      "content": "- Pay monthly\n- Pay yearly (Save 18%)\n\nSTARTER\n\n£2 _.50_£2.5£2£2\n\n/user/month billed annuallyStarting with 3 users [Get Started](https://www.zoho.com/workdrive/signup.html?src=team&plan=starter)\n\n- Storage starts at 1 TB/Team Get 1 TB of team storage for up to 10 users.\n- After 10 users, get additional shared storage of 100 GB/new user Up to 20 TB/Team\n- 10 GB upload limit per file\n\nTEAM\n\n£5£5£4£4\n\n/user/month billed annuallyStarting with 3 users [Get Started](https://www.zoho.com/workdrive/signup.html?src=team&plan=team)\n\n- Storage starts at 3 TB/Team Get 3 TB of team storage for up to 10 users.\n- After 10 users, get additional shared storage of 300 GB/new user Up to 60 TB/Team\n- 50 GB upload limit per file\n\nBUSINESS\n\n£9£9£7£7\n\n/user/month billed annuallyStarting with 3 users [Get Started](https://www.zoho.com/workdrive/signup.html?src=team&plan=business)\n\n- Storage starts at 5 TB/team Get 5 TB of team storage for up to 10 users.\n- After 10 users, get additional shared storage of 500 GB/new user Up to 100 TB/Team\n- 250 GB upload limit per file\n\nBest Deal\n\nFREE - 5GB Secure cloud storage for individual use [Get Started](https://www.zoho.com/workdrive/signup.html?src=individual)\n\nEnterprise (more than 200 users)Get a custom quoteCONTACT SALES\n\nLocal taxes (VAT, GST, etc.) will be charged in addition to the prices mentioned.\n\n[View more](https://www.zoho.com/workdrive/pricing.html)\n\n[**Ensure data compliance** \\\\\nWorkDrive is GDPR and HIPAA-compliant and meets industry-specific compliance standards](https://www.zoho.com/workdrive/security.html)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:52.334913Z",
+      "section_path": "Zoho recognized in Gartner® Magic Quadrant™ for Document Management 2026 > Pricing that scales with your business",
+      "chunk_index": 3,
+      "token_count": 392,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_142212325985",
+      "source_type": "developer_portal",
+      "url": "https://www.zoho.com/workdrive/?src=zdocs",
+      "domain": "www.zoho.com",
+      "page_title": "Zoho WorkDrive | Online file management for teams",
+      "content": "From real-time collaboration to AI-driven insights, this intelligent office suite brings your entire workflow under one roof.\n\n[**Writer** \\\\\nA clean, intelligent word processor that helps you write, refine, and automate—effortlessly.](https://www.zoho.com/writer/) [**Sheet** \\\\\nA sleek spreadsheet app built for collaborative number crunching and data organization—supercharged with AI and smart summarization.](https://www.zoho.com/sheet/) [**Show** \\\\\nA modern presentation tool that lets you craft stunning slides with elegant animations and interactive elements to captivate any audience.](https://www.zoho.com/show/)\n\n- [File Annotations](https://www.zoho.com/workdrive/file-annotations.html?src=dd)\n- [Data Templates](https://www.zoho.com/workdrive/data-templates.html?src=dd)\n- [Collect Files](https://www.zoho.com/workdrive/collect-files.html?src=dd)\n- [Admin Console](https://www.zoho.com/workdrive/admin-dashboard.html?src=dd)\n- [Security](https://www.zoho.com/workdrive/security.html?src=dd)\n- [Desktop App](https://www.zoho.com/workdrive/truesync.html?src=dd)\n- [Mobile Apps](https://www.zoho.com/workdrive/mobile-apps.html?src=dd)\n- [WorkDrive Genie](https://www.zoho.com/workdrive/genie.html?src=dd)\n- [GDPR Compliance](https://www.zoho.com/workdrive/gdpr.html?src=dd)\n- [HIPAA Compliance](https://www.zoho.com/workdrive/hipaa.html?src=dd)\n- [Work Flows](https://www.zoho.com/workdrive/workflow.html?src=dd)\n- [Data Loss Prevention](https://www.zoho.com/workdrive/data-loss-prevention.html?src=dd)\n- [Zia Hubs Beta](https://www.zoho.com/workdrive/zia-hubs.html?src=dd)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:52.334958Z",
+      "section_path": "Zoho recognized in Gartner® Magic Quadrant™ for Document Management 2026 > Pricing that scales with your business > Zoho Office Suite",
+      "chunk_index": 4,
+      "token_count": 396,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_9abbf785d137",
+      "source_type": "developer_portal",
+      "url": "https://www.zoho.com/workdrive/?src=zdocs",
+      "domain": "www.zoho.com",
+      "page_title": "Zoho WorkDrive | Online file management for teams",
+      "content": "[SIGN UP FOR FREE](https://www.zoho.com/workdrive/signup.html)\n\nSee how Zoho WorkDrive helps teams store, share, and collaborate securely — all in one place.\n\n[Request Demo](https://www.zoho.com/workdrive/book-a-demo.html) [15-Day Free Trial](https://www.zoho.com/workdrive/signup.html)\n\n![See how Zoho WorkDrive helps teams store, share, and collaborate securely — all in one place.](https://www.zohowebstatic.com/sites/zweb/images/workdrive/home/popup-banner-s.png)\n\n- [Get started](https://www.zoho.com/workdrive/signup.html)\n- [Schedule a demo](https://www.zoho.com/workdrive/contact.html)\n- [Join a live webinar](https://www.zoho.com/workdrive/monthly-webinars.html)\n- [Compare plans](https://www.zoho.com/workdrive/plan-comparison.html)\n\nAt Zoho, we do not use third-party software to track\nwebsite visitors. We take\nyour privacy seriously and use our own tools hosted in our data centres. Your data is yours, and we\nnever monetize it for advertisement purposes. You can learn more about our cookie policy [here](https://www.zoho.com/privacy/cookie-policy.html?src=cp-banner) and\nchange your preferences at any time.\n\nManage\nCookies\n\nAccept All Cookies\n\nReject Unnecessary\nCookies\n\nclose\n\n![Cookie policy - Zoho](https://www.zoho.com/sites/zweb/images/zoho_general_pages/cookie-widget.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:52.335038Z",
+      "section_path": "Zoho recognized in Gartner® Magic Quadrant™ for Document Management 2026 > Work Smarter. Together. > Next Steps",
+      "chunk_index": 6,
+      "token_count": 323,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_6427d4340a82",
+      "source_type": "official_docs",
+      "url": "https://zoho.com/crm",
+      "domain": "zoho.com",
+      "page_title": "Zoho CRM | Top-rated Sales CRM Software by Customers",
+      "content": "Afghanistan (+93)Albania (+355)Algeria (+213)American Samoa (+1)Andorra (+376)Angola (+244)Anguilla (+1)Antigua and Barbuda (+1)Argentina (+54)Armenia (+374)Aruba (+297)Australia (+61)Austria (+43)Azerbaijan (+994)Bahamas (+1)Bahrain (+973)Bangladesh (+880)Barbados (+1)Belarus (+375)Belgium (+32)Belize (+501)Benin (+229)Bermuda (+1)Bhutan (+975)Bolivia (+591)Bosnia and Herzegovina (+387)Botswana (+267)Brazil (+55)British Virgin Islands (+1)Brunei (+673)Bulgaria (+359)Burkina Faso (+226)Burundi (+257)Cambodia (+855)Cameroon (+237)Canada (+1)Cape Verde (+238)Cayman Islands (+1)Central African Republic (+236)Chad (+235)Chile (+56)China (+86)Colombia (+57)Comoros (+269)Congo (+242)Cook Islands (+682)Costa Rica (+506)Croatia (+385)Cuba (+53)Cyprus (+357)Czech Republic (+420)Côte d'Ivoire (+225)Denmark (+45)Djibouti (+253)Dominica (+1)Dominican Republic (+1)Ecuador (+593)Egypt (+20)El Salvador (+503)Equatorial Guinea (+240)Eritrea (+291)Estonia (+372)Ethiopia (+251)Falkland Islands (+500)Faroe Islands (+298)Fiji (+679)Finland (+358)France (+33)French Guiana (+594)French Polynesia (+689)Gabon (+241)Gambia (+220)Georgia (+995)Germany (+49)Ghana (+233)Gibraltar (+350)Greece (+30)Greenland (+299)Grenada (+1)Guadeloupe (+590)Guam (+1)Guatemala (+502)Guinea (+224)Guinea-Bissau (+245)Guyana (+592)Haiti (+509)Honduras (+504)Hong Kong (+852)Hungary (+36)Iceland (+354)India (+91)Indonesia (+62)Iran (+98)Iraq (+964)Ireland (+353)Israel (+972)Italy (+39)Jamaica (+1)Japan (+81)Jordan (+962)Kazakhstan (+7)Kenya (+254)Kiribati (+686)Kosovo (+383)Kuwait (+965)Kyrgyzstan (+996)Laos (+856)Latvia (+371)Lebanon (+961)Lesotho (+266)Liberia (+231)Libya (+218)Liechtenstein (+423)Lithuania (+370)Luxembourg (+352)Macao (+853)Macedonia (+389)Madagascar (+261)Malawi (+265)Malaysia (+60)Maldives (+960)Mali (+223)Malta (+356)Marshall Islands (+692)Martinique (+596)Mauritania (+222)Mauritius (+230)Mexico (+52)Micronesia (+691)Moldova (+373)Monaco (+377)Mongolia (+976)Montenegro (+382)Montserrat (+1)Morocco (+212)Mozambique (+258)Myanmar (+95)Namibia (+264)Nauru (+674)Nepal (+977)Netherlands (+31)Netherlands Antilles (+599)New Caledonia (+687)New Zealand (+64)Nicaragua (+505)Niger (+227)Nigeria (+234)Niue (+683)North Korea (+850)Northern Mariana Islands (+1)Norway (+47)Oman (+968)Pakistan (+92)Palau (+680)Palestine (+970)Panama (+507)Papua New Guinea (+675)Paraguay (+595)Peru (+51)Philippines (+63)Poland (+48)Portugal (+351)Puerto Rico (+1)Qatar (+974)Reunion (+262)Romania (+40)Russia (+7)Rwanda (+250)Saint Helena (+290)Saint Kitts And Nevis (+1)Saint Lucia (+1)Saint Pierre And Miquelon (+508)Saint Vincent And The Grenadines (+1)Samoa (+685)San Marino (+378)Sao Tome And Principe (+239)Saudi Arabia (+966)Senegal (+221)Serbia (+381)Seychelles (+248)Sierra Leone (+232)Singapore (+65)Slovakia (+421)Slovenia (+386)Solomon Islands (+677)Somalia (+252)South Africa (+27)South Korea (+82)Spain (+34)Sri Lanka (+94)Sudan (+249)Suriname (+597)Swaziland (+268)Sweden (+46)Switzerland (+41)Syria (+963)Taiwan (+886)Tajikistan (+992)Tanzania (+255)Thailand (+66)The Democratic Republic Of Congo (+243)Timor-Leste (+670)Togo (+228)Tokelau (+690)Tonga (+676)Trinidad and Tobago (+1)Tunisia (+216)Turkey (+90)Turkmenistan (+993)Turks And Caicos Islands (+1)Tuvalu (+688)U.S. Virgin Islands (+1)Uganda (+256)Ukraine (+380)United Arab Emirates (+971)United Kingdom (+44)United States (+1)Uruguay (+598)Uzbekistan (+998)Vanuatu (+678)Vatican (+379)Venezuela (+58)Vietnam (+84)Wallis And Futuna (+681)Yemen (+967)Zambia (+260)Zimbabwe (+263)Åland Islands (+358)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:51.046704Z",
+      "section_path": "The easiest AI CRM for growth. > Get started with your    flexible free trial",
+      "chunk_index": 1,
+      "token_count": 889,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_8d911fd315b5",
+      "source_type": "official_docs",
+      "url": "https://zoho.com/crm",
+      "domain": "zoho.com",
+      "page_title": "Zoho CRM | Top-rated Sales CRM Software by Customers",
+      "content": "+1",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:51.046719Z",
+      "section_path": "The easiest AI CRM for growth. > Get started with your    flexible free trial",
+      "chunk_index": 2,
+      "token_count": 1,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_7a8a9b620ec3",
+      "source_type": "official_docs",
+      "url": "https://zoho.com/crm",
+      "domain": "zoho.com",
+      "page_title": "Zoho CRM | Top-rated Sales CRM Software by Customers",
+      "content": "Afghanistan (+93)Albania (+355)Algeria (+213)American Samoa (+1)Andorra (+376)Angola (+244)Anguilla (+1)Antigua and Barbuda (+1)Argentina (+54)Armenia (+374)Aruba (+297)Australia (+61)Austria (+43)Azerbaijan (+994)Bahamas (+1)Bahrain (+973)Bangladesh (+880)Barbados (+1)Belarus (+375)Belgium (+32)Belize (+501)Benin (+229)Bermuda (+1)Bhutan (+975)Bolivia (+591)Bosnia and Herzegovina (+387)Botswana (+267)Brazil (+55)British Virgin Islands (+1)Brunei (+673)Bulgaria (+359)Burkina Faso (+226)Burundi (+257)Cambodia (+855)Cameroon (+237)Canada (+1)Cape Verde (+238)Cayman Islands (+1)Central African Republic (+236)Chad (+235)Chile (+56)China (+86)Colombia (+57)Comoros (+269)Congo (+242)Cook Islands (+682)Costa Rica (+506)Croatia (+385)Cuba (+53)Cyprus (+357)Czech Republic (+420)Côte d'Ivoire (+225)Denmark (+45)Djibouti (+253)Dominica (+1)Dominican Republic (+1)Ecuador (+593)Egypt (+20)El Salvador (+503)Equatorial Guinea (+240)Eritrea (+291)Estonia (+372)Ethiopia (+251)Falkland Islands (+500)Faroe Islands (+298)Fiji (+679)Finland (+358)France (+33)French Guiana (+594)French Polynesia (+689)Gabon (+241)Gambia (+220)Georgia (+995)Germany (+49)Ghana (+233)Gibraltar (+350)Greece (+30)Greenland (+299)Grenada (+1)Guadeloupe (+590)Guam (+1)Guatemala (+502)Guinea (+224)Guinea-Bissau (+245)Guyana (+592)Haiti (+509)Honduras (+504)Hong Kong (+852)Hungary (+36)Iceland (+354)India (+91)Indonesia (+62)Iran (+98)Iraq (+964)Ireland (+353)Israel (+972)Italy (+39)Jamaica (+1)Japan (+81)Jordan (+962)Kazakhstan (+7)Kenya (+254)Kiribati (+686)Kosovo (+383)Kuwait (+965)Kyrgyzstan (+996)Laos (+856)Latvia (+371)Lebanon (+961)Lesotho (+266)Liberia (+231)Libya (+218)Liechtenstein (+423)Lithuania (+370)Luxembourg (+352)Macao (+853)Macedonia (+389)Madagascar (+261)Malawi (+265)Malaysia (+60)Maldives (+960)Mali (+223)Malta (+356)Marshall Islands (+692)Martinique (+596)Mauritania (+222)Mauritius (+230)Mexico (+52)Micronesia (+691)Moldova (+373)Monaco (+377)Mongolia (+976)Montenegro (+382)Montserrat (+1)Morocco (+212)Mozambique (+258)Myanmar (+95)Namibia (+264)Nauru (+674)Nepal (+977)Netherlands (+31)Netherlands Antilles (+599)New Caledonia (+687)New Zealand (+64)Nicaragua (+505)Niger (+227)Nigeria (+234)Niue (+683)North Korea (+850)Northern Mariana Islands (+1)Norway (+47)Oman (+968)Pakistan (+92)Palau (+680)Palestine (+970)Panama (+507)Papua New Guinea (+675)Paraguay (+595)Peru (+51)Philippines (+63)Poland (+48)Portugal (+351)Puerto Rico (+1)Qatar (+974)Reunion (+262)Romania (+40)Russia (+7)Rwanda (+250)Saint Helena (+290)Saint Kitts And Nevis (+1)Saint Lucia (+1)Saint Pierre And Miquelon (+508)Saint Vincent And The Grenadines (+1)Samoa (+685)San Marino (+378)Sao Tome And Principe (+239)Saudi Arabia (+966)Senegal (+221)Serbia (+381)Seychelles (+248)Sierra Leone (+232)Singapore (+65)Slovakia (+421)Slovenia (+386)Solomon Islands (+677)Somalia (+252)South Africa (+27)South Korea (+82)Spain (+34)Sri Lanka (+94)Sudan (+249)Suriname (+597)Swaziland (+268)Sweden (+46)Switzerland (+41)Syria (+963)Taiwan (+886)Tajikistan (+992)Tanzania (+255)Thailand (+66)The Democratic Republic Of Congo (+243)Timor-Leste (+670)Togo (+228)Tokelau (+690)Tonga (+676)Trinidad and Tobago (+1)Tunisia (+216)Turkey (+90)Turkmenistan (+993)Turks And Caicos Islands (+1)Tuvalu (+688)U.S. Virgin Islands (+1)Uganda (+256)Ukraine (+380)United Arab Emirates (+971)United Kingdom (+44)United States (+1)Uruguay (+598)Uzbekistan (+998)Vanuatu (+678)Vatican (+379)Venezuela (+58)Vietnam (+84)Wallis And Futuna (+681)Yemen (+967)Zambia (+260)Zimbabwe (+263)Åland Islands (+358)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:51.046802Z",
+      "section_path": "The easiest AI CRM for growth. > Get started with your    flexible free trial",
+      "chunk_index": 3,
+      "token_count": 889,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_861c90f579e6",
+      "source_type": "official_docs",
+      "url": "https://zoho.com/crm",
+      "domain": "zoho.com",
+      "page_title": "Zoho CRM | Top-rated Sales CRM Software by Customers",
+      "content": "Harness the power of a multi-agent platform that delivers the best of artificial intelligence and human experience.\n\n[Explore agents](https://www.zoho.com/crm/zia/agentic-ai.html?source_from=crm_home)\n\nMultiple teams come together with sales to close deals. With Zoho CRM for Everyone, you can build unique, collaborative spaces for each team — all with some AI assistance, of course. Start winning more, together.\n\n[Explore CRM for Everyone](https://www.zoho.com/crm/crm-for-everyone/?source_from=crm_home)\n\nTeamspaces Zia Module CreationZia Custom Design\n\nSet up a dedicated space for each team. Let teams work with the data they need and nothing else.\n\nNew to CRM? No problem. Teams can create their own modules through simple prompts.\n\nCreate detailed list views based on images. Upload a layout you like and generate a custom Canvas layout instantly.\n\n![Allow team users to customize record list views with AI](https://www.zohowebstatic.com/sites/zweb/images/crm/image-to-canvas.svg)\n\nZoho CRM offers us technology that allows us to be more proactive and insight-driven, with all information in a single place. With our complete business under control, our productivity is up by 80% in the last year that we have been using Zoho.\n\nThomas JohnManaging Director, Agappe\n\nZoho CRM for Everyone is incredibly user-friendly and customizable. Its intuitive interface makes it easy to navigate. The reporting tools were also a standout, providing clear insights that helped us make informed decisions.\n\nSamer ZughulManaging Partner,\n\nSimplify9\n\nZoho CRM helped us automate our processes after we implemented workflow rules. Privacy and security are essential for us, and Zoho addressed it all. This was a game changer.\n\nOlga KovshanovaDirector, Minor Hotels\n\nI’m overall very satisfied with Zoho. The new CRM4E update has significantly enhanced the potential for effective team collaboration.\n\nAri Daniel Hernandez SanchezMarketing Director, Ava 7",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:51.046981Z",
+      "section_path": "The easiest AI CRM for growth. > Staying relevant and driving innovation, since 2005",
+      "chunk_index": 5,
+      "token_count": 486,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_fbf3221e25e4",
+      "source_type": "official_docs",
+      "url": "https://zoho.com/crm",
+      "domain": "zoho.com",
+      "page_title": "Zoho CRM | Top-rated Sales CRM Software by Customers",
+      "content": "From rewriting emails to detecting anomalies, let Zia and ChatGPT help you get things done smarter.\n\n[Discover Zia AI capabilities](https://www.zoho.com/crm/zia/?source_from=crm_home)\n\nContextual customer engagement in real-time, across every channel, to ensure rich experiences.\n\n[Simplify customer engagement](https://www.zoho.com/crm/delightful-experience.html?source_from=crm_home)\n\nNuanced forecasting, performance management, and deep BI capabilities for the right insight at all times.\n\n[Explore forecasting & BI](https://www.zoho.com/crm/non-stop-scaling.html?source_from=crm_home)\n\nAdvanced workflows, cadences, and no-code functions to help you sell and scale efficiently.\n\n[Explore workflow automation](https://www.zoho.com/crm/maximum-productivity.html?source_from=crm_home)\n\n![A snippet of analytics on a dashboard](https://www.zohowebstatic.com/sites/zweb/images/crm/ai-is-here-to-assist.svg)\n\n![A collage of omni-channel features](https://www.zohowebstatic.com/sites/zweb/images/crm/crm-home-engage-with-customers.svg)\n\n![A snippet of analytics on a dashboard](https://www.zohowebstatic.com/sites/zweb/images/crm/crm-home-stay-informed.svg)\n\n![A mock-up of workflow and automation](https://www.zohowebstatic.com/sites/zweb/images/crm/crm-home-scale-your-sales.svg)\n\n- 1\n- 2\n- 3\n- 4\n\n[Canvas Design \\\\\n\\\\\nStudio](https://www.zoho.com/canvas/?source_from=crm_home) [Sales Force \\\\\n\\\\\nAutomation](https://www.zoho.com/crm/sales-force-automation/?source_from=crm_home) [Journey \\\\\n\\\\\nOrchestration](https://www.zoho.com/crm/process-management/journey-orchestration.html?source_from=crm_home) [CPQ](https://www.zoho.com/crm/sales-force-automation/cpq.html?source_from=crm_home) [Module 360](https://www.zoho.com/crm/module360.html?source_from=crm_home) [Kiosk \\\\\n\\\\\nStudio](https://www.zoho.com/crm/process-management/kiosk-studio.html?source_from=crm_home) [Predictive \\\\\n\\\\\nAI & BI](https://www.zoho.com/crm/zia/?source_from=crm_home) [Advanced \\\\\n\\\\\nAnalytics](https://www.zoho.com/crm/business-intelligence/?source_from=crm_home) [Agents](https://www.zoho.com/crm/zia/agents.html?source_from=crm_home)\n\n![An illustration of the 360 view that Zoho CRM provides](https://www.zohowebstatic.com/sites/zweb/images/crm/crm-360deg-animation-shape.svg)![An illustration of the 360 view that Zoho CRM provides](https://www.zohowebstatic.com/sites/zweb/images/crm/crm-360deg-animation-circle.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:51.047035Z",
+      "section_path": "The easiest AI CRM for growth. > Scale    your sales",
+      "chunk_index": 6,
+      "token_count": 600,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_380190f1c667",
+      "source_type": "official_docs",
+      "url": "https://zoho.com/crm",
+      "domain": "zoho.com",
+      "page_title": "Zoho CRM | Top-rated Sales CRM Software by Customers",
+      "content": "The options below allow you to manage your consent for the cookies that are set on this website. You\ncan manage your preference anytime by visiting our [cookie\\\\\npolicy](https://www.zoho.com/privacy/cookie-policy.html?src=cp-popup) or by clicking on the cookie icon at the bottom-left corner of the webpage.\n\nThey are necessary for our website to function and cannot be switched off in our systems.\nThey are essential in order to enable you to navigate around the website and use its\nfeatures. If you remove or disable these cookies from your browser, we cannot guarantee\nthat you will be able to use our websites.\n\n[Learn\\\\\nMore](https://www.zoho.com/privacy/cookie-policy.html?src_tab=sn)\n\nThey allow us to remember the choices made by you (such as your user name, language or\nregion) as well as other functionalities (such as controlling the cookie banner,\nredirection to a new page) in order to provide a more personalised online experience.\nThese preferences are remembered (through the use of persistent cookies) so that you\nneed not set them again the next time you visit the page.\n\nNote : The **live chat** widget will **not** work if the\nfunctionality/preference setting is disabled.\n\n[Learn\\\\\nMore](https://www.zoho.com/privacy/cookie-policy.html?src_tab=fp)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:51.047201Z",
+      "section_path": "The easiest AI CRM for growth. > Take us for a spin! > Can I get a demo of Zoho CRM? > Cookie Settings > Functional/Preference",
+      "chunk_index": 10,
+      "token_count": 317,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_97dbcfd068d2",
+      "source_type": "official_docs",
+      "url": "https://zoho.com/crm",
+      "domain": "zoho.com",
+      "page_title": "Zoho CRM | Top-rated Sales CRM Software by Customers",
+      "content": "They help us improve the way our websites work (e.g. by ensuring that users are finding\nwhat they are looking for easily). These collect aggregate information about visits,\nnavigations in the websites so that we can make improvement and report our performance.\nAnalytics cookies may also be used to test new pages or features to understand how users\nadopt them.\n\n[Learn\\\\\nMore](https://www.zoho.com/privacy/cookie-policy.html?src_tab=an)\n\nWhen you visit some of our webpages that contain embedded content hosted on a third party\nplatform such as YouTube videos, these third parties set cookies on your browser. We\nalways opt for the most privacy friendly options provided by these parties, however\nthese are not controlled by us. If you do not want these parties to set cookies on your\nbrowser on visiting our site, you should avoid visiting webpages that contain such\nembeds.\n\n[Learn\\\\\nMore](https://www.zoho.com/privacy/cookie-policy.html?src_tab=tp)\n\nSave & Exit",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:51.047234Z",
+      "section_path": "The easiest AI CRM for growth. > Take us for a spin! > Can I get a demo of Zoho CRM? > Cookie Settings > Third-party company cookies",
+      "chunk_index": 11,
+      "token_count": 241,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_14443efae343",
+      "source_type": "developer_portal",
+      "url": "https://www.zoho.com/workdrive/?src=zdocs",
+      "domain": "www.zoho.com",
+      "page_title": "Zoho WorkDrive | Online file management for teams",
+      "content": "[Read more](https://www.zoho.com/workdrive/2026-gartner-report.html)\n\n![Content Services and Collaboration Technology Value Matrix 2025](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/nucleus-research-value-matrix-leader-2025.png)\n\nNucleus Research\n\n**Value Matrix Leader 2025**\n\n![Emotional Footprint Champion 2025](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/2025-emotional-footprint-champion-infotech.png)\n\nInfo-Tech Research\n\n**Data Quadrant Champion 2025**\n\n![Document management, Cloud Storage](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/getapp-category-leaders-2025.svg)\n\nDocument Management\n\n![Document management, Cloud Storage, File Sharing](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/software-advice-front-runners-2026.svg)\n\nDocument Management\n\n![G2 Leader Fall 2025](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/capterra-shortlist-2026.svg)\n\nDocument Management",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:52.334801Z",
+      "section_path": "Zoho recognized in Gartner® Magic Quadrant™ for Document Management 2026",
+      "chunk_index": 1,
+      "token_count": 243,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_a9e02b471c5a",
+      "source_type": "developer_portal",
+      "url": "https://www.zoho.com/workdrive/?src=zdocs",
+      "domain": "www.zoho.com",
+      "page_title": "Zoho WorkDrive | Online file management for teams",
+      "content": "Stay connected with all your information. Work from wherever you are with Zoho WorkDrive.\n\nZoho WorkDrive for your smartphone and tablet.\n\n![Zoho WorkDrive for your smartphone and tablet.](https://www.zohowebstatic.com/sites/zweb/images/workdrive/home/mobile-section-bg.jpg)\n\n[download zoho workdrive app store](https://itunes.apple.com/us/app/zoho-workdrive/id1408591221?ls=1&mt=8)[download zoho workdrive google play](https://play.google.com/store/apps/details?id=com.zoho.work.drive)\n\nBack up your team files offline. Always synced and always available.\n\n![Back up your team files offline. Always synced and always available.](https://www.zohowebstatic.com/sites/zweb/images/workdrive/home/web-section-bg.jpg)\n\nDOWNLOAD DESKTOP APP\n\nCreate custom workflows to streamline information across all your business apps.\n\n[Learn more](https://www.zoho.com/workdrive/zapier-integration.html?src=ft)\n\n- ![Jira Logo](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/jira-icon.svg)\n- ![Squarespace Logo](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/square-space.svg)\n- ![Zendesk Logo](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/zendesk.png)\n- ![Gmail Logo](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/gmail.svg)\n- ![Slack Logo](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/slack-icon.svg)\n- ![Evernote Logo](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/evernote-icon.svg)\n- ![Asana Logo](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/asana-vertical.svg)\n- ![Salesforce Logo](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/salesforce.svg)\n- ![Shopify Logo](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/shopify-icon.svg)\n- ![Mailchimp Logo](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/mailchimp.svg)\n- ![webflow Logo](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/webflow.svg)\n- ![Intercom Logo](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/intercom-icon.svg)\n- ![Basecamp Logo](https://www.zohowebstatic.com/sites/zweb/images/otherbrandlogos/basecamp.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:52.335001Z",
+      "section_path": "Zoho recognized in Gartner® Magic Quadrant™ for Document Management 2026 > Integrate Zoho WorkDrive with thousands of apps",
+      "chunk_index": 5,
+      "token_count": 542,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_c933ac3e5b21",
+      "source_type": "developer_portal",
+      "url": "https://www.zoho.com/workdrive/?src=zdocs",
+      "domain": "www.zoho.com",
+      "page_title": "Zoho WorkDrive | Online file management for teams",
+      "content": "The options below allow you to manage your consent for the cookies that are set on this website. You\ncan manage your preference anytime by visiting our [cookie\\\\\npolicy](https://www.zoho.com/privacy/cookie-policy.html?src=cp-popup) or by clicking on the cookie icon at the bottom-left corner of the webpage.\n\nThey are necessary for our website to function and cannot be switched off in our systems.\nThey are essential in order to enable you to navigate around the website and use its\nfeatures. If you remove or disable these cookies from your browser, we cannot guarantee\nthat you will be able to use our websites.\n\n[Learn\\\\\nMore](https://www.zoho.com/privacy/cookie-policy.html?src_tab=sn)\n\nThey allow us to remember the choices made by you (such as your user name, language or\nregion) as well as other functionalities (such as controlling the cookie banner,\nredirection to a new page) in order to provide a more personalised online experience.\nThese preferences are remembered (through the use of persistent cookies) so that you\nneed not set them again the next time you visit the page.\n\nNote : The **live chat** widget will **not** work if the\nfunctionality/preference setting is disabled.\n\n[Learn\\\\\nMore](https://www.zoho.com/privacy/cookie-policy.html?src_tab=fp)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:52.335069Z",
+      "section_path": "Zoho recognized in Gartner® Magic Quadrant™ for Document Management 2026 > Work Smarter. Together. > Next Steps > Cookie Settings > Functional/Preference",
+      "chunk_index": 7,
+      "token_count": 317,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_4d241ba4790f",
+      "source_type": "developer_portal",
+      "url": "https://www.zoho.com/workdrive/?src=zdocs",
+      "domain": "www.zoho.com",
+      "page_title": "Zoho WorkDrive | Online file management for teams",
+      "content": "They help us improve the way our websites work (e.g. by ensuring that users are finding\nwhat they are looking for easily). These collect aggregate information about visits,\nnavigations in the websites so that we can make improvement and report our performance.\nAnalytics cookies may also be used to test new pages or features to understand how users\nadopt them.\n\n[Learn\\\\\nMore](https://www.zoho.com/privacy/cookie-policy.html?src_tab=an)\n\nWhen you visit some of our webpages that contain embedded content hosted on a third party\nplatform such as YouTube videos, these third parties set cookies on your browser. We\nalways opt for the most privacy friendly options provided by these parties, however\nthese are not controlled by us. If you do not want these parties to set cookies on your\nbrowser on visiting our site, you should avoid visiting webpages that contain such\nembeds.\n\n[Learn\\\\\nMore](https://www.zoho.com/privacy/cookie-policy.html?src_tab=tp)\n\nSave & Exit",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:52.335106Z",
+      "section_path": "Zoho recognized in Gartner® Magic Quadrant™ for Document Management 2026 > Work Smarter. Together. > Next Steps > Cookie Settings > Third-party company cookies",
+      "chunk_index": 8,
+      "token_count": 241,
+      "quality_score": 0.36
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Zoho CRM is a customizable software solution for enterprise management.",
+      "evidence_ids": [
+        "ev_14ad423119bc"
+      ]
+    },
+    "category": {
+      "value": "CRM and Sales",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "OAuth 2.0",
+      "evidence_ids": [
+        "ev_64971e2544d0"
+      ]
+    },
+    "self_serve": {
+      "value": "Gated (contact sales)",
+      "evidence_ids": [
+        "ev_6567fc53a153"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API, SDKs",
+      "evidence_ids": [
+        "ev_27d1af1a5af1"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_27d1af1a5af1"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_14ad423119bc"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_14ad423119bc"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_1b548bc74a7b"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.75,
+    "fields_checked": 8,
+    "fields_supported": 6,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.75,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.75 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

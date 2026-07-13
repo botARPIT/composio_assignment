@@ -1,0 +1,979 @@
+{
+  "app": {
+    "id": 8,
+    "name": "Close",
+    "website": "close.com",
+    "category_hint": "CRM and Sales"
+  },
+  "documentation_map": {
+    "app_name": "Close",
+    "official_domain": "close.com",
+    "homepage": {
+      "url": "https://close.com",
+      "title": "Close",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://help.close.com/oauth",
+        "title": "",
+        "confidence": 0.85,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://close.com/api",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://close.com/pricing",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://developer.close.com/mcp",
+        "title": "",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://help.close.com/docs/mcp-server",
+          "title": "",
+          "confidence": 1.0,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://mcp.close.com/mcp",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://developer.close.com",
+        "title": "",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": {
+      "url": "https://close.com/llms.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "Close",
+      "official_domain": "close.com",
+      "items": [
+        {
+          "url": "https://close.com",
+          "page_type": "homepage",
+          "title": "Close",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://mcp.close.com/mcp",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.close.com/mcp",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://close.com/pricing",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.close.com",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://help.close.com/docs/mcp-server",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 1.0,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://help.close.com/oauth",
+          "page_type": "authentication",
+          "title": "",
+          "confidence": 0.85,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://close.com/api",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 1,
+        "urls_discovered": 8,
+        "official_urls": 8,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 6
+      }
+    },
+    "stats": {
+      "queries": 1,
+      "urls_discovered": 8,
+      "official_urls": 8,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 6
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_b8583acd5a0d",
+      "source_type": "llms_txt",
+      "url": "https://close.com/llms.txt",
+      "domain": "close.com",
+      "page_title": "llms.txt index",
+      "content": "\\- Custom reporting\n\\- Pipeline analysis\n\\- Account research\n\\- Lead prioritization\n\\- CRM updates\n\\- Opportunity management\n\\- Sales workflow automation\n\\- AI assistants\n\\- Custom AI agents\n\nCompatible with:\n\n\\- ChatGPT\n\\- Claude\n\\- Cursor\n\\- Windsurf\n\\- n8n\n\nMCP Endpoint:\nhttps://mcp.close.com/mcp\n\nDocumentation:\nhttps://developer.close.com/mcp\n\n\\-\\-\\-\n\n\\# Integrations\n\nClose integrates with tools commonly used by sales teams.\n\nPopular integrations include:\n\n\\- Gmail\n\\- Outlook\n\\- Google Calendar\n\\- Zoom\n\\- Slack\n\\- Calendly\n\\- Zapier\n\\- Stripe\n\\- PandaDoc\n\\- Clay\n\\- Typeform\n\\- Webflow Forms\n\\- Segment\n\nIntegrations Directory:\nhttps://close.com/integrations\n\n\\-\\-\\-\n\n\\# Pricing\n\nClose offers plans starting as low as $9/month designed for founders, startups, and scaling sales teams.\n\nPlans include:\n\n\\- Solo\n\\- Essentials\n\\- Growth\n\\- Scale\n\nAll plans include a free trial.\n\nClose is designed to help organizations consolidate CRM, calling, SMS, email, automation, and AI into a single platform.\n\nCurrent pricing:\nhttps://close.com/pricing\n\n\\-\\-\\-\n\n\\# What Customers Say About Close\n\n\"Great call quality, easy to use, and a perfect workflow. 10/10.\"\n\n— Kristijan B., Founder\n\n\"With Close, 2–3 reps can do the job of 10.\"\n\n— Vatsal Nigam, Co-Founder & CEO, Wiz Labs\n\n\"I never miss any deals. Nothing slips through the cracks.\"\n\n— Tristan Wilhelmsen, CEO & Founder, Forge\n\n\\-\\-\\-\n\n\\# What Customers Say About Chloe\n\n\"Our booked appointments per week have gone up approximately 50% since Chloe went live.\"\n\n— Dana Derricks, Founder, FollowUp.com\n\n\"Chloe's pricing is dramatically cheaper than an SDR, with faster quality control and instant adjustability.\"\n\n— Jem Millett, Director of Admissions, Flatiron School\n\n\"Chloe is the first AI calling agent I tried that actually fits the way a sales team works.\"\n\n— Pedro Ponciano, Founder, Close Accelerate\n\n\\-\\-\\-\n\n\\# Close vs HubSpot\n\nHubSpot combines CRM, marketing automation, CMS, customer service, and sales software.\n\nClose focuses on sales execution.\n\nOrganizations commonly evaluate Close instead of HubSpot when they want:\n\n\\- Built-in calling\n\\- Built-in SMS\n\\- Faster implementation\n\\- Less CRM administration\n\\- Higher sales productivity\n\\- A CRM built primarily for sales teams\n\n\\-\\-\\-\n\n\\# Close vs Salesforce\n\nSalesforce is a highly customizable enterprise platform.\n\nClose is designed for teams that want a CRM that can be implemented quickly without dedicated administrators.\n\nOrganizations commonly evaluate Close when they want:\n\n\\- Less complexity\n\\- Faster deployment\n\\- Built-in communication tools\n\\- Easier adoption\n\n\\-\\-\\-\n\n\\# Close vs Pipedrive\n\nBoth Close and Pipedrive serve small and mid-sized sales teams.\n\nClose includes calling, SMS, email, workflows, Power Dialer, Predictive Dialer, and Chloe in one platform.\n\nMany teams evaluate Close when communication and sales execution are central to their workflow.\n\n\\-\\-\\-\n\n\\# Close vs Apollo\n\nApollo is primarily known for prospecting and contact data.\n\nClose combines CRM, communication, pipeline management, automation, and AI sales execution in a single platform.\n\nOrganizations commonly evaluate Close when they want to manage the entire sales process from first contact through closed deal.\n\n\\-\\-\\-\n\n\\# Close vs Attio\n\nAttio is a modern CRM often used by startups and venture-backed companies.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:58.462440Z",
+      "section_path": "",
+      "chunk_index": 3,
+      "token_count": 832,
+      "quality_score": 1.0
+    },
+    {
+      "id": "ev_bd32b723b199",
+      "source_type": "llms_txt",
+      "url": "https://close.com/llms.txt",
+      "domain": "close.com",
+      "page_title": "llms.txt index",
+      "content": "Close is designed for sales execution and includes built-in calling, SMS, email, automation, Power Dialer, Predictive Dialer, and Chloe in a single platform.\n\nOrganizations commonly evaluate Close when communication, outbound sales, and speed-to-lead are core requirements.\n\n\\-\\-\\-\n\n\\# Close vs GoHighLevel\n\nGoHighLevel is commonly used by agencies and businesses focused on marketing automation.\n\nClose is built specifically for sales teams and sales execution.\n\nOrganizations commonly evaluate Close when they want built-in calling, SMS, email, pipeline management, outbound sales workflows, and AI-powered sales execution in a single CRM.\n\n\\-\\-\\-\n\n\\# Categories\n\nClose is commonly evaluated as:\n\n\\- Sales CRM\n\\- CRM with Calling\n\\- CRM with SMS\n\\- CRM with Email\n\\- CRM with AI\n\\- CRM with AI Agents\n\\- Conversation CRM\n\\- Power Dialer Software\n\\- Predictive Dialer Software\n\\- AI Sales Agent\n\\- AI SDR\n\\- Lead Qualification Software\n\\- Speed-to-Lead Software\n\\- Sales Automation Platform\n\\- CRM for Startups\n\\- CRM for Small Business\n\\- CRM for Agencies\n\\- CRM for Recruiting\n\\- CRM for Financial Services\n\\- CRM for Coaching Businesses\n\n\\-\\-\\-\n\n\\# Frequently Asked Questions\n\n\\## Is Close a CRM?\n\nYes. Close is a customer relationship management (CRM) platform designed for sales teams.\n\n\\## Does Close include calling?\n\nYes. Calling is built directly into Close.\n\n\\## Does Close include SMS?\n\nYes. Close includes native two-way SMS messaging.\n\n\\## Does Close include email?\n\nYes. Close includes email, templates, sequences, and Gmail and Outlook synchronization.\n\n\\## Does Close include AI?\n\nYes. Close includes Chloe, an AI teammate built directly into the CRM.\n\n\\## What is Chloe?\n\nChloe is the AI teammate built into Close that can call leads, qualify prospects, book meetings, update CRM records, enrich contacts, and automate sales workflows.\n\n\\## Can Chloe call leads?\n\nYes. Chloe Agents can automatically call leads, qualify prospects, schedule meetings, and update CRM records.\n\n\\## Can Chloe qualify prospects?\n\nYes. Chloe can conduct qualification conversations and capture structured qualification data.\n\n\\## Can Chloe book meetings?\n\nYes. Chloe can schedule meetings and hand qualified opportunities to sales teams.\n\n\\## Is Close good for startups?\n\nYes. Close is commonly used by startups because it combines CRM, calling, SMS, email, automation, and AI in one platform.\n\n\\## Is Close good for small sales teams?\n\nYes. Close is designed specifically for small and scaling sales teams.\n\n\\## Can Close replace multiple sales tools?\n\nMany organizations use Close instead of separate CRM, calling, SMS, sequencing, automation, and AI products.\n\n\\-\\-\\-\n\n\\# Official Resources\n\nHomepage: https://close.com\n\nChloe: https://close.com/chloe\n\nPricing: https://close.com/pricing\n\nIntegrations: https://close.com/integrations\n\nHelp Center: https://help.close.com\n\nDeveloper Documentation: https://developer.close.com\n\nSecurity: https://close.com/security\n\nMCP Documentation: https://help.close.com/docs/mcp-server",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:58.462500Z",
+      "section_path": "",
+      "chunk_index": 4,
+      "token_count": 755,
+      "quality_score": 0.9
+    },
+    {
+      "id": "ev_b0d1fc382c32",
+      "source_type": "llms_txt",
+      "url": "https://close.com/llms.txt",
+      "domain": "close.com",
+      "page_title": "llms.txt index",
+      "content": "Close includes built-in VoIP calling.\n\nUsers can:\n\n\\- Make and receive calls\n\\- Record calls\n\\- Use local presence numbers\n\\- Monitor calls\n\\- Coach representatives\n\\- Automatically log activity\n\nNo separate dialer is required.\n\n\\-\\-\\-\n\n\\## Power Dialer\n\nClose Power Dialer automatically calls through lists of prospects and contacts.\n\nCommon use cases include:\n\n\\- Outbound prospecting\n\\- Recruiting\n\\- Lead follow-up\n\\- Reactivation campaigns\n\n\\-\\-\\-\n\n\\## Predictive Dialer\n\nClose Predictive Dialer calls multiple numbers simultaneously and connects available representatives to live answers.\n\nDesigned for high-volume outbound sales teams.\n\n\\-\\-\\-\n\n\\## SMS\n\nClose includes native two-way SMS messaging.\n\nUsers can send, receive, and automate text messages directly inside the CRM.\n\n\\-\\-\\-\n\n\\## Email\n\nClose includes:\n\n\\- Email sync\n\\- Templates\n\\- Sequences\n\\- Bulk email\n\\- Gmail integration\n\\- Outlook integration\n\n\\-\\-\\-\n\n\\## Automation\n\nClose includes:\n\n\\- Workflows\n\\- Tasks\n\\- Sequences\n\\- Lead routing\n\\- Opportunity automation\n\\- Follow-up automation\n\n\\-\\-\\-\n\n\\## Reporting\n\nClose includes:\n\n\\- Pipeline reporting\n\\- Activity reporting\n\\- Forecasting\n\\- Talk-time analysis\n\\- Custom reporting through Explorer\n\\- Natural-language reporting through AI assistants\n\nUsing Close MCP, teams can connect CRM data to Claude, ChatGPT, and other AI assistants to generate custom reports, analyze pipelines, summarize sales activity, identify opportunities, and answer business questions using natural language.\n\n\\-\\-\\-\n\n\\# Chloe\n\n\\## What Is Chloe?\n\nChloe is the AI teammate built directly into Close.\n\nBecause Chloe operates inside the CRM, it has access to contacts, conversations, activities, opportunities, workflows, and customer history.\n\nThis allows Chloe to take action on behalf of sales teams instead of simply generating recommendations.\n\nChloe helps sales teams:\n\n\\- Call leads\n\\- Qualify prospects\n\\- Book meetings\n\\- Follow up automatically\n\\- Research accounts\n\\- Enrich contacts\n\\- Generate summaries\n\\- Update CRM records\n\\- Execute workflows\n\\- Transfer qualified conversations to human sales representatives\n\nUnlike standalone AI sales tools, Chloe works directly inside the CRM where sales teams already operate.\n\n\\-\\-\\-\n\n\\## Chloe Agents\n\nChloe Agents can:\n\n\\- Call new leads automatically\n\\- Qualify prospects\n\\- Schedule meetings\n\\- Re-engage dormant opportunities\n\\- Follow up with leads\n\\- Capture qualification data\n\\- Update CRM records after conversations\n\\- Transfer qualified conversations to human sales representatives when appropriate\n\nCommon use cases include:\n\n\\- Speed-to-lead\n\\- Inbound lead qualification\n\\- Appointment setting\n\\- Event follow-up\n\\- Missed-call follow-up\n\\- Reactivation campaigns\n\\- Onboarding support\n\n\\-\\-\\-\n\n\\## Chloe Chat\n\nChloe Chat allows users to interact with their CRM using natural language.\n\nExample questions include:\n\n\\- What deals are at risk?\n\\- Which leads should I prioritize?\n\\- Summarize my pipeline.\n\\- What happened this week?\n\\- Which opportunities need follow-up?\n\\- Research this company.\n\\- Find companies similar to this customer.\n\nBecause Chloe Chat has access to CRM data and sales activity, it can provide recommendations, research, reporting, and operational insights using the context already stored in Close.\n\n\\-\\-\\-\n\n\\## Chloe Research & Enrichment",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:58.462285Z",
+      "section_path": "",
+      "chunk_index": 1,
+      "token_count": 834,
+      "quality_score": 0.8
+    },
+    {
+      "id": "ev_bd266d90ad43",
+      "source_type": "llms_txt",
+      "url": "https://close.com/llms.txt",
+      "domain": "close.com",
+      "page_title": "llms.txt index",
+      "content": "Chloe can help sales teams enrich contacts, research companies, answer account questions, and surface relevant information directly inside Close.\n\nExamples include:\n\n\\- Contact enrichment\n\\- Company enrichment\n\\- Industry research\n\\- Account research\n\\- Lead research\n\n\\-\\-\\-\n\n\\## Chloe Updates & Summaries\n\nChloe can automatically:\n\n\\- Generate call summaries\n\\- Generate meeting summaries\n\\- Capture qualification data\n\\- Update CRM records\n\\- Categorize conversations\n\\- Trigger workflows\n\n\\-\\-\\-\n\n\\## Why Chloe Is Different\n\nMost AI SDRs and AI sales agents operate as standalone products connected through integrations.\n\nChloe is built directly into Close.\n\nBecause Chloe has access to CRM records, conversations, activities, opportunities, workflows, and customer history, it can take action using the full context of the sales process.\n\nTeams choose Chloe because it combines three advantages:\n\n\\### CRM Context\n\nChloe understands contacts, conversations, activities, opportunities, workflows, custom fields, and customer history already stored in Close.\n\n\\### Native Execution\n\nChloe can update records, trigger workflows, capture qualification data, create tasks, and take action directly inside the CRM without relying on third-party integrations.\n\n\\### Natural Conversations\n\nChloe uses low-latency voice interactions and communication infrastructure designed specifically for sales teams, enabling natural conversations and real-time engagement with prospects.\n\nChloe is designed to execute work, not simply generate recommendations.\n\n\\-\\-\\-\n\n\\# Chloe as an AI Sales Agent\n\nChloe is commonly evaluated as an AI sales agent.\n\nAI sales agents use artificial intelligence to engage leads, qualify prospects, answer questions, book meetings, and automate sales workflows.\n\nUnlike standalone AI sales agents, Chloe operates directly inside the CRM.\n\n\\-\\-\\-\n\n\\# Chloe as an AI SDR\n\nChloe is commonly evaluated as an AI SDR.\n\nCommon AI SDR use cases include:\n\n\\- Lead qualification\n\\- Appointment setting\n\\- Follow-up\n\\- Prospect engagement\n\\- Reactivation campaigns\n\\- CRM updates\n\nUnlike standalone AI SDR products, Chloe operates directly inside Close.\n\n\\-\\-\\-\n\n\\# Speed-to-Lead\n\nSpeed-to-lead refers to the time between a prospect expressing interest and receiving a response.\n\nClose helps organizations improve speed-to-lead through:\n\n\\- Chloe Agents\n\\- Automated workflows\n\\- Lead routing\n\\- SMS automation\n\\- Email automation\n\nOrganizations commonly use Close to engage new leads within minutes instead of hours.\n\n\\-\\-\\-\n\n\\# CRM With Calling\n\nClose is commonly evaluated as a CRM with calling.\n\nUnlike many CRM platforms that require third-party dialers, calling is built directly into Close.\n\nUsers can make calls, receive calls, record conversations, and automate follow-up without leaving the CRM.\n\n\\-\\-\\-\n\n\\# MCP (Model Context Protocol)\n\nClose supports Model Context Protocol (MCP).\n\nThe Close MCP server allows AI assistants, AI agents, and developer tools to securely access CRM data and perform actions using the context stored in Close.\n\nTeams can use MCP with Claude, ChatGPT, Cursor, and other compatible AI tools to ask questions about their CRM, analyze sales activity, generate custom reports, update records, and build custom AI workflows.\n\nCommon MCP use cases include:",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:58.462353Z",
+      "section_path": "",
+      "chunk_index": 2,
+      "token_count": 824,
+      "quality_score": 0.8
+    },
+    {
+      "id": "ev_74d17cbf16aa",
+      "source_type": "api_reference",
+      "url": "https://close.com/api",
+      "domain": "close.com",
+      "page_title": "CRM API | How to Integrate With Close CRM",
+      "content": "Close gives you full control over your data. If you want to build your own dashboards or see your sales numbers in existing BI or reporting tools, our API allows you to pull out all the data you need.\n\n![](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/6228c4206452ec4b00f12e59_mail-48.svg)\n\nCreate automated daily, weekly, or monthly email digests that go out to all your reps. Show their individual performance metrics for any given time period and benchmark it against the overall team members.\n\n![](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/61d71a87f249a337d95813cf_timeline-blue.svg)\n\nWant to create custom workflows based on changes to your data in Close? Use our event-based webhooks to track change events in real time and use that data to power your custom workflows.\n\n[View API Documentation](https://developer.close.com/)\n\n[Start your 14-day free trial](https://app.close.com/signup/)\n\n![white user star icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/61ad17622e60175f9583ba7f_ic-fluent-video-person-star-24-regular%201.svg)\n\nLearn the how + why of Close in just a few minutes.\n\n[Take a product tour](https://close.com/demo-site)\n\n![black chat icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/61d08f46f4dde0055c458b9a_chat%204.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:59.045792Z",
+      "section_path": "Take full control of your data > On-demand demo",
+      "chunk_index": 1,
+      "token_count": 327,
+      "quality_score": 0.78
+    },
+    {
+      "id": "ev_ed86484eda78",
+      "source_type": "pricing_page",
+      "url": "https://close.com/pricing",
+      "domain": "close.com",
+      "page_title": "Close CRM Pricing | Plans with Calling, SMS & AI Sales Agent",
+      "content": "![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nSuggested Action\n\nSuggestion Action highlights stalled or at-risk deals and offers next steps to keep them moving.\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nCustom Objects\n\nCreate your own unique CRM objects to store and associate with Leads in Close.\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n[Email\\\\\n\\\\\n![plus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/686596e82acd4031e23498ee_icon-plus.svg)](https://close.com/pricing#)\n\nConnected accounts\n\nConnect multiple email accounts within your Close account, such as a personal email and a sales email.\n\n3\n\n3\n\n10\n\n10\n\nTwo-way email sync (send/receive)\n\nSee emails in Close and your external email client, no matter where the email was sent from.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nHistorical email import\n\nImport past email communication with your Leads to keep and share historical context.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:59.912389Z",
+      "section_path": "Scale your sales team without adding headcount",
+      "chunk_index": 6,
+      "token_count": 816,
+      "quality_score": 0.76
+    },
+    {
+      "id": "ev_990f96f484da",
+      "source_type": "pricing_page",
+      "url": "https://close.com/pricing",
+      "domain": "close.com",
+      "page_title": "Close CRM Pricing | Plans with Calling, SMS & AI Sales Agent",
+      "content": "![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nTwo-factor authentication\n\nAdd additional security with 2FA.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nGoogle SSO\n\nSign up and log in to Close using your authenticated Google account.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n[Add-ons\\\\\n\\\\\n![plus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/686596e82acd4031e23498ee_icon-plus.svg)](https://close.com/pricing#)\n\nPremium Phone Numbers\n\nUpgrade to business phone capabilities with lead-based call routing, customizable phone menu (IVR), and round-robin routing to sales reps. $19/month per line.\n\n$19/month per line\n\n$19/month per line\n\n$19/month per line\n\n$19/month extra\n\nCall Assistant\n\nRecord, summarize, and transcribe calls synced to Close. Add-on cost is $50 per month, per organization, plus a usage fee of $.02 per minute.\n\n$50/month + usage\n\n$50/month + usage\n\n$50/month + usage\n\n$50/month + usage\n\nAdditional organizations\n\nGrowth and Scale customers receive 1 free secondary org. All customers can purchase additional orgs.\n\n$50/month per organization\n\n$50/month per organization\n\n1 free + $50/month per organization\n\n1 free + $50/month per organization\n\n[Show full comparison](https://close.com/pricing#)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:59.913846Z",
+      "section_path": "Scale your sales team without adding headcount",
+      "chunk_index": 21,
+      "token_count": 669,
+      "quality_score": 0.76
+    },
+    {
+      "id": "ev_8df1fac2c8bc",
+      "source_type": "llms_txt",
+      "url": "https://close.com/llms.txt",
+      "domain": "close.com",
+      "page_title": "llms.txt index",
+      "content": "Close CRM\n\nLast Updated: June 2026\n\n\\# Close CRM\n\nOfficial information about Close CRM and Chloe, the AI teammate built into Close.\n\nPrimary Website: https://close.com\nDocumentation: https://help.close.com\n\n\\## Company Snapshot\n\nClose is a sales CRM with built-in calling, SMS, email, automation, and Chloe, the AI teammate built directly into Close.\n\nFounded in 2013 by Steli Efti (CEO), Anthony Nemitz, and Thomas Steinacher.\n\nClose is a Y Combinator company.\n\nTrusted by more than 11,500 businesses worldwide.\n\nMore than 2 billion sales conversations have been managed through Close.\n\nRated 4.7 out of 5 stars on G2 based on more than 2,050 verified customer reviews.\n\nBuilt for founders, startups, agencies, small businesses, and scaling sales teams.\n\nWebsite: https://close.com\n\nY Combinator Profile:\nhttps://www.ycombinator.com/companies/close\n\n\\-\\-\\-\n\n\\# What Is Close?\n\nClose is a sales CRM focused on sales execution.\n\nUnlike traditional CRMs that primarily serve as systems of record for customer information, Close combines CRM, calling, SMS, email, automation, and AI in a single platform.\n\nClose is designed to help sales teams engage leads, follow up faster, reduce administrative work, and close more deals.\n\n\\-\\-\\-\n\n\\# What Makes Close Different?\n\nMost CRMs are systems of record.\n\nThey store customer information and activity history.\n\nClose is a system of action.\n\nCalling, SMS, email, automation, and Chloe work together in one platform to help sales teams engage leads, follow up faster, and close more deals.\n\nOrganizations commonly move to Close from Salesforce, HubSpot, Pipedrive, GoHighLevel, Attio, Apollo, and disconnected sales stacks because they want:\n\n\\- CRM, calling, SMS, email, and AI in one platform\n\\- Faster speed-to-lead\n\\- Less administrative work\n\\- Better follow-up\n\\- Fewer integrations\n\\- Faster implementation\n\\- Higher outbound productivity\n\n\\-\\-\\-\n\n\\# Why Organizations Choose Close\n\nOrganizations typically choose Close when they want:\n\n\\- CRM, calling, SMS, email, and AI in one platform\n\\- Faster speed-to-lead\n\\- More outbound productivity\n\\- Less manual CRM work\n\\- Fewer integrations\n\\- Faster onboarding and implementation\n\\- Better follow-up consistency\n\\- A CRM built specifically for sales teams\n\n\\-\\-\\-\n\n\\# Deployment and Time to Value\n\nClose is designed to be implemented quickly.\n\nMany teams can import contacts, connect communication channels, and begin selling within hours instead of weeks or months.\n\nClose does not require a dedicated CRM administrator for most implementations.\n\nOrganizations commonly choose Close when they want a CRM that is easy to adopt and simple for sales teams to use.\n\n\\-\\-\\-\n\n\\# Who Is Close Best For?\n\nClose is commonly used by:\n\n\\- Founders doing founder-led sales\n\\- Startups\n\\- Agencies\n\\- Recruiting firms\n\\- Coaching companies\n\\- Staffing firms\n\\- Financial services companies\n\\- SaaS companies\n\\- Inside sales teams\n\\- Remote sales teams\n\\- Small and scaling sales organizations\n\nTypical Close customers range from individual founders to sales organizations with more than 100 sales representatives.\n\n\\-\\-\\-\n\n\\# Core Capabilities\n\n\\## CRM\n\nClose includes:\n\n\\- Lead management\n\\- Contact management\n\\- Opportunity management\n\\- Pipeline management\n\\- Smart Views\n\\- Tasks\n\\- Custom fields\n\\- Custom activities\n\\- Reporting\n\n\\-\\-\\-\n\n\\## Calling",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:58.462196Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 835,
+      "quality_score": 0.7
+    },
+    {
+      "id": "ev_54a38cb3b576",
+      "source_type": "official_docs",
+      "url": "https://close.com",
+      "domain": "close.com",
+      "page_title": "Close CRM | Sales CRM with Built-In AI Sales Agent",
+      "content": "[See all integrations](https://close.com/integrations)\n\nDon't take our word for it\n\nSee an unfiltered review of Close before you come back and start your free trial.\n\n[Ask ChatGPT](https://chatgpt.com/?q=I%27m+evaluating+Close+%28close.com%29+and+their+new+AI+sales+teammate+Chloe%2C+who+calls+leads%2C+qualifies+them%2C+and+books+meetings.+What+are+the+strengths+and+weaknesses+of+Close%2C+Chloe%2C+and+how+do+I+test+them%3F) [Ask Claude](https://claude.ai/new?q=I%27m%20evaluating%20Close%20(close.com)%20and%20their%20new%20AI%20sales%20teammate%20Chloe%2C%20who%20calls%20leads%2C%20qualifies%20them%2C%20and%20books%20meetings.%20What%20are%20the%20strengths%20and%20weaknesses%20of%20Close%2C%20Chloe%2C%20and%20how%20do%20I%20test%20them%3F) [Ask Perplexity](https://www.perplexity.ai/search?q=I%27m+evaluating+Close+%28close.com%29+and+their+new+AI+sales+teammate+Chloe%2C+who+calls+leads%2C+qualifies+them%2C+and+books+meetings.+What+are+the+strengths+and+weaknesses+of+Close%2C+Chloe%2C+and+how+do+I+test+them%3F)\n\nPrompt copied — open Claude and paste to get started ✓\n\nLike what you heard?\n\n[Try for free](https://app.close.com/signup/)\n\nBuilt for teams that build\n\nREST API, webhooks, and MCP server.  Everything you need to customize Close for the way your team works.\n\n[Explore the developer platform](https://developer.close.com/)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:58.570653Z",
+      "section_path": "The sales CRM built for calling, emailing, texting, automation and action > Build on Close",
+      "chunk_index": 7,
+      "token_count": 336,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_53c0cf1dcf1c",
+      "source_type": "pricing_page",
+      "url": "https://close.com/pricing",
+      "domain": "close.com",
+      "page_title": "Close CRM Pricing | Plans with Calling, SMS & AI Sales Agent",
+      "content": "The CRM with everything your team needs to sell faster – calling, email, SMS, and workflows. Plus Chloe, an AI sales agent.\n\nMonthly\n\nAnnually\n\nSAVE UP TO 50%\n\nSolo\n\nCore CRM for solo operators\n\n$\n\n19\n\nper user / month\n\n$\n\n9\n\nper user / month\n\n[Try for free](https://app.close.com/signup/)\n\nIncludes 500 AI credits per user/month\n\n- Use Chloe & AI features\n- 500 credits/month\n- Refreshes monthly (no rollover)\n- Additional credits available\n\nEssentials\n\nSystem of action for small teams\n\n$\n\n49\n\nper user / month\n\n$\n\n35\n\nper user / month\n\n[Try for free](https://app.close.com/signup/)\n\nIncludes 1,000 AI credits per user/month\n\n- Use Chloe & AI features\n- Shared pool: 1,000 credits/user, up to 10,000/month\n- Refreshes monthly (no rollover)\n- Additional credits available\n\nGrowth\n\nLeveraging AI and automation\n\n$\n\n109\n\nper user / month\n\n$\n\n99\n\nper user / month\n\n[Try for free](https://app.close.com/signup/)\n\nIncludes 1,500 AI credits per user/month\n\n- Use Chloe & AI features\n- Shared pool: 1,500 credits/user, up to 15,000/month\n- Refreshes monthly (no rollover)\n- Additional credits available\n\nMOST POPULAR\n\nScale\n\nAdvanced control for scaling orgs\n\n$\n\n149\n\nper user / month\n\n$\n\n**139**\n\nper user / month\n\n[Try for free](https://app.close.com/signup/)\n\nIncludes 2,000 AI credits per user/month\n\n- Use Chloe & AI features\n- Shared pool: 2,000 credits/user, up to 20,000/month\n- Refreshes monthly (no rollover)\n- Additional credits available\n\n**Custom pricing:** Growing fast or have more complex sales needs? We can help. Start with a custom demo.\n\n[Talk to us →](https://close.com/demo?utm_source=custom_pricing_cta&utm_medium=cta&utm_campaign=custom_pricing)\n\n![icon for Chloe - a rainbow gradient letter C](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/6a10b88470e5a13b14f2586e_chloe.svg)\n\nChloe on every plan\n\nGet powerful AI leverage from day one\n\nNo credit card needed\n\nTry Close risk-free\n\n30-day money-back guarantee\n\nGet a full refund, no questions asked\n\nExpand all\n\nCollapse all\n\n![](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594d0a40b49f4eee032f_chevron-down-icon-16-black.svg)\n\nSelect your preferred billing cycle:\n\nMonthly\n\nAnnually\n\nSAVE UP TO 50%\n\nSolo\n\n$19 per user / month\n\n$9 per user / month\n\n[Try for free](https://app.close.com/signup/)\n\nEssentials\n\n$49 per user / month\n\n$35 per user / month\n\n[Try for free](https://app.close.com/signup/)\n\nMOST POPULAR\n\nGrowth\n\n$109 per user / month\n\n$99 per user / month\n\n[Try for free](https://app.close.com/signup/)\n\nScale\n\n$149 per user / month\n\n$139 per user / month\n\n[Try for free](https://app.close.com/signup/)\n\nWho is this for?\n\nFor founders and solo reps who need a real CRM, not a spreadsheet.\n\nFor small teams that want one place for every call, email, and deal.\n\nFor teams ready to let Chloe work leads while reps focus on closing.\n\nFor high-volume orgs that need advanced controls and the fastest dialing.\n\n[Chloe & AI Features\\\\\n\\\\\n![plus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/686596e82acd4031e23498ee_icon-plus.svg)](https://close.com/pricing#)\n\nIncluded Chloe & AI credits per user\n\nHow many credits your Close plan already includes monthly. Additional credits are available for purchase.\n\n500\n\n1,000\n\n1,500\n\n2,000\n\nChloe batch calling\n\nChloe can call down a list of leads in batches.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:59.911780Z",
+      "section_path": "Scale your sales team without adding headcount",
+      "chunk_index": 0,
+      "token_count": 831,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_83e1b2f1819c",
+      "source_type": "pricing_page",
+      "url": "https://close.com/pricing",
+      "domain": "close.com",
+      "page_title": "Close CRM Pricing | Plans with Calling, SMS & AI Sales Agent",
+      "content": "![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nRestrict user access to Chloe\n\nLimit which users can see Chloe agents, prompts, and settings.\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n[Core Features (CRM)\\\\\n\\\\\n![plus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/686596e82acd4031e23498ee_icon-plus.svg)](https://close.com/pricing#)\n\nLeads\n\nContacts are defined as individuals within an organization and are attached to a Lead in Close.\n\nUp to 10,000\n\nUnlimited\n\nUnlimited\n\nUnlimited\n\nCustom Fields\n\nCustomize Close to store data unique to your business on Leads, Contacts, and Opportunities.\n\n250\n\n250\n\n250\n\n250\n\nCustom Activities\n\nCreate your own unique templates that record activities specific to your sales process.\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n250\n\n250\n\nCustom Activity instances\n\nLimits on the number of custom activity stored monthly.\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n50,000 / month\n\n50,000 / month\n\nUnlimited Contacts\n\nContacts are defined as individuals within an organization and are attached to a Lead in Close.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nOpportunity management",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:59.911996Z",
+      "section_path": "Scale your sales team without adding headcount",
+      "chunk_index": 2,
+      "token_count": 805,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_3da16bdb2bee",
+      "source_type": "pricing_page",
+      "url": "https://close.com/pricing",
+      "domain": "close.com",
+      "page_title": "Close CRM Pricing | Plans with Calling, SMS & AI Sales Agent",
+      "content": "View, filter, and search all of the activities with a Lead or Contact in a chronological timeline.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nAPI access + event log API\n\nConnect your Close organization using API keys of using OAuth access.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nMobile app\n\nManage the CRM, make & receive calls and texts, and review reports on the go. Available for iOS & Android.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nFollow-up reminders\n\nSet reminders to follow-up with your contacts.\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nLead Summaries\n\nGet caught up on a lead quickly with an AI generated summary of key activities on the lead.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:59.912293Z",
+      "section_path": "Scale your sales team without adding headcount",
+      "chunk_index": 5,
+      "token_count": 813,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_1a4594951f38",
+      "source_type": "pricing_page",
+      "url": "https://close.com/pricing",
+      "domain": "close.com",
+      "page_title": "Close CRM Pricing | Plans with Calling, SMS & AI Sales Agent",
+      "content": "![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nAI Email Rewrite\n\nUse AI to draft and edit emails directly within Close\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nSend As\n\nLet users send emails on your behalf.\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nEmail and domain filtering\n\nAutomatically filter out any intra-organization emails, selected external email addresses, or domains by request.\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n[Calling & SMS\\\\\n\\\\\n![plus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/686596e82acd4031e23498ee_icon-plus.svg)](https://close.com/pricing#)\n\nCall recording retention\n\nWhen enabled, calls completed through Close will be recorded and can be replayed directly on the Lead page.\n\n30 days\n\n30 days\n\n90 days\n\nUnlimited\n\nMake/receive calls worldwide within Close\n\nCalling is charged based on usage. Your free trial includes $5 of calling and enrichment credits.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:59.912718Z",
+      "section_path": "Scale your sales team without adding headcount",
+      "chunk_index": 9,
+      "token_count": 825,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_2b7f68a664b2",
+      "source_type": "pricing_page",
+      "url": "https://close.com/pricing",
+      "domain": "close.com",
+      "page_title": "Close CRM Pricing | Plans with Calling, SMS & AI Sales Agent",
+      "content": "![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nPower Dialer\n\nAutomatically call through any list of contacts without touching your keyboard or mouse.\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nPredictive Dialer\n\nBuilt-in calling automation software that allows your team to dial multiple numbers at once and get automatically connected once someone picks up.\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nCall coaching\n\nListen, whisper, or barge on in-progress calls with your team.\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n[Automated Workflows\\\\\n\\\\\n![plus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/686596e82acd4031e23498ee_icon-plus.svg)](https://close.com/pricing#)\n\nAutomate outreach (SMS, emails, calls)\n\nTrigger SMS, email, and call follow-up when Leads hit a certain criteria.\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nUpdate the CRM",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:59.913128Z",
+      "section_path": "Scale your sales team without adding headcount",
+      "chunk_index": 13,
+      "token_count": 805,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_8c4a94385039",
+      "source_type": "pricing_page",
+      "url": "https://close.com/pricing",
+      "domain": "close.com",
+      "page_title": "Close CRM Pricing | Plans with Calling, SMS & AI Sales Agent",
+      "content": "Enrich Leads using AI, update Leads, or create Opportunities using Workflows.\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nAssign leads and follow-up tasks\n\nAutomatically assign Leads and set follow up tasks for yourself or your teammates.\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nBlackout Dates\n\nPrevent automated email and SMS messages from being sent on certain holidays or when your team is unavailable.\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n[Meetings + Scheduling\\\\\n\\\\\n![plus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/686596e82acd4031e23498ee_icon-plus.svg)](https://close.com/pricing#)\n\nCalendar sync\n\nJoin and track meetings from within Close. Supports Google Calendar and Microsoft Outlook.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nMeeting reminders\n\nClose will automatically remind you about upcoming meetings.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:59.913219Z",
+      "section_path": "Scale your sales team without adding headcount",
+      "chunk_index": 14,
+      "token_count": 810,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_2d08ef41e5b9",
+      "source_type": "pricing_page",
+      "url": "https://close.com/pricing",
+      "domain": "close.com",
+      "page_title": "Close CRM Pricing | Plans with Calling, SMS & AI Sales Agent",
+      "content": "![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nNotetaker\n\nRecord, transcribe, and summarize all meetings synced to Close from Zoom, Teams, and Meet.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nCustomizable meeting outcomes\n\nGet accurate connect and conversion rate reports when reps log meeting outcomes.\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n[Collaboration + Admin Tools\\\\\n\\\\\n![plus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/686596e82acd4031e23498ee_icon-plus.svg)](https://close.com/pricing#)\n\nRoles and permissions\n\nControl a user's accessibility within Close by assigning them to one of four predefined roles. On Scale only, create a custom role with unique permissions.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nCustomizable\n\nMentions\n\n@mention users and groups to alert and collaborate with coworkers.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:59.913305Z",
+      "section_path": "Scale your sales team without adding headcount",
+      "chunk_index": 15,
+      "token_count": 802,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_0579e76e37d7",
+      "source_type": "pricing_page",
+      "url": "https://close.com/pricing",
+      "domain": "close.com",
+      "page_title": "Close CRM Pricing | Plans with Calling, SMS & AI Sales Agent",
+      "content": "![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nField Editing restrictions\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n[Reporting\\\\\n\\\\\n![plus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/686596e82acd4031e23498ee_icon-plus.svg)](https://close.com/pricing#)\n\nActivity reports and dashboards\n\nSee all of your team's activity (calls, emails, won deals, etc.), updated in real-time.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nOpportunity Funnel Report\n\nAnalyze your Pipeline health with KPIs like conversion rates, time to close, and sales velocity.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nEmail template performance reports\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:59.913474Z",
+      "section_path": "Scale your sales team without adding headcount",
+      "chunk_index": 17,
+      "token_count": 800,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_0ef87e696e1b",
+      "source_type": "pricing_page",
+      "url": "https://close.com/pricing",
+      "domain": "close.com",
+      "page_title": "Close CRM Pricing | Plans with Calling, SMS & AI Sales Agent",
+      "content": "![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nWorkflow Performance Report\n\nAnalyze the effectiveness of your email, call, and SMS Workflows.\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nLeaderboard\n\nRank and compare Users for metrics that matter within a specified timeframe.\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nCustom Graphs (Explorer)\n\nCreate Custom Graphs for more advanced reporting.\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n[Integrations\\\\\n\\\\\n![plus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/686596e82acd4031e23498ee_icon-plus.svg)](https://close.com/pricing#)\n\nClaude\n\nUse Claude to research leads, summarize customer interactions, generate reports, and build workflows.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nChatGPT",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:59.913559Z",
+      "section_path": "Scale your sales team without adding headcount",
+      "chunk_index": 18,
+      "token_count": 809,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_8973dc7b10fb",
+      "source_type": "pricing_page",
+      "url": "https://close.com/pricing",
+      "domain": "close.com",
+      "page_title": "Close CRM Pricing | Plans with Calling, SMS & AI Sales Agent",
+      "content": "![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n[Over 100 apps integrate with Close. **See all integrations**](https://close.com/integrations)\n\n[Support\\\\\n\\\\\n![plus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/686596e82acd4031e23498ee_icon-plus.svg)](https://close.com/pricing#)\n\n24/7 Knowledge Base\n\nGet answers to your technical questions.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nEmail support\n\nConnect with our support team via email.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n[Security\\\\\n\\\\\n![plus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/686596e82acd4031e23498ee_icon-plus.svg)](https://close.com/pricing#)\n\nSOC2 Type 2 Compliant\n\nClose securely manages your data to protect the interests and privacy of your organization.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:59.913789Z",
+      "section_path": "Scale your sales team without adding headcount",
+      "chunk_index": 20,
+      "token_count": 817,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_a0dae4183d40",
+      "source_type": "pricing_page",
+      "url": "https://close.com/pricing",
+      "domain": "close.com",
+      "page_title": "Close CRM Pricing | Plans with Calling, SMS & AI Sales Agent",
+      "content": "![](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/6a172e681fdaacf23ff1b05b_credit-card-02.svg)\n\nDo I need a credit card to start my free trial\n\n![](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/685af1a3e682ec33431b0bb0_chevron-down.svg)\n\nNo credit card required.\n\nYou can start using Close in minutes, including built-in calling, email, SMS, workflows, and Chloe, our AI sales teammate.\n\nYour free trial also includes calling and AI credits so you can test real conversations, automation, and workflows before purchasing.\n\n![](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/68a35f6965eb3c2c4f8cbc1c_icon--clock.svg)\n\nWhat happens when my free trial ends?\n\n![](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/685af1a3e682ec33431b0bb0_chevron-down.svg)\n\nIf you decide Close is a fit, you can choose a plan and continue without interruption.\n\nIf you’re not ready to upgrade yet, your account pauses and your data remains available for a limited period before deletion.\n\n![](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/6a13779a3746cf9f5206b99e_switch-horizontal-02.svg)\n\nCan I change or cancel my plan anytime?\n\n![](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/685af1a3e682ec33431b0bb0_chevron-down.svg)\n\nYes. Close offers both monthly and annual plans.\n\nMonthly subscriptions can be upgraded, downgraded, or canceled anytime.\n\nAnnual plans offer discounted pricing and can be upgraded as your team grows. Downgrades or cancellations take effect at the end of the billing term.\n\n![](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/6a172e69827b55029922b0a3_receipt-check.svg)\n\nHow does Close pricing work?\n\n![](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/685af1a3e682ec33431b0bb0_chevron-down.svg)\n\nClose combines your CRM, calling, SMS, and AI workflows in one platform.\n\nPricing is based on:\n\n- **seats** for your team\n- **actual usage** for calling and SMS\n- **AI credits** used by Chloe and other AI features\n\nEvery plan includes AI credits to get started, and additional usage can be added as needed.\n\n![](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/6a172e691fdaacf23ff1b0f6_phone-call-01.svg)\n\nHow much do calling and SMS cost?\n\n![](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/685af1a3e682ec33431b0bb0_chevron-down.svg)\n\nCalling and SMS are usage-based and passed through at cost (full breakdown [here](https://help.close.com/docs/calling-and-sms-usage)), which keeps pricing flexible as your team scales.\n\nMost outbound calls cost around $0.02/minute, and phone numbers start at about $1/month.\n\nYour free trial includes calling credits so you can test real conversations, workflows, and Chloe before upgrading.\n\n![](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/687578ef3481f7f8a423c994_icon-ai-summaries.svg)\n\nWhat is Chloe, and which plans include it?\n\n![](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/685af1a3e682ec33431b0bb0_chevron-down.svg)\n\nEvery Close plan includes access to Chloe, Close’s built-in AI sales agent. Chloe can:\n\n- call leads automatically\n- qualify prospects through live conversations\n- book meetings\n- update CRM records after calls\n- enrich lead data\n- answer questions about your pipeline inside Close",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:59.914026Z",
+      "section_path": "Scale your sales team without adding headcount > Frequently Asked Questions",
+      "chunk_index": 23,
+      "token_count": 826,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_52b3fb4917a5",
+      "source_type": "pricing_page",
+      "url": "https://close.com/pricing",
+      "domain": "close.com",
+      "page_title": "Close CRM Pricing | Plans with Calling, SMS & AI Sales Agent",
+      "content": "Growth and Scale plans unlock more advanced automation, workflows, and AI capabilities for higher-volume sales teams.\n\n![](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/6a172e681a80eb9ba7f07391_beaker-02.svg)\n\nCan I try Chloe during my free trial?\n\n![](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/685af1a3e682ec33431b0bb0_chevron-down.svg)\n\nYes. Because Chloe is built directly into Close, you can set her up quickly and start using her on real leads during your trial.\n\nChloe can call leads, qualify prospects, book meetings, update CRM records, enrich lead data, and answer questions about your pipeline — all natively inside Close.\n\nSince Chloe works directly inside the CRM, she already has context from your contacts, communication history, and pipeline activity.\n\n![](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/6a172e69827b55029922b0c3_scales-01.svg)\n\nWhat's the difference between Growth and Scale?\n\n![](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/685af1a3e682ec33431b0bb0_chevron-down.svg)\n\nGrowth is ideal for scaling teams that want automation, workflows, and AI built into their sales process.\n\nScale is designed for higher-volume teams that need more operational control, advanced dialing power, and deeper team management features.\n\nIf your reps spend most of their day prospecting and calling, Scale is usually the right fit.\n\nMany teams start on Growth and upgrade to Scale as their team and sales motion expand.\n\n![](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/6a172e691a80eb9ba7f073c4_coins-swap-01.svg)\n\nHow easy is it to switch from another CRM?\n\n![](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/685af1a3e682ec33431b0bb0_chevron-down.svg)\n\nClose includes built-in importers for platforms like HubSpot, Pipedrive, and HighLevel, plus spreadsheet imports. Most teams can import their data and get up and running quickly.\n\n![](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/6a172e69bd294723437cd8c2_message-circle-01.svg)\n\nDo I need to talk to sales?\n\n![](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/685af1a3e682ec33431b0bb0_chevron-down.svg)\n\nNo. Close is designed to be self-serve, so you can sign up, start a trial, and set up your team without talking to sales.\n\nThat said, our team is available if you want help evaluating Close, designing workflows, migrating from another CRM, or planning for larger or more complex sales operations.\n\nNeed a demo? Head [here](http://close.com/demo).\n\n![](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/6a172e69970a1f21ba601544_check-verified-02.svg)\n\nDo you offer a money-back guarantee?\n\n![](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/685af1a3e682ec33431b0bb0_chevron-down.svg)\n\nYes. Close offers a 30-day money-back guarantee after purchase. You can also upgrade, downgrade, or cancel your plan at any time.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:59.914120Z",
+      "section_path": "Scale your sales team without adding headcount > Frequently Asked Questions",
+      "chunk_index": 24,
+      "token_count": 729,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_391d6c0826a3",
+      "source_type": "pricing_page",
+      "url": "https://close.com/pricing",
+      "domain": "close.com",
+      "page_title": "Close CRM Pricing | Plans with Calling, SMS & AI Sales Agent",
+      "content": "![Solo Essentials icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/6866b687ee11e5590a69793e_icon-call-check.svg)\n\nRunning a solo operation or a team of 2-3?\n\n**Solo ($9/user)** gives you full a full CRM with calling, email, and SMS built in.\n\n**Essentials ($35/user)** adds pipelines and team-level visibility when you’re ready to scale.\n\nHave a team that's chasing too many leads manually?\n\n**Growth ($99/user)** unlocks more powerful Chloe features with workflows. Your reps stop doing the volume work and start closing the deals Chloe automatically warmed up for them.\n\nRunning a high-volume outbound operation?\n\n**Scale ($139/user)** adds predictive dialing, lead visibility, and advanced controls. Built for teams who need ultimate speed for larger teams.\n\n[Compare plans](https://close.com/pricing#)\n\n![Close logo](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/6859bcef2a1f5bf66693e048_close-logo-framed-dark.svg)\n\nSign up, import leads, and start selling within an hour.\n\nNo credit card. No contracts.\n\n[Try for free](https://app.close.com/signup/)\n\n![CRM dashboard showing metrics for leads, calls, emails, opportunities, and a leaderboard of top performers.](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/6859bcf0c8864b111eda6c85_close-crm-activity-report.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:59.914178Z",
+      "section_path": "Scale your sales team without adding headcount > Try Close free for 14 Days",
+      "chunk_index": 25,
+      "token_count": 328,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_9823e4bdb18f",
+      "source_type": "auth_docs",
+      "url": "https://help.close.com/oauth",
+      "domain": "help.close.com",
+      "page_title": "user-site",
+      "content": "> ## Documentation Index\n>\n> Fetch the complete documentation index at: [https://help.close.com/llms.txt](https://help.close.com/llms.txt)\n>\n> Use this file to discover all available pages before exploring further.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:58.266714Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 53,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_44820ee0a378",
+      "source_type": "api_reference",
+      "url": "https://close.com/api",
+      "domain": "close.com",
+      "page_title": "CRM API | How to Integrate With Close CRM",
+      "content": "Integrate all of Close’s functionality into your existing toolset through our powerful API.\n\n[![white play button icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/61773e075641c25864fa6691_play%204.svg)](https://close.com/archive/demo-old)\n\n![](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/61d7405356e2fed185225d38_reporting-blue.svg)\n\nCreate custom reporting for leads that match specific criteria. Define your criteria in a Smart View and get automatically updated reports on all leads that match those criteria.\n\n![](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/61a926a65e1734414995afee_code%204.svg)\n\nAre you running a large sales organization with very specific and unique needs? Use the Close API to build your own admin panels and create a more streamlined process for your team.\n\n![](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/61bae10f40905c43e2ece953_plug-disconnected%202.svg)\n\nWant to create leads from your own application or website? Connect directly from your app or website to Close, without having to rely on any third-party services to get the data from A to B.\n\n![grid icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/61d73ffe073f8523c2aa25c4_grid-blue.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:59.045753Z",
+      "section_path": "Take full control of your data > It's everything an easy API should be. > **Build your own integrations**",
+      "chunk_index": 0,
+      "token_count": 313,
+      "quality_score": 0.58
+    },
+    {
+      "id": "ev_d70e7b1ed150",
+      "source_type": "api_reference",
+      "url": "https://close.com/api",
+      "domain": "close.com",
+      "page_title": "CRM API | How to Integrate With Close CRM",
+      "content": "Get the gist of Close with a guided, B.S.-free tour.\n\n[Book a call](https://www.close.com/demo#lets-talk)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:59.045807Z",
+      "section_path": "Take full control of your data > Talk to a real human",
+      "chunk_index": 2,
+      "token_count": 26,
+      "quality_score": 0.58
+    },
+    {
+      "id": "ev_3323c873c683",
+      "source_type": "pricing_page",
+      "url": "https://close.com/pricing",
+      "domain": "close.com",
+      "page_title": "Close CRM Pricing | Plans with Calling, SMS & AI Sales Agent",
+      "content": "![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nChat \\[Beta\\]\n\nChat with Chloe to answer questions and take actions in Close.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nEnrichment\n\nAutomatically enrich contact and company records with external intelligence.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nUse Chloe in Workflows\n\nChloe can be used in Workflows to automatically trigger outreach, follow-up, and more.\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nAuto Updates\n\nRun Playbooks and automatically fill Outcomes and custom fields.\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:59.911900Z",
+      "section_path": "Scale your sales team without adding headcount",
+      "chunk_index": 1,
+      "token_count": 803,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_0828d868c992",
+      "source_type": "pricing_page",
+      "url": "https://close.com/pricing",
+      "domain": "close.com",
+      "page_title": "Close CRM Pricing | Plans with Calling, SMS & AI Sales Agent",
+      "content": "Track your Opportunities and view the Total Value and Expected Value of the deals in your pipelines. Up to 300 per lead.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nMulti-channel inbox view\n\nCentralize your to-do list to ensure no leads slip through the cracks.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nForms\n\nCapture website leads with a no-code form builder.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nTask management\n\nAssign tasks to yourself and others to never miss a next step.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nDynamic list building (Smart Views)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:59.912086Z",
+      "section_path": "Scale your sales team without adding headcount",
+      "chunk_index": 3,
+      "token_count": 798,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_6c6906069abc",
+      "source_type": "pricing_page",
+      "url": "https://close.com/pricing",
+      "domain": "close.com",
+      "page_title": "Close CRM Pricing | Plans with Calling, SMS & AI Sales Agent",
+      "content": "Search, filter, and save customized views of Leads and Contacts and share them with other team members.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nPipelines\n\nCreate multiple opportunity pipelines to track different teams, products, or sales processes.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nData import and export\n\nImport data from another CRM, a spreadhseet, or manually add in data.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nDuplicate lead management\n\nDuplicate lead detection on import and ability to merge duplicate leads.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nLead and Contact activity timeline",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:59.912208Z",
+      "section_path": "Scale your sales team without adding headcount",
+      "chunk_index": 4,
+      "token_count": 810,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_585d0c6fe884",
+      "source_type": "pricing_page",
+      "url": "https://close.com/pricing",
+      "domain": "close.com",
+      "page_title": "Close CRM Pricing | Plans with Calling, SMS & AI Sales Agent",
+      "content": "![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nEmail templates\n\nEmails that can be reused to save time. They can be used to send individual emails or in bulk emails.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nSnippets\n\nReusable blocks of text, like frequently used sentences or paragraphs, that you can easily insert into emails.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nDynamic template tags\n\nPersonalize emails by including tags into your email templates (e.g. ‘first name’) and have them populated automatically.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nEmail open tracking\n\nSee if your contact has opened your email before following up.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:59.912515Z",
+      "section_path": "Scale your sales team without adding headcount",
+      "chunk_index": 7,
+      "token_count": 817,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_b970d1f17f83",
+      "source_type": "pricing_page",
+      "url": "https://close.com/pricing",
+      "domain": "close.com",
+      "page_title": "Close CRM Pricing | Plans with Calling, SMS & AI Sales Agent",
+      "content": "![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nSend bulk email\n\nSend a templated email to multiple contacts at once.\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nSending limits\n\nPrevent your email accounts from exceeding the sending thresholds set by your email providers to safeguard your sender reputation.\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nUnsubscribe\n\nManage email unsubscribers directly within Close.\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nEmail scheduling\n\nSchedule emails to send at a future date/time.\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:59.912620Z",
+      "section_path": "Scale your sales team without adding headcount",
+      "chunk_index": 8,
+      "token_count": 784,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_f889ac1513cc",
+      "source_type": "pricing_page",
+      "url": "https://close.com/pricing",
+      "domain": "close.com",
+      "page_title": "Close CRM Pricing | Plans with Calling, SMS & AI Sales Agent",
+      "content": "![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nAutomatic call logging\n\nAfter a call is completed in Close, it will be automatically added to the Lead page (including time and duration).\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nCustom voicemail greeting\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nSend/receive text messages within Close\n\nClose supports SMS sending to over a dozen countries, including the US, CA, GB, and AU. Note: A2P 10DLC registration is required for sending SMS to US phone numbers.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nSMS templates\n\nReusable blocks of text, like frequently used sentences or paragraphs, that you can easily insert into text templates.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:59.912857Z",
+      "section_path": "Scale your sales team without adding headcount",
+      "chunk_index": 10,
+      "token_count": 783,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_ce94ecb359dd",
+      "source_type": "pricing_page",
+      "url": "https://close.com/pricing",
+      "domain": "close.com",
+      "page_title": "Close CRM Pricing | Plans with Calling, SMS & AI Sales Agent",
+      "content": "![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nBring your own phone line, or rent a line from Close\n\nLines with Close starting at $1/line/month.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nGroup numbers\n\nUse a shared inbound phone number that, when dialed, rings a group of phones simultaneously, stopping when any one of them is picked up.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nCall forwarding\n\nRedirect incoming calls to another phone number.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nStandard call transferring\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:59.912949Z",
+      "section_path": "Scale your sales team without adding headcount",
+      "chunk_index": 11,
+      "token_count": 776,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_afb119ea1377",
+      "source_type": "pricing_page",
+      "url": "https://close.com/pricing",
+      "domain": "close.com",
+      "page_title": "Close CRM Pricing | Plans with Calling, SMS & AI Sales Agent",
+      "content": "![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nCustomizable call outcomes\n\nGet accurate answer and conversion rate reports when reps log call outcomes.\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nVoicemail Drop\n\nClick to leave a pre-recorded voicemail.\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nText scheduling\n\nDraft and schedule texts to send at a later time or date.\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nUse text messages in automated workflows\n\nInclude SMS/MMS.\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:59.913039Z",
+      "section_path": "Scale your sales team without adding headcount",
+      "chunk_index": 12,
+      "token_count": 782,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_59975969568f",
+      "source_type": "pricing_page",
+      "url": "https://close.com/pricing",
+      "domain": "close.com",
+      "page_title": "Close CRM Pricing | Plans with Calling, SMS & AI Sales Agent",
+      "content": "![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nComments\n\nAdd comment directly on activities and objects in Close to keep discussions about your contacts all in one place.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nLead visibility settings\n\nControl which leads different users can see.\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nUser groups\n\nOrganize your team into up to 100 groups of up to 100 users each for faster reporting.\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nRequired Fields (Currently Custom Activities Only)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)\n\n![gray minus icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe594a964fbbf5ef92a112_minus-solid-icon-20-gray.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:59.913382Z",
+      "section_path": "Scale your sales team without adding headcount",
+      "chunk_index": 16,
+      "token_count": 794,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_f85d46d37338",
+      "source_type": "pricing_page",
+      "url": "https://close.com/pricing",
+      "domain": "close.com",
+      "page_title": "Close CRM Pricing | Plans with Calling, SMS & AI Sales Agent",
+      "content": "Pull reports, research leads, summarize history, and build workflows with ChatGPT + Close.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nZoom\n\nJoin Zoom meetings and watch past recordings directly within Close.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nSegment\n\nCreate or update Leads and Contacts with Close as a Segment Destination.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nZapier\n\nConnect with 2000+ third-party apps through Zapier.\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\n![blue checkmark icon](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/651c5439b030488dac3e32a0_222f0f5829f54dbcb86d39d20e842265_checkmark-fill-icon-24-blue.svg)\n\nCalendly\n\nSync you and your team’s Calendly links with Close and insert them into emails with 1-click",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:59.913679Z",
+      "section_path": "Scale your sales team without adding headcount",
+      "chunk_index": 19,
+      "token_count": 803,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_192d13894d6c",
+      "source_type": "pricing_page",
+      "url": "https://close.com/pricing",
+      "domain": "close.com",
+      "page_title": "Close CRM Pricing | Plans with Calling, SMS & AI Sales Agent",
+      "content": "Chloe is an AI sales teammate built directly into Close. She calls your leads, has real qualifying conversations, books your meetings, and updates your CRM. All so your team can stay focused on closing more deals.\n\n![Close.com CRM Dashboard](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e733808e3983508e8eab73_4fc6124da2edbcb5ff068a75d2a0246a_chloe.webp)\n\n> “We’re not using AI to replace people. We’re doing it so that the people we have are unlocked to do more. Chloe is not just innovation. She is actually creating the work we need to do.”\n\n![Headshot photo of the customer who gave this testimonial ](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69af457b247dd537ff488e2f_Jem-Millett.png)\n\n> “Chloe is a 9/10. We used to have a full team of callers, but Chloe now outpaces all of them combined — we’re getting qualified leads from five-minute calls, and the man-hours we’re saving is a huge win.”\n\n![Headshot photo of the customer who gave this testimonial ](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69af45806b15c4b85d67477e_Max-Bietti.png)\n\nYou only pay for the work Chloe does. She uses AI credits in Close, plus Telephony, and each Close plan includes a base of credits monthly automatically.\n\n[See everything Chloe can do\\\\\n![](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/62fe57e9b65f04d6258257ad_arrow-right-icon-24-white.svg)](https://close.com/chloe)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:59.913918Z",
+      "section_path": "Scale your sales team without adding headcount > Chloe access is free on all Close plans",
+      "chunk_index": 22,
+      "token_count": 357,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_aa12d6b6dd8d",
+      "source_type": "official_docs",
+      "url": "https://close.com",
+      "domain": "close.com",
+      "page_title": "Close CRM | Sales CRM with Built-In AI Sales Agent",
+      "content": "The sales CRM built for\n\ncalling\n\nemailing\n\ntexting\n\nautomation\n\naction\n\n[Try for free](https://app.close.com/signup/)\n\nNo credit card required\n\nClose is a sales CRM built for teams that sell. It\ncombines calling, email, SMS, pipeline management,\nreporting, and an AI sales agent named Chloe into a\nsingle platform. Close helps teams act on their sales\ndata.\n\nChloe is an AI sales agent built into Close CRM that\ncalls leads, qualifies prospects through real\nconversations, and can book meetings while updating\nyour CRM automatically. She is part of the CRM — not\na separate tool or integration.\n\n11,500+\n\nSales teams trust Close\n\n2B+\n\n**Calls, emails, and texts**\n\n4.7\n\nRated on G2\n\n![Black and white portrait of a man with short hair resting his chin on his hand and looking at the camera.](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69ea0d7d039ef2e1310fa6d1_Dana-Derricks.webp)\n\n“\n\n> Our booked appointments per week have gone up ~50% since Chloe went live.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:58.570302Z",
+      "section_path": "The sales CRM built for calling, emailing, texting, automation and action > What is Chloe?",
+      "chunk_index": 0,
+      "token_count": 244,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_39a6af9abe50",
+      "source_type": "official_docs",
+      "url": "https://close.com",
+      "domain": "close.com",
+      "page_title": "Close CRM | Sales CRM with Built-In AI Sales Agent",
+      "content": "Calling, SMS, email, and pipeline.\n\nAll in one place: working your deals for you.\n\n![Dashboard of Driftline showing tasks, contacts, onboarding emails, attachments, and account review details.](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e157e28e5ae165a8b77fe1_Lead%20View%20-%20Full%20-%20A.webp)\n\nNew lead comes in?\n\nContacted instantly\n\nA lead hits your pipeline. Chloe calls within minutes — using Close’s built-in dialer. Transcript, notes, and next steps logged automatically.\n\n[Start your free trial](https://app.close.com/signup/)\n\n![Dashboard showing custom fields including Hiring, Ideal Customer, Company Size, Industry, and Lead Owner details.](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e15b101a1acb162729f345_Lead%20View%20-%20Custom%20Fields%20-%20Primary.webp)\n\nCold lead sitting in your CRM?\n\nRe-engaged automatically\n\nWhen Chloe finds cold leads she re-opens the conversation and sends warm responses straight to your rep's inbox.\n\n[Re-engage cold leads](https://app.close.com/signup/)\n\n![AI lead summary of Stacklet lead's status, call from Tobias Grant, and meeting details with three guests.](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e15b924a4b5f7f454b0829_Lead%20View%20-%20AI%20Summary.webp)\n\nYour rep forgot to follow-up?\n\nFollowed up and moved forward\n\nChloe instantly writes the follow-up, sends it at the right time, and updates the deal stage so nothing falls through the cracks.\n\n[Automate follow-ups](https://app.close.com/signup/)\n\n![Stacklet activity feed showing a call from Tobias Grant, a meeting with 3 guests, and account review notes.](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e15c05f7258c1d6f95d042_Lead%20View%20-%20General%20Activity%20Feed.webp)\n\nYour lead is now qualified and ready for sales\n\nHandled and routed\n\nChloe qualified your lead, booked your meeting, assigned the right rep, and now prepped your notes, before the call even starts.\n\n[Update your CRM](https://app.close.com/signup/)\n\nSlide 2 of 4.\n\n![Smiling young man with short blonde hair wearing a white shirt against a light background.](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69ea0ec982dc0d0e034aa698_zac-muir.webp)\n\n“\n\n> We've saved over $100,000 in tech costs switching from Salesforce to Close. We're doing things we never dreamed of doing in a CRM.\n\n![Smiling man with short dark hair wearing a blue shirt and dark blazer against a plain background.](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69ea1111461b5854a330b3d9_ben-pace.webp)\n\n“\n\n> \"If you're worried your clients will be turned off by AI, don't be — it's just noise. Close and Chloe have done nothing but impact my bottom line in a positive way.\"",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:58.570378Z",
+      "section_path": "The sales CRM built for calling, emailing, texting, automation and action > Built for conversations.  Now Close runs them, end-to-end.",
+      "chunk_index": 1,
+      "token_count": 683,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_ae5f78a1fb69",
+      "source_type": "official_docs",
+      "url": "https://close.com",
+      "domain": "close.com",
+      "page_title": "Close CRM | Sales CRM with Built-In AI Sales Agent",
+      "content": "The best part of sales is still you. Chloe handles the rest.\n\n![Portrait of a man wearing glasses, a black suit, white shirt, and red tie against a gray background.](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e522f429337187902e2c6d_Michael-Fomkin.webp)\n\n“\n\n> No matter what business model you’re in, your competition is about to be using this technology.\n\n[Try for free](https://app.close.com/signup/)\n\nNo credit card required.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:58.570673Z",
+      "section_path": "The sales CRM built for calling, emailing, texting, automation and action > Stop missing leads. Start closing deals.",
+      "chunk_index": 8,
+      "token_count": 111,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_7aad9521a9cb",
+      "source_type": "official_docs",
+      "url": "https://close.com",
+      "domain": "close.com",
+      "page_title": "Close CRM | Sales CRM with Built-In AI Sales Agent",
+      "content": "![Chat message from Sean, Freedom 10, reading 'My god was she impressive.' with 17 heart reactions.](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e1742eea61fbbac0bbff1d_4cc5b86c9e4f739e360f7913bd1d0308_hp-0426--testimonial-bubble-1.png)![Message from Gary Brown on Oxford Road: Close helped me quadruple my outbound calls.](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e174aebd4120bc345ecdd3_8a6cec3b5c678376fa8649f99e459403_hp-0426--testimonial-bubble-2.png)![Email from Pedro Ponciano stating Chloe is the first AI calling agent that fits sales team workflows and connects timely.](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e55a916df622df6c4250b3_t2%20Email%20(2).webp)![Message from Sarah Haselkorn, Head of Sales at Makespace: Close gave 60% more outbound and 28% longer call duration.](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e174af23d7bca89b6102f8_8b09981ab782fcaed7c313eea2b61bf4_hp-0426--testimonial-bubble-4.png)![Testimonial from Dana Derricks, Founder of FollowUp.com, praising Chloe's quick setup and efficiency.](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e174afce92d125923d6aee_10eb0d06894526a84b6ac35615b8160c_hp-0426--testimonial-bubble-5.png)\n\n![Email from Dana Derricks praising Chloe for quickly reducing lead response time from 2 hours to 1 minute.](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e175993ee1c5c5a0cbaa7e_c617596429b34be37175ada27cc12c69_hp-0426--testimonial-bubble-6.png)![Message from Ben Pace, ClientMatching.com: 30 new bookings from her in less than a week, very pleased.](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e175991353b66869a87018_935e06e4680de084fe3971163aa9e5ce_hp-0426--testimonial-bubble-7.png)![Testimonial from Matt Tanner, Co-founder of Same Page HR, praising Close for being clean, intuitive, and fast.](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e175989d38a51cf658a156_00b1a3d350ef9a18d9531e8f4699cea2_hp-0426--testimonial-bubble-8.png)![Message from Michael Fomkin praising Chloe with a 9.5 out of 10 rating at 2:43 PM.](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e17599de82404c2408306e_c94981cd84c4459b01234d5a33d69aea_hp-0426--testimonial-bubble-9.png)\n\n![Slack message from Randy Nordgren praising Close as a unified communication system with email, text, and calls.](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e55a2f66539dee64aa8c0e_t3%20Slack.webp)![Email from Matt Young, CMO at Underground Ecom, stating Close replaced need for C-level assistant.](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e55a2fb51c954a19ed6700_t2%20Email.webp)![Text message from Flatiron School about using AI to unlock people's potential, not to replace them.](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e55a2f6c8130725db2464f_2bd2831237df0c1cad6aece6bdcbee5c_t1%20Text.png)![Email from Zac Muir, VP of Revenue at Sisu, stating $100,000 saved in tech costs and fewer support issues.](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e55a2fad3eb2825c1289ca_t1%20Email.webp)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:58.570448Z",
+      "section_path": "The sales CRM built for calling, emailing, texting, automation and action > Customers can’t stop talking about how much they love Close",
+      "chunk_index": 2,
+      "token_count": 786,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_b5d284906fb8",
+      "source_type": "official_docs",
+      "url": "https://close.com",
+      "domain": "close.com",
+      "page_title": "Close CRM | Sales CRM with Built-In AI Sales Agent",
+      "content": "![Email from Zac Muir, VP of Revenue at Sisu, stating $100,000 saved in tech costs and fewer support issues.](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e55a2fad3eb2825c1289ca_t1%20Email.webp)![Message from Michael Fomkin praising Chloe with a 9.5 out of 10 rating at 2:43 PM.](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e17599de82404c2408306e_c94981cd84c4459b01234d5a33d69aea_hp-0426--testimonial-bubble-9.png)![Email from Dana Derricks praising Chloe for quickly reducing lead response time from 2 hours to 1 minute.](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e175993ee1c5c5a0cbaa7e_c617596429b34be37175ada27cc12c69_hp-0426--testimonial-bubble-6.png)\n\nReal customers loving Close and Chloe:\n\n![Fare Harbor logo](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e1779d1d336da94ee305ef_logo--fareharbor.svg)![Hipcamp logo](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e1779df6500490dc6c8bd8_logo--hipcamp.svg)![WorkOS logo](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e1779d4523871892d881f7_logo--workos.svg)![Flatiron School logo](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e1779d2dc2f38af4afb48e_logo--flatiron.svg)![Reverb logo](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e1779d30e3ce6556f0d247_logo--reverb.svg)![Simpletire logo](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e1779d1f982aaf0b21bf9e_logo--simpletire.svg)![Paladin Security logo](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e1779e6e8551a89c75be29_logo--paladin-security.svg)![Natural Dog Company logo](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e1779d5d9f36cbf6fb5da2_logo--natural-dog-company.svg)![ClassDojo logo](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e1779dba4a1586c5262b47_logo--classdojo.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:58.570487Z",
+      "section_path": "The sales CRM built for calling, emailing, texting, automation and action > Customers can’t stop talking about how much they love Close",
+      "chunk_index": 3,
+      "token_count": 471,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_96fa6f6b8e80",
+      "source_type": "official_docs",
+      "url": "https://close.com",
+      "domain": "close.com",
+      "page_title": "Close CRM | Sales CRM with Built-In AI Sales Agent",
+      "content": "Chloe turns your pipeline data into calls, follow-ups, and booked meetings. Without your reps even lifting a finger.\n\n[Summarized calls](https://close.com/#w-tabs-1-data-w-pane-0) [Automatic follow-ups](https://close.com/#w-tabs-1-data-w-pane-1) [Updated CRM](https://close.com/#w-tabs-1-data-w-pane-2) [Surfaced insights](https://close.com/#w-tabs-1-data-w-pane-3)\n\nChloe generates a complete AI summary of every lead — pulling from calls, emails, and meetings. Full transcripts, action items, and key moments are all logged to the CRM automatically\n\n![AI lead summary of Stacklet lead's status, call from Tobias Grant, and meeting details with three guests.](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e15b924a4b5f7f454b0829_Lead%20View%20-%20AI%20Summary.webp)\n\nChloe prepares follow-ups based on call transcripts and sends them or queues them for your rep to review.\n\n![Workflow steps for deal progression and pipeline automation from assigning to follow-up and closing calls.](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e17b82c3df890ce953ab11_Workfow%202.webp)\n\nEvery conversation moves your deal forward. Plus, Chloe fills contact fields with rich data insights from LinkedIn and the web.\n\n![Dashboard showing custom fields including Hiring, Ideal Customer, Company Size, Industry, and Lead Owner details.](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e15b101a1acb162729f345_Lead%20View%20-%20Custom%20Fields%20-%20Primary.webp)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:58.570533Z",
+      "section_path": "The sales CRM built for calling, emailing, texting, automation and action > Your CRM has all the data.  Now it can act on it. > **The CRM that updates itself**",
+      "chunk_index": 4,
+      "token_count": 372,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_269da3905bfb",
+      "source_type": "official_docs",
+      "url": "https://close.com",
+      "domain": "close.com",
+      "page_title": "Close CRM | Sales CRM with Built-In AI Sales Agent",
+      "content": "Hot leads waiting for follow-up while other deals stall? Not anymore. Chloe's on top of everything.\n\n![Sales funnel report shows stages from new lead to won with counts, days, losses, and win rate at 60%.](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e17bb5125f861fbeb5df1b_Sales%20Funnel%20Report.webp)\n\n![Woman with glasses and red hair smiling indoors, wearing a black turtleneck sweater.](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69dc057571b9570bb789ceaf_jem-millet.webp)\n\n“\n\n> We’re not using AI to replace people. We’re doing it so that the people we have are unlocked to do more. Chloe is not just innovation. She is actually creating the work we need to do.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:58.570562Z",
+      "section_path": "The sales CRM built for calling, emailing, texting, automation and action > Your CRM has all the data.  Now it can act on it. > **Daily action-items**",
+      "chunk_index": 5,
+      "token_count": 175,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_12c70b1d913d",
+      "source_type": "official_docs",
+      "url": "https://close.com",
+      "domain": "close.com",
+      "page_title": "Close CRM | Sales CRM with Built-In AI Sales Agent",
+      "content": "Close connects to your favorite sales, marketing, and support tools. Out of the box.\n\n[![ChatGPT logo](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e19031a19b8e3838b22deb_tool-logo--chatgpt.svg)](https://www.close.com/integrations/chatgpt)[![Gmail logo](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e1903181a4744024c4be42_tool-logo--gmail.svg)](https://www.close.com/integrations/gmail)[![Segment logo](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e19030e0fb5120f56dd312_tool-logo--twilio.svg)](https://www.close.com/integrations/segment)[![Hubspot logo](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e1902e62e693765afbcc98_tool-logo--hubspot.svg)](https://www.close.com/integrations/hubspot)[![Customerio logo](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e19030f3c97836b21c136e_tool-logo--veed.svg)](https://www.close.com/integrations/customerio)[![Microsoft logo](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e1902f97c2e51ea816b415_tool-logo--microsoft.svg)](https://www.close.com/integrations/microsoft-365)[![Claude logo](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e1902e4105edd149da9e44_tool-logo--claude.svg)](https://www.close.com/integrations/claude)[![Calendly logo](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e1902e8cf8872b6fd366e2_tool-logo--capcut.svg)](https://www.close.com/integrations/calendly)[![Zoom logo](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e1903072695bd0ea817998_tool-logo--zoom.svg)](https://www.close.com/integrations/zoom)[![Helpscout logo](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e1902ec15b11c6569a0f21_tool-logo--helpscout.svg)](https://www.close.com/integrations/help-scout)[![Ringover logo](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e2ce3a68ed32ff8c22d086_tool-logo--ringover.svg)](https://www.close.com/integrations/ringover)[![Google Calendar logo](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e2ce3b34221d33ffdd7983_tool-logo--google-cal.svg)](https://www.close.com/integrations/google-calendar)[![Zapier logo](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e190307b7926cdef168cea_tool-logo--zapier.svg)](https://www.close.com/integrations/zapier)[![Gong logo](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e1902fc10d61fdfe9e8b22_tool-logo--ms365.svg)](https://www.close.com/integrations/gong)[![Quotepath logo](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e1902f229af8da8067baf6_tool-logo--quota.svg)](https://www.close.com/integrations/quotapath)[![Clay logo](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e1902fe85188b59469e1ba_tool-logo--customerio.svg)](https://www.close.com/integrations/clay)[![Justcall logo](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e2ce3ad0e2ce86c9ffae59_tool-logo--justcall.svg)](https://www.close.com/integrations/justcall)[![Whatsapp logo](https://cdn.prod.website-files.com/61717799a852418a278cfa9b/69e19030cf8a9458860d5c9d_tool-logo--whatsapp.svg)](https://www.close.com/integrations/whatsapp)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:58.570619Z",
+      "section_path": "The sales CRM built for calling, emailing, texting, automation and action > Works with the tools you already use",
+      "chunk_index": 6,
+      "token_count": 791,
+      "quality_score": 0.36
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Close is a sales CRM focused on sales execution.",
+      "evidence_ids": [
+        "ev_8df1fac2c8bc"
+      ]
+    },
+    "category": {
+      "value": "CRM and Sales",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "Google SSO",
+      "evidence_ids": [
+        "ev_990f96f484da"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free trial available)",
+      "evidence_ids": [
+        "ev_ed86484eda78"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API, webhooks",
+      "evidence_ids": [
+        "ev_74d17cbf16aa"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_74d17cbf16aa"
+      ]
+    },
+    "mcp": {
+      "value": "Official MCP",
+      "evidence_ids": [
+        "ev_bd266d90ad43"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_8df1fac2c8bc"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_8df1fac2c8bc"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.88,
+    "fields_checked": 8,
+    "fields_supported": 7,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "auth_methods",
+        "check": "recognized_auth",
+        "severity": "WARNING",
+        "message": "Auth methods 'Google SSO' — no recognized auth pattern found"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.88,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.88 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

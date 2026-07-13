@@ -1,0 +1,665 @@
+{
+  "app": {
+    "id": 56,
+    "name": "Firecrawl",
+    "website": "firecrawl.dev",
+    "category_hint": "Data SEO and Scraping"
+  },
+  "documentation_map": {
+    "app_name": "Firecrawl",
+    "official_domain": "firecrawl.dev",
+    "homepage": {
+      "url": "https://firecrawl.dev",
+      "title": "Firecrawl",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": null,
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://docs.firecrawl.dev/api-reference/v2-introduction",
+        "title": "API Reference",
+        "confidence": 1.0,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://www.firecrawl.dev/pricing",
+        "title": "Pricing",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://www.firecrawl.dev/enterprise",
+          "title": "Enterprise",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "sdk": {
+      "primary": {
+        "url": "https://docs.firecrawl.dev/sdks/cli",
+        "title": "CLI Docs",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://docs.firecrawl.dev/sdks/overview",
+          "title": "SDKs overview",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "mcp": {
+      "primary": {
+        "url": "https://docs.firecrawl.dev/mcp-server",
+        "title": "MCP Server Docs",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://docs.firecrawl.dev/ai-onboarding",
+        "title": "Build with AI",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://docs.firecrawl.dev/llms.txt",
+          "title": "Full Documentation Index",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.firecrawl.dev/features/search",
+          "title": "Search",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.firecrawl.dev/features/scrape",
+          "title": "Scrape",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.firecrawl.dev/features/interact",
+          "title": "Interact",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.firecrawl.dev/features/crawl",
+          "title": "Crawl",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.firecrawl.dev/features/map",
+          "title": "Map",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.firecrawl.dev/features/parse",
+          "title": "Parse",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.firecrawl.dev/quickstarts/go",
+          "title": "docs.firecrawl.dev/quickstarts/go",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.firecrawl.dev/quickstarts/rust",
+          "title": "docs.firecrawl.dev/quickstarts/rust",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "webhooks": null,
+    "llms_txt": {
+      "url": "https://firecrawl.dev/llms-full.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "Firecrawl",
+      "official_domain": "firecrawl.dev",
+      "items": [
+        {
+          "url": "https://firecrawl.dev",
+          "page_type": "homepage",
+          "title": "Firecrawl",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.firecrawl.dev/sdks/cli",
+          "page_type": "sdk",
+          "title": "CLI Docs",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.firecrawl.dev/mcp-server",
+          "page_type": "mcp",
+          "title": "MCP Server Docs",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.firecrawl.dev/ai-onboarding",
+          "page_type": "developer_portal",
+          "title": "Build with AI",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.firecrawl.dev/llms.txt",
+          "page_type": "developer_portal",
+          "title": "Full Documentation Index",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.firecrawl.dev/api-reference/v2-introduction",
+          "page_type": "api_reference",
+          "title": "API Reference",
+          "confidence": 1.0,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.firecrawl.dev/features/search",
+          "page_type": "developer_portal",
+          "title": "Search",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.firecrawl.dev/features/scrape",
+          "page_type": "developer_portal",
+          "title": "Scrape",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.firecrawl.dev/features/interact",
+          "page_type": "developer_portal",
+          "title": "Interact",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.firecrawl.dev/features/crawl",
+          "page_type": "developer_portal",
+          "title": "Crawl",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.firecrawl.dev/features/map",
+          "page_type": "developer_portal",
+          "title": "Map",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.firecrawl.dev/features/parse",
+          "page_type": "developer_portal",
+          "title": "Parse",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.firecrawl.dev/sdks/overview",
+          "page_type": "sdk",
+          "title": "SDKs overview",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.firecrawl.dev/quickstarts/go",
+          "page_type": "developer_portal",
+          "title": "docs.firecrawl.dev/quickstarts/go",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.firecrawl.dev/quickstarts/rust",
+          "page_type": "developer_portal",
+          "title": "docs.firecrawl.dev/quickstarts/rust",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://www.firecrawl.dev/pricing",
+          "page_type": "pricing",
+          "title": "Pricing",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://www.firecrawl.dev/enterprise",
+          "page_type": "pricing",
+          "title": "Enterprise",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 3,
+        "urls_discovered": 17,
+        "official_urls": 17,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 6
+      }
+    },
+    "stats": {
+      "queries": 3,
+      "urls_discovered": 17,
+      "official_urls": 17,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 6
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_71f677da012d",
+      "source_type": "pricing_page",
+      "url": "https://www.firecrawl.dev/pricing",
+      "domain": "www.firecrawl.dev",
+      "page_title": "Pricing | Firecrawl",
+      "content": "Introducing web-scale /monitor - always-on search that pings your agent the moment something comes online. Read the docs →\n//\nTransparent\n//\nFlexible pricing\nStart for free, then scale as you grow.\nMonthly credits\nFree Plan\nA lightweight way to get started. \nNo cost, no card, no hassle.\n$0\n/month\nScrape 1,000 pages\n2 concurrent requests\nLow rate limits\nHobby\nGreat for side projects and small tools. \nFast, simple, no overkill.\n$16\n/month\nBilled yearly\nSave $38Scrape 5,000 pages\n5 concurrent requests\nBasic support\nStandardRecommended\nPerfect for scaling with less effort. \nSimple, solid, dependable.\n$83\n/month\nBilled yearly\nSave $198Scrape 100,000 pages\n50 concurrent requests\nStandard support\nGrowth\nBuilt for high volume and speed. \nFirecrawl at full force.\n$333\n/month\nBilled yearly\nSave $798Scrape 500,000 pages\n100 concurrent requests\nPriority support\nScale Plans\nHigh-volume plans for teams that need more power and dedicated support. Get access to higher rate limits, more concurrent browsers, and priority support.\nNeed more? Contact usScale\nFor teams scaling their data pipelines\n1,000,000 credits / month\n$599/monthly\nBilled yearly\nSave $1,798Scrape 1,000,000 pages\n150 concurrent requests\nPriority support\nAPI Credits\nCredits are consumed for each API request, varying by endpoint and feature.\nFeatures\nCredits\nScrape\n1 / page\nCrawl\n1 / page\nMap\n1/ page\nSearch\n2/ 10 results\nInteract\n2/ browser minute\nMonitor\n1/ page / check\nAgent (Preview)\n5 daily runs free. \nDynamic pricing\nDynamic pricing\n[ 02 / 03 ]\n·\nTESTIMONIALS\n//\nCommunity\n//\nPeople love \n building with Firecrawl\nDiscover why developers choose Firecrawl every day.\nMorgan Linton@morganlinton\"If you're coding with AI, and haven't discovered @firecrawl yet, prepare to have your mind blown 🤯\"Chris DeWeese@chrisdeweese_\"Started using @firecrawl for a project, I wish I used this sooner.\"Alex Reibman@AlexReibman\"Moved our internal agent's web scraping tool from Apify to Firecrawl because it benchmarked 50x faster with AgentOps.\"Tom - Morpho@TomReppelin\"I found gold today. Thank you @firecrawl\"\nMorgan Linton@morganlinton\"If you're coding with AI, and haven't discovered @firecrawl yet, prepare to have your mind blown 🤯\"Chris DeWeese@chrisdeweese_\"Started using @firecrawl for a project, I wish I used this sooner.\"Alex Reibman@AlexReibman\"Moved our internal agent's web scraping tool from Apify to Firecrawl because it benchmarked 50x faster with AgentOps.\"Tom - Morpho@TomReppelin\"I found gold today. Thank you @firecrawl\"\nBardia@thepericulum\"The Firecrawl team ships. I wanted types for their node SDK, and less than an hour later, I got them.\"Matt Busigin@mbusigin\"Firecrawl is dope. Congrats guys 👏\"Sumanth@Sumanth_077\"Web scraping will never be the same!\nFirecrawl is an open-source framework that takes a URL, crawls it, and conver...\"Steven Tey@steventey\"Open-source Clay alternative just dropped\nUpload a CSV of emails and...\"\nFirecrawl is an open-source framework that takes a URL, crawls it, and conver...\"Steven Tey@steventey\"Open-source Clay alternative just dropped\nUpload a CSV of emails and...\"\nBardia@thepericulum\"The Firecrawl team ships. I wanted types for their node SDK, and less than an hour later, I got them.\"Matt Busigin@mbusigin\"Firecrawl is dope. Congrats guys 👏\"Sumanth@Sumanth_077\"Web scraping will never be the same!\nFirecrawl is an open-source framework that takes a URL, crawls it, and conver...\"Steven Tey@steventey\"Open-source Clay alternative just dropped\nUpload a CSV of emails and...\"\nFirecrawl is an open-source framework that takes a URL, crawls it, and conver...\"Steven Tey@steventey\"Open-source Clay alternative just dropped\nUpload a CSV of emails and...\"\n[ 03 / 03 ]\n·\nFAQ\n//\nFAQ\n//\nFrequently \n asked questions\nEverything you need to know about Firecrawl.\nBilling\nFirecrawl is free for 1,000 pages every month (1,000 free credits per month). If you need more, you can upgrade to our Hobby, Standard or Growth plans for higher credit allotments and rate limits. AI agents can get started with https://www.firecrawl.dev/agent-onboarding/SKILL.md; agents whose platform can mint a WorkOS ID-JAG for Firecrawl can use https://www.firecrawl.dev/auth.md for direct authentication.\nWe currently do not offer a pay-per-use plan, instead you can upgrade to our Hobby, Standard or Growth plans for more credits and higher rate limits.\nIn short, no — credits do not roll over to the next month/year. Credit packs follow their own billing period. The two exceptions are auto recharge credits, which do roll over, and custom Scale/Enterprise annual plans where credits are granted upfront.\nScrape, Crawl, Map, and Monitor each cost 1 credit per page. Search costs 2 credits per 10 results. Interact costs 2 credits per browser minute. Agent is in preview with 5 free daily runs and dynamic pricing. Advanced features (JSON format, Enhanced Mode, etc.) cost additional credits. Check out the credits table on the pricing page for more details.\nWe don't charge if there was a failure on the Firecrawl side (e.g. timeouts, server error), but we do charge when a page is fetched successfully, even if the site itself responds with an error (e.g. a 4xx or 5xx status code). If a charge looks incorrect, reach out to help@firecrawl.com and we'll take a look.\nWe accept payments through Stripe which accepts most major credit cards, debit cards, and PayPal.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:07:39.047390Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 1340,
+      "quality_score": 0.86
+    },
+    {
+      "id": "ev_34d61c2c2548",
+      "source_type": "developer_portal",
+      "url": "https://docs.firecrawl.dev/ai-onboarding",
+      "domain": "docs.firecrawl.dev",
+      "page_title": "Build with AI | Firecrawl",
+      "content": "- Get credentials\n- Skills + CLI\n- Using Firecrawl as a Tool\n- Agentic Debugging\n- Firecrawl MCP Server\n- Firecrawl Docs for Agents\n- Quick Start Guides\n- Agent Harnesses\n- SDKs\nGet credentials\nFirecrawl users can get an API key in two ways. Most users should sign in through the dashboard or CLI. If your agent platform supports WorkOS ID-JAG, it can register directly with Firecrawl. Which should I use? Use the dashboard or CLI unless you know your platform supports WorkOS ID-JAG. How you might arrive:- Docs: you landed here. Pick the option below that matches how you can sign in.\n- API 401: ID-JAG capable agents can follow the discovery flow inauth.mdStep 1. Everyone else should use the dashboard or CLI.\n- Direct URL: follow SKILL.mdfor browser sign-in and setup, orauth.mdfor WorkOS ID-JAG registration.\nUse the dashboard or CLI\nDefault for most users. Sign in in the browser, run CLI \n--browser, install skills and MCP, or create an API key in the dashboard.Register with WorkOS ID-JAG\nFor supported agent platforms. Use this when your platform can mint a WorkOS ID-JAG for Firecrawl. Review Agent Auth, then follow \nauth.md.Skills + CLI\nThe Firecrawl CLI lets your agent search, scrape, interact, crawl, map, extract, and run agent jobs from the terminal. It’s built for humans, AI agents, and CI/CD pipelines. The Firecrawl skills are self-contained knowledge packs that AI coding agents like Claude Code, Antigravity, and OpenCode discover and use automatically. A single install command sets up everything — the CLI tools for live web work, the build skills for integrating Firecrawl into application code, and the workflow skills for producing repeatable deliverables:- --allinstalls every Firecrawl skill segment (CLI, build, workflows) to every detected AI coding agent on the machine\n- --browseropens the browser for Firecrawl authentication automatically\nWhat the install gives you\nThe install sets up three categories of skills that cover every way an agent uses Firecrawl. Each segment lives in its own repo so it can evolve independently:- firecrawl/cli— CLI skills for live web work\n- firecrawl/skills— build skills for app integration\n- firecrawl/firecrawl-workflows— workflow skills for repeatable deliverables\n| Skill | Purpose | \n|---|---|\n| firecrawl/cli | Overall CLI command workflow | \n| firecrawl-search | Search the web and discover pages | \n| firecrawl-scrape | Extract clean content from a known URL | \n| firecrawl-interact | Interact with scraped pages using prompts or code | \n| firecrawl-crawl | Bulk-extract content from an entire site | \n| firecrawl-map | Discover all URLs on a domain | \n| firecrawl-agent | Run autonomous web data gathering with a job | \n| Skill | Purpose | \n|---|---|\n| firecrawl-build | Choose the right Firecrawl endpoint for your product | \n| firecrawl-build-onboarding | Auth and project setup | \n| firecrawl-build-scrape | Implement scraping in app code | \n| firecrawl-build-search | Implement search in app code | \n| firecrawl-build-interact | Implement page interaction in app code | \n| firecrawl-build-crawl | Implement crawling in app code | \n| firecrawl-build-map | Implement URL discovery in app code | \n| firecrawl-build-parse | Implement document parsing in app code | \n| Skill | Outcome | \n|---|---|\n| firecrawl-workflows | Umbrella skill for choosing the right workflow | \n| firecrawl-deep-research | Multi-source sourced research reports | \n| firecrawl-seo-audit | Site maps, on-page SEO checks, SERP comparison, and prioritized fixes | \n| firecrawl-lead-research | Pre-meeting company and person intelligence briefs | \n| firecrawl-lead-gen | Prospect list generation from databases and directories | \n| firecrawl-qa | Live-site QA reports with issues and reproduction steps | \n| firecrawl-competitive-intel | Recurring pricing, feature, and changelog monitoring | \n| firecrawl-market-research | Market, financial, earnings, and industry research | \n| firecrawl-research-papers | Literature reviews from papers, PDFs, and whitepapers | \n| firecrawl-company-directories | Directory extraction into structured company lists | \n| firecrawl-dashboard-reporting | Metrics extraction from dashboards and internal web tools | \n| firecrawl-knowledge-base | LLM-ready reference docs, RAG chunks, training data, or docs mirrors | \n| firecrawl-knowledge-ingest | Auth-gated or JS-heavy docs portal ingestion | \n| firecrawl-demo-walkthrough | Product flow walkthroughs and UX teardown reports | \n| firecrawl-shop | Product research and shopping recommendations | \n| firecrawl-website-design-clone | Extract a website’s design system into an agent-ready DESIGN.md | \nChoose your path\nAll three skill categories use the same install. The difference is what happens next:Live web tools (CLI skills)\nUse this when you need web data during your current session — searching the web, scraping known URLs, interacting with scraped pages, crawling docs, mapping a site, or running an agent job.The default flow:\n- Start with search when you need discovery\n- Move to scrape when you have a URL\n- Use interact when the scraped page needs follow-up actions\n- Use map or crawl when you need many URLs or pages\n- Use agent when the task is open-ended and needs autonomous discovery\nApp integration (Build skills)\nUse this when you’re building an application, agent, or workflow that calls the Firecrawl API from code. The build skills help with picking the right endpoint, wiring up the SDK, and running a smoke test.The agent answers one key question — what should Firecrawl do in the product? — and the build skills route to \n/search, /scrape, /interact, /parse, /crawl, /map, or /agent accordingly.Repeatable deliverables (Workflow skills)\nUse this when the goal is a finished artifact — a research report, SEO audit, QA report, lead list, knowledge base, competitive intel digest, or a cloned design system — not raw web data or product code.Workflow skills infer from context first and only ask short clarifying questions when an input would block the work. They also call out independently parallelizable units so sub-agents can fan out across competitors, pages, or sources.Pick a workflow directly, or let the umbrella \nfirecrawl-workflows skill route the request:REST API (no install needed)\nIf you prefer not to install anything, agents can call the Firecrawl REST API directly. Set the API key and hit the endpoints:\n- POST https://api.firecrawl.dev/v2/search— discover pages by query\n- POST https://api.firecrawl.dev/v2/scrape— extract clean markdown from a URL\n- POST https://api.firecrawl.dev/v2/scrape/{scrapeId}/interact— interact with a scraped page\n- POST https://api.firecrawl.dev/v2/crawl— bulk-extract an entire site\n- POST https://api.firecrawl.dev/v2/map— discover URLs on a domain\n- POST https://api.firecrawl.dev/v2/agent— run autonomous web data gathering\nAuthorization: Bearer fc-YOUR_API_KEY- Browser sign-in, CLI setup, skills, MCP, and dashboard keys: firecrawl.dev/agent-onboarding/SKILL.md\n- Agent registration with WorkOS ID-JAG: firecrawl.dev/auth.md\nagent-onboarding/SKILL.md for human-in-the-loop CLI/browser onboarding, or auth.md for WorkOS ID-JAG registration.\nCLI skills\nLive web work during an agent session — search, scrape, interact, map, crawl, and run agent jobs from the terminal.\nBuild skills\nIntegrate Firecrawl into application code — pick the right endpoint, wire up the SDK, and ship a verified integration.\nWorkflow skills\nProduce repeatable deliverables — research briefs, SEO audits, QA reports, lead lists, knowledge bases, and design clones.\nUsing Firecrawl as a Tool\nFirecrawl gives agents five core tools for working with the web. Each tool maps to an API endpoint and a CLI command. Agents pick the right tool based on what they need:Search — discover pages by query\nSearch — discover pages by query\nStart here when you don’t have a URL yet. Search returns relevant web pages for a natural-language query, with optional full-page content included in the results.When to use: Research tasks, finding documentation, competitive analysis, answering questions that require up-to-date web information.\nScrape — extract content from a URL\nScrape — extract content from a URL\nUse this when you already have a URL and need clean, LLM-ready content. Scrape converts any web page into markdown, HTML, or structured data — handling JavaScript rendering, anti-bot measures, and messy HTML automatically.When to use: Reading documentation, extracting article content, pulling data from a known page, converting web pages to context for LLMs.\nCrawl — bulk-extract an entire site\nCrawl — bulk-extract an entire site\nCrawl recursively follows links from a starting URL and scrapes every page it finds. Use it when you need content from an entire site or documentation set, not just a single page.When to use: Ingesting full documentation sites, building knowledge bases, migrating content, training data collection.\nMap — discover all URLs on a domain\nMap — discover all URLs on a domain\nMap rapidly discovers every indexed URL on a domain without scraping the content. Use it when you need to understand a site’s structure or find specific pages before scraping them.When to use: Site audits, finding specific pages on a large site, understanding site structure before a targeted crawl.\nInteract — work with a scraped page\nInteract — work with a scraped page\nInteract lets agents continue from a scrape using prompts or code. Use it when a scraped page requires clicks, form fills, navigation, or follow-up extraction.When to use: Continuing from a scrape, navigating dynamic pages, filling forms, and extracting data after page actions.\nHow agents chain tools together\nMost agent workflows combine multiple tools. A typical pattern:- Search to find relevant pages → get a list of URLs\n- Scrape the most relevant URLs → get clean content\n- Interact when the scraped page needs follow-up actions\n- Agent when the task needs autonomous discovery or structured multi-page extraction\nAgentic Debugging\nWhen a Firecrawl call fails or returns unexpected results, your agent doesn’t have to escalate to a human. The/support/ask endpoint is an AI support agent built for agent-to-agent communication — it diagnoses issues with your jobs, account, and API usage, then returns a verified answer with machine-readable fix parameters your agent can apply directly.\nWire it into your agent’s error-handling flow so it can self-recover from scraping failures, crawl issues, and configuration problems — typically in 15–30 seconds, no human in the loop.\nHow it works\n- Your agent describes the problem — a natural-language question describing the issue.\n- The support agent investigates — it inspects job logs, account state, documentation, and source code.\n- The support agent validates — when possible, it tests a fix against the live Firecrawl API (e.g., retrying a scrape with adjusted parameters).\n- Your agent gets a verified answer — a prose answer, machine-readablefixParametersto apply directly, andvalidationresults showing whether the fix was tested.\nExample\nSend a question, plus an optionalrationale to give the support agent context about what your end user is trying to accomplish:\nanswer, a confidence rating, optional fixParameters (e.g., {\"waitFor\": 5000}) your agent can pass to the next call, and validation showing whether the fix was tested against the live API.\nAsk endpoint reference\nFull request and response schema for \n/support/ask, including status codes and the feedback envelope returned when the agent gets stuck.Firecrawl MCP Server\nMCP is an open protocol that standardizes how applications provide context to LLMs. Among other benefits, it gives LLMs tools to act on your behalf. Our MCP server is open-source and covers our full API surface — search, scrape, interact, crawl, map, extract, and agent. Use the remote hosted URL (works without an API key on the keyless free tier):Authorization: Bearer fc-YOUR-API-KEY header to unlock every tool plus higher limits.\nOr add the local server to any MCP client:\nMCP Server\nView installation instructions for Cursor, Claude Desktop, Windsurf, VS Code,\nand more.\nFirecrawl Docs for Agents\nYou can give your agent current Firecrawl docs in a context-aware way. Agents can self-onboard by pulling these resources directly — no human wiring required.Get credentials\nStart at Get credentials to choose between dashboard/CLI setup and WorkOS ID-JAG registration. For ID-JAG registration, follow \nauth.md.Markdown docs\nEvery page has a markdown version. Append \n.md to any docs URL, or use the page action menu to copy the page as markdown.Full llms.txt\nGive your agent all of our docs in a single file.A shorter index is also available at \nhttps://docs.firecrawl.dev/llms.txt.MCP docs server\nFor a structured approach using MCP tools, connect the Firecrawl MCP server in any MCP client (Cursor, Claude Code, Claude Desktop, Windsurf). See the MCP Server page for install commands.\nQuick Start Guides\nDrop-in quickstarts for the stacks agents build on most often. Point your agent at any of these to scaffold a working Firecrawl integration end-to-end. Prefer to let Cursor drive? One-click install the Firecrawl MCP server and start prompting in Cursor:Node.js\nServer-side JavaScript and TypeScript with the Firecrawl Node SDK.\nNext.js\nScrape, search, and crawl from Next.js route handlers and server actions.\nPython\nUse Firecrawl from scripts, notebooks, and backend services.\nFastAPI\nBuild async Python APIs that search, scrape, and extract.\nCloudflare Workers\nRun Firecrawl at the edge with Workers.\nVercel Functions\nCall Firecrawl from Vercel serverless functions.\nAWS Lambda\nInvoke Firecrawl from Lambda handlers.\nSupabase Edge Functions\nUse Firecrawl inside Supabase Deno runtime.\nGo\nIdiomatic Go SDK for search, scrape, and crawl.\nRust\nTyped Rust SDK for Firecrawl.\nLaravel\nAdd Firecrawl to Laravel apps via the PHP SDK.\nRails\nDrop Firecrawl into Ruby on Rails.\nAgent Harnesses\nFirecrawl works with the runtimes and frameworks agents actually live inside — coding agents, agent SDKs, and model aggregators. Most coding harnesses can auto-discover the Firecrawl skills vianpx -y firecrawl-cli@latest init --all --browser; the rest call Firecrawl as a tool over MCP or the REST API.\nClaude Code\nAnthropic’s CLI — set up Firecrawl MCP in Claude Code.\nCursor\nIDE agent — one-click install Firecrawl MCP in Cursor.\nOpenCode\nWire Firecrawl MCP into OpenCode.\nCodex CLI\nWire Firecrawl MCP into OpenAI Codex CLI.\nOpenRouter\nPair any OpenRouter model with Firecrawl web tools.\nAmp\nWire Firecrawl MCP into Sourcegraph Amp.\nWindsurf\nAgentic IDE — set up Firecrawl MCP in Windsurf.\nAntigravity\nAdd Firecrawl MCP to Google’s agentic IDE.\nGemini CLI\nWire Firecrawl MCP into Google Gemini CLI.\nNous Research\nUse Firecrawl as a tool with Hermes models.\nAutoGen\nFirecrawl tools inside Microsoft AutoGen multi-agent teams.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:07:40.876721Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 3716,
+      "quality_score": 0.86
+    },
+    {
+      "id": "ev_5840e1fae9e8",
+      "source_type": "api_reference",
+      "url": "https://docs.firecrawl.dev/api-reference/v2-introduction",
+      "domain": "docs.firecrawl.dev",
+      "page_title": "Introduction - Firecrawl Docs",
+      "content": "For AI agents: Use llms.txt for a full index of all documentation.\nFeatures\nScrape\nExtract content from any webpage in markdown or json format.\nParse\nUpload files and parse them into markdown or other formats.\nCrawl\nCrawl entire websites and get content from all pages.\nMap\nGet a complete list of URLs from any website quickly and reliably.\nSearch\nSearch the web and get full page content in any format.\nAgentic Features\nAgent\nAutonomous web data gathering powered by AI.\nBrowser\nCreate and control browser sessions for interactive web tasks.\nBase URL\nAll requests use the following base URL:Authentication\nEvery request requires anAuthorization header with your API key:\nauth.md for registration instructions.\nResponse codes\nFirecrawl uses conventional HTTP status codes to indicate the outcome of your requests. Codes in the2xx range indicate success, 4xx codes indicate client errors, and 5xx codes indicate server errors.\nSee Errors for the full reference, including the error string returned for each failure mode, retry guidance, and a copy-pasteable backoff snippet.\n429 responses\nWhen you exceed your plan’s rate or concurrency limits, the API returns a429 status code. See Rate Limits for per-plan limits and Errors for retry guidance.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:07:37.328317Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 311,
+      "quality_score": 0.8
+    },
+    {
+      "id": "ev_9594fdf4aff5",
+      "source_type": "official_docs",
+      "url": "https://firecrawl.dev",
+      "domain": "firecrawl.dev",
+      "page_title": "Firecrawl - The context API to search, scrape, and interact with the web at scale. 🔥",
+      "content": "Introducing web-scale /monitor - always-on search that pings your agent the moment something comes online. Read the docs →\n2 Months Free - Annually\nPower AI agents with \nclean web data\nThe complete toolkit to search, scrape, and interact\n with the web at scale.It's also open source.\n[ .JSON ]\nScraping...\nTrusted by 150,000+ \ncompanies of all sizes\ncompanies of all sizes\n[ 01 / 06 ]\n·\nMain Features\n//\nDeveloper First\n//\nStart scraping \n today\nThe infrastructure layer that helps AI find, read, and act on the live web.\n1# pip install firecrawl-py\n2from firecrawl import Firecrawl\n3\n4app = Firecrawl(api_key=\"fc-YOUR_API_KEY\")\n5\n6# Scrape a website:\n7app.scrape('firecrawl.dev')\n8\n9\n10    1# pip install firecrawl-py\n2from firecrawl import Firecrawl\n3\n4app = Firecrawl(api_key=\"fc-YOUR_API_KEY\")\n5\n6# Perform a search:\n7search_result = app.search(\"firecrawl\", limit=5)\n8\n9\n101from firecrawl import Firecrawl\n2\n3app = Firecrawl(api_key=\"fc-YOUR_API_KEY\")\n4\n5# Scrape a page, then interact with it:\n6result = app.scrape(\"https://amazon.com\")\n7scrape_id = result.metadata[\"scrapeId\"]\n8\n9app.interact(scrape_id, prompt=\"Search for 'mechanical keyboard'\")\n10app.interact(scrape_id, prompt=\"Click the first result\")\n11[ .MD ]\n1# Firecrawl\n2\n3Firecrawl helps AI systems search,\n4scrape, and interact with the web.\n5\n6## Features\n7\n8- Search: Find information across the web\n9- Scrape: Clean data from any page\n10- Interact: Click, navigate, operate pages\n11- Agent: Autonomous data gathering\n12[ .JSON ]\n1[\n2  {\n3    \"url\": \"https://firecrawl.dev\",\n4    \"title\": \"Firecrawl\",\n5    \"markdown\": \"Turn websites into...\"\n6  },\n7  {\n8    \"url\": \"https://docs.firecrawl.dev\",\n9    \"title\": \"Firecrawl Docs\",\n10    \"markdown\": \"# Getting Started...\"\n11  }\n12][ .JSON ]\n1{\n2  \"success\": true,\n3  \"output\": \"Keyboard available at $100\",\n4  \"liveViewUrl\": \"https://liveview...\",\n5  \"interactiveLiveViewUrl\": \"https://...\"\n6}[ 02 / 07 ]\n·\nPower your agent\n//\nAgent Ready\n//\nEasily connect with your \nAI agents\nConnect Firecrawl to any AI agent or MCP client in minutes.\nOne command. Connect your agent to Firecrawl via our Skills/CLI or MCP.\nnpx -y firecrawl-cli@latest init --all --browserAgent onboarding. Are you an AI agent? Fetch this skill to get an API key and start building.\ncURL\ncurl -s https://firecrawl.dev/agent-onboarding/SKILL.md[ 02 / 06 ]\n·\nCore\n//\nBuilt for Performance\n//\nFast, reliable, and token-efficient. \n And it's open source\nWeb data infrastructure built from the ground up\nReliable on any page\nIndustry-leading reliability. Covers 96% of the web, including JS-heavy pages. Every query and URL comes back as clean data.\nFirecrawl\nPuppeteer\n0%\ncURL\n0%\nSpeed that feels invisible\nBlazingly fast. P95 latency of 3.4s across millions of searches and scrapes, built for real-time agents and dynamic apps.\nURL\nCrawl\nScrape\n50 ms\n50 ms\n50 ms\n51 ms\n49 ms\n52 ms\n50 ms\n50 ms\n50 ms\n52 ms\n52 ms\n51 ms\nfirecrawl.dev/blog/launch-week\n38,381tokens\n<nav>\n<h1>\n<ads>\n<p>\n<footer>\nToken-efficient\nOnly the content that matters. No navs, footers, or ads. Just clean markdown, with 93% fewer input tokens for your model.\nfirecrawl/firecrawl\nPublic\nStar\n150.4K\n[python-SDK] improvs/async\n#1337\n·\nApr 18, 2025\n·\nrafaelsideguide\nfeat(extract): cost limit\n#1473\n·\nApr 17, 2025\n·\nmogery\nfeat(scrape): get job result from GCS, avoid Redis\n#1461\n·\nApr 15, 2025\n·\nmogery\nExtract v2/rerank improvs\n#1437\n·\nApr 11, 2025\n·\nrafaelsideguide\n+90\nOpen Source\nCode you can trust. Developed transparently and collaboratively. Join our community of contributors.\n[ 03 / 06 ]\n·\nFeatures\n//\nZero configuration\n//\nWe handle the hard stuff\nJavaScript rendering, smart wait, media parsing, search, actions, and more.\nDocs to data\nMedia parsing. Firecrawl can parse and output content from pdfs, docx, and more.\nhttps://example.com/docs/report.pdf\nhttps://example.com/files/brief.docx\nhttps://example.com/docs/guide.html\ndocx\nParsing...\nKnows the moment\nSmart wait. Firecrawl intelligently waits for content to load, making data extraction faster and more reliable.\nhttps://example-spa.com\nRequest Sent\nLive web data\nA complete index, search and scrape. Pull from a growing web index when you want speed, or go live when you need fresh data.\nUser\nFirecrawl\nIndex & Web\nAdvanced web coverage\nEnhanced mode. Reaches every corner of the web with comprehensive coverage and high reliability.\nInteract with pages\nActions. Click, scroll, write, wait, press and more — interact with any page.\nhttps://example.com\nNavigate\nClick\nType\nWait\nScroll\nPress\nScreenshot\nScrape\nHow it's sourced matters\nFair access to web content, starting with Wikimedia, and more on the way.\n[ 04 / 06 ]\n·\nUse Cases\n//\nUse cases\n//\nDeep research in progress...\nAcademic papers\n0 found\nNews articles\n0 found\nExpert opinions\n0 found\nResearch reports\n0 found\nIndustry data\n0 found\nAsk anything...\nAI Assistant\nwithFirecrawl\nTerminal\nSearchScrapeInteract\nOne command gives Cursor, Claude Code, Windsurf, and more high-quality web tools\nNew project\nEnter your website\nExtracting leads from directory...\nTech startups\nWith contact info\nDecision makers\nFunding stage\nReady to engage\nAemon powers their AI R&D agent's web research with Firecrawl's search and scrape.\nVisit siteSierra uses Firecrawl to ingest web data into knowledge bases that power AI chat applications.\nVisit siteLovable enhances their AI agent's web tools with Firecrawl.\nRead storyGamma supercharges onboarding, letting users create artifacts from web data with Firecrawl.\nRead storyCognism enriches lead profiles from across the web with Firecrawl.\nVisit siteExtract comprehensive information for in-depth research.\nAemon powers their AI R&D agent's web research with Firecrawl's search and scrape.\n[ 05 / 06 ]\n·\nTestimonials\n//\nCommunity\n//\nPeople love \n building with Firecrawl\nDiscover why developers choose Firecrawl every day.\nMorgan Linton@morganlinton\"If you're coding with AI, and haven't discovered @firecrawl yet, prepare to have your mind blown 🤯\"Chris DeWeese@chrisdeweese_\"Started using @firecrawl for a project, I wish I used this sooner.\"Alex Reibman@AlexReibman\"Moved our internal agent's web scraping tool from Apify to Firecrawl because it benchmarked 50x faster with AgentOps.\"Tom - Morpho@TomReppelin\"I found gold today. Thank you @firecrawl\"\nMorgan Linton@morganlinton\"If you're coding with AI, and haven't discovered @firecrawl yet, prepare to have your mind blown 🤯\"Chris DeWeese@chrisdeweese_\"Started using @firecrawl for a project, I wish I used this sooner.\"Alex Reibman@AlexReibman\"Moved our internal agent's web scraping tool from Apify to Firecrawl because it benchmarked 50x faster with AgentOps.\"Tom - Morpho@TomReppelin\"I found gold today. Thank you @firecrawl\"\nBardia@thepericulum\"The Firecrawl team ships. I wanted types for their node SDK, and less than an hour later, I got them.\"Matt Busigin@mbusigin\"Firecrawl is dope. Congrats guys 👏\"Sumanth@Sumanth_077\"Web scraping will never be the same!\nFirecrawl is an open-source framework that takes a URL, crawls it, and conver...\"Steven Tey@steventey\"Open-source Clay alternative just dropped\nUpload a CSV of emails and...\"\nFirecrawl is an open-source framework that takes a URL, crawls it, and conver...\"Steven Tey@steventey\"Open-source Clay alternative just dropped\nUpload a CSV of emails and...\"\nBardia@thepericulum\"The Firecrawl team ships. I wanted types for their node SDK, and less than an hour later, I got them.\"Matt Busigin@mbusigin\"Firecrawl is dope. Congrats guys 👏\"Sumanth@Sumanth_077\"Web scraping will never be the same!\nFirecrawl is an open-source framework that takes a URL, crawls it, and conver...\"Steven Tey@steventey\"Open-source Clay alternative just dropped\nUpload a CSV of emails and...\"\nFirecrawl is an open-source framework that takes a URL, crawls it, and conver...\"Steven Tey@steventey\"Open-source Clay alternative just dropped\nUpload a CSV of emails and...\"\n[ 06 / 06 ]\n·\nFAQ\n//\nFAQ\n//\nFrequently \n asked questions\nEverything you need to know about Firecrawl.\nGeneral\nFirecrawl is the context API to search, scrape, and interact with the web at scale. One API to turn websites into clean, LLM-ready data. Ideal for AI companies looking to empower their LLM applications with web data\nTeams use Firecrawl for deep research agents, RAG pipelines, lead enrichment, competitive intelligence, content generation, price monitoring, and more. Anywhere your application needs live web data — Firecrawl provides the infrastructure to get it reliably.\nAI is only as good as the context it gets, and the web is the largest source of live context — but it was built for humans, not machines. Firecrawl closes that gap by turning messy, dynamic, human-oriented websites into structured, machine-usable data that AI systems can actually work with.\nThese are Firecrawl's three core capabilities. Search finds relevant information on the web. Scrape turns websites into clean, structured, AI-usable data. Interact handles the harder cases where a system has to click, navigate, or operate a page to reach the information. Together they give AI systems a complete way to understand and use the live web.\nYes. Firecrawl has an official MCP server so agents in Cursor, Claude, Windsurf, and other MCP-compatible tools can search, scrape, and interact with the web directly. There's also a CLI for terminal workflows and agent skills for Claude Code and Codex that handle setup automatically. Over 400,000 MCP servers have been installed.\nOver 1.25M developers and 150,000+ companies build with Firecrawl, including teams at Apple, Canva, and Lovable. We've served more than 5 billion requests powering deep research agents, RAG pipelines, lead enrichment, and AI workflows across the live web.\nYes. Firecrawl is the largest open source repo in the space with over 130K GitHub stars, making it one of the top 100 repos on GitHub. The SDKs alone see 2.5M+ weekly downloads across npm and PyPI. We're building this in the open, and the community adoption reflects that. You can check out the repository on GitHub.\nFirecrawl is not just a scraper or a search API — it's the infrastructure layer that helps AI systems find, read, and act on information across the live web. Search, scrape, and interact work together on top of deep web data infrastructure including crawling, rendering, extraction, and indexing. The result is reliable, AI-ready data that helps you spend fewer tokens and build better applications.\nFirecrawl's hosted version features Fire-engine, our proprietary infrastructure that handles proxies, rendering, and more to reliably deliver the data you need. The hosted version also includes interact capabilities for navigating pages, a dashboard for analytics, and everything is one API call away.\nHow It Works\nSend a query and Firecrawl returns relevant results from across the web, each with full-page markdown already included. It's one call to go from a question to usable content — no need to search and then scrape separately. Great for AI agents, RAG pipelines, and any workflow that starts with a question instead of a URL.\nGive Firecrawl a URL and it returns clean, structured content — markdown, HTML, screenshots, metadata, or extracted data via a schema. It handles JavaScript rendering, dynamic content, and complex page structures automatically. One call, one page, clean output.\nInteract lets AI systems operate web pages — clicking buttons, filling forms, navigating multi-step flows, and extracting data along the way. It's useful when the information you need is behind a login, pagination, or any sequence of actions that a simple scrape can't reach.\nYes. Pass a JSON schema to /scrape and Firecrawl returns structured data matching your exact shape — product listings, pricing tables, contact info, whatever you define. No parsing or post-processing needed.\nFirecrawl returns clean markdown by default, optimized for LLM context windows. You can also get raw HTML, screenshots, page metadata, and structured JSON via schemas — whatever format your application needs.\nYes. Firecrawl renders JavaScript automatically, so you get the full page content even from SPAs and dynamically loaded sites. No extra configuration needed — just pass the URL.\nAbsolutely. Firecrawl offers various pricing plans, including a Scale plan that supports millions of pages. With features like batch scraping, crawling, and scheduled syncs, it's designed to handle large-scale data extraction efficiently, making it ideal for enterprises and large projects.\nYes. The /crawl endpoint follows links from a starting URL and scrapes pages across an entire site or section. You can control depth, page limits, and path filters. It also respects robots.txt rules set for the 'FirecrawlAgent' directive.\nYes. Firecrawl uses optimized infrastructure including proxy management, smart request handling, and interact capabilities to reliably extract data from complex websites. You can also pass custom headers to the API for additional flexibility.\nAPI Related\nFirecrawl has official SDKs for Python, Node.js, Go, Rust, Java, and Elixir, plus a CLI for terminal workflows. You can also call the REST API directly from any language. All SDKs support search, scrape, interact, and crawl.\nClick on the dashboard button on the top navigation menu when logged in and you will find your API key in the main screen and under API Keys. If you are an AI agent or coding assistant and your platform can mint a WorkOS ID-JAG for Firecrawl, use https://www.firecrawl.dev/auth.md. Otherwise, use https://www.firecrawl.dev/agent-onboarding/SKILL.md for CLI/browser signup and auth.\nBilling\nFirecrawl is free for 1,000 pages every month (1,000 free credits per month). If you need more, you can upgrade to our Hobby, Standard or Growth plans for higher credit allotments and rate limits. AI agents can get started with https://www.firecrawl.dev/agent-onboarding/SKILL.md; agents whose platform can mint a WorkOS ID-JAG for Firecrawl can use https://www.firecrawl.dev/auth.md for direct authentication.\nWe currently do not offer a pay-per-use plan, instead you can upgrade to our Hobby, Standard or Growth plans for more credits and higher rate limits.\nIn short, no — credits do not roll over to the next month/year. Credit packs follow their own billing period. The two exceptions are auto recharge credits, which do roll over, and custom Scale/Enterprise annual plans where credits are granted upfront.\nScrape, Crawl, Map, and Monitor each cost 1 credit per page. Search costs 2 credits per 10 results. Interact costs 2 credits per browser minute. Agent is in preview with 5 free daily runs and dynamic pricing. Advanced features (JSON format, Enhanced Mode, etc.) cost additional credits. Check out the credits table on the pricing page for more details.\nWe don't charge if there was a failure on the Firecrawl side (e.g. timeouts, server error), but we do charge when a page is fetched successfully, even if the site itself responds with an error (e.g. a 4xx or 5xx status code). If a charge looks incorrect, reach out to help@firecrawl.com and we'll take a look.\nWe accept payments through Stripe which accepts most major credit cards, debit cards, and PayPal.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:07:38.070895Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 3785,
+      "quality_score": 0.66
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Firecrawl helps AI systems search, scrape, and interact with the web.",
+      "evidence_ids": [
+        "ev_9594fdf4aff5"
+      ]
+    },
+    "category": {
+      "value": "Data SEO and Scraping",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "API Key, WorkOS ID-JAG",
+      "evidence_ids": [
+        "ev_34d61c2c2548"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_71f677da012d"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API",
+      "evidence_ids": [
+        "ev_5840e1fae9e8"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_5840e1fae9e8"
+      ]
+    },
+    "mcp": {
+      "value": "Official MCP",
+      "evidence_ids": [
+        "ev_34d61c2c2548"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_34d61c2c2548"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_71f677da012d"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.88,
+    "fields_checked": 8,
+    "fields_supported": 7,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.88,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.88 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

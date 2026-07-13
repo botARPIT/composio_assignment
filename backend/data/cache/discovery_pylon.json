@@ -1,0 +1,1193 @@
+{
+  "app_name": "Pylon",
+  "official_domain": "usepylon.com",
+  "homepage": {
+    "url": "https://usepylon.com",
+    "title": "Pylon",
+    "confidence": 0.4,
+    "confidence_reason": [
+      "official_docs: +0.40"
+    ],
+    "is_official": true,
+    "discovered_from": "domain_probe"
+  },
+  "authentication": {
+    "primary": {
+      "url": "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+      "title": "Authentication | Pylon",
+      "confidence": 0.95,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "developer_domain: +0.25",
+        "exact_slot_match: +0.20",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "tavily_search"
+    },
+    "alternatives": []
+  },
+  "api_reference": {
+    "primary": {
+      "url": "https://docs.usepylon.com/pylon-docs/developer/api/api-reference",
+      "title": "API reference | Pylon",
+      "confidence": 0.95,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "developer_domain: +0.25",
+        "exact_slot_match: +0.20",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "tavily_search"
+    },
+    "alternatives": []
+  },
+  "pricing": {
+    "primary": {
+      "url": "https://www.usepylon.com/enterprise",
+      "title": "",
+      "confidence": 0.6,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "alternatives": []
+  },
+  "mcp": {
+    "primary": {
+      "url": "https://docs.usepylon.com/pylon-docs/platform/mcp-connections.md",
+      "title": "MCP Connections",
+      "confidence": 0.65,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "llms_txt_source: +0.05"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "alternatives": []
+  },
+  "developer_portal": {
+    "primary": {
+      "url": "https://docs.usepylon.com/pylon-docs/getting-started/quickstart.md",
+      "title": "Introduction",
+      "confidence": 0.65,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "llms_txt_source: +0.05"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "alternatives": [
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/getting-started/publish-your-docs.md",
+        "title": "Quick Start",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/getting-started/slack-setup.md",
+        "title": "Slack Setup",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/getting-started/channel-configuration.md",
+        "title": "Channel Configuration",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      }
+    ]
+  },
+  "sdk": null,
+  "webhooks": null,
+  "llms_txt": {
+    "url": "https://docs.usepylon.com/llms.txt",
+    "title": "llms.txt index",
+    "confidence": 1.0,
+    "confidence_reason": [
+      "llms_txt_source: +0.05",
+      "official_docs: +0.40",
+      "canonical_doc: +0.10"
+    ],
+    "is_official": true,
+    "discovered_from": "llms_txt"
+  },
+  "inventory": {
+    "app_name": "Pylon",
+    "official_domain": "usepylon.com",
+    "items": [
+      {
+        "url": "https://usepylon.com",
+        "page_type": "homepage",
+        "title": "Pylon",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/getting-started/quickstart.md",
+        "page_type": "developer_portal",
+        "title": "Introduction",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/getting-started/publish-your-docs.md",
+        "page_type": "developer_portal",
+        "title": "Quick Start",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/getting-started/slack-setup.md",
+        "page_type": "developer_portal",
+        "title": "Slack Setup",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/getting-started/channel-configuration.md",
+        "page_type": "developer_portal",
+        "title": "Channel Configuration",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/getting-started/user-guide.md",
+        "page_type": "developer_portal",
+        "title": "User Guide",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/support-workflows/omnichannel-support.md",
+        "page_type": "developer_portal",
+        "title": "Omnichannel Support",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/support-workflows/phone-support.md",
+        "page_type": "developer_portal",
+        "title": "Phone Support",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/support-workflows/issues.md",
+        "page_type": "developer_portal",
+        "title": "Issues",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/support-workflows/issues/views.md",
+        "page_type": "developer_portal",
+        "title": "Views",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/support-workflows/issues/message-editor.md",
+        "page_type": "developer_portal",
+        "title": "Message Editor",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/support-workflows/issues/copilot.md",
+        "page_type": "developer_portal",
+        "title": "Copilot",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/support-workflows/issues/sidebar.md",
+        "page_type": "developer_portal",
+        "title": "Sidebar",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/support-workflows/issues/internal-threads.md",
+        "page_type": "developer_portal",
+        "title": "Internal Threads",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/support-workflows/issues/proactive-issues.md",
+        "page_type": "developer_portal",
+        "title": "Proactive Issues",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/support-workflows/issues/translation.md",
+        "page_type": "developer_portal",
+        "title": "Translation",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/support-workflows/issues/bulk-actions.md",
+        "page_type": "developer_portal",
+        "title": "Bulk actions",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/support-workflows/issues/issue-groups.md",
+        "page_type": "developer_portal",
+        "title": "Issue Groups",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/support-workflows/issues/anomaly-detection.md",
+        "page_type": "developer_portal",
+        "title": "Anomaly Detection",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/support-workflows/slas.md",
+        "page_type": "developer_portal",
+        "title": "SLAs",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/support-workflows/support-hours.md",
+        "page_type": "developer_portal",
+        "title": "Support Hours",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/support-workflows/csat.md",
+        "page_type": "developer_portal",
+        "title": "CSAT",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/support-workflows/ticket-forms.md",
+        "page_type": "developer_portal",
+        "title": "Ticket Forms",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/support-workflows/assignment-rules.md",
+        "page_type": "developer_portal",
+        "title": "Assignment Rules",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/support-workflows/assignment-rules/user-status.md",
+        "page_type": "developer_portal",
+        "title": "User Status",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/support-workflows/email.md",
+        "page_type": "developer_portal",
+        "title": "Email",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/support-workflows/ai-issue-qa.md",
+        "page_type": "developer_portal",
+        "title": "AI Issue QA",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/platform/custom-fields.md",
+        "page_type": "developer_portal",
+        "title": "Custom Fields",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/platform/custom-fields/required-and-conditional-fields.md",
+        "page_type": "developer_portal",
+        "title": "Required and Conditional Fields",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/platform/custom-fields/field-history.md",
+        "page_type": "developer_portal",
+        "title": "Field History",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/platform/tags.md",
+        "page_type": "developer_portal",
+        "title": "Tags",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/platform/teams.md",
+        "page_type": "developer_portal",
+        "title": "Teams",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/platform/triggers.md",
+        "page_type": "developer_portal",
+        "title": "Triggers",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/platform/triggers/logs-and-history.md",
+        "page_type": "developer_portal",
+        "title": "Logs & History",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/platform/macros.md",
+        "page_type": "developer_portal",
+        "title": "Macros",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/platform/command-search.md",
+        "page_type": "developer_portal",
+        "title": "Command Search",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/platform/roles-and-user-management.md",
+        "page_type": "developer_portal",
+        "title": "Roles & User Management",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/platform/training-data.md",
+        "page_type": "developer_portal",
+        "title": "Training Data",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/platform/ask-ai.md",
+        "page_type": "developer_portal",
+        "title": "Ask AI",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/platform/mcp-connections.md",
+        "page_type": "mcp",
+        "title": "MCP Connections",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/platform/ai-reports.md",
+        "page_type": "developer_portal",
+        "title": "AI Reports",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/platform/surveys.md",
+        "page_type": "developer_portal",
+        "title": "Surveys",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/platform/audit-logs.md",
+        "page_type": "developer_portal",
+        "title": "Audit Logs",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/platform/languages-and-localization.md",
+        "page_type": "developer_portal",
+        "title": "Languages & Localization",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/platform/custom-objects.md",
+        "page_type": "developer_portal",
+        "title": "Custom Objects",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/ai-agents/overview.md",
+        "page_type": "developer_portal",
+        "title": "Overview",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/ai-agents/build.md",
+        "page_type": "developer_portal",
+        "title": "Build",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/ai-agents/build/resources.md",
+        "page_type": "developer_portal",
+        "title": "Resources",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/ai-agents/build/runbooks.md",
+        "page_type": "developer_portal",
+        "title": "Runbooks",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/ai-agents/build/bring-your-own-agent.md",
+        "page_type": "developer_portal",
+        "title": "Bring Your Own Agent",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/ai-agents/test.md",
+        "page_type": "developer_portal",
+        "title": "Test",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/ai-agents/deploy.md",
+        "page_type": "developer_portal",
+        "title": "Deploy",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/ai-agents/monitor-and-iterate.md",
+        "page_type": "developer_portal",
+        "title": "Monitor & Iterate",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/knowledge-base/overview.md",
+        "page_type": "developer_portal",
+        "title": "Overview",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/knowledge-base/articles-and-collections.md",
+        "page_type": "developer_portal",
+        "title": "Articles & Collections",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/knowledge-base/articles-and-collections/editor.md",
+        "page_type": "developer_portal",
+        "title": "Editor",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/knowledge-base/articles-and-collections/copilot.md",
+        "page_type": "developer_portal",
+        "title": "Copilot",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/knowledge-base/articles-and-collections/templates.md",
+        "page_type": "developer_portal",
+        "title": "Templates",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/knowledge-base/articles-and-collections/collaboration.md",
+        "page_type": "developer_portal",
+        "title": "Collaboration",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/knowledge-base/articles-and-collections/article-review.md",
+        "page_type": "developer_portal",
+        "title": "Article Review",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/knowledge-base/articles-and-collections/synced-blocks.md",
+        "page_type": "developer_portal",
+        "title": "Synced Blocks",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/knowledge-base/gaps.md",
+        "page_type": "developer_portal",
+        "title": "Gaps",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/knowledge-base/styling-and-customization.md",
+        "page_type": "developer_portal",
+        "title": "Styling & Customization",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/knowledge-base/custom-authentication.md",
+        "page_type": "developer_portal",
+        "title": "Custom Authentication",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/knowledge-base/search.md",
+        "page_type": "developer_portal",
+        "title": "Search",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/customer-portal/overview.md",
+        "page_type": "developer_portal",
+        "title": "Overview",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/customer-portal/styling-and-customization.md",
+        "page_type": "developer_portal",
+        "title": "Styling & Customization",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/customer-portal/access-control.md",
+        "page_type": "developer_portal",
+        "title": "Access Control",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/customer-portal/portal-experience.md",
+        "page_type": "developer_portal",
+        "title": "Portal Experience",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/customer-portal/custom-authentication.md",
+        "page_type": "developer_portal",
+        "title": "Custom Authentication",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/account-intelligence/accounts.md",
+        "page_type": "developer_portal",
+        "title": "Accounts",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/account-intelligence/accounts/views.md",
+        "page_type": "developer_portal",
+        "title": "Views",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/account-intelligence/accounts/copilot.md",
+        "page_type": "developer_portal",
+        "title": "Copilot",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/account-intelligence/accounts/memories.md",
+        "page_type": "developer_portal",
+        "title": "Memories",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/account-intelligence/accounts/sidebar.md",
+        "page_type": "developer_portal",
+        "title": "Sidebar",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/account-intelligence/accounts/personal-email.md",
+        "page_type": "developer_portal",
+        "title": "Personal Email",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "discovered_from": "llms_txt",
+        "is_official": true
+      },
+      {
+        "url": "https://www.usepylon.com/enterprise",
+        "page_type": "pricing",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+        "page_type": "authentication",
+        "title": "Authentication | Pylon",
+        "confidence": 0.95,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "discovered_from": "tavily_search",
+        "is_official": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/developer/api/api-reference",
+        "page_type": "api_reference",
+        "title": "API reference | Pylon",
+        "confidence": 0.95,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "discovered_from": "tavily_search",
+        "is_official": true
+      }
+    ],
+    "stats": {
+      "queries": 3,
+      "urls_discovered": 79,
+      "official_urls": 79,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 6
+    }
+  },
+  "stats": {
+    "queries": 3,
+    "urls_discovered": 79,
+    "official_urls": 79,
+    "non_official_filtered": 0,
+    "blog_community_filtered": 0,
+    "third_party_sdk_filtered": 0,
+    "duplicates_removed": 0,
+    "canonical_selected": 6
+  }
+}

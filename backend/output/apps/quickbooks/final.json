@@ -1,0 +1,349 @@
+{
+  "app": {
+    "id": 86,
+    "name": "QuickBooks",
+    "website": "developer.intuit.com",
+    "category_hint": "Finance and Fintech"
+  },
+  "documentation_map": {
+    "app_name": "QuickBooks",
+    "official_domain": "developer.intuit.com",
+    "homepage": {
+      "url": "https://developer.intuit.com",
+      "title": "QuickBooks",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/faq",
+        "title": "QuickBooks API OAuth 2.0 and authorization FAQ",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://developer.intuit.com/app/developer/qbdesktop/docs/api-reference",
+        "title": "API Reference",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": null,
+      "alternatives": []
+    },
+    "sdk": {
+      "primary": {
+        "url": "https://developer.intuit.com/app/developer/qbo/docs/develop/sdks-and-samples-collections/python",
+        "title": "Python",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "mcp": {
+      "primary": null,
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://developer.intuit.com/app/developer/qbpayments/docs/develop",
+        "title": "Develop",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "webhooks": {
+      "primary": {
+        "url": "https://help.developer.intuit.com/s/article/Webhooks-for-QuickBooks-Online-REST-APIs",
+        "title": "Webhooks for QuickBooks Online REST APIs - Help - Intuit",
+        "confidence": 0.85,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "QuickBooks",
+      "official_domain": "developer.intuit.com",
+      "items": [
+        {
+          "url": "https://developer.intuit.com",
+          "page_type": "homepage",
+          "title": "QuickBooks",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/faq",
+          "page_type": "authentication",
+          "title": "QuickBooks API OAuth 2.0 and authorization FAQ",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.intuit.com/app/developer/qbdesktop/docs/api-reference",
+          "page_type": "api_reference",
+          "title": "API Reference",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.intuit.com/app/developer/qbpayments/docs/develop",
+          "page_type": "developer_portal",
+          "title": "Develop",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.intuit.com/app/developer/qbo/docs/develop/sdks-and-samples-collections/python",
+          "page_type": "sdk",
+          "title": "Python",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        },
+        {
+          "url": "https://help.developer.intuit.com/s/article/Webhooks-for-QuickBooks-Online-REST-APIs",
+          "page_type": "webhooks",
+          "title": "Webhooks for QuickBooks Online REST APIs - Help - Intuit",
+          "confidence": 0.85,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 7,
+        "urls_discovered": 6,
+        "official_urls": 6,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 6
+      }
+    },
+    "stats": {
+      "queries": 7,
+      "urls_discovered": 6,
+      "official_urls": 6,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 6
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_d44027d30fb5",
+      "source_type": "auth_docs",
+      "url": "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/faq",
+      "domain": "developer.intuit.com",
+      "page_title": "",
+      "content": "Here’s a deeper dive into the OAuth 2.0 and authorization process to connect apps with the Intuit Financial Ecosystem.\nDo I need to authorize my app to integrate it with QuickBooks?\nYes. The first step is to create an app on the Intuit Developer Platform. This generates credentials you’ll use to connect to the Intuit OAuth 2.0 server, get access tokens, and make API calls.\nOAuth 2.0 is our authorization standard. Only registered apps can connect to the Intuit OAuth2.0 server, call our API, and end-users’ QuickBooks Online companies.\nWhat credentials do I need to connect to OAuth?\nHere’s what you need to get started. Keep in mind, different API entities and features may require additional info:\n- Client ID and Client secret: The unique credentials that identify your app\n- Scope: The level of data access of your app\n- Redirect URI: The URI your app sends users to when they connect to your app\n- State/CSRF token: This is required - the Intuit OAuth 2.0 Server server won’t accept requests without these parameters\nHow do access tokens work?\nAccess tokens work behind the scenes. They allow the connection between your app, the Intuit OAuth 2.0 server, our API, and an end-user’s device.\nTokening starts when users connect to your app. Your app sends users an authorization request. This request redirects users to sign in to their QuickBooks Online company. We ask if they’re willing to give your app permission to access their data. This flow is called “user consent.”\nIf a user grants permission, the Intuit OAuth 2.0 Server sends an authorization code to your app. Your app then sends the authorization code back to the server to get an access token. Use the access token to call our API and query objects or perform operations.\nIf the user doesn’t grant the permission, the server returns an error and your app can’t call our API.\nHow long do access and refresh tokens last?\nAccess tokens\nAccess tokens are valid for 3,600 seconds (or one hour).\nWhen it expires, use the latest refresh_token value from the most recent server response to “refresh” it.\nIf an API request returns a 401 unauthorized message, it means the access token has expired.\nRefresh tokens\nRefresh tokens are valid for 100 days. This expiry date is rolling and gets extended each time it’s used to refresh an access token.\nRefresh tokens are only for getting new access tokens.\nAs long as the refresh token itself hasn’t expired, each time you refresh your access token, your app periodically updates the refresh_token value.\nThis is for security. When you get a new refresh token, the previous refresh token value automatically expires.\nAll refresh tokens have a maximum validity period of five years.\nImportant\nTip: We update the value of the \nrefresh_token value every 24 hours hours, or the next time you refresh the access tokens after 24 hours. This is an additional security measure by Intuit to reduce risk of compromise.We recommend you always store and use the latest access_token and refresh_token value from the most recent server response when you refresh access tokens.\nIf the refresh token hasn’t been used in the last 100 days, meaning a user hasn’t connected to your app and thus no API calls have been made, the refresh token expires. Your app’s access to the QuickBooks company terminates. Users will need to sign in and authorize your app again.\nWhy does the refresh_token value change after 24 hours?\nEach time you make an API call and refresh your app’s access token, our server also sends your app a new value for the refresh_token.\nKeep in mind, we periodically update and change refresh refresh_token values. This is an additional security measure by Intuit to reduce risk of compromise. While the refresh token itself doesn’t expire, the value changes every 24 hours. This makes the previous refresh_token value stale.\nWe recommend you always store and use the latest access_token and refresh_token value from the most recent server response when you refresh access tokens.\nWhy is my access token invalid?\nAccess tokens may stop working for a few reasons:\n- The access token expired: If your app uses an access token that’s 60 min or older to make an API call, you’ll get a 401 error. You need to use your refresh token to renew the access token.\n- The user revoked access: If a user disconnects their QuickBooks Online company from your app, it invalidates the access token and refresh token. Your app needs to ask users to reauthorize the connection.\n- The refresh token hasn’t been used for 100 days: Refresh tokens are valid for 100 days. After that, your app must ask users to reauthorize the connection.\n- The refresh token hard limit has been exceeded: Refresh tokens have a hard limit of 5 years. After that, your app must ask users to reauthorize the connection.\nAs a best practice, write your code to anticipate situations where granted access tokens become invalid.\nHow do I fix “invalid_grant” errors?\nYou may see an invalid_grant error when exchanging your authorization code for access tokens or refreshing access tokens.\nWhen exchanging the authorization code for access tokens\n- Review the redirect URI for your app. It should match with the redirect URI used in queries to the Intuit OAuth 2.0 server. Redirect URIs shouldn’t have any query parameters. If query parameters are required, pass them as statevariables.\n- If you have a multi-threaded app, make sure the developer’s application is not using the same parameter name codefor other purposes.Codecan’t be reused multiple times. If Intuit OAuth 2.0 server sends data with thecodeparameter to your app, used by a different thread, this can create a conflict.\n- Check the Client ID and Client secret for your app. Also make sure you use the correct set of keys: development keys should be used for development environments, production keys are for your live code.\n- Only exchange access tokens one at a time. If two attempts are made to exchange for access tokens, the first attempt will succeed but the second will return invalid_grant.\nOur servers may see this as a possible security issue and revoke your refresh tokens for the first successful call. Your next attempt to refresh tokens will return the invalid_grant error. At this point, you’ll need to start the authorization process from the beginning.\nWhen refreshing an access token\n- Make sure the refresh token hasn’t expired. If you use an old refresh token, you’ll get an invalid_granterror.\n- Go to the developer group status page to see if there are any API service outages, or if our servers are undergoing maintenance. Service outages may return an invalid_granterror.\n- Check your app’s code to see if it’s not sending stale or cached values, instead of the latest ones sent via responses from the Intuit OAuth 2.0 Server. If you’re using a QuickBooks Online SDK, make sure the client object is updated with the latest token object.\n- Make sure the refresh token hasn’t been revoked. Using a revoked refresh token will result in an error. Review the returned error message to make changes.\n- Requests to refresh tokens require the current refresh_token. The result should be a newly generated access token. Refresh tokens one at a time. If two attempts are made with the same parameter, the first attempt will succeed, but the second will return aninvalid_granterror. Multiple attempts may invalidate your refresh token.\nImportant\nImportant: We periodically update \nrefresh_token values. It’s a good idea to always store and use the latest refresh_token value from the most recent server response.\nWhat’s a redirect URI? Do I need one?\nRedirect URIs are used for authorization. It’s where the Intuit OAuth 2.0 Server sends users after they agree to authenticate your app during the authorization process.\nIt’s also where your app sends requests from and our servers return responses after users connect to your app.\nCode at the URI location needs to process the initial authorization server request, construct requests for access and refresh tokens, and manage tokens. The Intuit OAuth 2.0 Server can only redirect and send responses to registered URIs.\nHow do I register a redirect URI?\nApps have two URIs: one for development (sandbox) environments and one for your production app.\nFollow these steps to set your app’s URI.\nNote\nImportant: HTTP redirect URIs must be protected with TLS security. The Intuit OAuth 2.0 Server can only redirect to URIs beginning with https. IP addresses aren’t allowed. This prevents access token interception during the authorization process.\nDuring development, you also need to register redirect URIs for any third-party testing platforms (Postman, Insomnia, etc) or other apps when testing with your sandbox company.\nWhat are the current scopes for the QuickBooks API?\nScopes determine the type and level of access your app gets to QuickBooks Online company data. This also decides which API entities your app can use.\nWhen you set up OAuth 2.0, you’ll list your app’s scopes in the authorization request. We recommend requesting scopes incrementally, based on your current data requirements, rather than requesting all scopes up front.\nKeep in mind, you must initiate the authorization workflow again with the new list of scopes and get new access and refresh tokens. Users also need to reauthorize your app each time you change your app’s scopes.\nHow do I create the UI where users connect to my app, and how does it start the authorization process?\nBefore you start, review the rules for using branded images.\nHere are a few examples of basic UI that lets users connect their QuickBooks Online company to your app. Pick the method that’s best for you.\nCreate a button and use it as an in-app connection point, using the accounting scope\nCreate a button and use it as an in-app connection point, using the accounting scope\nThis example covers creating UI so users can connect from within your app. We’ll use the following scopes:\n- com.intuit.quickbooks.accounting\nThese scopes let your app make calls to our Accounting API.\nDesign your app to include a “Connect to QuickBooks” button somewhere in the UI.\nWhen users select this button, your app starts the authorization process and sends an authorization request.\nCreate a URL for the chosen scopes. Use your app’s Client ID and Client Secret from your developers account. You’ll also need the redirect URI.\nExample Authorize URL for the accounting scope\n| 1 2 3 4 5 6 | https://appcenter.intuit.com/connect/oauth2? client_id=<Client ID from developer portal>& response_type=code& redirect_uri=<redirect URI for your app>& scope=com.intuit.quickbooks.accounting& state=security_token%3D138r5719ru3e1 | \nAfter your user selects the “Connect to QuickBooks” button, they’re taken to a sign-on page. This is where they authorize the connection and give your app access to their data.\nAuthorization_page_example\nCreate a button and use it as an in-app connection point, using the OpenID scope (single sign-on)\nCreate a button and use it as an in-app connection point, using the OpenID scope (single sign-on)\nThis example covers creating UI so users can connect from within your app. We’ll use the following scopes:\n- openid\n- At least one of the following: profile, email, phone, address\nThese scopes let your app get user profile info.\nDesign your app to include a “Sign in with Intuit” button somewhere in the UI.\nWhen users select this button, your app starts the authorization process and sends an authorization request.\nCreate a URL for the chosen scopes. Use your app’s Client ID and Client Secret from your developers account. You’ll also need the redirect URI.\nExample Authorize URL for OpenID Connect\n| 1 2 3 4 5 6 7 | https://appcenter.intuit.com/connect/oauth2? client_id=<Client ID from developer portal>& scope=openid%20email%20address& redirect_uri=<redirect URI for your app>& response_type=code& state=138r5719ru3e1& claims=%7B%22id_token%22%3A%7B%22realmId%22%3Anull%7D%7D | \nIn this example, the user should already be signed in to the QuickBooks Online company they want to connect. If not, the realmId won’t be presented back in the redirect URI.\nAfter your user selects the “Sign in with Intuit” button, they’re taken to a sign-on page. This is where they authorize the connection and give your app access to their data.\nUse the provided “Get app now” button from the QuickBooks App Store\nUse the provided “Get app now” button from the QuickBooks App Store\nThis example assumes you want to list your app on the QuickBooks App store. Instead of creating a button, you’ll use the UI we provide so users can connect to your app. We’ll use the following scopes:\n- openid, profile, email, phone, address\n- com.intuit.quickbooks.accounting\nThese scopes let your app make calls to our Accounting API and get user profile info.\nIn this case, the authorization process starts when users visit the QuickBooks App Store and select the “Get app now” button.\nCreate a URL for the chosen scopes. Use your app’s Client ID and Client Secret from your developers account. You’ll also need the redirect URI.\nExample Authorize URL for the accounting scope and OpenID Connect\n| 1 2 3 4 5 6 7 | https://appcenter.intuit.com/connect/oauth2? client_id=<Client ID from developer portal>& scope=openid%20email%20address%20com.intuit.quickbooks.accounting& redirect_uri=<redirect URI from developer portal>& response_type=code& state=138r5719ru3e1& claims=%7B%22id_token%22%3A%7B%22realmId%22%3Anull%7D%7D | \nTo preview what this flow looks, get your app ID and visit the following URL:\n- Sign in to your developer account.\n- Select the Dashboard link on the toolbar.\n- Find your app on the list.\n- Copy the App ID.\n- Visit https://appcenter.intuit.com/app/connect/oauth2/request?appId=djQuMTo6OGQzYmJlYTI3Yg:<App_ID_of_your_app>\nThis URL takes you to the Production Connect or Development Connect Request URL. This is specified in List on the app store section of your developer account.\nNote\nNote: To test the “Get app now” button in a sandbox environment, append the query parameter with sandbox_app=true.\nLearn more about the “Get app now” button integration.\nHow can my app protect against cross-site request forgery (CSRF) from authentication requests?\nYou must protect the security of your users by preventing cross-site request forgery (CSRF) attacks. To mitigate attacks, include a unique session token in your app’s authorization request (often referred to as cross-site request forgery [CSRF] tokens).\nA good way is to create a string of 30 or so characters constructed using a high-quality random-number generator. Another is creating a hash and comparing it to a key kept secret on your back end.\nUse the ‘state’ parameter in your authorization request to add your unique session token. Your app will match the unique session token with the one returned in the Intuit OAuth 2.0 server response. This verifies the user, not a malicious attacker or bot, started the authorization process.\nSee our available SDKs and sample integrations\n| Language | Does it have a client library | Does it have integration examples | \n|---|---|---|\n| Java | Yes | |\n| .Net | Yes | |\n| PHP | Yes | |\n| Ruby | No | |\n| Node.js | Yes | |\n| Python | Yes | |\n| GoLang | No | Yes |",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:14:02.653724Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 3799,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_047770f2df0d",
+      "source_type": "general_docs",
+      "url": "https://developer.intuit.com/app/developer/qbo/docs/develop/sdks-and-samples-collections/python",
+      "domain": "developer.intuit.com",
+      "page_title": "",
+      "content": "Tutorial Objective\nThe Intuit OAuth 2.0 Client provides a set of methods that make it easier to work with Intuit’s OAuth and OpenID implementation. The community-supported Python SDK makes it easy to integrate your web app with the QuickBooks Online API. This guide assumes that you have an existing web app that you want to integrate with QuickBooks Online.\nFor more information on how to use the Intuit OAuth 2.0 Client and Python SDK, browse through the samples to bootstrap your app’s development.\nIntuit OAuth 2.0 Python Client\n- Installation instructions and options\n- Release notes\nNote\nNote\nIntuit is not affiliated with the below community contributed SDK and assumes no liability for them or their tools. Nor does Intuit recommend their tools to you. You should evaluate such tools and their associated terms and conditions to make your own assessments. All third-party tools are licensed by their licensors or owners.\nPython SDK (community-contributed SDK)\n- Installation instructions and options\n- Release notes",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:14:04.551747Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 255,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_fe7282f370c6",
+      "source_type": "api_reference",
+      "url": "https://developer.intuit.com/app/developer/qbdesktop/docs/api-reference",
+      "domain": "developer.intuit.com",
+      "page_title": "",
+      "content": "This set of pages provides detailed information on the api-reference for QuickBooks Desktop and QuickBooks Point of Sale.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:14:02.346845Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 30,
+      "quality_score": 0.58
+    },
+    {
+      "id": "ev_3620c727f268",
+      "source_type": "developer_portal",
+      "url": "https://developer.intuit.com/app/developer/qbpayments/docs/develop",
+      "domain": "developer.intuit.com",
+      "page_title": "",
+      "content": "Develop payments app\nCreate payment processing tools that help small businesses thrive\nBuild apps for QuickBooks Online\nVisit the API Explorer to see all entities, operations, and fields.\nUse sandbox environments and third-party tools to check your code.\nLearn about the QuickBooks Payments API\nLearn the capabilities of our REST-based API framework and GraphQL API.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:14:04.225925Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 91,
+      "quality_score": 0.54
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "QuickBooks is an accounting software for small businesses.",
+      "evidence_ids": [
+        "ev_3620c727f268"
+      ]
+    },
+    "category": {
+      "value": "Finance and Fintech",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "OAuth 2.0",
+      "evidence_ids": [
+        "ev_d44027d30fb5"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_d44027d30fb5"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API, GraphQL",
+      "evidence_ids": [
+        "ev_3620c727f268"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_3620c727f268"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_d44027d30fb5"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_047770f2df0d"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_d44027d30fb5"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.75,
+    "fields_checked": 8,
+    "fields_supported": 6,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.75,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.75 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

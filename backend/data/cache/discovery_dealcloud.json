@@ -1,0 +1,148 @@
+{
+  "app_name": "DealCloud",
+  "official_domain": "api.docs.dealcloud.com",
+  "homepage": {
+    "url": "https://api.docs.dealcloud.com",
+    "title": "DealCloud",
+    "confidence": 0.5,
+    "confidence_reason": [
+      "official_docs: +0.40",
+      "canonical_doc: +0.10"
+    ],
+    "is_official": true,
+    "discovered_from": "domain_probe"
+  },
+  "authentication": {
+    "primary": null,
+    "alternatives": []
+  },
+  "api_reference": {
+    "primary": {
+      "url": "https://api.docs.dealcloud.com/docs",
+      "title": "Docs - DealCloud API Docs",
+      "confidence": 0.7,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "tavily_search"
+    },
+    "alternatives": []
+  },
+  "pricing": {
+    "primary": null,
+    "alternatives": []
+  },
+  "mcp": {
+    "primary": {
+      "url": "https://api.docs.dealcloud.com/mcp",
+      "title": "",
+      "confidence": 0.7,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "alternatives": []
+  },
+  "developer_portal": {
+    "primary": {
+      "url": "https://api.docs.dealcloud.com/docs",
+      "title": "",
+      "confidence": 0.7,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "exact_slot_match: +0.20",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "alternatives": []
+  },
+  "sdk": null,
+  "webhooks": null,
+  "llms_txt": null,
+  "inventory": {
+    "app_name": "DealCloud",
+    "official_domain": "api.docs.dealcloud.com",
+    "items": [
+      {
+        "url": "https://api.docs.dealcloud.com",
+        "page_type": "homepage",
+        "title": "DealCloud",
+        "confidence": 0.5,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "canonical_doc: +0.10"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      },
+      {
+        "url": "https://api.docs.dealcloud.com/docs",
+        "page_type": "developer_portal",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      },
+      {
+        "url": "https://api.docs.dealcloud.com/mcp",
+        "page_type": "mcp",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "discovered_from": "domain_probe",
+        "is_official": true
+      },
+      {
+        "url": "https://api.docs.dealcloud.com/docs",
+        "page_type": "api_reference",
+        "title": "Docs - DealCloud API Docs",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "discovered_from": "tavily_search",
+        "is_official": true
+      }
+    ],
+    "stats": {
+      "queries": 3,
+      "urls_discovered": 4,
+      "official_urls": 4,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 1,
+      "canonical_selected": 4
+    }
+  },
+  "stats": {
+    "queries": 3,
+    "urls_discovered": 4,
+    "official_urls": 4,
+    "non_official_filtered": 0,
+    "blog_community_filtered": 0,
+    "third_party_sdk_filtered": 0,
+    "duplicates_removed": 1,
+    "canonical_selected": 4
+  }
+}

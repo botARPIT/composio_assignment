@@ -1,0 +1,624 @@
+{
+  "app": {
+    "id": 31,
+    "name": "Google Ads",
+    "website": "developers.google.com/google-ads",
+    "category_hint": "Marketing Ads Email and Social"
+  },
+  "documentation_map": {
+    "app_name": "Google Ads",
+    "official_domain": "developers.google.com",
+    "homepage": {
+      "url": "https://developers.google.com/google-ads",
+      "title": "Google Ads",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://developers.google.com/identity/protocols/oauth2",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://developers.google.com/workspace/docs/api/how-tos/overview",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": null,
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server",
+        "title": "Google Ads MCP server: Developer integration guide",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://developers.google.com/workspace/docs",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "Google Ads",
+      "official_domain": "developers.google.com",
+      "items": [
+        {
+          "url": "https://developers.google.com/google-ads",
+          "page_type": "homepage",
+          "title": "Google Ads",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.google.com/identity/protocols/oauth2",
+          "page_type": "authentication",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.google.com/workspace/docs/api/how-tos/overview",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.google.com/workspace/docs",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server",
+          "page_type": "mcp",
+          "title": "Google Ads MCP server: Developer integration guide",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 2,
+        "urls_discovered": 5,
+        "official_urls": 5,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 5
+      }
+    },
+    "stats": {
+      "queries": 2,
+      "urls_discovered": 5,
+      "official_urls": 5,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 5
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_f6f78257c41f",
+      "source_type": "auth_docs",
+      "url": "https://developers.google.com/identity/protocols/oauth2",
+      "domain": "developers.google.com",
+      "page_title": "Using OAuth 2.0 to Access Google APIs  |  Authorization  |  Google for Developers",
+      "content": "Google APIs such as the Prediction API and Google Cloud Storage can act on behalf of your\napplication without accessing user information. In these situations your application needs\nto prove its own identity to the API, but no user consent is necessary. Similarly, in\nenterprise scenarios, your application can request delegated access to some resources.\n\nFor these types of server-to-server interactions you need a **service account**, which\nis an account that belongs to your application instead of to an individual end-user. Your\napplication calls Google APIs on behalf of the service account, and user consent is not\nrequired. (In non-service-account scenarios, your application calls Google APIs on behalf of\nend-users, and user consent is sometimes required.)\n\nA service account's credentials, which you obtain from the\nGoogle API Console, include a generated email address that is unique,\na client ID, and at least one public/private key pair. You use the client ID and one private\nkey to create a signed JWT and construct an access-token request in the appropriate format.\nYour application then sends the token request to the Google OAuth 2.0 Authorization Server,\nwhich returns an access token. The application uses the token to access a Google API. When\nthe token expires, the application repeats the process.\n\n[![Your server application uses a JWT to request a token from the Google                     Authorization Server, then uses the token to call a Google API endpoint. No                     end-user is involved.](https://developers.google.com/static/identity/protocols/oauth2/images/flows/jwt.png)](https://developers.google.com/identity/protocols/oauth2/service-account)\n\nFor details, see the [service-account documentation](https://developers.google.com/identity/protocols/oauth2/service-account).",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:51.818741Z",
+      "section_path": "Using OAuth 2.0 to Access Google APIs    Stay organized with collections      Save and categorize content based on your preferences. > Scenarios > Service accounts",
+      "chunk_index": 8,
+      "token_count": 454,
+      "quality_score": 0.84
+    },
+    {
+      "id": "ev_197030f8e0d3",
+      "source_type": "auth_docs",
+      "url": "https://developers.google.com/identity/protocols/oauth2",
+      "domain": "developers.google.com",
+      "page_title": "Using OAuth 2.0 to Access Google APIs  |  Authorization  |  Google for Developers",
+      "content": "Access tokens have limited lifetimes. If your application needs access to a Google API\nbeyond the lifetime of a single access token, it can obtain a refresh token. A refresh\ntoken allows your application to obtain new access tokens.\n\nThese scenarios describe how to use OAuth 2.0 to request authorization codes and obtain\naccess and refresh tokens for different types of applications.\n\nThe Google OAuth 2.0 endpoint supports web server applications that use languages and\nframeworks such as PHP, Java, Go, Python, Ruby, and ASP.NET.\n\nThe authorization sequence begins when your application redirects a browser to a Google\nURL; the URL includes query parameters that indicate the type of access being requested.\nGoogle handles the user authentication, session selection, and user consent. The result is\nan authorization code, which the application can exchange for an access token and a refresh\ntoken.\n\nThe application should store the refresh token for future use and use the access token to\naccess a Google API. Once the access token expires, the application uses the refresh token\nto obtain a new one.\n\n![Your application sends a token request to the Google Authorization Server,                   receives an authorization code, exchanges the code for a token, and uses the token                   to call a Google API endpoint.](https://developers.google.com/static/identity/protocols/oauth2/images/flows/authorization-code.png)\n\nFor details, see [Using OAuth 2.0 for Web\\\\\nServer Applications](https://developers.google.com/identity/protocols/oauth2/web-server).",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:51.818623Z",
+      "section_path": "Using OAuth 2.0 to Access Google APIs    Stay organized with collections      Save and categorize content based on your preferences. > Scenarios > Web server applications",
+      "chunk_index": 5,
+      "token_count": 391,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_b865199d3a91",
+      "source_type": "auth_docs",
+      "url": "https://developers.google.com/identity/protocols/oauth2",
+      "domain": "developers.google.com",
+      "page_title": "Using OAuth 2.0 to Access Google APIs  |  Authorization  |  Google for Developers",
+      "content": "The Google OAuth 2.0 endpoint supports applications that are installed on devices such as\ncomputers, mobile devices, and tablets. When you create a client ID through the\n[Google API Console](https://console.developers.google.com/),\nspecify that this is an Installed application, then select Android, Chrome Extension, iOS,\nor Desktop app as the application type.\n\nThe process results in a client ID and, in some cases, a client secret, which you embed in\nthe source code of your application. (In this context, the client secret is obviously not\ntreated as a secret.)\n\nThe authorization sequence begins when your application redirects a browser to a Google\nURL; the URL includes query parameters that indicate the type of access being requested.\nGoogle handles the user authentication, session selection, and user consent. The result is\nan authorization code, which the application can exchange for an access token.\n\nThe application should validate the access token before including it in a Google API\nrequest. When the token expires, the application repeats the process.\n\n\nOptionally, a backend server can exchange the authorization code for a refresh token,\nstoring it in a secure location. Once the access token expires, the backend server uses\nthe refresh token to obtain a new one for the application.\n\n![Your application sends a token request to the Google Authorization Server,                   receives an authorization code, exchanges the code for a token, and uses the token                   to call a Google API endpoint.](https://developers.google.com/static/identity/protocols/oauth2/images/flows/authorization-code.png)\n\nFor details, see [Authorize access to Google user data](https://developer.android.com/identity/authorization) for Android,\nand [OAuth 2.0 for iOS & Desktop Apps](https://developers.google.com/identity/protocols/oauth2/native-app).",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:51.818659Z",
+      "section_path": "Using OAuth 2.0 to Access Google APIs    Stay organized with collections      Save and categorize content based on your preferences. > Scenarios > Installed applications",
+      "chunk_index": 6,
+      "token_count": 466,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_4261bf929538",
+      "source_type": "auth_docs",
+      "url": "https://developers.google.com/identity/protocols/oauth2",
+      "domain": "developers.google.com",
+      "page_title": "Using OAuth 2.0 to Access Google APIs  |  Authorization  |  Google for Developers",
+      "content": "The Google OAuth 2.0 endpoint supports JavaScript applications that run in a browser.\n\nThe authorization sequence begins when your application redirects a browser to a Google\nURL; the URL includes query parameters that indicate the type of access being requested.\nGoogle handles the user authentication, session selection, and user consent.\n\nThe result is an access token, which the client should validate before including it in a\nGoogle API request. When the token expires, the application repeats the process.\n\n![Your JS application sends a token request to the Google Authorization Server,                   receives a token, validates the token, and uses the token to call a Google API                   endpoint.](https://developers.google.com/static/identity/protocols/oauth2/images/flows/implicit.png)\n\nFor details, see [Using\\\\\nOAuth 2.0 for Client-side Applications](https://developers.google.com/identity/protocols/oauth2/javascript-implicit-flow).\n\nThe Google OAuth 2.0 endpoint supports applications that run on limited-input devices such\nas game consoles, video cameras, and printers.\n\nThe authorization sequence begins with the application making a web service request to a\nGoogle URL for an authorization code. The response contains several parameters, including a\nURL and a code that the application shows to the user.\n\nThe user obtains the URL and code from the device, then switches to a separate device or\ncomputer with richer input capabilities. The user launches a browser, navigates to the\nspecified URL, logs in, and enters the code.\n\nMeanwhile, the application polls a Google URL at a specified interval. After the user\napproves access, the response from the Google server contains an access token and refresh\ntoken. The application should store the refresh token for future use and use the access\ntoken to access a Google API. Once the access token expires, the application uses the\nrefresh token to obtain a new one.\n\n![The user logs in on a separate device that has a browser](https://developers.google.com/static/identity/protocols/images/oauth2/device/flow.png)\n\nFor details, see [Using OAuth 2.0\\\\\nfor Devices](https://developers.google.com/identity/protocols/oauth2/limited-input-device).",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:51.818699Z",
+      "section_path": "Using OAuth 2.0 to Access Google APIs    Stay organized with collections      Save and categorize content based on your preferences. > Scenarios > Applications on limited-input devices",
+      "chunk_index": 7,
+      "token_count": 554,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_5af373f4d36f",
+      "source_type": "auth_docs",
+      "url": "https://developers.google.com/identity/protocols/oauth2",
+      "domain": "developers.google.com",
+      "page_title": "Using OAuth 2.0 to Access Google APIs  |  Authorization  |  Google for Developers",
+      "content": "Administrators of GCP organizations might require frequent reauthentication of users while\nthey access GCP resources, using the\n[Google Cloud session control\\\\\nfeature](https://support.google.com/a/answer/9368756). This policy impacts access to Google Cloud Console, the\n[Google Cloud SDK](https://cloud.google.com/sdk/gcloud) (also known as the gcloud\nCLI), and any third party OAuth application that requires the Cloud Platform scope. If a\nuser has a session control policy in place then on the expiry of the session duration, your\nAPI calls will error out similar to what would happen if the refresh token was revoked - the\ncall will fail with an error type `invalid_grant`; the `error_subtype`\nfield can be used to distinguish between a revoked token and a failure due to a session\ncontrol policy (for example, `\"error_subtype\": \"invalid_rapt\"`). As session\ndurations can be very limited (between 1 hour to 24 hours), this scenario must be handled\ngracefully by restarting an auth session.\n\n\nEqually, you must not use, or encourage the use of, user credentials for server-to-server\ndeployment. If user credentials are deployed on a server for long running jobs or operations\nand a customer applies session control policies on such users, the server application will\nfail as there will be no way to re-authenticate the user when the session duration expires.\n\n\nFor more information on how to help your customers deploy this feature, refer to this\n[admin-focused help article.](https://support.google.com/a/answer/9368756)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:51.818824Z",
+      "section_path": "Using OAuth 2.0 to Access Google APIs    Stay organized with collections      Save and categorize content based on your preferences. > Refresh token expiration > Dealing with session control policies for Google Cloud Platform (GCP) organizations",
+      "chunk_index": 10,
+      "token_count": 381,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_e5ad49f39c16",
+      "source_type": "api_reference",
+      "url": "https://developers.google.com/workspace/docs/api/how-tos/overview",
+      "domain": "developers.google.com",
+      "page_title": "Google Docs API overview  |  Google for Developers",
+      "content": "- On this page\n- [Related topics](https://developers.google.com/workspace/docs/api/how-tos/overview#related-topics)\n\nThe Google Docs API lets you create and modify documents in Google Docs.\n\nApplications can integrate with the Docs API to create polished\ndocuments from both user and system-provided data. The Docs API lets\nyou:\n\n- Automate processes\n- Create documentation in bulk\n- Format documents\n- Generate invoices or contracts\n- Retrieve specific attributes of objects\n\nThe following is a list of common terms used in the Docs API:\n\n_Document ID_\n\nThe unique identifier for a document. It's a particular string containing\nletters, numbers, and some special characters that reference a document and\nit can be derived from the document's URL. Document IDs are stable, even if\nthe document name changes. For more information on how to find the ID, see\n[Document ID](https://developers.google.com/workspace/docs/api/concepts/document#document-id).\n\n```\nhttps://docs.google.com/document/d/DOCUMENT_ID/edit\n```\n\n_Element_\n\nThe structure that makes up a document. Top-level elements of a document\ninclude the [`Body`](https://developers.google.com/workspace/docs/api/reference/rest/v1/documents#body),\n[`DocumentStyle`](https://developers.google.com/workspace/docs/api/reference/rest/v1/documents#documentstyle), and\n[`List`](https://developers.google.com/workspace/docs/api/reference/rest/v1/documents#list).\n\n_Google Workspace document_\n\nA file that a Google Workspace application, like Google Docs, creates.\nThe MIME type format for Docs is\n`application/vnd.google-apps.document`. For a list of MIME types, see [Google Workspace and Google Drive supported MIME types](https://developers.google.com/drive/api/guides/mime-types).\n\n_Index_\n\nMost _elements_ within the content body have the `startIndex` and `endIndex`\nproperties. These indicate the offset of an element's beginning and end,\nrelative to the beginning of its enclosing _segment_.\n\n_Inline image_\n\nAn image that appears in the flow of text within a document. It's not an\nattachment.\n\n_Named range_\n\nA contiguous range of text. A\n[`NamedRange`](https://developers.google.com/workspace/docs/api/reference/rest/v1/documents#namedrange) is a\ncollection of ranges with the same `namedRangeId`. Named ranges allow\ndevelopers to associate parts of a document with an arbitrary user-defined\nlabel so their contents can be programmatically read or edited later. A\ndocument can contain multiple named ranges with the same name, but every\nnamed range has a unique ID.\n\n_Segment_\n\nThe `Body`, [`Header`](https://developers.google.com/workspace/docs/api/reference/rest/v1/documents#header),\n[`Footer`](https://developers.google.com/workspace/docs/api/reference/rest/v1/documents#footer), or\n[`Footnote`](https://developers.google.com/workspace/docs/api/reference/rest/v1/documents#footnote) containing\nstructural or content _elements_. The _indexes_ of the elements within a\nsegment are relative to the beginning of that segment.\n\n_Suggestion_\n\nChanges to a document without changing the original text. If the owner\napproves your suggestions, they replace the original text.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:51.446069Z",
+      "section_path": "Google Docs API overview    Stay organized with collections      Save and categorize content based on your preferences.",
+      "chunk_index": 0,
+      "token_count": 781,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_ac51a5d022f1",
+      "source_type": "api_reference",
+      "url": "https://developers.google.com/workspace/docs/api/how-tos/overview",
+      "domain": "developers.google.com",
+      "page_title": "Google Docs API overview  |  Google for Developers",
+      "content": "- To learn about developing with Google Workspace APIs, including handling\nauthentication and authorization, refer to [Develop on\\\\\nGoogle Workspace](https://developers.google.com/workspace/guides/get-started).\n\n- To get a conceptual overview of a document, see\n[Document](https://developers.google.com/workspace/docs/api/concepts/document).\n\n- To learn how to configure and run a Docs API app, try the\n[JavaScript quickstart](https://developers.google.com/workspace/docs/api/quickstart/js).\n\n\nWas this helpful?\n\n\n\n Send feedback\n\n\n\nExcept as otherwise noted, the content of this page is licensed under the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/), and code samples are licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0). For details, see the [Google Developers Site Policies](https://developers.google.com/site-policies). Java is a registered trademark of Oracle and/or its affiliates.\n\nLast updated 2026-04-20 UTC.\n\n\nNeed to tell us more?\n\n\n\n\n\n\n\\[\\[\\[\"Easy to understand\",\"easyToUnderstand\",\"thumb-up\"\\],\\[\"Solved my problem\",\"solvedMyProblem\",\"thumb-up\"\\],\\[\"Other\",\"otherUp\",\"thumb-up\"\\]\\],\\[\\[\"Missing the information I need\",\"missingTheInformationINeed\",\"thumb-down\"\\],\\[\"Too complicated / too many steps\",\"tooComplicatedTooManySteps\",\"thumb-down\"\\],\\[\"Out of date\",\"outOfDate\",\"thumb-down\"\\],\\[\"Samples / code issue\",\"samplesCodeIssue\",\"thumb-down\"\\],\\[\"Other\",\"otherDown\",\"thumb-down\"\\]\\],\\[\"Last updated 2026-04-20 UTC.\"\\],\\[\\],\\[\\]\\]\n\n\n\nInfo\n\n\nChat\n\n\nAPI",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:51.446111Z",
+      "section_path": "Google Docs API overview    Stay organized with collections      Save and categorize content based on your preferences. > Related topics",
+      "chunk_index": 1,
+      "token_count": 386,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_5547f2c00282",
+      "source_type": "mcp_registry",
+      "url": "https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server",
+      "domain": "developers.google.com",
+      "page_title": "Google Ads MCP server: Developer integration guide  |  Google Ads API  |  Google for Developers",
+      "content": "- **GitHub repository:** Find demos, examples, and report bugs or suggest\nfeatures in the [google-ads-mcp repository](https://github.com/googleads/google-ads-mcp).\n\nUse the [Issues tab](https://github.com/googleads/google-ads-mcp/issues) for bug\nreports and feature requests.\n\n- **Community:** Join the `#ads-api-ai-tools` channel on the\n[Google Advertising Community Discord](https://goo.gle/google-ads-discord).\n\nBy implementing this MCP server, you eliminate the need to write custom \"glue\ncode\" for Google Ads API authentication, resource fetching, and data parsing.\nThe server exposes specific **tools** that an LLM can discover and invoke\nautonomously.\n\n- **Protocol:** MCP (Model Context Protocol)\n- **Mode:** **Read-only** (current release)\n- **Language:** Python\n- **Transport:** Standard input/output (`stdio`)\n- **Authentication:** OAuth 2.0 or service account\n\n1. **Request:** A user submits a query such as _\"How is my campaign performance_\n_this week?\"_.\n2. **Discovery:** The LLM inspects its available tools and identifies the\n`google-ads-mcp` search capabilities.\n3. **Execution:** The MCP server executes the underlying Python logic to query\nthe Google Ads API.\n4. **Context injection:** Structured results are returned to the LLM's context\nwindow.\n5. **Response:** The LLM synthesizes the data into a human-readable answer.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:52.550987Z",
+      "section_path": "Google Ads MCP server: Developer integration guide    Stay organized with collections      Save and categorize content based on your preferences. > Technical overview > How the interaction loop works",
+      "chunk_index": 1,
+      "token_count": 335,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_53aec0838b20",
+      "source_type": "mcp_registry",
+      "url": "https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server",
+      "domain": "developers.google.com",
+      "page_title": "Google Ads MCP server: Developer integration guide  |  Google Ads API  |  Google for Developers",
+      "content": "Follow these steps to configure and use the Google Ads MCP server.\n\nBefore configuration, ensure you have the following credentials from the\n[Google Ads Developer console](https://developers.google.com/google-ads/api/docs/get-started/introduction):\n\n- **Developer token:** Your unique 22-character access string.\n- **Project ID:** Your Google Cloud project identifier.\n- **OAuth credentials:** Either an OAuth2 Client ID/Client secret pair, or a set\nof [application default credentials](https://docs.cloud.google.com/docs/authentication/application-default-credentials).\n\nTo integrate the server into an MCP-compatible host, add the following entry to\nyour host's MCP configuration file, such as `settings.json`. Consult your host's\ndocumentation for the exact location and filename of this configuration.\n\nJSON\n\n```\n{\n  \"mcpServers\": {\n    \"google-ads-mcp\": {\n      \"command\": \"pipx\",\n      \"args\": [\\\n        \"run\",\\\n        \"--spec\",\\\n        \"git+https://github.com/googleads/google-ads-mcp.git\",\\\n        \"google-ads-mcp\"\\\n      ],\n      \"env\": {\n        \"GOOGLE_PROJECT_ID\": \"YOUR_PROJECT_ID\",\n        \"GOOGLE_ADS_DEVELOPER_TOKEN\": \"YOUR_DEVELOPER_TOKEN\"\n      }\n    }\n  }\n}\n```\n\nInstead of hosting this MCP server locally, you can host it on Google Cloud Run\nor on any other cloud-based infrastructure. This is useful if you want to share\nthe server across different agents or run it as a web service.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:52.551033Z",
+      "section_path": "Google Ads MCP server: Developer integration guide    Stay organized with collections      Save and categorize content based on your preferences. > Deployment on Google Cloud",
+      "chunk_index": 2,
+      "token_count": 352,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_29208dfb7ad8",
+      "source_type": "mcp_registry",
+      "url": "https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server",
+      "domain": "developers.google.com",
+      "page_title": "Google Ads MCP server: Developer integration guide  |  Google Ads API  |  Google for Developers",
+      "content": "1. A Google Cloud project.\n2. The [`gcloud` command-line tool](https://cloud.google.com/cli) installed,\nauthenticated and with an active project configured:\n\n\n\n\n\n\n\n\n```\ngcloud config set project YOUR_PROJECT_ID\n```\n\nYou can use Cloud Build to build and push the image to the Artifact Registry\nwithout needing Docker installed locally.\n\n1. Create a repository in Artifact Registry:\n\n\n\n\n\n\n\n\n```\ngcloud artifacts repositories create mcp-servers --repository-format=docker --location=us-central1\n```\n\n2. Build and submit the image:\n\n\n\n\n\n\n\n\n```\ngcloud builds submit --tag us-central1-docker.pkg.dev/YOUR_PROJECT_ID/mcp-servers/google-ads-mcp:latest .\n```\n\n\nNote that this step must be performed whenever you want to update the\ndeployed server to the latest version.\n\nMake sure to set the required environment variables:\n\n- `GOOGLE_PROJECT_ID`: Your Google Cloud project ID.\n- `GOOGLE_ADS_DEVELOPER_TOKEN`: The [developer token](https://developers.google.com/google-ads/api/docs/api-policy/developer-token)\nyou want the MCP server to use.\n- `GOOGLE_ADS_MCP_OAUTH_CLIENT_ID`: The OAuth Client ID you want the MCP\nserver to use.\n- `GOOGLE_ADS_MCP_OAUTH_CLIENT_SECRET`: The OAuth Client secret you want the MCP\nserver to use.\n- `GOOGLE_ADS_MCP_BASE_URL`: The base URL where your MCP server is accessible:\nthis will be automatically assigned by Google Cloud Run after your first\ndeployment. You can update the environment variables after deployment.\n- `FASTMCP_HOST`: Set this to 0.0.0.0 to allow FastMCP to accept connections\nfrom all IP addresses.\n\n```\ngcloud run deploy google-ads-mcp \\\n  --image us-central1-docker.pkg.dev/YOUR_PROJECT_ID/mcp-servers/google-ads-mcp:latest \\\n  --platform managed \\\n  --region us-central1 \\\n  --allow-unauthenticated \\\n  --set-env-vars=\"GOOGLE_PROJECT_ID=YOUR_PROJECT_ID,GOOGLE_ADS_DEVELOPER_TOKEN=YOUR_DEVELOPER_TOKEN,GOOGLE_ADS_MCP_OAUTH_CLIENT_ID=YOUR_CLIENT_ID,GOOGLE_ADS_MCP_OAUTH_CLIENT_SECRET=YOUR_CLIENT_SECRET,GOOGLE_ADS_MCP_BASE_URL=YOUR_BASE_URL,FASTMCP_HOST=0.0.0.0\"\n```",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:52.551081Z",
+      "section_path": "Google Ads MCP server: Developer integration guide    Stay organized with collections      Save and categorize content based on your preferences. > Deployment on Google Cloud > Deploy to Google Cloud Run",
+      "chunk_index": 3,
+      "token_count": 502,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_bfc1d6e3b94d",
+      "source_type": "auth_docs",
+      "url": "https://developers.google.com/identity/protocols/oauth2",
+      "domain": "developers.google.com",
+      "page_title": "Using OAuth 2.0 to Access Google APIs  |  Authorization  |  Google for Developers",
+      "content": "- On this page\n- [Basic steps](https://developers.google.com/identity/protocols/oauth2#basicsteps)\n  - [1\\. Obtain OAuth 2.0 credentials from the Google API Console.](https://developers.google.com/identity/protocols/oauth2#1.-obtain-oauth-2.0-credentials-from-the-google-api-console.)\n  - [2\\. Obtain an access token from the Google Authorization Server.](https://developers.google.com/identity/protocols/oauth2#2.-obtain-an-access-token-from-the-google-authorization-server.)\n  - [3\\. Examine scopes of access granted by the user.](https://developers.google.com/identity/protocols/oauth2#scope-response)\n  - [4\\. Send the access token to an API.](https://developers.google.com/identity/protocols/oauth2#4.-send-the-access-token-to-an-api.)\n  - [5\\. Refresh the access token, if necessary.](https://developers.google.com/identity/protocols/oauth2#5.-refresh-the-access-token,-if-necessary.)\n- [Scenarios](https://developers.google.com/identity/protocols/oauth2#scenarios)\n  - [Web server applications](https://developers.google.com/identity/protocols/oauth2#webserver)\n  - [Installed applications](https://developers.google.com/identity/protocols/oauth2#installed)\n  - [Client-side (JavaScript) applications](https://developers.google.com/identity/protocols/oauth2#clientside)\n  - [Applications on limited-input devices](https://developers.google.com/identity/protocols/oauth2#device)\n  - [Service accounts](https://developers.google.com/identity/protocols/oauth2#serviceaccount)\n- [Token size](https://developers.google.com/identity/protocols/oauth2#size)\n- [Refresh token expiration](https://developers.google.com/identity/protocols/oauth2#expiration)\n  - [Dealing with session control policies for Google Cloud Platform (GCP) organizations](https://developers.google.com/identity/protocols/oauth2#gcp)\n- [Client libraries](https://developers.google.com/identity/protocols/oauth2#libraries)\n\n![Spark icon](https://developers.google.com/_static/images/icons/spark.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:51.818395Z",
+      "section_path": "Using OAuth 2.0 to Access Google APIs    Stay organized with collections      Save and categorize content based on your preferences.",
+      "chunk_index": 0,
+      "token_count": 492,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_ebe4dea8d0a6",
+      "source_type": "auth_docs",
+      "url": "https://developers.google.com/identity/protocols/oauth2",
+      "domain": "developers.google.com",
+      "page_title": "Using OAuth 2.0 to Access Google APIs  |  Authorization  |  Google for Developers",
+      "content": "outlined\\_flag\n\n- Google APIs use the OAuth 2.0 protocol for authentication and authorization, supporting various application scenarios.\n\n- The basic steps for accessing a Google API using OAuth 2.0 involve obtaining credentials, getting an access token from the Google Authorization Server, examining granted scopes, sending the access token to the API, and refreshing the token if needed.\n\n- Different application types, such as web server, installed, client-side, limited-input device, and service accounts, have specific authorization flows.\n\n- Refresh tokens can expire for various reasons, including user actions or policy settings.\n\n- Client libraries are available to simplify the implementation of OAuth 2.0 with Google APIs.\n\n\nGoogle APIs use the [OAuth 2.0 protocol](https://tools.ietf.org/html/rfc6749) for authentication and authorization. Google supports common OAuth\n2.0 scenarios such as those for web server, client-side, installed, and limited-input device\napplications.\n\nTo begin, obtain OAuth 2.0 client credentials from the\n[Google API Console](https://console.developers.google.com/). Then your client application requests an\naccess token from the Google Authorization Server, extracts a token from the response, and\nsends the token to the Google API that you want to access. For an interactive demonstration\nof using OAuth 2.0 with Google (including the option to use your own client credentials),\nexperiment with the [OAuth 2.0\\\\\nPlayground](https://developers.google.com/oauthplayground/).\n\nThis page gives an overview of the OAuth 2.0 authorization scenarios that Google supports,\nand provides links to more detailed content. For details about using OAuth 2.0 for\nauthentication, see [OpenID Connect](https://developers.google.com/identity/protocols/oauth2/openid-connect).",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:51.818478Z",
+      "section_path": "Using OAuth 2.0 to Access Google APIs    Stay organized with collections      Save and categorize content based on your preferences. > Page Summary",
+      "chunk_index": 1,
+      "token_count": 449,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_59d34106eae4",
+      "source_type": "auth_docs",
+      "url": "https://developers.google.com/identity/protocols/oauth2",
+      "domain": "developers.google.com",
+      "page_title": "Using OAuth 2.0 to Access Google APIs  |  Authorization  |  Google for Developers",
+      "content": "All applications follow a basic pattern when accessing a Google API using OAuth 2.0. At a\nhigh level, you follow five steps:\n\nVisit the [Google API Console](https://console.developers.google.com/) to obtain OAuth 2.0 credentials such as a client\nID and client secret that are known to both Google and your application. The set of values\nvaries based on what type of application you are building. For example, a JavaScript\napplication does not require a secret, but a web server application does.\n\n**You must create an OAuth client appropriate for the platform on which your app will run,**\n**for example:**\n\n- android\n\nFor [Android apps](https://developer.android.com/identity/authorization), use the\nAndroid client type.\n\n- ![](https://developers.google.com/static/identity/assets/images/ios.svg)\nFor [iOS and macOS apps](https://developers.google.com/identity/protocols/oauth2/native-app#ios), use\nthe iOS client type.\n\n- code\n\nFor [server-side](https://developers.google.com/identity/protocols/oauth2/web-server) or [JavaScript web apps](https://developers.google.com/identity/protocols/oauth2/javascript-implicit-flow) use\nthe Web application client type. Don't use this client type for any other\napplication, such as native or mobile apps.\n\n- chrome\\_extension\n\nFor [Chrome\\\\\nextensions](https://developer.chrome.com/docs/extensions/mv3/tut_oauth/), use the **Chrome Extension** client type.\n\n- tv\n\nFor [limited\\\\\ninput devices](https://developers.google.com/identity/protocols/oauth2/limited-input-device#creatingcred), such as TV or embedded devices, use the TVs and Limited Input\ndevices client type.\n\n- host\n\nFor [server-to-server\\\\\ninteractions](https://developers.google.com/identity/protocols/oauth2/service-account#creatinganaccount), use service accounts. No OAuth Client ID is required.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:51.818515Z",
+      "section_path": "Using OAuth 2.0 to Access Google APIs    Stay organized with collections      Save and categorize content based on your preferences. > Basic steps > 1. Obtain OAuth 2.0 credentials from the Google API Console.",
+      "chunk_index": 2,
+      "token_count": 450,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_94c62de8430f",
+      "source_type": "auth_docs",
+      "url": "https://developers.google.com/identity/protocols/oauth2",
+      "domain": "developers.google.com",
+      "page_title": "Using OAuth 2.0 to Access Google APIs  |  Authorization  |  Google for Developers",
+      "content": "Before your application can access private data using a Google API, it must obtain an\naccess token that grants access to that API. A single access token can grant varying degrees\nof access to multiple APIs. A variable parameter called `scope` controls the set\nof resources and operations that an access token permits. During the access-token request,\nyour application sends one or more values in the `scope` parameter.\n\nThere are several ways to make this request, and they vary based on the type of application\nyou are building. For example, a JavaScript application might request an access token using\na browser redirect to Google, while an application installed on a device that has no browser\nuses web service requests. For more information on how to make the request, see\n[Scenarios](https://developers.google.com/identity/protocols/oauth2#scenarios) and the detailed implementation guides for each app type.\n\n\nSome requests require an authentication step where the user logs in with their Google\naccount. After logging in, the user is asked whether they are willing to grant one or more\npermissions that your application is requesting. This process is called\nuser consent.\n\nIf the user grants at least one permission, the Google Authorization Server sends your\napplication an access token (or an authorization code that your application can use to\nobtain an access token) and a list of scopes of access granted by that token. If the user\ndoes not grant the permission, the server returns an error.\n\nIt is generally a best practice to request scopes incrementally, at the time access is required,\nrather than up front. For example, an app that wants to support saving an event to a calendar\nshould not request Google Calendar access until the user presses the \"Add to Calendar\" button; see\n[Incremental authorization](https://developers.google.com/identity/protocols/oauth2/web-server#incrementalAuth).",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:51.818552Z",
+      "section_path": "Using OAuth 2.0 to Access Google APIs    Stay organized with collections      Save and categorize content based on your preferences. > Basic steps > 2. Obtain an access token from the Google Authorization Server.",
+      "chunk_index": 3,
+      "token_count": 476,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_1805c5c0e7c3",
+      "source_type": "auth_docs",
+      "url": "https://developers.google.com/identity/protocols/oauth2",
+      "domain": "developers.google.com",
+      "page_title": "Using OAuth 2.0 to Access Google APIs  |  Authorization  |  Google for Developers",
+      "content": "Compare the scopes included in the access token response to the scopes required to access\nfeatures and functionality of your application dependent upon access to a related Google\nAPI. Disable any features of your app unable to function without access to the related\nAPI.\n\nThe scope included in your request may not match the scope included in your response, even\nif the user granted all requested scopes. Refer to the documentation for each Google API for\nthe scopes required for access. An API may map multiple scope string values to a single\nscope of access, returning the same scope string for all values allowed in the request.\nExample: the Google People API may return a scope of\n`https://www.googleapis.com/auth/contacts` when an app requested a user authorize\na scope of `https://www.google.com/m8/feeds/`; the Google People API method\n[`people.updateContact`](https://developers.google.com/people/api/rest/v1/people/updateContact)\nrequires a granted scope of `https://www.googleapis.com/auth/contacts`.\n\nAfter an application obtains an access token, it sends the token to a Google API in an\n[HTTP Authorization request header](https://developer.mozilla.org/docs/Web/HTTP/Headers/Authorization).\nIt is possible to send tokens as URI query-string parameters, but we don't recommend it,\nbecause URI parameters can end up in log files that are not completely secure. Also, it is\ngood REST practice to avoid creating unnecessary URI parameter names.\n\nAccess tokens are valid only for the set of operations and resources described in the\n`scope` of the token request. For example, if an access token is issued for the\nGoogle Calendar API, it does not grant access to the Google Contacts API. You can, however,\nsend that access token to the Google Calendar API multiple times for similar operations.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:51.818589Z",
+      "section_path": "Using OAuth 2.0 to Access Google APIs    Stay organized with collections      Save and categorize content based on your preferences. > Basic steps > 4. Send the access token to an API.",
+      "chunk_index": 4,
+      "token_count": 450,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_93ce07273505",
+      "source_type": "auth_docs",
+      "url": "https://developers.google.com/identity/protocols/oauth2",
+      "domain": "developers.google.com",
+      "page_title": "Using OAuth 2.0 to Access Google APIs  |  Authorization  |  Google for Developers",
+      "content": "Tokens can vary in size, up to the following limits:\n\n- code\n**Authorization codes**\n\n256 bytes\n\n- contextual\\_token\n**Access tokens**\n\n2048 bytes\n\n- restore\\_page\n**Refresh tokens**\n\n512 bytes\n\n\nAccess tokens returned by Google Cloud's\n[Security Token Service API](https://cloud.google.com/iam/docs/reference/sts/rest)\nare structured similarly to Google API OAuth 2.0 access tokens but have different token size\nlimits. For details, see the\n[API documentation](https://cloud.google.com/iam/docs/reference/sts/rest/v1/TopLevel/token#response-body).\n\nGoogle reserves the right to change token size within these limits, and your application\nmust support variable token sizes accordingly.\n\nYou must write your code to anticipate the possibility that a granted refresh token might\nno longer work. A refresh token might stop working for one of these reasons:\n\n- shield\\_locked\n\nThe user has\n[revoked your app's access](https://support.google.com/accounts/answer/3466521#remove-access).\n- The refresh token has not been used for six months.\n- The user changed passwords and the refresh token contains Gmail scopes.\n- The user account has exceeded a maximum number of granted (live) refresh tokens.\n- The user granted\n[time-based access](https://developers.google.com/identity/protocols/oauth2/web-server#time-based-access)\nto your app and the access expired.\n- If an admin\n[set any of the services requested in your app's scopes to Restricted](https://support.google.com/a/answer/7281227#restrictaccess) (the error\nis `admin_policy_enforced`).\n\n- cloud\\_lock\n\nFor [Google Cloud Platform APIs](https://developers.google.com/identity/protocols/oauth2#gcp) \\- the session length set by the admin\ncould have been exceeded.\n\n\nA Google Cloud Platform project with an OAuth consent screen configured for an external\nuser type and a publishing status of \"Testing\" is issued a refresh token expiring in\n7 days, unless the only OAuth scopes requested are a subset of name, email address, and\nuser profile (through the `\n        userinfo.email, userinfo.profile, openid` scopes, or their\n[OpenID Connect equivalents](https://developers.google.com/identity/protocols/oauth2/scopes#openid-connect)).\n\n\nThere is currently a limit of 100 refresh tokens per Google Account per OAuth 2.0 client ID.\nIf the limit is reached, creating a new refresh token automatically invalidates the oldest\nrefresh token without warning. This limit does not apply to\n[service accounts](https://developers.google.com/identity/protocols/oauth2/service-account).\n\nThere is also a larger limit on the total number of refresh tokens a user account or\nservice account can have across all clients. Most normal users won't exceed this limit but a\ndeveloper's account used to test an implementation might.\n\nIf you need to authorize multiple programs, machines, or devices, one workaround is to\nlimit the number of clients that you authorize per Google Account to 15 or 20. If you are a\n[Google Workspace admin](https://support.google.com/a/answer/172176),\nyou can create additional users with administrative privileges and use them to authorize\nsome of the clients.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:51.818797Z",
+      "section_path": "Using OAuth 2.0 to Access Google APIs    Stay organized with collections      Save and categorize content based on your preferences. > Refresh token expiration",
+      "chunk_index": 9,
+      "token_count": 779,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_d5bf68d52ed4",
+      "source_type": "auth_docs",
+      "url": "https://developers.google.com/identity/protocols/oauth2",
+      "domain": "developers.google.com",
+      "page_title": "Using OAuth 2.0 to Access Google APIs  |  Authorization  |  Google for Developers",
+      "content": "The following client libraries integrate with popular frameworks, which makes implementing\nOAuth 2.0 simpler. More features will be added to the libraries over time.\n\n- [Google Auth Library for Java](https://github.com/googleapis/google-auth-library-java)\n- [Google API Client Library for Python](https://github.com/googleapis/google-api-python-client)\n- [Google API Client Library for Dart](https://dart.dev/googleapis/)\n- [Google API Client Library for Go](https://github.com/google/google-api-go-client)\n- [Google API Client Library for .NET](https://developers.google.com/api-client-library/dotnet/guide/aaa_oauth)\n- [Google API Client Library for Ruby](https://github.com/googleapis/google-api-ruby-client)\n- [Google API Client Library for PHP](https://github.com/googleapis/google-api-php-client)\n- [Google API Client Library for JavaScript](https://github.com/google/google-api-javascript-client)\n- [GTMAppAuth - OAuth Client Library for Mac and iOS](https://github.com/google/GTMAppAuth)\n\nWas this helpful?\n\n\n\n Send feedback\n\n\n\nExcept as otherwise noted, the content of this page is licensed under the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/), and code samples are licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0). For details, see the [Google Developers Site Policies](https://developers.google.com/site-policies). Java is a registered trademark of Oracle and/or its affiliates.\n\nLast updated 2026-05-26 UTC.\n\n\nNeed to tell us more?\n\n\n\n\n\n\n\\[\\[\\[\"Easy to understand\",\"easyToUnderstand\",\"thumb-up\"\\],\\[\"Solved my problem\",\"solvedMyProblem\",\"thumb-up\"\\],\\[\"Other\",\"otherUp\",\"thumb-up\"\\]\\],\\[\\[\"Missing the information I need\",\"missingTheInformationINeed\",\"thumb-down\"\\],\\[\"Too complicated / too many steps\",\"tooComplicatedTooManySteps\",\"thumb-down\"\\],\\[\"Out of date\",\"outOfDate\",\"thumb-down\"\\],\\[\"Samples / code issue\",\"samplesCodeIssue\",\"thumb-down\"\\],\\[\"Other\",\"otherDown\",\"thumb-down\"\\]\\],\\[\"Last updated 2026-05-26 UTC.\"\\],\\[\\],\\[\\]\\]\n\n\n\nInfo\n\n\nChat\n\n\nAPI",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:51.818867Z",
+      "section_path": "Using OAuth 2.0 to Access Google APIs    Stay organized with collections      Save and categorize content based on your preferences. > Client libraries",
+      "chunk_index": 11,
+      "token_count": 512,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_ab1f04223f4b",
+      "source_type": "auth_docs",
+      "url": "https://developers.google.com/identity/protocols/oauth2",
+      "domain": "developers.google.com",
+      "page_title": "Using OAuth 2.0 to Access Google APIs  |  Authorization  |  Google for Developers",
+      "content": "bug\\_reportfullscreenclose\\_fullscreenclose\n\n- On this page\n- [Basic steps](https://developers.google.com/identity/protocols/oauth2#basicsteps)\n  - [1\\. Obtain OAuth 2.0 credentials from the Google API Console.](https://developers.google.com/identity/protocols/oauth2#1.-obtain-oauth-2.0-credentials-from-the-google-api-console.)\n  - [2\\. Obtain an access token from the Google Authorization Server.](https://developers.google.com/identity/protocols/oauth2#2.-obtain-an-access-token-from-the-google-authorization-server.)\n  - [3\\. Examine scopes of access granted by the user.](https://developers.google.com/identity/protocols/oauth2#scope-response)\n  - [4\\. Send the access token to an API.](https://developers.google.com/identity/protocols/oauth2#4.-send-the-access-token-to-an-api.)\n  - [5\\. Refresh the access token, if necessary.](https://developers.google.com/identity/protocols/oauth2#5.-refresh-the-access-token,-if-necessary.)\n- [Scenarios](https://developers.google.com/identity/protocols/oauth2#scenarios)\n  - [Web server applications](https://developers.google.com/identity/protocols/oauth2#webserver)\n  - [Installed applications](https://developers.google.com/identity/protocols/oauth2#installed)\n  - [Client-side (JavaScript) applications](https://developers.google.com/identity/protocols/oauth2#clientside)\n  - [Applications on limited-input devices](https://developers.google.com/identity/protocols/oauth2#device)\n  - [Service accounts](https://developers.google.com/identity/protocols/oauth2#serviceaccount)\n- [Token size](https://developers.google.com/identity/protocols/oauth2#size)\n- [Refresh token expiration](https://developers.google.com/identity/protocols/oauth2#expiration)\n  - [Dealing with session control policies for Google Cloud Platform (GCP) organizations](https://developers.google.com/identity/protocols/oauth2#gcp)\n- [Client libraries](https://developers.google.com/identity/protocols/oauth2#libraries)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:51.818905Z",
+      "section_path": "Using OAuth 2.0 to Access Google APIs    Stay organized with collections      Save and categorize content based on your preferences. > Page info > On this page",
+      "chunk_index": 12,
+      "token_count": 484,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_65782eb899c1",
+      "source_type": "api_reference",
+      "url": "https://developers.google.com/workspace/docs/api/how-tos/overview",
+      "domain": "developers.google.com",
+      "page_title": "Google Docs API overview  |  Google for Developers",
+      "content": "bug\\_reportfullscreenclose\\_fullscreenclose\n\n- On this page\n- [Related topics](https://developers.google.com/workspace/docs/api/how-tos/overview#related-topics)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:51.446127Z",
+      "section_path": "Google Docs API overview    Stay organized with collections      Save and categorize content based on your preferences. > Page info > On this page",
+      "chunk_index": 2,
+      "token_count": 40,
+      "quality_score": 0.58
+    },
+    {
+      "id": "ev_723d40a70a87",
+      "source_type": "mcp_registry",
+      "url": "https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server",
+      "domain": "developers.google.com",
+      "page_title": "Google Ads MCP server: Developer integration guide  |  Google Ads API  |  Google for Developers",
+      "content": "- On this page\n- [Community resources and support](https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server#community_resources_and_support)\n- [Technical overview](https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server#technical-overview)\n  - [Key specifications](https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server#key-specifications)\n  - [How the interaction loop works](https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server#how-the-interaction-loop-works)\n- [Get started](https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server#get-started)\n  - [Prerequisites](https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server#prerequisites)\n  - [Configuration](https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server#configuration)\n- [Deployment on Google Cloud](https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server#gcp-deployment)\n  - [Prerequisites](https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server#gcp-prerequisites)\n  - [Build and push a Docker image](https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server#gcp-build-push)\n  - [Deploy to Google Cloud Run](https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server#gcp-deploy)\n  - [Configure the MCP client](https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server#gcp-configure-client)\n- [Core capabilities (tools)](https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server#core_capabilities_tools)\n- [Sample prompts to start](https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server#sample-prompts-to-start)\n\nThe **Model Context Protocol (MCP)** is an open standard that enables Large\nLanguage Models (LLMs) to securely interact with external data and applications.\nThe **Google Ads MCP server** provides a standardized bridge to the Google Ads API,\nwhich lets AI agents analyze and retrieve campaign data using natural language.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:52.550940Z",
+      "section_path": "Google Ads MCP server: Developer integration guide    Stay organized with collections      Save and categorize content based on your preferences.",
+      "chunk_index": 0,
+      "token_count": 527,
+      "quality_score": 0.58
+    },
+    {
+      "id": "ev_7d398dddc22c",
+      "source_type": "mcp_registry",
+      "url": "https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server",
+      "domain": "developers.google.com",
+      "page_title": "Google Ads MCP server: Developer integration guide  |  Google Ads API  |  Google for Developers",
+      "content": "After deployment, update your MCP client configuration (for example,\n`~/.gemini/settings.json`) to use the Cloud Run URL.\n\n```\n{\n  \"mcpServers\": {\n    \"google-ads-mcp\": {\n      \"httpUrl\": \"https://your-cloud-run-url.a.run.app/mcp\"\n    }\n  }\n}\n```\n\nThe server exposes tools designed for account discovery and performance\nreporting:\n\n- **`list_accessible_customers`**: Returns the list of Google Ads customer IDs\nand account names accessible to the authenticated user.\n- **`search`**: Executes\n[Google Ads Query Language (GAQL)](https://developers.google.com/google-ads/api/docs/query/overview)\nrequests to fetch resource metrics, budgets, and status.\n- **`get_resource_metadata`**: Retrieves metadata about a Google Ads API\nresource type, for example \"campaign\".\n\nThis is useful to understand the structure of the data and what fields are\navailable for querying.\n\n**Ask what the server can do**:\n\n```\nWhat can the google-ads-mcp server do?\n```\n\n**Ask about customers**:\n\n```\nWhat customers do I have access to?\n```\n\n**Ask about campaigns**:\n\n```\nHow many active campaigns do I have?\nHow is my campaign performance this week?\nGive me a report of the top spending campaigns split by device category over the\nlast 7 days for account 1234567890\n```\n\nWas this helpful?\n\n\n\n Send feedback\n\n\n\nExcept as otherwise noted, the content of this page is licensed under the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/), and code samples are licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0). For details, see the [Google Developers Site Policies](https://developers.google.com/site-policies). Java is a registered trademark of Oracle and/or its affiliates.\n\nLast updated 2026-06-29 UTC.\n\n\nNeed to tell us more?\n\n\n\n\n\n\n\\[\\[\\[\"Easy to understand\",\"easyToUnderstand\",\"thumb-up\"\\],\\[\"Solved my problem\",\"solvedMyProblem\",\"thumb-up\"\\],\\[\"Other\",\"otherUp\",\"thumb-up\"\\]\\],\\[\\[\"Missing the information I need\",\"missingTheInformationINeed\",\"thumb-down\"\\],\\[\"Too complicated / too many steps\",\"tooComplicatedTooManySteps\",\"thumb-down\"\\],\\[\"Out of date\",\"outOfDate\",\"thumb-down\"\\],\\[\"Samples / code issue\",\"samplesCodeIssue\",\"thumb-down\"\\],\\[\"Other\",\"otherDown\",\"thumb-down\"\\]\\],\\[\"Last updated 2026-06-29 UTC.\"\\],\\[\\],\\[\\]\\]",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:52.551140Z",
+      "section_path": "Google Ads MCP server: Developer integration guide    Stay organized with collections      Save and categorize content based on your preferences. > Sample prompts to start",
+      "chunk_index": 4,
+      "token_count": 569,
+      "quality_score": 0.58
+    },
+    {
+      "id": "ev_038a6168682b",
+      "source_type": "developer_portal",
+      "url": "https://developers.google.com/workspace/docs",
+      "domain": "developers.google.com",
+      "page_title": "Google Docs  |  Google for Developers",
+      "content": "Explore add-on samples by featured Google products, language, sample type, and type.\n\n\n\n[Explore catalog](https://developers.google.com/workspace/add-ons/samples?product=googledocs)\n\nUse the REST APIs below to interact programmatically with Google Docs.\n\n**Access and update Google Docs programmatically**, just like any other user.\n\n\n\n[View documentation](https://developers.google.com/workspace/docs/api/how-tos/overview) [Try it out](https://developers.google.com/workspace/docs/api/reference/rest/v1/documents/get)\n\nExcept as otherwise noted, the content of this page is licensed under the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/), and code samples are licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0). For details, see the [Google Developers Site Policies](https://developers.google.com/site-policies). Java is a registered trademark of Oracle and/or its affiliates.\n\nLast updated 2026-05-19 UTC.\n\n\nNeed to tell us more?\n\n\n\n\n\n\n\\[\\[\\[\"Easy to understand\",\"easyToUnderstand\",\"thumb-up\"\\],\\[\"Solved my problem\",\"solvedMyProblem\",\"thumb-up\"\\],\\[\"Other\",\"otherUp\",\"thumb-up\"\\]\\],\\[\\[\"Missing the information I need\",\"missingTheInformationINeed\",\"thumb-down\"\\],\\[\"Too complicated / too many steps\",\"tooComplicatedTooManySteps\",\"thumb-down\"\\],\\[\"Out of date\",\"outOfDate\",\"thumb-down\"\\],\\[\"Samples / code issue\",\"samplesCodeIssue\",\"thumb-down\"\\],\\[\"Other\",\"otherDown\",\"thumb-down\"\\]\\],\\[\"Last updated 2026-05-19 UTC.\"\\],\\[\\],\\[\\]\\]\n\n\n\nInfo\n\n\nChat\n\n\nAPI",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:52.249989Z",
+      "section_path": "Enhance the Google Docs experience > Automate Google Docs with simple code > [Docs API](https://developers.google.com/workspace/docs/api/how-tos/overview)",
+      "chunk_index": 1,
+      "token_count": 383,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_f3aeeeaa7310",
+      "source_type": "official_docs",
+      "url": "https://developers.google.com/google-ads",
+      "domain": "developers.google.com",
+      "page_title": "Google Ads  |  Google for Developers",
+      "content": "Create and manage ads that reach users looking for your products or services on Google Search, Display, YouTube and more.\n\n\n[Get started on Google Ads](https://ads.google.com/home/?sourceid=awo&subid=ww-ww-ep-developers_ads)\n\n[![](https://developers.google.com/static/ads/images/150512_Ads_AP01-02.png)](https://developers.google.com/google-ads/apps)\n\nUse Google Ads to drive installs, re-engagement, and lifetime value for your app.\n\n\n[Learn about app promotion](https://developers.google.com/google-ads/apps)\n\n[![](https://developers.google.com/static/ads/images/150512_Ads_AP01-03.png)](http://www.google.com/retail)\n\nList your products and make them available for online and local shoppers to find and buy.\n\n\n[Learn about Google Shopping](http://www.google.com/retail) [Content API for Shopping](https://developers.google.com/shopping-content)\n\n[![](https://developers.google.com/static/ads/images/150512_Ads_AP01-04.png)](https://developers.google.com/google-ads/api/docs/start)\n\nSave time by automating your Google Ads campaign management. Build an application to interact directly with the Google Ads platform or write programmatic scripts.\n\n\n[Google Ads API](https://developers.google.com/google-ads/api/docs/start) [Google Ads Scripts](https://developers.google.com/google-ads/scripts)\n\n[![](https://developers.google.com/static/google-ads/webhook/images/webhook.png)](https://developers.google.com/google-ads/webhook/docs/overview)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:51.405793Z",
+      "section_path": "[Google Ads](https://ads.google.com/home/?sourceid=awo&subid=ww-ww-ep-developers_ads) > [Google Ads App Promotion](https://developers.google.com/google-ads/apps) > [Google Ads API and Google Ads scripts](https://developers.google.com/google-ads/api/docs/start)",
+      "chunk_index": 0,
+      "token_count": 360,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_b97da6788347",
+      "source_type": "official_docs",
+      "url": "https://developers.google.com/google-ads",
+      "domain": "developers.google.com",
+      "page_title": "Google Ads  |  Google for Developers",
+      "content": "Use webhook to send data from Google Ads to your CRM system.\n\n\n[Lead form Webhook](https://developers.google.com/google-ads/webhook/docs/overview)\n\n\n\n\n\\[\\[\\[\"Easy to understand\",\"easyToUnderstand\",\"thumb-up\"\\],\\[\"Solved my problem\",\"solvedMyProblem\",\"thumb-up\"\\],\\[\"Other\",\"otherUp\",\"thumb-up\"\\]\\],\\[\\[\"Missing the information I need\",\"missingTheInformationINeed\",\"thumb-down\"\\],\\[\"Too complicated / too many steps\",\"tooComplicatedTooManySteps\",\"thumb-down\"\\],\\[\"Out of date\",\"outOfDate\",\"thumb-down\"\\],\\[\"Samples / code issue\",\"samplesCodeIssue\",\"thumb-down\"\\],\\[\"Other\",\"otherDown\",\"thumb-down\"\\]\\],\\[\\],\\[\\],\\[\\]\\]\n\n\n\nInfo\n\n\nChat\n\n\nAPI\n\nbug\\_reportfullscreenclose\\_fullscreenclose\n\nNo additional info available on this page.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:51.405851Z",
+      "section_path": "[Google Ads](https://ads.google.com/home/?sourceid=awo&subid=ww-ww-ep-developers_ads) > Page info",
+      "chunk_index": 1,
+      "token_count": 181,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_1047fcf259ab",
+      "source_type": "developer_portal",
+      "url": "https://developers.google.com/workspace/docs",
+      "domain": "developers.google.com",
+      "page_title": "Google Docs  |  Google for Developers",
+      "content": "Insert interactive content, powered by your account data or an external service, with **add-ons**.\n\n- Add an interface to automate your custom style guide checks in Docs.\n- Build customized workflow improvements.\n- Connect users' Docs with a third-party service.\n\n[View documentation](https://developers.google.com/workspace/add-ons/editors/gsao) [Learn about add-ons](https://developers.google.com/workspace/add-ons)\n\nAnyone can use **Apps Script** to automate and enhance Google Docs in a web-based, low-code environment.\n\n- Create customized Docs based on Google Form submissions.\n- Add custom menus, dialog boxes, and sidebars.\n- Connect Docs to other Google Workspace apps or third-party services.\n\n[View documentation](https://developers.google.com/apps-script/guides/docs) [Learn about Apps Script](https://developers.google.com/apps-script)\n\n![](https://developers.google.com/static/workspace/add-ons/samples/images/travel-concierge-test1-3.png)\n\nDiscover and try Google Docs samples that help you get started with building AI features using AI models, agents, platforms, and more.\n\n\n\nsmart\\_toy\n\nBuild an AI agent add-on that integrates with ADK and Vertex AI Agent Engine.\n\n\n\n[Open tutorial](https://developers.google.com/workspace/add-ons/samples/travel-concierge)\n\nsmart\\_toy",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:52.249945Z",
+      "section_path": "Enhance the Google Docs experience > Automate Google Docs with simple code > Travel Concierge agent",
+      "chunk_index": 0,
+      "token_count": 321,
+      "quality_score": 0.44
+    },
+    {
+      "id": "ev_506a17c3fd70",
+      "source_type": "developer_portal",
+      "url": "https://developers.google.com/workspace/docs",
+      "domain": "developers.google.com",
+      "page_title": "Google Docs  |  Google for Developers",
+      "content": "bug\\_reportfullscreenclose\\_fullscreenclose\n\nNo additional info available on this page.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:52.250002Z",
+      "section_path": "Enhance the Google Docs experience > Page info",
+      "chunk_index": 2,
+      "token_count": 21,
+      "quality_score": 0.44
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Google Ads API for managing advertising campaigns.",
+      "evidence_ids": [
+        "ev_5547f2c00282"
+      ]
+    },
+    "category": {
+      "value": "Marketing Ads Email and Social",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "OAuth 2.0, Service Account",
+      "evidence_ids": [
+        "ev_f6f78257c41f",
+        "ev_5547f2c00282"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_5547f2c00282"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API",
+      "evidence_ids": [
+        "ev_5547f2c00282"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_5547f2c00282"
+      ]
+    },
+    "mcp": {
+      "value": "Official MCP",
+      "evidence_ids": [
+        "ev_5547f2c00282"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_5547f2c00282"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_5547f2c00282"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.88,
+    "fields_checked": 8,
+    "fields_supported": 7,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.88,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.88 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

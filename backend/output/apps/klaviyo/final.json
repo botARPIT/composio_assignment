@@ -1,0 +1,353 @@
+{
+  "app": {
+    "id": 36,
+    "name": "Klaviyo",
+    "website": "developers.klaviyo.com",
+    "category_hint": "Marketing Ads Email and Social"
+  },
+  "documentation_map": {
+    "app_name": "Klaviyo",
+    "official_domain": "developers.klaviyo.com",
+    "homepage": {
+      "url": "https://developers.klaviyo.com",
+      "title": "Klaviyo",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://developers.klaviyo.com/en",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://developers.klaviyo.com/en",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://developers.klaviyo.com/en",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://developers.klaviyo.com/en",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://developers.klaviyo.com/en",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "Klaviyo",
+      "official_domain": "developers.klaviyo.com",
+      "items": [
+        {
+          "url": "https://developers.klaviyo.com",
+          "page_type": "homepage",
+          "title": "Klaviyo",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.klaviyo.com/en",
+          "page_type": "authentication",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.klaviyo.com/en",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.klaviyo.com/en",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.klaviyo.com/en",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.klaviyo.com/en",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 0,
+        "urls_discovered": 6,
+        "official_urls": 6,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 4,
+        "canonical_selected": 6
+      }
+    },
+    "stats": {
+      "queries": 0,
+      "urls_discovered": 6,
+      "official_urls": 6,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 4,
+      "canonical_selected": 6
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_1451ffb91495",
+      "source_type": "auth_docs",
+      "url": "https://developers.klaviyo.com/en",
+      "domain": "developers.klaviyo.com",
+      "page_title": "API Reference & Technical Guides | Klaviyo Developers",
+      "content": "Create apps and integrations using Klaviyo's API that help\nyour business grow. Get started for free.\n\n[Explore docs](https://developers.klaviyo.com/en/reference/api_overview)\n\nJoin 300+ others who have integrated with Klaviyo\n\nShopify logoWoo Commerce logoGorgias logoMagento logoZendesk logoYotpo. logoRecharge logoOkendo logoPrestashop logoAftership logo\n\nGet started\n\n[Start here\\\\\n\\\\\n\\\\\nGetting started\\\\\n\\\\\n\\\\\nLearn how to authenticate, how data is stored, and how to make your first API calls.\\\\\n\\\\\n\\\\\nExplore docs](https://developers.klaviyo.com/en/docs/get_started) [Guides\\\\\n\\\\\n\\\\\nDeveloper guides\\\\\n\\\\\n\\\\\nRead detailed guides for common developer use cases. Learn how our New APIs compare to our legacy APIs.\\\\\n\\\\\n\\\\\nRead guides](https://developers.klaviyo.com/en/docs) [Docs\\\\\n\\\\\n\\\\\nAPI docs\\\\\n\\\\\n\\\\\nKlaviyo's new and improved APIs are now available! Learn about our API objects, methods, attributes, and responses\\\\\n\\\\\n\\\\\nRead API docs](https://developers.klaviyo.com/en/reference/api_overview)\n\nDeveloper tools\n\nSpeed up development with tools designed for your workflow.\n\n[SDKs\\\\\n\\\\\n\\\\\nInstall a Klaviyo maintained SDK to accelerate development– offered in Python, PHP, Ruby, and Node.\\\\\n\\\\\nExplore SDKs](https://developers.klaviyo.com/en/docs/sdk_overview) [Test accounts\\\\\n\\\\\n\\\\\nTest custom integrations and apps without the risk of impacting your production account.\\\\\n\\\\\nCreate test account](https://developers.klaviyo.com/en/docs/create_a_test_account) [Postman\\\\\n\\\\\n\\\\\nMake test calls using Postman’s UI tool with our collection of pre-built API requests.\\\\\n\\\\\nTest with Postman](https://www.postman.com/klaviyo/workspace/klaviyo-developers/overview) [Sample code repository\\\\\n\\\\\n\\\\\nFind pre-built solutions, examples, and reference code guides in our Klaviyo Labs GitHub.\\\\\n\\\\\nView code samples](https://github.com/klaviyo-labs) [Sample data\\\\\n\\\\\n\\\\\nPopulate your test account with sample data to quickly explore our API and see how data is used in Klaviyo.\\\\\n\\\\\nGenerate sample data](https://developers.klaviyo.com/en/docs/generate_sample_data) [Napkin\\\\\n\\\\\n\\\\\nCreate and deploy serverless cloud functions instantly from the browser. Quickly add authentication for your API, schedule tasks, and replay events.\\\\\n\\\\\nExplore Napkin.io](https://www.napkin.io/)\n\nUse cases\n\nCustom integrationsBetter user experienceReporting\n\nBuild custom integrations to bring data into Klaviyo to create personalized experiences. Integrate with point-of-sale software, inventory management systems, scheduling apps, and more.\n\n[Read docs](https://developers.klaviyo.com/en/docs/get_started)\n\nBrian Whalley - Co-Founder of Wonderment\n\n“Since Klaviyo doesn't impose a rigid data schema, it's easy to send in just about any arbitrary data without having to do annoying manipulations or data mappings and without having to pre-configure a data schema in the app.”\n\n[Read story →](https://medium.com/klaviyo-developers/developer-showcase-1-brian-whalley-co-founder-of-wonderment-a8371962b8d9)\n\nUse profile information, custom events, catalog information, and other types of data to build custom customer experiences using Klaviyo's flows, template email builder, and more.\n\n[Read docs](https://developers.klaviyo.com/en/docs/get_started)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:03:55.195056Z",
+      "section_path": "Build personalized  experiences that scale.",
+      "chunk_index": 0,
+      "token_count": 808,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_0ae51396c9c6",
+      "source_type": "official_docs",
+      "url": "https://developers.klaviyo.com",
+      "domain": "developers.klaviyo.com",
+      "page_title": "API Reference & Technical Guides | Klaviyo Developers",
+      "content": "Create apps and integrations using Klaviyo's API that help\nyour business grow. Get started for free.\n\n[Explore docs](https://developers.klaviyo.com/en/reference/api_overview)\n\nJoin 300+ others who have integrated with Klaviyo\n\nShopify logoWoo Commerce logoGorgias logoMagento logoZendesk logoYotpo. logoRecharge logoOkendo logoPrestashop logoAftership logo\n\nGet started\n\n[Start here\\\\\n\\\\\n\\\\\nGetting started\\\\\n\\\\\n\\\\\nLearn how to authenticate, how data is stored, and how to make your first API calls.\\\\\n\\\\\n\\\\\nExplore docs](https://developers.klaviyo.com/en/docs/get_started) [Guides\\\\\n\\\\\n\\\\\nDeveloper guides\\\\\n\\\\\n\\\\\nRead detailed guides for common developer use cases. Learn how our New APIs compare to our legacy APIs.\\\\\n\\\\\n\\\\\nRead guides](https://developers.klaviyo.com/en/docs) [Docs\\\\\n\\\\\n\\\\\nAPI docs\\\\\n\\\\\n\\\\\nKlaviyo's new and improved APIs are now available! Learn about our API objects, methods, attributes, and responses\\\\\n\\\\\n\\\\\nRead API docs](https://developers.klaviyo.com/en/reference/api_overview)\n\nDeveloper tools\n\nSpeed up development with tools designed for your workflow.\n\n[SDKs\\\\\n\\\\\n\\\\\nInstall a Klaviyo maintained SDK to accelerate development– offered in Python, PHP, Ruby, and Node.\\\\\n\\\\\nExplore SDKs](https://developers.klaviyo.com/en/docs/sdk_overview) [Test accounts\\\\\n\\\\\n\\\\\nTest custom integrations and apps without the risk of impacting your production account.\\\\\n\\\\\nCreate test account](https://developers.klaviyo.com/en/docs/create_a_test_account) [Postman\\\\\n\\\\\n\\\\\nMake test calls using Postman’s UI tool with our collection of pre-built API requests.\\\\\n\\\\\nTest with Postman](https://www.postman.com/klaviyo/workspace/klaviyo-developers/overview) [Sample code repository\\\\\n\\\\\n\\\\\nFind pre-built solutions, examples, and reference code guides in our Klaviyo Labs GitHub.\\\\\n\\\\\nView code samples](https://github.com/klaviyo-labs) [Sample data\\\\\n\\\\\n\\\\\nPopulate your test account with sample data to quickly explore our API and see how data is used in Klaviyo.\\\\\n\\\\\nGenerate sample data](https://developers.klaviyo.com/en/docs/generate_sample_data) [Napkin\\\\\n\\\\\n\\\\\nCreate and deploy serverless cloud functions instantly from the browser. Quickly add authentication for your API, schedule tasks, and replay events.\\\\\n\\\\\nExplore Napkin.io](https://www.napkin.io/)\n\nUse cases\n\nCustom integrationsBetter user experienceReporting\n\nBuild custom integrations to bring data into Klaviyo to create personalized experiences. Integrate with point-of-sale software, inventory management systems, scheduling apps, and more.\n\n[Read docs](https://developers.klaviyo.com/en/docs/get_started)\n\nBrian Whalley - Co-Founder of Wonderment\n\n“Since Klaviyo doesn't impose a rigid data schema, it's easy to send in just about any arbitrary data without having to do annoying manipulations or data mappings and without having to pre-configure a data schema in the app.”\n\n[Read story →](https://medium.com/klaviyo-developers/developer-showcase-1-brian-whalley-co-founder-of-wonderment-a8371962b8d9)\n\nUse profile information, custom events, catalog information, and other types of data to build custom customer experiences using Klaviyo's flows, template email builder, and more.\n\n[Read docs](https://developers.klaviyo.com/en/docs/get_started)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:03:54.907187Z",
+      "section_path": "Build personalized  experiences that scale.",
+      "chunk_index": 0,
+      "token_count": 808,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_ce2a7dccdfc3",
+      "source_type": "auth_docs",
+      "url": "https://developers.klaviyo.com/en",
+      "domain": "developers.klaviyo.com",
+      "page_title": "API Reference & Technical Guides | Klaviyo Developers",
+      "content": "Callum McMaugh - Techincal Lead at Giftnotes\n\n“Merchants can set up flows based on Klaviyo events to send out branded notifications to both the \\[gift\\] recipient and the customer. They can also segment the customer and the recipient for greater insights into their customer’s shopping habits.”\n\n[Read story →](https://medium.com/klaviyo-developers/developer-showcase-3-callum-mcmaugh-technical-lead-at-giftnote-f5887aafcf8a)\n\nPull data from Klaviyo to create dashboards, sync to other systems, and perform analysis to keep up with your marketing performance.\n\n[Read docs](https://developers.klaviyo.com/en/docs/get_started)\n\nKyle Tremblay - Sr. Product Manger at EXCLUSIVE\n\n“Integrating with Klaviyo’s APIs was a no-brainer as it allowed us to build reporting that’s informed by our clients’ goals. Additionally, we’re now able to highlight useful, holistic insights to determine what actions should be taken by our clients to meet their goals.”\n\n[Read story →](https://medium.com/klaviyo-developers/developer-showcase-6-kyle-tremblay-senior-product-manager-exclusive-concepts-inc-fcc6e60a00ff)\n\n![Custom integrations image](https://files.readme.io/af9ef12-use-case-0.png)![Better user experience image](https://files.readme.io/7ac976c-use-case-1.png)![Reporting image](https://files.readme.io/41bb725-use-case-2.png)\n\nJoin the community\n\n[Developer blog icon\\\\\n\\\\\nDeveloper blog\\\\\n\\\\\n\\\\\nLearn about use cases, how-tos, case studies, and more.](https://medium.com/klaviyo-developers) [Developer community icon\\\\\n\\\\\nDeveloper community\\\\\n\\\\\n\\\\\nGet support and inspiration from Klaviyo community experts.](https://community.klaviyo.com/groups/developer-group-64)\n\n[v2024-07-15Deprecated](https://developers.klaviyo.com/klaviyo-stage-api/v2024-07-15/) [v2024-10-15Deprecated](https://developers.klaviyo.com/klaviyo-stage-api/v2024-10-15/) [v2025-01-15Deprecated](https://developers.klaviyo.com/klaviyo-stage-api/v2025-01-15/) [v2025-04-15Deprecated](https://developers.klaviyo.com/klaviyo-stage-api/v2025-04-15/) [v2025-07-15](https://developers.klaviyo.com/klaviyo-stage-api/v2025-07-15/) [v2025-10-15](https://developers.klaviyo.com/klaviyo-stage-api/v2025-10-15/) [v2026-01-15](https://developers.klaviyo.com/klaviyo-stage-api/v2026-01-15/) [v2026-04-15Default](https://developers.klaviyo.com/en#)\n\n![Project Logo](https://cdn.shopify.com/app-store/listing_images/8c8e0c8b87fd02ccf30e1a6de052e0ca/icon/CM384_2n0v8CEAE=.png)\n\nAsk AI\n\nreCAPTCHA\n\nRecaptcha requires verification.\n\nprotected by **reCAPTCHA**\n\nClose dialog\n\nSubscribe to Developer Updates\n\nSign up to learn about the latest developer product announcements, API changes, and more!\n\nSubscribe\n\nBy entering your email and hitting subscribe, you consent to receive marketing communications (such as newsletters, blog posts, webinars, event invitations and new product updates), and targeted advertising from Klaviyo from time to time. You can unsubscribe from our emails at any time by clicking the Unsubscribe link at the bottom of our emails. For more information on how we process your personal information and what rights you have in this respect, see our [Privacy Policy](https://www.klaviyo.com/legal/privacy/privacy-notice).",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:03:55.195159Z",
+      "section_path": "Build personalized  experiences that scale.",
+      "chunk_index": 1,
+      "token_count": 797,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_372ed22d509f",
+      "source_type": "official_docs",
+      "url": "https://developers.klaviyo.com",
+      "domain": "developers.klaviyo.com",
+      "page_title": "API Reference & Technical Guides | Klaviyo Developers",
+      "content": "Callum McMaugh - Techincal Lead at Giftnotes\n\n“Merchants can set up flows based on Klaviyo events to send out branded notifications to both the \\[gift\\] recipient and the customer. They can also segment the customer and the recipient for greater insights into their customer’s shopping habits.”\n\n[Read story →](https://medium.com/klaviyo-developers/developer-showcase-3-callum-mcmaugh-technical-lead-at-giftnote-f5887aafcf8a)\n\nPull data from Klaviyo to create dashboards, sync to other systems, and perform analysis to keep up with your marketing performance.\n\n[Read docs](https://developers.klaviyo.com/en/docs/get_started)\n\nKyle Tremblay - Sr. Product Manger at EXCLUSIVE\n\n“Integrating with Klaviyo’s APIs was a no-brainer as it allowed us to build reporting that’s informed by our clients’ goals. Additionally, we’re now able to highlight useful, holistic insights to determine what actions should be taken by our clients to meet their goals.”\n\n[Read story →](https://medium.com/klaviyo-developers/developer-showcase-6-kyle-tremblay-senior-product-manager-exclusive-concepts-inc-fcc6e60a00ff)\n\n![Custom integrations image](https://files.readme.io/af9ef12-use-case-0.png)![Better user experience image](https://files.readme.io/7ac976c-use-case-1.png)![Reporting image](https://files.readme.io/41bb725-use-case-2.png)\n\nJoin the community\n\n[Developer blog icon\\\\\n\\\\\nDeveloper blog\\\\\n\\\\\n\\\\\nLearn about use cases, how-tos, case studies, and more.](https://medium.com/klaviyo-developers) [Developer community icon\\\\\n\\\\\nDeveloper community\\\\\n\\\\\n\\\\\nGet support and inspiration from Klaviyo community experts.](https://community.klaviyo.com/groups/developer-group-64)\n\n[v2024-07-15Deprecated](https://developers.klaviyo.com/klaviyo-stage-api/v2024-07-15/) [v2024-10-15Deprecated](https://developers.klaviyo.com/klaviyo-stage-api/v2024-10-15/) [v2025-01-15Deprecated](https://developers.klaviyo.com/klaviyo-stage-api/v2025-01-15/) [v2025-04-15Deprecated](https://developers.klaviyo.com/klaviyo-stage-api/v2025-04-15/) [v2025-07-15](https://developers.klaviyo.com/klaviyo-stage-api/v2025-07-15/) [v2025-10-15](https://developers.klaviyo.com/klaviyo-stage-api/v2025-10-15/) [v2026-01-15](https://developers.klaviyo.com/klaviyo-stage-api/v2026-01-15/) [v2026-04-15Default](https://developers.klaviyo.com/en#)\n\n![Project Logo](https://cdn.shopify.com/app-store/listing_images/8c8e0c8b87fd02ccf30e1a6de052e0ca/icon/CM384_2n0v8CEAE=.png)\n\nAsk AI\n\nreCAPTCHA\n\nRecaptcha requires verification.\n\nprotected by **reCAPTCHA**\n\nClose dialog\n\nSubscribe to Developer Updates\n\nSign up to learn about the latest developer product announcements, API changes, and more!\n\nSubscribe\n\nBy entering your email and hitting subscribe, you consent to receive marketing communications (such as newsletters, blog posts, webinars, event invitations and new product updates), and targeted advertising from Klaviyo from time to time. You can unsubscribe from our emails at any time by clicking the Unsubscribe link at the bottom of our emails. For more information on how we process your personal information and what rights you have in this respect, see our [Privacy Policy](https://www.klaviyo.com/legal/privacy/privacy-notice).",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:03:54.907306Z",
+      "section_path": "Build personalized  experiences that scale.",
+      "chunk_index": 1,
+      "token_count": 797,
+      "quality_score": 0.46
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Build personalized experiences that scale.",
+      "evidence_ids": [
+        "ev_1451ffb91495",
+        "ev_0ae51396c9c6",
+        "ev_372ed22d509f"
+      ]
+    },
+    "category": {
+      "value": "Marketing Ads Email and Social",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_1451ffb91495",
+        "ev_0ae51396c9c6",
+        "ev_ce2a7dccdfc3"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_1451ffb91495",
+        "ev_0ae51396c9c6"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API, SDKs",
+      "evidence_ids": [
+        "ev_1451ffb91495",
+        "ev_0ae51396c9c6"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_1451ffb91495",
+        "ev_0ae51396c9c6"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_1451ffb91495",
+        "ev_0ae51396c9c6"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_1451ffb91495",
+        "ev_0ae51396c9c6"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_1451ffb91495",
+        "ev_0ae51396c9c6"
+      ]
+    }
+  },
+  "validation": {
+    "status": "UNSUPPORTED",
+    "score": 0.62,
+    "fields_checked": 8,
+    "fields_supported": 5,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "auth_methods",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'auth_methods' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": {
+    "verified_fields": [],
+    "corrections": {},
+    "screenshots": [],
+    "notes": ""
+  },
+  "pipeline_confidence": 0.62,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.62 below 0.90 threshold",
+      "Auth methods missing or UNKNOWN"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

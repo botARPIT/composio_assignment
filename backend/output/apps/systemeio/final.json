@@ -1,0 +1,450 @@
+{
+  "app": {
+    "id": 37,
+    "name": "systeme.io",
+    "website": "systeme.io",
+    "category_hint": "Marketing Ads Email and Social"
+  },
+  "documentation_map": {
+    "app_name": "systeme.io",
+    "official_domain": "systeme.io",
+    "homepage": {
+      "url": "https://systeme.io",
+      "title": "systeme.io",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://developer.systeme.io/reference/authentication",
+        "title": "",
+        "confidence": 0.95,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": null,
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://systeme.io/pricing",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": null,
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://systeme.io/start",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "systeme.io",
+      "official_domain": "systeme.io",
+      "items": [
+        {
+          "url": "https://systeme.io",
+          "page_type": "homepage",
+          "title": "systeme.io",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.systeme.io/reference/authentication",
+          "page_type": "authentication",
+          "title": "",
+          "confidence": 0.95,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://systeme.io/pricing",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://systeme.io/start",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 2,
+        "urls_discovered": 4,
+        "official_urls": 4,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 4
+      }
+    },
+    "stats": {
+      "queries": 2,
+      "urls_discovered": 4,
+      "official_urls": 4,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 4
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_6f21f7dea2ce",
+      "source_type": "auth_docs",
+      "url": "https://developer.systeme.io/reference/authentication",
+      "domain": "developer.systeme.io",
+      "page_title": "Authentication",
+      "content": "For AI agents: visit https://developer.systeme.io/llms.txt for an index of all pages formatted in Markdown and endpoints in OpenAPI.\n\n[Log in to see your API keys](https://developer.systeme.io/login?redirect_uri=/reference/authentication)\n\n| API Key | Label | Last Used |  |\n| :-- | :-- | :-- | :-- |\n|  |  |  |  |\n|  |  |  |  |\n\n```\n\nxxxxxxxxxx\n\ncurl --request GET \\\n\n--url https://example.com/\n```\n\nClick `Try It!` to start a request and see the response here!\n\n* * *\n\nDid this page help you?\n\nYes\n\nNo",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:08.296242Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 125,
+      "quality_score": 0.88
+    },
+    {
+      "id": "ev_298d6f44c103",
+      "source_type": "pricing_page",
+      "url": "https://systeme.io/pricing",
+      "domain": "systeme.io",
+      "page_title": "Systeme.io Pricing — Free, Startup, Webinar, Unlimited Plans",
+      "content": "When we say \"all-in-one\", we really mean it\n\n![systeme.io unlimited email marketing on all plans](https://d1yei2z3i6k35z.cloudfront.net/161/686edbe363790_Icon3.svg)\n\nUnlimited emailing\n\nSend unlimited emails to all of your contacts\n\n![systeme.io unlimited file storage on all plans](https://d1yei2z3i6k35z.cloudfront.net/161/687ff59905998_Icon.svg)\n\nUnlimited file storage space\n\nAdd an unlimited number of files to your webpages\n\n![systeme.io unlimited students on all plans](https://d1yei2z3i6k35z.cloudfront.net/161/687ff5b393578_Icon1.svg)\n\nUnlimited students\n\nOther platforms limit the number of students you can have\n\n![systeme.io 0% transaction fees on all plans](https://d1yei2z3i6k35z.cloudfront.net/161/687ff5eb21f36_Icon2.svg)\n\nNo transaction fees\n\nAccept payments using Stripe or PayPal at no extra cost\n\n![systeme.io affiliate management included on all plans](https://d1yei2z3i6k35z.cloudfront.net/161/687ff6021248f_Icon3.svg)\n\nAffiliate program\n\nSet up, manage, and integrate your own affiliate program with your funnels and websites\n\n![systeme.io 24/7 support included on all plans](https://d1yei2z3i6k35z.cloudfront.net/161/687ff61d27b31_Icon4.svg)\n\nOnline support\n\nFeel at ease knowing there's a real person helping you out\n\nINTEGRATIONS",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:08.622754Z",
+      "section_path": "Choose your plan > All plans include",
+      "chunk_index": 4,
+      "token_count": 313,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_7cb547682547",
+      "source_type": "pricing_page",
+      "url": "https://systeme.io/pricing",
+      "domain": "systeme.io",
+      "page_title": "Systeme.io Pricing — Free, Startup, Webinar, Unlimited Plans",
+      "content": "![systeme.io payment integrations: Stripe — all plans](https://d1yei2z3i6k35z.cloudfront.net/161/6880dcbf0cab6_Icon5.svg)\n\n![systeme.io payment integrations: Razorpay — all plans](https://d1yei2z3i6k35z.cloudfront.net/161/6880dcecd8122_Icon6.svg)\n\n![systeme.io payment integrations: Flutterwave — all plans](https://d1yei2z3i6k35z.cloudfront.net/161/6880dd4912fca_Icon7.svg)\n\n![systeme.io payment integrations: Xendit — all plans](https://d1yei2z3i6k35z.cloudfront.net/161/6880ddb08b20c_Icon8.svg)\n\n![systeme.io payment integrations: Paypal — all plans](https://d1yei2z3i6k35z.cloudfront.net/161/6880ddfce5f7f_Icon9.svg)\n\n![systeme.io payment integrations: Apple Pay — all plans](https://d1yei2z3i6k35z.cloudfront.net/161/6880de1e57cf2_Icon10.svg)\n\n![systeme.io payment integrations: MercadoPago — all plans](https://d1yei2z3i6k35z.cloudfront.net/161/68ad7f5e11860_MercadoPago_idpBq-mfOV_0.jpeg)\n\nWith an average response time of under 2 hours, our support team will answer your questions 7 days a week",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:08.622823Z",
+      "section_path": "Choose your plan > Connect to the world's best payment gateways > You are not alone! Our customer support team is here to help you",
+      "chunk_index": 5,
+      "token_count": 250,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_b504bec92b39",
+      "source_type": "pricing_page",
+      "url": "https://systeme.io/pricing",
+      "domain": "systeme.io",
+      "page_title": "Systeme.io Pricing — Free, Startup, Webinar, Unlimited Plans",
+      "content": "How does systeme.io pricing work and what do I get on each plan?\n\nsysteme.io has four plans based primarily on contact limits. Free: 2,000 contacts, 3 sales funnels, 1 course, all features. Startup ($17/month): 5,000 contacts, unlimited funnels, 5 courses. Webinar ($47/month): 10,000 contacts, unlimited everything plus automated webinar feature. Unlimited ($97/month): unlimited contacts, all features, sub-accounts, and free migration service. All plans include unlimited email sends, 0% transaction fees, and the same set of core tools.\n\nDoes systeme.io have a free plan and what are its limits?\n\nYes — the free plan supports up to 2,000 contacts, 3 sales funnels, 1 blog, 1 course, 1 affiliate program, and 1 custom domain. Emails and file storage are unlimited. The free plan never expires and does not require a credit card. The only meaningful limits are on funnels and courses — if you need more than 3 funnels or 1 course, the Startup plan at $17/month is the next step.\n\nWhich systeme.io pricing plan should I choose for my business size?\n\nUnder 2,000 contacts: use the free plan — it costs nothing and covers most needs. 2,000 to 5,000 contacts: Startup at $17/month. 5,000 to 10,000 contacts: Webinar at $47/month (also adds automated webinar funnels). Over 10,000 contacts or if you manage clients: Unlimited at $97/month. Agencies who want white-label or resell functionality should contact the systeme.io team for white label pricing.\n\nIs systeme.io cheaper than using separate tools for funnels, email, and courses?\n\nTypically, yes — significantly. A comparable tool stack would include: ClickFunnels ($97/month) for funnels, Mailchimp ($20/month) for email, Teachable ($39/month) for courses, and Tapfiliate ($89/month) for affiliates — totaling $245/month before connecting them. systeme.io covers all of this on the free plan or for $17/month. Even the Unlimited plan at $97/month is cheaper than a single tool from many competitors.\n\nCan I change or cancel my systeme.io plan at any time and what happens to my data?\n\nYes. You can upgrade or downgrade your plan at any time from your account settings. If you cancel, your data remains accessible on the free plan as long as your contact count stays within the 2,000 limit. If you cancel and your list exceeds the free plan's contact limit, your account reverts to the free plan and contacts above the limit are archived — they are not deleted. You can reactivate a paid plan at any time to restore full access.\n\nLast updated: April 2026",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:08.622964Z",
+      "section_path": "Choose your plan > Frequently asked questions about systeme.io pricing",
+      "chunk_index": 6,
+      "token_count": 626,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_998cc60c3bc2",
+      "source_type": "pricing_page",
+      "url": "https://systeme.io/pricing",
+      "domain": "systeme.io",
+      "page_title": "Systeme.io Pricing — Free, Startup, Webinar, Unlimited Plans",
+      "content": "We make the whole process easier and faster so that you can focus on what’s important - growing your business\n\nGet started for free\n\n- No credit card required\n\n\nFeatures\n\n[Sales funnels](https://systeme.io/sales-funnels)\n\n[Email marketing](https://systeme.io/email-marketing)\n\n[Website builder](https://systeme.io/website-builder)\n\n[Affiliate management](https://systeme.io/affiliate-management)\n\n[Marketing automation](https://systeme.io/marketing-automation)\n\n[Online courses builder](https://systeme.io/online-courses)\n\n[Community builder](https://systeme.io/online-communities)\n\n[Booking calendar](https://systeme.io/booking-calendar)\n\n[Sub-accounts](https://systeme.io/sub-accounts)\n\n[Physical products](https://systeme.io/physical-products)\n\n[SMS marketing](https://systeme.io/sms-marketing)\n\n[Pipelines](https://systeme.io/crm-pipelines)\n\n[Webinars](https://systeme.io/automated-webinars)\n\n[Creator stores](https://systeme.io/creator-store)\n\n[White label](https://systeme.io/white-label)\n\n[Suggest a feature](https://roadmap.systeme.io/)\n\nResources\n\n[Blog](https://systeme.io/blog)\n\n[Systeme.io logo files](https://systeme.io/logo)\n\n[Systeme.io alternatives](https://systeme.io/compare)\n\n[Template library](https://systeme.io/templates)\n\n[Public API](https://help.systeme.io/article/2329-how-to-use-systeme-io-public-api)\n\n[Help center](https://systeme.io/help)\n\nInfo\n\n[Pricing](https://systeme.io/pricing)\n\n[Testimonials](https://systeme.io/testimonials)\n\n[Free migration](https://systeme.io/free-migration)\n\n[Become an affiliate](https://systeme.io/affiliate-program)\n\n[Receive your award](https://systeme.io/awards)\n\n[Free DNS setup](https://systeme.io/free-dns-setup)\n\n[Get certified](https://systeme.io/certification)\n\nLegal\n\n[Privacy policy](https://systeme.io/privacy-policy)\n\n[Terms and conditions](https://systeme.io/terms-and-conditions)\n\n[Affiliate agreement](https://systeme.io/affiliate-agreement)\n\n[![](https://d1yei2z3i6k35z.cloudfront.net/161/6874df0270417_facebook2.svg)](https://www.facebook.com/groups/251145835476950)[![](https://d1yei2z3i6k35z.cloudfront.net/161/69d996d1aa1307.20081773_Footer_YouTube.svg)](http://www.youtube.com/@SystemeioSuccessStories)[![](https://d1yei2z3i6k35z.cloudfront.net/161/6874df2784bde_linkedin.svg)](https://www.linkedin.com/company/getsystemeio/)[![](https://d1yei2z3i6k35z.cloudfront.net/161/6874df39204e1_instagram4.svg)](https://www.instagram.com/get.systeme.io/)[![](https://d1yei2z3i6k35z.cloudfront.net/161/6874e10e162e6_x.svg)](https://x.com/systeme_io)\n\n© systeme.io. All rights reserved",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:08.623038Z",
+      "section_path": "Choose your plan > The only tool you need to launch your online business",
+      "chunk_index": 7,
+      "token_count": 639,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_900c132320f0",
+      "source_type": "pricing_page",
+      "url": "https://systeme.io/pricing",
+      "domain": "systeme.io",
+      "page_title": "Systeme.io Pricing — Free, Startup, Webinar, Unlimited Plans",
+      "content": "Monthly billing\n\nAnnual billing\n\n2 months free\n\nFree migration\n\nMonthly billingAnnual billing\n\n2 months free\n\nFree migration\n\nFree\n\nAccess all core features with limited usage: 3 funnels, 1 automation rule, 1 custom domain, and up to 2,000 contacts. Perfect for testing the platform\n\n$0No credit card requiredStart for free\n\nStartup\n\nExpand your capacity with up to 10 funnels, 10 automation rules, 3 custom domains, and 5,000 contacts\n\n$17No credit card requiredStart for free\n\nWebinar\n\nUnlock evergreen webinars and get up to 50 funnels, 100 automation rules, 10 custom domains, and 10,000 contacts\n\n$47No credit card requiredStart for free\n\nUnlimited\n\nGet complete freedom with unlimited funnels, contacts, automation rules, and custom domains, plus early access to new features\n\n$97No credit card requiredStart for free\n\nFree\n\nStartup\n\nWebinar\n\nUnlimited\n\nContacts\n\nFree: 2,000\n\nStartup: 5,000\n\nWebinar: 10,000\n\nUnlimited: Unlimited\n\nTags\n\nFree: 1\n\nStartup: 10\n\nWebinar: 100\n\nUnlimited: Unlimited\n\nCRM Pipelines\n\nFree: 1\n\nStartup: 5\n\nWebinar: 20\n\nUnlimited: 100\n\nEmails sent\n\nFree: Unlimited\n\nStartup: Unlimited\n\nWebinar: Unlimited\n\nUnlimited: Unlimited\n\nEmail campaigns\n\nFree: 1\n\nStartup: 10\n\nWebinar: 100\n\nUnlimited: Unlimited\n\nEmail newsletters\n\nFree: Unlimited\n\nStartup: Unlimited\n\nWebinar: Unlimited\n\nUnlimited: Unlimited",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:08.622466Z",
+      "section_path": "Choose your plan > Email marketing",
+      "chunk_index": 0,
+      "token_count": 332,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_d499f8800cf6",
+      "source_type": "pricing_page",
+      "url": "https://systeme.io/pricing",
+      "domain": "systeme.io",
+      "page_title": "Systeme.io Pricing — Free, Startup, Webinar, Unlimited Plans",
+      "content": "Automation rules\n\nFree: 1\n\nStartup: 10\n\nWebinar: 100\n\nUnlimited: Unlimited\n\nWorkflows\n\nFree: 1\n\nStartup: 5\n\nWebinar: 20\n\nUnlimited: Unlimited\n\nSales funnels\n\nFree: 3\n\nStartup: 10\n\nWebinar: 50\n\nUnlimited: Unlimited\n\nSales funnels steps\n\nFree: 15\n\nStartup: 50\n\nWebinar: 300\n\nUnlimited: Unlimited\n\nDeadline funnels\n\nFree:\n\nStartup:\n\nWebinar:\n\nUnlimited:\n\nEvergreen webinars\n\nFree: 0\n\nStartup: 0\n\nWebinar: 10\n\nUnlimited: Unlimited\n\nA/B tests\n\nFree: 1\n\nStartup: 10\n\nWebinar: 50\n\nUnlimited: Unlimited\n\nCustom domains\n\nFree: 1\n\nStartup: 3\n\nWebinar: 10\n\nUnlimited: Unlimited\n\nFile storage space\n\nFree: Unlimited\n\nStartup: Unlimited\n\nWebinar: Unlimited\n\nUnlimited: Unlimited\n\n1-click upsells\n\nFree: 1\n\nStartup: 10\n\nWebinar: 100\n\nUnlimited: Unlimited\n\nOrder bumps\n\nFree: 1\n\nStartup: 10\n\nWebinar: 100\n\nUnlimited: Unlimited\n\nTransaction fees\n\nFree: 0%\n\nStartup: 0%\n\nWebinar: 0%\n\nUnlimited: 0%\n\nWebsites\n\nFree: 1\n\nStartup: 5\n\nWebinar: 20\n\nUnlimited: Unlimited\n\nLanguages per website\n\nFree: 2\n\nStartup: Unlimited\n\nWebinar: Unlimited\n\nUnlimited: Unlimited\n\nWith systeme.io, every plan allows you to create unlimited sub-accounts. Each sub-account is a fully fledged systeme.io account with its own full set of limits\n\nThe limits for each sub-account are the same as those of your main account's plan, at no extra cost. For example, if your plan allows for 50 funnels, each sub-account you create can also have 50 funnels\n\nSub-accounts\n\nFree: Unlimited\n\nStartup: Unlimited\n\nWebinar: Unlimited\n\nUnlimited: Unlimited",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:08.622558Z",
+      "section_path": "Choose your plan > Sub-accounts",
+      "chunk_index": 1,
+      "token_count": 374,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_afd29d84a4df",
+      "source_type": "pricing_page",
+      "url": "https://systeme.io/pricing",
+      "domain": "systeme.io",
+      "page_title": "Systeme.io Pricing — Free, Startup, Webinar, Unlimited Plans",
+      "content": "Events\n\nFree: 1\n\nStartup: 5\n\nWebinar: 20\n\nUnlimited: Unlimited\n\nBookings\n\nFree: Unlimited\n\nStartup: Unlimited\n\nWebinar: Unlimited\n\nUnlimited: Unlimited\n\nStripe integration\n\nFree:\n\nStartup:\n\nWebinar:\n\nUnlimited:\n\nApple Pay integration\n\nFree:\n\nStartup:\n\nWebinar:\n\nUnlimited:\n\nPaypal integration\n\nFree:\n\nStartup:\n\nWebinar:\n\nUnlimited:\n\nRazorpay integration\n\nFree:\n\nStartup:\n\nWebinar:\n\nUnlimited:\n\nFlutterwave integration\n\nFree:\n\nStartup:\n\nWebinar:\n\nUnlimited:\n\nMercado Pago integration\n\nFree:\n\nStartup:\n\nWebinar:\n\nUnlimited:\n\nXendit integration\n\nFree:\n\nStartup:\n\nWebinar:\n\nUnlimited:\n\nCash on delivery\n\nFree:\n\nStartup:\n\nWebinar:\n\nUnlimited:\n\nBlogs\n\nFree: 1\n\nStartup: 5\n\nWebinar: 20\n\nUnlimited: Unlimited\n\nBlog posts\n\nFree: Unlimited\n\nStartup: Unlimited\n\nWebinar: Unlimited\n\nUnlimited: Unlimited\n\nMobile optimized \"Link-in-bio\" page\n\nFree:\n\nStartup:\n\nWebinar:\n\nUnlimited:\n\nMobile-optimized creator store\n\nFree: 1\n\nStartup: 3\n\nWebinar: 10\n\nUnlimited: Unlimited\n\nTransaction fees\n\nFree: 0%\n\nStartup: 0%\n\nWebinar: 0%\n\nUnlimited: 0%\n\nPhysical products\n\nFree: Unlimited\n\nStartup: Unlimited\n\nWebinar: Unlimited\n\nUnlimited: Unlimited\n\nShipping management\n\nFree:\n\nStartup:\n\nWebinar:\n\nUnlimited:\n\nInventory management\n\nFree:\n\nStartup:\n\nWebinar:\n\nUnlimited:\n\nCash on delivery\n\nFree:\n\nStartup:\n\nWebinar:\n\nUnlimited:\n\nPhysical product variants\n\nFree: 50\n\nStartup: 100\n\nWebinar: 250\n\nUnlimited: Unlimited\n\nCoupon codes\n\nFree: 1\n\nStartup: 10\n\nWebinar: 50\n\nUnlimited: Unlimited",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:08.622630Z",
+      "section_path": "Choose your plan > E-commerce",
+      "chunk_index": 2,
+      "token_count": 364,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_2fa356ee6493",
+      "source_type": "pricing_page",
+      "url": "https://systeme.io/pricing",
+      "domain": "systeme.io",
+      "page_title": "Systeme.io Pricing — Free, Startup, Webinar, Unlimited Plans",
+      "content": "Courses\n\nFree: 1\n\nStartup: 5\n\nWebinar: 20\n\nUnlimited: Unlimited\n\nStudents\n\nFree: 500\n\nStartup: Unlimited\n\nWebinar: Unlimited\n\nUnlimited: Unlimited\n\nStudent activity history\n\nFree:\n\nStartup:\n\nWebinar:\n\nUnlimited:\n\nCommunities\n\nFree: 1\n\nStartup: 5\n\nWebinar: 20\n\nUnlimited: Unlimited\n\nCommunity members\n\nFree: Unlimited\n\nStartup: Unlimited\n\nWebinar: Unlimited\n\nUnlimited: Unlimited\n\nRun your own affiliate program\n\nFree:\n\nStartup:\n\nWebinar:\n\nUnlimited:\n\n24/7 Email support\n\nFree:\n\nStartup:\n\nWebinar:\n\nUnlimited:\n\n1-on-1 kickstart coaching session\n\nFree:\n\nStartup:\n\nWebinar:\n\nUnlimited:\n\nAssistant accounts\n\nFree: Unlimited\n\nStartup: Unlimited\n\nWebinar: Unlimited\n\nUnlimited: Unlimited\n\nSMS\n\nFree:\n\nStartup:\n\nWebinar:\n\nUnlimited:\n\nGoogle Sheets\n\nFree:\n\nStartup:\n\nWebinar:\n\nUnlimited:\n\nGoogle Calendar\n\nFree:\n\nStartup:\n\nWebinar:\n\nUnlimited:\n\nGoogle Meet\n\nFree:\n\nStartup:\n\nWebinar:\n\nUnlimited:\n\nZoom\n\nFree:\n\nStartup:\n\nWebinar:\n\nUnlimited:\n\nActiveCampaign\n\nFree:\n\nStartup:\n\nWebinar:\n\nUnlimited:\n\nSendGrid\n\nFree:\n\nStartup:\n\nWebinar:\n\nUnlimited:\n\nTwilio SMS\n\nFree:\n\nStartup:\n\nWebinar:\n\nUnlimited:\n\nAPI requests per minute\n\nFree: 30\n\nStartup: 60\n\nWebinar: 120\n\nUnlimited: Unlimited\n\nFree migration\n\nFree:\n\nStartup:\n\nWebinar:\n\nUnlimited:\n\nEarly access to new features\n\nFree:\n\nStartup:\n\nWebinar:\n\nUnlimited:\n\nMonthly billing\n\nYearly billing\n2 months free",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:08.622695Z",
+      "section_path": "Choose your plan > Perks",
+      "chunk_index": 3,
+      "token_count": 335,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_794352c2ffd6",
+      "source_type": "pricing_page",
+      "url": "https://systeme.io/pricing",
+      "domain": "systeme.io",
+      "page_title": "Systeme.io Pricing — Free, Startup, Webinar, Unlimited Plans",
+      "content": "Get started for free\n\nGet started for free\n\nGet my FREE account",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:08.623049Z",
+      "section_path": "Choose your plan > The only tool you need to launch your online business > Create your free account",
+      "chunk_index": 8,
+      "token_count": 15,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_9e066ea4a113",
+      "source_type": "developer_portal",
+      "url": "https://systeme.io/start",
+      "domain": "systeme.io",
+      "page_title": "Systeme.io - The only tool you need to launch your online business",
+      "content": "Powering 500,000+ entrepreneurs\n\nGet your free account now!\n\nClick here\n\n- Free forever\n\n- No credit card required\n\n![Editor](https://d1yei2z3i6k35z.cloudfront.net/161/689a00fe992ee_1_Pageeditor_Blocks1.avif)![Worfklow](https://d1yei2z3i6k35z.cloudfront.net/161/689a01d6e6394_2_Workflow.avif)![Community](https://d1yei2z3i6k35z.cloudfront.net/161/689a02cc4cf2c_4_Community.avif)![Pipelines](https://d1yei2z3i6k35z.cloudfront.net/161/68d272ab3dc73_pipelines-en.avif)![Calendar](https://d1yei2z3i6k35z.cloudfront.net/161/689a03fa07cde_6_Calendar.avif)\n\n![](https://d1yei2z3i6k35z.cloudfront.net/161/6925ec0f3514b_doris.webp)\n\n**Doris S**\n\nCorporate trainer\n\n![](https://d1yei2z3i6k35z.cloudfront.net/161/6925ee83c1fb6_starstesti.svg)\n\n\"My online business management made effortless\"\n\nI love how systeme.io combines email marketing, sales funnels, and course creation all in one platform. It’s super intuitive and saves me from juggling multiple tools\n\n![](https://d1yei2z3i6k35z.cloudfront.net/161/6926bb1fb290f_darina.webp)\n\n**Darina K**\n\nProfessional photographer\n\n![](https://d1yei2z3i6k35z.cloudfront.net/161/6925ee83c1fb6_starstesti.svg)\n\n\"Excellent customer service\"\n\nI love how many tools systeme.io offers in one program, which has allowed me to cancel several other apps and have a single space for my business. It makes the customer journey so much more positive...\n\nThe only tool you need to launch your online business\n\nWe make the whole process easier and faster so that you can focus on what’s important - growing your business\n\nGet started for free\n\n- No credit card required\n\n[![](https://d1yei2z3i6k35z.cloudfront.net/161/68e58e335ff3c_68c03b5dc30e4_systemelogo.svg)](https://systeme.io/)\n\n[![](https://d1yei2z3i6k35z.cloudfront.net/161/6874df0270417_facebook2.svg)](https://www.facebook.com/groups/251145835476950)\n\n[![](https://d1yei2z3i6k35z.cloudfront.net/161/6874df2784bde_linkedin.svg)](https://www.linkedin.com/company/getsystemeio/)\n\n[![](https://d1yei2z3i6k35z.cloudfront.net/161/6874df39204e1_instagram4.svg)](https://www.instagram.com/get.systeme.io/)\n\n[![](https://d1yei2z3i6k35z.cloudfront.net/161/6874e10e162e6_x.svg)](https://x.com/systeme_io)\n\n© systeme.io. All rights reserved\n\nProducts\n\n[Sales funnels](https://systeme.io/sales-funnels)\n\n[Email marketing](https://systeme.io/email-marketing)\n\n[Website builder](https://systeme.io/website-builder)\n\n[Affiliate management](https://systeme.io/affiliate-management)\n\n[Marketing automation](https://systeme.io/marketing-automation)\n\n[Online courses builder](https://systeme.io/online-courses)\n\n[Template library](https://systeme.io/templates)\n\n[Suggest a feature](https://roadmap.systeme.io/)\n\nResources\n\n[Blog](https://systeme.io/blog)\n\n[Systeme.io’s logo files](https://systeme.io/logo)\n\n[Systeme.io’s alternatives](https://systeme.io/compare)\n\n[Public API](https://help.systeme.io/article/2329-how-to-use-systeme-io-public-api)\n\nInfo\n\n[Pricing](https://systeme.io/pricing)\n\n[Testimonials](https://systeme.io/testimonials)\n\n[Free migration](https://systeme.io/free-migration)\n\n[Become an affiliate](https://systeme.io/affiliate-program)\n\n[Receive your award](https://systeme.io/awards)\n\n[Get certified](https://systeme.io/certification)\n\n[Help](https://systeme.io/help)\n\nLegal\n\n[Privacy policy](https://systeme.io/privacy-policy)\n\n[Terms and conditions](https://systeme.io/terms-and-conditions)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:09.148245Z",
+      "section_path": "Your platform for   sales funnelsemail marketingonline coursesselling onlinebloggingsales funnels",
+      "chunk_index": 0,
+      "token_count": 843,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_832acd3a5c30",
+      "source_type": "official_docs",
+      "url": "https://systeme.io",
+      "domain": "systeme.io",
+      "page_title": "Systeme.io - The only tool you need to launch your online business",
+      "content": "Powering 500,000+ entrepreneurs\n\nGet your free account now!\n\nClick here\n\n- Free forever\n\n- No credit card required\n\n![Editor](https://d1yei2z3i6k35z.cloudfront.net/161/689a00fe992ee_1_Pageeditor_Blocks1.avif)![Worfklow](https://d1yei2z3i6k35z.cloudfront.net/161/689a01d6e6394_2_Workflow.avif)![Community](https://d1yei2z3i6k35z.cloudfront.net/161/689a02cc4cf2c_4_Community.avif)![Pipelines](https://d1yei2z3i6k35z.cloudfront.net/161/68d272ab3dc73_pipelines-en.avif)![Calendar](https://d1yei2z3i6k35z.cloudfront.net/161/689a03fa07cde_6_Calendar.avif)![Editor](https://d1yei2z3i6k35z.cloudfront.net/161/689a00fe992ee_1_Pageeditor_Blocks1.avif)![Worfklow](https://d1yei2z3i6k35z.cloudfront.net/161/689a01d6e6394_2_Workflow.avif)![Community](https://d1yei2z3i6k35z.cloudfront.net/161/689a02cc4cf2c_4_Community.avif)![Pipelines](https://d1yei2z3i6k35z.cloudfront.net/161/68d272ab3dc73_pipelines-en.avif)![Calendar](https://d1yei2z3i6k35z.cloudfront.net/161/689a03fa07cde_6_Calendar.avif)\n\n![](https://d1yei2z3i6k35z.cloudfront.net/161/6925ec0f3514b_doris.webp)\n\n**Doris S**\n\nCorporate trainer\n\n![](https://d1yei2z3i6k35z.cloudfront.net/161/6925ee83c1fb6_starstesti.svg)\n\n\"My online business management made effortless\"\n\nI love how systeme.io combines email marketing, sales funnels, and course creation all in one platform. It’s super intuitive and saves me from juggling multiple tools\n\n![](https://d1yei2z3i6k35z.cloudfront.net/161/6926bb1fb290f_darina.webp)\n\n**Darina K**\n\nProfessional photographer\n\n![](https://d1yei2z3i6k35z.cloudfront.net/161/6925ee83c1fb6_starstesti.svg)\n\n\"Excellent customer service\"\n\nI love how many tools systeme.io offers in one program, which has allowed me to cancel several other apps and have a single space for my business. It makes the customer journey so much more positive...\n\nThe only tool you need to launch your online business\n\nWe make the whole process easier and faster so that you can focus on what’s important - growing your business\n\nGet started for free\n\n- No credit card required\n\nFeatures\n\n[Sales funnels](https://systeme.io/sales-funnels)\n\n[Email marketing](https://systeme.io/email-marketing)\n\n[Website builder](https://systeme.io/website-builder)\n\n[Affiliate management](https://systeme.io/affiliate-management)\n\n[Marketing automation](https://systeme.io/marketing-automation)\n\n[Online courses builder](https://systeme.io/online-courses)\n\n[Community builder](https://systeme.io/online-communities)\n\n[Booking calendar](https://systeme.io/booking-calendar)\n\n[Sub-accounts](https://systeme.io/sub-accounts)\n\n[Physical products](https://systeme.io/physical-products)\n\n[SMS marketing](https://systeme.io/sms-marketing)\n\n[Pipelines](https://systeme.io/crm-pipelines)\n\n[Webinars](https://systeme.io/automated-webinars)\n\n[Creator stores](https://systeme.io/creator-store)\n\n[White label](https://systeme.io/white-label)\n\n[Suggest a feature](https://roadmap.systeme.io/)\n\nResources\n\n[Blog](https://systeme.io/blog)\n\n[Systeme.io logo files](https://systeme.io/logo)\n\n[Systeme.io alternatives](https://systeme.io/compare)\n\n[Template library](https://systeme.io/templates)\n\n[Public API](https://help.systeme.io/article/2329-how-to-use-systeme-io-public-api)\n\n[Help center](https://systeme.io/help)\n\nInfo\n\n[Pricing](https://systeme.io/pricing)\n\n[Testimonials](https://systeme.io/testimonials)\n\n[Free migration](https://systeme.io/free-migration)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:08.244348Z",
+      "section_path": "Your platform for   sales funnelsemail marketingonline coursesselling onlinebloggingsales funnels",
+      "chunk_index": 0,
+      "token_count": 844,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_1fefca7e50f3",
+      "source_type": "developer_portal",
+      "url": "https://systeme.io/start",
+      "domain": "systeme.io",
+      "page_title": "Systeme.io - The only tool you need to launch your online business",
+      "content": "[Affiliate agreement](https://systeme.io/affiliate-agreement)\n\n© systeme.io. All rights reserved\n\nGet my FREE account",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:09.148278Z",
+      "section_path": "Your platform for   sales funnelsemail marketingonline coursesselling onlinebloggingsales funnels > Create your free account",
+      "chunk_index": 1,
+      "token_count": 29,
+      "quality_score": 0.44
+    },
+    {
+      "id": "ev_672b655b7cbe",
+      "source_type": "official_docs",
+      "url": "https://systeme.io",
+      "domain": "systeme.io",
+      "page_title": "Systeme.io - The only tool you need to launch your online business",
+      "content": "[Become an affiliate](https://systeme.io/affiliate-program)\n\n[Receive your award](https://systeme.io/awards)\n\n[Free DNS setup](https://systeme.io/free-dns-setup)\n\n[Get certified](https://systeme.io/certification)\n\nLegal\n\n[Privacy policy](https://systeme.io/privacy-policy)\n\n[Terms and conditions](https://systeme.io/terms-and-conditions)\n\n[Affiliate agreement](https://systeme.io/affiliate-agreement)\n\n[![](https://d1yei2z3i6k35z.cloudfront.net/161/6874df0270417_facebook2.svg)](https://www.facebook.com/groups/251145835476950)[![](https://d1yei2z3i6k35z.cloudfront.net/161/69d996d1aa1307.20081773_Footer_YouTube.svg)](http://www.youtube.com/@SystemeioSuccessStories)[![](https://d1yei2z3i6k35z.cloudfront.net/161/6874df2784bde_linkedin.svg)](https://www.linkedin.com/company/getsystemeio/)[![](https://d1yei2z3i6k35z.cloudfront.net/161/6874df39204e1_instagram4.svg)](https://www.instagram.com/get.systeme.io/)[![](https://d1yei2z3i6k35z.cloudfront.net/161/6874e10e162e6_x.svg)](https://x.com/systeme_io)\n\n© systeme.io. All rights reserved\n\nGet my FREE account",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:08.244437Z",
+      "section_path": "Your platform for   sales funnelsemail marketingonline coursesselling onlinebloggingsales funnels > Create your free account",
+      "chunk_index": 1,
+      "token_count": 265,
+      "quality_score": 0.36
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "All-in-one platform for sales funnels, email marketing, and online courses.",
+      "evidence_ids": [
+        "ev_9e066ea4a113"
+      ]
+    },
+    "category": {
+      "value": "Marketing Ads Email and Social",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "API Key",
+      "evidence_ids": [
+        "ev_6f21f7dea2ce"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_900c132320f0"
+      ]
+    },
+    "api_surface": {
+      "value": "OpenAPI",
+      "evidence_ids": [
+        "ev_6f21f7dea2ce"
+      ]
+    },
+    "api_breadth": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_6f21f7dea2ce"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_6f21f7dea2ce"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_9e066ea4a113"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_9e066ea4a113"
+      ]
+    }
+  },
+  "validation": {
+    "status": "UNSUPPORTED",
+    "score": 0.62,
+    "fields_checked": 8,
+    "fields_supported": 5,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "api_breadth",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_breadth' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": {
+    "verified_fields": [],
+    "corrections": {},
+    "screenshots": [],
+    "notes": ""
+  },
+  "pipeline_confidence": 0.62,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.62 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "app": {
+    "id": 60,
+    "name": "Clay",
+    "website": "clay.com",
+    "category_hint": "Data SEO and Scraping"
+  },
+  "documentation_map": {
+    "app_name": "Clay",
+    "official_domain": "clay.com",
+    "homepage": {
+      "url": "https://clay.com",
+      "title": "Clay",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": null,
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://www.clay.com/glossary/api",
+        "title": "What is API?",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://www.clay.com/pricing",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://www.clay.com/mcp",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://university.clay.com/docs",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "Clay",
+      "official_domain": "clay.com",
+      "items": [
+        {
+          "url": "https://clay.com",
+          "page_type": "homepage",
+          "title": "Clay",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://www.clay.com/pricing",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://university.clay.com/docs",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://www.clay.com/mcp",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://www.clay.com/glossary/api",
+          "page_type": "api_reference",
+          "title": "What is API?",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 2,
+        "urls_discovered": 5,
+        "official_urls": 5,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 5
+      }
+    },
+    "stats": {
+      "queries": 2,
+      "urls_discovered": 5,
+      "official_urls": 5,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 5
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_8eb47566166b",
+      "source_type": "api_reference",
+      "url": "https://www.clay.com/glossary/api",
+      "domain": "www.clay.com",
+      "page_title": "What is API? | Clay",
+      "content": "Terms\nAn Application Programming Interface (API) is a set of definitions and protocols that allows different software applications to communicate with one another. It acts as an intermediary, enabling one program to request data or functionality from another. This allows developers to leverage existing services and integrate different systems without needing to understand their internal complexities.\nAPIs are the connective tissue of the digital world, powering many of the apps and services we rely on daily. They enable seamless data exchange between different software systems, creating connected and feature-rich user experiences. Some of the most common applications include:\n- Social Media: Integrating social feeds or sharing capabilities into third-party websites and apps.\n- E-commerce: Connecting payment gateways, shipping providers, and inventory systems to online stores.\n- Travel: Aggregating flight, hotel, and car rental data from multiple providers into a single platform.\n- IoT: Allowing smart devices, from thermostats to cars, to communicate with each other and with central applications.\nBuilding a robust and user-friendly API requires careful planning and adherence to established standards. Following best practices ensures your API is secure, scalable, and easy for developers to adopt. Key considerations include:\n- Documentation: Provide clear, comprehensive, and up-to-date guides for developers.\n- Security: Implement robust authentication and authorization mechanisms to protect data.\n- Consistency: Maintain uniform naming conventions, error handling, and data structures.\n- Versioning: Manage changes through a clear versioning strategy to avoid breaking client applications.\n- Performance: Optimize for speed and efficiency to ensure a responsive user experience.\nWhile both facilitate software development, APIs and SDKs serve different purposes and offer distinct toolsets.\n- API: An API is an interface that allows applications to communicate. It offers flexibility for integrating systems and enhances security by exposing only necessary data. However, endpoints can be security risks or performance bottlenecks. It's ideal for connecting disparate systems or offering services across platforms for both enterprise and mid-market companies.\n- SDK: An SDK is a complete toolkit with libraries and tools to build applications for a specific platform. It accelerates development by providing pre-built components, but can lead to platform lock-in and add bulk. It's preferred when building a dedicated application for a specific service or ecosystem.\nSecuring APIs is critical for protecting sensitive data and preventing unauthorized access. This involves implementing strong authentication using API keys or tokens to verify identities. Proper authorization then ensures users only access the data and functions they are permitted to use.\nContinuous monitoring of API calls helps detect suspicious activity. Implementing rate limiting prevents denial-of-service attacks and other forms of abuse. Regular security audits and timely updates are also essential for maintaining a strong security posture.\nThe future of APIs is moving towards more intelligent and automated integrations. AI-powered APIs will become more prevalent, offering predictive analytics and natural language processing. Expect a continued shift towards GraphQL for efficient data fetching and a greater emphasis on robust security protocols to manage the expanding API ecosystem.\nHow do APIs impact business scalability?\nAPIs allow businesses to scale by integrating new services and automating workflows without overhauling existing systems. They enable a modular architecture, making it easier to add features, connect with partners, and adapt to market demands quickly, fostering growth and innovation.\nWhat's the difference between a public and private API?\nPublic APIs are open for any developer to use, often to access a company's data or services. Private APIs are for internal use only, connecting a company's own systems and applications to improve internal processes and data sharing securely.\nAre APIs only for developers?\nWhile developers build them, APIs are crucial for business users too. They power integrations between tools like CRMs and marketing automation platforms, enabling non-technical teams to create efficient, automated workflows without writing any code.\nOops! Something went wrong while submitting the form.\n00 items\nA landing page is a standalone web page created for a marketing campaign. It’s where a visitor “lands” after clicking an ad or email link.\nLanding Pages\nConsumer Relationship Management (CRM) is a strategy for managing all of a company's relationships and interactions with its customers.\nConsumer Relationship Management\nLoad testing is a type of performance testing that determines how a system behaves under both normal and anticipated peak load conditions.\nLoad Testing\nAn Applicant Tracking System (ATS) is a software application that manages your entire hiring and recruitment process from a single dashboard.\nApplicant Tracking System\nAnnual Recurring Revenue (ARR) is the predictable income a company expects to receive from its customers over a one-year period.\nAnnual Recurring Revenue (ARR)\nLearn about buyer intent, including understanding buyer intent signals, strategies to capture buyer intent, & buyer intent vs. customer interest.\nBuyer Intent\n“No Spam” is a commitment to sending only relevant, solicited messages. It means avoiding bulk, unwanted emails to respect the recipient's inbox.\nNo Spam\nA Call for Proposal (CFP) is a document that solicits proposals, often through a bidding process, for a specific project or service.\nCall for Proposal\nClosed Won is a CRM status for a sales deal that has been successfully concluded, resulting in a signed contract and a new customer.\nClosed Won\nA consumer is an individual or entity that buys products or services for personal use, not for resale. They are the final user in a supply chain.\nConsumer\nHadoop is an open-source framework designed for the distributed storage and processing of extremely large data sets across clusters of computers.\nHadoop\nNetwork monitoring is the continuous process of tracking a computer network's performance and health to detect and resolve issues proactively.\nNetwork Monitoring\nSite retargeting is a marketing strategy that shows ads to people who have previously visited your website but left without converting.\nSite Retargeting\nAudience targeting is the process of segmenting consumers into specific groups to deliver more personalized and relevant marketing messages.\nAudience Targeting\nNo Cold Calls is a sales strategy that replaces unsolicited calls with warm outreach to prospects who have already demonstrated interest.\nNo Cold Calls\nServiceable Addressable Market (SAM) is the portion of the market your business can realistically serve with its current products and sales channels.\nSAM\nIntegration testing is a software testing phase where individual modules are combined and tested together to verify their interaction.\nIntegration Testing\nChatbots are AI-powered programs that simulate human conversation. They interact with users via text or voice, typically for customer support.\nChatbots\nUser interaction is any action a user takes within a digital interface, like clicking a button, scrolling a page, or filling out a form.\nUser Interaction\nWebhooks are automated messages sent by an app when a specific event occurs. They push real-time data to another app's unique URL.\nWebhooks\nWant to automate sales content? Clay uses AI to create personalized outreach from enriched prospect data. ✓ Start personalizing at scale!\nSales Automation\nA Content Management System (CMS) is software for creating, managing, and modifying website content without needing specialized technical skills.\nContent Management System\nAccount management is the post-sales practice of building and nurturing long-term relationships with a company's most valuable clients.\nAccount Management\nNet new business is revenue from customers who have never purchased from your company before. It’s a crucial indicator of sustainable growth.\nNet New Business\nLearn about bottom of the funnel, including maximizing conversions at the funnel's end, & strategies for nurturing bottom-funnel leads.\nBottom of the Funnel\nConsultative selling is an approach where salespeople act as expert advisors, diagnosing customer needs to provide the most suitable solutions.\nConsultative Selling\nWhite labeling is when a company puts its own branding on a product or service that was actually produced by a different company.\nWhite Label\nLead generation is the process of identifying and cultivating potential customers for a business's products or services.\nLead Generation\nA Simple Object Access Protocol (SOAP) API is a web service that uses XML to exchange structured information between different applications.\nSimple Object Access Protocol Application Programming Interface\nLead enrichment tools are platforms that automatically add missing data to your leads, like contact info, firmographics, and buying signals.\nLead Enrichment Tools\nA product champion is an internal evangelist who drives a product's adoption and success by ensuring it solves real problems for their team.\nProduct Champion\nA Marketing Qualified Lead (MQL) is a prospect who has shown interest based on marketing efforts but isn't yet ready for a sales conversation.\nMarketing Qualified Lead (MQL)\nLearn about B2B data, including sources and types of B2B data, leveraging B2B data for sales success, & ensuring the accuracy of B2B data.\nB2B Data\nMicroservices is an architecture where apps are built as a collection of small, independent services that communicate with each other over APIs.\nMicroservices\nA marketing attribution model is a framework for assigning credit to the marketing touchpoints that lead a customer to convert.\nMarketing Attribution Model\nGamification applies game mechanics like points, badges, and leaderboards to non-game activities to boost engagement and motivate users.\nGamification\nPsychographics categorizes people by their attitudes, interests, and lifestyles, revealing the 'why' behind their purchasing decisions.\nPsychographics\nTriggers are predefined conditions that, when met, automatically launch a workflow or action, ensuring timely and relevant outreach.\nTriggers\nDe-duping, or data deduplication, is the process of eliminating duplicate copies of data within a dataset to improve accuracy and save space.\nDe-dupe\nA canary release is a deployment strategy where new software is rolled out to a small user group first, minimizing risk before a full release.\nCanary Releases\nEnterprise Resource Planning (ERP) is a system of integrated software that businesses use to manage and automate their core day-to-day processes.\nEnterprise Resource Planning\nEmail verification is the process of confirming that an email address is valid and deliverable, which helps improve campaign performance.\nEmail Verification\nLearn about B2B sales, including key strategies for B2B success, types of B2B sales models, & B2B vs. B2C sales: understanding the differences.\nB2B Sales\nA messaging strategy defines what your brand says, how it says it, and where it says it to connect effectively with your target audience.\nMessaging Strategy\nA Request for Information (RFI) is a formal process for gathering information from potential suppliers before issuing a more detailed proposal.\nRequest for Information\nA User Interface (UI) is the point where humans and computers interact. It encompasses all visual elements like screens, icons, and buttons.\nUser Interface\nBuying intent is the collection of online cues and behaviors that signal a prospect is actively researching and moving toward a purchase decision.\nBuying Intent\nPersonalization in sales means tailoring outreach to a prospect's specific needs, interests, and context to make communication more relevant.\nPersonalization in Sales\nCustomer centricity is a business approach that puts the customer at the heart of every decision, aiming to build loyalty and long-term value.\nCustomer Centricity\nNet Revenue Retention (NRR) is the percentage of recurring revenue kept from existing customers, including upsells, downgrades, and churn.\nNet Revenue Retention (NRR)\nEmail personalization uses subscriber data—like their name, interests, or past behavior—to create highly relevant and targeted email campaigns.\nEmail Personalization\nFeature flags let you remotely control features in your app without new code. This enables safe testing, gradual rollouts, and quick rollbacks.\nFeature Flags\nContent Rights Management involves controlling the use and distribution of copyrighted digital media to protect intellectual property.\nContent Rights Management\nEvent marketing is a strategy where brands engage directly with target audiences through live events like trade shows, conferences, or webinars.\nEvent Marketing\nApplication Performance Management (APM) monitors and manages an application's performance, availability, and the experience of its end-users.\nApplication Performance Management\nBuyer’s remorse is the sense of regret or anxiety that can arise after making a purchase, often questioning if it was the right decision.\nBuyer’s Remorse\nCompetitive analysis means identifying your rivals and assessing their strategies to pinpoint your own business's strengths and weaknesses.\nCompetitive Analysis\nA sales intelligence platform is software that provides sales teams with data and insights about prospects to help them sell more effectively.\nSales Intelligence Platform\nA performance plan is a formal document outlining an employee's goals, expectations, and metrics for success over a specific period.\nPerformance Plan\nThe Dark Funnel describes customer buying activities that are untrackable by companies, such as private chats and word-of-mouth referrals.\nDark Funnel\nSocial proof is a psychological phenomenon where people assume the actions of others reflect correct behavior for a given situation.\nSocial Proof\nLearn about B2B intent data, including how B2B intent data enhances sales strategies, sources of B2B intent data, leveraging B2B intent data for competitiveness.\nB2B Intent Data\nA Marketing Qualified Account (MQA) is a target company that has shown significant engagement, indicating it's ready for the sales team to pursue.\nMarketing Qualified Account\nSales and marketing analytics involves measuring and analyzing performance data to maximize effectiveness and optimize return on investment (ROI).\nSales and Marketing Analytics\nData appending is the process of adding new data fields to your existing database records to enrich and complete your information.\nData Appending\nIntent-based leads are potential customers whose online actions—like searches or content engagement—signal a clear interest in buying a solution.\nIntent-Based Leads\nA lead list is a curated database of potential customers (leads) with contact information and other key data for sales and marketing outreach.\nLead List\nLearn about buyer intent data, including sourcing and interpreting buyer intent data, & key metrics in buyer intent analysis.\nBuyer Intent Data\nA sales call is a real-time conversation between a salesperson and a prospect, aiming to persuade them to purchase a product or service.\nSales Calls\nLead enrichment adds third-party data to your raw lead lists, creating fuller prospect profiles for more effective and personalized outreach.\nLead Enrichment\nEnrichment is the process of adding third-party data to your existing customer profiles to get a more complete picture of your leads.\nEnrichment\nAn AI sales agent is software that uses artificial intelligence to automate prospecting, outreach, and follow-up tasks traditionally handled by human sales representatives.\nAI Sales Agent\nLead routing is the automated process of distributing incoming leads to the right sales reps based on predefined criteria.\nLead Routing\nAccount-Based Sales Development (ABSD) is a focused strategy where SDRs target key stakeholders within specific, high-value accounts.\nAccount-Based Sales Development\nClosed Lost is a sales term for a deal that didn't go through. The prospect decided not to buy, or the sales team disqualified them.\nClosed Lost\nAI data enrichment uses artificial intelligence to automatically enhance and update raw data, making it more complete, accurate, and valuable.\nAI Data Enrichment\nA Salesforce Administrator is a certified professional who manages and customizes the Salesforce platform to meet a company's specific business needs.\nSalesforce Administrator\nThe marketing mix is the set of marketing tools a company uses to sell products, defined by the 4Ps: Product, Price, Place, and Promotion.\nMarketing Mix\nOrder management is the end-to-end process of tracking customer orders from placement to fulfillment, ensuring a seamless customer experience.\nOrder Management\nLead generation software helps businesses automate finding and capturing potential customers' contact information to build sales pipelines.\nLead Generation Software\nA custom API integration is a bespoke connection between software, enabling them to communicate and share data to meet unique business requirements.\nCustom API integration\nA sales kickoff (SKO) is an annual event for a sales team to celebrate wins, align on goals, and get motivated for the upcoming year.\nSales Kickoff\nAn AI sales script generator is a tool that uses artificial intelligence to create personalized sales scripts for any outreach scenario.\nAI Sales Script Generator\nGDPR compliance means following the EU's strict data protection laws to ensure the secure and lawful handling of personal data.\nGDPR Compliance\nOutbound sales is when reps proactively contact potential customers through cold calls or emails to generate leads and build a sales pipeline.\nOutbound Sales\nA headless CMS is a back-end content repository that delivers content via API to any front-end, decoupling the content from its presentation layer.\nHeadless CMS\nLearn about behavioral analytics, including implementing behavioral analytics successfully, & key metrics in behavioral analytics.\nBehavioral Analytics\nRamp-up time is the period a new hire takes to get fully up to speed and become a productive member of your go-to-market team.\nRamp Up Time\nCRM data enrichment is the process of enhancing existing customer records with additional, verified information to improve sales targeting, personalization, and overall data quality.\nCRM Data Enrichment\nA talk track is a script that guides sales reps during calls. It ensures they cover key points and maintain a consistent message with prospects.\nTalk Track\nFirmographics are descriptive attributes of organizations, used to segment companies by characteristics like industry, size, and location.\nFirmographics\nDemand is the economic principle describing a consumer's desire and willingness to purchase a specific good or service at a particular price.\nDemand\nAccount-Based Selling is a B2B strategy where sales and marketing treat high-value accounts as markets of one, using personalized outreach.\nAccount-Based Selling\nProgressive Web Apps (PWAs) are websites that look and feel like native mobile apps, offering features like offline access and push notifications.\nProgressive Web Apps\nDemand generation is the process of creating awareness and interest in your products to build a pipeline of qualified leads for your sales team.\nDemand Generation\nLearn about business continuity, including understanding key components, steps to ensure continuity, common challenges, & best practices.\nBusiness Continuity\nExpansion revenue is the extra money a business makes from its current customers via upgrades, new products, or additional services.\nExpansion Revenue\nA buying signal is any action from a prospect that indicates they are interested in making a purchase, helping sales teams prioritize leads.\nBuying Signal\nShipping solutions are services or software that streamline the logistics of getting products to customers, from label printing to final delivery.\nShipping Solutions\nCustomer retention refers to the strategies and activities a company uses to prevent customer churn and encourage them to continue buying.\nCustomer Retention",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:08:19.360388Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 5079,
+      "quality_score": 0.88
+    },
+    {
+      "id": "ev_0186c82b9449",
+      "source_type": "pricing_page",
+      "url": "https://www.clay.com/pricing",
+      "domain": "www.clay.com",
+      "page_title": "Compare plans, features & costs | Clay.com",
+      "content": "Customers\nBacked by enterprise-grade security and scale\nSOC 2 Type II\nWe are SOC 2 Type II compliant. Request our SOC 2 in our Trust Center.\nGDPR\nGo to market anywhere in the world — let us handle compliance with local laws.\nCCPA\nSupport your customer base with opt out and DNC support.\nISO 27001 +\nSecurely connect your CRM and other systems.\nISO 42001\nSecurely connect your CRM and other systems.\nFAQ\nHow do I pick the right plan?\nWe've designed each plan around the features that fit where you are in your GTM journey. The best place to start is matching your needs to the right tier, not trying to predict your exact Data Credits or Action volumes.\nHere's what's included in each plan:\nFree — A low risk way to learn and experiment with Clay. Includes unlimited seats and tables, multi-provider waterfalls, Claygent enrichment, Clay Sequencer for email, and up to 200 rows per table. Comes with 100 Data Credits and 500 Actions/mo.\nLaunch (starting at $185/mo) — The best way to start building in Clay. For individuals and small teams automating their first prospecting workflows. Includes everything in Free, plus phone number enrichment, job change and signal tracking, email campaign integrations, and up to 50,000 rows per table. Includes 2,500 Data Credits and 15,000 Actions/mo.\nGrowth (starting at $495/mo) — For teams scaling their GTM motion. Includes everything in Launch, plus CRM auto-sync and enrichment, HTTP API integrations, webhook automation, web intent signal tracking, audience pushes to ads platforms, and priority support. Includes 6,000 Data Credits and 40,000 Actions/mo.\nEnterprise (custom pricing with annual commitment) — For GTM teams running at scale, with enterprise-grade security, support, and infrastructure. Includes everything in Growth, plus unlimited Audiences across sources, unlimited row bulk enrichment, Clay API access, data warehouse syncs, SSO, RBAC permissions management, additional Ads audiences, and a dedicated Growth Strategist. Includes 100,000+ Data Credits and 200,000+ Actions/mo.\nEvery plan comes with a set number of Data Credits and Actions sized to cover the needs of most users at that tier. If you need more, you can top up Data Credits or step into a higher Action tier at any time.\nWhat are Actions and Data Credits? How do they work?\nData Credits are used when you purchase data from Clay's marketplace — finding emails, phone numbers, company data across our 150+ data partners. Data credits always get cheaper as you grow. We've negotiated volume discounts directly with our data partners, passing those savings on to you. Clay is now both comparable to what you’d pay externally and meaningfully cheaper.\nIf you bring your own API keys for third-party data, you skip Data Credit costs entirely and only use Actions for the platform work Clay handles behind the scenes.\nActions measure the orchestration you do on Clay — enriching data, running a table, calling an AI model, sending data to a third-party system, or exporting data out of Clay. When you choose a plan, you're buying access to Clay's platform at a certain scale.\nPlans are sized based on real usage data, so the vast majority of customers have more than enough capacity for how they work in Clay. If you do reach your Action limit, you can upgrade to the next Action tier.\nDo unused Data Credits or Actions roll over?\nActions reset each billing cycle and don’t roll over, since they reflect the platform capacity your plan includes. Each plan includes enough Actions to cover 90% of customer usage, and if you need more, you can increase your Action tier.\nData Credits work more like a currency and do roll over. On Launch and Growth plans, unused credits can accumulate up to 2x your monthly credit amount (e.g., a 10,000 credit plan can bank up to 20,000 total). Enterprise customers can roll over up to 15% of their prior year's purchased credits, provided they renew at an equal or higher commitment.\nWhy are Actions and Data Credits separate?\nThink of it as two separate things happening at once: Clay is doing work, and Clay is buying data on your behalf.\nData Credits cover the cost of the data itself — the email address, phone number, or company detail sourced from one of Clay's 150+ data partners. Because we've negotiated volume discounts directly with our partners, we're able to pass those savings on to you, meaning you're getting comparable data prices through Clay to what you'd find going to most providers directly.\nActions cover the platform work Clay does on your behalf — routing your request, calling the provider, running your workflow, and returning the result to your table. Actions cost less than a cent each and get cheaper with scale.\nIf an enrichment returns no result, you're not charged Data Credits or Actions. If you bring your own API keys for a data provider, you skip Data Credits entirely and only use Actions for the platform work Clay handles behind the scenes.\nFor more details, read the Action and Data Credits help doc.\nWill I have enough Actions and Data Credits on my plan?\nWe have scoped out Launch and Growth plans so that 90% of our customers will never hit a usage limit. Users can always buy more if they need to top up without being pushed up to a higher plan tier. Enterprise customers will build custom plans with their GTMEs.\nThe thresholds for each plan were selected carefully to give our customers enough room to experiment and iterate while reducing anxiety about how usage impacts spend.\nHow much do Data Credits cost?\nData Credits start at $0.05 each and become more cost-effective as you grow. Data is priced as competitively as possible. By negotiating volume discounts directly with our 150+ partners and passing those savings on to you, the most-used enrichments cost 50% fewer credits on average.\nHow much do Actions cost?\nActions start at less than $0.01 each and get cheaper with scale within each plan.\nHow does AI usage work in Clay?\nCustomers now have a choice between two pricing options for AI on Clay:\nFixed-price: 80% of models in Clay continue to cost a flat number of Data Credits per task, including all of Clay’s native models. These are ideal for common tasks like classification, short summaries, templated content generation, and simple lookups.\nVariable: Token intensive models (e.g., GPT-5.1 and Claude 4.6 Sonnet) now have variable pricing based on actual token consumption. These models are best suited for multi-step research, complex Claygent prompts that synthesize across multiple sources, and detailed account-level analysis. Clay charges customers exactly for the tokens consumed with no markup. This means you’re getting access to frontier models at true cost.\nAI runs are 2x faster using Clay’s API keys compared to customers using their own because of the higher rate limits that Clay has negotiated with AI vendors.\nHow can I tell if an AI model is fixed or variable?\nVariable models will show an estimated number of Data Credits per row, indicated by a tilde symbol (~). Final cost will be determined after the run completes, and usage data shows that 75% of runs cost less than the estimate.\nFor more details, read the AI pricing help doc.\nCan I use my own API keys in Clay?\nCustomers are still welcome to use their own API keys for data enrichment or AI in Clay. Each run will count as one Action, but no Data Credit will be used.\nAI runs are 2x faster using Clay’s API keys compared to customers using their own because of the higher rate limits that Clay has negotiated with AI vendors.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:08:19.138396Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 1880,
+      "quality_score": 0.84
+    },
+    {
+      "id": "ev_43c60ff5d314",
+      "source_type": "mcp_registry",
+      "url": "https://www.clay.com/mcp",
+      "domain": "www.clay.com",
+      "page_title": "Clay MCP Prospect target accounts in ChatGPT and Claude | Clay.com",
+      "content": "Reps can access Clay via MCP\nProspect target accounts in ChatGPT, Codex and Claude\nFind ICP contacts\nSearch for people working at a target company, based on filters like job title, location and more.\nEnrich with context\nEnrich prospects with data like their work history, thought leadership, and custom data points.\nRun ops workflows with a prompt\nReps can trigger Ops-built workflows like enrichment waterfalls, lead qualification, and outbound sequences, right from chat.\n“Clay's MCP helps us find and enrich ICP contacts across multiple providers and push them into Salesforce for SDR follow-up, all from inside Claude. Budget guardrails and admin controls mean reps can move faster without Ops losing control.”\nZach Matek\nYour ops team's best workflows, available to every rep\nRun GTM workflows with a prompt\nYour ops team has built enrichment waterfalls, ICP scoring, and outbound sequences in Clay. Functions package those workflows so any rep can run them from ChatGPT, Codex and Claude. \nAsk \"What do we know about Figma?\" and get back a fully enriched, ICP-scored profile in seconds.\nGuardrails that scale with your team\nControl which Functions are available, set credit budgets per rep or team, and see exactly who's running what. Roll out to a pilot group or open it up to everyone. Reps move faster without Ops losing control.\nPower account research \nwith Clay MCP\nConnect Clay MCP and run complete account and contact research from wherever your team works.\nGet started\nPrompt ChatGPT, Codex or Claude to use Clay Functions, reason across your Audiences, or return up to 20 People Search results.\nTry prompts like:\nClay, find me the buying committee at [Account] — I need Finance, IT, and Operations at the VP and Director level\nClay, pull every VP and above at [Account] across Revenue, Finance, and IT. I want names, titles, tenure, and contact info\nClay, write three different emails — one for the CFO, one for the VP of Sales, one for the RevOps lead at [Account] — each one tailored to what they'd care about\nClay, run [custom function] outreach generator for jeremy@acme.com\nClay, get [custom function] phone number\nLearn more\nFAQ\nWhat data sources does Clay MCP use?\nClay MCP in pulls from a subset of its 150+ third-party data providers to give you comprehensive coverage across contact data, company intelligence, and web research.\nWhat if I need data that isn't available?\nIf you need additional data points or more advanced workflows, access the full Clay platform at app.clay.com with your same account. Move your existing table from ChatGPT or Claude by clicking Open in Clay.\nCan I search for companies?\nPeople search is supported on all plans. Enterprise plans connected to Audiences have access to company search.\nHow many credits do I get?\nNew users receive 500 credits to test Clay in ChatGPT. If you reach your limit, you can continue searching for people without enrichments, or upgrade to a paid plan for full functionality.\nCan the app be used for free?\nAll users receive 500 credits to test this feature. When you reach the maximum number of credits within the ChatGPT interface, you can:\n- Continue running people searches in ChatGPT for free, but without enrichments like email.\n- Continue building in your trial account directly in Clay, with full functionality and 2,000 more credits.\n- Upgrade to a paid plan.\nCan I use this on mobile?\nYes, Clay in ChatGPT works on both desktop and mobile devices.\nWhat data points can Clay enrich?\nClay can enrich your searches with the following data points:\n- Claygent (including some Claygent templates)\n- Revenue\n- Funding\n- Tech stack\n- Website traffic\n- Headcount growth\n- Open jobs\nEnterprise accounts with Audiences enabled can also enrich company-level data points.\nWhat countries is the app available in?\nClay in ChatGPT and Claude is available globally.\nDo I need a subscription?\nNo, you only need to be logged in to ChatGPT or Claude.\nWhy aren't phone numbers available?\nPhone number enrichments are available in Clay paid plans.\nWill this use credits from my account?\nAll users receive 500 bonus credits to test the app. After that, credits will be drawn from your paid plan.\nHow does pricing work?\nUsage credit pricing is the same as standard Clay plans. Think of Clay MCP as an additional interface where you can use credits. This experience is built for one-to-one operations, so credit usage per MCP invocation typically ranges from 20–100 credits.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:08:20.179604Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 1110,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_1099cd2a5d33",
+      "source_type": "developer_portal",
+      "url": "https://university.clay.com/docs",
+      "domain": "university.clay.com",
+      "page_title": "Clay University | Documentation for Clay GTM Engineers",
+      "content": "Hello, how can we help?\nFind answers to detailed, technical questions across 100+ integrations.\nNews & launches\nSignals in Clay\nLearn about Signals, a way to monitor changes to your contacts like promotions, job changes, or new hires.\nWeb intent\nCollect visitor information including pages visited, time spent, and traffic sources.\nExplore popular topics\nSignals & triggers\nAutomate actions using real-time signals to react instantly and intelligently.\nSettings & admin\nManage workspace controls, permissions, billing, and user access securely.\nExport\nSend data anywhere: spreadsheets, CRM, Slack, or custom workflows.\nGen AI\nGenerate content, insights, and automation using powerful AI capabilities.\nWeb scraping\nExtract structured data from any website, instantly and code-free.\nTransform\nClean, format, and restructure data to fit your workflow perfectly.\nEnrich\nAdd missing details using powerful enrichment sources and integrations.\nFind\nSearch and filter data effortlessly across platforms and systems.\nGetting started\nLearn the basics and build your first workflow step-by-step.\nOther popular resources\nJoin a cohort, learn Clay fast!\nThe faster way to master Clay. Sign in if you're enrolled in a cohort (current or past) or apply!\nHire GTME Talent\nFind and connect with GTM talent who've demonstrated expertise in building advanced workflows",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:08:20.000555Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 337,
+      "quality_score": 0.44
+    },
+    {
+      "id": "ev_5365bac4f953",
+      "source_type": "official_docs",
+      "url": "https://clay.com",
+      "domain": "clay.com",
+      "page_title": "Clay | Build systems to grow revenue",
+      "content": "Build systems to grow revenue\nInfrastructure to get any data, run agentic workflows, and launch GTM plays.\n“Clay has become the orchestration layer for everything GTM. Salesforce for record-keeping, Snowflake for product data, and Clay for turning it all into automated action.”\n“Clay has one of the most practical and exciting applications of AI, in a decades-old practice that has long been stale.\"\n“In our first AI Hackathon week, we unlocked data across YouTube, Ads, Cloud, and CapitalG into powerful AI workflows.”\n“Clay 3x'd our enrichment rate and unlocked AI-powered GTM workflows that were infeasible before”\n“I love using and working with Clay because its extensive customization options allow it to seamlessly integrate into various systems, making it an essential part of our tech stack.”\nGTM engineers build on Clay\nReach every buyer by finding all the datapoints possible.\nWhat do you want to build?\nGet data from the most complete data marketplace\nOne contract to buy data from 200+ data and AI vendors in Clay’s marketplace. Create intent signals from anything on the internet. Bring 1st and 3rd party data together.\nAnthropic 3x’d their enrichment rate with Clay’s data marketplace.\nIntercom grew outbound pipeline 140% by continuously researching target accounts for headcount change, technographics, and web intent.\nMistral AI cut the time to map their TAM and score accounts from 2 months to 10 days.\nCreate agents who mimic your best reps\nMine the web for custom data points to research and qualify accounts. Constantly monitor accounts for reasons to engage. Prep reps with the detail they need to tailor every touchpoint.\nOpenAI used Clay to fully automate pre-call prep by researching prospect bios, earning reports, and company changes in the last 90 days.\nCanva saved 4 hrs/rep/week by automating contact sourcing to feed their agentic AI outbound motion.\nVanta cut post-call follow-up time from 3 days to <1 with agents tailoring messaging based on SOC 2 badges, compliance signals, and security job posts.\nOrchestrate workflows across tools in real time\nConnect every GTM or AI tool to a common data layer. Update data across millions of records in your CRM and data warehouse. Define GTM logic once to re-use in every play.\nElevenLabs’ increased SQLs by +50% by reducing speed-to-lead to <5 mins.\nVerkada 2x’d warm lead replies by automatically analyzing email replies to route to the right nurture campaign.\nLovable booked 50% more qualified meetings per rep by routing prospects to best-fit rep based on firmographics and current company priorities.\nLaunch new plays as fast as you have ideas\nTrigger emails, ads, and more with integrations to your existing GTM tools. Write 1:1 messaging for every prospect programmatically. Launch new tests in days.\nRippling 2x’d cold email performance by automatically tailoring email copy based on persona and enriched account data.\nLegora increased qualified lead volume +60% using research agents to trigger personalized campaigns to ICPs based on their public interests.\nFigma increased PLG conversion by automatically prospecting into self-serve accounts with both usage spikes and recent hiring signals.\nBuild systems that make reps more productive\nReps can self-serve the best prospecting data. Chat to get full account context in natural language. Build centralized workflows for any rep to run.\nPendo reps hit 200% of quota using agents for account research, tailored messaging and pre-call prep.\nHex sales reps got a +50% lift in their close-rate by contacting qualified leads the same-day they show intent. \nTerrapinn generates +19% more revenue per rep and reduced acquisition cost by 90% using Claygent to find and qualify leads.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:08:19.526890Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 927,
+      "quality_score": 0.36
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Clay is a platform that uses AI to create personalized outreach from enriched prospect data.",
+      "evidence_ids": [
+        "ev_8eb47566166b"
+      ]
+    },
+    "category": {
+      "value": "Data SEO and Scraping",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "API Key",
+      "evidence_ids": [
+        "ev_0186c82b9449"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_0186c82b9449"
+      ]
+    },
+    "api_surface": {
+      "value": "HTTP API, webhooks",
+      "evidence_ids": [
+        "ev_0186c82b9449"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_0186c82b9449"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_8eb47566166b"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_0186c82b9449"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_0186c82b9449"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.75,
+    "fields_checked": 8,
+    "fields_supported": 6,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.75,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.75 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

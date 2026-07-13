@@ -1,0 +1,333 @@
+{
+  "app": {
+    "id": 72,
+    "name": "Airtable",
+    "website": "airtable.com/developers",
+    "category_hint": "Productivity and Project Management"
+  },
+  "documentation_map": {
+    "app_name": "Airtable",
+    "official_domain": "airtable.com",
+    "homepage": {
+      "url": "https://airtable.com/developers",
+      "title": "Airtable",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": null,
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://airtable.com/developers/web",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://airtable.com/pricing",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": null,
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://airtable.com/developers",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": {
+      "primary": {
+        "url": "https://airtable.com/login?continue=%2Fapi%2Fwebhooks",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "Airtable",
+      "official_domain": "airtable.com",
+      "items": [
+        {
+          "url": "https://airtable.com/developers",
+          "page_type": "homepage",
+          "title": "Airtable",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://airtable.com/developers/web",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://airtable.com/pricing",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://airtable.com/developers",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://airtable.com/login?continue=%2Fapi%2Fwebhooks",
+          "page_type": "webhooks",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 3,
+        "urls_discovered": 5,
+        "official_urls": 5,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 1,
+        "canonical_selected": 5
+      }
+    },
+    "stats": {
+      "queries": 3,
+      "urls_discovered": 5,
+      "official_urls": 5,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 1,
+      "canonical_selected": 5
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_d4031bcd3d3f",
+      "source_type": "pricing_page",
+      "url": "https://airtable.com/pricing",
+      "domain": "airtable.com",
+      "page_title": "Airtable Pricing | Compare Plans, Features & Costs",
+      "content": "How does Airtable's pricing work?\nAirtable plans are charged per seat. If you are on Airtable’s Free plan, all users are free. If you are on a Team or Business plan, you will be charged for all users who have edit permissions for at least one base in the workspace. No charges will apply on a Team or Business plan for read-only collaborators, form submissions, or share links. Charges are prorated: users with edit permissions added partway through the month will only be charged for the days after they were added.\nHow does Airtable's Business and Enterprise Scale pricing work?\nAirtable has two plans geared towards large company usage of Airtable: Business and Enterprise Scale. You can purchase Business either through the plan upgrades page in your workspace settings tab, or by contacting our sales team. To purchase Enterprise Scale, please contact sales. On either plan, you will be charged for all users with edit permissions for at least one base in your organization. As part of the Enterprise Scale plan, an organization has the ability to create unlimited org units, workspaces and bases within their organization. Charges are prorated: collaborators with edit permissions added partway through the billing cycle will only be charged for the months after they were added. For more information on our Business and Enterprise Scale plans, \ncontact sales\n.Is Airtable free to use?\nAirtable has multiple packages to help teams of all sizes orchestrate their work. Our Free plan is available to teams for no charge and provides the key building blocks to help you build applications. The Free plan is formulated for individual users, very small teams, or those with lightweight needs. Our paid plans offer additional power and scale for teams, departments, and large enterprises.\nHow much does Airtable cost?\nOur Free plan is available at no cost for users just getting started. For teams who like the features of our Free plan but need more capacity, our Team plan is available for $20/user/month when billed annually. Our Business and Enterprise Scale plans include the additional customization, data scale, flexibility, and administrative features that departments and enterprise organizations need. Business is available at $45/user/month when billed annually our Enterprise Scale plan pricing is custom, based on the organization’s needs and scale with Airtable. To learn more about our Enterprise Scale pricing, \ncontact sales\n.What are my payment options?\nAll payments are made via credit card for Team workspaces, and for Business if purchased through your workspace settings tab. For Business and Enterprise Scale accounts purchased through our sales team, we can issue an annual invoice with payment via PO and/or ACH, wire, or check. Please \ncontact sales\n for more information.What happens when I hit my usage limits?\nIf you reach (or are over) our record or attachment limits, you’ll still be able to use your bases and we will never remove your data. We’ll notify you of the overage and you will not be able to add more records or attachments until you upgrade to a new plan. For automations and API limits, you will be capped at the usage limit on your current plan. \nI am currently on Airtable’s legacy Enterprise plan — where can I see a list of my current features?\nFor existing customers on Airtable’s legacy Enterprise plan, no changes will go into effect until your renewal, at which point your account team will discuss your plan options with you. In the meantime, see this help article for a list of your current features and functionality.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:11:39.186230Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 893,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_9732459b97da",
+      "source_type": "api_reference",
+      "url": "https://airtable.com/developers/web",
+      "domain": "airtable.com",
+      "page_title": "Airtable Web API",
+      "content": "Your browser version is not supported. Try our\ndesktop apps\n!\nAlternatively, use the latest version of\nChrome\n,\nFirefox\n, Safari, or Edge instead.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:11:38.688728Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 36,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_9ab00315b619",
+      "source_type": "general_docs",
+      "url": "https://airtable.com/login?continue=%2Fapi%2Fwebhooks",
+      "domain": "airtable.com",
+      "page_title": "Airtable",
+      "content": "Your browser version is not supported. Try our\ndesktop apps\n!\nAlternatively, use the latest version of\nChrome\n,\nFirefox\n, Safari, or Edge instead.\nBring your Airtable data into Claude.\nTry it now\nAirtable home or view your bases\nPlatform\nPlatform\nPlatform & Products\nAirtable Platform\nUnlock the power of a next-gen app-building platform\nAI App Building\nNEW\nEnable teams to build custom business apps—no code needed\nAI Agents\nNEW\nDeploy thousands of agents inside your apps\nPortals\nCollaborate seamlessly with guest users outside your organization\nScale\nBuild apps on top of massive data sets with 100M records\nPlatform Features\nLearn about automations, interfaces, and more\nBack\nFeatures\nAutomations\nAchieve more in less time via automations\nDatabases\nUse relational databases to connect data from apps, workflows, and tools\nInterfaces\nCreate custom interfaces from your data\nReporting\nMeasure, analyze, and share insights\nViews\nTailor data visualizations to your teams’ needs\nGovernance and Security\nCentrally manage security, permissions and data protection\nAirtable AI\nEmbed AI throughout end-to-end workflows\nWhat's New\nSee Airtable's latest product updates\nTools\nIntegrations\nIntegrate with tools like Slack, Google Drive, and Salesforce\nBack\nIntegrations\nSlack\nAdd real-time messaging to your workflows\nGoogle Drive\nSync information and build workflows\nSalesforce\nLeverage CRM data across teams and tools\nJira\nGenerate tickets and sync work from Airtable\nZendesk\nSimplify and streamline workflows\nSee all integrations\nDownload\nGet the Airtable app for desktop and mobile\nThe Airtable Platform\nPropel your business with a next-gen app-building platform. See data move in real-time and securely transform your work with AI.\nExplore the platform\nSolutions\nSolutions\nTeams\nProduct\nSee what's happening across your portfolio, and ship better products.\nMarketing\nPlan smarter campaigns and scale impact with unifed marketing workflows.\nProject Management\nStrategic project management built for outcomes, not just to-do lists.\nOperations\nRun operations in one platform that connects workflows, data, and tools.\nSales\nSurface sales opportunities, spot churn risk early, and close more deals faster.\nDesign & Creative\nUnify design workflows, stay on-brand, and innovate creative quickly.\nHuman Resources\nManage and streamline processes from hire to retire\nFinance\nStreamline requests, manage budgets, and automate reporting\nIndustries\nMedia & Entertainment\nRun content production, digital assets, and crew operations in one place\nRetail\nPower critical retail workflows from product planning to final purchase\nCPG Manufacturing\nKeep track of your products, supply chain, and quality assurance\nEducation\nManage student services, planning, and grants more efficiently\nTechnology\nUnite your entire SaaS org to drive faster GTM execution and greater impact.\nAgency & Professional Services\nStreamline coordination, protect margins, and deliver better client outcomes.\nCustomer Story\nMore money, fewer problems\nHow Code and Theory consolidated tooling and saved more than 10,000 hours with Airtable.\nLearn more\nResources\nResources\nExplore\nResources Hub\nBack\nResources Hub\nReports\neBooks\nWebinars\nQuick Reads\nDemos\nSee all resources\nTemplates\nBack\nTemplates\nProject Management\nNew\nContent Calendar\nEvent Planning\nProduct Roadmap\nOrganizational Chart\nResource Allocation\nNew\nSocial Media Calendar\nMarketing Campaign Tracker\nProduct Launch\nContent Strategy\nProduct Strategy\nInventory Tracker\nProduct Catalog\nSee all templates\nAI Plays\nNEW\nBlog\nCustomer Stories\nBuilders & Breakthroughs\nVideos\nEvents\nLearn & Support\nAirtable Academy\nAirtable Community\nDevelopers Docs\nBack\nDevelopers\nDev Community\nShare ideas and find solutions from peers\nAPI Docs\nBuild with the Airtable API\nCustom Extensions\nCreate real-time, interactive extensions\nScripting\nBuild something custom with scripts\nHow-to guides\nSupport\nBack\nSupport\nHelp center\nContact Support\nEcosystem\nMarketplace\nPartners\nServices\nResource Center\nStay one step ahead of the trends\nThis content is packed with demos, best practices, industry trends, and more. See how to win in a fast-moving market.\nExplore all resources\nEnterprise\nPricing\nBook demo\nSign in\nBook Demo\nSign up for free\nSign up\nLog in\nSorry, your browser version is not supported\nPlease use the latest version of\nChrome\n,\nFirefox\n, Safari, or Edge instead.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:11:39.548872Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 1090,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_2bd1f1dc1b95",
+      "source_type": "official_docs",
+      "url": "https://airtable.com/developers",
+      "domain": "airtable.com",
+      "page_title": "Airtable Developers",
+      "content": "Your browser version is not supported. Try our\ndesktop apps\n!\nAlternatively, use the latest version of\nChrome\n,\nFirefox\n, Safari, or Edge instead.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:11:38.268657Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 36,
+      "quality_score": 0.36
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Airtable is a next-gen app-building platform that allows teams to build custom business apps without coding.",
+      "evidence_ids": [
+        "ev_9ab00315b619"
+      ]
+    },
+    "category": {
+      "value": "Productivity and Project Management",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_9732459b97da"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_d4031bcd3d3f"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API, webhooks",
+      "evidence_ids": [
+        "ev_2bd1f1dc1b95"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_2bd1f1dc1b95"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_2bd1f1dc1b95"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_9ab00315b619"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_d4031bcd3d3f"
+      ]
+    }
+  },
+  "validation": {
+    "status": "UNSUPPORTED",
+    "score": 0.62,
+    "fields_checked": 8,
+    "fields_supported": 5,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "auth_methods",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'auth_methods' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": {
+    "verified_fields": [
+      "auth_methods"
+    ],
+    "corrections": {
+      "auth_methods": "oauth2"
+    },
+    "screenshots": [],
+    "notes": ""
+  },
+  "pipeline_confidence": 0.62,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.62 below 0.90 threshold",
+      "Auth methods missing or UNKNOWN",
+      "Browser verification found discrepancies"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

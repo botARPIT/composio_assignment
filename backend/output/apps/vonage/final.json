@@ -1,0 +1,1064 @@
+{
+  "app": {
+    "id": 30,
+    "name": "Vonage",
+    "website": "developer.vonage.com",
+    "category_hint": "Communications and Messaging"
+  },
+  "documentation_map": {
+    "app_name": "Vonage",
+    "official_domain": "developer.vonage.com",
+    "homepage": {
+      "url": "https://developer.vonage.com",
+      "title": "Vonage",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+        "title": "Authentication - API Concepts | Vonage API Documentation",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://developer.vonage.com/en/api/voice",
+        "title": "Vonage Voice API Reference",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": null,
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://developer.vonage.com/en/mcp-server/technical-details",
+        "title": "Technical Details",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://developer.vonage.com/en/documentation",
+        "title": "Vonage Documentation",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "Vonage",
+      "official_domain": "developer.vonage.com",
+      "items": [
+        {
+          "url": "https://developer.vonage.com",
+          "page_type": "homepage",
+          "title": "Vonage",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+          "page_type": "authentication",
+          "title": "Authentication - API Concepts | Vonage API Documentation",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.vonage.com/en/api/voice",
+          "page_type": "api_reference",
+          "title": "Vonage Voice API Reference",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.vonage.com/en/documentation",
+          "page_type": "developer_portal",
+          "title": "Vonage Documentation",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.vonage.com/en/mcp-server/technical-details",
+          "page_type": "mcp",
+          "title": "Technical Details",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 5,
+        "urls_discovered": 5,
+        "official_urls": 5,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 5
+      }
+    },
+    "stats": {
+      "queries": 5,
+      "urls_discovered": 5,
+      "official_urls": 5,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 5
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_7411df232a58",
+      "source_type": "auth_docs",
+      "url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+      "domain": "developer.vonage.com",
+      "page_title": "Authentication - API Concepts | Vonage API Documentation",
+      "content": "Copy for LLMCopy for LLMView as MarkdownView as Markdown\n\nVonage APIs support different authentication methods depending on which product you are using:\n\nAPI\n\nAccounts\n\n\nApplication\n\n\nAudit\n\n\nConversation\n\n\nConversion\n\n\nDevice Location Retrieval\n\n\nDispatch\n\n\nIdentity Insights\n\n\nMedia\n\n\nMessages1\n\n\nNumbers\n\n\nNumber Insight\n\n\nPricing v1\n\n\nPricing v2\n\n\nProgrammable SIP\n\n\nQuality on Demand\n\n\nRedact\n\n\nReports\n\n\nSMS\n\n\nVerify (Legacy)\n\n\nVerify2\n\n\nVoice3\n\n\nVideo\n\n\n| API | API Key and Secret (Header) | JSON Web Token (JWT) |\n| --- | --- | --- |\n| [Accounts](https://developer.vonage.com/api/account) |  |  |\n| [Application](https://developer.vonage.com/api/application.v2) |  |  |\n| [Audit](https://developer.vonage.com/api/audit) |  |  |\n| [Conversation](https://developer.vonage.com/api/conversation) |  |  |\n| [Conversion](https://developer.vonage.com/api/conversion) |  |  |\n| [Device Location Retrieval](https://developer.vonage.com/api/location-retrieval) |  |  |\n| [Dispatch](https://developer.vonage.com/api/dispatch) |  |  |\n| [Identity Insights](https://developer.vonage.com/api/identity-insights) |  |  |\n| [Media](https://developer.vonage.com/api/media) |  |  |\n| [Messages](https://developer.vonage.com/api/messages) 1 |  |  |\n| [Numbers](https://developer.vonage.com/api/numbers) |  |  |\n| [Number Insight](https://developer.vonage.com/api/number-insight) |  |  |\n| [Pricing v1](https://developer.vonage.com/api/pricing) |  |  |\n| [Pricing v2](https://developer.vonage.com/api/pricing.v2) |  |  |\n| [Programmable SIP](https://developer.vonage.com/api/psip) |  |  |\n| [Quality on Demand](https://developer.vonage.com/api/qod) |  |  |\n| [Redact](https://developer.vonage.com/api/redact) |  |  |\n| [Reports](https://developer.vonage.com/api/reports) |  |  |\n| [SMS](https://developer.vonage.com/api/sms) |  |  |\n| [Verify (Legacy)](https://developer.vonage.com/api/verify) |  |  |\n| [Verify](https://developer.vonage.com/api/verify.v2) 2 |  |  |\n| [Voice](https://developer.vonage.com/api/voice) 3 |  |  |\n| [Video](https://developer.vonage.com/en/video/guides/authentication.md) |  |  |\n\n1 Messages supports both JWT and Basic authentication, however basic authentication does not support webhooks or advanced features such as ACLs. For most use-cases we recommend JWT Authentication. See [Messages API Authentication](https://developer.vonage.com/messages/technical-details#authentication)\n\n2 Verify supports both JWT and Basic authentication, however basic authentication does not support webhooks or advanced features such as ACLs.\n\n3 SIP Trunking uses [Digest Authentication](https://developer.vonage.com/sip/overview#authentication) method with the API Key as user and API Secret as password.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:40.901725Z",
+      "section_path": "[Documentation Anchor Link](https://developer.vonage.com/en/getting-started/concepts/authentication\\#authentication) Authentication",
+      "chunk_index": 0,
+      "token_count": 676,
+      "quality_score": 0.84
+    },
+    {
+      "id": "ev_91987a0ef845",
+      "source_type": "api_reference",
+      "url": "https://developer.vonage.com/en/api/voice",
+      "domain": "developer.vonage.com",
+      "page_title": "Vonage Voice API Reference | Vonage API Documentation",
+      "content": "200200\n\nOK\n\ncount\n\ninteger\n\n**example**`100`\n\npage\\_size\n\ninteger\n\n**example**`10`\n\nrecord\\_index\n\ninteger\n\n\\_links\n\nobject\n\nself\n\nobject\n\nhref\n\nstring\n\n**example**`/calls?page_size=10&record_index=20&order=asc`\n\nfirst\n\nobject\n\nhref\n\nstring\n\n**example**`/calls?page_size=10&record_index=20&order=asc`\n\nlast\n\nobject\n\nhref\n\nstring\n\n**example**`/calls?page_size=10&record_index=20&order=asc`\n\nnext\n\nobject\n\nhref\n\nstring\n\n**example**`/calls?page_size=10&record_index=20&order=asc`\n\nprev\n\nobject\n\nhref\n\nstring\n\n**example**`/calls?page_size=10&record_index=20&order=asc`\n\n\\_embedded\n\nobject\n\nA list of call objects. See the [get details of a specific call](https://developer.vonage.com/en/api/voice#getCall) response fields for a description of the nested objects\n\ncalls\n\narray\n\n\\_links\n\nobject\n\nself\n\nobject\n\nhref\n\nstring\n\n**example**`/calls/63f61863-4a51-4f6b-86e1-46edebcf9356`\n\nuuid\n\nstring(uuid)\n\n**example**`63f61863-4a51-4f6b-86e1-46edebcf9356`\n\nThe unique identifier for this call leg. The UUID is created when your call request is accepted by Vonage. You use the UUID in all requests for individual live calls\n\nconversation\\_uuid\n\nstring(uuid)\n\n**example**`CON-f972836a-550f-45fa-956c-12a2ab5b7d22`\n\nThe unique identifier for the conversation this call leg is part of.\n\nto\n\nOne Of\n\nConnect to a Phone (PSTN) number\n\nConnect to a Phone (PSTN) number\n\nConnect to a SIP Endpoint\n\nConnect to a Websocket\n\nConnect to a VBC extension\n\nConnect to an App User\n\ntype\n\nstring\n\nRequired\n\n**example**`phone`\n\nThe type of connection. Must be `phone`\n\nnumber\n\nstring\n\nRequired\n\n**Min**`7`\n\n**Max**`15`\n\n**example**`14155550100`\n\nThe phone number to connect to\n\ndtmfAnswer\n\nstring\n\n**example**`p*123#`\n\nProvide [DTMF digits](https://developer.nexmo.com/voice/voice-api/concepts/dtmf) to send when the call is answered\n\nshaken\n\nstring\n\n**example**`eyJhbGciOiJFUzI1NiIsInBwdCI6InNoYWtlbiIsInR5cCI6InBhc3Nwb3J0IiwieDV1IjoiaHR0cHM6Ly9jZXJ0LmV4YW1wbGUuY29tL3Bhc3Nwb3J0LnBlbSJ9.eyJhdHRlc3QiOiJBIiwiZGVzdCI6eyJ0biI6WyIxMjEyNTU1MTIxMiJdfSwiaWF0IjoxNjk0ODcwNDAwLCJvcmlnIjp7InRuIjoiMTQxNTU1NTEyMzQifSwib3JpZ2lkIjoiMTIzZTQ1NjctZTg5Yi0xMmQzLWE0NTYtNDI2NjE0MTc0MDAwIn0.MEUCIQCrfKeMtvn9I6zXjE2VfGEcdjC2sm5M6cPqBvFyV9XkpQIgLxlvLNmC8DJEKexXZqTZ;info=<https://stir-provider.example.net/cert.cer>;alg=ES256;ppt=\"shaken\"`\n\nFor Vonage customers who are required by the FCC to sign their own calls to the USA, we allow you to place Voice API calls with your own signature. This feature is available by request only. Please be aware calls with an invalid signature will be rejected. For more information please contact us. In this option, you must place the STIR/SHAKEN Identity Header content that Vonage must use for this call. Expected format is composed of the JWT with the header, payload and signature, an info parameter with a link for the certificate, the algorithm (alg) parameter indicating which encryption type was used and the passport type (ppt) which should be shaken.\n\nfrom\n\nobject\n\nThe endpoint you called from. Possible values are the same as `to`.\n\ntype\n\nstring\n\n**example**`phone`\n\nnumber\n\nstring\n\n**example**`447700900001`\n\nstatus\n\nstring\n\n**example**`completed`\n\nThe status of the call. [See possible values](https://developer.nexmo.com/voice/voice-api/guides/call-flow#event-objects)\n\ndirection\n\nstring\n\n**example**`outbound`\n\nPossible values are `outbound` or `inbound`\n\nMust be one of:`outbound``inbound`\n\nrate\n\nstring\n\n**example**`0.39`\n\nThe price per minute for this call. This is only sent if `status` is `completed`.\n\nprice\n\nstring\n\n**example**`23.40`",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:41.032462Z",
+      "section_path": "[Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#title) Voice API > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#Calls) Calls > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#getCalls) Get details of your calls > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#getCalls-responses) Responses     Content Type    application/json",
+      "chunk_index": 2,
+      "token_count": 886,
+      "quality_score": 0.78
+    },
+    {
+      "id": "ev_cde1831e48d2",
+      "source_type": "api_reference",
+      "url": "https://developer.vonage.com/en/api/voice",
+      "domain": "developer.vonage.com",
+      "page_title": "Vonage Voice API Reference | Vonage API Documentation",
+      "content": "One Of\n\nWith NCCO\n\nWith Answer URL\n\nto\n\narray\n\nRequired\n\nOne Of\n\nConnect to a Phone (PSTN) number\n\nConnect to a Phone (PSTN) number\n\nConnect to a SIP Endpoint\n\nConnect to a Websocket\n\nConnect to a VBC extension\n\nConnect to an App User\n\ntype\n\nstring\n\nRequired\n\n**example**`phone`\n\nThe type of connection. Must be `phone`\n\nnumber\n\nstring\n\nRequired\n\n**Min**`7`\n\n**Max**`15`\n\n**example**`14155550100`\n\nThe phone number to connect to\n\ndtmfAnswer\n\nstring\n\n**example**`p*123#`\n\nProvide [DTMF digits](https://developer.nexmo.com/voice/voice-api/concepts/dtmf) to send when the call is answered\n\nshaken\n\nstring\n\n**example**`eyJhbGciOiJFUzI1NiIsInBwdCI6InNoYWtlbiIsInR5cCI6InBhc3Nwb3J0IiwieDV1IjoiaHR0cHM6Ly9jZXJ0LmV4YW1wbGUuY29tL3Bhc3Nwb3J0LnBlbSJ9.eyJhdHRlc3QiOiJBIiwiZGVzdCI6eyJ0biI6WyIxMjEyNTU1MTIxMiJdfSwiaWF0IjoxNjk0ODcwNDAwLCJvcmlnIjp7InRuIjoiMTQxNTU1NTEyMzQifSwib3JpZ2lkIjoiMTIzZTQ1NjctZTg5Yi0xMmQzLWE0NTYtNDI2NjE0MTc0MDAwIn0.MEUCIQCrfKeMtvn9I6zXjE2VfGEcdjC2sm5M6cPqBvFyV9XkpQIgLxlvLNmC8DJEKexXZqTZ;info=<https://stir-provider.example.net/cert.cer>;alg=ES256;ppt=\"shaken\"`\n\nFor Vonage customers who are required by the FCC to sign their own calls to the USA, we allow you to place Voice API calls with your own signature. This feature is available by request only. Please be aware calls with an invalid signature will be rejected. For more information please contact us. In this option, you must place the STIR/SHAKEN Identity Header content that Vonage must use for this call. Expected format is composed of the JWT with the header, payload and signature, an info parameter with a link for the certificate, the algorithm (alg) parameter indicating which encryption type was used and the passport type (ppt) which should be shaken.\n\nfrom\n\nobject\n\nConnect to a Phone (PSTN) number. This property is mutually exclusive with `random_from_number`: you must specify one (`from`) or the other (`random_from_number: true`).\n\ntype\n\nstring\n\nRequired\n\n**example**`phone`\n\nThe type of connection. Must be `phone`.\n\nnumber\n\nstring\n\nRequired\n\n**example**`14155550100`\n\nThe phone number to connect to. It can be either an E.164 formatted number or a SIP URI.\n\nrandom\\_from\\_number\n\nboolean\n\nSet to `true` to use random phone number as `from`. The number will be selected from the list of the numbers assigned to the current application. This property is mutually exclusive with `from`: you must specify one (`random_from_number: true`) or the other (`from`).\n\nevent\\_url\n\narray\n\n**Required** unless `event_url` is configured at the application\nlevel, see [Create an Application](https://developer.vonage.com/en/api/application.v2#createApplication)\n\nThe webhook endpoint where call progress events are\nsent to. For more information about the values sent, see\n[Event webhook](https://developer.vonage.com/en/voice/voice-api/webhook-reference#event-webhook).\n\nevent\\_method\n\nstring\n\n**Default**`POST`\n\nThe HTTP method used to send event information to `event_url`.\n\nMust be one of:`POST``GET`\n\nmachine\\_detection\n\nstring\n\n**example**`continue`\n\nConfigure the behavior when Vonage detects that the call is answered by voicemail. If `continue`, Vonage sends an HTTP request to `event_url` with the Call event machine. If `hangup`, Vonage ends the call.\n\nMust be one of:`continue``hangup`\n\nadvanced\\_machine\\_detection\n\nobject",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:41.032577Z",
+      "section_path": "[Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#title) Voice API > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#Calls) Calls > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#createCall) Create an outbound call > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#createCall-req-body) Request Body     Content Type    application/json",
+      "chunk_index": 5,
+      "token_count": 826,
+      "quality_score": 0.78
+    },
+    {
+      "id": "ev_c2f136c90bdd",
+      "source_type": "api_reference",
+      "url": "https://developer.vonage.com/en/api/voice",
+      "domain": "developer.vonage.com",
+      "page_title": "Vonage Voice API Reference | Vonage API Documentation",
+      "content": "Configure the behavior of Vonage's advanced machine detection. Overrides `machine_detection` if both are set. Note that this is a beta feature which will be chargeable; exact rates can be found on the [Voice API Pricing](https://www.vonage.co.uk/communications-apis/voice/pricing/) page under 'Programmable Features'.\n\nbehavior\n\nstring\n\nWhen `hangup` is used, the call will be terminated if a machine is detected. When `continue` is used, the call will continue even if a machine is detected.\n\nMust be one of:`continue``hangup`\n\nmode\n\nstring\n\n**Default**`detect`\n\nDetect if machine answered and sends a human or machine status in the webhook payload. The modes are as follows:\n\n- `default` \\- async mode, the next NCCO action will be processed immediately in parallel with machine detection, the application will receive both machine detection status and beep events and can reply with new NCCO to any of them;\n\n- `detect` \\- sync mode, the next NCCO action will be processed only when machine detection is finished, the application will receive only machine detection status event;\n\n- `detect_beep` \\- sync mode, the next NCCO action will be processed only when machine detection is finished, the application will receive only a beep event.\n\nMust be one of:`default``detect``detect_beep`\n\nbeep\\_timeout\n\ninteger\n\n**Min**`30`\n\n**Max**`120`\n\nMaximum time in seconds Vonage should wait for a machine beep to be detected. A machine event with `sub_state` set to `beep_timeout` will be sent if the timeout is exceeded.\n\nlength\\_timer\n\ninteger\n\n**Min**`1`\n\n**Max**`86400`\n\n**Default**`7200`\n\nSet the number of seconds that elapse before Vonage hangs up after the call state changes to answered.\n\nringing\\_timer\n\ninteger\n\n**Min**`1`\n\n**Max**`120`\n\n**Default**`60`\n\nSet the number of seconds that elapse before Vonage hangs up after the call state changes to ‘ringing’.\n\nncco\n\narray\n\nRequired\n\nThe [Nexmo Call Control Object](https://developer.vonage.com/en/voice/voice-api/ncco-reference) to use for this call.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:41.032624Z",
+      "section_path": "[Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#title) Voice API > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#Calls) Calls > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#createCall) Create an outbound call > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#createCall-req-body) Request Body     Content Type    application/json",
+      "chunk_index": 6,
+      "token_count": 501,
+      "quality_score": 0.78
+    },
+    {
+      "id": "ev_20b7ee53fb5f",
+      "source_type": "api_reference",
+      "url": "https://developer.vonage.com/en/api/voice",
+      "domain": "developer.vonage.com",
+      "page_title": "Vonage Voice API Reference | Vonage API Documentation",
+      "content": "200200\n\nOk\n\n\\_links\n\nobject\n\nself\n\nobject\n\nhref\n\nstring\n\n**example**`/calls/63f61863-4a51-4f6b-86e1-46edebcf9356`\n\nuuid\n\nstring(uuid)\n\n**example**`63f61863-4a51-4f6b-86e1-46edebcf9356`\n\nThe unique identifier for this call leg. The UUID is created when your call request is accepted by Vonage. You use the UUID in all requests for individual live calls\n\nconversation\\_uuid\n\nstring(uuid)\n\n**example**`CON-f972836a-550f-45fa-956c-12a2ab5b7d22`\n\nThe unique identifier for the conversation this call leg is part of.\n\nto\n\nOne Of\n\nConnect to a Phone (PSTN) number\n\nConnect to a Phone (PSTN) number\n\nConnect to a SIP Endpoint\n\nConnect to a Websocket\n\nConnect to a VBC extension\n\nConnect to an App User\n\ntype\n\nstring\n\nRequired\n\n**example**`phone`\n\nThe type of connection. Must be `phone`\n\nnumber\n\nstring\n\nRequired\n\n**Min**`7`\n\n**Max**`15`\n\n**example**`14155550100`\n\nThe phone number to connect to\n\ndtmfAnswer\n\nstring\n\n**example**`p*123#`\n\nProvide [DTMF digits](https://developer.nexmo.com/voice/voice-api/concepts/dtmf) to send when the call is answered\n\nshaken\n\nstring\n\n**example**`eyJhbGciOiJFUzI1NiIsInBwdCI6InNoYWtlbiIsInR5cCI6InBhc3Nwb3J0IiwieDV1IjoiaHR0cHM6Ly9jZXJ0LmV4YW1wbGUuY29tL3Bhc3Nwb3J0LnBlbSJ9.eyJhdHRlc3QiOiJBIiwiZGVzdCI6eyJ0biI6WyIxMjEyNTU1MTIxMiJdfSwiaWF0IjoxNjk0ODcwNDAwLCJvcmlnIjp7InRuIjoiMTQxNTU1NTEyMzQifSwib3JpZ2lkIjoiMTIzZTQ1NjctZTg5Yi0xMmQzLWE0NTYtNDI2NjE0MTc0MDAwIn0.MEUCIQCrfKeMtvn9I6zXjE2VfGEcdjC2sm5M6cPqBvFyV9XkpQIgLxlvLNmC8DJEKexXZqTZ;info=<https://stir-provider.example.net/cert.cer>;alg=ES256;ppt=\"shaken\"`\n\nFor Vonage customers who are required by the FCC to sign their own calls to the USA, we allow you to place Voice API calls with your own signature. This feature is available by request only. Please be aware calls with an invalid signature will be rejected. For more information please contact us. In this option, you must place the STIR/SHAKEN Identity Header content that Vonage must use for this call. Expected format is composed of the JWT with the header, payload and signature, an info parameter with a link for the certificate, the algorithm (alg) parameter indicating which encryption type was used and the passport type (ppt) which should be shaken.\n\nfrom\n\nobject\n\nThe endpoint you called from. Possible values are the same as `to`.\n\ntype\n\nstring\n\n**example**`phone`\n\nnumber\n\nstring\n\n**example**`447700900001`\n\nstatus\n\nstring\n\n**example**`completed`\n\nThe status of the call. [See possible values](https://developer.nexmo.com/voice/voice-api/guides/call-flow#event-objects)\n\ndirection\n\nstring\n\n**example**`outbound`\n\nPossible values are `outbound` or `inbound`\n\nMust be one of:`outbound``inbound`\n\nrate\n\nstring\n\n**example**`0.39`\n\nThe price per minute for this call. This is only sent if `status` is `completed`.\n\nprice\n\nstring\n\n**example**`23.40`\n\nThe total price charged for this call. This is only sent if `status` is `completed`.\n\nduration\n\nstring\n\n**example**`60`\n\nThe time elapsed for the call to take place in seconds. This is only sent if `status` is `completed`.\n\nstart\\_time\n\nstring(date-time)\n\n**example**`2020-01-01 12:00:00`\n\nThe time the call started in the following format: `YYYY-MM-DD HH:MM:SS`. For example, `2020-01-01 12:00:00`. This is only sent if `status` is `completed`.\n\nend\\_time\n\nstring(date-time)\n\n**example**`2020-01-01 12:00:00`\n\nThe time the call started in the following format: `YYYY-MM-DD HH:MM:SS`. For xample, `2020-01-01 12:00:00`. This is only sent if `status` is `completed`.\n\nnetwork\n\nstring\n\n**example**`65512`",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:41.032732Z",
+      "section_path": "[Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#title) Voice API > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#Calls) Calls > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#getCall) Get detail of a specific call > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#getCall-responses) Responses     Content Type    application/json",
+      "chunk_index": 9,
+      "token_count": 872,
+      "quality_score": 0.78
+    },
+    {
+      "id": "ev_3270740aae5a",
+      "source_type": "api_reference",
+      "url": "https://developer.vonage.com/en/api/voice",
+      "domain": "developer.vonage.com",
+      "page_title": "Vonage Voice API Reference | Vonage API Documentation",
+      "content": "```\n{\n   \"message\": \"DTMF sent\",\n   \"uuid\": \"63f61863-4a51-4f6b-86e1-46edebcf9356\"\n}\n```\n\nRegister a listener to receive asynchronous DTMF inputs from a call. This is only applicable to [Input NCCO](https://developer.vonage.com/en/voice/voice-api/ncco-reference#input) events with the `mode` set to `asynchronous`. The payload delivered to this URL will be an [Input webhook event](https://localhost:3000/en/voice/voice-api/webhook-reference#input) with a single DTMF digit every time the callee enters DTMF into the call.\n\nputhttps://api.nexmo.com/v1/calls/:uuid/input/dtmf\n\n| Key | Description | Where | Example |\n| --- | --- | --- | --- |\n| **Authorization** | Your JSON web token. <br>[Read more about JWTs](https://developer.vonage.com/en/concepts/guides/authentication#json-web-tokens-jwt) | Headers | `Bearer <JWT>` |\n\nuuid\n\nstring\n\nRequired\n\nUUID of the Call Leg\n\nevent\\_url\n\narray\n\nThe URL (wrapped in an array) to send DTMF events to, as a POST request.\n\nAll Fields\n\n\n\nRequired Fields Only\n\n\n\n```\n{\n   \"event_url\": [\\\n      \"https://example.com/ivr\"\\\n   ]\n}\n```\n\n```\n{}\n```\n\n200200\n\nOK\n\nRemoves the registered DTMF listener.\n\ndeletehttps://api.nexmo.com/v1/calls/:uuid/input/dtmf\n\n| Key | Description | Where | Example |\n| --- | --- | --- | --- |\n| **Authorization** | Your JSON web token. <br>[Read more about JWTs](https://developer.vonage.com/en/concepts/guides/authentication#json-web-tokens-jwt) | Headers | `Bearer <JWT>` |",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:41.032939Z",
+      "section_path": "[Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#title) Voice API > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#DTMF) DTMF > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#Unsubscribe-DTMF) Stop receiving real-time DTMF events > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#Unsubscribe-DTMF-auth) Authentication",
+      "chunk_index": 17,
+      "token_count": 359,
+      "quality_score": 0.78
+    },
+    {
+      "id": "ev_120f9c3a94e4",
+      "source_type": "auth_docs",
+      "url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+      "domain": "developer.vonage.com",
+      "page_title": "Authentication - API Concepts | Vonage API Documentation",
+      "content": "The [Vonage CLI](https://github.com/vonage/vonage-cli) provides a command for generating a JWT.\n\nAn example of generating a JWT for an application is as follows:\n\nPowershell (Windows)\n\n\n\nCMD (Windows)\n\n\n\nBash\n\n\n\nCopy\n\n```\n\nvonage jwt create `\n--app-id='00000000-0000-0000-0000-000000000000' `\n--private-key=./private.key\n\neyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzYyODE5NDYsImp0aSI6IjBmZjcwZDNmLTAzN2EtNGY4MC04ODZjLWI3MmM3MmQyMWNmMiIsImlhdCI6MTczNjI4MTA0NiwiYXBwbGljYXRpb25faWQiOiIwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAifQ.gA7jClpqaZ2OoS0iri-zGCbda4jO7C0M8mka0EnSyjlds1EeY8fNoBEx3FTXHfkkzzrj0TskrWc_dcs1wuM8Kx55c5rLQ7taVpDAYopKSc_CeeOaad8S6aWnRkTUTNeduO4aIn-0CbyRTluBYsH1RBqYBQvobuQIDEwbFw8xBgx0UfREMMN6DAWknR57eiVXN9x_oD6CGQJ1yV3025nGboeMsP9YgX4Nwc-rE2r8c1ZGwCLO81x8i19Qil3Nwu5q1nzouyavQjIw00B_TZkushnI1ufdi_GNqk-h5q2HvGkg7Pj9bVkZHFdVTO8im03JYNyJmcV83vnpjOLuCFRzxQ\n```\n\nCopy\n\n```\nREM A command with parameters\nvonage jwt create ^\n--app-id='00000000-0000-0000-0000-000000000000' ^\n--private-key=./private.key\n\nREM Will produce a token\neyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzYyODE5NDYsImp0aSI6IjBmZjcwZDNmLTAzN2EtNGY4MC04ODZjLWI3MmM3MmQyMWNmMiIsImlhdCI6MTczNjI4MTA0NiwiYXBwbGljYXRpb25faWQiOiIwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAifQ.gA7jClpqaZ2OoS0iri-zGCbda4jO7C0M8mka0EnSyjlds1EeY8fNoBEx3FTXHfkkzzrj0TskrWc_dcs1wuM8Kx55c5rLQ7taVpDAYopKSc_CeeOaad8S6aWnRkTUTNeduO4aIn-0CbyRTluBYsH1RBqYBQvobuQIDEwbFw8xBgx0UfREMMN6DAWknR57eiVXN9x_oD6CGQJ1yV3025nGboeMsP9YgX4Nwc-rE2r8c1ZGwCLO81x8i19Qil3Nwu5q1nzouyavQjIw00B_TZkushnI1ufdi_GNqk-h5q2HvGkg7Pj9bVkZHFdVTO8im03JYNyJmcV83vnpjOLuCFRzxQ\n```\n\n\\# A command with parametersvonage jwt create \\--app-id='00000000-0000-0000-0000-000000000000' \\--private-key=./private.key\\# Will produce a tokeneyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzYyODE5NDYsImp0aSI6IjBmZjcwZDNmLTAzN2EtNGY4MC04ODZjLWI3MmM3MmQyMWNmMiIsImlhdCI6MTczNjI4MTA0NiwiYXBwbGljYXRpb25faWQiOiIwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAifQ.gA7jClpqaZ2OoS0iri-zGCbda4jO7C0M8mka0EnSyjlds1EeY8fNoBEx3FTXHfkkzzrj0TskrWc\\_dcs1wuM8Kx55c5rLQ7taVpDAYopKSc\\_CeeOaad8S6aWnRkTUTNeduO4aIn-0CbyRTluBYsH1RBqYBQvobuQIDEwbFw8xBgx0UfREMMN6DAWknR57eiVXN9x\\_oD6CGQJ1yV3025nGboeMsP9YgX4Nwc-rE2r8c1ZGwCLO81x8i19Qil3Nwu5q1nzouyavQjIw00B\\_TZkushnI1ufdi\\_GNqk-h5q2HvGkg7Pj9bVkZHFdVTO8im03JYNyJmcV83vnpjOLuCFRzxQ\n\nCopy\n\nThe private key in question is generated from the application dashboard or from `vonage apps create`. You can save this\ninformation for the CLI by running `vonage auth set`. The contents of the private key will then be saved in either\nthe `.vonagerc` file or `$HOME/.vonage/config.json`.\n\nFurther information on the Vonage CLI can be found in its [repository on GitHub](https://github.com/vonage/vonage-cli).\n\nExamples of using the Vonage libraries to generate JWTs can be found [below](https://developer.vonage.com/en/getting-started/concepts/authentication#generating-jwts-for-the-client-sdks). If you are not using a Vonage library you should refer to [RFC 7519](https://tools.ietf.org/html/rfc7519) to implement JWTs.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:40.901912Z",
+      "section_path": "Will produce a token",
+      "chunk_index": 4,
+      "token_count": 766,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_c6b546c0f9b2",
+      "source_type": "auth_docs",
+      "url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+      "domain": "developer.vonage.com",
+      "page_title": "Authentication - API Concepts | Vonage API Documentation",
+      "content": "The Vonage [Client](https://developer.vonage.com/voice/voice-api/concepts/in-app-calling.md) and [Video](https://developer.vonage.com/voice/voice-api/concepts/in-app-calling.md) SDKs use JWTs for authentication when a client connects to Vonage. These JWTs are generated using the application ID and private key that is provided [when a new application is created](https://developer.vonage.com/client-sdk/setup/create-your-application).\n\nUsing that `private.key` and the application ID, you can mint a new JWT. In order to log a user into a Vonage client, the JWT will need the following claims:\n\n| Claim | Description |\n| --- | --- |\n| `sub` | The \"subject\". The subject, in this case, will be the name of the user created and associated with your Vonage Application. |\n| `acl` | Access control list. The Client SDK uses this as a permission system for users. Read more about it in the [ACL overview](https://developer.vonage.com/en/getting-started/concepts/authentication#access-control-list-acl). |\n| `application_id` | This is the ID of the Vonage Application you created. |\n| `iat` | \"Issued at time\" This is the time the JWT was issued, in unix epoch time. |\n| `jti` | [\"JWT ID\"](https://www.rfc-editor.org/rfc/rfc7519#section-4.1.7). This is a unique string identifier for this JWT. |\n| `exp` | \"Expiration time\" This is the time in the future that the JWT will expire, in unix epoch time. |\n\n_The `exp` claim is optional._ If the claim is not provided, then the JWT will expire by default in 15 minutes. The max expiration time for a JWT is 24 hours. JWTs should typically be short-lived, as it is trivial to create a new JWT and some JWTs can have multiple far-reaching permissions.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:40.901959Z",
+      "section_path": "Will produce a token > [Documentation Anchor Link](https://developer.vonage.com/en/getting-started/concepts/authentication\\#vonage-client-sdks) Vonage Client SDKs > [Documentation Anchor Link](https://developer.vonage.com/en/getting-started/concepts/authentication\\#claims) Claims > [Documentation Anchor Link](https://developer.vonage.com/en/getting-started/concepts/authentication\\#vonage-client-sdk) Vonage Client SDK",
+      "chunk_index": 5,
+      "token_count": 422,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_68ccf07e102a",
+      "source_type": "auth_docs",
+      "url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+      "domain": "developer.vonage.com",
+      "page_title": "Authentication - API Concepts | Vonage API Documentation",
+      "content": "Once all the claims have been provided, the resulting claims should appear like so:\n\nCopy\n\n```\n{\n  \"iat\": 1532093588,\n  \"jti\": \"705b6f50-8c21-11e8-9bcb-595326422d60\",\n  \"sub\": \"alice\",\n  \"exp\": \"1532179987\",\n  \"acl\": {\n    \"paths\": {\n      ...\n    }\n  },\n  \"application_id\": \"aaaaaaaa-bbbb-cccc-dddd-0123456789ab\"\n}\n```\n\n( `...` snippet is truncated)\n\n| Claim | Description |\n| --- | --- |\n| `sub` | The \"subject\". The subject, in this case, should be the string `video`. |\n| `acl` | Access control list. The Client SDK uses this as a permission system for users. Read more about it in the [ACL overview](https://developer.vonage.com/en/getting-started/concepts/authentication#access-control-list-acl). |\n| `application_id` | This is the ID of the Vonage Application you created. |\n| `session_id` | This is the ID of the [Session](https://developer.vonage.com/video/guides/create-session) you created. |\n| `scope` | This is the scope of the token. It should be the string `session.connect`. |\n| `role` | This is the role of the token. It can be a range of string [values](https://developer.vonage.com/video/guides/create-token#roles) depending on what permissions you want to grant this token. |\n| `data` | This custom metadata you can optionally add to describe the token. This is a string limited to [1000 characters](https://developer.vonage.com/video/guides/create-token#connection-data). |\n| `initial_layout_class_list` | This lets you optionally, when broadcasting, specify the initial [layout class list](https://developer.vonage.com/en/video/guides/archive-broadcast-layout#setting-the-initial-layout-class-list-for-a-clients-streams) for streams published by the client. |\n| `iat` | \"Issued at time\" This is the time the JWT was issued, in unix epoch time. |\n| `jti` | [\"JWT ID\"](https://www.rfc-editor.org/rfc/rfc7519#section-4.1.7). This is a unique string identifier for this JWT. |\n| `exp` | \"Expiration time\" This is the time in the future that the JWT will expire, in unix epoch time. |\n\n_The `exp` claim is optional._ If the claim is not provided, then the JWT will expire by default in 24 hours. The max expiration time for a Video SDK JWT is 30 days. JWTs should typically be short-lived, as it is trivial to create a new JWT and some JWTs can have multiple far-reaching permissions. Always make sure to try and set an `exp` time to the least amount of time that is feasible for your application.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:40.901999Z",
+      "section_path": "Will produce a token > [Documentation Anchor Link](https://developer.vonage.com/en/getting-started/concepts/authentication\\#vonage-client-sdks) Vonage Client SDKs > [Documentation Anchor Link](https://developer.vonage.com/en/getting-started/concepts/authentication\\#claims) Claims > [Documentation Anchor Link](https://developer.vonage.com/en/getting-started/concepts/authentication\\#vonage-client-sdk) Vonage Client SDK > [Documentation Anchor Link](https://developer.vonage.com/en/getting-started/concepts/authentication\\#vonage-video-client-sdk) Vonage Video Client SDK",
+      "chunk_index": 6,
+      "token_count": 603,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_19ffd84e8cc9",
+      "source_type": "auth_docs",
+      "url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+      "domain": "developer.vonage.com",
+      "page_title": "Authentication - API Concepts | Vonage API Documentation",
+      "content": "Copy\n\n```\n{\n  \"scope\": \"session.connect\",\n  \"session_id\": \"1_MX44YjY4NTFmZS01NjdjLTRlODYtYWRmOC0zYmVhODM2MzNjNjB-fjE3NDIzMDY0ODY0NjZ-WS9FOHhybUdHV0JtTGZYTEV2aVlwV1N4fn5-\",\n  \"role\": \"moderator\",\n  \"initial_layout_class_list\": \"\",\n  \"sub\": \"video\",\n  \"acl\": {\n    \"paths\": {\n      \"/session/**\": {}\n    }\n  },\n  \"jti\": \"c04c96ba-3229-4fd4-9f55-406b6a6eb485\",\n  \"iat\": 1742306486,\n  \"exp\": 1742307386,\n  \"application_id\": \"8b6851fe-567c-4e86-adf8-3bea83633c60\"\n}\n```\n\nIn the [sample JWT request payload](https://developer.vonage.com/en/getting-started/concepts/authentication#sample-video-client-sdk-jwt-payload) above, notice how the `acl` claim has a `paths` object. The path object contains a list of endpoints that correspond to certain permissions a user has when using the Client SDK.\n\nBelow is the list of endpoints you can grant a user access to:\n\n| Endpoint | Description | Required for |\n| --- | --- | --- |\n| `/*/rtc/**` | Create signalling session to receive events and send metrics | In-app calls/message |\n| `/*/sessions/**` | Log in as an in-app voice or chat user | In-app calls/messages |\n| `/*/users/**` | Getting user conversations, user sessions and user object | In-app calls/messages |\n| `/*/conversations/**` | Create and manage conversations & send/receive messages | In-app calls/messages |\n| `/*/knocking/**` | Start phone calls | In-app calls |\n| `/*/devices/**` | Register device to receive push notifications | In-app calls/messages |\n| `/*/legs/**` | Create and manage legs in a conversation | In-app calls |\n| `/*/session/**` | Connect to a video session | Video |\n\nYou should provide the user you are generating with permissions to access only the relevant paths. For instance, if the Voice Client SDK user is not going to need to fetch information about their User object or other Users, you should omit the `users` path. To further illustrate, if you add the `/*/conversations/**` path to a JWT's ACL, the user will be able to create and manage conversations. Also, if this is the _only_ ACL set, the user will only have access to the [`/conversations`](https://developer.vonage.com/api/conversation) endpoint.\n\nNote: Using wildcards in your ACL paths (e.g. `/*/conversations/**`) will allow the JWT token to access all the operations for that endpoint. It is strongly recommended that you use more granular control of your ACL paths as illustrated below.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:40.902038Z",
+      "section_path": "Will produce a token > [Documentation Anchor Link](https://developer.vonage.com/en/getting-started/concepts/authentication\\#vonage-client-sdks) Vonage Client SDKs > [Documentation Anchor Link](https://developer.vonage.com/en/getting-started/concepts/authentication\\#access-control-list-acl) Access Control List (ACL)",
+      "chunk_index": 7,
+      "token_count": 596,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_7e9470e3ac63",
+      "source_type": "auth_docs",
+      "url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+      "domain": "developer.vonage.com",
+      "page_title": "Authentication - API Concepts | Vonage API Documentation",
+      "content": "Above, we looked at how to grant users access to endpoints. You may also limit or grant access based on sub-paths and HTTP methods. This allows you to very granularly define what permissions a token should have. For example in your Voice Client SDK application you want users to be able to get information about a conversation:\n\nCopy\n\n```\n{\n  \"acl\": {\n    \"paths\": {\n      \"/*/conversations/**\": {}\n    }\n  }\n}\n```\n\nThe above ACL paths allows **anyone** with this token to make requests to **any** Conversation API endpoint linked to your Vonage application. This will allow whoever holds this token get a list of ongoing Conversations in your application, create new Conversations, or more. To mitigate this, you can specify which paths specifically should be accessible and which HTTP methods are allowed to be used on those paths.\n\nCopy\n\n```\n{\n  \"acl\": {\n    \"paths\": {\n      \"/*/conversations/*\": {\n        \"methods\": [\\\n          \"GET\"\\\n        ]\n      }\n    }\n  }\n}\n```\n\nThis new ACL paths allows anyone with this token to **only** make a `GET` request to a specific conversation and no further subpaths or operations. Which is far more restrictive than before.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:40.902072Z",
+      "section_path": "Will produce a token > [Documentation Anchor Link](https://developer.vonage.com/en/getting-started/concepts/authentication\\#vonage-client-sdks) Vonage Client SDKs > [Documentation Anchor Link](https://developer.vonage.com/en/getting-started/concepts/authentication\\#granular-acl-paths) Granular ACL Paths",
+      "chunk_index": 8,
+      "token_count": 291,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_1efd7b2909cf",
+      "source_type": "auth_docs",
+      "url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+      "domain": "developer.vonage.com",
+      "page_title": "Authentication - API Concepts | Vonage API Documentation",
+      "content": "Below are the minimum ACL paths needed to perform various actions in the Vonage Client SDKs. To add support for more endpoints based on your use case, refer to the [ACL table](https://developer.vonage.com/en/getting-started/concepts/authentication#access-control-list-acl) above and add them as restrictively as possible.\n\nCalling\n\nCalling with Conversation API\n\nCalling with Devices API\n\nCalling with Users API\n\nVideo\n\nThis supports the basic use case of creating a session, using `serverCall`, `reconnectCall`, and being able to answer, reject, hangup a call.\n\nCopy\n\n```\n{\n  \"acl\": {\n    \"paths\": {\n      \"/*/sessions/**\": { \"methods\": [\"POST\"] },\n      \"/*/conversations/*\": { \"methods\": [\"GET\"] },\n      \"/*/conversations/*/rtc/*/answer\": { \"methods\": [\"POST\"] },\n      \"/*/conversations/*/rtc/*/offer/*\": { \"methods\": [\"POST\"]},\n      \"/*/conversations/*/members/*\": { \"methods\": [\"PUT\", \"DELETE\"] },\n      \"/*/knocking/**\": { \"methods\": [\"POST\", \"DELETE\"] },\n      \"/*/legs/**\": { \"methods\": [\"POST\", \"GET\"] },\n      \"/*/v2/rtc/**\": { \"methods\": [\"POST\", \"GET\"] }\n    }\n  }\n}\n```\n\nIn addition to the base Calling case, this will allow you to use SDK functions such as `mute`, `say`, etc. This is needed for the Chat SDK.\n\nCopy\n\n```\n{\n  \"acl\": {\n    \"paths\": {\n      \"/*/sessions/**\": { \"methods\": [\"POST\"] },\n      \"/*/conversations/*\": { \"methods\": [\"GET\"] },\n      \"/*/conversations/*/events/*\": { \"methods\": [\"POST\", \"GET\"]},\n      \"/*/conversations/*/rtc/*/answer\": { \"methods\": [\"POST\"] },\n      \"/*/conversations/*/rtc/*/offer/*\": { \"methods\": [\"POST\"]},\n      \"/*/conversations/*/members/*\": { \"methods\": [\"PUT\", \"DELETE\"] },\n      \"/*/knocking/**\": { \"methods\": [\"POST\", \"DELETE\"] },\n      \"/*/legs/**\": { \"methods\": [\"POST\", \"GET\"] },\n      \"/*/v2/rtc/**\": { \"methods\": [\"POST\", \"GET\"] }\n    }\n  }\n}\n```\n\nIn addition to the base Calling case, this will allow you to use SDK functions to manage push tokens. Add the device methods you want to support as needed.\n\nCopy\n\n```\n{\n  \"acl\": {\n    \"paths\": {\n      \"/*/sessions/**\": { \"methods\": [\"POST\"] },\n      \"/*/conversations/*\": { \"methods\": [\"GET\"] },\n      \"/*/conversations/*/rtc/*/answer\": { \"methods\": [\"POST\"] },\n      \"/*/conversations/*/rtc/*/offer/*\": { \"methods\": [\"POST\"]},\n      \"/*/conversations/*/members/*\": { \"methods\": [\"PUT\", \"DELETE\"] },\n      \"/*/knocking/**\": { \"methods\": [\"POST\", \"DELETE\"] },\n      \"/*/legs/**\": { \"methods\": [\"POST\", \"GET\"] },\n      \"/*/v2/rtc/**\": { \"methods\": [\"POST\", \"GET\"] },\n      \"/*/devices/**\": { \"methods\": [] }\n    }\n  }\n}\n```\n\nDevices methods:\n\n- POST - Register new user devices.\n- GET - Fetch registered devices for the user.\n- PUT - Update registered devices for the user.\n- DELETE - Delete registered devices for the user.\n\nIn addition to the base Calling case, this will allow you to use SDK functions to get information about a specific user.\n\nCopy",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:40.902115Z",
+      "section_path": "Will produce a token > [Documentation Anchor Link](https://developer.vonage.com/en/getting-started/concepts/authentication\\#vonage-client-sdks) Vonage Client SDKs > [Documentation Anchor Link](https://developer.vonage.com/en/getting-started/concepts/authentication\\#granular-acl-paths) Granular ACL Paths > [Documentation Anchor Link](https://developer.vonage.com/en/getting-started/concepts/authentication\\#minimum-acl-paths-for-client-sdks) Minimum ACL Paths for Client SDKs",
+      "chunk_index": 9,
+      "token_count": 717,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_3547173d8682",
+      "source_type": "auth_docs",
+      "url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+      "domain": "developer.vonage.com",
+      "page_title": "Authentication - API Concepts | Vonage API Documentation",
+      "content": "```\n{\n  \"acl\": {\n    \"paths\": {\n      \"/*/sessions/**\": { \"methods\": [\"POST\"] },\n      \"/*/conversations/*\": { \"methods\": [\"GET\"] },\n      \"/*/conversations/*/rtc/*/answer\": { \"methods\": [\"POST\"] },\n      \"/*/conversations/*/rtc/*/offer/*\": { \"methods\": [\"POST\"]},\n      \"/*/conversations/*/members/*\": { \"methods\": [\"PUT\", \"DELETE\"] },\n      \"/*/knocking/**\": { \"methods\": [\"POST\", \"DELETE\"] },\n      \"/*/legs/**\": { \"methods\": [\"POST\", \"GET\"] },\n      \"/*/v2/rtc/**\": { \"methods\": [\"POST\", \"GET\"] },\n      \"/*/users/*\": { \"methods\": [\"GET\"] },\n    }\n  }\n}\n```\n\nThis supports connecting to a session with the Video SDK\n\nCopy\n\n```\n{\n  \"acl\": {\n    \"paths\": {\n      \"/*/session/**\": {}\n    }\n  }\n}\n```\n\nThe [Server SDKs](https://developer.vonage.com/en/getting-started/concepts/authentication#using-the-server-sdks) contain methods for generating JWT tokens. You may however use the [Vonage CLI](https://developer.vonage.com/application/vonage-cli) to do this as well.\nThis is particularly helpful during testing.\n\nPowershell (Windows)\n\n\n\nCMD (Windows)\n\n\n\nBash\n\n\n\nCopy\n\n```\n\nvonage jwt create `\n--app-id='00000000-0000-0000-0000-000000000000' `\n--private-key=./private.key `\n--sub='Alice' `\n--acl='{\\\"paths\\\":{\\\"\\/*\\/users\\/**\\\":{},\\\"\\/*\\/conversations\\/**\\\":{},\\\"\\/*\\/sessions\\/**\\\":{},\\\"\\/*\\/devices\\/**\\\":{},\\\"\\/*\\/push\\/**\\\":{},\\\"\\/*\\/knocking\\/**\\\":{},\\\"\\/*\\/legs\\/**\\\":{}}}'",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:40.902143Z",
+      "section_path": "A command with parameters",
+      "chunk_index": 10,
+      "token_count": 344,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_e2d285d1e065",
+      "source_type": "auth_docs",
+      "url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+      "domain": "developer.vonage.com",
+      "page_title": "Authentication - API Concepts | Vonage API Documentation",
+      "content": "It is expected that the accompanying server for your Vonage application will generate JWTs for the Client SDKs. Here are some examples using the Vonage Server SDKs:\n\nNode.js\n\nKotlin\n\nJava\n\n.NET\n\nPHP\n\nPython\n\nRuby\n\nVersion 3 of the [Vonage Node Server SDK](https://github.com/vonage/vonage-node-sdk) includes a package for generating JWT tokens. It can also generate a JWT [using the appropriate claims](https://github.com/Vonage/vonage-node-sdk/tree/3.x/packages/jwt).\n\nCopy\n\n```\nconst { tokenGenerate } = require('@vonage/jwt');\n\nconst privateKey = readFileSync('path/to/private.key');\n\nconst aclPaths = {\n  \"paths\": {\n    ...\n  }\n}\n\nconst token = tokenGenerate(\"aaaaaaaa-bbbb-cccc-dddd-0123456789ab\", privateKey, {\n      //expire in 24 hours\n      exp: Math.round(new Date().getTime()/1000)+86400,\n      sub: \"Alice\",\n      acl: aclPaths,\n    });\n```\n\nThe [Vonage JWT JDK library](https://github.com/Vonage/vonage-jwt-jdk) can be used to generate a signed JWT with claims.\n\nCopy\n\n```\nval token : String = Jwt.builder()\n    .applicationId(\"aaaaaaaa-bbbb-cccc-dddd-0123456789ab\")\n    .privateKeyPath(\"/path/to/private.key\")\n    .issuedAt(ZonedDateTime.now())\n    .subject(\"Alice\")\n    .addClaim(\"acl\", mapOf(\n        \"paths\" to mapOf(\n            ...\n        )\n    ))\n    .build()\n    .generate()\n```\n\nThe [Vonage JWT JDK library](https://github.com/Vonage/vonage-jwt-jdk) can be used to generate a signed JWT with claims.\n\nCopy\n\n```\nString token = Jwt.builder()\n    .applicationId(\"aaaaaaaa-bbbb-cccc-dddd-0123456789ab\")\n    .privateKeyPath(Paths.get(\"/path/to/private.key\"))\n    .subject(\"Alice\")\n    .issuedAt(ZonedDateTime.now())\n    .expiresAt(ZonedDateTime.now().plusMinutes(20))\n    .addClaim(\"acl\", Map.of(\n        \"paths\", Map.of(\n            ...\n        )\n    ))\n    .build()\n    .generate();\n```\n\nThe [Vonage .NET SDK](https://github.com/Vonage/vonage-dotnet-sdk) can be used to generate a signed JWT with claims.\n\nAs an example, let's assume we want to add the following claims in the JWT:\n\nCopy\n\n```\nvar payload = new Dictionary<string, object>\n{\n    {\"sub\", \"Alice\"},\n    {\"exp\", DateTimeOffset.UtcNow.AddDays(1).ToUnixTimeSeconds().ToString()},\n    {\n        \"acl\", new Dictionary<string, object>\n        {\n            [\"paths\"] = new Dictionary<string, object>\n            {\n                ...\n            },\n        }\n    },\n};\n```\n\nThere are several ways to generate a JWT.\n\nYou can either use the static method `CreateToken` on the `Jwt` class:\n\nCopy\n\n```\nvar credentials = Credentials.FromAppIdAndPrivateKeyPath(VONAGE_APPLICATION_ID, VONAGE_APPLICATION_PRIVATE_KEY_PATH);\nvar token = Jwt.CreateToken(credentials.ApplicationId, credentials.ApplicationKey, payload);\n```\n\nOr use the method `GenerateToken` on a `Jwt` instance:\n\nCopy\n\n```\n// Using the credentials instance\nvar result = tokenGenerator.GenerateToken(credentials, payload);\n\n// Using ApplicationId and ApplicationKey values\nvar result = tokenGenerator.GenerateToken(credentials.ApplicationId, credentials.ApplicationKey, payload);\n```\n\nThe current version of the [Vonage PHP Server SDK](https://github.com/Vonage/vonage-php-sdk-core) can also create a JWT including the appropriate claims when using the Keypair authentication.\n\nCopy",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:40.902258Z",
+      "section_path": "Will produce a token > [Documentation Anchor Link](https://developer.vonage.com/en/getting-started/concepts/authentication\\#using-the-server-sdks) Using the Server SDKs",
+      "chunk_index": 12,
+      "token_count": 804,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_22b5157272b6",
+      "source_type": "developer_portal",
+      "url": "https://developer.vonage.com/en/documentation",
+      "domain": "developer.vonage.com",
+      "page_title": "Documentation",
+      "content": "[MCP Server\\\\\n\\\\\nCommunicate with tools through a standardized interface that lets AI agents safely use external APIs and capabilities.](https://developer.vonage.com/en/mcp-server/overview)\n\n[Device Location Retrieval\\\\\n\\\\\nRetrieve the last known location of a SIM enabled device using cellular network positioning.](https://developer.vonage.com/en/device-location-retrieval/overview)\n\n[Voice API\\\\\n\\\\\n**Create calls**, control calls in-progress, get information about previous calls.](https://developer.vonage.com/en/voice/voice-api/overview) [SIP Trunking\\\\\n\\\\\n**Connect** to existing endpoints via the phone network and in-app voice.](https://developer.vonage.com/en/sip/overview)\n\n[Vonage Video API Unified (New)\\\\\n\\\\\nBuild a **custom video** experience using advanced features.](https://developer.vonage.com/en/video) [Video API (Tokbox Portal)\\\\\n\\\\\nEmbed high-quality video functionality into your web and mobile applications.](https://tokbox.com/developer)\n\n[Verify API\\\\\n\\\\\nEnable your applications with two-factor **authentication**.](https://developer.vonage.com/en/verify/overview)\n\n[Account & Subaccounts\\\\\n\\\\\nCreate a record for your application and configure authentication, callbacks, and settings.](https://developer.vonage.com/en/account/overview) [Audit API\\\\\n\\\\\nGet information about your Vonage **account activity**.](https://developer.vonage.com/en/audit/overview) [Fraud Defender\\\\\n\\\\\nSecure your application against **fraudulent** traffic](https://developer.vonage.com/en/fraud-defender/overview) [Opt-Out Assist\\\\\n\\\\\nEasily manage all facets of **opt-out compliance** for SMS and MMS traffic](https://developer.vonage.com/en/opt-out-assist/overview)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:41.797996Z",
+      "section_path": "Vonage Documentation > Featured products > Product Enablement",
+      "chunk_index": 3,
+      "token_count": 418,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_4bc157df9f25",
+      "source_type": "developer_portal",
+      "url": "https://developer.vonage.com/en/documentation",
+      "domain": "developer.vonage.com",
+      "page_title": "Documentation",
+      "content": "[Application API\\\\\n\\\\\nCreate a record for your application and configure authentication, callbacks, and settings.](https://developer.vonage.com/en/application/overview) [Numbers API\\\\\n\\\\\nProvision **virtual numbers** around the globe to send or receive text messages and phone calls.](https://developer.vonage.com/en/numbers/overview) [Reports API\\\\\n\\\\\nFind **historical records** and messages by originating or destination phone number, dates and more.](https://developer.vonage.com/en/reports/overview) [Redact API\\\\\n\\\\\n**Delete data** from the Vonage platform.](https://developer.vonage.com/en/redact/overview)\n\n![](https://developer.vonage.com/api/v1/developer/assets/branding/vonage/assets/images/documentation/sign-up.png)\n\nExperience seamless connectivity, real-time messaging, and crystal-clear voice and video calls—all at your fingertips.\n\n[Sign up freeSign up free](https://ui.idp.vonage.com/ui/auth/registration?icid=tryitfree_api-developer-adp-hp_nexmodashbdfreetrialsignup_createfreeacctbtn)\n\n![SDK & Tools](https://developer.vonage.com/api/v1/developer/assets/branding/vonage/assets/images/documentation/sdkToolsVerticalImage.png)\n\n[Client SDKs](https://developer.vonage.com/en/tools)\n\n[Server SDKs](https://developer.vonage.com/en/tools)\n\n[Vonage CLI](https://developer.vonage.com/en/tools)\n\n[Framework Libraries](https://developer.vonage.com/en/tools)\n\n[AI Tools](https://developer.vonage.com/en/tools)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:41.798116Z",
+      "section_path": "Vonage Documentation > SDK & Tools",
+      "chunk_index": 5,
+      "token_count": 354,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_221900610140",
+      "source_type": "api_reference",
+      "url": "https://developer.vonage.com/en/api/voice",
+      "domain": "developer.vonage.com",
+      "page_title": "Vonage Voice API Reference | Vonage API Documentation",
+      "content": "There are multiple versions of this API available\n\n**Version 1**\n\n[Version 2](https://developer.vonage.com/en/api/voice.v2)\n\nThe Voice API lets you create outbound calls, control in-progress calls and get information about historical calls. More information about the Voice API can be found at [https://developer.nexmo.com/voice/voice-api/overview](https://developer.nexmo.com/voice/voice-api/overview). To create IP calls please check the following page: [https://developer.vonage.com/en/api/voice.v2](https://developer.vonage.com/en/api/voice.v2). To create and manage calls within specific region, set the application region via [Application API](https://developer.vonage.com/en/api/application.v2) or use regional URLs as described in the [Regions](https://developer.vonage.com/en/voice/voice-api/concepts/regions) guide.\n\nDownload OpenAPI Specification\n\n[YAMLYAML](https://developer.vonage.com/api/v1/developer/api/file/voice?format=yml&vendorId=vonage) [JSONJSON](https://developer.vonage.com/api/v1/developer/api/file/voice?format=json&vendorId=vonage)\n\nFetch, Create and Modify voice calls\n\n- GET\n\n\n\n[Get details of your calls](https://developer.vonage.com/en/api/voice#getCalls)\n\n- POST\n\n\n\n[Create an outbound call](https://developer.vonage.com/en/api/voice#createCall)\n\n- GET\n\n\n\n[Get detail of a specific call](https://developer.vonage.com/en/api/voice#getCall)\n\n- PUT\n\n\n\n[Modify an in progress call](https://developer.vonage.com/en/api/voice#updateCall)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:41.032363Z",
+      "section_path": "[Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#title) Voice API > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#Calls) Calls > Available Operations",
+      "chunk_index": 0,
+      "token_count": 366,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_05773a449cbc",
+      "source_type": "api_reference",
+      "url": "https://developer.vonage.com/en/api/voice",
+      "domain": "developer.vonage.com",
+      "page_title": "Vonage Voice API Reference | Vonage API Documentation",
+      "content": "Get details of your calls\n\ngethttps://api.nexmo.com/v1/calls/\n\n| Key | Description | Where | Example |\n| --- | --- | --- | --- |\n| **Authorization** | Your JSON web token. <br>[Read more about JWTs](https://developer.vonage.com/en/concepts/guides/authentication#json-web-tokens-jwt) | Headers | `Bearer <JWT>` |\n\nstatus\n\nstring\n\n**example**`started`\n\nFilter by call status\n\nMust be one of:`started``ringing``answered``machine``completed``busy``cancelled``failed``rejected``timeout``unanswered`\n\ndate\\_start\n\nstring(date-time)\n\n**example**`2016-11-14T07:45:14Z`\n\nReturn the records available after this point in time. Please use [Reports API](https://developer.vonage.com/en/reports/overview) for older call information.\n\ndate\\_end\n\nstring(date-time)\n\n**example**`2016-11-14T07:45:14Z`\n\nReturn the records that occurred before this point in time\n\npage\\_size\n\ninteger\n\n**Min**`1`\n\n**Max**`100`\n\n**Default**`10`\n\nReturn this amount of records in the response\n\nrecord\\_index\n\ninteger\n\nReturn calls from this index in the response\n\norder\n\nstring\n\n**Default**`asc`\n\nEither ascending or descending order.\n\nMust be one of:`asc``desc`\n\nconversation\\_uuid\n\nstring(uuid)\n\n**example**`CON-f972836a-550f-45fa-956c-12a2ab5b7d22`\n\nReturn all the records associated with a specific conversation.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:41.032400Z",
+      "section_path": "[Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#title) Voice API > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#Calls) Calls > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#getCalls) Get details of your calls > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#getCalls-query-params) Query Parameters",
+      "chunk_index": 1,
+      "token_count": 319,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_2fdac2d23ba7",
+      "source_type": "api_reference",
+      "url": "https://developer.vonage.com/en/api/voice",
+      "domain": "developer.vonage.com",
+      "page_title": "Vonage Voice API Reference | Vonage API Documentation",
+      "content": "Create an outbound Call\n\nposthttps://api.nexmo.com/v1/calls/\n\n| Key | Description | Where | Example |\n| --- | --- | --- | --- |\n| **Authorization** | Your JSON web token. <br>[Read more about JWTs](https://developer.vonage.com/en/concepts/guides/authentication#json-web-tokens-jwt) | Headers | `Bearer <JWT>` |",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:41.032535Z",
+      "section_path": "[Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#title) Voice API > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#Calls) Calls > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#createCall) Create an outbound call > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#createCall-auth) Authentication",
+      "chunk_index": 4,
+      "token_count": 77,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_643c8c145495",
+      "source_type": "api_reference",
+      "url": "https://developer.vonage.com/en/api/voice",
+      "domain": "developer.vonage.com",
+      "page_title": "Vonage Voice API Reference | Vonage API Documentation",
+      "content": "201201\n\nCreated\n\nuuid\n\nstring(uuid)\n\n**example**`63f61863-4a51-4f6b-86e1-46edebcf9356`\n\nThe unique identifier for this call leg. The UUID is created when your call request is accepted by Vonage. You use the UUID in all requests for individual live calls\n\nstatus\n\nstring\n\n**example**`completed`\n\nThe status of the call. [See possible values](https://developer.nexmo.com/voice/voice-api/guides/call-flow#event-objects)\n\ndirection\n\nstring\n\n**example**`outbound`\n\nPossible values are `outbound` or `inbound`\n\nMust be one of:`outbound``inbound`\n\nconversation\\_uuid\n\nstring(uuid)\n\n**example**`CON-f972836a-550f-45fa-956c-12a2ab5b7d22`\n\nThe unique identifier for the conversation this call leg is part of.\n\n```\n{\n   \"uuid\": \"63f61863-4a51-4f6b-86e1-46edebcf9356\",\n   \"status\": \"completed\",\n   \"direction\": \"outbound\",\n   \"conversation_uuid\": \"CON-f972836a-550f-45fa-956c-12a2ab5b7d22\"\n}\n```\n\nGet detail of a specific call\n\ngethttps://api.nexmo.com/v1/calls/:uuid\n\n| Key | Description | Where | Example |\n| --- | --- | --- | --- |\n| **Authorization** | Your JSON web token. <br>[Read more about JWTs](https://developer.vonage.com/en/concepts/guides/authentication#json-web-tokens-jwt) | Headers | `Bearer <JWT>` |\n\nuuid\n\nstring\n\nRequired\n\nUUID of the Call",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:41.032680Z",
+      "section_path": "[Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#title) Voice API > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#Calls) Calls > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#getCall) Get detail of a specific call > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#getCall-path-params) Path Parameters",
+      "chunk_index": 8,
+      "token_count": 311,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_93e283ea5b1e",
+      "source_type": "api_reference",
+      "url": "https://developer.vonage.com/en/api/voice",
+      "domain": "developer.vonage.com",
+      "page_title": "Vonage Voice API Reference | Vonage API Documentation",
+      "content": "Modify an in progress call\n\nputhttps://api.nexmo.com/v1/calls/:uuid\n\n| Key | Description | Where | Example |\n| --- | --- | --- | --- |\n| **Authorization** | Your JSON web token. <br>[Read more about JWTs](https://developer.vonage.com/en/concepts/guides/authentication#json-web-tokens-jwt) | Headers | `Bearer <JWT>` |\n\nuuid\n\nstring\n\nRequired\n\nUUID of the Call\n\nOne Of\n\nTransfer with NCCO\n\n\n\nTransfer with Answer URL\n\n\n\nHangup\n\n\n\nMute\n\n\n\nUnmute\n\n\n\nEarmuff\n\n\n\nUnearmuff\n\n\n\naction\n\nstring\n\nRequired\n\n**example**`transfer`\n\nTransfer the call to a new NCCO\n\nMust be one of:`transfer`\n\ndestination\n\nobject\n\nRequired\n\ntype\n\nstring\n\nRequired\n\n**example**`ncco`\n\nAlways `ncco`\n\nncco\n\narray\n\nRequired\n\nRefer to the [NCCO Guide](https://developer.nexmo.com/voice/voice-api/ncco-reference) for a description of possible NCCO parameters.\n\nAll Fields\n\n\n\nRequired Fields Only\n\n\n\n```\n{\n   \"action\": \"transfer\",\n   \"destination\": {\n      \"type\": \"ncco\",\n      \"ncco\": [\\\n         {\\\n            \"action\": \"talk\",\\\n            \"text\": \"Hello World\"\\\n         }\\\n      ]\n   }\n}\n```\n\n```\n{\n   \"action\": \"transfer\",\n   \"destination\": {\n      \"type\": \"ncco\",\n      \"ncco\": [\\\n         {\\\n            \"action\": \"talk\",\\\n            \"text\": \"Hello World\"\\\n         }\\\n      ]\n   }\n}\n```",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:41.032784Z",
+      "section_path": "[Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#title) Voice API > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#Calls) Calls > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#updateCall) Modify an in progress call > Example Request",
+      "chunk_index": 11,
+      "token_count": 315,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_312160d1690e",
+      "source_type": "api_reference",
+      "url": "https://developer.vonage.com/en/api/voice",
+      "domain": "developer.vonage.com",
+      "page_title": "Vonage Voice API Reference | Vonage API Documentation",
+      "content": "204204401401404404\n\nNo Content\n\nStart or stop streaming audio in to an active call\n\n- PUT\n\n\n\n[Play an audio file into a call](https://developer.vonage.com/en/api/voice#startStream)\n\n- DELETE\n\n\n\n[Stop playing an audio file into a call](https://developer.vonage.com/en/api/voice#stopStream)\n\nPlay an audio file into a call\n\nputhttps://api.nexmo.com/v1/calls/:uuid/stream\n\n| Key | Description | Where | Example |\n| --- | --- | --- | --- |\n| **Authorization** | Your JSON web token. <br>[Read more about JWTs](https://developer.vonage.com/en/concepts/guides/authentication#json-web-tokens-jwt) | Headers | `Bearer <JWT>` |\n\nuuid\n\nstring\n\nRequired\n\nUUID of the Call Leg\n\nstream\\_url\n\narray\n\nRequired\n\nloop\n\ninteger\n\n**Default**`1`\n\nthe number of times to play the file, 0 for infinite\n\nlevel\n\nstring\n\n**Default**`0`\n\n**example**`0.4`\n\nSet the audio level of the stream in the range `-1 >= level <= 1` with a precision of 0.1. The default value is 0.\n\nAll Fields\n\n\n\nRequired Fields Only\n\n\n\n```\n{\n   \"stream_url\": [\\\n      \"https://example.com/waiting.mp3\"\\\n   ],\n   \"loop\": 1,\n   \"level\": \"0.4\"\n}\n```\n\n```\n{\n   \"stream_url\": [\\\n      \"https://example.com/waiting.mp3\"\\\n   ]\n}\n```\n\n200200\n\nOk\n\nmessage\n\nstring\n\n**example**`Stream started`\n\nDescription of the action taken\n\nuuid\n\nstring(uuid)\n\n**example**`63f61863-4a51-4f6b-86e1-46edebcf9356`\n\nThe unique identifier for this call leg. The UUID is created when your call request is accepted by Vonage. You use the UUID in all requests for individual live calls",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:41.032810Z",
+      "section_path": "[Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#title) Voice API > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#Stream-Audio) Stream Audio > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#startStream) Play an audio file into a call > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#startStream-responses) Responses     Content Type    application/json",
+      "chunk_index": 12,
+      "token_count": 375,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_2eb344a2a3dc",
+      "source_type": "api_reference",
+      "url": "https://developer.vonage.com/en/api/voice",
+      "domain": "developer.vonage.com",
+      "page_title": "Vonage Voice API Reference | Vonage API Documentation",
+      "content": "```\n{\n   \"message\": \"Stream started\",\n   \"uuid\": \"63f61863-4a51-4f6b-86e1-46edebcf9356\"\n}\n```\n\nStop playing an audio file into a call\n\ndeletehttps://api.nexmo.com/v1/calls/:uuid/stream\n\n| Key | Description | Where | Example |\n| --- | --- | --- | --- |\n| **Authorization** | Your JSON web token. <br>[Read more about JWTs](https://developer.vonage.com/en/concepts/guides/authentication#json-web-tokens-jwt) | Headers | `Bearer <JWT>` |\n\nuuid\n\nstring\n\nRequired\n\nUUID of the Call Leg\n\n200200\n\nOk\n\nmessage\n\nstring\n\n**example**`Stream stopped`\n\nDescription of the action taken\n\nuuid\n\nstring(uuid)\n\n**example**`63f61863-4a51-4f6b-86e1-46edebcf9356`\n\nThe unique identifier for this call leg. The UUID is created when your call request is accepted by Vonage. You use the UUID in all requests for individual live calls\n\n```\n{\n   \"message\": \"Stream stopped\",\n   \"uuid\": \"63f61863-4a51-4f6b-86e1-46edebcf9356\"\n}\n```\n\nStart or stop playing Text to Speech in to an active call\n\n- PUT\n\n\n\n[Play text to speech into a call](https://developer.vonage.com/en/api/voice#startTalk)\n\n- DELETE\n\n\n\n[Stop text to speech in a call](https://developer.vonage.com/en/api/voice#stopTalk)\n\nPlay text to speech into a call\n\nputhttps://api.nexmo.com/v1/calls/:uuid/talk",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:41.032836Z",
+      "section_path": "[Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#title) Voice API > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#Play-TTS) Play TTS > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#startTalk) Play text to speech into a call",
+      "chunk_index": 13,
+      "token_count": 309,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_c10e8988d565",
+      "source_type": "api_reference",
+      "url": "https://developer.vonage.com/en/api/voice",
+      "domain": "developer.vonage.com",
+      "page_title": "Vonage Voice API Reference | Vonage API Documentation",
+      "content": "| Key | Description | Where | Example |\n| --- | --- | --- | --- |\n| **Authorization** | Your JSON web token. <br>[Read more about JWTs](https://developer.vonage.com/en/concepts/guides/authentication#json-web-tokens-jwt) | Headers | `Bearer <JWT>` |\n\nuuid\n\nstring\n\nRequired\n\nUUID of the Call Leg\n\ntext\n\nstring\n\nRequired\n\n**example**`Hello. How are you today?`\n\nThe text to read\n\nlanguage\n\nstring\n\n**Default**`en-US`\n\nThe language to use\n\nMust be one of:`ar``ca-ES``cmn-CN``cmn-TW``cs-CZ``cy-GB``da-DK``de-DE``el-GR``en-AU``en-GB``en-GB-WLS``en-IN``en-US``en-ZA``es-ES``es-MX``es-US``eu-ES``fi-FI``fil-PH``fr-CA``fr-FR``he-IL``hi-IN``hu-HU``id-ID``is-IS``it-IT``ja-JP``ko-KR``nb-NO``nl-NL``no-NO``pl-PL``pt-BR``pt-PT``ro-RO``ru-RU``sk-SK``sv-SE``th-TH``tr-TR``uk-UA``vi-VN``yue-CN`\n\nstyle\n\ninteger\n\nThe vocal style (vocal range, tessitura, and timbre) to use\n\npremium\n\nboolean\n\n**Default**`false`\n\n**example**`true`\n\nSet to `true` to use the premium version of the specified style if available, otherwise the standard version will be used. You can find more information about Premium Voices in the [Text-To-Speech guide](https://developer.vonage.com/en/voice/voice-api/guides/text-to-speech#premium-voices).\n\nvoice\\_name\n\nstring\n\n**Default**`Kimberly`\n\n**DEPRECATED** The voice & language to use\n\nMust be one of:`Aditi``Agnieszka``Alva``Amy``Astrid``Bianca``Brian``Carla``Carmen``Carmit``Catarina``Celine``Cem``Chantal``Chipmunk``Conchita``Cristiano``Damayanti``Dora``Emma``Empar``Enrique``Eric``Ewa``Felipe``Filiz``Geraint``Giorgio``Gwyneth``Hans``Henrik``Ines``Ioana``Iveta``Ivy``Jacek``Jan``Jennifer``Joana``Joanna``Joey``Jordi``Justin``Kanya``Karl``Kendra``Kimberly``Laila``Laura``Lea``Lekha``Liv``Lotte``Lucia``Luciana``Mads``Maged``Maja``Mariska``Marlene``Mathieu``Matthew``Maxim``Mei-Jia``Melina``Mia``Miguel``Miren``Mizuki``Montserrat``Naja``Nicole``Nikos``Nora``Oskar``Penelope``Raveena``Ricardo``Ruben``Russell``Salli``Satu``Seoyeon``Sin-Ji``Sora``Takumi``Tarik``Tatyana``Tessa``Tian-Tian``Vicki``Vitoria``Yelda``Zeina``Zhiyu``Zuzana`\n\nloop\n\ninteger\n\n**Default**`1`\n\nThe number of times to repeat the text the file, 0 for infinite\n\nlevel\n\nstring\n\n**Default**`0`\n\n**example**`0.4`\n\nThe volume level that the speech is played. This can be any value between `-1` to `1` in `0.1` increments, with `0` being the default.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:41.032874Z",
+      "section_path": "[Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#title) Voice API > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#Play-TTS) Play TTS > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#startTalk) Play text to speech into a call > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#startTalk-req-body) Request Body     Content Type    application/json",
+      "chunk_index": 14,
+      "token_count": 580,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_a44b3768ca55",
+      "source_type": "api_reference",
+      "url": "https://developer.vonage.com/en/api/voice",
+      "domain": "developer.vonage.com",
+      "page_title": "Vonage Voice API Reference | Vonage API Documentation",
+      "content": "All Fields\n\n\n\nRequired Fields Only\n\n\n\n```\n{\n   \"text\": \"Hello. How are you today?\",\n   \"language\": \"ar\",\n   \"style\": 0,\n   \"premium\": true,\n   \"voice_name\": \"Aditi\",\n   \"loop\": 1,\n   \"level\": \"0.4\"\n}\n```\n\n```\n{\n   \"text\": \"Hello. How are you today?\"\n}\n```\n\n200200\n\nOk\n\nmessage\n\nstring\n\n**example**`Talk started`\n\nDescription of the action taken\n\nuuid\n\nstring(uuid)\n\n**example**`63f61863-4a51-4f6b-86e1-46edebcf9356`\n\nThe unique identifier for this call leg. The UUID is created when your call request is accepted by Vonage. You use the UUID in all requests for individual live calls\n\n```\n{\n   \"message\": \"Talk started\",\n   \"uuid\": \"63f61863-4a51-4f6b-86e1-46edebcf9356\"\n}\n```\n\nStop text to speech in a call\n\ndeletehttps://api.nexmo.com/v1/calls/:uuid/talk\n\n| Key | Description | Where | Example |\n| --- | --- | --- | --- |\n| **Authorization** | Your JSON web token. <br>[Read more about JWTs](https://developer.vonage.com/en/concepts/guides/authentication#json-web-tokens-jwt) | Headers | `Bearer <JWT>` |\n\nuuid\n\nstring\n\nRequired\n\nUUID of the Call Leg\n\n200200\n\nOk\n\nmessage\n\nstring\n\n**example**`Talk stopped`\n\nDescription of the action taken\n\nuuid\n\nstring(uuid)\n\n**example**`63f61863-4a51-4f6b-86e1-46edebcf9356`\n\nThe unique identifier for this call leg. The UUID is created when your call request is accepted by Vonage. You use the UUID in all requests for individual live calls",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:41.032897Z",
+      "section_path": "[Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#title) Voice API > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#Play-TTS) Play TTS > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#stopTalk) Stop text to speech in a call > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#stopTalk-responses) Responses     Content Type    application/json",
+      "chunk_index": 15,
+      "token_count": 344,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_0d172f6d6209",
+      "source_type": "api_reference",
+      "url": "https://developer.vonage.com/en/api/voice",
+      "domain": "developer.vonage.com",
+      "page_title": "Vonage Voice API Reference | Vonage API Documentation",
+      "content": "```\n{\n   \"message\": \"Talk stopped\",\n   \"uuid\": \"63f61863-4a51-4f6b-86e1-46edebcf9356\"\n}\n```\n\nSend and subscribe to DTMF tones in an active call\n\n- PUT\n\n\n\n[Play DTMF tones into a call](https://developer.vonage.com/en/api/voice#startDTMF)\n\n- PUT\n\n\n\n[Subscribe to real-time DTMF events](https://developer.vonage.com/en/api/voice#Subscribe-DTMF)\n\n- DELETE\n\n\n\n[Stop receiving real-time DTMF events](https://developer.vonage.com/en/api/voice#Unsubscribe-DTMF)\n\nPlay DTMF tones into a call\n\nputhttps://api.nexmo.com/v1/calls/:uuid/dtmf\n\n| Key | Description | Where | Example |\n| --- | --- | --- | --- |\n| **Authorization** | Your JSON web token. <br>[Read more about JWTs](https://developer.vonage.com/en/concepts/guides/authentication#json-web-tokens-jwt) | Headers | `Bearer <JWT>` |\n\nuuid\n\nstring\n\nRequired\n\nUUID of the Call Leg\n\ndigits\n\nstring\n\n**example**`1713`\n\nThe digits to send\n\nAll Fields\n\n\n\nRequired Fields Only\n\n\n\n```\n{\n   \"digits\": \"1713\"\n}\n```\n\n```\n{}\n```\n\n200200\n\nOk\n\nmessage\n\nstring\n\n**example**`DTMF sent`\n\nDescription of the action taken\n\nuuid\n\nstring(uuid)\n\n**example**`63f61863-4a51-4f6b-86e1-46edebcf9356`\n\nThe unique identifier for this call leg. The UUID is created when your call request is accepted by Vonage. You use the UUID in all requests for individual live calls",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:41.032920Z",
+      "section_path": "[Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#title) Voice API > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#DTMF) DTMF > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#startDTMF) Play DTMF tones into a call > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#startDTMF-responses) Responses     Content Type    application/json",
+      "chunk_index": 16,
+      "token_count": 321,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_1e350d62dd6c",
+      "source_type": "official_docs",
+      "url": "https://developer.vonage.com",
+      "domain": "developer.vonage.com",
+      "page_title": "Vonage API Developer",
+      "content": "[#python](https://developer.vonage.com/blog?tags=python) [#flask](https://developer.vonage.com/blog?tags=flask) [#video-api](https://developer.vonage.com/blog?tags=video-api)\n\n[**Live Captions, Moderation, and Recording With Python and Vonage**\\\\\n\\\\\nBuild video moderation, live captions, and session recording features with the Vonage Video API Python SDK.](https://developer.vonage.com/en/blog/implementing-live-captions-moderation-and-recording-with-vonage)\n\n[![Build Real-Time AI Voice Agents with Pipecat, AgentCore, and Vonage](https://a.storyblok.com/f/270183/1368x665/965c864148/26jul_deploy_ai_voice_agent_blog_r3-1.png/m/fit-in/)\\\\\n\\\\\nJuly 8, 2026\\\\\n\\\\\nTime to read: 11 minutes](https://developer.vonage.com/en/blog/build-real-time-ai-voice-agents-with-pipecat-agentcore-and-vonage)\n\n[#aws](https://developer.vonage.com/blog?tags=aws) [#pipecat](https://developer.vonage.com/blog?tags=pipecat) [#web-sockets](https://developer.vonage.com/blog?tags=web-sockets)\n\n[**Build Real-Time AI Voice Agents with Pipecat, AgentCore, and Vonage**\\\\\n\\\\\nLearn how to build an AI voice agent with Vonage, Pipecat, AWS Nova Sonic, and AgentCore for real-time phone conversations.](https://developer.vonage.com/en/blog/build-real-time-ai-voice-agents-with-pipecat-agentcore-and-vonage)\n\n[![Beyond Vibe Coding: Best Practices in 2026](https://a.storyblok.com/f/270183/1368x665/310b3e1631/26jul_beyond-vibe-coding_blog_r2.png/m/fit-in/)\\\\\n\\\\\nJuly 7, 2026\\\\\n\\\\\nTime to read: 15 minutes](https://developer.vonage.com/en/blog/beyond-vibe-coding-best-practices-2026)\n\n[#ai](https://developer.vonage.com/blog?tags=ai) [#cli](https://developer.vonage.com/blog?tags=cli) [#best-practice](https://developer.vonage.com/blog?tags=best-practice)\n\n[**Beyond Vibe Coding: Best Practices in 2026**\\\\\n\\\\\nWhat actually changed in AI coding since late 2025: persistent plans, lean repo instructions, MCP, Skills, long-running agents, and why verification still wins.](https://developer.vonage.com/en/blog/beyond-vibe-coding-best-practices-2026)\n\n[![Q2 2026: Vonage Developer Recap](https://a.storyblok.com/f/270183/1368x665/6a5f7ae276/26jul_q2_recap_blog.png/m/fit-in/)\\\\\n\\\\\nJuly 2, 2026\\\\\n\\\\\nTime to read: 7 minutes](https://developer.vonage.com/en/blog/q2-2026-vonage-developer-recap)\n\n[#messages](https://developer.vonage.com/blog?tags=messages) [#video-api](https://developer.vonage.com/blog?tags=video-api) [#ai](https://developer.vonage.com/blog?tags=ai) [#network-apis](https://developer.vonage.com/blog?tags=network-apis)\n\n[**Q2 2026: Vonage Developer Recap**\\\\\n\\\\\nExplore Q2 updates across Vonage APIs like Video, Voice, Messages, and network-powered security solutions.](https://developer.vonage.com/en/blog/q2-2026-vonage-developer-recap)\n\n[View All Blog PostsView All Blog Posts](https://developer.vonage.com/en/blog)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:40.702343Z",
+      "section_path": "Privacy and Security > Blog",
+      "chunk_index": 11,
+      "token_count": 700,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_9295cc322083",
+      "source_type": "auth_docs",
+      "url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+      "domain": "developer.vonage.com",
+      "page_title": "Authentication - API Concepts | Vonage API Documentation",
+      "content": "In this document you can learn about authentication via the following means:\n\n- [API Key and Secret](https://developer.vonage.com/en/getting-started/concepts/authentication#api-key-and-secret)\n  - [Basic Authentication](https://developer.vonage.com/en/getting-started/concepts/authentication#basic-authentication)\n  - [Secret Rotation](https://developer.vonage.com/en/getting-started/concepts/authentication#secret-rotation)\n- [JSON Web Tokens (JWT)](https://developer.vonage.com/en/getting-started/concepts/authentication#json-web-tokens)\n\nWhen you create a Vonage account, an API key and secret will be created for you. These are located in your [account settings](https://dashboard.nexmo.com/settings) in the Vonage Dashboard. You should always keep these secure and **never share these details**: be careful when adding it to your codebase to make sure they are not shared with anyone who may use it maliciously. If you use [message signatures](https://developer.vonage.com/getting-started/concepts/signing-messages), these are generated using the `SIGNATURE_SECRET` rather than the `API_SECRET`; both values can be found in your [account settings](https://dashboard.nexmo.com/settings).\n\nNote: The secret should always be kept secure and never shared. Be careful when adding it to your codebase to make sure it is not shared with anyone who may use it maliciously. Read more about the [Best Security Practices for your Vonage Account](https://api.support.vonage.com/hc/en-us/articles/115014939548).\n\nVonage APIs may require your API Key and Secret in a number of different ways.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:40.901778Z",
+      "section_path": "[Documentation Anchor Link](https://developer.vonage.com/en/getting-started/concepts/authentication\\#authentication) Authentication > [Documentation Anchor Link](https://developer.vonage.com/en/getting-started/concepts/authentication\\#api-key-and-secret) API Key and Secret",
+      "chunk_index": 1,
+      "token_count": 395,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_8a7a164384a3",
+      "source_type": "auth_docs",
+      "url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+      "domain": "developer.vonage.com",
+      "page_title": "Authentication - API Concepts | Vonage API Documentation",
+      "content": "A number of newer Vonage APIs require authentication to be done using an API key and secret sent Base64 encoded in the `Authorization` header.\n\nFor these APIs, you send your API key and secret in the following way:\n\nCopy\n\n```\nAuthorization: Basic base64(API_KEY:API_SECRET)\n```\n\nIf your API key were `aaa012` and your API secret were `abc123456789`, you would concatenate the key and secret with a `:` (colon) symbol and then encode them using Base64 encoding to produce a value like this:\n\nCopy\n\n```\nAuthorization: Basic YWFhMDEyOmFiYzEyMzQ1Njc4OQ==\n```\n\nA website for generating Base64 encoded strings can be found here:\n\n- General: [Base64 Encode and Decode](https://www.base64encode.org/)\n\nDetails on how to encode Base64 strings in a variety of programming languages can be found at the following websites:\n\n- C#/.NET: [How do I encode and decode a Base64 string?](https://stackoverflow.com/questions/11743160/how-do-i-encode-and-decode-a-base64-string) from StackOverflow\n- Go: [Base64 Encoding](https://gobyexample.com/base64-encoding) from Go By Example\n- Java: [Base64](https://docs.oracle.com/javase/8/docs/api/java/util/Base64.html)\n- JavaScript: [Base64 encoding and decoding](https://developer.mozilla.org/en-US/docs/Web/API/WindowBase64/Base64_encoding_and_decoding) from MDN web docs\n- PHP: [base64\\_encode](https://secure.php.net/manual/en/function.base64-encode.php)\n- Python: [Base64](https://docs.python.org/2/library/base64.html)\n- Ruby: [Base64](https://ruby-doc.org/stdlib-2.5.0/libdoc/base64/rdoc/Base64.html)\n- Swift: [Base64 Encode and Decode in Swift](http://iosdevelopertips.com/swift-code/base64-encode-decode-swift.html) from iOS Developer Tips",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:40.901818Z",
+      "section_path": "[Documentation Anchor Link](https://developer.vonage.com/en/getting-started/concepts/authentication\\#authentication) Authentication > [Documentation Anchor Link](https://developer.vonage.com/en/getting-started/concepts/authentication\\#api-key-and-secret) API Key and Secret > [Documentation Anchor Link](https://developer.vonage.com/en/getting-started/concepts/authentication\\#basic-authentication) Basic Authentication",
+      "chunk_index": 2,
+      "token_count": 418,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_36b2f9fafc0d",
+      "source_type": "auth_docs",
+      "url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+      "domain": "developer.vonage.com",
+      "page_title": "Authentication - API Concepts | Vonage API Documentation",
+      "content": "It is possible to have two API secrets to be used against one API key at the same time. This way you can create a second API secret and test it before revoking the existing API secret in your production network. The API secret rotation procedure consists of the following steps:\n\n1. Create a second API secret in your [account settings](https://dashboard.nexmo.com/settings) or by using the [secret rotation API](https://developer.vonage.com/api/account#secret-management).\n2. Update one or more of your servers to use the newly created API secret for making calls to Vonage APIs\n3. Test that there are no connectivity issues and roll out the API secret update across the remaining servers\n4. Delete the replaced API secret\n\n[JSON Web Tokens (JWTs)](https://jwt.io/) are a compact, URL-safe means of representing claims to be transferred between two parties. For a full list of the APIs that use JWTs, please see the table [above](https://developer.vonage.com/en/getting-started/concepts/authentication#authentication).\n\nJWTs consist of a Header and a Payload. The values for the Header are:\n\n| Name | Description | Required |\n| --- | --- | --- |\n| `alg` | The encryption algorithm used to generate the JWT. `RS256` is supported. |  |\n| `typ` | The token structure. Set to `JWT`. |  |\n\nThe values for the payload claim are:\n\n| Name | Description | Required |\n| --- | --- | --- |\n| `application_id` | The unique ID allocated to your application by Vonage. |  |\n| `iat` | The UNIX timestamp at UTC + 0 indicating the moment the JWT was requested. |  |\n| `jti` | A unique string identifier of the JWT. |  |\n| `nbf` | The UNIX timestamp at UTC + 0 indicating the moment the JWT became valid. |  |\n| `exp` | The UNIX timestamp at UTC + 0 indicating the moment the JWT is no longer valid. A minimum value of 30 seconds from the time the JWT is generated. A maximum value of 24 hours from the time the JWT is generated. A default value of 15 minutes from the time the JWT is generated. |  |",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:40.901864Z",
+      "section_path": "[Documentation Anchor Link](https://developer.vonage.com/en/getting-started/concepts/authentication\\#authentication) Authentication > [Documentation Anchor Link](https://developer.vonage.com/en/getting-started/concepts/authentication\\#json-web-tokens) JSON Web Tokens > [Documentation Anchor Link](https://developer.vonage.com/en/getting-started/concepts/authentication\\#header-and-payload) Header and Payload",
+      "chunk_index": 3,
+      "token_count": 495,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_da526d37756d",
+      "source_type": "auth_docs",
+      "url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+      "domain": "developer.vonage.com",
+      "page_title": "Authentication - API Concepts | Vonage API Documentation",
+      "content": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2wiOnsicGF0aHMiOnsiLyovcnRjLyoqIjp7fSwiLyovdXNlcnMvKioiOnt9LCIvKi9jb252ZXJzYXRpb25zLyoqIjp7fSwiLyovc2Vzc2lvbnMvKioiOnt9LCIvKi9kZXZpY2VzLyoqIjp7fSwiLyovcHVzaC8qKiI6e30sIi8qL2tub2NraW5nLyoqIjp7fSwiLyovbGVncy8qKiI6e319fSwiZXhwIjoxNzQxMTgyMzA3LCJzdWIiOiJBbGljZSIsImp0aSI6Ijg1MTViNzk2LTA1YjktNGFkMS04MTRkLTE1NWZjZTQzZWM1YiIsImlhdCI6MTc0MTE4MTQwNywiYXBwbGljYXRpb25faWQiOiIwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAifQ.BscMdDXZ1-nuLtKyPJvw9tE8E8ZjJvTPJPMT9y0TjPz4Q7qqNaqxcjglc5QPtYEjh2YpZH6btSKbUF4XTClI026Hl5_QOBlnayYo7jXwhba16fa5PeyzSf30QFGFrHbANwrQJFVCjd329SZUpwK4GxgB1gf230NhbfmkhegKezqicru2WTGCKm8kQncYliFwIEYUlcRAb2c8xcaVrn_6QNNahyeJRwGFfWpIkX0Oe-S4RDlPjoq47_gYWac9MmaetB4Dd3Yp531AuniGV5JiIShkaEwuY4Zyov4Hcmajm4Lm_UFY119la7vzHis0P7cT9pPUDe5cyPj7eT8-VhitfQ\n```\n\nCopy\n\n```\nREM A command with parameters\nvonage jwt create ^\n--app-id='00000000-0000-0000-0000-000000000000' ^\n--private-key=./private.key ^\n--sub='Alice' ^\n--acl=\"{\\\"paths\\\":{\\\"\\/*\\/users\\/**\\\":{},\\\"\\/*\\/conversations\\/**\\\":{},\\\"\\/*\\/sessions\\/**\\\":{},\\\"\\/*\\/devices\\/**\\\":{},\\\"\\/*\\/push\\/**\\\":{},\\\"\\/*\\/knocking\\/**\\\":{},\\\"\\/*\\/legs\\/**\\\":{}}}\"\n\nREM Will produce a token\neyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2wiOnsicGF0aHMiOnsiLyovcnRjLyoqIjp7fSwiLyovdXNlcnMvKioiOnt9LCIvKi9jb252ZXJzYXRpb25zLyoqIjp7fSwiLyovc2Vzc2lvbnMvKioiOnt9LCIvKi9kZXZpY2VzLyoqIjp7fSwiLyovcHVzaC8qKiI6e30sIi8qL2tub2NraW5nLyoqIjp7fSwiLyovbGVncy8qKiI6e319fSwiZXhwIjoxNzQxMTgyMzA3LCJzdWIiOiJBbGljZSIsImp0aSI6Ijg1MTViNzk2LTA1YjktNGFkMS04MTRkLTE1NWZjZTQzZWM1YiIsImlhdCI6MTc0MTE4MTQwNywiYXBwbGljYXRpb25faWQiOiIwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAifQ.BscMdDXZ1-nuLtKyPJvw9tE8E8ZjJvTPJPMT9y0TjPz4Q7qqNaqxcjglc5QPtYEjh2YpZH6btSKbUF4XTClI026Hl5_QOBlnayYo7jXwhba16fa5PeyzSf30QFGFrHbANwrQJFVCjd329SZUpwK4GxgB1gf230NhbfmkhegKezqicru2WTGCKm8kQncYliFwIEYUlcRAb2c8xcaVrn_6QNNahyeJRwGFfWpIkX0Oe-S4RDlPjoq47_gYWac9MmaetB4Dd3Yp531AuniGV5JiIShkaEwuY4Zyov4Hcmajm4Lm_UFY119la7vzHis0P7cT9pPUDe5cyPj7eT8-VhitfQ\n```\n\n\\# A command with parametersvonage jwt create \\--app-id='00000000-0000-0000-0000-000000000000' \\--private-key=./private.key \\--sub='Alice' \\--acl='{\"paths\":{\"/\\*/rtc/\\*\\*\":{},\"/\\*/users/\\*\\*\":{},\"/\\*/conversations/\\*\\*\":{},\"/\\*/sessions/\\*\\*\":{},\"/\\*/devices/\\*\\*\":{},\"/\\*/push/\\*\\*\":{},\"/\\*/knocking/\\*\\*\":{},\"/\\*/legs/\\*\\*\":{}}}'\\# Will produce a tokeneyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2wiOnsicGF0aHMiOnsiLyovcnRjLyoqIjp7fSwiLyovdXNlcnMvKioiOnt9LCIvKi9jb252ZXJzYXRpb25zLyoqIjp7fSwiLyovc2Vzc2lvbnMvKioiOnt9LCIvKi9kZXZpY2VzLyoqIjp7fSwiLyovcHVzaC8qKiI6e30sIi8qL2tub2NraW5nLyoqIjp7fSwiLyovbGVncy8qKiI6e319fSwiZXhwIjoxNzQxMTgyMzA3LCJzdWIiOiJBbGljZSIsImp0aSI6Ijg1MTViNzk2LTA1YjktNGFkMS04MTRkLTE1NWZjZTQzZWM1YiIsImlhdCI6MTc0MTE4MTQwNywiYXBwbGljYXRpb25faWQiOiIwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAifQ.BscMdDXZ1-nuLtKyPJvw9tE8E8ZjJvTPJPMT9y0TjPz4Q7qqNaqxcjglc5QPtYEjh2YpZH6btSKbUF4XTClI026Hl5\\_QOBlnayYo7jXwhba16fa5PeyzSf30QFGFrHbANwrQJFVCjd329SZUpwK4GxgB1gf230NhbfmkhegKezqicru2WTGCKm8kQncYliFwIEYUlcRAb2c8xcaVrn\\_6QNNahyeJRwGFfWpIkX0Oe-S4RDlPjoq47\\_gYWac9MmaetB4Dd3Yp531AuniGV5JiIShkaEwuY4Zyov4Hcmajm4Lm\\_UFY119la7vzHis0P7cT9pPUDe5cyPj7eT8-VhitfQ\n\nCopy",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:40.902204Z",
+      "section_path": "Will produce a token",
+      "chunk_index": 11,
+      "token_count": 788,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_4049112f5cca",
+      "source_type": "auth_docs",
+      "url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+      "domain": "developer.vonage.com",
+      "page_title": "Authentication - API Concepts | Vonage API Documentation",
+      "content": "```\n$keypair = new \\Vonage\\Client\\Credentials\\Keypair(\n    file_get_contents('/path/to/private.key'),\n    'aaaaaaaa-bbbb-cccc-dddd-0123456789ab'\n);\n$client = new \\Vonage\\Client($keypair);\n\n$claims = [\\\n    'acl' => [\\\n        'paths' => [\\\n            ...\\\n        ]\\\n    ]\\\n];\n$token = $client->generateJwt($claims);\n$tokenString = $token->toString();\n```\n\nThe [Vonage Python JWT library](https://pypi.org/project/vonage-jwt/) can be used to generate a signed JWT with default or custom claims.\n\nCopy\n\n```\nfrom vonage_jwt import JwtClient\n\njwt_client = JwtClient(application_id, private_key)\n\npaths = { ... }\nclaims = {'sub': 'Alice', 'paths': paths}\nvonage_jwt = jwt_client.generate_application_jwt(claims)\n```\n\nThe [Vonage JWT JDK library](https://github.com/Vonage/vonage-jwt-jdk) can be used to generate a signed JWT with claims.\n\nCopy\n\n```\n@builder = Vonage::JWTBuilder.new(application_id: YOUR_APPLICATION_ID, private_key: YOUR_PRIVATE_KEY)\n@token = @builder.jwt.generate\n```\n\n( `...` snippet is truncated)\n\nIf you are not using a Vonage library you should refer to [RFC 7519](https://tools.ietf.org/html/rfc7519) to implement JWT. [JWT.io](https://jwt.io/#libraries-io) has a selection of libraries for generating JWTs in multiple languages.\n\n![Project Logo](https://avatars.githubusercontent.com/u/2683897?s:280&v:4)\n\nAsk AI\n\nreCAPTCHA\n\nRecaptcha requires verification.\n\nprotected by **reCAPTCHA**",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:40.902299Z",
+      "section_path": "The `claims` field is optional and can be omitted as defaults are set",
+      "chunk_index": 13,
+      "token_count": 351,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_b0786444ed4c",
+      "source_type": "developer_portal",
+      "url": "https://developer.vonage.com/en/documentation",
+      "domain": "developer.vonage.com",
+      "page_title": "Documentation",
+      "content": "Jump to:\n\n[Essential Resources](https://developer.vonage.com/en/documentation#vonage_essentials) [Identity Insights](https://developer.vonage.com/en/documentation#identity_insights) [Network Features](https://developer.vonage.com/en/documentation#network_apis) [Messaging](https://developer.vonage.com/en/documentation#messages) [Voice Calls](https://developer.vonage.com/en/documentation#voice_calls) [Video](https://developer.vonage.com/en/documentation#video) [Verify Identity](https://developer.vonage.com/en/documentation#verify_identity) [Low Code/No Code](https://developer.vonage.com/en/documentation#low_code_no_code) [Account Management](https://developer.vonage.com/en/documentation#account_management) [Product Enablement](https://developer.vonage.com/en/documentation#product_enablement) [AI Tools](https://developer.vonage.com/en/documentation#ai_tools)\n\n[Working with Vonage APIs\\\\\n\\\\\nFundamental concepts and tools for working with Vonage APIs.](https://developer.vonage.com/en/getting-started/overview) [Vonage API Dashboard\\\\\n\\\\\nLearn how to navigate and use the Vonage API Dashboard, your hub for managing Vonage APIs and applications.](https://developer.vonage.com/en/dashboard/overview) [Vonage CLI\\\\\n\\\\\nProgrammatically manage applications, JWTs, and more with the Vonage CLI.](https://developer.vonage.com/en/vonage-cli/overview) [JWT Generator\\\\\n\\\\\nGenerate JWTs using our online tool.](https://developer.vonage.com/en/jwt) [Postman Collections\\\\\n\\\\\nExplore, test, and integrate our APIs directly from Postman.](https://developer.vonage.com/en/getting-started/tools/postman) [SDKs & Tools\\\\\n\\\\\nView all of the Vonage SDKs and tools available to help you build with our APIs.](https://developer.vonage.com/en/tools) [Regulatory Certifications\\\\\n\\\\\nAn overview of certifications held by Vonage for specific lines of business.](https://developer.vonage.com/en/getting-started/concepts/regulatory-certifications)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:41.797887Z",
+      "section_path": "Vonage Documentation > Featured products > Essential Resources",
+      "chunk_index": 1,
+      "token_count": 483,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_a5b815d1ef86",
+      "source_type": "api_reference",
+      "url": "https://developer.vonage.com/en/api/voice",
+      "domain": "developer.vonage.com",
+      "page_title": "Vonage Voice API Reference | Vonage API Documentation",
+      "content": "The total price charged for this call. This is only sent if `status` is `completed`.\n\nduration\n\nstring\n\n**example**`60`\n\nThe time elapsed for the call to take place in seconds. This is only sent if `status` is `completed`.\n\nstart\\_time\n\nstring(date-time)\n\n**example**`2020-01-01 12:00:00`\n\nThe time the call started in the following format: `YYYY-MM-DD HH:MM:SS`. For example, `2020-01-01 12:00:00`. This is only sent if `status` is `completed`.\n\nend\\_time\n\nstring(date-time)\n\n**example**`2020-01-01 12:00:00`\n\nThe time the call started in the following format: `YYYY-MM-DD HH:MM:SS`. For xample, `2020-01-01 12:00:00`. This is only sent if `status` is `completed`.\n\nnetwork\n\nstring\n\n**example**`65512`\n\nThe Mobile Country Code Mobile Network Code ( [MCCMNC](https://en.wikipedia.org/wiki/Mobile_country_code)) for the carrier network used to make this call. This is only sent if `status` is `completed`.\n\n```\n{\n   \"count\": 100,\n   \"page_size\": 10,\n   \"record_index\": 0,\n   \"_links\": {\n      \"self\": {\n         \"href\": \"/calls?page_size=10&record_index=20&order=asc\"\n      },\n      \"first\": {\n         \"href\": \"/calls?page_size=10&record_index=20&order=asc\"\n      },\n      \"last\": {\n         \"href\": \"/calls?page_size=10&record_index=20&order=asc\"\n      },\n      \"next\": {\n         \"href\": \"/calls?page_size=10&record_index=20&order=asc\"\n      },\n      \"prev\": {\n         \"href\": \"/calls?page_size=10&record_index=20&order=asc\"\n      }\n   },\n   \"_embedded\": {\n      \"calls\": [\\\n         {\\\n            \"_links\": {\\\n               \"self\": {\\\n                  \"href\": \"/calls/63f61863-4a51-4f6b-86e1-46edebcf9356\"\\\n               }\\\n            },\\\n            \"uuid\": \"63f61863-4a51-4f6b-86e1-46edebcf9356\",\\\n            \"conversation_uuid\": \"CON-f972836a-550f-45fa-956c-12a2ab5b7d22\",\\\n            \"to\": {\\\n               \"type\": \"phone\",\\\n               \"number\": \"14155550100\",\\\n               \"dtmfAnswer\": \"p*123#\",\\\n               \"shaken\": \"eyJhbGciOiJFUzI1NiIsInBwdCI6InNoYWtlbiIsInR5cCI6InBhc3Nwb3J0IiwieDV1IjoiaHR0cHM6Ly9jZXJ0LmV4YW1wbGUuY29tL3Bhc3Nwb3J0LnBlbSJ9.eyJhdHRlc3QiOiJBIiwiZGVzdCI6eyJ0biI6WyIxMjEyNTU1MTIxMiJdfSwiaWF0IjoxNjk0ODcwNDAwLCJvcmlnIjp7InRuIjoiMTQxNTU1NTEyMzQifSwib3JpZ2lkIjoiMTIzZTQ1NjctZTg5Yi0xMmQzLWE0NTYtNDI2NjE0MTc0MDAwIn0.MEUCIQCrfKeMtvn9I6zXjE2VfGEcdjC2sm5M6cPqBvFyV9XkpQIgLxlvLNmC8DJEKexXZqTZ;info=<https://stir-provider.example.net/cert.cer>;alg=ES256;ppt=\\\"shaken\\\"\"\\\n            },\\\n            \"from\": {\\\n               \"type\": \"phone\",\\\n               \"number\": \"447700900001\"\\\n            },\\\n            \"status\": \"completed\",\\\n            \"direction\": \"outbound\",\\\n            \"rate\": \"0.39\",\\\n            \"price\": \"23.40\",\\\n            \"duration\": \"60\",\\\n            \"start_time\": \"2020-01-01 12:00:00\",\\\n            \"end_time\": \"2020-01-01 12:00:00\",\\\n            \"network\": \"65512\"\\\n         }\\\n      ]\n   }\n}\n```",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:41.032516Z",
+      "section_path": "[Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#title) Voice API > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#Calls) Calls > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#getCalls) Get details of your calls > Example Response",
+      "chunk_index": 3,
+      "token_count": 715,
+      "quality_score": 0.58
+    },
+    {
+      "id": "ev_1e6bcf276236",
+      "source_type": "api_reference",
+      "url": "https://developer.vonage.com/en/api/voice",
+      "domain": "developer.vonage.com",
+      "page_title": "Vonage Voice API Reference | Vonage API Documentation",
+      "content": "All Fields\n\n\n\nRequired Fields Only\n\n\n\n```\n{\n   \"to\": [\\\n      {\\\n         \"type\": \"phone\",\\\n         \"number\": \"14155550100\",\\\n         \"dtmfAnswer\": \"p*123#\",\\\n         \"shaken\": \"eyJhbGciOiJFUzI1NiIsInBwdCI6InNoYWtlbiIsInR5cCI6InBhc3Nwb3J0IiwieDV1IjoiaHR0cHM6Ly9jZXJ0LmV4YW1wbGUuY29tL3Bhc3Nwb3J0LnBlbSJ9.eyJhdHRlc3QiOiJBIiwiZGVzdCI6eyJ0biI6WyIxMjEyNTU1MTIxMiJdfSwiaWF0IjoxNjk0ODcwNDAwLCJvcmlnIjp7InRuIjoiMTQxNTU1NTEyMzQifSwib3JpZ2lkIjoiMTIzZTQ1NjctZTg5Yi0xMmQzLWE0NTYtNDI2NjE0MTc0MDAwIn0.MEUCIQCrfKeMtvn9I6zXjE2VfGEcdjC2sm5M6cPqBvFyV9XkpQIgLxlvLNmC8DJEKexXZqTZ;info=<https://stir-provider.example.net/cert.cer>;alg=ES256;ppt=\\\"shaken\\\"\"\\\n      }\\\n   ],\n   \"from\": {\n      \"type\": \"phone\",\n      \"number\": \"14155550100\"\n   },\n   \"random_from_number\": false,\n   \"event_url\": [\\\n      \"https://example.com/event\"\\\n   ],\n   \"event_method\": \"POST\",\n   \"machine_detection\": \"continue\",\n   \"advanced_machine_detection\": {\n      \"behavior\": \"continue\",\n      \"mode\": \"default\",\n      \"beep_timeout\": 30\n   },\n   \"length_timer\": 7200,\n   \"ringing_timer\": 60,\n   \"ncco\": [\\\n      {\\\n         \"action\": \"talk\",\\\n         \"text\": \"Hello World\"\\\n      }\\\n   ]\n}\n```\n\n```\n{\n   \"to\": [\\\n      {\\\n         \"type\": \"phone\",\\\n         \"number\": \"14155550100\"\\\n      }\\\n   ],\n   \"ncco\": [\\\n      {\\\n         \"action\": \"talk\",\\\n         \"text\": \"Hello World\"\\\n      }\\\n   ]\n}\n```",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:41.032657Z",
+      "section_path": "[Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#title) Voice API > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#Calls) Calls > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#createCall) Create an outbound call > Example Request",
+      "chunk_index": 7,
+      "token_count": 340,
+      "quality_score": 0.58
+    },
+    {
+      "id": "ev_34564f4949fc",
+      "source_type": "api_reference",
+      "url": "https://developer.vonage.com/en/api/voice",
+      "domain": "developer.vonage.com",
+      "page_title": "Vonage Voice API Reference | Vonage API Documentation",
+      "content": "The Mobile Country Code Mobile Network Code ( [MCCMNC](https://en.wikipedia.org/wiki/Mobile_country_code)) for the carrier network used to make this call. This is only sent if `status` is `completed`.\n\n```\n{\n   \"_links\": {\n      \"self\": {\n         \"href\": \"/calls/63f61863-4a51-4f6b-86e1-46edebcf9356\"\n      }\n   },\n   \"uuid\": \"63f61863-4a51-4f6b-86e1-46edebcf9356\",\n   \"conversation_uuid\": \"CON-f972836a-550f-45fa-956c-12a2ab5b7d22\",\n   \"to\": {\n      \"type\": \"phone\",\n      \"number\": \"14155550100\",\n      \"dtmfAnswer\": \"p*123#\",\n      \"shaken\": \"eyJhbGciOiJFUzI1NiIsInBwdCI6InNoYWtlbiIsInR5cCI6InBhc3Nwb3J0IiwieDV1IjoiaHR0cHM6Ly9jZXJ0LmV4YW1wbGUuY29tL3Bhc3Nwb3J0LnBlbSJ9.eyJhdHRlc3QiOiJBIiwiZGVzdCI6eyJ0biI6WyIxMjEyNTU1MTIxMiJdfSwiaWF0IjoxNjk0ODcwNDAwLCJvcmlnIjp7InRuIjoiMTQxNTU1NTEyMzQifSwib3JpZ2lkIjoiMTIzZTQ1NjctZTg5Yi0xMmQzLWE0NTYtNDI2NjE0MTc0MDAwIn0.MEUCIQCrfKeMtvn9I6zXjE2VfGEcdjC2sm5M6cPqBvFyV9XkpQIgLxlvLNmC8DJEKexXZqTZ;info=<https://stir-provider.example.net/cert.cer>;alg=ES256;ppt=\\\"shaken\\\"\"\n   },\n   \"from\": {\n      \"type\": \"phone\",\n      \"number\": \"447700900001\"\n   },\n   \"status\": \"completed\",\n   \"direction\": \"outbound\",\n   \"rate\": \"0.39\",\n   \"price\": \"23.40\",\n   \"duration\": \"60\",\n   \"start_time\": \"2020-01-01 12:00:00\",\n   \"end_time\": \"2020-01-01 12:00:00\",\n   \"network\": \"65512\"\n}\n```",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:41.032761Z",
+      "section_path": "[Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#title) Voice API > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#Calls) Calls > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#getCall) Get detail of a specific call > Example Response",
+      "chunk_index": 10,
+      "token_count": 326,
+      "quality_score": 0.58
+    },
+    {
+      "id": "ev_bd39777d8b59",
+      "source_type": "api_reference",
+      "url": "https://developer.vonage.com/en/api/voice",
+      "domain": "developer.vonage.com",
+      "page_title": "Vonage Voice API Reference | Vonage API Documentation",
+      "content": "uuid\n\nstring\n\nRequired\n\nUUID of the Call Leg\n\n200200\n\nOK\n\n![Project Logo](https://avatars.githubusercontent.com/u/2683897?s:280&v:4)\n\nAsk AI\n\nreCAPTCHA\n\nRecaptcha requires verification.\n\nprotected by **reCAPTCHA**",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:41.032956Z",
+      "section_path": "[Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#title) Voice API > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#DTMF) DTMF > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#Unsubscribe-DTMF) Stop receiving real-time DTMF events > [Documentation Internal Link](https://developer.vonage.com/en/api/voice\\#Unsubscribe-DTMF-responses) Responses",
+      "chunk_index": 18,
+      "token_count": 53,
+      "quality_score": 0.58
+    },
+    {
+      "id": "ev_cd22d1041253",
+      "source_type": "official_docs",
+      "url": "https://developer.vonage.com",
+      "domain": "developer.vonage.com",
+      "page_title": "Vonage API Developer",
+      "content": "[API ReferenceAPI Reference](https://developer.vonage.com/api/video) [DocsDocs](https://developer.vonage.com/video/overview)\n\n[DocsDocs](https://developer.vonage.com/video/guides/video-api-basics-overview)\n\n[DocsDocs](https://developer.vonage.com/video/client-sdks/overview)\n\n[DocsDocs](https://developer.vonage.com/video/server-sdks/overview)\n\n[DocsDocs](https://developer.vonage.com/video/react-reference-app/overview)\n\n[API ReferenceAPI Reference](https://developer.vonage.com/api/video) [DocsDocs](https://developer.vonage.com/video/overview)\n\n[DocsDocs](https://developer.vonage.com/video/guides/video-api-basics-overview)\n\n[DocsDocs](https://developer.vonage.com/video/client-sdks/overview)\n\n![An illustration showing a box full of symbols related to messaging services  being unpacked.](https://a.storyblok.com/f/270183/247x217/0ab7989c33/messaging-tab-image.svg)\n\n**Vonage Messaging APIs** are easy to set up and allow you to engage your customers via a diverse assortment of messaging channels.\n\nProgrammatic features\n\nClient SDKs\n\nSigned Callbacks\n\nEasy set up\n\nDiverse messaging channels\n\nProgrammatic features\n\nClient SDKs\n\nSigned Callbacks\n\nEasy set up\n\nDiverse messaging channels\n\n[![An illustration of a mobile phone with a text conversation in a messaging app displayed on the screen.](https://a.storyblok.com/f/270183/233x190/769f3bb87d/first_card.svg)\\\\\n\\\\\n**Understanding RCS Messaging** \\\\\n\\\\\nThe Vonage Messages API RCS channel supports both outbound messaging (business to customer) and inbound messaging (customer to business).\\\\\n\\\\\nMessages API](https://developer.vonage.com/en/messages/concepts/rcs) [![An illustration of a mobile phone with a text bubble containing the WhatsApp logo emanating from the touchscreen.](https://a.storyblok.com/f/270183/184x150/abf9f2c6e2/dp_brandedgraphics_messagesapi-1.svg)\\\\\n\\\\\n**WhatsApp Interactive Messages** \\\\\n\\\\\nStreamline interactions and improve end user experience with your customers using WhatsApp Interactive Messages. \\\\\n\\\\\nMessages API](https://developer.vonage.com/en/messages/guides/whatsapp-interactive-messages?source=messages)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:40.702001Z",
+      "section_path": "Privacy and Security > Messaging",
+      "chunk_index": 2,
+      "token_count": 526,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_b982c687d5a6",
+      "source_type": "official_docs",
+      "url": "https://developer.vonage.com",
+      "domain": "developer.vonage.com",
+      "page_title": "Vonage API Developer",
+      "content": "[API ReferenceAPI Reference](https://developer.vonage.com/ai-studio/overview) [DocsDocs](https://developer.vonage.com/ai-studio/overview)\n\n[API ReferenceAPI Reference](https://developer.vonage.com/jumper-ai/overview) [DocsDocs](https://developer.vonage.com/jumper-ai/overview)\n\n[API ReferenceAPI Reference](https://developer.vonage.com/ai-studio/overview) [DocsDocs](https://developer.vonage.com/ai-studio/overview)\n\n[API ReferenceAPI Reference](https://developer.vonage.com/jumper-ai/overview) [DocsDocs](https://developer.vonage.com/jumper-ai/overview)\n\n![Illustration of a person sitting in front of a computer monitor with a security icon displayed on the screen.](https://a.storyblok.com/f/270183/150x150/57594bc817/security.svg)\n\nVonage APIs provide powerful tools to integrate privacy and security protections that prevent fraud and validate users.\n\nPrevent fraud with two-factor authentication\n\nAuthenticate your end-users where they prefer\n\nJWT authentication available\n\nReal-time Monitoring\n\nFraud Notification\n\nPrevent fraud with two-factor authentication\n\nAuthenticate your end-users where they prefer\n\nJWT authentication available\n\nReal-time Monitoring\n\nFraud Notification\n\n[![An illustration of a mobile phone with a message displayed that reads, \"Welcome back!\" A shield with a checkmark emanating from the mobile phone symbolized authentication capabilities.](https://a.storyblok.com/f/270183/184x150/d82ac58e22/dp_brandedgraphics_privacy_security-1.svg)\\\\\n\\\\\n**Verify API: Getting Started with Silent Authentication** \\\\\n\\\\\nSilent Authentication is a new method of using authentication for your users that relies on a cellular data connection from the users’ device to transmit authentication information.\\\\\n\\\\\nPrivacy and Security](https://developer.vonage.com/tutorials/silent-authentication/introduction) [![An illustration of a mysterious, hooded person typing on a laptop symbolizes a bad actor attempting to commit fraud. A shield with a padlock graphic is emanating from the laptop symbolizing anti-fraud and security protections.](https://a.storyblok.com/f/270183/184x150/d8d6b74962/dp_brandedgraphics_privacy_security-2.svg)\\\\\n\\\\\n**Vonage Fraud Defender Overview** \\\\\n\\\\\nFraud Defender allows you to set rules to catch fraudulent traffic from phone numbers all from your Vonage API Dashboard.\\\\\n\\\\\nPrivacy and Security](https://developer.vonage.com/fraud-defender/technical-details)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:40.702153Z",
+      "section_path": "Privacy and Security > Privacy and Security",
+      "chunk_index": 6,
+      "token_count": 602,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_b3a7d396c8b2",
+      "source_type": "developer_portal",
+      "url": "https://developer.vonage.com/en/documentation",
+      "domain": "developer.vonage.com",
+      "page_title": "Documentation",
+      "content": "Welcome to Vonage API Developer Portal. Here you can find all the technical documentation for the APIs available as part of the Vonage Communication APIs Platform. Be sure to checkout our [steps to get started with Vonage APIs](https://developer.vonage.com/en/getting-started/overview) section!\n\n[![Identity Insights](https://developer.vonage.com/api/v1/developer/assets/branding/vonage/assets/images/documentation/featuredProducts/identity-use-case.svg)\\\\\n\\\\\n**Identity Insights** \\\\\n\\\\\nProvides real-time access to a broad range of attributes related to the carrier, subscriber, or device associated with a phone number.](https://developer.vonage.com/en/identity-insights/overview)\n\n[![RCS Messaging](https://developer.vonage.com/api/v1/developer/assets/branding/vonage/assets/images/documentation/featuredProducts/messages-use-case.svg)\\\\\n\\\\\n**RCS Messaging** \\\\\n\\\\\nThe Messages API RCS channel supports both outbound messaging (messages sent from the business to the customer) and inbound messaging (messages sent from the customer to the business, in response to an outbound message).](https://developer.vonage.com/en/messages/concepts/rcs)\n\n[![Verify API](https://developer.vonage.com/api/v1/developer/assets/branding/vonage/assets/images/documentation/featuredProducts/verify-use-case.svg)\\\\\n\\\\\n**Verify API** \\\\\n\\\\\nAuthenticate your users and prevent fraud with our simple, easy-to-use API that removes the complexity of 2FA at a global scale.](https://developer.vonage.com/en/verify/overview)\n\n[![Video API Unified](https://developer.vonage.com/api/v1/developer/assets/branding/vonage/assets/images/documentation/featuredProducts/video-use-case.svg)\\\\\n\\\\\n**Video API Unified** \\\\\n\\\\\nBuild a custom video experience using advanced features.](https://developer.vonage.com/en/video/overview)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:41.797824Z",
+      "section_path": "Vonage Documentation > Featured products",
+      "chunk_index": 0,
+      "token_count": 449,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_8a1653671d0e",
+      "source_type": "developer_portal",
+      "url": "https://developer.vonage.com/en/documentation",
+      "domain": "developer.vonage.com",
+      "page_title": "Documentation",
+      "content": "Plugins for partner applications\n\n[![/api/v1/developer/assets/images/extend/github-mark.png](https://developer.vonage.com/api/v1/developer/assets/images/extend/github-mark.png)](https://developer.vonage.com/en/integration/nexmo-sms-action)\n\n[![/api/v1/developer/assets/images/extend/node-red-icon.png](https://developer.vonage.com/api/v1/developer/assets/images/extend/node-red-icon.png)](https://developer.vonage.com/en/integration/nodered)\n\n[![/api/v1/developer/assets/images/extend/converse_small.png](https://developer.vonage.com/api/v1/developer/assets/images/extend/converse_small.png)](https://developer.vonage.com/en/integration/converse-ai)\n\n[![/api/v1/developer/assets/images/extend/ibm_watson_avatar_purple.png](https://developer.vonage.com/api/v1/developer/assets/images/extend/ibm_watson_avatar_purple.png)](https://developer.vonage.com/en/integration/ibm-watson-speech-to-text)\n\n[![/api/v1/developer/assets/images/extend/voicebase_logo.png](https://developer.vonage.com/api/v1/developer/assets/images/extend/voicebase_logo.png)](https://developer.vonage.com/en/integration/voicebase-real-time-sentiment-analysis)\n\n[![/api/v1/developer/assets/images/extend/machine_learning_icon.png](https://developer.vonage.com/api/v1/developer/assets/images/extend/machine_learning_icon.png)](https://developer.vonage.com/en/integration/answering-machine-detection)\n\n[![/api/v1/developer/assets/images/extend/google_cloud_icon.png](https://developer.vonage.com/api/v1/developer/assets/images/extend/google_cloud_icon.png)](https://developer.vonage.com/en/integration/google-transcription)\n\n[![/api/v1/developer/assets/images/extend/msft_flow.png](https://developer.vonage.com/api/v1/developer/assets/images/extend/msft_flow.png)](https://developer.vonage.com/en/integration/microsoft-flow)\n\n[![/api/v1/developer/assets/images/extend/azure-icon.png](https://developer.vonage.com/api/v1/developer/assets/images/extend/azure-icon.png)](https://developer.vonage.com/en/integration/azure-speech-to-text)\n\n[![/api/v1/developer/assets/images/extend/amazon-lex-logo.jpg](https://developer.vonage.com/api/v1/developer/assets/images/extend/amazon-lex-logo.jpg)](https://developer.vonage.com/en/integration/amazon-lex-connector)\n\n[View More](https://developer.vonage.com/en/integration)\n\n![SDKToolsImage](https://developer.vonage.com/api/v1/developer/assets/branding/vonage/assets/images/documentation/sdkToolsHorizontalImage.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:41.798177Z",
+      "section_path": "Vonage Documentation > SDK & Tools > Extend",
+      "chunk_index": 6,
+      "token_count": 604,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_b8a174d69464",
+      "source_type": "developer_portal",
+      "url": "https://developer.vonage.com/en/documentation",
+      "domain": "developer.vonage.com",
+      "page_title": "Documentation",
+      "content": "[Client SDKs](https://developer.vonage.com/en/tools)\n\n[Server SDKs](https://developer.vonage.com/en/tools)\n\n[Vonage CLI](https://developer.vonage.com/en/tools)\n\n[Framework Libraries](https://developer.vonage.com/en/tools)\n\n[AI Tools](https://developer.vonage.com/en/tools)\n\nPlugins for partner applications\n\n[![/api/v1/developer/assets/images/extend/github-mark.png](https://developer.vonage.com/api/v1/developer/assets/images/extend/github-mark.png)](https://developer.vonage.com/en/integration/nexmo-sms-action)\n\n[![/api/v1/developer/assets/images/extend/node-red-icon.png](https://developer.vonage.com/api/v1/developer/assets/images/extend/node-red-icon.png)](https://developer.vonage.com/en/integration/nodered)\n\n[![/api/v1/developer/assets/images/extend/converse_small.png](https://developer.vonage.com/api/v1/developer/assets/images/extend/converse_small.png)](https://developer.vonage.com/en/integration/converse-ai)\n\n[![/api/v1/developer/assets/images/extend/ibm_watson_avatar_purple.png](https://developer.vonage.com/api/v1/developer/assets/images/extend/ibm_watson_avatar_purple.png)](https://developer.vonage.com/en/integration/ibm-watson-speech-to-text)\n\n[![/api/v1/developer/assets/images/extend/voicebase_logo.png](https://developer.vonage.com/api/v1/developer/assets/images/extend/voicebase_logo.png)](https://developer.vonage.com/en/integration/voicebase-real-time-sentiment-analysis)\n\n[![/api/v1/developer/assets/images/extend/machine_learning_icon.png](https://developer.vonage.com/api/v1/developer/assets/images/extend/machine_learning_icon.png)](https://developer.vonage.com/en/integration/answering-machine-detection)\n\n[![/api/v1/developer/assets/images/extend/google_cloud_icon.png](https://developer.vonage.com/api/v1/developer/assets/images/extend/google_cloud_icon.png)](https://developer.vonage.com/en/integration/google-transcription)\n\n[![/api/v1/developer/assets/images/extend/msft_flow.png](https://developer.vonage.com/api/v1/developer/assets/images/extend/msft_flow.png)](https://developer.vonage.com/en/integration/microsoft-flow)\n\n[![/api/v1/developer/assets/images/extend/azure-icon.png](https://developer.vonage.com/api/v1/developer/assets/images/extend/azure-icon.png)](https://developer.vonage.com/en/integration/azure-speech-to-text)\n\n[![/api/v1/developer/assets/images/extend/amazon-lex-logo.jpg](https://developer.vonage.com/api/v1/developer/assets/images/extend/amazon-lex-logo.jpg)](https://developer.vonage.com/en/integration/amazon-lex-connector)\n\n[View More](https://developer.vonage.com/en/integration)\n\n![Project Logo](https://avatars.githubusercontent.com/u/2683897?s:280&v:4)\n\nAsk AI\n\nreCAPTCHA\n\nRecaptcha requires verification.\n\nprotected by **reCAPTCHA**",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:41.798241Z",
+      "section_path": "Vonage Documentation > SDK & Tools > Extend",
+      "chunk_index": 7,
+      "token_count": 676,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_bd7c7b3464ba",
+      "source_type": "mcp_registry",
+      "url": "https://developer.vonage.com/en/mcp-server/technical-details",
+      "domain": "developer.vonage.com",
+      "page_title": "Technical Details",
+      "content": "Copy for LLMCopy for LLMView as MarkdownView as Markdown\n\nThe Vonage MCP Server allows AI agents and developer tools to interact with Vonage APIs through the Model Context Protocol (MCP) — an open standard that defines how large language models (LLMs) discover, describe, and use external tools and APIs.\n\nBy implementing MCP, Vonage makes its communication capabilities (Voice, Messaging, Video, and more) discoverable and usable in agentic environments such as Claude Desktop, Cursor, VS Code, and other MCP-enabled clients.\n\nMCP defines a structured interface between an AI model (the _MCP client_) and a service exposing standardized tools (the _MCP server_), enabling natural-language-driven access to Vonage APIs.\n\nIn practice:\n\n- The agent (such as Claude) receives a prompt from the user, such as “Send an SMS to John”.\n- It queries the Vonage MCP Server to find the right tool (e.g. `send_sms`).\n- The server executes the corresponding Vonage API call and returns the result.\n\nThis architecture allows developers to integrate Vonage’s communication APIs into AI-assisted workflows — without writing glue code or custom integrations.\n\n- **Tool Discovery** – MCP clients can automatically detect and describe available Vonage tools.\n- **Secure Access** – Each tool runs within a defined scope using Vonage API credentials.\n- **Agent Integration** – Works with AI-powered tools like Claude, Cursor, Windsurf, and VS Code.\n- **Extensibility** – Developers can add or customize tools for specific Vonage APIs.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:41.771764Z",
+      "section_path": "[Documentation Anchor Link](https://developer.vonage.com/en/mcp-server/technical-details\\#technical-details) Technical Details > [Documentation Anchor Link](https://developer.vonage.com/en/mcp-server/technical-details\\#key-features) Key Features",
+      "chunk_index": 0,
+      "token_count": 378,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_6b45a4961a8c",
+      "source_type": "mcp_registry",
+      "url": "https://developer.vonage.com/en/mcp-server/technical-details",
+      "domain": "developer.vonage.com",
+      "page_title": "Technical Details",
+      "content": "The MCP model consists of three main components:\n\n| Component | Role |\n| --- | --- |\n| **AI Agent (LLM)** | Understands user intent and determines when to use a tool. |\n| **MCP Client** | A local connector or plugin (e.g. in Claude or VS Code) that communicates with MCP servers. |\n| **MCP Server** | Exposes tools and schemas that describe what actions are possible (e.g., sending messages, querying docs). |\n\n![MCP Flow Example](https://developer.vonage.com/api/v1/developer/assets/images/mcp-server/mcp-flow-example.png)\n\n1. User: “Send an SMS to +1-202-555-0183 saying I’ll be 10 minutes late.”\n2. LLM identifies this as a telephony action.\n3. MCP Client queries the Vonage Telephony MCP Server for available tools.\n4. Server exposes the `send_sms` tool and executes it using Vonage APIs.\n5. The LLM receives confirmation and reports success to the user.\n\nSee the [Introduction to the Vonage MCP Servers](https://developer.vonage.com/mcp-server/conceptual-guides/introduction-to-vonage-mcp) guide for more information on the different MCP servers Vonage provides.\n\nThen, follow our installation guides for instructions on how to install your chosen MCP server in your development environment:\n\n- [Documentation MCP Server](https://developer.vonage.com/mcp-server/how-to-guides/install-documentation-mcp-server)\n- [Server API Bindings MCP Server](https://developer.vonage.com/mcp-server/how-to-guides/install-tooling-mcp-server.md)\n\nIf you have any questions, you can reach out to us on the [Vonage Community Slack](https://developer.vonage.com/community/slack).\n\n![Project Logo](https://avatars.githubusercontent.com/u/2683897?s:280&v:4)\n\nAsk AI\n\nreCAPTCHA\n\nRecaptcha requires verification.\n\nprotected by **reCAPTCHA**",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:41.771844Z",
+      "section_path": "[Documentation Anchor Link](https://developer.vonage.com/en/mcp-server/technical-details\\#technical-details) Technical Details > [Documentation Anchor Link](https://developer.vonage.com/en/mcp-server/technical-details\\#getting-started) Getting Started",
+      "chunk_index": 1,
+      "token_count": 430,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_d61ba5a6dc9d",
+      "source_type": "official_docs",
+      "url": "https://developer.vonage.com",
+      "domain": "developer.vonage.com",
+      "page_title": "Vonage API Developer",
+      "content": "[View all productsView all products](https://developer.vonage.com/documentation)\n\n![Person at desk talking on mobile phone.](https://a.storyblok.com/f/270183/620x405/5c54724a0e/voiceapi_header.png/m/)\n\nVonage Voice APIs allow you to connect people around the world and automate voice interactions using AI technologies.\n\nSend smart voice notifications\n\nCreate IVRs and Voice Bots\n\nSpeech to text and WebSockets\n\nText to Speech with over 50+ languages\n\nEmbed calls in web and mobile apps\n\nWeb & Mobile (iOS, Android) SDKs\n\nSend smart voice notifications\n\nCreate IVRs and Voice Bots\n\nSpeech to text and WebSockets\n\nText to Speech with over 50+ languages\n\nEmbed calls in web and mobile apps\n\nWeb & Mobile (iOS, Android) SDKs\n\n[![Illustration of a mobile phone with sound waves emanating from it, indicating audio playback.](https://a.storyblok.com/f/270183/184x150/28b0361f89/dp_brandedgraphics_voiceapi-1.svg)\\\\\n\\\\\n**Getting Started with the Vonage Voice API** \\\\\n\\\\\nThe Vonage Voice API is the easiest way to build high-quality voice applications in the Cloud!\\\\\n\\\\\nVoice](https://developer.vonage.com/voice/voice-api/getting-started?source=voice) [![Illustration of a laptop with a mobile phone displayed on its screen. Sound waves are emanating from the laptop, indicating audio playback.](https://a.storyblok.com/f/270183/184x150/7464c3aa3f/dp_brandedgraphics_voiceapi-2.svg)\\\\\n\\\\\n**Make an outbound call** \\\\\n\\\\\nThis code snippet demonstrates how to make an outbound call and plays a text-to-speech message when the call is answered.\\\\\n\\\\\nVoice](https://developer.vonage.com/voice/voice-api/code-snippets/making-calls/make-an-outbound-call-with-ncco?source=voice)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:40.701910Z",
+      "section_path": "Privacy and Security > Voice",
+      "chunk_index": 0,
+      "token_count": 416,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_d2604aca8dc2",
+      "source_type": "official_docs",
+      "url": "https://developer.vonage.com",
+      "domain": "developer.vonage.com",
+      "page_title": "Vonage API Developer",
+      "content": "[API ReferenceAPI Reference](https://developer.vonage.com/api/voice) [DocsDocs](https://developer.vonage.com/en/voice/voice-api/overview)\n\n[DocsDocs](https://developer.vonage.com/sip/overview)\n\n[DocsDocs](https://developer.vonage.com/voice/voice-api/concepts/in-app-calling)\n\n[API ReferenceAPI Reference](https://developer.vonage.com/api/voice) [DocsDocs](https://developer.vonage.com/en/voice/voice-api/overview)\n\n[DocsDocs](https://developer.vonage.com/sip/overview)\n\n[DocsDocs](https://developer.vonage.com/voice/voice-api/concepts/in-app-calling)\n\n![Person in front of laptop participating in a video conference call.](https://a.storyblok.com/f/270183/1400x900/b8ce97a403/video-conferencing.png/m/)\n\nIntegrate real-time video into web, desktop, mobile and IoT apps with our powerful Video API or the extremely low-code Meetings API.\n\nEmbed real-time, high-quality video in web and mobile apps\n\nClient libraries for web, mobile, and desktop platforms\n\nServer-side SDKs\n\nEncryption support\n\nEasy to migrate from Twilio to Vonage\n\nEmbed real-time, high-quality video in web and mobile apps\n\nClient libraries for web, mobile, and desktop platforms\n\nServer-side SDKs\n\nEncryption support\n\nEasy to migrate from Twilio to Vonage\n\n[![Illustration of two people meeting at an open door, shaking hands, and symbolizing the beginning of a new relationship.](https://a.storyblok.com/f/270183/184x150/1c6888f43a/dp_brandedgraphics_videoapi-1.svg)\\\\\n\\\\\n**Migrate from Twilio to Vonage Unified Video** \\\\\n\\\\\nInterested in migrating your video solution from Twilio to Vonage? Explore our migration guides.\\\\\n\\\\\nUnified Video](https://developer.vonage.com/video/guides/migration-guides/twilio/overview) [![An illustration of a mobile phone running a video conferencing app with four tiles showing attendees. Controls supporting screen sharing, video, and audio are displayed at the bottom of the screen.](https://a.storyblok.com/f/270183/184x150/4ca26d71e6/dp_brandedgraphics_videoapi-2.svg)\\\\\n\\\\\n**Create a video chat app** \\\\\n\\\\\nIn this tutorial you will learn the basic concepts of the Vonage Video API platform, including how users can communicate through video, voice, and messaging.\\\\\n\\\\\nUnified Video](https://developer.vonage.com/tutorials/basic-video-chat/introduction/javascript)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:40.701967Z",
+      "section_path": "Privacy and Security > Video",
+      "chunk_index": 1,
+      "token_count": 568,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_319050ae9d74",
+      "source_type": "official_docs",
+      "url": "https://developer.vonage.com",
+      "domain": "developer.vonage.com",
+      "page_title": "Vonage API Developer",
+      "content": "[API ReferenceAPI Reference](https://developer.vonage.com/api/messages-olympus) [DocsDocs](https://developer.vonage.com/messages/overview)\n\n[API ReferenceAPI Reference](https://developer.vonage.com/api/messages) [DocsDocs](https://developer.vonage.com/messages/concepts/sms)\n\n[API ReferenceAPI Reference](https://developer.vonage.com/api/messages-olympus) [DocsDocs](https://developer.vonage.com/messages/concepts/rcs)\n\n[API ReferenceAPI Reference](https://developer.vonage.com/api/messages-olympus) [DocsDocs](https://developer.vonage.com/messages/overview)\n\n[API ReferenceAPI Reference](https://developer.vonage.com/api/10dlc) [DocsDocs](https://developer.vonage.com/en/10-dlc/overview)\n\n[API ReferenceAPI Reference](https://developer.vonage.com/api/messages-olympus) [DocsDocs](https://developer.vonage.com/messages/overview)\n\n[API ReferenceAPI Reference](https://developer.vonage.com/api/messages) [DocsDocs](https://developer.vonage.com/messages/concepts/sms)\n\n[API ReferenceAPI Reference](https://developer.vonage.com/api/messages-olympus) [DocsDocs](https://developer.vonage.com/messages/concepts/rcs)\n\n![An illustration of the globe with an arrow spanning the circumference.](https://a.storyblok.com/f/270183/150x150/780641d685/outbound-network.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:40.702029Z",
+      "section_path": "Privacy and Security > Messaging > Messages API > RCS",
+      "chunk_index": 3,
+      "token_count": 314,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_221e6d2c617a",
+      "source_type": "official_docs",
+      "url": "https://developer.vonage.com",
+      "domain": "developer.vonage.com",
+      "page_title": "Vonage API Developer",
+      "content": "Vonage Network Features simplify access to multiple mobile networks, ensuring a seamless customer experience with optimal application portability.\n\nLeverage mobile networks to unlock a host of new functionality\n\nPowerful fraud prevention and detection capabilities\n\nStreamlined registration experience\n\nBuilt using CAMARA standards\n\nLeverage mobile networks to unlock a host of new functionality\n\nPowerful fraud prevention and detection capabilities\n\nStreamlined registration experience\n\nBuilt using CAMARA standards\n\n[![Illustration of a mobile phone with a checkmark displayed on the screen. In the background, an illustration of the Earth is displayed with a line traveling around the circumference denoting global network support.](https://a.storyblok.com/f/270183/184x150/52b223f064/dp_brandedgraphics_networkapi-1.svg)\\\\\n\\\\\n**What are Vonage Network Features?** \\\\\n\\\\\nVonage Network Features expose new functionalities of communications service providers' (CSPs) networks beyond SMS and Voice, leveraging mobile networks, including 5G, to put new network capabilities into the hands of developers.\\\\\n\\\\\nNetwork Features](https://developer.vonage.com/en/getting-started-network/what-are-network-apis?) [![An illustration of a phone number displayed on a mobile phone screen. A magnifying glass is displayed over the phone number denoting support for number verification.](https://a.storyblok.com/f/270183/184x150/6101d99fa5/dp_brandedgraphics_networkapi-2.svg)\\\\\n\\\\\n**Vonage Identity Insights API** \\\\\n\\\\\nThe Identity Insights API provides real-time access to a broad range of attributes related to the carrier, subscriber, or device associated with a phone number.\\\\\n\\\\\nNetwork Features](https://developer.vonage.com/identity-insights/overview)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:40.702063Z",
+      "section_path": "Privacy and Security > Network Features",
+      "chunk_index": 4,
+      "token_count": 437,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_24739dbf4de9",
+      "source_type": "official_docs",
+      "url": "https://developer.vonage.com",
+      "domain": "developer.vonage.com",
+      "page_title": "Vonage API Developer",
+      "content": "[API ReferenceAPI Reference](https://developer.vonage.com/api/identity-insights) [DocsDocs](https://developer.vonage.com/identity-insights/overview)\n\n[API ReferenceAPI Reference](https://developer.vonage.com/api/location-retrieval) [DocsDocs](https://developer.vonage.com/device-location-retrieval/overview)\n\n[API ReferenceAPI Reference](https://developer.vonage.com/api/identity-insights) [DocsDocs](https://developer.vonage.com/identity-insights/overview)\n\n[API ReferenceAPI Reference](https://developer.vonage.com/api/location-retrieval) [DocsDocs](https://developer.vonage.com/device-location-retrieval/overview)\n\n![Illustration of a robot wearing a headset with microphone, surrounded by messaging talk bubbles.](https://a.storyblok.com/f/270183/150x150/2e5fa5bcb2/ai_call-center500.svg)\n\nVonage AI solutions empower developers to create and deploy customer engagement experiences that operate in natural language.\n\nBuild complex conversational flows\n\nEasy-to-use drag-and-drop user interfaces to build flows\n\nEnd-to-end omni-channel conversational marketing, engagement, and commerce\n\nReach customers on their preferred messaging channels\n\nBuild complex conversational flows\n\nEasy-to-use drag-and-drop user interfaces to build flows\n\nEnd-to-end omni-channel conversational marketing, engagement, and commerce\n\nReach customers on their preferred messaging channels\n\n[![Illustration of an open laptop. Emanating out of the screen is a large circle containing a graphic with a graphic labeled, \"AI.\" Four smaller circles are connected, each with a graphic symbolizing: Configuration, Messaging, Coding, and an AI robot.](https://a.storyblok.com/f/270183/184x150/048d222ca2/dp_brandedgraphics_lowcode_ai-1.svg)\\\\\n\\\\\n**Vonage AI Studio Overview** \\\\\n\\\\\nVonage AI Studio is a low-code / no-code solution for building complex conversational flows via an easy-to-use drag-and-drop interface\\\\\n\\\\\nLow Code and AI](https://developer.vonage.com/ai-studio/overview) [![An illustration depicting a robot holding a mobile phone in one hand. A shopping app is displayed on the mobile phone's screen. In the robot's other hand is a wallet, denoting e-commerce capabilities.](https://a.storyblok.com/f/270183/184x150/363deb3900/dp_brandedgraphics_lowcode_ai-2.svg)\\\\\n\\\\\n**Vonage Conversational Commerce Overview** \\\\\n\\\\\nEnd-to-end omni-channel conversational marketing SaaS application enabling brands to reach customers on their preferred channel.\\\\\n\\\\\nLow Code and AI](https://developer.vonage.com/jumper-ai/overview)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:40.702108Z",
+      "section_path": "Privacy and Security > Low Code and AI",
+      "chunk_index": 5,
+      "token_count": 627,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_d5152b5707ca",
+      "source_type": "official_docs",
+      "url": "https://developer.vonage.com",
+      "domain": "developer.vonage.com",
+      "page_title": "Vonage API Developer",
+      "content": "[API ReferenceAPI Reference](https://developer.vonage.com/api/verify.v2) [DocsDocs](https://developer.vonage.com/verify/overview)\n\n[API ReferenceAPI Reference](https://developer.vonage.com/fraud-defender/overview) [DocsDocs](https://developer.vonage.com/fraud-defender/overview)\n\n[API ReferenceAPI Reference](https://developer.vonage.com/api/number-insight) [DocsDocs](https://developer.vonage.com/number-insight/overview)\n\n[API ReferenceAPI Reference](https://developer.vonage.com/api/verify.v2) [DocsDocs](https://developer.vonage.com/verify/overview)\n\n[API ReferenceAPI Reference](https://developer.vonage.com/fraud-defender/overview) [DocsDocs](https://developer.vonage.com/fraud-defender/overview)\n\n[API ReferenceAPI Reference](https://developer.vonage.com/api/number-insight) [DocsDocs](https://developer.vonage.com/number-insight/overview)\n\n![Person at desk talking on mobile phone.](https://a.storyblok.com/f/270183/620x405/5c54724a0e/voiceapi_header.png/m/)\n\nVonage Voice APIs allow you to connect people around the world and automate voice interactions using AI technologies.\n\nSend smart voice notifications\n\nCreate IVRs and Voice Bots\n\nSpeech to text and WebSockets\n\nText to Speech with over 50+ languages\n\nEmbed calls in web and mobile apps\n\nWeb & Mobile (iOS, Android) SDKs\n\nSend smart voice notifications\n\nCreate IVRs and Voice Bots\n\nSpeech to text and WebSockets\n\nText to Speech with over 50+ languages\n\nEmbed calls in web and mobile apps\n\nWeb & Mobile (iOS, Android) SDKs\n\n[![Illustration of a mobile phone with sound waves emanating from it, indicating audio playback.](https://a.storyblok.com/f/270183/184x150/28b0361f89/dp_brandedgraphics_voiceapi-1.svg)\\\\\n\\\\\n**Getting Started with the Vonage Voice API** \\\\\n\\\\\nThe Vonage Voice API is the easiest way to build high-quality voice applications in the Cloud!\\\\\n\\\\\nVoice](https://developer.vonage.com/voice/voice-api/getting-started?source=voice) [![Illustration of a laptop with a mobile phone displayed on its screen. Sound waves are emanating from the laptop, indicating audio playback.](https://a.storyblok.com/f/270183/184x150/7464c3aa3f/dp_brandedgraphics_voiceapi-2.svg)\\\\\n\\\\\n**Make an outbound call** \\\\\n\\\\\nThis code snippet demonstrates how to make an outbound call and plays a text-to-speech message when the call is answered.\\\\\n\\\\\nVoice](https://developer.vonage.com/voice/voice-api/code-snippets/making-calls/make-an-outbound-call-with-ncco?source=voice)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:40.702192Z",
+      "section_path": "Privacy and Security > Voice",
+      "chunk_index": 7,
+      "token_count": 608,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_2c5dda9b786e",
+      "source_type": "official_docs",
+      "url": "https://developer.vonage.com",
+      "domain": "developer.vonage.com",
+      "page_title": "Vonage API Developer",
+      "content": "[API ReferenceAPI Reference](https://developer.vonage.com/api/voice) [DocsDocs](https://developer.vonage.com/en/voice/voice-api/overview)\n\n[DocsDocs](https://developer.vonage.com/sip/overview)\n\n[DocsDocs](https://developer.vonage.com/voice/voice-api/concepts/in-app-calling)\n\n[API ReferenceAPI Reference](https://developer.vonage.com/api/voice) [DocsDocs](https://developer.vonage.com/en/voice/voice-api/overview)\n\n[DocsDocs](https://developer.vonage.com/sip/overview)\n\n[DocsDocs](https://developer.vonage.com/voice/voice-api/concepts/in-app-calling)\n\n[View all productsView all products](https://developer.vonage.com/documentation)\n\nSpin-up a working prototype in five minutes using pre-built projects covering a number of popular use cases on Vonage's serverless platform!\n\n[**Protection Suite for Okta**](https://developer.vonage.com/cloud-runtime/19230006-a7ff-4511-a126-71c1fb16c32b_vonage-protection-suite-for-okta) [**Verify Rate Limiting & OTP Reuse Solution**](https://developer.vonage.com/cloud-runtime/b4e451f4-ffee-4b94-975d-7c6ec5650e42_verify-rate-limiting-otp-reuse-solution) [**Conversations For Salesforce Marketing Cloud**](https://developer.vonage.com/cloud-runtime/513de176-fd71-4ff5-aac9-c63a7e6ec0a4_vonage-conversations-for-salesforce-marketing-cloud) [**Branded Calling**](https://developer.vonage.com/cloud-runtime/b7ef45ea-d5e4-44f6-9754-947014890ed5_branded-calling)\n\n[View All ProjectsView All Projects](https://developer.vonage.com/cloud-runtime)\n\n![Coca Cola logo graphic](https://a.storyblok.com/f/270183/105x34/7a119788e4/cocacola.svg)\n\n![Kickstarter logo graphic](https://a.storyblok.com/f/270183/155x17/dbd24eeb9c/kingfisher.svg)\n\n![DHL Shipping logo graphic](https://a.storyblok.com/f/270183/146x22/836ba8bc02/dhl.svg)\n\n![Zipcar logo graphic](https://a.storyblok.com/f/270183/113x34/934a9b0b95/zipcar.svg)\n\n![Domino's company logo graphic](https://a.storyblok.com/f/270183/136x42/9181cb3a52/dominos.svg)\n\n![Glassdoor company logo graphic](https://a.storyblok.com/f/270183/125x26/6406dcbc85/glassdoor.svg)\n\n![Allstate company logo graphic](https://a.storyblok.com/f/270183/117x26/25a6678d8b/allstate.svg)\n\n![MEDXM company logo graphic](https://a.storyblok.com/f/270183/75x30/c03fb7016c/med.svg)\n\n![Illustrations depicting users on various devices running video, messaging, and voice applications.](https://a.storyblok.com/f/270183/261x229/3a2f6c8091/developer.png/m/)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:40.702233Z",
+      "section_path": "Privacy and Security > Pre-built projects > Most popular",
+      "chunk_index": 8,
+      "token_count": 600,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_405ebe43142c",
+      "source_type": "official_docs",
+      "url": "https://developer.vonage.com",
+      "domain": "developer.vonage.com",
+      "page_title": "Vonage API Developer",
+      "content": "Experience seamless connectivity, real-time messaging, and crystal-clear voice and video calls—all at your fingertips.\n\n[Sign up for FREESign up for FREE](https://developer.vonage.com/sign-up?icid=tryitfree_api-developer-adp_nexmodashbdfreetrialsignup_nav)\n\n![Illustrations depicting users on various devices running video, messaging, and voice applications.](https://a.storyblok.com/f/270183/261x229/3a2f6c8091/developer.png)\n\nPlease let us know which languages you are interested in so that we can show you more targeted content.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:40.702254Z",
+      "section_path": "Privacy and Security > I am interested in...",
+      "chunk_index": 9,
+      "token_count": 132,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_7eaf84db2b00",
+      "source_type": "official_docs",
+      "url": "https://developer.vonage.com",
+      "domain": "developer.vonage.com",
+      "page_title": "Vonage API Developer",
+      "content": "Visit our developer blog to read about all the exciting new products, releases, and ideas Vonage has to offer!\n\n[![Live Captions, Moderation, and Recording With Python and Vonage](https://a.storyblok.com/f/270183/1368x665/30a0c8dafd/26jul_vonage-video-api-python-sdk_blog_r2.png/m/fit-in/)](https://developer.vonage.com/en/blog/implementing-live-captions-moderation-and-recording-with-vonage)[July 9, 2026/ < inspiration />/ < tutorial />Time to read: 12 minutes](https://developer.vonage.com/en/blog/implementing-live-captions-moderation-and-recording-with-vonage)\n\n[#python](https://developer.vonage.com/blog?tags=python) [#flask](https://developer.vonage.com/blog?tags=flask) [#video-api](https://developer.vonage.com/blog?tags=video-api)\n\n[**Live Captions, Moderation, and Recording With Python and Vonage**](https://developer.vonage.com/en/blog/implementing-live-captions-moderation-and-recording-with-vonage) [Build video moderation, live captions, and session recording features with the Vonage Video API Python SDK.](https://developer.vonage.com/en/blog/implementing-live-captions-moderation-and-recording-with-vonage)\n\n[![https://a.storyblok.com/f/270183/400x400/2c4345217d/liz-acosta.jpeg](https://a.storyblok.com/f/270183/400x400/2c4345217d/liz-acosta.jpeg/m/filters:grayscale())\\\\\n\\\\\nLiz AcostaDeveloper Advocate](https://developer.vonage.com/en/blog/authors/liz-acosta)\n\n[![Build Real-Time AI Voice Agents with Pipecat, AgentCore, and Vonage](https://a.storyblok.com/f/270183/1368x665/965c864148/26jul_deploy_ai_voice_agent_blog_r3-1.png/m/fit-in/)](https://developer.vonage.com/en/blog/build-real-time-ai-voice-agents-with-pipecat-agentcore-and-vonage)[**Build Real-Time AI Voice Agents with Pipecat, AgentCore, and Vonage**](https://developer.vonage.com/en/blog/build-real-time-ai-voice-agents-with-pipecat-agentcore-and-vonage)\n\n[![Beyond Vibe Coding: Best Practices in 2026](https://a.storyblok.com/f/270183/1368x665/310b3e1631/26jul_beyond-vibe-coding_blog_r2.png/m/fit-in/)](https://developer.vonage.com/en/blog/beyond-vibe-coding-best-practices-2026)[**Beyond Vibe Coding: Best Practices in 2026**](https://developer.vonage.com/en/blog/beyond-vibe-coding-best-practices-2026)\n\n[![Q2 2026: Vonage Developer Recap](https://a.storyblok.com/f/270183/1368x665/6a5f7ae276/26jul_q2_recap_blog.png/m/fit-in/)](https://developer.vonage.com/en/blog/q2-2026-vonage-developer-recap)[**Q2 2026: Vonage Developer Recap**](https://developer.vonage.com/en/blog/q2-2026-vonage-developer-recap)\n\n[![Vonage Email API Is Now In Open Beta Access](https://a.storyblok.com/f/270183/1368x665/3b5d758f4a/26jul_email_api_open_beta_blog.png/m/fit-in/)](https://developer.vonage.com/en/blog/vonage-email-api-is-now-in-open-beta-access)[**Vonage Email API Is Now In Open Beta Access**](https://developer.vonage.com/en/blog/vonage-email-api-is-now-in-open-beta-access)\n\n[![Live Captions, Moderation, and Recording With Python and Vonage](https://a.storyblok.com/f/270183/1368x665/30a0c8dafd/26jul_vonage-video-api-python-sdk_blog_r2.png/m/fit-in/)\\\\\n\\\\\nJuly 9, 2026\\\\\n\\\\\nTime to read: 12 minutes](https://developer.vonage.com/en/blog/implementing-live-captions-moderation-and-recording-with-vonage)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:40.702304Z",
+      "section_path": "Privacy and Security > Blog",
+      "chunk_index": 10,
+      "token_count": 797,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_83b04bae5121",
+      "source_type": "developer_portal",
+      "url": "https://developer.vonage.com/en/documentation",
+      "domain": "developer.vonage.com",
+      "page_title": "Documentation",
+      "content": "[Vonage Business Cloud\\\\\n\\\\\nProgrammatically access data and manage features on your Vonage Business Communications (VBC) account.](https://developer.vonage.com/en/vonage-business-cloud/overview) [AI Studio\\\\\n\\\\\nBuild complex **conversational flows** via a drag-and-drop interface.](https://developer.vonage.com/en/ai-studio/overview) [Vonage Conversational Commerce, powered by Jumper.ai\\\\\n\\\\\nVonage Conversational Commerce, powered by Jumper.ai, brings AI-powered features to drive product consideration, convert sales, and increase revenue.](https://developer.vonage.com/en/jumper-ai/overview)\n\n[SIM Swap\\\\\n\\\\\nDetermine whether and when a SIM swap was last performed on an individual mobile phone number.](https://developer.vonage.com/en/identity-insights/guides/sim-swap) [Device Swap\\\\\n\\\\\nRetrieve information on any recent device change for a SIM paired to a mobile phone](https://developer.vonage.com/en/identity-insights/guides/device-swap) [Subscriber Match\\\\\n\\\\\nCompare end-user data for a phone number with that on file with a network operator.](https://developer.vonage.com/en/identity-insights/guides/subscriber-match) [Location Verification\\\\\n\\\\\nVerify the location of an end-user using cellular network positioning.](https://developer.vonage.com/en/identity-insights/guides/location-verification) [Format\\\\\n\\\\\nValidation of a phone number's format and retrieval of information derived from it.](https://developer.vonage.com/en/identity-insights/guides/format) [Original Carrier\\\\\n\\\\\nInformation about the network was initially assigned. Information based on the numbering plan prefix.](https://developer.vonage.com/en/identity-insights/guides/original-carrier) [Current Carrier\\\\\n\\\\\nInformation about the network the number is currently assigned.](https://developer.vonage.com/en/identity-insights/guides/current-carrier) [Roaming\\\\\n\\\\\nCheck the roaming status and country for a given device on a mobile network.](https://developer.vonage.com/en/identity-insights/guides/roaming) [Reachability\\\\\n\\\\\nCheck the connectivity status for a given device, including if it is connected to the network for data, SMS, or both.](https://developer.vonage.com/en/identity-insights/guides/reachability)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:41.797959Z",
+      "section_path": "Vonage Documentation > Featured products > Identity Insights",
+      "chunk_index": 2,
+      "token_count": 550,
+      "quality_score": 0.44
+    },
+    {
+      "id": "ev_e0513b000c88",
+      "source_type": "developer_portal",
+      "url": "https://developer.vonage.com/en/documentation",
+      "domain": "developer.vonage.com",
+      "page_title": "Documentation",
+      "content": "[Documentation Internal Link](https://developer.vonage.com/en/messages/overview)\n\n[Messages API\\\\\n\\\\\n**Multi-channel** messaging that integrates with:](https://developer.vonage.com/en/messages/overview)\n\n[Documentation Internal Link](https://developer.vonage.com/en/messages/overview)[![](https://developer.vonage.com/api/v1/developer/assets/assets/images/documentation/smsline.svg)\\\\\nSMS](https://developer.vonage.com/en/messages/concepts/getting-started/getting-started-sms.md) [![](https://developer.vonage.com/api/v1/developer/assets/assets/images/documentation/whatsappcolor.svg)\\\\\nWhatsapp](https://developer.vonage.com/en/messages/concepts/getting-started/getting-started-whatsapp.md) [![](https://developer.vonage.com/api/v1/developer/assets/assets/images/documentation/facebook-messenger-logo.png)\\\\\nMessenger](https://developer.vonage.com/en/messages/concepts/getting-started/getting-started-fb.md) [![](https://developer.vonage.com/api/v1/developer/assets/assets/images/documentation/vibercolor.svg)\\\\\nViber](https://developer.vonage.com/en/messages/concepts/getting-started/getting-started-viber.md) [![](https://developer.vonage.com/api/v1/developer/assets/assets/images/documentation/camera-switch-line.svg)\\\\\nMMS](https://developer.vonage.com/en/messages/concepts/mms/mms.md) [![](https://developer.vonage.com/api/v1/developer/assets/assets/images/documentation/messages-rcs-vonage.svg)\\\\\nRCS](https://developer.vonage.com/en/messages/concepts/getting-started/getting-started-rcs.md) [![](https://developer.vonage.com/api/v1/developer/assets/assets/images/documentation/email.svg)\\\\\nEmail](https://developer.vonage.com/en/messages/concepts/getting-started/getting-started-email.md)\n\n[10 DLC Support\\\\\n\\\\\n10DLC APIs allow you to register your brand, register a campaign and many more.](https://developer.vonage.com/en/10-dlc/overview) [TFN Registration\\\\\n\\\\\nProgrammatically register and manage toll-free numbers.](https://developer.vonage.com/en/tfn-registration/overview) [Channel Manager\\\\\n\\\\\nManage various aspects of the messaging channels supported by the Vonage Messages API.](https://developer.vonage.com/en/channel-manager/overview) [SMS API\\\\\n\\\\\nProgrammatically send and receive **SMS** messages.](https://developer.vonage.com/en/messaging/sms/overview)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:41.798062Z",
+      "section_path": "Vonage Documentation > Featured products > Messaging",
+      "chunk_index": 4,
+      "token_count": 569,
+      "quality_score": 0.44
+    },
+    {
+      "id": "ev_cac157bdad4f",
+      "source_type": "official_docs",
+      "url": "https://developer.vonage.com",
+      "domain": "developer.vonage.com",
+      "page_title": "Vonage API Developer",
+      "content": "Support with your ideas\n\nLive Tutorial\n\nSupport with fixing errors\n\nEvents\n\nDev Spotlight\n\nDedicated experts\n\n[12 May 2026 -\\\\\n\\\\\n1 January 2027\\\\\n\\\\\n**Vonage Office Hours** \\\\\n\\\\\nLooking for support? Get unstuck, learn tips and tricks, discover best practices and provide feedback live with our weekly office hour live streams.](https://developer.vonage.com/en/blog/join-the-weekly-vonage-developer-office-hours-starting-may-12) [16 July 2026 -\\\\\n\\\\\n16 July 2026\\\\\n\\\\\n**WriteTheDocs London Meetup** \\\\\n\\\\\nJoin us for a peer-to-peer meetup for documentarians and other professionals passionate about technical writing.](https://www.meetup.com/write-the-docs-london/) [28 July 2026 -\\\\\n\\\\\n28 July 2026\\\\\n\\\\\n**Build Your First AI Phone Agent** \\\\\n\\\\\nJoin Vonage and Google Developer Groups in NYC & Brooklyn on a most excellent adventure where we totally code in the browser, squeeze into our TARDIS, and flue back through time powered by cosmic intelligence to make a Vonage phone call to one of history's greatest minds! Allons-y! ​Learn how to build an AI voice agent you can call. Using GitHub Codespaces, the Flue Framework, and the Vonage Voice API, you'll create a web application that places real phone calls to an AI agent for natural, real-time conversations. By the end of the session, you'll have a fully functioning application, hands-on experience with modern AI and voice technologies, and a project you can continue building after the workshop. ​Run of Show 6 PM — Doors Open Come early, grab a drink and a bite, find your people. 7:00 PM — Code Jam will begin Join Dwane Hemmings JavaScript Developer Advocate at Vonage to learn how to build an AI voice agent you can call. ​The Format Tables are set up for laptops all night. Food and drinks are provided by Vonage. More technical attendees are encouraged to circulate during open build time to help people who are stuck. Partners Co-hosted by Vonage and Google Developer Groups in NYC & Brooklyn. Food and drinks provided by Vonage.](https://luma.com/e5o9qzpr)\n\n[View All EventsView All Events](https://developer.vonage.com/community)\n\n[Event Social Links](https://developer.vonage.com/community/slack)[Event Social Links](https://github.com/Vonage-Community)[Event Social Links](https://twitter.com/VonageDev?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Escreen-name%3AVonageDev%7Ctwcon%5Es2)[Event Social Links](https://www.linkedin.com/company/vonage/)[Event Social Links](https://www.youtube.com/c/VonageDev)[Event Social Links](https://stackoverflow.com/questions/tagged/vonage?tab=Newest)\n\n[View All EventsView All Events](https://developer.vonage.com/events)\n\nWe  developers",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:40.702433Z",
+      "section_path": "Privacy and Security > Blog > From developers for developers",
+      "chunk_index": 12,
+      "token_count": 665,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_223282c58120",
+      "source_type": "official_docs",
+      "url": "https://developer.vonage.com",
+      "domain": "developer.vonage.com",
+      "page_title": "Vonage API Developer",
+      "content": "Have questions, a big idea, or something to share?\n\nOur community is designed to help you thrive.\n\n[JoinJoin](https://developer.vonage.com/community/slack)\n\n...and going stronger then ever!\n\n57\n\n2024\n\nTalks and Events\n\n09\n\n</>\n\nLanguages supported\n\n1.6M\n\nDevelopers\n\n24/7\n\nSupport\n\n40\n\n</>\n\nPre-built projects\n\n![Project Logo](https://avatars.githubusercontent.com/u/2683897?s:280&v:4)\n\nAsk AI\n\nreCAPTCHA\n\nRecaptcha requires verification.\n\nprotected by **reCAPTCHA**",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:02:40.702454Z",
+      "section_path": "Privacy and Security > Helping devs since 2010...",
+      "chunk_index": 13,
+      "token_count": 116,
+      "quality_score": 0.36
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Vonage provides APIs for communication services.",
+      "evidence_ids": [
+        "ev_7411df232a58"
+      ]
+    },
+    "category": {
+      "value": "Communications and Messaging",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "API Key, JSON Web Token (JWT), Basic Auth",
+      "evidence_ids": [
+        "ev_7411df232a58",
+        "ev_120f9c3a94e4",
+        "ev_c6b546c0f9b2"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_7411df232a58"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API",
+      "evidence_ids": [
+        "ev_91987a0ef845",
+        "ev_cde1831e48d2"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_7411df232a58"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_7411df232a58"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_7411df232a58"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_7411df232a58"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.75,
+    "fields_checked": 8,
+    "fields_supported": 6,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.75,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.75 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

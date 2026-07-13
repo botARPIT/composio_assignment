@@ -25,8 +25,14 @@ from rich.console import Console
 from rich.progress import Progress, SpinnerColumn, TextColumn, BarColumn, TaskID
 
 from models.app import AppMetadata
-from models.result import ResearchResult
-from src.config import DATA_DIR, OUTPUT_DIR, get_settings
+from models.extraction import FieldValue
+from models.result import ResearchResult, HumanReview, compute_review_reasons
+from src.config import (
+    APPS_CSV_PATH,
+    APPS_OUTPUT_DIR,
+    RESULT_FILENAME,
+    get_settings,
+)
 from src.pipeline.discovery import discover_documentation
 from src.pipeline.collector import collect_evidence
 from src.pipeline.extraction import extract_from_evidence, batch_extract_from_evidence
@@ -55,7 +61,7 @@ class RateLimiter:
 
 def load_apps(csv_path: Path | None = None) -> list[AppMetadata]:
     """Load applications from CSV."""
-    path = csv_path or DATA_DIR / "apps.csv"
+    path = csv_path or APPS_CSV_PATH
     apps = []
     with open(path, newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
@@ -73,14 +79,14 @@ def load_apps(csv_path: Path | None = None) -> list[AppMetadata]:
 
 def _app_output_dir(app: AppMetadata) -> Path:
     """Get the output directory for an app."""
-    d = OUTPUT_DIR / "apps" / app.slug
+    d = APPS_OUTPUT_DIR / app.slug
     d.mkdir(parents=True, exist_ok=True)
     return d
 
 
 def _load_cached_result(app: AppMetadata) -> ResearchResult | None:
     """Load a previously completed result if it exists."""
-    path = _app_output_dir(app) / "final.json"
+    path = _app_output_dir(app) / RESULT_FILENAME
     if path.exists():
         try:
             data = orjson.loads(path.read_bytes())
@@ -92,13 +98,22 @@ def _load_cached_result(app: AppMetadata) -> ResearchResult | None:
 
 def _save_result(result: ResearchResult) -> None:
     """Persist a result to disk."""
-    path = _app_output_dir(result.app) / "final.json"
+    path = _app_output_dir(result.app) / RESULT_FILENAME
     path.write_bytes(
         orjson.dumps(
             result.model_dump(mode="json"),
             option=orjson.OPT_INDENT_2 | orjson.OPT_NON_STR_KEYS,
         )
     )
+
+
+def _mark_failed(result: ResearchResult, reason: str) -> None:
+    """Mark an incomplete pipeline result as failed and review-required."""
+    result.pipeline_confidence = (
+        round(result.validation.score, 2) if result.validation else 0.0
+    )
+    result.final_status = "FAILED"
+    result.human_review = HumanReview(required=True, reason=[reason], status="pending")
 
 
 async def process_single_app(app: AppMetadata) -> ResearchResult:
@@ -118,6 +133,7 @@ async def process_single_app(app: AppMetadata) -> ResearchResult:
         )
     except Exception as exc:
         console.print(f"  [red]Discovery failed: {exc}[/red]")
+        _mark_failed(result, f"Discovery failed: {exc}")
         _save_result(result)
         return result
 
@@ -131,11 +147,13 @@ async def process_single_app(app: AppMetadata) -> ResearchResult:
         console.print(f"      Collected {len(evidence_list)} evidence pieces")
     except Exception as exc:
         console.print(f"  [red]Evidence collection failed: {exc}[/red]")
+        _mark_failed(result, f"Evidence collection failed: {exc}")
         _save_result(result)
         return result
 
     if not evidence_list:
         console.print(f"  [yellow]No evidence — skipping extraction[/yellow]")
+        _mark_failed(result, "No evidence collected")
         _save_result(result)
         return result
 
@@ -150,12 +168,19 @@ async def process_single_app(app: AppMetadata) -> ResearchResult:
             )
     except Exception as exc:
         console.print(f"  [red]Extraction failed: {exc}[/red]")
+        _mark_failed(result, f"Extraction failed: {exc}")
         _save_result(result)
         return result
 
     if not extraction:
+        _mark_failed(result, "Extraction returned no result")
         _save_result(result)
         return result
+
+    # Overwrite category from CSV — no need for LLM to infer it
+    extraction.category = FieldValue(
+        value=app.category_hint or "UNKNOWN", evidence_ids=[]
+    )
 
     # Stage 4: Validation (deterministic Python)
     console.print(f"  [cyan]4/5 Validation[/cyan] — deterministic checks")
@@ -183,6 +208,25 @@ async def process_single_app(app: AppMetadata) -> ResearchResult:
             console.print(f"  [yellow]Browser verification failed: {exc}[/yellow]")
     else:
         console.print(f"  [green]5/5 Verification[/green] — not needed (SUPPORTED)")
+
+    # Stage 6: Human Review Queue
+    result.pipeline_confidence = (
+        round(result.validation.score, 2) if result.validation else 0.0
+    )
+    if result.extraction is None:
+        result.final_status = "FAILED"
+    else:
+        reasons = compute_review_reasons(result)
+        if reasons:
+            result.human_review = HumanReview(
+                required=True, reason=reasons, status="pending"
+            )
+            result.final_status = "PENDING_REVIEW"
+            console.print(
+                f"  [yellow]⚠ Queued for review: {len(reasons)} trigger(s)[/yellow]"
+            )
+        else:
+            result.final_status = "AUTO_ACCEPTED"
 
     # Persist
     _save_result(result)
@@ -231,7 +275,7 @@ async def _run_batch_sequentially(
             cached = _load_cached_result(app)
             if cached and cached.is_complete:
                 console.print(
-                    f"  [dim]Cached — confidence {cached.confidence_score}[/dim]"
+                    f"  [dim]Cached — confidence {cached.pipeline_confidence}[/dim]"
                 )
                 results.append(cached)
                 continue
@@ -242,14 +286,14 @@ async def _run_batch_sequentially(
             result = await process_single_app(app)
             results.append(result)
             console.print(
-                f"  [bold green]✓[/bold green] Confidence: {result.confidence_score}"
+                f"  [bold green]✓[/bold green] Confidence: {result.pipeline_confidence}"
             )
         except Exception as exc:
             console.print(f"  [bold red]✗ Fatal error: {exc}[/bold red]")
             results.append(ResearchResult(app=app))
 
     complete = sum(1 for r in results if r.is_complete)
-    high_conf = sum(1 for r in results if r.confidence_score >= 0.75)
+    high_conf = sum(1 for r in results if r.pipeline_confidence >= 0.75)
     console.print(
         f"\n[bold]Pipeline complete:[/bold] {complete}/{len(results)} complete, {high_conf} high-confidence"
     )
@@ -276,7 +320,7 @@ async def _run_batch_in_batches(
             cached = _load_cached_result(app)
             if cached and cached.is_complete:
                 console.print(
-                    f"  [dim]{app.name}: cached — confidence {cached.confidence_score}[/dim]"
+                    f"  [dim]{app.name}: cached — confidence {cached.pipeline_confidence}[/dim]"
                 )
                 results.append(cached)
                 continue
@@ -296,6 +340,7 @@ async def _run_batch_in_batches(
 
         # Stage 1+2: Discovery + Evidence for each app in batch
         from models.evidence import Evidence
+
         app_evidence_pairs: list[tuple[str, list[Evidence]]] = []
         batch_results: list[ResearchResult] = []
 
@@ -312,6 +357,7 @@ async def _run_batch_in_batches(
                 )
             except Exception as exc:
                 console.print(f"  [red]Discovery failed for {app.name}: {exc}[/red]")
+                _mark_failed(result, f"Discovery failed: {exc}")
                 _save_result(result)
                 app_evidence_pairs.append((app.name, []))
                 continue
@@ -327,6 +373,7 @@ async def _run_batch_in_batches(
                 console.print(
                     f"  [red]Evidence collection failed for {app.name}: {exc}[/red]"
                 )
+                _mark_failed(result, f"Evidence collection failed: {exc}")
                 _save_result(result)
                 app_evidence_pairs.append((app.name, []))
                 continue
@@ -374,9 +421,21 @@ async def _run_batch_in_batches(
                             f"  [red]Individual retry failed for {app_name}: {exc}[/red]"
                         )
 
+        # Overwrite category from CSV for all batch results
+        for result in batch_results:
+            if result.extraction:
+                result.extraction.category = FieldValue(
+                    value=result.app.category_hint or "UNKNOWN",
+                    evidence_ids=[],
+                )
+
         # Stage 4+5: Validation + Browser Verification per app
         for result in batch_results:
             if not result.extraction or not result.evidence:
+                if not result.evidence:
+                    _mark_failed(result, "No evidence collected")
+                else:
+                    _mark_failed(result, "Extraction returned no result")
                 _save_result(result)
                 results.append(result)
                 continue
@@ -400,10 +459,23 @@ async def _run_batch_in_batches(
                         f"  [yellow]Browser verification failed: {exc}[/yellow]"
                     )
 
+            # Stage 6: Human Review Queue
+            result.pipeline_confidence = (
+                round(result.validation.score, 2) if result.validation else 0.0
+            )
+            reasons = compute_review_reasons(result)
+            if reasons:
+                result.human_review = HumanReview(
+                    required=True, reason=reasons, status="pending"
+                )
+                result.final_status = "PENDING_REVIEW"
+            else:
+                result.final_status = "AUTO_ACCEPTED"
+
             _save_result(result)
             results.append(result)
             console.print(
-                f"  [bold green]✓ {result.app.name}[/bold green] Confidence: {result.confidence_score}"
+                f"  [bold green]✓ {result.app.name}[/bold green] Confidence: {result.pipeline_confidence}"
             )
 
         # Rate limit between batches
@@ -411,7 +483,7 @@ async def _run_batch_in_batches(
             await rate_limiter.wait()
 
     complete = sum(1 for r in results if r.is_complete)
-    high_conf = sum(1 for r in results if r.confidence_score >= 0.75)
+    high_conf = sum(1 for r in results if r.pipeline_confidence >= 0.75)
     console.print(
         f"\n[bold]Pipeline complete:[/bold] {complete}/{len(results)} complete, {high_conf} high-confidence"
     )

@@ -1,0 +1,518 @@
+{
+  "app": {
+    "id": 33,
+    "name": "LinkedIn Ads",
+    "website": "learn.microsoft.com/linkedin/marketing",
+    "category_hint": "Marketing Ads Email and Social"
+  },
+  "documentation_map": {
+    "app_name": "LinkedIn Ads",
+    "official_domain": "learn.microsoft.com",
+    "homepage": {
+      "url": "https://learn.microsoft.com/linkedin/marketing",
+      "title": "LinkedIn Ads",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://learn.microsoft.com/en-us/linkedin/shared/authentication/authentication",
+        "title": "Authenticating with OAuth 2.0 Overview - LinkedIn | Microsoft Learn",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://learn.microsoft.com/en-us/openapi",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://learn.microsoft.com/en-us/plans",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": null,
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://learn.microsoft.com/en-us/docs",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "LinkedIn Ads",
+      "official_domain": "learn.microsoft.com",
+      "items": [
+        {
+          "url": "https://learn.microsoft.com/linkedin/marketing",
+          "page_type": "homepage",
+          "title": "LinkedIn Ads",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/openapi",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/plans",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/docs",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/linkedin/shared/authentication/authentication",
+          "page_type": "authentication",
+          "title": "Authenticating with OAuth 2.0 Overview - LinkedIn | Microsoft Learn",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 2,
+        "urls_discovered": 5,
+        "official_urls": 5,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 5
+      }
+    },
+    "stats": {
+      "queries": 2,
+      "urls_discovered": 5,
+      "official_urls": 5,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 5
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_290dcf309b07",
+      "source_type": "api_reference",
+      "url": "https://learn.microsoft.com/en-us/openapi",
+      "domain": "learn.microsoft.com",
+      "page_title": "Microsoft OpenAPI documentation | Microsoft Learn",
+      "content": "Learn how to work with OpenAPI-described APIs using Microsoft tools.\n\n![](https://learn.microsoft.com/en-us/media/hubs/shared/icon-overview.svg?branch=main)\n\nOverview\n\n[What is Kiota?](https://learn.microsoft.com/en-us/openapi/kiota/overview)\n\n![](https://learn.microsoft.com/en-us/media/hubs/shared/icon-training.svg?branch=main)\n\nTraining\n\n[Kiota docs](https://learn.microsoft.com/en-us/openapi/kiota/)\n\n![](https://learn.microsoft.com/en-us/media/hubs/shared/icon-get-started.svg?branch=main)\n\nGet started\n\n[Get Kiota](https://learn.microsoft.com/en-us/openapi/kiota/install)\n\n[Section titled: Kiota](https://learn.microsoft.com/en-us/openapi/#kiota)\n\nKiota builds API clients and plugins from OpenAPI descriptions\n\n![](https://learn.microsoft.com/en-us/media/logos/logo_NET.svg)\n\n- [Quick start](https://learn.microsoft.com/en-us/openapi/kiota/quickstarts/dotnet)\n- [Azure auth tutorial](https://learn.microsoft.com/en-us/openapi/kiota/tutorials/dotnet-azure)\n\n![](https://learn.microsoft.com/en-us/media/logos/logo_Go-lightblue.svg)\n\n- [Quick start](https://learn.microsoft.com/en-us/openapi/kiota/quickstarts/go)\n- [Azure auth tutorial](https://learn.microsoft.com/en-us/openapi/kiota/tutorials/go-azure)\n\n![](https://learn.microsoft.com/en-us/media/logos/logo_java.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:03:15.235020Z",
+      "section_path": "Microsoft OpenAPI documentation > Kiota > Go",
+      "chunk_index": 0,
+      "token_count": 319,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_5937df136b32",
+      "source_type": "api_reference",
+      "url": "https://learn.microsoft.com/en-us/openapi",
+      "domain": "learn.microsoft.com",
+      "page_title": "Microsoft OpenAPI documentation | Microsoft Learn",
+      "content": "- [Quick start](https://learn.microsoft.com/en-us/openapi/kiota/quickstarts/java)\n- [Azure auth tutorial](https://learn.microsoft.com/en-us/openapi/kiota/tutorials/java-azure)\n\n![](https://learn.microsoft.com/en-us/media/logos/logo_php.svg)\n\n- [Quick start](https://learn.microsoft.com/en-us/openapi/kiota/quickstarts/php)\n- [Azure auth tutorial](https://learn.microsoft.com/en-us/openapi/kiota/tutorials/php-azure)\n\n![](https://learn.microsoft.com/en-us/media/logos/logo_python.svg)\n\n- [Quick start](https://learn.microsoft.com/en-us/openapi/kiota/quickstarts/python)\n- [Azure auth tutorial](https://learn.microsoft.com/en-us/openapi/kiota/tutorials/python-azure)\n\n![](https://learn.microsoft.com/en-us/media/logos/logo_ruby.svg)\n\n- [Azure auth tutorial](https://learn.microsoft.com/en-us/openapi/kiota/tutorials/ruby-azure)\n\n![](https://learn.microsoft.com/en-us/media/logos/logo_TS.svg)\n\n- [Quick start](https://learn.microsoft.com/en-us/openapi/kiota/quickstarts/typescript)\n- [Azure auth tutorial](https://learn.microsoft.com/en-us/openapi/kiota/tutorials/typescript-azure)\n\n[Section titled: OpenAPI Tools](https://learn.microsoft.com/en-us/openapi/#openapi-tools)\n\nTooling and SDKs for working with OpenAPI\n\n![](https://learn.microsoft.com/en-us/media/common/i_overview.svg)\n\n[OpenAPI.NET documentation](https://learn.microsoft.com/en-us/openapi/openapi.net/overview)\n\n![](https://learn.microsoft.com/en-us/media/common/i_reference.svg)\n\n[OpenAPI.NET (Microsoft.OpenApi) reference](https://learn.microsoft.com/en-us/dotnet/api/microsoft.openapi)\n\n![](https://learn.microsoft.com/en-us/media/common/i_reference.svg)\n\n[Microsoft.OpenApi.OData reference](https://learn.microsoft.com/en-us/dotnet/api/microsoft.openapi.odata)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:03:15.235064Z",
+      "section_path": "Microsoft OpenAPI documentation > OpenAPI Tools",
+      "chunk_index": 1,
+      "token_count": 431,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_b4d41542ee4a",
+      "source_type": "auth_docs",
+      "url": "https://learn.microsoft.com/en-us/linkedin/shared/authentication/authentication",
+      "domain": "learn.microsoft.com",
+      "page_title": "Authenticating with OAuth 2.0 Overview - LinkedIn | Microsoft Learn",
+      "content": "Feedback\n\nSummarize this article for me\n\n\nThe LinkedIn API uses [OAuth 2.0](http://oauth.net/2/) for member (user) authorization and API authentication. Applications must be authorized and authenticated before they can fetch data from LinkedIn or get access to LinkedIn member data.\n\nThere are two types of Authorization Flows available:\n\n- [**Member Authorization (3-legged OAuth)**](https://learn.microsoft.com/en-us/linkedin/shared/authentication/authentication#member-authorization-3-legged-oauth-flow)\n- [**Application Authorization (2-legged OAuth)**](https://learn.microsoft.com/en-us/linkedin/shared/authentication/authentication#application-authorization-2-legged-oauth-client-credential-flow)\n\nDepending on the type of permissions your integration will require, follow one of the authorization flows to get started.\n\nNote\n\n- There are several third-party libraries in the open source community which abstract the OAuth 2.0 authentication process in every major programming language.\n- LinkedIn does not support TLS 1.0.\n\n[Section titled: Member Authorization (3-legged OAuth Flow)](https://learn.microsoft.com/en-us/linkedin/shared/authentication/authentication#member-authorization-3-legged-oauth-flow)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:03:14.980649Z",
+      "section_path": "Overview",
+      "chunk_index": 0,
+      "token_count": 303,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_f400b7a5af98",
+      "source_type": "auth_docs",
+      "url": "https://learn.microsoft.com/en-us/linkedin/shared/authentication/authentication",
+      "domain": "learn.microsoft.com",
+      "page_title": "Authenticating with OAuth 2.0 Overview - LinkedIn | Microsoft Learn",
+      "content": "The Member Authorization grants permissions to your application by a LinkedIn member to access the member’s resources on LinkedIn. Your application has no access to these resources without member approval. The Member Auth uses the 3-legged OAuth code flow. For step-by-step instructions on how to implement 3-legged OAuth, see [**Authorization Code Flow (3-legged OAuth)**](https://learn.microsoft.com/en-us/linkedin/shared/authentication/authorization-code-flow) page.\n\nTip\n\n**When to use 3-legged OAuth**\n\nUse this flow if you are requesting access to a member's account to use their data and make requests on their behalf. This is the most commonly used permission type across LinkedIn APIs. Open permissions available to all applications are of this type such as `r_liteprofile`, `r_emailaddress`, and `w_member_social`.\n\n[Section titled: Member Auth Permissions](https://learn.microsoft.com/en-us/linkedin/shared/authentication/authentication#member-auth-permissions)\n\n**Member Authorization Permissions** are granted by a LinkedIn member to access members resources on LinkedIn. Permissions are authorization consents to access LinkedIn resources. The LinkedIn platform uses permissions to protect and prevent abuse of member data. Your application must have the appropriate permissions before it can access data. To see the list of permissions, descriptions and access details, refer to [Getting Access to LinkedIn APIs](https://learn.microsoft.com/en-us/linkedin/shared/authentication/getting-access) page.\n\n[Section titled: Application Authorization (2-legged OAuth Client Credential Flow)](https://learn.microsoft.com/en-us/linkedin/shared/authentication/authentication#application-authorization-2-legged-oauth-client-credential-flow)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:03:14.980725Z",
+      "section_path": "Overview > Member Authorization (3-legged OAuth Flow) > Member Auth Permissions",
+      "chunk_index": 1,
+      "token_count": 436,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_354c6b3ee0ee",
+      "source_type": "auth_docs",
+      "url": "https://learn.microsoft.com/en-us/linkedin/shared/authentication/authentication",
+      "domain": "learn.microsoft.com",
+      "page_title": "Authenticating with OAuth 2.0 Overview - LinkedIn | Microsoft Learn",
+      "content": "Application Authorization or using 2-Legged OAuth grants permissions to your application to access protected LinkedIn resources. If you are accessing APIs that are not member specific, use this flow. Not all APIs support Application Authorization. For example, Marketing APIs you must use Member Authorization explained above. For step-by-step instructions on how to implement 2-legged OAuth, see [**Client Credential Flow (2-legged OAuth)**](https://learn.microsoft.com/en-us/linkedin/shared/authentication/client-credentials-flow?context=linkedin/context) page.\n\nNote\n\nAlways request the minimal permission scopes necessary for your use case.\n\n[Section titled: Application Auth Permissions](https://learn.microsoft.com/en-us/linkedin/shared/authentication/authentication#application-auth-permissions)\n\nApplication Authorization Permissions are granted to applications to access LinkedIn protected resources. To see the list of permissions, descriptions and access details, refer to [Getting Access to LinkedIn APIs](https://learn.microsoft.com/en-us/linkedin/shared/authentication/getting-access) page.\n\n[Section titled: Sample Application](https://learn.microsoft.com/en-us/linkedin/shared/authentication/authentication#sample-application)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:03:14.980759Z",
+      "section_path": "Overview > Application Authorization (2-legged OAuth Client Credential Flow) > Application Auth Permissions",
+      "chunk_index": 2,
+      "token_count": 310,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_535b59b24579",
+      "source_type": "auth_docs",
+      "url": "https://learn.microsoft.com/en-us/linkedin/shared/authentication/authentication",
+      "domain": "learn.microsoft.com",
+      "page_title": "Authenticating with OAuth 2.0 Overview - LinkedIn | Microsoft Learn",
+      "content": "You can explore the [OAuth Sample Applications](https://learn.microsoft.com/en-us/linkedin/shared/authentication/sample-applications) that enables you to try out RESTful OAuth calls to the LinkedIn Authentication server. The sample app is available in Java.\n\nAdditionally, you can also explore the [Marketing Sample Application](https://learn.microsoft.com/en-us/linkedin/marketing/sample-apps-lms).\n\nReading mode disabled\n\n* * *\n\nWas this page helpful?\n\n\nYesNoNo\n\nNeed help with this topic?\n\n\nWant to try using Ask Learn to clarify or guide you through this topic?\n\n\nAsk LearnAsk Learn\n\nSuggest a fix?\n\n* * *\n\nTraining\n\nLearning path\n\n[Implement user authentication and authorization - Training](https://learn.microsoft.com/en-us/training/paths/az-204-implement-authentication-authorization/?source=recommendations)\n\nLearn how to implement authentication and authorization to resources by using the Microsoft identity platform, Microsoft Authentication Library, shared access signatures, and use Microsoft Graph.\n\n* * *\n\n- Last updated on 05/08/2023\n\nAsk Learn is an AI assistant that can answer questions, clarify concepts, and define terms using trusted Microsoft documentation.\n\nPlease sign in to use Ask Learn.\n\n[Sign in](https://learn.microsoft.com/en-us/linkedin/shared/authentication/authentication#)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:03:14.980790Z",
+      "section_path": "Overview > Additional resources",
+      "chunk_index": 3,
+      "token_count": 327,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_b1dd4cd047eb",
+      "source_type": "pricing_page",
+      "url": "https://learn.microsoft.com/en-us/plans",
+      "domain": "learn.microsoft.com",
+      "page_title": "Plans | Microsoft Learn",
+      "content": "We looked everywhere. But don't worry, you can review a history of your plan activity in your user profile.\n\n[View your plan history](https://learn.microsoft.com/en-us/users/me/plans) [Find something else to learn](https://learn.microsoft.com/en-us/training)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:03:15.810262Z",
+      "section_path": "Oops, we couldn't find that plan =\\]",
+      "chunk_index": 0,
+      "token_count": 64,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_ff989dd69655",
+      "source_type": "developer_portal",
+      "url": "https://learn.microsoft.com/en-us/docs",
+      "domain": "learn.microsoft.com",
+      "page_title": "Technical documentation | Microsoft Learn",
+      "content": "- [.NET](https://learn.microsoft.com/en-us/dotnet/)\n- [.NET MAUI](https://learn.microsoft.com/en-us/dotnet/maui/)\n- [Adaptive Cards](https://learn.microsoft.com/en-us/adaptive-cards/)\n- [ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/)\n- [Azure](https://learn.microsoft.com/en-us/azure/)\n- [Biztalk Server](https://learn.microsoft.com/en-us/biztalk/)\n- [C++](https://learn.microsoft.com/en-us/cpp/)\n- [C#](https://learn.microsoft.com/en-us/dotnet/csharp)\n- [DAX](https://learn.microsoft.com/en-us/dax/)\n- [Dynamics 365](https://learn.microsoft.com/en-us/dynamics365/)\n- [Dynamics 365 Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/)\n- [Dynamics 365 Commerce](https://learn.microsoft.com/en-us/dynamics365/commerce/)\n- [Dynamics 365 Customer Insights](https://learn.microsoft.com/en-us/dynamics365/customer-insights/)\n- [Dynamics 365 Customer Service](https://learn.microsoft.com/en-us/dynamics365/customer-service/)\n- [Dynamics 365 Field Service](https://learn.microsoft.com/en-us/dynamics365/field-service/)\n- [Dynamics 365 Finance](https://learn.microsoft.com/en-us/dynamics365/finance/)\n- [Dynamics 365 Guides](https://learn.microsoft.com/en-us/dynamics365/mixed-reality/guides/)\n- [Dynamics 365 Human Resources](https://learn.microsoft.com/en-us/dynamics365/human-resources/)\n- [Dynamics 365 Project Operations](https://learn.microsoft.com/en-us/dynamics365/project-operations/)\n- [Dynamics 365 Remote Assist](https://learn.microsoft.com/en-us/dynamics365/mixed-reality/remote-assist/ra-overview/)\n- [Dynamics 365 Sales](https://learn.microsoft.com/en-us/dynamics365/sales/)\n- [Dynamics 365 Supply Chain Management](https://learn.microsoft.com/en-us/dynamics365/supply-chain/)\n- [Java](https://learn.microsoft.com/en-us/java/)\n- [Microsoft 365](https://learn.microsoft.com/en-us/microsoft-365/)\n- [Microsoft Advertising](https://learn.microsoft.com/en-us/advertising/)\n- [Microsoft Agent 365](https://learn.microsoft.com/en-us/microsoft-agent-365/)\n- [Microsoft Clipchamp](https://learn.microsoft.com/en-us/clipchamp/)\n- [Microsoft Cloud](https://learn.microsoft.com/en-us/microsoft-cloud/)\n- [Microsoft Compliance](https://learn.microsoft.com/en-us/compliance/)\n- [Microsoft Copilot](https://learn.microsoft.com/en-us/copilot/)\n- [Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/)\n- [Microsoft Defender](https://learn.microsoft.com/en-us/defender/)\n- [Microsoft Edge](https://learn.microsoft.com/en-us/microsoft-edge/)\n- [Microsoft Entra](https://learn.microsoft.com/en-us/entra/)\n- [Microsoft Fabric](https://learn.microsoft.com/en-us/fabric/)\n- [Microsoft Graph](https://learn.microsoft.com/en-us/graph/)\n- [Microsoft Industry Clouds](https://learn.microsoft.com/en-us/industry/)\n- [Microsoft Intune](https://learn.microsoft.com/en-us/mem/)\n- [Microsoft Lifecycle Policy](https://learn.microsoft.com/en-us/lifecycle/)\n- [Microsoft Mesh](https://learn.microsoft.com/en-us/mesh/)\n- [Microsoft Priva](https://learn.microsoft.com/en-us/privacy/priva/priva-overview/)\n- [Microsoft Purview](https://learn.microsoft.com/en-us/purview/)\n- [Microsoft Security](https://learn.microsoft.com/en-us/security/)\n- [Microsoft Surface](https://learn.microsoft.com/en-us/surface/)\n- [Microsoft Teams](https://learn.microsoft.com/en-us/microsoftteams/)\n- [Microsoft Typography](https://learn.microsoft.com/en-us/typography/)\n- [Microsoft Viva](https://learn.microsoft.com/en-us/viva/)\n- [OData](https://learn.microsoft.com/en-us/odata/)\n- [Open Specifications](https://learn.microsoft.com/en-us/openspecs/)\n- [OpenAPI](https://learn.microsoft.com/en-us/openapi/)\n- [Partner Center](https://learn.microsoft.com/en-us/partner-center/)\n- [PlayReady](https://learn.microsoft.com/en-us/playready/)\n- [Power Apps](https://learn.microsoft.com/en-us/power-apps/)\n- [Power Automate](https://learn.microsoft.com/en-us/power-automate/)\n- [Power BI](https://learn.microsoft.com/en-us/power-bi/)\n- [Power Pages](https://learn.microsoft.com/en-us/power-pages/)\n- [Power Platform](https://learn.microsoft.com/en-us/power-platform/)\n- [Power Query M](https://learn.microsoft.com/en-us/powerquery-m/)\n- [PowerShell](https://learn.microsoft.com/en-us/powershell/)\n- [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/)\n- [SharePoint](https://learn.microsoft.com/en-us/sharepoint/)\n- [SQL Server](https://learn.microsoft.com/en-us/sql/)\n- [System Center](https://learn.microsoft.com/en-us/system-center/)\n- [Sysinternals](https://learn.microsoft.com/en-us/sysinternals/)\n- [Vcpkg](https://learn.microsoft.com/en-us/vcpkg/)\n- [Visual Studio](https://learn.microsoft.com/en-us/visualstudio/)\n- [Windows](https://learn.microsoft.com/en-us/windows/)\n- [Windows Server](https://learn.microsoft.com/en-us/windows-server/)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:03:16.226541Z",
+      "section_path": "Technical documentation > Product directory",
+      "chunk_index": 1,
+      "token_count": 1196,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_3afad1e286b9",
+      "source_type": "developer_portal",
+      "url": "https://learn.microsoft.com/en-us/docs",
+      "domain": "learn.microsoft.com",
+      "page_title": "Technical documentation | Microsoft Learn",
+      "content": "- ### [Startups](https://www.microsoft.com/en-us/startups)\n\n\n\nGet your businesses up and running with the Microsoft Cloud, growing your startup while ensuring security and compliance for your customers.\n\n- ### [Student Hub](https://learn.microsoft.com/en-us/training/student-hub/)\n\n\n\nLearn technical skills to prepare you for your future. Find training, virtual events, and opportunities to connect with the Microsoft student developer community.\n\n- ### [Educator Center](https://learn.microsoft.com/en-us/training/educator-center/)\n\n\n\nDive deep into learning with interactive lessons, earn professional development hours, acquire certifications and find programs that help meet your goals.\n\n- ### [Microsoft Learn Blog](https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog)\n\n\n\nGet the latest updates, articles, and news for learning content and events from the Microsoft Learn community.\n\n- ### [Virtual Training Days](https://www.microsoft.com/en-us/trainingdays)\n\n\n\nTake advantage of free Virtual Training Days, where participants of any skill level can build technical skills across a range of topics and technologies.\n\n- ### [Microsoft Reactor](https://developer.microsoft.com/en-us/reactor/)\n\n\n\nWhether you're building your career or the next great idea, Microsoft Reactor connects you with the developers and startups that share your goals.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:03:16.226603Z",
+      "section_path": "Technical documentation > Recommended Resources",
+      "chunk_index": 2,
+      "token_count": 344,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_1062b1f324e8",
+      "source_type": "official_docs",
+      "url": "https://learn.microsoft.com/linkedin/marketing",
+      "domain": "learn.microsoft.com",
+      "page_title": "LinkedIn Marketing API Program - LinkedIn | Microsoft Learn",
+      "content": "The LinkedIn Marketing Platform helps businesses grow by building technology to reach, engage, and convert professional audiences at scale. The platform offers APIs to create LinkedIn marketing campaigns, to report campaign performance, to manage leads, and to grow a company Page.\n\n![](https://learn.microsoft.com/en-us/media/hubs/shared/icon-quickstart.svg?branch=main)\n\nQuickstart\n\n[Quick Start](https://learn.microsoft.com/en-us/linkedin/marketing/quick-start?view=li-lms-2026-06)\n\n![](https://learn.microsoft.com/en-us/media/hubs/shared/icon-overview.svg?branch=main)\n\nOverview\n\n[Getting API Access](https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access?view=li-lms-2026-06)\n\n![](https://learn.microsoft.com/en-us/media/hubs/shared/icon-how-to-guide.svg?branch=main)\n\nHow-To Guide\n\n[Authentication](https://learn.microsoft.com/en-us/linkedin/shared/authentication/authorization-code-flow?view=li-lms-2026-06&toc=%2Flinkedin%2Fmarketing%2Ftoc.json&bc=%2Flinkedin%2Fbreadcrumb%2Ftoc.json)\n\n![](https://learn.microsoft.com/en-us/media/hubs/shared/icon-how-to-guide.svg?branch=main)\n\nHow-To Guide\n\n[API Versioning](https://learn.microsoft.com/en-us/linkedin/marketing/versioning?view=li-lms-2026-06)\n\n![](https://learn.microsoft.com/en-us/media/hubs/shared/icon-overview.svg?branch=main)\n\nOverview\n\n[Data Storage Requirements](https://learn.microsoft.com/en-us/linkedin/marketing/data-storage-requirements?view=li-lms-2026-06)\n\n![](https://learn.microsoft.com/en-us/media/hubs/shared/icon-whats-new.svg?branch=main)\n\nWhat's new\n\n[What's New](https://learn.microsoft.com/en-us/linkedin/marketing/integrations/recent-changes?view=li-lms-2026-06)\n\n[Section titled: LinkedIn Marketing APIs](https://learn.microsoft.com/en-us/linkedin/marketing/?view=li-lms-2026-06#linkedin-marketing-apis)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:03:15.242598Z",
+      "section_path": "LinkedIn Marketing API Program",
+      "chunk_index": 0,
+      "token_count": 450,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_be6db7d3790c",
+      "source_type": "official_docs",
+      "url": "https://learn.microsoft.com/linkedin/marketing",
+      "domain": "learn.microsoft.com",
+      "page_title": "LinkedIn Marketing API Program - LinkedIn | Microsoft Learn",
+      "content": "Provides valuable data and analytics to advertisers, helping you better understand and target your audience on the platform for more effective and tailored marketing campaigns.\n\n- [Overview](https://learn.microsoft.com/en-us/linkedin/marketing/integrations/ads/advertising-targeting/audience-insights-overview?view=li-lms-2026-06)\n\n- [Audience Insights API](https://learn.microsoft.com/en-us/linkedin/marketing/integrations/ads/advertising-targeting/audience-insights-api?view=li-lms-2026-06)\n\n- [Audience Insights API Use Cases](https://learn.microsoft.com/en-us/linkedin/marketing/integrations/ads/advertising-targeting/audience-insights-usecase?view=li-lms-2026-06)\n\n- [Integration Requirements](https://learn.microsoft.com/en-us/linkedin/marketing/integrations/ads/advertising-targeting/integration-requirements-audience-insights?view=li-lms-2026-06)\n\nEnables marketers to have a better understanding of investment delivery against valuable audiences and objectives\n\n- [Overview](https://learn.microsoft.com/en-us/linkedin/marketing/media-planning/media-planning-overview?view=li-lms-2026-06)\n\n- [Media Planning API](https://learn.microsoft.com/en-us/linkedin/marketing/media-planning/media-planning-api?view=li-lms-2026-06)\n\n- [Manage Media Plans](https://learn.microsoft.com/en-us/linkedin/marketing/media-planning/media-plan?view=li-lms-2026-06)\n\n- [Media Planning API Use Cases](https://learn.microsoft.com/en-us/linkedin/marketing/media-planning/media-planning-usecase?view=li-lms-2026-06)\n\n- [Integration Requirements](https://learn.microsoft.com/en-us/linkedin/marketing/media-planning/integration-requirements-media-planning?view=li-lms-2026-06)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:03:15.242765Z",
+      "section_path": "LinkedIn Marketing API Program > Advertising > Media Planning",
+      "chunk_index": 4,
+      "token_count": 414,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_878fb424b602",
+      "source_type": "developer_portal",
+      "url": "https://learn.microsoft.com/en-us/docs",
+      "domain": "learn.microsoft.com",
+      "page_title": "Technical documentation | Microsoft Learn",
+      "content": "Search for in-depth articles on Microsoft developer tools and technologies.\n\nSuggestions will filter as you type\n\nSearch\n\nIndex\n\nExplore guides and articles by product.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:03:16.226359Z",
+      "section_path": "Technical documentation > Product directory",
+      "chunk_index": 0,
+      "token_count": 42,
+      "quality_score": 0.44
+    },
+    {
+      "id": "ev_4c58fdcc6b35",
+      "source_type": "official_docs",
+      "url": "https://learn.microsoft.com/linkedin/marketing",
+      "domain": "learn.microsoft.com",
+      "page_title": "LinkedIn Marketing API Program - LinkedIn | Microsoft Learn",
+      "content": "With Advertising APIs, streamline your campaign management, audience targeting, and track performance to optimize advertising efforts.\n\n- [Campaign Management](https://learn.microsoft.com/en-us/linkedin/marketing/integrations/ads/getting-started?view=li-lms-2026-06)\n\n- [Integration Requirements - Advertising API](https://learn.microsoft.com/en-us/linkedin/marketing/integrations/ads/integration-requirements?view=li-lms-2026-06)\n\n- [Reporting and Analytics](https://learn.microsoft.com/en-us/linkedin/marketing/integrations/ads-reporting/getting-started?view=li-lms-2026-06)\n\n- [Integration Requirements - Reporting](https://learn.microsoft.com/en-us/linkedin/marketing/integrations/ads-reporting/integration-requirements-reporting?view=li-lms-2026-06)\n\nStreamline event operations, amplify visibility, and drive meaningful connections within the professional landscape with Events APIs (Management & Ads).\n\n- [Overview](https://learn.microsoft.com/en-us/linkedin/marketing/event-management/event-management-overview?view=li-lms-2026-06)\n\n- [Events](https://learn.microsoft.com/en-us/linkedin/marketing/event-management/events?view=li-lms-2026-06)\n\n- [Event Management API Usecases](https://learn.microsoft.com/en-us/linkedin/marketing/event-management/event-management-usecase?view=li-lms-2026-06)\n\n- [Integration Requirements](https://learn.microsoft.com/en-us/linkedin/marketing/event-management/integration-requirements-event-management?view=li-lms-2026-06)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:03:15.242652Z",
+      "section_path": "LinkedIn Marketing API Program > Advertising > Event Management",
+      "chunk_index": 1,
+      "token_count": 365,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_bf7e7b2af93b",
+      "source_type": "official_docs",
+      "url": "https://learn.microsoft.com/linkedin/marketing",
+      "domain": "learn.microsoft.com",
+      "page_title": "LinkedIn Marketing API Program - LinkedIn | Microsoft Learn",
+      "content": "Efficiently manage and engage with their LinkedIn communities, enhancing social media presence and interactions on the platform.\n\n- [Overview](https://learn.microsoft.com/en-us/linkedin/marketing/community-management/community-management-overview?view=li-lms-2026-06)\n\n- [Page Access Management](https://learn.microsoft.com/en-us/linkedin/marketing/community-management/organizations?view=li-lms-2026-06)\n\n- [Page and Content Analysis](https://learn.microsoft.com/en-us/linkedin/marketing/community-management/organizations/follower-statistics?view=li-lms-2026-06)\n\n- [Shares & Social Stream](https://learn.microsoft.com/en-us/linkedin/marketing/community-management/shares?view=li-lms-2026-06)\n\n- [Monitor Mentions of Your Brand](https://learn.microsoft.com/en-us/linkedin/marketing/community-management/organizations/organization-social-action-notifications?view=li-lms-2026-06)\n\n- [Mention a Member or a Brand](https://learn.microsoft.com/en-us/linkedin/marketing/community-management/shares/posts-atmention-search-api?view=li-lms-2026-06)\n\n- [Integration Requirements](https://learn.microsoft.com/en-us/linkedin/marketing/community-management/integration-requirements-community-management?view=li-lms-2026-06)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:03:15.242681Z",
+      "section_path": "LinkedIn Marketing API Program > Advertising > Community Management",
+      "chunk_index": 2,
+      "token_count": 303,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_c8239dd955a6",
+      "source_type": "official_docs",
+      "url": "https://learn.microsoft.com/linkedin/marketing",
+      "domain": "learn.microsoft.com",
+      "page_title": "LinkedIn Marketing API Program - LinkedIn | Microsoft Learn",
+      "content": "Seamlessly synchronize lead data captured through LinkedIn Lead Gen Forms with customer relationship management (CRM) systems and simplify lead management and follow-up processes.\n\n- [Overview](https://learn.microsoft.com/en-us/linkedin/marketing/lead-sync/leadsync-overview?view=li-lms-2026-06)\n\n- [Lead Sync](https://learn.microsoft.com/en-us/linkedin/marketing/lead-sync/leadsync?view=li-lms-2026-06)\n\n- [Lead Sync API Use Cases](https://learn.microsoft.com/en-us/linkedin/marketing/lead-sync/lead-sync-usecase?view=li-lms-2026-06)\n\n- [Integration Requirements](https://learn.microsoft.com/en-us/linkedin/marketing/lead-sync/marketing-leads-integration-requirements?view=li-lms-2026-06)\n\nReach specific audiences by uploading contact lists, website retargeting, or utilizing account targeting for more precise Ad campaigns on the platform.\n\n- [Overview](https://learn.microsoft.com/en-us/linkedin/marketing/matched-audiences/matched-audiences?view=li-lms-2026-06)\n\n- [DMP Segments](https://learn.microsoft.com/en-us/linkedin/marketing/matched-audiences/create-and-manage-segments?view=li-lms-2026-06)\n\n- [DMP Segment Users](https://learn.microsoft.com/en-us/linkedin/marketing/matched-audiences/create-and-manage-segment-users?view=li-lms-2026-06)\n\n- [DMP Segment Destinations](https://learn.microsoft.com/en-us/linkedin/marketing/matched-audiences/create-and-manage-segment-destinations?view=li-lms-2026-06)\n\n- [DMP Segment Companies](https://learn.microsoft.com/en-us/linkedin/marketing/matched-audiences/create-and-manage-segment-companies?view=li-lms-2026-06)\n\n- [DMP Segment List](https://learn.microsoft.com/en-us/linkedin/marketing/matched-audiences/create-and-manage-list-uploads?view=li-lms-2026-06)\n\n- [Website Retargeting](https://learn.microsoft.com/en-us/linkedin/marketing/matched-audiences/website-visitors-retargeting?view=li-lms-2026-06)\n\n- [Ad Segments](https://learn.microsoft.com/en-us/linkedin/marketing/matched-audiences/adsegments?view=li-lms-2026-06)\n\n- [Predictive Audiences](https://learn.microsoft.com/en-us/linkedin/marketing/matched-audiences/predictive-audiences?view=li-lms-2026-06)\n\n- [Matched Audiences API Use Cases](https://learn.microsoft.com/en-us/linkedin/marketing/matched-audiences/matched-audiences-usecase?view=li-lms-2026-06)\n\n- [Integration Requirements](https://learn.microsoft.com/en-us/linkedin/marketing/matched-audiences/integration-requirements?view=li-lms-2026-06)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:03:15.242728Z",
+      "section_path": "LinkedIn Marketing API Program > Advertising > Matched Audiences",
+      "chunk_index": 3,
+      "token_count": 604,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_87a860c5e29a",
+      "source_type": "official_docs",
+      "url": "https://learn.microsoft.com/linkedin/marketing",
+      "domain": "learn.microsoft.com",
+      "page_title": "LinkedIn Marketing API Program - LinkedIn | Microsoft Learn",
+      "content": "Securely and accurately track and measure the impact of their LinkedIn ad campaigns by sending conversion event data directly to LinkedIn, to help optimize your advertising efforts.\n\n- [Overview](https://learn.microsoft.com/en-us/linkedin/marketing/conversions/conversions-overview?view=li-lms-2026-06)\n\n- [Conversions API](https://learn.microsoft.com/en-us/linkedin/marketing/integrations/ads-reporting/conversions-api?view=li-lms-2026-06)\n\n- [Getting Access to Conversions API](https://learn.microsoft.com/en-us/linkedin/marketing/conversions/getting-access-conversions?view=li-lms-2026-06)\n\n- [Deduplication](https://learn.microsoft.com/en-us/linkedin/marketing/conversions/deduplication?view=li-lms-2026-06)\n\n- [Enabling Click IDs](https://learn.microsoft.com/en-us/linkedin/marketing/conversions/enabling-first-party-cookies?view=li-lms-2026-06)\n\n- [Google Tag Manager Server-Side Tagging](https://learn.microsoft.com/en-us/linkedin/marketing/conversions/conversions-api-gtm-guide?view=li-lms-2026-06)\n\n- [Conversions API Payload Builder](https://learn.microsoft.com/en-us/linkedin/marketing/conversions/conversions-payload-builder?view=li-lms-2026-06)\n\n- [Use Cases - Conversions API](https://learn.microsoft.com/en-us/linkedin/marketing/conversions/conversions-usecase?view=li-lms-2026-06)\n\n- [Integration Requirements](https://learn.microsoft.com/en-us/linkedin/marketing/conversions/integration-requirements-conversions?view=li-lms-2026-06)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:03:15.242798Z",
+      "section_path": "LinkedIn Marketing API Program > Advertising > Conversions",
+      "chunk_index": 5,
+      "token_count": 362,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_73c1e2441696",
+      "source_type": "official_docs",
+      "url": "https://learn.microsoft.com/linkedin/marketing",
+      "domain": "learn.microsoft.com",
+      "page_title": "LinkedIn Marketing API Program - LinkedIn | Microsoft Learn",
+      "content": "Gain insights into company level data for all companies reached via LinkedIn with engagement score, paid impressions, paid clicks, leads, organic impressions, and organic engagements.\n\n- [Overview](https://learn.microsoft.com/en-us/linkedin/marketing/account-intel/company-intelligence-overview?view=li-lms-2026-06)\n\n- [Company Intelligence API](https://learn.microsoft.com/en-us/linkedin/marketing/account-intel/account-intel-api?view=li-lms-2026-06)\n\n- [Integration Requirements](https://learn.microsoft.com/en-us/linkedin/marketing/account-intel/integration-requirements-company-intel?view=li-lms-2026-06)\n\n\n[Section titled: Support and Developer Resources](https://learn.microsoft.com/en-us/linkedin/marketing/?view=li-lms-2026-06#support-and-developer-resources)\n\nThese resources can help you stay on top of new features, developer portal access, migrations, and deprecations.\n\nStay on top of breaking changes related to migration.\n\nStay on top of the developer offerings though our portal.\n\nStay on top of the latest feature updates via available on our blog post.\n\nRefer to LinkedIn API Partner Support for how to reach Developer Support.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:03:15.242829Z",
+      "section_path": "LinkedIn Marketing API Program > Support and Developer Resources > [Support](https://learn.microsoft.com/en-us/linkedin/shared/linkedin-api-partner-support-guide?view=li-lms-2026-06&toc=%2Flinkedin%2Fmarketing%2Ftoc.json&bc=%2Flinkedin%2Fbreadcrumb%2Ftoc.json)",
+      "chunk_index": 6,
+      "token_count": 286,
+      "quality_score": 0.36
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "The LinkedIn Marketing Platform helps businesses grow by building technology to reach, engage, and convert professional audiences at scale.",
+      "evidence_ids": [
+        "ev_1062b1f324e8"
+      ]
+    },
+    "category": {
+      "value": "Marketing Ads Email and Social",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "OAuth 2.0",
+      "evidence_ids": [
+        "ev_b4d41542ee4a"
+      ]
+    },
+    "self_serve": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_b1dd4cd047eb"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API",
+      "evidence_ids": [
+        "ev_1062b1f324e8"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_1062b1f324e8"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_1062b1f324e8"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_1062b1f324e8"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_1062b1f324e8"
+      ]
+    }
+  },
+  "validation": {
+    "status": "UNSUPPORTED",
+    "score": 0.62,
+    "fields_checked": 8,
+    "fields_supported": 5,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "self_serve",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'self_serve' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": {
+    "verified_fields": [
+      "self_serve"
+    ],
+    "corrections": {
+      "self_serve": "Self-serve (verified by browser)"
+    },
+    "screenshots": [],
+    "notes": ""
+  },
+  "pipeline_confidence": 0.62,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.62 below 0.90 threshold",
+      "Self-serve access model is UNKNOWN",
+      "Browser verification found discrepancies"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

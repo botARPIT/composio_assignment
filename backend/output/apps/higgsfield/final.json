@@ -1,0 +1,382 @@
+{
+  "app": {
+    "id": 97,
+    "name": "higgsfield",
+    "website": "higgsfield.ai",
+    "category_hint": "AI Research and Media"
+  },
+  "documentation_map": {
+    "app_name": "higgsfield",
+    "official_domain": "higgsfield.ai",
+    "homepage": {
+      "url": "https://higgsfield.ai",
+      "title": "higgsfield",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://higgsfield.ai/auth/sign-in",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": null,
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://higgsfield.ai/enterprise",
+        "title": "Enterprise",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://higgsfield.ai/pricing",
+          "title": "Pricing",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://higgsfield.ai/mcp",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://docs.higgsfield.ai/docs",
+        "title": "",
+        "confidence": 0.85,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": {
+      "url": "https://higgsfield.ai/llms-full.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "higgsfield",
+      "official_domain": "higgsfield.ai",
+      "items": [
+        {
+          "url": "https://higgsfield.ai",
+          "page_type": "homepage",
+          "title": "higgsfield",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://higgsfield.ai/enterprise",
+          "page_type": "pricing",
+          "title": "Enterprise",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://higgsfield.ai/pricing",
+          "page_type": "pricing",
+          "title": "Pricing",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://higgsfield.ai/auth/sign-in",
+          "page_type": "authentication",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.higgsfield.ai/docs",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.85,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://higgsfield.ai/mcp",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 4,
+        "urls_discovered": 6,
+        "official_urls": 6,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 5
+      }
+    },
+    "stats": {
+      "queries": 4,
+      "urls_discovered": 6,
+      "official_urls": 6,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 5
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_0403da748177",
+      "source_type": "auth_docs",
+      "url": "https://higgsfield.ai/auth/sign-in",
+      "domain": "higgsfield.ai",
+      "page_title": "Sign In",
+      "content": "Higgsfield\nExplore\nImage\nVideo\nAudio\nSupercomputer\nNew\nMCP & CLI\nNew\nCinema Studio\nPlugins\nNew\nMarketing Studio\nShorts Studio\nNew\nExplainer\nNew\nOriginals\nCanvas\nAI Influencer\nApps\nHome\nCommunity\nGenerate\nLibrary\nProfile",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:15:49.878045Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 54,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_879404a0c5f0",
+      "source_type": "developer_portal",
+      "url": "https://docs.higgsfield.ai/docs",
+      "domain": "docs.higgsfield.ai",
+      "page_title": "Introduction to Higgsfield - Higgsfield API Docs",
+      "content": "How to use API\nLearn how to integrate with Higgsfield API endpoints and manage generation requests.\nGenerate Images from Text\nCreate stunning images using text prompts with FLUX and other models.\nGenerate Videos from Images\nTransform static images into dynamic videos with AI-powered animation.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:15:51.116258Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 73,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_43e443375ebb",
+      "source_type": "pricing_page",
+      "url": "https://higgsfield.ai/enterprise",
+      "domain": "higgsfield.ai",
+      "page_title": "Enterprise AI Video & Image Platform | Higgsfield",
+      "content": "Single sign-on across your identity provider\nWorld-class content at a fraction of the cost\nOur Impact Statistics\n- 10X\n- $12k\n- 40%\nUsed by 100,000+ teams who value quality, simplicity, and speed\nAutomate workflowswith supercomputer\n- 1ResearchResearch, analyze, and prepare the prompt. Just say what you want - a reel, an ad, a week of content. Type it in plain words and the agent handles the rest \n- 2GenerateGenerate and edit images and videos using 50+ models in one chat - Nano Banana Pro, Soul, GPT Image 2, Seedance 2.0. The agent routes every step to the best one \n- 3AutomatePost to socials and automate the whole flow with connectors. Every asset ships on schedule - you don't lift a finger, switch tabs, or wait around \nYour data is fully protected\nIndemnification\nContract-backed legal coverage for your content\nNo data training\nProvisioning\nCentral control over users, roles, and access - mirror your org structure\nAligned to the highest security and audit standards\nDRAG, CONNECT, GENERATE\nFULL CONTROL\nFULL CONTROL\nACCESS MANAGEMENT\nACCESS MANAGEMENT\nAdvanced Assets Management\nAdvanced Assets Management\nChat and comment inside the project\nChat and comment inside the project\nVideo calls, built into the workflow\nBook a DemoVideo calls, built into the workflow\nBook a DemoYour Complete Generative AI Toolkit\nCharacters\nBacked by World-Class Partners\nDeploy AI with confidence\nPersonal support\nGuaranteed speed, written into your agreement. Generation stays fast under any load - peak hours, big batches, full team online. Your deadlines stay safe",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:15:53.222674Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 390,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_1fa9b2d73aaa",
+      "source_type": "official_docs",
+      "url": "https://higgsfield.ai",
+      "domain": "higgsfield.ai",
+      "page_title": "Higgsfield AI — AI-native creative suite",
+      "content": "MCP & CLI\nNew\nTurn Claude into a creative engine\nSupercomputer\nPowered by GPT 5.6 Sol--D--H--M\n$100,000\nHiggsfield\nApp Contest\nBuild your best app on Higgsfield\nNOW IN 4K\nALREADY AVAILABLE ON HIGGSFIELD\nHiggsfield Viral Presets\nBig-budget visual effects, from explosions to surreal transformations.\nSupercomputer\nOne superagent for your entire creative stack",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:15:50.099233Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 89,
+      "quality_score": 0.46
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Higgsfield is a generative AI toolkit for creating images and videos.",
+      "evidence_ids": [
+        "ev_879404a0c5f0"
+      ]
+    },
+    "category": {
+      "value": "AI Research and Media",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_0403da748177"
+      ]
+    },
+    "self_serve": {
+      "value": "Gated (contact sales)",
+      "evidence_ids": [
+        "ev_43e443375ebb"
+      ]
+    },
+    "api_surface": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_879404a0c5f0"
+      ]
+    },
+    "api_breadth": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_879404a0c5f0"
+      ]
+    },
+    "mcp": {
+      "value": "Official MCP",
+      "evidence_ids": [
+        "ev_1fa9b2d73aaa"
+      ]
+    },
+    "buildability": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_879404a0c5f0"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_879404a0c5f0"
+      ]
+    }
+  },
+  "validation": {
+    "status": "INSUFFICIENT_EVIDENCE",
+    "score": 0.38,
+    "fields_checked": 8,
+    "fields_supported": 3,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "auth_methods",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'auth_methods' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "api_surface",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_surface' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "api_breadth",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_breadth' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "buildability",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'buildability' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": {
+    "verified_fields": [],
+    "corrections": {},
+    "screenshots": [],
+    "notes": ""
+  },
+  "pipeline_confidence": 0.38,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.38 below 0.90 threshold",
+      "Auth methods missing or UNKNOWN"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

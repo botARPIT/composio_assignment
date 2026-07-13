@@ -1,0 +1,331 @@
+{
+  "app": {
+    "id": 73,
+    "name": "Linear",
+    "website": "developers.linear.app",
+    "category_hint": "Productivity and Project Management"
+  },
+  "documentation_map": {
+    "app_name": "Linear",
+    "official_domain": "developers.linear.app",
+    "homepage": {
+      "url": "https://developers.linear.app",
+      "title": "Linear",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://linear.app/developers",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://linear.app/developers",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://linear.app/developers",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://linear.app/developers",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://linear.app/developers",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "Linear",
+      "official_domain": "developers.linear.app",
+      "items": [
+        {
+          "url": "https://developers.linear.app",
+          "page_type": "homepage",
+          "title": "Linear",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://linear.app/developers",
+          "page_type": "authentication",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://linear.app/developers",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://linear.app/developers",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://linear.app/developers",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://linear.app/developers",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 0,
+        "urls_discovered": 6,
+        "official_urls": 6,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 4,
+        "canonical_selected": 6
+      }
+    },
+    "stats": {
+      "queries": 0,
+      "urls_discovered": 6,
+      "official_urls": 6,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 4,
+      "canonical_selected": 6
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_16231c2144d4",
+      "source_type": "auth_docs",
+      "url": "https://linear.app/developers",
+      "domain": "linear.app",
+      "page_title": "Linear Developers",
+      "content": "Linear Developers\nLearn about building apps and integrations for Linear using the GraphQL API and TypeScript SDK.\nGetting Started\nGraphQL API\nLearn how to use the GraphQL API to query and mutate your data\nAuthentication\nUse OAuth 2.0 or personal API keys to authenticate your requests to the Linear API\nAgents\nHow to best integrate an AI agent into Linear\nTypeScript SDK\nInstall the Linear SDK to use strongly typed models and operations",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:11:51.803777Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 109,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_11165eef031a",
+      "source_type": "official_docs",
+      "url": "https://developers.linear.app",
+      "domain": "developers.linear.app",
+      "page_title": "Linear Developers",
+      "content": "Linear Developers\nLearn about building apps and integrations for Linear using the GraphQL API and TypeScript SDK.\nGetting Started\nGraphQL API\nLearn how to use the GraphQL API to query and mutate your data\nAuthentication\nUse OAuth 2.0 or personal API keys to authenticate your requests to the Linear API\nAgents\nHow to best integrate an AI agent into Linear\nTypeScript SDK\nInstall the Linear SDK to use strongly typed models and operations",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:11:50.124094Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 109,
+      "quality_score": 0.56
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Linear is a platform for building apps and integrations using GraphQL API and TypeScript SDK.",
+      "evidence_ids": [
+        "ev_16231c2144d4",
+        "ev_11165eef031a"
+      ]
+    },
+    "category": {
+      "value": "Productivity and Project Management",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "OAuth 2.0, API Key",
+      "evidence_ids": [
+        "ev_16231c2144d4",
+        "ev_11165eef031a"
+      ]
+    },
+    "self_serve": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_16231c2144d4"
+      ]
+    },
+    "api_surface": {
+      "value": "GraphQL",
+      "evidence_ids": [
+        "ev_16231c2144d4",
+        "ev_11165eef031a"
+      ]
+    },
+    "api_breadth": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_16231c2144d4"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_16231c2144d4"
+      ]
+    },
+    "buildability": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_16231c2144d4"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_16231c2144d4"
+      ]
+    }
+  },
+  "validation": {
+    "status": "INSUFFICIENT_EVIDENCE",
+    "score": 0.38,
+    "fields_checked": 8,
+    "fields_supported": 3,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "self_serve",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'self_serve' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "api_breadth",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_breadth' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "buildability",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'buildability' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": {
+    "verified_fields": [],
+    "corrections": {},
+    "screenshots": [],
+    "notes": ""
+  },
+  "pipeline_confidence": 0.38,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.38 below 0.90 threshold",
+      "Self-serve access model is UNKNOWN",
+      "Insufficient evidence (2 pieces, minimum 3)"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

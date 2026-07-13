@@ -1,0 +1,383 @@
+{
+  "app": {
+    "id": 43,
+    "name": "BigCommerce",
+    "website": "developer.bigcommerce.com",
+    "category_hint": "Ecommerce"
+  },
+  "documentation_map": {
+    "app_name": "BigCommerce",
+    "official_domain": "developer.bigcommerce.com",
+    "homepage": {
+      "url": "https://developer.bigcommerce.com",
+      "title": "BigCommerce",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": null,
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts.md",
+        "title": "API Accounts",
+        "confidence": 0.35,
+        "confidence_reason": [
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": false,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://www.bigcommerce.com/pricing",
+        "title": "BigCommerce Pricing and Plan Information | BigCommerce",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": null,
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://docs.bigcommerce.com/_mcp/server",
+        "title": "",
+        "confidence": 0.25,
+        "confidence_reason": [
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": false,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://docs.bigcommerce.com/developer/llms.txt",
+          "title": "Developer",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": false,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.bigcommerce.com/developer/docs/overview/quick-start.md",
+          "title": "Quick Start",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": false,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://docs.bigcommerce.com/developer/docs/overview/sandboxes.md",
+          "title": "Sandboxes",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": false,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "webhooks": null,
+    "llms_txt": {
+      "url": "https://developer.bigcommerce.com/llms-full.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "BigCommerce",
+      "official_domain": "developer.bigcommerce.com",
+      "items": [
+        {
+          "url": "https://developer.bigcommerce.com",
+          "page_type": "homepage",
+          "title": "BigCommerce",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.bigcommerce.com/_mcp/server",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://docs.bigcommerce.com/developer/llms.txt",
+          "page_type": "developer_portal",
+          "title": "Developer",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://docs.bigcommerce.com/developer/docs/overview/quick-start.md",
+          "page_type": "developer_portal",
+          "title": "Quick Start",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://docs.bigcommerce.com/developer/docs/overview/sandboxes.md",
+          "page_type": "developer_portal",
+          "title": "Sandboxes",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://docs.bigcommerce.com/developer/docs/overview/tools-and-sdks.md",
+          "page_type": "developer_portal",
+          "title": "Tools & SDKs",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://docs.bigcommerce.com/developer/docs/overview/support.md",
+          "page_type": "developer_portal",
+          "title": "Support",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts.md",
+          "page_type": "api_reference",
+          "title": "API Accounts",
+          "confidence": 0.35,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://www.bigcommerce.com/pricing",
+          "page_type": "pricing",
+          "title": "BigCommerce Pricing and Plan Information | BigCommerce",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 4,
+        "urls_discovered": 9,
+        "official_urls": 2,
+        "non_official_filtered": 7,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 4
+      }
+    },
+    "stats": {
+      "queries": 4,
+      "urls_discovered": 9,
+      "official_urls": 2,
+      "non_official_filtered": 7,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 4
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_eb34959662d3",
+      "source_type": "official_docs",
+      "url": "https://developer.bigcommerce.com",
+      "domain": "developer.bigcommerce.com",
+      "page_title": "BigCommerce Developers | BigCommerce Docs",
+      "content": "BigCommerce Developers\nBuild, customize, and scale on the BigCommerce platform. Whether you’re creating a storefront, building an app, or managing store data through APIs, these docs will get you there.\nNew to the redesigned Developer Docs? Watch the Commerce Live walkthrough for a tour of what’s new — AI-powered search and chat, AI-ready page actions, an in-browser API Request Runner, a redesigned changelog, and richer feedback tools.\nWhat are you building?\nBuild with Catalyst (Next.js), customize Stencil themes, or go fully headless with the GraphQL Storefront API.\nCreate single-click apps for the BigCommerce marketplace, build custom integrations, or extend checkout.\nUse REST and GraphQL APIs to manage products, orders, customers, and store settings programmatically.\nSet up B2B Edition for wholesale and enterprise buyers with company accounts, quotes, and custom pricing.\nGet started in 3 steps\nCreate a sandbox store\nSign up for a free BigCommerce trial store to test API calls and build integrations without affecting live data.\nGenerate API credentials\nNavigate to Settings > API Accounts in your store control panel. Create credentials with the scopes you need.\nMake your first API call\nExplore the API Reference or follow the Apps Quick Start to build your first integration.\nMake your first API request\nREST Management API\nSee the Guide to API Accounts for instructions on creating API accounts.\nYou can experiment with our REST Management APIs using the Request Runner, which is built in to the API Reference for most endpoints. Copy and paste your store_hash and access_token into the form, then click Send.\nVisual Studio Code REST Client\nIf you use Visual Studio Code, another way to make API requests is with the REST Client extension. Once you have it installed, create a new file called bigcommerce.http and paste in the following:\nSave and you’ll see the send request link above GET. Click send request and the response will open in a split window.\nPostman\nTo try out REST endpoints and view responses, you can import our API specification files into Postman or any other tool that can import Open API Specification files.\nTo view sample JSON request bodies for each REST API resource, see the API Reference for that resource.\nREST Storefront API\nTo make your first requests in a browser with the REST Storefront APIs, see the step-by-step tutorial Working with Storefront Cart and Checkout APIs.\nGraphQL Storefront API\nThis example uses Request Runner to make an initial request that creates a Storefront API token. It is a REST API request, so you will need to copy and paste your API credentials.\nIn the allowed_cors_origins array, include the URL(s) of the storefront from which you plan to use the token.\nWhile viewing your storefront in a browser, open the developer tools JavaScript console; for example, Google Chrome’s Console. Add your API token to the authorization header in the following code sample and add a valid Product ID for the entityId, then run the code in the console:\nCustomer Login API\nFor more information, see the Customer Login API Overview.\nLearn about the platform\nWhat is BigCommerce?\nWe’re a commerce-centric company, platform, and set of retailer-facing SaaS products used to scale ecommerce businesses:\nCommerce-centric company\nWe’re innovators in the commerce landscape. A NASDAQ-listed, publicly traded company, we empower brands and retailers to grow at all stages of their development, across every sales channel.\nCommerce platform\nFrom store-level APIs that handle product catalogs, orders, and customers to shopper-focused APIs that help you craft perfect storefront experiences, our platform can power almost any commerce experience you can imagine. The products we offer are all powered by our platform, and our developer-focused starter projects give examples of what’s possible.\nCommerce products for brands\nOur hosted control panel and bundled storefront are how most brands interact with BigCommerce. They have access to their BigCommerce stores from day one. And when those businesses need more? That’s when developers like you step in, building single-click apps that enrich their control panels with new functionality. Hundreds of apps available in our marketplace do just that, and thousands of agencies support brands as they further customize their storefronts.\nWe deliver our core platform and products using a SaaS model. We continually enhance our stores with feature, performance, and security updates. We take pride in handling these mission-critical updates for the brands we serve. An ever-expanding set of certifications demonstrate the performance and reliability of our platform, including PCI, ISO, SOC, FIPS, RH-ISAC, GDPR, and CCPA.\nWhat makes BigCommerce unique?\nWe strive to open commerce through our open SaaS approach, blending the flexibility of open source with the usability and security of SaaS. It means developers and retailers get a powerhouse commerce platform without the constraints of a SaaS monolith.\nWe think BigCommerce is the most welcoming, open SaaS commerce platform out there, both technologically and on a human level. Our partners, agencies, and the developers that work with them are always top of mind, because we believe that great ideas can come from outside. We think it’s key to build the future of commerce together, and you’ll see us operate with that mindset every day.\nPopular resources\nNext.js composable storefront framework.\nQuery storefront data with GraphQL.\nReal-time store event notifications.\nComplete REST and GraphQL API docs.\nConnect Cursor, Claude, or Codex to the BigCommerce developer docs via MCP.\nNew to BigCommerce? Join our developer community to connect with our developer relations team, product and engineering teams, and fellow developers.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:58.534382Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 1447,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_e42331db69ce",
+      "source_type": "pricing_page",
+      "url": "https://www.bigcommerce.com/pricing",
+      "domain": "www.bigcommerce.com",
+      "page_title": "BigCommerce Pricing and Plan Information | BigCommerce",
+      "content": "Pay Monthly\nPay Annually\nCore\nNew businesses with up to $30K in annual sales.\n$29\nSave 25%\nper month, billed annually\nUp to $30K TTM GMV; plan auto-upgrades to Growth\nZero fees with Embedded Payment Providers*\n24/7 chat & email support*\nGrowth\nEstablished businesses scaling toward $100K in annual sales.\n$79\nSave 25%\nper month, billed annually\nUp to $100K TTM GMV; plan auto-upgrades to Scale\nZero fees with Embedded Payment Providers*\n24/7 live phone & chat support\nScale\nMost Popular\nFast-growing businesses with $1M in annual sales.\n$299\nSave 25%\nper month, billed annually\n$33,333/month GMV; (0.9% on GMV above cap)\nZero fees with Embedded Payment Providers*\n24/7 live phone & chat support\nPerformance\nHigh-volume businesses with $1M+ in annual sales.\nCustom pricing\nstarting at $1,499 per month, billed annually\nCustom payment terms that fit your volume\nDedicated Customer Success\nManager\n24/7 live phone & chat support\nAnnual online sales are calculated on a trailing 12-month basis using BigCommerce's GMV (gross order value minus 10%). You can find more information on GMV calculations and details in our 2026 plan and pricing updates.\n| Feature | Core | Growth | Scale | Performance | \n| Mobile responsive website | ||||\n| BigCommerce mobile app | ||||\n| Single-page checkout | ||||\n| Apple Pay, Google Pay, and Amazon Pay | ||||\n| Products, file storage, and bandwidth | ||||\n| Staff accounts | ||||\n| Coupons, discounts, and gift cards ⓘ | ||||\n| Multi-currency ⓘ | ||||\n| Real-time shipping quotes ⓘ | ||||\n| Professional reporting tools | ||||\n| Built-in blog ⓘ | ||||\n| Product ratings and reviews | ||||\n| Free sitewide HTTPS and dedicated SSL ⓘ | ||||\n| ShipperHQ shipping rules engine ⓘ | Available | Available | Available | |\n| Customer groups and segmentation ⓘ | — | |||\n| Abandoned cart saver ⓘ | — | |||\n| Persistent cart ⓘ | — | |||\n| Stored credit cards ⓘ | — | |||\n| Google customer reviews | — | — | ||\n| Product filtering ⓘ | — | — | ||\n| Custom product filtering ⓘ | — | — | ||\n| Price Lists ⓘ | — | — | — | |\n| Advanced promotions management | — | — | — | |\n| Inventory locations ⓘ | Up to 4 | Up to 5 | Up to 8 | Custom | \n| GMV cap | Up to $30K TTM | Up to $100K TTM | $33,333/mo* | Custom | \n| Payments | Core | Growth | Scale | Performance | \n| Orders through Embedded Payment Providers* | $0 fee | $0 fee | $0 fee | $0 fee | \n| Open Payment Provider Fee ⓘ | 2.0% | 1.0% | 0.6% | 0.0% with contract* | \nEmbedded Payment Provider List*\nThe Embedded Payment Providers listed are not subject to any additional order fees. Any payment provider not on this list is considered an Open Payment Provider and is subject to the fee.\n*This list reflects our current Embedded Payment Provider program and may change over time. Any updates apply to future orders only; they won't affect charges already billed. Learn more about reducing or eliminating this fee.\nHow the Open Payment Provider Fee Works\nBigCommerce charges a monthly fee on self-service plans (Core, Growth, and Scale) for orders processed through Open Payment Providers. This fee is billed by BigCommerce directly to you, not your shoppers, and appears as a separate line item on your monthly invoice. It’s separate from any fees your payment provider charges.\nFee Rates by Plan\nEach order is attributed to the payment provider that processes it. For example, if an Embedded Payment Provider processes the order, no fee applies to that transaction. If all orders are processed through Embedded Payment Providers, your fee is $0.\n| Plan | Monthly Price | GMV Cap | Open Payment Provider Fee | \n| Core | $39/mo ($29 annual) | $30K TTM GMV | 2.0% of eligible order GMV | \n| Growth | $105/mo ($79 annual) | $100K TTM GMV | 1.0% of eligible order GMV | \n| Scale | $399/mo ($299 annual) | $33,333/mo (0.9% overage)* | 0.6% of eligible order GMV | \n| Performance | Custom, starting at $1,499/mo, billed annually* | — | None (contracted terms) | \nFees are calculated using GMV from eligible orders, and BigCommerce uses GMV (gross order value minus 10%) to determine plan thresholds. Starting June 1, you can manage your plan at any time in your account under Account > Upgrade Plan.\n| Sales Channels | Core | Growth | Scale | Performance | \n| Online storefront | ||||\n| Multi-storefront ⓘ | Add storefront $30/mo (max. 3) | Add storefront $50/mo (max. 5) | Add storefront $100/mo (max. 8) | Contact Sales | \n| Point of sale ⓘ | ||||\n| Amazon / eBay / Walmart ⓘ | ||||\n| Google / Meta / TikTok / Microsoft / Pinterest (Feedonomics Surface) | \nFree with every plan\nAdvertise on Google, Meta, TikTok, and more with Feedonomics Surface.\nFeedonomics Surface connects your store to ad channels and keeps product listings accurate as your catalog changes. The basic plan is free for up to 100,000 SKUs.\n| Feature | Core | Growth | Scale | Performance | \n| 24/7 tech support — chat & email ⓘ | ||||\n| 24/7 phone support (included)* | — | |||\n| Express routing & priority support | — | Add-on available | Add-on available | Based on plan | \n| Customer Success Manager | — | — | — | |\n| API support ⓘ | — | — | — | \nYes, we offer a fully functional 15-day free trial, during which you can test drive BigCommerce and build your site. You don't need a credit card to sign up; there's no obligation and no risk.\nYes, our 15-day free trial is a fully-functional product that would allow you to launch a store and take payments. You will need to set up a payments partner to accept payments and complete transactions.\nWe’ll send you a reminder to upgrade your store at the end of your free trial. If you choose not to upgrade, we’ll keep your data for 90 days — just choose a subscription plan to get your store up and running again. During this time, your customers won’t be able to access your store, and you’ll only be able to log in to choose a plan. After 90 days, your store will be automatically deleted, and we’ll no longer be able to restore it.\nOur Core, Growth, and Scale plans don’t require a contract, and you can cancel at any time in the control panel. If you do, we’ll stop billing you immediately. Contracts are available for BigCommerce’s Performance plan to ensure we’re meeting the level of service that your business needs.\nBigCommerce plans are based on your trailing twelve-month (TTM) GMV. As your sales grow and exceed your plan’s threshold (for example, $30K on Core or $100K on Growth), you’ll be notified and automatically upgraded to the next plan to support your growth. On higher tiers like Scale and Performance, there are no abrupt jumps or block charges — instead, a continuous overage rate applies only to orders above your plan’s limit (GMV or orders). This means you can grow without hitting hard limits, while maintaining predictable, incremental costs.\nEligible sales include product price (net of any discounts), as well as taxes and shipping. Social commerce transactions from Pinterest, Facebook, and Twitter, and native marketplace integrations (specifically, eBay and Amazon) count as sales/orders. BigCommerce uses GMV, your gross order value after a 10% reduction, to evaluate plan thresholds. Learn more about BigCommerce pricing.\nStarting June 1, you can manage your plan directly from your account by going to Account → Upgrade Plan to see your current plan and available options.\n*Prices are in US Dollars and exclude all forms of tax (US Sales, GST, VAT). BigCommerce's pricing plans are: Core ($39/month), Growth ($105/month), Scale ($399/month), and Performance (starting at $1,499 per month, billed annually*).\n*Phone support is included on Growth, Scale, and Performance plans. Core plan customers can add phone support when they need it. Pricing and timing will be shared separately. Chat and email support remain available on all plans. Phone support add-on coming soon for Core.\n*Open provider fees vary by plan. A monthly fee charged by BigCommerce for orders processed through Open Payment Providers, calculated on the GMV attributed to those providers at the order level. Orders processed through Embedded Payment Providers are not subject to this fee.\nHow Scale plan pricing works:\nScale plan: Starting at $399/month (or $299/month billed annually) for up to $33,333/month in GMV. 0.9% overage rate applies on GMV above $33,333/month — no tier jumps, no block charges. GMV applies a 10% reduction to gross order value. This number may differ from what you track in your own records. That difference is expected, not an error. Once TTM GMV reaches $2 million, the account will automatically upgrade to Performance.\n** Pricing terms: BigCommerce supports a wide range of payment providers.\n***To qualify for the PayPal Braintree rate, here are the details and your next steps.\nThe processing fee for debit and credit cards begins at 2.89% + $0.29 per transaction for all BigCommerce plans. You will find each plan’s pricing here. Based on your plan, you may be eligible for that plan’s published processing rate. Eligibility requires that you must be a United States-based business. Then,\n(1) If you are a new BigCommerce Merchant using a trial PayPal Braintree account, you will need to select a qualifying BigCommerce Plan (Growth, Scale, or Performance). Go into your BigCommerce account Client Area and accept the terms of the selected BigCommerce plan and establish a billing agreement. You will then be charged the first month’s fee for your BigCommerce plan, and you will become eligible to apply for the negotiated payment processing rates with PayPal Braintree. If you are an existing BigCommerce Merchant already in a Growth, Scale, or Performance plan, you do not need to complete this step.\n(2) From within the BigCommerce account Control Panel Payment Settings area, complete and submit the PayPal Braintree application to upgrade from a trial to a full account. Additional information may be requested from the PayPal Braintree team during the process of reviewing your application.\n(3) 2 to 3 business days following your approval* for a PayPal Braintree account, you will be emailed a Pricing Contract to digitally sign. We suggest adding echosign@echosign.com to your email whitelist to reduce the risk of it going to your spam folder. Follow the instructions in the email on how to sign and return the contract.\n(4) Your account will then be updated to reflect the new rate, and you will receive a notification email with the updated rate, which can take up to 10 business days. Your new rate will only apply to transactions after the date on your notification email.\nApplication for a PayPal Braintree account does not guarantee approval. Periodically, PayPal Braintree reviews its customer accounts to make sure its services and rates fit your account activity. PayPal Braintree reserves the right to revise its fees at any time, subject to a thirty (30) day notice period to you prior to the new fees taking effect.\nThe standard online rate for payments with American Express is and will continue to be 3.50% with no fixed fee after August 2, 2021.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:05:00.090508Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 2748,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_5b54bc480750",
+      "source_type": "api_reference",
+      "url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts.md",
+      "domain": "docs.bigcommerce.com",
+      "page_title": "",
+      "content": "[Payments, Process Payment](/developer/api-reference/rest/admin/payments/processing/payments-post) | | Storefront API Tokens | modify | `store_storefront_api` | Create GraphQL Storefront API bearer tokens | [Storefront API Token V3](/developer/api-reference/rest/admin/authentication-apis/storefront-api-tokens/create-token) | | Storefront API Customer Impersonation Tokens | modify | `store_storefront_api_customer_impersonation` | Create GraphQL Storefront API bearer tokens that allow customer impersonation | [Storefront API Token V3, Customer Impersonation](/developer/api-reference/rest/admin/authentication-apis/storefront-api-tokens/create-token) | ### Store resource scopes | UI Name | Permission | Parameter | Description | Resources | | :------------------------------ | :--------- | :------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | | App Extensions | manage | `store_app_extensions_manage` | Manage App Extensions; requires an app-level API account | [GraphQL Admin API](/developer/docs/integrations/apps/app-extensions) | | Carts | modify | `store_cart` | View and modify carts | [Carts V3](/developer/api-reference/rest/admin/management/carts) | | Carts | read-only | `store_cart_read_only` | View carts | [Carts V3](/developer/api-reference/rest/admin/management/carts) | | Channel Settings | modify | `store_channel_settings` | View and modify a list of channels | [Channels V3](/developer/api-reference/rest/admin/management/channels) | | Channel Settings | read-only | `store_channel_settings_read_only` | View a list of channels | [Channels V3](/developer/api-reference/rest/admin/management/channels) | | Channel Listings | modify | `store_channel_listings` | View and modify a list of all channel listings for a particular channel | [Channels V3, Listings](/developer/api-reference/rest/admin/management/channels/listings/get-channel-listings) | | Channel Listings | read-only | `store_channel_listings_read_only` | View a list of all channel listings for a particular channel | [Channels V3, Listings](/developer/api-reference/rest/admin/management/channels/listings/get-channel-listings) | | Checkouts | modify | `store_checkout` | View and modify a checkout | [Storefront Checkout API](/developer/api-reference/rest/storefront/checkouts) | | Checkouts | read-only | `store_checkout_read_only` | View checkout content | [Storefront Checkout API](/developer/api-reference/rest/storefront/checkouts) | | Checkout Content | modify | `store_content_checkout` | View and modify content on checkout pages | [Scripts V3](/developer/api-reference/rest/admin/management/scripts/create-script) | | Checkout Content | read-only | `store_content_checkout_read_only` | View content on checkout pages | [Scripts V3](/developer/api-reference/rest/admin/management/scripts/create-script) | | Content | modify | `store_v2_content` | View and modify store content | [Pages V2](/developer/api-reference/rest/admin/content/pages/get-pages)\n[Blog V2](/developer/api-reference/rest/admin/content/store-content/blog-posts/get-blog-posts)\n[Redirects V2](/developer/api-reference/rest/admin/content/store-content/redirects/get-redirects)\n[Widgets V3](/developer/api-reference/rest/admin/content/widgets) | | Content | read-only | `store_v2_content_read_only` | View store content | [Pages V2](/developer/api-reference/rest/admin/content/pages/get-pages)\n[Blog V2](/developer/api-reference/rest/admin/content/store-content/blog-posts/get-blog-posts)\n[Redirects V2](/developer/api-reference/rest/admin/content/store-content/redirects/get-redirects)\n[Widgets V3](/developer/api-reference/rest/admin/content/widgets) | | Customers | modify | `store_v2_customers` | View and modify customer information | [Customers V2](/developer/api-reference/rest/admin/management/customers/v3/get-customers)\n[Customer Groups V2](/developer/api-reference/rest/admin/management/customers/v2/customer-groups/get-customer-groups)\n[Subscribers V3](/developer/api-reference/rest/admin/management/subscribers/get-subscribers)\n[Wishlists V3](/developer/api-reference/rest/admin/management/wishlists/get-wishlists) | | Customers | read-only | `store_v2_customers_read_only` | View customer information | [Customers V2](/developer/api-reference/rest/admin/management/customers/v3/get-customers)\n[Customer Groups V2](/developer/api-reference/rest/admin/management/customers/v2/customer-groups/get-customer-groups)\n[Subscribers V3](/developer/api-reference/rest/admin/management/subscribers/get-subscribers)\n[Wishlists V3](/developer/api-reference/rest/admin/management/wishlists/get-wishlists) | | Customers Login | modify | `store_v2_customers_login` | Sign customers in to your storefront | [Customer Login API](/developer/docs/storefront/guides/customer-authentication/customer-login) | | Fulfillment Methods | modify | `store_fulfillment_methods_manage` | View and modify order fulfillment methods | [Pickup Methods V3](/developer/api-reference/rest/admin/management/pickup-methods)\n[Pickup Options V3](/developer/api-reference/rest/admin/management/pickup-options) | | Fulfillment Methods | read-only | `store_fulfillment_methods_read_only` | View order fulfillment methods | [Pickup Methods V3](/developer/api-reference/rest/admin/management/pickup-methods)\n[Pickup Options V3](/developer/api-reference/rest/admin/management/pickup-options) | | Information & Settings | modify | `store_v2_information` | View and modify store information and settings | [Store Information V2](/developer/api-reference/rest/admin/management/store-information/v2/get-store-information)\n[Time V2](/developer/api-reference/rest/admin/management/store-information/v2/get-system-timestamp)\n[Settings V3](/developer/api-reference/rest/admin/management/settings) | | Information & Settings | read-only | `store_v2_information_read_only` | View general store information and settings | [Store Information V2](/developer/api-reference/rest/admin/management/store-information/v2/get-store-information)\n[Time V2](/developer/api-reference/rest/admin/management/store-information/v2/get-system-timestamp)\n[Settings V3](/developer/api-reference/rest/admin/management/settings) | | Marketing | modify | `store_v2_marketing` | View and modify marketing information | [Coupons V2](/developer/api-reference/rest/admin/content/marketing/coupons/get-coupons)\n[Gift Certificates V2](/developer/api-reference/rest/admin/content/marketing/gift-certificates/get-gift-certificates)\n[Banners V2](/developer/api-reference/rest/admin/content/marketing/banners/get-banners)\n[Promotions V3](/developer/api-reference/rest/admin/management/promotions) | | Marketing | read-only | `store_v2_marketing_read_only` | View marketing information | [Coupons V2](/developer/api-reference/rest/admin/content/marketing/coupons/get-coupons)\n[Gift Certificates V2](/developer/api-reference/rest/admin/content/marketing/gift-certificates/get-gift-certificates)\n[Banners V2](/developer/api-reference/rest/admin/content/marketing/banners/get-banners) | | Metafield Ownership | manage | `store_metafield_change_owner` | Manage which API accounts own metafields. | [GraphQL Admin API](/developer/api-reference/graphql/account/overview) | | Metafields Access | standard | `store_metafield_write` | Default. Create and manage metafields belonging to the API account making the request. | All endpoints and APIs that manage metafields, including the [GraphQL Admin API](/developer/api-reference/graphql/account/overview). | | Metafields Access | full | `store_metafield_write_all` | Manage all metafields for the store, regardless of the API account that created them. Includes metafields that have `app_only` permissions. | All endpoints and APIs that manage metafields, including the [GraphQL Admin API](/developer/api-reference/graphql/account/overview). | | Orders | modify | `store_v2_orders` | View and modify orders | [Orders V2](/developer/api-reference/rest/admin/management/orders)\n[Order Status V2](/developer/api-reference/rest/admin/management/orders/order-status/get-order-statuses) | | Orders | read-only | `store_v2_orders_read_only` | View orders | [Orders V2](/developer/api-reference/rest/admin/management/orders)\n[Order Status V2](/developer/api-reference/rest/admin/management/orders/order-status/get-order-statuses) | | Order Fulfillment | modify | `store_order_fulfillment_manage` | View and modify order fulfillments | [Pickup V3](/developer/api-reference/rest/admin/management/pickup) | | Order Fulfillment | read-only | `store_order_fulfillment_read_only` | View order fulfillments | [Pickup V3](/developer/api-reference/rest/admin/management/pickup) | | Order Transactions | modify | `store_v2_transactions` | View and modify order transactions | [Orders V3, Transactions](/developer/api-reference/rest/admin/management/order-operations) | | Order Transactions | read-only | `store_v2_transactions_read_only` | View order transactions | [Orders V3, Transactions](/developer/api-reference/rest/admin/management/order-operations) | | Payments - Get accepted methods | read-only | `store_payments_methods_read` | Get a list of payment methods | [Payments - Get accepted methods](/developer/api-reference/rest/admin/payments/methods/get-payment-methods) | | Products | modify | `store_v2_products` | View and modify products, brands, categories, and other product information. | [Catalog V3](/developer/api-reference/rest/admin/overview)\n[Price Lists V3](/developer/api-reference/rest/admin/management/price-lists) | | Products | read-only | `store_v2_products_read_only` | View products | [Catalog V3](/developer/api-reference/rest/admin/overview)\n[Price Lists V3](/developer/api-reference/rest/admin/management/price-lists) | | Sites & Routes | modify | `store_sites` | View and modify sites and routes | [Sites V3, Routes, Certificates](/developer/api-reference/rest/admin/management/sites)\n[Channels V3 Sites](/developer/api-reference/rest/admin/management/sites/get-site) | | Sites & Routes | read-only | `store_sites_read_only` | View external storefronts with non-BigCommerce URLs | [Sites V3, Routes, Certificates](/developer/api-reference/rest/admin/management/sites)\n[Channels V3 Sites](/developer/api-reference/rest/admin/management/sites/get-site) | | Store Inventory | modify | `store_inventory` | View and modify store inventory | [Inventory V3](/developer/api-reference/rest/admin/management/inventory) | | Store Inventory | read-only | `store_inventory_read_only` | View store inventory | [Inventory V3](/developer/api-reference/rest/admin/management/inventory) | | Store Locations | modify | `store_locations` | View and modify store locations | [Locations V3](/developer/api-reference/rest/admin/management/inventory/locations) | | Store Locations | read-only | `store_locations_read_only` | View store locations | [Locations V3](/developer/api-reference/rest/admin/management/inventory/locations) | | Stored Payment Instruments | read-only | `store_stored_payment_instruments_read_only` | View stored payment instruments | [Stored Instruments V3](/developer/docs/admin/checkout-and-cart/payments/stored-instruments) | | Stored Payment Instruments | modify | `store_stored_payment_instruments` | View and modify stored payment instruments | [Stored Instruments V3](/developer/docs/admin/checkout-and-cart/payments/stored-instruments) | | Store Translations | read-only | `store_translations_read_only` | View store translations | [Translations Admin GraphQL API](/developer/docs/admin/store-configuration/translations) | | Store Translations | modify | `store_translations` | View and modify store translations | [Translations Admin GraphQL API](/developer/docs/admin/store-configuration/translations) | | Themes | modify | `store_themes_manage` | View and modify themes | [Themes V3](/developer/api-reference/rest/admin/content/themes) | | Themes | read-only | `store_themes_read_only` | View themes | [Themes V3](/developer/api-reference/rest/admin/content/themes) | | B2B Edition | modify | `store_b2b_manage` | View and modify B2B Edition data, including companies, users, quotes, invoices, and more. Requires B2B Edition to be enabled on the store. | [B2B REST Management API](/developer/api-reference/rest/b2b/management) | ### Account resource scopes | UI Name | Permission | Parameter | Description | Resources | | :-------------------- | :--------- | :----------------------------- | :-------------------------------------------------- | :----------------------------------------------------------------------- | | Account | read-only | `account_read` | View account details | [GraphQL Account API](/developer/api-reference/graphql/account/overview) | | Account Apps | read-only | `account_apps_read` | View the apps associated with an account | [GraphQL Account API](/developer/api-reference/graphql/account/overview) | | Account Checkouts | read-only | `account_checkouts_read` | View the checkouts associated with an account | [GraphQL Account API](/developer/api-reference/graphql/account/overview) | | Account Checkouts | modify | `account_checkouts_create` | Create checkouts associated with an account | [GraphQL Account API](/developer/api-reference/graphql/account/overview) | | Account Stores | read-only | `account_stores_read` | View the stores associated with an account | [GraphQL Account API](/developer/api-reference/graphql/account/overview) | | Account Subscriptions | read-only | `account_subscriptions_read` | View the subscriptions associated with an account | [GraphQL Account API](/developer/api-reference/graphql/account/overview) | | Account Subscriptions | modify | `account_subscriptions_cancel` | Cancel the subscriptions associated with an account | [GraphQL Account API](/developer/api-reference/graphql/account/overview) | | Account Users | read-only | `account_users_read` | View the users associated with an account | [GraphQL Account API](/developer/api-reference/graphql/account/overview) | | Account Users | write | `account_users_write` | Add and update users | [GraphQL Account API](/developer/api-reference/graphql/account/overview) | | Account Users | delete | `account_users_delete` | Remove a user from an account | [GraphQL Account API](/developer/api-reference/graphql/account/overview) | ## Authentication This section provides an overview of the authentication schemes that our APIs use, organized by the header or other mechanism they use to authenticate with our servers. ### Stable tokens Most of our APIs use credentials that do not expire based on a time frame. Depending on the type of API account the credentials belong to, they might expire based on user or developer actions. The following sections describe the two authentication schemes we use that rely on stable tokens. They include example requests and list or describe the endpoints to which the schemes apply. #### Access tokens Legacy API accounts used HTTP basic authentication. They are no longer available to new stores. For more information, see [API Accounts: Migrating from legacy to OAuth](/developer/docs/overview/api-fundamentals/api-accounts#migrating-from-legacy-to-oauth). Most of our REST endpoints and GraphQL Admin API endpoints use the `X-Auth-Token` header to authenticate to BigCommerce servers. For more about the APIs that do **NOT** use the `X-Auth-Token` header, consult this article's sections on [dynamic tokens](#dynamic-tokens) and [same-origin CORS authentication](#same-origin-cors-authentication). The `X-Auth-Token` header uses access tokens to authenticate requests. [Create an OAuth API account](/developer/docs/overview/api-fundamentals/api-accounts#api-accounts) to generate access tokens. Pass the access token as the value of the `X-Auth-Token` header of the request you want to authenticate. The [B2B REST Management API](/developer/api-reference/rest/b2b/management) also uses the `X-Auth-Token` header, but requires the additional `X-Store-Hash` header to identify the store. B2B REST Management API endpoints use a different base URL (`https://api-b2b.bigcommerce.com`), so the store hash is not included in the request path as it is for other BigCommerce REST APIs. For more on B2B authentication, see [Authentication for hosted storefronts](/developer/docs/b2b-edition/getting-started/authentication). #### The X-Auth-Client header is deprecated Your API account's client ID is [no longer a required header value](/developer/changelog#posts/o-auth-client-id-is-no-longer-required-for-requests-to-api-bigcommerce-com). For a request to succeed, the access token's API account must have permission to receive the response. Configure your API account with the minimum set of OAuth scopes that your implementation needs. To find the specific OAuth scopes your requests require, consult the root API reference pages for the families of endpoints you plan to use. For example, see the [OAuth scopes for the Email Templates endpoints](/developer/api-reference/rest/admin/content/email-templates). We also maintain a [list of all our OAuth scopes](/developer/docs/overview/api-fundamentals/api-accounts#oauth-scopes). ##### X-Auth-Token header example requests The following tabs contain examples of how to authenticate requests by passing an access token to the `X-Auth-Token` header. ```http title=\"Example GET request with X-Auth-Token header\" showLineNumbers={false} GET https://api.bigcommerce.com/stores/{{STORE_HASH}}/v... # endpoint X-Auth-Token: {{access_token}} Accept: application/json ``` ```http title=\"Example POST request with X-Auth-Token header\" showLineNumbers={false} POST https://api.bigcommerce.com/stores/{{STORE_HASH}}/v... # endpoint X-Auth-Token: {{access_token}} Accept: application/json Content-Type: application/json { // request body } ``` ```http title=\"Example PUT request with X-Auth-Token header\" showLineNumbers={false} PUT https://api.bigcommerce.com/stores/{{STORE_HASH}}/v... # endpoint X-Auth-Token: {{access_token}} Accept: application/json Content-Type: application/json { // request body } ``` ```http title=\"Example DELETE request with X-Auth-Token header\" showLineNumbers={false} DELETE https://api.bigcommerce.com/stores/{{STORE_HASH}}/v... # endpoint X-Auth-Token: {{access_token}} Accept: application/json ``` The B2B REST Management API uses a different base URL and requires the `X-Store-Hash` header in addition to `X-Auth-Token`. ```http title=\"Example GET request with X-Auth-Token and X-Store-Hash headers\" showLineNumbers={false} GET https://api-b2b.bigcommerce.com/api/v3/io/{endpoint} X-Auth-Token: {{access_token}} X-Store-Hash: {{store_hash}} Accept: application/json Content-Type: application/json ``` #### Client ID Another **stable token**-based scheme involves mutual authentication. The requesting app identifies itself by sending an API account's client ID as a query parameter, and our servers return a BigCommerce-generated JSON web token, or *JWT*, which securely encrypts merchant data. The app can decode the JWT to view the response. For example, the Current Customer API's JWT payload identifies the currently signed-in customer. The following table lists the APIs that authenticate with a client ID. For OAuth scopes, consult the **Endpoint Reference** column. | API description | Endpoint reference | API account type | Query parameter | Query argument | | :------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------- | :--------------- | :-------------- | :-------------------- | | [Current Customer API](/developer/docs/storefront/guides/customer-authentication/current-customer) | [Get current customer](/developer/api-reference/rest/admin/authentication-apis/current-customer/get-current-customer) | app | `app_client_id` | API account client ID | #### Current Customer API example request ```js title=\"Example GET request\" const customerJWT = (apiAccountClientId) => { let resource = `/customer/current.jwt?app_client_id=${apiAccountClientId}`; return fetch(resource) .then(response => { if(response.status === 200) { return response.text(); } else { return new Error(`response.status is ${response.status}`); } }) .then(jwt => { console.log(jwt); // JWT here // decode... }) .catch(error => console.error(error)); } ``` ```shell title=\"Example text response: JWT string\" showLineNumbers={false} # response body eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjdXN0b21lciI6eyJpZCI6NDkyNywiZW1haWwiOiJqb2huLmRvZUBnbWFpbC5jb20iLCJncm91cF9pZCI6IjYifSwiaXNzIjoiYmMvYXBwcyIsInN1YiI6ImFiYzEyMyIsImlhdCI6MTQ4MDgzMTg2MywiZXhwIjoxNDgwODMyNzYzLCJ2ZXJzaW9uIjoxLCJhdWQiOiI2c3YxNnRmeDNqNWdzb3BtNDJzczVkZDY3ZzJzcnZxIiwiYXBwbGljYXRpb25faWQiOiI2c3YxNnRhc2RncjJiNWhzNWRkNjdnMnNydnEiLCJzdG9yZV9oYXNoIjoiYWJjMTIzIiwib3BlcmF0aW9uIjoiY3VycmVudF9jdXN0b21lciJ9.uYTDTJzhDOog7PE1yLNeP6zDNdFMb91fS-NZrJpsts0 ``` ### Dynamic tokens Several of our APIs authenticate with JSON web tokens, or *JWTs*. JWTs authorize both the requester and the recipient because they contain a signed payload that the recipient must successfully decrypt before working with the transmitted data. You can use some JWTs for any number of requests within an expiration window; others must be unique to each request. Our JWT-based authentication schemes fall into the following categories: * The user passes a [BigCommerce-generated JWT](#bigcommerce-generated-jwts) as part of the value of the `Authorization` header * The user sends BigCommerce a [user-generated JWT](#user-generated-jwts) * [BigCommerce-encrypted payload JWTs](#bigcommerce-encrypted-payload-jwts) send apps information as part of a signed JWT's payload All requests that use JWTs require at least two steps. In addition to the request itself, you must also either get, make, or decrypt the JWT that the request sends or receives. The following sections describe the steps for these three JWT-based authentication schemes, reference the endpoints to which they apply, and give example requests. #### Make sure your tokens are in scope Before you create an API account to request dynamic tokens, determine the required OAuth scopes by consulting the documentation for your target endpoint and its corresponding REST token generation endpoint. #### BigCommerce-generated JWTs Some APIs authenticate with an `Authorization` header that contains a string concatenated with a BigCommerce-generated JWT. Requests to these APIs contain the following two parts: 1. The user obtains the JWT by: * Making an API request to BigCommerce, or * On Stencil storefronts, extracting it from the page's context. 2. The user sends the intended request. The following table lists the APIs that use the `Authorization` header, along with information about obtaining a token and forming a valid header value. For OAuth scope, expiry window, and other implementation details, consult the **Endpoint Reference** column. | API description | Obtain a JWT | Endpoint reference | API account type | Authorization header value | | :------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------- | :--------------- | :------------------------- | | [GraphQL Storefront API](/developer/docs/storefront/guides/graphql-storefront-api/authentication) | [Create a token](/developer/api-reference/rest/admin/authentication-apis/storefront-api-tokens/create-token), Stencil context | [Create a Storefront query](/developer/docs/storefront/guides/graphql-storefront-api) | store | `Bearer {{TOKEN}}` | | [Payment processing](/developer/docs/admin/checkout-and-cart/payments) endpoint | [Create a payment access token](/developer/api-reference/rest/admin/payments/tokens/create-payment-access-token), `completeCheckout` with the [GraphQL Storefront API](/developer/docs/admin/checkout-and-cart/custom-checkouts/graphql-storefront#handling-payments) | [Process a payment](/developer/api-reference/rest/admin/payments/processing/payments-post) | app or store | `PAT {{TOKEN}}` | | [B2B GraphQL Storefront API](/developer/docs/b2b-edition/getting-started/authentication) | [`login` mutation](/developer/api-reference/graphql/b2b/b2b-graphql/mutations/login), [`authorization` mutation](/developer/api-reference/graphql/b2b/b2b-graphql/mutations/authorization), or [Get a Storefront Token](/developer/api-reference/rest/b2b/management/authentication/get-auth-storefront) via the B2B REST API | [B2B GraphQL API](/developer/api-reference/graphql/b2b/b2b-graphql) | store/user | `Bearer {{TOKEN}}` | To obtain a dynamic token, send a request to the REST endpoint listed in the **Obtain a JWT** column or consult the article listed in the **API Description** column. Use an API account with the appropriate [token creation scope](/developer/docs/overview/api-fundamentals/api-accounts#token-creation-scopes) for the kind of tokens you wish to generate. #### Authorization header example requests ```http title=\"Example request: limited-use auth token\" showLineNumbers={false} POST https://api.bigcommerce.com/stores/{{STORE_HASH}}/some-token-generating-endpoint X-Auth-Token: {{access_token}} Accept: application/json Content-Type: application/json { // request body per token request endpoint documentation } ``` Then, include the returned token with an identifying string in the Authorization header of your request. GraphQL Storefront response-request pairs resemble the following: ```json title=\"Example response: Create a GraphQL Storefront API token\" { \"token\":\"BigCommerceProvidedJwt.dotDelimited.threePartString\", \"meta\": { // ... } } ``` ```js title=\"Example query: GraphQL Storefront API\" const gqlStorefrontQuery = (token, gqlQueryString) => { // example token is \"BigCommerceProvidedJwt.dotDelimited.threePartString\" let authHeader = `Bearer ${token}`; // there's a space between \"Bearer\" and the token let requestBody = { query: gqlQueryString }; return fetch('/graphql', { method: 'POST', credentials: 'same-origin', headers: { 'Content-Type': 'application/json', 'Authorization': authHeader }, body: JSON.stringify(requestBody) }) .then(response => response.json()) .then(result => { console.log(result); // GraphQL query response // do stuff... }) .catch(error => console.error(error)); } ``` Payments response-request pairs resemble the following: ```json title=\"Example response: Create a payment access token\" { \"data\": { \"id\": \"BigCommerceProvidedJwt.dotDelimited.threePartString\" }, \"meta\": { // ... } } ``` ```http title=\"Example request: Process a payment\" # example TOKEN is BigCommerceProvidedJwt.dotDelimited.threePartString POST https://payments.bigcommerce.com/stores/{{STORE_HASH}}/payments Accept: application/vnd.bc.v1+json # note uncommon accept header value Authorization: PAT {{TOKEN}} # there's a space between \"PAT\" and the token Content-Type: application/json { // ... } ``` #### User-generated JWTs Some APIs rely on the app or implementation to send user-generated JWTs that simultaneously authenticate the request and contain the request body in their payload. Requests to these APIs contain the following two parts: * The user encrypts, or signs, the JWT * The user sends the intended request The following table lists the APIs that rely on user-generated JWTs. For OAuth scope, expiry window, and other implementation details, consult the **Endpoint Reference** column. | API description | Create a JWT | Endpoint reference | API account type | | :--------------------------------------------------------------------------------------------- | :------------------ | :---------------------------------------------------------------------------------------------- | :--------------- | | [Customer Login API](/developer/docs/storefront/guides/customer-authentication/customer-login) | See API description | [SSO API Reference](/developer/api-reference/rest/admin/authentication-apis/customer-login-api) | app | #### Customer Login API example request For the Customer Login API, your request will look something like the following: ```js title=\"Example GET request: Customer Login API\" showLineNumbers={false} const loginCustomer = (yourJwt) => { let resource = `${window.location.origin}/login/token/${yourJwt}`; return fetch(resource) .then(response => { console.log(response); if(response.status === 200) { // resolve any parts of the response to work with... return Promise.all([response.url, response.text()]); } else { return new Error(`response.status is ${response.status}`); } }) .then(([url, content]) => { console.log(url); // navigate to URL, or console.log(content); // work with page content // etc... }) .catch(error => console.error(error)); } ``` #### BigCommerce-encrypted payload JWTs BigCommerce-encrypted payload JWTs let control panel apps listen to and reason about events that affect them, but happen outside the app itself. These events include users installing, loading, and uninstalling the app. Working with these JWTs includes the following parts: * The app receives the JWT from BigCommerce * The app validates the JWT, then decrypts its payload * The payload's data informs what the app does next To learn more, see our [Apps Guide](/developer/docs/integrations/getting-started), especially the articles on [authorization, installation](/developer/docs/integrations/apps/guide/auth), and other [app callback events](/developer/docs/integrations/apps/guide/handling-callbacks). ### Same-origin CORS authentication The following APIs rely on [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) headers for authentication. You do not need to send any BigCommerce-specific tokens with your requests to these endpoints. #### REST Storefront API The REST Storefront API lets you make client-side requests for carts, checkouts, and orders using JavaScript or an alternative language that compiles to run in the browser. It is a convenience collection of operations that affect one customer at a time and run in the context of the customer's current session on a BigCommerce-hosted storefront. You can perform authenticated versions of the same operations using the GraphQL Storefront API or the REST Store Management APIs. The following examples illustrate how to make calls to the REST Storefront API: ```js title=\"Example script: REST Storefront API call\" showLineNumbers={false} const storefrontCall = (endpoint, requestBody = null) => { let resource = `${window.location.origin}/api/storefront${endpoint.route}`; let init = { method: endpoint.method, credentials: \"same-origin\", headers: { // note: no authorization \"Accept\": endpoint.accept, } } if(requestBody) { init.body = JSON.stringify(requestBody); init.headers[\"Content-Type\"] = endpoint.content; } return fetch(resource, init) .then(response => { console.log(response); if(response.status === endpoint.success) { // resolve promise using the Fetch API method that correlates with the endpoint.accept value return response.json(); // or response.text() } else { return new Error(`response.status is ${response.status}`); } }) .then(result => { console.log(result); // requested data // do stuff... }) .catch(error => console.error(error)); } ``` ```js title=\"Example GET call: Get a cart\" let endpoint = { route: \"/carts?include=lineItems.physicalItems.options\", method: \"GET\", accept: \"application/json\", // content: \"application/json\", success: 200 } storefrontCall(endpoint); ``` ```js title=\"Example POST call: Add cart line items\" let endpoint = { route: \"/carts/123abc45-de67-89f0-123a-bcd456ef7890/items\", method: \"POST\", accept: \"application/json\", content: \"application/json\", success: 200 } let requestBody = { lineItems: [ { productId: 123, quantity: 3 } ] } storefrontCall(endpoint, requestBody); ``` ```js title=\"Example PUT call: Update checkout billing address\" let endpoint = { route: \"/checkouts/123abc45-de67-89f0-123a-bcd456ef7890/billing-address/123abc456def7\", method: \"PUT\", accept: \"application/json\", content: \"application/json\", success: 200 } let requestBody = { \"firstName\": \"Jane\", \"lastName\": \"Doe\", \"email\": \"janedoe@example.com\", \"company\": \"BigCommerce\", \"address1\": \"123 Main Street\", \"address2\": \"Apt 1\", \"city\": \"Austin\", \"stateOrProvinceCode\": \"TX\", \"countryCode\": \"US\", \"postalCode\": \"78701\" } storefrontCall(endpoint, requestBody); ``` ```js title=\"Example DELETE call: Delete a cart\" let endpoint = { route: \"/carts/123abc45-de67-89f0-123a-bcd456ef7890\", method: \"DELETE\", accept: \"application/json\", // content: \"application/json\", success: 204 } storefrontCall(endpoint); ``` ### Developer-configured authentication #### REST Provider APIs Unlike our other APIs, we do not host the REST Provider APIs. The Provider API specifications describe *requests that BigCommerce sends* the provider app's server, and the responses that we expect in return. The following table describes the authentication characteristics of our REST Provider APIs. | API description | API reference | Configuration reference | Associated API account | Authentication method | | :----------------------------------------------------------------------- | :----------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------- | :--------------------------------------------------------- | | [Shipping Provider API](/developer/docs/integrations/shipping-providers) | [Shipping Provider Reference](/developer/docs/integrations/shipping-providers) | [For shipping providers defining request body keys](/developer/docs/integrations/shipping-providers#configuration-fields), and/or with [For connecting shipping providers using request body keys](/developer/api-reference/rest/admin/management/shipping/v2/shipping-carrier/update-carrier-connection) | implemented in an app | developer-defined request body keys | | [Tax Provider API](/developer/docs/integrations/tax-providers) | [Tax Provider Reference](/developer/docs/integrations/tax-providers) | [For updating a tax provider connection](/developer/docs/integrations/tax-providers#update-a-connection) | implemented in an app | `Authorization: Basic {{base64encode(username:password)}}` | In the Tax Provider API `Authorization` header, the username and password belong to the app's tax provider service. What this username and password actually refer to is up to the app developer. ## Resources * [Guide to Building Apps](/developer/docs/integrations/getting-started) * [Rate Limits](/developer/docs/overview/api-fundamentals/rate-limits) * [API Status Codes](/developer/api-reference/rest/overview#rest-http-status-codes)",
+      "is_official": false,
+      "retrieved_at": "2026-07-13T20:05:00.591042Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 8912,
+      "quality_score": 0.44
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "BigCommerce is a commerce-centric platform for building and scaling ecommerce businesses.",
+      "evidence_ids": [
+        "ev_eb34959662d3"
+      ]
+    },
+    "category": {
+      "value": "Ecommerce",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "Bearer Token",
+      "evidence_ids": [
+        "ev_5b54bc480750"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_e42331db69ce"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API, GraphQL",
+      "evidence_ids": [
+        "ev_eb34959662d3",
+        "ev_5b54bc480750"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_eb34959662d3"
+      ]
+    },
+    "mcp": {
+      "value": "Community MCP",
+      "evidence_ids": [
+        "ev_eb34959662d3"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_eb34959662d3"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_eb34959662d3"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.88,
+    "fields_checked": 8,
+    "fields_supported": 7,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.88,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.88 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

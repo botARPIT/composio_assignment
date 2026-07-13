@@ -1,0 +1,299 @@
+{
+  "app": {
+    "id": 51,
+    "name": "DataForSEO",
+    "website": "docs.dataforseo.com",
+    "category_hint": "Data SEO and Scraping"
+  },
+  "documentation_map": {
+    "app_name": "DataForSEO",
+    "official_domain": "docs.dataforseo.com",
+    "homepage": {
+      "url": "https://docs.dataforseo.com",
+      "title": "DataForSEO",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://docs.dataforseo.com/v3/auth",
+        "title": "Authentication – DataForSEO API v.3",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": null,
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://dataforseo.com/pricing",
+        "title": "DataForSEO API v3 Pricing – Transparent Pay-As-You-Go Pricing Model",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": null,
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://docs.dataforseo.com/v3",
+        "title": "DataForSEO Docs",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "DataForSEO",
+      "official_domain": "docs.dataforseo.com",
+      "items": [
+        {
+          "url": "https://docs.dataforseo.com",
+          "page_type": "homepage",
+          "title": "DataForSEO",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.dataforseo.com/v3/auth",
+          "page_type": "authentication",
+          "title": "Authentication – DataForSEO API v.3",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        },
+        {
+          "url": "https://dataforseo.com/pricing",
+          "page_type": "pricing",
+          "title": "DataForSEO API v3 Pricing – Transparent Pay-As-You-Go Pricing Model",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.dataforseo.com/v3",
+          "page_type": "developer_portal",
+          "title": "DataForSEO Docs",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 5,
+        "urls_discovered": 4,
+        "official_urls": 4,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 4
+      }
+    },
+    "stats": {
+      "queries": 5,
+      "urls_discovered": 4,
+      "official_urls": 4,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 4
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_8f5664366ae1",
+      "source_type": "developer_portal",
+      "url": "https://docs.dataforseo.com/v3",
+      "domain": "docs.dataforseo.com",
+      "page_title": "DataForSEO API v.3",
+      "content": "Introduction\nWelcome to DataForSEO API!\nThis is the starting point on your journey towards building powerful SEO software, data analysis pipelines, and robust no-code automations. With DataForSEO you can get all the data you need while saving your time and budget.\nGetting started\nFollow our recommended learning path to master DataForSEO APIs.\n1. Kickstart Guide to our APIs\n2. Dashboard Guide\n3. Test with API Playground\n4. Free Unlimited Trial Info\n5. Sandbox Best Practices\nREST technology\nDataForSEO API is using the REST technology for interchanging data between your application and our service. The data exchange is made through the widely used HTTP protocol, which allows applying our API to almost all programming languages.\nClient libraries\nYou can create your REST class or use the following ready-made classes:\nPHP, Python, C# and Postman examples\nChoose your preferred programming language or API testing tool.\nData encoding\nAll data you send to DataForSEO API should be UTF-8 encoded.\nIf you use one of the Clients listed in the first table, gzip will be the default format of data exchange. You will see Content-Encoding: gzip in the header.\nAll the responses are returned in the JSON format by default, but we also support responses in the XML format – just append .xml to the end of your request. In addition to that, you can request HTML results from endpoints that return HTML-encoded results by appending .html to the end of the request’s URL path.\nFor example, the following requests will return response encoded in XML or HTML accordingly:\nhttps://api.dataforseo.com/v3/appendix/user_data.xml\nhttps://api.dataforseo.com/v3/serp/google/organic/task_get/html/09061543-1535-0066-0000-6240830f56ba.html\nRate limits\nEach of DataForSEO APIs has a certain rate limit, which you can find in the HTTP header of every endpoint.\nRate limit HTTP headers we use:\nX-RateLimit-Limit – the rate limit ceiling per minute for the given endpoint;\nX-RateLimit-Remaining – the number of requests remaining in the current rate limit window.\nIf your system requires rate limits to be increased, please contact our support team.\nResults storage\nThe term for storing API results in our system depends on the API and method of data retrieval.\n- Standard method: results are stored for 30 days*\n- Live method: results are not stored*\n- HTML results: results are stored for 7 days\n*for SERP API in both Standard and Live methods, the results in JSON format are stored for 30 days.\nTo learn more about the terms of results storage, check this Help Center article.\nDataForSEO Help Center\nNeed guidance? Visit our Help Center for integration tips, troubleshooting info, and product FAQs.\n• Live vs Standard method\n• What’s task ID?\n• Task completion & lists of completed tasks\n• Using filters in DataForSEO APIs\n• Set multiple tasks in one request\n• Webhooks & callbacks\n• SERP API best practices\n• Keyword Data API best practices\n• On-Page API best practices\n• Live endpoints best practices\nAdditional resources\nTo get detailed information about current system status, past and pending incidents, associated endpoints, incident gravity, and time to resolution, visit a dedicated DataForSEO Status Page.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:06:29.710745Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 798,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_108ff6640941",
+      "source_type": "official_docs",
+      "url": "https://docs.dataforseo.com",
+      "domain": "docs.dataforseo.com",
+      "page_title": "DataForSEO API v.3",
+      "content": "Introduction\nWelcome to DataForSEO API!\nThis is the starting point on your journey towards building powerful SEO software, data analysis pipelines, and robust no-code automations. With DataForSEO you can get all the data you need while saving your time and budget.\nGetting started\nFollow our recommended learning path to master DataForSEO APIs.\n1. Kickstart Guide to our APIs\n2. Dashboard Guide\n3. Test with API Playground\n4. Free Unlimited Trial Info\n5. Sandbox Best Practices\nREST technology\nDataForSEO API is using the REST technology for interchanging data between your application and our service. The data exchange is made through the widely used HTTP protocol, which allows applying our API to almost all programming languages.\nClient libraries\nYou can create your REST class or use the following ready-made classes:\nPHP, Python, C# and Postman examples\nChoose your preferred programming language or API testing tool.\nData encoding\nAll data you send to DataForSEO API should be UTF-8 encoded.\nIf you use one of the Clients listed in the first table, gzip will be the default format of data exchange. You will see Content-Encoding: gzip in the header.\nAll the responses are returned in the JSON format by default, but we also support responses in the XML format – just append .xml to the end of your request. In addition to that, you can request HTML results from endpoints that return HTML-encoded results by appending .html to the end of the request’s URL path.\nFor example, the following requests will return response encoded in XML or HTML accordingly:\nhttps://api.dataforseo.com/v3/appendix/user_data.xml\nhttps://api.dataforseo.com/v3/serp/google/organic/task_get/html/09061543-1535-0066-0000-6240830f56ba.html\nRate limits\nEach of DataForSEO APIs has a certain rate limit, which you can find in the HTTP header of every endpoint.\nRate limit HTTP headers we use:\nX-RateLimit-Limit – the rate limit ceiling per minute for the given endpoint;\nX-RateLimit-Remaining – the number of requests remaining in the current rate limit window.\nIf your system requires rate limits to be increased, please contact our support team.\nResults storage\nThe term for storing API results in our system depends on the API and method of data retrieval.\n- Standard method: results are stored for 30 days*\n- Live method: results are not stored*\n- HTML results: results are stored for 7 days\n*for SERP API in both Standard and Live methods, the results in JSON format are stored for 30 days.\nTo learn more about the terms of results storage, check this Help Center article.\nDataForSEO Help Center\nNeed guidance? Visit our Help Center for integration tips, troubleshooting info, and product FAQs.\n• Live vs Standard method\n• What’s task ID?\n• Task completion & lists of completed tasks\n• Using filters in DataForSEO APIs\n• Set multiple tasks in one request\n• Webhooks & callbacks\n• SERP API best practices\n• Keyword Data API best practices\n• On-Page API best practices\n• Live endpoints best practices\nAdditional resources\nTo get detailed information about current system status, past and pending incidents, associated endpoints, incident gravity, and time to resolution, visit a dedicated DataForSEO Status Page.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:06:29.105560Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 798,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_10e9b9d5e835",
+      "source_type": "auth_docs",
+      "url": "https://docs.dataforseo.com/v3/auth",
+      "domain": "docs.dataforseo.com",
+      "page_title": "Authentication – DataForSEO API v.3",
+      "content": "login=\"login\" \npassword=\"password\" \ncred=\"$(printf ${login}:${password} | base64)\" \ncurl --location --request GET \"https://example.com\" \n--header \"Authorization: Basic ${cred}\"  \n--header \"Content-Type: application/json\" \n    \n        \n            \n        \n    \n    <?php\nrequire('RestClient.php');\n//You can download this file from here https://cdn.dataforseo.com/v3/examples/php/php_RestClient.zip\ntry {\n    //Instead of 'login' and 'password' use your credentials from https://app.dataforseo.com/api-access\n    $client = new RestClient('https://api.dataforseo.com/', null, 'login', 'password');\n    //do something\n} catch (RestClientException $e) {\n    echo \"n\";\n    print \"HTTP code: {$e->getHttpCode()}n\";\n    print \"Error code: {$e->getCode()}n\";\n    print \"Message: {$e->getMessage()}n\";\n    print  $e->getTraceAsString();\n    echo \"n\";\n    exit();\n}\n?># Instead of 'login' and 'password' use your credentials from https://app.dataforseo.com/api-access \nconst axios = require('axios');\naxios({\n    method: 'get',\n    url: 'https://example.com',\n    auth: {\n        username: 'login',\n        password: 'password'\n    }\n}).then(response => {\n    console.log(response.data);\n}).catch(error => {\n    console.log(error);\n});from client import RestClient\n#You can download this file from here https://cdn.dataforseo.com/v3/examples/python/python_Client.zip\n#Instead of 'login' and 'password' use your credentials from https://app.dataforseo.com/api-access\nclient = RestClient(\"login\", \"password\")\n#do somethingusing System;\nusing System.Net.Http;\nusing System.Net.Http.Headers;\nusing System.Text;\nusing System.Threading.Tasks;\nusing Newtonsoft.Json;\nnamespace DataForSeoDemos\n{\n    public static partial class Demos\n    {\n        public static async Task cmn_key_id()\n        {\n            var httpClient = new HttpClient\n            {\n                BaseAddress = new Uri(\"https://api.dataforseo.com/\"),\n                //Instead of 'login' and 'password' use your credentials from https://app.dataforseo.com/api-access\n                DefaultRequestHeaders = { Authorization = new AuthenticationHeaderValue(\"Basic\", Convert.ToBase64String(Encoding.ASCII.GetBytes(\"login:password\"))) }\n            };\n            // do something\n        }\n    }\n}",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:06:28.857236Z",
+      "section_path": "Instead of 'login' and 'password' use your credentials from https://app.dataforseo.com/api-access",
+      "chunk_index": 0,
+      "token_count": 562,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_1eefc2345143",
+      "source_type": "pricing_page",
+      "url": "https://dataforseo.com/pricing",
+      "domain": "dataforseo.com",
+      "page_title": "DataForSEO API v3 Pricing – Transparent Pay-As-You-Go Pricing Model",
+      "content": "With DataForSEO you pay only for the individual services you consume. Our pay-as-you-go pricing model is designed to help our customers minimize costs, increase resource efficiency, and build operational resilience.\nNote that the minimum payment amount is $50.\nDataForSEO account panel comes with a set of free cost management tools that will help you monitor your usage and spending, control your budgets, set limits, and more.\n        Learn more",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:06:27.982077Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 111,
+      "quality_score": 0.64
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "DataForSEO API for SEO software and data analysis.",
+      "evidence_ids": [
+        "ev_8f5664366ae1",
+        "ev_108ff6640941"
+      ]
+    },
+    "category": {
+      "value": "Data SEO and Scraping",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "Basic Auth",
+      "evidence_ids": [
+        "ev_10e9b9d5e835"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_1eefc2345143"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API",
+      "evidence_ids": [
+        "ev_8f5664366ae1",
+        "ev_108ff6640941"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_8f5664366ae1",
+        "ev_108ff6640941"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_8f5664366ae1"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_8f5664366ae1",
+        "ev_108ff6640941"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_8f5664366ae1"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.75,
+    "fields_checked": 8,
+    "fields_supported": 6,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.75,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.75 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

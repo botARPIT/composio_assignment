@@ -4,375 +4,760 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Composio App Research — AI-Driven Pipeline Case Study</title>
-    <meta name="description" content="Evidence-driven research pipeline analyzing 100 SaaS applications for Composio toolkit integration potential.">
+    <meta name="description" content="Evidence-driven research pipeline analyzing SaaS applications for Composio toolkit integration potential.">
     <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
     <style>
         :root {
-            --bg-primary: #0a0a0f;
-            --bg-secondary: #12121a;
-            --bg-card: #1a1a2e;
-            --bg-hover: #252542;
-            --text-primary: #e8e8f0;
-            --text-secondary: #a0a0b8;
-            --text-dim: #6b6b85;
-            --accent: #00d4aa;
-            --accent-dim: rgba(0, 212, 170, 0.15);
-            --danger: #ff6b6b;
-            --warning: #ffd93d;
-            --info: #3498db;
-            --border: rgba(255, 255, 255, 0.06);
-            --radius: 12px;
-            --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            --mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+            /* Premium Dark Mode Palette */
+            --bg-base: #030305;
+            --bg-surface: rgba(18, 18, 24, 0.65);
+            --bg-surface-hover: rgba(30, 30, 40, 0.8);
+            
+            --text-h: #ffffff;
+            --text-body: #a1a1aa;
+            --text-muted: #71717a;
+            
+            /* Gradients & Accents */
+            --accent-primary: #3b82f6; /* Blue */
+            --accent-secondary: #8b5cf6; /* Purple */
+            --accent-tertiary: #10b981; /* Emerald */
+            
+            --border-subtle: rgba(255, 255, 255, 0.06);
+            --border-focus: rgba(255, 255, 255, 0.15);
+            
+            /* Status Colors */
+            --status-high: #10b981;
+            --status-high-bg: rgba(16, 185, 129, 0.15);
+            --status-medium: #f59e0b;
+            --status-medium-bg: rgba(245, 158, 11, 0.15);
+            --status-low: #ef4444;
+            --status-low-bg: rgba(239, 68, 68, 0.15);
+            --status-blocked: #f43f5e;
+            --status-blocked-bg: rgba(244, 63, 94, 0.15);
+            
+            --radius-sm: 8px;
+            --radius-md: 16px;
+            --radius-lg: 24px;
+            
+            --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+            
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
         body {
-            font-family: var(--font);
-            background: var(--bg-primary);
-            color: var(--text-primary);
+            font-family: var(--font-sans);
+            background-color: var(--bg-base);
+            color: var(--text-body);
             line-height: 1.6;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Animated Background Elements */
+        .bg-glow {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            pointer-events: none;
+            z-index: -1;
+            background: 
+                radial-gradient(circle at 15% 10%, rgba(59, 130, 246, 0.08) 0%, transparent 40%),
+                radial-gradient(circle at 85% 20%, rgba(139, 92, 246, 0.08) 0%, transparent 40%),
+                radial-gradient(circle at 50% 80%, rgba(16, 185, 129, 0.05) 0%, transparent 50%);
+            animation: pulse-glow 15s ease-in-out infinite alternate;
+        }
+
+        @keyframes pulse-glow {
+            0% { transform: scale(1); opacity: 0.8; }
+            100% { transform: scale(1.1); opacity: 1; }
+        }
+
+        /* Glassmorphism Utilities */
+        .glass-panel {
+            background: var(--bg-surface);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--border-subtle);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.05);
         }
 
         /* Hero Section */
         .hero {
-            background: linear-gradient(135deg, #0a0a1a 0%, #1a0a2e 50%, #0a1a2e 100%);
-            padding: 80px 40px;
+            padding: 100px 40px 140px;
             text-align: center;
-            border-bottom: 1px solid var(--border);
             position: relative;
-            overflow: hidden;
-        }
-
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            background: radial-gradient(circle at 30% 50%, rgba(0, 212, 170, 0.08) 0%, transparent 50%),
-                        radial-gradient(circle at 70% 50%, rgba(52, 152, 219, 0.06) 0%, transparent 50%);
-            animation: pulse 8s ease-in-out infinite;
-        }
-
-        @keyframes pulse {
-            0%, 100% { opacity: 0.5; }
-            50% { opacity: 1; }
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
 
         .hero h1 {
-            font-size: 3rem;
-            font-weight: 700;
-            letter-spacing: -1px;
-            margin-bottom: 12px;
-            position: relative;
+            font-size: 4rem;
+            font-weight: 800;
+            letter-spacing: -0.04em;
+            margin-bottom: 24px;
+            color: var(--text-h);
+            line-height: 1.1;
         }
 
-        .hero h1 span { color: var(--accent); }
+        .text-gradient {
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary), var(--accent-tertiary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 200% 200%;
+            animation: gradient-shift 5s ease infinite;
+        }
+
+        @keyframes gradient-shift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
 
         .hero p {
-            font-size: 1.2rem;
-            color: var(--text-secondary);
-            max-width: 680px;
+            font-size: 1.25rem;
+            color: var(--text-body);
+            max-width: 700px;
             margin: 0 auto;
-            position: relative;
+            font-weight: 400;
         }
 
         /* Stats Grid */
         .stats-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-            gap: 16px;
-            max-width: 1200px;
-            margin: -40px auto 40px;
+            gap: 20px;
+            max-width: 1300px;
+            margin: -80px auto 60px;
             padding: 0 40px;
             position: relative;
-            z-index: 2;
+            z-index: 10;
         }
 
         .stat-card {
-            background: var(--bg-card);
-            border: 1px solid var(--border);
-            border-radius: var(--radius);
-            padding: 24px;
+            border-radius: var(--radius-md);
+            padding: 28px 24px;
             text-align: center;
-            transition: transform 0.2s, border-color 0.2s;
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .stat-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; height: 2px;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transform: translateX(-100%);
+            transition: transform 0.6s ease;
         }
 
         .stat-card:hover {
-            transform: translateY(-2px);
-            border-color: var(--accent);
+            transform: translateY(-5px);
+            border-color: var(--border-focus);
+            background: var(--bg-surface-hover);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.4), 0 0 20px rgba(59, 130, 246, 0.1);
+        }
+        
+        .stat-card:hover::before {
+            transform: translateX(100%);
         }
 
         .stat-value {
-            font-size: 2.2rem;
+            font-size: 2.75rem;
             font-weight: 700;
-            color: var(--accent);
-            font-family: var(--mono);
+            color: var(--text-h);
+            font-family: var(--font-mono);
+            margin-bottom: 8px;
+            letter-spacing: -0.03em;
         }
 
         .stat-label {
             font-size: 0.85rem;
-            color: var(--text-secondary);
-            margin-top: 4px;
+            color: var(--text-muted);
             text-transform: uppercase;
-            letter-spacing: 0.5px;
+            letter-spacing: 0.1em;
+            font-weight: 600;
         }
 
         /* Sections */
         .section {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 40px;
+            max-width: 1300px;
+            margin: 0 auto 80px;
+            padding: 0 40px;
         }
 
         .section-title {
-            font-size: 1.6rem;
-            font-weight: 600;
-            margin-bottom: 24px;
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--text-h);
+            margin-bottom: 32px;
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 16px;
+            letter-spacing: -0.02em;
         }
 
         .section-title::before {
             content: '';
-            width: 4px;
-            height: 24px;
-            background: var(--accent);
-            border-radius: 2px;
+            width: 6px;
+            height: 32px;
+            background: linear-gradient(to bottom, var(--accent-primary), var(--accent-secondary));
+            border-radius: 4px;
         }
 
         /* Chart Grid */
         .chart-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-            gap: 24px;
-            margin-bottom: 40px;
+            grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+            gap: 30px;
         }
 
         .chart-card {
-            background: var(--bg-card);
-            border: 1px solid var(--border);
-            border-radius: var(--radius);
-            padding: 20px;
-            overflow: hidden;
+            border-radius: var(--radius-lg);
+            padding: 24px;
+            transition: var(--transition);
+        }
+        
+        .chart-card:hover {
+            border-color: var(--border-focus);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
         }
 
         .chart-card .plotly-chart {
             width: 100%;
-            min-height: 350px;
+            min-height: 380px;
         }
 
         /* Data Table */
         .table-container {
-            background: var(--bg-card);
-            border: 1px solid var(--border);
-            border-radius: var(--radius);
+            border-radius: var(--radius-lg);
             overflow: hidden;
+            display: flex;
+            flex-direction: column;
         }
 
         .table-toolbar {
             display: flex;
             align-items: center;
-            gap: 12px;
-            padding: 16px 20px;
-            border-bottom: 1px solid var(--border);
+            gap: 16px;
+            padding: 20px 24px;
+            background: rgba(0,0,0,0.2);
+            border-bottom: 1px solid var(--border-subtle);
+            flex-wrap: wrap;
         }
 
         .search-input {
             flex: 1;
-            background: var(--bg-secondary);
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 10px 16px;
-            color: var(--text-primary);
-            font-family: var(--font);
-            font-size: 0.9rem;
+            min-width: 250px;
+            background: rgba(255,255,255,0.03);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-sm);
+            padding: 12px 20px;
+            color: var(--text-h);
+            font-family: var(--font-sans);
+            font-size: 0.95rem;
             outline: none;
+            transition: var(--transition);
+            box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .search-input::placeholder {
+            color: var(--text-muted);
         }
 
         .search-input:focus {
-            border-color: var(--accent);
-            box-shadow: 0 0 0 3px var(--accent-dim);
+            background: rgba(255,255,255,0.06);
+            border-color: var(--accent-primary);
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15), inset 0 2px 4px rgba(0,0,0,0.1);
         }
 
         .filter-btn {
-            background: var(--bg-secondary);
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 10px 16px;
-            color: var(--text-secondary);
-            font-family: var(--font);
+            background: rgba(255,255,255,0.03);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-sm);
+            padding: 10px 18px;
+            color: var(--text-body);
+            font-family: var(--font-sans);
+            font-weight: 500;
+            font-size: 0.9rem;
             cursor: pointer;
-            transition: all 0.2s;
+            transition: var(--transition);
         }
 
-        .filter-btn:hover, .filter-btn.active {
-            border-color: var(--accent);
-            color: var(--accent);
+        .filter-btn:hover {
+            background: rgba(255,255,255,0.08);
+            border-color: rgba(255,255,255,0.2);
+            color: var(--text-h);
+        }
+        
+        .filter-btn.active {
+            background: var(--accent-primary);
+            border-color: var(--accent-primary);
+            color: #fff;
+            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+        }
+
+        .table-scroll {
+            max-height: 700px;
+            overflow-y: auto;
+            scrollbar-width: thin;
+            scrollbar-color: rgba(255,255,255,0.2) transparent;
+        }
+        
+        .table-scroll::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        .table-scroll::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .table-scroll::-webkit-scrollbar-thumb {
+            background: rgba(255,255,255,0.1);
+            border-radius: 4px;
+        }
+        .table-scroll::-webkit-scrollbar-thumb:hover {
+            background: rgba(255,255,255,0.2);
         }
 
         .data-table {
             width: 100%;
-            border-collapse: collapse;
-            font-size: 0.85rem;
+            border-collapse: separate;
+            border-spacing: 0;
+            font-size: 0.9rem;
+            text-align: left;
         }
 
         .data-table thead {
-            background: var(--bg-secondary);
             position: sticky;
             top: 0;
+            z-index: 5;
         }
 
         .data-table th {
-            padding: 12px 16px;
-            text-align: left;
+            background: rgba(18, 18, 24, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 16px 20px;
             font-weight: 600;
-            color: var(--text-secondary);
+            color: var(--text-muted);
             text-transform: uppercase;
             font-size: 0.75rem;
-            letter-spacing: 0.5px;
-            border-bottom: 1px solid var(--border);
+            letter-spacing: 0.05em;
+            border-bottom: 1px solid var(--border-subtle);
             cursor: pointer;
             user-select: none;
+            transition: var(--transition);
         }
 
-        .data-table th:hover { color: var(--accent); }
+        .data-table th:hover { 
+            color: var(--text-h);
+            background: rgba(30, 30, 40, 0.95);
+        }
 
         .data-table td {
-            padding: 10px 16px;
-            border-bottom: 1px solid var(--border);
-            max-width: 200px;
+            padding: 16px 20px;
+            border-bottom: 1px solid var(--border-subtle);
+            max-width: 220px;
+            color: var(--text-body);
+        }
+        
+        .data-table td.truncate {
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
         }
 
-        .data-table tr:hover { background: var(--bg-hover); }
+        .data-table tr {
+            transition: background 0.2s;
+        }
 
-        .table-scroll {
-            max-height: 600px;
-            overflow-y: auto;
+        .data-table tr:hover { 
+            background: rgba(255,255,255,0.03); 
+        }
+        
+        .app-link {
+            color: var(--text-h);
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-block;
+            transition: var(--transition);
+        }
+        
+        .app-link:hover {
+            color: var(--accent-primary);
+            text-shadow: 0 0 12px rgba(59, 130, 246, 0.4);
         }
 
         /* Badges */
         .badge {
-            display: inline-block;
-            padding: 3px 10px;
-            border-radius: 12px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 4px 12px;
+            border-radius: 20px;
             font-size: 0.75rem;
             font-weight: 600;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            border: 1px solid transparent;
         }
 
-        .badge-high { background: rgba(0, 212, 170, 0.15); color: #00d4aa; }
-        .badge-medium { background: rgba(255, 217, 61, 0.15); color: #ffd93d; }
-        .badge-low { background: rgba(255, 107, 107, 0.15); color: #ff6b6b; }
-        .badge-blocked { background: rgba(192, 57, 43, 0.15); color: #e74c3c; }
-        .badge-supported { background: rgba(0, 212, 170, 0.15); color: #00d4aa; }
-        .badge-unsupported { background: rgba(255, 217, 61, 0.15); color: #ffd93d; }
-        .badge-incomplete { background: rgba(149, 165, 166, 0.15); color: #95a5a6; }
+        /* Buildability Badges */
+        .badge-high { 
+            background: var(--status-high-bg); 
+            color: var(--status-high); 
+            border-color: rgba(16, 185, 129, 0.2);
+            box-shadow: 0 0 10px rgba(16, 185, 129, 0.1);
+        }
+        .badge-medium { 
+            background: var(--status-medium-bg); 
+            color: var(--status-medium); 
+            border-color: rgba(245, 158, 11, 0.2);
+        }
+        .badge-low { 
+            background: var(--status-low-bg); 
+            color: var(--status-low); 
+            border-color: rgba(239, 68, 68, 0.2);
+        }
+        .badge-blocked { 
+            background: var(--status-blocked-bg); 
+            color: var(--status-blocked); 
+            border-color: rgba(244, 63, 94, 0.2);
+        }
+        
+        /* Status Badges */
+        .badge-supported { 
+            background: var(--status-high-bg); 
+            color: var(--status-high); 
+        }
+        .badge-unsupported { 
+            background: var(--status-medium-bg); 
+            color: var(--status-medium); 
+        }
+        .badge-incomplete { 
+            background: rgba(161, 161, 170, 0.15); 
+            color: #a1a1aa; 
+            border-color: rgba(161, 161, 170, 0.2);
+        }
+
+        /* Confidence Badges */
+        .conf-high { color: var(--status-high); font-family: var(--font-mono); font-weight: 600; }
+        .conf-med { color: var(--status-medium); font-family: var(--font-mono); font-weight: 600;}
+        .conf-low { color: var(--status-low); font-family: var(--font-mono); font-weight: 600;}
+
+        /* Confidence Progress Bar */
+        .conf-bar {
+            display: inline-flex; align-items: center; gap: 8px; width: 120px;
+        }
+        .conf-bar-track {
+            flex: 1; height: 6px; background: rgba(255,255,255,0.08);
+            border-radius: 3px; overflow: hidden;
+        }
+        .conf-bar-fill {
+            height: 100%; border-radius: 3px; transition: width 0.6s ease;
+        }
+        .conf-bar-fill.high { background: linear-gradient(90deg, #10b981, #34d399); }
+        .conf-bar-fill.med { background: linear-gradient(90deg, #f59e0b, #fbbf24); }
+        .conf-bar-fill.low { background: linear-gradient(90deg, #ef4444, #f87171); }
 
         /* Methodology */
         .methodology {
-            background: var(--bg-card);
-            border: 1px solid var(--border);
-            border-radius: var(--radius);
-            padding: 32px;
-            margin-top: 32px;
+            border-radius: var(--radius-lg);
+            padding: 40px;
+            margin-top: 20px;
         }
 
         .methodology h3 {
-            color: var(--accent);
-            margin-bottom: 16px;
+            color: var(--text-h);
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            letter-spacing: -0.02em;
         }
 
         .pipeline-steps {
             display: flex;
-            gap: 8px;
+            gap: 12px;
             align-items: center;
             flex-wrap: wrap;
-            margin: 20px 0;
+            margin: 32px 0;
         }
 
         .step {
-            background: var(--bg-secondary);
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 8px 16px;
-            font-size: 0.85rem;
+            background: rgba(255,255,255,0.05);
+            border: 1px solid var(--border-focus);
+            border-radius: var(--radius-sm);
+            padding: 12px 20px;
+            font-size: 0.95rem;
             font-weight: 500;
+            color: var(--text-h);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transition: var(--transition);
+        }
+        
+        .step:hover {
+            transform: translateY(-2px);
+            background: rgba(255,255,255,0.08);
+            border-color: var(--accent-primary);
+            box-shadow: 0 8px 20px rgba(59, 130, 246, 0.15);
         }
 
         .step-arrow {
-            color: var(--accent);
+            color: var(--text-muted);
             font-size: 1.2rem;
+        }
+        
+        .principles-list {
+            margin-top: 20px;
+            list-style: none;
+        }
+        
+        .principles-list li {
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border-subtle);
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+        
+        .principles-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .principles-list li::before {
+            content: '✦';
+            color: var(--accent-primary);
+            font-size: 1.2rem;
+            line-height: 1;
+        }
+        
+        .principles-list strong {
+            color: var(--text-h);
         }
 
         /* Footer */
         .footer {
             text-align: center;
-            padding: 40px;
-            color: var(--text-dim);
-            font-size: 0.85rem;
-            border-top: 1px solid var(--border);
+            padding: 60px 40px;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            border-top: 1px solid var(--border-subtle);
+            margin-top: 60px;
+        }
+
+        @media (max-width: 1024px) {
+            .chart-grid { grid-template-columns: 1fr; }
         }
 
         @media (max-width: 768px) {
-            .hero { padding: 40px 20px; }
-            .hero h1 { font-size: 2rem; }
-            .section { padding: 20px; }
-            .stats-grid { padding: 0 20px; grid-template-columns: repeat(2, 1fr); }
-            .chart-grid { grid-template-columns: 1fr; }
+            .hero { padding: 80px 20px 100px; }
+            .hero h1 { font-size: 2.5rem; }
+            .section { padding: 0 20px; margin-bottom: 60px; }
+            .stats-grid { padding: 0 20px; grid-template-columns: repeat(2, 1fr); margin-top: -60px; }
+            .pipeline-steps { flex-direction: column; align-items: stretch; }
+            .step-arrow { text-align: center; transform: rotate(90deg); margin: -4px 0; }
         }
     </style>
 </head>
 <body>
 
+<div class="bg-glow"></div>
+
 <!-- Hero -->
 <section class="hero">
-    <h1>Composio App <span>Research</span></h1>
-    <p>AI-driven evidence pipeline analyzing {{ total_apps }} SaaS applications for API integration, authentication patterns, and toolkit buildability.</p>
+    <h1>Composio App <span class="text-gradient">Research</span></h1>
+    <p>AI-driven evidence pipeline analyzing <strong>{{ total_apps }}</strong> SaaS applications for API integration, authentication patterns, and toolkit buildability.</p>
 </section>
 
 <!-- Stats -->
 <div class="stats-grid">
-    <div class="stat-card">
+    <div class="stat-card glass-panel">
         <div class="stat-value">{{ stats.total_apps }}</div>
         <div class="stat-label">Apps Analyzed</div>
     </div>
-    <div class="stat-card">
+    <div class="stat-card glass-panel">
         <div class="stat-value">{{ stats.completion_rate }}</div>
         <div class="stat-label">Completion Rate</div>
     </div>
-    <div class="stat-card">
+    <div class="stat-card glass-panel">
         <div class="stat-value">{{ stats.high_confidence }}</div>
         <div class="stat-label">High Confidence</div>
     </div>
-    <div class="stat-card">
+    <div class="stat-card glass-panel">
         <div class="stat-value">{{ stats.avg_evidence_per_app }}</div>
         <div class="stat-label">Avg Evidence / App</div>
     </div>
-    <div class="stat-card">
+    <div class="stat-card glass-panel">
         <div class="stat-value">{{ stats.self_serve_count }}</div>
         <div class="stat-label">Self-Serve APIs</div>
     </div>
-    <div class="stat-card">
+    <div class="stat-card glass-panel">
         <div class="stat-value">{{ stats.high_buildability }}</div>
         <div class="stat-label">High Buildability</div>
     </div>
 </div>
+
+<!-- Quality Assurance Stats -->
+<div class="stats-grid">
+    <div class="stat-card glass-panel" style="border-color: rgba(16, 185, 129, 0.2);">
+        <div class="stat-value" style="color: var(--status-high);">{{ stats.total_auto }}</div>
+        <div class="stat-label">Auto-Accepted</div>
+    </div>
+    <div class="stat-card glass-panel" style="border-color: rgba(245, 158, 11, 0.2);">
+        <div class="stat-value" style="color: var(--status-medium);">{{ stats.total_flagged }} <span style="font-size: 1rem; color: var(--text-muted);">({{ stats.review_rate }})</span></div>
+        <div class="stat-label">Flagged for Review</div>
+    </div>
+    <div class="stat-card glass-panel" style="border-color: rgba(239, 68, 68, 0.2);">
+        <div class="stat-value" style="color: var(--status-low);">{{ stats.total_modified }} <span style="font-size: 1rem; color: var(--text-muted);">({{ stats.correction_rate }})</span></div>
+        <div class="stat-label">Corrected After Review</div>
+    </div>
+    <div class="stat-card glass-panel" style="border-color: rgba(16, 185, 129, 0.2);">
+        <div class="stat-value" style="color: var(--status-high);">{{ stats.total_confirmed }}</div>
+        <div class="stat-label">Confirmed Correct</div>
+    </div>
+    <div class="stat-card glass-panel" style="border-color: rgba(139, 92, 246, 0.2);">
+        <div class="stat-value" style="color: var(--accent-secondary);">{{ stats.sample_accuracy_pct }}</div>
+        <div class="stat-label">Human QA Confirmation Rate</div>
+    </div>
+    <div class="stat-card glass-panel" style="border-color: rgba(16, 185, 129, 0.2);">
+        <div class="stat-value" style="color: var(--accent-tertiary);">{{ stats.total_auto + stats.total_reviewed }}</div>
+        <div class="stat-label">Final Verified Dataset</div>
+    </div>
+</div>
+
+{% if stats.mistakes %}
+<!-- Pipeline Mistakes -->
+<section class="section">
+    <h2 class="section-title">Where the Pipeline Was Wrong</h2>
+    <div class="glass-panel" style="border-radius: var(--radius-lg); overflow: hidden;">
+        <div style="padding: 24px; border-bottom: 1px solid var(--border-subtle);">
+            <p style="color: var(--text-body);">
+                The table below shows every field where a human reviewer overrode the pipeline's extraction.
+                These are <strong style="color: var(--text-h);">{{ stats.total_modified }} apps</strong> where the pipeline
+                produced an incorrect or incomplete value.
+            </p>
+        </div>
+        <div class="table-scroll">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>App</th>
+                        <th>Field</th>
+                        <th>Agent Value</th>
+                        <th>Human Value</th>
+                        <th>Reason</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for mistake in stats.mistakes %}
+                    <tr>
+                        <td><span class="app-link">{{ mistake.app }}</span></td>
+                        <td><span class="badge" style="background: rgba(59, 130, 246, 0.15); color: var(--accent-primary);">{{ mistake.field }}</span></td>
+                        <td style="color: var(--status-low); font-family: var(--font-mono); font-size: 0.85rem;">{{ mistake.agent }}</td>
+                        <td style="color: var(--status-high); font-family: var(--font-mono); font-size: 0.85rem;">{{ mistake.human }}</td>
+                        <td style="font-size: 0.9rem; color: var(--text-muted);">{% if mistake.reason %}{{ mistake.reason }}{% else %}<em>No reason recorded</em>{% endif %}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+{% endif %}
+
+<!-- Flow Diagram -->
+<section class="section">
+    <h2 class="section-title">Pipeline Flow</h2>
+    <div class="glass-panel" style="padding: 40px; border-radius: var(--radius-lg); text-align: center;">
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; font-size: 1.1rem;">
+            <div class="step" style="font-size: 1.2rem; padding: 16px 32px;">{{ stats.total_apps }} Apps</div>
+            <div style="color: var(--text-muted); font-size: 1.5rem;">↓</div>
+            <div class="step" style="background: rgba(16, 185, 129, 0.1); border-color: rgba(16, 185, 129, 0.3); padding: 14px 28px;">
+                Pipeline Processing
+                <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 4px;">Discovery → Evidence → Extraction → Validation → Verification</div>
+            </div>
+            <div style="color: var(--text-muted); font-size: 1.5rem;">↓</div>
+            <div style="display: flex; gap: 40px; align-items: center; flex-wrap: wrap; justify-content: center;">
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 6px;">
+                    <div class="step" style="background: rgba(16, 185, 129, 0.15); border-color: rgba(16, 185, 129, 0.3); color: var(--status-high);">
+                        {{ stats.total_auto }} Auto-Accepted
+                    </div>
+                    <div style="font-size: 0.85rem; color: var(--text-muted);">Pipeline confidence ≥ 0.90, all fields known</div>
+                </div>
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 6px;">
+                    <div class="step" style="background: rgba(245, 158, 11, 0.15); border-color: rgba(245, 158, 11, 0.3); color: var(--status-medium);">
+                        {{ stats.total_flagged }} Flagged for QA
+                    </div>
+                    <div style="font-size: 0.85rem; color: var(--text-muted);">Failed one or more deterministic review rules</div>
+                </div>
+            </div>
+            {% if stats.total_flagged > 0 %}
+            <div style="color: var(--text-muted); font-size: 1.5rem;">↓</div>
+            <div class="step" style="background: rgba(139, 92, 246, 0.15); border-color: rgba(139, 92, 246, 0.3); color: var(--accent-secondary); padding: 14px 28px;">
+                Human Review
+                <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 4px;">Evidence-driven verification by a human reviewer</div>
+            </div>
+            <div style="color: var(--text-muted); font-size: 1.5rem;">↓</div>
+            <div style="display: flex; gap: 40px; align-items: center; flex-wrap: wrap; justify-content: center;">
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 6px;">
+                    <div class="step" style="background: rgba(16, 185, 129, 0.15); border-color: rgba(16, 185, 129, 0.3); color: var(--status-high);">
+                        {{ stats.total_confirmed }} Confirmed
+                    </div>
+                    <div style="font-size: 0.85rem; color: var(--text-muted);">Pipeline was correct</div>
+                </div>
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 6px;">
+                    <div class="step" style="background: rgba(239, 68, 68, 0.15); border-color: rgba(239, 68, 68, 0.3); color: var(--status-low);">
+                        {{ stats.total_modified }} Corrected
+                    </div>
+                    <div style="font-size: 0.85rem; color: var(--text-muted);">Pipeline was wrong — overrides applied</div>
+                </div>
+            </div>
+            {% endif %}
+            <div style="color: var(--text-muted); font-size: 1.5rem;">↓</div>
+            <div class="step" style="background: rgba(16, 185, 129, 0.2); border-color: rgba(16, 185, 129, 0.4); color: var(--status-high); font-weight: 700; padding: 16px 32px;">
+                Final Dataset: {{ stats.total_auto + stats.total_reviewed }} Verified Apps
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Executive Summary -->
+<section class="section">
+    <h2 class="section-title">Executive Summary</h2>
+    <div class="glass-panel" style="padding: 32px; border-radius: var(--radius-lg);">
+        <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-body);">
+            Of <strong style="color: var(--text-h);">{{ stats.total_apps }}</strong> apps analyzed,
+            <strong style="color: var(--status-high);">{{ stats.high_confidence }}</strong> ({{ "%.0f"|format(stats.high_confidence / stats.total_apps * 100) }}%)
+            achieved high confidence (≥ 75%) and
+            <strong style="color: var(--status-high);">{{ stats.high_buildability }}</strong> are immediately buildable with the Composio toolkit.
+            The most common authentication pattern is
+            {% if stats.top_auth %}
+            <strong style="color: var(--text-h);">{{ stats.top_auth[0][0] }}</strong> ({{ stats.top_auth[0][1] }} apps)
+            {% endif %}
+            , and <strong style="color: var(--text-h);">{{ stats.self_serve_count }}</strong> apps offer self-serve access.
+            {% if stats.mcp_official > 0 %}
+            Notably, <strong style="color: var(--accent-tertiary);">{{ stats.mcp_official }}</strong> apps have official MCP servers,
+            suggesting early ecosystem adoption.
+            {% endif %}
+            <strong style="color: var(--status-blocked);">{{ stats.blocked_count }}</strong> apps are currently blocked
+            due to insufficient documentation or gated access.
+        </p>
+    </div>
+</section>
 
 <!-- Charts -->
 <section class="section">
     <h2 class="section-title">Analytics Dashboard</h2>
     <div class="chart-grid">
         {% for name, chart_json in charts.items() %}
-        <div class="chart-card">
+        <div class="chart-card glass-panel">
             <div id="chart-{{ name }}" class="plotly-chart"></div>
         </div>
         {% endfor %}
@@ -382,45 +767,56 @@
 <!-- Data Table -->
 <section class="section">
     <h2 class="section-title">Research Data Matrix</h2>
-    <div class="table-container">
+    <div class="table-container glass-panel">
         <div class="table-toolbar">
-            <input type="text" class="search-input" id="searchInput" placeholder="Search apps...">
-            <button class="filter-btn" onclick="filterBy('all')">All</button>
-            <button class="filter-btn" onclick="filterBy('HIGH')">High Build</button>
-            <button class="filter-btn" onclick="filterBy('BLOCKED')">Blocked</button>
-            <button class="filter-btn" onclick="filterBy('SUPPORTED')">Verified</button>
+            <input type="text" class="search-input" id="searchInput" placeholder="Search applications...">
+            <button class="filter-btn active" data-filter="all" onclick="filterBy('all', event)">All</button>
+            <button class="filter-btn" data-filter="HIGH" onclick="filterBy('HIGH', event)">High Build</button>
+            <button class="filter-btn" data-filter="BLOCKED" onclick="filterBy('BLOCKED', event)">Blocked</button>
+            <button class="filter-btn" data-filter="SUPPORTED" onclick="filterBy('SUPPORTED', event)">Verified</button>
+            <button class="filter-btn" onclick="downloadCSV()" style="margin-left: auto; background: rgba(16, 185, 129, 0.15); border-color: rgba(16, 185, 129, 0.2); color: #10b981;">⬇ CSV</button>
         </div>
         <div class="table-scroll">
             <table class="data-table" id="dataTable">
                 <thead>
                     <tr>
-                        <th onclick="sortTable(0)">App</th>
-                        <th onclick="sortTable(1)">Category</th>
-                        <th onclick="sortTable(2)">Auth</th>
-                        <th onclick="sortTable(3)">Access</th>
-                        <th onclick="sortTable(4)">API Breadth</th>
-                        <th onclick="sortTable(5)">MCP</th>
-                        <th onclick="sortTable(6)">Buildability</th>
-                        <th onclick="sortTable(7)">Confidence</th>
-                        <th onclick="sortTable(8)">Status</th>
+                        <th onclick="sortTable(0)">App <span>↕</span></th>
+                        <th onclick="sortTable(1)">Category <span>↕</span></th>
+                        <th onclick="sortTable(2)">Auth <span>↕</span></th>
+                        <th onclick="sortTable(3)">Access <span>↕</span></th>
+                        <th onclick="sortTable(4)">API Breadth <span>↕</span></th>
+                        <th onclick="sortTable(5)">MCP <span>↕</span></th>
+                        <th onclick="sortTable(6)">Buildability <span>↕</span></th>
+                        <th onclick="sortTable(7)">Confidence <span>↕</span></th>
+                        <th onclick="sortTable(8)">Status <span>↕</span></th>
+                        <th onclick="sortTable(9)">Final <span>↕</span></th>
                     </tr>
                 </thead>
                 <tbody>
                     {% for row in table_data %}
                     <tr data-buildability="{{ row.buildability }}" data-status="{{ row.validation_status }}">
-                        <td title="{{ row.description }}"><a href="{{ row.website }}" target="_blank" style="color: var(--accent); text-decoration: none;">{{ row.name }}</a></td>
+                        <td title="{{ row.description }}"><a href="apps/{{ row.slug }}/" class="app-link">{{ row.name }}</a></td>
                         <td>{{ row.category }}</td>
-                        <td title="{{ row.auth_methods }}">{{ row.auth_methods[:30] }}</td>
-                        <td title="{{ row.self_serve }}">{{ row.self_serve[:30] }}</td>
+                        <td class="truncate" title="{{ row.auth_methods }}">{{ row.auth_methods }}</td>
+                        <td class="truncate" title="{{ row.self_serve }}">{{ row.self_serve }}</td>
                         <td>{{ row.api_breadth }}</td>
-                        <td>{{ row.mcp[:25] }}</td>
+                        <td class="truncate" title="{{ row.mcp }}">{{ row.mcp }}</td>
                         <td><span class="badge badge-{{ row.buildability|lower }}">{{ row.buildability }}</span></td>
-                        <td><span class="badge {% if row.confidence >= 0.75 %}badge-high{% elif row.confidence >= 0.5 %}badge-medium{% else %}badge-low{% endif %}">{{ "%.0f"|format(row.confidence * 100) }}%</span></td>
+                        <td><div class="conf-bar"><span style="min-width: 36px; font-family: var(--font-mono); font-size: 0.85rem;">{{ "%.0f"|format(row.confidence * 100) }}%</span><div class="conf-bar-track"><div class="conf-bar-fill {{ 'high' if row.confidence >= 0.75 else 'med' if row.confidence >= 0.5 else 'low' }}" style="width: {{ row.confidence * 100 }}%"></div></div></div></td>
                         <td><span class="badge badge-{{ row.validation_status|lower }}">{{ row.validation_status }}</span></td>
+                        <td><span class="badge badge-{{ 'high' if row.final_status == 'AUTO_ACCEPTED' else 'medium' if row.final_status in ('HUMAN_VERIFIED', 'HUMAN_MODIFIED') else 'low' }}">{{ row.final_status }}</span></td>
                     </tr>
                     {% endfor %}
                 </tbody>
             </table>
+        </div>
+        </div>
+        <div class="pagination-controls" id="paginationControls" style="display: flex; justify-content: space-between; align-items: center; margin-top: 15px;">
+            <div style="color: var(--text-muted); font-size: 0.9rem;" id="pageInfo">Showing 0 to 0 of 0 entries</div>
+            <div style="display: flex; gap: 8px;">
+                <button class="filter-btn" id="prevPage" onclick="changePage(-1)">Previous</button>
+                <button class="filter-btn" id="nextPage" onclick="changePage(1)">Next</button>
+            </div>
         </div>
     </div>
 </section>
@@ -428,24 +824,54 @@
 <!-- Methodology -->
 <section class="section">
     <h2 class="section-title">Methodology</h2>
-    <div class="methodology">
+    <div class="methodology glass-panel">
         <h3>Evidence-Driven Pipeline</h3>
-        <p>This research uses a five-stage pipeline where every fact is grounded in evidence, validated deterministically (no LLM reasoning in validation), and escalated to browser verification only when evidence is insufficient.</p>
+        <p>This research uses a six-stage pipeline where every fact is grounded in evidence, validated deterministically (no LLM reasoning in validation), escalated to browser verification only when evidence is insufficient, and finally queued for human review when confidence thresholds are not met.</p>
 
         <div class="pipeline-steps">
-            <span class="step">🔍 Discovery (Tavily)</span>
+            <span class="step">🔍 Discovery<br><small style="color:var(--text-muted)">Tavily Search</small></span>
             <span class="step-arrow">→</span>
-            <span class="step">📄 Evidence (Firecrawl)</span>
+            <span class="step">📄 Evidence<br><small style="color:var(--text-muted)">Firecrawl</small></span>
             <span class="step-arrow">→</span>
-            <span class="step">🧠 Extraction (Gemini)</span>
+            <span class="step">🧠 Extraction<br><small style="color:var(--text-muted)">Gemini 2.5 Flash</small></span>
             <span class="step-arrow">→</span>
-            <span class="step">✅ Validation (Python)</span>
+            <span class="step">✅ Validation<br><small style="color:var(--text-muted)">Python Deterministic</small></span>
             <span class="step-arrow">→</span>
-            <span class="step">🌐 Verification (Playwright)</span>
+            <span class="step">🌐 Verification<br><small style="color:var(--text-muted)">Playwright Headless</small></span>
+            <span class="step-arrow">→</span>
+            <span class="step">👤 Human QA<br><small style="color:var(--text-muted)">Evidence-Driven Review</small></span>
         </div>
 
-        <h3 style="margin-top: 24px;">Key Design Principles</h3>
-        <ul style="margin-top: 12px; padding-left: 24px; color: var(--text-secondary);">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 32px 0;">
+            <div style="background: rgba(255,255,255,0.03); border-radius: var(--radius-sm); padding: 20px; text-align: center;">
+                <div style="font-size: 2rem; font-weight: 700; color: var(--text-h); font-family: var(--font-mono);">{{ stats.total_evidence }}</div>
+                <div style="font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; margin-top: 4px;">Evidence Pieces Collected</div>
+            </div>
+            <div style="background: rgba(255,255,255,0.03); border-radius: var(--radius-sm); padding: 20px; text-align: center;">
+                <div style="font-size: 2rem; font-weight: 700; color: var(--text-h); font-family: var(--font-mono);">{{ stats.avg_evidence_per_app }}</div>
+                <div style="font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; margin-top: 4px;">Avg Evidence / App</div>
+            </div>
+            <div style="background: rgba(255,255,255,0.03); border-radius: var(--radius-sm); padding: 20px; text-align: center;">
+                <div style="font-size: 2rem; font-weight: 700; color: var(--text-h); font-family: var(--font-mono);">{{ stats.browser_verified }}</div>
+                <div style="font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; margin-top: 4px;">Browser Verified</div>
+            </div>
+            <div style="background: rgba(255,255,255,0.03); border-radius: var(--radius-sm); padding: 20px; text-align: center;">
+                <div style="font-size: 2rem; font-weight: 700; color: var(--text-h); font-family: var(--font-mono);">{% if stats.total_evidence < 30 %}~1m{% else %}~{{ (stats.total_evidence // 30) }}m{% endif %}</div>
+                <div style="font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; margin-top: 4px;">Processing Time</div>
+            </div>
+        </div>
+
+        <h3 style="margin-top: 40px;">Human Review Rules</h3>
+        <ul class="principles-list">
+            <li><strong>Automated queuing:</strong> Apps are flagged for review based on deterministic rules (score &lt; 0.90, UNKNOWN fields, insufficient evidence, browser discrepancies).</li>
+            <li><strong>Evidence-driven review:</strong> The reviewer sees pipeline values alongside evidence excerpts before making a correction.</li>
+            <li><strong>Audit trail:</strong> Every override records the old value, new value, and reason, enabling a full mistakes table.</li>
+            <li><strong>No confidence boost:</strong> Human review does not modify confidence scores — it records ground truth corrections.</li>
+            <li><strong>Sample accuracy:</strong> The pipeline's correctness is measured on the reviewed sample only, not extrapolated.</li>
+        </ul>
+
+        <h3 style="margin-top: 40px;">Key Design Principles</h3>
+        <ul class="principles-list">
             <li><strong>Evidence provenance:</strong> Every extracted value cites specific evidence IDs traceable to source URLs.</li>
             <li><strong>Deterministic validation:</strong> Python-only checks — no LLM reasoning in the validation loop.</li>
             <li><strong>Browser verification:</strong> Playwright-based checks only for disputed/UNKNOWN fields.</li>
@@ -456,7 +882,8 @@
 </section>
 
 <footer class="footer">
-    Composio App Research Pipeline · AI-Driven Evidence Analysis · Generated {{ stats.total_apps }} app profiles
+    <p><strong>Composio App Research Pipeline</strong></p>
+    <p style="margin-top: 8px;">AI-Driven Evidence Analysis · Generated {{ stats.total_apps }} app profiles</p>
 </footer>
 
 <script>
@@ -464,41 +891,106 @@
 {% for name, chart_json in charts.items() %}
 (function() {
     try {
-        var data = JSON.parse('{{ chart_json | safe }}');
+        var data = JSON.parse({{ chart_json | tojson | safe }});
         data.layout = data.layout || {};
         data.layout.paper_bgcolor = 'rgba(0,0,0,0)';
         data.layout.plot_bgcolor = 'rgba(0,0,0,0)';
-        data.layout.font = { color: '#a0a0b8', family: 'Inter, sans-serif' };
+        data.layout.font = { color: '#a1a1aa', family: 'Inter, sans-serif' };
         data.layout.margin = { l: 60, r: 20, t: 50, b: 60 };
+        // Adjust grid and axis colors for dark mode
+        if(data.layout.xaxis) {
+            data.layout.xaxis.gridcolor = 'rgba(255,255,255,0.05)';
+            data.layout.xaxis.zerolinecolor = 'rgba(255,255,255,0.1)';
+        }
+        if(data.layout.yaxis) {
+            data.layout.yaxis.gridcolor = 'rgba(255,255,255,0.05)';
+            data.layout.yaxis.zerolinecolor = 'rgba(255,255,255,0.1)';
+        }
         Plotly.newPlot('chart-{{ name }}', data.data, data.layout, { responsive: true, displayModeBar: false });
     } catch(e) { console.warn('Chart {{ name }}:', e); }
 })();
 {% endfor %}
 
+// Data Table Logic
+let currentPage = 1;
+const pageSize = 10;
+
+function updatePagination() {
+    var table = document.getElementById('dataTable');
+    if (!table) return;
+    
+    var allRows = Array.from(table.querySelectorAll('tbody tr'));
+    var query = document.getElementById('searchInput').value.toLowerCase();
+    
+    var activeBtn = document.querySelector('.table-toolbar .filter-btn.active');
+    var activeFilter = activeBtn ? (activeBtn.dataset.filter || 'all') : 'all';
+    
+    var visibleRows = allRows.filter(row => {
+        let matchesSearch = row.textContent.toLowerCase().includes(query);
+        let matchesFilter = true;
+        if (activeFilter === 'SUPPORTED') {
+            matchesFilter = row.dataset.status === activeFilter;
+        } else if (activeFilter !== 'all') {
+            matchesFilter = row.dataset.buildability === activeFilter;
+        }
+        return matchesSearch && matchesFilter;
+    });
+
+    // Hide all rows
+    allRows.forEach(row => row.style.display = 'none');
+    
+    // Pagination math
+    let total = visibleRows.length;
+    let totalPages = Math.ceil(total / pageSize) || 1;
+    if (currentPage > totalPages) currentPage = totalPages;
+    if (currentPage < 1) currentPage = 1;
+    
+    let start = (currentPage - 1) * pageSize;
+    let end = start + pageSize;
+    
+    // Show only the current page rows
+    let pageRows = visibleRows.slice(start, end);
+    pageRows.forEach(row => row.style.display = '');
+    
+    // Update Info and Buttons
+    let endDisplay = Math.min(end, total);
+    let startDisplay = total === 0 ? 0 : start + 1;
+    document.getElementById('pageInfo').textContent = `Showing ${startDisplay} to ${endDisplay} of ${total} entries`;
+    
+    var prevBtn = document.getElementById('prevPage');
+    var nextBtn = document.getElementById('nextPage');
+    
+    prevBtn.disabled = currentPage === 1;
+    prevBtn.style.opacity = currentPage === 1 ? '0.5' : '1';
+    prevBtn.style.cursor = currentPage === 1 ? 'not-allowed' : 'pointer';
+    
+    nextBtn.disabled = currentPage === totalPages;
+    nextBtn.style.opacity = currentPage === totalPages ? '0.5' : '1';
+    nextBtn.style.cursor = currentPage === totalPages ? 'not-allowed' : 'pointer';
+}
+
+function changePage(delta) {
+    currentPage += delta;
+    updatePagination();
+}
+
 // Search
 document.getElementById('searchInput').addEventListener('input', function() {
-    var query = this.value.toLowerCase();
-    var rows = document.querySelectorAll('#dataTable tbody tr');
-    rows.forEach(function(row) {
-        row.style.display = row.textContent.toLowerCase().includes(query) ? '' : 'none';
-    });
+    currentPage = 1;
+    updatePagination();
 });
 
 // Filter
-function filterBy(value) {
-    var rows = document.querySelectorAll('#dataTable tbody tr');
-    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-    event.target.classList.add('active');
-
-    rows.forEach(function(row) {
-        if (value === 'all') {
-            row.style.display = '';
-        } else if (value === 'SUPPORTED') {
-            row.style.display = row.dataset.status === value ? '' : 'none';
-        } else {
-            row.style.display = row.dataset.buildability === value ? '' : 'none';
-        }
+function filterBy(value, event) {
+    document.querySelectorAll('.table-toolbar .filter-btn').forEach(b => {
+        b.classList.remove('active');
     });
+    if(event && event.target) {
+        event.target.classList.add('active');
+        event.target.dataset.filter = value;
+    }
+    currentPage = 1;
+    updatePagination();
 }
 
 // Sort
@@ -508,12 +1000,17 @@ function sortTable(colIndex) {
     var rows = Array.from(table.querySelectorAll('tbody tr'));
     sortDir[colIndex] = !sortDir[colIndex];
 
+    var headers = table.querySelectorAll('th span');
+    headers.forEach(h => h.textContent = '↕');
+    headers[colIndex].textContent = sortDir[colIndex] ? '↑' : '↓';
+
     rows.sort(function(a, b) {
         var aText = a.cells[colIndex].textContent.trim();
         var bText = b.cells[colIndex].textContent.trim();
         var aNum = parseFloat(aText.replace('%', ''));
         var bNum = parseFloat(bText.replace('%', ''));
-        if (!isNaN(aNum) && !isNaN(bNum)) {
+        
+        if (!isNaN(aNum) && !isNaN(bNum) && aText.includes('%') && bText.includes('%')) {
             return sortDir[colIndex] ? aNum - bNum : bNum - aNum;
         }
         return sortDir[colIndex] ? aText.localeCompare(bText) : bText.localeCompare(aText);
@@ -521,6 +1018,25 @@ function sortTable(colIndex) {
 
     var tbody = table.querySelector('tbody');
     rows.forEach(function(row) { tbody.appendChild(row); });
+    
+    currentPage = 1;
+    updatePagination();
+}
+
+// Init
+document.addEventListener('DOMContentLoaded', () => {
+    updatePagination();
+});
+
+// Download CSV
+var CSV_DATA = {{ csv_data | tojson }};
+function downloadCSV() {
+    var blob = new Blob([CSV_DATA], { type: 'text/csv;charset=utf-8;' });
+    var link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = 'research_data.csv';
+    link.click();
+    URL.revokeObjectURL(link.href);
 }
 </script>
 </body>

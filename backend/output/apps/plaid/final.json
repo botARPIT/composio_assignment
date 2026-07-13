@@ -1,0 +1,321 @@
+{
+  "app": {
+    "id": 82,
+    "name": "Plaid",
+    "website": "plaid.com/docs",
+    "category_hint": "Finance and Fintech"
+  },
+  "documentation_map": {
+    "app_name": "Plaid",
+    "official_domain": "plaid.com",
+    "homepage": {
+      "url": "https://plaid.com/docs",
+      "title": "Plaid",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://plaid.com/docs/auth",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://plaid.com/docs/api",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://plaid.com/pricing",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": null,
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://plaid.com/docs",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "Plaid",
+      "official_domain": "plaid.com",
+      "items": [
+        {
+          "url": "https://plaid.com/docs",
+          "page_type": "homepage",
+          "title": "Plaid",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://plaid.com/docs/auth",
+          "page_type": "authentication",
+          "title": "",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://plaid.com/docs/api",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://plaid.com/pricing",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://plaid.com/docs",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 1,
+        "urls_discovered": 5,
+        "official_urls": 5,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 1,
+        "canonical_selected": 5
+      }
+    },
+    "stats": {
+      "queries": 1,
+      "urls_discovered": 5,
+      "official_urls": 5,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 1,
+      "canonical_selected": 5
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_509cecd371f9",
+      "source_type": "auth_docs",
+      "url": "https://plaid.com/docs/auth",
+      "domain": "plaid.com",
+      "page_title": "Auth - Introduction to Auth | Plaid Docs",
+      "content": "Introduction to Auth\nInstantly retrieve account information to set up pay-by-bank payments via ACH and more\nAuth allows you to request a user's checking, savings, or cash management account and routing number, making it easy for you to initiate credits or debits via ACH, wire transfer, or equivalent international networks. Auth makes it easy for end users to fund an account with your app, cash out to their bank account, or make purchases via pay-by-bank.\nTo move money, Auth must be used with a payment processor: either a Plaid Partner or another third party. For more information, see Using a Payments Service. For an all-in-one solution that includes payment processor functionality, see Transfer (US-only). For more details, see Auth vs. Transfer comparison.\nAuth can only be used with debitable checking, savings, or cash management accounts. Credit-type accounts, including credit cards, cannot receive payments directly via electronic interbank transfers, and Auth data cannot be used to set up credit card payments. Auth can not be used to connect debit cards; instead, you can make a transfer directly from the user's bank account, saving you money over using the debit card network.\nAuth is commonly used in combination with other Plaid APIs that reduce risk and support compliance, such as Balance (to verify accounts have sufficient funds), Signal (to calculate the risk of ACH returns with ML-powered analysis), and Identity (to verify ownership information on the account).\nFor account funding use cases, see Identity Verification for an end-to-end KYC compliance solution with optional AML capabilities.\nAuth integration process\nBelow is a high level overview of the Auth integration process. For a more detailed walkthrough, see Add auth to your app or (if applicable) the docs for the specific partner you are using.\nIf your use case involves the end user choosing between paying via a credit card and paying via a bank account, it is strongly recommended to use the Embedded experience for Link to increase uptake of pay-by-bank.\n- Create a Link token by calling /link/token/createwithauthin theproductsparameter.\n- Initialize Link with the Link token from the previous step. For more details, see Link. - For Link configuration recommendations, see Optimizing the Link UI for Auth.\n \n- Once the user has successfully completed the Link flow, exchange the public_tokenfor anaccess_tokenby calling/item/public_token/exchange.\n- If using a Plaid partner for payment processing, ensure the partner is enabled on your Plaid Dashboard, then call /processor/token/createor/processor/stripe/bank_account_token/createto obtain a token that you will provide to the partner to enable funds transfers. For more detailed instructions, including a full walkthrough, see Auth payment partners.\n- If not using a Plaid partner, call /auth/getto obtain the account and routing number, then provide these fields to your payment processing system.\n- Listen for the PENDING_DISCONNECTwebhook. If you receive it, send the Item through update mode. If update mode is not completed for the Item within 7 days of webhook receipt, consent will expire, which may lead to the account and routing number becoming invalid. For more details, see PNC TAN expiration. Note that consent expiration does not result in a webhook.\n- Listen for the USER_PERMISSION_REVOKEDandUSER_ACCOUNT_REVOKEDwebhooks. These webhooks indicate that you should send the Item through update mode to refresh consent; if update mode cannot be launched for the Item, create a new Item instead. Attempting to use the account and routing number for transactions without successfully completing update mode may result in ACH returns. For more details, see PNC TAN expiration.\n- Implement special remediation steps for PNC Items: if the Item is at PNC and update mode has not been completed within 7 days of receiving the PENDING_DISCONNECTwebhook as described in step 6, or if the permissions have been revoked as described in step 7, then the account and routing number will become invalid and must be regenerated. In addition to sending the Item through update mode, you must also call/auth/get,/processor/token/create, or/processor/stripe/bank_account_token/create, as relevant to your use case, to get a new set of routing and account numbers. To simplify your application logic, you can do this every time you send a PNC Item through update mode when using Auth. For more details, see PNC TAN expiration.\n- (Optional) Listen for the AUTH: DEFAULT_UPDATEwebhook. This webhook indicates that the routing and/or account number for an account on the Item has changed (this is very rare). Call/auth/get,/processor/token/create, or/processor/stripe/bank_account_token/createon that Item, as applicable for your integration, and use only the new numbers or processor token.\n- (Optional) To enable and configure additional Auth verification flows, such as micro-deposit verification or database verification, use the Account Verification Dashboard. For demos and more information, see Additional verification flows.\nUsing a payments service\nLooking for bank-to-bank transfer capabilities and don't have a payment processor yet? Check out Transfer (US only) for a money movement solution with built-in payment processing capabilities. See Auth and Transfer comparison to learn more.\nWhen using Auth, you will send Auth data to a payments service to initiate an interbank transfer; Plaid does not function as the payment processor. While Plaid is processor-agnostic and allows you to work with any partner you want, one easy way to make transfers is to work with a payments platform that partners with Plaid, such as Dwolla or Square. Working with these partners, you will not call the /auth/get endpoint, so you will not obtain a user's bank account information. Instead, you will call /processor/token/create or /processor/stripe/bank_account_token/create to obtain a Plaid token that you will provide to the partner and that allows them to make these Plaid API calls as needed. For detailed instructions on how to set up Auth with a Plaid partner, as well as a list of supported funds transfer partners, see Auth Partnerships.\nYou are free to mix-and-match usage of a processor partner with your own direct usage of the Plaid API on the same linked Items. For example, if you have created a processor_token for a partner to use, you may choose to have this partner also perform ACH return risk assessment using the processor token. But if the partner does not provide this functionality, or you wish to do it yourself, you may do your own risk assessment by calling /signal/evaluate directly using the Item's access token.\nIf you choose to use a payments provider who is not a Plaid partner, you will need to obtain bank account numbers and codes directly using /auth/get. In the US, this data must be stored and handled in compliance with Nacha rules; consult your internal compliance team or the Nacha site for details. Given the sensitive nature of this information, we also recommend that you consult the Open Finance Data Security Standard for security best practices. \nYou can also integrate with one of Plaid's Data Security partners to process and share tokenized bank account numbers instead of raw bank account numbers. Contact your account manager to learn more about these partnerships.\nEnabling additional verification methods with the Account Verification Dashboard\nUsing the Account Verification Dashboard, you can customize the Auth experience to increase conversion, enabling features like micro-deposit-based verification and database verification for end users who cannot or do not want to log into their bank accounts. You can also customize when these features are presented to users. The Account Verification Dashboard also allows you to reduce account takeover fraud by incorporating Identity Match directly into the Link flow.\nFor more information on the verification options you can enable via the Account Verification Dashboard, see Additional verification methods.\nYou can also use the Dashboard to view the status of any completed, Auth-enabled Link session.\nThe Dashboard Account Verification analytics page shows a breakdown of Auth conversion analytics by connection method.\nOptimizing the Link UI for Auth\nBy default, only checking, savings, and cash management accounts will appear when using Auth, and institutions that do not support these accounts will not appear in the Institution Select pane.\nThe following Link configuration options are commonly used with Auth:\n- Account select: The \"Account Select: Enabled for one account\" setting configures the Link UI so that the end user may only select a single account. If you are not using this setting, you will need to build your own UI to let your end user select which linked account they want to use to send or receive funds.\n- Embedded Institution Search: This presentation mode shows the Link institution search screen embedded directly into your UI, before the end user has interacted with Link. Embedded Institution Search increases end user uptake of pay-by-bank payment methods and is strongly recommended when implementing Auth as part of a pay-by-bank use case where multiple different payment methods are supported.\nPay by bank optimization\nIf you have a pay-by-bank use case, see Increasing pay-by-bank adoption for tips on how to reduce your transaction fees by increasing the uptake of customers choosing to pay by bank.\nTokenized account numbers\nInstitutions that interface with Plaid via an OAuth portal may return a tokenized account number (TAN) in the Auth response. A TAN can be utilized by any ACH processor in place of the user's actual account number, and will be reconciled by the issuing bank on settlement. Each app a user connects to will receive a unique TAN, rather than the user's exact account number. TANs allow either the end-user or the institution itself to more rigorously monitor and even sever a specific app's ability to transfer funds. These account numbers behave differently from regular account numbers in a number of important ways.\nTo determine if a tokenized account number is being used, use the is_tokenized_account_number field in the /auth/get or /processor/auth/get response. Currently, only Chase, PNC, and US Bank use tokenized account numbers.\nOnly the numbers.ach[].account field can be set as a TAN (excluding brokerage or international specific numbers results). TANs are only valid for the ACH and RTP payment rails - they may not be used for wire transfers or physical checks. TANs may not be supported by your third-party fraud and account verification databases and vendors.\nInstitutions that use TANs do not always expose them to end users; to avoid confusion, in user-facing UIs, always display the account mask rather than the account number, as end users will not recognize the issued TAN.\nIf a user revokes access to their account (such as via the Chase Security center or my.plaid.com), the TAN will become invalid and any attempt to make a transfer using that TAN will fail with an R04 return code. To avoid returns, listen for the USER_PERMISSION_REVOKED and USER_ACCOUNT_REVOKED webhooks and do not use an account number, processor token, or Stripe bank account token associated with an Item or account where access has been revoked. Instead, send the end user through update mode to restore the Item, then call the Auth endpoint again. If update mode cannot be launched for the Item, create a new Item instead.\nAt US Bank, TANs do not become invalid, even after Item deletion or revocation.\nBecause account numbers alone cannot reliably be used to uniquely identify TAN-enabled accounts across different Item instances, Plaid provides a persistent_account_id field for this purpose. This field is only available at institutions that use TANs.\nIf a Chase duplicate Item is created, the old Item will be invalidated, but the TAN on the new Item will remain the same. The TAN will only change if the user revokes access.\nIf multiple Items in your app correspond to the same account (for example, in the case of a joint bank account with multiple owners), each Item will typically have a different TAN.\nTANs will always be accompanied by a routing number. The TAN must be used with the routing number returned by the API. If used with a different routing number, even one associated with the same bank, the transfer may fail.\nIn Sandbox, the Auth product results will have the is_tokenized_account_number boolean set to true if the Chase (ins_56), PNC (ins_13),  US Bank (ins_127990), or the Platypus OAuth Bank (ins_127287) institution_id is set in the /sandbox/public_token/create request body or the respective FIs are selected from the Sandbox Link pane.\nPNC TAN expiration\nAll TAN expirations at PNC have been indefinitely postponed until further notice; they had been scheduled to begin in January 2026. While PNC Items will still expire after one year if consent is not renewed, the TAN will continue to be valid.\nAt PNC, any Item initialized with Auth after October 2024 will have a consent_expiration_time set to 1 year from the date that the user last provided consent. When the Item's consent expires, the TAN will expire as well and cannot be used to make ACH transfers. This applies regardless of how you are accessing the account numbers: via /auth/get, via the Transfer product, or via processor tokens.\nYou can renew consent on the Item by sending the user through update mode.\nYou can check the Item's expiration date by calling /auth/get or /item/get and looking for the consent_expiration_time field in the response.\nIf the Item's consent had already expired when you sent the Item through update mode, you must call /auth/get, /processor/token/create, or /processor/stripe/bank_account_token/create to obtain a new TAN after completing update mode, as the old TAN will not be re-activated. \nIn addition, if the user has multiple depository accounts at PNC, then when going through the OAuth portion of the update mode flow, it's possible that they may de-select the PNC account that they originally shared with you and select a different PNC account instead. If this happens, the TAN of the account they originally shared will be invalidated. For this reason, it is recommended to call /auth/get, /processor/token/create, or /processor/stripe/bank_account_token/create every time you send a PNC Item through update mode. \nNote that there is no additional fee for these API calls, since Auth uses a one-time fee billing model; you are only charged for your first Auth call to each Item.\nPNC TAN expiration does not apply to Items initialized with Auth prior to October 2024, as these Items use real account numbers rather than TANs.\nUpdates to Auth data\nBecause routing and account numbers are inherently persistent, Plaid does not check for updates to Auth data for existing Items except in special circumstances, such as a bank changing its routing numbers due to a system change or merger. Plaid will also check for updated Auth data if a new user account is added to an Item via update mode.\nEnabling limited purpose checking accounts for rent or mortgage\nThe instructions below are intended only for customers who receive rent or mortgage payments via Plaid Auth and who have adequate anti-fraud measures in place to allow accepting ACH payments without balance checks. To learn more, see Anti-fraud best practices.\nA small number of financial institutions in the rent-tech space have limited-purpose checking accounts that can only be used for paying rent or making mortgage payments. These accounts function as a sort of virtualized ACH interface on top of an end user's funding source (usually their primary bank account). Because these accounts do not provide balance data values that correspond to funds actually available for payments, Plaid does not return balance data for this account subtype.\nBy default, limited-purpose checking accounts cannot be added via Link. However, integrations focused on receiving rent and mortgage payments may wish to enable them. If you would like to opt in to showing them in Link, use the account_filters setting in /link/token/create to enable limited purpose checking accounts.  \nIf enabling limited purpose checking accounts, ensure that the filter object includes all account subtypes you would like to support for Auth, not just the limited purpose checking subtype.\n\"account_filters\": {\n    \"depository\": {\n      \"account_subtypes\": [\n        \"checking\",\n        \"limited purpose checking\",\n        \"savings\",\n        \"cash management\"\n      ],\n      \"limited_purpose_types\": [\"RENT_MORTGAGE\"]\n    }\n  }To test this flow in Sandbox, use the institution \"First Platypus Limited Purpose\" with the username and password user_limited_purpose_checking / pass_good.\nBoth current_balance and available_balance will be null for limited-purpose checking accounts. If you opt in to enabling these accounts, ensure your balance check process and/or any Signal Rules in the Dashboard are set up to allow null balances, and note that there may be additional risk of returned payments for these account types due to the inability to confirm funds in the account and the limited use cases of the accounts. To help manage this risk, it is recommended that you have anti-fraud measures in place. If you require a list of Plaid-supported institutions that offer limited-purpose checking accounts, contact your account manager.  \nFor Items with limited-purpose checking account types, if consent for Auth was not obtained on initial Link by adding auth to the products, optional_products, required_if_supported_products, or additional_consented_products array, then the Item must go through Update Mode to add auth post-Link.\nUnited States (ACH) Auth data\nThe United States uses the Automated Clearing House (ACH) system for funds transfers, which uses account and routing numbers. Banks also have a second routing number, known as the wire transfer routing number. Wire transfers can be used to receive international payments and can be faster than ACH transfers, but often involve a fee. Plaid Auth can only provide wire transfer routing numbers for institutions in the US.\nFor a detailed, comprehensive guide to ACH transfers and payments, see Plaid's Modern Guide to ACH.\n\"numbers\": {\n  \"ach\": [\n    {\n      \"account\": \"1111222233330000\",\n      \"account_id\": \"bWG9l1DNpdc8zDk3wBm9iMkW3p1mVWCVKVmJ6\",\n      \"routing\": \"011401533\",\n      \"wire_routing\": \"021000021\"\n    }\n  ],\n  \"bacs\": [],\n  \"eft\": [],\n  \"international\": []\n}Auth data for other countries\nCanada (EFT)\nIn Canada, the routing number is in a different format than US routing numbers and broken into two pieces: the institution number, followed by the transit number (also known as the branch number). Canada uses Electronic Funds Transfer (EFT); VoPay is a Plaid partner that can be used to process EFT transfers.\n\"numbers\": {\n  \"eft\": [\n    {\n      \"account\": \"111122220000\",\n      \"account_id\": \"qVZ3Bwbo5wFmoVneZxMksBvN6vDad6idkndAB\",\n      \"branch\": \"01533\",\n      \"institution\": \"114\"\n    }\n  ],\n  ...\n}Europe (SEPA transfers)\nFor funds transfers in Europe, also consider the Payment Initiation API, which allows end-to-end payments directly, without having to integrate an additional payment processor.\nAcross Europe, institutions use a Business Identifier Code (BIC), also known as a SWIFT code. Each bank account has an International Bank Account Number (IBAN), which is used along with the BIC for funds transfers. Many bank accounts also have internal, non-IBAN account numbers that cannot be used for funds transfers. The funds transfer system is known as the Single Euro Payments Area (SEPA), and it supports SEPA credit transfer, SEPA instant credit transfer, and SEPA direct debit. SEPA payments are always denominated in euros, so institutions in non-euro countries (such as the UK or Switzerland) participate in SEPA for euro-denominated payments only; their domestic-currency payments use other systems.\n\"numbers\": {\n  \"international\": [\n    {\n      \"account_id\": \"blgvvBlXw3cq5GMPwqB6s6q4dLKB9WcVqGDGo\",\n      \"bic\": \"BOFIIE2DXXX\",\n      \"iban\": \"IE17BOFI90583812345678\"\n    }\n    ...\n  ]\n}United Kingdom (Bacs)\nFor funds transfers in the UK, also consider the Payment Initiation API, which allows end-to-end payments directly, without having to integrate an additional payment processor.\nThe UK uses the SEPA system as well as Bacs. Payments within the Bacs system cannot be made outside the UK and take several days to process. Bacs payments are typically used for recurring payments, such as direct debits for bills and subscriptions and direct credits for payroll. UK bank accounts will typically have both a Bacs sort code and an IBAN and support both Bacs transfers and SEPA transfers.\n\"numbers\": {\n  \"bacs\": [\n    {\n      \"account\": \"80000000\",\n      \"account_id\": \"blgvvBlXw3cq5GMPwqB6s6q4dLKB9WcVqGDGo\",\n      \"sort_code\": \"040004\"\n    }\n  ],\n  \"international\": [\n    {\n      \"account_id\": \"blgvvBlXw3cq5GMPwqB6s6q4dLKB9WcVqGDGo\",\n      \"bic\": \"MONZGB21XXX\",\n      \"iban\": \"GB23MONZ04000480000000\"\n    }\n  ]\n  ...\n}Sample app code\nFor a real-life example of an app that incorporates Auth, see the Node-based Plaid Pattern Account Funding sample app. Pattern Account Funding is a sample account funding app that fetches Auth data in order to set up funds transfers. The Auth code can be found in items.js.\nTesting Auth\nPlaid provides a GitHub repo with test data for testing Auth in Sandbox, helping you test configuration options beyond those offered by the default Sandbox user. For more information on configuring custom Sandbox data, see Configuring the custom user account.\nFor details on testing Auth with more complex Auth flows such as micro-deposit-based Auth, first familiarize yourself with Adding Institution Coverage, then see Test in Sandbox.\nAuth pricing\nAuth is billed on a one-time fee model. To view the exact pricing you may be eligible for, apply for Production access or contact sales. For more details about pricing and billing models, see Plaid billing.\nNext steps\nNow that you understand Auth, add Auth to your app, or see Move Money with Auth partners to see specific instructions for configuring Auth with Plaid partners.\nIf you're ready to launch to Production, see the Launch Center.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:13:15.895210Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 5592,
+      "quality_score": 0.88
+    },
+    {
+      "id": "ev_383f15eaf663",
+      "source_type": "api_reference",
+      "url": "https://plaid.com/docs/api",
+      "domain": "plaid.com",
+      "page_title": "API - Overview | Plaid Docs",
+      "content": "API Reference\nComprehensive reference for integrating with Plaid API endpoints\nAPI endpoints and webhooks\nFor documentation on specific API endpoints and webhooks, use the navigation menu or search.\nAPI access\nTo gain access to the Plaid API, create an account on the Plaid Dashboard. Once you've completed the signup process and acknowledged our terms, we'll provide a live client_id and secret via the Dashboard.\nAPI protocols and headers\nThe Plaid API is JSON over HTTP. Requests are POST requests, and responses are JSON, with errors indicated in response bodies as error_code and error_type (use these in preference to HTTP status codes for identifying application-level errors). All responses come as standard JSON, with a small subset returning binary data where appropriate. The Plaid API is served over HTTPS TLS v1.2 to ensure data privacy; HTTP and HTTPS with TLS versions other than 1.2 are not supported. Clients must use an up to date root certificate bundle as the only TLS verification path; certificate pinning should never be used. All requests must include a Content-Type of application/json and the body must be valid JSON. \nAlmost all Plaid API endpoints require a client_id and secret. These may be sent either in the request body or in the headers PLAID-CLIENT-ID and PLAID-SECRET.\nEvery Plaid API response includes a request_id, either in the body or (in the case of endpoints that return binary data, such as /asset_report/pdf/get) in the response headers. For faster support, include the request_id when contacting support regarding a specific API call.\nAPI host\nhttps://sandbox.plaid.com (Sandbox)\nhttps://production.plaid.com (Production)Plaid has two environments: Sandbox and Production. Items cannot be moved between environments. The Sandbox environment supports only test Items. You can request Production API access via the Dashboard.\nAPI status and incidents\nAPI status is available at status.plaid.com.\nAPI status and incidents are also available programmatically via the following endpoints:\n- https://status.plaid.com/api/v2/status.json for current status\n- https://status.plaid.com/api/v2/incidents.json for current and historical incidents\nFor a complete list of all API status information available programmatically, as well as more information on using these endpoints, see the Incident.io Status API documentation.\nFor information on institution-specific insights, see Troubleshooting institution insights.\nStoring API data\nAny token returned by the API is sensitive and should be stored securely. Except for the public_token and link_token, all Plaid tokens are long-lasting and should never be exposed on the client side. Consumer data obtained from the Plaid API is sensitive information and should be managed accordingly. For guidance and best practices on how to store and handle sensitive data, see the Open Finance Data Security Standard.\nIdentifiers used by the Plaid API that do not contain consumer data and are not keys or tokens are designed for usage in less sensitive contexts. The most common of these identifiers are the account_id, item_id, link_session_id, and request_id. These identifiers are commonly used for logging and debugging purposes.\nAPI field formats\nStrings\nMany string fields returned by Plaid APIs are reported exactly as returned by the financial institution. For this reason, Plaid does not have maximum length limits or standardized formats for strings returned by the API. In practice, field lengths of 280 characters will generally be adequate for storing returned strings, although Plaid does not guarantee this as a maximum string length.\nNumbers and money\nPlaid returns all currency values as decimal values in dollars (or the equivalent for the currency being used), rather than as integers. In some cases, it may be possible for a money value returned by the Plaid API to have more than two digits of precision -- this is common, for example, when reporting crypto balances.\nOpenAPI definition file\nOpenAPI is a standard format for describing RESTful APIs that allows those APIs to be integrated with tools for a wide variety of applications, including testing, client library generation, IDE integration, and more. The Plaid API is specified in our Plaid OpenAPI GitHub repo.\nPostman collection\nThe Postman collection is a convenient tool for exploring Plaid API endpoints without writing code. The Postman collection provides pre-formatted requests for almost all of Plaid's API endpoints. All you have to do is fill in your API keys and any arguments. To get started, check out the Plaid Postman Collection Quickstart on GitHub.\nClient libraries\nSee the client libraries page for more information on Plaid's client libraries.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:13:15.920374Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 1178,
+      "quality_score": 0.88
+    },
+    {
+      "id": "ev_b328d020e7d4",
+      "source_type": "pricing_page",
+      "url": "https://plaid.com/pricing",
+      "domain": "plaid.com",
+      "page_title": "Pricing - United States & Canada | Plaid",
+      "content": "Pricing Plans\nSimple, scalable plans for businesses of all sizes\nPay as You Go\nBest for individuals and developers\nStart with our month-to-month plan: unlimited usage, no commitments upfront—only pay for what you use.\nKey Features\n- Access to GA products \n- Unlimited live API calls \n- Link customization \n- Standard Pricing \nGrowth\nBest for small teams and startups\nScale with a 12-month commitment: access discounts, platform support package, and account management.\nKey Features\n- Everything in Pay as You Go \n- Discounted product rates \n- Platform support package \n- Single Sign-On for Plaid Dashboard \nCustom\nBest for businesses that need to scale\nCreate a flexible plan with custom solutions, volume-based pricing, and support for regulated industries.\nKey Features\n- Everything in Growth \n- Access to beta products \n- Volume discounts \n- Integration assistance \n- Premium support \n- Account Management \nStart testing in sandbox for free\n*Talk to a Plaid Contact to learn more\nGet answers to your pricing questions\nReach out if we missed yours.\nYes. Consumers can use Plaid to safely connect and control the financial information they share with apps or services at no cost.\nAbsolutely. Our Limited Production service allows you to make up to 200 API calls with each available product using live data. This is the best way to start learning about and testing Plaid’s APIs.\n- One-time fee products: You’ll incur a charge only once per connected account, regardless of the number of API calls made.\n- Subscription products: These incur a monthly fee for each connected account.\n- Per-request products: These have a flat fee for every successful API call.\nIt’s simple—once you sign up for the products you need in Plaid's production dashboard, we’ll charge the card on file for the connected items (accounts). No upfront commitments. Only pay for what you use.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:13:18.340142Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 465,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_410c6f5754b3",
+      "source_type": "official_docs",
+      "url": "https://plaid.com/docs",
+      "domain": "plaid.com",
+      "page_title": "Home | Plaid Docs",
+      "content": "Welcome to the Docs\nHere you'll find guides, resources, and references to build with Plaid.\nQuickstart\nLearn about Plaid's key concepts and run starter code\nGet startedQuickstart\nLearn about Plaid's key concepts and run starter code\nGet startedAPI Reference\nExplore server-side API libraries and integrate with API endpoints\nView referenceAPI Reference\nExplore server-side API libraries and integrate with API endpoints\nView referenceLink\nLink, Plaid's client-side component, helps your users connect their accounts\nBuild with LinkLink\nLink, Plaid's client-side component, helps your users connect their accounts\nBuild with LinkPayments and Funding\nAuth\nRetrieve bank account information for ACH, wire, and other bank-to-bank transfers.\nBalance\nIdentity\nSignal Transaction Scores\nTransfer\nInvestments Move\nGet verified data for initiating an ACATS or ATON brokerage-to-brokerage transfer.\nPayments (Europe)\nMake one-time payments, recurring payments, or payouts within your app.\nFinancial Insights\nTransactions\nRetrieve transaction data for budgeting tools, expense management, and more.\nInvestments\nLiabilities\nAccess loan data, like balances and interest rates, for student loans, mortgages, and credit cards.\nEnrich\nAdd detailed information and insights to your existing transactions data.\nKYC, AML, and anti-fraud\nIdentity Verification\nGlobal KYC compliance and anti-fraud. Verify user identity data and documents.\nMonitor\nProtect\nPrevent fraud before it happens — at every step of the user lifecycle.\nCredit and Underwriting\nConsumer Report (by Plaid Check)\nMake smarter credit and lending decisions with insights powered by Plaid Check.\nAssets\nStatements\nGet PDF statements directly from the user's bank, for underwriting verification and compliance.\nIncome\nVerify income and employment, for lending use cases and more.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:13:16.120908Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 456,
+      "quality_score": 0.46
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Plaid provides APIs for retrieving account information and facilitating bank payments.",
+      "evidence_ids": [
+        "ev_509cecd371f9"
+      ]
+    },
+    "category": {
+      "value": "Finance and Fintech",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "OAuth",
+      "evidence_ids": [
+        "ev_509cecd371f9"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_383f15eaf663"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API",
+      "evidence_ids": [
+        "ev_383f15eaf663"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_509cecd371f9"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_509cecd371f9"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_509cecd371f9"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_509cecd371f9"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.75,
+    "fields_checked": 8,
+    "fields_supported": 6,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.75,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.75 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

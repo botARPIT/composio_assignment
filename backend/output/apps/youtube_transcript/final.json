@@ -1,0 +1,393 @@
+{
+  "app": {
+    "id": 99,
+    "name": "YouTube Transcript",
+    "website": "transcriptapi.com",
+    "category_hint": "AI Research and Media"
+  },
+  "documentation_map": {
+    "app_name": "YouTube Transcript",
+    "official_domain": "transcriptapi.com",
+    "homepage": {
+      "url": "https://transcriptapi.com",
+      "title": "YouTube Transcript",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://transcriptapi.com/docs/authentication",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://transcriptapi.com/docs/api",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://transcriptapi.com/pricing",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "sdk": {
+      "primary": {
+        "url": "https://transcriptapi.com/docs/sdk",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "mcp": {
+      "primary": {
+        "url": "https://transcriptapi.com/docs/mcp",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://transcriptapi.com/docs",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": {
+      "primary": {
+        "url": "https://transcriptapi.com/docs/webhooks",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "YouTube Transcript",
+      "official_domain": "transcriptapi.com",
+      "items": [
+        {
+          "url": "https://transcriptapi.com",
+          "page_type": "homepage",
+          "title": "YouTube Transcript",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://transcriptapi.com/docs/authentication",
+          "page_type": "authentication",
+          "title": "",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://transcriptapi.com/docs/api",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://transcriptapi.com/pricing",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://transcriptapi.com/docs",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://transcriptapi.com/docs/sdk",
+          "page_type": "sdk",
+          "title": "",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://transcriptapi.com/docs/webhooks",
+          "page_type": "webhooks",
+          "title": "",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://transcriptapi.com/docs/mcp",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 0,
+        "urls_discovered": 8,
+        "official_urls": 8,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 8
+      }
+    },
+    "stats": {
+      "queries": 0,
+      "urls_discovered": 8,
+      "official_urls": 8,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 8
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_46c3a6621dbb",
+      "source_type": "api_reference",
+      "url": "https://transcriptapi.com/docs/api",
+      "domain": "transcriptapi.com",
+      "page_title": "YouTube Transcript API Reference | TranscriptAPI.com",
+      "content": "YouTube Transcript API Reference\nThe YouTube Transcript API provides a simple and reliable way to extract transcripts from YouTube videos programmatically. This complete reference covers authentication, request parameters, response formats, and practical examples.\nWant to test the API interactively? Try our Swagger UI where you can make live requests right in your browser.\nBase URL\nSection titled “Base URL”All API requests are made to:\nEndpoints\nSection titled “Endpoints”The API provides the following endpoints:\n| Endpoint | Description | Credits | \n|---|---|---|\n| GET /youtube/transcript | Extract video transcript (supports a languagepriority list) | 1 | \n| GET /youtube/info | Video metadata + available transcript languages | Free | \n| GET /youtube/search | Search YouTube videos or channels | 1 | \n| GET /youtube/channel/resolve | Resolve @handle/URL to channel ID | Free | \n| GET /youtube/channel/search | Search within a channel (accepts @handle, URL, or UC… ID) | 1 | \n| GET /youtube/channel/videos | Paginated channel uploads (accepts @handle, URL, or UC… ID) | 1/page | \n| GET /youtube/channel/latest | Latest 15 videos via RSS (accepts @handle, URL, or UC… ID) | Free | \n| GET /youtube/playlist/videos | Paginated playlist videos (accepts URL or playlist ID) | 1/page | \nQuick Start\nSection titled “Quick Start”Here’s how to make your first API request:\nDon’t have an API key yet? Get one from your dashboard.\nExpected Response:\nAuthentication\nSection titled “Authentication”The API uses Bearer token authentication. Include your API key in the Authorization header of every request:\nExample:\nGet your API key from your API Keys dashboard.\nYouTube Transcript\nSection titled “YouTube Transcript”Request Parameters\nSection titled “Request Parameters”video_url (required)\nSection titled “video_url (required)”The YouTube video URL or video ID to fetch transcripts for.\n| Property | Value | \n|---|---|\n| Type | string | \n| Pattern | ^([a-zA-Z0-9_-]{11}|https?://.\\*)$ | \n| Required | Yes | \nAccepted Formats:\n- Full YouTube URL: https://www.youtube.com/watch?v=dQw4w9WgXcQ\n- Short YouTube URL: https://youtu.be/dQw4w9WgXcQ\n- Video ID only: dQw4w9WgXcQ\nExamples:\nformat (optional)\nSection titled “format (optional)”The output format for the transcript response.\n| Property | Value | \n|---|---|\n| Type | string | \n| Values | json,text | \n| Default | json | \n- json: Returns structured data with transcript segments\n- text: Returns plain text transcript\ninclude_timestamp (optional)\nSection titled “include_timestamp (optional)”Whether to include timestamps in the transcript output.\n| Property | Value | \n|---|---|\n| Type | boolean | \n| Default | true | \nBehavior Matrix:\n| Format | include_timestamp | Output | \n|---|---|---|\n| json | true | Segments with text,start,duration | \n| json | false | Segments with only text | \n| text | true | Lines formatted as [123.45s] text | \n| text | false | Plain concatenated text | \nsend_metadata (optional)\nSection titled “send_metadata (optional)”Whether to include video metadata in the response.\n| Property | Value | \n|---|---|\n| Type | boolean | \n| Default | false | \nWhen enabled, includes:\n- title: Video title\n- author_name: Channel name\n- author_url: Channel URL\n- thumbnail_url: Video thumbnail\nlanguage (optional)\nSection titled “language (optional)”A comma-separated priority list of language codes. The API returns the first one that’s available.\n| Property | Value | \n|---|---|\n| Type | string | \n| Default | (omitted) — English, otherwise the video’s first available language | \n- Provide a list like de,en,asr; codes are tried left to right and the first available wins. If none resolve, you receive a404that lists the languages the video does offer.\n- Codes are case-insensitive and region is ignored (en-GB/en-US→en,de-DE→de), sodematches a German track. Up to 10 codes.\n- asrrequests the video’s auto-generated captions (ASR = automatic speech recognition). Use- asr-<code>(for example- asr-hi) to request a specific auto-generated language.\n- A plain code such as hireturns the creator’s captions when they exist, otherwise the auto-generated ones (asr-hi).\n- The languagefield in a200response is the resolved code (en,de,asr-hi, …), so you always know exactly which track you received.\nTip: Call\nGET /youtube/infofirst — it’s free — to see which languages a video offers.\nResponse Formats\nSection titled “Response Formats”The API supports multiple response formats based on your parameters:\nResponse Headers\nSection titled “Response Headers”| Header | Description | \n|---|---|\n| X-Cache-Status | Cache status: HIT,PARTIAL-HIT, orMISS | \nYouTube Video Info\nSection titled “YouTube Video Info”Discover a video’s metadata and the transcript languages it offers — before spending a transcript credit.\n- Free — no credit is consumed. The same API key and active plan are required as for the transcript endpoint.\n- Each available_languagescode can be passed directly to the transcript endpoint’slanguageparameter (for exampleen, orasr-enfor auto-generated English).\n- Returns 404when the video does not exist or has no captions.\nSearch Endpoint\nSection titled “Search Endpoint”Search YouTube for videos or channels.\nParameters\nSection titled “Parameters”| Parameter | Type | Required | Default | Description | \n|---|---|---|---|---|\n| q | string | Conditional | — | Search query (1–200 characters). Required for the first page. | \n| type | string | No | video | Result type: videoorchannel(first page only). | \n| continuation | string | Conditional | — | Continuation token from previous response (subsequent pages). | \nProvide exactly one of q or continuation. When continuation is provided, q/type are ignored (the token already encodes them).\nEach call returns YouTube’s full page (~20 items). Use continuation_token to fetch more.\nResponse\nSection titled “Response”Pagination flow:\n- First request: ?q=design&type=video— returns first page +continuation_token\n- Next request: ?continuation=4qmFsgKlARIYVVV1QVhGa2dz...— returns next page + new token\n- Repeat until has_moreisfalseorcontinuation_tokenisnull\nEach page costs 1 credit.\nExample:\nChannel Endpoints\nSection titled “Channel Endpoints”Resolve Channel\nSection titled “Resolve Channel”Resolve any channel reference (@handle, URL, or UC… ID) to a canonical UC… channel ID. Free — no credits charged.\n| Parameter | Type | Required | Description | \n|---|---|---|---|\n| input | string | Yes | @handle, channel URL, or UC… ID (1–200 characters) | \nResponse:\nExample:\nSearch Within Channel\nSection titled “Search Within Channel”Search for videos within a specific channel. Accepts an @handle, channel URL, or UC… channel ID.\n| Parameter | Type | Required | Default | Description | \n|---|---|---|---|---|\n| channel | string | Conditional | — | @handle, channel URL, or UC… channel ID (first page). | \n| q | string | Conditional | — | Search query (1–200 characters, first page). | \n| continuation | string | Conditional | — | Continuation token from previous response (subsequent pages). | \nProvide exactly one of (channel + q) or continuation. When continuation is provided, channel/q are ignored.\nEach call returns YouTube’s full page (~30 items). Use continuation_token to fetch more.\nResponse:\nPagination flow:\n- First request: ?channel=@TED&q=innovation— returns first page +continuation_token\n- Next request: ?continuation=4qmFsgKlARIYVVV1QVhGa2dz...— returns next page + new token\n- Repeat until has_moreisfalseorcontinuation_tokenisnull\nEach page costs 1 credit.\nExample:\nChannel Videos (Paginated)\nSection titled “Channel Videos (Paginated)”List all videos uploaded to a channel, paginated at ~100 per page. Accepts an @handle, channel URL, or UC… channel ID.\n| Parameter | Type | Required | Description | \n|---|---|---|---|\n| channel | string | Conditional | @handle, channel URL, or UC… channel ID (first page). | \n| continuation | string | Conditional | Continuation token from previous response (next pages). | \nProvide exactly one of channel or continuation.\nResponse:\nPagination flow:\n- First request: ?channel=@TED— returns first ~100 videos +continuation_token\n- Next request: ?continuation=4qmFsgKlARIYVVV1QVhGa2dz...— returns next ~100 + new token\n- Repeat until has_moreisfalseorcontinuation_tokenisnull\nExample:\nChannel Latest (RSS)\nSection titled “Channel Latest (RSS)”Get the latest 15 videos from a channel via YouTube RSS feed. Returns exact publish timestamps and view counts. Accepts an @handle, channel URL, or UC… channel ID. Free — no credits charged.\n| Parameter | Type | Required | Description | \n|---|---|---|---|\n| channel | string | Yes | @handle, channel URL, or UC… channel ID | \nResponse:\nExample:\nPlaylist Endpoint\nSection titled “Playlist Endpoint”List videos in a playlist, paginated at ~100 per page. Accepts a YouTube playlist URL or a bare playlist ID.\n| Parameter | Type | Required | Description | \n|---|---|---|---|\n| playlist | string | Conditional | YouTube playlist URL or playlist ID (PL…, UU…, LL…, FL…, OL…). | \n| continuation | string | Conditional | Continuation token from previous response (next pages). | \nProvide exactly one of playlist or continuation.\nResponse:\nPagination: Same flow as channel/videos — use continuation_token from each response to fetch the next page.\nExample:\nCredit Usage & Billing\nSection titled “Credit Usage & Billing”Credit Cost\nSection titled “Credit Cost”| Endpoint | Credits per Request | Notes | \n|---|---|---|\n| GET /youtube/transcript | 1 credit | Only charged on successful response (200) | \n| GET /youtube/search | 1 credit | Search videos or channels | \n| GET /youtube/channel/resolve | Free | Requires auth + at least 1 active credit | \n| GET /youtube/channel/search | 1 credit | Search within a channel | \n| GET /youtube/channel/videos | 1 credit/page | Paginated — each page costs 1 credit | \n| GET /youtube/channel/latest | Free | Requires auth + at least 1 active credit | \n| GET /youtube/playlist/videos | 1 credit/page | Paginated — each page costs 1 credit | \nWhen Credits Are Charged\nSection titled “When Credits Are Charged”- ✅ Successful requests (HTTP 200) - 1 credit (paid endpoints only)\n- ✅ Cached responses (HTTP 200) - 1 credit (paid endpoints only)\n- ✅ Free endpoints (HTTP 200) - 0 credits (requires at least 1 active credit)\n- ❌ Failed requests (4xx, 5xx errors) - 0 credits\n- ❌ Rate limited requests (HTTP 429) - 0 credits\nCredits are deducted in real-time only when a request is successfully returned.\nWhen credits are exhausted, the API returns HTTP 402 Payment Required.\nRate Limits\nSection titled “Rate Limits”All API keys are subject to the following rate limits:\n- 300 requests per minute per API key\nRate Limit Headers\nSection titled “Rate Limit Headers”Each response includes rate limit information in the headers:\n| Header | Description | \n|---|---|\n| X-RateLimit-Limit | Total allowed requests in the window | \n| X-RateLimit-Remaining | Remaining requests in the window | \n| X-RateLimit-Reset | UTC epoch seconds when the window resets | \n| Retry-After | Seconds until you can retry (only on 429) | \nExample Headers:\nBest Practices\nSection titled “Best Practices”- Implement exponential backoff on 429 errors\n- Respect the Retry-Afterheader value\n- Cache responses when appropriate to reduce API calls\n- Don’t retry failed requests more than 2 times within 3 seconds\n- Monitor rate limit headers to avoid hitting limits\nError Handling\nSection titled “Error Handling”The API uses standard HTTP status codes:\n| Status Code | Meaning | Retry? | Action | \n|---|---|---|---|\n| 200 | Success | — | Transcript returned, 1 credit charged | \n| 400 | Bad Request | ❌ No | Check your request parameters | \n| 401 | Unauthorized | ❌ No | Invalid or missing API key | \n| 402 | Payment Required | ❌ No | No credits remaining - visit billing | \n| 404 | Not Found | ❌ No | Video not found or transcript unavailable | \n| 408 | Timeout / Retry | ✅ Yes | Temporary failure (bot detection, network) - retry in 1-5s | \n| 422 | Validation Error | ❌ No | Invalid YouTube URL or ID | \n| 429 | Too Many Requests | ✅ Yes | Rate limit exceeded - retry after Retry-Afterheader | \n| 500 | Server Error | ⚠️ Maybe | Contact support if persistent | \n| 503 | Service Unavailable | ✅ Yes | Service temporarily down - retry in 1-5s | \nRetry Strategy\nSection titled “Retry Strategy”For retryable errors (408, 429, 503):\n- Wait the recommended delay (1-5 seconds, or check Retry-Afterheader for 429)\n- Retry up to 2-3 times with exponential backoff\n- Give up after max retries and log the failure\nFor non-retryable errors (400, 401, 402, 404, 422): Do not retry - fix the request parameters or check your account status.\nError Response Format\nSection titled “Error Response Format”All error responses follow this format:\n404 — No transcript for the requested languages\nSection titled “404 — No transcript for the requested languages”When you pass a language priority list and none of the requested codes are available, the response is a 404 that lists the languages the video does offer, so you can retry with a valid one:\nWhen you omit language, a video without captions instead returns a plain 404 with only a detail message.\n401 Unauthorized\nSection titled “401 Unauthorized”Includes a WWW-Authenticate header:\n402 Payment Required\nSection titled “402 Payment Required”Special format with action details:\nInsufficient Credits:\nNo Active Plan:\nCode Examples\nSection titled “Code Examples”Here are complete examples in multiple languages:\nBest Practices\nSection titled “Best Practices”Error Handling Strategies\nSection titled “Error Handling Strategies”- \nImplement retry logic with exponential backoff \n- \nHandle payment required errors gracefully - Redirect users to billing page\n- Show clear messaging about credit status\n- Provide action buttons for top-up\n \nCaching Recommendations\nSection titled “Caching Recommendations”- Cache successful responses to reduce API calls\n- Respect cache headers if provided\n- Consider transcript immutability (transcripts rarely change)\n- Implement cache invalidation for metadata\nRate Limit Management\nSection titled “Rate Limit Management”- Monitor X-RateLimit-Remainingheader\n- Implement request queuing when approaching limits\n- Use exponential backoff on 429 errors\n- Consider implementing client-side rate limiting\nSecurity\nSection titled “Security”- Never expose API keys in client-side code\n- Store API keys in environment variables\n- Use backend proxy for browser applications\n- Rotate API keys regularly\n- Use separate keys for different environments\nMonitoring and Logging\nSection titled “Monitoring and Logging”- Log all API responses including headers\n- Monitor credit usage patterns\n- Track rate limit approaches\n- Set up alerts for 402 and 429 responses\n- Monitor response times and cache hit rates\nRelated Resources\nSection titled “Related Resources”Need Help?\nSection titled “Need Help?”If you have questions or need assistance:\n- Visit our Contact page for support options\n- Manage your account and billing at Billing",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:16:21.430399Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 3744,
+      "quality_score": 0.78
+    },
+    {
+      "id": "ev_944dc3687d6e",
+      "source_type": "developer_portal",
+      "url": "https://transcriptapi.com/docs",
+      "domain": "transcriptapi.com",
+      "page_title": "TranscriptAPI Documentation | TranscriptAPI.com",
+      "content": "API Reference\nComplete guide to transcripts, search, channel, and playlist endpoints with authentication, parameters, and examples.\nExtract YouTube video transcripts with a simple API call or through Model Context Protocol\n API Reference\nComplete guide to transcripts, search, channel, and playlist endpoints with authentication, parameters, and examples.\nMCP Integration\nUse TranscriptAPI with Model Context Protocol for seamless integration with AI tools. View MCP Documentation →\nGuides & Tutorials\nStep-by-step guides for integrating TranscriptAPI into your applications and workflows. MCP Integration Guides:\nLLMS.txt\nAI-friendly documentation format for LLM context. Download the complete docs in a single text file.\nSupport & Billing\nGet help with billing, credits, and other account-related questions.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:16:22.503051Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 202,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_a32724fb5c21",
+      "source_type": "auth_docs",
+      "url": "https://transcriptapi.com/docs/authentication",
+      "domain": "transcriptapi.com",
+      "page_title": "Welcome to nginx!",
+      "content": "If you see this page, nginx is successfully installed and working. Further configuration is required for the web server, reverse proxy, API gateway, load balancer, content cache, or other features.\nFor online documentation and support please refer to\nnginx.org.\nTo engage with the community please visit\ncommunity.nginx.org.\nFor enterprise grade support, professional services, additional \nsecurity features and capabilities please refer to\nf5.com/nginx.\nThank you for using nginx.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:16:20.480976Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 120,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_fd3e3a37973b",
+      "source_type": "official_docs",
+      "url": "https://transcriptapi.com",
+      "domain": "transcriptapi.com",
+      "page_title": "YouTube Transcript API with Search, Channels & Playlists | TranscriptAPI",
+      "content": "Stop fighting YouTube blocks. Get transcripts, search videos, browse channels, and extract playlists via REST API or YouTube MCP — at scale.\nTrusted in production\n49ms median response time. 15M+ transcripts served last month.\nEverything you need from YouTube\nTranscripts, search, channels, playlists — all in one place. Every feature works via API, MCP, and agent skills.\nExtract transcripts from any YouTube video — with or without timestamps. Drop the output straight into summarizers, search indexes, or AI pipelines.\nSummarize videosStudy notesSearch indexesContent repurposing\nRequest\ncurl \"https://transcriptapi.com/api/v2/youtube/transcript?video_url=dQw4w9WgXcQ&format=json\" \\ -H \"Authorization: Bearer API_KEY\"\nResponse\n{\n  \"title\": \"Do schools kill creativity?\",\n  \"duration\": \"19:24\",\n  \"segments\": [\n    {\n      \"start\": 0.0,\n      \"text\": \"Good morning. How are you?\"\n    },\n    {\n      \"start\": 3.2,\n      \"text\": \"It's been great, hasn't it?\"\n    }\n  ]\n}AI Agent\nPull the transcript from this TED talk and give me a bullet-point summary with key quotes\nget_transcript(video_url=\"dQw4w9WgXcQ\")Here's the summary of \"Do schools kill creativity?\" by Sir Ken Robinson: • Schools prioritize conformity over creative thinking • Children are educated out of creativity as they age • Key quote: \"If you're not prepared to be wrong, you'll never come up with anything original\" Want me to extract all the timestamps where he references specific examples?\nSearch YouTube for videos, channels, or playlists. Filter by type and limit results — perfect for discovery, research, and building content pipelines.\nContent researchCompetitor analysisTopic discoveryTrend monitoring\nRequest\ncurl \"https://transcriptapi.com/api/v2/youtube/search?q=climate+change&type=video&limit=5\" \\ -H \"Authorization: Bearer API_KEY\"\nResponse\n{\n  \"results\": [\n    {\n      \"video_id\": \"G9t__9Tmli0\",\n      \"title\": \"Climate Change 101\",\n      \"channel\": \"National Geographic\",\n      \"views\": \"12M\"\n    },\n    {\n      \"video_id\": \"SDr2gaSrOCk\",\n      \"title\": \"Before the Flood\",\n      \"channel\": \"National Geographic\",\n      \"views\": \"8.5M\"\n    }\n  ]\n}AI Agent\nFind the most-watched climate change explainers on YouTube and compare their key arguments\nsearch_youtube(q=\"climate change\", limit=5)Found 5 top climate change videos: 1. \"Climate Change 101\" (12M views) — broad overview by National Geographic 2. \"Before the Flood\" (8.5M views) — Leonardo DiCaprio documentary 3. \"Causes and Effects of Climate Change\" (5.1M views) — National Geographic explainer 4. \"Climate Change\" (3.8M views) — Kurzgesagt animated breakdown 5. \"Is It Too Late To Stop Climate Change?\" (2.9M views) — science-focused deep dive Should I pull the transcripts and compare how each one frames the core science?\nSearch within a specific channel to find videos on any topic. Great for researching a creator's content or finding niche topics in large channels.\nResearch a creatorFind specific topicsCompetitive intelligence\nRequest\ncurl \"https://transcriptapi.com/api/v2/youtube/channel/search?channel=@TED&q=AI&limit=10\" \\ -H \"Authorization: Bearer API_KEY\"\nResponse\n{\n  \"results\": [\n    {\n      \"video_id\": \"UyyjU8fzEYU\",\n      \"title\": \"The wonderful implications of computers that can learn\",\n      \"views\": \"2.3M\"\n    },\n    {\n      \"video_id\": \"hJP5GqnTrNo\",\n      \"title\": \"Can AI fix education?\",\n      \"published\": \"2024-08-22\"\n    }\n  ]\n}AI Agent\nWhat has TED published about AI in education? I need the top talks to prep for a presentation\nsearch_channel(channel=\"@TED\", q=\"AI education\")Found 6 TED talks on AI in education: 1. \"Can AI fix education?\" — most recent (Aug 2024) 2. \"The wonderful implications of computers that can learn\" — 2.3M views, great for framing 3. \"How AI could save education\" — practical classroom applications 4. \"What AI means for the future of learning\" — policy perspective 5. \"Teaching in the age of AI\" — teacher's firsthand experience 6. \"The AI revolution in education\" — broad overview with demos I can fetch the transcripts and pull out the strongest talking points. Want me to do that?\nList all videos from any YouTube channel. Ideal for building databases, bulk transcript extraction, or auditing a channel's full content library.\nContent auditingVideo databasesBulk transcriptsChannel analysis\nRequest\ncurl \"https://transcriptapi.com/api/v2/youtube/channel/videos?channel=@TED\" \\ -H \"Authorization: Bearer API_KEY\"\nResponse\n{\n  \"channel\": \"@TED\",\n  \"video_count\": 5200,\n  \"videos\": [\n    {\n      \"video_id\": \"iG9CE55wbtY\",\n      \"title\": \"Do schools kill creativity?\",\n      \"views\": \"82M\"\n    },\n    {\n      \"video_id\": \"arj7oStGLkU\",\n      \"title\": \"Inside the mind of a master procrastinator\",\n      \"views\": \"65M\"\n    }\n  ]\n}AI Agent\nAudit TED's full video catalog — how many videos do they have and what are the all-time top performers?\nget_channel_videos(channel=\"@TED\")TED has 5,200 videos total. Here are the top 3 by views: 1. \"Do schools kill creativity?\" — 82M views 2. \"Inside the mind of a master procrastinator\" — 65M views 3. \"Your body language may shape who you are\" — 61M views Want me to break this down by topic or year, or fetch transcripts for the top 10?\nCheck for the latest uploads from any channel — no credits required. Perfect for monitoring, daily recaps, or triggering downstream pipelines.\nDaily channel recapNew content alertsPipeline triggersCompetitor tracking\nRequest\ncurl \"https://transcriptapi.com/api/v2/youtube/channel/latest?channel=@TED\" \\ -H \"Authorization: Bearer API_KEY\"\nResponse\n{\n  \"channel\": \"@TED\",\n  \"latest\": [\n    {\n      \"video_id\": \"xL2EKQ3Rkos\",\n      \"title\": \"A bold plan for sustainable energy\",\n      \"published\": \"2h ago\"\n    },\n    {\n      \"video_id\": \"k9Rm_SZjKs4\",\n      \"title\": \"How AI is transforming medicine\",\n      \"published\": \"1d ago\"\n    }\n  ]\n}AI Agent\nCheck if TED posted anything new this week — if it's about AI, summarize it for me\nget_latest_videos(channel=\"@TED\")TED posted 2 new videos this week. One matches your interest: • \"How AI is transforming medicine\" (yesterday) — directly relevant • \"A bold plan for sustainable energy\" (2h ago) — energy/climate topic Fetching the transcript for the AI one now. I'll have a summary for you in a moment.\nGet every video from a YouTube playlist. Process entire courses, lecture series, or curated collections in a single call.\nOnline coursesLecture seriesCurated collectionsBatch processing\nRequest\ncurl \"https://transcriptapi.com/api/v2/youtube/playlist/videos?playlist=PLrAXtmErZgOe...\" \\ -H \"Authorization: Bearer API_KEY\"\nResponse\n{\n  \"playlist\": \"PLrAXtmErZgOe...\",\n  \"video_count\": 24,\n  \"videos\": [\n    {\n      \"video_id\": \"UF8uR6Z6KLc\",\n      \"title\": \"Lecture 1: Introduction\",\n      \"duration\": \"52:10\"\n    },\n    {\n      \"video_id\": \"2pWv7GOvuf0\",\n      \"title\": \"Lecture 2: Neural Networks\",\n      \"duration\": \"48:35\"\n    }\n  ]\n}AI Agent\nI'm taking this Stanford ML course — get all the lectures and create study notes for each one\nget_playlist_videos(playlist=\"PLrAXtmErZgOe...\")Found 24 lectures in this playlist (total ~19 hours). I'll process them in order. Starting with Lecture 1: Introduction (52 min) — covers supervised learning, linear regression, and gradient descent. I'll create structured study notes for each lecture. Ready to begin?\nThree ways to connect\nPick the integration that fits your workflow.\nFor developers building apps, workflows, automations\nAdd YouTube data to any application. Use with n8n, Make, Zapier, or your own code.\n1\nGet a free API key at transcriptapi.com/signup\n2\nMake your first API call:\ncurl \"https://transcriptapi.com/api/v2/youtube/transcript?video_url=VIDEO_URL\" \\ -H \"Authorization: Bearer sk_your_key\"\n3\nGet transcripts, search results, channel data — done. Pick a language with &language=de,en,asr (or list them free via /info).\nFor ChatGPT, Claude, Cursor, VS Code, and 20+ clients\nGive your AI assistant YouTube access. Transcribe videos, search, browse channels, and read transcripts — right inside your conversation.\nClaude Code\nclaude mcp add --transport http transcript-api https://transcriptapi.com/mcp\nUniversal JSON config\n{\n  \"url\": \"https://transcriptapi.com/mcp\"\n}Try asking\nSummarize the key points from this video: [paste URL]\nFind videos about machine learning and summarize the top 3\nFor OpenClaw, Claude Code, Cursor, Windsurf, and more\nGive your AI agent full YouTube access — never blocked, no manual setup. Install the skill and start using it.\nOpenClaw\nnpx clawhub@latest install youtube-fullClaude Code / Cursor / Windsurf\nnpx skills add ZeroPointRepo/youtube-skills --skill youtube-full\nTry asking\nSummarize this video: https://youtube.com/watch?v=...\nWhat new videos did TED upload this week?\nGet transcripts for every video in this playlist: [URL]\nHow it works: Your agent creates a TranscriptAPI account and gets an API key on first use — no manual setup needed. You get 100 free credits to start.\nWorks with\nPricing\nTranscripts, search, channels, playlists — all endpoints, one credit each. Pick your billing cycle and start building.\n$5.00/month\nIncludes:\n- 1,000 credits per month\n- Top-ups at $2.50 per 1K\n- 1 Credit = 1 Successful Request\n- MCP Access\n- API Access\n- 200 RPM Rate Limit\n- Human support on paid plan\nSecure checkout by Stripe\nBEST VALUE\n$4.50/month\nBilled $54.00/yearSave 10%\nIncludes:\n- 1,000 credits per month\n- Top-ups at $1.50 per 1K(40% cheaper)\n- 1 Credit = 1 Successful Request\n- MCP Access\n- API Access\n- 300 RPM Rate Limit (more on request)\n- Human support on paid plan\nSecure checkout by Stripe\n| Get transcript | 1 credit | \n| Search YouTube | 1 credit / page | \n| Search inside a channel | 1 credit / page | \n| List channel videos | 1 credit / page | \n| Playlist videos | 1 credit / page | \n| Track new uploads (RSS) | Free | \n| Resolve channel handle | Free | \nTop-up credits last at least 30 days from purchase, or until your current subscription period ends — whichever is later.\nYou'll need an active subscription to use them. If your subscription ends, your unused credits stay on your account but pause until you renew.\nHave custom requirements? Contact us for a custom plan.\nEstimate your bill\nPick a plan and move the slider to see your total and effective cost per 1K.\n10,000\n025k50k75k100k\nPlan cost$4.50/mo\nTop-ups (9K @ $1.5/1K)$13.50\nTotal Monthly Cost\n$18.00\nEffective cost per 1K transcripts\n$1.80",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:16:20.785634Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 2590,
+      "quality_score": 0.66
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "API to extract transcripts from YouTube videos programmatically.",
+      "evidence_ids": [
+        "ev_46c3a6621dbb"
+      ]
+    },
+    "category": {
+      "value": "AI Research and Media",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "Bearer Token",
+      "evidence_ids": [
+        "ev_46c3a6621dbb"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_46c3a6621dbb"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API",
+      "evidence_ids": [
+        "ev_46c3a6621dbb"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_fd3e3a37973b"
+      ]
+    },
+    "mcp": {
+      "value": "Official MCP",
+      "evidence_ids": [
+        "ev_944dc3687d6e"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_fd3e3a37973b"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_fd3e3a37973b"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.88,
+    "fields_checked": 8,
+    "fields_supported": 7,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.88,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.88 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

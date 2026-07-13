@@ -1,0 +1,357 @@
+{
+  "app": {
+    "id": 79,
+    "name": "Smartsheet",
+    "website": "smartsheet.com/developers",
+    "category_hint": "Productivity and Project Management"
+  },
+  "documentation_map": {
+    "app_name": "Smartsheet",
+    "official_domain": "smartsheet.com",
+    "homepage": {
+      "url": "https://smartsheet.com/developers",
+      "title": "Smartsheet",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": null,
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://developers.smartsheet.com/api/smartsheet/openapi/crosssheetreferences",
+        "title": "Cross-sheet References",
+        "confidence": 0.95,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://www.smartsheet.com/solutions/enterprise",
+        "title": "Enterprise Solutions",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://www.smartsheet.com/pricing",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": null,
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://developers.smartsheet.com",
+        "title": "",
+        "confidence": 0.85,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": {
+      "primary": {
+        "url": "https://developers.smartsheet.com/api/smartsheet/openapi/webhooks/list-webhooks",
+        "title": "List webhooks",
+        "confidence": 0.95,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "llms_txt": {
+      "url": "https://smartsheet.com/llms-full.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "Smartsheet",
+      "official_domain": "smartsheet.com",
+      "items": [
+        {
+          "url": "https://smartsheet.com/developers",
+          "page_type": "homepage",
+          "title": "Smartsheet",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://www.smartsheet.com/solutions/enterprise",
+          "page_type": "pricing",
+          "title": "Enterprise Solutions",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://www.smartsheet.com/pricing",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.smartsheet.com",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.85,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.smartsheet.com/api/smartsheet/openapi/crosssheetreferences",
+          "page_type": "api_reference",
+          "title": "Cross-sheet References",
+          "confidence": 0.95,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.smartsheet.com/api/smartsheet/openapi/webhooks/list-webhooks",
+          "page_type": "webhooks",
+          "title": "List webhooks",
+          "confidence": 0.95,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 6,
+        "urls_discovered": 6,
+        "official_urls": 6,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 5
+      }
+    },
+    "stats": {
+      "queries": 6,
+      "urls_discovered": 6,
+      "official_urls": 6,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 5
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_6be506fb23ee",
+      "source_type": "developer_portal",
+      "url": "https://developers.smartsheet.com",
+      "domain": "developers.smartsheet.com",
+      "page_title": "Smartsheet Developers & API",
+      "content": "Smartsheet Developers & API\nExplore API docs, connect to our MCP server, develop faster on SDKs, and join a thriving community building on Smartsheet.\nSkip to contentSmartsheet Developers & API\nSmartsheet\nSmartsheet SDKs\nBrandfolder\nResource Management\nExplore API docs, connect to our MCP server, develop faster on SDKs, and join a thriving community building on Smartsheet.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:12:49.731963Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 93,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_bb35a04d8795",
+      "source_type": "pricing_page",
+      "url": "https://www.smartsheet.com/solutions/enterprise",
+      "domain": "www.smartsheet.com",
+      "page_title": "Enterprise | Smartsheet",
+      "content": "Built for the enterprise. Designed for impact.\nEmpower teams to innovate, collaborate, and achieve operational excellence on a secure, scalable platform.\nYour enterprise work management strategy starts here\nReady to drive innovation and growth? Grab the playbook and take the lead.\nInnovate. Collaborate. Optimize.\nDiscover how Smartsheet empowers enterprises to unlock innovation, enhance collaboration, and drive efficiency at scale.\nINTERACTIVE DIAGRAM\nReal stories, real impact\nManaging complexity at scale and driving meaningful business outcomes\nCost Savings\n \n$4 million\nsaved annually\nIron Mountain relies on Smartsheet to centralize IT projects, make better decisions, and save millions annually.\nefficiency\n \n95%\nfaster processes\nJohnson & Johnson drastically speeds up content review processes and achieves major efficiency improvements.\nGartner® Magic Quadrant™\nSmartsheet is recognized as a Leader in the Gartner® Magic Quadrant™ for Collaborative Work Management for the third consecutive year.\nCustom tools and support\nDesigned to empower your teams, streamline adoption, and maximize ROI at enterprise scale.\nFlexible subscriptions for the way you work\nSmartsheet subscriptions adapt to your evolving business, helping you reach your goals as your organization grows and evolves. No matter the challenge, your teams can collaborate in the way that works best for you. Explore the full power of the platform before committing, improve your programs and processes, and manage all your users with ease.\nSimplified management\nSmartsheet makes governance simple and efficient with centralized administration for security, policies, users, plans, and billing — all from a single Admin Center. Transparent, predictable pricing makes it easy to understand and forecast subscription costs, while full platform access allows users to experience value before buying.\nFind the right fit for your team and scale with confidence.\nBeyond flagship use cases, Smartsheet delivers an AI-driven, enterprise-grade, no-code platform that business users can adapt for thousands of collaborative workflows, driving efficiency and agility across the organization.\nFrequently Asked Questions\nSmartsheet is built with enterprise-grade security to protect your data and maintain compliance with global standards. Our platform features robust encryption (both in transit and at rest), role-based access controls, and detailed audit logs to safeguard your information. Smartsheet is certified for key compliance frameworks such as SOC 2, ISO 27001, GDPR, and HIPAA, ensuring adherence to industry-leading best practices. We also offer customizable security configurations, so you can align the platform with your organization’s specific requirements. For more details, visit our Trust Center.\nAbsolutely. Smartsheet integrates seamlessly with a wide range of enterprise systems, including popular tools for CRM, ERP, ITSM, and collaboration like Salesforce, Jira, Microsoft 365, Google Workspace, and more. With pre-built connectors, APIs, and automation capabilities, Smartsheet ensures smooth interoperability across your tech stack, enabling streamlined workflows and data consistency. For custom needs, you can leverage our open API or partner with our professional services team for tailored solutions. Learn more about integrations on our Integrations page.\nSmartsheet provides powerful tools for managing large project portfolios with ease and precision. Our platform enables portfolio-level visibility through dashboards, portfolio reporting, and automated workflows, helping you track progress, allocate resources, and mitigate risks across multiple projects. With features like Workspaces, Control Center advanced portfolio management solutions and Resource Management you can standardize processes, scale with ease, and maintain alignment with organizational goals across work, people and content. Smartsheet adapts to your needs, ensuring efficient portfolio management from start to finish. Explore our IT Portfolio Management page for more details.\nSmartsheet provides a wide range of customization tools to help you tailor the platform to your organization’s specific needs. With configurable dashboards, forms, and workflows, you can design solutions that align with your processes and goals. Use our no-code automation builder to streamline repetitive tasks, or take advantage of integrations and APIs for advanced customizations. For enterprises, Smartsheet also offers Workspace collections, which enable you to create tailored, role-specific apps and share them with the right people for hyper-efficient work management without coding. Contact our team to learn how Smartsheet adapts to your business with customization.\nSmartsheet Control Center is designed to help enterprises manage projects, programs, and portfolios at scale. Key features include automated project provisioning, centralized project management, and consistent governance across all work. With Control Center, you can standardize workflows, maintain visibility across projects, and ensure data accuracy with automated updates and reporting. It also includes portfolio-level dashboards to track performance and risks in real time, empowering you to make informed decisions. Learn more about Control Center.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:12:49.533357Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 1320,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_3f7c62f93175",
+      "source_type": "official_docs",
+      "url": "https://smartsheet.com/developers",
+      "domain": "smartsheet.com",
+      "page_title": "Smartsheet Developers & API",
+      "content": "Smartsheet Developers & API\nExplore API docs, connect to our MCP server, develop faster on SDKs, and join a thriving community building on Smartsheet.\nSkip to contentSmartsheet Developers & API\nSmartsheet\nSmartsheet SDKs\nBrandfolder\nResource Management\nExplore API docs, connect to our MCP server, develop faster on SDKs, and join a thriving community building on Smartsheet.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:12:48.652300Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 93,
+      "quality_score": 0.56
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Smartsheet is a collaborative work management platform designed for enterprises.",
+      "evidence_ids": [
+        "ev_bb35a04d8795"
+      ]
+    },
+    "category": {
+      "value": "Productivity and Project Management",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_6be506fb23ee"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_bb35a04d8795"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API, SDKs",
+      "evidence_ids": [
+        "ev_6be506fb23ee",
+        "ev_3f7c62f93175"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_6be506fb23ee"
+      ]
+    },
+    "mcp": {
+      "value": "Official MCP",
+      "evidence_ids": [
+        "ev_6be506fb23ee"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_6be506fb23ee"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_bb35a04d8795"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.75,
+    "fields_checked": 8,
+    "fields_supported": 6,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "auth_methods",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'auth_methods' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.75,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.75 below 0.90 threshold",
+      "Auth methods missing or UNKNOWN"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

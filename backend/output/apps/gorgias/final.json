@@ -1,0 +1,537 @@
+{
+  "app": {
+    "id": 19,
+    "name": "Gorgias",
+    "website": "gorgias.com",
+    "category_hint": "Support and Helpdesk"
+  },
+  "documentation_map": {
+    "app_name": "Gorgias",
+    "official_domain": "gorgias.com",
+    "homepage": {
+      "url": "https://gorgias.com",
+      "title": "Gorgias",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://developers.gorgias.com/reference/authentication",
+        "title": "",
+        "confidence": 0.95,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": null,
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://gorgias.com/pricing",
+        "title": "Pricing",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://developers.gorgias.com/docs/mcp",
+        "title": "",
+        "confidence": 0.95,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://developers.gorgias.com/docs/private-vs-public-app",
+        "title": "",
+        "confidence": 0.85,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": {
+      "url": "https://gorgias.com/llms.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "Gorgias",
+      "official_domain": "gorgias.com",
+      "items": [
+        {
+          "url": "https://gorgias.com",
+          "page_type": "homepage",
+          "title": "Gorgias",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://gorgias.com/pricing",
+          "page_type": "pricing",
+          "title": "Pricing",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.gorgias.com/reference/authentication",
+          "page_type": "authentication",
+          "title": "",
+          "confidence": 0.95,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.gorgias.com/docs/private-vs-public-app",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.85,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.gorgias.com/docs/mcp",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.95,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 2,
+        "urls_discovered": 5,
+        "official_urls": 5,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 5
+      }
+    },
+    "stats": {
+      "queries": 2,
+      "urls_discovered": 5,
+      "official_urls": 5,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 5
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_031e6d932e31",
+      "source_type": "llms_txt",
+      "url": "https://gorgias.com/llms.txt",
+      "domain": "gorgias.com",
+      "page_title": "llms.txt index",
+      "content": "\\# Gorgias\n\\> Gorgias is the conversational AI platform for ecommerce that drives sales and resolves support inquiries.\nBuilt for Shopify and ecommerce brands to unify customer support, automate with AI, and turn service into revenue.\n\n\\## Core platform\n\\- \\[Helpdesk\\](https://gorgias.com/products/helpdesk): AI-powered helpdesk unifying all channels—email, chat, voice, SMS, and social—for faster, more personalized ecommerce support.\n\\- \\[AI Agent\\](https://gorgias.com/ai-agent): Automate over 60% of support inquiries, convert shoppers, and drive revenue with on-brand AI conversations at scale.\n\\- \\[AI Shopping Assistant\\](https://gorgias.com/ai-agent/shopping-assistant): Real-time product guidance and instant answers to help shoppers buy faster.\n\\- \\[AI Support Skills\\](https://gorgias.com/ai-agent/support-skills): Scale support that sells—automate tickets, upsells, and personal care for high-growth ecommerce brands.\n\\- \\[Voice\\](https://gorgias.com/products/voice): High-quality, integrated phone support to build trust and retain customers without high overhead.\n\\- \\[SMS\\](https://gorgias.com/product/sms): Conversational text message support for seamless customer communication on the go.\n\\- \\[Shopify Integration\\](https://gorgias.com/ecommerce/shopify): The first helpdesk built for Shopify stores—respond faster, boost CSAT, and increase sales.\n\\- \\[App Store\\](https://gorgias.com/apps): Connect 100+ ecommerce tools and platforms to enhance support automation.\n\n\\## Resources\n\\- \\[Customer Stories\\](https://gorgias.com/customers): Learn how Shopify and Magento merchants transformed support into a profit center with Gorgias.\n\\- \\[Blog\\](https://gorgias.com/blog): Ecommerce insights and strategies to grow customer experience programs.\n\\- \\[Ebooks\\](https://gorgias.com/ebooks): Expert strategies, benchmarks, and data for improving ecommerce CX.\n\\- \\[Playbooks\\](https://gorgias.com/playbooks): Free, ungated playbooks for scaling support and CX automation.\n\\- \\[BFCM Hub\\](https://gorgias.com/bfcm-hub): Resources and tools to help ecommerce brands win Black Friday & Cyber Monday.\n\\- \\[Gorgias Academy\\](https://gorgias.com/customer-resources/academy): Learn Gorgias with certifications, AI-powered training, and microlearning paths.\n\\- \\[Events\\](https://gorgias.com/events): Upcoming events, webinars, and workshops with CX experts.\n\\- \\[People & Culture\\](https://gorgias.com/blog-category/gorgias-culture): Explore stories from the Gorgias team and company culture.\n\n\\## Company\n\\- \\[Pricing\\](https://gorgias.com/pricing): Compare plans for ecommerce brands and scale support automation with AI.\n\\- \\[About\\](https://gorgias.com/about-us): Gorgias is built to unify multichannel customer service and automate common requests.\n\\- \\[Careers\\](https://gorgias.com/careers): Join Gorgias and help shape the future of ecommerce customer experience.\n\\- \\[Sustainability\\](https://gorgias.com/sustainability): Gorgias is reducing its footprint and driving sustainable growth since 2015.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:50.300649Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 753,
+      "quality_score": 0.8
+    },
+    {
+      "id": "ev_706ce82176a0",
+      "source_type": "llms_txt",
+      "url": "https://gorgias.com/llms.txt",
+      "domain": "gorgias.com",
+      "page_title": "llms.txt index",
+      "content": "\\## Competitor comparisons\n\\- \\[Gorgias vs Ada\\](https://gorgias.com/comparison/ada): Compare conversational AI automation and ecommerce integrations.\n\\- \\[Gorgias vs Freshdesk\\](https://gorgias.com/comparison/freshdesk): See why ecommerce brands switch from ticketing tools to Gorgias.\n\\- \\[Gorgias vs Gladly\\](https://gorgias.com/comparison/gladly): Discover how Gorgias unifies AI automation and ecommerce context.\n\\- \\[Gorgias vs Gmail\\](https://gorgias.com/comparison/gmail): From email inboxes to unified customer communication in one platform.\n\\- \\[Gorgias vs Help Scout\\](https://gorgias.com/comparison/help-scout): More ecommerce integrations, faster automation, better scalability.\n\\- \\[Gorgias vs Intercom\\](https://gorgias.com/comparison/intercom): Compare conversational AI depth, automation, and sales impact.\n\\- \\[Gorgias vs Kustomer\\](https://gorgias.com/comparison/kustomer): Unified ecommerce data, faster responses, and more automation.\n\\- \\[Gorgias vs PerfectBot\\](https://gorgias.com/comparison/perfectbot): AI agent precision and Shopify-native automation vs generic bots.\n\\- \\[Gorgias vs Re:amaze\\](https://gorgias.com/comparison/reamaze): Ecommerce automation and Shopify context built directly in.\n\\- \\[Gorgias vs Richpanel\\](https://gorgias.com/comparison/richpanel): Compare personalization depth and AI support capabilities.\n\\- \\[Gorgias vs Salesforce\\](https://gorgias.com/comparison/salesforce): Scalable, ecommerce-native CX vs enterprise CRM support.\n\\- \\[Gorgias vs Shopify Inbox\\](https://gorgias.com/comparison/shopify-inbox): Go beyond basic chat—automate and centralize all support.\n\\- \\[Gorgias vs Siena\\](https://gorgias.com/comparison/siena): AI-native CX automation purpose-built for ecommerce.\n\\- \\[Gorgias vs Yuma\\](https://gorgias.com/comparison/yuma): Compare automation accuracy, scalability, and Shopify integration.\n\\- \\[Gorgias vs Zendesk\\](https://gorgias.com/comparison/zendesk): The ecommerce-focused AI helpdesk built for modern brands.\n\\- \\[Gorgias vs Zowie\\](https://gorgias.com/comparison/zowie): See how Gorgias turns AI support into sales opportunities.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:50.300812Z",
+      "section_path": "",
+      "chunk_index": 2,
+      "token_count": 527,
+      "quality_score": 0.8
+    },
+    {
+      "id": "ev_15607a6023e2",
+      "source_type": "pricing_page",
+      "url": "https://gorgias.com/pricing",
+      "domain": "gorgias.com",
+      "page_title": "Gorgias Pricing – Build the customer support suite that fits your needs",
+      "content": "For high-volume brands: peak-ready automation, dedicated support.\n\n$1,430$1,227/mo\n\n$14,724 billed annually\n\n[Talk to sales](https://www.gorgias.com/demo?automationRate=30&planSelected=advanced) Book a 30-minute call\n\nIncluded\n\n5,000 tickets / month\n\n530 automated interactions\n\nHelpdesk$750/mo\n\nThen a $0.36 per-ticket fee past your limit.\n\nAI Agenti$477/mo\n\nThen a $1.50 per automated interaction fee past your limit.\n\n[Compare all features ↓](https://www.gorgias.com/pricing#compare)\n\nEnterprise\n\nFor teams over 5,000 conversations a month with complex security, compliance, or integration needs.\n\n[Talk to sales](https://www.gorgias.com/demo?automationRate=0&planSelected=enterprise) Book a 30-minute call\n\nSSO (SAML), audit logs, SCIM provisioning\n\nUnlimited Help Centers, API at 4 requests per second\n\nCustom DPA or MSA, plus security review support\n\nDedicated CSM and solutions architect\n\nNew Actions, deeper integrations, and custom automations\n\nProactive knowledge-gap detection that keeps AI answers accurate\n\n[Calculate your ROI →](https://www.gorgias.com/roi-calculator) [Compare all features ↓](https://www.gorgias.com/pricing#compare)\n\nWe power customer conversations for 40% of Shopify brands\n\n![](https://cdn.prod.website-files.com/5e78f62c08f1bb8c2d788576/699ed1298c44f56e386d1bec_tommy%20john.svg)[Read case study](https://www.gorgias.com/customers/tommy-john?ref=homepage_logo_grid&component=customer_story_logo_grid)\n\n![](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/5e4ff204e1eb5152920550b9_plus.svg)\n\n![](https://cdn.prod.website-files.com/5e78f62c08f1bb8c2d788576/699ed1428ee136d10248caae_simplehuman.svg)\n\n![](https://cdn.prod.website-files.com/5e78f62c08f1bb8c2d788576/699ed15b727ab46cc75ac8d3_orthofeet.svg)[Read case study](https://www.gorgias.com/customers/orthofeet?ref=homepage_logo_grid&component=customer_story_logo_grid)\n\n![](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/5e4ff204e1eb5152920550b9_plus.svg)\n\n![](https://cdn.prod.website-files.com/5e78f62c08f1bb8c2d788576/699ed198e025a6cbe68d77b0_tushy.svg)[Read case study](https://www.gorgias.com/customers/tushy?ref=homepage_logo_grid&component=customer_story_logo_grid)\n\n![](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/5e4ff204e1eb5152920550b9_plus.svg)\n\n![](https://cdn.prod.website-files.com/5e78f62c08f1bb8c2d788576/699ed1afb767b32c223b07d4_steve%20madden.svg)\n\n![](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a01fea819506034ca8990f_dot.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:51.414539Z",
+      "section_path": "Helpdesk + AI Agent.   One platform. One inbox. One bill. > Starter > Need a fully custom plan?",
+      "chunk_index": 1,
+      "token_count": 623,
+      "quality_score": 0.76
+    },
+    {
+      "id": "ev_e4a0781b5d92",
+      "source_type": "developer_portal",
+      "url": "https://developers.gorgias.com/docs/private-vs-public-app",
+      "domain": "developers.gorgias.com",
+      "page_title": "Private vs. Public App",
+      "content": "These apps should be used if you plan to access only your own Gorgias account data.\n\n- You don't need to follow any special process to create a private app.\n- For the authentication method, you can use [Access Tokens](https://developers.gorgias.com/docs/access-tokens-api-keys).\n\nThese apps are published in our App Store and are available to thousands of shop owners.\n\n- You need to follow a [specific process](https://developers.gorgias.com/docs/overview) which includes a review from the Gorgias team.\n\n> ### 👉\n>\n> Public app authentication can be done only via **OAuth2** for which you will need to register on our [Developer portal](https://partners.gorgias.com/signup).\n\nUpdated 10 months ago\n\n* * *\n\nDid this page help you?\n\nYes\n\nNo\n\nCopy Page\n\nwww.powr.io\n\nThis page has been blocked by an extension\n\n- Try disabling your extensions.\n\nERR\\_BLOCKED\\_BY\\_CLIENT\n\nReload\n\n\nThis page has been blocked by an extension\n\n![](<Base64-Image-Removed>)![](<Base64-Image-Removed>)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:51.360922Z",
+      "section_path": "www.powr.io is blocked",
+      "chunk_index": 0,
+      "token_count": 244,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_6e3f40a1cb05",
+      "source_type": "llms_txt",
+      "url": "https://gorgias.com/llms.txt",
+      "domain": "gorgias.com",
+      "page_title": "llms.txt index",
+      "content": "\\## Industries\n\\- \\[B2B\\](https://gorgias.com/industry/b2b): Automate invoices, shipping, and order updates while keeping relationships personal.\n\\- \\[Baby\\](https://gorgias.com/industry/baby): Handle urgent questions, size swaps, and returns with empathy and speed.\n\\- \\[Beauty & Cosmetics\\](https://gorgias.com/industry/beauty-cosmetics): Automate product guidance—shade, fragrance, ingredients—to reduce returns and increase loyalty.\n\\- \\[Clothing & Apparel\\](https://gorgias.com/industry/clothing-apparel): Streamline sizing, fit, and delivery inquiries with conversational AI.\n\\- \\[Consumer Electronics\\](https://gorgias.com/industry/consumer-electronics): Automate setup, troubleshooting, and order tracking to reduce returns.\n\\- \\[Food & Beverage\\](https://gorgias.com/industry/food-beverage): Manage ingredient and delivery questions while improving repeat purchases.\n\\- \\[Health & Wellness\\](https://gorgias.com/industry/health-wellness): Handle subscription and product questions with personalized automation.\n\\- \\[Home & Garden\\](https://gorgias.com/industry/home-garden): Automate delivery and product-education queries so teams focus on high-value care.\n\\- \\[Luxury & Jewelry\\](https://gorgias.com/industry/luxury-jewelry): Deliver concierge-level support while automating routine requests.\n\\- \\[Pet & Animal\\](https://gorgias.com/industry/pet-animal): Build trust with pet owners by automating food, safety, and subscription queries.\n\\- \\[Retail\\](https://gorgias.com/industry/retail): Connect online and in-store support for seamless return and appointment handling.\n\\- \\[Sports & Fitness\\](https://gorgias.com/industry/sports-fitness): Automate sizing, delivery, and product performance questions for athletes.\n\\- \\[Subscriptions\\](https://gorgias.com/industry/subscriptions): Automate plan changes, skips, and edits to improve retention and LTV.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:50.300738Z",
+      "section_path": "",
+      "chunk_index": 1,
+      "token_count": 465,
+      "quality_score": 0.7
+    },
+    {
+      "id": "ev_bfb18cd07ed7",
+      "source_type": "auth_docs",
+      "url": "https://developers.gorgias.com/reference/authentication",
+      "domain": "developers.gorgias.com",
+      "page_title": "Authentication",
+      "content": "This page has been blocked by an extension\n\n- Try disabling your extensions.\n\nERR\\_BLOCKED\\_BY\\_CLIENT\n\nReload\n\n\nThis page has been blocked by an extension\n\n![](<Base64-Image-Removed>)![](<Base64-Image-Removed>)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:50.482815Z",
+      "section_path": "www.powr.io is blocked",
+      "chunk_index": 0,
+      "token_count": 52,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_6c9c80248dd7",
+      "source_type": "pricing_page",
+      "url": "https://gorgias.com/pricing",
+      "domain": "gorgias.com",
+      "page_title": "Gorgias Pricing – Build the customer support suite that fits your needs",
+      "content": "AI Agent on every plan, pay only when it resolves a conversation.\n\nHelpdesk scales from 50 to 5,000 tickets a month, never priced per agent.\n\nMonthlyAnnual\n\nAdd AI Agent\n\nFor smaller brands getting started on one platform.\n\n$40/mo\n\nBilled monthly · cancel anytime\n\nStart free trialMonthly billing only\n\nIncluded\n\n50 tickets / month\n\n30 automated interactions\n\nHelpdesk$10/mo\n\nThen a $0.40 per-ticket fee past your limit.\n\nAI Agenti$30/mo\n\nThen a $1.50 per automated interaction fee past your limit.\n\n[Compare all features ↓](https://www.gorgias.com/pricing#compare)\n\nFor growing brands whose support volume is outpacing their team.\n\n$90$77/mo\n\n$924 billed annually\n\n[Start free trial](https://www.gorgias.com/signup?automationRate=20&planSelected=basic) No credit card required\n\nIncluded\n\n300 tickets / month\n\n30 automated interactions\n\nHelpdesk$50/mo\n\nThen a $0.40 per-ticket fee past your limit.\n\nAI Agenti$27/mo\n\nThen a $1.50 per automated interaction fee past your limit.\n\n[Compare all features ↓](https://www.gorgias.com/pricing#compare)\n\nMost popular · 12,400+ brands\n\nFor scaling brands that let AI resolve and sell, with revenue analytics.\n\n$550$471/mo\n\n$5,652 billed annually\n\n[Start free trial](https://www.gorgias.com/signup?automationRate=30&planSelected=pro) No credit card required\n\nIncluded\n\n2,000 tickets / month\n\n190 automated interactions\n\nHelpdesk$300/mo\n\nThen a $0.36 per-ticket fee past your limit.\n\nAI Agenti$171/mo\n\nThen a $1.50 per automated interaction fee past your limit.\n\n[Compare all features ↓](https://www.gorgias.com/pricing#compare)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:51.414392Z",
+      "section_path": "Helpdesk + AI Agent.   One platform. One inbox. One bill. > Starter > Pro",
+      "chunk_index": 0,
+      "token_count": 391,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_82a27ef55b3f",
+      "source_type": "pricing_page",
+      "url": "https://gorgias.com/pricing",
+      "domain": "gorgias.com",
+      "page_title": "Gorgias Pricing – Build the customer support suite that fits your needs",
+      "content": "Add Voice or SMS to any plan. Pricing scales with your call and text volume, so you can choose the tier that matches your usage.\n\nMonthlyAnnual\n\nVoicePhone support, inside your helpdesk\n\nFrom$25/mo · annual pricing\n\nHow it’s counted: A conversation becomes a Voice ticket the moment a call connects. Unlimited follow-up calls on that ticket at no extra charge.\n\nEstimate your volume\n\nNo Voice tickets\n\nIncluded0 calls\n\nPer ticket—\n\nExtra ticket—\n\nCall queues with flexible routingCall flows & IVR menusCall recording & transcriptionVoice tickets with ecommerce context\n\nSMSTwo-way text conversations, on any plan\n\nFrom$17/mo · annual pricing\n\nHow it’s counted: A conversation becomes an SMS ticket the moment a text is exchanged. Unlimited follow-up texts on that ticket at no extra charge.\n\nEstimate your volume\n\nNo SMS tickets\n\nIncluded0 texts\n\nPer ticket—\n\nExtra ticket—\n\nTwo-way SMS in your helpdeskMMS / media supportInternational sending coverageBuilt-in opt-out compliance\n\n![](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a01fea819506034ca8990f_dot.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:51.414639Z",
+      "section_path": "Helpdesk + AI Agent.   One platform. One inbox. One bill. > Voice and SMS,when you need them.",
+      "chunk_index": 2,
+      "token_count": 269,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_6ac499231260",
+      "source_type": "pricing_page",
+      "url": "https://gorgias.com/pricing",
+      "domain": "gorgias.com",
+      "page_title": "Gorgias Pricing – Build the customer support suite that fits your needs",
+      "content": "|  | Starter | Basic | ProMost popular | Advanced |\n| --- | --- | --- | --- | --- |\n| Overview |\n| Overage ticket cost | +$0.40 / ticket | +$0.40 / ticket | +$0.36 / ticket | +$0.36 / ticket |\n| API rate limit | 2 requests/sec | 2 requests/sec | 2 requests/sec | 2 requests/sec |\n| User seats | 3 | 500 | 500 | 500 |\n| Connect your Ecommerce store |\n| Shopify / Shopify Plus |  |  |  |  |\n| BigCommerce | — |  |  |  |\n| Magento | — | — |  |  |\n| WooCommerce |  |  |  |  |\n| Multi-stores | Unlimited | Unlimited | Unlimited | Unlimited |\n| Centralize every support interaction |\n| Email |  |  |  |  |\n| Live chat |  |  |  |  |\n| Contact Form |  |  |  |  |\n| Facebook |  |  |  |  |\n| Instagram |  |  |  |  |\n| TikTok Shop |  |  |  |  |\n| Voice | w/ Voice add-on | w/ Voice add-on | w/ Voice add-on | w/ Voice add-on |\n| SMS | w/ SMS add-on | w/ SMS add-on | w/ SMS add-on | w/ SMS add-on |\n| WhatsApp |  |  |  |  |\n| Integrate your entire stack |\n| Integration library | 254 apps | 254 apps | 254 apps | 254 apps |\n| HTTP / custom integrations |  |  |  |  |\n| Klaviyo |  |  |  |  |\n| Yotpo |  |  |  |  |\n| Recharge |  |  |  |  |\n| Smile |  |  |  |  |\n| Automate your work |\n| Macros |  |  |  |  |\n| Rules |  |  |  |  |\n| Intent & sentiment detection |  |  |  |  |\n| Chat campaigns |  |  |  |  |\n| Flows | w/ AI Agent | w/ AI Agent | w/ AI Agent | w/ AI Agent |\n| Order Management | w/ AI Agent | w/ AI Agent | w/ AI Agent | w/ AI Agent |\n| Help Center / FAQ | 10 Help Centers | 10 Help Centers | 10 Help Centers | 10 Help Centers |\n| AI Agent (included on every plan) |\n| Pre-trained on 18+ verticals |  |  |  |  |\n| Brand voice & guardrails | — |  |  |  |\n| Actions (cancel, discount, apply) | — |  |  |  |\n| Measure and improve your support |\n| Dashboards and real-time monitoring |  |  |  |  |\n| AI and automation statistics | w/ AI Agent | w/ AI Agent | w/ AI Agent | w/ AI Agent |\n| Insights and quality |  |  |  |  |\n| User management |\n| SSO |  |  |  |  |\n| Team management |  |  |  |  |\n| User permissions |  |  |  |  |\n| Security |\n| Audit logs | — | — |  |  |\n| GDPR / CCPA compliance |  |  |  |  |\n\nCompare support tiers ↗\n\n[**\"When we first started with Gorgias, our goal was to hit 30% automation in 30 days. We surpassed that and are now above 50% automation, and we’re still climbing.\"** \\\\\n![](https://cdn.prod.website-files.com/5e78f62c08f1bb8c2d788576/692d612047269336fec09045_691703afca6b4a8b00caac45_6894b2f608275ec1e3a9a944_orthofeet_logo_black.avif)\\\\\n\\\\\nCourtney Bajek\\\\\n\\\\\nCustomer Service Lead at Orthofeet\\\\\n\\\\\nRead the full story ->](https://www.gorgias.com/customers/orthofeet)\n\n![](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a01fea819506034ca8990f_dot.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:51.414745Z",
+      "section_path": "Helpdesk + AI Agent.   One platform. One inbox. One bill. > Every feature side by side.",
+      "chunk_index": 3,
+      "token_count": 675,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_3ebc6584fd3e",
+      "source_type": "pricing_page",
+      "url": "https://gorgias.com/pricing",
+      "domain": "gorgias.com",
+      "page_title": "Gorgias Pricing – Build the customer support suite that fits your needs",
+      "content": "GeneralBilling and PricingSupport and ServicesGetting startedData & Security\n\nWho's Gorgias for?\n\nWhether you're scaling fast or leading the pack, if you're focused on driving sales, automating support, and building loyal customers at scale, Gorgias is for you.\n\nWhat are the different products available?\n\nGorgias offers a customer experience platform for support and marketing through two complementary products: Helpdesk and AI Agent.\n\nWhat is Helpdesk?\n\nHelpdesk is your all-in-one support hub designed specifically for ecommerce and Shopify. It unifies every customer channel and provides your team with the tools to deliver fast, reliable, and personalized support.\n\nWhat is AI Agent?\n\nAI Agent is your always-on ecommerce expert, resolving support questions instantly, converting shoppers with personalized chat, and automating actions like returns, order tracking, and more. All without a human in the loop.\n\nCan someone give me a demo of Gorgias?\n\nAbsolutely. Our team can walk you through how Gorgias works, what AI Agent can do for your brand, and how to start seeing impact fast. [Book a personalized demo](https://www.gorgias.com/demo) whenever you're ready.\n\nGorgias Floating ChatGorgias Floating Chat\n\nGorgias live chat messengerGorgias Live Chat\n\nChat with us",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:51.414776Z",
+      "section_path": "Helpdesk + AI Agent.   One platform. One inbox. One bill. > Frequently Asked Questions",
+      "chunk_index": 4,
+      "token_count": 318,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_f7040aa72a90",
+      "source_type": "official_docs",
+      "url": "https://gorgias.com",
+      "domain": "gorgias.com",
+      "page_title": "The Conversational AI platform for Ecommerce | Gorgias",
+      "content": "The #1 Helpdesk + AI Agent built to drive sales. Turn browsers into buyers and automate routine support from one unified platform trained on your brand.\n\n[Discover pricing](https://www.gorgias.com/wip/legacy/pricing?ref=home&ref-position=hero) [Book a demo](https://www.gorgias.com/demo?ref=home&ref-position=hero)\n\n.gI'mlookingforablackblazerunder$100.Askanything\n\nWe power customer conversations for 40% of Shopify brands\n\n![](https://cdn.prod.website-files.com/5e78f62c08f1bb8c2d788576/699ed1298c44f56e386d1bec_tommy%20john.svg)[Read case study](https://www.gorgias.com/customers/tommy-john?ref=homepage_logo_grid&component=customer_story_logo_grid)\n\n![](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/5e4ff204e1eb5152920550b9_plus.svg)\n\n![](https://cdn.prod.website-files.com/5e78f62c08f1bb8c2d788576/699ed1428ee136d10248caae_simplehuman.svg)\n\n![](https://cdn.prod.website-files.com/5e78f62c08f1bb8c2d788576/699ed15b727ab46cc75ac8d3_orthofeet.svg)[Read case study](https://www.gorgias.com/customers/orthofeet?ref=homepage_logo_grid&component=customer_story_logo_grid)\n\n![](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/5e4ff204e1eb5152920550b9_plus.svg)\n\n![](https://cdn.prod.website-files.com/5e78f62c08f1bb8c2d788576/699ed198e025a6cbe68d77b0_tushy.svg)[Read case study](https://www.gorgias.com/customers/tushy?ref=homepage_logo_grid&component=customer_story_logo_grid)\n\n![](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/5e4ff204e1eb5152920550b9_plus.svg)\n\n![](https://cdn.prod.website-files.com/5e78f62c08f1bb8c2d788576/699ed1afb767b32c223b07d4_steve%20madden.svg)\n\n![](https://cdn.prod.website-files.com/5e78f62c08f1bb8c2d788576/699ed1c4c10f5c356df95263_reebok.svg)\n\n![](https://cdn.prod.website-files.com/5e78f62c08f1bb8c2d788576/699ed1d98224bfb52e0828fd_suitshop.svg)[Read case study](https://www.gorgias.com/customers/suitshop-retail?ref=homepage_logo_grid&component=customer_story_logo_grid)\n\n![](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/5e4ff204e1eb5152920550b9_plus.svg)\n\n![](https://cdn.prod.website-files.com/5e78f62c08f1bb8c2d788576/699ed1ef72e2261c62e5dd20_quicksilver.svg)\n\n![](https://cdn.prod.website-files.com/5e78f62c08f1bb8c2d788576/699ed20185260c2bcfcb70c9_osea.svg)[Read case study](https://www.gorgias.com/customers/osea-malibu?ref=homepage_logo_grid&component=customer_story_logo_grid)\n\n![](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/5e4ff204e1eb5152920550b9_plus.svg)\n\n![](https://cdn.prod.website-files.com/5e78f62c08f1bb8c2d788576/699ed218f29aa043ce705dc7_bareminerals.svg)[Read case study](https://www.gorgias.com/customers/bareminerals?ref=homepage_logo_grid&component=customer_story_logo_grid)\n\n![](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/5e4ff204e1eb5152920550b9_plus.svg)\n\n![](https://cdn.prod.website-files.com/5e78f62c08f1bb8c2d788576/699ed23be831566cdca4a6b3_timbuk2.svg)[Read case study](https://www.gorgias.com/customers/timbuk2?ref=homepage_logo_grid&component=customer_story_logo_grid)\n\n![](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/5e4ff204e1eb5152920550b9_plus.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:50.740540Z",
+      "section_path": "Conversations that drive revenue, not just resolutions.",
+      "chunk_index": 0,
+      "token_count": 781,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_83352bc52a8f",
+      "source_type": "official_docs",
+      "url": "https://gorgias.com",
+      "domain": "gorgias.com",
+      "page_title": "The Conversational AI platform for Ecommerce | Gorgias",
+      "content": "![](https://cdn.prod.website-files.com/5e78f62c08f1bb8c2d788576/699ed2508f90add96b911133_psychobunny.svg)[Read case study](https://www.gorgias.com/customers/psycho-bunny-cost-savings?ref=homepage_logo_grid&component=customer_story_logo_grid)\n\n![](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/5e4ff204e1eb5152920550b9_plus.svg)\n\n![](https://cdn.prod.website-files.com/5e78f62c08f1bb8c2d788576/699ed2678d9748f6229aeaed_babygold.svg)[Read case study](https://www.gorgias.com/customers/baby-gold?ref=homepage_logo_grid&component=customer_story_logo_grid)\n\n![](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/5e4ff204e1eb5152920550b9_plus.svg)\n\n![](https://cdn.prod.website-files.com/5e78f62c08f1bb8c2d788576/699ed2846cf4c7b0cf5d107f_arcteryx.svg)\n\n![](https://cdn.prod.website-files.com/5e78f62c08f1bb8c2d788576/699ed2cc74176e65b2f89043_quicksilver.svg)\n\n![](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a01fea819506034ca8990f_dot.svg)\n\n![](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a5f5206cba17778ef9d2bd_BG%20Gradient%20LG.svg)\n\nOne unified inbox across every channel, with live Shopify data and full customer context built into every conversation.\n\n![](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a5f5d14c8f5823d149ae8c_bento-2-gradient.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:50.740580Z",
+      "section_path": "Conversations that drive revenue, not just resolutions. > AI Agent trained on your brand > One conversation. Everywhere.",
+      "chunk_index": 1,
+      "token_count": 330,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_119a495ec6bc",
+      "source_type": "official_docs",
+      "url": "https://gorgias.com",
+      "domain": "gorgias.com",
+      "page_title": "The Conversational AI platform for Ecommerce | Gorgias",
+      "content": "![](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a5f672a9aa86765e71caac_BG%20Gradient%20LG.svg)![](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a5f49404727c73e0e1eb4b_0a953a74f3674220d8c171f403222b7f_bento-3-ui.svg)\n\n[![](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a5f6a5793783bb2a6e90de_bento-4-gradient.svg)\\\\\n**Engage. Guide. Convert.** \\\\\n\\\\\n![Bare Minerals logo](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a07928c80935fae48aeef1_BareMinerals.svg)\\\\\n\\\\\n8.83× ROI\\\\\n\\\\\n“The AI upsells with a conversational tone that feels genuinely helpful, not pushy. It asks the right follow-up questions and improves AOV. It’s exactly how we train our human agents.”\\\\\n\\\\\n![](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a5f278b8c178f072491cd4_bento-chart.svg)](https://www.gorgias.com/customers/bareminerals)\n\n![](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a01fea819506034ca8990f_dot.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:50.740613Z",
+      "section_path": "Conversations that drive revenue, not just resolutions. > AI Agent trained on your brand > One conversation. Everywhere. > High-quality answers. Measurable results.",
+      "chunk_index": 2,
+      "token_count": 246,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_7c3ffb482c9c",
+      "source_type": "official_docs",
+      "url": "https://gorgias.com",
+      "domain": "gorgias.com",
+      "page_title": "The Conversational AI platform for Ecommerce | Gorgias",
+      "content": "Most brands bolt third-party AI onto a generic helpdesk. Gorgias unifies AI and the inbox in a single platform, so agents and automation share context, resulting in faster, more accurate responses.\n\n[Explore the platform](https://www.gorgias.com/ai-agent)\n\n[**One AI Agent. Pre-sale to post-sale.** \\\\\nLearn more ->](https://www.gorgias.com/ai-agent)\n\n![Light bulb icon representing an idea or illumination.](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a07e6cd60f7ca766a63b63_c97433aed1f275f764b5149248b015b8_Display%20Icon.png)\n\nPre-trained on 1B+ conversations\n\nUnderstands ecommerce, Shopify data, and customer intent from day one\n\n![Black lightning bolt with three horizontal speed lines on a rounded square white background.](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a07e6c07827a280fca1e77_4969384d7a0558f2bc41ef68e75b83ad_Display%20Icon-1.png)\n\nYour rules. Your AI.\n\nApply your tone, policies, and SOPs with built-in guardrails\n\n![Icon of a gear representing settings or configuration.](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a07e6c1f4ca162eb99fdad_2a13639c98d2e1f335840fb726a85e58_Display%20Icon-2.png)\n\nAutomate 60% of support\n\nResolve inquiries automatically so your team can focus on high-impact work\n\n![Refresh or reload icon with two curved arrows forming a circle.](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a07e6c0a0848a4af365508_c14723650657ae4f2bb1b0f9747e70e7_Display%20Icon-3.png)\n\nAI coaching, built in\n\nProactive, real-time tips help agents improve with every conversation\n\n![Shopping bag icon inside a rounded square button.](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a07e6c71b2c9d520781bd4_7dd3cf26f50a0c66220e6c992dad6b0e_Display%20Icon-4.png)\n\nProactive, not reactive AI\n\nEngage shoppers at the right moment with the right recommendations\n\n![Speedometer icon indicating speed or performance.](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a07e6ca4d129650cda73b7_acd3a9f9e0ca674b360466ca058ef270_Display%20Icon-5.png)\n\nKnows when to escalate to your team\n\nSeamless hand-offs to human agents with context\n\n[**One inbox. Full store context.** \\\\\nLearn more ->](https://www.gorgias.com/products/helpdesk)\n\n![Icon of an empty inbox tray inside a rounded square button.](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a07e6ca70d14a386901731_119e51cbfac54a562dfe77f3a08b4198_Display%20Icon-6.png)\n\nOne omnichannel inbox\n\nEmail, chat, SMS, WhatsApp, Instagram, and Facebook in one view\n\n![Icon of two overlapping speech bubbles representing chat or conversation.](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a07e6c07ee67cbbb24a950_b89ddfaced730a987620d3524c0324ef_Display%20Icon-8.png)\n\nIn-conversation actions\n\nCancel, discount, or upsell directly inside the conversation\n\n![Shopify shopping bag logo icon in black on a white rounded square background.](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a07e6c5d25c303e8af2c87_ebb135adcc3dab63755760801a33218a_Display%20Icon-7.png)\n\nNative Shopify integration\n\nPull up any order, customer, or product without leaving the ticket",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:50.740670Z",
+      "section_path": "Conversations that drive revenue, not just resolutions. > AI Agent + Helpdesk, built as one.",
+      "chunk_index": 3,
+      "token_count": 789,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_08b02edac6dd",
+      "source_type": "official_docs",
+      "url": "https://gorgias.com",
+      "domain": "gorgias.com",
+      "page_title": "The Conversational AI platform for Ecommerce | Gorgias",
+      "content": "![Single black puzzle piece icon inside a rounded square with shadow.](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a07e6c75d6417c97fd263d_dd0d52f5a40bfe4fe0d8b99e867c2667_Display%20Icon-9.png)\n\n300+ integrations\n\nRecharge, Klaviyo, Yotpo, and more connected out of the box\n\n![User profile icon depicting a person with a circle for a head and a curved line for shoulders inside a rounded square.](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a07e6c94b1bb2db9b5f324_a5565b28e1ad2c9063d3f8455c8405d5_Display%20Icon-11.png)\n\nTeam collaboration\n\nRoute, assign, and manage tickets across your team\n\n![Icon of a stylized paper currency bill with a circle and two vertical lines on a rounded square white background.](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a07e6c351d74f87955e287_ffe3227e336efda9bcedc4324eaf732b_Display%20Icon-10.png)\n\nRevenue attribution reporting\n\nSee exactly how much revenue your support team generates\n\n![](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a01fea819506034ca8990f_dot.svg)\n\nEvery conversation is a revenue opportunity. Here's the proof.\n\n![](https://cdn.prod.website-files.com/5e78f62c08f1bb8c2d788576/692d61224750bd8b9a6dfe18_691703b11f888f5ed6e0ebea_67c86b985db034e11f91fbdb_Pepper%252520logo%252520white.avif)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:50.740704Z",
+      "section_path": "Conversations that drive revenue, not just resolutions. > AI Agent + Helpdesk, built as one. > Our customers say it best",
+      "chunk_index": 4,
+      "token_count": 328,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_0e06a1960515",
+      "source_type": "official_docs",
+      "url": "https://gorgias.com",
+      "domain": "gorgias.com",
+      "page_title": "The Conversational AI platform for Ecommerce | Gorgias",
+      "content": "![Circular white button with a black play icon in the center.](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a067d523dbb0140729e5e9_9715722d125c12c328af62998be1bf08_Glass%20button.png)\n\nGorgias + Pepper 2m\n\n![Video Thumbnail](https://fast.wistia.net/embed/medias/fk879dn829/swatch)\n\n![Video Thumbnail](https://embed-ssl.wistia.com/deliveries/1e72f4ed09a28aabf656eda6a9a838b6.webp?image_crop_resized=960x539)\n\nClick for sound\n\n1:56\n\n[![](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/648ac1096853962bcd5d449b_close_black_24dp.svg)](https://www.gorgias.com/#)\n\n![](https://cdn.prod.website-files.com/5e78f62c08f1bb8c2d788576/692d612047269336fec09048_691703afca6b4a8b00caac4b_6894b32ce99d10ee60163d77_orthofeet_logo_white.avif)\n\n![Circular white button with a black play icon in the center.](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a067d523dbb0140729e5e9_9715722d125c12c328af62998be1bf08_Glass%20button.png)\n\nGorgias + Orthofeet 2m\n\n![Gorgias and OrthoFeet Customer Story](https://fast.wistia.net/embed/medias/8o15v2vf82/swatch)\n\n![Gorgias and OrthoFeet Customer Story](https://embed-ssl.wistia.com/deliveries/570a982f926cc9fcd79b6cc2ac910484.webp?image_crop_resized=960x530)\n\nClick for sound\n\n2:07\n\n[![](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/648ac1096853962bcd5d449b_close_black_24dp.svg)](https://www.gorgias.com/#)\n\n![](https://cdn.prod.website-files.com/5e78f62c08f1bb8c2d788576/691703b2f68458c46f9a12b0_67feaf9193ca17949458fe04_psycho%2520bunny%2520logo%2520-%2520white.avif)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:50.740735Z",
+      "section_path": "Conversations that drive revenue, not just resolutions. > AI Agent + Helpdesk, built as one. > Our customers say it best > automation rate in <2 months",
+      "chunk_index": 5,
+      "token_count": 387,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_e5fa139bdce3",
+      "source_type": "official_docs",
+      "url": "https://gorgias.com",
+      "domain": "gorgias.com",
+      "page_title": "The Conversational AI platform for Ecommerce | Gorgias",
+      "content": "![Circular white button with a black play icon in the center.](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a067d523dbb0140729e5e9_9715722d125c12c328af62998be1bf08_Glass%20button.png)\n\nGorgias + Psycho Bunny 2m\n\n![Video Thumbnail](https://fast.wistia.net/embed/medias/h14mxhyv7w/swatch)\n\n![Video Thumbnail](https://embed-ssl.wistia.com/deliveries/dbce452df2a24d90d1e46c0a91e44cab.webp?image_crop_resized=960x540)\n\nClick for sound\n\n2:04\n\n[![](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/648ac1096853962bcd5d449b_close_black_24dp.svg)](https://www.gorgias.com/#)\n\n$500M+\n\nrevenue driven through conversations\n\n17,000+\n\necommerce brands powered globally\n\n4.2x\n\naverage return on investment\n\n![](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a01fea819506034ca8990f_dot.svg)\n\n[Today\\\\\n\\\\\nConnect your channels\\\\\n\\\\\nConnect your channels, migrate your data, and get your team up and running with implementation resources that guide the way.](https://www.gorgias.com/#w-tabs-0-data-w-pane-0) [Day 7\\\\\n\\\\\nLaunch in 1 week\\\\\n\\\\\nStart resolving tickets immediately with full Shopify context, knowledge, and workflows in place.](https://www.gorgias.com/#w-tabs-0-data-w-pane-1) [Day 21\\\\\n\\\\\nAutomate at scale\\\\\n\\\\\nAI Agent handles the repetitive tickets filling up the queue, so your team can spend their time where it matters most.](https://www.gorgias.com/#w-tabs-0-data-w-pane-2) [Day 50\\\\\n\\\\\nDrive measurable revenue\\\\\n\\\\\nTurn high-intent moments into measurable revenue by engaging shoppers, increasing basket size, and giving each visitor the confidence to convert.](https://www.gorgias.com/#w-tabs-0-data-w-pane-3)\n\n![Dr. Bronner's, a Gorgias customer brand](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a5f72f318a393c2ddda303_Dr.%20Bronner%27s%20Feature.png)![Bare Minerals, a Gorgias customer brand](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69c146a36cb723152434e786_bareMinerals%20Feature.png)![Glamnetic logo](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69c146a392e39c8d1f3ab102_Glamnetic.png)![Arc'teryx, a Gorgias customer brand](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69c146a373b23e9e7d29ebb0_Arc%E2%80%99teryx%20Feature.png)\n\n[**\"When we first started with Gorgias, our goal was to hit 30% automation in 30 days. We surpassed that and are now above 50% automation, and we’re still climbing.\"** \\\\\n![](https://cdn.prod.website-files.com/5e78f62c08f1bb8c2d788576/692d612047269336fec09045_691703afca6b4a8b00caac45_6894b2f608275ec1e3a9a944_orthofeet_logo_black.avif)\\\\\n\\\\\nCourtney Bajek\\\\\n\\\\\nCustomer Service Lead at Orthofeet\\\\\n\\\\\nRead the full story ->](https://www.gorgias.com/customers/orthofeet)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:50.740802Z",
+      "section_path": "Conversations that drive revenue, not just resolutions. > AI Agent + Helpdesk, built as one. > We help you get to 50% in 50 days.",
+      "chunk_index": 6,
+      "token_count": 680,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_a5f098362219",
+      "source_type": "official_docs",
+      "url": "https://gorgias.com",
+      "domain": "gorgias.com",
+      "page_title": "The Conversational AI platform for Ecommerce | Gorgias",
+      "content": "The most trusted names in AI and ecommerce choose Gorgias. Now you can too.\n\n![OpenAI black wordmark logo](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a1a10d340a061252cb133c_OpenAI-black-wordmark%201.svg)\n\nBuilt on a direct OpenAI partnership. Deeper model access. AI fine-tuned for product recommendations, order management, and brand voice. A real integration.\n\n![Shopify logo in monochrome black](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a1a10d6e90f00d9e5dd399_shopify_monotone_black%202.svg)\n\nShopify-invested. Orders, customers, and store data live inside Gorgias natively. One click to install. Zero data syncing.\n\n![](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a1a2764a3590e8c2d6b823_shield-01.svg)\n\nPlatform stability\n\nZero downtime during peak season. Handles high volumes and holiday surges without dropping a single conversation.\n\n![](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a1a2766bce2dfc29609bf3_rocket-02.svg)\n\nContinuous innovation\n\nCommerce-first development. Every feature based on how Shopify brands actually work.\n\n![](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a1a27634c3fa774e96e746_puzzle-piece-02.svg)\n\nDeepest integrations\n\n300+ integrations. Klaviyo, Recharge, Yotpo, and your entire stack. One click.\n\n![](https://cdn.prod.website-files.com/5e4ff204e7b6f80e402d407a/69a1a27695e7d08741c933eb_lock-04.svg)\n\nProtected investment\n\nScales with you. From 100 tickets a month to 100,000. Same platform.\n\ngiItT1WQy@!-/#giItT1WQy@!-/#giItT1WQy@!-/#giItT1WQy@!-/#\n\nGorgias Floating ChatGorgias Floating Chat\n\nGorgias live chat messengerGorgias Live Chat\n\nChat with us",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:50.740837Z",
+      "section_path": "Conversations that drive revenue, not just resolutions. > Backed by the best > Built into Shopify’s DNA",
+      "chunk_index": 7,
+      "token_count": 420,
+      "quality_score": 0.36
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Gorgias is the conversational AI platform for ecommerce that drives sales and resolves support inquiries.",
+      "evidence_ids": [
+        "ev_031e6d932e31"
+      ]
+    },
+    "category": {
+      "value": "Support and Helpdesk",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "OAuth2, Access Tokens",
+      "evidence_ids": [
+        "ev_e4a0781b5d92",
+        "ev_bfb18cd07ed7"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_6c9c80248dd7"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API",
+      "evidence_ids": [
+        "ev_15607a6023e2"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_6c9c80248dd7"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_031e6d932e31"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_f7040aa72a90"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_031e6d932e31"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.75,
+    "fields_checked": 8,
+    "fields_supported": 6,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.75,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.75 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

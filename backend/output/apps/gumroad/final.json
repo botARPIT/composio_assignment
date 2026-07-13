@@ -1,0 +1,339 @@
+{
+  "app": {
+    "id": 48,
+    "name": "Gumroad",
+    "website": "gumroad.com/api",
+    "category_hint": "Ecommerce"
+  },
+  "documentation_map": {
+    "app_name": "Gumroad",
+    "official_domain": "gumroad.com",
+    "homepage": {
+      "url": "https://gumroad.com/api",
+      "title": "Gumroad",
+      "confidence": 0.5,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://authentication.gumroad.com",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://reference.gumroad.com",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://gumroad.com/pricing",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://mcp.gumroad.com",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://docs.gumroad.com",
+        "title": "",
+        "confidence": 0.85,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "Gumroad",
+      "official_domain": "gumroad.com",
+      "items": [
+        {
+          "url": "https://gumroad.com/api",
+          "page_type": "homepage",
+          "title": "Gumroad",
+          "confidence": 0.5,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://authentication.gumroad.com",
+          "page_type": "authentication",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://reference.gumroad.com",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://gumroad.com/pricing",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.gumroad.com",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.85,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://mcp.gumroad.com",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 0,
+        "urls_discovered": 6,
+        "official_urls": 6,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 6
+      }
+    },
+    "stats": {
+      "queries": 0,
+      "urls_discovered": 6,
+      "official_urls": 6,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 6
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_2cac26e674e2",
+      "source_type": "pricing_page",
+      "url": "https://gumroad.com/pricing",
+      "domain": "gumroad.com",
+      "page_title": "Gumroad pricing: 10% flat fee",
+      "content": "Simple, transparent pricing\n10% + $0.50\nPer transaction for all sales through your profile or direct links to your customers.\n30%\nPer transaction when new customers find and buy from you through our discover marketplace.\nWe're a Merchant \n of Record\n      What this means for you\nBuild your creative business with confidence. We're taking care of all tax complexity worldwide, so you can focus on what you do best: creating.\n- → No more tax headaches - we handle everything\n- → Simplified global selling - we manage international tax compliance\n- → More time for creating - less time dealing with paperwork\nFrequently asked questions\nWhat can I sell on Gumroad?\nDigital products, e-books, courses, tutorials, and memberships—almost anything! Creators in just about every industry use (and love) Gumroad, from digital artists, writers, musicians and other creative-types to business-minded entrepreneurs and tech gurus like our SaaS creators. A better question is, \"What can't I sell on Gumroad?\"\nWhat can't I sell on Gumroad?\nOutside of physical goods, things like illegal or illicit goods or services, securities & financial instruments, credit repair, gambling & lotteries, harassment & extremist content, copyright infringement & piracy, or obscene or adult content are not permitted on Gumroad. A full list can be found here.\nHow do I get paid?\nGumroad's goal is to help creators make a living doing what they love, so we make it as simple as possible to get paid. How we pay creators, whether through direct deposit or PayPal, varies by country.\nWhat are the fees?\nUnlike other platforms, Gumroad doesn't charge you a monthly fee. Instead, our fees are deducted as a small percentage of every sale, so we only make money when you do.\nCan I use Gumroad for memberships?\n        Yes!\nWhether it's for a podcast, online course, or SaaS subscriptions, Gumroad makes it easy to manage memberships.\n      \nWhat's changing with taxes?\nWe're becoming your merchant of record, which means Gumroad will automatically handle all sales tax collection and remittance worldwide. You won't need to manage any tax settings or applications - we'll take care of everything.\nWhat do I need to do to prepare for this change?\nNothing! The transition will happen automatically on January 1, 2025. Our updated Terms of Service will reflect these changes. You can continue selling as usual.\nWhat about international sales?\nWe'll handle all tax obligations for your global sales automatically. You don't need to worry about VAT, GST, or any other international tax requirements.\nWhat happens to my tax collection settings?\nAll tax settings will be automatically disabled in your dashboard. This includes both the state tax settings in your creator profile and any product-specific tax settings. You won't need to manage these anymore since we'll handle all tax collection automatically.\nWill Gumroad collect taxes everywhere?\nWe'll collect taxes in regions where we have tax obligations as a merchant of record. This varies by location, and we'll automatically handle the appropriate tax collection for each sale.\nNeed a Reseller Certificate from Gumroad?\nSome creators may have an obligation to file sales tax (or other indirect tax) returns already, and will need to report their sales on Gumroad as \"sales to other retailers for purposes of resale\", which are not taxable. To justify this treatment to your tax authority, you will need to download and save this Reseller Certificate.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:05:48.395674Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 866,
+      "quality_score": 0.64
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Gumroad is a platform for selling digital products and managing memberships.",
+      "evidence_ids": [
+        "ev_2cac26e674e2"
+      ]
+    },
+    "category": {
+      "value": "Ecommerce",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_2cac26e674e2"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_2cac26e674e2"
+      ]
+    },
+    "api_surface": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_2cac26e674e2"
+      ]
+    },
+    "api_breadth": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_2cac26e674e2"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_2cac26e674e2"
+      ]
+    },
+    "buildability": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_2cac26e674e2"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_2cac26e674e2"
+      ]
+    }
+  },
+  "validation": {
+    "status": "INSUFFICIENT_EVIDENCE",
+    "score": 0.25,
+    "fields_checked": 8,
+    "fields_supported": 2,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "auth_methods",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'auth_methods' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "api_surface",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_surface' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "api_breadth",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_breadth' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "buildability",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'buildability' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": {
+    "verified_fields": [
+      "auth_methods"
+    ],
+    "corrections": {
+      "auth_methods": "oauth2, token"
+    },
+    "screenshots": [],
+    "notes": ""
+  },
+  "pipeline_confidence": 0.25,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.25 below 0.90 threshold",
+      "Auth methods missing or UNKNOWN",
+      "Browser verification found discrepancies",
+      "Insufficient evidence (1 pieces, minimum 3)"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

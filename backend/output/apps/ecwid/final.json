@@ -1,0 +1,356 @@
+{
+  "app": {
+    "id": 47,
+    "name": "Ecwid",
+    "website": "api-docs.ecwid.com",
+    "category_hint": "Ecommerce"
+  },
+  "documentation_map": {
+    "app_name": "Ecwid",
+    "official_domain": "api-docs.ecwid.com",
+    "homepage": {
+      "url": "https://api-docs.ecwid.com",
+      "title": "Ecwid",
+      "confidence": 0.5,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://docs.ecwid.com",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://docs.ecwid.com",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://docs.ecwid.com",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://docs.ecwid.com",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://docs.ecwid.com",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "Ecwid",
+      "official_domain": "api-docs.ecwid.com",
+      "items": [
+        {
+          "url": "https://api-docs.ecwid.com",
+          "page_type": "homepage",
+          "title": "Ecwid",
+          "confidence": 0.5,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.ecwid.com",
+          "page_type": "authentication",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.ecwid.com",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.ecwid.com",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.ecwid.com",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.ecwid.com",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 0,
+        "urls_discovered": 6,
+        "official_urls": 6,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 4,
+        "canonical_selected": 6
+      }
+    },
+    "stats": {
+      "queries": 0,
+      "urls_discovered": 6,
+      "official_urls": 6,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 4,
+      "canonical_selected": 6
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_a9016d60347b",
+      "source_type": "auth_docs",
+      "url": "https://docs.ecwid.com",
+      "domain": "docs.ecwid.com",
+      "page_title": "Build with Ecwid apps | Ecwid Documentation",
+      "content": "Build with Ecwid apps\nLast updated\nWas this helpful?\nExplore our guides and examples to integrate Ecwid Ecommerce\nGet human support\nAsk your questions and get answers from our API specialists.\n Automate integrations\n Build websites\n Customize storefront\n Create discounts\n Browse guides\nLast updated\nWas this helpful?\nWas this helpful?",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:05:37.577671Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 83,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_04f81cd40d75",
+      "source_type": "official_docs",
+      "url": "https://api-docs.ecwid.com",
+      "domain": "api-docs.ecwid.com",
+      "page_title": "Build with Ecwid apps | Ecwid Documentation",
+      "content": "Build with Ecwid apps\nLast updated\nWas this helpful?\nExplore our guides and examples to integrate Ecwid Ecommerce\nGet human support\nAsk your questions and get answers from our API specialists.\n Automate integrations\n Build websites\n Customize storefront\n Create discounts\n Browse guides\nLast updated\nWas this helpful?\nWas this helpful?",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:05:37.713875Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 83,
+      "quality_score": 0.4
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Ecwid Ecommerce integration platform",
+      "evidence_ids": [
+        "ev_a9016d60347b",
+        "ev_04f81cd40d75"
+      ]
+    },
+    "category": {
+      "value": "Ecommerce",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_a9016d60347b",
+        "ev_04f81cd40d75"
+      ]
+    },
+    "self_serve": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_a9016d60347b",
+        "ev_04f81cd40d75"
+      ]
+    },
+    "api_surface": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_a9016d60347b",
+        "ev_04f81cd40d75"
+      ]
+    },
+    "api_breadth": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_a9016d60347b",
+        "ev_04f81cd40d75"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_a9016d60347b",
+        "ev_04f81cd40d75"
+      ]
+    },
+    "buildability": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_a9016d60347b",
+        "ev_04f81cd40d75"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_a9016d60347b",
+        "ev_04f81cd40d75"
+      ]
+    }
+  },
+  "validation": {
+    "status": "INSUFFICIENT_EVIDENCE",
+    "score": 0.12,
+    "fields_checked": 8,
+    "fields_supported": 1,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "auth_methods",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'auth_methods' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "self_serve",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'self_serve' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "api_surface",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_surface' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "api_breadth",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_breadth' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "buildability",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'buildability' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": {
+    "verified_fields": [
+      "self_serve"
+    ],
+    "corrections": {
+      "self_serve": "Self-serve (verified by browser)"
+    },
+    "screenshots": [],
+    "notes": ""
+  },
+  "pipeline_confidence": 0.12,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.12 below 0.90 threshold",
+      "Self-serve access model is UNKNOWN",
+      "Auth methods missing or UNKNOWN",
+      "Browser verification found discrepancies",
+      "Insufficient evidence (2 pieces, minimum 3)"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

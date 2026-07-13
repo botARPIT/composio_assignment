@@ -1,0 +1,686 @@
+{
+  "app": {
+    "id": 42,
+    "name": "WooCommerce",
+    "website": "woocommerce.com/document/woocommerce-rest-api",
+    "category_hint": "Ecommerce"
+  },
+  "documentation_map": {
+    "app_name": "WooCommerce",
+    "official_domain": "woocommerce.com",
+    "homepage": {
+      "url": "https://woocommerce.com/document/woocommerce-rest-api",
+      "title": "WooCommerce",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://developer.woocommerce.com/docs/authentication",
+        "title": "",
+        "confidence": 0.95,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://developer.woocommerce.com/docs/api",
+        "title": "",
+        "confidence": 0.95,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://woocommerce.com/pricing",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://developer.woocommerce.com/docs/mcp",
+        "title": "",
+        "confidence": 0.95,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://woocommerce.com/documentation/products/extensions",
+        "title": "Extensions",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://woocommerce.com/documentation/products/themes",
+          "title": "Themes",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://woocommerce.com/documentation/products/woopayments",
+          "title": "WooPayments",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        },
+        {
+          "url": "https://woocommerce.com/documentation/search",
+          "title": "search",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "webhooks": null,
+    "llms_txt": {
+      "url": "https://woocommerce.com/llms.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "WooCommerce",
+      "official_domain": "woocommerce.com",
+      "items": [
+        {
+          "url": "https://woocommerce.com/document/woocommerce-rest-api",
+          "page_type": "homepage",
+          "title": "WooCommerce",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://woocommerce.com/documentation/products/extensions",
+          "page_type": "developer_portal",
+          "title": "Extensions",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://woocommerce.com/documentation/products/extensions/retired-extensions",
+          "page_type": "developer_portal",
+          "title": "Retired Extensions",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://woocommerce.com/documentation/products/themes",
+          "page_type": "developer_portal",
+          "title": "Themes",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://woocommerce.com/documentation/products/extensions/automatewoo",
+          "page_type": "developer_portal",
+          "title": "AutomateWoo",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://woocommerce.com/documentation/products/woopayments",
+          "page_type": "developer_portal",
+          "title": "WooPayments",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://woocommerce.com/documentation/search",
+          "page_type": "developer_portal",
+          "title": "search",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://woocommerce.com/documentation/search-engine",
+          "page_type": "developer_portal",
+          "title": "search engine",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://woocommerce.com/documentation/payments",
+          "page_type": "developer_portal",
+          "title": "payments",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://woocommerce.com/documentation/product-search",
+          "page_type": "developer_portal",
+          "title": "product search",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://woocommerce.com/documentation/live",
+          "page_type": "developer_portal",
+          "title": "live",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.woocommerce.com/docs/authentication",
+          "page_type": "authentication",
+          "title": "",
+          "confidence": 0.95,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.woocommerce.com/docs/api",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.95,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://woocommerce.com/pricing",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.woocommerce.com/docs/mcp",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.95,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 1,
+        "urls_discovered": 15,
+        "official_urls": 15,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 6
+      }
+    },
+    "stats": {
+      "queries": 1,
+      "urls_discovered": 15,
+      "official_urls": 15,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 6
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_d2ffc6659af9",
+      "source_type": "llms_txt",
+      "url": "https://woocommerce.com/llms.txt",
+      "domain": "woocommerce.com",
+      "page_title": "llms.txt index",
+      "content": "\\## Documents\n\\- \\[Affiliate Program For WooCommerce\\](https://woocommerce.com/document/affiliate-program-for-woocommerce/)\n\\- \\[Tiered Pricing Table for WooCommerce\\](https://woocommerce.com/document/tiered-pricing-table/)\n\\- \\[Envia Shipping and Fulfillment\\](https://woocommerce.com/document/envia-shipping/)\n\\- \\[Save and Restore Carts\\](https://woocommerce.com/document/save-and-restore-carts/)\n\\- \\[Price and Cart Hider for WooCommerce\\](https://woocommerce.com/document/price-cart-hider/)\n\n\\## Feature Requests\n\\- \\[Need to sync just a single product from Woo to Square\\](https://woocommerce.com/feature-request/need-to-sync-just-a-single-product-from-woo-to-square/)\n\\- \\[Request: Enabling WooCommerce Payments for the Pakistani Market\\](https://woocommerce.com/feature-request/request-enabling-woocommerce-payments-for-the-pakistani-market/)\n\\- \\[shortcode please\\](https://woocommerce.com/feature-request/shortcode-please/)\n\\- \\[Allow rating\\\\-only product reviews without requiring written review text\\](https://woocommerce.com/feature-request/allow-rating-only-product-reviews-without-requiring-written-review-text/)\n\\- \\[WooCommerce Payments For Indonesia\\](https://woocommerce.com/feature-request/woocommerce-payments-for-indonesia/)\n\n\\## Showcases\n\\- \\[Gilmour\\](https://woocommerce.com/?post\\_type=showcase&p=3916659)\n\\- \\[EmPower Generators\\](https://woocommerce.com/?post\\_type=showcase&p=3977679)\n\\- \\[Seymour Duncan\\](https://woocommerce.com/?post\\_type=showcase&p=6173673)\n\\- \\[Teeling Distillery\\](https://woocommerce.com/?post\\_type=showcase&p=6173664)\n\\- \\[Nalgene\\](https://woocommerce.com/?post\\_type=showcase&p=6381661)\n\n\\## Categories\n\\- \\[Blog\\](https://woocommerce.com/blog/)\n\\- \\[Sell Online\\](https://woocommerce.com/blog/sell-online/)\n\\- \\[News\\](https://woocommerce.com/news/)\n\\- \\[Product News\\](https://woocommerce.com/news/product-news/)\n\\- \\[Marketing\\](https://woocommerce.com/blog/marketing/)\n\n\\## Collections\n\\- \\[Grow your business\\](https://woocommerce.com/collection/grow-your-business/)\n\\- \\[Made by Woo\\](https://woocommerce.com/collection/made-by-woocommerce/)\n\\- \\[WooCommerce essentials\\](https://woocommerce.com/collection/woocommerce-essentials/)\n\\- \\[Launch your store\\](https://woocommerce.com/collection/launch-your-store/)\n\\- \\[Membership essentials\\](https://woocommerce.com/collection/membership-essentials/)\n\n\\## Product categories\n\\- \\[WooCommerce extensions\\](https://woocommerce.com/product-category/woocommerce-extensions/)\n\\- \\[Store management\\](https://woocommerce.com/product-category/woocommerce-extensions/operations/)\n\\- \\[Merchandising\\](https://woocommerce.com/product-category/woocommerce-extensions/merchandising/)\n\\- \\[Store content and customizations\\](https://woocommerce.com/product-category/woocommerce-extensions/store-content-and-customizations/)\n\\- \\[Marketing\\](https://woocommerce.com/product-category/woocommerce-extensions/marketing-extensions/)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:50.039590Z",
+      "section_path": "",
+      "chunk_index": 2,
+      "token_count": 732,
+      "quality_score": 0.8
+    },
+    {
+      "id": "ev_f28b7606c18a",
+      "source_type": "llms_txt",
+      "url": "https://woocommerce.com/llms.txt",
+      "domain": "woocommerce.com",
+      "page_title": "llms.txt index",
+      "content": "Generated by Yoast SEO v26.0, this is an llms.txt file, meant for consumption by LLMs.\n\nThe XML sitemap of this website can by found by following \\[this link\\](https://woocommerce.com/sitemap\\_index.xml).\n\n\\# WooCommerce: The most customizable ecommerce platform for building your online business\\\\. Get started today for free\\\\.\n\n\\> WooCommerce is the open\\\\-source ecommerce platform that helps merchants and developers build successful businesses for the long term\\\\.\n\n\\## Pages\n\\- \\[Download WooCommerce\\](https://woocommerce.com/download/)\n\\- \\[Mobile App\\](https://woocommerce.com/mobile/)\n\\- \\[WooCommerce\\](https://woocommerce.com/woocommerce/)\n\\- \\[Learn more about Official partner badging\\](https://woocommerce.com/learn-more-about-official-partner-badging/)\n\\- \\[WooCommerce Showcase\\](https://woocommerce.com/showcase/)\n\n\\## Posts\n\\- \\[HomeWizard overcomes the complexities of international growth with Mollie and Woo\\](https://woocommerce.com/posts/homewizard-overcomes-the-complexities-of-international-growth-with-mollie-and-woo/): Dutch smart home brand HomeWizard has seen consistent success in international expansion with Mollie Payments and WooCommerce\\\\.\n\\- \\[AI is changing how shoppers find your products\\](https://woocommerce.com/posts/ai-product-discovery/): AI is reshaping how shoppers discover, compare, and purchase products\\\\. Here's what's happening, why it matters, and what you need to know\\\\.\n\\- \\[No Pong: From startup to multinational business with WooCommerce\\](https://woocommerce.com/posts/no-pong-woocommerce-success-story/): No Pong grew into a multinational brand on WooCommerce, leveraging composable integrations and scalable infrastructure without SaaS limitations\\\\.\n\\- \\[Use print\\\\-on\\\\-demand to scale your business without inventory risk\\](https://woocommerce.com/posts/printful-woocommerce-print-on-demand/): With Printful and WooCommerce, Michael DePace scaled Life Is Golden Company from an idea to a full\\\\-time business in one year\\\\. This is how\\\\.\n\\- \\[How Landyachtz cut ecommerce costs by more than 75% and gained full control with WooCommerce\\](https://woocommerce.com/posts/landyachtz-woocommerce-success-story/): In switching from Shopify to WooCommerce, Landyachtz brought ecommerce expenses down by over $35k per year — and made maintenance easier\\\\.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:50.039367Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 578,
+      "quality_score": 0.7
+    },
+    {
+      "id": "ev_198861cb1a8f",
+      "source_type": "llms_txt",
+      "url": "https://woocommerce.com/llms.txt",
+      "domain": "woocommerce.com",
+      "page_title": "llms.txt index",
+      "content": "\\## Product Updates\n\\- \\[Accessibility improvements to WooCommerce extensions\\](https://woocommerce.com/product-update/european-accessibility-act-canonical-extensions/)\n\\- \\[Address autocomplete in Block and Classic checkouts\\](https://woocommerce.com/product-update/address-autocomplete-in-block-and-classic-checkouts/): Enable Address Autocomplete to checkout, making it faster and easier for shoppers to enter their shipping and billing details\\\\.\n\\- \\[WooPayments Multi\\\\-Currency Support in Conditional Shipping and Payments\\](https://woocommerce.com/product-update/woopayments-multi-currency-support-in-conditional-shipping-and-payments/): Merchants using WooPayments Multi\\\\-Currency can now create accurate, currency\\\\-based restrictions which improves both customer experience and operational flexibility for international stores\\\\.\n\\- \\[WooCommerce 10\\\\.2 release\\](https://woocommerce.com/product-update/woocommerce-10-2-release/): WooCommerce 10\\\\.2 brings powerful new ways to showcase products with the Product Collection carousel layout and integrated cross\\\\-sells functionality, helping you drive more sales with engaging, interactive displays\\\\. The release also delivers major performance improvements to the Cart block with instant loading and skeleton placeholders, creating a smoother checkout experience that keeps customers engaged\\\\.\n\\- \\[Stripe for WooCommerce: Optimized Checkout Suite now available\\](https://woocommerce.com/product-update/stripe-for-woocommerce-optimized-checkout-suite-now-available/): Now available with the Stripe for WooCommerce extension \\\\(v9\\\\.8\\\\+\\\\), the new Optimized Checkout Suite is built for conversion\\\\. Powered by AI, it automatically surfaces the most relevant payment methods—like Apple Pay, Klarna, Affirm, and local favorites—to boost sales and speed up checkout\\\\.\n\n\\## Products\n\\- \\[Chargeflow\\](https://woocommerce.com/products/chargeflow/): Chargeflow uses AI to automate chargeback recovery and prevent up to 90% of disputes, helping WooCommerce merchants win back revenue and stay ahead of fraud\\\\.\n\\- \\[Central Stock\\](https://woocommerce.com/products/centralstock-for-woocommerce/): Synchronize the stock quantity of your products across a WordPress Multisite Network — your stock is always up\\\\-to\\\\-date in every store\\\\.\n\\- \\[Affiliate Program\\](https://woocommerce.com/products/affiliate-program-for-woocommerce/): Enhance your sales potential with the cost\\\\-effective Affiliate Program for WooCommerce\\\\. Provide affiliates with the opportunity to earn income by endorsing your business\\\\.\n\\- \\[Age Verification and Product Disclaimer Popup\\](https://woocommerce.com/products/woocommerce-product-disclaimer/): Communicate your policies, terms and conditions, important messages, age gates and warnings via eye\\\\-catching notification popups\\\\.\n\\- \\[Walmart Product Importer \\\\& Affiliate\\](https://woocommerce.com/products/walmart-product-importer/): Import product in your woocommerce shop directly from walmart marketplace website by the extension in just one click and sale the imported product as yours or as an affiliate\\\\.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:50.039506Z",
+      "section_path": "",
+      "chunk_index": 1,
+      "token_count": 777,
+      "quality_score": 0.7
+    },
+    {
+      "id": "ev_97968ec7907c",
+      "source_type": "llms_txt",
+      "url": "https://woocommerce.com/llms.txt",
+      "domain": "woocommerce.com",
+      "page_title": "llms.txt index",
+      "content": "\\## Tags\n\\- \\[WooCommerce\\](https://woocommerce.com/product-updates/tags/woocommerce)\n\\- \\[WooPayments\\](https://woocommerce.com/product-updates/tags/woopayments)\n\\- \\[WooCommerce Mobile App\\](https://woocommerce.com/product-updates/tags/woocommerce-mobile-app)\n\\- \\[WooCommerce Subscriptions\\](https://woocommerce.com/product-updates/tags/woocommerce-subscriptions)\n\\- \\[Stripe for WooCommerce\\](https://woocommerce.com/product-updates/tags/stripe-for-woocommerce)\n\n\\## Vendors\n\\- \\[Woo\\](https://woocommerce.com/vendor/woocommerce/)\n\\- \\[Addify\\](https://woocommerce.com/vendor/addify/)\n\\- \\[FmeAddons\\](https://woocommerce.com/vendor/fmeaddons/)\n\\- \\[Flintop\\](https://woocommerce.com/vendor/flintop/)\n\\- \\[WPExperts\\](https://woocommerce.com/vendor/wpexperts/)\n\n\\## Document Categories\n\\- \\[Extensions\\](https://woocommerce.com/documentation/products/extensions/)\n\\- \\[Retired Extensions\\](https://woocommerce.com/documentation/products/extensions/retired-extensions/)\n\\- \\[Themes\\](https://woocommerce.com/documentation/products/themes/)\n\\- \\[AutomateWoo\\](https://woocommerce.com/documentation/products/extensions/automatewoo/)\n\\- \\[WooPayments\\](https://woocommerce.com/documentation/products/woopayments/)\n\n\\## Document Tags\n\\- \\[search\\](https://woocommerce.com/documentation/search/)\n\\- \\[search engine\\](https://woocommerce.com/documentation/search-engine/)\n\\- \\[payments\\](https://woocommerce.com/documentation/payments/)\n\\- \\[product search\\](https://woocommerce.com/documentation/product-search/)\n\\- \\[live\\](https://woocommerce.com/documentation/live/)\n\n\\## Feature Request Categories\n\\- \\[Uncategorized\\](https://woocommerce.com/posts/feature\\_request\\_category/uncategorized/)\n\\- \\[Non classé\\](https://woocommerce.com/posts/feature\\_request\\_category/non-classe/)\n\\- \\[Unkategorisiert\\](https://woocommerce.com/posts/feature\\_request\\_category/unkategorisiert/)\n\\- \\[Sin categoría\\](https://woocommerce.com/posts/feature\\_request\\_category/sin-categoria/)\n\\- \\[Senza categoria\\](https://woocommerce.com/posts/feature\\_request\\_category/senza-categoria/)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:50.039664Z",
+      "section_path": "",
+      "chunk_index": 3,
+      "token_count": 517,
+      "quality_score": 0.7
+    },
+    {
+      "id": "ev_a9d7dc43cd40",
+      "source_type": "auth_docs",
+      "url": "https://developer.woocommerce.com/docs/authentication",
+      "domain": "developer.woocommerce.com",
+      "page_title": "WooCommerce developer docs",
+      "content": "We could not find what you were looking for.\n\nPlease contact the owner of the site that linked you to the original URL and let them know their link is broken.\n\nWe and our partners process your personal data (such as browsing data, IP Addresses, cookie information, and other unique identifiers) based on your consent and/or our legitimate interest to optimize our website, marketing activities, and your user experience.\n\nAccept AllCustomize Preferences",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:50.065812Z",
+      "section_path": "Page Not Found > Use of your personal data",
+      "chunk_index": 0,
+      "token_count": 113,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_dd0aa747ee6a",
+      "source_type": "api_reference",
+      "url": "https://developer.woocommerce.com/docs/api",
+      "domain": "developer.woocommerce.com",
+      "page_title": "WooCommerce developer docs",
+      "content": "We could not find what you were looking for.\n\nPlease contact the owner of the site that linked you to the original URL and let them know their link is broken.\n\nWe and our partners process your personal data (such as browsing data, IP Addresses, cookie information, and other unique identifiers) based on your consent and/or our legitimate interest to optimize our website, marketing activities, and your user experience.\n\nAccept AllCustomize Preferences",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:50.921435Z",
+      "section_path": "Page Not Found > Use of your personal data",
+      "chunk_index": 0,
+      "token_count": 113,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_adaed4c02cc5",
+      "source_type": "pricing_page",
+      "url": "https://woocommerce.com/pricing",
+      "domain": "woocommerce.com",
+      "page_title": "WooCommerce Pricing Puts You In Control - WooCommerce",
+      "content": "WooCommerce’s flexible and transparent model translates into long-term savings for your business. Scroll right to compare pricing across platforms.\n\n|     |     |     |     |     |     |     |     |     |     |     |     |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  |  |  |  |  |  |  |  |  |  |  |\n|  |  | ![WooCommerce logo](https://woocommerce.com/wp-content/uploads/2025/07/Woo_logo_color.svg) | **Shopify Basic** | **Shopify Advanced** | **Shopify Plus** | **BigCommerce Core** | **BigCommerce Enterprise** | **Salesforce Commerce Cloud** | **Wix Enterprise** | **Adobe Commerce (Magento)** |  |\n|  | **Monthly platform and hosting fees** | $0 platform fee<br>Choose the host that makes sense for your business | $29/mo | $399/month | $2,300+/month | $29/mo, online revenue capped at $50k | ~$1,000–5,000+/month | 1-3% of GMV | ~$500–2,000+/month | $22k–$125k+/year |  |\n|  | **Card payment processing** | ~2.50-2.90% + 30¢ per transaction with WooPayments | 2.9% + 30¢ per transaction | 2.5% + $0.30 per transaction | 2.4% + $0.30 per transaction | 2.89% + 29¢ per transaction | ~2.35% + $0.49 per transaction | ~2.9% + $0.30 per transaction | ~2.9% + $0.30 per transaction | ~2.9% + $0.30 per transaction |  |\n|  | **Additional fee for using third-party payment solution** | None | 2% per transaction | 0.6% per transaction | 0.2% per transaction | 2% per transaction | None | None | None | None |  |\n|  | **Revenue share** | None | None | None | 0.25% on monthly sales over $800k | None | 0.6% on GMV above $250k/month | 1-3% of GMV | None | None |  |\n|  | **Subscription processing fees** | None with WooCommerce Subscriptions | ~1–3% depending on app (no native subscription billing) | ~1–3% depending on app | ~1–3% depending on app | ~1–3% depending on app (no native subscription billing) | 0–2% plus up to $500/month, depending on app | Varies based on app; annual fees can reach $2,000-10,000 | None | Varies based on app; annual fees can exceed $1,000 |  |\n|  | **Fee for localized selling in global markets** | $0, can sell in unlimited markets | 3 markets included. Unable to add more | $59/month per market after first 3 markets | $59/month per market after first 50 markets | None | $0 | $59/month per market after first 50 markets | $0, but requires development | $0 |  |\n|  | **Product variant limits** | Unlimited | Up to 2,048 variants per product; max 3 option types per product | Up to 2,048 variants per product; max 3 option types per product | Up to 2,048 variants per product; max 3 option types per product | Up to 600 variants per product | Maximum 600 SKUs per product | Unlimited | Max 1,000 variants per product | Unlimited |  |\n|  |  |  |  |  |  |  |  |  |  |  |  |",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:51.166076Z",
+      "section_path": "WooCommerce pricing puts you in control > Compare the costs",
+      "chunk_index": 1,
+      "token_count": 684,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_d47da2799f43",
+      "source_type": "pricing_page",
+      "url": "https://woocommerce.com/pricing",
+      "domain": "woocommerce.com",
+      "page_title": "WooCommerce Pricing Puts You In Control - WooCommerce",
+      "content": "WooCommerce lets you choose and change your payments solutions without fees, restrictions, or forced bundles.\n\nUse any gateway or BNPL provider without penalty.\n\nRun multiple gateways to maximize conversion.\n\nNegotiate processor rates directly as volume grows.\n\nCustomize your checkout without forced upgrades.\n\n![Eway logo](https://woocommerce.com/wp-content/uploads/2025/07/eway@2x.png)![Mollie logo](https://woocommerce.com/wp-content/uploads/2025/07/mollie@2x.png)![Elavon logo](https://woocommerce.com/wp-content/uploads/2025/07/elavon@2x.png)![PayPal logo](https://woocommerce.com/wp-content/uploads/2025/07/paypal@2x.png)![Braintree logo](https://woocommerce.com/wp-content/uploads/2025/07/braintree@2x.png)![Stripe logo](https://woocommerce.com/wp-content/uploads/2025/07/stripe@2x.png)![Worldpay logo](https://woocommerce.com/wp-content/uploads/2025/07/worldpay@2x.png)![Square logo](https://woocommerce.com/wp-content/uploads/2025/07/square@2x.png)![Opayo logo](https://woocommerce.com/wp-content/uploads/2025/07/opayo@2x.png)![Mercado Pago logo](https://woocommerce.com/wp-content/uploads/2025/07/mercado@2x.png)![Viva Wallet logo](https://woocommerce.com/wp-content/uploads/2025/07/viva@2x.png)![PayFast logo](https://woocommerce.com/wp-content/uploads/2025/07/payfast@2x.png)![Authorize.net logo](https://woocommerce.com/wp-content/uploads/2025/07/authorize@2x.png)\n\n![Eway logo](https://woocommerce.com/wp-content/uploads/2025/07/eway@2x.png)![Mollie logo](https://woocommerce.com/wp-content/uploads/2025/07/mollie@2x.png)![Elavon logo](https://woocommerce.com/wp-content/uploads/2025/07/elavon@2x.png)![PayPal logo](https://woocommerce.com/wp-content/uploads/2025/07/paypal@2x.png)![Braintree logo](https://woocommerce.com/wp-content/uploads/2025/07/braintree@2x.png)![Stripe logo](https://woocommerce.com/wp-content/uploads/2025/07/stripe@2x.png)![Worldpay logo](https://woocommerce.com/wp-content/uploads/2025/07/worldpay@2x.png)![Square logo](https://woocommerce.com/wp-content/uploads/2025/07/square@2x.png)![Opayo logo](https://woocommerce.com/wp-content/uploads/2025/07/opayo@2x.png)![Mercado Pago logo](https://woocommerce.com/wp-content/uploads/2025/07/mercado@2x.png)![Viva Wallet logo](https://woocommerce.com/wp-content/uploads/2025/07/viva@2x.png)![PayFast logo](https://woocommerce.com/wp-content/uploads/2025/07/payfast@2x.png)![Authorize.net logo](https://woocommerce.com/wp-content/uploads/2025/07/authorize@2x.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:51.166202Z",
+      "section_path": "WooCommerce pricing puts you in control > Offer any payments without penalties",
+      "chunk_index": 3,
+      "token_count": 611,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_dfb3682769ed",
+      "source_type": "official_docs",
+      "url": "https://woocommerce.com/document/woocommerce-rest-api",
+      "domain": "woocommerce.com",
+      "page_title": "WooCommerce REST API Documentation - WooCommerce",
+      "content": "The WooCommerce REST API connects your store to external systems and services. Most integrations require you to generate API keys in WooCommerce and enter them in the external service to establish the connection. This document covers how to generate and manage REST API keys from a merchant perspective, with links to developer documentation for more advanced topics.\n\n**Note:** You can find the [technical documentation](https://woocommerce.github.io/woocommerce-rest-api-docs/) for the REST API on GitHub.\n\nBefore generating API keys, confirm that your WordPress permalinks are set to a human-readable format. Go to **Settings > Permalinks** in your WordPress dashboard and select any option other than **Plain**. **Day and name** is a common default that works well.\n\n![WordPress Permalinks settings screen showing the available permalink structure options](https://woocommerce.com/wp-content/uploads/2014/02/Permalink-Settings-for-WooCommerce-REST-API.png?w=980)\n\nThe WooCommerce REST API uses a key system to control access. Each set of keys is linked to a WordPress user on your site. You can create keys with different permission levels depending on what the connected application needs.\n\nTo create or manage keys for a specific WordPress user:\n\n1. Go to **WooCommerce > Settings > Advanced > REST API**.\n2. Select **Create an API key** or **Add Key**. The **Key Details** screen opens.\n3. Enter a **Description** to identify what the key is used for.\n4. Select the **User** you want to generate a key for from the dropdown.\n5. Select a level of access for this API key from the **Permissions** dropdown:\n\n- **Read** — allows the application to retrieve data from your store\n   - **Write** — allows the application to create and update data in your store\n   - **Read/Write** — allows the application both read and write access\n6. Select **Generate API Key**.\n\nAfter generating the key, the screen displays your **Consumer Key**, **Consumer Secret**, a **QR Code**, and a **Revoke Key** link. Copy the **Consumer Key** and **Consumer Secret** and enter them in the application you are connecting to. The application may also request your site URL.\n\n**Note:** The Consumer Secret is shown only once. Copy and store it in a safe place before leaving the page.\n\n![Key Details screen showing the Description, User, and Permissions fields for creating a REST API key](https://woocommerce.com/wp-content/uploads/2014/02/Creating-a-REST-API-key-for-WooCommerce.png?w=980)![Generated API key screen displaying the Consumer Key, Consumer Secret, QR Code, and Revoke Key link](https://woocommerce.com/wp-content/uploads/2014/02/WooCommerce-REST-API-Key-details.png?w=980)\n\nThe legacy REST API has been removed from WooCommerce core. WooCommerce now integrates directly with the WordPress REST API. If an integration on your site still requires the legacy REST API, install and activate the [WooCommerce Legacy REST API](https://developer.woocommerce.com/2024/01/17/the-woocommerce-legacy-rest-api-extension-is-now-available-in-wordpress-org/) plugin from WordPress.org.\n\nWebhooks configured to use the legacy REST API also stop working unless you install this plugin.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:50.396556Z",
+      "section_path": "WooCommerce REST API",
+      "chunk_index": 0,
+      "token_count": 790,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_e43eec3f2a3e",
+      "source_type": "pricing_page",
+      "url": "https://woocommerce.com/pricing",
+      "domain": "woocommerce.com",
+      "page_title": "WooCommerce Pricing Puts You In Control - WooCommerce",
+      "content": "WooCommerce is the **free, open-source ecommerce platform** for WordPress. Build a custom online store and only pay for the added features you use — no platform fees, no revenue share.\n\n[Estimate your costs](https://woocommerce.com/tco-calculator/)\n\nWooCommerce is free to download and use, and you choose where to invest your budget from there. Get everything you need and nothing you don’t, with total transparency and no tiers or surprise fees.\n\n0%\n\nrevenue share\n\nFree, with no monthly subscription.\n\nNo extra costs, just your solution’s processing fees.\n\n$25 – $350/month for most stores, but scales with traffic and performance needs.\n\n$29 – $299/year per extension to enhance your store.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:51.165982Z",
+      "section_path": "WooCommerce pricing puts you in control > How WooCommerce pricing works > Extensions: Add à la carte",
+      "chunk_index": 0,
+      "token_count": 173,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_cb3e2bc1f606",
+      "source_type": "pricing_page",
+      "url": "https://woocommerce.com/pricing",
+      "domain": "woocommerce.com",
+      "page_title": "WooCommerce Pricing Puts You In Control - WooCommerce",
+      "content": "Use our free tool to calculate an estimated total cost of ownership.\n\n[Try it free](https://woocommerce.com/tco-calculator/)\n\n![Illustrations of a calculator, credit card, money, and gear](https://woocommerce.com/wp-content/uploads/2025/07/woo-calcualtor-desktop@2x.jpg)![Illustrations of a calculator, credit card, money, and gear](https://woocommerce.com/wp-content/uploads/2025/07/woo-calculator-mobile@2x.jpg)\n\n![A laptop showing the Kellox website, which was designed by WooCommerce agency partner Maksimer](https://woocommerce.com/wp-content/uploads/2026/03/testimonial-maksimer.jpg)\n\n**[Maksimer](https://maksimer.com/)**\n\n“WooCommerce offers unmatched control over both costs and capabilities. Unlike rigid SaaS platforms, we can tailor every part of the stack — only paying for the features the business truly needs.”\n\n**Nils-Fredrik Winther-Kaland, CEO**\n\nWooCommerce doesn’t believe in taxing your growth. There’s no revenue share, and we don’t lock features away behind higher-priced plan tiers. The free core platform includes:\n\nUnlimited products, orders, and APIs.\n\nCosts tied to infrastructure, not sales volume.\n\nCustomizations that stay yours.\n\n![A product photo of a t-shirt with a UI menu that has menu items with icons for Products, Analytics, Marketing, and Plugins](https://woocommerce.com/wp-content/uploads/2026/03/z-pattern.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:51.166139Z",
+      "section_path": "WooCommerce pricing puts you in control > Grow your business, not your costs",
+      "chunk_index": 2,
+      "token_count": 338,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_e6ca021ef920",
+      "source_type": "pricing_page",
+      "url": "https://woocommerce.com/pricing",
+      "domain": "woocommerce.com",
+      "page_title": "WooCommerce Pricing Puts You In Control - WooCommerce",
+      "content": "![Eway logo](https://woocommerce.com/wp-content/uploads/2025/07/eway@2x.png)![Mollie logo](https://woocommerce.com/wp-content/uploads/2025/07/mollie@2x.png)![Elavon logo](https://woocommerce.com/wp-content/uploads/2025/07/elavon@2x.png)![PayPal logo](https://woocommerce.com/wp-content/uploads/2025/07/paypal@2x.png)![Braintree logo](https://woocommerce.com/wp-content/uploads/2025/07/braintree@2x.png)![Stripe logo](https://woocommerce.com/wp-content/uploads/2025/07/stripe@2x.png)![Worldpay logo](https://woocommerce.com/wp-content/uploads/2025/07/worldpay@2x.png)![Square logo](https://woocommerce.com/wp-content/uploads/2025/07/square@2x.png)![Opayo logo](https://woocommerce.com/wp-content/uploads/2025/07/opayo@2x.png)![Mercado Pago logo](https://woocommerce.com/wp-content/uploads/2025/07/mercado@2x.png)![Viva Wallet logo](https://woocommerce.com/wp-content/uploads/2025/07/viva@2x.png)![PayFast logo](https://woocommerce.com/wp-content/uploads/2025/07/payfast@2x.png)![Authorize.net logo](https://woocommerce.com/wp-content/uploads/2025/07/authorize@2x.png)\n\n![Eway logo](https://woocommerce.com/wp-content/uploads/2025/07/eway@2x.png)![Mollie logo](https://woocommerce.com/wp-content/uploads/2025/07/mollie@2x.png)![Elavon logo](https://woocommerce.com/wp-content/uploads/2025/07/elavon@2x.png)![PayPal logo](https://woocommerce.com/wp-content/uploads/2025/07/paypal@2x.png)![Braintree logo](https://woocommerce.com/wp-content/uploads/2025/07/braintree@2x.png)![Stripe logo](https://woocommerce.com/wp-content/uploads/2025/07/stripe@2x.png)![Worldpay logo](https://woocommerce.com/wp-content/uploads/2025/07/worldpay@2x.png)![Square logo](https://woocommerce.com/wp-content/uploads/2025/07/square@2x.png)![Opayo logo](https://woocommerce.com/wp-content/uploads/2025/07/opayo@2x.png)![Mercado Pago logo](https://woocommerce.com/wp-content/uploads/2025/07/mercado@2x.png)![Viva Wallet logo](https://woocommerce.com/wp-content/uploads/2025/07/viva@2x.png)![PayFast logo](https://woocommerce.com/wp-content/uploads/2025/07/payfast@2x.png)![Authorize.net logo](https://woocommerce.com/wp-content/uploads/2025/07/authorize@2x.png)\n\n![Eway logo](https://woocommerce.com/wp-content/uploads/2025/07/eway@2x.png)![Mollie logo](https://woocommerce.com/wp-content/uploads/2025/07/mollie@2x.png)![Elavon logo](https://woocommerce.com/wp-content/uploads/2025/07/elavon@2x.png)![PayPal logo](https://woocommerce.com/wp-content/uploads/2025/07/paypal@2x.png)![Braintree logo](https://woocommerce.com/wp-content/uploads/2025/07/braintree@2x.png)![Stripe logo](https://woocommerce.com/wp-content/uploads/2025/07/stripe@2x.png)![Worldpay logo](https://woocommerce.com/wp-content/uploads/2025/07/worldpay@2x.png)![Square logo](https://woocommerce.com/wp-content/uploads/2025/07/square@2x.png)![Opayo logo](https://woocommerce.com/wp-content/uploads/2025/07/opayo@2x.png)![Mercado Pago logo](https://woocommerce.com/wp-content/uploads/2025/07/mercado@2x.png)![Viva Wallet logo](https://woocommerce.com/wp-content/uploads/2025/07/viva@2x.png)![PayFast logo](https://woocommerce.com/wp-content/uploads/2025/07/payfast@2x.png)![Authorize.net logo](https://woocommerce.com/wp-content/uploads/2025/07/authorize@2x.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:51.166284Z",
+      "section_path": "WooCommerce pricing puts you in control > Offer any payments without penalties",
+      "chunk_index": 4,
+      "token_count": 800,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_93a86999acf5",
+      "source_type": "pricing_page",
+      "url": "https://woocommerce.com/pricing",
+      "domain": "woocommerce.com",
+      "page_title": "WooCommerce Pricing Puts You In Control - WooCommerce",
+      "content": "![Eway logo](https://woocommerce.com/wp-content/uploads/2025/07/eway@2x.png)![Mollie logo](https://woocommerce.com/wp-content/uploads/2025/07/mollie@2x.png)![Elavon logo](https://woocommerce.com/wp-content/uploads/2025/07/elavon@2x.png)![PayPal logo](https://woocommerce.com/wp-content/uploads/2025/07/paypal@2x.png)![Braintree logo](https://woocommerce.com/wp-content/uploads/2025/07/braintree@2x.png)![Stripe logo](https://woocommerce.com/wp-content/uploads/2025/07/stripe@2x.png)![Worldpay logo](https://woocommerce.com/wp-content/uploads/2025/07/worldpay@2x.png)![Square logo](https://woocommerce.com/wp-content/uploads/2025/07/square@2x.png)![Opayo logo](https://woocommerce.com/wp-content/uploads/2025/07/opayo@2x.png)![Mercado Pago logo](https://woocommerce.com/wp-content/uploads/2025/07/mercado@2x.png)![Viva Wallet logo](https://woocommerce.com/wp-content/uploads/2025/07/viva@2x.png)![PayFast logo](https://woocommerce.com/wp-content/uploads/2025/07/payfast@2x.png)![Authorize.net logo](https://woocommerce.com/wp-content/uploads/2025/07/authorize@2x.png)\n\n[Get started](https://woocommerce.com/start/#start)\n\nEcommerce costs aren’t one-size-fits-all. Check out these sample merchant total cost of ownership (TCO) summaries from our agency partner StuntCoders. [Read more about WooCommerce TCO](https://woocommerce.com/guide-woocommerce-costs/) from StuntCoders.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:51.166361Z",
+      "section_path": "WooCommerce pricing puts you in control > See real WooCommerce pricing breakdowns",
+      "chunk_index": 5,
+      "token_count": 343,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_fafde1eb02e8",
+      "source_type": "pricing_page",
+      "url": "https://woocommerce.com/pricing",
+      "domain": "woocommerce.com",
+      "page_title": "WooCommerce Pricing Puts You In Control - WooCommerce",
+      "content": "A luxury regional ecommerce store with a highly customized front end, configurable product logic (e.g., engraving), and premium UX focused on detail and mobile experience.\n\n|     |     |     |\n| --- | --- | --- |\n| **Cost category** | **First year cost** | **Ongoing annual cost** |\n| Initial development | $70,000 | $0 |\n| Yearly functional additions/maintenance | $15,000 | $35,000 |\n| Third-party services (Algolia, Mailchimp, GDPR, Tripletex) | $3,000 | $3,000 |\n| Server hosting | $300 | $300 |\n| Premium plugins | $300 | $300 |\n| Payment fees (~2.5% average, Klarna and Nexi) | ~$50,000 | ~$50,000 |\n| **Total** | **~$139,000** | **~$89,500** |\n| **Total cost as a percentage of revenue** | **6.95%** | **4.48%** |\n\nA medical and pharmacy business with complex user flows for prescription validation, identity verification, and multi-platform communication with data protection.\n\n|     |     |     |\n| --- | --- | --- |\n| **Cost category** | **First year cost** | **Ongoing annual cost** |\n| Initial development | $60,000 | $0 |\n| Yearly functional additions/maintenance | $0 | $20,000 |\n| Third-party services (Algolia, Mailchimp, GDPR, Tripletex) | ~$5,000 | $15,000 |\n| Server hosting | $1,500 | $1,500 |\n| Premium plugins | $300 | $500 |\n| Payment fees (~2.5% average, Klarna and Nexi) | ~$200,000 | ~$200,000 |\n| **Total** | **~$267,000** | **~$237,000** |\n| **Total cost as a percentage of revenue** | **2.67%** | **2.37%** |",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:51.166412Z",
+      "section_path": "WooCommerce pricing puts you in control > See real WooCommerce pricing breakdowns > Regulated medical retailer, Europe, $10M annual revenue",
+      "chunk_index": 6,
+      "token_count": 359,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_4cea025fe235",
+      "source_type": "pricing_page",
+      "url": "https://woocommerce.com/pricing",
+      "domain": "woocommerce.com",
+      "page_title": "WooCommerce Pricing Puts You In Control - WooCommerce",
+      "content": "A globally recognized subscription-based coffee and café chain with extensive user base, subscription flows, custom perks (loyalty program), and complex payment logic.\n\n|     |     |     |\n| --- | --- | --- |\n| **Cost category** | **First year cost** | **Ongoing annual cost** |\n| Initial development | $200,000 | $0 |\n| Yearly functional additions/maintenance | $20,000 | $100,000 |\n| Third-party services (Algolia, Mailchimp, GDPR, Tripletex) | $4,000 | $4,000 |\n| Server hosting | $10,000 | $10,000 |\n| Premium plugins | $300 | $300 |\n| Payment fees (~2.5% average, Klarna and Nexi) | $5,100,000 | $5,100,000 |\n| **Total** | **$5,334,000** | **$5,214,000** |\n| **Total cost as a percentage of revenue** | **1.78%** | **1.74%** |\n\n[Estimate your costs](https://woocommerce.com/tco-calculator/)\n\n![](https://woocommerce.com/wp-content/uploads/2025/01/Homepage-CTA-Wooble.svg)\n\nShare a few details about your business and our team will model your costs on Woo. See how much you'll pay today, and as you grow.\n\n[Talk to a consultant](https://woocommerce.com/get-in-touch/)\n\nYou've been here a while. Can I help?\n\n- 30-day **[money-back guarantee](https://woocommerce.com/refund-policy/)**\n\n- **[Support](https://woocommerce.com/docs/)**\nteams across the world\n\n- **[Safe and secure](https://woocommerce.com/products/woopayments/)**\nonline payments\n\nUse of your personal data\n\nWe and our partners process your personal data (such as browsing data, IP Addresses, cookie information, and other unique identifiers) based on your consent and/or our legitimate interest to optimize our website, marketing activities, and your user experience.\n\nCustomize\n\nAccept all\n\nNotifications",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:51.166484Z",
+      "section_path": "WooCommerce pricing puts you in control > Get a custom quote",
+      "chunk_index": 7,
+      "token_count": 418,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_ad791a633e27",
+      "source_type": "official_docs",
+      "url": "https://woocommerce.com/document/woocommerce-rest-api",
+      "domain": "woocommerce.com",
+      "page_title": "WooCommerce REST API Documentation - WooCommerce",
+      "content": "After installing and activating the plugin, go to **WooCommerce > Settings > Advanced > Legacy API** and select the **Enable the legacy REST API** checkbox.\n\nIf you need to test or build custom integrations with the REST API, the following developer resources provide detailed technical guidance:\n\n- [Make a basic request](https://developer.woocommerce.com/docs/apis/rest-api/#make-a-basic-request) — walks through requesting order data from your site to confirm the API is working.\n- [WooCommerce REST API Docs](https://woocommerce.github.io/woocommerce-rest-api-docs/) — the complete technical reference for all available endpoints.\n\nDo you still have questions and need assistance?\n\nThis documentation is about the free, [core WooCommerce plugin](https://wordpress.org/plugins/woocommerce/), for which support is provided in our [community forums on WordPress.org](https://wordpress.org/support/plugin/woocommerce). By searching this forum, you’ll often find that your question has been asked and answered before.\n\nIf you haven’t created a WordPress.org account to use the forums, [here’s how](https://make.wordpress.org/contribute/join/).\n\n- If you’re looking to **extend** the core functionality shown here, we recommend reviewing available extensions in the [WooCommerce Marketplace](https://woocommerce.com/products/).\n- Need ongoing advanced support or a **customization** built for WooCommerce? Hire a [Woo Agency Partner](https://woocommerce.com/customizations/).\n- Are you a **developer** building your own WooCommerce integration or extension? Check our [Developer Resources](https://developer.woocommerce.com/).\n\nIf you weren’t able to find the information you need, please use the feedback thumbs below to let us know.\n\nWas this guide helpful for you?\n\nYou've been here a while. Can I help?\n\n- 30-day **[money-back guarantee](https://woocommerce.com/refund-policy/)**\n\n- **[Support](https://woocommerce.com/docs/)**\nteams across the world\n\n- **[Safe and secure](https://woocommerce.com/products/woopayments/)**\nonline payments\n\n×\n\nUse of your personal data\n\nWe and our partners process your personal data (such as browsing data, IP Addresses, cookie information, and other unique identifiers) based on your consent and/or our legitimate interest to optimize our website, marketing activities, and your user experience.\n\nCustomize\n\nAccept all\n\nNotifications",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:50.396739Z",
+      "section_path": "WooCommerce REST API",
+      "chunk_index": 1,
+      "token_count": 592,
+      "quality_score": 0.46
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "The most customizable ecommerce platform for building your online business.",
+      "evidence_ids": [
+        "ev_f28b7606c18a"
+      ]
+    },
+    "category": {
+      "value": "Ecommerce",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "API Key",
+      "evidence_ids": [
+        "ev_dfb3682769ed"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_e43eec3f2a3e"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API",
+      "evidence_ids": [
+        "ev_dfb3682769ed"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_dfb3682769ed"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_f28b7606c18a"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_e43eec3f2a3e"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_f28b7606c18a"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.75,
+    "fields_checked": 8,
+    "fields_supported": 6,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.75,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.75 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

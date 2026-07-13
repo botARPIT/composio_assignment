@@ -1,0 +1,676 @@
+{
+  "app": {
+    "id": 18,
+    "name": "Help Scout",
+    "website": "helpscout.com",
+    "category_hint": "Support and Helpdesk"
+  },
+  "documentation_map": {
+    "app_name": "Help Scout",
+    "official_domain": "helpscout.com",
+    "homepage": {
+      "url": "https://helpscout.com",
+      "title": "Help Scout",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://developer.helpscout.com/mailbox-api/overview/authentication",
+        "title": "Authentication\n      \n      | Help Scout Developers",
+        "confidence": 0.85,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": null,
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://www.helpscout.com/pricing",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": null,
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://www.helpscout.com/knowledge-base",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "Help Scout",
+      "official_domain": "helpscout.com",
+      "items": [
+        {
+          "url": "https://helpscout.com",
+          "page_type": "homepage",
+          "title": "Help Scout",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://www.helpscout.com/pricing",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://www.helpscout.com/knowledge-base",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.helpscout.com/mailbox-api/overview/authentication",
+          "page_type": "authentication",
+          "title": "Authentication\n      \n      | Help Scout Developers",
+          "confidence": 0.85,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 3,
+        "urls_discovered": 4,
+        "official_urls": 4,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 4
+      }
+    },
+    "stats": {
+      "queries": 3,
+      "urls_discovered": 4,
+      "official_urls": 4,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 4
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_14c1ec24438b",
+      "source_type": "pricing_page",
+      "url": "https://www.helpscout.com/pricing",
+      "domain": "www.helpscout.com",
+      "page_title": "Help Scout Pricing: Affordable Customer Support Software",
+      "content": "- ##### Messages\n\n\n\n\n\nSend visitors targeted messages on your website or in your app.\n\n- ##### Surveys, CSAT, NPS\n\n\n\n\n\nCollect survey responses and ratings anywhere on your website or in your app.\n\n- ##### Pre-built reports\n\n\n\n\n\nGet insight into volume, responses, and customer happiness on each channel.\n\n\n\n\n\n\n\n\n\n\n\n\n\n30-day history\n\n\n\n\n\n\n\n2-year history\n\n\n\n\n\n\n\nAll-time\n\n\n\n\n\n\n\nAll-time\n\n- ##### Custom reports\n\n\n\n\n\nFilter reporting data into distinct views by conversation type, Inbox, tag, folder, or custom field.\n\n- ##### Exports\n\n\n\n\n\nPerform custom analysis by exporting your reporting data to a CSV or Excel file.\n\n- ##### HIPAA compliance\n\n\n\n\n\nSafely store protected health information (PHI) in Help Scout.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdd-on\n\n- ##### SSO/SAML\n\n\n\n\n\nSign in to Help Scout with your company's SSO credentials using any SAML-compatible identity provider\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdd-on\n\n\n\n\n\n\n\nAdd-on\n\n- ##### IP restrictions\n\n\n\n\n\nLimit access to your Help Scout account to users connecting from a predefined list of IP address ranges or individual IPs.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdd-on\n\n\n\n\n\n\n\nAdd-on\n\n- ##### Access to 100+ apps\n\n\n\n\n\nConnect Help Scout to other web services your business depends on.\n\n\n\n\n\n\n\n\n\n\n\n\n\nLimit to 1\n\n- ##### Salesforce\n\n\n\n\n\nPull in customer activity details from Salesforce to Help Scout.\n\n- ##### HubSpot\n\n\n\n\n\nBring contextual information about your customers into Help Scout.\n\n- ##### Aircall\n\n\n\n\n\nManage calls and texts alongside email and chat in Help Scout.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdd-on\n\n\n\n\n\n\n\nAdd-on\n\n\n\n\n\n\n\nPreferred pricing\n\n- ##### Jira\n\n\n\n\n\nCreate a new Jira issue from a Help Scout conversation.\n\n- ##### Linear\n\n\n\n\n\nLink, track, and create new issues directly from any conversation.\n\n- ##### Custom apps\n\n\n\n\n\nA quick way for developers to pull customer data from a third party source into the sidebar.\n\n- ##### API access\n\n\n\n\n\nRead/write data and connect more key systems with Help Scout.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(200 calls/minute)\n\n\n\n\n\n\n\n(400 calls/minute)\n\n\n\n\n\n\n\n(800 calls/minute)\n\n- ##### Webhooks & OAuth apps",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:43.101292Z",
+      "section_path": "Deliver delightful support at every stage of growth > How much can you save with AI Answers? > Free > Integrations",
+      "chunk_index": 7,
+      "token_count": 517,
+      "quality_score": 0.84
+    },
+    {
+      "id": "ev_2197dc5134aa",
+      "source_type": "auth_docs",
+      "url": "https://developer.helpscout.com/mailbox-api/overview/authentication",
+      "domain": "developer.helpscout.com",
+      "page_title": "\n    \n      \n        Authentication\n      \n      | Help Scout Developers\n    \n  ",
+      "content": "You need to create an OAuth2 application before you can use the API. Create one by navigating to Your Profile > My apps and click Create My App.\nA redirection URL is necessary when using the **Authorization Code** flow.\n\n![OAu2h applications](https://developer.helpscout.com/images/pubapi_v2/oauth2_application.png)\n\nThis is a redirection-based flow. The application must be capable of interacting with the user-agent (i.e. the user’s web browser)\nand receiving API authorization codes that are routed through the user-agent.\n\nAsk the user to authorize your application by either redirecting them to the Redirection URI or by opening the Redirection URI in the pop-up.\n\n```\n\nhttps://secure.helpscout.net/authentication/authorizeClientApplication?client_id={application_id}&state={your_secret}\n```\n\nThe [`state` param](https://tools.ietf.org/html/rfc6749#section-4.1.1) is optional and if you use it, it will be returned to you in step 2.\n\nIf the user is already logged in to Help Scout, they will see the following Authorization screen.\nIf they are not logged in to Help Scout, they will be brought to the Authorization screen after they log in.\n\n![OAu2h applications](https://developer.helpscout.com/images/pubapi_v2/authorize_application.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:42.823066Z",
+      "section_path": "OAuth2 application [Anchor link for: oauth2 application](https://developer.helpscout.com/mailbox-api/overview/authentication/\\#oauth2-application) > Authorization Code flow [Anchor link for: authorization code flow](https://developer.helpscout.com/mailbox-api/overview/authentication/\\#authorization-code-flow) > 1\\. Redirect user to Help Scout [Anchor link for: 1 redirect user to help scout](https://developer.helpscout.com/mailbox-api/overview/authentication/\\#1-redirect-user-to-help-scout)",
+      "chunk_index": 0,
+      "token_count": 311,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_2d54aa8fb485",
+      "source_type": "auth_docs",
+      "url": "https://developer.helpscout.com/mailbox-api/overview/authentication",
+      "domain": "developer.helpscout.com",
+      "page_title": "\n    \n      \n        Authentication\n      \n      | Help Scout Developers\n    \n  ",
+      "content": "After the user authorizes your application, we will redirect them back to the Redirection URL that is defined in My Apps. The URI will contain the `code` query param (and optionally a `state` param)\n\nYour application can now use the `code` param and exchange it for access and refresh token pair:\n\nCopy\n\n\n```\n\ncurl -X POST https://api.helpscout.net/v2/oauth2/token \\\n --data 'code={code}' \\\n --data 'client_id={application_id}' \\\n --data 'client_secret={application_secret}' \\\n --data 'grant_type=authorization_code'\n```\n\nCopy\n\n\n```\n\nHTTP/1.1 200 OK\nContent-Type: application/json; charset=utf-8\n\n{\n    \"refresh_token\":\"c01194f69c3e4307a4fd0e9403fc8fd0\",\n    \"token_type\":\"bearer\",\n    \"access_token\":\"8fccb4f5cf6746148f336414f798cd87\",\n    \"expires_in\":172800\n}\n```\n\nWhen the access token expires (indicated by HTTP 401 return code), you can use the refresh token to retrieve a new access and refresh token pair:\n\nCopy\n\n\n```\n\ncurl -X POST https://api.helpscout.net/v2/oauth2/token \\\n --data 'refresh_token={refresh_token}' \\\n --data 'client_id={application_id}' \\\n --data 'client_secret={application_secret}' \\\n --data 'grant_type=refresh_token'\n```\n\nCopy\n\n\n```\nHTTP/1.1 200 OK\nContent-Type: application/json; charset=utf-8\n\n{\n    \"refresh_token\":\"8fccb4f5cf6746148f336414f798cd87\",\n    \"token_type\":\"bearer\",\n    \"access_token\":\"8fccb99232cf6743148f336414f798cd87\",\n    \"expires_in\":172800\n}\n```",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:42.823118Z",
+      "section_path": "OAuth2 application [Anchor link for: oauth2 application](https://developer.helpscout.com/mailbox-api/overview/authentication/\\#oauth2-application) > Authorization Code flow [Anchor link for: authorization code flow](https://developer.helpscout.com/mailbox-api/overview/authentication/\\#authorization-code-flow) > 1\\. Redirect user to Help Scout [Anchor link for: 1 redirect user to help scout](https://developer.helpscout.com/mailbox-api/overview/authentication/\\#1-redirect-user-to-help-scout) > 4\\. Refresh access token [Anchor link for: 4 refresh access token](https://developer.helpscout.com/mailbox-api/overview/authentication/\\#4-refresh-access-token) > Response",
+      "chunk_index": 1,
+      "token_count": 349,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_11c9f221ba34",
+      "source_type": "auth_docs",
+      "url": "https://developer.helpscout.com/mailbox-api/overview/authentication",
+      "domain": "developer.helpscout.com",
+      "page_title": "\n    \n      \n        Authentication\n      \n      | Help Scout Developers\n    \n  ",
+      "content": "With the **Client Credentials** flow it is possible to retrieve an access token directly using your application id and application secret:\n\nCopy\n\n\n```\n\ncurl -X POST https://api.helpscout.net/v2/oauth2/token \\\n    --data \"grant_type=client_credentials\" \\\n    --data \"client_id={application_id}\" \\\n    --data \"client_secret={application_secret}\"\n```\n\nCopy\n\n\n```\nHTTP/1.1 200 OK\nContent-Type: application/json; charset=utf-8\n\n{\n    \"token_type\":\"bearer\",\n    \"access_token\":\"369dbb08be58430086d2f8bd832bc1eb\",\n    \"expires_in\":172800\n}\n```\n\nThis token is valid for 2 days and you should create a new one only after the existing token expires. Expiration will be indicated by the API responding with HTTP 401.\n\nIf creating a new application to generate an `application_id` and `application_secret`, you will be prompted to supply a redirection URL. If you intend to exclusively a Client Credentials flow, you can provide a placeholder URL (such as https://www.google.com) to continue with generating the application.\n\nExpect that the length of all access token types will change over time as we make changes to what is stored in them and how they are encoded.\nYou can expect that they will grow and shrink over time. Please use a variable length data type without a specific maximum size to store access or refresh tokens.\n\nContents\n\n\n- [OAuth2 application](https://developer.helpscout.com/mailbox-api/overview/authentication/#oauth2-application)\n- [Authorization Code flow](https://developer.helpscout.com/mailbox-api/overview/authentication/#authorization-code-flow)\n  - [1\\. Redirect user to Help Scout](https://developer.helpscout.com/mailbox-api/overview/authentication/#1-redirect-user-to-help-scout)\n  - [2\\. Redirect back to your backend](https://developer.helpscout.com/mailbox-api/overview/authentication/#2-redirect-back-to-your-backend)\n  - [3\\. Get access and refresh tokens](https://developer.helpscout.com/mailbox-api/overview/authentication/#3-get-access-and-refresh-tokens)\n  - [4\\. Refresh access token](https://developer.helpscout.com/mailbox-api/overview/authentication/#4-refresh-access-token)\n- [Client Credentials flow](https://developer.helpscout.com/mailbox-api/overview/authentication/#client-credentials-flow)\n  - [Request](https://developer.helpscout.com/mailbox-api/overview/authentication/#request-2)\n  - [Response](https://developer.helpscout.com/mailbox-api/overview/authentication/#response-2)\n- [Token Size](https://developer.helpscout.com/mailbox-api/overview/authentication/#token-size)\n\n↑ [Back to top](https://developer.helpscout.com/mailbox-api/overview/authentication/#)\n\n* * *",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:42.823203Z",
+      "section_path": "OAuth2 application [Anchor link for: oauth2 application](https://developer.helpscout.com/mailbox-api/overview/authentication/\\#oauth2-application) > Token Size [Anchor link for: token size](https://developer.helpscout.com/mailbox-api/overview/authentication/\\#token-size)",
+      "chunk_index": 2,
+      "token_count": 653,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_11c11f5eb73e",
+      "source_type": "pricing_page",
+      "url": "https://www.helpscout.com/pricing",
+      "domain": "www.helpscout.com",
+      "page_title": "Help Scout Pricing: Affordable Customer Support Software",
+      "content": "MonthlyAnnual\n\n-16%\n\n$25per user/mo\n\nFor growing teams looking to automate more tasks and move beyond email.\n\n[Try for Free](https://secure.helpscout.net/members/register/57/?)\n\n- Multiple Inboxes\n- Live chat, Instagram, & Messenger\n- Multiple knowledge bases\n- One basic SLA policy\n- Basic workflows\n- Unlimited tags and saved replies\n- AI Inbox assistant\n- WhatsApp messaging\n\nPopular\n\n$45per user/mo\n\nFor teams managing higher volume and complexity across multiple channels.\n\n[Try for Free](https://secure.helpscout.net/members/register/58/?)\n\n- Advanced workflows\n- Two advanced SLA policies\n- Unlimited AI Drafts\n- Round robin routing\n- Salesforce, Jira, and HubSpot\n- Internal teams\n- Group conversations by company\n\n$75per user/mo\n\nFor teams that need the highest level of scale and security.\n\n[Book a Demo](https://www.helpscout.com/lp/get-a-demo/)\n\n- Unlimited workflows\n- Unlimited SLA policies\n- Multiple routing types\n- SSO/SAML\n- HIPAA compliance\n- Up to 50 light users\n- Dedicated onboarding specialist\n- Strategic account manager\n- Preferred pricing on Aircall",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:43.100901Z",
+      "section_path": "Deliver delightful support at every stage of growth > Standard > Pro > Everything in Plus and...",
+      "chunk_index": 0,
+      "token_count": 268,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_ca9a923d0793",
+      "source_type": "pricing_page",
+      "url": "https://www.helpscout.com/pricing",
+      "domain": "www.helpscout.com",
+      "page_title": "Help Scout Pricing: Affordable Customer Support Software",
+      "content": "Add-on\n\n$0.75/resolution\n\nScale capacity with an AI assistant that instantly resolves customer requests. Pay per resolution on a monthly basis.\n\n- #### No dead ends\n\nYour team is always a click away for more complex asks.\n\n- #### Easy setup\n\nAdd your website or other sources to configure the AI in minutes.\n\n- #### 3-month free trial\n\nTry AI Answers at no cost so you can see its impact on response time.\n\nPre-paid discounts available.\n\n![](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F5hj4TO0nlAUfuEFyX9DGpG%2F9b911328b803380b542ef4a9b3358fc2%2FPricingHero--ai-gradient.png?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=606&h=1242&s=535ca3ad77e8acf671c95dda46761d14)\n\nJust need the basics? The **Free plan** includes 5 users, 1 Inbox, and 1 Docs site.\n\nThe **Free plan** gives you 5 users, 1 Inbox, and 1 Docs site.\n\nJust need the basics?\n\n[Start with Free](https://secure.helpscout.net/members/register/60/?)\n\n![](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F4Esk3qE8adxjQAfJsn55kz%2Ff32caf5805a3f8672be065b883387c9a%2FPricingHero--bg-left.png?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=984&h=943&s=64812152cc9e34ebf1c31b279871bce1)![](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F544C9h9exDHKVJ07xQvLdT%2Fb0c1639cec8d22d8ca296ddfe706c5ab%2FPricingHero--bg-right.png?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=719&h=678&s=e61859e61cb2b85f9b85cbed70682471)\n\n![Mixmax](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F370hH5fiu3QhXFwL4BXbui%2F45774fe77cb61f88f638c1c5a9375c20%2FMixmax.svg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&s=ac5d603e96d1da251804b4665330b641)![Moment](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2Ff4nwMXapJFVMToVGrSN9d%2F3418e556499054b5cdebb2a7f08863d4%2FMoment.svg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&s=d08b43f9708cc9fde34870a3bd3ace20)\n\n![Clockwise](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F4UgThksp9GvZaQQEzTXK8a%2Fe874dea9af2af592c85648e9590c0f20%2Fcustomer-logo--animation-1.svg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&s=3c004b3ee251f437177ee7e18c9ecb63)![Switcher](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F2KnC2IFLTB7RISfZMyKqSF%2F11c35a479dd86f8fbc686aabb78d50b6%2FSwitcher.svg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&s=27c3b40026c95973b5eb6d9c552a2892)\n\n![Gusto](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F3wXzQPZ6GdTYn9QXibgepi%2Fd5e893f8e38e3e360e6259be3ee5dbac%2FGusto.svg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&s=6978417604dc6842d94c988a950a8cfb)![Brain.fm](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F3NvG6PZOQLei9Rj9OLuZWV%2F5208672276ff3e9fbaf1b436ac36daa4%2Fbrainfm.svg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&s=d7bca0be0011045623b520377f723cd5)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:43.100994Z",
+      "section_path": "Deliver delightful support at every stage of growth > Standard > AI Answers",
+      "chunk_index": 1,
+      "token_count": 800,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_3b082899fba7",
+      "source_type": "pricing_page",
+      "url": "https://www.helpscout.com/pricing",
+      "domain": "www.helpscout.com",
+      "page_title": "Help Scout Pricing: Affordable Customer Support Software",
+      "content": "When you sign up for a free trial of the Standard or Plus plan, you’ll get 15 days to take all of the plan’s features for a test drive — no credit card required. Want to trial the Pro plan? [Talk to our sales team](https://www.helpscout.com/lp/get-a-demo/).\n\nWhen you create your Help Scout account, you will get 3 months of free, unlimited AI Answers resolutions. This gives you plenty of time to test it and measure the impact without having to pay for resolutions. The trial starts on the first day you create your account.\n\nWe accept major credit cards, including Visa, American Express, Mastercard, and Discover. For some annual payments, wire or ACH transfer is also available. Free accounts don’t need to add a payment method.\n\n[The Help Scout for Good program](https://www.helpscout.com/for-good/) offers discounts for qualifying non-profits and B Corporations. We also have a startup plan designed to accommodate early-stage companies. [Check it out](https://www.helpscout.com/startups/) to see if you qualify.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:43.101402Z",
+      "section_path": "Deliver delightful support at every stage of growth > How much can you save with AI Answers? > Free > Do you offer discounts for startups or non-profits?",
+      "chunk_index": 9,
+      "token_count": 254,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_023c80a1cdad",
+      "source_type": "pricing_page",
+      "url": "https://www.helpscout.com/pricing",
+      "domain": "www.helpscout.com",
+      "page_title": "Help Scout Pricing: Affordable Customer Support Software",
+      "content": "![Buffer](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2Fx4H3NFq73M6QB29akrTrM%2F820049d08a1f09576fad8efa9d2501c9%2FBuffer.svg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&s=78913ab6ae568e976fb14744e95e7147)![Vimeo](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F2Osj3PW0G1eG0Z0n9x5rhe%2Fe60220ce082276846b4db2f489db6311%2FVimeo.svg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&s=f813b1881dd77ce5eafeac3dcb1f649a)\n\n![Litmus](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F4HiaPdjTVgDV5qOLPj6Mn7%2F91cdbaaba9fd6ad887ea7e688ea1f614%2Finsights-analytics--testimonial--logo-litmus.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=216&h=119&s=382dd6e95cc3304943b5cd01ee03e9d9)![Privy](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F10PeJNXbmYFYWbIGixqWQ4%2Fb56d1482eb6c745f7ba6e715a2284fba%2FPrivy.svg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&s=4eed93e867599d8a4de23bd5815af59f)\n\n![Efficient App](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F7B11PwpIBrrEbHg03t6RkJ%2F593682031317e68c727398b6de275b54%2FEfficient_App.svg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&s=b4de4f525074e0a1c912d1a7c046bd07)![Customer Logo - BetterHelp](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2FlcmryUgzUkEH74Gz0JAVk%2F660dccc69b6ae51baade4c6702e1bac4%2FBetterHelp.svg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&s=289d60cfb3864018a2327999e5bbdf1d)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:43.101045Z",
+      "section_path": "Deliver delightful support at every stage of growth > Standard > AI Answers",
+      "chunk_index": 2,
+      "token_count": 425,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_27dde84abd20",
+      "source_type": "pricing_page",
+      "url": "https://www.helpscout.com/pricing",
+      "domain": "www.helpscout.com",
+      "page_title": "Help Scout Pricing: Affordable Customer Support Software",
+      "content": "AI Answers is an autonomous agent that resolves customer questions instantly. See the impact it can have on your bottom line and bandwidth.\n\nConversations per month\n/month\nCurrent support team reps\nreps\nAnnual cost per support team rep\n$/year\nAI Answers resolution rate\\*\n\n0%AVG.100%\nThe average resolution rate is 73%. Since AI Answers continuously improves, your savings will rise over time.\n\nI want to save moneyI want to save time\n\n|  | Year 1 | Year 2 | Year 3 | Total |\n| --- | --- | --- | --- | --- |\n| #### New hires without AI Answers | $135,200 | $281,216 | $438,696 | $855,112 |\n| #### New hires with AI Answers | $0 | $0 | $146,232 | $146,232 |\n| #### AI Answers cost | $2,266 | $2,606 | $2,997 | $7,870 |\n| #### Savings | $132,933 | $278,609 | $289,467 | $701,009 |\n\n[Start with Free](https://secure.helpscout.net/members/register/60/?)\n\n[Try for Free](https://secure.helpscout.net/members/register/57/?)\n\n[Try for Free](https://secure.helpscout.net/members/register/58/?)\n\n[Book a Demo](https://www.helpscout.com/lp/get-a-demo/)\n\n- ##### Users\n\n\n\n\n\nUsers are members of your team in Help Scout.\n\n\n\n\n\n\n\n\n\n\n\n\n\nUp to 5\n\n\n\n\n\n\n\nUp to 25\n\n\n\n\n\n\n\nUp to 50\n\n\n\n\n\n\n\nUnlimited (minimum 10)\n\n- ##### Advanced permissions\n\n\n\n\n\nControl visibility and access at the company, team, or user level.\n\n- ##### Teams\n\n\n\n\n\nAssign conversations and monitor reports based on a group of users.\n\n- ##### Light users\n\n\n\n\n\nLet teammates view conversations and collaborate without taking up a full user seat. Maximums by plan: Plus (25), Pro (50).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n5 included\n\n\n\n\n\n\n\n15 included",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:43.101094Z",
+      "section_path": "Deliver delightful support at every stage of growth > How much can you save with AI Answers? > Free > Team management",
+      "chunk_index": 3,
+      "token_count": 398,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_bf5cf1313e25",
+      "source_type": "pricing_page",
+      "url": "https://www.helpscout.com/pricing",
+      "domain": "www.helpscout.com",
+      "page_title": "Help Scout Pricing: Affordable Customer Support Software",
+      "content": "- ##### Inboxes\n\n\n\n\n\nCollaborate on customer conversations in a shared workspace. Maximums by plan: Free (1), Standard (20), Plus (50), Pro (unlimited).\n\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\n\n\n\n\n\n\n2 (additional Inboxes $10/mo)\n\n\n\n\n\n\n\n5 (additional Inboxes $10/mo)\n\n\n\n\n\n\n\n10 (additional Inboxes $10/mo)\n\n- ##### Contacts\n\n\n\n\n\nSomeone who received a reply from your team or had their question resolved by the AI assistant. Multiple conversations with the same person count as one contact.\n\n\n\n\n\n\n\n\n\n\n\n\n\n100/mo\n\n\n\n\n\n\n\nUnlimited\n\n\n\n\n\n\n\nUnlimited\n\n\n\n\n\n\n\nUnlimited\n\n- ##### Saved replies\n\n\n\n\n\nCreate a library of FAQ responses you can search and insert in 2 clicks.\n\n\n\n\n\n\n\n\n\n\n\n\n\n10\n\n\n\n\n\n\n\nUnlimited\n\n\n\n\n\n\n\nUnlimited\n\n\n\n\n\n\n\nUnlimited\n\n- ##### Tags\n\n\n\n\n\nUse tags to label conversations, monitor trends, and start automations.\n\n\n\n\n\n\n\n\n\n\n\n\n\n10\n\n\n\n\n\n\n\nUnlimited\n\n\n\n\n\n\n\nUnlimited\n\n\n\n\n\n\n\nUnlimited\n\n- ##### Snooze\n\n\n\n\n\nUse snooze to set a date and time for a conversation to return to the top of your Inbox.\n\n- ##### Send later\n\n\n\n\n\nSchedule emails to arrive exactly when you want with send later.\n\n- ##### Views\n\n\n\n\n\nGroups conversations into lists based on criteria like status, assignments, and priority.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUnlimited\n\n\n\n\n\n\n\nUnlimited\n\n\n\n\n\n\n\nUnlimited\n\n- ##### Customer profiles & history\n\n\n\n\n\nView customer data and conversation history in an auto-populated and editable sidebar.\n\n- ##### Custom fields\n\n\n\n\n\nTrack up to 10 custom data points on each conversation for use in reporting and workflows.\n\n- ##### Customer properties\n\n\n\n\n\nCollect and display up to 50 additional customer data points that matter to your team.\n\n- ##### Company management\n\n\n\n\n\nOrganize contacts and conversations by company to get a clear picture of the whole account.\n\n- ##### Routing\n\n\n\n\n\nAutomatically assign conversations evenly across your team to balance the workload.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRound robin\n\n\n\n\n\n\n\nRound robin + load balanced",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:43.101150Z",
+      "section_path": "Deliver delightful support at every stage of growth > How much can you save with AI Answers? > Free > Shared Inbox",
+      "chunk_index": 4,
+      "token_count": 479,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_a3c1a4d6fa9d",
+      "source_type": "pricing_page",
+      "url": "https://www.helpscout.com/pricing",
+      "domain": "www.helpscout.com",
+      "page_title": "Help Scout Pricing: Affordable Customer Support Software",
+      "content": "- ##### Email\n\n\n\n\n\nManage customer emails as a team.\n\n- ##### Live chat\n\n\n\n\n\nOffer live chat anywhere on your website or in-app.\n\n- ##### Messenger\n\n\n\n\n\nHandle customer conversations through Facebook Messenger.\n\n- ##### Instagram\n\n\n\n\n\nHandle customer conversations through Instagram.\n\n- ##### Service Level Agreements (SLAs)\n\n\n\n\n\nSet and track response targets across conversations to keep work on schedule.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1 basic policy\n\n\n\n\n\n\n\n2 advanced policies\n\n\n\n\n\n\n\nUnlimited\n\n- ##### WhatsApp\n\n\n\n\n\nHandle customer conversations through WhatsApp.\n\n- ##### Phone/voice\n\n\n\n\n\nMake and receive phone calls, logged in Help Scout.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVia integration\n\n\n\n\n\n\n\nVia integration\n\n\n\n\n\n\n\nVia integration\n\n- ##### SMS\n\n\n\n\n\nSend and receive texts from your Help Scout Inbox.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVia integration\n\n\n\n\n\n\n\nVia integration\n\n\n\n\n\n\n\nVia integration\n\n- ##### AI Assist\n\n\n\n\n\nExpand, shorten, edit, or translate text with AI.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUnlimited\n\n\n\n\n\n\n\nUnlimited\n\n\n\n\n\n\n\nUnlimited\n\n- ##### AI Drafts\n\n\n\n\n\nUse AI to draft replies based on past conversations and help content.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUnlimited\n\n\n\n\n\n\n\nUnlimited\n\n- ##### AI Summarize\n\n\n\n\n\nSummarize back-and-forth conversations into a few bullet points with AI.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUnlimited\n\n\n\n\n\n\n\nUnlimited\n\n- ##### AI Answers chatbot\n\n\n\n\n\nAn AI assistant that offers instant answers to customers using your knowledge base content and custom sources.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n$0.75 per resolution\n\n\n\n\n\n\n\n$0.75 per resolution\n\n\n\n\n\n\n\n$0.75 per resolution",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:43.101198Z",
+      "section_path": "Deliver delightful support at every stage of growth > How much can you save with AI Answers? > Free > AI",
+      "chunk_index": 5,
+      "token_count": 394,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_7a9dccf4b184",
+      "source_type": "pricing_page",
+      "url": "https://www.helpscout.com/pricing",
+      "domain": "www.helpscout.com",
+      "page_title": "Help Scout Pricing: Affordable Customer Support Software",
+      "content": "- ##### Workflows\n\n\n\n\n\nOrganize, assign, or reply to conversations automatically. Advanced workflows let you trigger actions based on customer properties.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n150 basic workflows\n\n\n\n\n\n\n\n500 advanced workflows\n\n\n\n\n\n\n\nUnlimited advanced workflows\n\n- ##### Office hours\n\n\n\n\n\nSend customers a confirmation as soon as their message is received.\n\n- ##### Auto reply\n\n\n\n\n\nSend customers a confirmation as soon as their message is received.\n\n- ##### Docs sites\n\n\n\n\n\nBuild a searchable and branded help center or knowledge base.\n\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\n\n\n\n\n\n\n2 (additional sites $20/mo)\n\n\n\n\n\n\n\n3 (additional sites $20/mo)\n\n\n\n\n\n\n\n5 (additional sites $20/mo)\n\n- ##### Custom site branding\n\n\n\n\n\nUse preset options or control the look and feel of your site with custom CSS.\n\n- ##### Articles\n\n\n\n\n\nCreate and organize articles with text, images, hyperlinks, videos, and tables.\n\n\n\n\n\n\n\n\n\n\n\n\n\n10\n\n\n\n\n\n\n\nUnlimited\n\n\n\n\n\n\n\nUnlimited\n\n\n\n\n\n\n\nUnlimited\n\n- ##### Contact forms\n\n\n\n\n\nEmbed contact forms or live chat into your help center.\n\n- ##### Restricted Docs sites\n\n\n\n\n\nControl who can view your Docs site via API.\n\n- ##### Embeddable support hub\n\n\n\n\n\nCustomize a help widget you can place anywhere in your website or app.\n\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\n\n\n\n\n\n\n5\n\n\n\n\n\n\n\nUnlimited\n\n\n\n\n\n\n\nUnlimited\n\n- ##### Contact form\n\n\n\n\n\nOffer contact forms linked directly to your Inbox on any website page or in-app.\n\n- ##### Live chat\n\n\n\n\n\nOffer live chat anywhere on your website or in-app.\n\n- ##### Help articles\n\n\n\n\n\nSuggest different help content depending on the page URL.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:43.101246Z",
+      "section_path": "Deliver delightful support at every stage of growth > How much can you save with AI Answers? > Free > Beacon",
+      "chunk_index": 6,
+      "token_count": 385,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_e71654d3711a",
+      "source_type": "pricing_page",
+      "url": "https://www.helpscout.com/pricing",
+      "domain": "www.helpscout.com",
+      "page_title": "Help Scout Pricing: Affordable Customer Support Software",
+      "content": "- ##### Email\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStandard\n\n\n\n\n\n\n\nPriority\n\n\n\n\n\n\n\nPriority\n\n\n\n\n\n\n\nPriority\n\n- ##### Onboarding specialist\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdd-on\n\n- ##### CSM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdd-on\n\nYes — additional Inboxes beyond the number included in your plan are available for $10 per month when paid annually (or $12 per month). Additional Docs sites are available for $20 per month when paid annually (or $24 per month). The Free plan is limited to just 1 Inbox and 1 Docs site.\n\nA resolution is a single conversation that is resolved by AI Answers without human assistance.\n\nA resolution is counted only if the customer receives an AI response and doesn’t use escalation, search the knowledge base, ask more questions, or indicate that they need more help.\n\nIf a customer requests more help with natural language or by selecting the “I still need help” button, the conversation won’t count as a resolution and you won’t be charged.\n\nYou'll only be charged for one resolution per conversation, even if AI Answers responds to multiple questions.\n\nYes — you can set a monthly cap on AI Answers resolutions. If you hit your spending cap, AI Answers will be disabled automatically for the remainder of the monthly cycle. You’ll receive email notifications as you get closer to your cap.\n\nThis option allows for predictable billing, so you’ll never be surprised at the end of the month.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:43.101356Z",
+      "section_path": "Deliver delightful support at every stage of growth > How much can you save with AI Answers? > Free > Can I set caps on AI resolution spending?",
+      "chunk_index": 8,
+      "token_count": 356,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_496fe6c13ca4",
+      "source_type": "pricing_page",
+      "url": "https://www.helpscout.com/pricing",
+      "domain": "www.helpscout.com",
+      "page_title": "Help Scout Pricing: Affordable Customer Support Software",
+      "content": "Learn the platform in less than an hour.\n\nBecome a _power user_ in less than a day.\n\n[Start for Free](https://secure.helpscout.net/members/register/58/) [Book a Demo](https://www.helpscout.com/lp/get-a-demo/)\n\n![Video Thumbnail](https://embed-ssl.wistia.com/deliveries/63c5a062a338f4caa6e60e60b6607df0e573ae14.webp?image_crop_resized=640x300)\n\nClick for sound\n\n![](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F5OKYhkbITwFnraFxrpFazX%2Fb9b19130da1c60ce3d95dcf73e5870b7%2FDefaultPrefooter--graphic-avatar-left.png?ixlib=js-3.8.0&w=176&h=176&q=75&s=f1a2206422f72204950210e507ae4000)\n\n![](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F2bWW3wrtGFFx9TrMMkpscj%2F865aebc32e37505a24b87c8dfb73ee0f%2FDefaultPrefooter--graphic-avatar-right.png?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=176&h=176&s=25e2476677a7a39a23e9d48ee0e6f998)\n\n![](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F6BGqwB3ZROlXwi1V7gIFNs%2Fa2019be36e01f5f534b0a75826e5da47%2FDefaultPrefooter--graphic--title.svg?ixlib=js-3.8.0&w=125&q=75&format=svg&s=88acbb61a72f9384ee9a0ffc8b18a265)![](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F5D0Ss43czRTZNPXsdbyicd%2Fbc133fcc82709f3733dcd385274451a1%2Fprefooter--convo-tags.png?ixlib=js-3.8.0&w=246&h=127&q=75&s=e3f9211be5eb8f1770a3da470f04cd74)\n\n![](data:image/svg+xml;charset=utf-8,%3Csvg%20height='36'%20width='100'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%3E%3C/svg%3E)\n\n![Avatars of members of our Sales Team](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F4yw5Ibs8zDufWIyoEaXXLp%2F155d53abce317ae977e49f85ac645b0a%2FFixedCtaBar--avatars.png?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=100&h=36&s=73ed4fe96501c91fd2ac20177e1c348c)\n\nWe’d love to show you the magic of Help Scout.\n\nBook a DemoBook a Demo\n\nWe use cookies\n\nBy clicking “Accept all”, you agree to the storing of cookies on your device for functional, analytics, and advertising purposes.\n\nAccept allMore choices\n\n[Powered by Transcend](https://transcend.io/ \"Powered by Transcend\")\n\n[See our privacy policy](https://www.helpscout.com/company/legal/privacy/ \"Visit our privacy policy\")\n\nSwitch language",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:43.101504Z",
+      "section_path": "Deliver delightful support at every stage of growth > Start for Free",
+      "chunk_index": 10,
+      "token_count": 589,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_b79b05db7b49",
+      "source_type": "official_docs",
+      "url": "https://helpscout.com",
+      "domain": "helpscout.com",
+      "page_title": "Help Scout: Intuitive & Affordable Customer Service Software",
+      "content": "Bring customer insights, team collaboration, and thoughtful AI together so every interaction is connected to the last.\n\n[Start for Free](https://secure.helpscout.net/members/register/58/?) [Get a Demo](https://www.helpscout.com/lp/get-a-demo/)\n\n![](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F48Gm834HTXLFHPLbqYGf9v%2F9ab3ce36862387ff1028a77ff352bfb8%2Fhome-hero--background-texture.png?ixlib=gatsbySourceUrl-2.1.3&auto=format&q=70&w=1091&h=727&s=53f9985476ef77f9816ac0e4f8b92e5c)\n\nInsights live alongside every conversation, so you can make the right call in real time.\n\n![Clarity where it counts](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F6V9nQLeGSaAsWPEDVhwH3M%2Feaa381ceeaade9fe28a641c472052553%2FClarity.png?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=512&h=320&s=91371f68733d1c7d2770887acc07c7c4)\n\nTeams on Help Scout respond to 56% more messages in their first year.\n\n![Built for real teamwork](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F6VGzQKfFQGHKswuiLvfHVp%2Faccc0eff2d0a749f08c09b4cd16bf131%2FTeamwork.png?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=512&h=320&s=45c0a8115d73bda2965a2c5887c20466)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:43.190208Z",
+      "section_path": "Businesses that run on relationshipsrun support on Help Scout > Clarity where it counts > Built for real teamwork",
+      "chunk_index": 0,
+      "token_count": 323,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_4c1e51d43b94",
+      "source_type": "official_docs",
+      "url": "https://helpscout.com",
+      "domain": "helpscout.com",
+      "page_title": "Help Scout: Intuitive & Affordable Customer Service Software",
+      "content": "Take on more volume with AI agents that resolve 73% of interactions on average.\n\n![AI that multiplies your team](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F3COHdbOOEP45YOfd3AuNWl%2F4e7fb4076668f808283b47a0aa69480b%2FAI.png?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=514&h=322&s=f3090ccac93905582901d45fea65ea8b)\n\n![](https://hs-marketing.imgix.net/images/components/lp/TestimonialBlock/TestimonialBlockVanity--bg.png?ixlib=gatsbyHook-2.1.3&fit=min&auto=format%2Ccompress&placeholder=dominantColor&w=1600&h=602)\n\n![](https://hs-marketing.imgix.net/images/components/lp/TestimonialBlock/TestimonialBlockVanity--circle.png?ixlib=gatsbyHook-2.1.3&fit=min&auto=format%2Ccompress&placeholder=dominantColor&w=887&h=887)![testimonial--brilliant-lindsay](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F2HdzURYTQwqrgnIj0dnObo%2F5283765242f6f1436a71d6d3daf2493b%2Ftestimonial--brilliant-lindsay.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=613&h=613&s=2b9b679a653fe3fedc907edd72d3f41c)\n\n> Help Scout is by far the best support product I have ever used.\n\n![Mixmax](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F370hH5fiu3QhXFwL4BXbui%2F45774fe77cb61f88f638c1c5a9375c20%2FMixmax.svg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&s=ac5d603e96d1da251804b4665330b641)![Moment](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2Ff4nwMXapJFVMToVGrSN9d%2F3418e556499054b5cdebb2a7f08863d4%2FMoment.svg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&s=d08b43f9708cc9fde34870a3bd3ace20)\n\n![Clockwise](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F4UgThksp9GvZaQQEzTXK8a%2Fe874dea9af2af592c85648e9590c0f20%2Fcustomer-logo--animation-1.svg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&s=3c004b3ee251f437177ee7e18c9ecb63)![Switcher](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F2KnC2IFLTB7RISfZMyKqSF%2F11c35a479dd86f8fbc686aabb78d50b6%2FSwitcher.svg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&s=27c3b40026c95973b5eb6d9c552a2892)\n\n![Gusto](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F3wXzQPZ6GdTYn9QXibgepi%2Fd5e893f8e38e3e360e6259be3ee5dbac%2FGusto.svg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&s=6978417604dc6842d94c988a950a8cfb)![Brain.fm](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F3NvG6PZOQLei9Rj9OLuZWV%2F5208672276ff3e9fbaf1b436ac36daa4%2Fbrainfm.svg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&s=d7bca0be0011045623b520377f723cd5)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:43.190296Z",
+      "section_path": "Businesses that run on relationshipsrun support on Help Scout > Clarity where it counts > AI that multiplies your team",
+      "chunk_index": 1,
+      "token_count": 706,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_46b5305f7ff7",
+      "source_type": "official_docs",
+      "url": "https://helpscout.com",
+      "domain": "helpscout.com",
+      "page_title": "Help Scout: Intuitive & Affordable Customer Service Software",
+      "content": "![Buffer](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2Fx4H3NFq73M6QB29akrTrM%2F820049d08a1f09576fad8efa9d2501c9%2FBuffer.svg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&s=78913ab6ae568e976fb14744e95e7147)![Vimeo](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F2Osj3PW0G1eG0Z0n9x5rhe%2Fe60220ce082276846b4db2f489db6311%2FVimeo.svg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&s=f813b1881dd77ce5eafeac3dcb1f649a)\n\n![Litmus](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F4HiaPdjTVgDV5qOLPj6Mn7%2F91cdbaaba9fd6ad887ea7e688ea1f614%2Finsights-analytics--testimonial--logo-litmus.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=216&h=119&s=382dd6e95cc3304943b5cd01ee03e9d9)![Privy](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F10PeJNXbmYFYWbIGixqWQ4%2Fb56d1482eb6c745f7ba6e715a2284fba%2FPrivy.svg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&s=4eed93e867599d8a4de23bd5815af59f)\n\n![Efficient App](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F7B11PwpIBrrEbHg03t6RkJ%2F593682031317e68c727398b6de275b54%2FEfficient_App.svg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&s=b4de4f525074e0a1c912d1a7c046bd07)![Customer Logo - BetterHelp](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2FlcmryUgzUkEH74Gz0JAVk%2F660dccc69b6ae51baade4c6702e1bac4%2FBetterHelp.svg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&s=289d60cfb3864018a2327999e5bbdf1d)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:43.190347Z",
+      "section_path": "Businesses that run on relationshipsrun support on Help Scout > Clarity where it counts > AI that multiplies your team",
+      "chunk_index": 2,
+      "token_count": 425,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_87435a4345db",
+      "source_type": "official_docs",
+      "url": "https://helpscout.com",
+      "domain": "helpscout.com",
+      "page_title": "Help Scout: Intuitive & Affordable Customer Service Software",
+      "content": "Reply in secondsMake it personalPrioritize with ease\n\n![Video Thumbnail](https://embed-ssl.wistia.com/deliveries/7fd1bb8d531ed4685a6a31c0358d3af6e982458e.webp?image_crop_resized=1920x1280)\n\nClick for sound\n\n![Video Thumbnail](https://embed-ssl.wistia.com/deliveries/7fd1bb8d531ed4685a6a31c0358d3af6e982458e.webp?image_crop_resized=1920x1280)\n\nClick for sound\n\n![Video Thumbnail](https://embed-ssl.wistia.com/deliveries/7fd1bb8d531ed4685a6a31c0358d3af6e982458e.webp?image_crop_resized=1920x1280)\n\nClick for sound\n\nRecap long threads, edit and translate replies, or even create a first draft, all with a click.\n\n![inbox-carousel--ai-drafts](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F4LfHh6HdVL573vwmIZeTdx%2Fa0f6bacbacbd466248582854ea235119%2Finbox-carousel--ai-drafts.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1025&h=770&s=3e71777aff0dcd26b9df316d08ba7bda)\n\nGet the context you need to support full accounts, not just individuals.\n\n![Video Thumbnail](https://embed-ssl.wistia.com/deliveries/eb146b13c6bed39cb7b65a89e772812b4d3652e9.webp?image_crop_resized=1920x1444)\n\nClick for sound\n\n![inbox-carousel--company-management](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F5aEq1eM8IWZfK2M5FTSKsl%2Ffe821e2332a1b08d4477e33bfba0a844%2Finbox-carousel--company-management.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1025&h=770&s=d2d4fb80f33904cf9ac3398e84984713)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:43.190395Z",
+      "section_path": "Businesses that run on relationshipsrun support on Help Scout > One home for all your support conversations > Company management",
+      "chunk_index": 3,
+      "token_count": 374,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_52b2cee90103",
+      "source_type": "official_docs",
+      "url": "https://helpscout.com",
+      "domain": "helpscout.com",
+      "page_title": "Help Scout: Intuitive & Affordable Customer Service Software",
+      "content": "No rush to reply? Resurface the conversation at a later date automatically with snooze.\n\n![inbox-carousel--snooze](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F10W8HzI7IZMHbHhHot0jOE%2Fd611a953664f9535c97199b5271af677%2Finbox-carousel--snooze.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1025&h=770&s=bf4b210e6f54f33e5456dbb8d2713ac3)\n\nSchedule a reply so the customer gets it at the perfect time.\n\n![inbox-carousel--send-later](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F6lGe4vV6PmT4fnD6h3q35r%2F9332c6a99fd1ab72f2296e9bcd6069c3%2Finbox-carousel--send-later.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1025&h=770&s=6fc59e82c4935eb3f68727abd972887f)\n\nAutomate the tedious but critical tasks that keep your team (and Inbox) organized.\n\n![inbox-carousel--workflows](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F4ymTx6cs1n42BxnXUavMmm%2F2c8e3133914822bc4a51251cce1113f1%2Finbox-carousel--workflows.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1025&h=770&s=1aebf52915262443e2172895f147350d)\n\nAdd proven answers to common questions or situations with a few clicks.\n\n![inbox-carousel--saved-replies](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F3col1EHTqc8jZ2peX0uCM0%2F64583f9a3f1df5d404ee021438bf5e7e%2Finbox-carousel--saved-replies.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1025&h=770&s=5ecbaca3ab83a59c9c76de6c1237f3ac)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:43.190471Z",
+      "section_path": "Businesses that run on relationshipsrun support on Help Scout > One home for all your support conversations > Saved replies",
+      "chunk_index": 4,
+      "token_count": 399,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_de98b5c4948b",
+      "source_type": "official_docs",
+      "url": "https://helpscout.com",
+      "domain": "helpscout.com",
+      "page_title": "Help Scout: Intuitive & Affordable Customer Service Software",
+      "content": "Give every department or product its own dedicated place for support.\n\n![inbox-carousel--multiple-inboxes](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F3Djb69RijiMcTKw7uJNOPn%2Fe65f5376aabb16344a544c97e78f9895%2Finbox-carousel--multiple-inboxes.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1025&h=770&s=b74abc11d6ae9683d452bff88fddf60f)\n\nClose those extra tabs and handle messages from social, Shopify, and more in Help Scout.\n\n![inbox-carousel--channels](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F69y8Db6lZRJH8Inql7FZci%2F0c072ee356957f9e0f5de904fd1c2584%2Finbox-carousel--channels.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1025&h=770&s=81d90dab47a8792d8f2c3080dddfa1a0)\n\nCustomers can chat their way to fast solutions from your help content 24/7 — even for complex questions!\n\n![Home - Feb 2025 - Get closer to customers - Answer instantly with AI](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F1Ga0XODMQm0UNH6Hk4TE4u%2Faf3a5753df50c5b85a012db622364bee%2Fself-service--ai-answers.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1540&h=2055&s=7ac39eed4021faffbbfad58501163284)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:43.190528Z",
+      "section_path": "Businesses that run on relationshipsrun support on Help Scout > One home for all your support conversations > Channels > Answer instantly with AI",
+      "chunk_index": 5,
+      "token_count": 321,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_16f93d09f9a7",
+      "source_type": "official_docs",
+      "url": "https://helpscout.com",
+      "domain": "helpscout.com",
+      "page_title": "Help Scout: Intuitive & Affordable Customer Service Software",
+      "content": "Whether you offer live chat, email, or both, your team will always be within two clicks.\n\n![Home - Feb 2025 - Get closer to customers - Keep human help within reach - self-service--live-chat](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F33LWHbJe0gP0DowYiQ8lCi%2F2b93c4e69f571c7a0f940e8ea47d0516%2Fself-service--live-chat.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1540&h=2055&s=1352ef360ca578c825ad4c61163541e2)\n\nAllow easy access to previous conversations so customers can pick up where they left off.\n\n![Home - Feb 2025 - Get closer to customers - Save customers time - self-service--previous-convos](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F4yZIiwjEbxuhORarybZVTO%2F43f16c93dadde21af2c95e8b5345e770%2Fself-service--previous-convos.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1540&h=2055&s=146e0cc8128807d7d11801f34cac0599)\n\n![Home - Feb 2025 - Get closer to customers - Answer instantly with AI](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F1Ga0XODMQm0UNH6Hk4TE4u%2Faf3a5753df50c5b85a012db622364bee%2Fself-service--ai-answers.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1540&h=2055&s=7ac39eed4021faffbbfad58501163284)\n\n![Home - Feb 2025 - Get closer to customers - Keep human help within reach - self-service--live-chat](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F33LWHbJe0gP0DowYiQ8lCi%2F2b93c4e69f571c7a0f940e8ea47d0516%2Fself-service--live-chat.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1540&h=2055&s=1352ef360ca578c825ad4c61163541e2)\n\n![Home - Feb 2025 - Get closer to customers - Save customers time - self-service--previous-convos](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F4yZIiwjEbxuhORarybZVTO%2F43f16c93dadde21af2c95e8b5345e770%2Fself-service--previous-convos.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1540&h=2055&s=146e0cc8128807d7d11801f34cac0599)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:43.190595Z",
+      "section_path": "Businesses that run on relationshipsrun support on Help Scout > One home for all your support conversations > Channels > Save customers time",
+      "chunk_index": 6,
+      "token_count": 531,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_4365bc168128",
+      "source_type": "official_docs",
+      "url": "https://helpscout.com",
+      "domain": "helpscout.com",
+      "page_title": "Help Scout: Intuitive & Affordable Customer Service Software",
+      "content": "Help customers start strong with a friendly nudge toward your best resources.\n\n![Home - Feb 2025 - AccordionBlock - Get proactive with targeted messages - proactive-messages--welcome](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F6IbZZXYMK9N07YRUNbzDe4%2Fd2b33a224bf36893880d0f57158622d6%2Fproactive-messages--welcome.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1540&h=2055&s=6c67212d7ff55a082583a1422a604199)\n\nUnderstand how customers feel in context. Use NPS or pick from our library of surveys to get a read on specific experiences.\n\n![Home - Feb 2025 - AccordionBlock - Get proactive with targeted messages - Gather feedback and NPS® - proactive-messages--nps](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F6nMSB5HrcW3gk9Bw923stf%2Fb46aa95b12e20992b48004f9a5ec3ae3%2Fproactive-messages--nps.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1540&h=2055&s=7b853e1f7a1c2058f65c153f8ea0fe9d)\n\nUse modals and banners in-app or on your website to get attention on promos, new features, and important updates.\n\n![Home - Feb 2025 - AccordionBlock - Get proactive with targeted messages - Share what’s new - proactive-messages--banner](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F5ssAexSWXBuZC7P0lmrNK8%2F05aed1a3ab0051e4fceca53b2a6b61ea%2Fproactive-messages--banner.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1540&h=2055&s=bb7472b7cc1a86d47c63e74510438b78)\n\n![Home - Feb 2025 - AccordionBlock - Get proactive with targeted messages - proactive-messages--welcome](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F6IbZZXYMK9N07YRUNbzDe4%2Fd2b33a224bf36893880d0f57158622d6%2Fproactive-messages--welcome.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1540&h=2055&s=6c67212d7ff55a082583a1422a604199)\n\n![Home - Feb 2025 - AccordionBlock - Get proactive with targeted messages - Gather feedback and NPS® - proactive-messages--nps](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F6nMSB5HrcW3gk9Bw923stf%2Fb46aa95b12e20992b48004f9a5ec3ae3%2Fproactive-messages--nps.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1540&h=2055&s=7b853e1f7a1c2058f65c153f8ea0fe9d)\n\n![Home - Feb 2025 - AccordionBlock - Get proactive with targeted messages - Share what’s new - proactive-messages--banner](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F5ssAexSWXBuZC7P0lmrNK8%2F05aed1a3ab0051e4fceca53b2a6b61ea%2Fproactive-messages--banner.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1540&h=2055&s=bb7472b7cc1a86d47c63e74510438b78)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:43.190699Z",
+      "section_path": "Businesses that run on relationshipsrun support on Help Scout > One home for all your support conversations > Channels > Share what’s new",
+      "chunk_index": 7,
+      "token_count": 699,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_a4229479905d",
+      "source_type": "official_docs",
+      "url": "https://helpscout.com",
+      "domain": "helpscout.com",
+      "page_title": "Help Scout: Intuitive & Affordable Customer Service Software",
+      "content": "Understand the “why” behind your volume so you can make the right adjustments.\n\n![Home - Feb 2025 - AccordionBlock - Reporting that tells a story - Slide 1](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F2leKxhbRbnz7aTklFJZbca%2F2993b8278de81141c97fb050c02a3717%2Freporting--question-01.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1540&h=2055&s=05bc8dd9e8af60716a8645a9b1f34372)\n\nMeasure your team’s activity in the queue and get a sense of the factors contributing to wait times.\n\n![Home - Feb 2025 - AccordionBlock - Scale without compromise - “How’s our response time?”](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F4D4VQVge2B5xBdn63UoKb%2F5e47549bd2d761179fd76eafa64c9e46%2Freporting--question-02.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1540&h=2055&s=8f0eeb20cb3e08d49b5e005a5fa14479)\n\nGet a bird’s eye view of support team performance, both as a whole and individually.\n\n![Home - Feb 2025 - AccordionBlock - Scale without compromise - “Where can we improve?”](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F5elW8yL1T0APkAZXGPXmdl%2F6580e1c0cd9f0dbbcc9fd9facbd8c4ca%2Freporting--question-03.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1540&h=2055&s=975b38cc18fe49b3845750def046f95e)\n\n![Home - Feb 2025 - AccordionBlock - Reporting that tells a story - Slide 1](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F2leKxhbRbnz7aTklFJZbca%2F2993b8278de81141c97fb050c02a3717%2Freporting--question-01.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1540&h=2055&s=05bc8dd9e8af60716a8645a9b1f34372)\n\n![Home - Feb 2025 - AccordionBlock - Scale without compromise - “How’s our response time?”](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F4D4VQVge2B5xBdn63UoKb%2F5e47549bd2d761179fd76eafa64c9e46%2Freporting--question-02.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1540&h=2055&s=8f0eeb20cb3e08d49b5e005a5fa14479)\n\n![Home - Feb 2025 - AccordionBlock - Scale without compromise - “Where can we improve?”](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F5elW8yL1T0APkAZXGPXmdl%2F6580e1c0cd9f0dbbcc9fd9facbd8c4ca%2Freporting--question-03.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1540&h=2055&s=975b38cc18fe49b3845750def046f95e)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:43.190785Z",
+      "section_path": "Businesses that run on relationshipsrun support on Help Scout > One home for all your support conversations > Channels > “Where can we improve?”",
+      "chunk_index": 8,
+      "token_count": 631,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_ed3926c83da4",
+      "source_type": "official_docs",
+      "url": "https://helpscout.com",
+      "domain": "helpscout.com",
+      "page_title": "Help Scout: Intuitive & Affordable Customer Service Software",
+      "content": "Make sure messages for sales actually get to sales the first time, no redirecting necessary.\n\n![Home - Feb 2025 - AccordionBlock - Organize without the busywork - Assign the right person for the job - routing--tag-refund](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F2g26mWCMfs8ziyuevskl1j%2F4c69ec22fab1742fbdad3770f6aa1e0f%2Frouting--tag-refund.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1540&h=2055&s=b21c38fc44ebea63004bf6e8df0a86a1)\n\nWhether you want to resurface urgent conversations or flag refund requests, workflows do it for you so no one slips through the cracks.\n\n![Home - Feb 2025 - AccordionBlock - Organize without the busywork - Never miss important messages](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F22nlFXco6s5kxPyIfasKFd%2F0436229639f8fa9cedd49b3c86ecf127%2Frouting--old-convos.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1540&h=2055&s=e86c1cb0da08a273a094e81056919bdb)\n\nHelp everyone get more efficient with custom Views that group conversations.\n\n![Home - Feb 2025 - AccordionBlock - Organize without the busywork - Never miss important messages - routing--bug-notify](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F3lfXWEDesrRWBPf3pXChVc%2F7cd366710258b43ebdec922d95815401%2Frouting--bug-notify.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1540&h=2055&s=1af1596dfac5caf5467d3fddc047564d)\n\n![Home - Feb 2025 - AccordionBlock - Organize without the busywork - Assign the right person for the job - routing--tag-refund](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F2g26mWCMfs8ziyuevskl1j%2F4c69ec22fab1742fbdad3770f6aa1e0f%2Frouting--tag-refund.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1540&h=2055&s=b21c38fc44ebea63004bf6e8df0a86a1)\n\n![Home - Feb 2025 - AccordionBlock - Organize without the busywork - Never miss important messages](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F22nlFXco6s5kxPyIfasKFd%2F0436229639f8fa9cedd49b3c86ecf127%2Frouting--old-convos.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1540&h=2055&s=e86c1cb0da08a273a094e81056919bdb)\n\n![Home - Feb 2025 - AccordionBlock - Organize without the busywork - Never miss important messages - routing--bug-notify](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F3lfXWEDesrRWBPf3pXChVc%2F7cd366710258b43ebdec922d95815401%2Frouting--bug-notify.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1540&h=2055&s=1af1596dfac5caf5467d3fddc047564d)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:43.190876Z",
+      "section_path": "Businesses that run on relationshipsrun support on Help Scout > One home for all your support conversations > Channels > Simplify the queue for your team",
+      "chunk_index": 9,
+      "token_count": 683,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_4d32f404e17f",
+      "source_type": "official_docs",
+      "url": "https://helpscout.com",
+      "domain": "helpscout.com",
+      "page_title": "Help Scout: Intuitive & Affordable Customer Service Software",
+      "content": "Help Scout slides right in with your favorite tools, so you can keep working your way.\n\n[![Home - Feb 2025 - ContentPlusMediaBlock - 100+ powerful integrations - integrations](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F4wc1Qvr2GIo9FdK6gsPvVW%2Fea78fe4282a37225eb21e6f192ae5030%2Fleaders--integrations.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1600&h=812&s=2b460aa9acb4ac2f07e0f505d7d1d738)](https://www.helpscout.com/help-desk-integration/)\n\nOur team answers 99% of emails within 24 hours, so you’re never left in the dark.\n\n![Home - Feb 2025 - BentoBoxBlock - Why do 12,000+ companies choose Help Scout? - World-class support](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2FwsVIs1AwhZAkoSn8XqvY7%2F604d0c2eed7d5c17c769a40f6f26bad6%2Fsocial-proof--response-time.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1028&h=685&s=c3c1f4886c25d79a9edd58495e95062f)\n\nIndependent research showed that our NPS is 7x higher than competitors’ scores.\n\n![Home - Feb 2025 - BentoBoxBlock - Why do 12,000+ companies choose Help Scout? - Ease of use](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F1yV75ZMR0CaPkZczCTwsVC%2Fe09d94fd2e7dcecd3336379d506ef8ea%2Fsocial-proof--nps.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1028&h=685&s=42cfe1f6bfc0d179e8e2873221970c05)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:43.190932Z",
+      "section_path": "Businesses that run on relationshipsrun support on Help Scout > One home for all your support conversations > Ease of use",
+      "chunk_index": 10,
+      "token_count": 363,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_80fe47fe5f67",
+      "source_type": "official_docs",
+      "url": "https://helpscout.com",
+      "domain": "helpscout.com",
+      "page_title": "Help Scout: Intuitive & Affordable Customer Service Software",
+      "content": "80% of customers are still here after 4 years, so you can be confident you won’t outgrow us.\n\n![Home - Feb 2025 - BentoBoxBlock - Why do 12,000+ companies choose Help Scout? - Built to scale](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F6bpojYZFgqdFrdIEZs7dF3%2F6c52b09a9d42a4bd8471db9835675012%2Fsocial-proof--retention.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1028&h=685&s=91d69d416c41be829c120fb758c0f42b)\n\nLearn the platform in less than an hour.\n\nBecome a _power user_ in less than a day.\n\n[Start for Free](https://secure.helpscout.net/members/register/58/) [Book a Demo](https://www.helpscout.com/lp/get-a-demo/)\n\n![Video Thumbnail](https://embed-ssl.wistia.com/deliveries/63c5a062a338f4caa6e60e60b6607df0e573ae14.webp?image_crop_resized=640x300)\n\nClick for sound\n\n![](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F5OKYhkbITwFnraFxrpFazX%2Fb9b19130da1c60ce3d95dcf73e5870b7%2FDefaultPrefooter--graphic-avatar-left.png?ixlib=js-3.8.0&w=176&h=176&q=75&s=f1a2206422f72204950210e507ae4000)\n\n![](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F2bWW3wrtGFFx9TrMMkpscj%2F865aebc32e37505a24b87c8dfb73ee0f%2FDefaultPrefooter--graphic-avatar-right.png?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=176&h=176&s=25e2476677a7a39a23e9d48ee0e6f998)\n\n![](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F6BGqwB3ZROlXwi1V7gIFNs%2Fa2019be36e01f5f534b0a75826e5da47%2FDefaultPrefooter--graphic--title.svg?ixlib=js-3.8.0&w=125&q=75&format=svg&s=88acbb61a72f9384ee9a0ffc8b18a265)![](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F5D0Ss43czRTZNPXsdbyicd%2Fbc133fcc82709f3733dcd385274451a1%2Fprefooter--convo-tags.png?ixlib=js-3.8.0&w=246&h=127&q=75&s=e3f9211be5eb8f1770a3da470f04cd74)\n\n![](data:image/svg+xml;charset=utf-8,%3Csvg%20height='36'%20width='100'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%3E%3C/svg%3E)\n\n![Avatars of members of our Sales Team](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F4yw5Ibs8zDufWIyoEaXXLp%2F155d53abce317ae977e49f85ac645b0a%2FFixedCtaBar--avatars.png?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=100&h=36&s=73ed4fe96501c91fd2ac20177e1c348c)\n\nWe’d love to show you the magic of Help Scout.\n\nBook a DemoBook a Demo\n\n![](https://accretivemedia.go2cloud.org/aff_i?offer_id=420&aff_id=1&source=lp)\n\nWe use cookies\n\nBy clicking “Accept all”, you agree to the storing of cookies on your device for functional, analytics, and advertising purposes.\n\nAccept allMore choices\n\n[Powered by Transcend](https://transcend.io/ \"Powered by Transcend\")\n\n[See our privacy policy](https://www.helpscout.com/company/legal/privacy/ \"Visit our privacy policy\")\n\nSwitch language",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:43.191030Z",
+      "section_path": "Businesses that run on relationshipsrun support on Help Scout > Start for Free",
+      "chunk_index": 11,
+      "token_count": 729,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_25ff371c0ebb",
+      "source_type": "developer_portal",
+      "url": "https://www.helpscout.com/knowledge-base",
+      "domain": "www.helpscout.com",
+      "page_title": "Simple Help Desk Knowledge Base Software by Help Scout",
+      "content": "![KnowledgeBase-Hero](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F4TSqpXmY8Cp1TpLaQz1ZSw%2F77e63cd38c116fe0449a458f23c2dcf4%2Ftopline-docs-claystone__2_.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1600&h=900&s=1a1de170e030a14a441d034fb408c81d)\n\nDrop email volume 30% when you offer a self-service help center. It feels great to help before they hit send.\n\nYour Docs site looks and works great, without a lot of work. Build a helpful site in minutes, no code required.\n\nAnswer questions (even in your sleep) with help from your always-on support center.\n\nUse Beacon to bring Docs articles anywhere your customers might need them, on your site or in-app.\n\nLook ma, no code! Create and publish a help center with articles for every FAQ—no web resources required.\n\n![KnowledgeBase-Accordion-Build](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F4sK3RRCY8vC7M26STdU6oJ%2F1421380afc07c8c7cfbcf8f3b8e73f0e%2FKnowledgeBase-Accordion-Build.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1540&h=2054&s=09df95c0a933d3ad4f90215d42533092)\n\nColor and formatting options are available right out of the box, or customize to your heart’s content with CSS.\n\n![KnowledgeBase-Accordion-Brand](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2FlPLiGyR5sDHpJRBrU13Ed%2F5585ebc8ff96c8dd0a60d525f6bdf73b%2FKnowledgeBase-Accordion-Brand.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1540&h=2054&s=191fc74bb82e0a3302af6483243caeea)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:43.947629Z",
+      "section_path": "Go on, help yourself > Fewer emails for the win > No website resources? No problem. > Beautiful and branded",
+      "chunk_index": 0,
+      "token_count": 401,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_27152f51f6d6",
+      "source_type": "developer_portal",
+      "url": "https://www.helpscout.com/knowledge-base",
+      "domain": "www.helpscout.com",
+      "page_title": "Simple Help Desk Knowledge Base Software by Help Scout",
+      "content": "Use AI to expand fragmented thoughts, fix wordiness, translate text into over a dozen languages, or adjust your tone of voice.\n\n[Learn more about AI](https://www.helpscout.com/ai-features/)\n\n![KnowledgeBase-Accordion-AI](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F6Mn5JrChywCp55GUDVkOPl%2F89c9cfa5d59faa9e734214032174c481%2FKnowledgeBase-Accordion-AI.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1540&h=2054&s=38577426ea1721f697144416480647de)\n\nMake your help center public, restrict visitors, or authorize specific users via our API.\n\n![KnowledgeBase-Accordion-Access](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F4k9bvfgPZAjTAEeveMsKm3%2F2bca83dbf2160d71cad3a6cddafd041c%2FKnowledgeBase-Accordion-Access.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1540&h=2054&s=dfea877b9aaee06e6be00ab6a011d530)\n\n![KnowledgeBase-Accordion-Build](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F4sK3RRCY8vC7M26STdU6oJ%2F1421380afc07c8c7cfbcf8f3b8e73f0e%2FKnowledgeBase-Accordion-Build.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1540&h=2054&s=09df95c0a933d3ad4f90215d42533092)\n\n![KnowledgeBase-Accordion-Brand](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2FlPLiGyR5sDHpJRBrU13Ed%2F5585ebc8ff96c8dd0a60d525f6bdf73b%2FKnowledgeBase-Accordion-Brand.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1540&h=2054&s=191fc74bb82e0a3302af6483243caeea)\n\n![KnowledgeBase-Accordion-AI](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F6Mn5JrChywCp55GUDVkOPl%2F89c9cfa5d59faa9e734214032174c481%2FKnowledgeBase-Accordion-AI.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1540&h=2054&s=38577426ea1721f697144416480647de)\n\n![KnowledgeBase-Accordion-Access](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F4k9bvfgPZAjTAEeveMsKm3%2F2bca83dbf2160d71cad3a6cddafd041c%2FKnowledgeBase-Accordion-Access.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1540&h=2054&s=dfea877b9aaee06e6be00ab6a011d530)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:43.947684Z",
+      "section_path": "Go on, help yourself > Fewer emails for the win > No website resources? No problem. > Limit access (or don’t!)",
+      "chunk_index": 1,
+      "token_count": 564,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_58c0266813d7",
+      "source_type": "developer_portal",
+      "url": "https://www.helpscout.com/knowledge-base",
+      "domain": "www.helpscout.com",
+      "page_title": "Simple Help Desk Knowledge Base Software by Help Scout",
+      "content": "[**Surface answers instantly** \\\\\n\\\\\nMake your help content searchable across your site or use it to power an AI agent.\\\\\n\\\\\nLearn more\\\\\n\\\\\n![KnowledgeBase-Bento-AI](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F2aT8uBTNFhvaYtBOPFItWp%2F0518d2488b48d52dde7fb80999bc4a28%2FKnowledgeBase-Bento-AI.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1052&h=584&s=9ee9a036564ce95ba287ad5f1974dc1f)](https://www.helpscout.com/self-service/)\n\n[**The ultimate conversation starter** \\\\\n\\\\\nBe extra helpful by including Docs articles in your conversation replies.\\\\\n\\\\\nLearn more\\\\\n\\\\\n![KnowledgeBase-Bento-Docs](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F798VR9tIR1bgjaCFZRikz3%2F90728572c913b6596d0ee7474f6a8b69%2FKnowledgeBase-Bento-Docs.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1048&h=1177&s=0e436c9a577627ccc57b5dc82a71cd44)](https://www.helpscout.com/inbox/)\n\nThe Docs Report shows you how many customers are reaching out, everything they’re searching for, and even the info they can’t find.\n\n- ###### Visitor numbers\n\n\nUnique sessions tell you every time a visitor hits your Docs in 24 hours.\n\n- ###### Trending topics\n\n\nUse the most-viewed articles to see what your customers are reading.\n\n- ###### Content gaps\n\n\nFailed searches show what your customers are looking for, but can’t find.\n\n- ###### Article ratings\n\n\nSee a happy, neutral, or sad face to check up on how your docs are doing.\n\n\n[Learn more about reports](https://www.helpscout.com/analytics/)\n\n[![KnowledgeBase-Reports](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F1myhOFLHKRDqjH9XtgwevQ%2F85d43f491f9902cbf9f2c202c93a26d9%2FKnowledgeBase-Reports.jpg?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1540&h=2054&s=45da565faf78c5ff8b8ad30d412617d7)](https://www.helpscout.com/analytics/)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:43.947735Z",
+      "section_path": "Go on, help yourself > Who knew your help docs could go so far? > Heavy-duty data without the heavy lifting.",
+      "chunk_index": 2,
+      "token_count": 487,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_5a308378382a",
+      "source_type": "developer_portal",
+      "url": "https://www.helpscout.com/knowledge-base",
+      "domain": "www.helpscout.com",
+      "page_title": "Simple Help Desk Knowledge Base Software by Help Scout",
+      "content": "![Video Thumbnail](https://embed-ssl.wistia.com/deliveries/82de267f4deeb487d08f39581f2169134aacc933.webp?image_crop_resized=1920x1080)\n\nClick for sound\n\n![KnowledgeBase-Gallery-Poster](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F5jk3N2OB07T3aJg3rhNmvU%2Fbd178a1a6757fb3f28e01d6d50a28dee%2FKnowledge_Base_Feature-poster.png?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=1600&h=900&s=5d853d2246a5cb44ecd9f46429750da9)\n\n![](https://hs-marketing.imgix.net/images/components/lp/TestimonialBlock/TestimonialBlockVanity--bg.png?ixlib=gatsbyHook-2.1.3&fit=min&auto=format%2Ccompress&placeholder=dominantColor&w=1600&h=602)\n\n> Over the last two years, with improvements to our Beacon and our Docs, our FAQ visits have increased by 122%, while our email volume has actually decreased by 58%!\n\nHelp Scout is the all-in-one customer communication platform that makes your life easier and brings every conversation to you.\n\n[Explore the Platform](https://www.helpscout.com/platform/)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:43.947761Z",
+      "section_path": "Go on, help yourself > You’re doing a lot. Let us help you with that.",
+      "chunk_index": 3,
+      "token_count": 258,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_781c18cda016",
+      "source_type": "developer_portal",
+      "url": "https://www.helpscout.com/knowledge-base",
+      "domain": "www.helpscout.com",
+      "page_title": "Simple Help Desk Knowledge Base Software by Help Scout",
+      "content": "Learn the platform in less than an hour.\n\nBecome a _power user_ in less than a day.\n\n[Start for Free](https://secure.helpscout.net/members/register/58/) [Book a Demo](https://www.helpscout.com/lp/get-a-demo/)\n\n![Video Thumbnail](https://embed-ssl.wistia.com/deliveries/63c5a062a338f4caa6e60e60b6607df0e573ae14.webp?image_crop_resized=640x300)\n\nClick for sound\n\n![](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F5OKYhkbITwFnraFxrpFazX%2Fb9b19130da1c60ce3d95dcf73e5870b7%2FDefaultPrefooter--graphic-avatar-left.png?ixlib=js-3.8.0&w=176&h=176&q=75&s=f1a2206422f72204950210e507ae4000)\n\n![](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F2bWW3wrtGFFx9TrMMkpscj%2F865aebc32e37505a24b87c8dfb73ee0f%2FDefaultPrefooter--graphic-avatar-right.png?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=176&h=176&s=25e2476677a7a39a23e9d48ee0e6f998)\n\n![](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F6BGqwB3ZROlXwi1V7gIFNs%2Fa2019be36e01f5f534b0a75826e5da47%2FDefaultPrefooter--graphic--title.svg?ixlib=js-3.8.0&w=125&q=75&format=svg&s=88acbb61a72f9384ee9a0ffc8b18a265)![](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F5D0Ss43czRTZNPXsdbyicd%2Fbc133fcc82709f3733dcd385274451a1%2Fprefooter--convo-tags.png?ixlib=js-3.8.0&w=246&h=127&q=75&s=e3f9211be5eb8f1770a3da470f04cd74)\n\n![](data:image/svg+xml;charset=utf-8,%3Csvg%20height='36'%20width='100'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%3E%3C/svg%3E)\n\n![Avatars of members of our Sales Team](https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F4yw5Ibs8zDufWIyoEaXXLp%2F155d53abce317ae977e49f85ac645b0a%2FFixedCtaBar--avatars.png?ixlib=gatsbySourceUrl-2.1.3&auto=format%2C%20compress&q=75&w=100&h=36&s=73ed4fe96501c91fd2ac20177e1c348c)\n\nWe’d love to show you the magic of Help Scout.\n\nBook a DemoBook a Demo\n\nWe use cookies\n\nBy clicking “Accept all”, you agree to the storing of cookies on your device for functional, analytics, and advertising purposes.\n\nAccept allMore choices\n\n[Powered by Transcend](https://transcend.io/ \"Powered by Transcend\")\n\n[See our privacy policy](https://www.helpscout.com/company/legal/privacy/ \"Visit our privacy policy\")\n\nSwitch language",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:43.947817Z",
+      "section_path": "Go on, help yourself > Start for Free",
+      "chunk_index": 4,
+      "token_count": 589,
+      "quality_score": 0.36
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Help Scout is a customer support platform that helps teams manage customer conversations.",
+      "evidence_ids": [
+        "ev_14c1ec24438b"
+      ]
+    },
+    "category": {
+      "value": "Support and Helpdesk",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "OAuth2",
+      "evidence_ids": [
+        "ev_2197dc5134aa",
+        "ev_2d54aa8fb485"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_ca9a923d0793",
+        "ev_3b082899fba7"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API, webhooks",
+      "evidence_ids": [
+        "ev_14c1ec24438b",
+        "ev_2197dc5134aa"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_14c1ec24438b"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_14c1ec24438b"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_14c1ec24438b"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_14c1ec24438b"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.75,
+    "fields_checked": 8,
+    "fields_supported": 6,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.75,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.75 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "app": {
+    "id": 92,
+    "name": "Otter AI",
+    "website": "help.otter.ai",
+    "category_hint": "AI Research and Media"
+  },
+  "documentation_map": {
+    "app_name": "Otter AI",
+    "official_domain": "help.otter.ai",
+    "homepage": {
+      "url": "https://help.otter.ai",
+      "title": "Otter AI",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": null,
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": null,
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": null,
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": null,
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": null,
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "Otter AI",
+      "official_domain": "help.otter.ai",
+      "items": [
+        {
+          "url": "https://help.otter.ai",
+          "page_type": "homepage",
+          "title": "Otter AI",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 7,
+        "urls_discovered": 1,
+        "official_urls": 1,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 1
+      }
+    },
+    "stats": {
+      "queries": 7,
+      "urls_discovered": 1,
+      "official_urls": 1,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 1
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_9e6666523c14",
+      "source_type": "official_docs",
+      "url": "https://help.otter.ai",
+      "domain": "help.otter.ai",
+      "page_title": "Help Center",
+      "content": "Help Center\nCategories\n- Getting started New to Otter? Here are the basics to get started with Otter.\n- Using Otter From recording to creating groups, learn how Otter works from top to bottom.\n- Meeting settings & recordings Learn about managing your settings and features for your online meetings.\n- Otter Enterprise Learn how to use and manage Otter Enterprise features.\n- Otter Workspaces Learn how to manage your team in Otter.\n- Integrations Connect, simplify, and automate. Discover the power of apps.\n- Account settings & billing Adjust your settings and manage your billing in Otter.\n- Announcements\nTips & shortcuts\nOtter Chat & Quick Search\n      \n        Press ⌘/Ctrl + K to open the search bar to ask Otter Chat or search for conversations.\n      \n    Manage Otter Notetaker Settings\n      All Notetaker settings (e.g., auto-share, auto-join) can be managed in Account Settings > Meetings.\n      \n    Record without headphones\n      Download our Desktop app to record meetings without headphones.\n      \n    Promoted articles\n- What is Otter?\n- Otter.ai features\n- Otter Quick Start Guide\n- Otter Recording Best Practices: Pause, Resume and Upload\n- Custom Meeting Type Templates\n- Otter AI Chat Overview\n- Using Otter Chat during a live meeting\n- I have an issue with one of my conversations\n- Troubleshoot audio recording problems\n- Conversation Page Overview 🆕\n- Fix problems importing files to Otter\n- Set up Otter Notetaker to join your Zoom meeting\n- Automatically add Otter Notetaker to your meetings\n- Manage your Otter Notetaker settings\n- Stop Otter Notetaker from automatically joining your meetings\n- 🚀 Otter.ai Enterprise Onboarding Guide\n- Enterprise Admin Controls Overview\n- Otter HubSpot for Enterprise\n- Otter Salesforce for Enterprise\n- HIPAA | Otter.ai\n- Workspace Overview\n- Otter Workspace Admin Guide\n- Invite members to join your Workspace\n- Managing your Workspace trial members\n- Understanding how seats (licenses) work\n- Zapier <> Otter.ai Integration\n- Connect Salesforce with Otter.ai\n- Connect Slack to Otter.ai\n- Connect HubSpot with Otter.ai\n- My paid subscription is not showing\n- Contact Otter.ai Support\n- Otter transcript missing audio when using a Chrome browser",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:14:51.279824Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 552,
+      "quality_score": 0.46
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Otter AI is a transcription service that records and transcribes meetings.",
+      "evidence_ids": [
+        "ev_9e6666523c14"
+      ]
+    },
+    "category": {
+      "value": "AI Research and Media",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_9e6666523c14"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_9e6666523c14"
+      ]
+    },
+    "api_surface": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_9e6666523c14"
+      ]
+    },
+    "api_breadth": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_9e6666523c14"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_9e6666523c14"
+      ]
+    },
+    "buildability": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_9e6666523c14"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_9e6666523c14"
+      ]
+    }
+  },
+  "validation": {
+    "status": "INSUFFICIENT_EVIDENCE",
+    "score": 0.25,
+    "fields_checked": 8,
+    "fields_supported": 2,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "auth_methods",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'auth_methods' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "api_surface",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_surface' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "api_breadth",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_breadth' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "buildability",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'buildability' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": {
+    "verified_fields": [],
+    "corrections": {},
+    "screenshots": [],
+    "notes": ""
+  },
+  "pipeline_confidence": 0.25,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.25 below 0.90 threshold",
+      "Auth methods missing or UNKNOWN",
+      "Insufficient evidence (1 pieces, minimum 3)"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

@@ -17,40 +17,45 @@ from models.result import ResearchResult
 
 
 def _extract_flat_row(result: ResearchResult) -> dict:
-    """Flatten a ResearchResult into a row for the DataFrame."""
-    ext = result.extraction
+    """Flatten a ResearchResult into a row for the DataFrame.
+
+    Uses effective_value() so human overrides are reflected in charts and CSV.
+    Analytics accuracy measurement (compute_qa_metrics) reads overrides directly.
+    """
     val = result.validation
-    bv = result.browser_verification
+
+    # Fall back to validation.score for old cached data without pipeline_confidence
+    conf = result.pipeline_confidence
+    if conf == 0.0 and val:
+        conf = val.score
 
     row = {
         "name": result.app.name,
         "website": result.app.website,
         "category_hint": result.app.category_hint or "",
-        "confidence": result.confidence_score,
+        "confidence": conf,
         "validation_status": val.status if val else "INCOMPLETE",
         "evidence_count": len(result.evidence),
     }
 
-    if ext:
-        row["description"] = str(ext.description.value)
-        row["category"] = str(ext.category.value)
-        row["auth_methods"] = str(ext.auth_methods.value)
-        row["self_serve"] = str(ext.self_serve.value)
-        row["api_surface"] = str(ext.api_surface.value)
-        row["api_breadth"] = str(ext.api_breadth.value)
-        row["mcp"] = str(ext.mcp.value)
-        row["buildability"] = str(ext.buildability.value)
-        row["blocker"] = str(ext.blocker.value)
-    else:
-        for col in ["description", "category", "auth_methods", "self_serve",
-                     "api_surface", "api_breadth", "mcp", "buildability", "blocker"]:
-            row[col] = "INCOMPLETE"
+    FIELD_NAMES = [
+        "description",
+        "category",
+        "auth_methods",
+        "self_serve",
+        "api_surface",
+        "api_breadth",
+        "mcp",
+        "buildability",
+        "blocker",
+    ]
 
-    # Apply browser corrections if available
-    if bv and bv.corrections:
-        for field, correction in bv.corrections.items():
-            if field in row:
-                row[field] = correction
+    if result.extraction:
+        for field in FIELD_NAMES:
+            row[field] = str(result.effective_value(field) or "UNKNOWN")
+    else:
+        for field in FIELD_NAMES:
+            row[field] = "INCOMPLETE"
 
     return row
 
@@ -110,7 +115,9 @@ def generate_charts(df: pd.DataFrame) -> dict[str, str]:
     # 2. Self-Serve vs Gated
     def classify_access(val):
         val = str(val).lower()
-        if any(k in val for k in ["self-serve", "self serve", "free", "trial", "freemium"]):
+        if any(
+            k in val for k in ["self-serve", "self serve", "free", "trial", "freemium"]
+        ):
             return "Self-Serve"
         if any(k in val for k in ["gated", "contact sales", "enterprise", "partner"]):
             return "Gated"
@@ -136,7 +143,12 @@ def generate_charts(df: pd.DataFrame) -> dict[str, str]:
         labels={"x": "Buildability", "y": "Count"},
         title="Toolkit Buildability Assessment",
         color=build_counts.index,
-        color_discrete_map={"HIGH": "#00d4aa", "MEDIUM": "#ffd93d", "LOW": "#ff6b6b", "BLOCKED": "#c0392b"},
+        color_discrete_map={
+            "HIGH": "#00d4aa",
+            "MEDIUM": "#ffd93d",
+            "LOW": "#ff6b6b",
+            "BLOCKED": "#c0392b",
+        },
     )
     fig_build.update_layout(showlegend=False, template="plotly_dark")
     charts["buildability"] = fig_build.to_json()
@@ -155,7 +167,17 @@ def generate_charts(df: pd.DataFrame) -> dict[str, str]:
     charts["api_breadth"] = fig_breadth.to_json()
 
     # 5. MCP Readiness
-    mcp_counts = df["mcp"].apply(lambda x: x if x in ("Official MCP", "Community MCP", "No known MCP") else "Unknown").value_counts()
+    mcp_counts = (
+        df["mcp"]
+        .apply(
+            lambda x: (
+                x
+                if x in ("Official MCP", "Community MCP", "No known MCP")
+                else "Unknown"
+            )
+        )
+        .value_counts()
+    )
     fig_mcp = px.pie(
         names=mcp_counts.index,
         values=mcp_counts.values,
@@ -167,7 +189,8 @@ def generate_charts(df: pd.DataFrame) -> dict[str, str]:
 
     # 6. Confidence Score Distribution
     fig_conf = px.histogram(
-        df, x="confidence",
+        df,
+        x="confidence",
         nbins=20,
         title="Confidence Score Distribution",
         labels={"confidence": "Confidence Score", "count": "Apps"},
@@ -220,7 +243,7 @@ def compute_summary_stats(df: pd.DataFrame) -> dict:
     return {
         "total_apps": total,
         "complete": complete,
-        "completion_rate": f"{complete/max(total,1)*100:.0f}%",
+        "completion_rate": f"{complete / max(total, 1) * 100:.0f}%",
         "high_confidence": high_conf,
         "avg_evidence_per_app": f"{avg_evidence:.1f}",
         "top_auth": auth_counts.most_common(3),
@@ -228,6 +251,67 @@ def compute_summary_stats(df: pd.DataFrame) -> dict:
         "gated_count": access_counts.get("Gated", 0),
         "high_buildability": len(df[df["buildability"] == "HIGH"]),
         "blocked_count": len(df[df["buildability"] == "BLOCKED"]),
-        "mcp_official": len(df[df["mcp"].str.contains("Official", case=False, na=False)]),
-        "mcp_community": len(df[df["mcp"].str.contains("Community", case=False, na=False)]),
+        "mcp_official": len(
+            df[df["mcp"].str.contains("Official", case=False, na=False)]
+        ),
+        "mcp_community": len(
+            df[df["mcp"].str.contains("Community", case=False, na=False)]
+        ),
+        "total_evidence": int(df["evidence_count"].sum()),
+    }
+
+
+def compute_qa_metrics(results: list[ResearchResult]) -> dict:
+    """Compute human review pipeline metrics from raw results.
+
+    Uses ResearchResult.final_status and human_review fields directly.
+    Does NOT use effective_value() — analytics distinguishes pipeline
+    predictions from human corrections.
+    """
+    total = len(results)
+    total_auto = sum(1 for r in results if r.final_status == "AUTO_ACCEPTED")
+    total_flagged = sum(1 for r in results if r.human_review.required)
+    total_reviewed = sum(1 for r in results if r.human_review.status == "completed")
+    total_modified = sum(1 for r in results if r.human_review.overrides)
+    total_confirmed = total_reviewed - total_modified
+    total_failed = sum(1 for r in results if r.final_status == "FAILED")
+
+    # Pipeline accuracy on the reviewed sample only
+    sample_accuracy = (
+        (total_confirmed / max(total_reviewed, 1)) if total_reviewed > 0 else None
+    )
+
+    review_rate = total_flagged / max(total, 1) * 100
+    correction_rate = total_modified / max(total, 1) * 100
+
+    # Build mistakes table: apps where human overrode pipeline
+    mistakes = []
+    for r in results:
+        if not r.human_review.overrides:
+            continue
+        for field_name, override in r.human_review.overrides.items():
+            mistakes.append(
+                {
+                    "app": r.app.name,
+                    "field": field_name,
+                    "agent": override.get("old", "?"),
+                    "human": override.get("new", "?"),
+                    "reason": override.get("reason", ""),
+                }
+            )
+
+    return {
+        "total_auto": total_auto,
+        "total_flagged": total_flagged,
+        "total_reviewed": total_reviewed,
+        "total_modified": total_modified,
+        "total_confirmed": total_confirmed,
+        "total_failed": total_failed,
+        "review_rate": f"{review_rate:.0f}%",
+        "correction_rate": f"{correction_rate:.0f}%",
+        "sample_accuracy": sample_accuracy,
+        "sample_accuracy_pct": (
+            f"{sample_accuracy * 100:.0f}%" if sample_accuracy is not None else "N/A"
+        ),
+        "mistakes": mistakes,
     }

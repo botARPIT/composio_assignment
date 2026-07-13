@@ -1,0 +1,725 @@
+{
+  "app": {
+    "id": 12,
+    "name": "Intercom",
+    "website": "intercom.com",
+    "category_hint": "Support and Helpdesk"
+  },
+  "documentation_map": {
+    "app_name": "Intercom",
+    "official_domain": "intercom.com",
+    "homepage": {
+      "url": "https://intercom.com",
+      "title": "Intercom",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://www.intercom.com/auth",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://developers.intercom.com",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://www.intercom.com/pricing",
+        "title": "Pricing",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://fin.ai/pricing",
+          "title": "Fin Pricing",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": false,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": null,
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://developers.intercom.com",
+        "title": "Developer Docs & API Reference",
+        "confidence": 0.9,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": {
+      "url": "https://intercom.com/llms.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "Intercom",
+      "official_domain": "intercom.com",
+      "items": [
+        {
+          "url": "https://intercom.com",
+          "page_type": "homepage",
+          "title": "Intercom",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://www.intercom.com/pricing",
+          "page_type": "pricing",
+          "title": "Pricing",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://fin.ai/pricing",
+          "page_type": "pricing",
+          "title": "Fin Pricing",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://developers.intercom.com",
+          "page_type": "developer_portal",
+          "title": "Developer Docs & API Reference",
+          "confidence": 0.9,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://www.intercom.com/auth",
+          "page_type": "authentication",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.intercom.com",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 2,
+        "urls_discovered": 6,
+        "official_urls": 5,
+        "non_official_filtered": 1,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 1,
+        "canonical_selected": 5
+      }
+    },
+    "stats": {
+      "queries": 2,
+      "urls_discovered": 6,
+      "official_urls": 5,
+      "non_official_filtered": 1,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 1,
+      "canonical_selected": 5
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_999409c92184",
+      "source_type": "llms_txt",
+      "url": "https://intercom.com/llms.txt",
+      "domain": "intercom.com",
+      "page_title": "llms.txt index",
+      "content": "\\- \\[Learning Center\\](https://www.intercom.com/learning-center): Index of articles\n\\- \\[AI Customer Service Companies\\](https://www.intercom.com/learning-center/ai-customer-service-companies)\n\\- \\[Generative AI in Customer Service\\](https://www.intercom.com/learning-center/generative-ai-in-customer-service)\n\\- \\[Customer Service Chat\\](https://www.intercom.com/learning-center/customer-service-chat)\n\\- \\[Customer Service Ticketing System\\](https://www.intercom.com/learning-center/customer-service-ticketing-system)\n\\- \\[Customer-Centric: Definition\\](https://www.intercom.com/learning-center/customer-centric-definition)\n\n\\-\\-\\-\n\n\\## Research & Reports\n\n\\- \\[2026 Customer Service Transformation Report\\](https://www.intercom.com/customer-transformation-report): Annual industry research\n\n\\-\\-\\-\n\n\\## Programs\n\n\\### Early-Stage / Startup\n\\- \\[Early Stage Program\\](https://www.intercom.com/early-stage): Discounted access for startups\n\\- \\[Y Combinator Partnership\\](https://www.intercom.com/early-stage/ycombinator)\n\\- \\[Techstars Partnership\\](https://www.intercom.com/early-stage/techstars)\n\n\\### Partners & Ecosystem\n\\- \\[App Store\\](https://www.intercom.com/app-store): Integrations directory\n\\- \\[Technology Partner Program\\](https://www.intercom.com/technology-partner-program)\n\\- \\[Solution Partner Program\\](https://www.intercom.com/solution-partner-program)\n\n\\-\\-\\-\n\n\\## Trust, Security & Compliance\n\\*(Canonical for all security and compliance references)\\*\n\n\\- \\[Trust Portal\\](https://trust.intercom.com/)\n\\- \\[Security Overview\\](https://trust.intercom.com/security)\n\\- \\[Compliance Documentation\\](https://trust.intercom.com/compliance)\n\\- \\[Privacy & Data Protection\\](https://trust.intercom.com/privacy)\n\n\\-\\-\\-\n\n\\## Company\n\n\\- \\[About Intercom\\](https://www.intercom.com/about)\n\\- \\[Careers\\](https://fin.ai/careers)\n\\- \\[Believe (values & culture)\\](https://www.intercom.com/believe)\n\\- \\[Why Choose Intercom\\](https://www.intercom.com/why-choose-intercom)\n\\- \\[Product Changes / Changelog\\](https://www.intercom.com/changes/en)\n\n\\-\\-\\-\n\n\\## Related Properties\n\nIntercom (this site) is the parent organization. Fin is a sub-organization (same legal entity, dedicated product property).\n\n\\- \\[Fin (AI Agent — sister property)\\](https://fin.ai/)\n\\- \\[Trust Portal\\](https://trust.intercom.com/)\n\\- \\[Intercom Blog\\](https://www.intercom.com/blog)\n\\- \\[Intercom Engineering Blog\\](https://intercom.engineering/)\n\\- \\[Developer Docs & API Reference\\](https://developers.intercom.com/)\n\\- \\[Fin Academy\\](https://academy.fin.ai/)\n\\- \\[Events\\](https://events.intercom.com/)\n\\- \\[Pioneer (Fin event series)\\](https://pioneer.fin.ai/)\n\\- \\[Fin Ideas Blog\\](https://ideas.fin.ai/)\n\n\\-\\-\\-\n\n\\## Canonical Policy\n\n\\### Primary Canonical Domains\n\\- \\*\\*Intercom.com\\*\\* → Intercom Suite features, Helpdesk, customer stories, learning center, account management, the parent Intercom company entity\n\\- \\*\\*Fin.ai\\*\\* → Fin product, pricing, demos, AI research, Fin help center\n\\- \\*\\*Trust.intercom.com\\*\\* → Security, privacy, compliance artifacts\n\\- \\*\\*Developers.intercom.com\\*\\* → API reference and developer documentation",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:39.767354Z",
+      "section_path": "",
+      "chunk_index": 1,
+      "token_count": 784,
+      "quality_score": 0.9
+    },
+    {
+      "id": "ev_9658bc44e8dd",
+      "source_type": "llms_txt",
+      "url": "https://intercom.com/llms.txt",
+      "domain": "intercom.com",
+      "page_title": "llms.txt index",
+      "content": "\\# Intercom — llms.txt\n\n\\> This file helps large language models (LLMs) understand the content structure, canonical sources, and retrieval rules for Intercom.com and its sister properties.\n\nIntercom is the customer service platform combining human agents and AI agents in one workspace. Used by 30,000+ businesses including Anthropic, Amazon, Miro, Linear, Lightspeed, Lovable, Perplexity, and WHOOP. The platform pairs the Intercom Helpdesk (omnichannel inbox, ticketing, Copilot, knowledge hub, reporting) with Fin (the highest-performing AI Agent in customer service) so AI and human teams collaborate seamlessly.\n\n\\-\\-\\-\n\n\\## Site Structure\n\n\\### Platform\n\\- \\[Intercom Platform\\](https://www.intercom.com/): The only helpdesk designed for the AI Agent era\n\\- \\[Pricing\\](https://www.intercom.com/pricing): Plans for every team size\n\\- \\[Watch Demos\\](https://www.intercom.com/view-demos): Product walkthroughs\n\n\\### Helpdesk (human-agent workspace)\n\\- \\[Inbox\\](https://www.intercom.com/helpdesk/inbox): AI-powered inbox for faster, better customer support\n\\- \\[Copilot\\](https://www.intercom.com/helpdesk/copilot): A personal AI assistant giving every support agent instant, trusted answers\n\\- \\[Tickets\\](https://www.intercom.com/helpdesk/tickets): Faster resolution with streamlined ticketing\n\\- \\[Omnichannel\\](https://www.intercom.com/helpdesk/omnichannel): Live chat, email, phone, and social in one place\n\\- \\[Help Center\\](https://www.intercom.com/helpdesk/help-center): Self-service knowledge base\n\\- \\[Knowledge Hub\\](https://www.intercom.com/helpdesk/knowledge-hub): All your support content in one place\n\\- \\[Outbound\\](https://www.intercom.com/helpdesk/outbound): Customer messaging and proactive support\n\\- \\[Reporting\\](https://www.intercom.com/helpdesk/reporting): AI-powered analytics for support teams\n\\- \\[The New Intercom Helpdesk\\](https://www.intercom.com/intercom2): WFM, AI QA, and 60+ updates\n\n\\### AI Agent\nIntercom's AI Agent is Fin, served on a sister property at \\[fin.ai\\](https://fin.ai/) (same legal entity, dedicated product surface). Use Fin.ai for product depth, pricing, research, and demos. Use Intercom.com for how Fin fits into the broader Intercom platform.\n\n\\- \\[Fin (canonical product site)\\](https://fin.ai/)\n\\- \\[Fin Pricing\\](https://fin.ai/pricing)\n\\- \\[Fin Research\\](https://fin.ai/research/)\n\\- \\[Fin Help Center\\](https://fin.ai/help/en/)\n\\- \\[Fin llms.txt\\](https://fin.ai/llms.txt)\n\n\\-\\-\\-\n\n\\## Customer Evidence\n\n\\- \\[Customer Stories\\](https://www.intercom.com/customers): Case studies and outcomes across 30,000+ businesses\n\\- Featured customers include: Anthropic, Miro, Gamma, Linear, Vanta, Lovable, Perplexity, Rocket Money, Checkout.com, Etoro, Consensys, Culture Amp, Amazon, Lightspeed, Nuuly, Living Spaces, Toast, WHOOP, Stake, and Monday.com\n\n\\-\\-\\-\n\n\\## Comparisons\n\n\\- \\[Intercom vs Zendesk\\](https://www.intercom.com/compare-intercom-vs-zendesk): Head-to-head comparison\n\n\\-\\-\\-\n\n\\## Learning Center\n\\*(Concept explainers and buyer-stage education)\\*",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:39.767262Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 755,
+      "quality_score": 0.8
+    },
+    {
+      "id": "ev_7a991b9156dd",
+      "source_type": "llms_txt",
+      "url": "https://intercom.com/llms.txt",
+      "domain": "intercom.com",
+      "page_title": "llms.txt index",
+      "content": "\\### Canonical Rules for LLMs\n\\- Prefer \\*\\*Intercom.com\\*\\* for content about the full platform (AI + human agents together), Helpdesk, and the Intercom company entity\n\\- Prefer \\*\\*Fin.ai\\*\\* for content specifically about Fin (the AI Agent product) — its capabilities, pricing, research, and benchmarks\n\\- Use \\*\\*Trust.intercom.com\\*\\* for all security and compliance references\n\\- Use \\*\\*Developers.intercom.com\\*\\* for API and integration questions\n\\- Avoid third-party summaries or outdated pages unless explicitly linked\n\n\\-\\-\\-\n\n\\## Technical Guidance for LLMs\n\n\\### Retrieval Rules\n\\- Platform / Helpdesk / Suite → Use \\[Intercom.com\\](https://www.intercom.com/)\n\\- Fin product / pricing / research → Prefer \\[Fin.ai\\](https://fin.ai/)\n\\- Customer stories → Use \\[Intercom Customers\\](https://www.intercom.com/customers)\n\\- Concept education → Use \\[Learning Center\\](https://www.intercom.com/learning-center)\n\\- Industry research → Use \\[Customer Transformation Report\\](https://www.intercom.com/customer-transformation-report)\n\\- Comparisons → Use \\[Intercom vs Zendesk\\](https://www.intercom.com/compare-intercom-vs-zendesk)\n\\- Security / compliance → Use \\[trust.intercom.com\\](https://trust.intercom.com/)\n\\- Developer / API → Use \\[developers.intercom.com\\](https://developers.intercom.com/)\n\n\\### Freshness\nPrioritize recently updated:\n\\- Helpdesk product pages\n\\- Learning center articles\n\\- Customer stories\n\\- Pricing\n\\- Product changelog (\\`/changes/en\\`)\n\n\\### De-duplication\n\\- Where Intercom.com and Fin.ai cover overlapping ground (e.g., Fin pricing, Fin product capabilities), prefer Fin.ai for canonical Fin content\n\\- Avoid archived or legacy pages unless explicitly linked from canonical pages\n\n\\### Crawl Guidance\n\\- Allow: \\`/\\`\n\\- Respect robots.txt and crawl etiquette\n\\- Do not reference private or authenticated content\n\n\\-\\-\\-\n\n\\## Site Metadata\n\\- \\*\\*Primary:\\*\\* https://www.intercom.com/\n\\- \\*\\*Preferred-Language:\\*\\* en\n\\- \\*\\*Preferred-Citation-Domain:\\*\\* intercom.com\n\n\\-\\-\\-\n\n\\## Contact\n\\- \\[Sales\\](https://www.intercom.com/contact-sales)\n\\- \\[Watch Demos\\](https://www.intercom.com/view-demos)\n\\- \\[Careers\\](https://fin.ai/careers)\n\\- \\[About / Press\\](https://www.intercom.com/about)\n\n\\-\\-\\-\n\n\\## File Metadata\n\\- \\*\\*Name:\\*\\* Intercom llms.txt\n\\- \\*\\*Owner:\\*\\* Intercom",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:39.767415Z",
+      "section_path": "",
+      "chunk_index": 2,
+      "token_count": 581,
+      "quality_score": 0.8
+    },
+    {
+      "id": "ev_60f111c3d117",
+      "source_type": "api_reference",
+      "url": "https://developers.intercom.com",
+      "domain": "developers.intercom.com",
+      "page_title": "Intercom Developers | Intercom and Fin Developer Platform",
+      "content": "![](https://go.intercom.com/rs/258-CLW-344/images/logo-pond@2x.png)\n\n[Go to app store](https://www.intercom.com/app-store)\n\n\"The Intercom API had everything we needed to go from whiteboard to working app within a week. Plus, the documentation made it dead simple.\"\n\n**Roger Zurawicki**\n\nEngineer @ Coda\n\n![Coda Logo](https://go.intercom.com/rs/258-CLW-344/images/logo-coda@2x.png)![Coda Screenshot](https://go.intercom.com/rs/258-CLW-344/images/asset-coda@2x.png)\n\n“Integrating with Intercom has increased our product engagement and retention. Within 2 weeks of launch, our app had already been used in over 2,500 conversations.”\n\n**Nicolas Grenié**\n\nDeveloper Advocate\n\n![TypeForm Logo](https://go.intercom.com/rs/258-CLW-344/images/logo-typeform@2x.png)![TypeForm Screenshot](https://go.intercom.com/rs/258-CLW-344/images/asset-typeform@2x.png)\n\n“Aircall signups through Intercom-referral have increased 5x since we launched our app, and it's already been adopted by hundreds of support and sales teams.”\n\n**Clement Bruneau**\n\nDirector of Business Development\n\n![Aircall Logo](https://go.intercom.com/rs/258-CLW-344/images/logo-aircall@2x.png)![Aircall Screenshot](https://go.intercom.com/rs/258-CLW-344/images/asset-aircall@2x.png)\n\nGuides for developers\n\n🎟️ Tickets + GitHub Issues\n\n[Build an integration](https://developers.intercom.com/docs/guides/tickets/build-a-ticketing-app/) using webhooks and the Tickets API to create a GitHub issue when a ticket is created in Intercom.\n\n📈 Reporting\n\n[Create your own reports](https://developers.intercom.com/docs/build-an-integration/learn-more/rest-apis/build-your-own-reports/) from conversation and teammates data using the Intercom API.\n\n✉️ Inbox apps for admins\n\nIn Intercom, admins are called teammates. [Build an Inbox app](https://developers.intercom.com/docs/build-an-integration/getting-started/build-an-app-for-your-inbox/) for a teammate to log data about a contact.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:40.489448Z",
+      "section_path": "Integrate with Intercom by building apps on the complete [AI customer service platform](https://www.intercom.com/). Create seamless customized experiences in the Intercom Help Desk and Messenger using our APIs and SDKS. > Join the brands who build   on Intercom",
+      "chunk_index": 1,
+      "token_count": 481,
+      "quality_score": 0.76
+    },
+    {
+      "id": "ev_ead8ff239510",
+      "source_type": "pricing_page",
+      "url": "https://www.intercom.com/pricing",
+      "domain": "www.intercom.com",
+      "page_title": "Intercom Pricing | Plans for every team size",
+      "content": "[Fin million dollar guarantee](https://fin.ai/guarantee)\n\nBilled annuallyBilled monthly\n\nOur Fin AI Agent + Intercom plans\n\nIncludes Fin AI Agent\n\nThe customer support plan for individuals, startups, and small businesses.\n\nFrom$0.99\n\nper Fin outcome\n\n​$​01234567890123456789​​\n\nper seat/mo\n\n[Start free trial](https://app.intercom.com/admins/sign_up?solution_id=28)\n\nKey features include\n\n- Fin Customer Agent for service, sales and ecommerce\n- Messenger\n- Shared inbox and ticketing system\n- Pre-built reports\n- Public help center\n\nView all features\n\nIncludes Fin AI Agent\n\nPowerful automation tools and AI features for growing support teams.\n\nFrom$0.99\n\nper Fin outcome\n\n​$​01234567890123456789​​\n\nper seat/mo\n\n[Start free trial](https://app.intercom.com/admins/sign_up?solution_id=29)\n\nGet a demo\n\nEvery Essential feature, plus\n\n- Multiple team Inboxes\n- Workflows automation builder\n- Round robin assignment\n- Private and multilingual Help Center\n- Includes 20 free Lite seats\n\nView all features\n\nIncludes Fin AI Agent\n\nCollaboration, security, and multibrand features for large support teams.\n\nFrom$0.99\n\nper Fin outcome\n\n​$​012345678901234567890123456789​​\n\nper seat/mo\n\n[Start free trial](https://app.intercom.com/admins/sign_up?solution_id=30)\n\nGet a demo\n\nEvery Advanced feature, plus\n\n- SSO & identity management\n- HIPAA support\n- Service level agreements (SLAs)\n- Multibrand Messenger / Help Center\n- Includes 50 free Lite seats\n\nView all features\n\nAll plans include free, unlimited live chat, support email, in-app chats, banners, and tooltips. Pay-as-you-go for email campaigns, SMS, WhatsApp, and Phone.\n\nView channel pricing\n\nAlready have a helpdesk?",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:40.908265Z",
+      "section_path": "Get Fin and Intercom for a single, fully integrated customer service platform > Essential > Expert",
+      "chunk_index": 0,
+      "token_count": 416,
+      "quality_score": 0.76
+    },
+    {
+      "id": "ev_e879ae85b7de",
+      "source_type": "api_reference",
+      "url": "https://developers.intercom.com",
+      "domain": "developers.intercom.com",
+      "page_title": "Intercom Developers | Intercom and Fin Developer Platform",
+      "content": "[Start building](https://developers.intercom.com/docs) [See App Store](https://www.intercom.com/app-store)\n\nOn Web, iOS, Android, and more\n\nMake sure the Messenger is available everywhere your customers are. Customize the UI, configure user interactions, or set up [push notifications](https://developers.intercom.com/installing-intercom/ios/push-notifications/).\n\n[Install now](https://developers.intercom.com/installing-intercom/)\n\nOffer an integration to Intercom's 25K+ customers\n\nBuild an app that helps solve business problems, from AI to reporting. Get started by setting up a free [development workspace](https://developers.intercom.com/docs/build-an-integration/getting-started/) to test and publish your app.\n\n[Sign up for free](https://app.intercom.com/admins/sign_up/developer)\n\nFor Inbox, Messenger, and accessing data\n\nBuild a solution just for your team on your main Intercom workspace. See what's possible with a [Messenger app](https://developers.intercom.com/docs/build-an-integration/getting-started/build-an-app-for-your-messenger/) tutorial or [Tickets](https://developers.intercom.com/docs/guides/tickets/create-a-ticket/) tutorial.\n\n[See how it works](https://developers.intercom.com/docs/build-an-integration/getting-started/build-an-app-for-your-messenger/)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:40.489364Z",
+      "section_path": "Integrate with Intercom by building apps on the complete [AI customer service platform](https://www.intercom.com/). Create seamless customized experiences in the Intercom Help Desk and Messenger using our APIs and SDKS. > Create a custom integration",
+      "chunk_index": 0,
+      "token_count": 320,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_9ef69702d9e4",
+      "source_type": "pricing_page",
+      "url": "https://www.intercom.com/pricing",
+      "domain": "www.intercom.com",
+      "page_title": "Intercom Pricing | Plans for every team size",
+      "content": "Use Fin with your current helpdesk including Salesforce and more.\n\nFrom$0.99\n\nper Fin outcome\n\nNo seats required\n\n[Start free trial](https://app.intercom.com/admins/sign_up?solution_id=31)\n\nGet a demo\n\nFeatures include\n\n- Set up in under an hour on your current helpdesk\n- Answers email, live chat, phone and more\n- Customizable tone & answer length\n- Takes action on external systems\n- Hands off to agents in preferred Inbox\n\nAll plans include free, unlimited live chat, support email, in-app chats, banners, and tooltips. Pay-as-you-go for email campaigns, SMS, WhatsApp, and Phone.\n\nView channel pricing\n\nIncluded in your free trial. Add or remove anytime.\n\n[**Pro** \\\\\n\\\\\nAI features for visibility and control across every conversation. Includes CX Score, Topics, Recommendations, Monitors, and Custom Scorecards.\\\\\n\\\\\n$99/mo\\\\\n\\\\\nIncludes analysis of 1,000 conversations/mo\\\\\n\\\\\nLearn more](https://www.intercom.com/help/en/articles/13868265-pro-add-on-pricing-and-features) [**Copilot** \\\\\n\\\\\nIncrease agent efficiency with a personal AI assistant in the inbox. Free to use in 10 Copilot and 10 AI Auto-translation conversations per agent/mo.\\\\\n\\\\\n$29per agent/mo\\\\\n\\\\\nUnlimited usage\\\\\n\\\\\nLearn more](https://www.intercom.com/help/en/articles/9121384-copilot-included-and-unlimited-usage) [**Proactive Support Plus** \\\\\n\\\\\nAdvanced in-app and outbound support features including Posts, Checklists, Product Tours, Surveys, and Series campaign builder.\\\\\n\\\\\n$99/mo\\\\\n\\\\\nIncludes 500 messages sent/mo\\\\\n\\\\\nLearn more](https://www.intercom.com/help/en/articles/9061648-proactive-support-plus-add-on)\n\n![](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fpricing-bg-texture.webp&w=3840&q=75&dpl=dpl_5oKDJKJtgQ7zN1jBJUVvj7hnJ7T1)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:40.908330Z",
+      "section_path": "Get Fin and Intercom for a single, fully integrated customer service platform > Add-ons",
+      "chunk_index": 1,
+      "token_count": 442,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_f832a5118db8",
+      "source_type": "pricing_page",
+      "url": "https://www.intercom.com/pricing",
+      "domain": "www.intercom.com",
+      "page_title": "Intercom Pricing | Plans for every team size",
+      "content": "Join 12,000+ growing startups on our Early Stage Program and enjoy big discounts on Fin and Intercom. Trusted by startups from Y Combinator, Techstars, and leading VC portfolios.\n\n[Learn more](https://www.intercom.com/early-stage)\n\n> “We’re building something big with an incredibly small team - just two people! AndFin helps us scale our support efficiently, handling 70% of our volumewhile also delivering a great customer experience.”\n\nClaire VoFounder of ChatPRD\n\n[**Find the right plan for your team** \\\\\nGet an estimated cost for Intercom’s AI-first customer service platform, based on your team size, expected Fin outcomes, and more.\\\\\nCalculate costs](https://www.intercom.com/pricing/calculator) [**See the ROI impact Fin could have on your business** \\\\\nEstimate how much time and money Fin could save your team, based on your current and future support volume.\\\\\nCalculate savings](https://fin.ai/roi-calculator)\n\n\\[solidcore\\]\n\nRobin\n\nSynthesia\n\n> “We’re saving hundreds of thousands of dollars with Fin today, and as we continue to open more studios, that’s projected to reach millions.”\n\nShane McCartyChief Digital Officer at \\[solidcore\\]\n\n> “The numbers speak for themselves. We’re seeing a 50% resolution rate with Fin, which is pretty amazing!”\n\nBen PeakDirector, Technical Support at Robin\n\n> “Since launching Fin AI Agent, our resolution time has gone from five days and five hours to four hours and 37 minutes, a 96% decrease.”\n\nConstantina SamaraVP of Customer Support at Synthesia\n\n> “We’re saving hundreds of thousands of dollars with Fin today, and as we continue to open more studios, that’s projected to reach millions.”\n\nShane McCartyChief Digital Officer at \\[solidcore\\]\n\n> “The numbers speak for themselves. We’re seeing a 50% resolution rate with Fin, which is pretty amazing!”\n\nBen PeakDirector, Technical Support at Robin\n\n> “Since launching Fin AI Agent, our resolution time has gone from five days and five hours to four hours and 37 minutes, a 96% decrease.”\n\nConstantina SamaraVP of Customer Support at Synthesia",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:40.908409Z",
+      "section_path": "Get Fin and Intercom for a single, fully integrated customer service platform > Thousands of businesses  have already seen transformational results",
+      "chunk_index": 2,
+      "token_count": 512,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_6e5fd0918728",
+      "source_type": "pricing_page",
+      "url": "https://www.intercom.com/pricing",
+      "domain": "www.intercom.com",
+      "page_title": "Intercom Pricing | Plans for every team size",
+      "content": "Intercom pricing has two components:\n\n- **Seats:** You pay per teammate based on your plan (Essential, Advanced, Expert)\n- **Usage:** You pay for what you use (e.g. Fin outcomes, messaging channels)\n\nAll plans include access to Intercom and Fin AI Agent. Want a tailored estimate? [Use the pricing calculator](https://www.intercom.com/pricing/calculator).\n\nFin is priced at **$0.99 per outcome**.\n\nAn outcome is counted when:\n\n- A customer confirms their issue is resolved, or\n- They don’t ask for more help after Fin responds, or\n- Fin completes a workflow (Procedure), including handoffs\n\nYou’re only charged once per conversation, even if multiple questions are answered.\n\nYes. Fin can be used with tools like Salesforce and others.\n\n**Pricing:**\n\n- $0.99 per outcome\n- Minimum monthly commitment applies (e.g. 50 outcomes)\n- No seat costs\n- No setup, integration, or platform fees\n\nIntercom offers three plans:\n\n- Essential\n- Advanced\n- Expert\n\nYour plan determines:\n\n- Seat price\n- Feature access\n- Included capabilities (e.g. Lite seats on higher tiers)\n\n**Full seat:** Paid. Required for teammates who interact with customers and use core features.\n\n**Lite seat:** Free (on Advanced/Expert). Limited access for internal collaboration.\n\nOnly Full seats can send messages or fully use features like outbound content.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:40.908476Z",
+      "section_path": "Get Fin and Intercom for a single, fully integrated customer service platform > Thousands of businesses  have already seen transformational results > \\#\\#\\# What is a seat (Full vs Lite)?",
+      "chunk_index": 3,
+      "token_count": 330,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_a182aab6b951",
+      "source_type": "pricing_page",
+      "url": "https://www.intercom.com/pricing",
+      "domain": "www.intercom.com",
+      "page_title": "Intercom Pricing | Plans for every team size",
+      "content": "Yes. Beyond seats, pricing is usage-based for certain features:\n\n- **Fin AI Agent:** $0.99 per outcome\n- **WhatsApp:** Charged per conversation (varies by volume/direction)\n- **SMS:** Charged per message (varies by region)\n- **Email campaigns:** Charged per bulk email sent\n- **Phone:** Usage-based (varies)\n\nInbound support (e.g. responding to customer emails) is included.\n\nAn optional add-on for outbound engagement.\n\n- **$99/month includes 500 messages**\n- Covers: Product Tours, Surveys, In-app messages, Mobile Push, Carousels\n- Additional messages are charged per unit\n\nCopilot is an optional add-on at **$29 per agent/month billed annually**, or $35 per agent/month billed monthly, for unlimited usage.\n\nCopilot is a personal AI assistant in the Inbox that helps your team resolve conversations faster. Every agent also gets 10 Copilot and 10 AI Auto-translation conversations free each month.\n\nPro is an optional add-on at **$99/month**, including analysis of 1,000 conversations/month.\n\nIt adds AI features for visibility and control across every conversation: CX Score, Topics, Recommendations, Monitors, and Custom Scorecards.\n\nNo.\n\n- Monthly or annual self-serve plans are available (Essential, Advanced)\n- Contracts are optional and required for:\n  - Enterprise needs\n  - Premier Support / onboarding\n  - Custom terms",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:40.908516Z",
+      "section_path": "Get Fin and Intercom for a single, fully integrated customer service platform > Thousands of businesses  have already seen transformational results > \\#\\#\\# Do I need a contract?",
+      "chunk_index": 4,
+      "token_count": 332,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_35aeb9f8b32e",
+      "source_type": "pricing_page",
+      "url": "https://www.intercom.com/pricing",
+      "domain": "www.intercom.com",
+      "page_title": "Intercom Pricing | Plans for every team size",
+      "content": "- 1 Full seat minimum\n- No required platform fees beyond that\n- Usage (e.g. Fin, messaging) is pay-as-you-go\n\nThis makes it easy to start small and scale.\n\nYes.\n\n- 14-day free trial\n- No credit card required\n- Includes all features, Fin, and add-ons\n\nYou only pay once you choose a plan and add payment details.\n\nYou can:\n\n- Upgrade/downgrade plans\n- Add/remove seats\n- Add or remove add-ons\n\nHandled directly in your workspace (or via Sales if under contract). Downgrades typically take effect at renewal.\n\nYes.\n\n- Startups: **Up to 93% off + 1 year of Fin free** (via [Early Stage program](https://www.intercom.com/early-stage))\n- Enterprise discounts may be available via Sales\n\n![Illustration of a couple walking under palm trees on a beach](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIC_Footer_Gallery_01.webp&w=3840&q=75&dpl=dpl_5oKDJKJtgQ7zN1jBJUVvj7hnJ7T1)\n\n![Silhouettes of two people cast in shadow on a gridded surface](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIC_Footer_Gallery_03.webp&w=3840&q=75&dpl=dpl_5oKDJKJtgQ7zN1jBJUVvj7hnJ7T1)\n\n![Black ink illustration of a flower](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIC_Footer_Gallery_05.webp&w=3840&q=75&dpl=dpl_5oKDJKJtgQ7zN1jBJUVvj7hnJ7T1)\n\n![Close-up of iridescent soap bubbles](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIC_Footer_Gallery_06.webp&w=3840&q=75&dpl=dpl_5oKDJKJtgQ7zN1jBJUVvj7hnJ7T1)\n\n![Yellow flag with a smiley face drawing](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIC_Footer_Gallery_02.webp&w=3840&q=75&dpl=dpl_5oKDJKJtgQ7zN1jBJUVvj7hnJ7T1)\n\n![Palm tree against a clear blue sky](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIC_Footer_Gallery_04.webp&w=3840&q=75&dpl=dpl_5oKDJKJtgQ7zN1jBJUVvj7hnJ7T1)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:40.908565Z",
+      "section_path": "Get Fin and Intercom for a single, fully integrated customer service platform > Thousands of businesses  have already seen transformational results > \\#\\#\\# Are there discounts available?",
+      "chunk_index": 5,
+      "token_count": 501,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_1311c92a93bd",
+      "source_type": "pricing_page",
+      "url": "https://www.intercom.com/pricing",
+      "domain": "www.intercom.com",
+      "page_title": "Intercom Pricing | Plans for every team size",
+      "content": "[Start free trial](https://app.intercom.com/admins/sign_up?solution_id=29) [View demo](https://www.intercom.com/view-demos)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:40.908582Z",
+      "section_path": "Get Fin and Intercom for a single, fully integrated customer service platform > Perfect customer experiences, powered by Intercom",
+      "chunk_index": 6,
+      "token_count": 30,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_e5e8579adff9",
+      "source_type": "api_reference",
+      "url": "https://developers.intercom.com",
+      "domain": "developers.intercom.com",
+      "page_title": "Intercom Developers | Intercom and Fin Developer Platform",
+      "content": "Get fast, helpful support via chat or in the Intercom Community.\n\n[Join community](https://community.intercom.com/)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:40.489469Z",
+      "section_path": "Integrate with Intercom by building apps on the complete [AI customer service platform](https://www.intercom.com/). Create seamless customized experiences in the Intercom Help Desk and Messenger using our APIs and SDKS. > Need help?",
+      "chunk_index": 2,
+      "token_count": 28,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_7105b8a94480",
+      "source_type": "auth_docs",
+      "url": "https://www.intercom.com/auth",
+      "domain": "www.intercom.com",
+      "page_title": "Intercom | The only helpdesk designed for the AI Agent era",
+      "content": "This site is password protected\n\nPlease enter the password to access\n\nAccess Site",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:39.670937Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 20,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_5e76bddbacf7",
+      "source_type": "official_docs",
+      "url": "https://intercom.com",
+      "domain": "intercom.com",
+      "page_title": "Intercom | The only helpdesk designed for the AI Agent era",
+      "content": "Intercom is the only helpdesk with a natively integratedAI Agent, [Fin](https://fin.ai/), meaning every customer conversation improves the next one, enabling perfect experiences that were never possible before.\n\n[Start free trial](https://www.intercom.com/signup?solution_id=29)\n\n[View demo](https://www.intercom.com/view-demos)\n\n![Kite flying over the ocean with a boat on the water](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIntercom_Hero-Gallery_01.webp&w=256&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)![Silhouettes of two people cast in shadow on a gridded surface](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIntercom_Hero-Gallery_02.webp&w=384&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)![Sunset sky with birds in flight](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIntercom_Hero-Gallery_03.webp&w=640&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)![Close-up portrait of a person's eye and face](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIntercom_Hero-Gallery_04.webp&w=384&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)![Black ink illustration of a flower](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIntercom_Hero-Gallery_05.webp&w=640&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)![Colorful balloons bunched together](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIntercom_Hero-Gallery_06.webp&w=256&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\nFully-featured helpdesk\n\nNatively integrated AI Agent\n\nAI-powered Insights\n\nSelf-improving system\n\n![Decorative background image](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fhero%2Ftab-1%2FIntercom_Hero_Tab1_Helpdesk_bg.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Product image](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fhero%2Ftab-1%2FIntercom_Hero_Tab1_Helpdesk_product_mob.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Decorative background image](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fhero%2Ftab-2%2FIntercom_Hero_Tab2_Complex_bg.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Product image](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fhero%2Ftab-2%2FIntercom_Hero_Tab2_Complex_product_mob.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Decorative background image](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fhero%2Ftab-3%2FIntercom_Hero_Tab3_Insights_bg.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Product image](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fhero%2Ftab-3%2FIntercom_Hero_Tab3_Insights_product_mob.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:39.855872Z",
+      "section_path": "The only helpdesk designed   for the AI Agent era",
+      "chunk_index": 0,
+      "token_count": 766,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_958cec23f5f1",
+      "source_type": "official_docs",
+      "url": "https://intercom.com",
+      "domain": "intercom.com",
+      "page_title": "Intercom | The only helpdesk designed for the AI Agent era",
+      "content": "![Product UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fhero%2Ftab-3%2FIntercom_Hero_Tab3_Insights_product.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Decorative background image](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fhero%2Ftab-4%2FIntercom_Hero_Tab4_improving_bg.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Product image](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fhero%2Ftab-4%2FIntercom_Hero_Tab4_improving_product_mob.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Product UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fhero%2Ftab-4%2FIntercom_Hero_Tab4_improving_product.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\nIntercom and Fin are built together,so you have full visibility across your entire operation, and your team and Fin can collaborate seamlessly to deliver perfect customer experiences.\n\n[Start free trial](https://www.intercom.com/signup?solution_id=29)\n\n[View demo](https://www.intercom.com/view-demos)\n\n![Copilot product UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIntercom_Complete_illo.webp&w=640&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:39.855927Z",
+      "section_path": "The only helpdesk designed   for the AI Agent era > A complete solutionfor AI and human agents",
+      "chunk_index": 1,
+      "token_count": 340,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_1a25b65272ac",
+      "source_type": "official_docs",
+      "url": "https://intercom.com",
+      "domain": "intercom.com",
+      "page_title": "Intercom | The only helpdesk designed for the AI Agent era",
+      "content": "Intercom has every feature your team needsto resolve queries faster, deliver personalized service, engage proactively, and continuously improve your customer experience.\n\n[Start free trial](https://www.intercom.com/signup?solution_id=29)\n\n[View demo](https://www.intercom.com/view-demos)\n\n![Copilot product UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIntercom_Helpdesk_illo.webp&w=640&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Decorative ocean water](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIC_Helpdesk_01_Resolve_01_Copilot_bg.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Copilot product UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fmobile%2FIC_Helpdesk_01_Resolve_01_Copilot_product_Mob.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)![Copilot product UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fdesktop%2FIC_Helpdesk_01_Resolve_01_Copilot_product.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Ticketing UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fmobile%2FIC_Helpdesk_01_Resolve_02_Ticketing_product_Mob.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)![Ticketing UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fdesktop%2FIC_Helpdesk_01_Resolve_02_Ticketing_product.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Automations product UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fmobile%2FIC_Helpdesk_01_Resolve_03_No-code_Mob.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)![Automations product UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fdesktop%2FIC_Helpdesk_01_Resolve_03_No-code_product.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:39.856169Z",
+      "section_path": "The only helpdesk designed   for the AI Agent era > A fully-featuredAI-powered helpdesk > Resolve queries faster",
+      "chunk_index": 5,
+      "token_count": 504,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_f52ed1ef8897",
+      "source_type": "official_docs",
+      "url": "https://intercom.com",
+      "domain": "intercom.com",
+      "page_title": "Intercom | The only helpdesk designed for the AI Agent era",
+      "content": "Fin is built for security, reliability, and transparency, meeting leading compliance standards.\n\n[Learn more](https://trust.intercom.com/)\n\n![Placeholder](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fmobile%2FIC_Helpdesk_05_Illustration_Mob.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Placeholder](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIC_Helpdesk_05_Illustration.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\nFin's Success and Services teams give you direct access to the experts behind the product, so you can launch and scale with confidence.\n\n[Learn more](https://fin.ai/professional-services)\n\n![Placeholder](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fmobile%2FIC_Helpdesk_05_Blueprint_Mob.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Placeholder](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIC_Helpdesk_05_Blueprint.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\nA practical guide to launching and scaling AI in customer service, built from real-world experience and best practices.\n\n[Learn more](https://fin.ai/blueprint/introducing-ai-agents)\n\n> “I truly believe that the way the Intercom team has supported us is one of the most inspiring examples of strong customer success that I've seen.”\n\n![Portrait of George Dilthey](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FTestimonial_Clay_George.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\nGeorge DiltheyHead of Support at Clay\n\n![Portrait of George Dilthey](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FTestimonial_Clay_George.webp&w=1920&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Decorative background image](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fpricing-bg-texture.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:39.856614Z",
+      "section_path": "The only helpdesk designed   for the AI Agent era > A true partner withdeep domain expertise > The AI Agent Blueprint",
+      "chunk_index": 13,
+      "token_count": 520,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_6d50c63f2bcb",
+      "source_type": "official_docs",
+      "url": "https://intercom.com",
+      "domain": "intercom.com",
+      "page_title": "Intercom | The only helpdesk designed for the AI Agent era",
+      "content": "Combine Intercom with [Fin](https://fin.ai/) for a single, fully integrated customer service platform.\n\n$19\nPer Seat/Mo+$0.99\nPer Outcome\n\n[Learn more](https://www.intercom.com/pricing)\n\n![Illustration of a couple walking under palm trees on a beach](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIC_Footer_Gallery_01.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Silhouettes of two people cast in shadow on a gridded surface](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIC_Footer_Gallery_03.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Black ink illustration of a flower](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIC_Footer_Gallery_05.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Close-up of iridescent soap bubbles](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIC_Footer_Gallery_06.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Yellow flag with a smiley face drawing](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIC_Footer_Gallery_02.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Palm tree against a clear blue sky](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIC_Footer_Gallery_04.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:39.856658Z",
+      "section_path": "The only helpdesk designed   for the AI Agent era > A true partner withdeep domain expertise > Intercom with Fin",
+      "chunk_index": 14,
+      "token_count": 377,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_715257097c11",
+      "source_type": "official_docs",
+      "url": "https://intercom.com",
+      "domain": "intercom.com",
+      "page_title": "Intercom | The only helpdesk designed for the AI Agent era",
+      "content": "[Start free trial](https://www.intercom.com/signup?solution_id=29) [View demo](https://www.intercom.com/view-demos)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:39.856675Z",
+      "section_path": "The only helpdesk designed   for the AI Agent era > Perfect customer experiences, powered by Intercom",
+      "chunk_index": 15,
+      "token_count": 28,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_9467574240b9",
+      "source_type": "official_docs",
+      "url": "https://intercom.com",
+      "domain": "intercom.com",
+      "page_title": "Intercom | The only helpdesk designed for the AI Agent era",
+      "content": "With an omnichannel inbox, AI-powered ticketing, and real-time assistance from Copilot, your human team has everything they need to onboard faster, work more efficiently, and deliver better customer experiences.\n\n![Clouds](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIC_Complete_01-switching_sm.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Placeholder](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fmobile%2FIC_Complete_01-switching_mob.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)![A kite in a blue sky](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIC_Complete_01-switching_lg_bg.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Placeholder](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fdesktop%2FIC_Complete_01-switching_product.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)![A kite in a blue sky](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIC_Complete_01-switching_lg_bg.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Fin messenger UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fmobile%2FIC_Complete_02-handoffs_mob.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)![Decorative background image](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIC_Complete_02-handoffs_bg.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Fin messenger UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fdesktop%2FIC_Complete_02-handoffs_product.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)![Decorative background image](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIC_Complete_02-handoffs_bg.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:39.855987Z",
+      "section_path": "The only helpdesk designed   for the AI Agent era > A complete solutionfor AI and human agents > AI-powered agent workspace",
+      "chunk_index": 2,
+      "token_count": 511,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_16c113b52250",
+      "source_type": "official_docs",
+      "url": "https://intercom.com",
+      "domain": "intercom.com",
+      "page_title": "Intercom | The only helpdesk designed for the AI Agent era",
+      "content": "A single solution means [Fin](https://fin.ai/) and your human team work from the same customer record, so handoffs have full context, no one switches between tools, and every customer gets a consistent, seamless experience.\n\n![Fin messenger UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fmobile%2FIC_Complete_03-insights_bg_mob.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Fin messenger UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fdesktop%2FIC_Complete_03-insights_product.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\nOur AI engine automatically scores and organizes every conversation across [Fin](https://fin.ai/) and your human team, so you always understand quality, can spot emerging trends, and get alerted to what matters.\n\n[Learn more](https://fin.ai/insights)\n\n![Fin messenger UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fmobile%2FIC_Complete_04-self-improving_product_Mob.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Fin messenger UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fdesktop%2FIC_Complete_04-self-improving_product.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:39.856030Z",
+      "section_path": "The only helpdesk designed   for the AI Agent era > A complete solutionfor AI and human agents > AI-powered Insights across every interaction",
+      "chunk_index": 3,
+      "token_count": 331,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_72b0872e7c9e",
+      "source_type": "official_docs",
+      "url": "https://intercom.com",
+      "domain": "intercom.com",
+      "page_title": "Intercom | The only helpdesk designed for the AI Agent era",
+      "content": "[Fin](https://fin.ai/) constantly improves by learning from your best human reps, and suggestions and assistance from Fin make your human team better. With everything in one system, managers get Recommendations on what to fix, from missing content to data integrations, and can act on them with one click.\n\nFin AI Agent\n\n![Fin AI Agent noodle illustration](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIC_Complete_05_Fin_noodle.webp&w=640&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\nFin is a world-class AI Agent trusted by many of the most forward-thinking businesses in the world, including[Anthropic](https://fin.ai/customers/anthropic), [Clay](https://fin.ai/customers/clay), [Lightspeed](https://fin.ai/customers/lightspeed), [Rocket Money](https://fin.ai/customers/rocket-money), [Gamma](https://fin.ai/customers/gamma), and many [more](https://fin.ai/customers).\n\n[Learn more](https://fin.ai/customers)\n\n![Fin AI Agent decorative background](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIC_Complete_05_Fin_bg.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)![Fin AI Agent messenger UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fmobile%2FIC_Complete_05_Fin_product_Mob.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)![Fin AI Agent messenger UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fdesktop%2FIC_Complete_05_Fin_product.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n> “If you’re debating whether to build your own AI solution or buy one, as a fast-growing company in a complex space, my advice would be to buy – and specifically, buy Fin.”\n\n![Headshot of Isabel Larrow](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FTestimonial_Anthropic_Isabel.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\nIsabel LarrowProduct Support Operations at Anthropic\n\n![Headshot of Isabel Larrow](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FTestimonial_Anthropic_Isabel.webp&w=1920&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:39.856118Z",
+      "section_path": "The only helpdesk designed   for the AI Agent era > A complete solutionfor AI and human agents > A world-class AI Agent",
+      "chunk_index": 4,
+      "token_count": 561,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_f9557f4d7c5f",
+      "source_type": "official_docs",
+      "url": "https://intercom.com",
+      "domain": "intercom.com",
+      "page_title": "Intercom | The only helpdesk designed for the AI Agent era",
+      "content": "Give every agent an AI assistant that pulls context from past conversations, surfaces instant answers from your knowledge base, and drafts replies, so your team resolves more queries, faster.\n\n[Learn more](https://www.intercom.com/helpdesk/copilot)\n\nConvert any conversation into a ticket with one click, automatically categorized, prioritized, and routed to the right team, so every issue reaches the right person, with full context.\n\n[Learn more](https://www.intercom.com/helpdesk/tickets)\n\nBuild powerful automations to route conversations, manage SLAs, and configure escalation triggers, without any engineering support.\n\n[Learn more](https://www.intercom.com/helpdesk/copilot)\n\n![Decorative ocean water](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIC_Helpdesk_01_Resolve_01_Copilot_bg.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Copilot product UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fmobile%2FIC_Helpdesk_01_Resolve_01_Copilot_product_Mob.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)![Copilot product UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fdesktop%2FIC_Helpdesk_01_Resolve_01_Copilot_product.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:39.856214Z",
+      "section_path": "The only helpdesk designed   for the AI Agent era > A fully-featuredAI-powered helpdesk > \\#\\#\\#\\# Copilot+-     Give every agent an AI assistant that pulls context from past conversations, surfaces instant answers from your knowledge base, and drafts replies, so your team resolves more queries, faster.",
+      "chunk_index": 6,
+      "token_count": 334,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_62147d0e0e06",
+      "source_type": "official_docs",
+      "url": "https://intercom.com",
+      "domain": "intercom.com",
+      "page_title": "Intercom | The only helpdesk designed for the AI Agent era",
+      "content": "Bring every conversation across email, chat, phone, WhatsApp, and social apps into one inbox, so your team works from one place and every customer gets a consistent experience regardless of how they reach out.\n\n[Learn more](https://www.intercom.com/helpdesk/omnichannel)\n\n![Decorative illustration showing a stream](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIntercom_Omichannel_illo.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Customer intelligence UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fmobile%2FIC_Helpdesk_02_Customer-intellegence_product_Mob.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)![Customer intelligence UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fdesktop%2FIC_Helpdesk_02_Customer-intellegence_product.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\nAccess rich, real-time records for every user and company, with conversation history, behavioral data, and custom attributes, giving [Fin](https://fin.ai/) and your human team everything they need to deliver personal, tailored service.\n\n![Decorative background image](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIC_Complete_02-handoffs_bg.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:39.856259Z",
+      "section_path": "The only helpdesk designed   for the AI Agent era > A fully-featuredAI-powered helpdesk > \\#\\#\\#\\# Copilot+-     Give every agent an AI assistant that pulls context from past conversations, surfaces instant answers from your knowledge base, and drafts replies, so your team resolves more queries, faster. > Live customer intelligence",
+      "chunk_index": 7,
+      "token_count": 349,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_8406ed385b53",
+      "source_type": "official_docs",
+      "url": "https://intercom.com",
+      "domain": "intercom.com",
+      "page_title": "Intercom | The only helpdesk designed for the AI Agent era",
+      "content": "Connect Intercom to over 350 integrations out of the box, including Salesforce, Stripe, and Jira, with powerful, flexible APIs for everything else, all quick to set up and easy to maintain.\n\n[Learn more](https://www.intercom.com/app-store)\n\n![Logo wall showing Intercom, Hubspot, Zoho Desk and more](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIntercom_Apps_Intgrations_illo.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Decorative ocean water](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIC_Helpdesk_03_Engage_01_onboarding_bg.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Onbording wizard UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fmobile%2FIC_Helpdesk_03_Engage_01_onboarding_mob.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)![Onbording wizard UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fdesktop%2FIC_Helpdesk_03_Engage_01_onboarding_product.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Notification UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fmobile%2FIC_Helpdesk_03_Engage_02_notifications_product_Mob.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)![Notification UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fdesktop%2FIC_Helpdesk_03_Engage_02_notifications_product.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Messaging sequences](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fmobile%2FIC_Helpdesk_03_Engage_03_targetted_Mob.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)![Messaging sequences](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fdesktop%2FIC_Helpdesk_03_Engage_03_targeted_product.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:39.856317Z",
+      "section_path": "The only helpdesk designed   for the AI Agent era > A fully-featuredAI-powered helpdesk > Engage customersat the right moment",
+      "chunk_index": 8,
+      "token_count": 506,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_cbb30180a1bd",
+      "source_type": "official_docs",
+      "url": "https://intercom.com",
+      "domain": "intercom.com",
+      "page_title": "Intercom | The only helpdesk designed for the AI Agent era",
+      "content": "Onboard customers with interactive product tours, checklists, and in-app tooltips, so they get up to speed faster and get more value from your product, all without contacting support.\n\n[Learn more](https://www.intercom.com/helpdesk/outbound)\n\nKeep customers informed about new features, known issues, and policy changes with in-product messages, mobile push notifications, and banners.\n\n[Learn more](https://www.intercom.com/helpdesk/outbound)\n\nBuild omnichannel message journeys with a no-code visual builder, targeting customers precisely based on live behavioral data, product usage, and custom attributes.\n\n[Learn more](https://www.intercom.com/helpdesk/outbound)\n\n[Learn more](https://www.intercom.com/helpdesk/outbound)\n\n![Decorative ocean water](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIC_Helpdesk_03_Engage_01_onboarding_bg.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Onbording wizard UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fmobile%2FIC_Helpdesk_03_Engage_01_onboarding_mob.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)![Onbording wizard UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fdesktop%2FIC_Helpdesk_03_Engage_01_onboarding_product.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:39.856363Z",
+      "section_path": "The only helpdesk designed   for the AI Agent era > A fully-featuredAI-powered helpdesk > \\#\\#\\#\\# Onboarding tools+-     Onboard customers with interactive product tours, checklists, and in-app tooltips, so they get up to speed faster and get more value from your product, all without contacting support.",
+      "chunk_index": 9,
+      "token_count": 345,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_c20775d7ca88",
+      "source_type": "official_docs",
+      "url": "https://intercom.com",
+      "domain": "intercom.com",
+      "page_title": "Intercom | The only helpdesk designed for the AI Agent era",
+      "content": "![Decorative green leafy backdrop](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIC_Helpdesk_04_Monitor_01_insights_bg.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Insights product UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fmobile%2FIC_Helpdesk_04_Monitor_01_insights_product_Mob.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)![Insights product UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fdesktop%2FIC_Helpdesk_04_Monitor_01_insights_product.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Monitoring product UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fmobile%2FIC_Helpdesk_04_Monitor_02_QA_product_Mob.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)![Monitoring product UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fdesktop%2FIC_Helpdesk_04_Monitor_02_QA_product.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Reporting product UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fmobile%2FIC_Helpdesk_04_Monitor_03_Reporting_product_Mob.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)![Reporting product UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fdesktop%2FIC_Helpdesk_04_Monitor_03_Reporting_product.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:39.856428Z",
+      "section_path": "The only helpdesk designed   for the AI Agent era > A fully-featuredAI-powered helpdesk > Monitor and improveevery interaction",
+      "chunk_index": 10,
+      "token_count": 390,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_2f6a053ac7e6",
+      "source_type": "official_docs",
+      "url": "https://intercom.com",
+      "domain": "intercom.com",
+      "page_title": "Intercom | The only helpdesk designed for the AI Agent era",
+      "content": "The only solution with 100% coverage across your entire support operation, giving you actionable insights into what customers are asking, how they feel, and what's changing, with CX Score, Topics Explorer, and Trends.\n\n[Learn more](https://fin.ai/insights)\n\nMonitor every AI and human conversation in real time, with AI-powered scoring against your custom standards and instant alerts the moment quality drops.\n\n[Learn more](https://fin.ai/insights)\n\nAccess pre-built reports covering every support use case, and a fully customizable report builder with advanced filters and chart visualisations.\n\n[Learn more](https://www.intercom.com/helpdesk/reporting)\n\n[Learn more](https://fin.ai/insights)\n\n![Decorative green leafy backdrop](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIC_Helpdesk_04_Monitor_01_insights_bg.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Insights product UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fmobile%2FIC_Helpdesk_04_Monitor_01_insights_product_Mob.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)![Insights product UI](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fen%2Fhome-2026%2Fdesktop%2FIC_Helpdesk_04_Monitor_01_insights_product.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:39.856481Z",
+      "section_path": "The only helpdesk designed   for the AI Agent era > A fully-featuredAI-powered helpdesk > \\#\\#\\#\\# Insights+-     The only solution with 100% coverage across your entire support operation, giving you actionable insights into what customers are asking, how they feel, and what's changing, with CX Score, Topics Explorer, and Trends.",
+      "chunk_index": 11,
+      "token_count": 341,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_e4080b2b169c",
+      "source_type": "official_docs",
+      "url": "https://intercom.com",
+      "domain": "intercom.com",
+      "page_title": "Intercom | The only helpdesk designed for the AI Agent era",
+      "content": "> “Our Lightspeed customer service agents are dramatically more efficient when using Copilot. In testing, agents using Copilot were able to close 31% more customer conversations daily.”\n\n![Headshot of Angelo Livanos](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FTestimonial_Lightspeed_Angelo.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\nAngelo LivanosSenior Director of Global Support at Lightspeed\n\n![Headshot of Angelo Livanos](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FTestimonial_Lightspeed_Angelo.webp&w=1920&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\nWe partner with you to set up and scale industry-leading customer experiences,with deep domain expertise, thought leadership, and education to give your team an edge\n\n![Security, reliability and transparency badges](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fmobile%2FIC_Helpdesk_05_Security_Mob.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)\n\n![Security, reliability and transparency badges](https://www.intercom.com/ims-image?url=%2Fintercom-marketing-site%2Fimg%2Fhome-2026%2Fdesktop%2FIC_Helpdesk_05_Security.webp&w=3840&q=75&dpl=dpl_DBeV3mPewEKj5z8VMgqNooN4UDYW)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:39.856538Z",
+      "section_path": "The only helpdesk designed   for the AI Agent era > A true partner withdeep domain expertise",
+      "chunk_index": 12,
+      "token_count": 323,
+      "quality_score": 0.36
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Intercom is the customer service platform combining human agents and AI agents in one workspace.",
+      "evidence_ids": [
+        "ev_9658bc44e8dd"
+      ]
+    },
+    "category": {
+      "value": "Support and Helpdesk",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_7105b8a94480"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_ead8ff239510",
+        "ev_f832a5118db8"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API, SDKs",
+      "evidence_ids": [
+        "ev_60f111c3d117",
+        "ev_e5e8579adff9"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_60f111c3d117"
+      ]
+    },
+    "mcp": {
+      "value": "No known MCP",
+      "evidence_ids": [
+        "ev_9658bc44e8dd"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_60f111c3d117"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_7105b8a94480"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.75,
+    "fields_checked": 8,
+    "fields_supported": 6,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "auth_methods",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'auth_methods' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.75,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.75 below 0.90 threshold",
+      "Auth methods missing or UNKNOWN"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

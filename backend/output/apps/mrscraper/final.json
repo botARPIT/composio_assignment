@@ -1,0 +1,274 @@
+{
+  "app": {
+    "id": 54,
+    "name": "MrScraper",
+    "website": "docs.mrscraper.com",
+    "category_hint": "Data SEO and Scraping"
+  },
+  "documentation_map": {
+    "app_name": "MrScraper",
+    "official_domain": "docs.mrscraper.com",
+    "homepage": {
+      "url": "https://docs.mrscraper.com",
+      "title": "MrScraper",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": null,
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": null,
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": null,
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": null,
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://docs.mrscraper.com/docs/getting-started/overview",
+        "title": "Overview | MrScraper Documentation",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "MrScraper",
+      "official_domain": "docs.mrscraper.com",
+      "items": [
+        {
+          "url": "https://docs.mrscraper.com",
+          "page_type": "homepage",
+          "title": "MrScraper",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://docs.mrscraper.com/docs/getting-started/overview",
+          "page_type": "developer_portal",
+          "title": "Overview | MrScraper Documentation",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 5,
+        "urls_discovered": 2,
+        "official_urls": 2,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 2
+      }
+    },
+    "stats": {
+      "queries": 5,
+      "urls_discovered": 2,
+      "official_urls": 2,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 2
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_fb46147ba3e2",
+      "source_type": "developer_portal",
+      "url": "https://docs.mrscraper.com/docs/getting-started/overview",
+      "domain": "docs.mrscraper.com",
+      "page_title": "Overview | MrScraper Documentation",
+      "content": "Overview\nYour all-in-one guide to understanding, configuring, and using our scraping platform.\nWelcome to the MrScraper Documentation!\nDiscover how our powerful scraping platform can transform the way you extract data. Whether you're scraping e-commerce product data, collecting job listings, gathering customer reviews for sentiment analysis, or extracting any website content, our AI-powered and manual scrapers are designed to automate and simplify the process, giving you a powerful edge in any project.\nFeatures\nExplore MrScraper’s key features and tools designed to make data extraction effortless.\nAI Scraper\nAutomatically extract data with natural language instructions — no coding required.\nManual Workflow\nBuild and customize your own scraper workflow step by step for full control.\nBulk Scraping\nScrape multiple URLs in one go by uploading a list or Excel file.\nListing\nOrganize and view your scraping results in a clean, structured listing format.\nMap\nExtract all URLs from a website to understand its structure and content.\nProxy Management\nConfigure and manage proxy settings for enhanced reliability and anonymity.\nScheduling\nAutomate scraper runs on a schedule to keep your data fresh and up to date.\nMarketplace\nUse ready-to-run scrapers for popular websites and common scraping use cases.\nAPI Playground\nTest and explore API requests directly from the dashboard before integrating.\nUse Cases\nDiscover how MrScraper can support different real-world scenarios.\nE-Commerce\nScrape product details, pricing, and availability from major e-commerce sites.\nJob Listings\nCollect job postings and company data for recruitment or market analysis.\nSentiment Analysis\nExtract and analyze customer feedback to gain insights into sentiment and satisfaction.\nReal Estate\nGather property listings, prices, and market trends from real estate websites.\nTravel & Hospitality\nScrape hotel, flight, and destination data for travel planning and analysis.\nIntegrations\nIntegrate MrScraper with your favorite tools to automate your data flow.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:06:55.055061Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 508,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_d39a678d3f1e",
+      "source_type": "official_docs",
+      "url": "https://docs.mrscraper.com",
+      "domain": "docs.mrscraper.com",
+      "page_title": "Overview | MrScraper Documentation",
+      "content": "Overview\nYour all-in-one guide to understanding, configuring, and using our scraping platform.\nWelcome to the MrScraper Documentation!\nDiscover how our powerful scraping platform can transform the way you extract data. Whether you're scraping e-commerce product data, collecting job listings, gathering customer reviews for sentiment analysis, or extracting any website content, our AI-powered and manual scrapers are designed to automate and simplify the process, giving you a powerful edge in any project.\nFeatures\nExplore MrScraper’s key features and tools designed to make data extraction effortless.\nAI Scraper\nAutomatically extract data with natural language instructions — no coding required.\nManual Workflow\nBuild and customize your own scraper workflow step by step for full control.\nBulk Scraping\nScrape multiple URLs in one go by uploading a list or Excel file.\nListing\nOrganize and view your scraping results in a clean, structured listing format.\nMap\nExtract all URLs from a website to understand its structure and content.\nProxy Management\nConfigure and manage proxy settings for enhanced reliability and anonymity.\nScheduling\nAutomate scraper runs on a schedule to keep your data fresh and up to date.\nMarketplace\nUse ready-to-run scrapers for popular websites and common scraping use cases.\nAPI Playground\nTest and explore API requests directly from the dashboard before integrating.\nUse Cases\nDiscover how MrScraper can support different real-world scenarios.\nE-Commerce\nScrape product details, pricing, and availability from major e-commerce sites.\nJob Listings\nCollect job postings and company data for recruitment or market analysis.\nSentiment Analysis\nExtract and analyze customer feedback to gain insights into sentiment and satisfaction.\nReal Estate\nGather property listings, prices, and market trends from real estate websites.\nTravel & Hospitality\nScrape hotel, flight, and destination data for travel planning and analysis.\nIntegrations\nIntegrate MrScraper with your favorite tools to automate your data flow.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:06:55.761365Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 508,
+      "quality_score": 0.46
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "MrScraper is a powerful scraping platform designed to automate and simplify data extraction.",
+      "evidence_ids": [
+        "ev_fb46147ba3e2",
+        "ev_d39a678d3f1e"
+      ]
+    },
+    "category": {
+      "value": "Data SEO and Scraping",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_fb46147ba3e2",
+        "ev_d39a678d3f1e"
+      ]
+    },
+    "self_serve": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_fb46147ba3e2",
+        "ev_d39a678d3f1e"
+      ]
+    },
+    "api_surface": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_fb46147ba3e2",
+        "ev_d39a678d3f1e"
+      ]
+    },
+    "api_breadth": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_fb46147ba3e2",
+        "ev_d39a678d3f1e"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_fb46147ba3e2",
+        "ev_d39a678d3f1e"
+      ]
+    },
+    "buildability": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_fb46147ba3e2",
+        "ev_d39a678d3f1e"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_fb46147ba3e2",
+        "ev_d39a678d3f1e"
+      ]
+    }
+  },
+  "validation": {
+    "status": "INSUFFICIENT_EVIDENCE",
+    "score": 0.12,
+    "fields_checked": 8,
+    "fields_supported": 1,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "auth_methods",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'auth_methods' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "self_serve",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'self_serve' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "api_surface",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_surface' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "api_breadth",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_breadth' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "buildability",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'buildability' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": {
+    "verified_fields": [
+      "self_serve"
+    ],
+    "corrections": {
+      "self_serve": "Self-serve (verified by browser)"
+    },
+    "screenshots": [],
+    "notes": ""
+  },
+  "pipeline_confidence": 0.12,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.12 below 0.90 threshold",
+      "Self-serve access model is UNKNOWN",
+      "Auth methods missing or UNKNOWN",
+      "Browser verification found discrepancies",
+      "Insufficient evidence (2 pieces, minimum 3)"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

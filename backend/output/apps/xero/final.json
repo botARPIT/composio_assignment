@@ -1,0 +1,290 @@
+{
+  "app": {
+    "id": 87,
+    "name": "Xero",
+    "website": "developer.xero.com",
+    "category_hint": "Finance and Fintech"
+  },
+  "documentation_map": {
+    "app_name": "Xero",
+    "official_domain": "developer.xero.com",
+    "homepage": {
+      "url": "https://developer.xero.com",
+      "title": "Xero",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": null,
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://developer.xero.com/documentation/api/accounting/items",
+        "title": "Accounting API Items",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://developer.xero.com/pricing",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "sdk": {
+      "primary": {
+        "url": "https://developer.xero.com/documentation/sdks-and-tools/libraries/overview",
+        "title": "SDKs",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "mcp": {
+      "primary": null,
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://developer.xero.com/documentation/getting-started-guide",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "Xero",
+      "official_domain": "developer.xero.com",
+      "items": [
+        {
+          "url": "https://developer.xero.com",
+          "page_type": "homepage",
+          "title": "Xero",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.xero.com/pricing",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.xero.com/documentation/getting-started-guide",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.xero.com/documentation/api/accounting/items",
+          "page_type": "api_reference",
+          "title": "Accounting API Items",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        },
+        {
+          "url": "https://developer.xero.com/documentation/sdks-and-tools/libraries/overview",
+          "page_type": "sdk",
+          "title": "SDKs",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 5,
+        "urls_discovered": 5,
+        "official_urls": 5,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 5
+      }
+    },
+    "stats": {
+      "queries": 5,
+      "urls_discovered": 5,
+      "official_urls": 5,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 5
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_8e80717cc658",
+      "source_type": "pricing_page",
+      "url": "https://developer.xero.com/pricing",
+      "domain": "developer.xero.com",
+      "page_title": "Pricing — Xero Developer",
+      "content": "Tier Fees, Connection Limits, and API Volume Usage via the Xero API\nXero Developer’s Terms and Conditions Including the Associated Commercial Terms\nSupport and Resources for Developers\nIntroduction\nWe believe in the power of the Xero ecosystem, and we're committed to giving our App Partners the best platform to build, grow, and connect with our customers. To ensure we continue to provide a platform that gives you greater clarity, stability, and control over your development journey, we’re making two important updates: an evolution of our Xero Developer pricing model and an update to our Developer Terms and Conditions.\n- Clear, usage based pricing: Designed to meet developers where they are in their app development journey, we are retiring our current revenue share model (comprising Xero App Store Subscriptions and Commercial Billing) and introducing five tiers: Starter, Core, Plus, Advanced, Enterprise. These tiers are based on connections and data egress volume via the Xero APIs, making it easier to access benefits as you grow and scale, while also making it clearer for you to forecast and control costs. App tiers and pricing model changes will take effect on 2 March, 2026. \n- Updated policies for AI data use and access: The updates to the Xero Developer Terms and Conditions and accompanying commercial terms are effective for new developers from 4 December and for existing developers from 2 March. These updates support the new commercial model and provide developers with clarity about tools which may not be used in conjunction with the developer platform and, importantly, that data obtained from Xero’s APIs may not be used to train AI/ML models. \nPartner Tiers\nTiers have been created to enable early innovation and create an accessible entry point for developers just getting started. As your app scales, requiring additional benefits, you can easily move through the tiers.\n| Starter | Core | Plus | Advanced | Enterprise | |\n|---|---|---|---|---|---|\n| Connections (maximum) | 5 | 50 | 1000 | 10,000 | No Limit | \n| Prerequisites | App Certification | App Certification | App Certification | ||\n| Prerequisites (continued) | Security Assessment (initial and annual) | Security Assessment (initial and annual) | |||\n| Payment Method | Not Applicable | Required | Required | Required | Required | \n| Xero App Store | Not Applicable | Not Applicable | Optional | Optional | Required | \nBenefits by Tier\nXero continues to invest in our ecosystem and the growth programs, co-marketing opportunities, technical support and benefits that enable you to connect to Xero’s 4.6+ million global subscribers.\n| Benefit | Starter | Core | Plus | Advanced | Enterprise | \n|---|---|---|---|---|---|\n| Developer tools and resources | |||||\n| Developer tools (API explorer, Postman, Insomnia, Linx) | |||||\n| AI toolkit (MCP server, Open AI Agentic SDKs, Prompt library, AI enablement videos) | |||||\n| Developer Dashboard (usage and connections data) | |||||\n| Standard features | |||||\n| Open APIs | |||||\n| Webhooks | |||||\n| Rate Limits | 1000 per day per org | 5000 per day per org | 5000 per day per org | 5000 per day per org | 5000 per day per org | \n| Access to App Launcher in Xero navigation | |||||\n| API Egress Usage Report | |||||\n| Premium features | |||||\n| Rapid Sync (first 30 minutes for any connection) | Not Included | Not Included | |||\n| Journal endpoint (require security assessment and use case approval) | Not Included | Not Included | Not Included | ||\n| XPM API (require security assessment and use case approval) | Not Included | Not Included | Not Included | ||\n| Bulk connections (require security assessment and use case approval) | Not Included | Not Included | Not Included | ||\n| Developer support, engagement and community | |||||\n| Developer support | General support | General support | General support | Priority support | Priority Support | \n| Developer events (DevDay, Hackathons, Meetups) | |||||\n| Annual technical consultation (API and onboarding experience optimisation) | Not Included | Not Included | Not Included | Not Included | |\n| Marketing and growth | |||||\n| Xero App Store listing | Not Included | Not Included | Optional | Optional | Required | \n| Eligible for Xero App Store promotional merchandising, access to in product placements and promotion in Xero channels, content and campaigns (requires Xero App Store listing) | Not Included | Not Included | |||\n| Eligible to sponsor Xero events: Xerocon, regional roadshows, educational events (requires Xero App Store listing) | Not Included | Not Included | |||\n| Developer Branding Guides and verified badges | Not Included | Not Included | |||\n| Access to self serve marketing resources and guides | |||||\n| Eligible for Growth and App Awards Programs (requires Xero App Store listing) | Not Included | Not Included | |||\n| Programs: Channel Program, Developer Council, Custom Developer Programs | |||||\nNew Features\nWe have aligned benefits to ensure they scale seamlessly with your app's growth.\n- Rapid Sync Rapid Sync will now be available to all certified apps and has been extended to all connections, not just connections that originate via the Xero App Store. This feature lifts the standard API limits for the first 30 minutes of a new organisation connection, improves the onboarding experience, accelerates your time to value with faster data import, and reduces friction - boosting customer conversion and retention. \n- New Egress Usage Report A new report available in the app dashboard that shows your daily API consumption spanning two months of data usage. To access this report, log into the developer portal and look at the usage tab for your app \nPremium features in the Advanced tier\n- Journals endpoint This endpoint is used for retrieving the complete set of journal entries for an organisation. This includes journals created automatically by Xero from source transactions (like invoices, bills, and payments). \n- Xero Practice Manager (XPM) API Xero Practice Manager (XPM) is a practice management system designed for accounting firms to manage their workflow, time tracking, and job costing. The XPM API allows third-party apps and developers to programmatically connect to and interact with the data and functionality within a Xero Practice Manager account. \n- Bulk Connections The Bulk Connections feature that allows a single user to connect multiple Xero organisations (tenants) to your app in one single OAuth 2.0 authorisation flow. This feature is primarily designed to improve the connection process for users who manage a large number of client organisations in Xero. \nTier Fees, Connection Limits, and API Volume Usage\nApp pricing is a flat monthly fee based on tier and includes a set allotment of data consumption via the Xero APIs. Additional data consumption is available at additional cost.\n| Feature | Starter | Core | Plus | Advanced | Enterprise | \n|---|---|---|---|---|---|\n| Connections (maximum) | 5 | 50 | 1000 | 10,000 | No limit | \n| Monthly Tier Fee | No charge | $35 AUD | $245 AUD | $1445 AUD | Price on Application | \n| Monthly Xero API usage (Ingress GBs) | Unlimited | Unlimited | Unlimited | Unlimited | Unlimited | \n| Monthly Xero API usage (Egress GBs)* | n/a | 10 GBs | 50 GBs | 250 GBs | Volume on Application | \n| Overage Xero API usage egress pricing (per GB) | n/a | $2.40 AUD | $2.40 AUD | $2.40 AUD | Price on Application | \nPricing is tax exclusive\n*We exclude the organisation endpoint from this usage allotment\n- To find your egress GBs, log in to the developer portal and look at the usage tab for your app. \n- Connection count and API data consumption via the Xero API is measured and priced at the app level. Apps cannot share connection counts or API volume used, even if they are from the same developer. \n- Connection counts and API metering will be available in the developer dashboard for all apps beginning 4 December, 2025. \n- API data egress volume via the Xero APIs is based on gigabytes used and is a monthly allotment. These reset on the first of the calendar month (using UTC timezone), allowing you a new allotment, as long as you have an active payment method on file with Xero Developer. This is also the billing cycle. \n- Payments are accepted via registered credit card. Your card details will be required when moving from the Starter to the Core tier. \n- Payments will occur (via the registered credit card) on the first of the following month, after the last billing month. \n- Failed payments will show on the billing page, where you can view all invoices and payments. \nGlossary\n- Connections: customer or tenants connected to your app via a valid OAuth connection \n- API Usage Ingress: the process of sending new or updated accounting and financial data from your external app to a connected Xero organisation. \n- API Usage Egress: the process of extracting or downloading accounting and financial data from a connected Xero organisation to your external app or system. \nMigration of Existing Apps\n- No new apps will be added to Xero App Store Subscriptions (XASS) or Commercial Billing (CB) models beginning 4 December, 2025. \n- Apps created between 4 December, 2025 and 2 March, 2026 that want to publish on the Xero App Store will begin on an interim billing solution. Those apps will then be migrated to the new model when migration begins in March. \n- Existing apps will be migrated to the new pricing model beginning 2 March, 2026. Apps will receive 30 days prior notice to their migration. \n- Apps created on or after 2 March, 2026 will move directly to the new pricing model. \nXero Developer Platform Terms and Conditions, Including the Associated Commercial Terms\nIf you registered as a Xero developer on or after 4 December, 2025, these revised terms will apply to you straight away. If you registered before 4 December, 2025, this version of the terms applies to you from 2 March, 2026. Key changes to our terms and conditions include:\n- A new prohibition on using API data to train AI/ML models. \n- Clarifying that apps must not use bots or browser extensions to undermine our security controls or simulate user actions. \n- Updated Developer Platform Commercial Terms, consolidating the existing Xero App Store Terms and Xero Certified Integration Terms, to reflect the new pricing model. \nRead the new Xero Developer Platform Terms and new Xero Developer Commercial Terms.\nSupport and Resources for Developers\nPlease review our FAQs and join for upcoming webinars to learn more about the pricing and policy changes as well as learn how to better optimise your app’s API usage and inactive connections.\n- New pricing and policy overview webinars - Register for Session 1 Thursday, December 11, 10am (NZDT) / Wednesday, December 10, 1pm (PST) \n- Register for Session 2 Thursday, December 11, 4pm (GMT) / 8am (PST) \n \n- Optimisation Best Practices - API and Connection webinar: - Register for session 1 Thursday, January 29, 11am (NZDT), January 28, 2pm (PST) \n- Register for session 2 Thursday, January 29, 4pm (GMT), January 29, 8am (PST) \n \n- Frequently Asked Questions - Additional information related to commonly asked questions is available in our FAQs. We recommend checking our FAQs before reaching out to support. We will continue to update these as necessary.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:14:09.919002Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 2823,
+      "quality_score": 0.84
+    },
+    {
+      "id": "ev_6cd94d9af162",
+      "source_type": "official_docs",
+      "url": "https://developer.xero.com",
+      "domain": "developer.xero.com",
+      "page_title": "Xero Developer Platform",
+      "content": "Xero Developer: Powering Your Innovation and Growth\nDeveloper Tools\nTools and resources to help you build and test your Xero integration faster.\n- Check out the AI ToolkitXero's AI ToolkitGet Started with Xero's AI Toolkit including OpenAI Agents SDK, MCP Server, LangChain and prompt examples. \n- Getting started guideDeveloper Tools and ResourcesThis includes Xero APIs, SDKs, code samples, documentation and more. \n- Learn more about custom developmentResources for custom buildsBuilding your own app, agent or workflow, or for others? Get access to custom connections, list as a Xero certified development partner, collaborate with your clients. \n- Unlock AI automationsAutomation Resources for Your Business or PracticeLearn more about workflow builders, watch the AI Automation Series, review the prompt library, and more. \nDeveloper Programs That Accelerate Your Growth\nTurn your integration into a profitable business by leveraging the benefits of Xero Developer programs.\n- Xero Developer Growth ProgramXero Developer Growth ProgramParticipation in the Growth Program includes increased promotion, marketing and collaborative opportunities. \n- Xero Referral ProgramXero Referral ProgramEarn commissions for every single new paying subscriber you refer to Xero. \n- Xero Global App AwardsGlobal Xero App Awards 2026The Xero App Awards celebrate the most innovative, impactful apps for Xero users. \nBecome an App Partner\n- Steps to becoming an app partnerStart BuildingSign up for a free account to build on the Xero platform. Take a look at our getting started guide, SDKs and the other steps you need to complete for certification. \n- Review the certification checkpointsGet CertifiedFind customers who love your app, you'll need ten to get certified. See our certification checkpoints and best practices for more details. \n- Create an Xero App Store listingPublish your App on the Xero App StorePublish your app on the Xero App Store for access to over 4 million small business customers and 200,000+ accountants and bookkeepers. \nResources for Accountant and Bookkeepers\nWhether you're automating workflows or building a bespoke integration for your practice, our platform remains free for internal innovation. Our toolkit of resources helps you build your own, or hire a developer to build an integration for you. Find all the resources you need here.\n- Check out Xero's custom integratorsFind a Custom IntegratorWhether you’re connecting applications to Xero or building your own, these developers are here to help. \n- Resources for Accountants and BookkeepersAutomation Resources for your Business or PracticeNot a developer, no problem! Explore tools and resources for Accountants and Bookkeepers. \n- Check out details around the new pricingUnderstanding how new pricing affects Accountants and BookkeepersOn 4-December we announced new pricing. Accountants and Bookkepers are exempt from this new pricing model. \nBuilding Custom Integrations?\nSeamlessly connect to Xero with custom integrations tailored to your needs.\n- Learn more about custom developmentSign up as a development partnerIf you’ve got proven experience building custom integrations with the Xero API, then register to become a developer partner. \n- Create a custom connectionCustom connectionsA streamlined integration option for anyone building bespoke solutions for Xero businesses. It utilises the client credentials grant type to provide a simplified, efficient developer experience. \n- Add a collaboratorAdd a collaboratorBuilding and maintaining an app or integration with Xero often involves a team of people. Xero’s app collaboration function ensures that multiple people can have access to an app. \nTalk to us!\nWe know you have a lot to say and we're here to listen. Here are some ways you can connect with the team, share your feedback or ask questions!\n- Join office hoursWeekly Office HoursConnect with our team and each other: - Session 1: Thursdays at 4:00pm BST / 8:00am PDT / 9:00am MDT \n- Session 2: Fridays at 11:00am NZT / 9:00am AEDT / Thursdays 3:00pm PST \n \n- Check out the Dev Day DiscordDeveloper Day Discord ServerJoin the Xero Developer Day Discord Server and follow the Dev Day virtually. \n- Share your feedback with Xero DeveloperProvide product feedbackShare, upvote, and discuss ideas that could improve Xero’s APIs, developer tools, and programs. \nExhibit at Xerocon 2026 in London and Denver!\nConnect with thousands of accountants at the most beautiful and innovative conference for cloud accounting leaders.\nReady to build with Xero?\nGet started with our APIs and developer tools to create powerful integrations for small business.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:14:09.866346Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 1161,
+      "quality_score": 0.66
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Xero Developer platform for building integrations.",
+      "evidence_ids": [
+        "ev_6cd94d9af162"
+      ]
+    },
+    "category": {
+      "value": "Finance and Fintech",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "OAuth 2.0",
+      "evidence_ids": [
+        "ev_8e80717cc658"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_6cd94d9af162"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API, webhooks, SDKs",
+      "evidence_ids": [
+        "ev_8e80717cc658",
+        "ev_6cd94d9af162"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_8e80717cc658"
+      ]
+    },
+    "mcp": {
+      "value": "Official MCP",
+      "evidence_ids": [
+        "ev_6cd94d9af162"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_6cd94d9af162"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_8e80717cc658"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.88,
+    "fields_checked": 8,
+    "fields_supported": 7,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.88,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.88 below 0.90 threshold",
+      "Insufficient evidence (2 pieces, minimum 3)"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

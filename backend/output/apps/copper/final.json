@@ -1,0 +1,984 @@
+{
+  "app": {
+    "id": 9,
+    "name": "Copper",
+    "website": "copper.com",
+    "category_hint": "CRM and Sales"
+  },
+  "documentation_map": {
+    "app_name": "Copper",
+    "official_domain": "copper.com",
+    "homepage": {
+      "url": "https://copper.com",
+      "title": "Copper",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://www.copper.com/authentication",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://www.copper.com/reference",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://www.copper.com/pricing",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://www.copper.com/mcp",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://www.copper.com/docs",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": {
+      "url": "https://copper.com/llms.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "Copper",
+      "official_domain": "copper.com",
+      "items": [
+        {
+          "url": "https://copper.com",
+          "page_type": "homepage",
+          "title": "Copper",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://www.copper.com/authentication",
+          "page_type": "authentication",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://www.copper.com/reference",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://www.copper.com/pricing",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://www.copper.com/docs",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://www.copper.com/mcp",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 0,
+        "urls_discovered": 6,
+        "official_urls": 6,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 6
+      }
+    },
+    "stats": {
+      "queries": 0,
+      "urls_discovered": 6,
+      "official_urls": 6,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 6
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_f1d58458ad80",
+      "source_type": "llms_txt",
+      "url": "https://copper.com/llms.txt",
+      "domain": "copper.com",
+      "page_title": "llms.txt index",
+      "content": "\\# llms.txt for Copper CRM (copper.com)\n\n\\[Company Overview\\]\nCopper is the CRM designed for Google Workspace. We help agencies, consultants, and professional services businesses manage relationships, projects, and revenue in one place—without the complexity of traditional CRMs.\n\n\\[Key Differentiators\\]\n\\- The only CRM that is a Recommended for Google Workspace app.\n\\- The only CRM backed by Google Ventures.\n\\- Seamless integration with Google Workspace (Gmail, Calendar, Drive, Sheets, Docs).\n\\- Built specifically for professional services industries, including agencies, media & publishing, financial services, construction, and consulting.\n\\- Simple, intuitive interface with fast onboarding for non-technical teams.\n\\- Combines sales, account management, and project delivery in one platform.\n\\- Mix & Match feature sets so teams get only the tools they need, without breaking the budget.\n\n\\[Primary Use Cases\\]\n1\\. \\*\\*Agencies & Consulting Firms\\*\\*\n \\- Manage leads, clients, and projects from a single hub.\n \\- Give leadership access to reporting and pipeline visibility without relying on direct reports.\n \\- Eliminate tool fragmentation between sales and project delivery.\n\n2\\. \\*\\*Media & Publishing\\*\\*\n \\- Track advertisers, sponsors, and partners.\n \\- Streamline workflows across editorial, sales, and operations teams.\n\n3\\. \\*\\*Financial Services\\*\\*\n \\- Build stronger client relationships through personalized communication.\n \\- Ensure compliance while maintaining visibility into client portfolios.\n\n4\\. \\*\\*Construction\\*\\*\n \\- Manage bids, proposals, and client communications.\n \\- Keep projects on track with integrated reporting.\n\n\\[Customer Proof Points\\]\n\\- \\*\\*Moonstone Marketing\\*\\* used Copper to align sales and delivery, growing faster without adding headcount.\n\\- \\*\\*Exit Design\\*\\* simplified reporting and gave leadership real-time visibility.\n\\- \\*\\*Campfire Labs\\*\\* consolidated tools to cut costs and streamline client management.\n\\- \\*\\*Kontent Partners\\*\\* improved the sales-to-project management handoff, reducing miscommunication.\n\n\\[Content Resources\\]\n\\- Lead Generation Playbook: https://copper.com/lead-gen-playbook\n\\- Copper CRM Playbook: https://www.copper.com/copper-crm-playbook\n\\- Creative Agency CRM Guide: https://www.copper.com/creative-agency-crm-guide\n\n\\[Brand Voice\\]\n\\- Professional, approachable, and agency-focused.\n\\- Avoids overused jargon; emphasizes clarity and outcomes.\n\\- Uses sentence case (not capital case) in headlines.\n\\- Avoids colons and em dashes in copy.\n\n\\[Target Audience\\]\n\\- Agency owners, consultants, and executives in media, publishing, financial services, construction, and travel/hospitality.\n\\- Leaders who want visibility, teams who want simplicity, and businesses that want a CRM purpose-built for their workflows.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:05.745949Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 702,
+      "quality_score": 0.7
+    },
+    {
+      "id": "ev_761b87e0793e",
+      "source_type": "pricing_page",
+      "url": "https://www.copper.com/pricing",
+      "domain": "www.copper.com",
+      "page_title": "Pricing | Copper CRM",
+      "content": "Start free, no credit card required.\n\nMonthly\n\nUp to 26% off 🎉\n\nBasic$23$29\n\nper seat, per month\n\npaid annually\n\nOptimize your processes with flexible pipelines and team collaboration features.\n\n[Try Free](https://www.copper.com/signup)\n\nWhat's included:\n\n- 2,500 contact limit\n- Task automation\n- Pipelines\n- Project Management\n- Contact enrichment\n\n63% started off with Professional\n\n![flag](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fpricing%2Fflag.png&w=450&q=75)\n\nProfessional$59$69\n\nper seat, per month\n\npaid annually\n\nScale your business with revenue tracking tools, workflows and bulk email.\n\n[Try Free](https://www.copper.com/signup)\n\nEverything in Basic, plus:\n\n- 15,000 contact limit\n- Workflow automation\n- Bulk email\n- Reporting\n- Integrations\n\nBusiness$99$134\n\nper seat, per month\n\npaid annually\n\nElevate your business with customer nurture, custom analytics and unlimited usage.\n\n[Try Free](https://www.copper.com/signup)\n\nEverything in Professional, plus:\n\n- Unlimited contacts\n- Email series\n- Custom reports\n- Multi-currency\n- Premium support\n\nPrices are in USD and don't include taxes and fees where applicable.\n\n![Campfire Labs graphic](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2Findustries%2Fagency%2Flogos%2FLogo-Campfire.png&w=2040&q=75)\n\n![Masterclass graphic](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fhomepage%2Flogos-module%2Fcustomer_logo_masterclass%402x.png&w=2040&q=75)\n\n![Swell graphic](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fhomepage%2Flogos-module%2Fcustomer_logo_swell%402x.png&w=2040&q=75)\n\n![Bubbles graphic](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fhomepage%2Flogos-module%2Fmailchimp-logo.png&w=2040&q=75)\n\n![Bubbles graphic](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fhomepage%2Flogos-module%2FLogo_Softbank.png&w=2040&q=75)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.977399Z",
+      "section_path": "Win customers for life > Over 30,000 companies trust Copper",
+      "chunk_index": 0,
+      "token_count": 515,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_bfa28d0b3c26",
+      "source_type": "pricing_page",
+      "url": "https://www.copper.com/pricing",
+      "domain": "www.copper.com",
+      "page_title": "Pricing | Copper CRM",
+      "content": "Live chat\n\n![Live chat](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fpricing%2Fpeople-illustrations.webp&w=2040&q=75)\n\nBasic\n\n[Try free](https://www.copper.com/signup)\n\nProfessional\n\n[Try free](https://www.copper.com/signup)\n\nBusiness\n\n[Try free](https://www.copper.com/signup)\n\nUsage\n\n2,500\n\n15,000\n\nUnlimited\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.977469Z",
+      "section_path": "Win customers for life > Sales Opportunities",
+      "chunk_index": 1,
+      "token_count": 343,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_600b9910ece1",
+      "source_type": "pricing_page",
+      "url": "https://www.copper.com/pricing",
+      "domain": "www.copper.com",
+      "page_title": "Pricing | Copper CRM",
+      "content": "![info icon](https://copper-nextjs.s3.amazonaws.com/icons/info_outline_24px.svg)\n\nWork with an onboarding consultant to set up your Copper account. For eligible Business & Professional annual tier accounts.\n\n![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\nSeat minimums apply\n\nSeat minimums apply\n\n![info icon](https://copper-nextjs.s3.amazonaws.com/icons/info_outline_24px.svg)\n\nWork with a customer success manager to develop success plans. For eligible Business & Professional annual tier accounts.\n\n![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\nSeat minimums apply\n\nSeat minimums apply\n\nMobile Apps\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\nGoogle Workspace integrations\n\n![Google Chrome extension](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2Flanding%2FCrome.png&w=2040&q=75)\n\n![info icon](https://copper-nextjs.s3.amazonaws.com/icons/info_outline_24px.svg)\n\nBring Copper natively into Gmail and Google Calendar on desktop\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![Gmail email, contact, and file sync](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2Flanding%2FGmail.png&w=2040&q=75)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.977564Z",
+      "section_path": "Win customers for life > Google Chrome extension",
+      "chunk_index": 3,
+      "token_count": 412,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_217d0060ae28",
+      "source_type": "pricing_page",
+      "url": "https://www.copper.com/pricing",
+      "domain": "www.copper.com",
+      "page_title": "Pricing | Copper CRM",
+      "content": "![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\nIntegrations\n\n![Bubble icon](https://copper-nextjs.s3.amazonaws.com/imgs/pricing/integrations-info.svg)\n\n![Bubble corner image](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fpricing%2Fbubble-corner.png&w=2040&q=75)\n\nOur partnership with![Zapier logo](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fintegrations%2Flogo-zapier.png&w=2040&q=75)allows you to connect Copper to [5,000+ other apps](https://www.copper.com/integrations) for workflow automation\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![info icon](https://copper-nextjs.s3.amazonaws.com/icons/info_outline_24px.svg)\n\nAdd contacts from LinkedIn to Copper in 1-click\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.977807Z",
+      "section_path": "Win customers for life > LinkedIn",
+      "chunk_index": 8,
+      "token_count": 359,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_6bc00ae7acaf",
+      "source_type": "pricing_page",
+      "url": "https://www.copper.com/pricing",
+      "domain": "www.copper.com",
+      "page_title": "Pricing | Copper CRM",
+      "content": "![info icon](https://copper-nextjs.s3.amazonaws.com/icons/info_outline_24px.svg)\n\nReport on multiple currencies and get real time currency conversions\n\n![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![Google partner logo](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fpricing%2Fgoogle-partner.png&w=2040&q=75)\n\n![Chrome enterprice recommended logo](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fpricing%2Fchrome-enterprise-recommended.png&w=2040&q=75)\n\n“Gmail integration is my favorite feature of Copper. It makes it easy to add new leads. people, etc... I also love the task tool and how it integrates with Gmail and Calendar. Having all of my points of contact for each business as well as each opportunity in one place is also a great feature.”\n\nATIRA R\n\n“We have been Google Apps/G Suite/Workspace users for a long time. This CRM piggy backs right on top of that tool in a seamless way. It adds to our daily routine workflow for communication and almost makes CRM automatic.”\n\nJEFF L\n\n“Great CRM for Gmail users. Copper's unique angle is that it is tightly integrated with Gmail - so as you're emailing contacts, you can easily add those people and opportunities into your CRM. This makes it very easy to use which saves a lot of time and makes CRM updates less of a chore.”\n\nANDREW W\n\n[More customer stories\\\\\n![Arrow pointing to right](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fright-arrow.webp&w=2040&q=75)](https://www.copper.com/resources/case-studies)\n\n![](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fpricing%2Fgroup_1000001978.png&w=2040&q=75)\n\n[See all integrations\\\\\n![Arrow pointing to right](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fright-arrow.webp&w=2040&q=75)](https://www.copper.com/integrations)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.978174Z",
+      "section_path": "Win customers for life > Ranked first by customers for Google Workspace Integration",
+      "chunk_index": 16,
+      "token_count": 535,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_a8fd4d670c11",
+      "source_type": "pricing_page",
+      "url": "https://www.copper.com/pricing",
+      "domain": "www.copper.com",
+      "page_title": "Pricing | Copper CRM",
+      "content": "[See all integrations\\\\\n![Arrow pointing to right](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fright-arrow.webp&w=2040&q=75)](https://www.copper.com/integrations)\n\n![](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fpricing%2Ftop-rated.png&w=2040&q=75)\n\n[Compare us on G2\\\\\n![Arrow pointing to right](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fright-arrow.webp&w=2040&q=75)](https://www.g2.com/products/copper/reviews)\n\n[Compare us on G2\\\\\n![Arrow pointing to right](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fright-arrow.webp&w=2040&q=75)](https://www.g2.com/products/copper/reviews)\n\nInstant activation, no credit card required. Give Copper a try today.\n\n[Try free](https://www.copper.com/signup) [Demo](https://www.copper.com/demos)\n\n![Try Copper free image](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Febooks%2Fcopper-free-trial.png&w=2040&q=75)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.978215Z",
+      "section_path": "Win customers for life > Top rated in all the right places > Try Copper free",
+      "chunk_index": 17,
+      "token_count": 272,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_04a3c56475dc",
+      "source_type": "api_reference",
+      "url": "https://www.copper.com/reference",
+      "domain": "www.copper.com",
+      "page_title": "",
+      "content": "[Return Home](https://www.copper.com/)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.682723Z",
+      "section_path": "404Page Not Found",
+      "chunk_index": 0,
+      "token_count": 9,
+      "quality_score": 0.58
+    },
+    {
+      "id": "ev_c657fe8c9175",
+      "source_type": "auth_docs",
+      "url": "https://www.copper.com/authentication",
+      "domain": "www.copper.com",
+      "page_title": "",
+      "content": "[Return Home](https://www.copper.com/)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:05.906306Z",
+      "section_path": "404Page Not Found",
+      "chunk_index": 0,
+      "token_count": 9,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_c4180f3fa010",
+      "source_type": "pricing_page",
+      "url": "https://www.copper.com/pricing",
+      "domain": "www.copper.com",
+      "page_title": "Pricing | Copper CRM",
+      "content": "![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n25\n\n50\n\nUnlimited\n\nSupport\n\n![info icon](https://copper-nextjs.s3.amazonaws.com/icons/info_outline_24px.svg)\n\nAsk questions with a real person via our in-app chat\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![info icon](https://copper-nextjs.s3.amazonaws.com/icons/info_outline_24px.svg)\n\nDrop in to an interactive webinar hosted by a member of our Customer Success Team. Bring your specific questions, or listen in for tips shared with Copper customers.\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.977516Z",
+      "section_path": "Win customers for life > Office Hours & Webinars",
+      "chunk_index": 2,
+      "token_count": 357,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_1fef2a426740",
+      "source_type": "pricing_page",
+      "url": "https://www.copper.com/pricing",
+      "domain": "www.copper.com",
+      "page_title": "Pricing | Copper CRM",
+      "content": "![info icon](https://copper-nextjs.s3.amazonaws.com/icons/info_outline_24px.svg)\n\nSend and receive emails wherever you work\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![Google Calendar sync](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2Flanding%2FCalendar.png&w=2040&q=75)\n\n![info icon](https://copper-nextjs.s3.amazonaws.com/icons/info_outline_24px.svg)\n\nCreate and manage calendar events with Copper\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![Google Contact Sync](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2Flanding%2FContact.png&w=2040&q=75)\n\n![info icon](https://copper-nextjs.s3.amazonaws.com/icons/info_outline_24px.svg)\n\nAutomatically capture contact information from those you're talking to\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![Google Drive integration](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2Flanding%2FDrive.png&w=2040&q=75)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.977620Z",
+      "section_path": "Win customers for life > Google Contact Sync",
+      "chunk_index": 4,
+      "token_count": 404,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_82a338bb3599",
+      "source_type": "pricing_page",
+      "url": "https://www.copper.com/pricing",
+      "domain": "www.copper.com",
+      "page_title": "Pricing | Copper CRM",
+      "content": "![info icon](https://copper-nextjs.s3.amazonaws.com/icons/info_outline_24px.svg)\n\nLink documents from Google Drive in Copper records\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![Google Sheets & Looker Studio integration](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2Flanding%2FSheet.png&w=2040&q=75)\n\n![info icon](https://copper-nextjs.s3.amazonaws.com/icons/info_outline_24px.svg)\n\nDirectly sync your Copper data for complex reporting\n\n![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\nProductivity\n\n![info icon](https://copper-nextjs.s3.amazonaws.com/icons/info_outline_24px.svg)\n\nTake detailed notes as you work for added context\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.977663Z",
+      "section_path": "Win customers for life > Notes, activities & tasks",
+      "chunk_index": 5,
+      "token_count": 334,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_2d1c3bf1d79b",
+      "source_type": "pricing_page",
+      "url": "https://www.copper.com/pricing",
+      "domain": "www.copper.com",
+      "page_title": "Pricing | Copper CRM",
+      "content": "![info icon](https://copper-nextjs.s3.amazonaws.com/icons/info_outline_24px.svg)\n\nEasily view, manage, and send files\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![info icon](https://copper-nextjs.s3.amazonaws.com/icons/info_outline_24px.svg)\n\nNever forget or miss a todo with helpful nudges\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.977701Z",
+      "section_path": "Win customers for life > Contact & teammate suggestions",
+      "chunk_index": 6,
+      "token_count": 320,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_8199302d2a37",
+      "source_type": "pricing_page",
+      "url": "https://www.copper.com/pricing",
+      "domain": "www.copper.com",
+      "page_title": "Pricing | Copper CRM",
+      "content": "![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![info icon](https://copper-nextjs.s3.amazonaws.com/icons/info_outline_24px.svg)\n\nCraft templates in your brand’s voice for any use case. Add dynamic merge fields for instant personalization.\n\n![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![info icon](https://copper-nextjs.s3.amazonaws.com/icons/info_outline_24px.svg)\n\nMake emails clearer or more engaging with AI-powered edits.\n\n![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![info icon](https://copper-nextjs.s3.amazonaws.com/icons/info_outline_24px.svg)\n\nAutomatically create a new task after an action takes place in Copper\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.977759Z",
+      "section_path": "Win customers for life > Task automation",
+      "chunk_index": 7,
+      "token_count": 372,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_79af9267ad52",
+      "source_type": "pricing_page",
+      "url": "https://www.copper.com/pricing",
+      "domain": "www.copper.com",
+      "page_title": "Pricing | Copper CRM",
+      "content": "![info icon](https://copper-nextjs.s3.amazonaws.com/icons/info_outline_24px.svg)\n\nSync contacts from Copper to Mailchimp email campaigns.\n\n![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![info icon](https://copper-nextjs.s3.amazonaws.com/icons/info_outline_24px.svg)\n\nAuto-fill templates that make it easy to send and sign e-documents\n\n![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![info icon](https://copper-nextjs.s3.amazonaws.com/icons/info_outline_24px.svg)\n\nSee any QuickBooks invoice status and amount on any record\n\n![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.977852Z",
+      "section_path": "Win customers for life > PandaDocs",
+      "chunk_index": 9,
+      "token_count": 350,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_7d2a0dbe1f23",
+      "source_type": "pricing_page",
+      "url": "https://www.copper.com/pricing",
+      "domain": "www.copper.com",
+      "page_title": "Pricing | Copper CRM",
+      "content": "![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![info icon](https://copper-nextjs.s3.amazonaws.com/icons/info_outline_24px.svg)\n\nReceive important Copper notifications in any Slack channel\n\n![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![info icon](https://copper-nextjs.s3.amazonaws.com/icons/info_outline_24px.svg)\n\nView support tickets on related records\n\n![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.977891Z",
+      "section_path": "Win customers for life > Zendesk",
+      "chunk_index": 10,
+      "token_count": 309,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_04ff30d47145",
+      "source_type": "pricing_page",
+      "url": "https://www.copper.com/pricing",
+      "domain": "www.copper.com",
+      "page_title": "Pricing | Copper CRM",
+      "content": "![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\nCommunication\n\n![info icon](https://copper-nextjs.s3.amazonaws.com/icons/info_outline_24px.svg)\n\nImprove consistency when you answer frequent questions, greet new customers or promote your services.\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![info icon](https://copper-nextjs.s3.amazonaws.com/icons/info_outline_24px.svg)\n\nSend emails with personalized messages to multiple recipients\n\n![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.977932Z",
+      "section_path": "Win customers for life > Email automation",
+      "chunk_index": 11,
+      "token_count": 332,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_d273036aeba9",
+      "source_type": "pricing_page",
+      "url": "https://www.copper.com/pricing",
+      "domain": "www.copper.com",
+      "page_title": "Pricing | Copper CRM",
+      "content": "![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\nContact Forms\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![info icon](https://copper-nextjs.s3.amazonaws.com/icons/info_outline_24px.svg)\n\n\"Powered by Copper\" will not appear on your form\n\n![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\nSales",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.977973Z",
+      "section_path": "Win customers for life > Remove Copper branding",
+      "chunk_index": 12,
+      "token_count": 334,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_91918a22fcad",
+      "source_type": "pricing_page",
+      "url": "https://www.copper.com/pricing",
+      "domain": "www.copper.com",
+      "page_title": "Pricing | Copper CRM",
+      "content": "![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![info icon](https://copper-nextjs.s3.amazonaws.com/icons/info_outline_24px.svg)\n\nStay on top of hot deals with Copper's recommendations, which suggest next steps based on upcoming meetings, tasks and overdue email responses\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\nProjects",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.978012Z",
+      "section_path": "Win customers for life > Revenue tracking",
+      "chunk_index": 13,
+      "token_count": 312,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_75de920d2d54",
+      "source_type": "pricing_page",
+      "url": "https://www.copper.com/pricing",
+      "domain": "www.copper.com",
+      "page_title": "Pricing | Copper CRM",
+      "content": "![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\nReporting\n\n![info icon](https://copper-nextjs.s3.amazonaws.com/icons/info_outline_24px.svg)\n\nGet visibility into your team's day-to-day activities\n\n![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![info icon](https://copper-nextjs.s3.amazonaws.com/icons/info_outline_24px.svg)\n\nBuild insights from scratch across all Copper data\n\n![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\nAdmin",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.978061Z",
+      "section_path": "Win customers for life > Custom reports",
+      "chunk_index": 14,
+      "token_count": 379,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_0e6779e9bd21",
+      "source_type": "pricing_page",
+      "url": "https://www.copper.com/pricing",
+      "domain": "www.copper.com",
+      "page_title": "Pricing | Copper CRM",
+      "content": "![info icon](https://copper-nextjs.s3.amazonaws.com/icons/info_outline_24px.svg)\n\nMigrate or update existing records, or export data for in-depth reporting\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![info icon](https://copper-nextjs.s3.amazonaws.com/icons/info_outline_24px.svg)\n\nRestrict access to records and reports\n\n![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)\n\n![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![cross icon](https://copper-nextjs.s3.amazonaws.com/icons/cross.svg)\n\n![check mark icon](https://copper-nextjs.s3.amazonaws.com/icons/check_mark_icon.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.978100Z",
+      "section_path": "Win customers for life > Single sign-on (Okta)",
+      "chunk_index": 15,
+      "token_count": 316,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_f30dc3b43aff",
+      "source_type": "official_docs",
+      "url": "https://copper.com",
+      "domain": "copper.com",
+      "page_title": "CRM Software Solutions Company for Service Businesses | Copper CRM",
+      "content": "[Try Copper free](https://www.copper.com/signup) [![Cursor icon.](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fhomepage%2F2024%2FUniversal-Icon-Cursor.webp&w=2040&q=75)\\\\\nGet a demo](https://www.copper.com/demos)\n\n![Copper Hero Image](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2Flanding%2FHome-Hero-Mobile.webp&w=2040&q=60)\n\n[![Media employees seated around a table working and talking](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2Flanding%2FHERO_Media.webp&w=2040&q=75)Media](https://www.copper.com/industries/media-crm)\n\n[![A man writing notes in a client meeting](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2Flanding%2FHERO_Finance.webp&w=2040&q=75)Financial Services](https://www.copper.com/industries/financial-services-crm)\n\n[![Production company on set filming a project](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2Flanding%2FHERO_Production.webp&w=2040&q=75)Production](https://www.copper.com/industries/agency-crm)\n\n[![A man and woman reviewing a report while walking](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fcrm-for-consultants-homepage.png&w=2040&q=75)Consulting](https://www.copper.com/industries/consulting-crm)\n\n[![Woman and man looking at laptop together](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2Flanding%2FHERO_Coaching.webp&w=2040&q=75)Coaching](https://www.copper.com/industries/consulting-crm)\n\n[![Two women looking at a laptop together](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fcrm-for-agencies-homepage.png&w=2040&q=75)Agencies](https://www.copper.com/industries/agency-crm)\n\n[![A man nailing decorative trim to the ceiling](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2Flanding%2FHERO_Construction.webp&w=2040&q=75)Construction](https://www.copper.com/industries/construction-crm)\n\n[![A content creator or social media influencer filming content on a set](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2Flanding%2FHERO_Creators.webp&w=2040&q=75)Creators](https://www.copper.com/industries/media-crm)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.182443Z",
+      "section_path": "Be there for your clients,   every step of the way",
+      "chunk_index": 0,
+      "token_count": 594,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_46b203c34ff8",
+      "source_type": "official_docs",
+      "url": "https://copper.com",
+      "domain": "copper.com",
+      "page_title": "CRM Software Solutions Company for Service Businesses | Copper CRM",
+      "content": "Get a bird's-eye view of your team's activity across customer emails, projects, tasks and more.\n\n[![Rekindle emails](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Heart.svg)![Rekindle emails](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Heart-hover.svg)\\\\\n\\\\\n**Rekindle emails** \\\\\n\\\\\nReconnect with contacts you haven't heard from in a while. Automatically.](https://www.copper.com/marketing-tools)\n\n![Get feedback](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/List.svg)![Get feedback](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/List-hover.svg)\n\nOnce a project wraps up, automatically send a follow-up email to request a review or referral.\n\n[![Mobile app](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Mobile.svg)![Mobile app](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Mobile-hover.svg)\\\\\n\\\\\n**Mobile app** \\\\\n\\\\\nMove relationships forward while you're on the go.](https://www.copper.com/mobile-crm)\n\n![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fbento-hero.png&w=1536&q=75)\n\nCopper is purpose-built to help relationship-focused businesses manage their entire customer journey.\n\n[Try Copper free](https://www.copper.com/signup)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.183503Z",
+      "section_path": "Be there for your clients,   every step of the way > Everything you need to do your best work",
+      "chunk_index": 18,
+      "token_count": 335,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_0b25654da1df",
+      "source_type": "official_docs",
+      "url": "https://copper.com",
+      "domain": "copper.com",
+      "page_title": "CRM Software Solutions Company for Service Businesses | Copper CRM",
+      "content": "Copper is purpose-built to help relationship-focused businesses manage their entire customer journey.\n\n[Try Copper free](https://www.copper.com/signup)\n\n![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fbento-hero.png&w=1536&q=75)\n\nTemplates\n\nFrom AI email responses, to pipeline and form templates. Start with one of ours or create your own to save time.\n\n![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fai-email-template.webp&w=1536&q=75)\n\nCustomization\n\nCreate your own labels, tags, owners, and more, so everyone has context and everything stays organized.\n\n![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fcustomization.png&w=960&q=75)\n\nMobile app\n\nLog calls and SMS automatically so every interaction is tracked and accounts are always up to date.\n\n![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fphone-left.png&w=640&q=75)\n\n![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fphone-right.png&w=512&q=75)\n\n[![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fapp-store-button.png&w=320&q=75)](https://apps.apple.com/us/app/copper-crm/id941438829)[![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fplay-store-button.png&w=320&q=75)](https://play.google.com/store/apps/details?id=com.prosperworks.android&hl=en_US)\n\nIntegrations",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.183553Z",
+      "section_path": "Be there for your clients,   every step of the way > Everything you need to do your best work > Stay connected wherever you go",
+      "chunk_index": 19,
+      "token_count": 408,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_e1f9bd01faf8",
+      "source_type": "official_docs",
+      "url": "https://copper.com",
+      "domain": "copper.com",
+      "page_title": "CRM Software Solutions Company for Service Businesses | Copper CRM",
+      "content": "[More happy customers →](https://www.copper.com/resources/case-studies)\n\n![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)\n\n\"The Gmail integration is my favorite Copper feature. It makes it easy to add new leads, people, etc... I also love the task tool and how it integrates with Gmail and Calendar.\"\n\nAtira R.\n\n![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Half star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-half.svg)\n\n\"As a small business I love that Copper can keep my emails and tasks organized. The large CRM platforms were too much. As my day is all email, Copper is just what I need.\"\n\nLiane C.\n\n![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Half star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-half.svg)\n\n\"I love the fact that it integrates perfectly with Google Workspace. This has been an amazing experience for me since I’m always using Gmail, Drive, and Calendar.\"\n\nOtisa E.\n\n![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)\n\n\"Great CRM for Gmail users. Copper's unique angle is that it is tightly integrated with Gmail - so as you're emailing contacts, you can easily add those people and opportunities into your CRM. This makes it very easy to use which saves a lot of time and makes CRM updates less of a chore.\"\n\nAndrew W.\n\n![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Half star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-half.svg)\n\n\"Copper CRM piggy backs right on top of Gmail in a seamless way. \"\n\nJeff L.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.183705Z",
+      "section_path": "Be there for your clients,   every step of the way > Meet the folks who chose Copper",
+      "chunk_index": 21,
+      "token_count": 787,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_5f22e325bf1b",
+      "source_type": "official_docs",
+      "url": "https://copper.com",
+      "domain": "copper.com",
+      "page_title": "CRM Software Solutions Company for Service Businesses | Copper CRM",
+      "content": "![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)\n\n\"I love the Google plugin. My business uses Google Workspace for just about everything we do, and the Copper + Google Workspace integration is fantastic.\"\n\nDaniel K.\n\n![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Half star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-half.svg)\n\n\"Copper keeps track of all correspondence with your customers. It also sends you reminders via email and allows you to email your work colleagues. The layout is very user-friendly, and the information is accessible.\"\n\nKilian E.\n\n![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Half star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-half.svg)\n\n\"Copper CRM helps keep me focused and organized with my business. The pricing is fair and customer service has been great too. I've used it since 2016...and highly recommend it!\"\n\nKevin L.\n\n![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Filled star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-full.svg)![Half star image](https://d2ydtwisqcxv72.cloudfront.net/icons/signup/star-half.svg)\n\n\"Got introduced to Copper for a CRM and it's chef's kiss. It naturally integrates with Google Workspace and has a cute little inbox plug in.\"\n\nSelena B.\n\n> ![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2Fworkspace-crm%2F5stars.png&w=2040&q=75)\n>\n> The Gmail integration is my favorite Copper feature. It makes it easy to add new leads, people, etc... I also love the task tool and how it integrates with Gmail and Calendar.\n\nAtira R.\n\n> ![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2Fworkspace-crm%2F4point5stars.png&w=2040&q=75)\n>\n> As a small business I love that Copper can keep my emails and tasks organized. The large CRM platforms were too much. As my day is all email, Copper is just what I need.\n\nLiane C.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.183776Z",
+      "section_path": "Be there for your clients,   every step of the way > Meet the folks who chose Copper",
+      "chunk_index": 22,
+      "token_count": 776,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_060158e4b1b2",
+      "source_type": "official_docs",
+      "url": "https://copper.com",
+      "domain": "copper.com",
+      "page_title": "CRM Software Solutions Company for Service Businesses | Copper CRM",
+      "content": "Take Copper for a spin first.\n\nPay and add your team later.\n\n[Try Copper free](https://www.copper.com/signup) [![Cursor icon.](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fhomepage%2F2024%2FUniversal-Icon-Cursor.webp&w=2040&q=75)\\\\\nGet a demo](https://www.copper.com/demos)\n\n- ![Check mark](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fhomepage%2F2024%2FIntro-Checkmark.webp&w=48&q=75)Free 14-day trial\n- ![Check mark](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fhomepage%2F2024%2FIntro-Checkmark.webp&w=48&q=75)Instant activation\n- ![Check mark](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fhomepage%2F2024%2FIntro-Checkmark.webp&w=48&q=75)No credit card required\n\n![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fballoon-right.png&w=2040&q=75)\n\n![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fcloud-float-right-bottom.png&w=2040&q=75)\n\n![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fcloud-float-left-top.png&w=2040&q=75)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.184009Z",
+      "section_path": "Be there for your clients,   every step of the way > Get started for free",
+      "chunk_index": 25,
+      "token_count": 323,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_49d273d0059c",
+      "source_type": "official_docs",
+      "url": "https://copper.com",
+      "domain": "copper.com",
+      "page_title": "CRM Software Solutions Company for Service Businesses | Copper CRM",
+      "content": "![Google Workspace](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/features/Google.svg)![Google Workspace Hover](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/features/Google-hover.svg)\n\nGoogle Workspace\n\n![Activity Feed](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/features/Feed.svg)![Activity Feed Hover](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/features/Feed-hover.svg)\n\nActivity Feed\n\n![Sales & Projects](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/features/Project.svg)![Sales & Projects Hover](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/features/Project-hover.svg)\n\nSales & Projects\n\n![Mobile App](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/features/Mobile.svg)![Mobile App Hover](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/features/Mobile-hover.svg)\n\nMobile App\n\n[![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fgoogle-workspace.webp&w=2040&q=75)](https://www.copper.com/google-workspace-crm)\n\n[![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2FActivity-Feed-Updated.webp&w=2040&q=75)](https://www.copper.com/manage-contacts)\n\n[![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2FSales-Projects-Updated.webp&w=2040&q=75)](https://www.copper.com/manage-projects)\n\n[![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2FMobile-app.webp&w=2040&q=75)](https://www.copper.com/mobile-crm)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.182508Z",
+      "section_path": "Be there for your clients,   every step of the way > No more switching tabs. Do it all in Copper",
+      "chunk_index": 1,
+      "token_count": 406,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_455f91e25a52",
+      "source_type": "official_docs",
+      "url": "https://copper.com",
+      "domain": "copper.com",
+      "page_title": "CRM Software Solutions Company for Service Businesses | Copper CRM",
+      "content": "![Campfire logo](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2Findustries%2Fagency%2Flogos%2FLogo-Campfire.png&w=2040&q=75)\n\n![mailchimp logo](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fhomepage%2Flogos-module%2Fcustomer_logo_mailchimp.webp&w=2040&q=75)\n\n![becca logo](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fbecca.webp&w=2040&q=75)\n\n![highdive logo](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fhighdive.webp&w=2040&q=75)\n\n![marauder logo](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fmarauder.webp&w=2040&q=75)\n\n![udacity logo](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fhomepage%2Flogos-module%2Fcustomer-logo-udacity.webp&w=2040&q=75)\n\n![the sociable society logo](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fthe-sociable-society.png&w=2040&q=75)\n\n![Campfire logo](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2Findustries%2Fagency%2Flogos%2FLogo-Campfire.png&w=2040&q=75)\n\n![mailchimp logo](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fhomepage%2Flogos-module%2Fcustomer_logo_mailchimp.webp&w=2040&q=75)\n\n![shipt logo](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fhomepage%2Flogos-module%2Fcustomer_logo_shipt.webp&w=2040&q=75)\n\n![swel logo](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fhomepage%2Flogos-module%2Fcustomer_logo_swell.webp&w=2040&q=75)\n\n![the sociable society logo](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fsocial-next.png&w=2040&q=75)\n\n![udacity logo](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fhomepage%2Flogos-module%2Fcustomer-logo-udacity.webp&w=2040&q=75)\n\n![the sociable society logo](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fthe-sociable-society.png&w=2040&q=75)\n\n![Campfire logo](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2Findustries%2Fagency%2Flogos%2FLogo-Campfire.png&w=2040&q=75)\n\n![mailchimp logo](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fhomepage%2Flogos-module%2Fcustomer_logo_mailchimp.webp&w=2040&q=75)\n\n![becca logo](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fbecca.webp&w=2040&q=75)\n\n![highdive logo](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fhighdive.webp&w=2040&q=75)\n\n![marauder logo](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fmarauder.webp&w=2040&q=75)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.182590Z",
+      "section_path": "Be there for your clients,   every step of the way > Copper is trusted by 30,000+ companies of all sizes",
+      "chunk_index": 2,
+      "token_count": 776,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_e74a4bab3789",
+      "source_type": "official_docs",
+      "url": "https://copper.com",
+      "domain": "copper.com",
+      "page_title": "CRM Software Solutions Company for Service Businesses | Copper CRM",
+      "content": "![udacity logo](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fhomepage%2Flogos-module%2Fcustomer-logo-udacity.webp&w=2040&q=75)\n\n![the sociable society logo](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fthe-sociable-society.png&w=2040&q=75)\n\n![Campfire logo](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2Findustries%2Fagency%2Flogos%2FLogo-Campfire.png&w=2040&q=75)\n\n![mailchimp logo](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fhomepage%2Flogos-module%2Fcustomer_logo_mailchimp.webp&w=2040&q=75)\n\n![shipt logo](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fhomepage%2Flogos-module%2Fcustomer_logo_shipt.webp&w=2040&q=75)\n\n![swel logo](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fhomepage%2Flogos-module%2Fcustomer_logo_swell.webp&w=2040&q=75)\n\n![the sociable society logo](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fsocial-next.png&w=2040&q=75)\n\n![udacity logo](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fhomepage%2Flogos-module%2Fcustomer-logo-udacity.webp&w=2040&q=75)\n\n![the sociable society logo](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fthe-sociable-society.png&w=2040&q=75)\n\n![Dashes](https://d2ydtwisqcxv72.cloudfront.net/industries/common/Dashes.svg)\n\n\"I work in consulting andkeeping my tech stack small is important. I don't want to spend all day clicking between apps just to get work done.Copper's\n\n![](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fhomepage%2F2024%2Fintro-icons-5.webp&w=2040&q=75)\n\nsmooth integrationwith Gmail\n![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Ficons%2Fhomepage%2Fgmail.png&w=2040&q=75)\nis a godsend.\"\n\n![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Ficons%2Fhomepage%2Fkristen.png&w=2040&q=75)\n\nKristen S\n\nCEO\n\nOrderology\n\n![Dashes](https://d2ydtwisqcxv72.cloudfront.net/industries/common/Dashes.svg)![](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/potted-plant.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.182657Z",
+      "section_path": "Be there for your clients,   every step of the way > Copper is trusted by 30,000+ companies of all sizes",
+      "chunk_index": 3,
+      "token_count": 607,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_4274104038b4",
+      "source_type": "official_docs",
+      "url": "https://copper.com",
+      "domain": "copper.com",
+      "page_title": "CRM Software Solutions Company for Service Businesses | Copper CRM",
+      "content": "![Connect](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Ficons%2Fhomepage%2Fcardbuttons%2Fconnect.png&w=2040&q=75)![Connect Hover](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Ficons%2Fhomepage%2Fcardbuttons%2Fconnect.png&w=2040&q=75)\n\nConnect\n\n![Win](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Ficons%2Fhomepage%2Fcardbuttons%2Fwin.png&w=2040&q=75)![Win Hover](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Ficons%2Fhomepage%2Fcardbuttons%2Fwin.png&w=2040&q=75)\n\nWin\n\n![Deliver](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Ficons%2Fhomepage%2Fcardbuttons%2Fdeliver.png&w=2040&q=75)![Deliver Hover](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Ficons%2Fhomepage%2Fcardbuttons%2Fdeliver.png&w=2040&q=75)\n\nDeliver\n\n![Repeat](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Ficons%2Fhomepage%2Fcardbuttons%2Fgrow.png&w=2040&q=75)![Repeat Hover](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Ficons%2Fhomepage%2Fcardbuttons%2Fgrow.png&w=2040&q=75)\n\nRepeat\n\n![Gmail and CRM](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fconnect-image.webp&w=2040&q=75)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.182702Z",
+      "section_path": "Be there for your clients,   every step of the way > Your entire customer journey in one place",
+      "chunk_index": 4,
+      "token_count": 367,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_c1b382bb6ff0",
+      "source_type": "official_docs",
+      "url": "https://copper.com",
+      "domain": "copper.com",
+      "page_title": "CRM Software Solutions Company for Service Businesses | Copper CRM",
+      "content": "Whether it's referrals, paid ads, events or organic, wherever your leads come from, Copper can collect and take immediate action.\n\n[![Add every lead](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Form.svg)![Add every lead](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Form-hover.svg)\\\\\n\\\\\n**Add every lead** \\\\\n\\\\\nUse our contact form for website visitors, or scan business cards at events.](https://www.copper.com/manage-contacts) [![Email Series + Automation](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Send.svg)![Email Series + Automation](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Send-hover.svg)\\\\\n\\\\\n**Email Series + Automation** \\\\\n\\\\\nRespond instantly to form submissions and send welcome or follow up emails.](https://www.copper.com/marketing-tools) [![Google Workspace](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/GoogleSuite.svg)![Google Workspace](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/GoogleSuite-hover.svg)\\\\\n\\\\\n**Google Workspace** \\\\\n\\\\\nAdd leads, track conversations, find files or manage tasks directly in Gmail and Google Calendar.](https://www.copper.com/google-workspace-crm) [![LinkedIn](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/LightningBolt.svg)![LinkedIn](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/LightningBolt-hover.svg)\\\\\n\\\\\n**LinkedIn** \\\\\n\\\\\nResearch and add prospects on LinkedIn (or any website) without switching tabs.](https://www.copper.com/linkedin-crm)\n\n[![Add every lead](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Form.svg)![Add every lead](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Form-hover.svg)\\\\\n\\\\\n**Add every lead** \\\\\n\\\\\nUse our contact form for website visitors, or scan business cards at events.](https://www.copper.com/manage-contacts) [![Email Series + Automation](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Send.svg)![Email Series + Automation](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Send-hover.svg)\\\\\n\\\\\n**Email Series + Automation** \\\\\n\\\\\nRespond instantly to form submissions and send welcome or follow up emails.](https://www.copper.com/marketing-tools) [![Google Workspace](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/GoogleSuite.svg)![Google Workspace](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/GoogleSuite-hover.svg)\\\\\n\\\\\n**Google Workspace** \\\\\n\\\\\nAdd leads, track conversations, find files or manage tasks directly in Gmail and Google Calendar.](https://www.copper.com/google-workspace-crm) [![LinkedIn](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/LightningBolt.svg)![LinkedIn](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/LightningBolt-hover.svg)\\\\\n\\\\\n**LinkedIn** \\\\\n\\\\\nResearch and add prospects on LinkedIn (or any website) without switching tabs.](https://www.copper.com/linkedin-crm)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.182781Z",
+      "section_path": "Be there for your clients,   every step of the way > Connect with leads",
+      "chunk_index": 5,
+      "token_count": 771,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_9a4b4104d3be",
+      "source_type": "official_docs",
+      "url": "https://copper.com",
+      "domain": "copper.com",
+      "page_title": "CRM Software Solutions Company for Service Businesses | Copper CRM",
+      "content": "![Gmail and CRM](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fwin-image.webp&w=2040&q=75)\n\nKnow where every lead is at in your sales process and move opportunities to the next stage. Sort by value, understand the win probability, and identify slipping deals.\n\n[![Pipelines](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Pipeline.svg)![Pipelines](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Pipeline-hover.svg)\\\\\n\\\\\n**Pipelines** \\\\\n\\\\\nMake sales more visual using drag-and-drop pipelines with AI-powered flags and alerts.](https://www.copper.com/track-leads) [![Pipeline automations](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Send.svg)![Pipeline automations](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Send-hover.svg)\\\\\n\\\\\n**Pipeline automations** \\\\\n\\\\\nAutomatically trigger emails or reminders when you move an opportunity to the next stage.](https://www.copper.com/track-leads) [![Reporting](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/PieChart.svg)![Reporting](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/PieChart-hover.svg)\\\\\n\\\\\n**Reporting** \\\\\n\\\\\nCreate custom reports to project revenue, identify customer trends, view team activity, and more.](https://www.copper.com/sales-reporting)\n\n![Contracts & proposals](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Note.svg)![Contracts & proposals](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Note-hover.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.182833Z",
+      "section_path": "Be there for your clients,   every step of the way > Win deals",
+      "chunk_index": 6,
+      "token_count": 405,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_2c3fe8477091",
+      "source_type": "official_docs",
+      "url": "https://copper.com",
+      "domain": "copper.com",
+      "page_title": "CRM Software Solutions Company for Service Businesses | Copper CRM",
+      "content": "Draft in Google Docs, or integrate with tools like PandaDoc, DocuSign and QuickBooks for a seamless sales process.\n\n[![Pipelines](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Pipeline.svg)![Pipelines](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Pipeline-hover.svg)\\\\\n\\\\\n**Pipelines** \\\\\n\\\\\nMake sales more visual using drag-and-drop pipelines with AI-powered flags and alerts.](https://www.copper.com/track-leads) [![Pipeline automations](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Send.svg)![Pipeline automations](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Send-hover.svg)\\\\\n\\\\\n**Pipeline automations** \\\\\n\\\\\nAutomatically trigger emails or reminders when you move an opportunity to the next stage.](https://www.copper.com/track-leads) [![Reporting](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/PieChart.svg)![Reporting](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/PieChart-hover.svg)\\\\\n\\\\\n**Reporting** \\\\\n\\\\\nCreate custom reports to project revenue, identify customer trends, view team activity, and more.](https://www.copper.com/sales-reporting)\n\n![Contracts & proposals](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Note.svg)![Contracts & proposals](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Note-hover.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.182876Z",
+      "section_path": "Be there for your clients,   every step of the way > Win deals > Contracts & proposals",
+      "chunk_index": 7,
+      "token_count": 355,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_662f8294c1e3",
+      "source_type": "official_docs",
+      "url": "https://copper.com",
+      "domain": "copper.com",
+      "page_title": "CRM Software Solutions Company for Service Businesses | Copper CRM",
+      "content": "Draft in Google Docs, or integrate with tools like PandaDoc, DocuSign and QuickBooks for a seamless sales process.\n\n![Gmail and CRM](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fdeliver-image.webp&w=2040&q=75)\n\nKick off a new project directly from a closed opportunity. Say goodbye to handoff documents, your entire team can finally live in a single tool.\n\n[![Project management](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Pipeline.svg)![Project management](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Pipeline-hover.svg)\\\\\n\\\\\n**Project management** \\\\\n\\\\\nDuplicate your closed deals into a project to handle service delivery, onboarding and more.](https://www.copper.com/manage-projects)\n\n![Tasks](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Task.svg)![Tasks](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Task-hover.svg)\n\nAssign tasks and follow-ups from a centralized task lists, or within projects.\n\n[![Task & workflow automation](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/LightningBolt.svg)![Task & workflow automation](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/LightningBolt-hover.svg)\\\\\n\\\\\n**Task & workflow automation** \\\\\n\\\\\nStop doing admin work. Log calls, meetings, asks and activities without lifting a finger.](https://www.copper.com/automate-sales)\n\n![Collaboration](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/People.svg)![Collaboration](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/People-hover.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.182928Z",
+      "section_path": "Be there for your clients,   every step of the way > Deliver projects > Tasks",
+      "chunk_index": 8,
+      "token_count": 421,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_1a86fd696bf9",
+      "source_type": "official_docs",
+      "url": "https://copper.com",
+      "domain": "copper.com",
+      "page_title": "CRM Software Solutions Company for Service Businesses | Copper CRM",
+      "content": "Bring the whole family – sales, project managers, creatives, finance, contractors and more.\n\n[![Project management](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Pipeline.svg)![Project management](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Pipeline-hover.svg)\\\\\n\\\\\n**Project management** \\\\\n\\\\\nDuplicate your closed deals into a project to handle service delivery, onboarding and more.](https://www.copper.com/manage-projects)\n\n![Tasks](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Task.svg)![Tasks](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Task-hover.svg)\n\nAssign tasks and follow-ups from a centralized task lists, or within projects.\n\n[![Task & workflow automation](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/LightningBolt.svg)![Task & workflow automation](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/LightningBolt-hover.svg)\\\\\n\\\\\n**Task & workflow automation** \\\\\n\\\\\nStop doing admin work. Log calls, meetings, asks and activities without lifting a finger.](https://www.copper.com/automate-sales)\n\n![Collaboration](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/People.svg)![Collaboration](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/People-hover.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.182994Z",
+      "section_path": "Be there for your clients,   every step of the way > Deliver projects > Tasks",
+      "chunk_index": 9,
+      "token_count": 340,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_ab012d51ebbb",
+      "source_type": "official_docs",
+      "url": "https://copper.com",
+      "domain": "copper.com",
+      "page_title": "CRM Software Solutions Company for Service Businesses | Copper CRM",
+      "content": "Bring the whole family – sales, project managers, creatives, finance, contractors and more.\n\n![Gmail and CRM](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fcreate-repeat-image.webp&w=2040&q=75)\n\nLoyal customers fuel long-term success. Stay engaged, follow up with ease, and never miss an opportunity to reconnect.\n\n![Feed](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Feed.svg)![Feed](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Feed-hover.svg)\n\nGet a bird's-eye view of your team's activity across customer emails, projects, tasks and more.\n\n[![Rekindle emails](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Heart.svg)![Rekindle emails](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Heart-hover.svg)\\\\\n\\\\\n**Rekindle emails** \\\\\n\\\\\nReconnect with contacts you haven't heard from in a while. Automatically.](https://www.copper.com/marketing-tools)\n\n![Get feedback](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/List.svg)![Get feedback](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/List-hover.svg)\n\nOnce a project wraps up, automatically send a follow-up email to request a review or referral.\n\n[![Mobile app](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Mobile.svg)![Mobile app](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Mobile-hover.svg)\\\\\n\\\\\n**Mobile app** \\\\\n\\\\\nMove relationships forward while you're on the go.](https://www.copper.com/mobile-crm)\n\n![Feed](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Feed.svg)![Feed](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Feed-hover.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.183064Z",
+      "section_path": "Be there for your clients,   every step of the way > Create repeat business > Get feedback",
+      "chunk_index": 10,
+      "token_count": 447,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_513b661faabc",
+      "source_type": "official_docs",
+      "url": "https://copper.com",
+      "domain": "copper.com",
+      "page_title": "CRM Software Solutions Company for Service Businesses | Copper CRM",
+      "content": "Get a bird's-eye view of your team's activity across customer emails, projects, tasks and more.\n\n[![Rekindle emails](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Heart.svg)![Rekindle emails](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Heart-hover.svg)\\\\\n\\\\\n**Rekindle emails** \\\\\n\\\\\nReconnect with contacts you haven't heard from in a while. Automatically.](https://www.copper.com/marketing-tools)\n\n![Get feedback](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/List.svg)![Get feedback](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/List-hover.svg)\n\nOnce a project wraps up, automatically send a follow-up email to request a review or referral.\n\n[![Mobile app](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Mobile.svg)![Mobile app](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Mobile-hover.svg)\\\\\n\\\\\n**Mobile app** \\\\\n\\\\\nMove relationships forward while you're on the go.](https://www.copper.com/mobile-crm)\n\n![Gmail and CRM](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fconnect-image.webp&w=2040&q=75)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.183105Z",
+      "section_path": "Be there for your clients,   every step of the way > Create repeat business > Get feedback",
+      "chunk_index": 11,
+      "token_count": 301,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_37a6e81148e4",
+      "source_type": "official_docs",
+      "url": "https://copper.com",
+      "domain": "copper.com",
+      "page_title": "CRM Software Solutions Company for Service Businesses | Copper CRM",
+      "content": "Whether it's referrals, paid ads, events or organic, wherever your leads come from, Copper can collect and take immediate action.\n\n[![Add every lead](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Form.svg)![Add every lead](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Form-hover.svg)\\\\\n\\\\\n**Add every lead** \\\\\n\\\\\nUse our contact form for website visitors, or scan business cards at events.](https://www.copper.com/manage-contacts) [![Email Series + Automation](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Send.svg)![Email Series + Automation](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Send-hover.svg)\\\\\n\\\\\n**Email Series + Automation** \\\\\n\\\\\nRespond instantly to form submissions and send welcome or follow up emails.](https://www.copper.com/marketing-tools) [![Google Workspace](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/GoogleSuite.svg)![Google Workspace](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/GoogleSuite-hover.svg)\\\\\n\\\\\n**Google Workspace** \\\\\n\\\\\nAdd leads, track conversations, find files or manage tasks directly in Gmail and Google Calendar.](https://www.copper.com/google-workspace-crm) [![LinkedIn](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/LightningBolt.svg)![LinkedIn](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/LightningBolt-hover.svg)\\\\\n\\\\\n**LinkedIn** \\\\\n\\\\\nResearch and add prospects on LinkedIn (or any website) without switching tabs.](https://www.copper.com/linkedin-crm)\n\n[![Add every lead](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Form.svg)![Add every lead](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Form-hover.svg)\\\\\n\\\\\n**Add every lead** \\\\\n\\\\\nUse our contact form for website visitors, or scan business cards at events.](https://www.copper.com/manage-contacts) [![Email Series + Automation](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Send.svg)![Email Series + Automation](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Send-hover.svg)\\\\\n\\\\\n**Email Series + Automation** \\\\\n\\\\\nRespond instantly to form submissions and send welcome or follow up emails.](https://www.copper.com/marketing-tools) [![Google Workspace](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/GoogleSuite.svg)![Google Workspace](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/GoogleSuite-hover.svg)\\\\\n\\\\\n**Google Workspace** \\\\\n\\\\\nAdd leads, track conversations, find files or manage tasks directly in Gmail and Google Calendar.](https://www.copper.com/google-workspace-crm) [![LinkedIn](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/LightningBolt.svg)![LinkedIn](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/LightningBolt-hover.svg)\\\\\n\\\\\n**LinkedIn** \\\\\n\\\\\nResearch and add prospects on LinkedIn (or any website) without switching tabs.](https://www.copper.com/linkedin-crm)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.183183Z",
+      "section_path": "Be there for your clients,   every step of the way > Connect with leads",
+      "chunk_index": 12,
+      "token_count": 771,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_8a876669f753",
+      "source_type": "official_docs",
+      "url": "https://copper.com",
+      "domain": "copper.com",
+      "page_title": "CRM Software Solutions Company for Service Businesses | Copper CRM",
+      "content": "![Gmail and CRM](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fwin-image.webp&w=2040&q=75)\n\nKnow where every lead is at in your sales process and move opportunities to the next stage. Sort by value, understand the win probability, and identify slipping deals.\n\n[![Pipelines](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Pipeline.svg)![Pipelines](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Pipeline-hover.svg)\\\\\n\\\\\n**Pipelines** \\\\\n\\\\\nMake sales more visual using drag-and-drop pipelines with AI-powered flags and alerts.](https://www.copper.com/track-leads) [![Pipeline automations](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Send.svg)![Pipeline automations](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Send-hover.svg)\\\\\n\\\\\n**Pipeline automations** \\\\\n\\\\\nAutomatically trigger emails or reminders when you move an opportunity to the next stage.](https://www.copper.com/track-leads) [![Reporting](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/PieChart.svg)![Reporting](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/PieChart-hover.svg)\\\\\n\\\\\n**Reporting** \\\\\n\\\\\nCreate custom reports to project revenue, identify customer trends, view team activity, and more.](https://www.copper.com/sales-reporting)\n\n![Contracts & proposals](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Note.svg)![Contracts & proposals](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Note-hover.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.183235Z",
+      "section_path": "Be there for your clients,   every step of the way > Win deals",
+      "chunk_index": 13,
+      "token_count": 405,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_807290b1ee34",
+      "source_type": "official_docs",
+      "url": "https://copper.com",
+      "domain": "copper.com",
+      "page_title": "CRM Software Solutions Company for Service Businesses | Copper CRM",
+      "content": "Draft in Google Docs, or integrate with tools like PandaDoc, DocuSign and QuickBooks for a seamless sales process.\n\n[![Pipelines](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Pipeline.svg)![Pipelines](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Pipeline-hover.svg)\\\\\n\\\\\n**Pipelines** \\\\\n\\\\\nMake sales more visual using drag-and-drop pipelines with AI-powered flags and alerts.](https://www.copper.com/track-leads) [![Pipeline automations](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Send.svg)![Pipeline automations](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Send-hover.svg)\\\\\n\\\\\n**Pipeline automations** \\\\\n\\\\\nAutomatically trigger emails or reminders when you move an opportunity to the next stage.](https://www.copper.com/track-leads) [![Reporting](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/PieChart.svg)![Reporting](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/PieChart-hover.svg)\\\\\n\\\\\n**Reporting** \\\\\n\\\\\nCreate custom reports to project revenue, identify customer trends, view team activity, and more.](https://www.copper.com/sales-reporting)\n\n![Contracts & proposals](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Note.svg)![Contracts & proposals](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Note-hover.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.183278Z",
+      "section_path": "Be there for your clients,   every step of the way > Win deals > Contracts & proposals",
+      "chunk_index": 14,
+      "token_count": 355,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_7f571dab9c61",
+      "source_type": "official_docs",
+      "url": "https://copper.com",
+      "domain": "copper.com",
+      "page_title": "CRM Software Solutions Company for Service Businesses | Copper CRM",
+      "content": "Draft in Google Docs, or integrate with tools like PandaDoc, DocuSign and QuickBooks for a seamless sales process.\n\n![Gmail and CRM](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fdeliver-image.webp&w=2040&q=75)\n\nKick off a new project directly from a closed opportunity. Say goodbye to handoff documents, your entire team can finally live in a single tool.\n\n[![Project management](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Pipeline.svg)![Project management](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Pipeline-hover.svg)\\\\\n\\\\\n**Project management** \\\\\n\\\\\nDuplicate your closed deals into a project to handle service delivery, onboarding and more.](https://www.copper.com/manage-projects)\n\n![Tasks](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Task.svg)![Tasks](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Task-hover.svg)\n\nAssign tasks and follow-ups from a centralized task lists, or within projects.\n\n[![Task & workflow automation](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/LightningBolt.svg)![Task & workflow automation](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/LightningBolt-hover.svg)\\\\\n\\\\\n**Task & workflow automation** \\\\\n\\\\\nStop doing admin work. Log calls, meetings, asks and activities without lifting a finger.](https://www.copper.com/automate-sales)\n\n![Collaboration](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/People.svg)![Collaboration](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/People-hover.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.183329Z",
+      "section_path": "Be there for your clients,   every step of the way > Deliver projects > Tasks",
+      "chunk_index": 15,
+      "token_count": 421,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_07b5bd4ba8f7",
+      "source_type": "official_docs",
+      "url": "https://copper.com",
+      "domain": "copper.com",
+      "page_title": "CRM Software Solutions Company for Service Businesses | Copper CRM",
+      "content": "Bring the whole family – sales, project managers, creatives, finance, contractors and more.\n\n[![Project management](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Pipeline.svg)![Project management](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Pipeline-hover.svg)\\\\\n\\\\\n**Project management** \\\\\n\\\\\nDuplicate your closed deals into a project to handle service delivery, onboarding and more.](https://www.copper.com/manage-projects)\n\n![Tasks](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Task.svg)![Tasks](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Task-hover.svg)\n\nAssign tasks and follow-ups from a centralized task lists, or within projects.\n\n[![Task & workflow automation](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/LightningBolt.svg)![Task & workflow automation](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/LightningBolt-hover.svg)\\\\\n\\\\\n**Task & workflow automation** \\\\\n\\\\\nStop doing admin work. Log calls, meetings, asks and activities without lifting a finger.](https://www.copper.com/automate-sales)\n\n![Collaboration](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/People.svg)![Collaboration](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/People-hover.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.183384Z",
+      "section_path": "Be there for your clients,   every step of the way > Deliver projects > Tasks",
+      "chunk_index": 16,
+      "token_count": 340,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_c2310b69b7d9",
+      "source_type": "official_docs",
+      "url": "https://copper.com",
+      "domain": "copper.com",
+      "page_title": "CRM Software Solutions Company for Service Businesses | Copper CRM",
+      "content": "Bring the whole family – sales, project managers, creatives, finance, contractors and more.\n\n![Gmail and CRM](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fcreate-repeat-image.webp&w=2040&q=75)\n\nLoyal customers fuel long-term success. Stay engaged, follow up with ease, and never miss an opportunity to reconnect.\n\n![Feed](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Feed.svg)![Feed](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Feed-hover.svg)\n\nGet a bird's-eye view of your team's activity across customer emails, projects, tasks and more.\n\n[![Rekindle emails](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Heart.svg)![Rekindle emails](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Heart-hover.svg)\\\\\n\\\\\n**Rekindle emails** \\\\\n\\\\\nReconnect with contacts you haven't heard from in a while. Automatically.](https://www.copper.com/marketing-tools)\n\n![Get feedback](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/List.svg)![Get feedback](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/List-hover.svg)\n\nOnce a project wraps up, automatically send a follow-up email to request a review or referral.\n\n[![Mobile app](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Mobile.svg)![Mobile app](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Mobile-hover.svg)\\\\\n\\\\\n**Mobile app** \\\\\n\\\\\nMove relationships forward while you're on the go.](https://www.copper.com/mobile-crm)\n\n![Feed](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Feed.svg)![Feed](https://d2ydtwisqcxv72.cloudfront.net/2025/icons/homepage/cardbullets/Feed-hover.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.183460Z",
+      "section_path": "Be there for your clients,   every step of the way > Create repeat business > Get feedback",
+      "chunk_index": 17,
+      "token_count": 447,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_c6e9fc092f7a",
+      "source_type": "official_docs",
+      "url": "https://copper.com",
+      "domain": "copper.com",
+      "page_title": "CRM Software Solutions Company for Service Businesses | Copper CRM",
+      "content": "Copper's powerful integrations seamlessly connect with your favorite tools to bring in even more customer information.\n\n![Integration example](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fintegrations-image.png&w=2040&q=100)![Integration example](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fintegrations-mobile.png&w=2040&q=100)\n\n![Chandler Navarrete Quote](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2Findustries%2Fagency%2FTestimonial-1.png&w=2040&q=75)\n\n![Chandler Navarrete Quote](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2Findustries%2Fagency%2FTestimonial-1.png&w=2040&q=75)\n\n\"With Copper\n\n![](https://www.copper.com/_next/image?url=https%3A%2F%2Fcopper-nextjs.s3.amazonaws.com%2Fimgs%2Fhomepage%2F2024%2Fintro-icons-5.webp&w=2040&q=75)\n\n, there wasalmost no setup timesince it worked with Gmail\n\n![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Ficons%2Fhomepage%2Fgmail.png&w=2040&q=75)\n\n. Plus, there were all theseintegrationsthat we could use right away. We were sold.\"\n\n[Learn how Polymath uses Copper\\\\\n→](https://www.copper.com/resources/polymath-expands-customer-relationships-and-engages-new-audiences-with-copper-x-mailchimp-2)\n\n![Contact Profile](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2Fworkspace-crm%2Frating-stars.webp&w=1536&q=75)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.183618Z",
+      "section_path": "Be there for your clients,   every step of the way > Everything you need to do your best work > Connect the tools you’re already using",
+      "chunk_index": 20,
+      "token_count": 385,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_573dcb661d0c",
+      "source_type": "official_docs",
+      "url": "https://copper.com",
+      "domain": "copper.com",
+      "page_title": "CRM Software Solutions Company for Service Businesses | Copper CRM",
+      "content": "> ![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2Fworkspace-crm%2F4point5stars.png&w=2040&q=75)\n>\n> Great CRM for Gmail users. Copper's unique angle is that it is tightly integrated with Gmail - so as you're emailing contacts, you can easily add those people and opportunities into your CRM. This makes it very easy to use which saves a lot of time and makes CRM updates less of a chore.\n\nAndrew W.\n\n> ![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2Fworkspace-crm%2F5stars.png&w=2040&q=75)\n>\n> I love the fact that it integrates perfectly with Google Workspace. This has been an amazing experience for me since I’m always using Gmail, Drive, and Calendar.\n\nOtisa E.\n\n> ![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2Fworkspace-crm%2F4point5stars.png&w=2040&q=75)\n>\n> Copper CRM piggy backs right on top of Gmail in a seamless way.\n\nJeff L.\n\n> ![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2Fworkspace-crm%2F5stars.png&w=2040&q=75)\n>\n> I love the Google plugin. My business uses Google Workspace for just about everything we do, and the Copper + Google Workspace integration is fantastic.\n\nDaniel K.\n\n> ![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2Fworkspace-crm%2F5stars.png&w=2040&q=75)\n>\n> The Gmail integration is my favorite Copper feature. It makes it easy to add new leads, people, etc... I also love the task tool and how it integrates with Gmail and Calendar.\n\nAtira R.\n\n> ![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2Fworkspace-crm%2F4point5stars.png&w=2040&q=75)\n>\n> As a small business I love that Copper can keep my emails and tasks organized. The large CRM platforms were too much. As my day is all email, Copper is just what I need.\n\nLiane C.\n\n> ![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2Fworkspace-crm%2F4point5stars.png&w=2040&q=75)\n>\n> Great CRM for Gmail users. Copper's unique angle is that it is tightly integrated with Gmail - so as you're emailing contacts, you can easily add those people and opportunities into your CRM. This makes it very easy to use which saves a lot of time and makes CRM updates less of a chore.\n\nAndrew W.\n\n> ![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2Fworkspace-crm%2F5stars.png&w=2040&q=75)\n>\n> I love the fact that it integrates perfectly with Google Workspace. This has been an amazing experience for me since I’m always using Gmail, Drive, and Calendar.\n\nOtisa E.\n\n> ![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2Fworkspace-crm%2F4point5stars.png&w=2040&q=75)\n>\n> Copper CRM piggy backs right on top of Gmail in a seamless way.\n\nJeff L.\n\n> ![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2Fworkspace-crm%2F5stars.png&w=2040&q=75)\n>\n> I love the Google plugin. My business uses Google Workspace for just about everything we do, and the Copper + Google Workspace integration is fantastic.\n\nDaniel K.\n\n\"It's like those CRM's we used to use, exceptthis one actually works\".",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.183884Z",
+      "section_path": "Be there for your clients,   every step of the way > Meet the folks who chose Copper",
+      "chunk_index": 23,
+      "token_count": 810,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_1f6c03663909",
+      "source_type": "official_docs",
+      "url": "https://copper.com",
+      "domain": "copper.com",
+      "page_title": "CRM Software Solutions Company for Service Businesses | Copper CRM",
+      "content": "![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fbilly.png&w=2040&q=75)\n\nBilly\n\nAccount Manager / Client Superstar 🤩\n\n![Video thumbnail](https://fast.wistia.com/embed/medias/eceke5qhro/swatch)\n\n![Video Thumbnail](https://fast.wistia.com/embed/medias/eceke5qhro/swatch)\n\n![Video Thumbnail](https://embed-ssl.wistia.com/deliveries/1ea7de132e517ac491a1a6046a639173a5bcf680.webp?image_crop_resized=640x801)\n\nClick for sound\n\n![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fplay.png&w=2040&q=75)\n\n![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Feyes.png&w=2040&q=75)\n\n![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fmug.png&w=2040&q=75)\n\n![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fcorner-cloud-left.webp&w=2040&q=75)\n\n![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fcorner-cloud-right.webp&w=2040&q=75)\n\n![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fcloud-float-left-bottom.png&w=2040&q=75)\n\n![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fcloud-float-left-top.png&w=2040&q=75)\n\n![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fballoon-left-full.png&w=2040&q=75)\n\n![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fballoon-right.png&w=2040&q=75)\n\n![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fcorner-cloud-left.webp&w=2040&q=75)\n\n![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fcorner-cloud-right.webp&w=2040&q=75)\n\n![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fcloud-float-left-bottom.png&w=2040&q=75)\n\n![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fcloud-float-left-top.png&w=2040&q=75)\n\n![](https://www.copper.com/_next/image?url=https%3A%2F%2Fd2ydtwisqcxv72.cloudfront.net%2F2025%2Fhomepage%2Fballoon-left-full.png&w=2040&q=75)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:06.183966Z",
+      "section_path": "Be there for your clients,   every step of the way > Meet the folks who chose Copper",
+      "chunk_index": 24,
+      "token_count": 614,
+      "quality_score": 0.36
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Copper is the CRM designed for Google Workspace.",
+      "evidence_ids": [
+        "ev_f1d58458ad80"
+      ]
+    },
+    "category": {
+      "value": "CRM and Sales",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_c657fe8c9175"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_761b87e0793e"
+      ]
+    },
+    "api_surface": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_04a3c56475dc"
+      ]
+    },
+    "api_breadth": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_04a3c56475dc"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_04a3c56475dc"
+      ]
+    },
+    "buildability": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_04a3c56475dc"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_04a3c56475dc"
+      ]
+    }
+  },
+  "validation": {
+    "status": "INSUFFICIENT_EVIDENCE",
+    "score": 0.25,
+    "fields_checked": 8,
+    "fields_supported": 2,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "auth_methods",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'auth_methods' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "api_surface",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_surface' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "api_breadth",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_breadth' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "buildability",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'buildability' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": {
+    "verified_fields": [],
+    "corrections": {},
+    "screenshots": [],
+    "notes": ""
+  },
+  "pipeline_confidence": 0.25,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.25 below 0.90 threshold",
+      "Auth methods missing or UNKNOWN"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

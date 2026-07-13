@@ -1,0 +1,493 @@
+{
+  "app": {
+    "id": 20,
+    "name": "Gladly",
+    "website": "gladly.com",
+    "category_hint": "Support and Helpdesk"
+  },
+  "documentation_map": {
+    "app_name": "Gladly",
+    "official_domain": "gladly.com",
+    "homepage": {
+      "url": "https://gladly.com",
+      "title": "Gladly",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://help.gladly.com/oauth",
+        "title": "",
+        "confidence": 0.85,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": null,
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": null,
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": null,
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://help.gladly.com/docs",
+        "title": "",
+        "confidence": 0.85,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": {
+      "url": "https://gladly.com/llms.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "Gladly",
+      "official_domain": "gladly.com",
+      "items": [
+        {
+          "url": "https://gladly.com",
+          "page_type": "homepage",
+          "title": "Gladly",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://help.gladly.com/oauth",
+          "page_type": "authentication",
+          "title": "",
+          "confidence": 0.85,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://help.gladly.com/docs",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.85,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 3,
+        "urls_discovered": 3,
+        "official_urls": 3,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 3
+      }
+    },
+    "stats": {
+      "queries": 3,
+      "urls_discovered": 3,
+      "official_urls": 3,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 3
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_3c3a3e99535f",
+      "source_type": "llms_txt",
+      "url": "https://gladly.com/llms.txt",
+      "domain": "gladly.com",
+      "page_title": "llms.txt index",
+      "content": "\\## \\*\\*Gladly Customer Experience AI\\*\\*\n\\- \\[Customer experience AI for brands who do AI right\\](https://www.gladly.ai/why-gladly/): The only customer experience AI purpose-built to engage, not deflect. When you deploy AI that your customers actually enjoy using, efficiency follows. Gladly tailors experiences to each customer to replace friction with delight.\n\\- \\[The only AI that drives long-term devotion\\](https://www.gladly.ai/product/): From automated conversations to supporting your team members, Gladly powers experiences that engage customers in ways that deliver the outcomes that drive customer devotion.\n\\- \\[Become a Gladly partner\\](https://www.gladly.ai/partner/): Partner with Gladly to help brands deliver customer experience AI that drives efficiency and lasting customer value.\n\\- \\[AI built for devotion, not deflection\\](https://www.gladly.ai/ai-customer-service-agent/) Gladly customer experience AI is the only solution designed to build customer devotion—transforming how brand from being an option to the only option— driving real business impact without trade-offs in operational efficiency.\n\\- \\[Insights & resources for brand to drive customer devotion\\](https://www.gladly.ai/customer-service-reports-guides/): Learn how to deliver exceptional customer experiences that scale—without sacrificing quality or care.\n\\- \\[See Gladly CX AI in action\\](https://www.gladly.ai/get-started/): See how Gladly customer experience AI delivers fast resolutions and meaningful customer engagement.\n\\- \\[Experience the power of CX built for your customers\\](https://www.gladly.ai/gladly-demo/): Are you a business leader who wants to get AI right? Discover how Gladly helps businesses scale customer experience without tradeoffs—combining speed, rich context, and genuine human connection to deliver lasting business impact.\n\\- \\[Customer success stories\\](https://www.gladly.ai/customers/): Read the inspiring stories of Gladly customers -- amazing companies leading the charge in delivering better experiences and better business outcomes.\n\\- \\[Gladly blog\\](https://www.gladly.ai/blog/): Perspectives and best practices for brands using CX as a driver of loyalty and revenue.\n\\- \\[Gladly events and webinars\\](https://www.gladly.ai/events-and-webinars/): Join Gladly events to learn how the best brands are rethinking customer experience AI.\n\\- \\[Gladly is the only customer experience AI designed around people, not cases.\\](https://www.gladly.ai/about-us/): Gladly is customer experience AI that truly puts the customer at the center. By resolving needs with complete context, Gladly helps brands deliver more efficient experiences that turn support into lasting customer value.\n\\- \\[Gladly Connect Live — the CX AI event for leaders\\](https://www.gladly.ai/gladly-connect-live/): Gladly Connect Live is the flagship event for CX industry leaders looking to get AI right. Explore AI innovation, strategies, insights, and stories shaping the future of customer experience AI.\n\\- \\[Contact Sales\\](https://www.gladly.ai/contact/): We're happy to answer your questions about the Gladly platform. Please complete the form and we'll be in touch as soon as possible.\n\\- \\[Build the future of customer experience AI with us\\](https://www.gladly.ai/careers/): We’re building customer experience AI that delivers efficiency and genuine human connection. Come help us shape the future of CX.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:58.085121Z",
+      "section_path": "",
+      "chunk_index": 1,
+      "token_count": 851,
+      "quality_score": 0.8
+    },
+    {
+      "id": "ev_5adf153d05d9",
+      "source_type": "llms_txt",
+      "url": "https://gladly.com/llms.txt",
+      "domain": "gladly.com",
+      "page_title": "llms.txt index",
+      "content": "\\## \\*\\*Content\\*\\*\n\\- \\[The power of And — Gladly's vision for the future of customer experience\\](https://www.gladly.ai/blog/the-power-of-and/): The Gladly philosophy of delivering efficiency and personalization without trade-offs. True customer experience AI delivers operational efficiency and enterprise value. By resolving needs quickly while building trust and loyalty, brands reduce costs today and create the long-term customer devotion that drives sustainable growth.\n\\- \\[Stop replacing agents — start empowering them\\](https://www.gladly.ai/blog/ai-customer-service-agent-empowerment-not-replacement/): The best AI doesn’t replace people—it works with them. By handling routine needs and handing off context seamlessly, AI empowers teams to focus on complex, high-value moments that build trust, loyalty, and lasting customer value.\n\\- \\[The principles behind Gladly\\](https://www.gladly.ai/blog/5-principles-customer-ai/): Gladly guiding principles for customer experience AI that delivers efficiency and lasting value. Prioritizing engagement, customer context, and human judgment—so every conversation drives resolution and long-term devotion.\n\\- \\[The retail playbook—16 trends shaping the future of CX\\](https://www.gladly.ai/blog/ai-in-retail-industry/): Applications of AI to enhance CX in retail environments and customer feedback on onboarding and implementation experiences.\n\\- \\[The next version of Gladly AI, powerful AI capabilities that take customer experience AI even further\\](https://www.gladly.ai/blog/the-customer-ai-agent/): Gladly delivers AI-powered customer experience channels and capabilities purpose-built for engagement—creating experiences that drive lasting business value.\n\\- \\[How to train your AI in minutes — not months\\](https://www.gladly.ai/blog/how-to-train-your-ai/): Explains how Gladly uses Guides to train AI, enabling CX teams to train and optimize AI in minutes using natural language—without IT support or coding.\n\\- \\[What is Conversational AI? Your guide to smart customer communication\\](https://www.gladly.ai/blog/what-is-customer-service-conversational-ai/): Explains how conversational AI leverages NLP, dialog management, and LLMs to power human-like, scalable interactions—and how, when paired with contextual and agentic AI, it delivers highly efficient, personalized CX that builds customer devotion and drives bottom-line results.\n\\- \\[What is contextual AI? Your go-to guide\\](https://www.gladly.ai/blog/what-is-contextual-ai-your-2025-guide/): Explains how contextual AI combines customer history and real-time awareness to deliver personalized, proactive, and efficient support—and why comprehensive context is a key part of the Gladly approach to CX AI.\n\\- \\[Agentic AI 101\\](https://www.gladly.ai/blog/agentic-ai-101/): Breaks down how agentic AI moves beyond conversation to autonomous action—executing multi-step tasks, integrating with systems, and anticipating needs—so customers get the right outcome every time.\n\\- \\[Key signs your customer service is ready for AI\\](https://www.gladly.ai/blog/key-signs-your-customer-service-is-ready-for-ai/): Eight practical indicators (like procedure standardization, structured data, high-ticket volume) that show when an organization can effectively deploy AI in customer service.\n\\- \\[How to prioritize customer requests\\](https://www.gladly.ai/blog/how-to-prioritize-customer-requests/): A creative how-to on crafting personable, brand-aligned greetings—perfect for setting a warm tone and elevating customer experiences from the first hello.\n\\- \\[How to listen to customers effectively\\](https://www.gladly.ai/blog/how-to-listen-to-customers-effectively/): A practical guide featuring both verbal and nonverbal active listening techniques to deepen agent–customer connection and build trust through empathy and attention.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:58.085283Z",
+      "section_path": "",
+      "chunk_index": 3,
+      "token_count": 960,
+      "quality_score": 0.8
+    },
+    {
+      "id": "ev_cd22499c676d",
+      "source_type": "llms_txt",
+      "url": "https://gladly.com/llms.txt",
+      "domain": "gladly.com",
+      "page_title": "llms.txt index",
+      "content": "\\# Gladly\nGladly is customer experience AI designed to deliver efficiency today and lasting customer value over time—through engagement, not deflection.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:58.084996Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 38,
+      "quality_score": 0.7
+    },
+    {
+      "id": "ev_4fa15de5d6df",
+      "source_type": "llms_txt",
+      "url": "https://gladly.com/llms.txt",
+      "domain": "gladly.com",
+      "page_title": "llms.txt index",
+      "content": "\\## \\*\\*Customer stories\\*\\*\n-\\[KÜHL blends human touch with AI to drive sales excellence\\](https://www.gladly.ai/customers/kuhl/): How an outdoor apparel brand scaled customer experience and efficiency together with the Gladly platform.\n-\\[Breeze Airways transforms guest care with digital-first strategy\\](https://www.gladly.ai/customers/breeze-airways/): How an innovative airline achieved 40% customer growth and flat guest interactions with CX AI.\n-\\[Rothy’s creates blueprint for scalable CX with Gladly\\](https://www.gladly.ai/customers/rothys/): How a sustainable fashion brand scaled support volume while turning customer conversations into new revenue with customer experience AI.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:58.085164Z",
+      "section_path": "",
+      "chunk_index": 2,
+      "token_count": 172,
+      "quality_score": 0.7
+    },
+    {
+      "id": "ev_8647c18ca1d6",
+      "source_type": "auth_docs",
+      "url": "https://help.gladly.com/oauth",
+      "domain": "help.gladly.com",
+      "page_title": "user-site",
+      "content": "> ## Documentation Index\n>\n> Fetch the complete documentation index at: [https://help.gladly.com/llms.txt](https://help.gladly.com/llms.txt)\n>\n> Use this file to discover all available pages before exploring further.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:57.897188Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 54,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_d6bb6635f65f",
+      "source_type": "developer_portal",
+      "url": "https://help.gladly.com/docs",
+      "domain": "help.gladly.com",
+      "page_title": "Product Docs",
+      "content": "Updated\n\n- Updated on Mar 3, 2025\n- Published on Feb 3, 2025\n\n- 1 minute(s) read\n- Listen\n\nPrint\n\nCopy pageCopy as Markdown for LLMsView as MarkdownView the page as plain text\n\nOpen in ChatGPTAsk ChatGPT about this pageOpen in ClaudeAsk Claude about this page\n\nView doc summary\n\n[Next](https://help.gladly.com/docs/whats-new \"What's New and Product Releases\")\n\n[![Overview of Gladly's product documentation and configuration settings for user interface.](https://cdn.us.document360.io/7047b671-c4f2-4df0-bb0a-b9b511fd2452/Images/Documentation/product%20docs%20version%20banner.png?sv=2026-02-06&spr=https&st=2026-07-13T18%3A13%3A40Z&se=2026-07-13T18%3A24%3A40Z&sr=c&sp=r&sig=t%2Bg4uz26y2wsAiNiBbCTbvUV%2BzwFwssczNi2PqAu%2Fc0%3D)](https://help.gladly.com/docs/welcome-to-gladly)\n\nWelcome to the **Product Docs** version of help.gladly.com.\n\nTake a look at the click-through below for a quick 20-second overview of the user experience on the help site.\n\nInternal: help.gladly.com \\| Genially\n\nFull screen\n\nShare\n\nShow pages\n\nWelcome to the new Help experience\n\nNew Help Docs\n\nhelp.gladly.com\n\n![](https://compressed-images.genially.com/img/61437eaab182090011f6b602/0d5de5c6-ec4f-442e-a8e6-5a5fb903fe2e.png/format=webp)\n\nTurn on the sound for a better experience!\n\nPlays background audio\n\nActivates the audio of the creation\n\n[Genially Logo](https://genially.com/?from=view-logo-collapsed)\n\nWant to create interactive content? It’s easy in Genially!\n\n[Get started free](https://auth.genially.com/signup/?from=view-banner-collapsed)\n\nView info",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:58.925505Z",
+      "section_path": "Product Docs",
+      "chunk_index": 0,
+      "token_count": 384,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_c88f37cd19a4",
+      "source_type": "developer_portal",
+      "url": "https://help.gladly.com/docs",
+      "domain": "help.gladly.com",
+      "page_title": "Product Docs",
+      "content": "Gladly Documentation\n\nCreated onJanuary 29, 2025\n\nDiscover more than 1500 professional designs like these:\n\n[Explore all templates](https://genially.com/templates/?from=view-templates-collapsed)\n\nFaster search and more accurate results\n\nSemantic and \"Smart Search\"\n\n5x faster browsing experience\n\nListen feature (like an audiobook)\n\nGenerate doc summary\n\nNight mode\n\nNext page\n\ngenially options\n\nThis version contains all the ins and outs of how Gladly works, inclusive of:\n\n- Interface Overviews\n\n- Key Concepts\n\n- Explanation of product principles and logic\n\n- How the platform works\n\n- How to use the platform\n\n- Settings and capabilities\n\n- and more!\n\nBelow is a short list of popular categories. We encourage you to browse other Gladly functions by category on the left side of this page.\n\n- [Release Notes](https://help.gladly.com/docs/whats-new)\n\n- [How to use Gladly as an Agent](https://help.gladly.com/docs/agents)\n\n- [AI Features](https://help.gladly.com/docs/ai-powered-features-for-agents)\n\n- [Sidekick](https://help.gladly.com/docs/sidekick)\n\n- [How Routing works](https://help.gladly.com/docs/routing)\n\n- [Channels and Entry Points](https://help.gladly.com/docs/channels-and-entry-points)\n\n- [Reports and Insights](https://help.gladly.com/docs/reports-and-insights)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:58.925560Z",
+      "section_path": "Internal: help.gladly.com > Start designing with a free template > Popular docs in this version",
+      "chunk_index": 1,
+      "token_count": 320,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_c84a0b751d73",
+      "source_type": "developer_portal",
+      "url": "https://help.gladly.com/docs",
+      "domain": "help.gladly.com",
+      "page_title": "Product Docs",
+      "content": "We have two other doc versions you can search, depending on your documentation needs:\n\n[**Implementation**](https://help.gladly.com/implementation/docs)\n\nGeneral implementation guide and steps for those setting up Gladly for the first time.\n\n[**Developer Tutorials**](https://help.gladly.com/developer-tutorials/docs)\n\nDetailed overviews and walkthroughs of Gladly technical implementation and developer resources.\n\nWas this doc helpful?\n\nYes  No\n\nNext doc\n\nWe've Refreshed the Main Navigation\n\nRelated docs\n\n- [New to Gladly (AI)? Start Here](https://help.gladly.com/docs/new-to-gladly-ai-start-here)\n\n\n\nGladly (AI) > Get Started with Gladly (AI)\n\n- [What is Guides?](https://help.gladly.com/docs/what-is-guides-1)\n\n\n\nGladly (AI) > Guides > Get Started with Guides\n\n- [Create a Gladly Agent with Guided Setup](https://help.gladly.com/docs/set-up-a-gladly-agent-with-the-setup-wizard)\n\n\n\nGladly (AI) > Guides > Manage Guides > Gladly Agents",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:58.925595Z",
+      "section_path": "Internal: help.gladly.com > Start designing with a free template > Other doc versions",
+      "chunk_index": 2,
+      "token_count": 235,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_fef805a72120",
+      "source_type": "official_docs",
+      "url": "https://gladly.com",
+      "domain": "gladly.com",
+      "page_title": "Gladly",
+      "content": "Turn conversations into personalized experiences that drive devotion and lifetime value.\n\n[Learn more](https://www.gladly.ai/cx-company-size/small-business-customer-experience-platform/)\n\nDiscover how Gladly delivers experiences that treat people like people.\n\n[Get to know Gladly](https://www.gladly.ai/why-gladly/)\n\nDiscover how Gladly delivers experiences that treat people like people.\n\n[Get to know Gladly](https://www.gladly.ai/why-gladly/)\n\nLet us walk you through a short demo to show how Gladly instantly transforms your customer experiences.\n\n\\*\n\n\\*\n\n\\*\n\n\\*\n\nCountry\\*AfghanistanAlbaniaAlgeriaAndorraAngolaAntigua & DepsArgentinaArmeniaAustraliaAustriaAzerbaijanBahamasBahrainBangladeshBarbadosBelarusBelgiumBelizeBeninBhutanBoliviaBosnia HerzegovinaBotswanaBrazilBruneiBulgariaBurkinaBurundiCambodiaCameroonCanadaCape VerdeCentral African RepChadChileChinaColombiaComorosCongoCongo {Democratic Rep}Costa RicaCroatiaCubaCyprusCzech RepublicDenmarkDjiboutiDominicaDominican RepublicEast TimorEcuadorEgyptEl SalvadorEquatorial GuineaEritreaEstoniaEthiopiaFijiFinlandFranceGabonGambiaGeorgiaGermanyGhanaGreeceGrenadaGuatemalaGuineaGuinea-BissauGuyanaHaitiHondurasHungaryIcelandIndiaIndonesiaIranIraqIreland {Republic}IsraelItalyIvory CoastJamaicaJapanJordanKazakhstanKenyaKiribatiKorea NorthKorea SouthKosovoKuwaitKyrgyzstanLaosLatviaLebanonLesothoLiberiaLibyaLiechtensteinLithuaniaLuxembourgMacedoniaMadagascarMalawiMalaysiaMaldivesMaliMaltaMarshall IslandsMauritaniaMauritiusMexicoMicronesiaMoldovaMonacoMongoliaMontenegroMoroccoMozambiqueMyanmar, {Burma}NamibiaNauruNepalNetherlandsNew ZealandNicaraguaNigerNigeriaNorwayOmanPakistanPalauPanamaPapua New GuineaParaguayPeruPhilippinesPolandPortugalQatarRomaniaRussian FederationRwandaSt Kitts & NevisSt LuciaSaint Vincent & the GrenadinesSamoaSan MarinoSao Tome & PrincipeSaudi ArabiaSenegalSerbiaSeychellesSierra LeoneSingaporeSlovakiaSloveniaSolomon IslandsSomaliaSouth AfricaSouth SudanSpainSri LankaSudanSurinameSwazilandSwedenSwitzerlandSyriaTaiwanTajikistanTanzaniaThailandTogoTongaTrinidad & TobagoTunisiaTurkeyTurkmenistanTuvaluUgandaUkraineUnited Arab EmiratesUnited KingdomUnited StatesUruguayUzbekistanVanuatuVatican CityVenezuelaVietnamYemenZambiaZimbabwe\n\n\\*\nBy completing this form, I agree to receive marketing and other communications from Gladly Software, Inc.\n\nBy completing this form, I agree to receive marketing and other communications from Gladly Software, Inc.\n\n[Privacy Policy](https://www.gladly.com/privacy-policy/)  \\|  [Terms of Use](https://www.gladly.com/terms-of-service/)\n\nGet a demo\n\nCustomer experience AI built for LTV \\| Gladly\n\nLive chat\n\nSchedule a time \\| Chili Piper\n\nLoading\n\nMarketo Forms 2 Cross Domain request proxy frame",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:58.108738Z",
+      "section_path": "CX that drives customer devotion. > 3x > Refuse to  compromise.  Give your customers the experience that sets you apart. > Request a demo",
+      "chunk_index": 8,
+      "token_count": 681,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_30237a370163",
+      "source_type": "official_docs",
+      "url": "https://gladly.com",
+      "domain": "gladly.com",
+      "page_title": "Gladly",
+      "content": "[Get a demo\\\\\n\\\\\n![ai](https://cdn.sanity.io/images/ny21dgz6/production/0e1391bfd44c35921b70c4fca201172ffe68194c-720x720.gif?h=30&w=30)](https://www.gladly.ai/#cta_form) [Try it yourself](https://www.gladly.ai/gladly-demo/)\n\n![Young woman in a kitchen holds a pink phone, glancing at the screen. She's wearing a blue shirt over a striped top. Sunlight casts soft shadows.](https://cdn.sanity.io/images/ny21dgz6/production/dee6ca8b0ae51e1b3bea6b023fcab09b94cafbe9-686x360.png?w=3840&h=2015&q=80&fit=max&auto=format)\n\nFirst 30-day resolution rate increase\n\nConversations fully resolved by AI\n\nRevenue per conversation",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:58.108110Z",
+      "section_path": "CX that drives customer devotion. > 3x > 2.2x",
+      "chunk_index": 0,
+      "token_count": 153,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_7476f8e8579c",
+      "source_type": "official_docs",
+      "url": "https://gladly.com",
+      "domain": "gladly.com",
+      "page_title": "Gladly",
+      "content": "Increase in CSAT\n\n![TUMI white logo](https://cdn.sanity.io/images/ny21dgz6/production/11ee6a9a9b265750f6aa12f12467178a05144399-1000x264.svg?rect=170,0,660,264&w=3840&h=1536&q=80&fit=max&auto=format)\n\n![Ulta white logo](https://cdn.sanity.io/images/ny21dgz6/production/c477db2aba90257621903feacd3ef160b73e0d8b-1000x406.svg?rect=0,3,1000,400&w=3840&h=1536&q=80&fit=max&auto=format)\n\n![UGG white logo](https://cdn.sanity.io/images/ny21dgz6/production/1bb67a14dd8570385fabfb2e7a18e8f9f6144664-1000x462.svg?rect=0,31,1000,400&w=3840&h=1536&q=80&fit=max&auto=format)\n\n![Conde Naste white logo](https://cdn.sanity.io/images/ny21dgz6/production/3d4bc9ca26d166c99ff606a2a1a02913b83ca114-1000x142.svg?rect=323,0,355,142&w=3840&h=1536&q=80&fit=max&auto=format)\n\n![Crate&Barrel white logo](https://cdn.sanity.io/images/ny21dgz6/production/e7249a5991ed45b174695ca4a62af1980d5e9935-1000x145.svg?rect=319,0,363,145&w=3840&h=1536&q=80&fit=max&auto=format)\n\n![Smith Optics white logo](https://cdn.sanity.io/images/ny21dgz6/production/18cb94d872ee352ad3b831dbe4000337a2bf5041-400x96.svg?rect=80,0,240,96&w=3840&h=1536&q=80&fit=max&auto=format)\n\n![FTD white logo](https://cdn.sanity.io/images/ny21dgz6/production/f23a5841fd59dc77eea85d84c712682c9fb93af5-1000x412.svg?rect=0,6,1000,400&w=3840&h=1536&q=80&fit=max&auto=format)\n\n![HOKA white logo](https://cdn.sanity.io/images/ny21dgz6/production/b7f58f6a111c333623d897929afbdbb7a0a154d7-1000x280.svg?rect=150,0,700,280&w=3840&h=1536&q=80&fit=max&auto=format)\n\n![Nordstrom white logo](https://cdn.sanity.io/images/ny21dgz6/production/f2b59126bd3db6741732de2389a9083acb998206-1000x126.svg?rect=343,0,315,126&w=3840&h=1536&q=80&fit=max&auto=format)\n\n![Tory Burch white logo](https://cdn.sanity.io/images/ny21dgz6/production/9f3621003850a219769ab0d227aab9bd3722d259-1000x196.svg?rect=255,0,490,196&w=3840&h=1536&q=80&fit=max&auto=format)\n\n![Lovesac white logo](https://cdn.sanity.io/images/ny21dgz6/production/464be981b9afc584c2f79e01e0d12df035738919-510x81.svg?rect=154,0,203,81&w=3840&h=1536&q=80&fit=max&auto=format)\n\n![StockX white logo](https://cdn.sanity.io/images/ny21dgz6/production/0a9d26513dcc1d0fcadfb9783f5196a16e59da88-1000x200.svg?rect=250,0,500,200&w=3840&h=1536&q=80&fit=max&auto=format)\n\n![bombas white logo](https://cdn.sanity.io/images/ny21dgz6/production/a37042139a3e0d2311e563c4f5d0df12e07a0b49-1000x148.svg?rect=315,0,370,148&w=3840&h=1536&q=80&fit=max&auto=format)\n\n![LensDirect white logo](https://cdn.sanity.io/images/ny21dgz6/production/3e26f8e93b4ae81847a4c3c8302fe4c4fff2d1ce-480x105.svg?rect=109,0,263,105&w=3840&h=1536&q=80&fit=max&auto=format)\n\n![the Black Tux white logo](https://cdn.sanity.io/images/ny21dgz6/production/7ea872c1a375662e75c0353b2dc630496a01c0d6-55x55.svg?rect=0,17,55,22&w=3840&h=1536&q=80&fit=max&auto=format)\n\n![Zenni white logo](https://cdn.sanity.io/images/ny21dgz6/production/cdae2679e80b92cd784c859a03d0845d03ba7de3-550x91.svg?rect=161,0,228,91&w=3840&h=1536&q=80&fit=max&auto=format)\n\n![The Farmer's Dog white logo](https://cdn.sanity.io/images/ny21dgz6/production/b2fc121c0eb6aa50c700628eeafcccbae4b10ecd-279x254.svg?rect=0,71,279,112&w=3840&h=1536&q=80&fit=max&auto=format)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:58.108206Z",
+      "section_path": "CX that drives customer devotion. > 3x > 65%",
+      "chunk_index": 1,
+      "token_count": 789,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_46cbc32e00bd",
+      "source_type": "official_docs",
+      "url": "https://gladly.com",
+      "domain": "gladly.com",
+      "page_title": "Gladly",
+      "content": "![Ollie white logo](https://cdn.sanity.io/images/ny21dgz6/production/5a4abe830e51add78f60afb4fb4ca7aabc9a444b-280x139.svg?rect=0,14,280,112&w=3840&h=1536&q=80&fit=max&auto=format)\n\n![Rothy's white logo](https://cdn.sanity.io/images/ny21dgz6/production/3f4875a799cca2356a229aed02738bff9e018a55-1000x130.svg?rect=338,0,325,130&w=3840&h=1536&q=80&fit=max&auto=format)\n\n![Tecovas white logo](https://cdn.sanity.io/images/ny21dgz6/production/bdcef0659858a1b0f80a35050ac06ff21b4683a1-1000x146.svg?rect=318,0,365,146&w=3840&h=1536&q=80&fit=max&auto=format)\n\n![Super white logo](https://cdn.sanity.io/images/ny21dgz6/production/1758186b6919bb1c6dd5a6d7ba056c034e65afcd-1000x164.svg?rect=295,0,410,164&w=3840&h=1536&q=80&fit=max&auto=format)\n\n![BARK white logo](https://cdn.sanity.io/images/ny21dgz6/production/9c7a9c18cfd96e070172250cb586335cf4d0e800-1000x350.svg?rect=63,0,875,350&w=3840&h=1536&q=80&fit=max&auto=format)\n\n![Breeze Airways white logo](https://cdn.sanity.io/images/ny21dgz6/production/5961aac1f76ce56bf66fbf81f42cb8d7ff9fa282-1000x270.svg?rect=163,0,675,270&w=3840&h=1536&q=80&fit=max&auto=format)\n\n![MaryRuth's white logo](https://cdn.sanity.io/images/ny21dgz6/production/76a9b92bb7bbeb79c76de254b0786ff82c8bf507-1000x268.svg?rect=165,0,670,268&w=3840&h=1536&q=80&fit=max&auto=format)\n\n![Woman smiling at phone in a cafe, engaged in a chat about exchanging a jacket. Texts on screen express friendly customer service.](https://cdn.sanity.io/images/ny21dgz6/production/aed6f5f6bb94d3e9bb0cc18bf89d442765aded1e-686x400.png)\n\n![Woman smiling at phone in a cafe, engaged in a chat about exchanging a jacket. Texts on screen express friendly customer service.](https://cdn.sanity.io/images/ny21dgz6/production/2fa14fb2c920ccbea68c8268dfa06fdbf0d4fe7e-1827x1640.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:58.108258Z",
+      "section_path": "CX that drives customer devotion. > 3x > 65%",
+      "chunk_index": 2,
+      "token_count": 442,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_d501fee99e31",
+      "source_type": "official_docs",
+      "url": "https://gladly.com",
+      "domain": "gladly.com",
+      "page_title": "Gladly",
+      "content": "Gladly is the only customer experience AI purpose-built to engage customers rather than deflect them. Other AI agents declare victory with cost savings alone—Gladly delivers those savings too, but in a way that makes customers feel known, understood, and valued. Because lifetime value grows the more you treat your customers like regulars.\n\n[See how it works](https://www.gladly.ai/why-gladly/)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:58.108290Z",
+      "section_path": "CX that drives customer devotion. > 3x > AI that treats customers like people, not problems",
+      "chunk_index": 3,
+      "token_count": 98,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_828d23f52d1e",
+      "source_type": "official_docs",
+      "url": "https://gladly.com",
+      "domain": "gladly.com",
+      "page_title": "Gladly",
+      "content": "![Create&Barrel black logo](https://cdn.sanity.io/images/ny21dgz6/production/62cc8fd33703055b93d67ff4a67801f65e748642-1000x145.svg?rect=210,0,580,145&w=3840&h=960&q=80&fit=max&auto=format)![Nordstrom black logo](https://cdn.sanity.io/images/ny21dgz6/production/913b1c0c5c99c0afae2ab151d7c026176c9f7162-1000x126.svg?rect=248,0,504,126&w=3840&h=960&q=80&fit=max&auto=format)![Breeze black logo](https://cdn.sanity.io/images/ny21dgz6/production/d7d1b16a9ddd768605e5ec8e56a53afa77e01184-1000x270.svg?rect=0,10,1000,250&w=3840&h=960&q=80&fit=max&auto=format)![Kuhl_Black](https://cdn.sanity.io/images/ny21dgz6/production/3670172da8192c3257f5c342a4a8ac62569e84fb-1000x310.svg?rect=0,30,1000,250&w=3840&h=960&q=80&fit=max&auto=format)\n\n![Create&Barrel black logo](https://cdn.sanity.io/images/ny21dgz6/production/62cc8fd33703055b93d67ff4a67801f65e748642-1000x145.svg?rect=274,0,453,145&w=3840&h=1229&q=80&fit=max&auto=format)\n\n\"With Gladly, our agents are helping customers across channels from a single view that makes their work easier.\"\n\nKate Showalter\n\nVice President, Customer Care, Crate & Barrel\n\n![A modern living room with a white sectional sofa, neutral cushions, and a wooden coffee table. Abstract art and a minimalist lamp create a calm, stylish atmosphere.](https://cdn.sanity.io/images/ny21dgz6/production/b59d71fcb3bc2c081546e82da3f6537044451cc0-828x828.jpg?w=3840&h=3840&q=80&fit=max&auto=format)\n\n![Nordstrom black logo](https://cdn.sanity.io/images/ny21dgz6/production/913b1c0c5c99c0afae2ab151d7c026176c9f7162-1000x126.svg?rect=303,0,394,126&w=3840&h=1229&q=80&fit=max&auto=format)\n\n\"We want to build a loyal relationship with a conversation that goes over years and months. It shouldn't feel like a transaction. That's why we chose Gladly.\"\n\nJim Gallagher\n\nVP Customer Care, Nordstrom\n\n![Four stylish wristwatches with different designs and straps are arranged against a pink polka-dot background with shopping bags, conveying fashion elegance.](https://cdn.sanity.io/images/ny21dgz6/production/35bd9b365d90fd539f772a5cb989b7017eb7b68b-828x828.jpg?w=3840&h=3840&q=80&fit=max&auto=format)\n\n![Breeze black logo](https://cdn.sanity.io/images/ny21dgz6/production/d7d1b16a9ddd768605e5ec8e56a53afa77e01184-1000x270.svg?rect=78,0,844,270&w=3840&h=1229&q=80&fit=max&auto=format)\n\n\"The evolution of our product has allowed us to provide options to guests much more quickly than any other airline”\n\nDanny Cox\n\nVice President of Guest Experiences, Breeze Airways\n\n![Blue airplane with \"Breeze\" logo flies above clouds against a clear blue sky, conveying a sense of modernity, speed, and freedom.](https://cdn.sanity.io/images/ny21dgz6/production/01ea86cb4f96bf23ecb43a365f672be1a099a11f-828x828.jpg?w=3840&h=3840&q=80&fit=max&auto=format)\n\n![Kuhl_Black](https://cdn.sanity.io/images/ny21dgz6/production/3670172da8192c3257f5c342a4a8ac62569e84fb-1000x310.svg?rect=16,0,969,310&w=3840&h=1229&q=80&fit=max&auto=format)\n\n\"Our AI kicks in and starts answering common, repetitive questions. If something goes wrong or it's a more complex inquiry, the AI routes the customer straight to an agent. It's a seamless transition. Our customers don't even realize they're talking to AI.\"\n\nNancy Orgill\n\nCustomer Support Manager, Kuhl",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:58.108417Z",
+      "section_path": "CX that drives customer devotion. > 3x > Why world-class brands choose Gladly",
+      "chunk_index": 4,
+      "token_count": 805,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_3503308247aa",
+      "source_type": "official_docs",
+      "url": "https://gladly.com",
+      "domain": "gladly.com",
+      "page_title": "Gladly",
+      "content": "![A person in a yellow jacket and cap organizes ropes on a boat deck against a backdrop of calm ocean and distant islands, conveying a sense of adventure.](https://cdn.sanity.io/images/ny21dgz6/production/a298910d9a4f9a52c86d9ae1f49320f2f9d3061e-828x828.jpg?w=3840&h=3840&q=80&fit=max&auto=format)\n\n[More customer stories](https://www.gladly.ai/customers/)\n\nWe're raising the bar for what exceptional customer experience AI looks like. Cost savings are table stakes—and Gladly delivers them. And we power intelligent, intuitive, and engaging experiences that put customers on the most direct path to the right outcomes, every time.\n\nAI built with customers at the center\n\nUnlike deflection bots that treat people like problems to be automated away, Gladly puts the customers at the center of every experience to deepen relationships.\n\n![Man sits on a couch, smiling while looking at a smartphone and holding a green mug. The room is bright with natural light from a large window.](https://cdn.sanity.io/images/ny21dgz6/production/60687444f219981489364675c06c3d1669e69351-677x420.png?w=3840&h=2382&q=80&fit=max&auto=format)\n\n![Purple AI icon](https://cdn.sanity.io/images/ny21dgz6/production/e0fb2179d3052df35317036545494fa8fb84d648-72x72.svg?w=3840&h=3840&q=80&fit=max&auto=format)\n\nAI that values the human touch\n\nGladly can automatically resolve most conversations, or it can work hand in hand with support reps in Gladly Team or your CX platform. Our AI is smart enough to handle end-to-end conversations or bring in a human when needed—to deliver the best outcome every time.\n\n[Put control in the hands of business users](https://www.gladly.ai/why-gladly/)\n\n![WhatsApp icon](https://cdn.sanity.io/images/ny21dgz6/production/7a03b14e78ae39959ac4473b028cf1b0e33eef40-48x48.svg?w=3840&h=3840&q=80&fit=max&auto=format)\n\nAI that’s fluent in every channel\n\nGladly is built for how real people communicate. Whether it’s voice, chat, SMS, email, or social, Gladly carries a customer’s lifelong conversation history across channels into every experience.\n\n[Meet your customer where they are](https://www.gladly.ai/product/ai-customer-service-agent/)\n\nAI that is simply powerful\n\nWe made Gladly for CX people, not engineers. Write Guides in plain English that teach Gladly your brand voice, desired customer experience, when to get help from an agent, and more. Bring your entire product catalog into Gladly with a click. And refine how Gladly behaves as your business needs evolve.\n\n![Chat interface on a purple background. A message from Gladly notes an order past the exchange window but highlights VIP status. Buttons for \"Deny\" and \"Approve\" follow. Below, Julie inquires about the usual policy, smiling. Tone: formal and customer-focused.](https://cdn.sanity.io/images/ny21dgz6/production/f74fffdc6b846bb286b79c32be8dae01a3f318a8-1354x840.png?w=3840&h=2382&q=80&fit=max&auto=format)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:58.108547Z",
+      "section_path": "CX that drives customer devotion. > 3x > The only CX AI purpose-built to drive devotion",
+      "chunk_index": 5,
+      "token_count": 720,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_379937e37590",
+      "source_type": "official_docs",
+      "url": "https://gladly.com",
+      "domain": "gladly.com",
+      "page_title": "Gladly",
+      "content": "Get Gladly up and running in days, not months, with templates and Guides based on over a decade of CX experience and hundreds of millions of conversations. And by delivering experiences that recognize intent and respond with specific customer knowledge, emotional intelligence, and precise actions, Gladly helps deepen relationships that increase lifetime value.\n\n![Money sign white icon](https://cdn.sanity.io/images/ny21dgz6/production/69b08463cf40e056a27d58e02a7393c1b405d616-28x29.svg?rect=0,1,28,28&w=3840&h=3840&q=80&fit=max&auto=format)\n\nSimplify experiences\n\n![Amplify black icon](https://cdn.sanity.io/images/ny21dgz6/production/1b48b52a40855ee082736d6a9d1dbc8c5d1ec118-28x28.svg?w=3840&h=3840&q=80&fit=max&auto=format)\n\nAmplify devotion\n\n![Black chart icon](https://cdn.sanity.io/images/ny21dgz6/production/567442d2320864e548617a5a9b6e12ffbc3e80eb-28x28.svg?w=3840&h=3840&q=80&fit=max&auto=format)\n\nBoost expectations\n\n![Black badge icon](https://cdn.sanity.io/images/ny21dgz6/production/76f9ed7d695deee54614d5f3126ea25a76984c40-19x20.svg?rect=0,1,19,19&w=3840&h=3840&q=80&fit=max&auto=format)\n\nIncrease LTV\n\nEngage your customers with AI that knows them and can take actions to address their issues.\n\n![A white card on a light green background shows a chart with a green line trending upward, indicating $510M+ saved with Gladly Customer AI.](https://cdn.sanity.io/images/ny21dgz6/production/50c8699e4a874d8bcae08f1338fdeff244f20a49-1670x1840.png?rect=0,190,1670,1461&w=3840&h=3359&q=80&fit=max&auto=format)\n\n![Money sign black icon](https://cdn.sanity.io/images/ny21dgz6/production/daef8e3b0ef39a2ced39126665d27b5a55d1c298-28x28.svg?w=3840&h=3840&q=80&fit=max&auto=format)![Money sign white icon](https://cdn.sanity.io/images/ny21dgz6/production/69b08463cf40e056a27d58e02a7393c1b405d616-28x29.svg?rect=0,1,28,28&w=3840&h=3840&q=80&fit=max&auto=format)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:58.108602Z",
+      "section_path": "CX that drives customer devotion. > 3x > Immediate value. Long-term business outcomes. > Simplify experiences",
+      "chunk_index": 6,
+      "token_count": 465,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_07b208fffbd4",
+      "source_type": "official_docs",
+      "url": "https://gladly.com",
+      "domain": "gladly.com",
+      "page_title": "Gladly",
+      "content": "Engage your customers with AI that knows them and can take actions to address their issues.\n\n![Amplify black icon](https://cdn.sanity.io/images/ny21dgz6/production/1b48b52a40855ee082736d6a9d1dbc8c5d1ec118-28x28.svg?w=3840&h=3840&q=80&fit=max&auto=format)![Amplify white icon](https://cdn.sanity.io/images/ny21dgz6/production/b7eb28527a37de657749780dd967e1a05068a430-28x29.svg?rect=0,1,28,28&w=3840&h=3840&q=80&fit=max&auto=format)\n\nBring customer intelligence to every conversation to help your team deepen relationships.\n\n![Black chart icon](https://cdn.sanity.io/images/ny21dgz6/production/567442d2320864e548617a5a9b6e12ffbc3e80eb-28x28.svg?w=3840&h=3840&q=80&fit=max&auto=format)![White chart icon](https://cdn.sanity.io/images/ny21dgz6/production/171e22c13eac55d6967977337fee8e312f45ea6e-28x29.svg?rect=0,1,28,28&w=3840&h=3840&q=80&fit=max&auto=format)\n\nDon’t settle for better CX. Deliver the best customer experiences that set your brand apart.\n\n![Black badge icon](https://cdn.sanity.io/images/ny21dgz6/production/76f9ed7d695deee54614d5f3126ea25a76984c40-19x20.svg?rect=0,1,19,19&w=3840&h=3840&q=80&fit=max&auto=format)![White badge icon](https://cdn.sanity.io/images/ny21dgz6/production/b45f23cd02e2afa2b94f05aa0e2962de949b29e4-19x20.svg?rect=0,1,19,19&w=3840&h=3840&q=80&fit=max&auto=format)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:58.108654Z",
+      "section_path": "CX that drives customer devotion. > 3x > Immediate value. Long-term business outcomes. > Simplify experiences > Boost expectations",
+      "chunk_index": 7,
+      "token_count": 325,
+      "quality_score": 0.36
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Gladly is customer experience AI designed to deliver efficiency today and lasting customer value over time—through engagement, not deflection.",
+      "evidence_ids": [
+        "ev_cd22499c676d"
+      ]
+    },
+    "category": {
+      "value": "Support and Helpdesk",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "OAuth2",
+      "evidence_ids": [
+        "ev_8647c18ca1d6"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_c88f37cd19a4"
+      ]
+    },
+    "api_surface": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_3c3a3e99535f"
+      ]
+    },
+    "api_breadth": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_3c3a3e99535f"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_3c3a3e99535f"
+      ]
+    },
+    "buildability": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_3c3a3e99535f"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_3c3a3e99535f"
+      ]
+    }
+  },
+  "validation": {
+    "status": "INSUFFICIENT_EVIDENCE",
+    "score": 0.38,
+    "fields_checked": 8,
+    "fields_supported": 3,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "api_surface",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_surface' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "api_breadth",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_breadth' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "buildability",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'buildability' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": {
+    "verified_fields": [],
+    "corrections": {},
+    "screenshots": [],
+    "notes": ""
+  },
+  "pipeline_confidence": 0.38,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.38 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

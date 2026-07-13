@@ -1,0 +1,509 @@
+{
+  "app": {
+    "id": 16,
+    "name": "LiveAgent",
+    "website": "liveagent.com",
+    "category_hint": "Support and Helpdesk"
+  },
+  "documentation_map": {
+    "app_name": "LiveAgent",
+    "official_domain": "liveagent.com",
+    "homepage": {
+      "url": "https://liveagent.com",
+      "title": "LiveAgent",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": null,
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": null,
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://www.liveagent.com/pricing",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": null,
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": null,
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "LiveAgent",
+      "official_domain": "liveagent.com",
+      "items": [
+        {
+          "url": "https://liveagent.com",
+          "page_type": "homepage",
+          "title": "LiveAgent",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://www.liveagent.com/pricing",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 4,
+        "urls_discovered": 2,
+        "official_urls": 2,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 2
+      }
+    },
+    "stats": {
+      "queries": 4,
+      "urls_discovered": 2,
+      "official_urls": 2,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 2
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_b226a0e7be45",
+      "source_type": "pricing_page",
+      "url": "https://www.liveagent.com/pricing",
+      "domain": "www.liveagent.com",
+      "page_title": "Pricing | LiveAgent - Help Desk Software & Live Chat",
+      "content": "Affordable ticketing platform for smaller support teams\n\n\\+ free AI Agents\n\n$15$10\n\nSave 33%\n\nper month billed annually for new users (until January 1st, 2027)\n\n[Try for free](https://www.liveagent.com/trial/)\n\n- Ticketing\n- Live chat\n- Knowledgebase\n- Customer Portal\n- Contact forms\n- Automation rules\n- Integrations\n- Multiple language support\n- AI Answer Assistant\n- AI Chatbot\n\n[See all features](https://www.liveagent.com/pricing/#comparison-table)\n\nA versatile and balanced plan for full-scale customer support\n\n\\+ free AI Agents\n\n$29$19\n\nSave 33%\n\nper month billed annually for new users (until January 1st, 2027)\n\n[Try for free](https://www.liveagent.com/trial/)\n\n- Everything in Small plan\n- Call center & IVR\n- Time Rules\n- Reports\n- Proactive chat invitations\n- Agent ratings\n- Sound configuration\n- Service levels (SLA)\n\n[See all features](https://www.liveagent.com/pricing/#comparison-table)\n\nMOST POPULAR\n\nAn all-inclusive plan with all features and capabilities\n\n\\+ free AI Agents\n\n$49$33\n\nSave 33%\n\nper month billed annually for new users (until January 1st, 2027)\n\n[Try for free](https://www.liveagent.com/trial/)\n\n- Everything in Medium plan\n- SSO\n- Custom roles\n- Time tracking & Audit log\n- Audit log\n- Facebook\n- Instagram\n- X\n- Viber\n- Telegram\n- WhatsApp\n\n[See all features](https://www.liveagent.com/pricing/#comparison-table)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:28.102337Z",
+      "section_path": "Choose the right plan for your team > Trusted by leading companies worldwide > Large business",
+      "chunk_index": 1,
+      "token_count": 337,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_7df882a26674",
+      "source_type": "pricing_page",
+      "url": "https://www.liveagent.com/pricing",
+      "domain": "www.liveagent.com",
+      "page_title": "Pricing | LiveAgent - Help Desk Software & Live Chat",
+      "content": "|  | Small business | Medium business | Large business | Enterprise |\n| --- | --- | --- | --- | --- |\n|  | $19$13<br>per month for new users (until January 1st, 2027)<br>$15$10<br>per month billed annually for new users (until January 1st, 2027)<br> [Try for free](https://www.liveagent.com/trial/) | $35$23<br>per month for new users (until January 1st, 2027)<br>$29$19<br>per month billed annually for new users (until January 1st, 2027)<br> [Try for free](https://www.liveagent.com/trial/) | $59$40<br>per month for new users (until January 1st, 2027)<br>$49$33<br>per month billed annually for new users (until January 1st, 2027)<br> [Try for free](https://www.liveagent.com/trial/) | $85$57<br>per month for new users (until January 1st, 2027)<br>$69$46<br>per month billed annually for new users (until January 1st, 2027)<br> [Book demo call](https://www.liveagent.com/demo/) |\n| Pricing |\n| Per agent/month billed annually<br>Annual pricing is billed yearly and calculated based on the number of agents you add to the system. If you add more agent seats during the year, a top-up request will be generated at the same reduced rate. | $15$10 | $29$19 | $49$33 | $69$46 |\n| Per agent/month billed monthly<br>Monthly pricing is billed monthly and calculated based on the number of agents you add to the system. If you add more agent seats during the month, a top-up request will be generated at the same reduced rate. | $19$13 | $35$23 | $59$40 | $85$57 |\n| Communication channels |\n| Customer Portal<br>Gives you the opportunity to create an unlimited amount of separate customer portals, where each one of them can have its own unique design, settings, and content. |  |  |  |  |\n| Contact forms – Contact us buttons<br>Customizable contact buttons that can be embedded on your website | 3 | 10 | 50 | 200 |\n| Contact forms – In page<br>Full contact forms that can be embedded directly in web pages | 3 | 10 | 50 | 200 |\n| Slack notifications<br>Receive a Slack notification every time you receive a new ticket or a ticket response in LiveAgent. |  |  |  |  |\n| Customer forum<br>Create an online community forum for your users. Empower them to ask questions, provide answers, and lead discussions. |  |  |  |  |\n| Email ticketing – Incoming email accounts<br>Smart email ticketing ensures no emails get lost or remain unanswered. Our ticketing system also prevents duplicate responses with the [agent collision detection](https://www.liveagent.com/features/agent-collision-detection/ \"LiveAgent - Agent collision detection\") feature. | 3 | 10 | 150 | 500 |\n| Email ticketing – Outgoing email accounts<br>Smart email ticketing ensures no emails get lost or remain unanswered. Our ticketing system also prevents duplicate responses with the agent collision detection feature. | 3 | 10 | 150 | 500 |\n| Live chat button<br>Gain customer trust and boost sales with personalized, real-time live chat support. | 2 | 5 | 50 | 100 |\n| Proactive chat invitations<br>Automatically invite visitors to chat based on their behavior |  |  |  |  |\n| Call center<br>Utilize call center to efficiently manage and handle customer interactions. |  |  |  |  |\n| Feedback buttons<br>Encourage customers to send you new ideas and Feedback for future development. |  |  |  |  |\n| Viber<br>Respond to Viber messages directly from your LiveAgent dashboard. | $39/month | $39/month |  |  |\n| X<br>Monitor unique keywords and respond to Tweets that require action. All responses made from LiveAgent are sent as Tweets. | $39/month | $39/month |  |  |\n| Facebook<br>Respond to Facebook messages, posts, comments, or mentions directly from LiveAgent. | $39/month | $39/month |  |  |\n| Instagram<br>Integration with Instagram comments and mentions for customer support. Instagram integration is not possible without having Facebook integration. | $39/month + $19/month | $39/month + $19/month |  |  |\n| Telegram<br>Integration with Telegram for customer support. Covers 1-to-1 direct messages only. |  |  | 3 bots | 3 bots+ |\n| WhatsApp<br>Integrate your WhatsApp number with your LiveAgent ticketing system and use it to reply to WhatsApp messages within the ticketing system. Note: The integration currently works only with Twilio and 360dialog providers. | $39/month | $39/month | 3 numbers | 3+ numbers |\n| Video call functionality<br>Increase outbound sales and improve [customer satisfaction](https://www.liveagent.com/academy/customer-satisfaction/ \"LiveAgent - Customer satisfaction\") with our video call feature. Get personal, and don’t forget to smile! |  |  |  |  |\n| Conversation management |\n| [Ticket history](https://www.liveagent.com/features/online-ticket-history-url/ \"LiveAgent - Ticket history\")<br>Complete history of all customer interactions and tickets | Unlimited | Unlimited | Unlimited | Unlimited |\n| Merge tickets<br>Combine multiple related tickets into a single conversation |  |  |  |  |\n| Custom ticket fields<br>Add custom fields to tickets to capture specific information |  |  |  |  |\n| Split tickets<br>Split a single ticket into multiple separate tickets |  |  |  |  |\n| Internal tickets<br>Create internal tickets for team communication and task management |  |  |  |  |\n| Attachments<br>Allow file attachments in tickets for comprehensive customer support documentation |  |  |  |  |\n| Ticket mass actions<br>Perform bulk actions on multiple tickets simultaneously to improve efficiency |  |  |  |  |\n| To Solve Algorithm<br>Automated algorithm that prioritizes tickets based on urgency and importance |  |  |  |  |\n| Ticket satisfaction survey<br>Collect customer satisfaction ratings after ticket resolution |  |  |  |  |\n| Custom tags<br>Create and assign custom tags to categorize and organize tickets effectively |  |  |  |  |\n| Custom ticket filters<br>Create custom filters to organize and prioritize tickets | 300 filters / agent | 500 filters / agent | 1000 filters / agent | 5000 filters / agent |\n| Agent notes to tickets<br>Add private notes to tickets for internal team communication and context |  |  |  |  |\n| Real-time dashboards<br>Monitor real-time performance metrics and key indicators in live dashboards |  |  |  |  |\n| Ticket transfers<br>Transfer tickets between agents and departments for optimal handling |  |  |  |  |\n| WYSIWYG editor<br>Rich text editor for formatting responses with visual editing capabilities |  |  |  |  |\n| Multiple ticket tabs<br>Work on multiple tickets simultaneously with tabbed interface |  |  |  |  |\n| Business hours<br>Set operating hours for automated responses and availability management |  |  |  |  |\n| Departments<br>Organize agents into different departments for better workflow | 10 | 20 | 150 | 300 |\n| Roles in departments<br>Assign specific roles to agents within departments |  |  |  |  |\n| [Canned messages](https://www.liveagent.com/features/canned-messages-macros/ \"LiveAgent - Canned messages\")<br>Pre-written responses for common customer inquiries | 20 | 100 | 500 | 1000 |\n| Contacts & Groups<br>Segment customers by interests, age, nationality, or any other metric. |  |  |  |  |\n| Predefined answers<br>Quick answers that can be inserted into responses | 20 | 100 | 500 | 1000 |\n| Chat transcripts<br>Do your customers need a copy of the conversation they've had with you? Provide them with chat transcripts via email. |  |  |  |  |\n| File sharing over chat<br>Our live chat supports JPG, JPEG, PNG, GIF, PDF, and TXT file sharing. |  |  |  |  |\n| Mobile chat window<br>Our live chat widgets are responsive – customers can start chats on mobile or desktop with ease. |  |  |  |  |\n| Chat welcome message setting<br>Send out [automated chat](https://www.liveagent.com/live-chat-software/ \"LiveAgent - Automated chat\") welcome messages to your new website visitors to showcase that you're online and available to help them as needed. |  |  |  |  |\n| Real-time visitors monitor<br>Monitor website visitors in real-time to provide proactive support |  |  |  |  |\n| Chat Satisfaction Surveys<br>Collect satisfaction ratings after chat conversations |  |  |  |  |\n| Time Tracking<br>Track time spent on tickets and tasks (available as addon) | $19 / month | $19 / month |  |  |\n| Call Queueing<br>Manage incoming calls with queue system and hold music |  |  |  |  |\n| IVR<br>Interactive Voice Response system for call routing |  |  |  |  |\n| In call recordings<br>Record calls for quality assurance and training purposes |  |  |  |  |\n| Call routing & transfers<br>Route calls to appropriate agents based on skills and availability |  |  |  |  |\n| Custom roles<br>Create custom roles with specific permissions for agents |  |  | 3 | 40 |\n| Customization |\n| API keys<br>Use third-party applications to retrieve/push data and manage tickets from outside of your LiveAgent system. | 1 | 5 | 10 | 100 |\n| Customer mail templates<br>Customize email templates for automated responses |  |  |  |  |\n| Rules & Time rules<br>Create automation rules and time-based triggers |  |  |  |  |\n| Gamification<br>Motivate agents with points, badges, and leaderboards |  |  |  |  |\n| Contact form widgets customization<br>Customize the appearance of chat and contact form widgets |  |  |  |  |\n| Chat widgets customization<br>Choose a chat widget from our template gallery and customize it to match your business's color palette. |  |  |  |  |\n| Sound configuration<br>Configure notification sounds for different events |  |  |  |  |\n| Search & replace<br>Bulk search and replace functionality for content management |  |  |  |  |\n| Call widgets customization<br>Create enticing call widgets or choose from our template gallery. Customize any existing design according to your needs. |  |  |  |  |\n| Video call widgets customization<br>Create engaging video call widgets or choose an existing design from our template gallery. Customize any existing template according to your needs. |  |  |  |  |\n| [Knowledge base](https://www.liveagent.com/knowledge-base-software/ \"LiveAgent - Knowledge base\")<br>Create self-service knowledge base for customers | 1 | 1 | 2 | 10 |\n| Additional knowledge base<br>Add additional knowledge bases for different products or departments | $19 / month / per KB | $19 / month / per KB | $19 / month / per KB | $19 / month / per KB |\n| Branding Free<br>Remove LiveAgent branding from live chat windows and buttons, knowledge base/customer portal, call windows and buttons, contact forms, feedback forms, and email templates. |  | $19 / month / per acc | $19 / month / per acc |  |\n| Custom domain parking<br>Park your LiveAgent account to make it accessible from your own domain |  |  |  |  |\n| Reporting |\n| Analytics overview<br>Get an overview of your customer support. See who is interacting with your company and monitor the service they're receiving. |  |  |  |  |\n| Performance report<br>Detailed performance reports for agents and departments |  |  |  |  |\n| Agent report<br>Individual agent performance and activity reports |  |  |  |  |\n| Agents ratings<br>Customer ratings and feedback for individual agents |  |  |  |  |\n| Department report<br>Performance metrics and statistics by department |  |  |  |  |\n| Channel report<br>Communication channel usage and performance reports |  |  |  |  |\n| Tag report<br>Ticket categorization and tag usage reports |  |  |  |  |\n| Ticket history<br>Historical ticket data and trends analysis |  |  |  |  |\n| My work report<br>Personal productivity and work reports for agents |  |  |  |  |\n| Agent availability for calls, chats, ticket<br>Monitor agent availability across different communication channels |  |  |  |  |\n| Call, chat availability<br>Generate reports about each agent's availability to answer calls and chats. Discover who's most involved, and who needs to ramp up their support efforts. |  |  |  |  |\n| Call, chat, ticket load<br>Find out which agents had the most tickets, calls, and chats assigned to them to compare and optimize your agent's workloads. |  |  |  |  |\n| AI features |\n| AI Answer Assistant<br>Boost your support agents' efficiency and utilize AI to generate professional responses to customer inquiries & refine answer drafts based on provided instructions. |  |  |  |  |\n| AI Chatbot<br>Boost your support agents' efficiency and utilize AI to generate professional responses to customer inquiries & refine answer drafts based on provided instructions. |  |  |  |  |\n| Support and services |\n| Customer support service<br>Level of customer support provided (best effort vs 24/7) | best effort | 24/7 | 24/7 | 24/7 |\n| Assisted domain parking<br>Help with setting up custom domain configuration |  |  |  |  |\n| Design customization assistance<br>Professional help with customizing the appearance of your help desk |  |  |  |  |\n| AI configuration service<br>Professional setup and configuration of AI features |  |  |  |  |\n| Chatbot setup service<br>Professional setup and configuration of AI chatbot |  |  |  |  |\n| IVR setup service<br>Professional setup and configuration of IVR system |  |  |  |  |\n| Product setup training<br>Training sessions for product setup and configuration |  |  |  |  |\n| Consulting services<br>Expert consulting for [customer service](https://www.liveagent.com/customer-service-software/ \"LiveAgent - Customer service\") strategy and optimization |  |  |  |  |\n| Priority support<br>Prioritized technical support with faster response times |  |  |  |  |\n| Dedicated account manager<br>Dedicated account manager for enterprise customers |  |  |  |  |\n| Scheduled release management<br>Scheduled release management and update coordination |  |  |  |  |\n| Service review call and reports<br>Regular service review calls and performance reports |  |  |  |  |\n| Custom billing setup<br>Custom billing arrangements and payment terms |  |  |  |  |\n| Product capabilities |\n| Multiple language support<br>Support for multiple languages in the interface |  |  |  |  |\n| Multiple website support<br>Use LiveAgent across multiple websites and domains |  |  |  |  |\n| Multibrand support<br>Support multiple brands with separate configurations |  |  |  |  |\n| Hardware IP phone<br>Support for hardware IP phones and desk phones |  |  |  |  |\n| iPhone/Android apps<br>Native mobile apps for iOS and Android devices |  |  |  |  |\n| Integrations<br>Connect with third-party tools and services |  |  |  |  |\n| Security and permissions |\n| EU/US/UK/SG Data Center<br>Choose your preferred data center location for compliance |  |  |  |  |\n| SpamAssassin Integration<br>Advanced spam filtering to protect against unwanted emails |  |  |  |  |\n| Access restriction to agent panel<br>Control access to agent panel based on IP addresses |  |  |  |  |\n| Password Policy Management<br>Enforce strong password policies for user accounts |  |  |  |  |\n| 2-step verification<br>Two-factor authentication for enhanced security |  |  |  |  |\n| HTTPS encryption<br>Secure HTTPS encryption for all communications |  |  |  |  |\n| Banned visitors list<br>Block specific visitors or IP addresses from accessing chat |  |  |  |  |\n| Audit log<br>Find something suspicious? Review the audit log to see what actions each agent has performed during a specific period of time. |  |  |  |  |\n| SSO<br>Use single sign-on (SSO) to make logins easier for your agents. Log in once without re-entering authentication factors and speed up the process. |  |  |  |  |\n| Customisation of system email templates<br>Change the wording and design of all system emails and customize them whenever you need to. |  |  |  |  |\n| Automation |\n| Event Rules<br>Set up automation rules for various events and determine what actions will perform automatically whenever a specific event happens in LiveAgent. | 50 | 150 | 500 | 1000 |\n| Time Rules<br>Set up time-based rules that will perform actions automatically after certain time periods pass in your LiveAgent system. |  | 30 | 100 | 200 |\n| SLA rules<br>SLA rules help you avoid breaching [service level agreement](https://www.liveagent.com/features/service-level-agreement-sla/ \"LiveAgent - Service level agreement\") with your customers. |  | 5 | 50 | 100 |\n| Service levels (SLA)<br>Multiple SLA levels for different customer tiers |  | 5 | 20 | 100 |",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:28.102633Z",
+      "section_path": "Choose the right plan for your team > Compare plans",
+      "chunk_index": 3,
+      "token_count": 4039,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_9d6532649e1f",
+      "source_type": "pricing_page",
+      "url": "https://www.liveagent.com/pricing",
+      "domain": "www.liveagent.com",
+      "page_title": "Pricing | LiveAgent - Help Desk Software & Live Chat",
+      "content": "Get your\n\n33% off\n\n\\+ free AI Agent\n\nUse code SUMMER-33M for monthly and SUMMER-33Y for yearly subscription\n\nPricing\n\nStart with a 30-day free trial. No credit card required. Upgrade, downgrade, or cancel anytime.\n\n![NASCAR](https://images.liveagent.com/images/logos/nascar.svg)\n\n![Oxford](https://images.liveagent.com/images/logos/oxford.svg)\n\n![Hyundai](https://images.liveagent.com/images/logos/hyundai.svg)\n\n![Slido](https://images.liveagent.com/images/logos/slido.svg)\n\n![Geodis](https://images.liveagent.com/images/logos/geodis.svg)\n\n![LVBET](https://images.liveagent.com/images/logos/lvbet.svg)\n\n![FTMO](https://images.liveagent.com/images/logos/ftmo.svg)\n\n![GymBeam](https://images.liveagent.com/images/logos/gymbeam.svg)\n\n![TeamBlue](https://images.liveagent.com/images/logos/teamblue.svg)\n\n![Castrol](https://images.liveagent.com/images/logos/castrol.svg)\n\n![](https://images.liveagent.com/images/logos/nascar.svg)\n\n![](https://images.liveagent.com/images/logos/oxford.svg)\n\n![](https://images.liveagent.com/images/logos/hyundai.svg)\n\n![](https://images.liveagent.com/images/logos/slido.svg)\n\n![](https://images.liveagent.com/images/logos/geodis.svg)\n\n![](https://images.liveagent.com/images/logos/lvbet.svg)\n\n![](https://images.liveagent.com/images/logos/ftmo.svg)\n\n![](https://images.liveagent.com/images/logos/gymbeam.svg)\n\n![](https://images.liveagent.com/images/logos/teamblue.svg)\n\n![](https://images.liveagent.com/images/logos/castrol.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:28.102285Z",
+      "section_path": "Choose the right plan for your team > Trusted by leading companies worldwide",
+      "chunk_index": 0,
+      "token_count": 364,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_dbd7a79bf9ee",
+      "source_type": "pricing_page",
+      "url": "https://www.liveagent.com/pricing",
+      "domain": "www.liveagent.com",
+      "page_title": "Pricing | LiveAgent - Help Desk Software & Live Chat",
+      "content": "A full-scale solution with extra support & exclusive services\n\n\\+ free AI Agents\n\n$69$46\n\nSave 33%\n\nper month billed annually for new users (until January 1st, 2027)\n\n[Book demo call](https://www.liveagent.com/demo/)\n\n- Everything in Large plan\n- Almost unlimited\n- Dedicated account manager\n- Priority support\n- Assisted channels integration\n- Branding Free\n- Custom billing setup\n- Service review call and reports\n- Scheduled release management\n\n[See all features](https://www.liveagent.com/pricing/#comparison-table)\n\n30 days free trial\n\nNo credit card required\n\nUpgrade & pay as you go\n\nNo contracts\n\nCancel any time\n\n[**See LiveAgent in action** \\\\\n\\\\\nLet us show you the difference LiveAgent can make.](https://www.liveagent.com/demo/) [**Deal for Startups** Special\\\\\n\\\\\nSpecial offer for selected teams.](https://www.liveagent.com/startups/)\n\nCheck out our plan comparisons and select the best one for you\n\nMonthlyAnnually",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:28.102366Z",
+      "section_path": "Choose the right plan for your team > Compare plans",
+      "chunk_index": 2,
+      "token_count": 232,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_0cbfd9809a8c",
+      "source_type": "pricing_page",
+      "url": "https://www.liveagent.com/pricing",
+      "domain": "www.liveagent.com",
+      "page_title": "Pricing | LiveAgent - Help Desk Software & Live Chat",
+      "content": "Learn how CS Apparel Group, one of the largest sports and fashion retailers in Czech Republic and Slovakia, improved support speed by 75% with LiveAgent.\n\n+75%\n\nimprovement in average email response time (from 24h to 6h)\n\n+17%\n\nimprovement in SLA levels for calls (from 80% to 97%)\n\n[Read story](https://www.liveagent.com/success-stories/cs-apparel-group-customer-success-story/)\n\n[Show more](https://www.liveagent.com/success-stories/)\n\n![Thumbnail for Video](https://images.liveagent.com/images/landing-pages/how-it-works.jpg)\n\nSee how it works\n\nDiscover all the powerful features that make LiveAgent the perfect customer service solution. Watch our product demo to see the platform in action.\n\nWhat is the pricing of LiveAgent?\n\nLiveAgent offers affordable pricing plans that are competitive in the market. The software is praised for providing excellent value for money with its extensive feature set and integration ecosystem.\n\nDoes LiveAgent offer a free trial?\n\nYes, LiveAgent offers a 30-day free trial with no credit card required, allowing you to test all features before committing to a paid plan.\n\nHow much does the LiveAgent app cost?\n\nLiveAgent offers three subscription tiers: Small subscription for $15 per agent, Medium subscription for $29 per agent, and Large for $49 per agent. Mobile help desk apps for Android and iOS are included in each subscription without any additional fees. LiveAgent offers a free 30-day trial for each subscription.\n\nWhat are the integration costs in LiveAgent?\n\nLiveAgent offers three subscription plans (Small at $15/agent, Medium at $29/agent, and Large at $49/agent), and API and integrations are included in each subscription without any additional costs. A 30-day free trial is available for all subscriptions.\n\nWhat does a free trial do?\n\nWhen signing up for a free trial on the LiveAgent desktop software, you get insight into how the cloud functions. It teaches you how you can enhance your business and your customer support system. Here you'll discover how to use all its available features to help you organize email communications, solve tickets efficiently, and provide a better customer experience.\n\nHow can I get a free trial?\n\nSigning up to test the LiveAgent desktop software is quite simple. You can download a free trial version of the software, which will take you to a simple sign-up form. There you will provide your basic information such as your full name, business email, and company name.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:28.102724Z",
+      "section_path": "Choose the right plan for your team > Frequently asked questions",
+      "chunk_index": 5,
+      "token_count": 615,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_74f665af277e",
+      "source_type": "pricing_page",
+      "url": "https://www.liveagent.com/pricing",
+      "domain": "www.liveagent.com",
+      "page_title": "Pricing | LiveAgent - Help Desk Software & Live Chat",
+      "content": "Deliver exceptional customer support across multiple channels and automate your customer service with LiveAgent.\n\n[Start 30-day free trial](https://www.liveagent.com/trial/) [Demo](https://www.liveagent.com/demo/)\n\nJoin our community of happy clients and provide excellent customer support with LiveAgent.\n\n[Start 30-days free trial](https://www.liveagent.com/trial/) [Schedule a demo](https://www.liveagent.com/demo/)\n\n![LiveAgent Dashboard](https://images.liveagent.com/images/processed/good-hands/goodhands_image.png)\n\n**Cookie Consent**\n\nWe use cookies to enhance your browsing experience and analyze our traffic. See our [privacy policy](https://www.liveagent.com/privacy-policy/).\n\n[Reject all](https://www.liveagent.com/pricing/#) [Manage preferences](https://www.liveagent.com/pricing/#) [Accept All](https://www.liveagent.com/pricing/#)\n\nClose\n\nThese cookies are required for the website to function and cannot be disabled.\n\nThese cookies help us understand how visitors interact with our website.\n\nThese cookies are used to measure the effectiveness of our advertising campaigns and to support relevant advertising on third-party platforms.\n\nThese cookies are used to remember your preferences and improve your experience.\n\n[Cancel](https://www.liveagent.com/pricing/#) [Save Preferences](https://www.liveagent.com/pricing/#)\n\n×\n\n\nWelcome to LiveAgent Support\n\nNew unread message!\n\nCalling online representative...\n\nSettings\n\nExpand to new window\n\n\\_\n\nx\n\nYou can submit messages while waiting\n\nSend",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:28.102771Z",
+      "section_path": "Choose the right plan for your team > Cookie Settings > Functional Cookies",
+      "chunk_index": 6,
+      "token_count": 377,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_03a7d8d08f66",
+      "source_type": "pricing_page",
+      "url": "https://www.liveagent.com/pricing",
+      "domain": "www.liveagent.com",
+      "page_title": "Pricing | LiveAgent - Help Desk Software & Live Chat",
+      "content": "Show more\n\nExplore real success stories from businesses that chose LiveAgent as their help desk and dedicated communication platform.\n\n[How M4Markets Delivers AI-Powered Support with LiveAgent](https://www.liveagent.com/success-stories/m4markets/)\n\n![How M4Markets Delivers AI-Powered Support with LiveAgent](https://images.liveagent.com/images/processed/success-stories/hero/m4-markets.png)\n\n![How M4Markets Delivers AI-Powered Support with LiveAgent](https://images.liveagent.com/images/success-stories/hero/logo/m-for-markets-logo.svg)\n\nDiscover how M4Markets reduced agent workload and boosted international engagement 80% with LiveAgent's AI chatbot and automation.\n\n80%\n\nincrease in engagement across international regions\n\n24/7\n\ninstant support with LiveAgent AI chatbot\n\n[Read story](https://www.liveagent.com/success-stories/m4markets/)\n\n[How CS Apparel Group launches new support lines in minutes with LiveAgent](https://www.liveagent.com/success-stories/cs-apparel-group-customer-success-story/)\n\n![How CS Apparel Group launches new support lines in minutes with LiveAgent](https://images.liveagent.com/images/processed/success-stories/hero/apparel-group.png)\n\n![How CS Apparel Group launches new support lines in minutes with LiveAgent](https://images.liveagent.com/images/success-stories/hero/logo/apparel-group-logo.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:28.102671Z",
+      "section_path": "Choose the right plan for your team > The best customer experiences are built with LiveAgent > How M4Markets Delivers AI-Powered Support with LiveAgent",
+      "chunk_index": 4,
+      "token_count": 333,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_419544dcc1e1",
+      "source_type": "pricing_page",
+      "url": "https://www.liveagent.com/pricing",
+      "domain": "www.liveagent.com",
+      "page_title": "Pricing | LiveAgent - Help Desk Software & Live Chat",
+      "content": "![Logo](https://support.qualityunit.com/themes/install/_common_templates/img/default-contactwidget-logo.png)\n\nSubmit your email to start chatting\n\nEmail\n\nWe need to process your personal data in line with our [Privacy Policy](https://www.liveagent.com/privacy-policy/)\n\nI agree\n\nClose\n\n0\n\nSendChatCallClose\n\nWelcome to LiveAgent Support\n\nNew unread message!\n\nCalling online representative...\n\nSettings\n\nExpand to new window\n\n\\_\n\nx\n\nYou can submit messages while waiting\n\nSend\n\n![Logo](https://support.qualityunit.com/themes/install/_common_templates/img/default-contactwidget-logo.png)\n\nSubmit your email to start chatting\n\nEmail\n\nWe need to process your personal data in line with our [Privacy Policy](https://www.liveagent.com/privacy-policy/)\n\nI agree\n\nClose\n\n0\n\nSendChatCallClose",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:28.102798Z",
+      "section_path": "Choose the right plan for your team > Cookie Settings > Knowledgebase",
+      "chunk_index": 7,
+      "token_count": 195,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_588ec99b97ca",
+      "source_type": "official_docs",
+      "url": "https://liveagent.com",
+      "domain": "liveagent.com",
+      "page_title": "LiveAgent - Help Desk Software & Live Chat",
+      "content": "Get your\n\n33% off\n\n\\+ free AI Agent\n\nUse code SUMMER-33M for monthly and SUMMER-33Y for yearly subscription\n\n![Summer promotion background](https://images.liveagent.com/images/promo/summer/summer-landing-bg.png)![Summer promotion background](https://images.liveagent.com/images/promo/summer/summer-mobile-bg.png)[Summer promotion - click for more details](https://www.liveagent.com/summer-promo/)\n\n1st – 31st July 2026\n\nAI Agents at\n\nZero Cost\n\nGet your\n\n33% off\n\n\\+ free AI Agent\n\nUse codeSUMMER-33Mfor monthly andSUMMER-33Yfor yearly subscription\n\n![Summer promotion banner](https://images.liveagent.com/images/promo/summer/summer-landing.png)\n\nLiveAgent combines an all-in-one [customer service](https://www.liveagent.com/ai-powered-software/ \"Automate up to 75% of customer conversations with AI. LiveAgent combines AI chatbot, live chat, ticketing & call center. Start your free 30-day trial.\") platform with AI chatbot, live chat, ticketing, and call center. Automate up to 75% of conversations with built-in AI.\n\nNo setup fee\n24/7 Customer service\nNo credit card required\nCancel any time\n30-day free trial\n\n[Schedule a Demo](https://www.liveagent.com/demo/) [Try it Now](https://www.liveagent.com/trial/)\n\n![Deliver seamless support with AI-powered help desk](https://images.liveagent.com/images/processed/hero-3-homepage.png)\n\n![Deliver seamless support with AI-powered help desk](https://images.liveagent.com/images/processed/hero-1-homepage.png)\n\n![Deliver seamless support with AI-powered help desk](https://images.liveagent.com/images/processed/hero-2-homepage.png)\n\n![Deliver seamless support with AI-powered help desk](https://images.liveagent.com/images/processed/hero-4-homepage.png)\n\n![Deliver seamless support with AI-powered help desk](https://images.liveagent.com/images/processed/hero-5-homepage.png)\n\n![Deliver seamless support with AI-powered help desk](https://images.liveagent.com/images/processed/hero-3-homepage.png)\n\n![NASCAR](https://images.liveagent.com/images/logos/nascar.svg)\n\n![Oxford](https://images.liveagent.com/images/logos/oxford.svg)\n\n![Hyundai](https://images.liveagent.com/images/logos/hyundai.svg)\n\n![Slido](https://images.liveagent.com/images/logos/slido.svg)\n\n![Geodis](https://images.liveagent.com/images/logos/geodis.svg)\n\n![LVBET](https://images.liveagent.com/images/logos/lvbet.svg)\n\n![FTMO](https://images.liveagent.com/images/logos/ftmo.svg)\n\n![GymBeam](https://images.liveagent.com/images/logos/gymbeam.svg)\n\n![TeamBlue](https://images.liveagent.com/images/logos/teamblue.svg)\n\n![Castrol](https://images.liveagent.com/images/logos/castrol.svg)\n\n![](https://images.liveagent.com/images/logos/nascar.svg)\n\n![](https://images.liveagent.com/images/logos/oxford.svg)\n\n![](https://images.liveagent.com/images/logos/hyundai.svg)\n\n![](https://images.liveagent.com/images/logos/slido.svg)\n\n![](https://images.liveagent.com/images/logos/geodis.svg)\n\n![](https://images.liveagent.com/images/logos/lvbet.svg)\n\n![](https://images.liveagent.com/images/logos/ftmo.svg)\n\n![](https://images.liveagent.com/images/logos/gymbeam.svg)\n\n![](https://images.liveagent.com/images/logos/teamblue.svg)\n\n![](https://images.liveagent.com/images/logos/castrol.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:28.053232Z",
+      "section_path": "Deliver seamless support with AI-powered help desk",
+      "chunk_index": 0,
+      "token_count": 796,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_5c1a57a68104",
+      "source_type": "official_docs",
+      "url": "https://liveagent.com",
+      "domain": "liveagent.com",
+      "page_title": "LiveAgent - Help Desk Software & Live Chat",
+      "content": "AI Chatbot\n\nResolves customer inquiries instantly, 24/7, in 100+ languages, lightening your team’s workload. Built on autonomous AI [agents](https://www.liveagent.com/features/agents/ \"LiveAgent - Agents\").\n\n[Learn more: AI Chatbot](https://www.liveagent.com/features/chatbot/)\n\nAI Answer Improver\n\nStrengthens every human reply, ensuring clear, polished, and professional communication with customers.\n\n[Learn more: AI Answer Improver](https://www.liveagent.com/features/ai-features/)\n\nAI Answer Composer\n\nGenerates complete, accurate replies in one click. Learns from your [knowledge base](https://www.liveagent.com/knowledge-base-software/ \"LiveAgent - Knowledge base\") to ensure every response is correct and consistent.\n\n[Learn more: AI Answer Composer](https://www.liveagent.com/features/ai-features/)\n\n[Discover all AI features](https://www.liveagent.com/ai-powered-software/)\n\n[![All customer support channels unified in LiveAgent](https://images.liveagent.com/images/processed/landing-pages/every-channel-one-inbox.png)](https://www.liveagent.com/trial/)\n\nFree trial\n\nEmail, live chat, phone, social media, WhatsApp, Viber, knowledge base — all unified in a single dashboard with 175+ features and 200+ integrations.\n\n[Get Started \\| 30 days free](https://www.liveagent.com/trial/)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:28.053302Z",
+      "section_path": "Deliver seamless support with AI-powered help desk > Every channel. One inbox. No missed chats.",
+      "chunk_index": 1,
+      "token_count": 322,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_46080c70a067",
+      "source_type": "official_docs",
+      "url": "https://liveagent.com",
+      "domain": "liveagent.com",
+      "page_title": "LiveAgent - Help Desk Software & Live Chat",
+      "content": "Reach customers wherever they are with an omnichannel help desk and built-in call center.\n\n[Get Started \\| 30 days free](https://www.liveagent.com/trial/) [Take a tour](https://www.liveagent.com/demo/)\n\nExplore real success stories from businesses that chose [LiveAgent as their help desk](https://www.liveagent.com/about/about-liveagent/ \"Every successful company started somewhere. Check out our history and learn more about our company's mission, vision, and values.\") and dedicated communication platform.\n\n[How M4Markets Delivers AI-Powered Support with LiveAgent](https://www.liveagent.com/success-stories/m4markets/)\n\n![How M4Markets Delivers AI-Powered Support with LiveAgent](https://images.liveagent.com/images/processed/success-stories/hero/m4-markets.png)\n\n![How M4Markets Delivers AI-Powered Support with LiveAgent](https://images.liveagent.com/images/success-stories/hero/logo/m-for-markets-logo.svg)\n\nDiscover how M4Markets reduced agent workload and boosted international engagement 80% with LiveAgent's AI chatbot and automation.\n\n80%\n\nincrease in engagement across international regions\n\n24/7\n\ninstant support with LiveAgent AI chatbot\n\n[Read story](https://www.liveagent.com/success-stories/m4markets/)\n\n[How CS Apparel Group launches new support lines in minutes with LiveAgent](https://www.liveagent.com/success-stories/cs-apparel-group-customer-success-story/)\n\n![How CS Apparel Group launches new support lines in minutes with LiveAgent](https://images.liveagent.com/images/processed/success-stories/hero/apparel-group.png)\n\n![How CS Apparel Group launches new support lines in minutes with LiveAgent](https://images.liveagent.com/images/success-stories/hero/logo/apparel-group-logo.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:28.053408Z",
+      "section_path": "Deliver seamless support with AI-powered help desk > The best customer experiences are built with LiveAgent > How M4Markets Delivers AI-Powered Support with LiveAgent",
+      "chunk_index": 4,
+      "token_count": 427,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_779d390b5391",
+      "source_type": "official_docs",
+      "url": "https://liveagent.com",
+      "domain": "liveagent.com",
+      "page_title": "LiveAgent - Help Desk Software & Live Chat",
+      "content": "Learn how CS Apparel Group, one of the largest sports and fashion retailers in Czech Republic and Slovakia, improved support speed by 75% with LiveAgent.\n\n+75%\n\nimprovement in average email response time (from 24h to 6h)\n\n+17%\n\nimprovement in [SLA](https://www.liveagent.com/features/service-level-agreement-sla/ \"LiveAgent - Sla\") levels for calls (from 80% to 97%)\n\n[Read story](https://www.liveagent.com/success-stories/cs-apparel-group-customer-success-story/)\n\n[Show more](https://www.liveagent.com/success-stories/)\n\nTake a quick product tour, check special startup offers, and stay updated with the latest LiveAgent improvements.\n\n- [Would you like to take a tour?](https://www.liveagent.com/tour/)\n\n\n![LiveAgent product tour showing help desk features and use cases](https://images.liveagent.com/images/processed/landing-pages/home_more01_new.webp)\n\nTake a tour of LiveAgent and explore every feature, functionality, and use case of our multi-channel help desk solution.\n\n\n\n[Take a tour](https://www.liveagent.com/tour/)\n\n- [Looking to improve your startup?](https://www.liveagent.com/startups/)\n\n\n![LiveAgent startup offer with special help desk pricing](https://images.liveagent.com/images/processed/landing-pages/home_more02_new.webp)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:28.053446Z",
+      "section_path": "Deliver seamless support with AI-powered help desk > Explore LiveAgent resources > Would you like to take a tour?",
+      "chunk_index": 5,
+      "token_count": 311,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_c61d5ac4b497",
+      "source_type": "official_docs",
+      "url": "https://liveagent.com",
+      "domain": "liveagent.com",
+      "page_title": "LiveAgent - Help Desk Software & Live Chat",
+      "content": "What is LiveAgent?\n\nLiveAgent is an all‑in‑one customer service platform that brings live chat, AI chatbot, email ticketing, built‑in call center, social media support, and knowledge base management together in a single dashboard to help teams deliver faster, smarter support\n\nWhat is LiveAgent?\n\nLiveAgent is an all‑in‑one customer service platform that brings live chat, AI chatbot, email ticketing, built‑in call center, social media support, and knowledge base management together in a single dashboard to help teams deliver faster, smarter support\n\nHow does the LiveAgent AI chatbot work?\n\nLiveAgent’s AI chatbot operates 24/7 in 100+ languages, using your knowledge base, website content, and documents to answer common questions instantly. When issues are more complex, it hands the conversation off to your human agents with full context.\n\nHow does the LiveAgent AI chatbot work?\n\nLiveAgent’s AI chatbot operates 24/7 in 100+ languages, using your knowledge base, website content, and documents to answer common questions instantly. When issues are more complex, it hands the conversation off to your human agents with full context.\n\nDoes LiveAgent offer a free trial?\n\nYes — LiveAgent comes with a 30‑day free trial that requires no credit card, letting you test all features before committing to a paid plan.\n\nDoes LiveAgent offer a free trial?\n\nYes — LiveAgent comes with a 30‑day free trial that requires no credit card, letting you test all features before committing to a paid plan.\n\nHow much does LiveAgent cost?\n\nLiveAgent pricing starts at $15 per agent/month (billed annually) with multiple tiers available including Small, Medium, Large, and Enterprise plans — each adding more advanced features like call center, social channel integration, SLA, and dedicated support.\n\nHow much does LiveAgent cost?\n\nLiveAgent pricing starts at $15 per agent/month (billed annually) with multiple tiers available including Small, Medium, Large, and Enterprise plans — each adding more advanced features like call center, social channel integration, SLA, and dedicated support.\n\nWhat communication channels are supported?\n\nLiveAgent supports email, live chat, phone (via built‑in call center), Facebook, X, Instagram, WhatsApp, Viber, Telegram contact forms, knowledge base, and more — all unified into one inbox so you never miss a conversation.\n\nWhat communication channels are supported?\n\nLiveAgent supports email, live chat, phone (via built‑in call center), Facebook, X, Instagram, WhatsApp, Viber, Telegram contact forms, knowledge base, and more — all unified into one inbox so you never miss a conversation.\n\nCan I cancel or change my plan anytime?\n\nAbsolutely — you can upgrade, downgrade, or cancel your plan anytime with no contracts, no setup fees, and flexible billing options.\n\nCan I cancel or change my plan anytime?\n\nAbsolutely — you can upgrade, downgrade, or cancel your plan anytime with no contracts, no setup fees, and flexible billing options.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:28.053869Z",
+      "section_path": "Deliver seamless support with AI-powered help desk > Frequently asked questions",
+      "chunk_index": 11,
+      "token_count": 742,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_a84e7b84f4d4",
+      "source_type": "official_docs",
+      "url": "https://liveagent.com",
+      "domain": "liveagent.com",
+      "page_title": "LiveAgent - Help Desk Software & Live Chat",
+      "content": "Join our community of happy clients and provide excellent customer support with LiveAgent.\n\n[Start 30-days free trial](https://www.liveagent.com/trial/) [Schedule a demo](https://www.liveagent.com/demo/)\n\n![LiveAgent Dashboard](https://images.liveagent.com/images/processed/good-hands/goodhands_image.png)\n\nContact Us\n\n**Cookie Consent**\n\nWe use cookies to enhance your browsing experience and analyze our traffic. See our [privacy policy](https://www.liveagent.com/privacy-policy/).\n\n[Reject all](https://www.liveagent.com/#) [Manage preferences](https://www.liveagent.com/#) [Accept All](https://www.liveagent.com/#)\n\nClose\n\nThese cookies are required for the website to function and cannot be disabled.\n\nThese cookies help us understand how visitors interact with our website.\n\nThese cookies are used to measure the effectiveness of our advertising campaigns and to support relevant advertising on third-party platforms.\n\nThese cookies are used to remember your preferences and improve your experience.\n\n[Cancel](https://www.liveagent.com/#) [Save Preferences](https://www.liveagent.com/#)\n\n×\n\n\nWelcome to LiveAgent Support\n\nNew unread message!\n\nConnecting to chatbot...\n\nSettings\n\nExpand to new window\n\n\\_\n\nx\n\nYou can submit messages while waiting\n\nSend",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:28.053902Z",
+      "section_path": "Deliver seamless support with AI-powered help desk > Cookie Settings > Functional Cookies",
+      "chunk_index": 12,
+      "token_count": 314,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_49fc3508d15e",
+      "source_type": "official_docs",
+      "url": "https://liveagent.com",
+      "domain": "liveagent.com",
+      "page_title": "LiveAgent - Help Desk Software & Live Chat",
+      "content": "LiveAgent has been selected as the fastest implementation software, the best live chat software, and an industry leader by customers on prominent review portals.\n\n- [Powerful help desk software](https://www.liveagent.com/help-desk-software/)\n\n\n![LiveAgent omnichannel help desk software with efficiency features](https://images.liveagent.com/images/processed/explore/01_helpdesk_img.webp)\n\n\n\n\n\nToo many customer messages?\n\nIncrease support team productivity by up to 20%. Manage email, chat, calls and social messages in one inbox.\n\n- [Smart ticketing](https://www.liveagent.com/ticketing-software/)\n\n\n![LiveAgent smart ticketing system managing customer communication](https://images.liveagent.com/images/processed/explore/02_ticketing_img.webp)\n\n\n\n\n\nLosing track of support requests?\n\nResolve up to 28% more requests on first contact. Automatically turn messages into tickets. Track and resolve every request easily.\n\n- [Social media integrations](https://www.liveagent.com/social-media-customer-service/)\n\n\n![LiveAgent social media integrations with Facebook, Instagram, and WhatsApp](https://images.liveagent.com/images/processed/explore/03_socialmedia_img.webp)\n\n\n\n\n\nCustomers messaging you on social media?",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:28.053334Z",
+      "section_path": "Deliver seamless support with AI-powered help desk > Explore why LiveAgent is the best choice for your business > Smart ticketing",
+      "chunk_index": 2,
+      "token_count": 303,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_91f290a28d35",
+      "source_type": "official_docs",
+      "url": "https://liveagent.com",
+      "domain": "liveagent.com",
+      "page_title": "LiveAgent - Help Desk Software & Live Chat",
+      "content": "Respond to social messages up to 75% faster and organize your customer communication.\n\n- [The fastest live chat](https://www.liveagent.com/live-chat-software/)\n\n\n![LiveAgent fastest live chat widget for sales and support](https://images.liveagent.com/images/processed/explore/04_livechat_img.webp)\n\n\n\n\n\nVisitors expect instant answers?\n\nIncrease conversions by up to 3× with live chat. Chat with visitors in real time and resolve questions faster.\n\n- [Knowledge base](https://www.liveagent.com/liveagent-knowledge-base-software/)\n\n\n![LiveAgent knowledge base with articles, guides, and FAQ portal](https://images.liveagent.com/images/processed/explore/05_knowledgebase_img.webp)\n\n\n\n\n\nCustomers asking the same questions?\n\nReduce support workload by up to 30%. Create help articles and FAQs so customers can find answers themselves.\n\n- [Built-in call center](https://www.liveagent.com/call-center-software/)\n\n\n![LiveAgent built-in call center with IVR and callback features](https://images.liveagent.com/images/processed/explore/06_callcenter_img.webp)\n\n\n\n\n\nManaging phone support separately?\n\nAchieve 90%+ [customer satisfaction](https://www.liveagent.com/academy/customer-satisfaction/ \"LiveAgent - Customer satisfaction\"). Handle calls directly from the helpdesk and track every conversation.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:28.053370Z",
+      "section_path": "Deliver seamless support with AI-powered help desk > Explore why LiveAgent is the best choice for your business > Built-in call center",
+      "chunk_index": 3,
+      "token_count": 323,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_ad39f02d4aa4",
+      "source_type": "official_docs",
+      "url": "https://liveagent.com",
+      "domain": "liveagent.com",
+      "page_title": "LiveAgent - Help Desk Software & Live Chat",
+      "content": "If you’re looking for the right help desk software for your startup, you’re at the right place. See why you should choose LiveAgent.\n\n\n\n[Check the deal for startups](https://www.liveagent.com/startups/)\n\n- [See what’s new in LiveAgent](https://www.liveagent.com/blog/)\n\n\n![Latest LiveAgent updates and new help desk features](https://images.liveagent.com/images/processed/landing-pages/home_more03_new.webp)\n\nFind out about the latest updates of [LiveAgent help desk software](https://www.liveagent.com/help-desk-software/ \"LiveAgent - Liveagent help desk software\") and explore how we continually improve our solution.\n\n\n\n[Discover LiveAgent updates](https://www.liveagent.com/blog/)\n\n[![LiveAgent monthly product update: July edition](https://images.liveagent.com/images/processed/blog/liveagent-monthly-updates-february-edition-2025_LiveAgent_Monthly_Updates__February_Edition_2025.png)\\\\\n\\\\\n**LiveAgent monthly product update: July edition** \\\\\n\\\\\nExplore LiveAgent's July 2026 updates, featuring the new LivePhone mobile app, Let's Encrypt SSL certificate support, AI ticket summary, and more.\\\\\n\\\\\nJuly 7, 2026\\\\\n•3 min read](https://www.liveagent.com/blog/liveagent-july-2026-product-update/)\n\n[![20 Best VoIP phone systems and integrations](https://images.liveagent.com/images/blog/best-voip-phone-systems-and-integrations_20_Best_VoIP_phone_systems_and_integrations.svg)\\\\\n\\\\\n**20 Best VoIP phone systems and integrations** \\\\\n\\\\\nJul 3, 2026\\\\\n•25 min read](https://www.liveagent.com/blog/best-voip-phone-systems-and-integrations/)[![Best VoIP Softphone Apps for Mac in 2026](https://images.liveagent.com/images/blog/Best-VoIP-softphone-apps-for-2021.svg)\\\\\n\\\\\n**Best VoIP Softphone Apps for Mac in 2026** \\\\\n\\\\\nVoIP\\\\\n+4\\\\\n\\\\\nJul 3, 2026\\\\\n•18 min read](https://www.liveagent.com/blog/best-voip-softphone-apps/)[![The 15 Best Zendesk Alternatives for 2026](https://images.liveagent.com/images/processed/blog/zendesk-dashboard-tickets-594x335.png)\\\\\n\\\\\n**The 15 Best Zendesk Alternatives for 2026** \\\\\n\\\\\nZendesk\\\\\n+4\\\\\n\\\\\nJul 3, 2026\\\\\n•28 min read](https://www.liveagent.com/blog/zendesk-alternative/)[![What is memory-rich AI, and why customer service teams can't ignore it anymore](https://images.liveagent.com/images/blog/memory-rich-ai.jpg)\\\\\n\\\\\n**What is memory-rich AI, and why customer service teams can't ignore it anymore** \\\\\n\\\\\nAI\\\\\n+4\\\\\n\\\\\nJul 2, 2026\\\\\n•9 min read](https://www.liveagent.com/blog/what-is-memory-rich-ai/)\n\n[Read more](https://www.liveagent.com/blog/)\n\nTestimonials",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:28.053517Z",
+      "section_path": "Deliver seamless support with AI-powered help desk > Our latest blogs",
+      "chunk_index": 6,
+      "token_count": 626,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_f185f5128929",
+      "source_type": "official_docs",
+      "url": "https://liveagent.com",
+      "domain": "liveagent.com",
+      "page_title": "LiveAgent - Help Desk Software & Live Chat",
+      "content": "![badge sourceforge winter 2026 leader award badge](https://images.liveagent.com/images/processed/awards/badge-sourceforge-winter-2026-leader.png)\n\n![capterra 2026 customer service shortlist award badge](https://images.liveagent.com/images/processed/awards/capterra-2026-customer-service-shortlist.png)\n\n![capterra best value badge 2026 award badge](https://images.liveagent.com/images/processed/awards/capterra-best-value-badge-2026.png)\n\n![software advice customer support 2026 badge award badge](https://images.liveagent.com/images/processed/awards/software-advice-customer_support-2026-badge.png)\n\n![software advice most recommended badge 2026 award badge](https://images.liveagent.com/images/processed/awards/software-advice-most_recommended-badge-2026.png)\n\n![software advice2026 frontrunners helpdesk award badge](https://images.liveagent.com/images/processed/awards/software-advice2026-frontrunners-helpdesk.png)\n\n![G2 bestsupport 2025 award badge](https://images.liveagent.com/images/processed/awards/G2-bestsupport-2025.png)\n\n![G2 best est roi summer 2025 698x400 award badge](https://images.liveagent.com/images/processed/awards/G2_best_est_roi_summer_2025-698x400.png)\n\n![G2 high performer summer 2025 700x400 award badge](https://images.liveagent.com/images/processed/awards/G2_high_performer_summer_2025-700x400.png)\n\n![G2 high performer summer 2025 award badge](https://images.liveagent.com/images/processed/awards/G2_high_performer_summer_2025.png)\n\n![G2 regional leader summer 2025 698x400 award badge](https://images.liveagent.com/images/processed/awards/G2_regional_leader_summer_2025-698x400.png)\n\n![G2 spring2025 award badge](https://images.liveagent.com/images/processed/awards/G2_spring2025.png)\n\n![Software suggest 2025 best support award badge](https://images.liveagent.com/images/processed/awards/Software-suggest-2025-best-support.png)\n\n![Sourceforge summer2025 award badge](https://images.liveagent.com/images/processed/awards/Sourceforge_summer2025.png)\n\n![badge ca shortlist 2025 award badge](https://images.liveagent.com/images/processed/awards/badge-ca-shortlist-2025.png)\n\n![badge ga category leaders 2025 award badge](https://images.liveagent.com/images/processed/awards/badge-ga-category_leaders-2025.png)\n\n![badge sourceforge winter 2025 leader award badge](https://images.liveagent.com/images/processed/awards/badge-sourceforge-winter-2025-leader.png)\n\n![capterra 2025 help desk shortlist award badge](https://images.liveagent.com/images/processed/awards/capterra-2025-help-desk-shortlist.png)\n\n![getapp 2025 badge call tracking software award badge](https://images.liveagent.com/images/processed/awards/getapp-2025-badge-call-tracking-software.png)\n\n![software advice front runners 2025 award badge](https://images.liveagent.com/images/processed/awards/software-advice-front-runners-2025.png)\n\n![software advice2025 frontrunners helpdesk award badge](https://images.liveagent.com/images/processed/awards/software-advice2025-frontrunners-helpdesk.png)\n\n![sourceforge spring 2025 award badge](https://images.liveagent.com/images/processed/awards/sourceforge-spring-2025.png)\n\n![](https://images.liveagent.com/images/processed/awards/badge-sourceforge-winter-2026-leader.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:28.053578Z",
+      "section_path": "Deliver seamless support with AI-powered help desk > We have worked with thousands of amazing people",
+      "chunk_index": 7,
+      "token_count": 802,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_54383f74da5b",
+      "source_type": "official_docs",
+      "url": "https://liveagent.com",
+      "domain": "liveagent.com",
+      "page_title": "LiveAgent - Help Desk Software & Live Chat",
+      "content": "![](https://images.liveagent.com/images/processed/awards/capterra-2026-customer-service-shortlist.png)\n\n![](https://images.liveagent.com/images/processed/awards/capterra-best-value-badge-2026.png)\n\n![](https://images.liveagent.com/images/processed/awards/software-advice-customer_support-2026-badge.png)\n\n![](https://images.liveagent.com/images/processed/awards/software-advice-most_recommended-badge-2026.png)\n\n![](https://images.liveagent.com/images/processed/awards/software-advice2026-frontrunners-helpdesk.png)\n\n![](https://images.liveagent.com/images/processed/awards/G2-bestsupport-2025.png)\n\n![](https://images.liveagent.com/images/processed/awards/G2_best_est_roi_summer_2025-698x400.png)\n\n![](https://images.liveagent.com/images/processed/awards/G2_high_performer_summer_2025-700x400.png)\n\n![](https://images.liveagent.com/images/processed/awards/G2_high_performer_summer_2025.png)\n\n![](https://images.liveagent.com/images/processed/awards/G2_regional_leader_summer_2025-698x400.png)\n\n![](https://images.liveagent.com/images/processed/awards/G2_spring2025.png)\n\n![](https://images.liveagent.com/images/processed/awards/Software-suggest-2025-best-support.png)\n\n![](https://images.liveagent.com/images/processed/awards/Sourceforge_summer2025.png)\n\n![](https://images.liveagent.com/images/processed/awards/badge-ca-shortlist-2025.png)\n\n![](https://images.liveagent.com/images/processed/awards/badge-ga-category_leaders-2025.png)\n\n![](https://images.liveagent.com/images/processed/awards/badge-sourceforge-winter-2025-leader.png)\n\n![](https://images.liveagent.com/images/processed/awards/capterra-2025-help-desk-shortlist.png)\n\n![](https://images.liveagent.com/images/processed/awards/getapp-2025-badge-call-tracking-software.png)\n\n![](https://images.liveagent.com/images/processed/awards/software-advice-front-runners-2025.png)\n\n![](https://images.liveagent.com/images/processed/awards/software-advice2025-frontrunners-helpdesk.png)\n\n![](https://images.liveagent.com/images/processed/awards/sourceforge-spring-2025.png)\n\n[See all awards](https://www.liveagent.com/awards/)\n\n- “I have to say, I have never experienced such a professional customer approach.”\n\nA\n\nAndrej Ftomin\n\nTAZAR Group\n\n- “We find LiveAgent to be the best live [chat solution](https://www.liveagent.com/live-chat-software/ \"LiveAgent - Chat solution\") by far.”\n\n![Profile photo of Matt Janaway from The Workplace Depot](https://images.liveagent.com/images/processed/testimonials/matt-janaway.webp)\n\nMatt Janaway\n\nThe Workplace Depot\n\n- “We use LiveAgent on all of our ecommerce websites. The tool is easy to use and improves our productivity.”\n\n![Profile photo of Viviane Carter from CSI Products](https://images.liveagent.com/images/processed/testimonials/viviane-carter.webp)\n\nViviane Carter\n\nCSI Products\n\n- “With LiveAgent we’re able to give our customers support wherever they are.”\n\n![Profile photo of Christian Lange from Lucky-Bike](https://images.liveagent.com/images/processed/testimonials/christian-lange.webp)\n\nChristian Lange\n\nLucky-Bike\n\n- “LiveAgent combines excellent live chat, ticketing and automation that allow us to provide exceptional support to our customers.”\n\n![Profile photo of Peter Komornik from Slido](https://images.liveagent.com/images/testimonials/peter-komornik.webp)\n\nPeter Komornik\n\nSlido",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:28.053660Z",
+      "section_path": "Deliver seamless support with AI-powered help desk > We have worked with thousands of amazing people",
+      "chunk_index": 8,
+      "token_count": 824,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_5e4f747d9a3c",
+      "source_type": "official_docs",
+      "url": "https://liveagent.com",
+      "domain": "liveagent.com",
+      "page_title": "LiveAgent - Help Desk Software & Live Chat",
+      "content": "- “It’s a pleasure to have a great portal that improves our customer service.”\n\n![Profile photo of Roman Bosch from Partly](https://images.liveagent.com/images/processed/testimonials/roman-bosch.webp)\n\nRoman Bosch\n\nPartly\n\n- “LiveAgent empowers our agents to provide better, faster, and more accurate support.”\n\n![Profile photo of Christine Preusler from HostingAdvice](https://images.liveagent.com/images/processed/testimonials/christine_preusler-101x110.webp)\n\nChristine Preusler\n\nHostingAdvice\n\n- “LiveAgent helped us to achieve 2 important goals: increase customer satisfaction and sales.”\n\n![Profile photo of Karl Dieterich from Covomo](https://images.liveagent.com/images/processed/testimonials/karl-dieterich.webp)\n\nKarl Dieterich\n\nCovomo\n\n- “We have been using LiveAgent since August and we are really satisfied with it.”\n\n![Profile photo of Hendrik Henze from HEWO Internetmarketing](https://images.liveagent.com/images/processed/testimonials/hendrik-henze.webp)\n\nHendrik Henze\n\nHEWO Internetmarketing\n\n- “Since we are using LiveAgent our response time improved by 60%.”\n\n![Profile photo of Razvan Sava from Webmaster Deals](https://images.liveagent.com/images/processed/testimonials/razvan-sava.webp)\n\nRazvan Sava\n\nWebmaster Deals\n\n- “Our paid customer conversion rate went up 325% the first month we’ve set up and actively started using LiveAgent.”\n\n![Profile photo of Taras Baca from XperienceHR](https://images.liveagent.com/images/processed/testimonials/taras-baca.webp)\n\nTaras Baca\n\nXperienceHR\n\n- “I have to say, I have never experienced such a professional customer approach.”\n\nA\n\nAndrej Ftomin\n\nTAZAR Group\n\n- “We find LiveAgent to be the best live [chat solution](https://www.liveagent.com/live-chat-software/ \"LiveAgent - Chat solution\") by far.”\n\n![Profile photo of Matt Janaway from The Workplace Depot](https://images.liveagent.com/images/processed/testimonials/matt-janaway.webp)\n\nMatt Janaway\n\nThe Workplace Depot\n\n- “We use LiveAgent on all of our ecommerce websites. The tool is easy to use and improves our productivity.”\n\n![Profile photo of Viviane Carter from CSI Products](https://images.liveagent.com/images/processed/testimonials/viviane-carter.webp)\n\nViviane Carter\n\nCSI Products\n\n- “With LiveAgent we’re able to give our customers support wherever they are.”\n\n![Profile photo of Christian Lange from Lucky-Bike](https://images.liveagent.com/images/processed/testimonials/christian-lange.webp)\n\nChristian Lange\n\nLucky-Bike\n\n- “LiveAgent combines excellent live chat, ticketing and automation that allow us to provide exceptional support to our customers.”\n\n![Profile photo of Peter Komornik from Slido](https://images.liveagent.com/images/testimonials/peter-komornik.webp)\n\nPeter Komornik\n\nSlido\n\n- “It’s a pleasure to have a great portal that improves our customer service.”\n\n![Profile photo of Roman Bosch from Partly](https://images.liveagent.com/images/processed/testimonials/roman-bosch.webp)\n\nRoman Bosch\n\nPartly\n\n- “LiveAgent empowers our agents to provide better, faster, and more accurate support.”\n\n![Profile photo of Christine Preusler from HostingAdvice](https://images.liveagent.com/images/processed/testimonials/christine_preusler-101x110.webp)\n\nChristine Preusler\n\nHostingAdvice\n\n- “LiveAgent helped us to achieve 2 important goals: increase customer satisfaction and sales.”",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:28.053739Z",
+      "section_path": "Deliver seamless support with AI-powered help desk > We have worked with thousands of amazing people",
+      "chunk_index": 9,
+      "token_count": 831,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_80747a7796cc",
+      "source_type": "official_docs",
+      "url": "https://liveagent.com",
+      "domain": "liveagent.com",
+      "page_title": "LiveAgent - Help Desk Software & Live Chat",
+      "content": "![Profile photo of Karl Dieterich from Covomo](https://images.liveagent.com/images/processed/testimonials/karl-dieterich.webp)\n\nKarl Dieterich\n\nCovomo\n\n“LiveAgent combines excellent live chat, ticketing and automation that allow us to provide exceptional support to our customers.”\n\n![Profile photo of Peter Komornik from Slido](https://images.liveagent.com/images/testimonials/peter-komornik.webp)\n\nPeter Komornik\n\nSlido\n\n“It’s a pleasure to have a great portal that improves our customer service.”\n\n![Profile photo of Roman Bosch from Partly](https://images.liveagent.com/images/processed/testimonials/roman-bosch.webp)\n\nRoman Bosch\n\nPartly\n\n“LiveAgent empowers our agents to provide better, faster, and more accurate support.”\n\n![Profile photo of Christine Preusler from HostingAdvice](https://images.liveagent.com/images/processed/testimonials/christine_preusler-101x110.webp)\n\nChristine Preusler\n\nHostingAdvice\n\n“LiveAgent helped us to achieve 2 important goals: increase customer satisfaction and sales.”\n\n![Profile photo of Karl Dieterich from Covomo](https://images.liveagent.com/images/processed/testimonials/karl-dieterich.webp)\n\nKarl Dieterich\n\nCovomo\n\n“We have been using LiveAgent since August and we are really satisfied with it.”\n\n![Profile photo of Hendrik Henze from HEWO Internetmarketing](https://images.liveagent.com/images/processed/testimonials/hendrik-henze.webp)\n\nHendrik Henze\n\nHEWO Internetmarketing\n\n“Since we are using LiveAgent our response time improved by 60%.”\n\n![Profile photo of Razvan Sava from Webmaster Deals](https://images.liveagent.com/images/processed/testimonials/razvan-sava.webp)\n\nRazvan Sava\n\nWebmaster Deals\n\n“Our paid customer conversion rate went up 325% the first month we’ve set up and actively started using LiveAgent.”\n\n![Profile photo of Taras Baca from XperienceHR](https://images.liveagent.com/images/processed/testimonials/taras-baca.webp)\n\nTaras Baca\n\nXperienceHR\n\n“I have to say, I have never experienced such a professional customer approach.”\n\nA\n\nAndrej Ftomin\n\nTAZAR Group\n\n“We find LiveAgent to be the best live chat solution by far.”\n\n![Profile photo of Matt Janaway from The Workplace Depot](https://images.liveagent.com/images/processed/testimonials/matt-janaway.webp)\n\nMatt Janaway\n\nThe Workplace Depot\n\n“We use LiveAgent on all of our ecommerce websites. The tool is easy to use and improves our productivity.”\n\n![Profile photo of Viviane Carter from CSI Products](https://images.liveagent.com/images/processed/testimonials/viviane-carter.webp)\n\nViviane Carter\n\nCSI Products\n\n“With LiveAgent we’re able to give our customers support wherever they are.”\n\n![Profile photo of Christian Lange from Lucky-Bike](https://images.liveagent.com/images/processed/testimonials/christian-lange.webp)\n\nChristian Lange\n\nLucky-Bike",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:28.053808Z",
+      "section_path": "Deliver seamless support with AI-powered help desk > We have worked with thousands of amazing people",
+      "chunk_index": 10,
+      "token_count": 695,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_9b420fa405b4",
+      "source_type": "official_docs",
+      "url": "https://liveagent.com",
+      "domain": "liveagent.com",
+      "page_title": "LiveAgent - Help Desk Software & Live Chat",
+      "content": "![Logo](https://support.qualityunit.com/themes/install/_common_templates/img/default-contactwidget-logo.png)\n\nStart chat\n\nEmail\n\nWe need to process your personal data in line with our [Privacy Policy](https://www.liveagent.com/privacy-policy/)\n\nI agree\n\nClose\n\n0\n\nSendChatCallClose\n\nWelcome to LiveAgent Support\n\nNew unread message!\n\nConnecting to chatbot...\n\nSettings\n\nExpand to new window\n\n\\_\n\nx\n\nYou can submit messages while waiting\n\nSend\n\n![Logo](https://support.qualityunit.com/themes/install/_common_templates/img/default-contactwidget-logo.png)\n\nSubmit your email to start chatting\n\nEmail\n\nWe need to process your personal data in line with our [Privacy Policy](https://www.liveagent.com/privacy-policy/)\n\nI agree\n\nClose\n\n0\n\nSendChatCallClose",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:58:28.053923Z",
+      "section_path": "Deliver seamless support with AI-powered help desk > Cookie Settings > Knowledgebase",
+      "chunk_index": 13,
+      "token_count": 187,
+      "quality_score": 0.36
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Affordable ticketing platform for smaller support teams",
+      "evidence_ids": [
+        "ev_b226a0e7be45"
+      ]
+    },
+    "category": {
+      "value": "Support and Helpdesk",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "SSO",
+      "evidence_ids": [
+        "ev_dbd7a79bf9ee"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_9d6532649e1f"
+      ]
+    },
+    "api_surface": {
+      "value": "API keys",
+      "evidence_ids": [
+        "ev_dbd7a79bf9ee"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_dbd7a79bf9ee"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_b226a0e7be45"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_b226a0e7be45"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_b226a0e7be45"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.75,
+    "fields_checked": 8,
+    "fields_supported": 6,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "auth_methods",
+        "check": "recognized_auth",
+        "severity": "WARNING",
+        "message": "Auth methods 'SSO' — no recognized auth pattern found"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.75,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.75 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

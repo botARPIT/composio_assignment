@@ -14,9 +14,21 @@ OUTPUT_DIR = PROJECT_ROOT / "output"
 PROMPTS_DIR = PROJECT_ROOT / "prompts"
 TEMPLATES_DIR = PROJECT_ROOT / "templates"
 
+# Derived paths (not hardcoded — auto-resolve from above)
+APPS_CSV_PATH = DATA_DIR / "apps.csv"
+APPS_OUTPUT_DIR = OUTPUT_DIR / "apps"
+CASE_STUDY_PATH = OUTPUT_DIR / "case_study.html"
+RESEARCH_DATA_CSV = OUTPUT_DIR / "research_data.csv"
+RESULT_FILENAME = "final.json"
+APP_PAGE_FILENAME = "index.html"
+
+# Frontend (for generate_frontend.py — resolves relative to project root)
+FRONTEND_DIR = PROJECT_ROOT.parent / "frontend"
+
 # Ensure directories exist
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+APPS_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
 class Settings(BaseSettings):

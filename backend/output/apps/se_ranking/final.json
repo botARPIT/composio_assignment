@@ -1,0 +1,279 @@
+{
+  "app": {
+    "id": 52,
+    "name": "SE Ranking",
+    "website": "seranking.com/api",
+    "category_hint": "Data SEO and Scraping"
+  },
+  "documentation_map": {
+    "app_name": "SE Ranking",
+    "official_domain": "seranking.com",
+    "homepage": {
+      "url": "https://seranking.com/api",
+      "title": "SE Ranking",
+      "confidence": 0.5,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": null,
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://seranking.com/api/data/getting-started",
+        "title": "Getting started - SE Ranking Data API Documentation",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://seranking.com/subscription.html",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": null,
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://help.seranking.com/hc/en-us/categories/15939756945436-Getting-started",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "SE Ranking",
+      "official_domain": "seranking.com",
+      "items": [
+        {
+          "url": "https://seranking.com/api",
+          "page_type": "homepage",
+          "title": "SE Ranking",
+          "confidence": 0.5,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://seranking.com/subscription.html",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://help.seranking.com/hc/en-us/categories/15939756945436-Getting-started",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://seranking.com/api/data/getting-started",
+          "page_type": "api_reference",
+          "title": "Getting started - SE Ranking Data API Documentation",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 3,
+        "urls_discovered": 4,
+        "official_urls": 4,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 4
+      }
+    },
+    "stats": {
+      "queries": 3,
+      "urls_discovered": 4,
+      "official_urls": 4,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 4
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_862f2a31a3c3",
+      "source_type": "api_reference",
+      "url": "https://seranking.com/api/data/getting-started",
+      "domain": "seranking.com",
+      "page_title": "Getting started - SE Ranking Data API Documentation",
+      "content": "Getting started\nWelcome to the SE Ranking API! This guide will walk you through authenticating your account, making your first request, understanding our credit system, and more. Let’s get you up and running in minutes.\nAuthentication\nAll requests to the Data API must be authenticated. The base URL for all endpoints is:\nhttps://api.seranking.com\n1. Obtain your API key\nFirst, you’ll need to generate a unique API key from your account dashboard.\n1. Navigate to the API Dashboard. You can access this by clicking the API icon in the main left-hand navigation menu:\n2. On the API Dashboard, click the + CREATE API KEY button located in the top-right corner:\n3. In the Create API key dialog box:\na. Enter a descriptive name in the API key name field (e.g., “Demo”).\nc. Click CREATE KEY.\n4. Your new key will be generated and listed in the API Keys table. You can create multiple API keys for different applications or environments:\n2. Authenticate your requests\nYou have two methods to authenticate your requests. We strongly recommend using the Authorization header.\nMethod 1: Authorization header (recommended)\nInclude an Authorization header in your request, with the value Token YOUR_API_KEY.\nYou can test your key by fetching your subscription details. The 200 OK response confirms that your key is working correctly.\ncurl -X GET 'https://api.seranking.com/v1/account/subscription' \\\n  -H 'Authorization: Token YOUR_API_KEY'\nMethod 2: Query parameter\nAlternatively, you can pass the key as a URL query parameter named apikey.\ncurl -X GET 'https://api.seranking.com/v1/account/subscription?apikey=YOUR_API_KEY'\nMaking requests\nOnce authenticated, you can make requests to any API endpoint.\n- GET requests can include parameters in the URL’s query string.\n- POST requests must include the Content-Type: application/jsonheader and send data in a JSON body.\nExample POST request\nHere is an example of a more complex POST request to the /backlinks/summary endpoint. Notice how the authentication header remains the same.\ncurl -X POST 'https://api.seranking.com/v1/backlinks/summary' \\\n  -H 'Authorization: Token YOUR_API_KEY' \\\n  -H 'Content-Type: application/json' \\\n  -d '{\n    \"target\": \"seranking.com\",\n    \"mode\": \"host\"\n  }'\nPostman collection\nWe offer a Postman collection to help you get started without writing any code. Postman is a free application that makes it easy to explore and test APIs.\nPrerequisites\nGetting started\nTo get started, click the Run in Postman button below. This will fork both the API collection and the environment template into your Postman workspace in one simple step.\nWhen you click the button, you’ll be prompted to fork the collection. Enter a name for your fork and select the workspace where you want it to be created.\nThe pre-configured environment will also be forked into your selected workspace, ready for you to add your API key.\nSet your API key\nTo run requests, you’ll need to supply your secret API key and set it as an environment variable within your workspace.\n1. To set any environment variable, create a new environment within Postman:\n2. Add your secret key as a variable to the environment and save:\n3. Set the environment to active:\n4. Now, within the collection, set it to use the environment you just created:\nIf your environment is set up correctly, you should see your secret key value if you mouse over the secret_key variable in the Token field:\n5. Be sure to save the collection after you’ve set the key:\nMake a test call\nYou should be ready now to make a test call. An easy first call is to create a customer:\nSince this is a test, no parameter updates are required. You can hit the Send button to run this request:\nIf your environment is set up, you’ll get a summary object back as the response to the call:\nAdd parameters to the call by clicking the Params tab, where you’ll see a list of available parameters. Select and populate the ones you want to use. Here’s an example of updating a target parameter:\nYou’ll see the updated target in the response:\nUnit costs\nCredits are the unit SE Ranking uses to bill API usage. Each endpoint lists two unit costs:\n- Per-request credits (2xx): a fixed number of credits charged once per successful request.\n- Per-record credits (2xx): a variable charge applied for each record returned in a successful response.\nOnly successful HTTP 2xx responses consume credits. 4xx and 5xx responses are not billed.\nEndpoint credit costs\n| Service | Method | Command | Per-request credits (2xx) | Per-record credits (2xx) | \n|---|---|---|---|---|\n| backlinks | GET | summary | 0 | 100 | \n| backlinks | GET | all | 0 | 1 | \n| backlinks | GET | export | 0 | 1 | \n| backlinks | GET | export/status | 0 | 0 | \n| backlinks | GET | anchors | 0 | 1 | \n| backlinks | GET | count | 0 | 2 | \n| backlinks | GET | authority | 0 | 10 | \n| backlinks | GET | authority/page | 0 | 5 | \n| backlinks | GET | authority/page/history | 4 | 1 | \n| backlinks | GET | authority/domain | 0 | 5 | \n| backlinks | GET | authority/domain/distribution | 0 | 1 | \n| backlinks | GET | authority/domain/histogram | 0 | 10 | \n| backlinks | GET | authority/domain/history | 4 | 1 | \n| backlinks | GET | referring-ips | 0 | 1 | \n| backlinks | GET | referring-ips/count | 0 | 2 | \n| backlinks | GET | metrics | 0 | 10 | \n| backlinks | GET | history | 0 | 1 | \n| backlinks | GET | history/count | 10 | 1 | \n| backlinks | GET | history/cumulative | 10 | 1 | \n| backlinks | GET | refdomains/history | 0 | 1 | \n| backlinks | GET | refdomains/history/count | 10 | 1 | \n| backlinks | GET | indexed-pages | 0 | 1 | \n| backlinks | GET | raw | 0 | 1 | \n| backlinks | GET | refdomains | 0 | 1 | \n| backlinks | GET | refdomains/count | 0 | 2 | \n| backlinks | GET | referring-subnets/count | 0 | 2 | \n| account | GET | subscription | 0 | 0 | \n| domain | GET | overview/db | 100 | 0 | \n| domain | GET | overview/worldwide | 100 | 0 | \n| domain | GET | overview/worldwide/url | 100 | 0 | \n| domain | GET | overview/history | 100 | 0 | \n| domain | GET | keywords | 100 | 0 | \n| domain | GET | pages | 100 | 0 | \n| domain | GET | subdomains | 100 | 0 | \n| domain | GET | ads | 100 | 0 | \n| domain | GET | competitors | 100 | 0 | \n| domain | GET | keywords/comparison | 100 | 0 | \n| ai-search | GET | overview/aggregated/* | 1800 | 0 | \n| ai-search | GET | overview/by-engine/time-series | 800 | 0 | \n| ai-search | POST | overview/leaderboard | 7,500 | 0 | \n| ai-search | GET | discover-brand | 100 | 0 | \n| ai-search | GET | prompts-by-target | 0 | 200 | \n| ai-search | GET | prompts-by-brand | 0 | 200 | \n| keywords | GET | export | 0 | 10 | \n| keywords | GET | related | 0 | 10 | \n| keywords | GET | similar | 0 | 10 | \n| keywords | GET | questions | 0 | 10 | \n| keywords | GET | longtail | 0 | 1 | \n| site-audit | POST | audits/standard | 0 | 2 | \n| site-audit | POST | audits/advanced | 0 | 20 | \n| site-audit | GET | audits/status | 0 | 0 | \n| site-audit | GET | audits/report | 0 | 0 | \n| site-audit | GET | audits/pages | 0 | 0 | \n| site-audit | GET | audits/issue-pages | 0 | 0 | \n| site-audit | GET | audits/issues | 0 | 0 | \n| site-audit | GET | audits/links | 0 | 0 | \n| site-audit | GET | audits/history | 0 | 0 | \n| site-audit | GET | audits | 0 | 0 | \n| site-audit | PATCH | audits | 0 | 0 | \n| site-audit | DELETE | audits | 0 | 0 | \n| site-audit | POST | audits/recheck/standard | 0 | 2 | \n| site-audit | POST | audits/recheck/advanced | 0 | 20 | \nPlans and pricing\nOur Data API credit plans are available as annual packages. Credits are provided upfront at the start of the subscription period.\n| Annual credits | Price (per year) | Effective monthly price | $ / 1M credits | \n|---|---|---|---|\n| 12M | $2,148.00 | $179.00 | $179.00 | \n| 24M | $3,816.00 | $318.00 | $159.00 | \n| 36M | $4,896.00 | $408.00 | $136.00 | \n| 48M | $5,808.00 | $484.00 | $121.00 | \n| 60M | $6,660.00 | $555.00 | $111.00 | \n| 72M | $7,416.00 | $618.00 | $103.00 | \n| 84M | $8,148.00 | $679.00 | $97.00 | \n| 96M | $8,832.00 | $736.00 | $92.00 | \n| 108M | $9,504.00 | $792.00 | $88.00 | \n| 120M | $10,200.00 | $850.00 | $85.00 | \nIf you need a different volume, schedule a call or email us at [email protected].",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:06:38.925617Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 2036,
+      "quality_score": 0.88
+    },
+    {
+      "id": "ev_85ffafc6423b",
+      "source_type": "pricing_page",
+      "url": "https://seranking.com/subscription.html",
+      "domain": "seranking.com",
+      "page_title": "SE Ranking Pricing Plans",
+      "content": "Get discovered across\n traditional search and AI answers\nFree migration with an annual subscription\n- 10 projects & 1 manager seat\n- 2k keywords & 100 prompts to track daily\n- 5 domains in GEO research\n- 250k pages per month in audit\n- 25K API credits & MCP access\n- Rank tracking across major search engines\n- Unlimited keyword, competitor, backlink research\n- Website & on-page audit\n- Data Studio / Matomo / GA / GSC integrations\n- 30 projects & 3 manager seats\n- 5k keywords & 250 prompts to track daily\n- 15 domains in GEO research\n- 2M pages per month in audit\n- 100K API credits & MCP access\n- Historical data across project lifetime\n- Guest links for easy collaboration\n- Page changes monitoring\n- Dedicated customer support\n- Flexible terms\n- Custom limits and pricing\n- Full API & advanced integrations\nFree migration with an annual subscription\nCreate the stack that matches your process\nAdd more features as your workflow grows\nAgency Pack\nWhite-label reporting and client-facing tools built for agencies\n-   30client seats\n- White label for platform and reporting\n- Unlimited schedule reporting & AI summaries\n- Agency Catalog placement\n- Lead Generator\nAI Search\nTrack, analyze, and optimize brand visibility across leading AI platforms\n- AI Results Tracker: AI Overviews, AI Mode, Perplexity, ChatGPT\n- Unlimited competitor research across AI Overviews, AI Mode, Perplexity, and ChatGPT\n-    Access to    (200prompts): A strategic dashboard for tracking brand mentions, citations, and sentiment trends\nAPI\nAutomate reporting, run bulk SEO analyses, and pull structured SEO data\n- Backlinks API\n- Domain Analysis API\n- Keyword Research API\n- AI Search API\n- Website Audit API\nMeasure the value of LLM visibility across your ecosystem\nConnect AI brand mentions with organic and social signals via Planable and the Data API—so you see what’s changing and what it drives\nFrom\n- Multi-channel social media scheduling\n- Team collaboration & approval workflows\n- Content calendar & planning tools\n- Analytics & performance reporting\n- Brand asset library\nFrom\n- Analyze 12M backlinks / 120K domains / 15K AI Search queries & more\n- Connect SE Ranking data to AI assistant tools with MCP\n- Enrich your products and workflows with live SEO data\n- Build SEO automations with Data Studio, n8n and Make\nWhat’s included in the free 14-day trial?\nThe free 14-day trial is fully functional and includes starter usage: up to 10 projects, 750 tracked keywords per day, 20 AI prompts per day, and AI competitive research for up to 3 domains (with unlimited reports). If you need more capacity, you can upgrade to a paid plan.\nWhat’s your cancellation/refund policy?\nYou can cancel anytime. Payments are non-refundable, except in cases where the service wasn’t delivered as promised (or where a special promotion specifies otherwise). If you believe you qualify, contact support and we’ll review your case.\nCan I get the annual plan but pay monthly?\nAnnual plans are billed upfront to provide the discounted rate. Reach out to sales to discuss options, e.g. quarterly payment schedule with an annual commitment.\nCan multiple people use the same login?\nWe don’t recommend it. Only one active session is allowed at a time, and if someone else signs in, you’ll be prompted to hand off the session. For shared access, add users (seats) or use guest links where view-only access is enough.\nCan I get a custom plan/offer?\nCustom plans are available if you need limits beyond what’s shown in our pre-configured plans. Reach out to sales and we’ll scope the right option for your team.\nWhat support would I get after purchasing?\nAll customers get access to the Help Center, Academy resources, and chat & email support. Higher-tier plans also include Customer Success support (e.g., onboarding and ongoing guidance).\nWould I have personal support and migration?\nYes—free assisted migration is available with annual subscriptions. If you’re on a monthly plan, you can migrate using our self-serve import options, and support can help if you run into issues.\nHow can I migrate/load up the data inside the system?\nYou can import projects and keyword ranking history using the built-in migration options. If your previous platform isn’t listed or you hit a snag, contact support and we’ll help you move the data over.\nCan I buy features from one plan on the other?\nNot individually—plan features are tied to each tier, so to unlock new feature sets you’ll need to upgrade your plan. You can expand your setup with add-ons (where available) and purchase extra limits like additional keywords or user seats.\nCan I buy Planable and SE Ranking together in a bundle?\nYes. Planable is a separate social media management product, but it’s available as a Planable + SE Ranking bundle. When you buy them together, you get bundle pricing (a discount vs. purchasing separately). If you already use one of the products, sales can apply the bundle offer when you add the other. For any issues, contact support.\nHow can I upgrade on monthly / annual / custom terms?\nYou can upgrade or downgrade anytime from your account billing settings by selecting Change plan. If you need custom limits (beyond the standard tiers), contact support or sales and we’ll help you set it up.\nNot sure which plan fits your workflow?\nBook a demo and we’ll map the right limits, add-ons, and terms for your team—Core, Growth, or a custom Enterprise setup.\nTrusted by professionals worldwide\nLearn how SE Ranking’s API can boost your SEO!\nHi! Meet our product experts!\nOne of them will walk you through the API and show you how to get the most out of it.\n- Enjoy a tailored demo on integrating rich, structured SEO data into your stack.\n- Pin down every tech detail live—auth, endpoints, rate limits, data formats.\n- Compare usage tiers and pricing so you can unlock maximum data value.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:06:38.760472Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 1458,
+      "quality_score": 0.84
+    },
+    {
+      "id": "ev_08879f9b4f32",
+      "source_type": "developer_portal",
+      "url": "https://help.seranking.com/hc/en-us/categories/15939756945436-Getting-started",
+      "domain": "help.seranking.com",
+      "page_title": "Getting started – Knowledge Base",
+      "content": "Help Center\nEN\nEnglish\nDE\nDeutsch\nES\nEspañol\nFR\nFrançais\nあ\n日本語\nRU\nРусский\nStart free trial\nGetting Started\nGetting Started\nCreate your first project\nSet up agency account\nOnboarding checklists\nQuickstart video tutorials\nDocumentation\nTools\nProject tools\nWebsite Audit tools\nSEO Research tools\nBacklink Tools\nAI Toolkit\nSEO Reporting\nDocumentation\nGetting Started\nFAQ\nUser account & settings\nIntegrations\nMobile App\nAPI\nAdd-ons\nAgency pack\nLocal Marketing\nContent Marketing\nResources\nEducation\nBlog\nThorough SEO guides, client case studies, and more\nWebinars\nOn-demand and upcoming online events with industry experts\nAcademy\nPractical online courses for SEO experts and agency owners\nOther\nRequest demo\nRequest a free demo to see our tools and integrations in action\nWhat’s new\nLatest product updates from the SE Ranking team\nPodcast\nEngaging talks with seasoned SEO experts on hot topics\nFeatured\nFree course\nAgency Profitability in 2026\nEN\nEnglish\nDE\nDeutsch\nES\nEspañol\nFR\nFrançais\nあ\n日本語\nRU\nРусский\nSign in\nStart free trial\nKnowledge Base\nGetting started\nGetting started\nEverything you need for a smooth launch with SE Ranking\nGetting started Section\nQuickstart Video Tutorials\nSetting up your project\nAgency Account Setup: Users, Access & Sharing\nSE Ranking Academy",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:06:39.625389Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 317,
+      "quality_score": 0.56
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "SE Ranking API for SEO data and analytics.",
+      "evidence_ids": [
+        "ev_862f2a31a3c3"
+      ]
+    },
+    "category": {
+      "value": "Data SEO and Scraping",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "API Key",
+      "evidence_ids": [
+        "ev_862f2a31a3c3"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_85ffafc6423b"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API",
+      "evidence_ids": [
+        "ev_862f2a31a3c3"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_85ffafc6423b"
+      ]
+    },
+    "mcp": {
+      "value": "Official MCP",
+      "evidence_ids": [
+        "ev_85ffafc6423b"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_862f2a31a3c3"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_85ffafc6423b"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.88,
+    "fields_checked": 8,
+    "fields_supported": 7,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.88,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.88 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

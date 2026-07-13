@@ -1,0 +1,290 @@
+{
+  "app": {
+    "id": 10,
+    "name": "DealCloud",
+    "website": "api.docs.dealcloud.com",
+    "category_hint": "CRM and Sales"
+  },
+  "documentation_map": {
+    "app_name": "DealCloud",
+    "official_domain": "api.docs.dealcloud.com",
+    "homepage": {
+      "url": "https://api.docs.dealcloud.com",
+      "title": "DealCloud",
+      "confidence": 0.5,
+      "confidence_reason": [
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": null,
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://api.docs.dealcloud.com/docs",
+        "title": "Docs - DealCloud API Docs",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": null,
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://api.docs.dealcloud.com/mcp",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://api.docs.dealcloud.com/docs",
+        "title": "",
+        "confidence": 0.7,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "DealCloud",
+      "official_domain": "api.docs.dealcloud.com",
+      "items": [
+        {
+          "url": "https://api.docs.dealcloud.com",
+          "page_type": "homepage",
+          "title": "DealCloud",
+          "confidence": 0.5,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://api.docs.dealcloud.com/docs",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://api.docs.dealcloud.com/mcp",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://api.docs.dealcloud.com/docs",
+          "page_type": "api_reference",
+          "title": "Docs - DealCloud API Docs",
+          "confidence": 0.7,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "tavily_search",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 3,
+        "urls_discovered": 4,
+        "official_urls": 4,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 1,
+        "canonical_selected": 4
+      }
+    },
+    "stats": {
+      "queries": 3,
+      "urls_discovered": 4,
+      "official_urls": 4,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 1,
+      "canonical_selected": 4
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_4247f5415ebb",
+      "source_type": "api_reference",
+      "url": "https://api.docs.dealcloud.com/docs",
+      "domain": "api.docs.dealcloud.com",
+      "page_title": "Docs - DealCloud API Docs",
+      "content": "Welcome to the DealCloud API Docs! This site provides a comprehensive overview of our REST APIs, their capabilities, and available endpoints. Whether you're building custom integrations, automating workflows, or exploring advanced use cases, you'll find detailed guidance, examples, and best practices throughout. To dive into sample implementations, visit the [Guides](https://api.docs.dealcloud.com/guides) section.\n\nMost examples use HTTP requests, making them accessible regardless of your programming language. You do not need to be an expert in HTTP to follow along, but you may pick up some basics through the examples. To try out the examples, you can use tools like Swagger, Postman, VSCode, or any other tool that supports HTTP requests.\n\nEach DealCloud site provides an interactive Swagger page for testing API calls. Replace `{{host}}` with your site’s domain (e.g. _example.dealcloud.com_).\n\n```\nhttps://{{host}}/swagger\n```\n\nPostman can consume the Swagger/OpenAPI spec file exposed at\n\n```\nhttps://{host}/swagger/current\n```\n\nVSCode requires the [REST Client plugin (opens in a new tab)](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)\n\nOur APIs are organized into functional areas. Each area includes multiple endpoints designed to help you perform specific tasks related to that category.\n\n**[Authentication](https://api.docs.dealcloud.com/docs/token)** – Provides tokens for use with all other APIs.\n\n**[User Management](https://api.docs.dealcloud.com/docs/management)** – Endpoints for managing users.\n\n**[Schema](https://api.docs.dealcloud.com/docs/schema)** – Endpoints to help you understand your site's structure.\n\n**[Data](https://api.docs.dealcloud.com/docs/data)** – Endpoints for manipulating site data.\n\n**[Backups](https://api.docs.dealcloud.com/docs/backups)** – Endpoints for generating backup exports.\n\n**[Publications](https://api.docs.dealcloud.com/docs/publications)** – Endpoints for working with real-time event APIs.\n\n**[Relationship Intelligence](https://api.docs.dealcloud.com/docs/relintel)** – Import data points for Relationship Intelligence.\n\nLast updated on August 5, 2025\n\n[API Keys](https://api.docs.dealcloud.com/docs/apikeys \"API Keys\")",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:24.653867Z",
+      "section_path": "Docs > Overview of Functional APIs [Permalink for this section](https://api.docs.dealcloud.com/docs\\#overview-of-functional-apis)",
+      "chunk_index": 0,
+      "token_count": 552,
+      "quality_score": 0.78
+    },
+    {
+      "id": "ev_fe3bcc65ffdb",
+      "source_type": "mcp_registry",
+      "url": "https://api.docs.dealcloud.com/mcp",
+      "domain": "api.docs.dealcloud.com",
+      "page_title": "DealCloud MCP Server - DealCloud API Docs",
+      "content": "The DealCloud MCP Server helps teams turn their DealCloud data into faster, higher-quality outcomes, from sharper relationship and pipeline insights to stronger diligence and meeting preparation. It gives AI assistants a secure, consistent surface to retrieve context from DealCloud and answer questions across workflows.\n\n1. A compatible AI assistant connects to the DealCloud MCP Server.\n2. The AI assistant discovers available tools and capabilities.\n3. The AI assistant calls DealCloud MCP tools to retrieve context and surface relevant data.\n4. Responses are returned in a predictable format, scoped to the requesting user's permission context.\n5. Teams accelerate research and decision-making, reducing manual work and improving business outcomes.\n\n[🚀Getting Started→](https://api.docs.dealcloud.com/mcp/getting-started) [🔐Authentication→](https://api.docs.dealcloud.com/mcp/authentication) [🛠️Available Tools→](https://api.docs.dealcloud.com/mcp/tools)\n\nLast updated on July 6, 2026\n\n[Schema Contracts](https://api.docs.dealcloud.com/docs/schema_contracts \"Schema Contracts\") [Getting Started](https://api.docs.dealcloud.com/mcp/getting-started \"Getting Started\")",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:24.835156Z",
+      "section_path": "DealCloud MCP Server > Jump In [Permalink for this section](https://api.docs.dealcloud.com/mcp\\#jump-in)",
+      "chunk_index": 0,
+      "token_count": 292,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_6abf256cc9af",
+      "source_type": "official_docs",
+      "url": "https://api.docs.dealcloud.com",
+      "domain": "api.docs.dealcloud.com",
+      "page_title": "Dealcloud Developer Documentation",
+      "content": "[![Reference](https://api.docs.dealcloud.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fref-2.3a87d02a.jpg&w=3840&q=75)\\\\\nAPI References→](https://api.docs.dealcloud.com/docs) [![Reference](https://api.docs.dealcloud.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fguides-2.75af8e9b.jpg&w=3840&q=75)\\\\\nGuides→](https://api.docs.dealcloud.com/guides)\n\n[![Reference](https://api.docs.dealcloud.com/_next/static/media/python.690e1c90.svg)\\\\\nPython→](https://api.docs.dealcloud.com/sdk/python) [![Reference](https://api.docs.dealcloud.com/_next/static/media/C_sharp_logo.5aaaa09a.svg)\\\\\nC#→](https://api.docs.dealcloud.com/sdk/csharp)\n\nLast updated on August 1, 2025",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:57:24.649955Z",
+      "section_path": "Quick Start [Permalink for this section](https://api.docs.dealcloud.com/\\#quick-start) > SDK Documentation [Permalink for this section](https://api.docs.dealcloud.com/\\#sdk-documentation)",
+      "chunk_index": 0,
+      "token_count": 165,
+      "quality_score": 0.5
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "DealCloud provides a comprehensive overview of REST APIs for custom integrations and automating workflows.",
+      "evidence_ids": [
+        "ev_4247f5415ebb"
+      ]
+    },
+    "category": {
+      "value": "CRM and Sales",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "API Key",
+      "evidence_ids": [
+        "ev_4247f5415ebb"
+      ]
+    },
+    "self_serve": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_4247f5415ebb"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API, OpenAPI",
+      "evidence_ids": [
+        "ev_4247f5415ebb"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_4247f5415ebb"
+      ]
+    },
+    "mcp": {
+      "value": "Official MCP",
+      "evidence_ids": [
+        "ev_fe3bcc65ffdb"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_4247f5415ebb"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_4247f5415ebb"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.75,
+    "fields_checked": 8,
+    "fields_supported": 6,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "self_serve",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'self_serve' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.75,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.75 below 0.90 threshold",
+      "Self-serve access model is UNKNOWN"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "app": {
+    "id": 46,
+    "name": "Squarespace",
+    "website": "developers.squarespace.com",
+    "category_hint": "Ecommerce"
+  },
+  "documentation_map": {
+    "app_name": "Squarespace",
+    "official_domain": "developers.squarespace.com",
+    "homepage": {
+      "url": "https://developers.squarespace.com",
+      "title": "Squarespace",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://developers.squarespace.com/commerce-apis/oauth",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": null,
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": null,
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": null,
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": null,
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "Squarespace",
+      "official_domain": "developers.squarespace.com",
+      "items": [
+        {
+          "url": "https://developers.squarespace.com",
+          "page_type": "homepage",
+          "title": "Squarespace",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.squarespace.com/commerce-apis/oauth",
+          "page_type": "authentication",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 4,
+        "urls_discovered": 2,
+        "official_urls": 2,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 2
+      }
+    },
+    "stats": {
+      "queries": 4,
+      "urls_discovered": 2,
+      "official_urls": 2,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 2
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_b00efd3b963a",
+      "source_type": "auth_docs",
+      "url": "https://developers.squarespace.com/commerce-apis/oauth",
+      "domain": "developers.squarespace.com",
+      "page_title": "Developer Portal",
+      "content": "Accessing Squarespace APIs using OAuth 2.0\nSquarespace uses OAuth 2.0 to authorize third-party applications to integrate with Squarespace and consume Squarespace APIs.\nTerms\n| Client | Third-party application that needs to make Squarespace API calls. | \n| User | Squarespace customer who wants to integrate their site with a client. | \n| Confirmation page | Page created by Squarespace for the user to authorize (Allow or Deny) client access to their Squarespace account. | \n| Access token | Short-term token to make authenticated API requests. | \n| Refresh token | Long-term token to obtain new access tokens. | \nInstructions\n1. Register the client and obtain OAuth 2.0 credentials\nBefore a client can make Squarespace API calls, the client must be registered with Squarespace as an OAuth client. Submit the following information via this form.\n- Client name\n- Icon image (.png or .svg format, max size 200kb, 1:1 ratio)\n- Redirect URI(s) - For example, https://thirdpartyapp.com/oauth/connect\n- Initiate URL* - For example, https://thirdpartyapp.com/oauth/initiate.\n- Link to Client's Terms and Conditions\n- Link to Client's Privacy Policy\n*Applies only to Squarespace partner apps. These will be linked from inside Squarespace.\nWe will review your registration and respond with your_client_id and your_client_secret as soon as possible. These credentials are used in the subsequent steps.\n2. Prompt the user to authorize client access\nThe /authorize URL prompts the user to authorize client access to their Squarespace data and serves as the confirmation page. If a user selects Allow, OAuth 2.0 authentication is started between the client and Squarespace APIs. Append required and any optional parameters to the GET /authorize endpoint; all parameter values should be URL-encoded.\nCode\n| Query parameter | Requirement | Value | ||||||||||||||||||\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| client_id | Required | Alphanumeric value for your_client_id that was supplied by Squarespace in Step 1. | ||||||||||||||||||\n| redirect_uri | Required | String; the full redirect URI sent to Squarespace in Step 1. | ||||||||||||||||||\n| scope | Required | String; comma-separated list of client permission values (see below)\nfor API access. The confirmation page always displays website(s) for\nuser selection for  \n Example: \n | ||||||||||||||||||\n| state | Required | Alphanumeric random value generated by client. You'll use it in Step 3, Implement redirect URI, to prevent CSRF attacks. | ||||||||||||||||||\n| website_id | Conditionally Required | Alphanumeric value for a Squarespace site ID. When a logged-in user initiates an OAuth connection from Squarespace, this\nvalue is appended as a query parameter on the provided initiate URL. Partners must\npass this parameter back to the  If an OAuth connection is initiated by a logged-out user, Squarespace will not\ninclude a website_id parameter on the initiate URL. Partners should not pass any\n | ||||||||||||||||||\n| access_type | Optional | String; use  | \nAuthorize URL example with parameters\nNote: Parameter values are in plain text and not URL-encoded for example purposes.\nCode\n3. Implement redirect URI\nBoth Allow or Deny on the confirmation page directs the user to the client redirect URI (i.e., the redirect_uri specified in Step 2) with query parameters appended by Squarespace. For Allow, the redirect URI should verify the state parameter and match it against state value that was appended for the /authorize endpoint. This verification prevents CSRF attacks. Squarespace doesn't provide guidelines for Deny implementation.\n| Parameter | Value | \n|---|---|\n| \n | String;  | \n| \n | Alphanumeric value; not present if user selects Deny. | \n| \n | Alphanumeric value used in step 4. Request access token. Value is initially URL-encoded and should be decoded prior to sending in the access token request. Valid for two minutes and only for one-time use. Not present if user selects Deny. | \n4. Request access token\nCode\nThe client makes a POST /tokens call with required and any optional parameters for an access token from Squarespace. Access tokens in the response are only valid for 30 minutes. For more information, see Token expiration and long-term access.\nParameters\n| Body | Requirement | Value | \n|---|---|---|\n| grant_type | Optional | String; default is  | \n| code | Required if  | Alphanumeric value of code passed to redirect URI. | \n| redirect_uri | Required if  | String; redirect_uri used for the /authorizeendpoint. | \n| refresh_token | Required if  | String; use application/json or application/x-www-form-urlencoded | \n| Header | ||\n| Authorization | Required | Follow the steps below to build the header value: Use your Squarespace OAuth 2.0 credentials to construct a string in\nthe format: your_client_id:your_client_secretEncode the string from Step 1 into base-64\n Add Basic<space> as a prefix to the encoded string from Step 2\n Example your_client_id: abc123 your_client_secret: 12secret345 Authorization after base-64 Basic YWJjMTIzOjEyc2VjcmV0MzQ1 | \n| Content-Type | Required | String; use application/json or application/x-www-form-urlencoded | \n| User-Agent | Required | String; If you see an error referencing SEC-43, a User-Agent header is missing | \nExample Response\nCode\n5. Make API requests\nAfter you obtain an access token, you can make API requests.\nEndpoint:\nhttps://api.squarespace.com/...\nAuthorization format:\nBearer<space><access-token-from-tokens-response>\nUsing the sample response from Step 4, Authorization would have the value:\nBearer T1|Rr0Wc95uu3cSeBh06yB...\nToken expiration and long-term access\nWhen a response from POST /tokens is received, access_token is only valid for 30 minutes. For long-term Squarespace API access, the client has to prompt the user to reauthorize using the GET /authorize endpoint or use refresh tokens.\nRefresh tokens\nTo get a refresh token, add access_type=offline as a parameter to the GET /authorize request. When the client makes a POST /tokens call, the response includes refresh_token. Use the refresh token to get new tokens by making another POST /tokens call with the parameters below. The refresh token expires after seven days.\n- grant_type=refresh_token\n- refresh_token=<previous-refresh-token-value>\nNote: Each POST /tokens call with a refresh_token parameter results in a new refresh_token and access_token. Refresh tokens are effectively one-time use—the original refresh token is invalidated as soon as the new access token is used. If long-term API access is required, the client should replace the stored refresh token with the most recent refresh_token. Note that obtaining new tokens doesn't revoke existing access tokens.\nSample response from /tokens:\nCode\nSample use case with refresh tokens\nClient has to poll orders from a user site indefinitely and needs to call the Squarespace API once per minute.\n- User authorizes client access to Squarespace APIs via confirmation page; client makes a POST /tokenscall and obtains access and refresh tokens in response.\n- Client secures and stores the values below for current record (CR):\n- access_token=<at-1>\n- access_token_expires_at=<timestamp>\n- refresh_token=<rt-1>\n- \nPrior to each API call, client checks if: CR.access_token_expires_at - currentTime > 10 secondsIf true, client makes an API call with CR.access_token.If false, client makes a POST /tokenscall withrefresh_token=CR.refresh_tokenas a parameter for new access and refreshntokens; client stores new token values in CR:- access_token=<at-2>\n- access_token_expires_at=<timestamp>\n- refresh_token=<rt-2>\n \n- \nClient repeats Steps 2 and 3 indefinitely. \nInvalid tokens and revoking access\nTokens become invalid in two ways: the tokens expire or the user revokes client access from the Squarespace UI. In either case, the user has to reauthorize client access to get new access tokens.\nWhen an access token is invalid, Squarespace responds to API requests with 401 Unauthorized. If a client receives a 401, they should notify the user that their Squarespace integration requires reauthorization.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:05:30.825858Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 2026,
+      "quality_score": 0.74
+    },
+    {
+      "id": "ev_7bc7122e1e3e",
+      "source_type": "official_docs",
+      "url": "https://developers.squarespace.com",
+      "domain": "developers.squarespace.com",
+      "page_title": "Home — Squarespace Developers",
+      "content": "Full Code Control\nChange anything from the doctype to the footer. With Developer Mode enabled, you have access to all the template files that make up your Squarespace website.\nThe Squarespace Developer Platform enables developers to create fully custom sites and integrate with 3rd party tools. Start with a template, or build your site from scratch.\nGet StartedUse our new Contacts API to read profiles for customers, subscribers, and website users →\nAccess the template files behind your Squarespace website. Edit markup, styles, and scripts using the tools you prefer to create a custom Squarespace-hosted template or website.\nAPIs enabling you to build applications to manage the commerce features of your site. Connect your Squarespace store with other services, automate key tasks like shipping and tax filing, and more.\nBuild your site using the tools we use to create Squarespace templates. With the Squarespace Developer Platform, your site will be backed by the same infrastructure that powers millions of Squarespace websites.\nChange anything from the doctype to the footer. With Developer Mode enabled, you have access to all the template files that make up your Squarespace website.\nUse the Squarespace Development Server to develop your site locally while working with your preferred native build tools.\nAll Squarespace template repositories are exposed via Git automatically, so you can work with a team and easily roll back.\nQuery any page as JSON to access your site's data in a structured way. Your website content is an API.\nOur familiar template language has very few language constructs to learn, yet offers the power and expressiveness needed to implement any design.\nWhether you have 10 or 10,000 visitors a day, your site will remain online. We host Squarespace.com on the same servers, so we're in this together.\nOur built-in CDN reduces load times using geographically distributed servers. Your assets will be delivered quickly to any place on Earth.\nManage your client's content using the same robust backend that powers millions of sites on our consumer platform.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:05:31.170841Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 522,
+      "quality_score": 0.36
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Squarespace is a platform for building and hosting websites.",
+      "evidence_ids": [
+        "ev_7bc7122e1e3e"
+      ]
+    },
+    "category": {
+      "value": "Ecommerce",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "OAuth 2.0",
+      "evidence_ids": [
+        "ev_b00efd3b963a"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_7bc7122e1e3e"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API",
+      "evidence_ids": [
+        "ev_b00efd3b963a"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_7bc7122e1e3e"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_7bc7122e1e3e"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_7bc7122e1e3e"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_7bc7122e1e3e"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.75,
+    "fields_checked": 8,
+    "fields_supported": 6,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.75,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.75 below 0.90 threshold",
+      "Insufficient evidence (2 pieces, minimum 3)"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

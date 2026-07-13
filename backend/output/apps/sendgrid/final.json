@@ -1,0 +1,285 @@
+{
+  "app": {
+    "id": 40,
+    "name": "SendGrid",
+    "website": "sendgrid.com",
+    "category_hint": "Marketing Ads Email and Social"
+  },
+  "documentation_map": {
+    "app_name": "SendGrid",
+    "official_domain": "sendgrid.com",
+    "homepage": {
+      "url": "https://sendgrid.com",
+      "title": "SendGrid",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": null,
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": null,
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://app.sendgrid.com",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": null,
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://app.sendgrid.com",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "SendGrid",
+      "official_domain": "sendgrid.com",
+      "items": [
+        {
+          "url": "https://sendgrid.com",
+          "page_type": "homepage",
+          "title": "SendGrid",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://app.sendgrid.com",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://app.sendgrid.com",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 3,
+        "urls_discovered": 3,
+        "official_urls": 3,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 1,
+        "canonical_selected": 3
+      }
+    },
+    "stats": {
+      "queries": 3,
+      "urls_discovered": 3,
+      "official_urls": 3,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 1,
+      "canonical_selected": 3
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_aa29e5e7a212",
+      "source_type": "pricing_page",
+      "url": "https://app.sendgrid.com",
+      "domain": "app.sendgrid.com",
+      "page_title": "login",
+      "content": "![Twilio SendGrid Logo](https://uiux-assets.sendgrid.com/logo/sg-twilio-logo-2025.svg)\n\nUsername (this may be your email address)\n\n[Forgot your username?](https://login.sendgrid.com/login/forgot-username)\n\nChecking your Browser…\n\nVerify you are human\n\nVerifying...\n\nStuck? [Troubleshoot](https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/av0/rch/pndxi/0x4AAAAAAA7WEnMT1vkN83ww/auto/fbE/new/normal?lang=auto#refresh)\n\nSuccess!\n\nVerification failed\n\n[Troubleshoot](https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/av0/rch/pndxi/0x4AAAAAAA7WEnMT1vkN83ww/auto/fbE/new/normal?lang=auto#refresh)\n\nVerification expired\n\n[Refresh](https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/av0/rch/pndxi/0x4AAAAAAA7WEnMT1vkN83ww/auto/fbE/new/normal?lang=auto#refresh)\n\nVerification expired\n\n[Refresh](https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/av0/rch/pndxi/0x4AAAAAAA7WEnMT1vkN83ww/auto/fbE/new/normal?lang=auto#refresh)\n\n[Troubleshoot](https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/av0/rch/pndxi/0x4AAAAAAA7WEnMT1vkN83ww/auto/fbE/new/normal?lang=auto#refresh)\n\n[Privacy](https://www.cloudflare.com/privacypolicy/) • [Help](https://challenges.cloudflare.com/cdn-cgi/challenge-platform/help)\n\nContinue\n\nDon't have a Twilio SendGrid account? [Sign up now!](https://signup.sendgrid.com/)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:33.758726Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 353,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_b857dc005433",
+      "source_type": "official_docs",
+      "url": "https://sendgrid.com",
+      "domain": "sendgrid.com",
+      "page_title": "SendGrid Email API and Email Marketing Campaigns | Twilio",
+      "content": "The trusted SendGrid Email API for delivery at scale.\n\n[Explore SendGrid Email API](https://www.twilio.com/en-us/products/email-api) [View pricing](https://www.twilio.com/en-us/products/email-api/pricing)\n\n![Man with glasses smiling and pointing at something near a window](https://www.twilio.com/content/dam/twilio-com/global/en/products/sendgrid/rebrand/Sendgrid_email-marketing_twilio.png/_jcr_content/renditions/compressed-original.webp)\n\n![Man with glasses smiling and pointing at something near a window](https://www.twilio.com/content/dam/twilio-com/global/en/products/sendgrid/rebrand/Sendgrid_email-marketing_twilio.png/_jcr_content/renditions/compressed-original.webp)\n\nFlexible tools for creating engaging email campaigns.\n\n[Explore Marketing Campaigns](https://www.twilio.com/en-us/products/marketing-campaigns) [View pricing](https://www.twilio.com/en-us/products/marketing-campaigns/pricing)\n\n[View all Twilio products](https://www.twilio.com/en-us/products) [Explore Twilio Platform](https://www.twilio.com/en-us/customer-engagement-platform)\n\n- An Open book\n\n\n\n\n\n\n\n[Documentation](https://www.twilio.com/docs/sendgrid)\n\n\n\n\n\n\n\nUse up-to-date documentation to quickly integrate and send with our APIs.\n\n- Shining stars\n\n\n\n\n\n\n\n[Help Center](https://support.sendgrid.com/)\n\n\n\n\n\n\n\nChat with our AI assistant to get answers to your questions, troubleshoot, or find helpful information.\n\n- Users with a heart symbol\n\n\n\n\n\n\n\n[Partners](https://www.twilio.com/en-us/partners)\n\n\n\n\n\n\n\nWork with one of our trusted partners to integrate our Email API, optimize deliverability, or get help with a pre-built or custom solution.\n\n\n- Browser Blog\n\n\n\n\n\n\n\n[Blog](https://www.twilio.com/en-us/blog/insights?page=1&products=email%2Cmarketing-campaigns)\n\n\n\n\n\n\n\nFind guidance and best practices for building with our Email API, improving deliverability, and sending great emails.\n\n- Browser palying video\n\n\n\n\n\n\n\n[Resource Center](https://www.twilio.com/en-us/resource-center/guides?asset-type=guide&page=1&products=email%2Cmarketing-campaigns)\n\n\n\n\n\n\n\nFind strategic guides, insights, and research to sharpen your customer engagement strategy.\n\n- Bar Graph\n\n\n\n\n\n\n\n[Status](https://status.sendgrid.com/)\n\n\n\n\n\n\n\nSee the status of our products.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:33.712728Z",
+      "section_path": "SendGrid ❤️ Twilio. We're finally moving in together on Twilio.com! > Resources to learn, build, or troubleshoot",
+      "chunk_index": 1,
+      "token_count": 558,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_270acc01bb3d",
+      "source_type": "official_docs",
+      "url": "https://sendgrid.com",
+      "domain": "sendgrid.com",
+      "page_title": "SendGrid Email API and Email Marketing Campaigns | Twilio",
+      "content": "We're merging our websites to make things simpler. You can now find all our trusted email solutions, plus everything else Twilio offers, over on [Twilio.com](https://www.twilio.com/en-us).\n\n[Visit Twilio.com](https://www.twilio.com/en-us)\n\n![Person in red using a computer displaying Twilio, with icons of message, person, and speech bubble.](https://www.twilio.com/content/dam/twilio-com/global/en/products/sendgrid/rebrand/Sendgrid_hero_twilio.png/_jcr_content/renditions/compressed-original.webp)\n\n![Person in red using a computer displaying Twilio, with icons of message, person, and speech bubble.](https://www.twilio.com/content/dam/twilio-com/global/en/products/sendgrid/rebrand/Sendgrid_hero_twilio.png/_jcr_content/renditions/compressed-original.webp)\n\nDon’t worry—the same SendGrid email products and services, documentation and resources you know and love are available and fully supported on [Twilio.com](https://www.twilio.com/en-us).\n\n[Log in now](https://login.sendgrid.com/login/identifier)\n\nSend email on a world-class platform that delivers more than 200 billion emails every month—and explore the rest of the Twilio Platform to build a complete solution for verification and identity, alerts, support and sales, and more.\n\n![Man wearing glasses using a computer to send emails in an office.](https://www.twilio.com/content/dam/twilio-com/global/en/products/sendgrid/rebrand/Sendgrid_email-api_twilio.png/_jcr_content/renditions/compressed-original.webp)\n\n![Man wearing glasses using a computer to send emails in an office.](https://www.twilio.com/content/dam/twilio-com/global/en/products/sendgrid/rebrand/Sendgrid_email-api_twilio.png/_jcr_content/renditions/compressed-original.webp)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:33.712644Z",
+      "section_path": "SendGrid ❤️ Twilio. We're finally moving in together on Twilio.com! > Email at scale, proven deliverability, and so much more",
+      "chunk_index": 0,
+      "token_count": 426,
+      "quality_score": 0.36
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "The trusted SendGrid Email API for delivery at scale.",
+      "evidence_ids": [
+        "ev_b857dc005433"
+      ]
+    },
+    "category": {
+      "value": "Marketing Ads Email and Social",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_aa29e5e7a212"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_aa29e5e7a212"
+      ]
+    },
+    "api_surface": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_b857dc005433"
+      ]
+    },
+    "api_breadth": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_b857dc005433"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_b857dc005433"
+      ]
+    },
+    "buildability": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_b857dc005433"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_b857dc005433"
+      ]
+    }
+  },
+  "validation": {
+    "status": "INSUFFICIENT_EVIDENCE",
+    "score": 0.25,
+    "fields_checked": 8,
+    "fields_supported": 2,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "auth_methods",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'auth_methods' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "api_surface",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_surface' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "api_breadth",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_breadth' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "buildability",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'buildability' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": {
+    "verified_fields": [],
+    "corrections": {},
+    "screenshots": [],
+    "notes": ""
+  },
+  "pipeline_confidence": 0.25,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.25 below 0.90 threshold",
+      "Auth methods missing or UNKNOWN"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

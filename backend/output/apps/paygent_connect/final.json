@@ -1,0 +1,103 @@
+{
+  "app": {
+    "id": 84,
+    "name": "Paygent Connect",
+    "website": "https://www.withpaygent.com/",
+    "category_hint": "Finance and Fintech"
+  },
+  "documentation_map": {
+    "app_name": "Paygent Connect",
+    "official_domain": "withpaygent.com",
+    "homepage": {
+      "url": "https://www.withpaygent.com/",
+      "title": "Paygent Connect",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": null,
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": "https://www.withpaygent.com/documentation/api-reference-orders",
+      "alternatives": [
+        "https://www.withpaygent.com/documentation/api-reference-agents",
+        "https://www.withpaygent.com/documentation/api-reference-prepaid-wallets"
+      ]
+    },
+    "pricing": {
+      "primary": "https://www.withpaygent.com/pricing",
+      "alternatives": []
+    },
+    "sdk": "https://www.withpaygent.com/documentation/python-installation",
+    "mcp": {
+      "primary": null,
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": "https://www.withpaygent.com/documentation/",
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "Paygent Connect",
+      "official_domain": "withpaygent.com",
+      "items": [
+        {
+          "url": "https://www.withpaygent.com/",
+          "page_type": "homepage",
+          "title": "Paygent Connect",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 7,
+        "urls_discovered": 1,
+        "official_urls": 1,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 1
+      }
+    },
+    "stats": {
+      "queries": 7,
+      "urls_discovered": 1,
+      "official_urls": 1,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 1
+    }
+  },
+  "evidence": [],
+  "extraction": null,
+  "validation": null,
+  "browser_verification": null,
+  "pipeline_confidence": 0.0,
+  "human_verified": true,
+  "final_status": "HUMAN_MODIFIED",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "No evidence collected"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

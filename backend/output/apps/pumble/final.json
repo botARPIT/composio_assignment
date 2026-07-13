@@ -1,0 +1,627 @@
+{
+  "app": {
+    "id": 25,
+    "name": "Pumble",
+    "website": "pumble.com",
+    "category_hint": "Communications and Messaging"
+  },
+  "documentation_map": {
+    "app_name": "Pumble",
+    "official_domain": "pumble.com",
+    "homepage": {
+      "url": "https://pumble.com",
+      "title": "Pumble",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://pumble.com/login?identifier=developer",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://pumble.com/login?identifier=developer",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://pumble.com/pricing",
+        "title": "Free",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://pumble.com/enterprise",
+          "title": "Enterprise",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": true,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://pumble.com/mcp",
+        "title": "",
+        "confidence": 0.6,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://pumble.com/register",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": {
+      "url": "https://pumble.com/llms.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "Pumble",
+      "official_domain": "pumble.com",
+      "items": [
+        {
+          "url": "https://pumble.com",
+          "page_type": "homepage",
+          "title": "Pumble",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://pumble.com/pricing",
+          "page_type": "pricing",
+          "title": "Free",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://pumble.com/enterprise",
+          "page_type": "pricing",
+          "title": "Enterprise",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://pumble.com/login?identifier=developer",
+          "page_type": "authentication",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://pumble.com/login?identifier=developer",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://pumble.com/register",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://pumble.com/mcp",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.6,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 1,
+        "urls_discovered": 7,
+        "official_urls": 7,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 1,
+        "canonical_selected": 6
+      }
+    },
+    "stats": {
+      "queries": 1,
+      "urls_discovered": 7,
+      "official_urls": 7,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 1,
+      "canonical_selected": 6
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_630cbae05c70",
+      "source_type": "llms_txt",
+      "url": "https://pumble.com/llms.txt",
+      "domain": "pumble.com",
+      "page_title": "llms.txt index",
+      "content": "\\## Popular Templates\n\\- \\[Lesson plan templates\\](https://pumble.com/learn/businesses-teams/lesson-plan-template/): 36 lesson plan templates with expert advice on key components of a good lesson plan and tips to create a good lesson plan template for various lesson types.\n\\- \\[Google Calendar templates\\](https://pumble.com/learn/communication/google-calendar-templates/): 12 customizable calendar templates designed in Google Sheets and Google Docs, for effective time planning.\n\\- \\[Internal communication templates\\](https://pumble.com/learn/communication/internal-communication-templates/): 28 message and worksheet templates with practical examples to simplify internal communication, organized into 5 categories.\n\\- \\[Meeting agenda templates\\](https://pumble.com/learn/communication/meeting-agenda-templates/): 10 meeting agenda templates for various use cases with the most important topics, action items, and questions.\n\\- \\[Performance review templates\\](https://pumble.com/learn/communication/performance-review-template/): 12 performance review templates with explanations, designed to speed up and simplify the process for managers.\n\\- \\[Sales emails templates\\](https://pumble.com/learn/businesses-teams/sales-email-template/): 10 sales email templates designed as user references, and 7 steps to create a successful sales email from scratch.\n\\- \\[Resignation letter templates\\](https://pumble.com/learn/communication/resignation-letter-templates/): 17 resignation letter templates, sorted by tone and job type.\n\n\\## Comparisons\n\\- \\[Pumble vs Slack\\](https://pumble.com/blog/pumble-vs-slack/): A breakdown and comparison of Pumble and Slack for team collaboration.\n\\- \\[Pumble vs Microsoft Teams\\](https://pumble.com/blog/pumble-vs-microsoft-teams/): Insight into differences between Pumble and Microsoft Teams for team communication.\n\\- \\[Pumble vs Discord\\](https://pumble.com/blog/pumble-vs-discord/): Direct comparison of Pumble and Discord for team communication.\n\\- \\[Pumble vs Chanty\\](https://pumble.com/blog/pumble-vs-chanty/): Pumble and Chanty compared in terms of features, UI and pricing, for teams.\n\\- \\[Pumble vs Zoom\\](https://pumble.com/blog/pumble-vs-zoom/): An analysis of Pumble and Zoom and how their features compare in practice.\n\n\\## Knowledge Hubs\n\\- \\[Blog\\](https://pumble.com/blog/): Opinions, tips and expert advice on how to communicate and collaborate better in remote, hybrid, and in-office teams.\n\\- \\[Knowledge hub\\](https://pumble.com/learn/): Knowledge base of team communication theories with improvement tips, guides for digital nomads worldwide, and resources for using Pumble.\n\\- \\[Help\\](https://pumble.com/help/): Tutorials, documentation, help, and support for using Pumble.\n\\- \\[Tutorials\\](https://pumble.com/tutorials): Video tutorials on how to get started with Pumble.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:21.833371Z",
+      "section_path": "",
+      "chunk_index": 2,
+      "token_count": 708,
+      "quality_score": 0.9
+    },
+    {
+      "id": "ev_87bda93dbec0",
+      "source_type": "llms_txt",
+      "url": "https://pumble.com/llms.txt",
+      "domain": "pumble.com",
+      "page_title": "llms.txt index",
+      "content": "\\## Competitor alternatives hub\n\\- \\[Discord alternatives\\](https://pumble.com/blog/discord-alternatives/): Analysis of Discord, its main features, and 18 suitable replacement apps.\n\\- \\[Slack alternatives\\](https://pumble.com/best-slack-alternatives): Insight into Slack and its features with 8 alternative apps that can replace it in a work setting.\n\\- \\[Microsoft Teams alternatives\\](https://pumble.com/blog/microsoft-teams-alternatives/): An overview of Microsoft Teams and 8 apps with similar or more comprehensive features.\n\\- \\[Zoom alternatives\\](https://pumble.com/blog/best-zoom-alternatives/): An analysis of Zoom with 10 alternative apps to use as replacement.\n\\- \\[Google Meet alternatives\\](https://pumble.com/compare/google-meet-alternative): The main benefits of using Pumble over Google Meet for internal team communication.\n\n\\## Top blog posts\n-\\[Congratulations at work\\](https://pumble.com/blog/congratulations-at-work/): 85+ examples of congratulating a coworker to celebrate their various achievements.\n-\\[Good morning messages\\](https://pumble.com/blog/good-morning-messages/): 100+ examples of good morning messages with various tones to use in a business setting.\n-\\[Birthday wishes for coworker\\](https://pumble.com/blog/birthday-wishes-for-coworker/): 80+ examples of workplace-suitable birthday wishes for different situational contexts.\n-\\[How to ask for help professionally\\](https://pumble.com/blog/ask-for-help-professionally/): A guide on asking for help professionally and politely in the workplace with phrasing examples.\n-\\[Verbal communication\\](https://pumble.com/blog/verbal-communication/): The definition and types of verbal communication with practical examples in the workplace.\n-\\[Communication models\\](https://pumble.com/learn/communication/communication-models/): A detailed explanation of 8 communication models and how understanding them can help with work communication.\n-\\[Communication statistics\\](https://pumble.com/learn/communication/communication-statistics/): Insight into the state of business communication in 2025 with the most recent trends, surveys and statistics.\n\n\\## Time tracking and project management\n\\- \\[Clockify\\](https://clockify.me/): A time tracking tool that integrates with Pumble to help manage time spent on tasks and projects.\n\\- \\[Plaky\\](https://plaky.com/): A project management tool that integrates with Pumble to help manage tasks and projects in one place.\n\n\\## Pricing plans\n-\\[Free\\](https://pumble.com/pricing#compare): Details about the various versions of Pumble and how the free and paid plans compare.\n-\\[Pro\\](https://pumble.com/pro-plan): Information on Pumble's Pro plan features with its price.\n-\\[Business\\](https://pumble.com/business-plan): Details on Pumble's Business plan features and its starting price per user.\n-\\[Enterprise\\](https://pumble.com/enterprise): Advanced features of Pumble's Enterprise plan and how much it costs.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:21.833450Z",
+      "section_path": "",
+      "chunk_index": 3,
+      "token_count": 733,
+      "quality_score": 0.8
+    },
+    {
+      "id": "ev_741a7093c56c",
+      "source_type": "llms_txt",
+      "url": "https://pumble.com/llms.txt",
+      "domain": "pumble.com",
+      "page_title": "llms.txt index",
+      "content": "\\## Resources\n\\- \\[Updates\\](https://pumble.com/help/whats-new/): Latest updates and changes to Pumble features and functionalities.\n\\- \\[Roadmap\\](https://pumble.com/roadmap): Future plans and developments for Pumble.\n\\- \\[Security\\] \\| \\[CAKE.com\\](https://cake.com/security): Information on the security measures in place for protecting user data.\n\\- \\[Terms\\](https://cake.com/terms/): The terms of service governing the use of Pumble. -\\[Privacy\\](https://cake.com/privacy/ ): Details on how user data is handled and protected by Pumble.\n\\- \\[Contact us\\](https://pumble.com/help/contact/): Reach out for inquiries or support related to Pumble\n\\- \\[Book a demo\\](https://pumble.com/help/contact/sales/): Schedule a demonstration of Pumble to see its features in action.\n\\- \\[About\\](https://cake.com/about): CAKE.com Inc. is a software company focused on creating products that are used by millions around the world. Our team stands behind easy-to-use and affordable productivity tools Pumble, Plaky and Clockify.\n\n\\## Usage Guidelines\n\\- Please attribute content to \"Pumble\" when referencing our articles\n\\- Link back to original sources when possible\n\\- For commercial use, contact support@pumble.com\n\\- Educational and research use is encouraged\n\n\\## Attribution Preferences\n\\- When referencing our content, please use:\n\\- \"According to Pumble (pumble.com), \\[quoted content\\]\"",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:21.833495Z",
+      "section_path": "",
+      "chunk_index": 4,
+      "token_count": 346,
+      "quality_score": 0.8
+    },
+    {
+      "id": "ev_7808b904a28e",
+      "source_type": "pricing_page",
+      "url": "https://pumble.com/pricing",
+      "domain": "pumble.com",
+      "page_title": "Pricing - Pumble™",
+      "content": "Receive notification from Clockify and Plaky in Pumble. Doesn't contribute to apps & integrations limit.\n\nGuest access\n\nWork with people outside your company and give them access only to the specific channels.\n\nPermissions\n\nManage who can create and archive channels, invite members, remove them from channels, post in public channels and other permissions.\n\nChannel-posting permissions\n\nCustomize channel posting permissions and mention usage to ensure a focused and distraction-free environment.\n\nUser groups\n\nMention user group to notify everybody in the group.\n\nSecurityData encryption\n\nPumble encrypts all data at rest and in transit.\n\nSOC 2\n\nAnnual audit certification for Service Organization Controls Trust Services Principles.\n\nSingle sign-on (SSO)\n\nManage access using SSO (SAML2, OAuth2).\n\nData retention\n\nDecide for how long you want to have your messages and files.\n\nSupport24/7 Support (email, chat, phone)\n\nContact Pumble’s customer support and get answer within 24 hours.\n\nDedicated success representative\n\nGet concierge services, personalized consultations, and tailored onboarding from a dedicated success agent. We’ll guide you through setup, key features, and best practices while continuously helping you to maximize your Pumble experience.\n\nQualifying criteria for a dedicated success rep are: 200 seats for the PRO plan, 120 seats for the BUSINESS plan, or 70 seats for the ENTERPRISE plan.\n\n200+ seats\n\n120+ seats\n\n70+ seats",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:16.001256Z",
+      "section_path": "Free > Pro > Business > ENTERPRISE > Dedicated success representative",
+      "chunk_index": 2,
+      "token_count": 362,
+      "quality_score": 0.76
+    },
+    {
+      "id": "ev_9efba4466f6d",
+      "source_type": "pricing_page",
+      "url": "https://pumble.com/pricing",
+      "domain": "pumble.com",
+      "page_title": "Pricing - Pumble™",
+      "content": "Secure your workspace, and make it more compliant.\n\n\n[Explore ENTERPRISE plan](https://pumble.com/enterprise)\n\n[![card icon](https://pumble.com/assets/images/icons/pumble_api.svg)**Integrate more apps**\\\\\n\\\\\nIntegrate Pumble with all apps you need to do all your work from one place.\\\\\n\\\\\n\\\\\n![Integrate more apps](https://pumble.com/assets/images/redesign/pricing/business-plan/integrations@2x.png)](https://pumble.com/integrations) [![card icon](https://pumble.com/assets/images/icons/videocam.svg)**More participants**\\\\\n\\\\\nStart a group video call with up to 100 teammates in just one click.\\\\\n\\\\\n\\\\\n![More participants](https://pumble.com/assets/images/redesign/pricing/business-plan/video-conferencing@2x.png)](https://pumble.com/video-conferencing) [![card icon](https://pumble.com/assets/images/icons/share-files.svg)**More storage**\\\\\n\\\\\nIncrease storage limit to 100 GB per seat so each user can share and store more files.\\\\\n\\\\\n\\\\\n![More storage](https://pumble.com/assets/images/redesign/pricing/enterprise/100gb@2x.png)](https://pumble.com/help/using-pumble/sharing-files/file-storage/) [![card icon](https://pumble.com/assets/images/icons/support.svg)**SSO - Single Sign On**\\\\\n\\\\\nManage access using SSO (SAML2, OAuth2, AD/LDAP, etc).\\\\\n\\\\\n\\\\\n![SSO - Single Sign On](https://pumble.com/assets/images/redesign/sso@2x.png)](https://pumble.com/help/workspace-administration/workspace-settings/single-sign-on-sso/) [![card icon](https://pumble.com/assets/images/icons/data.svg)**Data retention**\\\\\n\\\\\nDecide for how long you want to have your messages and files.\\\\\n\\\\\n\\\\\n![Data retention](https://pumble.com/assets/images/redesign/data@2x.png)](https://pumble.com/help/workspace-administration/workspace-settings/customize-messages-and-files-retention/) [![card icon](https://pumble.com/assets/images/icons/priority.svg)**Priority customer support**\\\\\n\\\\\nHave one dedicated customer support agent always there for you.\\\\\n\\\\\n\\\\\n![Priority customer support](https://pumble.com/assets/images/redesign/pricing/enterprise/support@2x.png)](https://pumble.com/help/contact/)\n\n[Next slide](https://pumble.com/pricing)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:16.001385Z",
+      "section_path": "Free > Enterprise",
+      "chunk_index": 5,
+      "token_count": 530,
+      "quality_score": 0.76
+    },
+    {
+      "id": "ev_038fb29815fa",
+      "source_type": "llms_txt",
+      "url": "https://pumble.com/llms.txt",
+      "domain": "pumble.com",
+      "page_title": "llms.txt index",
+      "content": "\\# Pumble\n\n\\> Pumble is an all-in-one team communication app for sending messages and files and making video calls. On the free plan, it offers unlimited message history, an \"import Slack history\" feature, and 24/7 support.\n\n\\## Core Features\n\\- \\[Channels\\] (https://pumble.com/features/channels): Dedicated spaces for team communication and file sharing.\n\\- \\[Direct messages\\](https://pumble.com/features/direct-messages): Individual conversations between teammates.\n\\- \\[Threads\\](https://pumble.com/features/threads): Easy-to-follow replies to a single message, to keep related conversation organized.\n\\- \\[Voice messages\\](https://pumble.com/features/voice-messages): Short audio messages, good for quick 1:1 or team explanations and saving time.\n\\- \\[Video messages\\](https://pumble.com/features/video-messages): Designed to showcase important details, without the need for a meeting through short videos.\n\\- \\[File sharing\\](https://pumble.com/document-sharing): Allows users to send business documents, images, videos, and other files in Pumble.\n\\- \\[Search\\](https://pumble.com/knowledge-sharing): Enables users to look for messages, files, and people across your workspace, in a single window.\n\\- \\[Video conferencing\\](https://pumble.com/video-conferencing): Video meetings that allow users to connect to their teams in a group or 1:1 setting, with optional external guests.\n\\- \\[Voice calls\\](https://pumble.com/voice-calls): 1:1 or group audio calls accessed from a channel or DM.\n\\- \\[Screen sharing\\](https://pumble.com/features/screen-sharing): Allows users to present their desktop so they can collaborate, troubleshoot, or brainstorm ideas with their team during a call.\n\\- \\[Meeting links\\](https://pumble.com/help/using-pumble/calls-and-meetings/meeting-links/): A feature that allows workspace members to join a meeting via a single click.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:21.833225Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 465,
+      "quality_score": 0.7
+    },
+    {
+      "id": "ev_114e234e06bf",
+      "source_type": "llms_txt",
+      "url": "https://pumble.com/llms.txt",
+      "domain": "pumble.com",
+      "page_title": "llms.txt index",
+      "content": "\\## Main Use Cases\n\\- \\[Marketing\\](https://pumble.com/teams/marketing): Features that help marketing teams set goals & budgets and bring people, partners, and tools together in a single space.\n\\- \\[Sales\\](https://pumble.com/teams/sales): Features designed to help sales people connect with customers, assign leads to reps, set reminders, and simplify cross-department collaboration.\n\\- \\[Customer support\\](https://pumble.com/teams/customer-support): Features that help users manage customer questions and feedback, resolve customer issues, and invite clients to their workspace as guests.\n\\- \\[Human Resources\\](https://pumble.com/teams/human-resources): Tools that allow for a simpler onboarding process and managing training and employee development through a centralized platform.\n\\- \\[Product\\](https://pumble.com/teams/product): Tools that enable users to plan, manage, and execute product development by simplifying collaboration between teams.\n\\- \\[Project management\\](https://pumble.com/teams/project-management): Features designed to help users manage and track projects by bringing teams, files, and tasks into one place.\n\\- \\[Software development\\](https://pumble.com/solutions/software-development): Features that let users plan, review and deploy the code in a streamlined way.\n\\- \\[Education\\](https://pumble.com/solutions/education): Tools that simplify student-teacher collaboration by allowing users to organize classes, meetings and assignments in one place.\n\\- \\[Financial services\\](https://pumble.com/solutions/financial-services): Features designed to connect teams and help them plan and track budgets in a secure environment.\n\\- \\[Remote\\](https://pumble.com/solutions/remote-work): Tools designed for users to organize remote work, manage and coordinate teams in a single platform.\n\\- \\[Logistics\\](https://pumble.com/solutions/logistics): Features designed for users to streamline operations and work with vendors & suppliers internally and externally.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:21.833300Z",
+      "section_path": "",
+      "chunk_index": 1,
+      "token_count": 495,
+      "quality_score": 0.7
+    },
+    {
+      "id": "ev_2b603476ce4d",
+      "source_type": "pricing_page",
+      "url": "https://pumble.com/pricing",
+      "domain": "pumble.com",
+      "page_title": "Pricing - Pumble™",
+      "content": "Made for internal collaboration, coordination, and efficiency.\n\n\n[Explore PRO plan](https://pumble.com/pro-plan)\n\n[![card icon](https://pumble.com/assets/images/icons/pumble_api.svg)**Integrate more apps**\\\\\n\\\\\nIntegrate Pumble with 10 other apps to have access to all you work from one place, in addition to free native integrations with Clockify and Plaky.\\\\\n\\\\\n\\\\\n![Integrate more apps](https://pumble.com/assets/images/redesign/pricing/pro-plan/integrations@2x.png)](https://pumble.com/integrations) [![card icon](https://pumble.com/assets/images/redesign/pricing/pro-plan/annotate.svg)**Annotate shared screen**\\\\\n\\\\\nAdd notes and drawings while sharing your screen to bring attention to key information.\\\\\n\\\\\n\\\\\n![Annotate shared screen](https://pumble.com/assets/images/redesign/pricing/pro-plan/annotate@2x.png)](https://pumble.com/help/using-pumble/calls-and-meetings/call-tools-and-features/#share-screen) [![card icon](https://pumble.com/assets/images/icons/custom-sections.svg)**Customize sections**\\\\\n\\\\\nOrganize your sidebar to make your DMs and channels more accessible to you.\\\\\n\\\\\n\\\\\n![Customize sections](https://pumble.com/assets/images/redesign/pricing/pro-plan/sections@2x.png)](https://pumble.com/help/profile/profile-settings/customized-sidebar/) [![card icon](https://pumble.com/assets/images/icons/videocam.svg)**Organize meetings**\\\\\n\\\\\nStart video conferencing with up to 50 team members to brainstorm in real-time.\\\\\n\\\\\n\\\\\n![Organize meetings](https://pumble.com/assets/images/redesign/pricing/pro-plan/meetings@2x.png)](https://pumble.com/video-conferencing) [![card icon](https://pumble.com/assets/images/icons/screen_sharing.svg)**Share screen**\\\\\n\\\\\nShare your screen during a meeting to show everybody what you have imagined.\\\\\n\\\\\n\\\\\n![Share screen](https://pumble.com/assets/images/redesign/pricing/pro-plan/share-screen@2x.png)](https://pumble.com/features/screen-sharing) [![card icon](https://pumble.com/assets/images/icons/share-files.svg)**Share files and links**\\\\\n\\\\\nShare more photos, links, and files from anywhere, using your phone, or computer.\\\\\n\\\\\n\\\\\n![Share files and links](https://pumble.com/assets/images/redesign/pricing/pro-plan/10gb-pro-plan@2x.png)](https://pumble.com/document-sharing)\n\n[Next slide](https://pumble.com/pricing)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:16.001306Z",
+      "section_path": "Free > Pro",
+      "chunk_index": 3,
+      "token_count": 570,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_100c7065337b",
+      "source_type": "pricing_page",
+      "url": "https://pumble.com/pricing",
+      "domain": "pumble.com",
+      "page_title": "Pricing - Pumble™",
+      "content": "Have more organized workspace, and include partners into it.\n\n\n[Explore BUSINESS plan](https://pumble.com/business-plan)\n\n[![card icon](https://pumble.com/assets/images/icons/users.svg)**User groups**\\\\\n\\\\\nMake it easier to send notifications and communicate with entire teams, or groups.\\\\\n\\\\\n\\\\\n![User groups](https://pumble.com/assets/images/redesign/pricing/business-plan/user-groups@2x.png)](https://pumble.com/features/user-groups) [![card icon](https://pumble.com/assets/images/redesign/pricing/business-plan/recording.svg)**Meeting recordings**\\\\\n\\\\\nRecord your Pumble meetings to watch them again later.\\\\\n\\\\\n\\\\\n![Meeting recordings](https://pumble.com/assets/images/redesign/pricing/business-plan/recording@2x.png)](https://pumble.com/features/meeting-recording) [![card icon](https://pumble.com/assets/images/icons/share-files.svg)**More storage**\\\\\n\\\\\nIncrease storage limit to 20 GB per seat so each user can share and store more files.\\\\\n\\\\\n\\\\\n![More storage](https://pumble.com/assets/images/redesign/pricing/business-plan/20gb@2x.png)](https://pumble.com/help/using-pumble/sharing-files/file-storage/) [![card icon](https://pumble.com/assets/images/icons/guest.svg)**Guest access**\\\\\n\\\\\nWork with external partners and customers in Pumble channels to speed up projects.\\\\\n\\\\\n\\\\\n![Guest access](https://pumble.com/assets/images/redesign/pricing/business-plan/guests-pumble@2x.png)](https://pumble.com/guest-access) [![card icon](https://pumble.com/assets/images/icons/permissions.svg)**Permissions**\\\\\n\\\\\nManage your workspace permissions and set who can do all administrative work.\\\\\n\\\\\n\\\\\n![Permissions](https://pumble.com/assets/images/redesign/pricing/business-plan/permissions@2x.png)](https://pumble.com/features/roles-and-permissions) [![card icon](https://pumble.com/assets/images/icons/pumble_api.svg)**Unlimited integrations**\\\\\n\\\\\nIntegrate Pumble with apps to make your work even more faster.\\\\\n\\\\\n\\\\\n![Unlimited integrations](https://pumble.com/assets/images/redesign/pricing/business-plan/integrations@2x.png)](https://pumble.com/integrations) [![card icon](https://pumble.com/assets/images/icons/videocam.svg)**More participants**\\\\\n\\\\\nStart a group video call with up to 100 teammates in just one click.\\\\\n\\\\\n\\\\\n![More participants](https://pumble.com/assets/images/redesign/pricing/business-plan/video-conferencing@2x.png)](https://pumble.com/video-conferencing)\n\n[Next slide](https://pumble.com/pricing)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:16.001358Z",
+      "section_path": "Free > Business",
+      "chunk_index": 4,
+      "token_count": 609,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_0c01876d914d",
+      "source_type": "pricing_page",
+      "url": "https://pumble.com/pricing",
+      "domain": "pumble.com",
+      "page_title": "Pricing - Pumble™",
+      "content": "We get it. With so many features across all plans, figuring out if Pumble is for you can come down to simple answers.\n\n**Is Pumble really free?**\n\nYes! You can have an unlimited number of users and access your entire chat history. If you need more, you can upgrade to the PRO, BUSINESS, or ENTERPRISE plan.\n\n**Can I try out the paid features?**\n\nAbsolutely! You can try out all features for free for 7 days, no credit card required. You can activate the free trial on the Upgrade page. If you need more time, be sure to [contact our sales team](https://pumble.com/help/contact/sales/) for an extension and a demo.\n\n**Do you offer any discounts?**\n\nIf you pay annually, you get ~ 2 months for free. Our FREE plan doesn't have any limitations and is perfectly suited for startups and non-profit organizations.\n\n**What types of payment are supported?**\n\nWe support payments by credit card for all plans. For larger purchases (e.g. annual multi-seat licenses), we also support wire transfers and purchase orders - in which case, it's best to contact us at [sales@pumble.com](mailto:sales@pumble.com).\n\n**What is a seat?**\n\nEach active and invited user on a paid plan requires a paid seat. If you deactivate some user, you free up their paid seat so you can invite a new user. If you buy another seat mid-cycle, you'll be charged a prorated price for that billing cycle.\n\n**What is a workspace?**\n\nWorkspace is your organization's place on Pumble where you can communicate and work with your team. Workspace is made up of channels, direct messages, team members and apps, making team collaboration much easier.\n\n**What type of user roles can you have in Pumble?**\n\nIn Pumble, you have three types of user roles: regular members, guests, and invited members. Regular members have full access to use the features in your Pumble workspace. Guests have limited access to certain channels inside Pumble, and their seats are priced. Invited members do not have a Pumble account, are not part of your workspace, and you do not have to pay for them. They only have access to the video conferencing calls to which they are invited.\n\n**How does guest access work?**\n\nYou can have single-channel and multi-channel guests. **Multi-channel guests will be priced as full members seats**, while for every priced seat, five single-channel guests will be gratis.\n\n**What complementary services do I get as a qualified client?**\n\nAt CAKE.com, our clients’ success is our success. That’s why we offer concierge services to help you adopt our products smoothly. Qualified clients receive complementary services, including:\n\n- Tailored implementation and onboarding plan together with tailored materials and resources (text/image/video)\n- Additional consulting sessions, ongoing training, help with custom integrations, and more\n- Product usage & optimization reviews\n- Usage reports and best practice recommendations\n- New feature releases (email)\n\n**Are there any additional taxes?**\n\nIt depends on your company's country of origin. All the prices are displayed without taxes, and if we are legally required to collect VAT from your country, then that tax will be added on top of the final price, which you will see at checkout before making a payment.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:16.001517Z",
+      "section_path": "Free > Frequently Asked Questions",
+      "chunk_index": 7,
+      "token_count": 807,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_2dd1504f78da",
+      "source_type": "pricing_page",
+      "url": "https://pumble.com/pricing",
+      "domain": "pumble.com",
+      "page_title": "Pricing - Pumble™",
+      "content": "If you are [tax-exempt](https://pumble.com/help/workspace-administration/pricing/upgrade-a-free-workspace-to-a-paid-plan/#tax-exemption-cases), please reach out to our billing specialists at [billing@mail.cake.com](mailto:billing@mail.cake.com) and provide a valid form or document for your exemption. This will allow us to update your account accordingly and ensure accurate billing.\n\n**How does canceling work?**\n\nYou can cancel subscription at any time. Once you cancel, you can use the paid features until the end of you billing cycle, after which you'll be automatically downgraded to the FREE plan. We don't offer refunds.\n\n**How to get Pumble + Clockify + Plaky together?**\n\nYou can get all three CAKE.com tools upgraded for a special price and save 53% on paid subscriptions. To buy the CAKE.com Bundle (which includes ENTERPRISE version of Pumble, Clockify, and Plaky), go the [upgrade page](https://app.pumble.com/) and choose the CAKE.com Bundle plan. Also, Pumble offers native integrations with both Clockify and Plaky. These integrations are free to use and do not affect your Pumble subscription plan limits.\n\nMore questions? [Visit Pumble’s Help Center](https://pumble.com/help/)\n\n• Unlimited users\n\n• Unlimited chat history\n\n• Free forever\n\n\n[Upgrade now](https://app.pumble.com/admin)\n\n[or Start free trial](https://pumble.com/login)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:16.001558Z",
+      "section_path": "Free > Ready to improve   your business?",
+      "chunk_index": 8,
+      "token_count": 337,
+      "quality_score": 0.66
+    },
+    {
+      "id": "ev_d125406bc143",
+      "source_type": "auth_docs",
+      "url": "https://pumble.com/login?identifier=developer",
+      "domain": "pumble.com",
+      "page_title": "Pumble™ - Login",
+      "content": "![](https://pumble.com/assets/images/auth/login-hero-page.webp)\n\nLog in to Developer\n\n![](https://pumble.com/assets/images/auth/login-with-google.png)Continue with Google![](https://pumble.com/assets/images/auth/login-with-microsoft.png)Continue with Microsoft![](https://pumble.com/assets/images/auth/login-with-apple.png)Continue with Apple\n\nOR\n\nContinue with email\n\nDon’t have an account?\nSign up",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:14.927227Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 99,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_0ba53dd487f2",
+      "source_type": "pricing_page",
+      "url": "https://pumble.com/pricing",
+      "domain": "pumble.com",
+      "page_title": "Pricing - Pumble™",
+      "content": "[Get started](https://pumble.com/register)\n\n[Upgrade](https://app.pumble.com/admin)\n\n[Upgrade](https://app.pumble.com/admin)\n\n[Upgrade](https://app.pumble.com/admin)\n\nCommunicationPrivate and public channels\n\nEveryone can join and send messages in public channels. Only invited users can send messages in a private channel.\n\nDirect messages\n\nShare business information, send files and\nimages, or share links to others, one-on-one.\n\nThreads\n\nSpin off side conversations into threads to\nkeep the channel distraction-free.\n\nQuote messages\n\nReply to specific messages across direct messages and public or private channels.\n\nMentions, reactions, pins, save messages\n\nMention others to notify them, react to\nmessages with emojis, and pin important messages so everyone can access\nthem later.\n\nMessage history\n\nAccess all your messages that have ever been\nsent to get context for past decisions or get new team members up to\nspeed faster.\n\nUnlimited\n\nUnlimited\n\nUnlimited\n\nUnlimited\n\nCollaborationShare files and links\n\nShare images, videos, documents or links with your teammates and search for them later via File browser.\n\nMessage formatting\n\nHighlight important information within conversation or markup your code blocks.\n\nFile storage\n\nShare images, documents, and other files, and access them later in Pumble.\n\n10GB\n\ntotal\n\n10GB\n\nper seat\n\n20GB\n\nper seat\n\n100GB\n\nper seat\n\nSchedule a message",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:16.001165Z",
+      "section_path": "Free > Pro > Business > ENTERPRISE > File storage",
+      "chunk_index": 0,
+      "token_count": 347,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_1f3dfc8bdaf5",
+      "source_type": "pricing_page",
+      "url": "https://pumble.com/pricing",
+      "domain": "pumble.com",
+      "page_title": "Pricing - Pumble™",
+      "content": "Compose and schedule a message to be sent in a Pumble channel you choose at a later date.\n\nReminders\n\nSet reminders for important tasks.\n\nVoice and video messages\n\nTap, talk, and send to give updates, share ideas, and be more expressive.\n\n1:1 voice and video meetings\n\nGo from typing to talking in a single click, with 1:1 voice and video meetings.\n\nScreen sharing\n\nStart a video conference call or share your screen in real time.\n\nScreen share annotations\n\nDraw and annotate over your shared screen, by yourself or with your team.\n\nVideo conferencing\n\nStart a video meeting with your whole team.\n\nUp to\n\n50 members\n\nUp to\n\n100 members\n\nUp to\n\n100 members\n\nGroup voice meetings\n\nStart group voice calls with your whole team.\n\nUp to\n\n50 members\n\nUp to\n\n100 members\n\nUp to\n\n100 members\n\nMeeting links\n\nCreate meeting links to start a call with anyone in your team.\n\nCustomizable sections\n\nOrganize channels and conversations into custom, collapsible sections in your sidebar.\n\nMeeting recordings\n\nRecord a Pumble meeting to watch it later.\n\nAdminImport from Slack\n\nImport public channels, messages, and your team from Slack.\n\nApps & Integrations\n\nIntegrate Pumble with other apps and create custom apps and scripts to automate custom actions.\n\nUp to 3\n\nUp to 10\n\nUnlimited\n\nUnlimited\n\nClockify and Plaky integrations",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:16.001215Z",
+      "section_path": "Free > Pro > Business > ENTERPRISE > Apps & Integrations",
+      "chunk_index": 1,
+      "token_count": 328,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_c34f59bf06c6",
+      "source_type": "pricing_page",
+      "url": "https://pumble.com/pricing",
+      "domain": "pumble.com",
+      "page_title": "Pricing - Pumble™",
+      "content": "4.7 Rating  •  200+ REVIEWS  •  95% Customer satisfaction\n\n![Rating stars](https://pumble.com/assets/images/icons/rating-stars.svg)\n\n10/10 would recommend to any team starting out. It's so much more cost effective than similar alternatives. As long as that remains true I'll keep recommending it.\n\nAugust 25, 2025\n\nSilas J. Co-Owner and Director of Growth\n\n![Rating stars](https://pumble.com/assets/images/icons/rating-stars.svg)\n\nSo far my experience with Pumble has been top-notch. It's user-friendly, the app is intuitive, and the various channels keep our shared office info organized.\n\nMay 29, 2024\n\nMelissa S. – Licensed Professional Counselor\n\n![Rating stars](https://pumble.com/assets/images/icons/rating-stars.svg)\n\nMy overall experience with Pumble has been very positive. It’s a reliable, fast, and easy-to-use tool. Communication with my team is much smoother, and it has helped me save time and better organize projects. I also appreciate the excellent customer support, which is quick and effective.\n\nAugust 26, 2025\n\nAlejandra S. – Vision Holder",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:16.001440Z",
+      "section_path": "Free > Join millions of happy customers > \"A practical and reliable tool for teams\"",
+      "chunk_index": 6,
+      "token_count": 265,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_b07e1eea32fd",
+      "source_type": "official_docs",
+      "url": "https://pumble.com",
+      "domain": "pumble.com",
+      "page_title": "Pumble™ - FREE Business Communication Tool",
+      "content": "From integrations to security, Pumble has everything a modern team needs.\n\n\nIntegrations\n\nExternal Guests\n\nMCP Server\n\nVoice Messages\n\nVideo Messages\n\nScheduling\n\nPermissions\n\n![Integrations in Pumble](https://pumble.com/assets/images/redesign/integrations@2x.png)\n\nIntegrate with different apps so you can collaborate from one place.\n\n[Learn more](https://pumble.com/integrations)\n\n![Invite external guests to Pumble calls](https://pumble.com/assets/images/redesign/external_calls@2x.png)\n\nSimplify the way you collaborate with external guests and invite them to a Pumble meeting even if they don’t have a Pumble account.\n\n[Learn more](https://pumble.com/guest-access)\n\n![Connect AI agents in Pumble](https://pumble.com/assets/images/redesign/connect-ai-agents@2x.png)\n\nUse Pumble’s MCP server to optimize collaboration with AI agents. Summarize conversations, find lost files, automate updates, and much more.\n\n[Learn more](https://pumble.com/mcp)\n\n![Schedule a message to be sent later](https://pumble.com/assets/images/redesign/scheduling-messages-in-pumble@2x.png)\n\nSchedule your message to be sent when you want it, and don’t risk forgetting about it, without bothering anyone outside their work hours.\n\n[Learn more](https://pumble.com/features/schedule-a-message)\n\n![Record and send voice messages](https://pumble.com/assets/images/redesign/voice-messages-in-pumble@2x.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:15.130992Z",
+      "section_path": "Your team communication hub > Packed with Useful Features > Scheduling",
+      "chunk_index": 2,
+      "token_count": 345,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_b0159dae07e5",
+      "source_type": "official_docs",
+      "url": "https://pumble.com",
+      "domain": "pumble.com",
+      "page_title": "Pumble™ - FREE Business Communication Tool",
+      "content": "Sending voice notes in Pumble instead of text and increase your efficiency. Share ideas and updates, or just say hello to your teammates.\n\n[Learn more](https://pumble.com/features/voice-messages)\n\n![Record and send video messages](https://pumble.com/assets/images/redesign/video-messages-in-pumble@2x.png)\n\nInstead of scheduling a meeting, record a video message covering the information you want to share.\n\n[Learn more](https://pumble.com/features/video-messages)\n\n![Set permissions in Pumble](https://pumble.com/assets/images/redesign/set-permissions-in-pumble@2x.png)\n\nSet up different workspaces and channel permissions within your workspace.\n\n[Learn more](https://pumble.com/features/roles-and-permissions)\n\n[Read customer stories](https://pumble.com/customer-stories/)\n\n★★★★★\n\nFor anyone who’s working with a number of clients in any industry. It’s been an absolute game changer for me being able to add all of my clients in and chat to them 1-2-1 at all times.\n\nJess B.\n\nNutritional coach I Health, Wellness and Fitness,\n\n1-10 employees\n\n★★★★★\n\nTeam communication got easier, we can see whether the person is active or not. It can be installed on phone. We can save notes by sending the documents to ourselves.\n\nKrishna S.\n\nAssociate I Information Technology and Services,\n\n11-50 employees\n\n★★★★★",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:15.131087Z",
+      "section_path": "Your team communication hub > Trusted by companies around the world > “It’s changed the way I do business” > “Simplicity & easiness you feel”",
+      "chunk_index": 3,
+      "token_count": 325,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_fdc858ed1fe4",
+      "source_type": "official_docs",
+      "url": "https://pumble.com",
+      "domain": "pumble.com",
+      "page_title": "Pumble™ - FREE Business Communication Tool",
+      "content": "Unlimited users\n\nUnlimited channels\n\nUnlimited message history\n\n[See upgrades](https://pumble.com/pricing)\n\n![](https://pumble.com/assets/images/free-forever-3d@2x.png)\n\nWe're here 24 hours a day, every day of the week, including holidays.\n\n\n[Contact support](https://pumble.com/help/contact/)\n\nEmailPhoneChat\n\n![@@alt](https://pumble.com/assets/images/icons/support.svg)\n\nsupport anytime, anywhere\n\n![@@alt](https://pumble.com/assets/images/icons/response-time.svg)\n\naverage email response time\n\n![@@alt](https://pumble.com/assets/images/icons/heart.svg)\n\nsatisfaction\n\n(18k+ ratings)\n\n![@@alt](https://pumble.com/assets/images/icons/human.svg)\n\nhuman-based\n\nsupport\n\n![@@alt](https://pumble.com/assets/images/icons/uptime-levels.svg)\n\nservice uptime\n\nlevel\n\n• Unlimited users\n\n• Unlimited chat history\n\n• Free forever\n\n\n[Create FREE Account](https://pumble.com/register)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:15.131264Z",
+      "section_path": "Your team communication hub > Start chatting with   your team",
+      "chunk_index": 5,
+      "token_count": 218,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_b974221a149e",
+      "source_type": "official_docs",
+      "url": "https://pumble.com",
+      "domain": "pumble.com",
+      "page_title": "Pumble™ - FREE Business Communication Tool",
+      "content": "Start channels, share documents, organize video calls, and invite partners to collaborate.\n\n![card icon](https://pumble.com/assets/images/icons/direct-messages.svg)\n\nSend 1-on-1 and group messages.\n\n\n![card icon](https://pumble.com/assets/images/icons/channel-browser.svg)\n\nOrganize work conversation by topic.\n\n\n![card icon](https://pumble.com/assets/images/icons/thread.svg)\n\nSpin-off discussions into threads.\n\n\n![card icon](https://pumble.com/assets/images/icons/file-browser.svg)\n\nShare files, images, and links with team.\n\n\n![Send messages and files in channels, as direct message, or as a reply in threds](https://pumble.com/assets/images/redesign/seamless-communication-homepage@2x.png)![](https://pumble.com/assets/images/redesign/effects/zoom-effect-messages.svg)![](https://pumble.com/assets/images/redesign/effects/zoom-effect-channels-homepage.svg)![](https://pumble.com/assets/images/redesign/effects/zoom-effect-thread-homepage.svg)![](https://pumble.com/assets/images/redesign/effects/zoom-effect-files.svg)\n\n![card icon](https://pumble.com/assets/images/icons/videocam.svg)\n\nOrganize video meetings with teammates.\n\n\n![card icon](https://pumble.com/assets/images/icons/mic.svg)\n\nHave a quick call with others.\n\n\n![card icon](https://pumble.com/assets/images/icons/date_range.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:15.130765Z",
+      "section_path": "Your team communication hub > Seamless communication > Voice calls",
+      "chunk_index": 0,
+      "token_count": 324,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_b4e9ef1c1026",
+      "source_type": "official_docs",
+      "url": "https://pumble.com",
+      "domain": "pumble.com",
+      "page_title": "Pumble™ - FREE Business Communication Tool",
+      "content": "Create a link and send it to anyone.\n\n\n![card icon](https://pumble.com/assets/images/icons/screen_sharing.svg)\n\nPresent demos and provide support.\n\n\n![Organize video conferencing and voice calls, share screen and send meeting links to other participants](https://pumble.com/assets/images/redesign/pm-video-conferencing@2x.png)![](https://pumble.com/assets/images/redesign/effects/fade-effect-voice-calls@2x.png)![](https://pumble.com/assets/images/redesign/effects/fade-effect-meeting-links@2x.png)![](https://pumble.com/assets/images/redesign/effects/fade-effect-screen-sharing@2x.png)\n\n![card icon](https://pumble.com/assets/images/icons/manage_search.svg)\n\nFind any message, whenever it happened.\n\n\n![card icon](https://pumble.com/assets/images/icons/guests.svg)\n\nGive limited access to external people.\n\n\n![card icon](https://pumble.com/assets/images/icons/notification.svg)\n\nStay updated, mute when you need focus.\n\n\n![card icon](https://pumble.com/assets/images/icons/mentions.svg)\n\nGet attention in group discussions.\n\n\n![Invite guests, search for free forever, mention users and groups, and get notifications](https://pumble.com/assets/images/redesign/collaborative-teamwork-in-pumble@2x.png)![](https://pumble.com/assets/images/redesign/effects/zoom-effect-search.svg)![](https://pumble.com/assets/images/redesign/effects/zoom-effect-guests.svg)![](https://pumble.com/assets/images/redesign/effects/zoom-effect-smart-notifications.svg)![](https://pumble.com/assets/images/redesign/effects/zoom-effect-mentions.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:15.130877Z",
+      "section_path": "Your team communication hub > Seamless communication > Mentions",
+      "chunk_index": 1,
+      "token_count": 380,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_779837d35d03",
+      "source_type": "official_docs",
+      "url": "https://pumble.com",
+      "domain": "pumble.com",
+      "page_title": "Pumble™ - FREE Business Communication Tool",
+      "content": "I have had a good experience. I love the faces that you can choose to have or you can have your own picture. Easy to keep in touch with co workers or your supervisor.\n\nCherie M.\n\nCustomer service I Telecommunications,\n\n201-500 employees\n\n★★★★★\n\nTo upgrade and get the max features for only $20 a year is amazing. I highly recommend this app. Once I tried, I was instantly annoyed that it wasn't the first one that I had tried in the first place.\n\nKimberly L.\n\nHuman Resources I Hospital & Health Care,\n\n201-500 employees\n\n★★★★★\n\nIt doesn't have a limit on message and files history compared to Slack. This is what matter's most to me as I really would love to review messages from time to time.\n\nJulie Anne B.\n\nSRS I \\| Government Administration,\n\n51-200 employees\n\n★★★★★\n\nI like the fact that I can create a thread in a specific message so that thing doesn’t get mixed up, makes for a very clear communication tool.\n\nErnesto S.\n\nCo-Founder I Information Technology and Services,\n\n1-10 employees\n\nCommunicate with your team no matter what device you use.\n\n\n[Download Pumble](https://pumble.com/apps) [Open Pumble in your browser](https://app.pumble.com/)\n\n- [Get for\\\\\n\\\\\niOS](https://apps.apple.com/us/app/pumble/id1536136725)\n- [Get for\\\\\n\\\\\nAndroid](https://play.google.com/store/apps/details?id=com.pumble)\n\nAlso available on [Mac](https://pumble.com/download/desktop/mac/Pumble-mac-1.4.6.dmg) [Windows](https://pumble.com/download/desktop/windows/Pumble-win-1.4.6.exe) [Linux](https://pumble.com/download/desktop/linux/Pumble-linux-1.4.6.deb) [Android](https://play.google.com/store/apps/details?id=com.pumble) [iOS](https://apps.apple.com/us/app/pumble/id1536136725) [Web](https://app.pumble.com/)\n\n![](https://pumble.com/assets/images/redesign/chat-from-anywhere@2x.png)![](https://pumble.com/assets/images/redesign/chat-from-anywhere-mobile@2x.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:00:15.131199Z",
+      "section_path": "Your team communication hub > Chat from anywhere",
+      "chunk_index": 4,
+      "token_count": 464,
+      "quality_score": 0.36
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Pumble is an all-in-one team communication app for sending messages and files and making video calls.",
+      "evidence_ids": [
+        "ev_038fb29815fa"
+      ]
+    },
+    "category": {
+      "value": "Communications and Messaging",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "SAML2, OAuth2",
+      "evidence_ids": [
+        "ev_7808b904a28e"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_0c01876d914d"
+      ]
+    },
+    "api_surface": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_038fb29815fa"
+      ]
+    },
+    "api_breadth": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_038fb29815fa"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_038fb29815fa"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_038fb29815fa"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_038fb29815fa"
+      ]
+    }
+  },
+  "validation": {
+    "status": "UNSUPPORTED",
+    "score": 0.5,
+    "fields_checked": 8,
+    "fields_supported": 4,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "api_surface",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_surface' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "api_breadth",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'api_breadth' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": {
+    "verified_fields": [],
+    "corrections": {},
+    "screenshots": [],
+    "notes": ""
+  },
+  "pipeline_confidence": 0.5,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.50 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

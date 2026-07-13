@@ -1,0 +1,385 @@
+{
+  "app": {
+    "id": 39,
+    "name": "Threads",
+    "website": "developers.facebook.com/docs/threads",
+    "category_hint": "Marketing Ads Email and Social"
+  },
+  "documentation_map": {
+    "app_name": "Threads",
+    "official_domain": "developers.facebook.com",
+    "homepage": {
+      "url": "https://developers.facebook.com/docs/threads",
+      "title": "Threads",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://developers.facebook.com/documentation/facebook-login",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "official_docs: +0.40"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/reference/llms.txt",
+        "title": "API References llms.txt",
+        "confidence": 0.75,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": null,
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": null,
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/llms.txt",
+        "title": "All Guides & Docs llms.txt",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "exact_slot_match: +0.20",
+          "llms_txt_source: +0.05"
+        ],
+        "is_official": true,
+        "discovered_from": "llms_txt"
+      },
+      "alternatives": [
+        {
+          "url": "https://developers.meta.com",
+          "title": "",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "is_official": false,
+          "discovered_from": "llms_txt"
+        }
+      ]
+    },
+    "webhooks": null,
+    "llms_txt": {
+      "url": "https://developers.facebook.com/llms.txt",
+      "title": "llms.txt index",
+      "confidence": 1.0,
+      "confidence_reason": [
+        "llms_txt_source: +0.05",
+        "official_docs: +0.40",
+        "canonical_doc: +0.10"
+      ],
+      "is_official": true,
+      "discovered_from": "llms_txt"
+    },
+    "inventory": {
+      "app_name": "Threads",
+      "official_domain": "developers.facebook.com",
+      "items": [
+        {
+          "url": "https://developers.facebook.com/docs/threads",
+          "page_type": "homepage",
+          "title": "Threads",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/llms.txt",
+          "page_type": "developer_portal",
+          "title": "All Guides & Docs llms.txt",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/reference/llms.txt",
+          "page_type": "api_reference",
+          "title": "API References llms.txt",
+          "confidence": 0.75,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.meta.com",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.25,
+          "confidence_reason": [
+            "exact_slot_match: +0.20",
+            "llms_txt_source: +0.05"
+          ],
+          "discovered_from": "llms_txt",
+          "is_official": false
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/facebook-login",
+          "page_type": "authentication",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 3,
+        "urls_discovered": 5,
+        "official_urls": 4,
+        "non_official_filtered": 1,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 4
+      }
+    },
+    "stats": {
+      "queries": 3,
+      "urls_discovered": 5,
+      "official_urls": 4,
+      "non_official_filtered": 1,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 4
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_c8d1d38ef793",
+      "source_type": "llms_txt",
+      "url": "https://developers.facebook.com/llms.txt",
+      "domain": "developers.facebook.com",
+      "page_title": "llms.txt index",
+      "content": "\\# llms.txt for developers.facebook.com\n\\# See https://llmstxt.org/ for specification\n\n\\> Facebook Developer Documentation\n\nThis site contains developer documentation for Facebook platforms and APIs.\n\n\\## Documentation Sections\n\n\\- /docs/ - API and SDK documentation\n\\- /blog/ - Developer blog and announcements\n\\- /tools/ - Developer tools and utilities\n\\- /products/ - Product documentation\n\n\\## WhatsApp Cloud API Guides & Documentation\n\n\\- \\[All Guides & Docs llms.txt\\](https://developers.facebook.com/documentation/business-messaging/whatsapp/llms.txt): Full index of WhatsApp Cloud API guides and documentation\n\\- \\[API References llms.txt\\](https://developers.facebook.com/documentation/business-messaging/whatsapp/reference/llms.txt): Full index of WhatsApp Cloud API endpoint reference docs\n\n\\## Additional Resources\n\n\\- https://developers.meta.com - Meta Developer Platform\n\\- https://ai.meta.com - Meta AI\n\\- https://llama.meta.com - Llama models\n\n\\## Meta Marketing API\n\nGuidelines for AI agents and automated tools using the Meta Marketing API (Graph API) and Ads MCP Server.\n\n\\### Agent Self-Identification\n\nInclude structured identification in your User-Agent HTTP header on all requests.\n\nFormat: / ()\n\nExamples:\n User-Agent: MyAdBot/1.3 (GPT-4o) python-requests/2.31.0\n User-Agent: CampaignAgent/2.0 (Claude-Sonnet-4) axios/1.7.2\n User-Agent: AdOptimizer/0.9 (Gemini-2.5-Flash) curl/8.4.0\n\nFields:\n\\- AgentName (required): Your agent or product name. Be consistent across requests.\n\\- Version (required): Semantic version of your agent.\n\\- ModelName (recommended): LLM model powering the agent. Omit if unknown.\n\\- HTTPClient (existing): Keep your HTTP library's default UA string.\n\nRules:\n\\- Append agent info to the existing User-Agent. Do not replace it.\n\\- Use the same agent name on every request. Do not randomize.\n\\- Do not impersonate other agents.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:26.711613Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 468,
+      "quality_score": 0.9
+    },
+    {
+      "id": "ev_192274c7c4f5",
+      "source_type": "api_reference",
+      "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/reference/llms.txt",
+      "domain": "developers.facebook.com",
+      "page_title": "Page Not Found - Meta for Developers",
+      "content": "![](https://googleads.g.doubleclick.net/pagead/viewthroughconversion/963623955/?guid=ON&script=0)\n\n![](https://dc.ads.linkedin.com/collect/?pid=276116&fmt=gif)\n\n![](https://analytics.twitter.com/i/adsct?txn_id=nz7m3&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0)\n\n![](https://t.co/i/adsct?txn_id=nz7m3&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0)\n\n![](https://facebook.com/security/hsts-pixel.gif)\n\nSorry, the link you followed may be broken, or the page may have been removed.\n\n[Search for documentation business messaging whatsapp reference llms.txt on developers.facebook.com](https://developers.facebook.com/search/?q=documentation%20business%20messaging%20whatsapp%20reference%20llms.txt&notfound=1)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:27.087321Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 178,
+      "quality_score": 0.6
+    },
+    {
+      "id": "ev_5f972a05d06f",
+      "source_type": "auth_docs",
+      "url": "https://developers.facebook.com/documentation/facebook-login",
+      "domain": "developers.facebook.com",
+      "page_title": "Facebook Login | Developer Documentation",
+      "content": "Core use cases and features for Facebook Login.\n\nHow to integrate Facebook Login into your app on various platforms:\n\n[iOS](https://developers.facebook.com/documentation/facebook-login/ios)\n[Android](https://developers.facebook.com/documentation/facebook-login/android)\n[Web](https://developers.facebook.com/documentation/facebook-login/web)\n[For Devices](https://developers.facebook.com/documentation/facebook-login/for-devices)\n\nFoundations for building a successful app with Facebook Login.\n\nAsking for user data.\n\nAccess tokens, their expiration periods, and their relationship to data access.\n\nMaking sure your integration works as intended.\n\nSubmitting your app for review of the permissions it requests.\n\nSee what’s changed in different releases of Facebook Login.\n\nLearn how implementing Facebook Login in apps has improved login rates and enhanced customer experience. In particular, see the following case study:\n\n![](https://scontent-lax3-1.xx.fbcdn.net/v/t39.2365-6/13311282_1007186976025896_1933768039_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=czYhH5Kr72oQ7kNvwFFcXs0&_nc_oc=AdolP5ilZRIZ9wqF3d3jDhUVKVYcRb6QWbAnljesMW66E3N6JNeM7_DfiFmmoHWgDQM&_nc_zt=14&_nc_ht=scontent-lax3-1.xx&_nc_gid=mJY75e95oPZSiEqGrlxTkg&_nc_ss=7b289&oh=00_AQAvBP9IbeXRbxHCR_6uEX9m3cqmA84KnW_p4O0HZoB-zQ&oe=6A6F5BB1)\n\n[Skyscanner](https://developers.facebook.com/success-stories/skyscanner) — 100% increase in Facebook Login conversions.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:26.265013Z",
+      "section_path": "Facebook Login > Changes to Social Plugins in the European Region > The European Region is a specific list of countries including: > [Success Stories](https://developers.facebook.com/success-stories)",
+      "chunk_index": 2,
+      "token_count": 357,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_da773b5a555c",
+      "source_type": "auth_docs",
+      "url": "https://developers.facebook.com/documentation/facebook-login",
+      "domain": "developers.facebook.com",
+      "page_title": "Facebook Login | Developer Documentation",
+      "content": "![](https://scontent-lax3-1.xx.fbcdn.net/v/t39.2365-6/290685728_725708695301954_3657236838974303579_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=MYUR3SdZMTUQ7kNvwEkSufO&_nc_oc=Adql8x8UueS4kC4v3xsg8KIEDfBRfPCNXDSwr7puiOcDmlypyN0mmSiazu4LSlk78Hc&_nc_zt=14&_nc_ht=scontent-lax3-1.xx&_nc_gid=mJY75e95oPZSiEqGrlxTkg&_nc_ss=7b289&oh=00_AQB6OVVPETcx_W8jc-gk416H953dtQpOVNsMWUpxEdkG_A&oe=6A6F689C)\n\n[Data Protocol⁠](https://l.facebook.com/l.php?u=https%3A%2F%2Fdataprotocol.com%2Ffacebook-login&h=AUBtxxMiM3-mJ5v1ScPMLys1P_fwGz-aAhI_PjKtOxE-vxWxx6I6AKHPwH3R-h2DKSYG0tDLyWeTvE8hX6iat83b0WJCAHuo8-mu3wvKnY0ORl_sLCMn1kX_iKFOErosUA9iLFRhf1ISBQ) Short video tutorials and trainings.\n\n![](https://scontent-lax3-1.xx.fbcdn.net/v/t39.2365-6/22880499_168732097044909_1891283213796507648_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=tDUfvsMreWIQ7kNvwHDZx6P&_nc_oc=Adpzquz8OPlG-mdrEM6eKyOfNPObToJrtGDTBRZ_BXaLn2uaxZjkyHtcdFyAUqWHmW0&_nc_zt=14&_nc_ht=scontent-lax3-1.xx&_nc_gid=mJY75e95oPZSiEqGrlxTkg&_nc_ss=7b289&oh=00_AQCvdeWvUl5HjX0KUHIjl6hsEM7YGw7uHlqZmc4t8oI-mA&oe=6A6F6E7F)\n\n[GitHub example⁠](https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Ffacebook%2Ffacebook-android-sdk%2Ftree%2Fmaster%2Fsamples%2FFBLoginSample&h=AUBtxxMiM3-mJ5v1ScPMLys1P_fwGz-aAhI_PjKtOxE-vxWxx6I6AKHPwH3R-h2DKSYG0tDLyWeTvE8hX6iat83b0WJCAHuo8-mu3wvKnY0ORl_sLCMn1kX_iKFOErosUA9iLFRhf1ISBQ) of an Android implementation of Facebook Login.\n\nDid you find this page helpful?\n\n![Thumbs up icon](https://static.xx.fbcdn.net/rsrc.php/yR/r/OEXJ0_DJeZv.svg)\n\n![Thumbs down icon](https://static.xx.fbcdn.net/rsrc.php/yb/r/qKPgNVNeatU.svg)\n\n* * *",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:26.265049Z",
+      "section_path": "Facebook Login > Further Resources",
+      "chunk_index": 3,
+      "token_count": 402,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_dc003645e6b0",
+      "source_type": "official_docs",
+      "url": "https://developers.facebook.com/docs/threads",
+      "domain": "developers.facebook.com",
+      "page_title": "Threads API | Developer Documentation",
+      "content": "Updated: Jul 2, 2026\n\nCopy for LLM\n\n[View as Markdown](https://developers.facebook.com/documentation/threads.md)\n\nThe Threads API enables developers to build their own unique integrations, and helps creators and brands manage their Threads presence at scale and easily share inspiring content with their communities.\n\nBrief overview of the Threads API limitations.\n\nLearn about the requirements for using the Threads API.\n\nHow to create and customize a Meta app with the Threads API use case in the App Dashboard.\n\nThe Threads API endpoints and their parameters.\n\nLearn how to make posts, retrieve media, and troubleshoot issues.\n\n[Single Thread Posts](https://developers.facebook.com/documentation/threads/posts#single-thread-posts)\n[Carousel Posts](https://developers.facebook.com/documentation/threads/posts#carousel-posts)\n[Threads Media](https://developers.facebook.com/documentation/threads/retrieve-and-discover-posts/retrieve-posts)\n[Threads Profiles](https://developers.facebook.com/documentation/threads/threads-profiles)\n[Troubleshooting](https://developers.facebook.com/documentation/threads/troubleshooting)\n\n[Reply Moderation](https://developers.facebook.com/documentation/threads/reply-management)\n[Mentions](https://developers.facebook.com/documentation/threads/threads-mentions)\n[Insights](https://developers.facebook.com/documentation/threads/insights)\n[Webhooks](https://developers.facebook.com/documentation/threads/webhooks)\n[Keyword Search](https://developers.facebook.com/documentation/threads/keyword-search)\n\n[oEmbed](https://developers.facebook.com/documentation/threads/tools-and-resources/embed-a-threads-post)\n[Web Intents](https://developers.facebook.com/documentation/threads/threads-web-intents)\n[Postman Collection](https://developers.facebook.com/documentation/threads/tools-and-resources/postman-collection)\n\nDid you find this page helpful?\n\n![Thumbs up icon](https://static.xx.fbcdn.net/rsrc.php/yR/r/OEXJ0_DJeZv.svg)\n\n![Thumbs down icon](https://static.xx.fbcdn.net/rsrc.php/yb/r/qKPgNVNeatU.svg)\n\n* * *",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:26.277262Z",
+      "section_path": "Threads API > [Overview](https://developers.facebook.com/documentation/threads/overview) > Guides",
+      "chunk_index": 0,
+      "token_count": 510,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_8468a0a5cc41",
+      "source_type": "auth_docs",
+      "url": "https://developers.facebook.com/documentation/facebook-login",
+      "domain": "developers.facebook.com",
+      "page_title": "Facebook Login | Developer Documentation",
+      "content": "Updated: Mar 3, 2026\n\nCopy for LLM\n\n[View as Markdown](https://developers.facebook.com/documentation/facebook-login.md)\n\nIf you are a Facebook user and are having trouble signing into your account, visit our [Help Center⁠](https://www.facebook.com/help/1573156092981768/).\n\nAfter you integrate Facebook Login, certain App Events are automatically logged and collected for [Events Manager⁠](https://www.facebook.com/events_manager), unless you disable Automatic App Event Logging. We recommend all app developers using Facebook Login to understand how this functionality works. In particular, when launching an app in Korea, please note that Automatic App Event Logging can be disabled. For details, see [Automatic App Event Logging](https://developers.facebook.com/docs/app-events/automatic-event-collection-detail).\n\nA secure, fast, and convenient way for users to log into your app, and for your app to ask for permissions to access data\n\n![Image](https://scontent-lax3-2.xx.fbcdn.net/v/t39.2365-6/653702356_1459945779197405_8088740957725660993_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=pYANwV-1VKYQ7kNvwFNVQPo&_nc_oc=AdpOm0IjIxcjbBGFlsm75gOmAa0aH6TyIcwignJ3BkvwQl1qwBJ_jpka_KAmXqA7wkg&_nc_zt=14&_nc_ht=scontent-lax3-2.xx&_nc_gid=mJY75e95oPZSiEqGrlxTkg&_nc_ss=7b289&oh=00_AQA43Vo-JBrpFG5k_VJUDkUOZETvZ80mVIdyRMc-43xuKQ&oe=6A6F8A65)[iOS](https://developers.facebook.com/documentation/facebook-login/ios)\n\n![Android icon](https://scontent-lax3-1.xx.fbcdn.net/v/t39.2365-6/656208083_1464926558699327_7755667800092215991_n.svg?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=ee_8Icod1c8Q7kNvwE-z09I&_nc_oc=AdpyIfWNbhIdinecQVGMcUkjtazNpPvr9-DjAzbrrtzfzi19AloHB4GInZpPtk6DKAQ&_nc_zt=14&_nc_ht=scontent-lax3-1.xx&_nc_gid=mJY75e95oPZSiEqGrlxTkg&_nc_ss=7b289&oh=00_AQB78T47VEQQkcHq5cjnGJzusoPEUIlfj89144nQhuWSRw&oe=6A6F5942)[Android](https://developers.facebook.com/documentation/facebook-login/android)\n\n![Image](https://scontent-lax3-2.xx.fbcdn.net/v/t39.2365-6/651786604_1459945759197407_9178621867751036031_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=NT_l2oEQjo0Q7kNvwGouL4k&_nc_oc=AdrwqjY-z0ORbeKKkF13C2uKdgRoSPqwN7jYFnzcCLi1ql5FCcb9l_H67sBAjRQ9tww&_nc_zt=14&_nc_ht=scontent-lax3-2.xx&_nc_gid=mJY75e95oPZSiEqGrlxTkg&_nc_ss=7b289&oh=00_AQBAVGQdfbeLbBwz0DbMduoewylhO8VHK7SJnd2w0xu77Q&oe=6A6F6E27)[Websites or mobile websites](https://developers.facebook.com/documentation/facebook-login/web)\n\n![Image](https://scontent-lax3-2.xx.fbcdn.net/v/t39.2365-6/652101292_1459945745864075_5688850988089145636_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=hx-DM87eik0Q7kNvwHSNq18&_nc_oc=AdqdtJJSZ6J9pi9ngtkqL94M3Z8_tPWc3msVA3pIbHrQ-GrbYkrQhOaOtXCuL8Vf7Cc&_nc_zt=14&_nc_ht=scontent-lax3-2.xx&_nc_gid=mJY75e95oPZSiEqGrlxTkg&_nc_ss=7b289&oh=00_AQCbtxZH_hh816l6r3Dr81jZy_Lp4dEaTl7WycT9XIpvlA&oe=6A6F7ED6)[Devices](https://developers.facebook.com/documentation/facebook-login/for-devices)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:26.264917Z",
+      "section_path": "Facebook Login",
+      "chunk_index": 0,
+      "token_count": 719,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_0d4e8d5d3761",
+      "source_type": "auth_docs",
+      "url": "https://developers.facebook.com/documentation/facebook-login",
+      "domain": "developers.facebook.com",
+      "page_title": "Facebook Login | Developer Documentation",
+      "content": "![Facebook Login illustration](https://scontent-lax3-1.xx.fbcdn.net/v/t39.2365-6/16327940_1453393128004653_1075455936857899008_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=wlYvfv2dDmAQ7kNvwGjETtP&_nc_oc=AdrEwcAoqTp0rO0HJwpCMnuaoWbt8wHzsFQhxHm9Q4OoMT0C9Vm0ro8PAqFo6m6Du4c&_nc_zt=14&_nc_ht=scontent-lax3-1.xx&_nc_gid=mJY75e95oPZSiEqGrlxTkg&_nc_ss=7b289&oh=00_AQCA9sk_ZAYZfigzseU1cz48LcfOrqvRZzbn1ILCAp6e6g&oe=6A6F76FB)\n\nYou may start to see some impact to Social Plugins due to an updated cookies consent prompt that will be shown to people using Facebook products in the European Region.\nWe will no longer support the ‘Like’ and ‘Comment’ Social Plugins for European Region users, unless they are both 1) Logged into their Facebook account, and 2) have provided consent to the “App and Website Cookies” control. If both of these requirements are met, the user will be able to see and interact with plugins such as the ‘Like’ or ‘Comment’ button. If either of the requirements above are not met, the user will not be able to see the plugins.\n\n**The European Union (EU):** Austria, Belgium, Bulgaria, Croatia, Republic of Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden\n\n**Non-EU Members, but in EEA-Only/EFTA or Customs Union:** \\[EEA Only/EFTA\\] Iceland, Liechtenstein and Norway;Switzerland: \\[EU Customs Union\\] all Channel Islands, Isle of Man, Monaco; UK sovereign bases in Cyprus; \\[European Customs Union\\] Andorra, San Marino, Vatican City.\n**Non-EU members, but part of European Outermost Regions (OMR):** Martinique, Mayotte, Guadeloupe, French Guiana, Réunion, Saint-Martin, Madeira, The Azores, Canary Islands.\n**United Kingdom** (all British Isles)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:26.264976Z",
+      "section_path": "Facebook Login > Changes to Social Plugins in the European Region > The European Region is a specific list of countries including:",
+      "chunk_index": 1,
+      "token_count": 457,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_42d329dd0312",
+      "source_type": "developer_portal",
+      "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/llms.txt",
+      "domain": "developers.facebook.com",
+      "page_title": "Page Not Found - Meta for Developers",
+      "content": "![](https://googleads.g.doubleclick.net/pagead/viewthroughconversion/963623955/?guid=ON&script=0)\n\n![](https://dc.ads.linkedin.com/collect/?pid=276116&fmt=gif)\n\n![](https://analytics.twitter.com/i/adsct?txn_id=nz7m3&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0)\n\n![](https://t.co/i/adsct?txn_id=nz7m3&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0)\n\n![](https://facebook.com/security/hsts-pixel.gif)\n\nSorry, the link you followed may be broken, or the page may have been removed.\n\n[Search for documentation business messaging whatsapp llms.txt on developers.facebook.com](https://developers.facebook.com/search/?q=documentation%20business%20messaging%20whatsapp%20llms.txt&notfound=1)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T20:04:27.071095Z",
+      "section_path": "",
+      "chunk_index": 0,
+      "token_count": 173,
+      "quality_score": 0.46
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "The Threads API enables developers to build their own unique integrations and manage their Threads presence.",
+      "evidence_ids": [
+        "ev_dc003645e6b0"
+      ]
+    },
+    "category": {
+      "value": "Marketing Ads Email and Social",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "OAuth2",
+      "evidence_ids": [
+        "ev_5f972a05d06f",
+        "ev_8468a0a5cc41"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_dc003645e6b0"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API, webhooks",
+      "evidence_ids": [
+        "ev_dc003645e6b0"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_dc003645e6b0"
+      ]
+    },
+    "mcp": {
+      "value": "No known MCP",
+      "evidence_ids": [
+        "ev_dc003645e6b0"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_dc003645e6b0"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_dc003645e6b0"
+      ]
+    }
+  },
+  "validation": {
+    "status": "SUPPORTED",
+    "score": 0.88,
+    "fields_checked": 8,
+    "fields_supported": 7,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      }
+    ]
+  },
+  "browser_verification": null,
+  "pipeline_confidence": 0.88,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.88 below 0.90 threshold"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}

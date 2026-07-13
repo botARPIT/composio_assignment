@@ -200,9 +200,9 @@ class DocumentationMap(BaseModel):
         default_factory=DocumentSlot,
         description="Pricing, plans, enterprise, free trial pages",
     )
-    sdk: DocumentSlot = Field(
-        default_factory=DocumentSlot,
-        description="Official SDKs, client libraries, wrappers",
+    sdk: DocumentSlot | None = Field(
+        default=None,
+        description="Official SDKs, client libraries, wrappers (nullable for backward compat)",
     )
     mcp: DocumentSlot = Field(
         default_factory=DocumentSlot,
@@ -212,9 +212,9 @@ class DocumentationMap(BaseModel):
         default_factory=DocumentSlot,
         description="Developer portal, getting-started, quickstart docs",
     )
-    webhooks: DocumentSlot = Field(
-        default_factory=DocumentSlot,
-        description="Webhook documentation and event guides",
+    webhooks: DocumentSlot | None = Field(
+        default=None,
+        description="Webhook documentation and event guides (nullable for backward compat)",
     )
 
     # ── llms.txt (highest priority, set directly when found) ──
@@ -266,8 +266,8 @@ class DocumentationMap(BaseModel):
             "webhooks",
             "mcp",
         ]:
-            slot: DocumentSlot = getattr(self, name)
-            if slot.primary:
+            slot: DocumentSlot | None = getattr(self, name, None)
+            if slot and slot.primary:
                 result.append(slot.primary)
         return result
 

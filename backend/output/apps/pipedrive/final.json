@@ -1,0 +1,630 @@
+{
+  "app": {
+    "id": 3,
+    "name": "Pipedrive",
+    "website": "pipedrive.com",
+    "category_hint": "CRM and Sales"
+  },
+  "documentation_map": {
+    "app_name": "Pipedrive",
+    "official_domain": "pipedrive.com",
+    "homepage": {
+      "url": "https://pipedrive.com",
+      "title": "Pipedrive",
+      "confidence": 0.4,
+      "confidence_reason": [
+        "official_docs: +0.40"
+      ],
+      "is_official": true,
+      "discovered_from": "domain_probe"
+    },
+    "authentication": {
+      "primary": {
+        "url": "https://developers.pipedrive.com/docs/authentication",
+        "title": "",
+        "confidence": 0.95,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "api_reference": {
+      "primary": {
+        "url": "https://developers.pipedrive.com",
+        "title": "",
+        "confidence": 0.65,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "pricing": {
+      "primary": {
+        "url": "https://developers.pipedrive.com/pricing",
+        "title": "",
+        "confidence": 0.85,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "sdk": null,
+    "mcp": {
+      "primary": {
+        "url": "https://developers.pipedrive.com/docs/mcp",
+        "title": "",
+        "confidence": 0.95,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20",
+          "canonical_doc: +0.10"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "developer_portal": {
+      "primary": {
+        "url": "https://developers.pipedrive.com/docs",
+        "title": "",
+        "confidence": 0.85,
+        "confidence_reason": [
+          "official_docs: +0.40",
+          "developer_domain: +0.25",
+          "exact_slot_match: +0.20"
+        ],
+        "is_official": true,
+        "discovered_from": "domain_probe"
+      },
+      "alternatives": []
+    },
+    "webhooks": null,
+    "llms_txt": null,
+    "inventory": {
+      "app_name": "Pipedrive",
+      "official_domain": "pipedrive.com",
+      "items": [
+        {
+          "url": "https://pipedrive.com",
+          "page_type": "homepage",
+          "title": "Pipedrive",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "official_docs: +0.40"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.pipedrive.com/docs/authentication",
+          "page_type": "authentication",
+          "title": "",
+          "confidence": 0.95,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.pipedrive.com",
+          "page_type": "api_reference",
+          "title": "",
+          "confidence": 0.65,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.pipedrive.com/pricing",
+          "page_type": "pricing",
+          "title": "",
+          "confidence": 0.85,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.pipedrive.com/docs",
+          "page_type": "developer_portal",
+          "title": "",
+          "confidence": 0.85,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        },
+        {
+          "url": "https://developers.pipedrive.com/docs/mcp",
+          "page_type": "mcp",
+          "title": "",
+          "confidence": 0.95,
+          "confidence_reason": [
+            "official_docs: +0.40",
+            "developer_domain: +0.25",
+            "exact_slot_match: +0.20",
+            "canonical_doc: +0.10"
+          ],
+          "discovered_from": "domain_probe",
+          "is_official": true
+        }
+      ],
+      "stats": {
+        "queries": 0,
+        "urls_discovered": 6,
+        "official_urls": 6,
+        "non_official_filtered": 0,
+        "blog_community_filtered": 0,
+        "third_party_sdk_filtered": 0,
+        "duplicates_removed": 0,
+        "canonical_selected": 6
+      }
+    },
+    "stats": {
+      "queries": 0,
+      "urls_discovered": 6,
+      "official_urls": 6,
+      "non_official_filtered": 0,
+      "blog_community_filtered": 0,
+      "third_party_sdk_filtered": 0,
+      "duplicates_removed": 0,
+      "canonical_selected": 6
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev_652106a08130",
+      "source_type": "api_reference",
+      "url": "https://developers.pipedrive.com",
+      "domain": "developers.pipedrive.com",
+      "page_title": "Pipedrive Developers Corner | Pipedrive API sandbox",
+      "content": "Easily build integrations with our API and developer platform to reach over 100,000 companies through the Pipedrive Marketplace\n\n- ##### Build apps & integrations\n\n- ##### Create a test environment\n\n\nSign up for aSandbox Accounttoday to begin experimenting and developing in a risk free environment\n\nE-mail\n\nFirst Name\n\nSign up for a Sandbox account\n\nBy signing up, you accept our [Terms of Service](https://www.pipedrive.com/en/terms-of-service), [Developer Agreement](https://www.pipedrive.com/en/developer-agreement) and [Privacy Notice](https://www.pipedrive.com/en/privacy)\n\nWould you like to subscribe to our Changelog updates?\n\nPipedrive Developer's Corner\n\n![](https://play.vidyard.com/4ZeH1bcSAbvnkFvWga1fAR.jpg)\n\nWe love working with Pipedrive! The documentation is great, their communication is proactive and the Pipedrive Marketplace exposes us to an SMB audience who is actively looking for solutions.\n\n![AP](https://cdn.was-1.pipedriveassets.com/developers-corner/assets/outFunnelTestimonial-BJUx9MNB.png)**Andrus Purde,** Co-founder/CEO of Outfunnel\n\nPipedrive is an amazing tool! Their developer API, well-documented API reference page and easy use of webhooks allow developers to easily build solutions in the Pipedrive Developer Platform.\n\n![KB](https://cdn.was-1.pipedriveassets.com/developers-corner/assets/gamifierTestimonial120-mAYs2qnN.png)**Kelly Bernardino,** Software Engineer at Gamifier\n\nDeveloping our Pipedrive integration was a breeze! Their documentation, along with the support we received, is excellent. Pipedrive is one of our best integrations, and we've made many.\n\n![AK](https://cdn.was-1.pipedriveassets.com/developers-corner/assets/plectoTestimonial-BbKLSj-J.png)**Ales Kocjancic,** VP of Engineering at Plecto",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:04.550411Z",
+      "section_path": "Developers' Corner",
+      "chunk_index": 0,
+      "token_count": 437,
+      "quality_score": 0.76
+    },
+    {
+      "id": "ev_941d3b02fa62",
+      "source_type": "auth_docs",
+      "url": "https://developers.pipedrive.com/docs/authentication",
+      "domain": "developers.pipedrive.com",
+      "page_title": "Pipedrive Developers Corner | Pipedrive API sandbox",
+      "content": "Our [home page](https://developers.pipedrive.com/) might have what you're looking for.\n\n![](https://cdn.was-1.pipedriveassets.com/developers-corner/assets/404-SRR_jgI3.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:04.716112Z",
+      "section_path": "The page you are looking for doesn't exist.",
+      "chunk_index": 0,
+      "token_count": 43,
+      "quality_score": 0.68
+    },
+    {
+      "id": "ev_e29496ccc2d7",
+      "source_type": "pricing_page",
+      "url": "https://developers.pipedrive.com/pricing",
+      "domain": "developers.pipedrive.com",
+      "page_title": "Pipedrive Developers Corner | Pipedrive API sandbox",
+      "content": "Our [home page](https://developers.pipedrive.com/) might have what you're looking for.\n\n![](https://cdn.was-1.pipedriveassets.com/developers-corner/assets/404-SRR_jgI3.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:05.355400Z",
+      "section_path": "The page you are looking for doesn't exist.",
+      "chunk_index": 0,
+      "token_count": 43,
+      "quality_score": 0.64
+    },
+    {
+      "id": "ev_6dba3043cd8b",
+      "source_type": "api_reference",
+      "url": "https://developers.pipedrive.com",
+      "domain": "developers.pipedrive.com",
+      "page_title": "Pipedrive Developers Corner | Pipedrive API sandbox",
+      "content": "Kick-start your development by using one of the many API clients available on GitHub.\n\nHere are some of the most popular repositories.\n\n[OFFICIAL\\\\\n\\\\\n**client-nodejs** \\\\\n\\\\\nJavascript\\\\\n\\\\\n233\\\\\n\\\\\n88](https://github.com/pipedrive/client-nodejs)\n\n[OFFICIAL\\\\\n\\\\\n**client-php** \\\\\n\\\\\nPHP\\\\\n\\\\\n60\\\\\n\\\\\n64](https://github.com/pipedrive/client-php)\n\n[COMMUNITY\\\\\n\\\\\n**pipedrive** \\\\\n\\\\\nPHP\\\\\n\\\\\n170\\\\\n\\\\\n58](https://github.com/IsraelOrtuno/pipedrive)\n\n[COMMUNITY\\\\\n\\\\\n**python-pipedrive** \\\\\n\\\\\nPython\\\\\n\\\\\n102\\\\\n\\\\\n45](https://github.com/jscott1989/python-pipedrive)\n\n[COMMUNITY\\\\\n\\\\\n**pipedrive-dotnet**\\\\\n\\\\\n.NET\\\\\n\\\\\n38\\\\\n\\\\\n51](https://github.com/DavidRouyer/pipedrive-dotnet)\n\n[COMMUNITY\\\\\n\\\\\n**pipedrive.rb** \\\\\n\\\\\nRuby\\\\\n\\\\\n35\\\\\n\\\\\n53](https://github.com/amoniacou/pipedrive.rb)\n\nHit the ground running by checking out some of our example apps and getting yourself inspired!\n\n[**create-pipedrive-app** \\\\\n\\\\\nCreate a Pipedrive app with a single command\\\\\n\\\\\n2\\\\\n\\\\\n0](https://github.com/pipedrive/create-pipedrive-app)\n\n[**pipedrive-laravel** \\\\\n\\\\\nA Pipedrive App boilerplate with Laravel\\\\\n\\\\\n12\\\\\n\\\\\n2](https://github.com/daniti/pipedrive-laravel)\n\n[**example-apps** \\\\\n\\\\\nExample apps for Pipedrive Marketplace\\\\\n\\\\\n13\\\\\n\\\\\n20](https://github.com/pipedrive/example-apps)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:04.550462Z",
+      "section_path": "Developers' Corner > Example Apps",
+      "chunk_index": 1,
+      "token_count": 320,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_d3fd71982783",
+      "source_type": "api_reference",
+      "url": "https://developers.pipedrive.com",
+      "domain": "developers.pipedrive.com",
+      "page_title": "Pipedrive Developers Corner | Pipedrive API sandbox",
+      "content": "Your email\n\nSubscribe\n\nWe promise to only send you relevant Pipedrive developer news, updates and content.\n\nYou may unsubscribe anytime using the unsubscribe link in our emails. For more information, please see our [privacy notice](https://www.pipedrive.com/en/privacy).",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:04.550478Z",
+      "section_path": "Developers' Corner > Want to stay in the loop?",
+      "chunk_index": 2,
+      "token_count": 67,
+      "quality_score": 0.56
+    },
+    {
+      "id": "ev_a5dc80798852",
+      "source_type": "developer_portal",
+      "url": "https://developers.pipedrive.com/docs",
+      "domain": "developers.pipedrive.com",
+      "page_title": "Pipedrive Developers Corner | Pipedrive API sandbox",
+      "content": "Our [home page](https://developers.pipedrive.com/) might have what you're looking for.\n\n![](https://cdn.was-1.pipedriveassets.com/developers-corner/assets/404-SRR_jgI3.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:05.780986Z",
+      "section_path": "The page you are looking for doesn't exist.",
+      "chunk_index": 0,
+      "token_count": 43,
+      "quality_score": 0.54
+    },
+    {
+      "id": "ev_43ce2a2db656",
+      "source_type": "official_docs",
+      "url": "https://pipedrive.com",
+      "domain": "pipedrive.com",
+      "page_title": "Sales CRM & Pipeline Management Software | Pipedrive",
+      "content": "Pipedrive lets you track your sales pipeline, optimize leads, manage deals with AI and automate your entire sales process so you can focus on selling.\n\n- 14-day free trial, no credit card required\n- Trusted by over 100,000 companies\n- 500+ integrations to boost workflows\n- Built-in AI to close deals faster\n- GDPR compliant and secure\n\nTry it free\n\n[Contact sales](https://www.pipedrive.com/en/contact-sales-ai)\n\nEnter your work email\n\nTry it free\n\nBy signing up, you agree to our [Terms of ServiceOpens in new window](https://www.pipedrive.com/en/terms-of-service) and [Privacy NoticeOpens in new window](https://www.pipedrive.com/en/privacy). You'll get product updates and offers, and you can unsubscribe anytime.\n\nFull access. No credit card required. Used by over 100,000 companies.\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/brand-half-page-illustrations/Pipedrive-homepage-hero-25_EN.png)\n\nTrusted by 100,000+ companies in 179 countries\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/Steinwaysons_logo_2x.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/CascadeEnergy_logo_2x.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/SpectrumScience_logo_2x.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/KemperSports_logo_2x.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/Verge_logo_2x.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/Havwoods_logo_2x.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/Landfolk_logo_2x.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/Refurbed_logo_2x.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/Effortless_logo_2x.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/Envira_logo_2x.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/TeGroup_logo_2x.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/Dualboot_logo_2x.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/Steinwaysons_logo_2x.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/CascadeEnergy_logo_2x.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:05.061037Z",
+      "section_path": "The easy and effective CRM for closing deals",
+      "chunk_index": 0,
+      "token_count": 785,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_d21f33178aa8",
+      "source_type": "official_docs",
+      "url": "https://pipedrive.com",
+      "domain": "pipedrive.com",
+      "page_title": "Sales CRM & Pipeline Management Software | Pipedrive",
+      "content": "A CRM for sales enables you and your reps to centralize contact information, track ongoing activities and boost customer retention. Pipedrive’s visual sales pipeline lets you see your entire sales cycle at a glance, highlighting key opportunities. Get notified when you need to follow up, helping you enhance your customer experience and drive more deals than ever.\n\n- ### What is CRM software?\n\nCRM software is the technology organizations use to manage relationships and business processes. Typically, CRM software for sales teams lets users track their activities, manage communications with other parties, measure individual and team progress and forecast revenue. The top CRM sales software integrates with other business tools, such as email marketing, document management and website tracking software.\n\n- ### How do I choose a CRM?\n\nChoosing a good CRM sales tool for your business requires research and testing. Many companies, including Pipedrive, offer new users a 14-day free CRM trial to see if the software suits their needs. When searching for the best CRM software, consider ease of use, onboarding and results orientation. You should also look for the best pipeline management software and [sales management software](https://www.pipedrive.com/en/features/sales-management-software) to ensure your CRM has all the functionality your team needs to drive business growth.\n\n- ### Which apps can I connect with Pipedrive?\n\nPipedrive integrates with hundreds of tools and apps through the Pipedrive Marketplace, including Facebook, Zapier, Xero, Trello and Zoom. You can find Pipedrive integrations with lead generation software, sales and marketing tools, video calling apps, customer support solutions and social media platforms.\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/brand-photos/Home-footer-photo.jpg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:05.061854Z",
+      "section_path": "The easy and effective CRM for closing deals > CRM FAQs",
+      "chunk_index": 15,
+      "token_count": 473,
+      "quality_score": 0.46
+    },
+    {
+      "id": "ev_6fc2ec7b8fb9",
+      "source_type": "official_docs",
+      "url": "https://pipedrive.com",
+      "domain": "pipedrive.com",
+      "page_title": "Sales CRM & Pipeline Management Software | Pipedrive",
+      "content": "![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/SpectrumScience_logo_2x.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/KemperSports_logo_2x.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/Verge_logo_2x.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/Havwoods_logo_2x.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/Landfolk_logo_2x.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/Refurbed_logo_2x.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/Effortless_logo_2x.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/Envira_logo_2x.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/TeGroup_logo_2x.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/Dualboot_logo_2x.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/Steinwaysons_logo_2x.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/CascadeEnergy_logo_2x.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/SpectrumScience_logo_2x.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/KemperSports_logo_2x.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/Verge_logo_2x.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/Havwoods_logo_2x.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/Landfolk_logo_2x.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/Refurbed_logo_2x.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/Effortless_logo_2x.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/Envira_logo_2x.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/TeGroup_logo_2x.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:05.061102Z",
+      "section_path": "The easy and effective CRM for closing deals",
+      "chunk_index": 1,
+      "token_count": 792,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_fce6a0a5b6a4",
+      "source_type": "official_docs",
+      "url": "https://pipedrive.com",
+      "domain": "pipedrive.com",
+      "page_title": "Sales CRM & Pipeline Management Software | Pipedrive",
+      "content": "![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/Dualboot_logo_2x.png)\n\nI’ve used a CRM beforeI haven’t used a CRM before\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/brand-half-page-illustrations/Automations-500.png)\n\nNever miss a follow-up with automated sales conversations and AI-powered prompts to focus on the right leads.\n\nPipedrive is the best tool I’ve ever found! From email tracking to workflow automations and game-changing integrations, Pipedrive has plenty of features that help us go beyond our sales targets.\n\n**Nirmal Gyanwali** Managing Director, Nirmal Web Studio\n\nDive into real-time sales reports and grasp the ins and outs of your sales funnel with AI suggestions. Pipedrive’s forecasting, goal-setting, team monitoring and advanced sales metrics tools help you to make swift, informed decisions.\n\nPipedrive has enabled us to have instant access to that data, so it’s not just quadrupling our revenue but ensuring that we have predictable revenue.\n\n**Suds Singh** Founder and MD, Interesting Content\n\n![](https://www-cms.pipedriveassets.com/brand-half-page-illustrations/Insights-400.svg)\n\n![](https://www-cms.pipedriveassets.com/brand-half-page-illustrations/Contacts-450.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:05.061146Z",
+      "section_path": "The easy and effective CRM for closing deals > CRM software sales teams will love > Harness sales insights to drive your strategy",
+      "chunk_index": 2,
+      "token_count": 336,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_418302048f94",
+      "source_type": "official_docs",
+      "url": "https://pipedrive.com",
+      "domain": "pipedrive.com",
+      "page_title": "Sales CRM & Pipeline Management Software | Pipedrive",
+      "content": "Seamlessly switch to a sales tool that matches every step of your buyer’s journey. Pipedrive is more than just a pipeline.\n\nPipedrive adapts well to what we need, and I like that. Unlike other CRM solutions, it fits our needs and doesn’t force us to simply conform to what it can provide.\n\n**Franziska Palumbo-Seidel** CEO and Founder, Key Search\n\n[See all features](https://www.pipedrive.com/en/products/sales)\n\n[Compare CRMs](https://www.pipedrive.com/en/crm/compare)\n\n![](https://www-cms.pipedriveassets.com/brand-half-page-illustrations/Sales-inbox-450.svg)\n\nSimplify your workflow and unite your sales tasks in one workspace. Get AI-powered, personalized tips to help you focus on winning deals.\n\nPipedrive has made me a salesperson with good habits. And without a doubt I am much more organized than before.\n\n**Luis Carlos Rojas** Sales Manager, Saleslatam México\n\nLeverage real-time, visual data to easily make tough decisions and identify what works.\n\nPipedrive has enabled us to have instant access to that data, so it’s not just quadrupling our revenue but ensuring that we have predictable revenue.\n\n**Suds Singh** Founder and MD, Interesting Content\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/brand-half-page-illustrations/Sales-performance-450.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/brand-half-page-illustrations/Contacts-450.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:05.061193Z",
+      "section_path": "The easy and effective CRM for closing deals > CRM software sales teams will love > Refine your strategy with real-time performance insights",
+      "chunk_index": 3,
+      "token_count": 373,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_5299ce984b29",
+      "source_type": "official_docs",
+      "url": "https://pipedrive.com",
+      "domain": "pipedrive.com",
+      "page_title": "Sales CRM & Pipeline Management Software | Pipedrive",
+      "content": "Discover the power of a CRM that adapts to your sales strategy, giving you the tools and tips you need to succeed.\n\nBy customizing and automating the customer journey, we were able to remove so much clutter, bottlenecking, manual admin and confusion.\n\n**Karl Brown** Founder and CEO, Instyle Solar\n\n[See all features](https://www.pipedrive.com/en/products/sales)\n\n[Compare CRMs](https://www.pipedrive.com/en/crm/compare)\n\n**Join 100,000+ companies using Pipedrive to gain real-time insights and more!**\n\nLess time managing, more time closing deals.\n\n[Watch demo](https://www.pipedrive.com/en/demo)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:05.061213Z",
+      "section_path": "The easy and effective CRM for closing deals > CRM software sales teams will love > **Customize Pipedrive to your unique sales process**",
+      "chunk_index": 4,
+      "token_count": 149,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_e7ab9095282f",
+      "source_type": "official_docs",
+      "url": "https://pipedrive.com",
+      "domain": "pipedrive.com",
+      "page_title": "Sales CRM & Pipeline Management Software | Pipedrive",
+      "content": "Pipedrive is recognized as a top-rated CRM and, this year alone, has earned over 6 industry-leading awards\n\n![tiffany largie logo](https://www-cms.pipedriveassets.com/companies-logos/Tiffany-Largie.png)\n\n![McKeon group logo](https://www-cms.pipedriveassets.com/companies-logos/mckeon-logo.png)\n\n![ai bees logo](https://www-cms.pipedriveassets.com/companies-logos/Al-bees.png)\n\n![big dog logo](https://www-cms.pipedriveassets.com/companies-logos/big-dog-solar-logo-transparent.png)\n\n![key search logo](https://www-cms.pipedriveassets.com/companies-logos/key-search-logo.png)\n\n![tiffany largie logo](https://www-cms.pipedriveassets.com/companies-logos/Tiffany-Largie.png)\n\n![McKeon group logo](https://www-cms.pipedriveassets.com/companies-logos/mckeon-logo.png)\n\n![ai bees logo](https://www-cms.pipedriveassets.com/companies-logos/Al-bees.png)\n\n![big dog logo](https://www-cms.pipedriveassets.com/companies-logos/big-dog-solar-logo-transparent.png)\n\n![key search logo](https://www-cms.pipedriveassets.com/companies-logos/key-search-logo.png)\n\n![tiffany largie logo](https://www-cms.pipedriveassets.com/companies-logos/Tiffany-Largie.png)\n\n![McKeon group logo](https://www-cms.pipedriveassets.com/companies-logos/mckeon-logo.png)\n\n![ai bees logo](https://www-cms.pipedriveassets.com/companies-logos/Al-bees.png)\n\n![big dog logo](https://www-cms.pipedriveassets.com/companies-logos/big-dog-solar-logo-transparent.png)\n\n![key search logo](https://www-cms.pipedriveassets.com/companies-logos/key-search-logo.png)\n\n![tiffany largie logo](https://www-cms.pipedriveassets.com/companies-logos/Tiffany-Largie.png)\n\n![McKeon group logo](https://www-cms.pipedriveassets.com/companies-logos/mckeon-logo.png)\n\n![ai bees logo](https://www-cms.pipedriveassets.com/companies-logos/Al-bees.png)\n\n![big dog logo](https://www-cms.pipedriveassets.com/companies-logos/big-dog-solar-logo-transparent.png)\n\n![key search logo](https://www-cms.pipedriveassets.com/companies-logos/key-search-logo.png)\n\n![tiffany largie logo](https://www-cms.pipedriveassets.com/companies-logos/Tiffany-Largie.png)\n\n![McKeon group logo](https://www-cms.pipedriveassets.com/companies-logos/mckeon-logo.png)\n\n![ai bees logo](https://www-cms.pipedriveassets.com/companies-logos/Al-bees.png)\n\n![big dog logo](https://www-cms.pipedriveassets.com/companies-logos/big-dog-solar-logo-transparent.png)\n\n![key search logo](https://www-cms.pipedriveassets.com/companies-logos/key-search-logo.png)\n\n![tiffany largie logo](https://www-cms.pipedriveassets.com/companies-logos/Tiffany-Largie.png)\n\n![McKeon group logo](https://www-cms.pipedriveassets.com/companies-logos/mckeon-logo.png)\n\n![ai bees logo](https://www-cms.pipedriveassets.com/companies-logos/Al-bees.png)\n\n![big dog logo](https://www-cms.pipedriveassets.com/companies-logos/big-dog-solar-logo-transparent.png)\n\n![key search logo](https://www-cms.pipedriveassets.com/companies-logos/key-search-logo.png)\n\n![tiffany largie logo](https://www-cms.pipedriveassets.com/companies-logos/Tiffany-Largie.png)\n\n![McKeon group logo](https://www-cms.pipedriveassets.com/companies-logos/mckeon-logo.png)\n\n![ai bees logo](https://www-cms.pipedriveassets.com/companies-logos/Al-bees.png)\n\n![big dog logo](https://www-cms.pipedriveassets.com/companies-logos/big-dog-solar-logo-transparent.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:05.061267Z",
+      "section_path": "The easy and effective CRM for closing deals > See how Pipedrive is helping customers",
+      "chunk_index": 5,
+      "token_count": 820,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_5317d9e99ebe",
+      "source_type": "official_docs",
+      "url": "https://pipedrive.com",
+      "domain": "pipedrive.com",
+      "page_title": "Sales CRM & Pipeline Management Software | Pipedrive",
+      "content": "![key search logo](https://www-cms.pipedriveassets.com/companies-logos/key-search-logo.png)\n\n![tiffany largie logo](https://www-cms.pipedriveassets.com/companies-logos/Tiffany-Largie.png)\n\n![McKeon group logo](https://www-cms.pipedriveassets.com/companies-logos/mckeon-logo.png)\n\n![ai bees logo](https://www-cms.pipedriveassets.com/companies-logos/Al-bees.png)\n\n![big dog logo](https://www-cms.pipedriveassets.com/companies-logos/big-dog-solar-logo-transparent.png)\n\n![key search logo](https://www-cms.pipedriveassets.com/companies-logos/key-search-logo.png)\n\n![tiffany largie logo](https://www-cms.pipedriveassets.com/companies-logos/Tiffany-Largie.png)\n\n![McKeon group logo](https://www-cms.pipedriveassets.com/companies-logos/mckeon-logo.png)\n\n![ai bees logo](https://www-cms.pipedriveassets.com/companies-logos/Al-bees.png)\n\n![big dog logo](https://www-cms.pipedriveassets.com/companies-logos/big-dog-solar-logo-transparent.png)\n\n![key search logo](https://www-cms.pipedriveassets.com/companies-logos/key-search-logo.png)\n\n![tiffany largie logo](https://www-cms.pipedriveassets.com/companies-logos/Tiffany-Largie.png)\n\n![McKeon group logo](https://www-cms.pipedriveassets.com/companies-logos/mckeon-logo.png)\n\n![ai bees logo](https://www-cms.pipedriveassets.com/companies-logos/Al-bees.png)\n\n![big dog logo](https://www-cms.pipedriveassets.com/companies-logos/big-dog-solar-logo-transparent.png)\n\n![key search logo](https://www-cms.pipedriveassets.com/companies-logos/key-search-logo.png)\n\n![tiffany largie logo](https://www-cms.pipedriveassets.com/companies-logos/Tiffany-Largie.png)\n\n![McKeon group logo](https://www-cms.pipedriveassets.com/companies-logos/mckeon-logo.png)\n\n![ai bees logo](https://www-cms.pipedriveassets.com/companies-logos/Al-bees.png)\n\n![big dog logo](https://www-cms.pipedriveassets.com/companies-logos/big-dog-solar-logo-transparent.png)\n\n![key search logo](https://www-cms.pipedriveassets.com/companies-logos/key-search-logo.png)\n\n![tiffany largie logo](https://www-cms.pipedriveassets.com/companies-logos/Tiffany-Largie.png)\n\n![McKeon group logo](https://www-cms.pipedriveassets.com/companies-logos/mckeon-logo.png)\n\n![ai bees logo](https://www-cms.pipedriveassets.com/companies-logos/Al-bees.png)\n\n![big dog logo](https://www-cms.pipedriveassets.com/companies-logos/big-dog-solar-logo-transparent.png)\n\n![key search logo](https://www-cms.pipedriveassets.com/companies-logos/key-search-logo.png)\n\n![tiffany largie logo](https://www-cms.pipedriveassets.com/companies-logos/Tiffany-Largie.png)\n\n![McKeon group logo](https://www-cms.pipedriveassets.com/companies-logos/mckeon-logo.png)\n\n![ai bees logo](https://www-cms.pipedriveassets.com/companies-logos/Al-bees.png)\n\n![big dog logo](https://www-cms.pipedriveassets.com/companies-logos/big-dog-solar-logo-transparent.png)\n\n![key search logo](https://www-cms.pipedriveassets.com/companies-logos/key-search-logo.png)\n\n![tiffany largie logo](https://www-cms.pipedriveassets.com/companies-logos/Tiffany-Largie.png)\n\n![McKeon group logo](https://www-cms.pipedriveassets.com/companies-logos/mckeon-logo.png)\n\n![ai bees logo](https://www-cms.pipedriveassets.com/companies-logos/Al-bees.png)\n\n![big dog logo](https://www-cms.pipedriveassets.com/companies-logos/big-dog-solar-logo-transparent.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:05.061318Z",
+      "section_path": "The easy and effective CRM for closing deals > See how Pipedrive is helping customers",
+      "chunk_index": 6,
+      "token_count": 816,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_267eafa02ab0",
+      "source_type": "official_docs",
+      "url": "https://pipedrive.com",
+      "domain": "pipedrive.com",
+      "page_title": "Sales CRM & Pipeline Management Software | Pipedrive",
+      "content": "![key search logo](https://www-cms.pipedriveassets.com/companies-logos/key-search-logo.png)\n\n![tiffany largie logo](https://www-cms.pipedriveassets.com/companies-logos/Tiffany-Largie.png)\n\n![McKeon group logo](https://www-cms.pipedriveassets.com/companies-logos/mckeon-logo.png)\n\n![ai bees logo](https://www-cms.pipedriveassets.com/companies-logos/Al-bees.png)\n\n![big dog logo](https://www-cms.pipedriveassets.com/companies-logos/big-dog-solar-logo-transparent.png)\n\n![key search logo](https://www-cms.pipedriveassets.com/companies-logos/key-search-logo.png)\n\n![tiffany largie logo](https://www-cms.pipedriveassets.com/companies-logos/Tiffany-Largie.png)\n\n![McKeon group logo](https://www-cms.pipedriveassets.com/companies-logos/mckeon-logo.png)\n\n![ai bees logo](https://www-cms.pipedriveassets.com/companies-logos/Al-bees.png)\n\n![big dog logo](https://www-cms.pipedriveassets.com/companies-logos/big-dog-solar-logo-transparent.png)\n\n![key search logo](https://www-cms.pipedriveassets.com/companies-logos/key-search-logo.png)\n\n![tiffany largie logo](https://www-cms.pipedriveassets.com/companies-logos/Tiffany-Largie.png)\n\n![McKeon group logo](https://www-cms.pipedriveassets.com/companies-logos/mckeon-logo.png)\n\n![ai bees logo](https://www-cms.pipedriveassets.com/companies-logos/Al-bees.png)\n\n![big dog logo](https://www-cms.pipedriveassets.com/companies-logos/big-dog-solar-logo-transparent.png)\n\n![key search logo](https://www-cms.pipedriveassets.com/companies-logos/key-search-logo.png)\n\n![tiffany largie logo](https://www-cms.pipedriveassets.com/companies-logos/Tiffany-Largie.png)\n\n![McKeon group logo](https://www-cms.pipedriveassets.com/companies-logos/mckeon-logo.png)\n\n![ai bees logo](https://www-cms.pipedriveassets.com/companies-logos/Al-bees.png)\n\n![big dog logo](https://www-cms.pipedriveassets.com/companies-logos/big-dog-solar-logo-transparent.png)\n\n![key search logo](https://www-cms.pipedriveassets.com/companies-logos/key-search-logo.png)\n\n![tiffany largie logo](https://www-cms.pipedriveassets.com/companies-logos/Tiffany-Largie.png)\n\n![McKeon group logo](https://www-cms.pipedriveassets.com/companies-logos/mckeon-logo.png)\n\n![ai bees logo](https://www-cms.pipedriveassets.com/companies-logos/Al-bees.png)\n\n![big dog logo](https://www-cms.pipedriveassets.com/companies-logos/big-dog-solar-logo-transparent.png)\n\n![key search logo](https://www-cms.pipedriveassets.com/companies-logos/key-search-logo.png)\n\n![tiffany largie logo](https://www-cms.pipedriveassets.com/companies-logos/Tiffany-Largie.png)\n\n![McKeon group logo](https://www-cms.pipedriveassets.com/companies-logos/mckeon-logo.png)\n\n![ai bees logo](https://www-cms.pipedriveassets.com/companies-logos/Al-bees.png)\n\n![big dog logo](https://www-cms.pipedriveassets.com/companies-logos/big-dog-solar-logo-transparent.png)\n\n![key search logo](https://www-cms.pipedriveassets.com/companies-logos/key-search-logo.png)\n\n![tiffany largie logo](https://www-cms.pipedriveassets.com/companies-logos/Tiffany-Largie.png)\n\n![McKeon group logo](https://www-cms.pipedriveassets.com/companies-logos/mckeon-logo.png)\n\n![ai bees logo](https://www-cms.pipedriveassets.com/companies-logos/Al-bees.png)\n\n![big dog logo](https://www-cms.pipedriveassets.com/companies-logos/big-dog-solar-logo-transparent.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:05.061367Z",
+      "section_path": "The easy and effective CRM for closing deals > See how Pipedrive is helping customers",
+      "chunk_index": 7,
+      "token_count": 816,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_f86dd56b6c48",
+      "source_type": "official_docs",
+      "url": "https://pipedrive.com",
+      "domain": "pipedrive.com",
+      "page_title": "Sales CRM & Pipeline Management Software | Pipedrive",
+      "content": "![key search logo](https://www-cms.pipedriveassets.com/companies-logos/key-search-logo.png)\n\n![tiffany largie logo](https://www-cms.pipedriveassets.com/companies-logos/Tiffany-Largie.png)\n\n![McKeon group logo](https://www-cms.pipedriveassets.com/companies-logos/mckeon-logo.png)\n\n![ai bees logo](https://www-cms.pipedriveassets.com/companies-logos/Al-bees.png)\n\n![big dog logo](https://www-cms.pipedriveassets.com/companies-logos/big-dog-solar-logo-transparent.png)\n\n![key search logo](https://www-cms.pipedriveassets.com/companies-logos/key-search-logo.png)\n\n![tiffany largie logo](https://www-cms.pipedriveassets.com/companies-logos/Tiffany-Largie.png)\n\n![McKeon group logo](https://www-cms.pipedriveassets.com/companies-logos/mckeon-logo.png)\n\n![ai bees logo](https://www-cms.pipedriveassets.com/companies-logos/Al-bees.png)\n\n![big dog logo](https://www-cms.pipedriveassets.com/companies-logos/big-dog-solar-logo-transparent.png)\n\n![key search logo](https://www-cms.pipedriveassets.com/companies-logos/key-search-logo.png)\n\n![tiffany largie logo](https://www-cms.pipedriveassets.com/companies-logos/Tiffany-Largie.png)\n\n![McKeon group logo](https://www-cms.pipedriveassets.com/companies-logos/mckeon-logo.png)\n\n![ai bees logo](https://www-cms.pipedriveassets.com/companies-logos/Al-bees.png)\n\n![big dog logo](https://www-cms.pipedriveassets.com/companies-logos/big-dog-solar-logo-transparent.png)\n\n![key search logo](https://www-cms.pipedriveassets.com/companies-logos/key-search-logo.png)\n\n![tiffany largie logo](https://www-cms.pipedriveassets.com/companies-logos/Tiffany-Largie.png)\n\n![McKeon group logo](https://www-cms.pipedriveassets.com/companies-logos/mckeon-logo.png)\n\n![ai bees logo](https://www-cms.pipedriveassets.com/companies-logos/Al-bees.png)\n\n![big dog logo](https://www-cms.pipedriveassets.com/companies-logos/big-dog-solar-logo-transparent.png)\n\n![key search logo](https://www-cms.pipedriveassets.com/companies-logos/key-search-logo.png)\n\nRating: 5 of 5\n\n> It’s literally one of the only things that I recommend you have in order to successfully manage your business. We had one of our newer clients, an accounting firm that has been in business for around 20 years, go through an exercise of finding prospects on Pipedrive. After a few hours, the firm’s representative contacted us and said, ‘I just found $188K worth of revenue thanks to Pipedrive!’\n\n![Tiffany Largie](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto,width=120/https://www-cms.pipedriveassets.com/testimonial-images/Tiffany-Largie-image.jpeg)\n\nTiffany LargieEntrepreneur\n\nAmount Tiffany Largie grew her business\n\n$2.5m\n\nNumber of employees\n\n12\n\nRating: 5 of 5\n\n> I waited until I had the first 12 months of Pipedrive data, which gave me an analysis of the company performance that just wasn’t being seen at the turnover stage. In those 12 months, we had 207 wins across the business. 174 of those were of a value of €50,000 or less. The overall turnover in that 12 months was €11 million. So, we’d increased turnover from €7 million to €11 million, which was brilliant.\n\n![Paul McKenna](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto,width=120/https://www-cms.pipedriveassets.com/testimonial-images/mckeon-logo.jpg)\n\nPaul McKennaSales and Marketing Director, McKeon Group",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:05.061445Z",
+      "section_path": "The easy and effective CRM for closing deals > See how Pipedrive is helping customers",
+      "chunk_index": 8,
+      "token_count": 828,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_d1c2ae9c6838",
+      "source_type": "official_docs",
+      "url": "https://pipedrive.com",
+      "domain": "pipedrive.com",
+      "page_title": "Sales CRM & Pipeline Management Software | Pipedrive",
+      "content": "McKeon Group’s increase in revenue in 4 years\n\n186%\n\nAmount they have increased their team in 4 years\n\n2x\n\nRating: 5 of 5\n\n> We’re using some Google Sheets, so when we update them, Pipedrive gets updated too. The same goes with other third-party tools that we use; we just integrate anything related whenever we want to have information pushed into the CRM. It was an easy thing to do with Pipedrive; you have a lot of integrations.\n\n![Brian Hadi Attarbashi](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto,width=120/https://www-cms.pipedriveassets.com/testimonial-images/Brian-linkedin-profile-picture-1.png)\n\nBrian Hadi AttarbashiCEO and Founder\n\nGrowth since adopting Pipedrive\n\n2000%\n\nRating: 5 of 5\n\n> Pipedrive has been the keystone, because it’s enabled us to keep track of everything from visibility and management but also add the reps and keep track of their prospects a little better.\n\n![Mitch Workman](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto,width=120/https://www-cms.pipedriveassets.com/testimonial-images/big-dog-solar-mitch.jpg)\n\nMitch WorkmanDigital Marketing Director, Big Dog Solar\n\nIncreased revenue\n\n40%\n\nOne rep has tripled his revenue after utilizing Pipedrive\n\n3x\n\nRating: 5 of 5\n\n> Pipedrive helps us with repetitive work. It gives us a little nudge and reminders on what to do. When we made the switch to Pipedrive, the time saving was immediately there, for sure, and revenue is up as well due to increased productivity.\n\n![Franziska Palumbo-Seidel](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto,width=120/https://www-cms.pipedriveassets.com/testimonial-images/Franziska_CEOFounder.jpg)\n\nFranziska Palumbo-SeidelCEO and Founder\n\nNumber of automations implemented\n\n100+\n\nKey Search’s workflow has sped up with Pipedrive\n\n40%\n\n![](https://www-cms.pipedriveassets.com/brand-half-page-illustrations/Writemyemail_2.gif)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:05.061506Z",
+      "section_path": "The easy and effective CRM for closing deals > See how Pipedrive is helping customers",
+      "chunk_index": 9,
+      "token_count": 481,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_d91cfb599ecc",
+      "source_type": "official_docs",
+      "url": "https://pipedrive.com",
+      "domain": "pipedrive.com",
+      "page_title": "Sales CRM & Pipeline Management Software | Pipedrive",
+      "content": "Boost your sales success with our AI-powered features. Phase out manual processes, streamline communication and make data-driven decisions for smarter, faster sales.\n\n[Find out moreOpens in new window](https://www.pipedrive.com/en/products/ai-crm)\n\nIntegrate Pipedrive with the apps that drive your business. Seamlessly connect your favorite software or find new tools with tailored recommendations.\n\n[Browse all apps](https://www.pipedrive.com/en/marketplace)\n\n![](https://www-cms.pipedriveassets.com/brand-half-page-illustrations/Integrations_2024-10-08-102646_xqiu.svg)\n\nSupercharge every step of your sales cycle and empower your team to win deals.\n\nEasily manage leads and dealsOne space for all your sales activitiesAutomate and scaleInstant sales insightsEnhance your CRM experience\n\n![](https://www-cms.pipedriveassets.com/brand-half-page-illustrations/Leads-inbox-450.svg)\n\nOrganize customer data and interactions in one simple tool and act fast when opportunity strikes.\n\n- **Customize your pipelines**\n\nPipedrive’s kanban-style dashboard lets you visualize your sales funnel. Adjust your pipelines to your sales process and move deals along as they progress. We’ll notify you when you need to follow up.\n\n- **Centralize your sales data and contact history**\n\n\nImport data from spreadsheets or other pipeline management software in just a few clicks. Link products or services to deals to track negotiations and see the bigger picture.\n\n- **Add custom fields**\n\nShape your CRM to your business with custom fields. Capture must-have info for your sales team and automate calculations with smart formulas.\n\n[Learn more](https://www.pipedrive.com/en/products/sales/leads)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/brand-half-page-illustrations/Sales-activities-450.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:05.061561Z",
+      "section_path": "The easy and effective CRM for closing deals > Optimize your sales process > **Easily manage leads and deals**",
+      "chunk_index": 10,
+      "token_count": 462,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_04eebe779dd7",
+      "source_type": "official_docs",
+      "url": "https://pipedrive.com",
+      "domain": "pipedrive.com",
+      "page_title": "Sales CRM & Pipeline Management Software | Pipedrive",
+      "content": "Easily track sales conversations and tasks in one tool, giving your salespeople the context they need to follow up faster.\n\n- **Your one-stop sales inbox**\n\nSpeed up response time and never miss an opportunity again with two-way email sync. Connect up to five email accounts and keep prospects hooked with customizable templates.\n\n- **Calendar sync and task reminders**\n\n\nManage your schedule from the comfort of your CRM. Calendar sync lets you link your business calendar to Pipedrive and reminds you of upcoming deadlines, helping you stay focused.\n\n- **Easy call scheduling**\n\nShare your availability with leads and let them book calls on their schedule. Instantly generate meeting links for Google Meet, Zoom or Microsoft Teams.\n\n[Learn more](https://www.pipedrive.com/en/products/sales/email-and-communications)\n\n![](https://www-cms.pipedriveassets.com/brand-half-page-illustrations/Automations-450.svg)\n\nStreamline your sales process and use AI – get more done with less work.\n\n- **Automate your entire sales cycle**\n\nCut admin time in half and let reps focus on closing deals. Easily set up workflow automations for your team or choose from ready-made templates.\n\n- **Automate lead routing and increase conversion**\n\n\n[Automatically assign](https://pipedrive.com/en/blog/automatic-assignment) leads while they’re hot with custom rules. As they move through your sales funnel, Pipedrive will hand them off from one sales rep to the next so you can keep the ball rolling.\n\n- **Boost productivity with automated follow-ups**\n\nKeep leads and prospects engaged with sales automation. Set up auto-sequences that trigger based on email interactions or use AI prompts to quickly respond to leads.\n\n[Learn more](https://www.pipedrive.com/en/products/sales/automations)\n\n![](https://www-cms.pipedriveassets.com/brand-half-page-illustrations/Sales-assistant_2024-02-16-104401_vcwh.svg)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:05.061612Z",
+      "section_path": "The easy and effective CRM for closing deals > Optimize your sales process > **Automate and scale**",
+      "chunk_index": 11,
+      "token_count": 470,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_9fbf7809a694",
+      "source_type": "official_docs",
+      "url": "https://pipedrive.com",
+      "domain": "pipedrive.com",
+      "page_title": "Sales CRM & Pipeline Management Software | Pipedrive",
+      "content": "Take advantage of Pipedrive’s precise, real-time data analytics to track sales metrics and fine-tune your strategy.\n\n- **Monitor sales performance**\n\nSet goals and measure progress with visual reports and dashboards. Quickly identify bottlenecks to keep your pipeline running smoothly.\n\n- **Forecast and track revenue**\n\n\nConfidently predict earnings based on past performance, from recurring revenue to one-off deals. Gain a comprehensive view of predicted income, allowing for quick, tactical adjustments.\n\n- **Get smarter, actionable insights**\n\nPipedrive’s AI Sales Assistant predicts which deals you’re most likely to win, or lose. Get suggestions on which leads to pursue, along with daily snapshots of your sales team’s performance.\n\n[Learn more](https://www.pipedrive.com/en/features/insights-and-reports)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/brand-half-page-illustrations/Mobile-app-501.png)\n\nPipedrive’s simple, secure and flexible ecosystem helps you stay on track for sales success. Enrich your CRM tool with integrations, manage your pipeline on the go and onboard teammates without the learning curve.\n\n- **Discover 500+ integrations**\n\nOptimize your revenue cycle with 500+ apps for lead generation, video calls, project management, marketing and more. Connect your favorite software in minutes and get tailored add-on suggestions with Pipedrive Marketplace.\n\n- **World-class security and robust account controls**\n\n\nKeep your data safe with AES-256 encryption, full SOC 2 compliance and leading hosting infrastructure in Rackspace and AWS. Tailor your account permissions and security settings and receive instant alerts for peace of mind.\n\n- **Sell on the go**\n\nWith Pipedrive’s mobile apps for Android and iOS, sales efficiency is always at your fingertips, wherever you are. Access your data on the move, finalize meeting prep and impress leads with instant follow-ups.\n\n[Learn more](https://www.pipedrive.com/en/crm/features/mobile-crm)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/awards/badge_capterra-2024.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/awards/badge_software-advice-2022.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/awards/badge_sammy-2024.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/awards/g2_2-2025.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Company-logos/capterra-software-advice.png)\n\n![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/awards/badge_sourceforce-2024.png)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:05.061686Z",
+      "section_path": "The easy and effective CRM for closing deals > Optimize your sales process > **Enhance your CRM experience**",
+      "chunk_index": 12,
+      "token_count": 729,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_de3f4d62560a",
+      "source_type": "official_docs",
+      "url": "https://pipedrive.com",
+      "domain": "pipedrive.com",
+      "page_title": "Sales CRM & Pipeline Management Software | Pipedrive",
+      "content": "![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/CRM-Evaluations.png)\n\nIn this CRM evaluation guide, you’ll learn what to look for when selecting a CRM system and how to extract the most useful information from vendors.\n\nOpens in new window\n\n[![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/Response-worthy-follow-up-emails.png)\\\\\n\\\\\n**How to write a response worthy follow-up email (with 15 templates)** \\\\\n\\\\\nWe’ve compiled 15 of the best follow-up email samples you can use to cover almost any sales situation.\\\\\n\\\\\nOpens in new window](https://pipedrive.com/en/blog/sales-follow-up-email-templates)\n\n[![](https://www-cms.pipedriveassets.com/cdn-cgi/image/quality=70,format=auto/https://www-cms.pipedriveassets.com/14-Sales-Presentations_-Templates-Examples-Ideas-on-How-to-Present-Like-a-Pro-_-Pipedrive.png)\\\\\n\\\\\n**Sales presentations: templates, examples and ideas on how to present like a pro** \\\\\n\\\\\nIn this guide, you’ll learn how to use the power of storytelling to drive decision-making and close more deals.\\\\\n\\\\\nOpens in new window](https://pipedrive.com/en/blog/sales-presentation)",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:05.061723Z",
+      "section_path": "The easy and effective CRM for closing deals > Popular blog posts > CRM evaluations: How to choose the perfect system",
+      "chunk_index": 13,
+      "token_count": 306,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_e561c1cb986f",
+      "source_type": "official_docs",
+      "url": "https://pipedrive.com",
+      "domain": "pipedrive.com",
+      "page_title": "Sales CRM & Pipeline Management Software | Pipedrive",
+      "content": "- ### What is Pipedrive?\n\nPipedrive is a sales pipeline CRM designed to help small businesses manage leads, track sales activities and close more deals.\n\n- ### How does Pipedrive work?\n\nIn a nutshell, Pipedrive enables sales teams in small businesses to:\n\n- Streamline processes and consolidate sales data in one unified CRM sales tool.\n\n- Automate follow-ups and ensure timely responses to leads.\n\n- Keep an eye on sales achievements and assess team performance for ongoing improvement.\n\n- ### How to set up Pipedrive?\n\nSetting up Pipedrive is straightforward. To get up and running with our CRM [pipeline management](https://www.pipedrive.com/en/features/pipeline-management) tool, here’s a brief guide:\n\n- Begin by importing existing data or building your leads database within Pipedrive’s sales CRM software. Explore our Marketplace integrations to infuse your pipeline with even more quality leads.\n\n- Define your sales pipeline, create active deals, synchronize your business email and calendar and start scheduling your next activities.\n\n- If collaboration is key, set up team access. Pipedrive offers granular permissions, allowing you to fine-tune who can view or modify your CRM data.\n\n- As you progress, keep a close eye on your sales outcomes by creating real-time reports and dashboards. This will help you adapt and refine your strategies for even greater success.\n\n- ### How will Pipedrive’s CRM solution help me improve sales?\n\nPipedrive’s CRM sales pipeline makes customer relationship management a breeze by allowing you to track leads, spot opportunities, measure key activities, streamline sales workflows and focus on sales success.\n\nAutomated reminders and follow-ups increase your productivity, eliminating repetitive, time-consuming tasks. Real-time reports show your sales reps and sales managers which business processes to prioritize.\n\n- ### Will Pipedrive work for a big team?\n\nYes! Pipedrive’s sales CRM software is well-suited for startups and larger teams alike.\n\nOur pipeline CRM helps large sales and marketing teams streamline their customer interactions. Sales managers and their teams can benefit from a progress tracker, sales automation, procession forecasting, an activity-based planner and top security.\n\nIn addition, large teams have access to a dedicated account manager to help them make the most of Pipedrive. Your account manager can also help you onboard other team members to your sales CRM system and guide you on [pipeline management](https://www.pipedrive.com/en/features/pipeline-management) best practices.\n\n- ### What does CRM stand for in sales?\n\n“CRM“ in sales stands for “Customer relationship management.” Although the “C” in “CRM” stands for “customer,” the best CRM tools can help teams enhance every stage in the sales cycle.\n\n- ### What is a CRM in sales?\n\nA CRM, or sales CRM tool, is a system sales teams use to manage customer data and nurture customer relationships. Several popular CRM and sales tools exist on the market, including Pipedrive.\n\n- ### How does CRM help sales?",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:05.061802Z",
+      "section_path": "The easy and effective CRM for closing deals > CRM FAQs",
+      "chunk_index": 14,
+      "token_count": 760,
+      "quality_score": 0.36
+    },
+    {
+      "id": "ev_7ee6d379a9a6",
+      "source_type": "official_docs",
+      "url": "https://pipedrive.com",
+      "domain": "pipedrive.com",
+      "page_title": "Sales CRM & Pipeline Management Software | Pipedrive",
+      "content": "Try it free\n\nFull access. No credit card needed.",
+      "is_official": true,
+      "retrieved_at": "2026-07-13T19:56:05.061869Z",
+      "section_path": "The easy and effective CRM for closing deals > Driving business growth",
+      "chunk_index": 16,
+      "token_count": 12,
+      "quality_score": 0.36
+    }
+  ],
+  "extraction": {
+    "description": {
+      "value": "Pipedrive is an easy and effective CRM for closing deals.",
+      "evidence_ids": [
+        "ev_43ce2a2db656"
+      ]
+    },
+    "category": {
+      "value": "CRM and Sales",
+      "evidence_ids": []
+    },
+    "auth_methods": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_941d3b02fa62"
+      ]
+    },
+    "self_serve": {
+      "value": "Self-serve (free tier available)",
+      "evidence_ids": [
+        "ev_43ce2a2db656"
+      ]
+    },
+    "api_surface": {
+      "value": "REST API, webhooks",
+      "evidence_ids": [
+        "ev_652106a08130",
+        "ev_6dba3043cd8b"
+      ]
+    },
+    "api_breadth": {
+      "value": "Broad",
+      "evidence_ids": [
+        "ev_652106a08130"
+      ]
+    },
+    "mcp": {
+      "value": "UNKNOWN",
+      "evidence_ids": [
+        "ev_652106a08130"
+      ]
+    },
+    "buildability": {
+      "value": "HIGH",
+      "evidence_ids": [
+        "ev_652106a08130"
+      ]
+    },
+    "blocker": {
+      "value": "None",
+      "evidence_ids": [
+        "ev_652106a08130"
+      ]
+    }
+  },
+  "validation": {
+    "status": "UNSUPPORTED",
+    "score": 0.62,
+    "fields_checked": 8,
+    "fields_supported": 5,
+    "issues": [
+      {
+        "field": "category",
+        "check": "citation_exists",
+        "severity": "WARNING",
+        "message": "Field 'category' has no evidence citations"
+      },
+      {
+        "field": "auth_methods",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'auth_methods' is UNKNOWN — needs more evidence"
+      },
+      {
+        "field": "mcp",
+        "check": "not_unknown",
+        "severity": "WARNING",
+        "message": "Field 'mcp' is UNKNOWN — needs more evidence"
+      }
+    ]
+  },
+  "browser_verification": {
+    "verified_fields": [],
+    "corrections": {},
+    "screenshots": [],
+    "notes": ""
+  },
+  "pipeline_confidence": 0.62,
+  "human_verified": false,
+  "final_status": "PENDING_REVIEW",
+  "human_review": {
+    "required": true,
+    "reason": [
+      "Validation score 0.62 below 0.90 threshold",
+      "Auth methods missing or UNKNOWN"
+    ],
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "overrides": {},
+    "notes": ""
+  }
+}
