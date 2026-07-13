@@ -366,7 +366,21 @@ npm i -g vercel
 vercel --cwd . --yes
 ```
 
-> **Note:** The Human QA review server (`review_server.py`) is a local tool only — it runs locally and writes to `final.json` files. It is NOT deployed to Vercel.
+> **Note — Human Review Server is local only**
+>
+> `review_server.py` is a **local development tool**. It writes human overrides back to `final.json` files on disk, which requires a persistent filesystem — something serverless platforms like Vercel don't provide.
+>
+> To run it locally:
+> ```bash
+> cd backend
+> python review_server.py
+> # Opens at http://localhost:8000
+> # /review        → QA dashboard (all flagged apps)
+> # /review/{slug} → per-app field-by-field review with evidence
+> ```
+>
+> The review system is fully demonstrated by the **3 already-reviewed apps** in the repo — their `final.json` files contain a complete `human_review` block with reviewer name, timestamp, overrides (old → new + reason), and `final_status: HUMAN_MODIFIED`. Every per-app detail page also has a **"Review in QA →"** button in the nav bar for one-click access when running locally.
+
 
 ---
 
