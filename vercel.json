@@ -1,6 +1,10 @@
 {
+  "buildCommand": null,
+  "outputDirectory": "backend/output",
+  "framework": null,
   "rewrites": [
-    { "source": "/apps/:slug", "destination": "/backend/output/apps/:slug/index.html" }
+    { "source": "/apps/:slug/", "destination": "/apps/:slug/index.html" },
+    { "source": "/apps/:slug", "destination": "/apps/:slug/index.html" }
   ],
   "headers": [
     {
