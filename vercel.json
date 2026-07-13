@@ -2,17 +2,8 @@
   "buildCommand": null,
   "outputDirectory": "backend/output",
   "framework": null,
-  "redirects": [
-    { "source": "/", "destination": "/case_study.html", "permanent": false }
-  ],
   "rewrites": [
     { "source": "/apps/:slug/", "destination": "/apps/:slug/index.html" },
     { "source": "/apps/:slug", "destination": "/apps/:slug/index.html" }
-  ],
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600" }]
-    }
   ]
 }

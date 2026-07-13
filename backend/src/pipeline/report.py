@@ -172,6 +172,9 @@ def generate_report(
     )
 
     output_path.write_text(html, encoding="utf-8")
+    # Also write as index.html so Vercel serves it at the root URL
+    index_path = output_path.parent / "index.html"
+    index_path.write_text(html, encoding="utf-8")
     console.print(f"[green]Report generated at {output_path}[/green]")
 
     # Generate individual app detail pages
