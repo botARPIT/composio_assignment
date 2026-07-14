@@ -1,0 +1,10 @@
+{
+  "buildCommand": null,
+  "outputDirectory": "output",
+  "framework": null,
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/apps/:slug/", "destination": "/apps/:slug/index.html" },
+    { "source": "/apps/:slug", "destination": "/apps/:slug/index.html" }
+  ]
+}
