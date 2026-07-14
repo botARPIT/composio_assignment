@@ -23,26 +23,86 @@
       "alternatives": []
     },
     "api_reference": {
-      "primary": "https://www.withpaygent.com/documentation/api-reference-orders",
+      "primary": {
+        "url": "https://www.withpaygent.com/documentation/api-reference-orders",
+        "title": "",
+        "confidence": 0.5,
+        "confidence_reason": [
+          "migrated from legacy format"
+        ],
+        "is_official": false,
+        "discovered_from": "tavily_search"
+      },
       "alternatives": [
-        "https://www.withpaygent.com/documentation/api-reference-agents",
-        "https://www.withpaygent.com/documentation/api-reference-prepaid-wallets"
+        {
+          "url": "https://www.withpaygent.com/documentation/api-reference-agents",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "migrated from legacy format"
+          ],
+          "is_official": false,
+          "discovered_from": "tavily_search"
+        },
+        {
+          "url": "https://www.withpaygent.com/documentation/api-reference-prepaid-wallets",
+          "title": "",
+          "confidence": 0.4,
+          "confidence_reason": [
+            "migrated from legacy format"
+          ],
+          "is_official": false,
+          "discovered_from": "tavily_search"
+        }
       ]
     },
     "pricing": {
-      "primary": "https://www.withpaygent.com/pricing",
+      "primary": {
+        "url": "https://www.withpaygent.com/pricing",
+        "title": "",
+        "confidence": 0.5,
+        "confidence_reason": [
+          "migrated from legacy format"
+        ],
+        "is_official": false,
+        "discovered_from": "tavily_search"
+      },
       "alternatives": []
     },
-    "sdk": "https://www.withpaygent.com/documentation/python-installation",
+    "sdk": {
+      "primary": {
+        "url": "https://www.withpaygent.com/documentation/python-installation",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "migrated from legacy string format"
+        ],
+        "is_official": false,
+        "discovered_from": "tavily_search"
+      },
+      "alternatives": []
+    },
     "mcp": {
       "primary": null,
       "alternatives": []
     },
     "developer_portal": {
-      "primary": "https://www.withpaygent.com/documentation/",
+      "primary": {
+        "url": "https://www.withpaygent.com/documentation/",
+        "title": "",
+        "confidence": 0.4,
+        "confidence_reason": [
+          "migrated from legacy string format"
+        ],
+        "is_official": false,
+        "discovered_from": "tavily_search"
+      },
       "alternatives": []
     },
-    "webhooks": null,
+    "webhooks": {
+      "primary": null,
+      "alternatives": []
+    },
     "llms_txt": null,
     "inventory": {
       "app_name": "Paygent Connect",
